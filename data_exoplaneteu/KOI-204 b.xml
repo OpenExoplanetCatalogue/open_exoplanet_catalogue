@@ -4,24 +4,24 @@
 	<id>KOI-204 b</id>
 	<discoverymethod>transit</discoverymethod>
 	<properties>
-		<mass>1</mass>
-		<radius>1.2</radius>
+		<mass>1.02</mass>
+		<radius>1.24</radius>
 		<orbit>
-			<period>3.246737</period>
-			<semimajoraxis>0.043</semimajoraxis>
-			<eccentricity />
-			<inclination />
+			<period>3.24674</period>
+			<semimajoraxis>0.0455</semimajoraxis>
+			<eccentricity>0.021</eccentricity>
+			<inclination>83.78</inclination>
 		</orbit>
 	</properties>
 	<star>
-		<spectraltype />
-		<mass />
-		<radius>0.953</radius>
-		<metallicity>-0.1</metallicity>
+		<spectraltype>G2IV</spectraltype>
+		<mass>1.19</mass>
+		<radius>1.52</radius>
+		<metallicity>0.26</metallicity>
 		<rightascension>20 00 25</rightascension>
 		<declination>+45 45 44</declination>
-		<angulardistance />
-		<distance />
+		<angulardistance>2e-05</angulardistance>
+		<distance>2250</distance>
 		<magV>15</magV>
 		<magI />
 		<magH />
@@ -30,5 +30,5 @@
 	</star>
 	<multiplicity>1</multiplicity>
 	<discoveryyear>2011</discoveryyear>
-	<lastupdate>11/10/08</lastupdate>
+	<lastupdate>11/10/26</lastupdate>
 </planet>
