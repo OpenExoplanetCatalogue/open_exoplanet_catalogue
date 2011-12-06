@@ -2,25 +2,26 @@
 	<id_exoplaneteu>Kepler-22 b</id_exoplaneteu>
 	<name>Kepler-22 b</name>
 	<id>Kepler-22 b</id>
+	<name>2MASS J19165219+4753040 b</name>
 	<discoverymethod>transit</discoverymethod>
 	<properties>
-		<mass />
+		<mass>0.11</mass>
 		<radius>0.24</radius>
 		<orbit>
 			<period>290</period>
-			<semimajoraxis />
+			<semimajoraxis>0.85</semimajoraxis>
 			<eccentricity />
 			<inclination />
 		</orbit>
 	</properties>
 	<star>
-		<spectraltype>G</spectraltype>
+		<spectraltype>G5</spectraltype>
 		<mass />
 		<radius />
 		<metallicity />
 		<rightascension />
 		<declination />
-		<angulardistance />
+		<angulardistance>0.004722</angulardistance>
 		<distance>180</distance>
 		<magV />
 		<magI />
@@ -30,5 +31,5 @@
 	</star>
 	<multiplicity>1</multiplicity>
 	<discoveryyear>2011</discoveryyear>
-	<lastupdate>11/12/05</lastupdate>
+	<lastupdate>11/12/06</lastupdate>
 </planet>
