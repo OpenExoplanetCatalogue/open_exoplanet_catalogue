@@ -11,7 +11,7 @@
 			<eccentricity>0.20</eccentricity>
 			<inclination>97</inclination>
 			<periastron>77.45</periastron>
-			<longitude>252</periastron>
+			<longitude>252</longitude>
 		</orbit>
 	</properties>
 	<star>
@@ -20,8 +20,12 @@
 		<mass>1</mass>
 		<radius>1</radius>
 		<metallicity>0.00000001</metallicity>
+		<HZinner>0.95</HZinner>
+		<HZouter>1.37</HZouter>
+		<HZinner2>0.92</HZinner2>
+		<HZouter2>0.95</HZouter2>
 	</star>
-	<multiplicity>8</multiplicity>
+	<multiplicity>9</multiplicity>
 	<lastupdate>12/08/31</lastupdate>
 	<description>Mercury is the innermost planet in the Solar System.</description>
 	<list>Solar System</list>

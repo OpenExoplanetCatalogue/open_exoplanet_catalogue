@@ -11,7 +11,7 @@
 			<eccentricity>0.2488</eccentricity>
 			<inclination>107.1</inclination>
 			<periastron>224.06</periastron>
-			<longitude>239.92</periastron>
+			<longitude>239.92</longitude>
 		</orbit>
 	</properties>
 	<star>
@@ -20,10 +20,14 @@
 		<mass>1</mass>
 		<radius>1</radius>
 		<metallicity>0.00000001</metallicity>
+		<HZinner>0.95</HZinner>
+		<HZouter>1.37</HZouter>
+		<HZinner2>0.92</HZinner2>
+		<HZouter2>0.95</HZouter2>
 	</star>
-	<multiplicity>8</multiplicity>
+	<multiplicity>9</multiplicity>
 	<discoveryyear>1930</discoveryyear>
 	<lastupdate>12/08/31</lastupdate>
-	<description>Pluto is officially categorized as a minor planet by the International Astronomical Union.<description>
+	<description>Pluto is officially categorized as a minor planet by the International Astronomical Union.</description>
 	<list>Solar System</list>
 </planet>

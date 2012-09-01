@@ -11,7 +11,7 @@
 			<eccentricity>0.048</eccentricity>
 			<inclination>91.31</inclination>
 			<periastron>14.728</periastron>
-			<longitude>34.39</periastron>
+			<longitude>34.39</longitude>
 		</orbit>
 	</properties>
 	<star>
@@ -20,9 +20,13 @@
 		<mass>1</mass>
 		<radius>1</radius>
 		<metallicity>0.00000001</metallicity>
+		<HZinner>0.95</HZinner>
+		<HZouter>1.37</HZouter>
+		<HZinner2>0.92</HZinner2>
+		<HZouter2>0.95</HZouter2>
 	</star>
-	<multiplicity>8</multiplicity>
+	<multiplicity>9</multiplicity>
 	<lastupdate>12/08/31</lastupdate>
-	<description>Jupiter is two and a half times the mass of all the other planets in the Solar System.<description>
+	<description>Jupiter is two and a half times the mass of all the other planets in the Solar System.</description>
 	<list>Solar System</list>
 </planet>
