@@ -1,0 +1,32 @@
+<planet>
+	<id>Earth</id>
+	<name>Earth</name>
+	<name>Sun d</name>
+	<properties>
+		<mass>0.0031457007</mass>
+		<radius>0.091130294</radius>
+		<orbit>
+			<period>365.2422</period>
+			<semimajoraxis>1</semimajoraxis>
+			<eccentricity>0.016</eccentricity>
+			<inclination>90</inclination>
+			<periastron>102.9</periastron>
+			<longitude>100</longitude>
+		</orbit>
+	</properties>
+	<star>
+		<stellarname>Sun</stellarname>
+		<spectraltype>G2V</spectraltype>
+		<mass>1</mass>
+		<radius>1</radius>
+		<metallicity>0.00000001</metallicity>
+		<HZinner>0.95</HZinner>
+		<HZouter>1.37</HZouter>
+		<HZinner2>0.92</HZinner2>
+		<HZouter2>1.5</HZouter2>
+	</star>
+	<multiplicity>9</multiplicity>
+	<lastupdate>12/08/31</lastupdate>
+	<description>Earth is the only known planet able to sustain life.</description>
+	<list>Solar System</list>
+</planet>
