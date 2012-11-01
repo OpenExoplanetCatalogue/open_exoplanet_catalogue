@@ -4,55 +4,53 @@
 	<rightascension>19 45 45</rightascension>
 	<declination>+44 38 30</declination>
 	<distance />
-	<star>
-		<name>Kepler-34 A</name>
-		<mass>1.0479</mass>
-		<radius>1.1618</radius>
-		<period>27.7958</period>
-		<semimajoraxis>0.112911</semimajoraxis>
-		<eccentricity>0.52087</eccentricity>
-		<inclination>89.8584</inclination>
-		<temperature />
-		<magV />
-		<metallicity />
-		<spectraltype />
-		<id>Kepler-34(AB)</id>
-	</star>
-	<star>
-		<name>Kepler-34 B</name>
-		<mass>1.0208</mass>
-		<radius>1.0927</radius>
+	<binary>
 		<period>27.7958</period>
 		<semimajoraxis>0.11590877</semimajoraxis>
 		<eccentricity>0.52087</eccentricity>
 		<longitude>180</longitude>
 		<inclination>89.8584</inclination>
-		<temperature />
-		<magV />
-		<metallicity />
-		<spectraltype />
-		<id>Kepler-34(AB)</id>
-	</star>
-	<planet>
-		<id>Kepler-34(AB) b</id>
-		<name>Kepler-34(AB) b</name>
-		<name>KIC 8572936 b</name>
-		<name>Kepler-34 b</name>
-		<list>Confirmed planets</list>
-		<mass>0.22</mass>
-		<radius>0.764</radius>
-		<period>288.822</period>
-		<semimajoraxis>1.0896</semimajoraxis>
-		<eccentricity>0.182</eccentricity>
-		<inclination>90.355</inclination>
-		<periastron />
-		<longitude />
-		<description>Kepler-34(AB) b is a Saturn-sized planet orbiting two Sun-like stars which are in a binary (therefore the name with AB). The Kepler team estimates that approximately 1% of all close binary stars have planets. This yields a galactic population of at least several million.</description>
-		<discoverymethod>transit</discoverymethod>
-		<lastupdate>12/01/11</lastupdate>
-		<discoveryyear>2012</discoveryyear>
-		<new>0</new>
-		<image />
-		<imagedescription />
-	</planet>
+		<star>
+			<name>Kepler-34 A</name>
+			<mass>1.0479</mass>
+			<radius>1.1618</radius>
+			<temperature />
+			<magV />
+			<metallicity />
+			<spectraltype />
+			<id>Kepler-34(AB)</id>
+		</star>
+		<star>
+			<name>Kepler-34 B</name>
+			<mass>1.0208</mass>
+			<radius>1.0927</radius>
+			<temperature />
+			<magV />
+			<metallicity />
+			<spectraltype />
+			<id>Kepler-34(AB)</id>
+		</star>
+		<planet>
+			<id>Kepler-34(AB) b</id>
+			<name>Kepler-34(AB) b</name>
+			<name>KIC 8572936 b</name>
+			<name>Kepler-34 b</name>
+			<list>Confirmed planets</list>
+			<mass>0.22</mass>
+			<radius>0.764</radius>
+			<period>288.822</period>
+			<semimajoraxis>1.0896</semimajoraxis>
+			<eccentricity>0.182</eccentricity>
+			<inclination>90.355</inclination>
+			<periastron />
+			<longitude />
+			<description>Kepler-34(AB) b is a Saturn-sized planet orbiting two Sun-like stars which are in a binary (therefore the name with AB). The Kepler team estimates that approximately 1% of all close binary stars have planets. This yields a galactic population of at least several million.</description>
+			<discoverymethod>transit</discoverymethod>
+			<lastupdate>12/01/11</lastupdate>
+			<discoveryyear>2012</discoveryyear>
+			<new>0</new>
+			<image />
+			<imagedescription />
+		</planet>
+	</binary>
 </system>
