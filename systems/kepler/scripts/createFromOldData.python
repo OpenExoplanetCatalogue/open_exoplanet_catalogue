@@ -27,13 +27,50 @@ for filename in glob.glob("../*.xml"):
 ## create new data
 for filename in glob.glob("../../../data_kepler/*.xml"):
 	koi = filename[25:29]
-	koi2 = filename[31:33]
-	print "Working on: "+ koi + koi2
+	koi2 = filename[30:32]
+	print "Working on KOI "+ koi 
 	if koi2=="01":
+		root = ElementTree.Element("system")
+		tree = ElementTree.ElementTree(root)
+	
+		ElementTree.SubElement(root,"id").text		= "KOI-"+koi
+		ElementTree.SubElement(root,"name").text	= "KOI-"+koi
+		
+		oldfile = open(filename, 'rt')
+		oldroot = ElementTree.parse(oldfile).getroot()
+		oldtree = ElementTree.ElementTree(oldroot) 
+
+		
+		ElementTree.SubElement(root,"rightascension").text		= oldtree.findtext(".//rightascension")
+		ElementTree.SubElement(root,"declination").text			= oldtree.findtext(".//declination")
+		ElementTree.SubElement(root,"distance").text			= oldtree.findtext(".//distance")
+
+		oldstar = oldroot.findall(".//star")[0]
+		star = ElementTree.SubElement(root,"star")
+		ElementTree.SubElement(star,"magV").text			= oldstar.findtext(".//magV")
+		ElementTree.SubElement(star,"tmperature").text			= oldstar.findtext(".//temperature")
+		ElementTree.SubElement(star,"radius").text			= oldstar.findtext(".//radius")
+		
 		for filename2 in glob.glob("../../../data_kepler/KOI-"+koi+".??.xml"):
-			print filename2 
+			print "      " +filename2 
+			oldfile = open(filename2, 'rt')
+			oldroot = ElementTree.parse(oldfile).getroot()
+			oldtree = ElementTree.ElementTree(oldroot) 
+			oldplanet = oldtree.findall(".//properties")[0]
+
+			planet = ElementTree.SubElement(star,"planet")
+
+
+			ElementTree.SubElement(planet,"mass").text = oldplanet.findtext(".//mass")
+			ElementTree.SubElement(planet,"radius").text = oldplanet.findtext(".//radius")
+			ElementTree.SubElement(planet,"period").text = oldplanet.findtext(".//period")
+			ElementTree.SubElement(planet,"semimajoraxis").text = oldplanet.findtext(".//semimajoraxis")
+			ElementTree.SubElement(planet,"list").text = "Kepler Objects of Interest"
+			ElementTree.SubElement(planet,"description").text = "This is a Kepler Object of Interest. It has been flagged as a possible transit event but might have not been confirmed to be a planet yet."
 
 	
+		indent(root)
+		tree.write("../KOI-"+koi+".xml")
 	
 
 #	oldfile = open(filename, 'rt')
