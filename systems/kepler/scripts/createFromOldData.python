@@ -1,0 +1,148 @@
+#!/usr/bin/python
+from xml.etree import ElementTree
+import os, glob, string, csv, datetime, random
+import gzip
+
+# Human readable XML output
+def indent(elem, level=0):
+    i = "\n" + level*"\t"
+    if len(elem):
+        if not elem.text or not elem.text.strip():
+            elem.text = i + "\t"
+        if not elem.tail or not elem.tail.strip():
+            elem.tail = i
+        for elem in elem:
+            indent(elem, level+1)
+        if not elem.tail or not elem.tail.strip():
+            elem.tail = i
+    else:
+        if level and (not elem.tail or not elem.tail.strip()):
+            elem.tail = i
+
+## delete all previous planet files
+for filename in glob.glob("../*.xml"):
+	print "deleting "+filename
+	os.remove(filename)
+
+## create new data
+for filename in glob.glob("../../../data_kepler/*.xml"):
+	koi = filename[25:29]
+	koi2 = filename[31:33]
+	print "Working on: "+ koi + koi2
+	if koi2=="01":
+		for filename2 in glob.glob("../../../data_kepler/KOI-"+koi+".??.xml"):
+			print filename2 
+
+	
+	
+
+#	oldfile = open(filename, 'rt')
+#	oldroot = ElementTree.parse(oldfile).getroot()
+#	oldtree = ElementTree.ElementTree(oldroot) 
+#
+#	planets = newtree.findall(".//planet")
+#	star0 = newtree.findall(".//star")[0]
+#	for planet in planets:
+#		root = ElementTree.Element("planet")
+#		tree = ElementTree.ElementTree(root)
+#		oldfilename = planet.findtext(".//id")
+#		names = planet.findall(".//name")
+#		ElementTree.SubElement(root,"id_exoplaneteu").text		= oldfilename 
+#		for name in names:
+#			print name.text
+#			ElementTree.SubElement(root,"name").text = name.text
+#		ElementTree.SubElement(root,"id").text		= oldfilename 
+#		ElementTree.SubElement(root,"discoverymethod").text		= planet.findtext(".//discoverymethod") 
+#		properties = ElementTree.SubElement(root,"properties") 
+#		ElementTree.SubElement(properties,"mass").text		= planet.findtext(".//mass") 
+#		ElementTree.SubElement(properties,"radius").text	= planet.findtext(".//radius") 
+#		orbit = ElementTree.SubElement(properties,"orbit") 
+#		ElementTree.SubElement(orbit,"period").text	= planet.findtext(".//period") 
+#		ElementTree.SubElement(orbit,"semimajoraxis").text	= planet.findtext(".//semimajoraxis") 
+#		ElementTree.SubElement(orbit,"eccentricity").text	= planet.findtext(".//eccentricity") 
+#		ElementTree.SubElement(orbit,"inclination").text	= planet.findtext(".//inclination") 
+#		star = ElementTree.SubElement(root,"star") 
+#		ElementTree.SubElement(star,"spectraltype").text	= star0.findtext(".//spectraltype") 
+#		ElementTree.SubElement(star,"mass").text	= star0.findtext(".//mass") 
+#		ElementTree.SubElement(star,"radius").text	= star0.findtext(".//radius") 
+#		ElementTree.SubElement(star,"metallicity").text	= star0.findtext(".//metallicity") 
+#		ElementTree.SubElement(star,"temperature").text	= newtree.findtext(".//temperature") 
+#		ElementTree.SubElement(star,"rightascension").text	= newtree.findtext(".//rightascension") 
+#		ElementTree.SubElement(star,"declination").text	= newtree.findtext(".//declination") 
+#		ElementTree.SubElement(star,"angulardistance") 
+#		ElementTree.SubElement(star,"distance").text	= newtree.findtext(".//distance") 
+#		ElementTree.SubElement(star,"magV").text	= newtree.findtext(".//magV") 
+#		ElementTree.SubElement(star,"magI") 
+#		ElementTree.SubElement(star,"magH") 
+#		ElementTree.SubElement(star,"magJ") 
+#		ElementTree.SubElement(star,"magK") 
+#		
+#		ElementTree.SubElement(root,"multiplicity").text	= "%d"%len(planets) 
+#		ElementTree.SubElement(root,"discoveryyear").text	= planet.findtext(".//discoveryyear") 
+#		ElementTree.SubElement(root,"lastupdate").text	= planet.findtext(".//lastupdate") 
+#		ElementTree.SubElement(root,"description").text	= planet.findtext(".//description") 
+#		ElementTree.SubElement(root,"new").text	= planet.findtext(".//new") 
+#		ElementTree.SubElement(root,"image").text	= planet.findtext("image") 
+#		ElementTree.SubElement(root,"imagedescription").text	= planet.findtext(".//imagedescription") 
+#		lists = planet.findall(".//list")
+#		for l in lists:
+#			print l.text
+#			ElementTree.SubElement(root,"list").text = l.text
+#
+#
+#
+#
+#		indent(root)
+#		tree.write("../../data/"+oldfilename+".xml")
+#		print "saving: "+"../../data/"+oldfilename+".xml"
+#
+#
+#
+#		ElementTree.SubElement(root,"id").text		= systemname 
+#		ElementTree.SubElement(root,"name").text	= systemname 
+#		
+#		ElementTree.SubElement(root,"rightascension").text = oldtree.findtext(".//rightascension")
+#		ElementTree.SubElement(root,"declination").text = oldtree.findtext(".//declination")
+#		ElementTree.SubElement(root,"distance").text = oldtree.findtext(".//distance")
+#
+#		star = ElementTree.SubElement(root,"star")
+#		ElementTree.SubElement(star,"name").text 		= oldtree.findtext(".//star/istellarname")
+#		ElementTree.SubElement(star,"mass").text 		= oldtree.findtext(".//star/mass")
+#		ElementTree.SubElement(star,"radius").text 		= oldtree.findtext(".//star/radius")
+#		ElementTree.SubElement(star,"temperature").text		= oldtree.findtext(".//star/temperature")
+#		ElementTree.SubElement(star,"magV").text 		= oldtree.findtext(".//star/magV")
+#		ElementTree.SubElement(star,"metallicity").text 	= oldtree.findtext(".//star/metallicity")
+#		ElementTree.SubElement(star,"spectraltype").text	= oldtree.findtext(".//star/spectraltype")
+#
+#
+#				
+#				ElementTree.SubElement(planet,"id").text 		= oldtree2.findtext(".//id")
+#				names = oldtree2.findall(".//name")
+#				for name in names:
+#					ElementTree.SubElement(planet,"name").text = name.text
+#				planetname2 = os.path.basename(os.path.splitext(filename2)[0])	
+#				ElementTree.SubElement(planet,"name").text = planetname2
+#				llists = oldtree2.findall(".//list")
+#				for llist in llists:
+#					ElementTree.SubElement(planet,"list").text = llist.text
+#				ElementTree.SubElement(planet,"mass").text 		= oldtree2.findtext(".//properties/mass")
+#				ElementTree.SubElement(planet,"radius").text 		= oldtree2.findtext(".//properties/radius")
+#				ElementTree.SubElement(planet,"period").text 		= oldtree2.findtext(".//properties/orbit/period")
+#				ElementTree.SubElement(planet,"semimajoraxis").text 	= oldtree2.findtext(".//properties/orbit/semimajoraxis")
+#				ElementTree.SubElement(planet,"eccentricity").text 	= oldtree2.findtext(".//properties/orbit/eccentricity")
+#				ElementTree.SubElement(planet,"inclination").text 	= oldtree2.findtext(".//properties/orbit/inclination")
+#				ElementTree.SubElement(planet,"periastron").text 	= oldtree2.findtext(".//properties/orbit/periastron")
+#				ElementTree.SubElement(planet,"longitude").text 	= oldtree2.findtext(".//properties/orbit/longitude")
+#				ElementTree.SubElement(planet,"description").text 	= oldtree2.findtext(".//description")
+#				ElementTree.SubElement(planet,"discoverymethod").text 	= oldtree2.findtext(".//discoverymethod")
+#				ElementTree.SubElement(planet,"lastupdate").text 	= oldtree2.findtext(".//lastupdate")
+#				ElementTree.SubElement(planet,"discoveryyear").text 	= oldtree2.findtext(".//discoveryyear")
+#				ElementTree.SubElement(planet,"new").text 		= oldtree2.findtext(".//new")
+#				ElementTree.SubElement(planet,"image").text 		= oldtree2.findtext(".//image")
+#				ElementTree.SubElement(planet,"imagedescription").text	= oldtree2.findtext(".//imagedescription")
+#	
+
+
+	
+
+
