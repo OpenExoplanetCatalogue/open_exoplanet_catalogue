@@ -32,6 +32,7 @@ commit (){
   git commit -a -m "$1"
 }
 
+commit "automatic update"
 
 prepare_old_database
 commit "automatic update: prepare_old_database"
