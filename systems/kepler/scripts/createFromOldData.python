@@ -50,9 +50,12 @@ for filename in glob.glob("../../../data_kepler/*.xml"):
 		ElementTree.SubElement(star,"magV").text			= oldstar.findtext(".//magV")
 		ElementTree.SubElement(star,"tmperature").text			= oldstar.findtext(".//temperature")
 		ElementTree.SubElement(star,"radius").text			= oldstar.findtext(".//radius")
-		
+	
+		idnum = 0	
 		for filename2 in glob.glob("../../../data_kepler/KOI-"+koi+".??.xml"):
-			print "      " +filename2 
+			idnum += 1
+			planetname = "KOI "+koi+ " "+str(unichr(97+idnum))
+			print "      " +filename2 + "       "  + planetname
 			oldfile = open(filename2, 'rt')
 			oldroot = ElementTree.parse(oldfile).getroot()
 			oldtree = ElementTree.ElementTree(oldroot) 
@@ -61,6 +64,8 @@ for filename in glob.glob("../../../data_kepler/*.xml"):
 			planet = ElementTree.SubElement(star,"planet")
 
 
+			ElementTree.SubElement(planet,"id").text = planetname
+			ElementTree.SubElement(planet,"name").text = planetname
 			ElementTree.SubElement(planet,"mass").text = oldplanet.findtext(".//mass")
 			ElementTree.SubElement(planet,"radius").text = oldplanet.findtext(".//radius")
 			ElementTree.SubElement(planet,"period").text = oldplanet.findtext(".//period")
