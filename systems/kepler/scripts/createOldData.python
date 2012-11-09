@@ -1,0 +1,90 @@
+#!/usr/bin/python
+from xml.etree import ElementTree
+import os, glob, string, csv, datetime, random
+import gzip
+
+# Human readable XML output
+def indent(elem, level=0):
+    i = "\n" + level*"\t"
+    if len(elem):
+        if not elem.text or not elem.text.strip():
+            elem.text = i + "\t"
+        if not elem.tail or not elem.tail.strip():
+            elem.tail = i
+        for elem in elem:
+            indent(elem, level+1)
+        if not elem.tail or not elem.tail.strip():
+            elem.tail = i
+    else:
+        if level and (not elem.tail or not elem.tail.strip()):
+            elem.tail = i
+
+## delete all previous planet files
+for filename in glob.glob("../../../data_kepler/*.xml"):
+	print "deleting "+filename
+	os.remove(filename)
+
+## recreate old data
+for filename in glob.glob("../*.xml"):
+	print "Working on: "+filename
+	newfile = open(filename, 'rt')
+	newroot = ElementTree.parse(newfile).getroot()
+	newtree = ElementTree.ElementTree(newroot) 
+
+	planets = newtree.findall(".//planet")
+	star0 = newtree.findall(".//star")[0]
+	for planet in planets:
+		root = ElementTree.Element("planet")
+		tree = ElementTree.ElementTree(root)
+		oldfilename = planet.findtext(".//id")
+		names = planet.findall(".//name")
+		ElementTree.SubElement(root,"id_exoplaneteu").text		= oldfilename 
+		for name in names:
+			print name.text
+			ElementTree.SubElement(root,"name").text = name.text
+		ElementTree.SubElement(root,"id").text		= oldfilename 
+		ElementTree.SubElement(root,"discoverymethod").text		= planet.findtext(".//discoverymethod") 
+		properties = ElementTree.SubElement(root,"properties") 
+		ElementTree.SubElement(properties,"mass").text		= planet.findtext(".//mass") 
+		ElementTree.SubElement(properties,"radius").text	= planet.findtext(".//radius") 
+		orbit = ElementTree.SubElement(properties,"orbit") 
+		ElementTree.SubElement(orbit,"period").text	= planet.findtext(".//period") 
+		ElementTree.SubElement(orbit,"semimajoraxis").text	= planet.findtext(".//semimajoraxis") 
+		ElementTree.SubElement(orbit,"eccentricity").text	= planet.findtext(".//eccentricity") 
+		ElementTree.SubElement(orbit,"inclination").text	= planet.findtext(".//inclination") 
+		star = ElementTree.SubElement(root,"star") 
+		ElementTree.SubElement(star,"spectraltype").text	= star0.findtext(".//spectraltype") 
+		ElementTree.SubElement(star,"mass").text	= star0.findtext(".//mass") 
+		ElementTree.SubElement(star,"radius").text	= star0.findtext(".//radius") 
+		ElementTree.SubElement(star,"metallicity").text	= star0.findtext(".//metallicity") 
+		ElementTree.SubElement(star,"temperature").text	= newtree.findtext(".//temperature") 
+		ElementTree.SubElement(star,"rightascension").text	= newtree.findtext(".//rightascension") 
+		ElementTree.SubElement(star,"declination").text	= newtree.findtext(".//declination") 
+		ElementTree.SubElement(star,"angulardistance") 
+		ElementTree.SubElement(star,"distance").text	= newtree.findtext(".//distance") 
+		ElementTree.SubElement(star,"magV").text	= newtree.findtext(".//magV") 
+		ElementTree.SubElement(star,"magI") 
+		ElementTree.SubElement(star,"magH") 
+		ElementTree.SubElement(star,"magJ") 
+		ElementTree.SubElement(star,"magK") 
+		
+		ElementTree.SubElement(root,"multiplicity").text	= "%d"%len(planets) 
+		ElementTree.SubElement(root,"discoveryyear").text	= planet.findtext(".//discoveryyear") 
+		ElementTree.SubElement(root,"lastupdate").text	= planet.findtext(".//lastupdate") 
+		ElementTree.SubElement(root,"description").text	= planet.findtext(".//description") 
+		ElementTree.SubElement(root,"new").text	= planet.findtext(".//new") 
+		ElementTree.SubElement(root,"image").text	= planet.findtext("image") 
+		ElementTree.SubElement(root,"imagedescription").text	= planet.findtext(".//imagedescription") 
+		lists = planet.findall(".//list")
+		for l in lists:
+			print l.text
+			ElementTree.SubElement(root,"list").text = l.text
+
+
+
+
+		indent(root)
+		tree.write("../../../data_kepler/"+oldfilename+".xml")
+		print "saving: "+"../../../data_kepler/"+oldfilename+".xml"
+
+
