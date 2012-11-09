@@ -68,7 +68,7 @@ def databasesystems(name,description,inputdirectories):
 	ElementTree.SubElement(root,"name").text		= name
 	ElementTree.SubElement(root,"description").text		= description
 	ElementTree.SubElement(root,"num").text			= str(numpl)
-	ElementTree.SubElement(root,"systems").text			= str(systems)
+	ElementTree.SubElement(root,"systems").text		= str(systems)
 	ElementTree.SubElement(root,"date").text		= str(datetime.date.today())
 	ElementTree.SubElement(root,"size").text		= str(os.path.getsize(name+".xml"))
 	ElementTree.SubElement(root,"sizecompressed").text	= str(os.path.getsize(name+".xml.gz"))
