@@ -76,8 +76,8 @@ def databasesystems(name,description,inputdirectories):
 	return root
 
 databases = []
-databases.append(databasesystems("systems",	"Confirmed, controversial and retracted exoplanets", 	[".."]))
-#databases.append(databasesystems("datakepler",	"Kepler Objects of Interest (unconfirmed)",		["data_kepler"]))
+databases.append(databasesystems("systems",		"Confirmed, controversial and retracted exoplanets", 	[".."]))
+databases.append(databasesystems("systemskepler",	"Kepler Objects of Interest (unconfirmed)",		["../kepler"]))
 
 root = ElementTree.Element("databases")
 for db in databases:
