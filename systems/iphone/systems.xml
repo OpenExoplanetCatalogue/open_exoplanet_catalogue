@@ -548,89 +548,98 @@
 	</system>
 	<system>
 		<id>55 Cnc</id>
+		<name>55 Cancri</name>
 		<name>55 Cnc</name>
 		<rightascension>08 52 37</rightascension>
 		<declination>+28 20 02</declination>
 		<distance>12.34</distance>
-		<star>
-			<mass>0.905</mass>
-			<radius>0.943</radius>
-			<magV>5.95</magV>
-			<metallicity>0.31</metallicity>
-			<spectraltype>K0IV-V</spectraltype>
-			<planet>
-				<id>55 Cnc b</id>
-				<name>55 Cnc b</name>
-				<list>Confirmed planets</list>
-				<mass>0.824</mass>
-				<period>14.651262</period>
-				<semimajoraxis>0.1148</semimajoraxis>
-				<eccentricity>0.0159</eccentricity>
-				<description>55 Cancri is a binary system in the constellation Cancer. 55 Cnc b and c are in a near 1:3 resonance. A dynamical analysis shows that the system has to be almost coplanar in order to be stable for the age the system.</description>
-				<discoverymethod>transit</discoverymethod>
-				<lastupdate>11/06/07</lastupdate>
-				<discoveryyear>1996</discoveryyear>
-				<new>0</new>
-			</planet>
-			<planet>
-				<id>55 Cnc c</id>
-				<name>55 Cnc c</name>
-				<list>Confirmed planets</list>
-				<mass>0.169</mass>
-				<period>44.3446</period>
-				<semimajoraxis>0.2403</semimajoraxis>
-				<eccentricity>0.053</eccentricity>
-				<description>55 Cancri is a binary system in the constellation Cancer. 55 Cnc b and c are in a near 1:3 resonance. A dynamical analysis shows that the system has to be almost coplanar in order to be stable for the age the system.</description>
-				<discoverymethod>transit</discoverymethod>
-				<lastupdate>11/06/07</lastupdate>
-				<discoveryyear>2002</discoveryyear>
-				<new>0</new>
-			</planet>
-			<planet>
-				<id>55 Cnc d</id>
-				<name>55 Cnc d</name>
-				<list>Confirmed planets</list>
-				<mass>3.835</mass>
-				<period>5218</period>
-				<semimajoraxis>5.76</semimajoraxis>
-				<eccentricity>0.025</eccentricity>
-				<description>55 Cancri is a binary system in the constellation Cancer. 55 Cnc b and c are in a near 1:3 resonance. A dynamical analysis shows that the system has to be almost coplanar in order to be stable for the age the system.</description>
-				<discoverymethod>transit</discoverymethod>
-				<lastupdate>11/06/07</lastupdate>
-				<discoveryyear>2002</discoveryyear>
-				<new>0</new>
-			</planet>
-			<planet>
-				<id>55 Cnc e</id>
-				<name>55 Cnc e</name>
-				<list>Confirmed planets</list>
-				<mass>0.027</mass>
-				<radius>0.194</radius>
-				<period>0.7365449</period>
-				<semimajoraxis>0.0156</semimajoraxis>
-				<eccentricity>0.06</eccentricity>
-				<description>55 Cancri is a binary system in the constellation Cancer. 55 Cnc b and c are in a near 1:3 resonance. A dynamical analysis shows that the system has to be almost coplanar in order to be stable for the age the system.</description>
-				<discoverymethod>transit</discoverymethod>
-				<lastupdate>12/05/11</lastupdate>
-				<discoveryyear>2004</discoveryyear>
-				<new>0</new>
-			</planet>
-			<planet>
-				<id>55 Cnc f</id>
-				<name>55 Cnc f</name>
-				<list>Confirmed planets</list>
-				<mass>0.144</mass>
-				<period>260.7</period>
-				<semimajoraxis>0.781</semimajoraxis>
-				<eccentricity>0.0002</eccentricity>
-				<description>55 Cancri is a binary system in the constellation Cancer. 55 Cnc b and c are in a near 1:3 resonance. A dynamical analysis shows that the system has to be almost coplanar in order to be stable for the age the system.</description>
-				<discoverymethod>transit</discoverymethod>
-				<lastupdate>11/06/07</lastupdate>
-				<discoveryyear>2007</discoveryyear>
-				<new>0</new>
-			</planet>
-			<id>55 Cnc</id>
-		</star>
+		<binary>
+			<semimajoraxis>1100</semimajoraxis>
+			<star>
+				<id>55 Cnc A</id>
+				<mass>0.905</mass>
+				<radius>0.943</radius>
+				<magV>5.95</magV>
+				<metallicity>0.31</metallicity>
+				<spectraltype>K0IV-V</spectraltype>
+				<planet>
+					<id>55 Cnc b</id>
+					<name>55 Cnc b</name>
+					<list>Confirmed planets</list>
+					<mass>0.824</mass>
+					<period>14.651262</period>
+					<semimajoraxis>0.1148</semimajoraxis>
+					<eccentricity>0.0159</eccentricity>
+					<description>55 Cancri is a binary system in the constellation Cancer. 55 Cnc b and c are in a near 1:3 resonance. A dynamical analysis shows that the system has to be almost coplanar in order to be stable for the age the system.</description>
+					<discoverymethod>transit</discoverymethod>
+					<lastupdate>11/06/07</lastupdate>
+					<discoveryyear>1996</discoveryyear>
+					<new>0</new>
+				</planet>
+				<planet>
+					<id>55 Cnc c</id>
+					<name>55 Cnc c</name>
+					<list>Confirmed planets</list>
+					<mass>0.169</mass>
+					<period>44.3446</period>
+					<semimajoraxis>0.2403</semimajoraxis>
+					<eccentricity>0.053</eccentricity>
+					<description>55 Cancri is a binary system in the constellation Cancer. 55 Cnc b and c are in a near 1:3 resonance. A dynamical analysis shows that the system has to be almost coplanar in order to be stable for the age the system.</description>
+					<discoverymethod>transit</discoverymethod>
+					<lastupdate>11/06/07</lastupdate>
+					<discoveryyear>2002</discoveryyear>
+					<new>0</new>
+				</planet>
+				<planet>
+					<id>55 Cnc d</id>
+					<name>55 Cnc d</name>
+					<list>Confirmed planets</list>
+					<mass>3.835</mass>
+					<period>5218</period>
+					<semimajoraxis>5.76</semimajoraxis>
+					<eccentricity>0.025</eccentricity>
+					<description>55 Cancri is a binary system in the constellation Cancer. 55 Cnc b and c are in a near 1:3 resonance. A dynamical analysis shows that the system has to be almost coplanar in order to be stable for the age the system.</description>
+					<discoverymethod>transit</discoverymethod>
+					<lastupdate>11/06/07</lastupdate>
+					<discoveryyear>2002</discoveryyear>
+					<new>0</new>
+				</planet>
+				<planet>
+					<id>55 Cnc e</id>
+					<name>55 Cnc e</name>
+					<list>Confirmed planets</list>
+					<mass>0.027</mass>
+					<radius>0.194</radius>
+					<period>0.7365449</period>
+					<semimajoraxis>0.0156</semimajoraxis>
+					<eccentricity>0.06</eccentricity>
+					<description>55 Cancri is a binary system in the constellation Cancer. 55 Cnc b and c are in a near 1:3 resonance. A dynamical analysis shows that the system has to be almost coplanar in order to be stable for the age the system.</description>
+					<discoverymethod>transit</discoverymethod>
+					<lastupdate>12/05/11</lastupdate>
+					<discoveryyear>2004</discoveryyear>
+					<new>0</new>
+				</planet>
+				<planet>
+					<id>55 Cnc f</id>
+					<name>55 Cnc f</name>
+					<list>Confirmed planets</list>
+					<mass>0.144</mass>
+					<period>260.7</period>
+					<semimajoraxis>0.781</semimajoraxis>
+					<eccentricity>0.0002</eccentricity>
+					<description>55 Cancri is a binary system in the constellation Cancer. 55 Cnc b and c are in a near 1:3 resonance. A dynamical analysis shows that the system has to be almost coplanar in order to be stable for the age the system.</description>
+					<discoverymethod>transit</discoverymethod>
+					<lastupdate>11/06/07</lastupdate>
+					<discoveryyear>2007</discoveryyear>
+					<new>0</new>
+				</planet>
+				<id>55 Cnc</id>
+			</star>
+			<star>
+				<id>55 Cnc B</id>
+				<magV>13</magV>
+			</star>
+		</binary>
 	</system>
 	<system>
 		<id>6 Lyn</id>
