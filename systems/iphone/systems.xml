@@ -1,4 +1,4 @@
-<systems name="systems" planets="848">
+<systems name="systems" planets="856">
 	<system>
 		<id>11 Com</id>
 		<name>11 Com</name>
@@ -9435,6 +9435,35 @@ Credit: NASA, ESA, and D. Aguilar (Harvard-Smithsonian Center for Astrophysics).
 		</star>
 	</system>
 	<system>
+		<id>HD 208527</id>
+		<name>HD 208527</name>
+		<rightascension>21 56 24</rightascension>
+		<declination>+21 14 23</declination>
+		<distance>320.2</distance>
+		<star>
+			<id>HD 208527</id>
+			<mass>1.6</mass>
+			<radius>51.1</radius>
+			<temperature>3950</temperature>
+			<magV>6.4</magV>
+			<metallicity>-0.09</metallicity>
+			<spectraltype>K5 V</spectraltype>
+			<planet>
+				<id>HD 208527 b</id>
+				<name>HD 208527 b</name>
+				<list>Confirmed planets</list>
+				<mass>9.9</mass>
+				<period>875.5</period>
+				<semimajoraxis>2.1</semimajoraxis>
+				<eccentricity>0.08</eccentricity>
+				<discoverymethod>RV</discoverymethod>
+				<lastupdate>12/11/11</lastupdate>
+				<discoveryyear>2012</discoveryyear>
+				<new>1</new>
+			</planet>
+		</star>
+	</system>
+	<system>
 		<id>HD 20868</id>
 		<name>HD 20868</name>
 		<rightascension>03 20 43</rightascension>
@@ -10039,6 +10068,35 @@ Credit: NASA, ESA, and D. Aguilar (Harvard-Smithsonian Center for Astrophysics).
 				<new>0</new>
 			</planet>
 			<id>HD 219828</id>
+		</star>
+	</system>
+	<system>
+		<id>HD 220074</id>
+		<name>HD 220074</name>
+		<rightascension>23 20 14</rightascension>
+		<declination>+61 58 12</declination>
+		<distance>290.2</distance>
+		<star>
+			<id>HD 220074</id>
+			<mass>1.2</mass>
+			<radius>49.7</radius>
+			<temperature>5080</temperature>
+			<magV>6.4</magV>
+			<metallicity>-0.25</metallicity>
+			<spectraltype>K1 V</spectraltype>
+			<planet>
+				<id>HD 220074 b</id>
+				<name>HD 220074 b</name>
+				<list>Confirmed planets</list>
+				<mass>11.1</mass>
+				<period>672.1</period>
+				<semimajoraxis>1.6</semimajoraxis>
+				<eccentricity>0.14</eccentricity>
+				<discoverymethod>RV</discoverymethod>
+				<lastupdate>12/11/12</lastupdate>
+				<discoveryyear>2012</discoveryyear>
+				<new>1</new>
+			</planet>
 		</star>
 	</system>
 	<system>
@@ -17505,6 +17563,69 @@ Credit: NASA/JPL-Caltech/T. Pyle</imagedescription>
 		</star>
 	</system>
 	<system>
+		<id>KOI-94</id>
+		<name>KOI-94</name>
+		<rightascension>19 49 20</rightascension>
+		<declination>+41 53 28</declination>
+		<distance>426.2</distance>
+		<star>
+			<id>KOI-94</id>
+			<mass>1.25</mass>
+			<radius>1.61</radius>
+			<temperature>6116</temperature>
+			<age>3.9</age>
+			<metallicity>-0.01</metallicity>
+			<planet>
+				<id>KOI-94 b</id>
+				<name>KOI-94 b</name>
+				<name>KOI-94.04</name>
+				<list>Confirmed planets</list>
+				<radius>0.167496</radius>
+				<period>3.7432</period>
+				<discoverymethod>transit</discoverymethod>
+				<lastupdate>12/11/12</lastupdate>
+				<discoveryyear>2012</discoveryyear>
+				<new>1</new>
+			</planet>
+			<planet>
+				<id>KOI-94 c</id>
+				<name>KOI-94 c</name>
+				<name>KOI-94.02</name>
+				<list>Confirmed planets</list>
+				<radius>0.407761</radius>
+				<period>10.423707</period>
+				<discoverymethod>transit</discoverymethod>
+				<lastupdate>12/11/12</lastupdate>
+				<discoveryyear>2012</discoveryyear>
+				<new>1</new>
+			</planet>
+			<planet>
+				<id>KOI-94 d</id>
+				<name>KOI-94 d</name>
+				<name>KOI-94.01</name>
+				<list>Confirmed planets</list>
+				<radius>1.098905</radius>
+				<period>22.343</period>
+				<discoverymethod>transit</discoverymethod>
+				<lastupdate>12/11/12</lastupdate>
+				<discoveryyear>2012</discoveryyear>
+				<new>1</new>
+			</planet>
+			<planet>
+				<id>KOI-94 e</id>
+				<name>KOI-94 e</name>
+				<name>KOI-94.03</name>
+				<list>Confirmed planets</list>
+				<radius>0.6504316</radius>
+				<period>54.31993</period>
+				<discoverymethod>transit</discoverymethod>
+				<lastupdate>12/11/12</lastupdate>
+				<discoveryyear>2012</discoveryyear>
+				<new>1</new>
+			</planet>
+		</star>
+	</system>
+	<system>
 		<id>KOI-961</id>
 		<name>KOI-961</name>
 		<rightascension>19 28 52</rightascension>
@@ -18013,6 +18134,52 @@ Image credit: NASA/JPL-Caltech
 			</planet>
 			<id>NN Ser (ab)</id>
 		</star>
+	</system>
+	<system>
+		<id>NSVS 14256825</id>
+		<name>NSVS 14256825</name>
+		<name>2MASS J20200045+0437564</name>
+		<rightascension>20 20 00</rightascension>
+		<declination>+04 37 56</declination>
+		<binary>
+			<period>0.110341681</period>
+			<star>
+				<id>NSVS 14256825 A</id>
+				<mass>0.419</mass>
+				<radius>0.190</radius>
+			</star>
+			<star>
+				<id>NSVS 14256825 B</id>
+				<mass>0.109</mass>
+				<radius>0.151</radius>
+			</star>
+			<planet>
+				<id>NSVS 14256825 c</id>
+				<name>NSVS 14256825 c</name>
+				<list>Confirmed planets</list>
+				<mass>2.8</mass>
+				<period>1276</period>
+				<semimajoraxis>1.9</semimajoraxis>
+				<eccentricity>0.0</eccentricity>
+				<discoverymethod>timing</discoverymethod>
+				<lastupdate>12/11/12</lastupdate>
+				<discoveryyear>2012</discoveryyear>
+				<new>1</new>
+			</planet>
+			<planet>
+				<id>NSVS 14256825 d</id>
+				<name>NSVS 14256825 d</name>
+				<list>Confirmed planets</list>
+				<mass>8</mass>
+				<period>2506</period>
+				<semimajoraxis>2.9</semimajoraxis>
+				<eccentricity>0.52</eccentricity>
+				<discoverymethod>timing</discoverymethod>
+				<lastupdate>12/11/12</lastupdate>
+				<discoveryyear>2012</discoveryyear>
+				<new>1</new>
+			</planet>
+		</binary>
 	</system>
 	<system>
 		<id>nu Oph</id>
