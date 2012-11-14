@@ -1,4 +1,4 @@
-<systems name="systems" planets="856">
+<systems name="systems" planets="857">
 	<system>
 		<id>11 Com</id>
 		<name>11 Com</name>
@@ -926,7 +926,7 @@
 					<mass>0.0035546417</mass>
 					<period>3.235</period>
 					<semimajoraxis>0.04</semimajoraxis>
-					<new>1</new>
+					<new>0</new>
 					<discoverymethod>RV</discoverymethod>
 					<list>Confirmed planets</list>
 					<discoveryyear>2012</discoveryyear>
@@ -9460,7 +9460,7 @@ Credit: NASA, ESA, and D. Aguilar (Harvard-Smithsonian Center for Astrophysics).
 				<discoverymethod>RV</discoverymethod>
 				<lastupdate>12/11/11</lastupdate>
 				<discoveryyear>2012</discoveryyear>
-				<new>1</new>
+				<new>0</new>
 			</planet>
 		</star>
 	</system>
@@ -10097,7 +10097,7 @@ Credit: NASA, ESA, and D. Aguilar (Harvard-Smithsonian Center for Astrophysics).
 				<discoverymethod>RV</discoverymethod>
 				<lastupdate>12/11/12</lastupdate>
 				<discoveryyear>2012</discoveryyear>
-				<new>1</new>
+				<new>0</new>
 			</planet>
 		</star>
 	</system>
@@ -12561,7 +12561,7 @@ Credit: NASA, ESA, and D. Aguilar (Harvard-Smithsonian Center for Astrophysics).
 				<discoverymethod>RV</discoverymethod>
 				<lastupdate>12/11/12</lastupdate>
 				<discoveryyear>2012</discoveryyear>
-				<new>1</new>
+				<new>0</new>
 			</planet>
 		</star>
 	</system>
@@ -17588,7 +17588,7 @@ Credit: NASA/JPL-Caltech/T. Pyle</imagedescription>
 				<discoverymethod>transit</discoverymethod>
 				<lastupdate>12/11/12</lastupdate>
 				<discoveryyear>2012</discoveryyear>
-				<new>1</new>
+				<new>0</new>
 			</planet>
 			<planet>
 				<id>KOI-94 c</id>
@@ -17601,7 +17601,7 @@ Credit: NASA/JPL-Caltech/T. Pyle</imagedescription>
 				<discoverymethod>transit</discoverymethod>
 				<lastupdate>12/11/12</lastupdate>
 				<discoveryyear>2012</discoveryyear>
-				<new>1</new>
+				<new>0</new>
 			</planet>
 			<planet>
 				<id>KOI-94 d</id>
@@ -17614,7 +17614,7 @@ Credit: NASA/JPL-Caltech/T. Pyle</imagedescription>
 				<discoverymethod>transit</discoverymethod>
 				<lastupdate>12/11/12</lastupdate>
 				<discoveryyear>2012</discoveryyear>
-				<new>1</new>
+				<new>0</new>
 			</planet>
 			<planet>
 				<id>KOI-94 e</id>
@@ -17627,7 +17627,7 @@ Credit: NASA/JPL-Caltech/T. Pyle</imagedescription>
 				<discoverymethod>transit</discoverymethod>
 				<lastupdate>12/11/12</lastupdate>
 				<discoveryyear>2012</discoveryyear>
-				<new>1</new>
+				<new>0</new>
 			</planet>
 		</star>
 	</system>
@@ -18171,7 +18171,7 @@ Image credit: NASA/JPL-Caltech
 				<discoverymethod>timing</discoverymethod>
 				<lastupdate>12/11/12</lastupdate>
 				<discoveryyear>2012</discoveryyear>
-				<new>1</new>
+				<new>0</new>
 			</planet>
 			<planet>
 				<id>NSVS 14256825 d</id>
@@ -18185,7 +18185,7 @@ Image credit: NASA/JPL-Caltech
 				<discoverymethod>timing</discoverymethod>
 				<lastupdate>12/11/12</lastupdate>
 				<discoveryyear>2012</discoveryyear>
-				<new>1</new>
+				<new>0</new>
 			</planet>
 		</binary>
 	</system>
@@ -21399,6 +21399,38 @@ Image credit: NASA/JPL-Caltech
 				<new>0</new>
 			</planet>
 			<id>WASP-70</id>
+		</star>
+	</system>
+	<system>
+		<id>WASP-71</id>
+		<name>WASP-71</name>
+		<rightascension>01 57 03</rightascension>
+		<declination>+00 45 32</declination>
+		<distance>200</distance>
+		<star>
+			<mass>1.21</mass>
+			<radius>1.27</radius>
+			<temperature>6050</temperature>
+			<spectraltype>F8</spectraltype>
+			<planet>
+				<id>WASP-71 b</id>
+				<name>WASP-71 b</name>
+				<name>TYC 30-116-1 b</name>
+				<list>Confirmed planets</list>
+				<mass>2.258</mass>
+				<radius>1.50</radius>
+				<rossitermclaughlin>19.8</rossitermclaughlin>
+				<period>2.9036747</period>
+				<semimajoraxis>0.04631</semimajoraxis>
+				<eccentricity>0</eccentricity>
+				<inclination>84.2</inclination>
+				<description>WASP-71 b is a highly-irradiated planet which transits an  evolved F8-type star every 2.9 days. The planet is larger than Jupiter but less dense.</description>
+				<discoverymethod>transit</discoverymethod>
+				<lastupdate>12/11/114</lastupdate>
+				<discoveryyear>2012</discoveryyear>
+				<new>1</new>
+			</planet>
+			<id>WASP-72</id>
 		</star>
 	</system>
 	<system>
