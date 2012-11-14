@@ -32,10 +32,7 @@ for filename in glob.glob("../*.xml"):
 	newtree = ElementTree.ElementTree(newroot) 
 
 	planets = newtree.findall(".//planet")
-	if len(newtree.findall(".//star"))>1:
-		star0 = newtree.findall(".//star")[0]
-	else:
-		star0 = 0
+	stars = newtree.findall(".//star")
 	for planet in planets:
 		root = ElementTree.Element("planet")
 		tree = ElementTree.ElementTree(root)
@@ -56,7 +53,8 @@ for filename in glob.glob("../*.xml"):
 		ElementTree.SubElement(orbit,"eccentricity").text	= planet.findtext(".//eccentricity") 
 		ElementTree.SubElement(orbit,"inclination").text	= planet.findtext(".//inclination") 
 		star = ElementTree.SubElement(root,"star") 
-		if star0!=0:
+		if len(stars)>=1:
+			star0 = stars[0]
 			ElementTree.SubElement(star,"spectraltype").text= star0.findtext(".//spectraltype") 
 			ElementTree.SubElement(star,"mass").text	= star0.findtext(".//mass") 
 			ElementTree.SubElement(star,"radius").text	= star0.findtext(".//radius") 
