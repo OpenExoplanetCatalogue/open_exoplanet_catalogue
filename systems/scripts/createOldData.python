@@ -30,6 +30,7 @@ for filename in glob.glob("../*.xml"):
 	newfile = open(filename, 'rt')
 	newroot = ElementTree.parse(newfile).getroot()
 	newtree = ElementTree.ElementTree(newroot) 
+	systemid = newtree.findtext(".//id")
 
 	planets = newtree.findall(".//planet")
 	stars = newtree.findall(".//star")
@@ -51,7 +52,10 @@ for filename in glob.glob("../*.xml"):
 		ElementTree.SubElement(orbit,"period").text	= planet.findtext(".//period") 
 		ElementTree.SubElement(orbit,"semimajoraxis").text	= planet.findtext(".//semimajoraxis") 
 		ElementTree.SubElement(orbit,"eccentricity").text	= planet.findtext(".//eccentricity") 
-		ElementTree.SubElement(orbit,"inclination").text	= planet.findtext(".//inclination") 
+		if systemid=="Sun":
+			ElementTree.SubElement(orbit,"inclination").text	= "%f"%(float(planet.findtext(".//inclination"))+90.)
+		else:
+			ElementTree.SubElement(orbit,"inclination").text	= planet.findtext(".//inclination") 
 		ElementTree.SubElement(orbit,"periastron").text		= planet.findtext(".//periastron") 
 		ElementTree.SubElement(orbit,"longitude").text		= planet.findtext(".//longitude") 
 		ElementTree.SubElement(orbit,"ascendingnode").text	= planet.findtext(".//ascendingnode") 
