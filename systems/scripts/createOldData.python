@@ -52,6 +52,9 @@ for filename in glob.glob("../*.xml"):
 		ElementTree.SubElement(orbit,"semimajoraxis").text	= planet.findtext(".//semimajoraxis") 
 		ElementTree.SubElement(orbit,"eccentricity").text	= planet.findtext(".//eccentricity") 
 		ElementTree.SubElement(orbit,"inclination").text	= planet.findtext(".//inclination") 
+		ElementTree.SubElement(orbit,"periastron").text		= planet.findtext(".//periastron") 
+		ElementTree.SubElement(orbit,"longitude").text		= planet.findtext(".//longitude") 
+		ElementTree.SubElement(orbit,"nodeangle").text		= planet.findtext(".//nodeangle") 
 		star = ElementTree.SubElement(root,"star") 
 		if len(stars)>=1:
 			star0 = stars[0]
