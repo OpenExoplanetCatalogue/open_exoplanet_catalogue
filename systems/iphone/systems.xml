@@ -1237,6 +1237,7 @@
 		<name>CFBDSIR J214947.2-040308.9</name>
 		<rightascension>21 49 47</rightascension>
 		<declination>-04 03 08</declination>
+		<distance>40</distance>
 		<planet>
 			<id>CFBDSIR2149</id>
 			<name>CFBDSIR2149</name>
@@ -16075,8 +16076,8 @@ Credit: NASA/Ames/JPL-Caltech</imagedescription>
 		</star>
 	</system>
 	<system>
-		<id>Kepler-34(AB)</id>
-		<name>Kepler-34(AB)</name>
+		<id>Kepler-34</id>
+		<name>Kepler-34</name>
 		<rightascension>19 45 45</rightascension>
 		<declination>+44 38 30</declination>
 		<binary>
@@ -16089,13 +16090,13 @@ Credit: NASA/Ames/JPL-Caltech</imagedescription>
 				<name>Kepler-34 A</name>
 				<mass>1.0479</mass>
 				<radius>1.1618</radius>
-				<id>Kepler-34(AB)</id>
+				<id>Kepler-34 A</id>
 			</star>
 			<star>
 				<name>Kepler-34 B</name>
 				<mass>1.0208</mass>
 				<radius>1.0927</radius>
-				<id>Kepler-34(AB)</id>
+				<id>Kepler-34 B</id>
 			</star>
 			<planet>
 				<id>Kepler-34(AB) b</id>
