@@ -66,16 +66,17 @@ for filename in glob.glob("../*.xml"):
 			ElementTree.SubElement(star,"mass").text	= star0.findtext(".//mass") 
 			ElementTree.SubElement(star,"radius").text	= star0.findtext(".//radius") 
 			ElementTree.SubElement(star,"metallicity").text	= star0.findtext(".//metallicity") 
+			ElementTree.SubElement(star,"distance").text	= newtree.findtext(".//distance") 
 		else:
 			ElementTree.SubElement(star,"spectraltype").text= "" 
 			ElementTree.SubElement(star,"mass").text	= "" 
 			ElementTree.SubElement(star,"radius").text	= "" 
 			ElementTree.SubElement(star,"metallicity").text	= ""
+			ElementTree.SubElement(star,"distance").text	= "" 
 		ElementTree.SubElement(star,"temperature").text	= newtree.findtext(".//temperature") 
 		ElementTree.SubElement(star,"rightascension").text	= newtree.findtext(".//rightascension") 
 		ElementTree.SubElement(star,"declination").text	= newtree.findtext(".//declination") 
 		ElementTree.SubElement(star,"angulardistance") 
-		ElementTree.SubElement(star,"distance").text	= newtree.findtext(".//distance") 
 		ElementTree.SubElement(star,"magV").text	= newtree.findtext(".//magV") 
 		ElementTree.SubElement(star,"magI") 
 		ElementTree.SubElement(star,"magH") 
