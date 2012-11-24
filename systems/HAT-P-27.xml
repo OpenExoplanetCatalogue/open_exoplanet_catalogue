@@ -1,10 +1,11 @@
 <system>
-	<id>HAT-P-</id>
-	<name>HAT-P-</name>
+	<id>HAT-P-27</id>
+	<name>HAT-P-27</name>
 	<rightascension>14 51 04</rightascension>
 	<declination>+05 56 50</declination>
 	<distance>204</distance>
 	<star>
+		<id>HAT-P-27</id>
 		<name />
 		<mass>0.945</mass>
 		<radius>0.898</radius>
@@ -13,8 +14,8 @@
 		<metallicity>0.29</metallicity>
 		<spectraltype>G8</spectraltype>
 		<planet>
-			<id>HAT-P-27</id>
-			<name>HAT-P-27</name>
+			<id>HAT-P-27 b</id>
+			<name>HAT-P-27 b</name>
 			<name>WASP-40 b</name>
 			<name>2MASS J14510418+0556505</name>
 			<list>Confirmed planets</list>
@@ -28,35 +29,11 @@
 			<longitude />
 			<description />
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>11/01/25</lastupdate>
+			<lastupdate>12/11/24</lastupdate>
 			<discoveryyear>2011</discoveryyear>
 			<new>0</new>
 			<image />
 			<imagedescription />
 		</planet>
-		<planet>
-			<id>HAT-P-30</id>
-			<name>HAT-P-30</name>
-			<name>WASP-51 b</name>
-			<name>WASP-51</name>
-			<name>2MASS J08154797+0550121</name>
-			<list>Confirmed planets</list>
-			<mass>0.711</mass>
-			<radius>1.34</radius>
-			<period>2.810595</period>
-			<semimajoraxis>0.0419</semimajoraxis>
-			<eccentricity>0.035</eccentricity>
-			<inclination>83.6</inclination>
-			<periastron />
-			<longitude />
-			<description />
-			<discoverymethod>transit</discoverymethod>
-			<lastupdate>12/04/08</lastupdate>
-			<discoveryyear>2011</discoveryyear>
-			<new>0</new>
-			<image />
-			<imagedescription />
-		</planet>
-		<id>HAT-P-</id>
 	</star>
 </system>
