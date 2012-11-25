@@ -14824,30 +14824,51 @@ Credit: NASA, ESA, and D. Aguilar (Harvard-Smithsonian Center for Astrophysics).
 		</star>
 	</system>
 	<system>
-		<id>HW Vir (AB)</id>
-		<name>HW Vir (AB)</name>
+		<id>HW Vir</id>
+		<name>HW Vir</name>
 		<rightascension>12 44 20</rightascension>
 		<declination>-08 40 17</declination>
 		<distance>181</distance>
-		<star>
-			<mass>0.627</mass>
-			<magV>10.9</magV>
-			<spectraltype>sdB+M</spectraltype>
-			<planet>
-				<id>HW Vir (AB) b</id>
-				<name>HW Vir (AB) b</name>
-				<list>Confirmed planets</list>
-				<mass>14.3</mass>
-				<period>4640</period>
-				<semimajoraxis>4.69</semimajoraxis>
-				<eccentricity>0.4</eccentricity>
-				<discoverymethod>timing</discoverymethod>
-				<lastupdate>12/06/15</lastupdate>
-				<discoveryyear>2008</discoveryyear>
-				<new>0</new>
-			</planet>
-			<id>HW Vir (AB)</id>
-		</star>
+		<binary>
+			<binary>
+				<semimajoraxis>0.00399833</semimajoraxis>
+				<period>0.1167</period>
+				<star>
+					<id>HW Vir A</id>
+					<mass>0.485</mass>
+					<radius>0.183</radius>
+					<temperature>28488</temperature>
+					<magV>4.22</magV>
+					<spectraltype>sdB+M</spectraltype>
+				</star>
+				<star>
+					<id>HW Vir B</id>
+					<mass>0.142</mass>
+					<radius>0.175</radius>
+					<temperature>3084</temperature>
+					<magV>15.59</magV>
+					<spectraltype>sdB+M</spectraltype>
+				</star>
+				<planet>
+					<id>HW Vir (AB) b</id>
+					<name>HW Vir (AB) b</name>
+					<list>Confirmed planets</list>
+					<mass>14.3</mass>
+					<period>4640</period>
+					<semimajoraxis>4.69</semimajoraxis>
+					<eccentricity>0.4</eccentricity>
+					<description>HW Virginis is an eclipsing binary (Algol type). The cirbumbinary planet HW Vir (AB) has been detected by timing ariation. An additional object orbits the binary every 16 years. With almost 20 Jupiter masses it is classified as a brown dwarf. </description>
+					<discoverymethod>timing</discoverymethod>
+					<lastupdate>12/11/24</lastupdate>
+					<discoveryyear>2008</discoveryyear>
+					<new>0</new>
+				</planet>
+			</binary>
+			<star>
+				<id>HW Vir (AB) C</id>
+				<mass>0.01861844</mass>
+			</star>
+		</binary>
 	</system>
 	<system>
 		<id>Kappa Andromedae</id>
