@@ -1,37 +1,35 @@
 <system>
-	<id></id>
 	<name></name>
 	<rightascension></rightascension>
 	<declination></declination>
 	<distance></distance>
 	<star>
-		<id></id>
-		<name />
+		<name></name>
 		<mass></mass>
 		<radius></radius>
-		<temperature />
+		<temperature></temperature>
 		<magV></magV>
 		<metallicity></metallicity>
 		<spectraltype></spectraltype>
 		<planet>
-			<id></id>
 			<name></name>
 			<list>Confirmed planets</list>
 			<mass></mass>
-			<radius />
+			<radius></radius>
+			<temperature></temperature>
 			<period></period>
 			<semimajoraxis></semimajoraxis>
 			<eccentricity></eccentricity>
-			<inclination />
-			<periastron />
-			<longitude />
-			<description />
+			<inclination></inclination>
+			<periastron></periastron>
+			<longitude></longitude>
+			<description></description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/12/16</lastupdate>
+			<lastupdate>yy/mm/dd</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<new>1</new>
-			<image />
-			<imagedescription />
+			<image></image>
+			<imagedescription></imagedescription>
 		</planet>
 	</star>
 </system>
