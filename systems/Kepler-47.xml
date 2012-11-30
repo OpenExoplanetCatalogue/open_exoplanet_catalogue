@@ -1,5 +1,4 @@
 <system>
-	<id>Kepler-47</id>
 	<name>Kepler-47</name>
 	<rightascension>19 41 11</rightascension>
 	<declination>+46 55 13</declination>
@@ -11,41 +10,32 @@
 		<periastron>232.3</periastron>
 		<inclination>89.34</inclination>
 		<star>
-			<id>Kepler-47 A</id>
-			<name />
 			<mass>1.043</mass>
 			<radius>0.964</radius>
 			<temperature>5636</temperature>
-			<magV />
-			<metallicity />
 			<spectraltype>G</spectraltype>
+			<name>Kepler-47 A</name>
 		</star>
 		<star>
-			<id>Kepler-47 B</id>
-			<name />
 			<mass>0.362</mass>
 			<radius>0.3506</radius>
 			<temperature>3357</temperature>
-			<magV />
-			<metallicity />
 			<spectraltype>G</spectraltype>
+			<name>Kepler-47 B</name>
 		</star>
 		<planet>
-			<id>Kepler-47(AB) b</id>
 			<name>Kepler-47(AB) b</name>
 			<name>KIC 10020423 b</name>
 			<name>KOI 3154 b</name>
 			<name>2MASS J19411149+4655136 b</name>
 			<name>Kepler-47 b</name>
 			<list>Confirmed planets</list>
-			<mass />
+			<list>Circumbinary planets</list>
 			<radius>0.27156828</radius>
 			<period>49.514</period>
 			<semimajoraxis>0.2956</semimajoraxis>
 			<eccentricity>0.0</eccentricity>
 			<inclination>89.59</inclination>
-			<periastron />
-			<longitude />
 			<description>Kepler-47(AB) is a multiplanetary system orbiting a binary star. This is the first system of its kind. One of the binary stars is a Sun-like star, the other one is roughly one-third the size of the Sun. The orbital period of the binary is 7.45 days.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/08/28</lastupdate>
@@ -57,21 +47,17 @@
 Credit: NASA/JPL-Caltech/T. Pyle</imagedescription>
 		</planet>
 		<planet>
-			<id>Kepler-47(AB) c</id>
 			<name>Kepler-47(AB) c</name>
 			<name>KIC 10020423 c</name>
 			<name>KOI 3154 c</name>
 			<name>2MASS J19411149+4655136 c</name>
 			<name>Kepler-47 c</name>
 			<list>Confirmed planets</list>
-			<mass />
 			<radius>0.42011066</radius>
 			<period>303.158</period>
 			<semimajoraxis>0.989</semimajoraxis>
 			<eccentricity>0</eccentricity>
 			<inclination>89.826</inclination>
-			<periastron />
-			<longitude />
 			<description>Kepler-47(AB) is a multiplanetary system orbiting a binary star. This is the first system of its kind. One of the binary stars is a Sun-like star, the other one is roughly one-third the size of the Sun. The orbital period of the binary is 7.45 days. The outer planet Kepler-47(AB) c is located in the habitable zone where liquid water could exist.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/08/28</lastupdate>

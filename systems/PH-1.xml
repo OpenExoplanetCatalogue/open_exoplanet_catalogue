@@ -1,5 +1,4 @@
 <system>
-	<id>PH-1</id>
 	<name>PH-1</name>
 	<rightascension>19 52 51</rightascension>
 	<declination>+39 57 18</declination>
@@ -12,40 +11,30 @@
 			<eccentricity>0.21166048</eccentricity>
 			<periastron>348</periastron>
 			<star>
-				<id>PH-1 Aa</id>
-				<name />
+				<name>PH-1 Aa</name>
 				<mass>1.384</mass>
 				<radius>1.759</radius>
-				<temperature />
-				<magV />
-				<metallicity />
 				<spectraltype>F</spectraltype>
 			</star>
 			<star>
-				<id>PH-1 Ab</id>
-				<name />
+				<name>PH-1 Ab</name>
 				<mass>0.386</mass>
 				<radius>0.422</radius>
-				<temperature />
-				<magV />
-				<metallicity />
 				<spectraltype>M</spectraltype>
 			</star>
 			<planet>
-				<id>PH-1 (AaAb) b</id>
+				<name>PH-1 (AaAb) b</name>
+				<name>PH-1 b </name>
 				<name>KIC 4862625 (AaAb) b</name>
 				<name>Planet Hunters 1 b </name>
 				<name>Kepler-64 b</name>
-				<name>PH-1 b </name>
 				<list>Confirmed planets</list>
-				<mass />
+				<list>Circumbinary planets</list>
 				<radius>0.5631852</radius>
 				<period>138.506</period>
 				<semimajoraxis>0.634</semimajoraxis>
 				<eccentricity>0.0539</eccentricity>
 				<inclination>90.022</inclination>
-				<periastron />
-				<longitude />
 				<description>PH 1 b is a circumbinary planet in a quadruple star system. It is orbiting a double star and there is a second pair of stars at approximately 1000 AU. Citizen scientists discovered this planet by looking at many light curves using the online tool at planethunters.org.</description>
 				<discoverymethod>transit</discoverymethod>
 				<lastupdate>12/10/15</lastupdate>
@@ -60,12 +49,12 @@
 		<binary>
 			<semimajoraxis>60</semimajoraxis>
 			<star>
-				<id>PH-1 Ba</id>
+				<name>PH-1 Ba</name>
 				<mass>0.99</mass>
 				<spectraltype>G2</spectraltype>
 			</star>
 			<star>
-				<id>PH-1 Bb</id>
+				<name>PH-1 Bb</name>
 				<mass>0.51</mass>
 				<spectraltype>M2</spectraltype>
 			</star>

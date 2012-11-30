@@ -1,19 +1,14 @@
 <system>
-	<id>HAT-P-7</id>
 	<name>HAT-P-7</name>
 	<rightascension>19 28 59</rightascension>
 	<declination>+47 58 10</declination>
 	<distance>320</distance>
 	<star>
-		<name />
 		<mass>1.47</mass>
 		<radius>1.84</radius>
-		<temperature />
 		<magV>10.5</magV>
 		<metallicity>0.26</metallicity>
-		<spectraltype />
 		<planet>
-			<id>HAT-P-7 b</id>
 			<name>HAT-P-7 b</name>
 			<name>2MASS J19285935+4758102 b</name>
 			<name>TYC 3547-01402-1 b</name>
@@ -28,16 +23,12 @@
 			<semimajoraxis>0.0379</semimajoraxis>
 			<eccentricity>0.0</eccentricity>
 			<inclination>84.1</inclination>
-			<periastron />
-			<longitude />
 			<description>The star HAT-P-7 is located in the constellation Cygnus and in the field of view of the Kepler spacecraft. Meassurements of the Rossiter-McLaughlin effect suggest that this planet is in a retrograde orbit. Retrograde orbits are difficult to explain with standard disk migration. Planet-planet scattering or the Kozei effect are able to produce retrograde orbits.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/07/05</lastupdate>
 			<discoveryyear>2008</discoveryyear>
 			<new>0</new>
-			<image />
-			<imagedescription />
 		</planet>
-		<id>HAT-P-7</id>
+		<name>HAT-P-7</name>
 	</star>
 </system>

@@ -1,20 +1,13 @@
 <system>
-	<id>Kepler-58</id>
 	<name>Kepler-58</name>
 	<rightascension>19 45 26</rightascension>
 	<declination>+39 06 54</declination>
 	<distance>1042.62
 </distance>
 	<star>
-		<name />
 		<mass>0.95</mass>
 		<radius>1.03</radius>
-		<temperature />
-		<magV />
-		<metallicity />
-		<spectraltype />
 		<planet>
-			<id>Kepler-58 b</id>
 			<name>Kepler-58 b</name>
 			<name>KOI 1336.01</name>
 			<name>KID 4077526</name>
@@ -22,21 +15,13 @@
 			<mass>0.025849</mass>
 			<radius>0.253342</radius>
 			<period>10.2184954</period>
-			<semimajoraxis />
-			<eccentricity />
-			<inclination />
-			<periastron />
-			<longitude />
 			<description>This planet candidate was discovered by the Kepler spacecraft. It transits its host star every 10.22 days for 4.3967 hours. Periodic transit timing variations confirm its planetary nature.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/08/19</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<new>0</new>
-			<image />
-			<imagedescription />
 		</planet>
 		<planet>
-			<id>Kepler-58 c</id>
 			<name>Kepler-58 c</name>
 			<name>KOI 1336.02</name>
 			<name>KID 4077526</name>
@@ -44,19 +29,12 @@
 			<mass>0.027405</mass>
 			<radius>0.260633</radius>
 			<period>15.5741568</period>
-			<semimajoraxis />
-			<eccentricity />
-			<inclination />
-			<periastron />
-			<longitude />
 			<description>This planet candidate was discovered by the Kepler spacecraft. It transits its host star every 15.57 days for 5.1013 hours. Periodic transit timing variations confirm its planetary nature.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/08/19</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<new>0</new>
-			<image />
-			<imagedescription />
 		</planet>
-		<id>Kepler-58</id>
+		<name>Kepler-58</name>
 	</star>
 </system>

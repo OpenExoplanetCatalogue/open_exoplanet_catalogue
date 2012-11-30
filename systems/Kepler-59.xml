@@ -1,20 +1,13 @@
 <system>
-	<id>Kepler-59</id>
 	<name>Kepler-59</name>
 	<rightascension>19 08 09</rightascension>
 	<declination>+46 38 24</declination>
 	<distance>811.89
 </distance>
 	<star>
-		<name />
 		<mass>1.04</mass>
 		<radius>0.94</radius>
-		<temperature />
-		<magV />
-		<metallicity />
-		<spectraltype />
 		<planet>
-			<id>Kepler-59 b</id>
 			<name>Kepler-59 b</name>
 			<name>KOI 1529.02</name>
 			<name>KID 9821454</name>
@@ -22,21 +15,13 @@
 			<mass>0.003828</mass>
 			<radius>0.100243</radius>
 			<period>11.8681707</period>
-			<semimajoraxis />
-			<eccentricity />
-			<inclination />
-			<periastron />
-			<longitude />
 			<description>This planet candidate was discovered by the Kepler spacecraft. It transits its host star every 11.87 days for 5.977 hours. Periodic transit timing variations confirm its planetary nature.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/08/19</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<new>0</new>
-			<image />
-			<imagedescription />
 		</planet>
 		<planet>
-			<id>Kepler-59 c</id>
 			<name>Kepler-59 c</name>
 			<name>KOI 1529.01</name>
 			<name>KID 9821454</name>
@@ -44,19 +29,12 @@
 			<mass>0.012848</mass>
 			<radius>0.180438</radius>
 			<period>17.9801235</period>
-			<semimajoraxis />
-			<eccentricity />
-			<inclination />
-			<periastron />
-			<longitude />
 			<description>This planet candidate was discovered by the Kepler spacecraft. It transits its host star every 17.98 days for 4.1249 hours. Periodic transit timing variations confirm its planetary nature.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/08/19</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<new>0</new>
-			<image />
-			<imagedescription />
 		</planet>
-		<id>Kepler-59</id>
+		<name>Kepler-59</name>
 	</star>
 </system>

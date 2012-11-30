@@ -1,30 +1,18 @@
 <system>
-	<id>2M1207</id>
 	<name>2M1207</name>
 	<rightascension>12 07 33</rightascension>
 	<declination>-39 32 54</declination>
 	<distance>52.4</distance>
 	<star>
-		<name />
 		<mass>0.025</mass>
-		<radius />
-		<temperature />
 		<magV>20.15</magV>
-		<metallicity />
 		<spectraltype>M8</spectraltype>
 		<planet>
-			<id>2M1207 b</id>
 			<name>2M1207 b</name>
 			<name>2MASS J12073346-3932539 b</name>
 			<list>Confirmed planets</list>
 			<mass>4</mass>
-			<radius />
-			<period />
 			<semimajoraxis>46</semimajoraxis>
-			<eccentricity />
-			<inclination />
-			<periastron />
-			<longitude />
 			<description>2M1207 might be the first directly imaged extrasolar planet. However, due to its high mass it might also classify as a brown dwarf.</description>
 			<discoverymethod>imaging</discoverymethod>
 			<lastupdate>10/12/28</lastupdate>
@@ -33,6 +21,6 @@
 			<image>2M1207</image>
 			<imagedescription>This image shows the brown dwarf 2M1207 and a planetary companion (lower left). It was the first image of an extrasolar planet and has been published 2004. Credit: ESO.</imagedescription>
 		</planet>
-		<id>2M1207</id>
+		<name>2M1207</name>
 	</star>
 </system>

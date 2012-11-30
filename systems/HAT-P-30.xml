@@ -1,12 +1,9 @@
 <system>
-	<id>HAT-P-30</id>
 	<name>HAT-P-30</name>
 	<rightascension>08 15 48</rightascension>
 	<declination>+05 50 12</declination>
 	<distance>192</distance>
 	<star>
-		<id>HAT-P-30</id>
-		<name />
 		<mass>1.24</mass>
 		<radius>0.898</radius>
 		<temperature>6304</temperature>
@@ -14,7 +11,6 @@
 		<metallicity>0.13</metallicity>
 		<spectraltype>F</spectraltype>
 		<planet>
-			<id>HAT-P-30 b</id>
 			<name>HAT-P-30 b</name>
 			<name>WASP-51 b</name>
 			<name>WASP-51</name>
@@ -27,15 +23,12 @@
 			<semimajoraxis>0.0419</semimajoraxis>
 			<eccentricity>0.035</eccentricity>
 			<inclination>83.6</inclination>
-			<periastron />
-			<longitude />
 			<description>This exoplanet is transiting the dwarf star GSC 0208-00722. The sky projection of the planet's orbit normal and the star's spin axis is 73.5 degrees.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/11/24</lastupdate>
 			<discoveryyear>2011</discoveryyear>
 			<new>0</new>
-			<image />
-			<imagedescription />
 		</planet>
+		<name>HAT-P-30</name>
 	</star>
 </system>

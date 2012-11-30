@@ -1,61 +1,39 @@
 <system>
-	<id>Kepler-25</id>
 	<name>Kepler-25</name>
 	<rightascension>19 21 39</rightascension>
 	<declination>+38 20 37</declination>
 	<distance>191</distance>
 	<star>
-		<name />
 		<mass>1.22</mass>
 		<radius>1.36</radius>
-		<temperature />
-		<magV />
-		<metallicity />
-		<spectraltype />
 		<planet>
-			<id>Kepler-25 b</id>
 			<name>Kepler-25 b</name>
 			<name>KIC 3231341 b</name>
 			<name>KOI 244.01</name>
 			<list>Confirmed planets</list>
-			<mass />
 			<radius>0.2369387</radius>
 			<period>6.238</period>
 			<semimajoraxis>0.068</semimajoraxis>
-			<eccentricity />
-			<inclination />
-			<periastron />
-			<longitude />
 			<description>This planet candidate was discovered with the Kepler spacecraft. Its host star gets periodically fainter whenever the planet is in front of the star. Because there are multiple phenomena that can create a signal that looks similar to a planetary transit, the candidates have to be confirmed with another method. For Kepler-25 the planetary nature of the companions has been confirmed by transit timing variations, caused by other planets in the system, and a stability analysis. However, the mass of the planets is not well constrained yet. </description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/08/06</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<new>0</new>
-			<image />
-			<imagedescription />
 		</planet>
 		<planet>
-			<id>Kepler-25 c</id>
 			<name>Kepler-25 c</name>
 			<name>KIC 3231341 c</name>
 			<name>KOI 244.02</name>
 			<list>Confirmed planets</list>
-			<mass />
 			<radius>0.410086</radius>
 			<period>12.72</period>
 			<semimajoraxis>0.110</semimajoraxis>
-			<eccentricity />
-			<inclination />
-			<periastron />
-			<longitude />
 			<description>This planet candidate was discovered with the Kepler spacecraft. Its host star gets periodically fainter whenever the planet is in front of the star. Because there are multiple phenomena that can create a signal that looks similar to a planetary transit, the candidates have to be confirmed with another method. For Kepler-25 the planetary nature of the companions has been confirmed by transit timing variations, caused by other planets in the system, and a stability analysis. However, the mass of the planets is not well constrained yet. </description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/08/06</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<new>0</new>
-			<image />
-			<imagedescription />
 		</planet>
-		<id>Kepler-25</id>
+		<name>Kepler-25</name>
 	</star>
 </system>

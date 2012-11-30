@@ -1,0 +1,42 @@
+<system>
+	<name>Kepler-16</name>
+	<rightascension>19 16 18</rightascension>
+	<declination>+51 45 27</declination>
+	<distance>60</distance>
+	<binary>
+		<semimajoraxis>0.22</semimajoraxis>
+		<period>41</period>
+		<star>
+			<mass>0.6897</mass>
+			<radius>0.6489</radius>
+			<temperature>4450</temperature>
+			<metallicity>-0.3</metallicity>
+			<spectraltype>K</spectraltype>
+			<name>Kepler-16 A</name>
+		</star>
+		<star>
+			<mass>0.20255</mass>
+			<radius>0.22623</radius>
+			<spectraltype>M</spectraltype>
+			<name>Kepler-16 B</name>
+		</star>
+		<planet>
+			<name>Kepler-16 (AB) b</name>
+			<list>Confirmed planets</list>
+			<list>Circumbinary planets</list>
+			<mass>0.333</mass>
+			<radius>0.7538</radius>
+			<period>228.776</period>
+			<semimajoraxis>0.7048</semimajoraxis>
+			<eccentricity>0.00685</eccentricity>
+			<inclination>90.0322</inclination>
+			<description>Kepler-16 (AB) b is a circum-binary planet. It is orbiting two stars. The orbit of the binary stars and the planet are perfectly alligned within half a degree. This suggests that the planet formed in a circumbinary disc. </description>
+			<discoverymethod>transit</discoverymethod>
+			<lastupdate>12/11/27</lastupdate>
+			<discoveryyear>2011</discoveryyear>
+			<new>0</new>
+			<image>Kepler 16</image>
+			<imagedescription>This image shows an artist's illustration of the Kepler-16 (AB) b exo-planet orbiting two binary stars. Credit: NASA/JPL-Caltech/R. Hurt</imagedescription>
+		</planet>
+	</binary>
+</system>

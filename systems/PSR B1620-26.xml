@@ -1,37 +1,32 @@
 <system>
-	<id>PSR B1620-26</id>
 	<name>PSR B1620-26</name>
 	<rightascension>16 23 38</rightascension>
 	<declination>-26 31 53</declination>
 	<distance>3800</distance>
-	<star>
-		<name />
-		<mass>1.95</mass>
-		<radius />
-		<temperature />
-		<magV>24</magV>
-		<metallicity />
-		<spectraltype />
+	<binary>
+		<period>191.4428</period>
+		<star>
+			<mass>1.35</mass>
+			<magV>24</magV>
+			<name>PSR B1620-26 A</name>
+		</star>
+		<star>
+			<mass>0.6</mass>
+			<name>PSR B1620-26 B</name>
+		</star>
 		<planet>
-			<id>PSR B1620-26 b</id>
 			<name>PSR B1620-26 b</name>
 			<list>Confirmed planets</list>
+			<list>Circumbinary planets</list>
 			<mass>2.5</mass>
-			<radius />
 			<period>36525</period>
 			<semimajoraxis>23</semimajoraxis>
-			<eccentricity />
-			<inclination />
-			<periastron />
-			<longitude />
-			<description />
+			<description>PSR B1620-26 b is a circum-binary planet. It is orbiting a pulsar and a white dwarf in the globular cluster M4. The cluster is estimated to be 12.2 billion years old.</description>
 			<discoverymethod>timing</discoverymethod>
-			<lastupdate>10/12/23</lastupdate>
+			<lastupdate>12/11/27</lastupdate>
 			<discoveryyear>1994</discoveryyear>
 			<new>0</new>
-			<image />
-			<imagedescription />
+			<name>PSR B1620-26 (AB) b</name>
 		</planet>
-		<id>PSR B1620-26</id>
-	</star>
+	</binary>
 </system>

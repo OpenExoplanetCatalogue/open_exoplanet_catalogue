@@ -1,19 +1,14 @@
 <system>
-	<id>WASP-44</id>
 	<name>WASP-44</name>
 	<rightascension>00 15 37</rightascension>
 	<declination>-11 56 17</declination>
-	<distance />
 	<star>
-		<name />
 		<mass>0.951</mass>
 		<radius>0.927</radius>
-		<temperature />
 		<magV>12.9</magV>
 		<metallicity>0.06</metallicity>
 		<spectraltype>G8V</spectraltype>
 		<planet>
-			<id>WASP-44 b</id>
 			<name>WASP-44 b</name>
 			<name>2MASS J00153675-1156172 b</name>
 			<list>Confirmed planets</list>
@@ -23,16 +18,12 @@
 			<semimajoraxis>0.03473</semimajoraxis>
 			<eccentricity>0.0</eccentricity>
 			<inclination>86.02</inclination>
-			<periastron />
-			<longitude />
 			<description>WASP-44 b is a sub-Jupiter mass planet in a 2.42 day orbit around a G8V star. It was discovered by the WASP collaboration and published in a paper by Anderson et al. (2011).</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>11/05/17</lastupdate>
 			<discoveryyear>2011</discoveryyear>
 			<new>0</new>
-			<image />
-			<imagedescription />
 		</planet>
-		<id>WASP-44</id>
+		<name>WASP-44</name>
 	</star>
 </system>

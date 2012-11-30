@@ -1,19 +1,14 @@
 <system>
-	<id>HAT-P-35</id>
 	<name>HAT-P-35</name>
 	<rightascension>08 13 00</rightascension>
 	<declination>+04 47 13</declination>
 	<distance>535</distance>
 	<star>
-		<name />
 		<mass>1.236</mass>
 		<radius>1.435</radius>
-		<temperature />
 		<magV>12.46</magV>
 		<metallicity>0.11</metallicity>
-		<spectraltype />
 		<planet>
-			<id>HAT-P-35 b</id>
 			<name>HAT-P-35 b</name>
 			<name>2MASS 08130018+0447132</name>
 			<list>Confirmed planets</list>
@@ -23,16 +18,12 @@
 			<semimajoraxis>0.0498</semimajoraxis>
 			<eccentricity>0.025</eccentricity>
 			<inclination>87.3</inclination>
-			<periastron />
-			<longitude />
 			<description>HAT-P-35 b is a transiting planet that has been discovered by the HATNet collaboration. HATNet is a ground-based survey using standard telephoto lenses such as the Canon 11cm diameter f/1.8L. </description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/01/04</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<new>0</new>
-			<image />
-			<imagedescription />
 		</planet>
-		<id>HAT-P-35</id>
+		<name>HAT-P-35</name>
 	</star>
 </system>

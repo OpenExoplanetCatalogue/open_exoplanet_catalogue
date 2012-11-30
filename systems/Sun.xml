@@ -1,19 +1,11 @@
 <system>
-	<id>Sun</id>
 	<name>Sun</name>
-	<rightascension />
-	<declination />
-	<distance />
 	<star>
-		<name />
 		<mass>1</mass>
 		<radius>1</radius>
-		<temperature />
-		<magV />
 		<metallicity>0.00000001</metallicity>
 		<spectraltype>G2V</spectraltype>
 		<planet>
-			<id>Mercury</id>
 			<name>Mercury</name>
 			<name>Sun b</name>
 			<list>Solar System</list>
@@ -27,15 +19,9 @@
 			<ascendingnode>48.33</ascendingnode>
 			<longitude>252.25</longitude>
 			<description>Mercury is the innermost planet in the Solar System.</description>
-			<discoverymethod />
 			<lastupdate>12/01/01</lastupdate>
-			<discoveryyear />
-			<new />
-			<image />
-			<imagedescription />
 		</planet>
 		<planet>
-			<id>Venus</id>
 			<name>Venus</name>
 			<name>Sun c</name>
 			<list>Solar System</list>
@@ -49,15 +35,9 @@
 			<ascendingnode>76.68</ascendingnode>
 			<longitude>181.98</longitude>
 			<description>Venus is the second planet from the Sun.</description>
-			<discoverymethod />
 			<lastupdate>12/01/01</lastupdate>
-			<discoveryyear />
-			<new />
-			<image />
-			<imagedescription />
 		</planet>
 		<planet>
-			<id>Earth</id>
 			<name>Earth</name>
 			<name>Sun d</name>
 			<list>Solar System</list>
@@ -71,15 +51,9 @@
 			<ascendingnode>-5.11</ascendingnode>
 			<longitude>100.45</longitude>
 			<description>Earth is the only known planet able to sustain life.</description>
-			<discoverymethod />
 			<lastupdate>12/01/01</lastupdate>
-			<discoveryyear />
-			<new />
-			<image />
-			<imagedescription />
 		</planet>
 		<planet>
-			<id>Mars</id>
 			<name>Mars</name>
 			<name>Sun e</name>
 			<list>Solar System</list>
@@ -93,15 +67,9 @@
 			<ascendingnode>49.7</ascendingnode>
 			<longitude>-4.56</longitude>
 			<description>Mars is named after the Roman god of war and often called the red planet.</description>
-			<discoverymethod />
 			<lastupdate>12/01/01</lastupdate>
-			<discoveryyear />
-			<new />
-			<image />
-			<imagedescription />
 		</planet>
 		<planet>
-			<id>Jupiter</id>
 			<name>Jupiter</name>
 			<name>Sun f</name>
 			<list>Solar System</list>
@@ -115,15 +83,9 @@
 			<ascendingnode>100.29</ascendingnode>
 			<longitude>34.33</longitude>
 			<description>Jupiter is two and a half times the mass of all the other planets in the Solar System.</description>
-			<discoverymethod />
 			<lastupdate>12/01/01</lastupdate>
-			<discoveryyear />
-			<new />
-			<image />
-			<imagedescription />
 		</planet>
 		<planet>
-			<id>Saturn</id>
 			<name>Saturn</name>
 			<name>Sun g</name>
 			<list>Solar System</list>
@@ -137,15 +99,9 @@
 			<ascendingnode>113.64</ascendingnode>
 			<longitude>50.07</longitude>
 			<description>Saturn is best known for its extensive ring system.</description>
-			<discoverymethod />
 			<lastupdate>12/01/01</lastupdate>
-			<discoveryyear />
-			<new />
-			<image />
-			<imagedescription />
 		</planet>
 		<planet>
-			<id>Uranus</id>
 			<name>Uranus</name>
 			<name>Sun h</name>
 			<list>Solar System</list>
@@ -159,15 +115,10 @@
 			<ascendingnode>73.96</ascendingnode>
 			<longitude>314.20</longitude>
 			<description>Uranus is visible with the naked eye but has never been recognized as a planet by ancient observers.</description>
-			<discoverymethod />
 			<lastupdate>12/01/01</lastupdate>
 			<discoveryyear>1781</discoveryyear>
-			<new />
-			<image />
-			<imagedescription />
 		</planet>
 		<planet>
-			<id>Neptune</id>
 			<name>Neptune</name>
 			<name>Sun i</name>
 			<list>Solar System</list>
@@ -181,15 +132,10 @@
 			<ascendingnode>131.78</ascendingnode>
 			<longitude>304.22</longitude>
 			<description>Neptune is the fourth largest planet in the Solar System.</description>
-			<discoverymethod />
 			<lastupdate>12/01/01</lastupdate>
 			<discoveryyear>1846</discoveryyear>
-			<new />
-			<image />
-			<imagedescription />
 		</planet>
 		<planet>
-			<id>Pluto</id>
 			<name>Pluto</name>
 			<name>Sun j</name>
 			<list>Solar System</list>
@@ -203,13 +149,9 @@
 			<ascendingnode>110.30</ascendingnode>
 			<longitude>238.96</longitude>
 			<description>Pluto is officially categorized as a minor planet by the International Astronomical Union.</description>
-			<discoverymethod />
 			<lastupdate>12/01/01</lastupdate>
 			<discoveryyear>1930</discoveryyear>
-			<new />
-			<image />
-			<imagedescription />
 		</planet>
-		<id>Sun</id>
+		<name>Sun</name>
 	</star>
 </system>

@@ -1,37 +1,27 @@
 <system>
-	<id>HD 166724</id>
 	<name>HD 166724</name>
 	<rightascension>18 14 00</rightascension>
 	<declination>-42 34 31</declination>
 	<distance>42.3</distance>
 	<star>
-		<name />
-		<mass />
-		<radius />
-		<temperature />
 		<magV>9.31</magV>
-		<metallicity />
 		<spectraltype>K0IV</spectraltype>
+		<mass>0.81</mass>
+		<age>4.0</age>
+		<metallicity>-0.09</metallicity>
 		<planet>
-			<id>HD 166724 b</id>
 			<name>HD 166724 b</name>
 			<list>Confirmed planets</list>
-			<mass>4.12</mass>
-			<radius />
-			<period>8100</period>
-			<semimajoraxis />
-			<eccentricity>0.77</eccentricity>
-			<inclination />
-			<periastron />
-			<longitude />
-			<description />
+			<mass>3.53</mass>
+			<semimajoraxis>5.42</semimajoraxis>
+			<period>5144</period>
+			<eccentricity>0.734</eccentricity>
+			<periastron>202</periastron>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>11/09/13</lastupdate>
+			<lastupdate>12/11/29</lastupdate>
 			<discoveryyear>2011</discoveryyear>
 			<new>0</new>
-			<image />
-			<imagedescription />
 		</planet>
-		<id>HD 166724</id>
+		<name>HD 166724</name>
 	</star>
 </system>

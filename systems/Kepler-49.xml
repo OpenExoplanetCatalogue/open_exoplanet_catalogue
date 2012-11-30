@@ -1,20 +1,13 @@
 <system>
-	<id>Kepler-49</id>
 	<name>Kepler-49</name>
 	<rightascension>19 29 10</rightascension>
 	<declination>+40 35 30</declination>
 	<distance>304.47
 </distance>
 	<star>
-		<name />
 		<mass>0.55</mass>
 		<radius>0.53</radius>
-		<temperature />
-		<magV />
-		<metallicity />
-		<spectraltype />
 		<planet>
-			<id>Kepler-49 b</id>
 			<name>Kepler-49 b</name>
 			<name>KOI 248.01</name>
 			<name>KID 5364071</name>
@@ -22,21 +15,13 @@
 			<mass>0.024713</mass>
 			<radius>0.247874</radius>
 			<period>7.2037945</period>
-			<semimajoraxis />
-			<eccentricity />
-			<inclination />
-			<periastron />
-			<longitude />
 			<description>This planet candidate was discovered by the Kepler spacecraft. It transits its host star every 7.20 days for 2.9766 hours. Periodic transit timing variations confirm its planetary nature.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/08/19</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<new>0</new>
-			<image />
-			<imagedescription />
 		</planet>
 		<planet>
-			<id>Kepler-49 c</id>
 			<name>Kepler-49 c</name>
 			<name>KOI 248.02</name>
 			<name>KID 5364071</name>
@@ -44,19 +29,12 @@
 			<mass>0.021637</mass>
 			<radius>0.232382</radius>
 			<period>10.9129343</period>
-			<semimajoraxis />
-			<eccentricity />
-			<inclination />
-			<periastron />
-			<longitude />
 			<description>This planet candidate was discovered by the Kepler spacecraft. It transits its host star every 10.91 days for 2.8577 hours. Periodic transit timing variations confirm its planetary nature.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/08/19</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<new>0</new>
-			<image />
-			<imagedescription />
 		</planet>
-		<id>Kepler-49</id>
+		<name>Kepler-49</name>
 	</star>
 </system>

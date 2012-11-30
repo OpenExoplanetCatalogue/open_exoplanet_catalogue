@@ -1,71 +1,47 @@
 <system>
-	<id>NSVS 14256825</id>
 	<name>NSVS 14256825</name>
 	<name>2MASS J20200045+0437564</name>
 	<rightascension>20 20 00</rightascension>
 	<declination>+04 37 56</declination>
-	<distance></distance>
 	<binary>
 		<period>0.110341681</period>
 		<star>
-			<id>NSVS 14256825 A</id>
-			<name />
 			<mass>0.419</mass>
 			<radius>0.190</radius>
-			<temperature />
-			<magV></magV>
-			<metallicity></metallicity>
-			<spectraltype></spectraltype>
+			<name>NSVS 14256825 A</name>
 		</star>
 		<star>
-			<id>NSVS 14256825 B</id>
-			<name />
 			<mass>0.109</mass>
 			<radius>0.151</radius>
-			<temperature />
-			<magV></magV>
-			<metallicity></metallicity>
-			<spectraltype></spectraltype>
+			<name>NSVS 14256825 B</name>
 		</star>
 		<planet>
-			<id>NSVS 14256825 c</id>
 			<name>NSVS 14256825 c</name>
 			<list>Confirmed planets</list>
+			<list>Circumbinary planets</list>
 			<mass>2.8</mass>
-			<radius />
 			<period>1276</period>
 			<semimajoraxis>1.9</semimajoraxis>
 			<eccentricity>0.0</eccentricity>
-			<inclination />
-			<periastron />
-			<longitude />
 			<description>NSVS 14256825 is an HW Vir type binary which consists of a hot subdwarf and a main-sequence low-mass star in a close orbit.</description>
 			<discoverymethod>timing</discoverymethod>
 			<lastupdate>12/11/12</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<new>0</new>
-			<image />
-			<imagedescription />
 		</planet>
 		<planet>
-			<id>NSVS 14256825 d</id>
 			<name>NSVS 14256825 d</name>
 			<list>Confirmed planets</list>
+			<list>Circumbinary planets</list>
 			<mass>8</mass>
-			<radius />
 			<period>2506</period>
 			<semimajoraxis>2.9</semimajoraxis>
 			<eccentricity>0.52</eccentricity>
-			<inclination />
-			<periastron />
-			<longitude />
 			<description>NSVS 14256825 is an HW Vir type binary which consists of a hot subdwarf and a main-sequence low-mass star in a close orbit.</description>
 			<discoverymethod>timing</discoverymethod>
 			<lastupdate>12/11/12</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<new>0</new>
-			<image />
-			<imagedescription />
 		</planet>
 	</binary>
 </system>

@@ -1,19 +1,15 @@
 <system>
-	<id>CoRoT-7</id>
 	<name>CoRoT-7</name>
 	<rightascension>06 43 49</rightascension>
 	<declination>-01 03 46</declination>
 	<distance>150</distance>
 	<star>
-		<name />
 		<mass>0.93</mass>
 		<radius>0.87</radius>
-		<temperature />
 		<magV>11.7</magV>
 		<metallicity>0.03</metallicity>
 		<spectraltype>K0V</spectraltype>
 		<planet>
-			<id>CoRoT-7 b</id>
 			<name>CoRoT-7 b</name>
 			<name>CoRoT-Exo-7 b</name>
 			<name>CoRoTID 102708694 b</name>
@@ -24,38 +20,27 @@
 			<semimajoraxis>0.0172</semimajoraxis>
 			<eccentricity>0.0</eccentricity>
 			<inclination>80.1</inclination>
-			<periastron />
-			<longitude />
 			<description>CoRoT 7 is a G-type star in the constellation Monoceros. The planet CoRoR 7b was the first rocky planet found. However, due to its high temperature the planet might be covered in lava.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>10/10/15</lastupdate>
 			<discoveryyear>2009</discoveryyear>
 			<new>0</new>
-			<image />
-			<imagedescription />
 		</planet>
 		<planet>
-			<id>CoRoT-7 c</id>
 			<name>CoRoT-7 c</name>
 			<name>CoRoT-Exo-7 c</name>
 			<name>CoRoTID 102708694 c</name>
 			<list>Confirmed planets</list>
 			<mass>0.0264</mass>
-			<radius />
 			<period>3.698</period>
 			<semimajoraxis>0.046</semimajoraxis>
 			<eccentricity>0.0</eccentricity>
-			<inclination />
-			<periastron />
-			<longitude />
 			<description>The star CoRoT 7c is a G-type star in the constellation Monoceros. The planet is not transiting.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>10/10/15</lastupdate>
 			<discoveryyear>2009</discoveryyear>
 			<new>0</new>
-			<image />
-			<imagedescription />
 		</planet>
-		<id>CoRoT-7</id>
+		<name>CoRoT-7</name>
 	</star>
 </system>

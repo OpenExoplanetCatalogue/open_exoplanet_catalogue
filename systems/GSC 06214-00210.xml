@@ -1,30 +1,16 @@
 <system>
-	<id>GSC 06214-00210</id>
 	<name>GSC 06214-00210</name>
 	<rightascension>16 21 55</rightascension>
 	<declination>-20 43 07</declination>
 	<distance>145</distance>
 	<star>
-		<name />
 		<mass>0.6</mass>
-		<radius />
-		<temperature />
-		<magV />
-		<metallicity />
 		<spectraltype>M1</spectraltype>
 		<planet>
-			<id>GSC 06214-00210 b</id>
 			<name>GSC 06214-00210 b</name>
 			<list>Confirmed planets</list>
 			<mass>17</mass>
-			<radius />
-			<period />
 			<semimajoraxis>320</semimajoraxis>
-			<eccentricity />
-			<inclination />
-			<periastron />
-			<longitude />
-			<description />
 			<discoverymethod>imaging</discoverymethod>
 			<lastupdate>11/12/14</lastupdate>
 			<discoveryyear>2010</discoveryyear>
@@ -32,6 +18,6 @@
 			<image>GSC 06214-00210</image>
 			<imagedescription>This image shows the star GSC 06214-00210 and its planetary mass companion. Credit: Michael Ireland (Macquarie University)</imagedescription>
 		</planet>
-		<id>GSC 06214-00210</id>
+		<name>GSC 06214-00210</name>
 	</star>
 </system>

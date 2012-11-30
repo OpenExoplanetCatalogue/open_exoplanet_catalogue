@@ -1,0 +1,40 @@
+#!/usr/bin/python
+import xml.etree.ElementTree as ET, glob
+
+# Nicely indents the XML output 
+def indent(elem, level=0):
+    i = "\n" + level*"\t"
+    if len(elem):
+        if not elem.text or not elem.text.strip():
+            elem.text = i + "\t"
+        if not elem.tail or not elem.tail.strip():
+            elem.tail = i
+        for elem in elem:
+            indent(elem, level+1)
+        if not elem.tail or not elem.tail.strip():
+            elem.tail = i
+    else:
+        if level and (not elem.tail or not elem.tail.strip()):
+            elem.tail = i
+
+# Removes empty nodes from the tree
+def removeemptytags(elem):
+	toberemoved= []
+	for child in elem:
+		if len(child)==0 and child.text==None:
+			toberemoved.append(child)
+	for child in toberemoved:
+		elem.remove(child)
+	for child in elem:
+		removeemptytags(child)
+
+# Loop over all files and  create new data
+for filename in glob.glob("systems*/*.xml"):
+	print "Working on file '"+filename+"'."
+	f = open(filename, 'rt')
+	root = ET.parse(f).getroot()
+	f.close()
+	removeemptytags(root)
+	indent(root)
+	ET.ElementTree(root).write(filename) 
+

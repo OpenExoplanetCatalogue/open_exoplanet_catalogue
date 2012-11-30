@@ -1,13 +1,10 @@
 <system>
-	<id>Kappa Andromedae</id>
 	<name>Kappa Andromedae</name>
 	<name>Kappa And</name>
 	<rightascension>23 40 25</rightascension>
 	<declination>+44 20 02</declination>
 	<distance>51.6</distance>
 	<star>
-		<id>Kappa Andromedae</id>
-		<name />
 		<mass>2.4</mass>
 		<radius>2.31</radius>
 		<temperature>11361</temperature>
@@ -15,26 +12,21 @@
 		<metallicity>-0.36</metallicity>
 		<spectraltype>B9IV</spectraltype>
 		<planet>
-			<id>Kappa Andromedae b</id>
 			<name>Kappa And b</name>
 			<list>Confirmed planets</list>
 			<mass>12.8</mass>
-			<radius />
-			<period></period>
 			<semimajoraxis>61</semimajoraxis>
-			<eccentricity></eccentricity>
-			<inclination />
-			<periastron />
-			<longitude />
 			<description>Kappa Andromedae b is an extrasolar planet or possibly low-mass brown dwarf. Astronomers have directly imaged it using the Subaru telescope on Hawaii. An object is called a planet when it is not able to fuse hydrogen in its core. Kappa Andromedae b is very close to the theoretical limit of 13 Jupiter masses.</description>
 			<discoverymethod>imaging</discoverymethod>
 			<lastupdate>12/11/19</lastupdate>
 			<discoveryyear>2012</discoveryyear>
-			<new>1</new>
+			<new>0</new>
 			<image>KappaAndromedae</image>
 			<imagedescription>Image of the star Kappa Andromedae and the planet or brown dwarf Kappa Andromedae (top left). 
 			
 Credit: J. Carson et al 2012.</imagedescription>
+			<name>Kappa Andromedae b</name>
 		</planet>
+		<name>Kappa Andromedae</name>
 	</star>
 </system>

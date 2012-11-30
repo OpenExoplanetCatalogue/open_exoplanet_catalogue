@@ -1,19 +1,14 @@
 <system>
-	<id>HAT-P-12</id>
 	<name>HAT-P-12</name>
 	<rightascension>13 57 34</rightascension>
 	<declination>+43 29 37</declination>
 	<distance>142.5</distance>
 	<star>
-		<name />
 		<mass>0.73</mass>
 		<radius>0.7</radius>
-		<temperature />
 		<magV>12.84</magV>
 		<metallicity>-0.29</metallicity>
-		<spectraltype />
 		<planet>
-			<id>HAT-P-12 b</id>
 			<name>HAT-P-12 b</name>
 			<name>2MASS J13573347+4329367 b</name>
 			<list>Confirmed planets</list>
@@ -22,17 +17,12 @@
 			<period>3.2130598</period>
 			<semimajoraxis>0.0384</semimajoraxis>
 			<eccentricity>0.0</eccentricity>
-			<inclination />
-			<periastron />
-			<longitude />
 			<description>The planet hosting star HAT-P-12 is located in the constallation Canes Venatici.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>09/05/04</lastupdate>
 			<discoveryyear>2009</discoveryyear>
 			<new>0</new>
-			<image />
-			<imagedescription />
 		</planet>
-		<id>HAT-P-12</id>
+		<name>HAT-P-12</name>
 	</star>
 </system>

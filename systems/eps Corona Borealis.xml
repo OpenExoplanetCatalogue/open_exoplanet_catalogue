@@ -1,11 +1,9 @@
 <system>
-	<id>eps Corona Borealis</id>
 	<name>eps Corona Borealis</name>
 	<rightascension>15 57 35</rightascension>
 	<declination>+26 52 40</declination>
 	<distance>67.9</distance>
 	<star>
-		<name />
 		<mass>1.7</mass>
 		<radius>21</radius>
 		<temperature>4406</temperature>
@@ -13,28 +11,21 @@
 		<metallicity>-0.094</metallicity>
 		<spectraltype>K2 III</spectraltype>
 		<planet>
-			<id>eps Corona Borealis b</id>
 			<name>eps Corona Borealis b</name>
 			<name>HD 143107 b</name>
 			<name>HR 5947 b</name>
 			<name>HIP 78159 b</name>
 			<list>Confirmed planets</list>
 			<mass>6.7</mass>
-			<radius />
 			<period>417.9</period>
 			<semimajoraxis>1.3</semimajoraxis>
 			<eccentricity>0.11</eccentricity>
-			<inclination />
-			<periastron />
-			<longitude />
 			<description>Radial velocity measurements for eps CrB exhibit periodic variation of 417 days with an amplitude of 129 meter per second. The minimum mass for the planetary companion is 6.7 Jupiter masses. </description>
 			<discoverymethod>RV</discoverymethod>
 			<lastupdate>12/09/08</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<new>0</new>
-			<image />
-			<imagedescription />
 		</planet>
-		<id>eps Corona Boreal</id>
+		<name>eps Corona Boreal</name>
 	</star>
 </system>

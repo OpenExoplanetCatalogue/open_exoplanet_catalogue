@@ -1,19 +1,15 @@
 <system>
-	<id>HAT-P-2</id>
 	<name>HAT-P-2</name>
 	<rightascension>16 20 36</rightascension>
 	<declination>+41 02 53</declination>
 	<distance>118</distance>
 	<star>
-		<name />
 		<mass>1.36</mass>
 		<radius>1.64</radius>
-		<temperature />
 		<magV>8.71</magV>
 		<metallicity>0.14</metallicity>
 		<spectraltype>F8</spectraltype>
 		<planet>
-			<id>HAT-P-2 b</id>
 			<name>HAT-P-2 b</name>
 			<name>HIP 80076 b</name>
 			<name>TYC 3065-01195-1 b</name>
@@ -28,16 +24,12 @@
 			<semimajoraxis>0.0674</semimajoraxis>
 			<eccentricity>0.5171</eccentricity>
 			<inclination>90</inclination>
-			<periastron />
-			<longitude />
 			<description>The star HAT-P-2 is located in the constellation Hercules and is between 2 and 3 billion years old.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/07/05</lastupdate>
 			<discoveryyear>2007</discoveryyear>
 			<new>0</new>
-			<image />
-			<imagedescription />
 		</planet>
-		<id>HAT-P-2</id>
+		<name>HAT-P-2</name>
 	</star>
 </system>

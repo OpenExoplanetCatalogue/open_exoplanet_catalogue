@@ -1,5 +1,4 @@
 <system>
-	<id>HW Vir</id>
 	<name>HW Vir</name>
 	<rightascension>12 44 20</rightascension>
 	<declination>-08 40 17</declination>
@@ -11,51 +10,40 @@
 			<semimajoraxis>0.00399833</semimajoraxis>
 			<period>0.1167</period>
 			<star>
-				<id>HW Vir A</id>
-				<name />
 				<mass>0.485</mass>
 				<radius>0.183</radius>
 				<temperature>28488</temperature>
 				<magV>4.22</magV>
-				<metallicity />
 				<spectraltype>sdB+M</spectraltype>
+				<name>HW Vir A</name>
 			</star>
 			<star>
-				<id>HW Vir B</id>
-				<name />
 				<mass>0.142</mass>
 				<radius>0.175</radius>
 				<temperature>3084</temperature>
 				<magV>15.59</magV>
-				<metallicity />
 				<spectraltype>sdB+M</spectraltype>
+				<name>HW Vir B</name>
 			</star>
 			<planet>
-				<id>HW Vir (AB) b</id>
 				<name>HW Vir (AB) b</name>
+				<name>HW Virginis (AB) b</name>
 				<list>Confirmed planets</list>
+				<list>Circumbinary planets</list>
 				<mass>14.3</mass>
-				<radius />
 				<period>4640</period>
 				<semimajoraxis>4.69</semimajoraxis>
 				<eccentricity>0.4</eccentricity>
-				<inclination />
-				<periastron />
-				<longitude />
 				<description>HW Virginis is an eclipsing binary (Algol type). The cirbumbinary planet HW Vir (AB) has been detected by timing ariation. An additional object orbits the binary every 16 years. With almost 20 Jupiter masses it is classified as a brown dwarf. </description>
 				<discoverymethod>timing</discoverymethod>
 				<lastupdate>12/11/24</lastupdate>
 				<discoveryyear>2008</discoveryyear>
 				<new>0</new>
-				<image />
-				<imagedescription />
 			</planet>
 		</binary>
 		<star>
-			<id>HW Vir (AB) C</id>
-			<name />
 			<mass>0.01861844</mass>
-			<metallicity />
+			<name>HW Vir (AB) C</name>
 		</star>
 	</binary>
 </system>
