@@ -13,7 +13,16 @@ Documentation
 --------------
 [This file](https://raw.github.com/hannorein/open_exoplanet_catalogue/master/oec_paper.pdf) describes the philosophy and data-format of the catalogue. However, everything should be rather self-explanatory. The actual data is in the `systems` directory. Each xml file corresponds to one planetary system. 
 
-Derived Products
+
+How to include references to publications
+--------------
+It seems that the most elegant place to put references to publications is the commit message.
+This allows one to trace back each individual value in the database to the source using `git blame`. 
+Furthermore it does not add any additional clutter to the text files themselves.
+So, when committing any changes, please create one commit per publication and include the reference in the commit message from now on.
+
+
+Derived products
 --------------
 The following list contains links to other catalogues, websites and apps that are derived from or make use of the Open Exoplanet Catalogue.
 
