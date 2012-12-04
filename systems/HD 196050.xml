@@ -2,25 +2,47 @@
 	<name>HD 196050</name>
 	<rightascension>20 37 51</rightascension>
 	<declination>-60 38 04</declination>
-	<distance>46.9</distance>
-	<star>
-		<mass>1.17</mass>
-		<radius>1.29</radius>
-		<magV>7.5</magV>
-		<metallicity>0.23</metallicity>
-		<spectraltype>G3 V</spectraltype>
-		<planet>
-			<name>HD 196050 b</name>
-			<list>Confirmed planets</list>
-			<mass>2.83</mass>
-			<period>1316.24</period>
-			<semimajoraxis>2.47</semimajoraxis>
-			<eccentricity>0.21</eccentricity>
-			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/12/22</lastupdate>
-			<discoveryyear>2002</discoveryyear>
-			<new>0</new>
-		</planet>
-		<name>HD 196050</name>
-	</star>
+	<distance>46.93</distance>
+	<binary>
+		<semimajoraxis>501</semimajoraxis>
+		<star>
+			<name>HD 196050 A</name>
+			<name>HIP 101806</name>
+			<mass>1.17</mass>
+			<radius>1.29</radius>
+			<magV>7.5</magV>
+			<age>3.55</age>
+			<metallicity>0.23</metallicity>
+			<spectraltype>G3 V</spectraltype>
+			<planet>
+				<name>HD 196050 A b</name>
+				<name>HD 196050 b</name>
+				<name>HIP 101806 b</name>
+				<list>Confirmed planets</list>
+				<mass>2.83</mass>
+				<period>1316.24</period>
+				<semimajoraxis>2.47</semimajoraxis>
+				<eccentricity>0.21</eccentricity>
+				<discoverymethod>RV</discoverymethod>
+				<lastupdate>12/12/04</lastupdate>
+				<discoveryyear>2002</discoveryyear>
+				<new>0</new>
+			</planet>
+		</star>
+		<binary>
+			<semimajoraxis>19.7</semimajoraxis>
+			<star>
+				<name>HD 196050 Ba</name>
+				<mass>0.29</mass>
+				<spectraltype>M3</spectraltype>
+				<age>3.55</age>
+			</star>
+			<star>
+				<name>HD 196050 Bb</name>
+				<mass>0.19</mass>
+				<spectraltype>M3.5</spectraltype>
+				<age>3.55</age>
+			</star>
+		</binary>
+	</binary>
 </system>
