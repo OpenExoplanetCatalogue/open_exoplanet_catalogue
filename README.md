@@ -13,8 +13,9 @@ When I started this project, it was an experiment. I didn't know much about git 
 Plots
 -------------
 ![Mass vs semi-major axis](https://raw.github.com/hannorein/oec_plots/master/plot_mass_vs_semimajoraxis_discovery.svg.png "Plot")
+![Architecture](https://raw.github.com/hannorein/oec_plots/master/plot_architecture.svg.png "Plot")
 
-To create custom plots check out [this repository](https://github.com/hannorein/oec_plots) for example scripts.
+To create custom plots please visit [this repository](https://github.com/hannorein/oec_plots) for example scripts.
 
 
 Documentation
