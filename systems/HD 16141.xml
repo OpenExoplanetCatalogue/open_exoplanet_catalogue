@@ -1,30 +1,43 @@
 <system>
 	<name>HD 16141</name>
+	<name>79 Ceti</name>
 	<rightascension>02 35 19</rightascension>
 	<declination>-03 33 38</declination>
 	<distance>35.9</distance>
-	<star>
-		<mass>1.01</mass>
-		<radius>1</radius>
-		<magV>6.78</magV>
-		<metallicity>0.02</metallicity>
-		<spectraltype>G5 IV</spectraltype>
-		<planet>
-			<name>HD 16141 b</name>
-			<list>Confirmed planets</list>
-			<mass>0.215</mass>
-			<period>75.82</period>
-			<semimajoraxis>0.35</semimajoraxis>
-			<eccentricity>0.28</eccentricity>
-			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/12/29</lastupdate>
-			<discoveryyear>2000</discoveryyear>
-			<image>HD16141</image>
-			<imagedescription>An artist's conception of the planet around HD 16141. 
-		
-			Credit: Greg Bacon (STScI), NASA </imagedescription>
-			<new>0</new>
-		</planet>
-		<name>HD 16141</name>
-	</star>
+	<binary>
+		<semimajoraxis>223</semimajoraxis>
+		<star>
+			<name>HD 16141 A</name>
+			<name>79 Ceti</name>
+			<mass>1.01</mass>
+			<radius>1</radius>
+			<magV>6.78</magV>
+			<metallicity>0.02</metallicity>
+			<spectraltype>G5 IV</spectraltype>
+			<planet>
+				<name>HD 16141 A b</name>
+				<name>79 Ceti b</name>
+				<name>HD 16141 b</name>
+				<list>Confirmed planets</list>
+				<mass>0.215</mass>
+				<period>75.82</period>
+				<semimajoraxis>0.35</semimajoraxis>
+				<eccentricity>0.28</eccentricity>
+				<discoverymethod>RV</discoverymethod>
+				<lastupdate>12/12/04</lastupdate>
+				<discoveryyear>2000</discoveryyear>
+				<description>The planet HD16141 was the first known planet with a minimum mass less than that of Saturn. The star has a stellar companion at a projected distance of 223 astronomical units.</description>
+				<image>HD16141</image>
+				<imagedescription>An artist's conception of the planet around HD 16141. 
+			
+				Credit: Greg Bacon (STScI), NASA </imagedescription>
+				<new>0</new>
+			</planet>
+		</star>
+		<star>
+			<name>HD 16141 B</name>
+			<mass>0.31</mass>
+			<spectraltype>M2.5</spectraltype>
+		</star>
+	</binary>
 </system>
