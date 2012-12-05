@@ -3,24 +3,34 @@
 	<rightascension>06 33 12</rightascension>
 	<declination>+05 27 46</declination>
 	<distance>33.4</distance>
-	<star>
-		<mass>0.91</mass>
-		<radius>1</radius>
-		<magV>7.94</magV>
-		<metallicity>0.24</metallicity>
-		<spectraltype>K1 IV</spectraltype>
-		<planet>
-			<name>HD 46375 b</name>
-			<list>Confirmed planets</list>
-			<mass>0.249</mass>
-			<period>3.024</period>
-			<semimajoraxis>0.041</semimajoraxis>
-			<eccentricity>0.04</eccentricity>
-			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/12/20</lastupdate>
-			<discoveryyear>2000</discoveryyear>
-			<new>0</new>
-		</planet>
-		<name>HD 46375</name>
-	</star>
+	<binary>
+		<semimajoraxis>345</semimajoraxis>
+		<star>
+			<name>HD 46375 A</name>
+			<mass>0.91</mass>
+			<radius>1</radius>
+			<magV>7.94</magV>
+			<metallicity>0.24</metallicity>
+			<spectraltype>K1 IV</spectraltype>
+			<planet>
+				<name>HD 46375 A b</name>
+				<name>HD 46375 b</name>
+				<list>Confirmed planets</list>
+				<mass>0.249</mass>
+				<period>3.024</period>
+				<semimajoraxis>0.041</semimajoraxis>
+				<eccentricity>0.04</eccentricity>
+				<discoverymethod>RV</discoverymethod>
+				<lastupdate>12/12/04</lastupdate>
+				<discoveryyear>2000</discoveryyear>
+				<description>This star is on its way to becoming a red giant. It is considerably older than the sun. It has a stellar companion at a distance of 345 astronomical units.</description>
+				<new>0</new>
+			</planet>
+		</star>
+		<star>
+			<name>HD 46375 B</name>
+			<mass>0.58</mass>
+			<spectraltype>K9.5-M1.5</spectraltype>
+		</star>
+	</binary>
 </system>
