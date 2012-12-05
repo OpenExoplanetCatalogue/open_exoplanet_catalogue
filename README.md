@@ -9,6 +9,14 @@ The catalogue is maintained by Hanno Rein, Institute for Advanced Study, Princet
 
 When I started this project, it was an experiment. I didn't know much about git and made a couple of stupid mistakes. The biggest mistake was to include many derived files (e.g. resized images and compressed gz files) in the repository. Whenever a single line in the catalogue was changed, those binary files changed as well. This increased the size of the repository dramatically. I therefore decided to rewrite history on November 29th 2012. I removed all derived files from the repository  and only kept the actual planet data (what is now in the systems directory). You can still access the old repository with all files [here](https://github.com/hannorein/oec_old) if you wish to do so. Note that the size of that repository is about 50 times larger (500MB compared to 10MB). 
 
+
+Plots
+-------------
+![Mass vs semi-major axis](https://raw.github.com/hannorein/oec_plots/master/plot_mass_vs_semimajoraxis_discovery.svg.png "Plot")
+
+To create custom plots check out [this repository](https://github.com/hannorein/oec_plots) for example scripts.
+
+
 Documentation
 --------------
 [This file](https://raw.github.com/hannorein/open_exoplanet_catalogue/master/oec_paper.pdf) describes the philosophy and data-format of the catalogue. However, everything should be rather self-explanatory. The actual data is in the `systems` directory. Each xml file corresponds to one planetary system. 
@@ -28,6 +36,7 @@ Derived products
 --------------
 The following list contains links to other catalogues, websites and apps that are derived from or make use of the Open Exoplanet Catalogue.
 
+ * [oec_plots](https://github.com/hannorein/oec_plots): Plots and example scripts that make use of the Open Exoplanet Catalogue.
  * [oec_iphone](https://github.com/hannorein/oec_iphone): Compressed files, references to refereed publications, resized images and legacy support for various versions of the mobile version are in the repository.
  * [Visual Exoplanet Catalogue](http://exoplanet.hanno-rein.de): Website with various visualizations of orbits, planet sizes and habitable zones. It also includes a plotting tool to generate correlation diagrams. Note that this website does not fully support binary star systems yet.
  * [iPhone Exoplanet App](http://exoplanetapp.com): Popular iOS application with many visualizations of the entire catalogue. Version 9.1 and later will fully support planets in multiple star systems.
