@@ -3,24 +3,34 @@
 	<rightascension>13 12 44</rightascension>
 	<declination>-31 52 24</declination>
 	<distance>35</distance>
-	<star>
-		<mass>0.93</mass>
-		<radius>1.46</radius>
-		<magV>6.69</magV>
-		<metallicity>-0.22</metallicity>
-		<spectraltype>G3 V</spectraltype>
-		<planet>
-			<name>HD 114729 b</name>
-			<list>Confirmed planets</list>
-			<mass>0.84</mass>
-			<period>1135</period>
-			<semimajoraxis>2.08</semimajoraxis>
-			<eccentricity>0.32</eccentricity>
-			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/12/29</lastupdate>
-			<discoveryyear>2002</discoveryyear>
-			<new>0</new>
-		</planet>
-		<name>HD 114729</name>
-	</star>
+	<binary>
+		<semimajoraxis>282</semimajoraxis>
+		<star>
+			<name>HD 114729 A</name>
+			<mass>0.93</mass>
+			<radius>1.46</radius>
+			<magV>6.69</magV>
+			<age>6</age>
+			<metallicity>-0.22</metallicity>
+			<spectraltype>G3 V</spectraltype>
+			<planet>
+				<name>HD 114729 A b</name>
+				<list>Confirmed planets</list>
+				<list>Planets in binary systems, S-type</list>
+				<mass>0.84</mass>
+				<period>1135</period>
+				<semimajoraxis>2.08</semimajoraxis>
+				<eccentricity>0.32</eccentricity>
+				<discoverymethod>RV</discoverymethod>
+				<lastupdate>12/12/08</lastupdate>
+				<discoveryyear>2002</discoveryyear>
+				<new>0</new>
+			</planet>
+		</star>
+		<star>
+			<name>HD 114729 B</name>
+			<mass>0.253</mass>
+			<spectraltype>M</spectraltype>
+		</star>
+	</binary>
 </system>
