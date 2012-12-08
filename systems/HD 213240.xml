@@ -3,24 +3,35 @@
 	<rightascension>22 31 00</rightascension>
 	<declination>-49 25 59</declination>
 	<distance>40.75</distance>
-	<star>
-		<mass>1.22</mass>
-		<radius>1.5</radius>
-		<magV>6.8</magV>
-		<metallicity>0.16</metallicity>
-		<spectraltype>G4 IV</spectraltype>
-		<planet>
-			<name>HD 213240 b</name>
-			<list>Confirmed planets</list>
-			<mass>4.5</mass>
-			<period>951</period>
-			<semimajoraxis>2.03</semimajoraxis>
-			<eccentricity>0.45</eccentricity>
-			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/12/30</lastupdate>
-			<discoveryyear>2001</discoveryyear>
-			<new>0</new>
-		</planet>
-		<name>HD 213240</name>
-	</star>
+	<binary>
+		<semimajoraxis>3898</semimajoraxis>
+		<star>
+			<name>HD 213240 A</name>
+			<mass>1.22</mass>
+			<radius>1.5</radius>
+			<magV>6.8</magV>
+			<age>3.6</age>
+			<metallicity>0.16</metallicity>
+			<spectraltype>G0V</spectraltype>
+			<planet>
+				<name>HD 213240 A b</name>
+				<list>Confirmed planets</list>
+				<list>Planets in binary systems, S-typ</list>
+				<description>The binary star system HD 213240 consists of the components A and C. The letter B was already used by the WDS survey from 1901 to describe another object. However, it turns out that the B component is not physically associated with the binary. The planet orbiting the A component was discovered in 2001 by Santos and collaborators.</description>
+				<mass>4.5</mass>
+				<period>951</period>
+				<semimajoraxis>2.03</semimajoraxis>
+				<eccentricity>0.45</eccentricity>
+				<discoverymethod>RV</discoverymethod>
+				<lastupdate>12/12/08</lastupdate>
+				<discoveryyear>2001</discoveryyear>
+				<new>0</new>
+			</planet>
+		</star>
+		<star>
+			<name>HD 213240 C</name>
+			<mass>0.146</mass>
+			<spectraltype>M</spectraltype>
+		</star>
+	</binary>
 </system>
