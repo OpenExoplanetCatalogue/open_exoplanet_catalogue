@@ -28,12 +28,28 @@ def removeemptytags(elem):
 	for child in elem:
 		removeemptytags(child)
 
+# Check if an unknown tag is present (most likely an indication for a typo)
+validtags = ["system","name","new","description","ascendingnode","discoveryyear","lastupdate","list","discoverymethod","semimajoraxis","period","magV","distance","longitude","imagedescription","image","age","declination","rightascension","metallicity","inclination","spectraltype","binary","planet","periastron","star","mass","eccentricity","radius","temperature"]
+
+def checkforvalidtags(elem):
+	problematictag = None
+	for child in elem:
+		_tmp = checkforvalidtags(child)
+		if _tmp:
+			problematictag = _tmp
+	if elem.tag not in validtags:
+		problematictag = elem.tag
+	return problematictag
+	
+
 # Loop over all files and  create new data
 for filename in glob.glob("systems*/*.xml"):
-	print "Working on file '"+filename+"'."
 	f = open(filename, 'rt')
 	root = ET.parse(f).getroot()
 	f.close()
+	problematictag = checkforvalidtags(root)
+	if problematictag:
+		print "Problematic tag <"+problematictag+"> found in file \""+filename+"\"."
 	removeemptytags(root)
 	indent(root)
 	ET.ElementTree(root).write(filename) 
