@@ -3,24 +3,37 @@
 	<rightascension>23 41 51</rightascension>
 	<declination>-05 59 08</declination>
 	<distance>42</distance>
-	<star>
-		<mass>0.99</mass>
-		<radius>1.15</radius>
-		<magV>7.7</magV>
-		<metallicity>-0.0229</metallicity>
-		<spectraltype>G5</spectraltype>
-		<planet>
-			<name>HD 222582 b</name>
-			<list>Confirmed planets</list>
-			<mass>7.75</mass>
-			<period>572.38</period>
-			<semimajoraxis>1.35</semimajoraxis>
-			<eccentricity>0.725</eccentricity>
-			<discoverymethod>RV</discoverymethod>
-			<lastupdate>09/10/06</lastupdate>
-			<discoveryyear>1999</discoveryyear>
-			<new>0</new>
-		</planet>
-		<name>HD 222582</name>
-	</star>
+	<binary>
+		<semimajoraxis>4746</semimajoraxis>
+		<star>
+			<name>HD 222582 A</name>
+			<name>HIP 116906 A</name>
+			<mass>0.99</mass>
+			<radius>1.15</radius>
+			<magV>7.7</magV>
+			<metallicity>-0.0229</metallicity>
+			<spectraltype>G5</spectraltype>
+			<planet>
+				<name>HD 222582 A b</name>
+				<name>HIP 116906 A b</name>
+				<list>Confirmed planets</list>
+				<list>Planets in binary systems, S-type</list>
+				<mass>7.75</mass>
+				<period>572.38</period>
+				<semimajoraxis>1.35</semimajoraxis>
+				<eccentricity>0.725</eccentricity>
+				<description>This planet was disovered in 1999 by Steven Vogt and collaborators. The host star has a red dwarf companion in a wide orbit.</description>
+				<discoverymethod>RV</discoverymethod>
+				<lastupdate>12/12/08</lastupdate>
+				<discoveryyear>1999</discoveryyear>
+				<new>0</new>
+			</planet>
+		</star>
+		<star>
+			<name>HD 222582 B</name>
+			<name>HIP 116906 B</name>
+			<mass>0.2</mass>
+			<spectraltype>M3.5V</spectraltype>
+		</star>
+	</binary>
 </system>
