@@ -3,26 +3,39 @@
 	<rightascension>16 24 01</rightascension>
 	<declination>-39 11 34</declination>
 	<distance>12.9</distance>
-	<star>
-		<name>HD 147513</name>
-		<name>62 G. Scorpii</name>
-		<mass>0.92</mass>
-		<radius>1</radius>
-		<magV>5.37</magV>
-		<metallicity>-0.03</metallicity>
-		<spectraltype>G3/G5V</spectraltype>
-		<planet>
-			<name>HD 147513 b</name>
-			<name>62 G. Scorpii b</name>
-			<list>Confirmed planets</list>
-			<mass>1.21</mass>
-			<period>528.4</period>
-			<semimajoraxis>1.32</semimajoraxis>
-			<eccentricity>0.26</eccentricity>
-			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/12/29</lastupdate>
-			<discoveryyear>2003</discoveryyear>
-			<new>0</new>
-		</planet>
-	</star>
+	<binary>
+		<semimajoraxis>5360</semimajoraxis>
+		<star>
+			<name>HD 147513 A</name>
+			<name>62 G. Scorpii A</name>
+			<name>HR 6094 A</name>
+			<mass>0.92</mass>
+			<radius>1</radius>
+			<magV>5.37</magV>
+			<metallicity>-0.03</metallicity>
+			<spectraltype>G5V</spectraltype>
+			<planet>
+				<name>HD 147513 A b</name>
+				<name>62 G. Scorpii A b</name>
+				<name>HR 6094 A b</name>
+				<list>Confirmed planets</list>
+				<mass>1.21</mass>
+				<period>528.4</period>
+				<semimajoraxis>1.32</semimajoraxis>
+				<eccentricity>0.26</eccentricity>
+				<discoverymethod>RV</discoverymethod>
+				<description>The star system HD 14751, also known as HR 6094, consists of a Sun-like star, a white dwarf stellar remnant and a Jupiter-mass planet. The planet was discovered on 18 June 2002.</description>
+				<lastupdate>12/12/08</lastupdate>
+				<discoveryyear>2003</discoveryyear>
+				<new>0</new>
+			</planet>
+		</star>
+		<star>
+			<name>HD 147513 B</name>
+			<name>62 G. Scorpii B</name>
+			<name>HR 6094 B</name>
+			<mass>0.65</mass>
+			<spectraltyoe>DA2</spectraltyoe>	
+		</star>
+	</binary>
 </system>
