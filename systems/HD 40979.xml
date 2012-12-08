@@ -3,24 +3,50 @@
 	<rightascension>06 04 29</rightascension>
 	<declination>+44 15 37</declination>
 	<distance>33.3</distance>
-	<star>
-		<mass>1.1</mass>
-		<radius>1.21</radius>
-		<magV>6.74</magV>
-		<metallicity>0.194</metallicity>
-		<spectraltype>F8 V</spectraltype>
-		<planet>
-			<name>HD 40979 b</name>
-			<list>Confirmed planets</list>
-			<mass>3.28</mass>
-			<period>263.1</period>
-			<semimajoraxis>0.83</semimajoraxis>
-			<eccentricity>0.25</eccentricity>
-			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/12/20</lastupdate>
-			<discoveryyear>2002</discoveryyear>
-			<new>0</new>
-		</planet>
-		<name>HD 40979</name>
-	</star>
+	<binary>
+		<semimajoraxis>6394</semimajoraxis>
+		<star>
+			<name>HD 40979 A</name>
+			<name>HIP 28767 A</name>
+			<name>2MASS J06042993+4415379 A</name>
+			<name>BD +44 1353</name>
+			<mass>1.1</mass>
+			<radius>1.21</radius>
+			<magV>6.74</magV>
+			<age>1</age>
+			<metallicity>0.194</metallicity>
+			<spectraltype>F8 V</spectraltype>
+			<planet>
+				<name>HD 40979 A b</name>
+				<name>HIP 28767 A b</name>
+				<name>2MASS J06042993+4415379 A b</name>
+				<list>Confirmed planets</list>
+				<list>Planets in binary systems, S-type</list>
+				<mass>3.28</mass>
+				<period>263.1</period>
+				<semimajoraxis>0.83</semimajoraxis>
+				<eccentricity>0.25</eccentricity>
+				<discoverymethod>RV</discoverymethod>
+				<description>This planet is orbiting a yellow-white dwarf star which is part of a triple system.</description>
+				<lastupdate>12/12/08</lastupdate>
+				<discoveryyear>2002</discoveryyear>
+				<new>0</new>
+			</planet>
+		</star>
+		<binary>
+			<semimajoraxis>129</semimajoraxis>
+			<star>
+				<name>HD 40979 B</name>
+				<name>BD +44 1351</name>
+				<mass>0.833</mass>
+				<age>1</age>
+				<spectraltype>K5</spectraltype>
+			</star>
+			<star>
+				<name>HD 40979 C</name>
+				<mass>0.380</mass>
+				<age>1</age>
+			</star>
+		</binary>
+	</binary>
 </system>
