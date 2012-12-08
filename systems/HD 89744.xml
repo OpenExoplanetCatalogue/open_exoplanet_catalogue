@@ -3,25 +3,40 @@
 	<rightascension>10 22 10</rightascension>
 	<declination>+41 13 46</declination>
 	<distance>40</distance>
-	<star>
-		<mass>1.4</mass>
-		<radius>2.14</radius>
-		<magV>5.74</magV>
-		<metallicity>0.18</metallicity>
-		<spectraltype>F7 V</spectraltype>
-		<planet>
-			<name>HD 89744 b</name>
-			<list>Confirmed planets</list>
-			<mass>7.2</mass>
-			<period>256</period>
-			<semimajoraxis>0.88</semimajoraxis>
-			<eccentricity>0.7</eccentricity>
-			<inclination>54</inclination>
-			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/12/08</lastupdate>
-			<discoveryyear>2000</discoveryyear>
-			<new>0</new>
-		</planet>
-		<name>HD 89744</name>
-	</star>
+	<binary>
+		<semimajoraxis>2456</semimajoraxis>
+		<star>
+			<name>HD 89744 A</name>
+			<name>HR 4067 A</name>
+			<name>GJ 9326 A</name>
+			<mass>1.4</mass>
+			<radius>2.14</radius>
+			<magV>5.74</magV>
+			<metallicity>0.18</metallicity>
+			<spectraltype>F7 V</spectraltype>
+			<planet>
+				<name>HD 89744 A b</name>
+				<name>HR 4067 A b</name>
+				<name>GJ 9326 A b</name>
+				<list>Confirmed planets</list>
+				<list>Planets in binary systems, S-type</list>
+				<mass>7.2</mass>
+				<period>256</period>
+				<semimajoraxis>0.88</semimajoraxis>
+				<eccentricity>0.7</eccentricity>
+				<description>This planet was discovered in 2000 by Korzennik and collaborators in 2004 Mugrauer and colleagues found a low mass stellar companion</description>
+				<inclination>54</inclination>
+				<discoverymethod>RV</discoverymethod>
+				<lastupdate>12/12/08</lastupdate>
+				<discoveryyear>2000</discoveryyear>
+				<new>0</new>
+			</planet>
+		</star>
+		<star>
+			<name>HD 89744 B</name>
+			<name>HR 4067 B</name>
+			<name>GJ 9326 B</name>
+			<mass>0.077</mass>
+		</star>
+	</binary>
 </system>
