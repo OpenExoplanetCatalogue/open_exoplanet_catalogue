@@ -3,38 +3,56 @@
 	<rightascension>01 57 09</rightascension>
 	<declination>-10 14 32</declination>
 	<distance>33.98</distance>
-	<star>
-		<mass>1.125</mass>
-		<radius>2.18</radius>
-		<magV>6.42</magV>
-		<metallicity>0.17</metallicity>
-		<spectraltype>G5</spectraltype>
-		<planet>
-			<name>HD 11964 b</name>
-			<list>Confirmed planets</list>
-			<mass>0.622</mass>
-			<period>1945</period>
-			<semimajoraxis>3.16</semimajoraxis>
-			<eccentricity>0.041</eccentricity>
-			<description>The planet hosting star HD 11964 is a yellow subgiant in the constellation Cetus. It is a member of a wide binary.</description>
-			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/12/15</lastupdate>
-			<discoveryyear>2005</discoveryyear>
-			<new>0</new>
-		</planet>
-		<planet>
-			<name>HD 11964 c</name>
-			<list>Confirmed planets</list>
-			<mass>0.079</mass>
-			<period>37.91</period>
-			<semimajoraxis>0.229</semimajoraxis>
-			<eccentricity>0.3</eccentricity>
-			<description>The planet hosting star HD 11964 is a yellow subgiant in the constellation Cetus. It is a member of a wide binary.</description>
-			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/12/15</lastupdate>
-			<discoveryyear>2005</discoveryyear>
-			<new>0</new>
-		</planet>
-		<name>HD 11964</name>
-	</star>
+	<binary>
+		<semimajoraxis>1379</semimajoraxis>
+		<star>
+			<name>HD 11964 A</name>
+			<name>Gliese 81.1 A</name>
+			<name>GJ 81.1 A</name>
+			<mass>1.125</mass>
+			<radius>2.18</radius>
+			<magV>6.42</magV>
+			<age>13.1</age>
+			<metallicity>0.17</metallicity>
+			<spectraltype>G5</spectraltype>
+			<planet>
+				<name>HD 11964 A b</name>
+				<name>Gliese 81.1 A b</name>
+				<name>GJ 81.1 A b</name>
+				<list>Confirmed planets</list>
+				<list>Planets in binary systems, S-type</list>
+				<mass>0.622</mass>
+				<period>1945</period>
+				<semimajoraxis>3.16</semimajoraxis>
+				<eccentricity>0.041</eccentricity>
+				<description>The planet hosting star HD 11964 A is a yellow subgiant in the constellation Cetus. It is a member of a wide binary.</description>
+				<discoverymethod>RV</discoverymethod>
+				<lastupdate>12/12/08</lastupdate>
+				<discoveryyear>2005</discoveryyear>
+				<new>0</new>
+			</planet>
+			<planet>
+				<name>HD 11964 A c</name>
+				<name>Gliese 81.1 A c</name>
+				<name>GJ 81.1 A c</name>
+				<list>Confirmed planets</list>
+				<list>Planets in binary systems, S-type</list>
+				<mass>0.079</mass>
+				<period>37.91</period>
+				<semimajoraxis>0.229</semimajoraxis>
+				<eccentricity>0.3</eccentricity>
+				<description>The planet hosting star HD 11964 A is a yellow subgiant in the constellation Cetus. It is a member of a wide binary.</description>
+				<discoverymethod>RV</discoverymethod>
+				<lastupdate>12/12/08</lastupdate>
+				<discoveryyear>2005</discoveryyear>
+				<new>0</new>
+			</planet>
+		</star>
+		<star>
+			<name>HD 11964 A</name>
+			<name>Gliese 81.1 A</name>
+			<name>GJ 81.1 A</name>
+			<mass>0.67</mass>
+		</star>
+	</binary>
 </system>
