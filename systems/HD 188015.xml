@@ -3,24 +3,32 @@
 	<rightascension>19 52 04</rightascension>
 	<declination>+28 06 01</declination>
 	<distance>52.6</distance>
-	<star>
-		<mass>1.09</mass>
-		<radius>1.1</radius>
-		<magV>8.22</magV>
-		<metallicity>0.29</metallicity>
-		<spectraltype>G5IV</spectraltype>
-		<planet>
-			<name>HD 188015 b</name>
-			<list>Confirmed planets</list>
-			<mass>1.26</mass>
-			<period>456.46</period>
-			<semimajoraxis>1.19</semimajoraxis>
-			<eccentricity>0.15</eccentricity>
-			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/12/30</lastupdate>
-			<discoveryyear>2004</discoveryyear>
-			<new>0</new>
-		</planet>
-		<name>HD 188015</name>
-	</star>
+	<binary>
+		<semimajoraxis>684</semimajoraxis>
+		<star>
+			<name>HD 188015 A</name>
+			<mass>1.09</mass>
+			<radius>1.1</radius>
+			<magV>8.22</magV>
+			<metallicity>0.29</metallicity>
+			<spectraltype>G5IV</spectraltype>
+			<planet>
+				<name>HD 188015 A b</name>
+				<list>Confirmed planets</list>
+				<mass>1.26</mass>
+				<period>456.46</period>
+				<semimajoraxis>1.19</semimajoraxis>
+				<eccentricity>0.15</eccentricity>
+				<description>The star HD 188015 A is part of a binary system. The binary companion is approximately 684 astronomical units away and much less massive. The planet was found by Geoffrey Marcy and collaborators in 2005.</description>
+				<discoverymethod>RV</discoverymethod>
+				<lastupdate>12/12/08</lastupdate>
+				<discoveryyear>2004</discoveryyear>
+				<new>0</new>
+			</planet>
+		</star>
+		<star>
+			<name>HD 188015 B</name>
+			<mass>0.21</mass>
+		</star>
+	</binary>
 </system>
