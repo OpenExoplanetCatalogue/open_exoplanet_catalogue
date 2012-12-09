@@ -3,24 +3,34 @@
 	<rightascension>08 47 40</rightascension>
 	<declination>-41 44 12</declination>
 	<distance>28.94</distance>
-	<star>
-		<mass>1.05</mass>
-		<radius>1.25</radius>
-		<magV>6.35</magV>
-		<metallicity>0.29</metallicity>
-		<spectraltype>G0 V</spectraltype>
-		<planet>
-			<name>HD 75289 b</name>
-			<list>Confirmed planets</list>
-			<mass>0.42</mass>
-			<period>3.5098</period>
-			<semimajoraxis>0.046</semimajoraxis>
-			<eccentricity>0.024</eccentricity>
-			<discoverymethod>RV</discoverymethod>
-			<lastupdate>11/01/01</lastupdate>
-			<discoveryyear>1999</discoveryyear>
-			<new>0</new>
-		</planet>
-		<name>HD 75289</name>
-	</star>
+	<binary>
+		<semimajoraxis>621</semimajoraxis>
+		<star>
+			<name>HD 75289 A</name>
+			<mass>1.05</mass>
+			<radius>1.25</radius>
+			<magV>6.35</magV>
+			<metallicity>0.29</metallicity>
+			<spectraltype>G0 V</spectraltype>
+			<planet>
+				<name>HD 75289 A b</name>
+				<list>Confirmed planets</list>
+				<mass>0.42</mass>
+				<period>3.5098</period>
+				<semimajoraxis>0.046</semimajoraxis>
+				<eccentricity>0.024</eccentricity>
+				<discoverymethod>RV</discoverymethod>
+				<description>The Sun-like star HD 75289 is located in the constellation Velo. It is part of a binary system. The companion is a red dwarf. It also hosts a gas giant which was detected by Udry et al. in 1999.</description>
+				<lastupdate>12/12/08</lastupdate>
+				<discoveryyear>1999</discoveryyear>
+				<new>0</new>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+		<star>
+			<name>HD 75289 B</name>
+			<mass>0.14</mass>
+			<spectraltype>M3.5V</spectraltype>
+		</star>
+	</binary>
 </system>
