@@ -19,6 +19,7 @@ def indent(elem, level=0):
 
 # Removes empty nodes from the tree
 def removeemptytags(elem):
+	elem.text = elem.text.strip()
 	toberemoved= []
 	for child in elem:
 		if len(child)==0 and child.text==None:
