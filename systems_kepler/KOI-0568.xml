@@ -2,20 +2,28 @@
 	<name>KOI-0568</name>
 	<rightascension>19 09 10</rightascension>
 	<declination>+43 16 47</declination>
-	<distance>474.726672417</distance>
 	<star>
-		<magV>14.14</magV>
-		<temperature>5265</temperature>
-		<radius>0.79</radius>
+		<name>KOI-0568</name>
+		<temperature>5390.00</temperature>
+		<radius>0.77</radius>
+		<age>0.6000</age>
 		<planet>
-			<name>KOI 0568 b</name>
-			<mass>0.0057484821478</mass>
-			<radius>0.1221142</radius>
-			<period>3.3835275</period>
+			<name>KOI-0568 b</name>
+			<name>KOI-0568 01</name>
+			<radius>1.39</radius>
+			<period>3.383540</period>
 			<semimajoraxis>0.042</semimajoraxis>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest. It has been flagged as a possible transit event but might have not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
-		<name>KOI-0568</name>
+		<planet>
+			<name>KOI-0568 c</name>
+			<name>KOI-0568 02</name>
+			<radius>0.74</radius>
+			<period>2.359000</period>
+			<semimajoraxis>0.033</semimajoraxis>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
 	</star>
 </system>

@@ -2,20 +2,28 @@
 	<name>KOI-0321</name>
 	<rightascension>19 27 23</rightascension>
 	<declination>+44 58 05</declination>
-	<distance>349.984388416</distance>
 	<star>
-		<magV>12.52</magV>
-		<temperature>5538</temperature>
+		<name>KOI-0321</name>
+		<temperature>5538.00</temperature>
 		<radius>1.11</radius>
+		<age>9.1000</age>
 		<planet>
-			<name>KOI 0321 b</name>
-			<mass>0.00817702599604</mass>
-			<radius>0.1448967</radius>
-			<period>2.4263076</period>
+			<name>KOI-0321 b</name>
+			<name>KOI-0321 01</name>
+			<radius>1.50</radius>
+			<period>2.426310</period>
 			<semimajoraxis>0.035</semimajoraxis>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest. It has been flagged as a possible transit event but might have not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
-		<name>KOI-0321</name>
+		<planet>
+			<name>KOI-0321 c</name>
+			<name>KOI-0321 02</name>
+			<radius>0.84</radius>
+			<period>4.623390</period>
+			<semimajoraxis>0.054</semimajoraxis>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
 	</star>
 </system>

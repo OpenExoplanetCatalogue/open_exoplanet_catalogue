@@ -2,29 +2,27 @@
 	<name>KOI-1015</name>
 	<rightascension>19 16 23</rightascension>
 	<declination>+44 00 15</declination>
-	<distance>1087.0085463</distance>
 	<star>
-		<magV>14.5</magV>
-		<temperature>6243</temperature>
-		<radius>1.09</radius>
-		<planet>
-			<name>KOI 1015 b</name>
-			<mass>0.0232392116723</mass>
-			<radius>0.2405832</radius>
-			<period>9.4287999</period>
-			<semimajoraxis>0.092</semimajoraxis>
-			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest. It has been flagged as a possible transit event but might have not been confirmed to be a planet yet.</description>
-		</planet>
-		<planet>
-			<name>KOI 1015 c</name>
-			<mass>0.0062913095736</mass>
-			<radius>0.127582</radius>
-			<period>4.0890203</period>
-			<semimajoraxis>0.053</semimajoraxis>
-			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest. It has been flagged as a possible transit event but might have not been confirmed to be a planet yet.</description>
-		</planet>
 		<name>KOI-1015</name>
+		<temperature>6243.00</temperature>
+		<radius>1.02</radius>
+		<planet>
+			<name>KOI-1015 b</name>
+			<name>KOI-1015 01</name>
+			<radius>2.48</radius>
+			<period>9.428800</period>
+			<semimajoraxis>0.091</semimajoraxis>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-1015 c</name>
+			<name>KOI-1015 02</name>
+			<radius>1.31</radius>
+			<period>4.089020</period>
+			<semimajoraxis>0.052</semimajoraxis>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
 	</star>
 </system>

@@ -2,20 +2,28 @@
 	<name>KOI-0626</name>
 	<rightascension>19 40 46</rightascension>
 	<declination>+39 32 22</declination>
-	<distance>664.025252935</distance>
 	<star>
-		<magV>13.49</magV>
-		<temperature>6157</temperature>
+		<name>KOI-0626</name>
+		<temperature>6157.00</temperature>
 		<radius>1.09</radius>
+		<age>1.9000</age>
 		<planet>
-			<name>KOI 0626 b</name>
-			<mass>0.0143621233288</mass>
-			<radius>0.1904617</radius>
-			<period>14.5866672</period>
+			<name>KOI-0626 b</name>
+			<name>KOI-0626 01</name>
+			<radius>2.11</radius>
+			<period>14.586700</period>
 			<semimajoraxis>0.121</semimajoraxis>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest. It has been flagged as a possible transit event but might have not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
-		<name>KOI-0626</name>
+		<planet>
+			<name>KOI-0626 c</name>
+			<name>KOI-0626 02</name>
+			<radius>0.96</radius>
+			<period>8.029010</period>
+			<semimajoraxis>0.081</semimajoraxis>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
 	</star>
 </system>

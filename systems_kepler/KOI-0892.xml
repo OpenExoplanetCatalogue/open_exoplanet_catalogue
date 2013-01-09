@@ -2,20 +2,28 @@
 	<name>KOI-0892</name>
 	<rightascension>19 21 34</rightascension>
 	<declination>+43 21 50</declination>
-	<distance>636.249917423</distance>
 	<star>
-		<magV>15.193</magV>
-		<temperature>5010</temperature>
-		<radius>0.72</radius>
+		<name>KOI-0892</name>
+		<temperature>5166.00</temperature>
+		<radius>0.74</radius>
+		<age>6.2000</age>
 		<planet>
-			<name>KOI 0892 b</name>
-			<mass>0.0204309125475</mass>
-			<radius>0.2260024</radius>
-			<period>10.3717206</period>
+			<name>KOI-0892 b</name>
+			<name>KOI-0892 01</name>
+			<radius>2.60</radius>
+			<period>10.371700</period>
 			<semimajoraxis>0.086</semimajoraxis>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest. It has been flagged as a possible transit event but might have not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
-		<name>KOI-0892</name>
+		<planet>
+			<name>KOI-0892 c</name>
+			<name>KOI-0892 02</name>
+			<radius>1.31</radius>
+			<period>3.970010</period>
+			<semimajoraxis>0.045</semimajoraxis>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
 	</star>
 </system>

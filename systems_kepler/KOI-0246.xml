@@ -2,20 +2,28 @@
 	<name>KOI-0246</name>
 	<rightascension>19 24 07</rightascension>
 	<declination>+49 02 24</declination>
-	<distance>134.044356136</distance>
 	<star>
-		<magV>10.0</magV>
-		<temperature>5793</temperature>
+		<name>KOI-0246</name>
+		<temperature>5793.00</temperature>
 		<radius>1.24</radius>
+		<age>6.3700</age>
 		<planet>
-			<name>KOI 0246 b</name>
-			<mass>0.0212885252</mass>
-			<radius>0.2305589</radius>
-			<period>5.3987665</period>
+			<name>KOI-0246 b</name>
+			<name>KOI-0246 01</name>
+			<radius>2.53</radius>
+			<period>5.398770</period>
 			<semimajoraxis>0.062</semimajoraxis>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest. It has been flagged as a possible transit event but might have not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
-		<name>KOI-0246</name>
+		<planet>
+			<name>KOI-0246 c</name>
+			<name>KOI-0246 02</name>
+			<radius>1.11</radius>
+			<period>9.604870</period>
+			<semimajoraxis>0.091</semimajoraxis>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
 	</star>
 </system>

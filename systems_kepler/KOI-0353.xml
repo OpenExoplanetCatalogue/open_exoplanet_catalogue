@@ -2,20 +2,28 @@
 	<name>KOI-0353</name>
 	<rightascension>19 40 51</rightascension>
 	<declination>+49 33 43</declination>
-	<distance>897.049914103</distance>
 	<star>
-		<magV>13.374</magV>
-		<temperature>6679</temperature>
-		<radius>1.32</radius>
-		<planet>
-			<name>KOI 0353 b</name>
-			<mass>0.304854170407</mass>
-			<radius>0.8393073</radius>
-			<period>152.1048307</period>
-			<semimajoraxis>0.609</semimajoraxis>
-			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest. It has been flagged as a possible transit event but might have not been confirmed to be a planet yet.</description>
-		</planet>
 		<name>KOI-0353</name>
+		<temperature>6858.00</temperature>
+		<radius>1.30</radius>
+		<age>0.3300</age>
+		<planet>
+			<name>KOI-0353 b</name>
+			<name>KOI-0353 01</name>
+			<radius>9.10</radius>
+			<period>152.105000</period>
+			<semimajoraxis>0.614</semimajoraxis>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-0353 c</name>
+			<name>KOI-0353 02</name>
+			<radius>2.30</radius>
+			<period>30.652700</period>
+			<semimajoraxis>0.211</semimajoraxis>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
 	</star>
 </system>

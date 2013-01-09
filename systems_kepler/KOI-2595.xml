@@ -2,20 +2,28 @@
 	<name>KOI-2595</name>
 	<rightascension>19 23 58</rightascension>
 	<declination>+45 11 31</declination>
-	<distance>1008.68551858</distance>
 	<star>
-		<magV>13.223</magV>
-		<temperature>6500</temperature>
-		<radius>1.68</radius>
-		<planet>
-			<name>KOI 2595 b</name>
-			<mass>0.0104374533197</mass>
-			<radius>0.1631227</radius>
-			<period>9.1825212</period>
-			<semimajoraxis>0.094</semimajoraxis>
-			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest. It has been flagged as a possible transit event but might have not been confirmed to be a planet yet.</description>
-		</planet>
 		<name>KOI-2595</name>
+		<temperature>6742.00</temperature>
+		<radius>1.70</radius>
+		<age>2.1500</age>
+		<planet>
+			<name>KOI-2595 b</name>
+			<name>KOI-2595 01</name>
+			<radius>1.82</radius>
+			<period>9.182520</period>
+			<semimajoraxis>0.095</semimajoraxis>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-2595 c</name>
+			<name>KOI-2595 02</name>
+			<radius>2.07</radius>
+			<period>14.613600</period>
+			<semimajoraxis>0.130</semimajoraxis>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
 	</star>
 </system>

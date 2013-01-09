@@ -2,20 +2,28 @@
 	<name>KOI-1498</name>
 	<rightascension>19 00 13</rightascension>
 	<declination>+46 19 14</declination>
-	<distance>1787.85206614</distance>
 	<star>
-		<magV>15.776</magV>
-		<temperature>5941</temperature>
-		<radius>1.10</radius>
-		<planet>
-			<name>KOI 1498 b</name>
-			<mass>0.0278013462796</mass>
-			<radius>0.2624544</radius>
-			<period>5.8336852</period>
-			<semimajoraxis>0.067</semimajoraxis>
-			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest. It has been flagged as a possible transit event but might have not been confirmed to be a planet yet.</description>
-		</planet>
 		<name>KOI-1498</name>
+		<temperature>6034.00</temperature>
+		<radius>0.95</radius>
+		<age>0.3000</age>
+		<planet>
+			<name>KOI-1498 b</name>
+			<name>KOI-1498 01</name>
+			<radius>2.15</radius>
+			<period>5.833730</period>
+			<semimajoraxis>0.064</semimajoraxis>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-1498 c</name>
+			<name>KOI-1498 02</name>
+			<radius>1.35</radius>
+			<period>2.421500</period>
+			<semimajoraxis>0.036</semimajoraxis>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
 	</star>
 </system>

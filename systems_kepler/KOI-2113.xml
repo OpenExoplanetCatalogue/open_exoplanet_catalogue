@@ -2,29 +2,27 @@
 	<name>KOI-2113</name>
 	<rightascension>19 35 17</rightascension>
 	<declination>+42 46 46</declination>
-	<distance>1025.65951206</distance>
 	<star>
-		<magV>15.886</magV>
-		<temperature>5177</temperature>
-		<radius>0.79</radius>
-		<planet>
-			<name>KOI 2113 b</name>
-			<mass>0.0230582394181</mass>
-			<radius>0.2396719</radius>
-			<period>15.9427430</period>
-			<semimajoraxis>0.117</semimajoraxis>
-			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest. It has been flagged as a possible transit event but might have not been confirmed to be a planet yet.</description>
-		</planet>
-		<planet>
-			<name>KOI 2113 c</name>
-			<mass>0.0170267032959</mass>
-			<radius>0.2068651</radius>
-			<period>12.3310833</period>
-			<semimajoraxis>0.099</semimajoraxis>
-			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest. It has been flagged as a possible transit event but might have not been confirmed to be a planet yet.</description>
-		</planet>
 		<name>KOI-2113</name>
+		<temperature>5177.00</temperature>
+		<radius>0.83</radius>
+		<planet>
+			<name>KOI-2113 b</name>
+			<name>KOI-2113 01</name>
+			<radius>2.80</radius>
+			<period>15.942700</period>
+			<semimajoraxis>0.122</semimajoraxis>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-2113 c</name>
+			<name>KOI-2113 02</name>
+			<radius>2.38</radius>
+			<period>12.331100</period>
+			<semimajoraxis>0.103</semimajoraxis>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
 	</star>
 </system>

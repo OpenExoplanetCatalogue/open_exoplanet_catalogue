@@ -2,29 +2,28 @@
 	<name>KOI-0986</name>
 	<rightascension>19 27 42</rightascension>
 	<declination>+38 00 50</declination>
-	<distance>489.49949716</distance>
 	<star>
-		<magV>14.138</magV>
-		<temperature>5250</temperature>
-		<radius>0.82</radius>
-		<planet>
-			<name>KOI 0986 b</name>
-			<mass>0.0111709745619</mass>
-			<radius>0.1685905</radius>
-			<period>8.1874596</period>
-			<semimajoraxis>0.076</semimajoraxis>
-			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest. It has been flagged as a possible transit event but might have not been confirmed to be a planet yet.</description>
-		</planet>
-		<planet>
-			<name>KOI 0986 c</name>
-			<mass>0.00765614213181</mass>
-			<radius>0.1403402</radius>
-			<period>76.0503480</period>
-			<semimajoraxis>0.337</semimajoraxis>
-			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest. It has been flagged as a possible transit event but might have not been confirmed to be a planet yet.</description>
-		</planet>
 		<name>KOI-0986</name>
+		<temperature>5250.00</temperature>
+		<radius>0.90</radius>
+		<age>8.0000</age>
+		<planet>
+			<name>KOI-0986 b</name>
+			<name>KOI-0986 01</name>
+			<radius>2.04</radius>
+			<period>8.187460</period>
+			<semimajoraxis>0.077</semimajoraxis>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-0986 c</name>
+			<name>KOI-0986 02</name>
+			<radius>1.69</radius>
+			<period>76.050300</period>
+			<semimajoraxis>0.340</semimajoraxis>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
 	</star>
 </system>

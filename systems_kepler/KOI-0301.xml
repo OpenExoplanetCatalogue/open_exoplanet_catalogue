@@ -2,20 +2,28 @@
 	<name>KOI-0301</name>
 	<rightascension>19 21 58</rightascension>
 	<declination>+38 47 43</declination>
-	<distance>519.328616038</distance>
 	<star>
-		<magV>12.73</magV>
-		<temperature>6131</temperature>
-		<radius>1.22</radius>
-		<planet>
-			<name>KOI 0301 b</name>
-			<mass>0.00996266856626</mass>
-			<radius>0.1594775</radius>
-			<period>6.0025224</period>
-			<semimajoraxis>0.069</semimajoraxis>
-			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest. It has been flagged as a possible transit event but might have not been confirmed to be a planet yet.</description>
-		</planet>
 		<name>KOI-0301</name>
+		<temperature>6337.00</temperature>
+		<radius>1.21</radius>
+		<age>2.6200</age>
+		<planet>
+			<name>KOI-0301 b</name>
+			<name>KOI-0301 01</name>
+			<radius>1.73</radius>
+			<period>6.002550</period>
+			<semimajoraxis>0.068</semimajoraxis>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-0301 c</name>
+			<name>KOI-0301 02</name>
+			<radius>1.16</radius>
+			<period>11.448800</period>
+			<semimajoraxis>0.104</semimajoraxis>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
 	</star>
 </system>

@@ -2,20 +2,28 @@
 	<name>KOI-0102</name>
 	<rightascension>19 58 49</rightascension>
 	<declination>+44 26 08</declination>
-	<distance>386.519783497</distance>
 	<star>
-		<magV>12.566</magV>
-		<temperature>5838</temperature>
+		<name>KOI-0102</name>
+		<temperature>5838.00</temperature>
 		<radius>1.08</radius>
+		<age>2.5000</age>
 		<planet>
-			<name>KOI 0102 b</name>
-			<mass>0.0465814339839</mass>
-			<radius>0.337181</radius>
-			<period>1.7351363</period>
+			<name>KOI-0102 b</name>
+			<name>KOI-0102 01</name>
+			<radius>3.63</radius>
+			<period>1.735140</period>
 			<semimajoraxis>0.029</semimajoraxis>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest. It has been flagged as a possible transit event but might have not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
-		<name>KOI-0102</name>
+		<planet>
+			<name>KOI-0102 c</name>
+			<name>KOI-0102 02</name>
+			<radius>1.19</radius>
+			<period>4.068530</period>
+			<semimajoraxis>0.052</semimajoraxis>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
 	</star>
 </system>

@@ -2,20 +2,27 @@
 	<name>KOI-0289</name>
 	<rightascension>18 51 46</rightascension>
 	<declination>+47 34 29</declination>
-	<distance>389.396797858</distance>
 	<star>
-		<magV>12.747</magV>
-		<temperature>5812</temperature>
-		<radius>1.01</radius>
-		<planet>
-			<name>KOI 0289 b</name>
-			<mass>0.0230582394181</mass>
-			<radius>0.2396719</radius>
-			<period>26.6291758</period>
-			<semimajoraxis>0.175</semimajoraxis>
-			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest. It has been flagged as a possible transit event but might have not been confirmed to be a planet yet.</description>
-		</planet>
 		<name>KOI-0289</name>
+		<temperature>5812.00</temperature>
+		<radius>0.95</radius>
+		<planet>
+			<name>KOI-0289 b</name>
+			<name>KOI-0289 01</name>
+			<radius>2.08</radius>
+			<period>27.000000</period>
+			<semimajoraxis>0.171</semimajoraxis>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-0289 c</name>
+			<name>KOI-0289 02</name>
+			<radius>5.04</radius>
+			<period>296.637000</period>
+			<semimajoraxis>0.854</semimajoraxis>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
 	</star>
 </system>

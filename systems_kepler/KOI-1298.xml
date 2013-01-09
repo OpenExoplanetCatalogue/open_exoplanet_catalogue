@@ -2,20 +2,28 @@
 	<name>KOI-1298</name>
 	<rightascension>19 34 27</rightascension>
 	<declination>+47 50 20</declination>
-	<distance>443.990420228</distance>
 	<star>
-		<magV>15.847</magV>
-		<temperature>4157</temperature>
-		<radius>0.54</radius>
-		<planet>
-			<name>KOI 1298 b</name>
-			<mass>0.012582438297</mass>
-			<radius>0.1786148</radius>
-			<period>11.0081340</period>
-			<semimajoraxis>0.080</semimajoraxis>
-			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest. It has been flagged as a possible transit event but might have not been confirmed to be a planet yet.</description>
-		</planet>
 		<name>KOI-1298</name>
+		<temperature>4327.00</temperature>
+		<radius>0.57</radius>
+		<age>14.0000</age>
+		<planet>
+			<name>KOI-1298 b</name>
+			<name>KOI-1298 01</name>
+			<radius>2.77</radius>
+			<period>11.008100</period>
+			<semimajoraxis>0.082</semimajoraxis>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-1298 c</name>
+			<name>KOI-1298 02</name>
+			<radius>2.09</radius>
+			<period>92.738800</period>
+			<semimajoraxis>0.337</semimajoraxis>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
 	</star>
 </system>

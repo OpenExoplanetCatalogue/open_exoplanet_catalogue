@@ -2,38 +2,37 @@
 	<name>KOI-0829</name>
 	<rightascension>19 21 50</rightascension>
 	<declination>+40 33 44</declination>
-	<distance>1175.19120383</distance>
 	<star>
-		<magV>15.386</magV>
-		<temperature>5858</temperature>
-		<radius>0.89</radius>
-		<planet>
-			<name>KOI 0829 b</name>
-			<mass>0.0280005691087</mass>
-			<radius>0.2633657</radius>
-			<period>18.6489516</period>
-			<semimajoraxis>0.137</semimajoraxis>
-			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest. It has been flagged as a possible transit event but might have not been confirmed to be a planet yet.</description>
-		</planet>
-		<planet>
-			<name>KOI 0829 c</name>
-			<mass>0.0120591815499</mass>
-			<radius>0.1749696</radius>
-			<period>9.7519279</period>
-			<semimajoraxis>0.089</semimajoraxis>
-			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest. It has been flagged as a possible transit event but might have not been confirmed to be a planet yet.</description>
-		</planet>
-		<planet>
-			<name>KOI 0829 d</name>
-			<mass>0.0338765661708</mass>
-			<radius>0.2888821</radius>
-			<period>38.5583056</period>
-			<semimajoraxis>0.222</semimajoraxis>
-			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest. It has been flagged as a possible transit event but might have not been confirmed to be a planet yet.</description>
-		</planet>
 		<name>KOI-0829</name>
+		<temperature>6086.00</temperature>
+		<radius>0.97</radius>
+		<age>0.3000</age>
+		<planet>
+			<name>KOI-0829 b</name>
+			<name>KOI-0829 01</name>
+			<radius>3.10</radius>
+			<period>18.648900</period>
+			<semimajoraxis>0.141</semimajoraxis>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a confirmed planet by the Kepler team and might have already appear in a peer reviewed paper.</description>
+		</planet>
+		<planet>
+			<name>KOI-0829 c</name>
+			<name>KOI-0829 02</name>
+			<radius>2.10</radius>
+			<period>9.751930</period>
+			<semimajoraxis>0.091</semimajoraxis>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-0829 d</name>
+			<name>KOI-0829 03</name>
+			<radius>3.50</radius>
+			<period>38.558300</period>
+			<semimajoraxis>0.228</semimajoraxis>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a confirmed planet by the Kepler team and might have already appear in a peer reviewed paper.</description>
+		</planet>
 	</star>
 </system>

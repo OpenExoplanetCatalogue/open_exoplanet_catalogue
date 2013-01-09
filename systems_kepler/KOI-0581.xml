@@ -2,20 +2,28 @@
 	<name>KOI-0581</name>
 	<rightascension>19 32 41</rightascension>
 	<declination>+45 03 56</declination>
-	<distance>770.640387398</distance>
 	<star>
-		<magV>14.807</magV>
-		<temperature>5514</temperature>
-		<radius>0.86</radius>
-		<planet>
-			<name>KOI 0581 b</name>
-			<mass>0.0345403121181</mass>
-			<radius>0.291616</radius>
-			<period>6.9969311</period>
-			<semimajoraxis>0.071</semimajoraxis>
-			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest. It has been flagged as a possible transit event but might have not been confirmed to be a planet yet.</description>
-		</planet>
 		<name>KOI-0581</name>
+		<temperature>5659.00</temperature>
+		<radius>0.83</radius>
+		<age>0.4000</age>
+		<planet>
+			<name>KOI-0581 b</name>
+			<name>KOI-0581 01</name>
+			<radius>3.06</radius>
+			<period>6.996920</period>
+			<semimajoraxis>0.070</semimajoraxis>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-0581 c</name>
+			<name>KOI-0581 02</name>
+			<radius>2.14</radius>
+			<period>151.865000</period>
+			<semimajoraxis>0.546</semimajoraxis>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
 	</star>
 </system>
