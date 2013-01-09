@@ -2,29 +2,28 @@
 	<name>KOI-1922</name>
 	<rightascension>19 38 27</rightascension>
 	<declination>+45 59 04</declination>
-	<distance>1102.28556071</distance>
 	<star>
-		<magV>15.356</magV>
-		<temperature>5778</temperature>
-		<radius>0.87</radius>
-		<planet>
-			<name>KOI 1922 b</name>
-			<mass>0.0101986392739</mass>
-			<radius>0.1613001</radius>
-			<period>1.9545383</period>
-			<semimajoraxis>0.030</semimajoraxis>
-			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest. It has been flagged as a possible transit event but might have not been confirmed to be a planet yet.</description>
-		</planet>
-		<planet>
-			<name>KOI 1922 c</name>
-			<mass>0.00557313547965</mass>
-			<radius>0.1202916</radius>
-			<period>15.0955654</period>
-			<semimajoraxis>0.119</semimajoraxis>
-			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest. It has been flagged as a possible transit event but might have not been confirmed to be a planet yet.</description>
-		</planet>
 		<name>KOI-1922</name>
+		<temperature>6050.00</temperature>
+		<radius>0.95</radius>
+		<age>0.3000</age>
+		<planet>
+			<name>KOI-1922 b</name>
+			<name>KOI-1922 01</name>
+			<radius>1.94</radius>
+			<period>1.954540</period>
+			<semimajoraxis>0.031</semimajoraxis>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-1922 c</name>
+			<name>KOI-1922 02</name>
+			<radius>1.45</radius>
+			<period>15.095600</period>
+			<semimajoraxis>0.122</semimajoraxis>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
 	</star>
 </system>

@@ -2,20 +2,28 @@
 	<name>KOI-1601</name>
 	<rightascension>19 15 05</rightascension>
 	<declination>+40 39 51</declination>
-	<distance>683.39974955</distance>
 	<star>
-		<magV>14.659</magV>
-		<temperature>5502</temperature>
-		<radius>0.82</radius>
-		<planet>
-			<name>KOI 1601 b</name>
-			<mass>0.0074527249507</mass>
-			<radius>0.1385176</radius>
-			<period>10.3511265</period>
-			<semimajoraxis>0.090</semimajoraxis>
-			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest. It has been flagged as a possible transit event but might have not been confirmed to be a planet yet.</description>
-		</planet>
 		<name>KOI-1601</name>
+		<temperature>5726.00</temperature>
+		<radius>0.85</radius>
+		<age>0.4000</age>
+		<planet>
+			<name>KOI-1601 b</name>
+			<name>KOI-1601 01</name>
+			<radius>1.59</radius>
+			<period>10.351100</period>
+			<semimajoraxis>0.092</semimajoraxis>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-1601 c</name>
+			<name>KOI-1601 02</name>
+			<radius>1.98</radius>
+			<period>62.914700</period>
+			<semimajoraxis>0.305</semimajoraxis>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
 	</star>
 </system>

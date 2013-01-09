@@ -2,29 +2,27 @@
 	<name>KOI-1884</name>
 	<rightascension>19 43 36</rightascension>
 	<declination>+39 55 06</declination>
-	<distance>770.362938376</distance>
 	<star>
-		<magV>15.462</magV>
-		<temperature>5077</temperature>
-		<radius>0.75</radius>
-		<planet>
-			<name>KOI 1884 b</name>
-			<mass>0.0564002373341</mass>
-			<radius>0.3699878</radius>
-			<period>23.1200357</period>
-			<semimajoraxis>0.144</semimajoraxis>
-			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest. It has been flagged as a possible transit event but might have not been confirmed to be a planet yet.</description>
-		</planet>
-		<planet>
-			<name>KOI 1884 c</name>
-			<mass>0.0147900341186</mass>
-			<radius>0.1931956</radius>
-			<period>4.7750412</period>
-			<semimajoraxis>0.050</semimajoraxis>
-			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest. It has been flagged as a possible transit event but might have not been confirmed to be a planet yet.</description>
-		</planet>
 		<name>KOI-1884</name>
+		<temperature>5077.00</temperature>
+		<radius>0.92</radius>
+		<planet>
+			<name>KOI-1884 b</name>
+			<name>KOI-1884 01</name>
+			<radius>5.00</radius>
+			<period>23.120000</period>
+			<semimajoraxis>0.156</semimajoraxis>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-1884 c</name>
+			<name>KOI-1884 02</name>
+			<radius>2.63</radius>
+			<period>4.775040</period>
+			<semimajoraxis>0.055</semimajoraxis>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
 	</star>
 </system>

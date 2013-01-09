@@ -2,20 +2,18 @@
 	<name>KOI-2439</name>
 	<rightascension>19 32 30</rightascension>
 	<declination>+42 19 12</declination>
-	<distance>1611.02541825</distance>
 	<star>
-		<magV>15.438</magV>
-		<temperature>6096</temperature>
-		<radius>1.10</radius>
-		<planet>
-			<name>KOI 2439 b</name>
-			<mass>0.0140804396009</mass>
-			<radius>0.1886391</radius>
-			<period>5.1911913</period>
-			<semimajoraxis>0.062</semimajoraxis>
-			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest. It has been flagged as a possible transit event but might have not been confirmed to be a planet yet.</description>
-		</planet>
 		<name>KOI-2439</name>
+		<temperature>6096.00</temperature>
+		<radius>0.95</radius>
+		<planet>
+			<name>KOI-2439 b</name>
+			<name>KOI-2439 01</name>
+			<radius>1.79</radius>
+			<period>5.191190</period>
+			<semimajoraxis>0.060</semimajoraxis>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
 	</star>
 </system>

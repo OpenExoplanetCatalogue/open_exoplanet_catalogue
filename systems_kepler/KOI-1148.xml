@@ -2,20 +2,28 @@
 	<name>KOI-1148</name>
 	<rightascension>18 48 48</rightascension>
 	<declination>+44 25 20</declination>
-	<distance>916.053514195</distance>
 	<star>
-		<magV>13.908</magV>
-		<temperature>6158</temperature>
-		<radius>1.24</radius>
-		<planet>
-			<name>KOI 1148 b</name>
-			<mass>0.0112957212731</mass>
-			<radius>0.1695018</radius>
-			<period>11.4760690</period>
-			<semimajoraxis>0.103</semimajoraxis>
-			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest. It has been flagged as a possible transit event but might have not been confirmed to be a planet yet.</description>
-		</planet>
 		<name>KOI-1148</name>
+		<temperature>6419.00</temperature>
+		<radius>1.28</radius>
+		<age>2.7300</age>
+		<planet>
+			<name>KOI-1148 b</name>
+			<name>KOI-1148 01</name>
+			<radius>1.87</radius>
+			<period>11.476100</period>
+			<semimajoraxis>0.105</semimajoraxis>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-1148 c</name>
+			<name>KOI-1148 02</name>
+			<radius>1.59</radius>
+			<period>25.262900</period>
+			<semimajoraxis>0.178</semimajoraxis>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
 	</star>
 </system>
