@@ -9,6 +9,7 @@ The catalogue is maintained by Hanno Rein, Institute for Advanced Study, Princet
 
 When I started this project, it was an experiment. I didn't know much about git and made a couple of stupid mistakes. The biggest mistake was to include many derived files (e.g. resized images and compressed gz files) in the repository. Whenever a single line in the catalogue was changed, those binary files changed as well. This increased the size of the repository dramatically. I therefore decided to rewrite history on November 29th 2012. I removed all derived files from the repository  and only kept the actual planet data (what is now in the systems directory). You can still access the old repository with all files [here](https://github.com/hannorein/oec_old) if you wish to do so. Note that the size of that repository is about 50 times larger (500MB compared to 10MB). 
 
+If you are looking for a simple comma/tab separated table, you might want to check out [this repository](https://github.com/hannorein/oec_tables/).
 
 Plots
 -------------
