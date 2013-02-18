@@ -4,19 +4,25 @@
 	<declination>+50 02 01</declination>
 	<distance>269.79</distance>
 	<star>
-		<mass>1.23</mass>
-		<radius>1.88</radius>
+		<name>Kepler-50</name>
+		<temperature>6225</temperature>
+		<metallicity>0.03</metallicity>
+		<mass>1.24</mass>
+		<radius>1.58</radius>
+		<age>3.8</age>
 		<planet>
 			<name>Kepler-50 b</name>
 			<name>KOI 262.01</name>
 			<name>KID 11807274</name>
 			<list>Confirmed planets</list>
 			<mass>0.015963</mass>
-			<radius>0.200487</radius>
-			<period>7.8125124</period>
+			<radius>0.155832</radius>
+			<semimajoraxis>0.077</semimajoraxis>
+			<period>7.81254</period>
+			<inclination>82</inclination>
 			<description>This planet candidate was discovered by the Kepler spacecraft. It transits its host star every 7.81 days for 4.2439 hours. Periodic transit timing variations confirm its planetary nature.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>12/08/19</lastupdate>
+			<lastupdate>13/02/17</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<new>0</new>
 		</planet>
@@ -26,15 +32,15 @@
 			<name>KID 11807274</name>
 			<list>Confirmed planets</list>
 			<mass>0.026041</mass>
-			<radius>0.254254</radius>
-			<period>9.3761368</period>
+			<radius>0.1977527</radius>
+			<period>9.37647</period>
+			<semimajoraxis>0.087</semimajoraxis>
+			<inclination>82</inclination>
 			<description>This planet candidate was discovered by the Kepler spacecraft. It transits its host star every 9.38 days for 2.6022 hours. Periodic transit timing variations confirm its planetary nature.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>12/08/19</lastupdate>
+			<lastupdate>13/02/17</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<new>0</new>
 		</planet>
-		<name>Kepler-50</name>
-		<temperature>6058.0</temperature>
 	</star>
 </system>
