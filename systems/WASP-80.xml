@@ -2,12 +2,13 @@
 	<name>WASP-80</name>
 	<rightascension>20 12 40</rightascension>
 	<declination>-02 08 44</declination>
-	<distance>60</distance>
+	<distance err='20'>60</distance>
+	<temperature err='100'>4145.0</temperature>
 	<star>
-		<mass>0.58</mass>
-		<radius>0.571</radius>
-		<magV>11.881</magV>
-		<metallicity></metallicity>
+		<mass err='0.05'>0.58</mass>
+		<radius err='0.15'>0.63</radius>
+		<magV err='0.228'>11.881</magV>
+		<metallicity err='0.16'>-0.14</metallicity>
 		<spectraltype>K7V</spectraltype>
 		<planet>
 			<name>WASP-80 b</name>
@@ -16,12 +17,12 @@
 			<name>BPM 80815 b</name>
 			<name>GSC 05165-00481 b</name>
 			<list>Confirmed planets</list>
-			<mass>0.554</mass>
-			<radius>0.952</radius>
-			<period>3.0678504</period>
-			<semimajoraxis>0.0346</semimajoraxis>
-			<eccentricity>0.07</eccentricity>
-			<inclination>89.92</inclination>
+			<mass err='30, -39'>0.554</mass>
+			<radius err='26, -27'>0.952</radius>
+			<period err='23, -27'>3.0678504</period>
+			<semimajoraxis err='8, -11'>0.0346</semimajoraxis>
+			<eccentricity err=',-0.07'>0.07</eccentricity>
+			<inclination err='0.07, -0.12'>89.92</inclination>
 			<description>WASP-80b is a fluffy Jupiter-sized exoplanet but at only half the mass. It is a warm Jupiter when we consider its temperature, and yet it belongs to the hot Jupiter population  producing one of the largest transit depths so far reported (~3%).</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>01/03/13</lastupdate>
@@ -29,7 +30,5 @@
 			<new>0</new>
 			<temperature>800</temperature>
 		</planet>
-		<name>WASP-80</name>
-		<temperature>4145.0</temperature>
 	</star>
 </system>
