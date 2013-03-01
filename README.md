@@ -1,6 +1,6 @@
 Open Exoplanet Catalogue Atmospheres
 ==============
-This is a fork of the main catalogue (see [github](https://github.com/hannorein/open_exoplanet_catalogue)). The aim is to include more information useful to researchers making atmospheric observations. This includes uncertanties on all measurements and known spectral measurments.
+This is a fork of the main catalogue (see [here](https://github.com/hannorein/open_exoplanet_catalogue)). The aim is to include more information useful to researchers making atmospheric observations. This includes uncertanties on all measurements and known spectral measurments.
 
 This catalogue is an experiment and once standards are decided upon it may be merged into the original.
 
