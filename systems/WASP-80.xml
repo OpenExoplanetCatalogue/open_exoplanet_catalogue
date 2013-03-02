@@ -3,8 +3,13 @@
 	<rightascension>20 12 40</rightascension>
 	<declination>-02 08 44</declination>
 	<distance err='20'>60</distance>
-	<temperature err='100'>4145.0</temperature>
 	<star>
+		<name>WASP-80</name>
+		<name>2MASS J20124017-0208391</name>
+		<name>TYC 7038-834-1</name>
+		<name>BPM 80815</name>
+		<name>GSC 05165-00481</name>
+		<temperature err='100'>4145.0</temperature>
 		<mass err='0.05'>0.58</mass>
 		<radius err='0.15'>0.63</radius>
 		<magV err='0.228'>11.881</magV>
@@ -23,9 +28,9 @@
 			<semimajoraxis err='8, -11'>0.0346</semimajoraxis>
 			<eccentricity err=',-0.07'>0.07</eccentricity>
 			<inclination err='0.07, -0.12'>89.92</inclination>
-			<description>WASP-80b is a fluffy Jupiter-sized exoplanet but at only half the mass. It is a warm Jupiter when we consider its temperature, and yet it belongs to the hot Jupiter population  producing one of the largest transit depths so far reported (~3%).</description>
+			<description>WASP-80 b is a Jupiter-sized exoplanet but it has only half of Jupiter's mass. It has a transit depth of 3 percent, one of the largest reported so far.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>01/03/13</lastupdate>
+			<lastupdate>13/03/01</lastupdate>
 			<discoveryyear>2013</discoveryyear>
 			<new>0</new>
 			<temperature>800</temperature>
