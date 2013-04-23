@@ -3,8 +3,8 @@
 	<rightascension>18 44 18</rightascension>
 	<declination>+06 39 48</declination>
 	<star>
-		<mass>1.055</mass>
-		<radius>1.025</radius>
+		<mass err='0.05'>1.05</mass>
+		<radius err='0.026'>1.025</radius>
 		<magV>13.9</magV>
 		<metallicity>-0.2</metallicity>
 		<spectraltype>F9V</spectraltype>
@@ -13,12 +13,12 @@
 			<name>CoRoT-Exo-6 b</name>
 			<name>CoRoTID 106017681 b</name>
 			<list>Confirmed planets</list>
-			<mass>2.96</mass>
-			<radius>1.166</radius>
-			<period>8.886593</period>
-			<semimajoraxis>0.0855</semimajoraxis>
-			<eccentricity>0.1</eccentricity>
-			<inclination>89.07</inclination>
+			<mass err='0.34'>2.96</mass>
+			<radius err='0.035'>1.166</radius>
+			<period err='0.000004'>8.886593</period>
+			<semimajoraxis err='0.0015'>0.0855</semimajoraxis>
+			<eccentricity err='0,-0.1'>0.1</eccentricity>
+			<inclination err='0.30'>89.07</inclination>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>10/01/11</lastupdate>
 			<discoveryyear>2009</discoveryyear>
@@ -27,5 +27,6 @@
 		</planet>
 		<name>CoRoT-6</name>
 		<temperature>6090.0</temperature>
+		<transittime err='0.0002' unit='BJD'>2 454 595.6144</transittime>
 	</star>
 </system>
