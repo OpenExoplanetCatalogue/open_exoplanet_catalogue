@@ -4,36 +4,36 @@
 	<name>2MASS 19322220+4121198</name>
 	<rightascension>19 32 22</rightascension>
 	<declination>+41 21 20</declination>
-	<distance error="170">1330</distance>
+	<distance errorminus="170" errorplus="170">1330</distance>
 	<star>
 		<name>KOI-200</name>
 		<name>KIC-6046540</name>
 		<name>2MASS 19322220+4121198</name>
-		<temperature error="110">6050</temperature>
-		<radius error="0.14">1.51</radius>
-		<mass errorplus="0.14" errorminus="0.11">1.40</mass>
+		<temperature errorminus="110" errorplus="110">6050</temperature>
+		<radius errorminus="0.14" errorplus="0.14">1.51</radius>
+		<mass errorminus="0.11" errorplus="0.14">1.40</mass>
 		<magV>15</magV>
-		<metallicity error="0.14">0.34</metallicity>
-		<age errorplus="1.5" errorminus="0.8">2.9</age>
+		<metallicity errorminus="0.14" errorplus="0.14">0.34</metallicity>
+		<age errorminus="0.8" errorplus="1.5">2.9</age>
 		<spectraltype>F8V</spectraltype>
 		<planet>
 			<name>KOI-200 b</name>
 			<name>KIC-6046540 b</name>
 			<name>2MASS 19322220+4121198 b</name>
 			<list>Confirmed planets</list>
-			<mass error="0.68">0.68</mass>
-			<radius error="0.14">1.32</radius>
-			<period error="0.000001">7.340718</period>
-			<eccentricity error="0.062">0.287</eccentricity>
-			<periastron error="21">64</periastron>
-			<inclination error="0.96">85.55</inclination>
-			<semimajoraxis error="0.014">0.084</semimajoraxis>
+			<mass errorminus="0.68" errorplus="0.68">0.68</mass>
+			<radius errorminus="0.14" errorplus="0.14">1.32</radius>
+			<period errorminus="0.000001" errorplus="0.000001">7.340718</period>
+			<eccentricity errorminus="0.062" errorplus="0.062">0.287</eccentricity>
+			<periastron errorminus="21" errorplus="21">64</periastron>
+			<inclination errorminus="0.96" errorplus="0.96">85.55</inclination>
+			<semimajoraxis errorminus="0.014" errorplus="0.014">0.084</semimajoraxis>
 			<description>This planet was discovered with the Kepler telescope and confirmed with the SOPHIE and HARPS-N spectrographs. The planet is on an eccentric orbit and at the boundary between regimes where the tides from the host star can explain circularization and where tidal effects are negligible. The planet was first announced in 2012.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>13/04/22</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<new>0</new>
-			<temperature error="120">1250</temperature>
+			<temperature errorminus="120" errorplus="120">1250</temperature>
 		</planet>
 	</star>
 </system>
