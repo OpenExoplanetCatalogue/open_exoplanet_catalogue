@@ -23,7 +23,7 @@ def removeemptytags(elem):
 		elem.text = elem.text.strip()
 	toberemoved= []
 	for child in elem:
-		if len(child)==0 and child.text==None:
+		if len(child)==0 and child.text==None and len(child.attrib)==0:
 			toberemoved.append(child)
 	for child in toberemoved:
 		elem.remove(child)
