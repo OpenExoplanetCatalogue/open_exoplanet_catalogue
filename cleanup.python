@@ -1,5 +1,5 @@
 #!/usr/bin/python
-import xml.etree.ElementTree as ET, glob, os
+import xml.etree.ElementTree as ET, glob, os, sys
 
 # Nicely indents the XML output 
 def indent(elem, level=0):
@@ -23,12 +23,18 @@ def removeemptytags(elem):
 		elem.text = elem.text.strip()
 	toberemoved= []
 	for child in elem:
-		if len(child)==0 and child.text==None:
+		if len(child)==0 and child.text==None and len(child.attrib)==0:
 			toberemoved.append(child)
 	for child in toberemoved:
 		elem.remove(child)
 	for child in elem:
 		removeemptytags(child)
+	# Convert error to errorminus and errorplus
+	if 'error' in elem.attrib:
+		err = elem.attrib['error']
+		del elem.attrib['error']
+		elem.attrib['errorminus'] = err
+		elem.attrib['errorplus'] = err
 
 # Check if an unknown tag is present (most likely an indication for a typo)
 validtags = ["system","name","new","description","ascendingnode","discoveryyear","lastupdate","list","discoverymethod","semimajoraxis","period","magV","distance","longitude","imagedescription","image","age","declination","rightascension","metallicity","inclination","spectraltype","binary","planet","periastron","star","mass","eccentricity","radius","temperature","videolink"]
@@ -60,4 +66,4 @@ for filename in glob.glob("systems*/*.xml"):
 		indent(root)
 		ET.ElementTree(root).write(filename) 
 	except:
-		print "Error parsing file: "+filename
+		print "Error parsing file "+filename+": ",sys.exc_info()[0]
