@@ -37,7 +37,7 @@ def removeemptytags(elem):
 		elem.attrib['errorplus'] = err
 
 # Check if an unknown tag is present (most likely an indication for a typo)
-validtags = ["system","name","new","description","ascendingnode","discoveryyear","lastupdate","list","discoverymethod","semimajoraxis","period","magV","distance","longitude","imagedescription","image","age","declination","rightascension","metallicity","inclination","spectraltype","binary","planet","periastron","star","mass","eccentricity","radius","temperature","videolink"]
+validtags = ["system","name","new","description","ascendingnode","discoveryyear","lastupdate","list","discoverymethod","semimajoraxis","period","magV","distance","longitude","imagedescription","image","age","declination","rightascension","metallicity","inclination","spectraltype","binary","planet","periastron","star","mass","eccentricity","radius","temperature","videolink","transittime","rossitermclaughlin"]
 
 def checkforvalidtags(elem):
 	problematictag = None
