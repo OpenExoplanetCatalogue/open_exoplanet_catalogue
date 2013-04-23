@@ -9,9 +9,9 @@
 		<name>TYC 7038-834-1</name>
 		<name>BPM 80815</name>
 		<name>GSC 05165-00481</name>
-		<temperature err='100'>4145.0</temperature>
-		<mass err='0.05'>0.58</mass>
-		<radius err='0.15'>0.63</radius>
+		<temperature err='100'>4145</temperature>
+		<mass err='0.05'>0.57</mass>
+		<radius err='16'>0.571</radius>
 		<magV err='0.228'>11.881</magV>
 		<metallicity err='0.16'>-0.14</metallicity>
 		<spectraltype>K7V</spectraltype>
@@ -22,17 +22,18 @@
 			<name>BPM 80815 b</name>
 			<name>GSC 05165-00481 b</name>
 			<list>Confirmed planets</list>
-			<mass err='30, -39'>0.554</mass>
-			<radius err='26, -27'>0.952</radius>
-			<period err='23, -27'>3.0678504</period>
-			<semimajoraxis err='8, -11'>0.0346</semimajoraxis>
-			<eccentricity err=',-0.07'>0.07</eccentricity>
+			<mass err='0.030, -0.039'>0.554</mass>
+			<radius err='0.026, -0.027'>0.952</radius>
+			<period err='0.0000023, -0.0000027'>3.0678504</period>
+			<semimajoraxis err='0.0008, -0.0011'>0.0346</semimajoraxis>
+			<eccentricity err='0, -0.07'>0.07</eccentricity>
 			<inclination err='0.07, -0.12'>89.92</inclination>
 			<description>WASP-80 b is a Jupiter-sized exoplanet but it has only half of Jupiter's mass. It has a transit depth of 3 percent, one of the largest reported so far.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>13/03/01</lastupdate>
 			<discoveryyear>2013</discoveryyear>
 			<new>0</new>
+			<logg err='0.013, 0.012'>3.178</logg>
 			<temperature>800</temperature>
 		</planet>
 	</star>
