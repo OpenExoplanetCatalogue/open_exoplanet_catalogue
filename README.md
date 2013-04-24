@@ -2,9 +2,7 @@ Open Exoplanet Catalogue Atmospheres
 ==============
 This is a fork of the main catalogue (see [here](https://github.com/hannorein/open_exoplanet_catalogue)). The aim is to include more information useful to researchers making atmospheric observations. This includes uncertainties on all measurements and known spectral measurements.
 
-This catalogue is an experiment and once standards are decided upon i may request a merge into the original.
-
-I am currently using the 'err' tag for uncertainties on quantities eg for +-0.1 ```<inclination err='0.1'>88.8</inclination>``` or for +0.1 -0.2 ```<inclination err='0.1, -0.2'>88.8</inclination>```) However this may change.
+Currently this project is in a implementation phase and will soon join the main catalogue. If you want to know mre see the wiki [here](https://github.com/ryanvarley/open_exoplanet_catalogue_advanced/wiki/_pages)
 
 If you would like to contribute please contact me at r.varley@ucl.ac.uk or issue a pull request
 
