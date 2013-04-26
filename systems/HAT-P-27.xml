@@ -4,27 +4,30 @@
 	<declination>+05 56 50</declination>
 	<distance>204</distance>
 	<star>
-		<mass>0.945</mass>
-		<radius>0.898</radius>
+		<mass>0.92</mass>
+		<radius>0.87</radius>
 		<magV>12.21</magV>
-		<metallicity>0.29</metallicity>
+		<metallicity>0.14</metallicity>
 		<spectraltype>G8</spectraltype>
+		<age>3.60</age>
 		<planet>
 			<name>HAT-P-27 b</name>
 			<name>WASP-40 b</name>
 			<name>2MASS J14510418+0556505</name>
 			<list>Confirmed planets</list>
-			<mass>0.66</mass>
-			<radius>1.055</radius>
-			<period>3.0395721</period>
-			<semimajoraxis>0.0403</semimajoraxis>
-			<eccentricity>0.078</eccentricity>
-			<inclination>84.98</inclination>
+			<mass>0.62</mass>
+			<radius>1.02</radius>
+			<period>3.039577</period>
+			<semimajoraxis>0.0400</semimajoraxis>
+			<eccentricity>0.0</eccentricity>
+			<rossitermclaughlin>24.2</rossitermclaughlin>
+			<inclination>85.0</inclination>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>12/11/24</lastupdate>
+			<lastupdate>13/03/30</lastupdate>
 			<discoveryyear>2011</discoveryyear>
 			<new>0</new>
 			<temperature>1102.7</temperature>
+			<transittime errorminus="0.00054" errorlpus="0.00054" unit="BJD">2455186.01879</transittime>
 		</planet>
 		<name>HAT-P-27</name>
 		<temperature>5300.0</temperature>
