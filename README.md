@@ -1,15 +1,6 @@
-Open Exoplanet Catalogue Atmospheres
-==============
-This is a fork of the main catalogue (see [here](https://github.com/hannorein/open_exoplanet_catalogue)). The aim is to include more information useful to researchers making atmospheric observations. This includes uncertainties on all measurements and known spectral measurements.
-
-Currently this project is in a implementation phase and will soon join the main catalogue. If you want to know mre see the wiki [here](https://github.com/ryanvarley/open_exoplanet_catalogue_advanced/wiki/_pages)
-
-If you would like to contribute please contact me at r.varley@ucl.ac.uk or issue a pull request
-
-The main catalogue readme is included below.
-
 Open Exoplanet Catalogue
 ==============
+
 The Open Exoplanet Catalogue is a database of all discovered extra-solar planets. New planets are usually added within 24 hours of their announcement.
 
 The database is licensed under an MIT license (see below), which basically says you can do everything with it. If you use it for a scientific publication, please include a reference to the Open Exoplanet Catalogue on [github](https://github.com/hannorein/open_exoplanet_catalogue) or to [this arXiv paper](http://arxiv.org/abs/1211.7121).  
