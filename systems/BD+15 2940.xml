@@ -1,0 +1,33 @@
+<system>
+	<name>BD+15 2940</name>
+	<name>HIC 78407</name>
+	<rightascension>16 00 23</rightascension>
+	<declination>+15 32 49</declination>
+	<distance>585</distance>
+	<star>
+		<name>BD+15 2940</name>
+		<name>HIC 78407</name>
+		<mass errorminus="0.2" errorplus="0.2">1.1</mass>
+		<radius errorminus="2.8" errorplus="2.8">14.7</radius>
+		<temperature errorminus="117" errorplus="117">4796</temperature>
+		<metallicity errorminus="0.07" errorplus="0.07">0.28</metallicity>
+		<age errorminus="4.2" errorplus="4.2">7.1</age>
+		<spectraltype>K0</spectraltype>
+		<planet>
+			<name>BD+15 2940 b</name>
+			<name>HIC 78407 b</name>
+			<list>Confirmed planets</list>
+			<mass>1.11</mass>
+			<period errorminus="0.34" errorplus="0.34">137.48</period>
+			<transittime errorminus="16" errorplus="16" unit="MJD">53464</transittime>
+			<semimajoraxis>0.539</semimajoraxis>
+			<eccentricity errorminus="0.10" errorplus="0.10">0.26</eccentricity>
+			<periastron errorminus="33" errorplus="33">302</periastron>
+			<description>The planet BD+15 2940 b was discovered by the Penn State - Torun Planet Search (PTPS) using ground based spectrometer. It is the closest-in planet around a giant star. It might soon be swallowed by the star as a consequence of stellar evolution.</description>
+			<discoverymethod>RV</discoverymethod>
+			<lastupdate>13/04/26</lastupdate>
+			<discoveryyear>2013</discoveryyear>
+			<new>1</new>
+		</planet>
+	</star>
+</system>
