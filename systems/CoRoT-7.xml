@@ -2,13 +2,13 @@
 	<name>CoRoT-7</name>
 	<rightascension>06 43 49</rightascension>
 	<declination>-01 03 46</declination>
-	<distance>150</distance>
+	<distance errorminus="20" errorplus="20">150</distance>
 	<star>
 		<mass>0.93</mass>
 		<radius>0.87</radius>
-		<magV>11.7</magV>
+		<magV>11.67</magV>
 		<metallicity>0.03</metallicity>
-		<spectraltype>K0V</spectraltype>
+		<spectraltype>G9V</spectraltype>
 		<planet>
 			<name>CoRoT-7 b</name>
 			<name>CoRoT-Exo-7 b</name>
@@ -16,7 +16,7 @@
 			<list>Confirmed planets</list>
 			<mass>0.0151</mass>
 			<radius>0.15</radius>
-			<period>0.853585</period>
+			<period errorminus="0.000024" errorplus="0.000024">0.853585</period>
 			<semimajoraxis>0.0172</semimajoraxis>
 			<eccentricity>0.0</eccentricity>
 			<inclination>80.1</inclination>
@@ -26,6 +26,7 @@
 			<discoveryyear>2009</discoveryyear>
 			<new>0</new>
 			<temperature>1666.1</temperature>
+			<transittime errorminus="0.003" errorplus="0.003" unit="JD">2454446.731</transittime>
 		</planet>
 		<planet>
 			<name>CoRoT-7 c</name>
@@ -33,7 +34,7 @@
 			<name>CoRoTID 102708694 c</name>
 			<list>Confirmed planets</list>
 			<mass>0.0264</mass>
-			<period>3.698</period>
+			<period errorminus="0.003" errorplus="0.003">3.698</period>
 			<semimajoraxis>0.046</semimajoraxis>
 			<eccentricity>0.0</eccentricity>
 			<description>The star CoRoT 7c is a G-type star in the constellation Monoceros. The planet is not transiting.</description>
@@ -42,6 +43,7 @@
 			<discoveryyear>2009</discoveryyear>
 			<new>0</new>
 			<temperature>1018.8</temperature>
+			<transittime errorminus="0.7" errorplus="0.7" unit="JD">2454445.0</transittime>
 		</planet>
 		<name>CoRoT-7</name>
 		<temperature>5313.0</temperature>
