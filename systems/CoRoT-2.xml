@@ -4,8 +4,8 @@
 	<declination>+01 23 02</declination>
 	<distance>300</distance>
 	<star>
-		<mass>0.97</mass>
-		<radius>0.902</radius>
+		<mass errorminus="0.06" errorplus="0.06">0.97</mass>
+		<radius errorminus="0.018" errorplus="0.018">0.902</radius>
 		<magV>12.57</magV>
 		<spectraltype>G7V</spectraltype>
 		<planet>
@@ -14,17 +14,18 @@
 			<name>2MASS J19270649+0123013 b</name>
 			<name>CoRoTID 101206560 b</name>
 			<list>Confirmed planets</list>
-			<mass>3.31</mass>
-			<radius>1.465</radius>
-			<period>1.7429964</period>
+			<mass errorminus="0.16" errorplus="0.16">3.31</mass>
+			<radius errorminus="0.029" errorplus="0.029">1.465</radius>
+			<period errorminus="0.0000017" errorplus="0.0000017">1.7429964</period>
 			<semimajoraxis>0.0281</semimajoraxis>
 			<eccentricity>0.0</eccentricity>
-			<inclination>87.84</inclination>
+			<inclination errorminus="0.10" errorplus="0.10">87.84</inclination>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/04/05</lastupdate>
 			<discoveryyear>2007</discoveryyear>
 			<new>0</new>
 			<temperature>1392.7</temperature>
+			<transittime errorminus="0.00014" errorplus="0.00014" unit="BJD">2454237.53562</transittime>
 		</planet>
 		<name>CoRoT-2</name>
 		<temperature>5575.0</temperature>
