@@ -1,0 +1,27 @@
+<system>
+	<name>KIC 4570949</name>
+	<rightascension>19 36 46</rightascension>
+	<declination>+39 37 08</declination>
+	<star>
+		<name>KIC 4570949</name>
+		<mass errorminus="0.2" errorplus="0.2">1.2</mass>
+		<radius errorminus="0.08" errorplus="0.08">1.32</radius>
+		<temperature errorminus="95" errorplus="95">6409</temperature>
+		<metallicity errorminus="0.2" errorplus="0.2">-0.1</metallicity>
+		<spectraltype>G2V</spectraltype>
+		<planet>
+			<name>KIC 4570949 b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.26" errorplus="0.26">2.00</mass>
+			<radius errorminus="0.08" errorplus="0.08">1.25</radius>
+			<period errorminus="0.00000027" errorplus="0.00000027">1.54492875</period>
+			<inclination errorminus="0.2" errorplus="0.2">78</inclination>
+			<transittime errorminus="0.00007" errorplus="0.00007" unit="BJD">2454966.54811</transittime>
+			<description>This planet was discovered in a Kepler lightcurve using the BEER algorithm (BEaming effect with Ellipsoidal and Reflection modulations). Follow-up observations using spectra from TRES and SOPHIE confirmed the planetary nature of the object.</description>
+			<discoverymethod>transit</discoverymethod>
+			<lastupdate>13/04/26</lastupdate>
+			<discoveryyear>2013</discoveryyear>
+			<new>1</new>
+		</planet>
+	</star>
+</system>
