@@ -4,8 +4,8 @@
 	<declination>-14 15 13</declination>
 	<distance>4.7</distance>
 	<star>
-		<mass>0.334</mass>
-		<radius>0.36</radius>
+		<mass errorminus="0.03" errorplus="0.03">0.32</mass>
+		<radius>0.3</radius>
 		<magV>10.17</magV>
 		<metallicity>0.05</metallicity>
 		<spectraltype>M4 V</spectraltype>
@@ -15,16 +15,16 @@
 			<name>Gj 876 b</name>
 			<name>Gl 876 b</name>
 			<list>Confirmed planets</list>
-			<mass>2.2756</mass>
-			<period>61.1166</period>
-			<semimajoraxis>0.208317</semimajoraxis>
-			<eccentricity>0.0324</eccentricity>
-			<periastron>50.3</periastron>
+			<mass errorminus="0.0045" errorplus="0.0045">2.2756</mass>
+			<period errorminus="0.0086" errorplus="0.0086">61.1166</period>
+			<semimajoraxis errorminus="0.000020" errorplus="0.000020">0.208317</semimajoraxis>
+			<eccentricity errorminus="0.0013" errorplus="0.0013">0.0324</eccentricity>
+			<periastron errorminus="3.2" errorplus="3.2">50.3</periastron>
 			<inclination>59</inclination>
-			<longitude>325.7</longitude>
+			<longitude errorminus="3.2" errorplus="3.2">325.7</longitude>
 			<description>Gliese 876 is a red dwarf only 15 light years from Earth in the constellation Aquarius. The orbits of the outer three planets are locked in a Laplace reasonance. This resonance is also present in the moons of Jupiter: Io, Europa, Ganymede. This strong dynamical interaction leads to interesting conclusions about the formation history of the system. It is a very strong indication that the planets migrated in the protoplanetary disk to their current position and got locked into mean motion resonances during that process.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>13/01/26</lastupdate>
+			<lastupdate>13/05/11</lastupdate>
 			<discoveryyear>2000</discoveryyear>
 			<new>0</new>
 			<temperature>194.2</temperature>
@@ -35,16 +35,16 @@
 			<name>Gj 876 c</name>
 			<name>Gl 876 c</name>
 			<list>Confirmed planets</list>
-			<mass>0.7142</mass>
-			<period>30.0881</period>
-			<semimajoraxis>0.129590</semimajoraxis>
-			<eccentricity>0.25591</eccentricity>
+			<mass errorminus="0.0039" errorplus="0.0039">0.7142</mass>
+			<period errorminus="0.0082" errorplus="0.0082">30.0881</period>
+			<semimajoraxis errorminus="0.000024" errorplus="0.000024">0.129590</semimajoraxis>
+			<eccentricity errorminus="0.00093" errorplus="0.00093">0.25591</eccentricity>
 			<inclination>59</inclination>
-			<periastron>48.76</periastron>
-			<longitude>294.59</longitude>
+			<periastron errorminus="0.70" errorplus="0.70">48.76</periastron>
+			<longitude errorminus="0.94" errorplus="0.94">294.59</longitude>
 			<description>Gliese 876 is a red dwarf only 15 light years from Earth in the constellation Aquarius. The orbits of the outer three planets are locked in a Laplace reasonance. This resonance is also present in the moons of Jupiter: Io, Europa, Ganymede. This strong dynamical interaction leads to interesting conclusions about the formation history of the system. It is a very strong indication that the planets migrated in the protoplanetary disk to their current position and got locked into mean motion resonances during that process.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>13/01/26</lastupdate>
+			<lastupdate>13/05/11</lastupdate>
 			<discoveryyear>2000</discoveryyear>
 			<new>0</new>
 			<temperature>245.2</temperature>
@@ -55,16 +55,16 @@
 			<name>Gj 876 d</name>
 			<name>Gl 876 d</name>
 			<list>Confirmed planets</list>
-			<mass>0.021</mass>
-			<period>1.937780</period>
-			<semimajoraxis>0.02080665</semimajoraxis>
-			<eccentricity>0.207</eccentricity>
+			<mass errorminus="0.0012" errorplus="0.0012">0.021</mass>
+			<period errorminus="0.000020" errorplus="0.000020">1.937780</period>
+			<semimajoraxis errorminus="0.00000015" errorplus="0.00000015">0.02080665</semimajoraxis>
+			<eccentricity errorminus="0.055" errorplus="0.055">0.207</eccentricity>
 			<inclination>59</inclination>
-			<periastron>234</periastron>
-			<longitude>355</longitude>
+			<periastron errorminus="20" errorplus="20">234</periastron>
+			<longitude errorminus="19" errorplus="19">355</longitude>
 			<description>Gliese 876 is a red dwarf only 15 light years from Earth in the constellation Aquarius. The orbits of the outer three planets are locked in a Laplace reasonance. This resonance is also present in the moons of Jupiter: Io, Europa, Ganymede. This strong dynamical interaction leads to interesting conclusions about the formation history of the system. It is a very strong indication that the planets migrated in the protoplanetary disk to their current position and got locked into mean motion resonances during that process.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>13/01/26</lastupdate>
+			<lastupdate>13/05/11</lastupdate>
 			<discoveryyear>2005</discoveryyear>
 			<new>0</new>
 			<temperature>612.8</temperature>
@@ -75,15 +75,15 @@
 			<name>Gj 876 e</name>
 			<name>Gl 876 e</name>
 			<list>Confirmed planets</list>
-			<mass>0.046</mass>
-			<period>124.26</period>
-			<semimajoraxis>0.3343</semimajoraxis>
-			<eccentricity>0.055</eccentricity>
+			<mass errorminus="0.0053" errorplus="0.0053">0.046</mass>
+			<period errorminus="0.70" errorplus="0.70">124.26</period>
+			<semimajoraxis errorminus="0.0013" errorplus="0.0013">0.3343</semimajoraxis>
+			<eccentricity errorminus="0.0013" errorplus="0.0013">0.055</eccentricity>
 			<inclination>59</inclination>
-			<periastron>239</periastron>
-			<longitude>335</longitude>
+			<periastron errorminus="22" errorplus="22">239</periastron>
+			<longitude errorminus="24" errorplus="24">335</longitude>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>13/01/26</lastupdate>
+			<lastupdate>13/05/11</lastupdate>
 			<discoveryyear>2010</discoveryyear>
 			<new>0</new>
 			<temperature>153.3</temperature>
