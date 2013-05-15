@@ -11,6 +11,45 @@ When I started this project, it was an experiment. I didn't know much about git 
 
 If you are looking for a simple comma/tab separated table, you might want to check out [this repository](https://github.com/hannorein/oec_tables/).
 
+Data Structure
+-------------
+The following table shows all the possible tags in the Open Exoplanet Catalogue. 
+
+| Tag      | Can be child of | Description | Unit |
+| -------- | --------------- | ----------- | ---- |
+| `system` |                 | This is the root container for an entire planetary system |  |
+| ` planet` | `system`, `binary`, `star` | This is the container for a single planet. The planet is a free floating (orphan) planet if this tag is a child of `system`. | 
+| `star`  | `system`, `binary` | This is the container for a single star. A star can be host to one or more planets (circum-stellar planets). | 
+| `binary` 		| `system`, `binary` | A binary consists of either two stars, one star and one binary or two binaries. In addition a binary can be host to one or more planets (circum-binary planets).| |
+| | | | |
+| `declination`	| `system` | Declination | +/- dd mm ss   |
+| `rightascension`	| `system` | Right ascension | hh mm ss   |
+| `distance`		| `system` | Distance from the Sun | parsec   |
+| `name`		| `system`, `star`, `planet` | Name of this object. This tag can be used multiple times if the object has multiple Names. |   |
+| `semimajoraxis` 	| `binary`, `planet` | Semi-major axis of a planet (heliocentric coordinates) if child of `planet`. Semi-major axis of the binary if child of `binary`. |  AU |
+| `eccentricity` 	| `binary`, `planet` | Eccentricity  | |
+| `periastron` 	| `binary`, `planet` | Longitude of periastron | degree  |
+| `longitude` 	| `binary`, `planet` | Mean longitude at a given Epoch (same for all planets in one system) | degree  |
+| `ascendingnode` 	| `binary`, `planet` | Longitude of the ascending node | degree  |
+| `inclination` 	| `binary`, `planet` | Inclination of the orbit | degree  |
+| `period`	 	| `binary`, `planet` | Orbital period   | day  |
+| `mass`		| `planet`, `star` |Mass (or m sin(i) for radial velocity planets) | Jupiter masses (`planet`), Solar masses (`star`)  |
+| `radius`		| `planet`, `star` |Physical radius | Jupiter radii (`planet`), Solar radii (`star`)  |
+| `temperature`	| `planet`, `star` |Temperature (surface or equilibrium) | Kelvin  |
+| `age`		| `planet`, `star` |Age | Gyr  |
+| `metallicity`	| `star` | Stellar metallicity  | log, relative to solar  |
+| `spectraltype`	| `star` | Spectral type  |   |
+| `magV`		| `star` | Visual magnitude |   |
+| | | | |
+| `discoverymethod` 	| `planet` | Discovery method of the planet. For example: timing, RV, transit, imaging.  |   |
+| `description` 	| `planet` | Short description of the planet  |   |
+| `image` 		| `planet` | Filename without extension of a picture of the planet. File is stored in the images directory. |   |
+| `imagedescription`	| `planet` | Short description and copyright information of the image. |   |
+| `new`		| `planet` | The value for this tag is 1 if the system has been added recently (since the last update or within 48 hours) |   |
+| `discoveryyear`	| `planet` | Year of the planet's discovery | yyyy  |
+| `lastupdate`	| `planet` | Date of the last (non-trivial) update | yy/mm/dd   |
+
+
 Plots
 -------------
 ![Mass vs semi-major axis](https://raw.github.com/hannorein/oec_plots/master/plot_mass_vs_semimajoraxis_discovery.svg.png "Plot")
