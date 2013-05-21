@@ -33,6 +33,7 @@ The following table shows all the possible tags in the Open Exoplanet Catalogue.
 | `ascendingnode` 	| `binary`, `planet` | Longitude of the ascending node | degree  |
 | `inclination` 	| `binary`, `planet` | Inclination of the orbit | degree  |
 | `period`	 	| `binary`, `planet` | Orbital period   | day  |
+| `transittime` | `binary`, `planet` | Time of the center of a transit (T_0) | BJD |
 | `mass`		| `planet`, `star` |Mass (or m sin(i) for radial velocity planets) | Jupiter masses (`planet`), Solar masses (`star`)  |
 | `radius`		| `planet`, `star` |Physical radius | Jupiter radii (`planet`), Solar radii (`star`)  |
 | `temperature`	| `planet`, `star` |Temperature (surface or equilibrium) | Kelvin  |
@@ -48,6 +49,14 @@ The following table shows all the possible tags in the Open Exoplanet Catalogue.
 | `new`		| `planet` | The value for this tag is 1 if the system has been added recently (since the last update or within 48 hours) |   |
 | `discoveryyear`	| `planet` | Year of the planet's discovery | yyyy  |
 | `lastupdate`	| `planet` | Date of the last (non-trivial) update | yy/mm/dd   |
+
+Errors
+-------------
+Uncertanties can be added to values using properties of a tag. The syntax we use is
+
+For normal error bars: `<mass errorminus="0.1" errorplus="0.1">1.0</mass>`
+
+For limits: `<mass upperlimit="1.0" />`
 
 
 Plots
