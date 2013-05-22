@@ -1,5 +1,7 @@
 <system>
 	<name>WASP-42</name>
+	<rightascension>12 51 56</rightascension>
+	<declination>-42 04 25</declination>
 	<star>
 		<planet>
 			<name>WASP-42 b</name>
@@ -10,6 +12,7 @@
 			<semimajoraxis>0.0458</semimajoraxis>
 			<eccentricity>0.06</eccentricity>
 			<inclination>88.25</inclination>
+			<transittime errorminus="0.0.00023" errorplus="0.00023" unit="BJD">2455650.56801</transittime>
 			<description>This planet has been announced at the Extreme Solar Systems II conference in Jackson Hole by the WASP team.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/05/15</lastupdate>
