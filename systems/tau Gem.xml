@@ -2,21 +2,28 @@
 	<name>tau Gem</name>
 	<rightascension>07 11 08</rightascension>
 	<declination>+30 14 43</declination>
-	<distance>92.25</distance>
+	<distance errorminus="2.4" errorplus="2.5">98.4</distance>
 	<star>
-		<magV>4.4</magV>
+		<name>tau Gem</name>
+		<temperature errorminus="25" errorplus="25">4388</temperature>
+		<magV>4.41</magV>
+		<radius errorminus="0.7" errorplus="0.7">26.8</radius>
+		<metallicity errorminus="0.1" errorplus="0.1">0.14</metallicity>
+		<mass errorminus="0.3" errorplus="0.3">2.3</mass>
+		<age errorminus="0.76" errorplus="0.76">1.22</age>
 		<spectraltype>K2III</spectraltype>
 		<planet>
 			<name>tau Gem b</name>
 			<list>Confirmed planets</list>
-			<mass>18.1</mass>
-			<period>305</period>
+			<mass>20.6</mass>
+			<period errorminus="0.1" errorplus="0.1">305.5</period>
+			<eccentricity errorminus="0.009" errorplus="0.009">0.031</eccentricity>
+			<periastron errorminus="0.3" errorplus="0.3">137.4</periastron>
+			<semimajoraxis>1.17</semimajoraxis>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>11/01/03</lastupdate>
+			<lastupdate>13/05/23</lastupdate>
 			<discoveryyear>2004</discoveryyear>
 			<new>0</new>
 		</planet>
-		<name>tau Gem</name>
-		<temperature>5150.0</temperature>
 	</star>
 </system>
