@@ -2,7 +2,7 @@
 	<name>91 Aquarii</name>
 	<rightascension>23 15 53</rightascension>
 	<declination>-09 05 15</declination>
-	<distance>45.5</distance>
+	<distance errorminus="0.6" errorplus="0.6">45.9</distance>
 	<binary>
 		<semimajoraxis>2391</semimajoraxis>
 		<star>
@@ -11,12 +11,13 @@
 			<name>HD 219449 A</name>
 			<name>HIP 114855 A</name>
 			<name>Gliese 893.2 A</name>
-			<magV>4.21</magV>
-			<mass>1.74</mass>
-			<radius>10.16</radius>
-			<temperature>4603</temperature>
-			<metallicity>-0.085</metallicity>
+			<magV>4.24</magV>
+			<mass errorminus="0.1" errorplus="0.1">1.4</mass>
+			<radius errorminus="0.1" errorplus="0.1">11.0</radius>
+			<temperature errorminus="18" errorplus="18">4665</temperature>
+			<metallicity errorminus="0.1" errorplus="0.1">-0.03</metallicity>
 			<spectraltype>K0 III</spectraltype>
+			<age errorminus="0.63" errorplus="0.63">3.56</age>
 			<planet>
 				<name>91 Aquarii A b</name>
 				<name>91 Aqr A b</name>
@@ -25,12 +26,14 @@
 				<name>Gliese 893.2 A b</name>
 				<list>Confirmed planets</list>
 				<list>Planets in binary systems, S-type</list>
-				<mass>2.9</mass>
-				<period>182</period>
-				<semimajoraxis>0.3</semimajoraxis>
+				<mass>3.2</mass>
+				<period errorminus="0.1" errorplus="0.1">181.4</period>
+				<semimajoraxis>0.7</semimajoraxis>
+				<eccentricity errorminus="0.026" errorplus="0.026">0.027</eccentricity>
+				<periastron errorminus="0.8" errorplus="0.8">177.3</periastron>
 				<description>91 Aquarii is a triple star system in the constellation Aquarius. It is visible to the naked eye and is host to at least one extrasolar planet.</description>
 				<discoverymethod>RV</discoverymethod>
-				<lastupdate>12/12/08</lastupdate>
+				<lastupdate>13/05/23</lastupdate>
 				<discoveryyear>2003</discoveryyear>
 				<new>0</new>
 			</planet>
