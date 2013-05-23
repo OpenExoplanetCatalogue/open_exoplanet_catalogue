@@ -2,15 +2,17 @@
 	<name>TrES-2</name>
 	<rightascension>19 07 14</rightascension>
 	<declination>+49 18 59</declination>
-	<distance>213</distance>
+	<distance errorminus="11" errorplus="11">213</distance>
 	<binary>
 		<semimajoraxis>232</semimajoraxis>
 		<period>1424444</period>
 		<star>
 			<name>TrES-2 A</name>
-			<mass>1.18</mass>
+			<mass errorminus="0.063" errorplus="0.063">0.983</mass>
+			<radius errorminus="0.033" errorplus="0.033">1.003</radius>
 			<metallicity>0.001</metallicity>
 			<spectraltype>G0</spectraltype>
+			<temperature errorminus="50" errorplus="50">5850</temperature>
 			<planet>
 				<name>TrES-2 A b</name>
 				<name>TrES-2 b</name>

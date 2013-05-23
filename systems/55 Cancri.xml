@@ -3,12 +3,12 @@
 	<name>55 Cnc</name>
 	<rightascension>08 52 37</rightascension>
 	<declination>+28 20 02</declination>
-	<distance>12.34</distance>
+	<distance errorminus="0.1" errorplus="0.1">12.3</distance>
 	<binary>
 		<semimajoraxis>1100</semimajoraxis>
 		<star>
-			<mass>0.905</mass>
-			<radius>0.943</radius>
+			<mass errorminus="0.015" errorplus="0.015">0.905</mass>
+			<radius errorminus="0.010" errorplus="0.010">0.943</radius>
 			<magV>5.95</magV>
 			<metallicity>0.31</metallicity>
 			<spectraltype>K0IV-V</spectraltype>

@@ -2,11 +2,11 @@
 	<name>WASP-64</name>
 	<rightascension>06 44 28</rightascension>
 	<declination>-32 51 30</declination>
-	<distance>350</distance>
+	<distance errorminus="90" errorplus="90">350</distance>
 	<star>
 		<mass>0.98</mass>
 		<radius>1.03</radius>
-		<temperature>5550</temperature>
+		<temperature errorminus="100" errorplus="100">5400</temperature>
 		<magV>12.29</magV>
 		<metallicity>-0.08</metallicity>
 		<spectraltype>G7</spectraltype>
