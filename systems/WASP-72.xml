@@ -2,11 +2,11 @@
 	<name>WASP-72</name>
 	<rightascension>02 44 09</rightascension>
 	<declination>-30 10 08</declination>
-	<distance>250</distance>
+	<distance errorminus="60" errorplus="60">340</distance>
 	<star>
 		<mass>1.23</mass>
 		<radius>1.37</radius>
-		<temperature>6250</temperature>
+		<temperature errorminus="100" errorplus="100">6250</temperature>
 		<magV>10.88</magV>
 		<metallicity>-0.06</metallicity>
 		<spectraltype>F7</spectraltype>
