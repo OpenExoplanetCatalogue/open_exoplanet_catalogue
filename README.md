@@ -33,7 +33,7 @@ The following table shows all the possible tags in the Open Exoplanet Catalogue.
 | `ascendingnode` 	| `binary`, `planet` | Longitude of the ascending node | degree  |
 | `inclination` 	| `binary`, `planet` | Inclination of the orbit | degree  |
 | `period`	 	| `binary`, `planet` | Orbital period   | day  |
-| `transittime` | `binary`, `planet` | Time of the center of a transit (T_0) | BJD |
+| `transittime` | `binary`, `planet` | Time of the center of a transit | BJD |
 | `mass`		| `planet`, `star` |Mass (or m sin(i) for radial velocity planets) | Jupiter masses (`planet`), Solar masses (`star`)  |
 | `radius`		| `planet`, `star` |Physical radius | Jupiter radii (`planet`), Solar radii (`star`)  |
 | `temperature`	| `planet`, `star` |Temperature (surface or equilibrium) | Kelvin  |
@@ -52,11 +52,11 @@ The following table shows all the possible tags in the Open Exoplanet Catalogue.
 
 Errors
 -------------
-Uncertanties can be added to values using properties of a tag. The syntax we use is
+Uncertanties can be added to values using the following attributes of the tag. We assume that these uncertanties represent the standard error of the measurement (68.2% cofidence level). However, keep in mind that it is often not possible to collapse an entire posterior distribution to a single number.
 
-For normal error bars: `<mass errorminus="0.1" errorplus="0.1">1.0</mass>`
+The syntax for error bars is: `<mass errorminus="0.1" errorplus="0.1">1.0</mass>`
 
-For limits: `<mass upperlimit="1.0" />`
+For syntax for upper/lower limits is: `<mass upperlimit="1.0" />`
 
 
 Plots
