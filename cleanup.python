@@ -39,6 +39,7 @@ def removeemptytags(elem):
 # Check if an unknown tag is present (most likely an indication for a typo)
 validtags = ["system","name","new","description","ascendingnode","discoveryyear","lastupdate","list","discoverymethod","semimajoraxis","period","magV","distance","longitude","imagedescription","image","age","declination","rightascension","metallicity","inclination","spectraltype","binary","planet","periastron","star","mass","eccentricity","radius","temperature","videolink","transittime","rossitermclaughlin"]
 validattributes = ["errorplus","errorminus","unit","upperlimit","lowerlimit"]
+validdiscoverymethods = ["RV","transit","timing","imaging","microlensing"]
 
 def checkforvalidtags(elem):
 	problematictag = None
@@ -66,6 +67,11 @@ for filename in glob.glob("systems*/*.xml"):
 		problematictag = checkforvalidtags(root)
 		if problematictag:
 			print "Problematic tag/attribute '"+problematictag+"' found in file \""+filename+"\"."
+		discoverymethods = root.findall(".//discoverymethod")
+		for dm in discoverymethods:
+			if not (dm.text in validdiscoverymethods):
+				print "Problematic discoverymethod '"+dm.text+"' found in file \""+filename+"\"."
+
 		removeemptytags(root)
 		indent(root)
 		ET.ElementTree(root).write(filename) 
