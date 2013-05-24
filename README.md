@@ -58,6 +58,17 @@ The syntax for error bars is: `<mass errorminus="0.1" errorplus="0.1">1.0</mass>
 
 For syntax for upper/lower limits is: `<mass upperlimit="1.0" />`
 
+Constants
+-------------
+There are several constant used in defining the units in the Open Exoplanet Catalogue. The following table can be used to convert them into SI units.
+
+| Constant used in catalogue | Definition in SI units |
+| -------- | --------------- |
+| Jupiter mass | 1.8991766e+27 kg |
+| Solarmass | 1.9891e+30 kg |
+| Jupiter radius | 69911000 m |
+| Solarradius | 6.96e+08 m |
+
 
 Plots
 -------------
