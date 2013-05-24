@@ -2,27 +2,31 @@
 	<name>WASP-13</name>
 	<rightascension>09 20 25</rightascension>
 	<declination>+33 52 57</declination>
-	<distance>156</distance>
+	<distance errorminus="18" errorplus="18">155</distance>
 	<star>
 		<magV>10.42</magV>
 		<spectraltype>G1V</spectraltype>
+		<mass errorminus="0.05" errorplus="0.05">1.09</mass>
+		<radius errorminus="0.041" errorplus="0.041">1.559</radius>
+		<metallicity errorminus="0.2" errorplus="0.2">0.0</metallicity>
 		<planet>
 			<name>WASP-13 b</name>
 			<name>2MASS J09202471+3352567 b</name>
 			<list>Confirmed planets</list>
-			<mass>0.485</mass>
-			<radius>1.365</radius>
+			<mass errorminus="0.049" errorplus="0.044">0.477</mass>
+			<radius errorminus="0.056" errorplus="0.0045">1.389</radius>
 			<period>4.353011</period>
 			<semimajoraxis>0.05379</semimajoraxis>
 			<eccentricity>0.0</eccentricity>
 			<inclination>85.64</inclination>
+			<transittime errorminus="0.0016" errorplus="0.0016" unit="BJD">2455575.5143</transittime>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>11/09/14</lastupdate>
 			<discoveryyear>2008</discoveryyear>
 			<new>0</new>
-			<temperature>1203.3</temperature>
+			<temperature errorminus="100" errorplus="100">1203.3</temperature>
 		</planet>
 		<name>WASP-13</name>
-		<temperature>5826.0</temperature>
+		<temperature errorminus="100" errorplus="100">5826</temperature>
 	</star>
 </system>
