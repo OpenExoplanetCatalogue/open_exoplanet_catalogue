@@ -2,13 +2,16 @@
 	<name>Kepler-10</name>
 	<rightascension>19 02 43</rightascension>
 	<declination>+50 14 29</declination>
-	<distance>173</distance>
+	<distance errorminus="27" errorplus="27">173</distance>
 	<star>
-		<mass>0.895</mass>
-		<radius>1.056</radius>
+		<name>Kepler-10</name>
+		<temperature errorminus="44" errorplus="44">5627.0</temperature>
+		<mass errorminus="0.060" errorplus="0.060">0.895</mass>
+		<radius errorminus="0.021" errorplus="0.021">1.056</radius>
 		<magV>10.96</magV>
-		<metallicity>-0.15</metallicity>
+		<metallicity errorminus="0.04" errorplus="0.04">-0.15</metallicity>
 		<spectraltype>G</spectraltype>
+		<age errorminus="4.5" errorplus="4.5">11.9</age>
 		<planet>
 			<name>Kepler-10 b</name>
 			<name>KIC 11904151 b</name>
@@ -18,11 +21,10 @@
 			<radius>0.127</radius>
 			<period>0.837495</period>
 			<semimajoraxis>0.01684</semimajoraxis>
-			<eccentricity>0.0</eccentricity>
 			<inclination>84.4</inclination>
 			<transittime errorminus="0.00082" errorplus="0.00060" unit="BJD">2454964.57375</transittime>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>11/05/23</lastupdate>
+			<lastupdate>13/05/24</lastupdate>
 			<discoveryyear>2011</discoveryyear>
 			<new>0</new>
 			<temperature>1964.7</temperature>
@@ -32,21 +34,18 @@
 			<name>KIC 11904151 c</name>
 			<name>2MASS J19024305+5014286 c</name>
 			<list>Confirmed planets</list>
-			<mass>0.016415</mass>
-			<radius>0.203</radius>
-			<period>45.3</period>
-			<semimajoraxis>0.2396</semimajoraxis>
-			<eccentricity>0.0</eccentricity>
-			<inclination>84.4</inclination>
+			<mass upperlimit="0.062914013" />
+			<radius errorminus="0.0052" errorplus="0.0047">0.2029471</radius>
+			<period errorminus="0.00076" errorplus="0.00065">42.29485</period>
+			<semimajoraxis errorminus="0.0053" errorplus="0.0044">0.2407</semimajoraxis>
+			<inclination errorminus="0.12" errorplus="0.09">89.65</inclination>
 			<transittime errorminus="0.0023" errorplus="0.0020" unit="HJD">2454971.6761</transittime>
 			<description>This planet was confirmed using infrared observations from Spitzer. It is highly unlikely (0.002%) that Kepler-10 c is a false positive. The planet is so close to its host star that it can not sustain liquid water on its surface. It is therefore most likely not habitable and a scorched, molten Earth.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>11/05/23</lastupdate>
+			<lastupdate>13/05/24</lastupdate>
 			<discoveryyear>2011</discoveryyear>
 			<new>0</new>
-			<temperature>519.7</temperature>
+			<temperature>485</temperature>
 		</planet>
-		<name>Kepler-10</name>
-		<temperature>5627.0</temperature>
 	</star>
 </system>
