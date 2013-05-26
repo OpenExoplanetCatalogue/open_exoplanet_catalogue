@@ -39,7 +39,7 @@ def removeemptytags(elem):
 # Check if an unknown tag is present (most likely an indication for a typo)
 validtags = ["system","name","new","description","ascendingnode","discoveryyear",
 "lastupdate","list","discoverymethod","semimajoraxis","period","magV", "magJ", 
-"magH", "magR", "magB", "magK","distance",
+"magH", "magR", "magB", "magK", "magI", "distance",
 "longitude","imagedescription","image","age","declination","rightascension",
 "metallicity","inclination","spectraltype","binary","planet","periastron","star",
 "mass","eccentricity","radius","temperature","videolink","transittime","rossitermclaughlin"]
