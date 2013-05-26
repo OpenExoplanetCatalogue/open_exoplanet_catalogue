@@ -4,8 +4,12 @@
 	<declination>+38 20 37</declination>
 	<distance>191</distance>
 	<star>
+		<name>Kepler-25</name>
 		<mass>1.22</mass>
 		<radius>1.36</radius>
+		<magJ errorminus="0.020" errorplus="0.020">9.764</magJ>
+		<magH errorminus="0.020" errorplus="0.020">9.532</magH>
+		<magK errorminus="0.017" errorplus="0.017">9.493</magK>
 		<planet>
 			<name>Kepler-25 b</name>
 			<name>KIC 3231341 b</name>
@@ -36,7 +40,6 @@
 			<new>0</new>
 			<temperature>959.7</temperature>
 		</planet>
-		<name>Kepler-25</name>
 		<temperature>6190.0</temperature>
 	</star>
 </system>
