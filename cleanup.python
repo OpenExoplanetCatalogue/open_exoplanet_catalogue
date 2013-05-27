@@ -68,6 +68,11 @@ for filename in glob.glob("systems*/*.xml"):
 		f.close()
 		if (root.findtext("./name")+".xml"!=os.path.basename(filename)):
 			print "Name of system not the same as filename: " + filename
+		objectswithnames = root.findall(".//planet | .//star")
+		for obj in objectswithnames:
+			name = obj.findtext("./name")
+			if not name:
+				print "Didn't find name tag for object \""+obj.tag+"\" in file \""+filename+"\"."
 
 		problematictag = checkforvalidtags(root)
 		if problematictag:
