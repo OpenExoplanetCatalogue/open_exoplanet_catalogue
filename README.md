@@ -25,7 +25,7 @@ The following table shows all the possible tags in the Open Exoplanet Catalogue.
 | `declination`	| `system` | Declination | +/- dd mm ss   |
 | `rightascension`	| `system` | Right ascension | hh mm ss   |
 | `distance`		| `system` | Distance from the Sun | parsec   |
-| `name`		| `system`, `star`, `planet` | Name of this object. This tag can be used multiple times if the object has multiple Names. |   |
+| `name`		| `system`, `binary`, `star`, `planet` | Name of this object. This tag can be used multiple times if the object has multiple Names. |   |
 | `semimajoraxis` 	| `binary`, `planet` | Semi-major axis of a planet (heliocentric coordinates) if child of `planet`. Semi-major axis of the binary if child of `binary`. |  AU |
 | `eccentricity` 	| `binary`, `planet` | Eccentricity  | |
 | `periastron` 	| `binary`, `planet` | Longitude of periastron | degree  |
@@ -40,7 +40,12 @@ The following table shows all the possible tags in the Open Exoplanet Catalogue.
 | `age`		| `planet`, `star` |Age | Gyr  |
 | `metallicity`	| `star` | Stellar metallicity  | log, relative to solar  |
 | `spectraltype`	| `star` | Spectral type  |   |
-| `magV`		| `star` | Visual magnitude |   |
+| `magB`		| `binary`, `star` | B magnitude |   |
+| `magV`		| `binary`, `star` | Visual magnitude |   |
+| `magI`		| `binary`, `star` | I magnitude |   |
+| `magJ`		| `binary`, `star` | J magnitude |   |
+| `magH`		| `binary`, `star` | H magnitude |   |
+| `magK`		| `binary`, `star` | K magnitude |   |
 | | | | |
 | `discoverymethod` 	| `planet` | Discovery method of the planet. For example: timing, RV, transit, imaging.  |   |
 | `description` 	| `planet` | Short description of the planet  |   |
