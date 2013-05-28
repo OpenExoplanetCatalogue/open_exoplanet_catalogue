@@ -49,8 +49,9 @@
 			<list>Confirmed planets</list>
 			<mass>0.022</mass>
 			<radius>0.147</radius>
-			<period>1.592851</period>
+			<period errorminus="0.000045" errorplus="0.000045">1.592851</period>
 			<semimajoraxis>0.0273</semimajoraxis>
+			<transittime errorminus="0.0033" errorplus="0.0018" unit="BJD">2455015.0943</transittime>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>10/11/23</lastupdate>
 			<discoveryyear>2010</discoveryyear>
