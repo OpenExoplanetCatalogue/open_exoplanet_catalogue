@@ -62,19 +62,24 @@ def checkforvalidtags(elem):
 
 def convertunit(elem,factor):
 	print "Converting unit of tag \""+elem.tag+"\"."
-	elem.text = "%f" % (float(elem.text)*factor)
 	del elem.attrib['unit']
+	if elem.text:
+		elem.text = "%f" % (float(elem.text)*factor)
 	if "error" in elem.attrib:
 		elem.attrib["error"] = "%f" % (float(elem.attrib["error"])*factor)
 	if "errorplus" in elem.attrib:
 		elem.attrib["errorplus"] = "%f" % (float(elem.attrib["errorplus"])*factor)
 	if "errorminus" in elem.attrib:
 		elem.attrib["errorminus"] = "%f" % (float(elem.attrib["errorminus"])*factor)
+	if "upperlimit" in elem.attrib:
+		elem.attrib["upperlimit"] = "%f" % (float(elem.attrib["upperlimit"])*factor)
+	if "lowerlimit" in elem.attrib:
+		elem.attrib["lowerlimit"] = "%f" % (float(elem.attrib["lowerlimit"])*factor)
 
 
 # Loop over all files and  create new data
 for filename in glob.glob("systems*/*.xml"):
-	try:
+#	try:
 		f = open(filename, 'rt')
 		root = ET.parse(f).getroot()
 		f.close()
@@ -104,5 +109,5 @@ for filename in glob.glob("systems*/*.xml"):
 		removeemptytags(root)
 		indent(root)
 		ET.ElementTree(root).write(filename) 
-	except:
-		print "Error parsing file "+filename+": ",sys.exc_info()[0]
+#	except:
+#		print "Error parsing file "+filename+": ",sys.exc_info()[0]
