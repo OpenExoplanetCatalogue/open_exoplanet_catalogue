@@ -2,11 +2,8 @@
 import xml.etree.ElementTree as ET
 import glob
 import os
-import sys
 
 # Nicely indents the XML output
-
-
 def indent(elem, level=0):
     i = "\n" + level * "\t"
     if len(elem):
@@ -112,7 +109,11 @@ def convertunit(elem, factor):
 for filename in glob.glob("systems*/*.xml"):
 #	try:
     f = open(filename, 'rt')
-    root = ET.parse(f).getroot()
+    try:
+        root = ET.parse(f).getroot()
+    except ET.ParseError as error:
+        print '{}, {}'.format(filename, error)
+
     f.close()
     # convert units to default
     for mass in root.findall(".//planet/mass[@unit='me']"):
