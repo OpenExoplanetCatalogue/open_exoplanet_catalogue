@@ -6,7 +6,10 @@
 	<star>
 		<mass>1.386</mass>
 		<radius>1.468</radius>
-		<magV>9.98</magV>
+		<magV errorminus="0.03" errorplus="0.03">9.99</magV>
+		<magJ errorminus="0.021" errorplus="0.021">9.094</magJ>
+		<magH errorminus="0.020" errorplus="0.020">8.927</magH>
+		<magK errorminus="0.019" errorplus="0.019">8.851</magK>
 		<metallicity>0.11</metallicity>
 		<spectraltype>F</spectraltype>
 		<planet>
@@ -22,7 +25,7 @@
 			<inclination>83.2</inclination>
 			<description>The bright F-star HAT-P-14 is located in the constellation Hercules. It is more than twice as massive as our Sun.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>12/04/08</lastupdate>
+			<lastupdate>13/05/29</lastupdate>
 			<discoveryyear>2010</discoveryyear>
 			<new>0</new>
 			<temperature>1445.9</temperature>
