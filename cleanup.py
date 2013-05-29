@@ -20,8 +20,6 @@ def indent(elem, level=0):
             elem.tail = i
 
 # Removes empty nodes from the tree
-
-
 def removeemptytags(elem):
     if elem.text:
         elem.text = elem.text.strip()
@@ -57,7 +55,6 @@ validattributes = [
     "lowerlimit"]
 validdiscoverymethods = ["RV", "transit", "timing", "imaging", "microlensing"]
 
-
 def checkforvalidtags(elem):
     problematictag = None
     for child in elem:
@@ -71,57 +68,41 @@ def checkforvalidtags(elem):
             return a
     return problematictag
 
+# Convert units (makes data entry easier)
+def convertunitattrib(elem,attribname,factor):
+    if attribname in elem.attrib:
+        elem.attrib[attribname] = "%f" % ( float(elem.attrib[attribname]) * factor)
 
 def convertunit(elem, factor):
     print "Converting unit of tag \"" + elem.tag + "\"."
     del elem.attrib['unit']
     if elem.text:
         elem.text = "%f" % (float(elem.text) * factor)
-    if "error" in elem.attrib:
-        elem.attrib["error"] = "%f" % (float(elem.attrib["error"]) * factor)
-    if "errorplus" in elem.attrib:
-        elem.attrib[
-            "errorplus"] = "%f" % (
-                float(
-                    elem.attrib[
-                        "errorplus"]) * factor)
-    if "errorminus" in elem.attrib:
-        elem.attrib[
-            "errorminus"] = "%f" % (
-                float(
-                    elem.attrib[
-                        "errorminus"]) * factor)
-    if "upperlimit" in elem.attrib:
-        elem.attrib[
-            "upperlimit"] = "%f" % (
-                float(
-                    elem.attrib[
-                        "upperlimit"]) * factor)
-    if "lowerlimit" in elem.attrib:
-        elem.attrib[
-            "lowerlimit"] = "%f" % (
-                float(
-                    elem.attrib[
-                        "lowerlimit"]) * factor)
-
+    convertunitattrib(elem,"error",factor)
+    convertunitattrib(elem,"errorplus",factor)
+    convertunitattrib(elem,"errorminus",factor)
+    convertunitattrib(elem,"upperlimit",factor)
+    convertunitattrib(elem,"lowerlimit",factor)
 
 # Loop over all files and  create new data
 for filename in glob.glob("systems*/*.xml"):
-#	try:
+    # Open file
     f = open(filename, 'rt')
+
+    # Try to parse file
     try:
         root = ET.parse(f).getroot()
     except ET.ParseError as error:
         print '{}, {}'.format(filename, error)
-
     f.close()
-    # convert units to default
+
+    # Convert units to default units
     for mass in root.findall(".//planet/mass[@unit='me']"):
         convertunit(mass, 0.0031457007)
     for radius in root.findall(".//planet/radius[@unit='re']"):
         convertunit(radius, 0.091130294)
 
-    # check names
+    # Check that names follow conventions
     if not root.findtext("./name") + ".xml" == os.path.basename(filename):
         print "Name of system not the same as filename: " + filename
     objectswithnames = root.findall(".//planet | .//star")
@@ -129,7 +110,8 @@ for filename in glob.glob("systems*/*.xml"):
         name = obj.findtext("./name")
         if not name:
             print "Didn't find name tag for object \"" + obj.tag + "\" in file \"" + filename + "\"."
-    # check tags
+
+    # Check if tags are valid and have valid attributes
     problematictag = checkforvalidtags(root)
     if problematictag:
         print "Problematic tag/attribute '" + problematictag + "' found in file \"" + filename + "\"."
@@ -137,9 +119,10 @@ for filename in glob.glob("systems*/*.xml"):
     for dm in discoverymethods:
         if not (dm.text in validdiscoverymethods):
             print "Problematic discoverymethod '" + dm.text + "' found in file \"" + filename + "\"."
-    # cleanup
+
+    # Cleanup XML
     removeemptytags(root)
     indent(root)
+
+    # Write XML to file.
     ET.ElementTree(root).write(filename)
-#	except:
-#		print "Error parsing file "+filename+": ",sys.exc_info()[0]
