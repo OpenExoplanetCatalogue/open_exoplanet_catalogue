@@ -6,19 +6,26 @@
 	<star>
 		<mass>1.15</mass>
 		<radius>1.40</radius>
-		<temperature>6100</temperature>
-		<magV>10.42</magV>
+		<temperature errorminus="100" errorplus="100">6100</temperature>
+		<magB errorminus="0.07" errorplus="0.07">10.98</magB>
+		<magV errorminus="0.06" errorplus="0.06">10.42</magV>
+		<magR errorminus="0.3" errorplus="0.3">10.0</magR>
+		<magI errorminus="0.053" errorplus="0.053">9.773</magI>
+		<magJ errorminus="0.022" errorplus="0.022">9.365</magJ>
+		<magH errorminus="0.027" errorplus="0.027">9.135</magH>
+		<magK errorminus="0.023" errorplus="0.023">9.035</magK>
 		<spectraltype>F9</spectraltype>
 		<planet>
 			<name>WASP-54 b</name>
 			<list>Confirmed planets</list>
 			<mass>0.636</mass>
 			<radius>1.653</radius>
-			<period>3.6936</period>
+			<period>3.6936411</period>
 			<semimajoraxis>0.04987</semimajoraxis>
 			<eccentricity>0.067</eccentricity>
 			<inclination>84.97</inclination>
 			<transittime errorminus="0.00056" errorplus="0.00049" unit="BJD">2455518.35087</transittime>
+			<temperature errorminus="46" errorplus="46">1759</temperature>
 			<description>This planet has been announced at the Extreme Solar Systems II conference in Jackson Hole by the WASP team.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/10/08</lastupdate>
