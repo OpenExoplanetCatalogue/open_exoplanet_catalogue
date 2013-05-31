@@ -11,7 +11,7 @@
 			<mass>0.98</mass>
 			<radius>0.98</radius>
 			<magV errorminus="0.02" errorplus="0.02">9.00</magV>
-		<magB errorminus="0.03" errorplus="0.03">9.78</magB>
+			<magB errorminus="0.03" errorplus="0.03">9.78</magB>
 			<metallicity>0.43</metallicity>
 			<spectraltype>G5</spectraltype>
 			<temperature>5370</temperature>
@@ -27,6 +27,7 @@
 				<semimajoraxis>0.449</semimajoraxis>
 				<eccentricity>0.93366</eccentricity>
 				<inclination>89.285</inclination>
+				<transittime errorminus="0.011" errorplus="0.011" unit="HJD">2454876.344</transittime>
 				<description>The star HD 80606 (also known as Struve 1341 B) is part of a binary star system with a separation of 1200 astronomical units. It hosts an extrasolar planet on a highly elliptical orbit. Because of the high eccentricity the temperature of the planet's surface can rise from 800K to 1500K in just 6 hours.</description>
 				<discoverymethod>transit</discoverymethod>
 				<lastupdate>12/12/08</lastupdate>
