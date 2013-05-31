@@ -8,10 +8,13 @@
 		<mass>0.85</mass>
 		<radius>0.80</radius>
 		<magV>12.84</magV>
-		<metallicity>0.2</metallicity>
+		<magB errorminus="0.36" errorplus="0.36">13.90</magB>
+		<magR errorminus="0.09" errorplus="0.09">12.65</magR>
+		<magI errorminus="0.08" errorplus="0.08">11.71</magI>
 		<magJ errorminus="0.021" errorplus="0.021">10.999</magJ>
 		<magH errorminus="0.019" errorplus="0.019">10.527</magH>
 		<magK errorminus="0.017" errorplus="0.017">10.409</magK>
+		<metallicity>0.2</metallicity>
 		<spectraltype>K</spectraltype>
 		<age>4.5</age>
 		<temperature>4910</temperature>
