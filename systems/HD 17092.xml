@@ -4,8 +4,13 @@
 	<declination>+49 39 11</declination>
 	<distance>109</distance>
 	<star>
+		<spectraltype>K0III</spectraltype>
 		<mass>2.3</mass>
 		<magV>7.73</magV>
+		<magB errorminus="0.02" errorplus="0.02">9.00</magB>
+		<magJ errorminus="0.020" errorplus="0.020">5.530</magJ>
+		<magH errorminus="0.018" errorplus="0.018">5.007</magH>
+		<magK errorminus="0.016" errorplus="0.016">4.807</magK>
 		<metallicity>0.18</metallicity>
 		<planet>
 			<name>HD 17092 b</name>
