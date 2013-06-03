@@ -4,8 +4,10 @@
 	<declination>+25 42 37</declination>
 	<distance>21.1</distance>
 	<star>
-		<mass>0.85</mass>
-		<radius>0.73</radius>
+		<name>HD 97658</name>
+		<temperature errorminus="80" errorplus="80">5119.0</temperature>
+		<mass errorminus="0.032" errorplus="0.034">0.748</mass>
+		<radius errorminus="0.034" errorplus="0.039">0.703</radius>
 		<magV>7.714</magV>
 		<magB>8.569</magB>
 		<magR>7.259</magR>
@@ -13,24 +15,25 @@
 		<magJ errorminus="0.023" errorplus="0.023">6.203</magJ>
 		<magH errorminus="0.017" errorplus="0.017">5.821</magH>
 		<magK errorminus="0.018" errorplus="0.018">5.734</magK>
-		<metallicity>-0.23</metallicity>
+		<metallicity errorminus="0.08" errorplus="0.08">-0.30</metallicity>
 		<spectraltype>K1V</spectraltype>
 		<planet>
 			<name>HD 97658 b</name>
 			<list>Confirmed planets</list>
-			<mass>0.02</mass>
-			<radius>0.262</radius>
-			<period>9.4957</period>
-			<semimajoraxis>0.0797</semimajoraxis>
-			<eccentricity>0.13</eccentricity>
-			<transittime errorminus="0.012" errorplus="0.012">2455650.681</transittime>
+			<mass errorminus="0.002296" errorplus="0.002296">0.024731</mass>
+			<radius errorminus="0.013670" errorplus="0.016403">0.213245</radius>
+			<period errorminus="0.0015" errorplus="0.0016">9.4909</period>
+			<semimajoraxis errorminus="0.0012" errorplus="0.0012">0.0796</semimajoraxis>
+			<eccentricity errorminus="0.044" errorplus="0.061">0.064</eccentricity>
+			<periastron errorminus="61" errorplus="66">351</periastron>
+			<transittime errorminus="0.0030" errorplus="0.0034">2456361.8051</transittime>
+			<inclination errorminus="0.43" errorplus="0.37">89.45</inclination>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>13/05/29</lastupdate>
+			<description>Models suggest that HD 97658 b has a rocky core that is enveloped in an atmosphere composed of lighter elements. The planet's host star is the second brightest known to host a transiting super-Earth which facilitates folllow-up observations.</description>
+			<lastupdate>13/06/03</lastupdate>
 			<discoveryyear>2010</discoveryyear>
 			<new>0</new>
 			<temperature>689.2</temperature>
 		</planet>
-		<name>HD 97658</name>
-		<temperature>5170.0</temperature>
 	</star>
 </system>
