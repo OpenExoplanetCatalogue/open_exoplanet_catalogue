@@ -3,35 +3,49 @@
 	<rightascension>02 10 14</rightascension>
 	<declination>-50 50 00</declination>
 	<distance>10.9</distance>
-	<star>
-		<mass>0.8</mass>
-		<radius>0.855</radius>
-		<magV>6.17</magV>
-		<magB>6.94</magB>
-		<magR>6.1</magR>
-		<magJ errorminus="0.25" errorplus="0.25">4.79</magJ>
-		<magH errorminus="0.28" errorplus="0.28">4.25</magH>
-		<magK>4.125</magK>
-		<metallicity>-0.24</metallicity>
-		<spectraltype>K1V</spectraltype>
-		<planet>
-			<name>Gliese 86 b</name>
-			<name>GJ 86 b</name>
-			<name>Gj 86 b</name>
-			<name>Gl 86 b</name>
-			<list>Confirmed planets</list>
-			<mass>4.01</mass>
-			<period>15.766</period>
-			<semimajoraxis>0.11</semimajoraxis>
-			<eccentricity>0.046</eccentricity>
-			<description>The star Gliese 86 is a K-type dwarf star and a member of a binary system in the constellation Eridanus. A linear trend in the radial velocity data may be associated with the stellar companion or another planetary companion.</description>
-			<discoverymethod>RV</discoverymethod>
-			<lastupdate>09/10/07</lastupdate>
-			<discoveryyear>2000</discoveryyear>
-			<new>0</new>
-			<temperature>657.6</temperature>
-		</planet>
-		<name>Gliese 86</name>
-		<temperature>5350.0</temperature>
-	</star>
+	<binary>
+		<semimajoraxis>27.8</semimajoraxis>
+		<star>
+			<name>Gliese 86 A</name>
+			<name>HR 637</name>
+			<name>HD 13445</name>
+			<mass>0.8</mass>
+			<radius>0.855</radius>
+			<magV>6.17</magV>
+			<magB>6.94</magB>
+			<magR>6.1</magR>
+			<magJ errorminus="0.25" errorplus="0.25">4.79</magJ>
+			<magH errorminus="0.28" errorplus="0.28">4.25</magH>
+			<magK>4.125</magK>
+			<metallicity>-0.24</metallicity>
+			<spectraltype>K1V</spectraltype>
+			<planet>
+				<name>Gliese 86 b</name>
+				<name>GJ 86 b</name>
+				<name>Gj 86 b</name>
+				<name>Gl 86 b</name>
+				<list>Confirmed planets</list>
+				<mass>4.01</mass>
+				<period errorminus="0.04" errorplus="0.04">15.766</period>
+				<semimajoraxis>0.11</semimajoraxis>
+				<eccentricity errorminus="0.004" errorplus="0.004">0.046</eccentricity>
+				<description>The star Gliese 86 is a K-type dwarf star and a member of a binary system in the constellation Eridanus. A linear trend in the radial velocity data may be associated with the stellar companion or another planetary companion.</description>
+				<discoverymethod>RV</discoverymethod>
+				<lastupdate>09/10/07</lastupdate>
+				<discoveryyear>2000</discoveryyear>
+				<new>0</new>
+				<temperature>657.6</temperature>
+			</planet>
+			<temperature errorminus="50" errorplus="50">5188</temperature>
+		</star>
+		<star>
+			<name>Gliese 86 B</name>
+			<name>WD 0208-510</name>
+			<mass errorminus="0.01" errorplus="0.01">0.59</mass>
+			<radius errorminus="0.0015" errorplus="0.0015">0.01245</radius>
+			<magV>13.2</magV>
+			<spectraltype>DQ6</spectraltype>
+			<temperature errorminus="120" errorplus="120">0.59</temperature>
+		</star>
+	</binary>
 </system>
