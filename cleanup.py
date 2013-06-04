@@ -54,6 +54,7 @@ validattributes = [
     "upperlimit",
     "lowerlimit"]
 validdiscoverymethods = ["RV", "transit", "timing", "imaging", "microlensing"]
+tagsallowmultiple = ["list","name","planet","star","binary"]
 
 def checkforvalidtags(elem):
     problematictag = None
@@ -91,7 +92,10 @@ for filename in glob.glob("systems*/*.xml"):
 
     # Try to parse file
     try:
-        root = ET.parse(f).getroot()
+        root 		= ET.parse(f).getroot()
+    	planets 	= root.findall(".//planet")
+    	stars 		= root.findall(".//star")
+    	binaries 	= root.findall(".//binary")
     except ET.ParseError as error:
         print '{}, {}'.format(filename, error)
     f.close()
@@ -105,8 +109,7 @@ for filename in glob.glob("systems*/*.xml"):
     # Check that names follow conventions
     if not root.findtext("./name") + ".xml" == os.path.basename(filename):
         print "Name of system not the same as filename: " + filename
-    objectswithnames = root.findall(".//planet | .//star")
-    for obj in objectswithnames:
+    for obj in planets + stars:
         name = obj.findtext("./name")
         if not name:
             print "Didn't find name tag for object \"" + obj.tag + "\" in file \"" + filename + "\"."
@@ -119,6 +122,18 @@ for filename in glob.glob("systems*/*.xml"):
     for dm in discoverymethods:
         if not (dm.text in validdiscoverymethods):
             print "Problematic discoverymethod '" + dm.text + "' found in file \"" + filename + "\"."
+
+    # Check if there are duplicate tags
+    for obj in planets + stars + binaries:
+        uniquetags = []
+        for child in obj:
+            if not child.tag in tagsallowmultiple:
+                if child.tag in uniquetags:
+                    print "Error: Found duplicate tag \""+child.tag+"\" in file \""+filename+"\"."
+                else:
+                    uniquetags.append(child.tag)
+	
+
 
     # Cleanup XML
     removeemptytags(root)
