@@ -2,13 +2,16 @@
 	<name>WASP-64</name>
 	<rightascension>06 44 28</rightascension>
 	<declination>-32 51 30</declination>
-	<distance>350</distance>
+	<distance errorminus="90" errorplus="90">350</distance>
 	<star>
 		<mass>0.98</mass>
 		<radius>1.03</radius>
-		<temperature>5550</temperature>
+		<temperature errorminus="100" errorplus="100">5400</temperature>
 		<magV>12.29</magV>
-		<metallicity>-0.08</metallicity>
+		<magJ errorminus="0.022" errorplus="0.022">11.368</magJ>
+		<magH errorminus="0.024" errorplus="0.024">11.079</magH>
+		<magK errorminus="0.019" errorplus="0.019">10.956</magK>
+		<metallicity errorminus="0.11" errorplus="0.11">-0.08</metallicity>
 		<spectraltype>G7</spectraltype>
 		<planet>
 			<name>WASP-64 b</name>
@@ -20,6 +23,8 @@
 			<semimajoraxis>0.02648</semimajoraxis>
 			<eccentricity>0</eccentricity>
 			<inclination>86.57</inclination>
+			<transittime errorminus="0.00027" errorplus="0.00027" unit="HJD">2455582.60169</transittime>
+			<temperature errorminus="49" errorplus="49">1689</temperature>
 			<description>This planet has been announced at the Extreme Solar Systems II conference in Jackson Hole by the WASP team.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/10/17</lastupdate>

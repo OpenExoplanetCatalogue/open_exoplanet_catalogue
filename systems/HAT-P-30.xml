@@ -7,7 +7,11 @@
 		<mass>1.24</mass>
 		<radius>0.898</radius>
 		<temperature>6304</temperature>
-		<magV>10.42</magV>
+		<magV errorminus="0.05" errorplus="0.05">10.35</magV>
+		<magB errorminus="0.06" errorplus="0.06">10.95</magB>
+		<magJ errorminus="0.026" errorplus="0.026">9.442</magJ>
+		<magH errorminus="0.028" errorplus="0.028">9.220</magH>
+		<magK errorminus="0.023" errorplus="0.023">9.151</magK>
 		<metallicity>0.13</metallicity>
 		<spectraltype>F</spectraltype>
 		<planet>
@@ -29,6 +33,7 @@
 			<discoveryyear>2011</discoveryyear>
 			<new>0</new>
 			<temperature>1552.5</temperature>
+			<transittime errorminus="0.00037" errorplus="0.00037" unit="BJD">2455456.46561</transittime>
 		</planet>
 		<name>HAT-P-30</name>
 	</star>

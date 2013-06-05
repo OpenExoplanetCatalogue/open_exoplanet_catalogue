@@ -6,6 +6,9 @@
 		<mass>0.78</mass>
 		<radius>0.765</radius>
 		<magV>12.7</magV>
+		<magB>12.8</magB>
+		<magJ errorminus="1.00" errorplus="1.00">12.43</magJ>
+		<magK errorminus="1.00" errorplus="1.00">10.53</magK>
 		<spectraltype>K1V</spectraltype>
 		<planet>
 			<name>WASP-23 b</name>
@@ -17,6 +20,7 @@
 			<semimajoraxis>0.0376</semimajoraxis>
 			<eccentricity>0.062</eccentricity>
 			<inclination>88.39</inclination>
+			<transittime errorminus="0.00039" errorplus="0.00036" unit="BJD">2455320.12363</transittime>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>11/03/24</lastupdate>
 			<discoveryyear>2010</discoveryyear>

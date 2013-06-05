@@ -4,10 +4,19 @@
 	<declination>+00 45 32</declination>
 	<distance>200</distance>
 	<star>
+		<name>WASP-72</name>
+		<name>TYC 30-116-1</name>
+		<name>2MASS J01570320+0045318</name>
+		<name>PPM 700097</name>
 		<mass>1.21</mass>
 		<radius>1.27</radius>
 		<temperature>6050</temperature>
 		<spectraltype>F8</spectraltype>
+		<magB errorminus="0.11" errorplus="0.11">11.35</magB>
+		<magV errorminus="0.09" errorplus="0.09">10.56</magV>
+		<magJ errorminus="0.022" errorplus="0.022">9.636</magJ>
+		<magH errorminus="0.022" errorplus="0.022">9.416</magH>
+		<magK errorminus="0.023" errorplus="0.023">9.320</magK>
 		<planet>
 			<name>WASP-71 b</name>
 			<name>TYC 30-116-1 b</name>
@@ -19,6 +28,7 @@
 			<semimajoraxis>0.04631</semimajoraxis>
 			<eccentricity>0</eccentricity>
 			<inclination>84.2</inclination>
+			<transittime errorminus="0.00070" errorplus="0.00070" unit="BJD">2455738.85050</transittime>
 			<description>WASP-71 b is a highly-irradiated planet which transits an  evolved F8-type star every 2.9 days. The planet is larger than Jupiter but less dense.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/11/14</lastupdate>
@@ -26,6 +36,5 @@
 			<new>0</new>
 			<temperature>1888.1</temperature>
 		</planet>
-		<name>WASP-72</name>
 	</star>
 </system>

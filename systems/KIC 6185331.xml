@@ -3,9 +3,14 @@
 	<rightascension>18 57 06</rightascension>
 	<declination>+41 32 06</declination>
 	<star>
-		<mass>1.027</mass>
-		<radius>1.27</radius>
-		<magV>15</magV>
+		<mass errorminus="0.042" errorplus="0.042">1.027</mass>
+		<radius errorminus="0.17" errorplus="0.17">1.27</radius>
+		<magV errorminus="0.25" errorplus="0.25">15.64</magV>
+		<magB>17.0</magB>
+		<magR errorminus="0.17" errorplus="0.17">15.93</magR>
+		<magJ errorminus="0.029" errorplus="0.029">14.467</magJ>
+		<magH errorminus="0.04" errorplus="0.04">14.10</magH>
+		<magK errorminus="0.05" errorplus="0.05">13.97</magK>
 		<metallicity>0.11</metallicity>
 		<planet>
 			<name>KIC 6185331 b</name>
@@ -14,6 +19,7 @@
 			<period>49.76971</period>
 			<semimajoraxis>0.2672</semimajoraxis>
 			<inclination>89.2</inclination>
+			<transittime errorminus="0.0028" errorplus="0.0028" unit="BJD">2454992.9877</transittime>
 			<description>This planet was not flagged as a potential planet candidate by the Kepler data pipeline. Citizen scientists discovered the transit simply by looking at many light curves by eye using the online tool at planethunters.org.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>11/09/22</lastupdate>

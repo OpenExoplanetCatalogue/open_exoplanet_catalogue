@@ -5,23 +5,27 @@
 	<distance>613.20279</distance>
 	<star>
 		<name>Kepler-11</name>
-		<temperature>5663</temperature>
-		<mass>0.961</mass>
-		<radius>1.053</radius>
+		<mass errorminus="0.024" errorplus="0.027">0.961</mass>
+		<radius errorminus="0.015" errorplus="0.013">1.053</radius>
+		<temperature errorminus="67" errorplus="55">5663</temperature>
 		<magV>13.7</magV>
+		<magR errorminus="0.10" errorplus="0.10">14.00</magR>
+		<magJ errorminus="0.024" errorplus="0.024">12.548</magJ>
+		<magH errorminus="0.024" errorplus="0.024">12.237</magH>
+		<magK errorminus="0.020" errorplus="0.020">12.180</magK>
 		<spectraltype>G</spectraltype>
-		<age>8.1</age>
+		<age errorminus="1.3" errorplus="1.2">8.1</age>
 		<planet>
 			<name>Kepler-11 b</name>
 			<list>Confirmed planets</list>
-			<mass>0.00597683</mass>
-			<radius>0.16403453</radius>
-			<period>10.30375</period>
-			<semimajoraxis>0.091</semimajoraxis>
-			<eccentricity>0.045</eccentricity>
-			<inclination>88.5</inclination>
+			<mass errorminus="0.003146" errorplus="0.004404">0.005977</mass>
+			<radius errorminus="0.001823" errorplus="0.001823">0.164035</radius>
+			<period errorminus="0.0010" errorplus="0.0006">10.3039</period>
+			<semimajoraxis errorminus="0.001" errorplus="0.001">0.091</semimajoraxis>
+			<eccentricity errorminus="0.042" errorplus="0.068">0.045</eccentricity>
+			<inclination errorminus="0.12" errorplus="0.12">89.55</inclination>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>13/03/04</lastupdate>
+			<lastupdate>13/05/28</lastupdate>
 			<discoveryyear>2011</discoveryyear>
 			<new>0</new>
 			<temperature>870.7</temperature>
@@ -34,14 +38,14 @@ Image credit: NASA/Tim Pyle</imagedescription>
 		<planet>
 			<name>Kepler-11 c</name>
 			<list>Confirmed planets</list>
-			<mass>0.00912253</mass>
-			<radius>0.2615439</radius>
-			<period>13.02502</period>
+			<mass errorminus="0.000063" errorplus="0.000031">0.009028</mass>
+			<radius errorminus="0.001823" errorplus="0.000911">0.261544</radius>
+			<period errorminus="0.0008" errorplus="0.0013">13.0241</period>
 			<semimajoraxis>0.107</semimajoraxis>
-			<eccentricity>0.026</eccentricity>
-			<inclination>89</inclination>
+			<eccentricity errorminus="0.013" errorplus="0.063">0.026</eccentricity>
+			<inclination errorminus="0.13" errorplus="0.35">89.65</inclination>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>13/03/04</lastupdate>
+			<lastupdate>13/05/28</lastupdate>
 			<discoveryyear>2011</discoveryyear>
 			<new>0</new>
 			<temperature>806.8</temperature>
@@ -54,14 +58,14 @@ Image credit: NASA/Tim Pyle</imagedescription>
 		<planet>
 			<name>Kepler-11 d</name>
 			<list>Confirmed planets</list>
-			<mass>0.022963</mass>
-			<radius>0.28341522</radius>
-			<period>22.68719</period>
+			<mass errorminus="0.004719" errorplus="0.002517">0.022964</mass>
+			<radius errorminus="0.001823" errorplus="0.001823">0.283415</radius>
+			<period errorminus="0.0009" errorplus="0.0009">22.6845</period>
 			<semimajoraxis>0.155</semimajoraxis>
-			<eccentricity>0.004</eccentricity>
-			<inclination>89.3</inclination>
+			<eccentricity errorminus="0.002" errorplus="0.007">0.004</eccentricity>
+			<inclination errorminus="0.07" errorplus="0.07">89.76</inclination>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>13/03/04</lastupdate>
+			<lastupdate>13/05/28</lastupdate>
 			<discoveryyear>2011</discoveryyear>
 			<new>0</new>
 			<temperature>658.7</temperature>
@@ -74,14 +78,14 @@ Image credit: NASA/Tim Pyle</imagedescription>
 		<planet>
 			<name>Kepler-11 e</name>
 			<list>Confirmed planets</list>
-			<mass>0.0251656</mass>
-			<radius>0.380924</radius>
-			<period>31.9959</period>
+			<mass errorminus="0.006606" errorplus="0.004719">0.025166</mass>
+			<radius errorminus="0.001823" errorplus="0.001823">0.380925</radius>
+			<period errorminus="0.0012" errorplus="0.0008">31.9996</period>
 			<semimajoraxis>0.195</semimajoraxis>
-			<eccentricity>0.012</eccentricity>
-			<inclination>88.8</inclination>
+			<eccentricity errorminus="0.006" errorplus="0.006">0.012</eccentricity>
+			<inclination errorminus="0.01" errorplus="0.01">88.91</inclination>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>13/03/04</lastupdate>
+			<lastupdate>13/05/28</lastupdate>
 			<discoveryyear>2011</discoveryyear>
 			<new>0</new>
 			<temperature>596.4</temperature>
@@ -94,14 +98,14 @@ Image credit: NASA/Tim Pyle</imagedescription>
 		<planet>
 			<name>Kepler-11 f</name>
 			<list>Confirmed planets</list>
-			<mass>0.006291401</mass>
-			<radius>0.226003</radius>
-			<period>46.68876</period>
+			<mass errorminus="0.002831" errorplus="0.002517">0.006291</mass>
+			<radius errorminus="0.002734" errorplus="0.001823">0.226003</radius>
+			<period errorminus="0.0032" errorplus="0.0027">46.6888</period>
 			<semimajoraxis>0.250</semimajoraxis>
-			<eccentricity>0.013</eccentricity>
-			<inclination>89.4</inclination>
+			<eccentricity errorminus="0.009" errorplus="0.013">0.013</eccentricity>
+			<inclination errorminus="0.03" errorplus="0.03">89.50</inclination>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>13/03/04</lastupdate>
+			<lastupdate>13/05/28</lastupdate>
 			<discoveryyear>2011</discoveryyear>
 			<new>0</new>
 			<temperature>525.3</temperature>
@@ -114,18 +118,18 @@ Image credit: NASA/Tim Pyle</imagedescription>
 		<planet>
 			<name>Kepler-11 g</name>
 			<list>Confirmed planets</list>
-			<mass>0.07864251</mass>
-			<radius>0.303463</radius>
-			<period>118.37774</period>
+			<mass upperlimit="0.078643" />
+			<radius errorminus="0.001823" errorplus="0.001823">0.303464</radius>
+			<period errorminus="0.0006" errorplus="0.0010">118.3807</period>
 			<semimajoraxis>0.466</semimajoraxis>
-			<eccentricity>0.0</eccentricity>
-			<inclination>89.8</inclination>
+			<eccentricity upperlimit="0.15" />
+			<inclination errorminus="0.023" errorplus="0.01">89.89</inclination>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>13/03/04</lastupdate>
+			<lastupdate>13/05/28</lastupdate>
 			<discoveryyear>2011</discoveryyear>
 			<new>0</new>
 			<temperature>386.4</temperature>
-			<description>The Kepler-11 systems contains six transiting planets. The system was originally discovered by the Kepler telescope in 2011. The inner five planets make up a tightly packed system. A dynamical analysis revealed that the inner planets have a remarkably low density, lower than that of rock. The mass of the outer planet, Kepler-11 g, is only an upper limit.</description>
+			<description>The Kepler-11 systems contains six transiting planets. The system was originally discovered by the Kepler telescope in 2011. The inner five planets make up a tightly packed system. A dynamical analysis revealed that the inner planets have a remarkably low density, lower than that of rock.</description>
 			<image>Kepler11</image>
 			<imagedescription>Kepler-11 is a Sun-like star around which six planets orbit. At times, two or more planets pass in front of the star at once, as shown in this artist's conception of a simultaneous transit of three planets observed by NASA's Kepler spacecraft on Aug. 26, 2010. 
 		

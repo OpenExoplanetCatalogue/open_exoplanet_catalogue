@@ -4,10 +4,15 @@
 	<declination>-03 06 08</declination>
 	<distance>460</distance>
 	<star>
-		<mass>0.95</mass>
-		<radius>1.11</radius>
+		<mass errorminus="0.15" errorplus="0.15">0.95</mass>
+		<radius errorminus="0.05" errorplus="0.05">1.11</radius>
 		<magV>13.6</magV>
-		<metallicity>-0.3</metallicity>
+		<magR>13.44</magR>
+		<magI errorminus="0.04" errorplus="0.04">12.88</magI>
+		<magJ errorminus="0.029" errorplus="0.029">12.462</magJ>
+		<magH errorminus="0.026" errorplus="0.026">12.218</magH>
+		<magK errorminus="0.027" errorplus="0.027">12.149</magK>
+		<metallicity errorminus="0.25" errorplus="0.25">-0.3</metallicity>
 		<spectraltype>G0V</spectraltype>
 		<planet>
 			<name>CoRoT-1 b</name>
@@ -15,20 +20,21 @@
 			<name>2MASS J06481917-0306077 b</name>
 			<name>CoRoTID 102890318 b</name>
 			<list>Confirmed planets</list>
-			<mass>1.03</mass>
-			<radius>1.49</radius>
-			<period>1.5089557</period>
+			<mass errorminus="0.12" errorplus="0.12">1.03</mass>
+			<radius errorminus="0.08" errorplus="0.08">1.49</radius>
+			<period errorminus="0.0000064" errorplus="0.0000064">1.5089557</period>
 			<semimajoraxis>0.0254</semimajoraxis>
 			<eccentricity>0.0</eccentricity>
-			<inclination>85.1</inclination>
+			<inclination errorminus="0.5" errorplus="0.5">85.1</inclination>
 			<description>The star CoRoT-1 is a sun-like star in the constellation of Monoceros. The planet CoRoT-1b is the first planet discovered by the European space mission CoRoT (COnvection, ROtation and planetary Tansits).</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/04/05</lastupdate>
 			<discoveryyear>2007</discoveryyear>
 			<new>0</new>
-			<temperature>1835.8</temperature>
+			<temperature errorminus="50" errorplus="50">1898</temperature>
+			<transittime errorminus="0.0030" errorplus="0.0030" unit="BJD">2454160.2009</transittime>
 		</planet>
 		<name>CoRoT-1</name>
-		<temperature>6298.0</temperature>
+		<temperature errorminus="150" errorplus="150">6298.0</temperature>
 	</star>
 </system>

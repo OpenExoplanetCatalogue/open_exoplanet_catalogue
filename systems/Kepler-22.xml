@@ -4,9 +4,18 @@
 	<declination>+47 52 90</declination>
 	<distance>180</distance>
 	<star>
+		<name>Kepler-22</name>
+		<name>GSC 03546-02301</name>
+		<name>KIC 10593626</name>
+		<name>KOI-87</name>
+		<name>2MASS J19165219+4753040</name>
+		<name>UCAC3 276-148830</name>
 		<mass>0.97</mass>
 		<radius>0.979</radius>
 		<spectraltype>G5</spectraltype>
+		<magJ errorminus="0.021" errorplus="0.021">10.523</magJ>
+		<magH errorminus="0.017" errorplus="0.017">10.211</magH>
+		<magK errorminus="0.014" errorplus="0.014">10.152</magK>
 		<planet>
 			<name>Kepler-22 b</name>
 			<name>KIC10593626 b</name>
@@ -14,6 +23,7 @@
 			<radius>0.21689</radius>
 			<period>290</period>
 			<semimajoraxis>0.849</semimajoraxis>
+			<transittime errorminus="0.0023" errorplus="0.0023" unit="BJD">2454966.6983</transittime>
 			<description>The planet Kepler-22b has been discovered with the Kepler spacecraft. It is orbiting the solar type Kepler target star KIC10593626. This puts it in the habitable zone with an equilibrium temperature of minus 11 degrees Celsius (plus 11 degrees Fahrenheit). If the planet has an atmosphere similar to that of Earth then the surface temperature is 22 degrees Celsius (71 degrees Fahrenheit). Kepler-22b is the smallest radius planet known to orbit in the habitable zone of any star other than the Sun.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>11/12/05</lastupdate>
@@ -27,7 +37,6 @@ Scientists do not yet know if the planet has a predominantly rocky, gaseous or l
 Credit: NASA/Ames/JPL-Caltech</imagedescription>
 			<temperature>249.6</temperature>
 		</planet>
-		<name>Kepler-22</name>
 		<temperature>5510.0</temperature>
 	</star>
 </system>

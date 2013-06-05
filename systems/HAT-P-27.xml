@@ -6,7 +6,13 @@
 	<star>
 		<mass>0.92</mass>
 		<radius>0.87</radius>
-		<magV>12.21</magV>
+		<magV errorminus="0.13" errorplus="0.13">12.19</magV>
+		<magB errorminus="0.10" errorplus="0.10">13.18</magB>
+		<magR errorminus="0.08" errorplus="0.08">11.98</magR>
+		<magI errorminus="0.16" errorplus="0.16">11.23</magI>
+		<magJ errorminus="0.026" errorplus="0.026">10.626</magJ>
+		<magH errorminus="0.023" errorplus="0.023">10.249</magH>
+		<magK errorminus="0.021" errorplus="0.021">10.109</magK>
 		<metallicity>0.14</metallicity>
 		<spectraltype>G8</spectraltype>
 		<age>3.60</age>
@@ -23,10 +29,11 @@
 			<rossitermclaughlin>24.2</rossitermclaughlin>
 			<inclination>85.0</inclination>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>13/03/30</lastupdate>
+			<lastupdate>13/05/29</lastupdate>
 			<discoveryyear>2011</discoveryyear>
 			<new>0</new>
 			<temperature>1102.7</temperature>
+			<transittime errorminus="0.00054" errorplus="0.00054" unit="BJD">2455186.01879</transittime>
 		</planet>
 		<name>HAT-P-27</name>
 		<temperature>5300.0</temperature>

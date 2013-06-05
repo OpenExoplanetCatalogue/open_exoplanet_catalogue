@@ -6,7 +6,12 @@
 	<star>
 		<mass>1.191</mass>
 		<radius>1.317</radius>
-		<magV>11.82</magV>
+		<magV errorminus="0.016" errorplus="0.016">11.76</magV>
+		<magB errorminus="0.17" errorplus="0.17">12.21</magB>
+		<magR errorminus="0.05" errorplus="0.05">11.71</magR>
+		<magJ errorminus="0.022" errorplus="0.022">10.797</magJ>
+		<magH errorminus="0.024" errorplus="0.024">10.589</magH>
+		<magK errorminus="0.020" errorplus="0.020">10.543</magK>
 		<metallicity>-0.16</metallicity>
 		<spectraltype>F8</spectraltype>
 		<planet>
@@ -21,10 +26,11 @@
 			<eccentricity>0.067</eccentricity>
 			<inclination>88.6</inclination>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>12/07/05</lastupdate>
+			<lastupdate>13/05/29</lastupdate>
 			<discoveryyear>2010</discoveryyear>
 			<new>0</new>
 			<temperature>1495.0</temperature>
+			<transittime errorminus="0.00024" errorplus="0.00024" unit="BJD">2455216.97669</transittime>
 		</planet>
 		<name>HAT-P-24</name>
 		<temperature>6373.0</temperature>

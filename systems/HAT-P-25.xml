@@ -6,7 +6,13 @@
 	<star>
 		<mass>1.01</mass>
 		<radius>0.959</radius>
-		<magV>13.19</magV>
+		<magV errorminus="0.25" errorplus="0.25">13.15</magV>
+		<magB errorminus="0.35" errorplus="0.35">14.12</magB>
+		<magR errorminus="0.11" errorplus="0.11">13.22</magR>
+		<magI errorminus="0.38" errorplus="0.38">11.98</magI>
+		<magJ errorminus="0.018" errorplus="0.018">11.319</magJ>
+		<magH errorminus="0.021" errorplus="0.021">10.908</magH>
+		<magK errorminus="0.018" errorplus="0.018">10.815</magK>
 		<metallicity>0.31</metallicity>
 		<spectraltype>G5</spectraltype>
 		<planet>
@@ -20,10 +26,11 @@
 			<eccentricity>0.032</eccentricity>
 			<inclination>87.6</inclination>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>10/12/11</lastupdate>
+			<lastupdate>13/05/29</lastupdate>
 			<discoveryyear>2010</discoveryyear>
 			<new>0</new>
 			<temperature>1100.1</temperature>
+			<transittime errorminus="0.00047" errorplus="0.00047" unit="BJD">2455176.85173</transittime>
 		</planet>
 		<name>HAT-P-25</name>
 		<temperature>5500.0</temperature>

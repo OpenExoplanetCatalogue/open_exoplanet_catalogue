@@ -6,7 +6,13 @@
 	<star>
 		<mass>1.04</mass>
 		<radius>1.59</radius>
-		<magV>15.46</magV>
+		<magV errorminus="0.43" errorplus="0.43">15.88</magV>
+		<magB errorminus="0.44" errorplus="0.44">17.38</magB>
+		<magR errorminus="0.36" errorplus="0.36">15.59</magR>
+		<magI errorminus="0.07" errorplus="0.07">14.65</magI>
+		<magJ errorminus="0.04" errorplus="0.04">13.17</magJ>
+		<magH errorminus="0.06" errorplus="0.06">12.62</magH>
+		<magK errorminus="0.05" errorplus="0.05">12.47</magK>
 		<spectraltype>G2V</spectraltype>
 		<planet>
 			<name>CoRoT-17 b</name>
@@ -18,6 +24,7 @@
 			<semimajoraxis>0.0461</semimajoraxis>
 			<eccentricity>0.0</eccentricity>
 			<inclination>88.34</inclination>
+			<transittime errorminus="0.0036" errorplus="0.0036" unit="BJD">2454923.3100</transittime>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>11/05/11</lastupdate>
 			<discoveryyear>2010</discoveryyear>

@@ -6,7 +6,13 @@
 	<star>
 		<mass>0.986</mass>
 		<radius>1.038</radius>
-		<magV>12.05</magV>
+		<magV errorminus="0.017" errorplus="0.017">12.053</magV>
+		<magB errorminus="0.066" errorplus="0.066">12.740</magB>
+		<magR errorminus="0.07" errorplus="0.07">12.08</magR>
+		<magI errorminus="0.03" errorplus="0.03">11.38</magI>
+		<magJ errorminus="0.024" errorplus="0.024">10.924</magJ>
+		<magH errorminus="0.022" errorplus="0.022">10.634</magH>
+		<magK errorminus="0.023" errorplus="0.023">10.58</magK>
 		<metallicity>-0.06</metallicity>
 		<planet>
 			<name>HATS-1 b</name>
@@ -25,6 +31,7 @@
 			<discoveryyear>2012</discoveryyear>
 			<new>0</new>
 			<temperature>1250.3</temperature>
+			<transittime errorminus="0.00071" errorplus="0.00071" unit="BJD">55241.28722</transittime>
 		</planet>
 		<name>HATS-1</name>
 		<temperature>5870.0</temperature>

@@ -6,7 +6,12 @@
 	<star>
 		<mass>0.916</mass>
 		<radius>1.04</radius>
-		<magV>9.73</magV>
+		<magV errorminus="0.02" errorplus="0.02">9.76</magV>
+		<magB errorminus="0.04" errorplus="0.04">10.62</magB>
+		<magR errorminus="0.03" errorplus="0.03">9.44</magR>
+		<magJ errorminus="0.023" errorplus="0.023">8.293</magJ>
+		<magH errorminus="0.029" errorplus="0.029">7.935</magH>
+		<magK errorminus="0.021" errorplus="0.021">7.837</magK>
 		<metallicity>0.24</metallicity>
 		<spectraltype>G5</spectraltype>
 		<planet>
@@ -23,10 +28,11 @@
 			<eccentricity>0.016</eccentricity>
 			<inclination>86.9</inclination>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>10/12/11</lastupdate>
+			<lastupdate>13/05/29</lastupdate>
 			<discoveryyear>2010</discoveryyear>
 			<new>0</new>
 			<temperature>1171.7</temperature>
+			<transittime errorminus="0.00025" errorplus="0.00025" unit="BJD">2454930.22001</transittime>
 		</planet>
 		<name>HAT-P-22</name>
 		<temperature>5302.0</temperature>

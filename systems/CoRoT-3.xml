@@ -4,10 +4,16 @@
 	<declination>+00 07 19</declination>
 	<distance>680</distance>
 	<star>
-		<mass>1.37</mass>
-		<radius>1.56</radius>
-		<magV>13.3</magV>
-		<metallicity>-0.02</metallicity>
+		<mass errorminus="0.09" errorplus="0.09">1.37</mass>
+		<radius errorminus="0.09" errorplus="0.09">1.56</radius>
+		<magV>13.292</magV>
+		<magB>14.199</magB>
+		<magR>13.099</magR>
+		<magI errorminus="0.04" errorplus="0.04">12.54</magI>
+		<magJ errorminus="0.03" errorplus="0.03">11.94</magJ>
+		<magH errorminus="0.04" errorplus="0.04">11.71</magH>
+		<magK errorminus="0.03" errorplus="0.03">11.62</magK>
+		<metallicity errorminus="0.06" errorplus="0.06">-0.02</metallicity>
 		<spectraltype>F3V</spectraltype>
 		<planet>
 			<name>CoRoT-3 b</name>
@@ -15,19 +21,20 @@
 			<name>2MASS J19281326+0007185 b</name>
 			<name>CoRoTID 101368192 b</name>
 			<list>Confirmed planets</list>
-			<mass>21.66</mass>
-			<radius>1.01</radius>
-			<period>4.2568</period>
+			<mass errorminus="1.0" errorplus="1.0">21.66</mass>
+			<radius errorminus="0.07" errorplus="0.07">1.01</radius>
+			<period errorminus="0.000005" errorplus="0.000005">4.25680</period>
 			<semimajoraxis>0.057</semimajoraxis>
 			<eccentricity>0.0</eccentricity>
-			<inclination>85.9</inclination>
+			<inclination errorminus="0.8" errorplus="0.8">85.9</inclination>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/04/05</lastupdate>
 			<discoveryyear>2008</discoveryyear>
 			<new>0</new>
 			<temperature>1554.7</temperature>
+			<transittime errorminus="0.0003" errorplus="0.0003" unit="BJD">2454283.1390</transittime>
 		</planet>
 		<name>CoRoT-3</name>
-		<temperature>6740.0</temperature>
+		<temperature errorminus="140" errorplus="140">6740</temperature>
 	</star>
 </system>

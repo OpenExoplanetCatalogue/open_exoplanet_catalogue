@@ -6,6 +6,11 @@
 		<mass>0.909</mass>
 		<radius>0.945</radius>
 		<magV>12</magV>
+		<magB errorminus="0.43" errorplus="0.43">13.33</magB>
+		<magR errorminus="0.07" errorplus="0.07">12.20</magR>
+		<magJ errorminus="0.024" errorplus="0.024">10.753</magJ>
+		<magH errorminus="0.026" errorplus="0.026">10.365</magH>
+		<magK errorminus="0.021" errorplus="0.021">10.294</magK>
 		<metallicity>0.36</metallicity>
 		<spectraltype>K2V</spectraltype>
 		<planet>
@@ -19,6 +24,7 @@
 			<semimajoraxis>0.04054</semimajoraxis>
 			<eccentricity>0.0</eccentricity>
 			<inclination>84.47</inclination>
+			<transittime errorminus="0.00058" errorplus="0.00058" unit="BJD">2455441.26999</transittime>
 			<description>WASP-45 b is a Jupiter mass planet transiting in front of the limb of its host star. Emission from Ca H+K suggests that the star is chromospherically active.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>11/05/17</lastupdate>

@@ -2,22 +2,30 @@
 	<name>WASP-56</name>
 	<rightascension>12 13 27</rightascension>
 	<declination>+23 03 20</declination>
-	<distance>255</distance>
+	<distance errorminus="40" errorplus="40">255</distance>
 	<star>
 		<mass>1.03</mass>
 		<radius>0.99</radius>
-		<temperature>5600</temperature>
-		<magV>11.48</magV>
+		<temperature errorminus="100" errorplus="100">5600</temperature>
+		<magB errorminus="0.28" errorplus="0.28">12.74</magB>
+		<magV errorminus="0.115" errorplus="0.115">11.484</magV>
+		<magR errorminus="0.3" errorplus="0.3">10.7</magR>
+		<magI errorminus="0.087" errorplus="0.087">11.388</magI>
+		<magJ errorminus="0.021" errorplus="0.021">10.874</magJ>
+		<magH errorminus="0.022" errorplus="0.022">10.603</magH>
+		<magK errorminus="0.019" errorplus="0.019">10.532</magK>
 		<spectraltype>G6</spectraltype>
 		<planet>
 			<name>WASP-56 b</name>
 			<list>Confirmed planets</list>
 			<mass>0.571</mass>
 			<radius>1.092</radius>
-			<period>4.617</period>
+			<period>4.617101</period>
 			<semimajoraxis>0.05458</semimajoraxis>
 			<eccentricity>0</eccentricity>
 			<inclination>88.5</inclination>
+			<transittime errorminus="0.001" errorplus="0.001" unit="BJD">2455730.799</transittime>
+			<temperature errorminus="24" errorplus="25">1216</temperature>
 			<description>This planet has been announced at the Extreme Solar Systems II conference in Jackson Hole by the WASP team.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/10/08</lastupdate>

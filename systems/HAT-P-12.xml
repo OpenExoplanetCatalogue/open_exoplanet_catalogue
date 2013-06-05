@@ -7,6 +7,10 @@
 		<mass>0.73</mass>
 		<radius>0.7</radius>
 		<magV>12.84</magV>
+		<magB>12.6</magB>
+		<magJ errorminus="0.023" errorplus="0.023">10.794</magJ>
+		<magH errorminus="0.022" errorplus="0.022">10.236</magH>
+		<magK errorminus="0.016" errorplus="0.016">10.108</magK>
 		<metallicity>-0.29</metallicity>
 		<planet>
 			<name>HAT-P-12 b</name>
@@ -17,6 +21,7 @@
 			<period>3.2130598</period>
 			<semimajoraxis>0.0384</semimajoraxis>
 			<eccentricity>0.0</eccentricity>
+			<transittime errorminus="0.00020" errorplus="0.00020" unit="BJD">2454419.19556</transittime>
 			<description>The planet hosting star HAT-P-12 is located in the constallation Canes Venatici.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>09/05/04</lastupdate>

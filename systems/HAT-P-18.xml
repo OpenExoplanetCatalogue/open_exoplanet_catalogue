@@ -7,6 +7,11 @@
 		<mass>0.77</mass>
 		<radius>0.749</radius>
 		<magV>12.76</magV>
+		<magB>11.9</magB>
+		<magR errorminus="0.07" errorplus="0.07">12.61</magR>
+		<magJ errorminus="0.020" errorplus="0.020">10.822</magJ>
+		<magH errorminus="0.019" errorplus="0.019">10.340</magH>
+		<magK errorminus="0.017" errorplus="0.017">10.234</magK>
 		<metallicity>0.1</metallicity>
 		<spectraltype>K</spectraltype>
 		<planet>
@@ -24,6 +29,7 @@
 			<discoveryyear>2010</discoveryyear>
 			<new>0</new>
 			<temperature>774.9</temperature>
+			<transittime errorminus="0.2174" errorplus="0.2174" unit="BJD">2454715.02174</transittime>
 		</planet>
 		<name>HAT-P-18</name>
 		<temperature>4803.0</temperature>

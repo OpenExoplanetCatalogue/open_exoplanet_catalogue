@@ -3,15 +3,18 @@
 	<name>55 Cnc</name>
 	<rightascension>08 52 37</rightascension>
 	<declination>+28 20 02</declination>
-	<distance>12.34</distance>
+	<distance errorminus="0.1" errorplus="0.1">12.3</distance>
 	<binary>
 		<semimajoraxis>1100</semimajoraxis>
 		<star>
-			<mass>0.905</mass>
-			<radius>0.943</radius>
-			<magV>5.95</magV>
+			<mass errorminus="0.015" errorplus="0.015">0.905</mass>
+			<radius errorminus="0.010" errorplus="0.010">0.943</radius>
+			<magV errorminus="0.05" errorplus="0.05">5.95</magV>
+			<magJ errorminus="0.244" errorplus="0.244">4.768</magJ>
+			<magH errorminus="0.234" errorplus="0.234">4.265</magH>
+			<magK errorminus="0.036" errorplus="0.036">4.015</magK>
 			<metallicity>0.31</metallicity>
-			<spectraltype>K0IV-V</spectraltype>
+			<spectraltype>G8V</spectraltype>
 			<planet>
 				<name>55 Cnc b</name>
 				<list>Confirmed planets</list>
@@ -60,9 +63,9 @@
 				<name>55 Cnc e</name>
 				<list>Confirmed planets</list>
 				<mass>0.027</mass>
-				<radius>0.194</radius>
-				<period>0.7365449</period>
-				<semimajoraxis>0.0156</semimajoraxis>
+				<radius>0.1813</radius>
+				<period errorminus="0.0000028" errorplus="0.0000025">0.7365417</period>
+				<semimajoraxis errorminus="0.00024" errorplus="0.00025">0.01545</semimajoraxis>
 				<eccentricity>0.06</eccentricity>
 				<description>55 Cancri is a binary system in the constellation Cancer. 55 Cnc b and c are in a near 1:3 resonance. A dynamical analysis shows that the system has to be almost coplanar in order to be stable for the age the system.</description>
 				<discoverymethod>transit</discoverymethod>
@@ -71,6 +74,7 @@
 				<new>0</new>
 				<list>Planets in binary systems, S-type</list>
 				<temperature>1780.9</temperature>
+				<transittime errorminus="0.0018" errorplus="0.0017" unit="BJD">2455962.0697</transittime>
 			</planet>
 			<planet>
 				<name>55 Cnc f</name>
@@ -92,8 +96,11 @@
 		</star>
 		<star>
 			<mass>0.2</mass>
+			<spectraltype>M4</spectraltype>
 			<magV>13</magV>
-			<spectraltype>M</spectraltype>
+			<magJ errorminus="0.027" errorplus="0.027">8.560</magJ>
+			<magH errorminus="0.040" errorplus="0.040">7.933</magH>
+			<magK errorminus="0.023" errorplus="0.023">7.666</magK>
 			<name>55 Cnc B</name>
 		</star>
 	</binary>

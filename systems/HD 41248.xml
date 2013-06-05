@@ -1,0 +1,42 @@
+<system>
+	<name>HD 41248</name>
+	<rightascension>06 00 33</rightascension>
+	<declination>-56 09 43</declination>
+	<distance errorminus="1.95" errorplus="1.95">52.38</distance>
+	<star>
+		<name>HD 41248</name>
+		<mass errorminus="0.05" errorplus="0.05">0.92</mass>
+		<radius errorminus="0.04" errorplus="0.04">0.78</radius>
+		<temperature errorminus="50" errorplus="50">5713</temperature>
+		<magV>8.82</magV>
+		<metallicity errorminus="0.1" errorplus="0.1">-0.43</metallicity>
+		<spectraltype>G2V</spectraltype>
+		<age errorminus="2" errorplus="3">2</age>
+		<planet>
+			<name>HD 41248 b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.016986784" errorplus="0.01352651">0.03869211</mass>
+			<period errorminus="0.044" errorplus="0.066">18.357</period>
+			<semimajoraxis errorminus="0.011" errorplus="0.017">0.137</semimajoraxis>
+			<eccentricity errorminus="0.15" errorplus="0.11">0.15</eccentricity>
+			<description>The planetary system HD 41248 consists of at least two planets. Both planets are most likely Super-Earths. Their period ratio is close to the integer ratio 7:5, a second order commensurability.</description>
+			<discoverymethod>RV</discoverymethod>
+			<lastupdate>13/04/30</lastupdate>
+			<discoveryyear>2013</discoveryyear>
+			<new>0</new>
+		</planet>
+		<planet>
+			<name>HD 41248 c</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.01572850" errorplus="0.02044705">0.02705302</mass>
+			<period errorminus="0.130" errorplus="0.120">25.648</period>
+			<semimajoraxis errorminus="0.014" errorplus="0.020">0.172</semimajoraxis>
+			<eccentricity upperlimit="0.18" />
+			<description>The planetary system HD 41248 consists of at least two planets. Both planets are most likely Super-Earths. Their period ratio is close to the integer ratio 7:5, a second order commensurability.</description>
+			<discoverymethod>RV</discoverymethod>
+			<lastupdate>13/04/30</lastupdate>
+			<discoveryyear>2013</discoveryyear>
+			<new>0</new>
+		</planet>
+	</star>
+</system>

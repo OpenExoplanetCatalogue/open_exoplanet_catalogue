@@ -6,9 +6,15 @@
 	<star>
 		<mass>0.452</mass>
 		<radius>0.464</radius>
-		<magV>10.68</magV>
+		<magV errorminus="0.08" errorplus="0.08">10.59</magV>
+		<magR>9.58</magR>
+		<magI>8.24</magI>
+		<magB errorminus="0.28" errorplus="0.28">12.06</magB>
+		<magJ errorminus="0.024" errorplus="0.024">6.900</magJ>
+		<magH errorminus="0.023" errorplus="0.023">6.319</magH>
+		<magK errorminus="0.016" errorplus="0.016">6.073</magK>
 		<metallicity>-0.32</metallicity>
-		<spectraltype>M2.5</spectraltype>
+		<spectraltype>M3.5</spectraltype>
 		<planet>
 			<name>Gliese 436 b</name>
 			<name>GJ 436 b</name>
@@ -21,6 +27,7 @@
 			<semimajoraxis>0.02887</semimajoraxis>
 			<eccentricity>0.15</eccentricity>
 			<inclination>85.8</inclination>
+			<transittime errorminus="0.0001" errorplus="0.0001" unit="BJD">2454222.6172</transittime>
 			<description>The star Gliese 436 is located in the constellation Leo. Due to tidal forces the planet Gliese 436b is expected to circularise on short timescales. It might be perturbed by an additional planet in the system.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/07/20</lastupdate>

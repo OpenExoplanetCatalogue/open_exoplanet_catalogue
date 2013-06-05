@@ -6,7 +6,11 @@
 	<star>
 		<mass>1.218</mass>
 		<radius>1.237</radius>
-		<magV>10.8</magV>
+		<magV errorminus="0.06" errorplus="0.06">10.91</magV>
+		<magB errorminus="0.06" errorplus="0.06">11.38</magB>
+		<magJ errorminus="0.022" errorplus="0.022">9.850</magJ>
+		<magH errorminus="0.022" errorplus="0.022">9.623</magH>
+		<magK errorminus="0.020" errorplus="0.020">9.553</magK>
 		<metallicity>0.17</metallicity>
 		<spectraltype>F8</spectraltype>
 		<planet>
@@ -23,6 +27,7 @@
 			<discoveryyear>2010</discoveryyear>
 			<new>0</new>
 			<temperature>1485.9</temperature>
+			<transittime errorminus="0.00031" errorplus="0.00031" unit="BJD">2455027.59293</transittime>
 		</planet>
 		<name>HAT-P-16</name>
 		<temperature>6158.0</temperature>

@@ -6,7 +6,8 @@
 	<star>
 		<mass>0.8</mass>
 		<radius>0.788</radius>
-		<magV>7.67</magV>
+		<magV errorminus="0.05" errorplus="0.05">7.68</magV>
+		<magK errorminus="0.02" errorplus="0.02">5.54</magK>
 		<metallicity>-0.03</metallicity>
 		<spectraltype>K1-K2</spectraltype>
 		<planet>
@@ -23,6 +24,7 @@
 			<discoveryyear>2005</discoveryyear>
 			<new>0</new>
 			<temperature>1099.7</temperature>
+			<transittime unit="HJD">2453988.80336</transittime>
 		</planet>
 		<name>HD 189733</name>
 		<temperature>4980.0</temperature>

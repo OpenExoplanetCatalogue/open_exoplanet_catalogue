@@ -3,6 +3,11 @@
 	<rightascension>19 14 20</rightascension>
 	<declination>+41 05 23</declination>
 	<star>
+		<magB>13.4</magB>
+		<magR>12.7</magR>
+		<magJ errorminus="0.020" errorplus="0.020">11.833</magJ>
+		<magH errorminus="0.022" errorplus="0.022">11.601</magH>
+		<magK errorminus="0.020" errorplus="0.020">11.535</magK>
 		<mass>1.36</mass>
 		<radius>2.02</radius>
 		<metallicity>0.11</metallicity>
@@ -18,6 +23,7 @@
 			<semimajoraxis>0.06246</semimajoraxis>
 			<eccentricity>0.1</eccentricity>
 			<inclination>85.18</inclination>
+			<transittime errorminus="0.00020" errorplus="0.00023" unit="BJD">2454967.27674</transittime>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>11/05/27</lastupdate>
 			<discoveryyear>2010</discoveryyear>

@@ -7,6 +7,9 @@
 		<mass>1.404</mass>
 		<radius>1.625</radius>
 		<magV>12.422</magV>
+		<magJ errorminus="0.020" errorplus="0.020">11.424</magJ>
+		<magH errorminus="0.022" errorplus="0.022">11.184</magH>
+		<magK errorminus="0.020" errorplus="0.020">11.157</magK>
 		<metallicity>0.19</metallicity>
 		<planet>
 			<name>HAT-P-39 b</name>
@@ -24,6 +27,7 @@
 			<discoveryyear>2012</discoveryyear>
 			<new>0</new>
 			<temperature>1601.9</temperature>
+			<transittime errorminus="0.00041" errorplus="0.00041" unit="BJD">2455208.75049</transittime>
 		</planet>
 		<name>HAT-P-39</name>
 		<temperature>6430.0</temperature>

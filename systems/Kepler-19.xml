@@ -6,6 +6,11 @@
 		<mass>0.936</mass>
 		<radius>0.85</radius>
 		<magV>12</magV>
+		<magB errorminus="0.26" errorplus="0.26">12.88</magB>
+		<magR errorminus="0.05" errorplus="0.05">12.02</magR>
+		<magJ errorminus="0.020" errorplus="0.020">10.719</magJ>
+		<magH errorminus="0.016" errorplus="0.016">10.375</magH>
+		<magK errorminus="0.019" errorplus="0.019">10.318</magK>
 		<metallicity>-0.13</metallicity>
 		<planet>
 			<name>Kepler-19 b</name>
@@ -20,6 +25,7 @@
 			<period>9.2869944</period>
 			<semimajoraxis>0.118</semimajoraxis>
 			<inclination>89.94</inclination>
+			<transittime errorminus="0.00036" errorplus="0.00036" unit="BJD">2454959.70597</transittime>
 			<description>Sinusoidal transit timing variations have been detected in this system. An additional planet might be present.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>11/09/09</lastupdate>

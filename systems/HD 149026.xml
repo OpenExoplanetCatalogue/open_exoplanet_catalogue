@@ -6,7 +6,8 @@
 	<star>
 		<mass>1.3</mass>
 		<radius>1.497</radius>
-		<magV>8.15</magV>
+		<magV errorminus="0.01" errorplus="0.01">8.14</magV>
+		<magB errorminus="0.02" errorplus="0.02">8.75</magB>
 		<metallicity>0.36</metallicity>
 		<spectraltype>G0 IV</spectraltype>
 		<planet>
@@ -18,6 +19,7 @@
 			<semimajoraxis>0.04288</semimajoraxis>
 			<eccentricity>0.0</eccentricity>
 			<inclination>85.3</inclination>
+			<transittime errorminus="0.003" errorplus="0.003" unit="BJD">2453317.836</transittime>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/07/05</lastupdate>
 			<discoveryyear>2005</discoveryyear>

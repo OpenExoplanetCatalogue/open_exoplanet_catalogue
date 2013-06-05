@@ -4,6 +4,10 @@
 		<mass>1.018</mass>
 		<radius>0.992</radius>
 		<magV>13.8</magV>
+		<magR errorminus="0.14" errorplus="0.14">14.03</magR>
+		<magJ errorminus="0.027" errorplus="0.027">12.578</magJ>
+		<magH errorminus="0.03" errorplus="0.03">12.28</magH>
+		<magK errorminus="0.028" errorplus="0.028">12.216</magK>
 		<metallicity>0.36</metallicity>
 		<planet>
 			<name>Kepler-15 b</name>
@@ -16,6 +20,7 @@
 			<period>4.942782</period>
 			<semimajoraxis>0.05714</semimajoraxis>
 			<inclination>87.44</inclination>
+			<transittime errorminus="0.000096" errorplus="0.000084" unit="BJD">2454969.328651</transittime>
 			<description>Kepler-15b is a planet discovered by NASA's Kepler mission and confirmed by the Hobby-Eberly Telescope. The density of the planet is high, suggesting an enrichment in heavy elements.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>11/08/02</lastupdate>

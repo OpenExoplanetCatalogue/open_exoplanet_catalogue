@@ -1,12 +1,20 @@
 <system>
 	<name>WASP-60</name>
+	<distance errorminus="60" errorplus="60">400</distance>
 	<star>
+		<magB>12.86</magB>
+		<magV>12.18</magV>
+		<mass errorminus="0.034" errorplus="0.034">0.514</mass>
+		<radius errorminus="0.12" errorplus="0.12">0.86</radius>
 		<planet>
 			<name>WASP-60 b</name>
 			<list>Confirmed planets</list>
-			<mass>0.5</mass>
-			<radius>0.9</radius>
-			<period>4.3</period>
+			<mass errorminus="0.034" errorplus="0.034">0.514</mass>
+			<radius errorminus="0.12" errorplus="0.12">0.86</radius>
+			<period errorminus="0.0000062" errorplus="0.0000062">4.3050011</period>
+			<eccentricity>0</eccentricity>
+			<semimajoraxis errorminus="0.0006" errorplus="0.0006">0.0531</semimajoraxis>
+			<inclination errorminus="1.6" errorplus="1.6">87.9</inclination>
 			<description>This planet has been announced at the Extreme Solar Systems II conference in Jackson Hole by the WASP team.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>11/09/13</lastupdate>
@@ -14,6 +22,6 @@
 			<new>0</new>
 		</planet>
 		<name>WASP-60</name>
-		<temperature>5900.0</temperature>
+		<temperature errorminus="100" errorplus="100">5900</temperature>
 	</star>
 </system>

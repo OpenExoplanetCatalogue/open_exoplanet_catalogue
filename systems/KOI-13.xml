@@ -4,8 +4,13 @@
 	<declination>+46 52 06</declination>
 	<distance>604</distance>
 	<star>
+		<magB>10.16</magB>
+		<magV>9.95</magV>
 		<mass>2.05</mass>
 		<radius>2.55</radius>
+		<magJ errorminus="0.022" errorplus="0.022">9.466</magJ>
+		<magH errorminus="0.019" errorplus="0.019">9.455</magH>
+		<magK errorminus="0.014" errorplus="0.014">8.425</magK>
 		<spectraltype>A5-7V</spectraltype>
 		<planet>
 			<name>KOI-13 b</name>
@@ -17,6 +22,7 @@
 			<semimajoraxis>0.0367</semimajoraxis>
 			<eccentricity>0.0</eccentricity>
 			<inclination>85.9</inclination>
+			<transittime errorminus="0.0013" errorplus="0.0013" unit="BJD">2455138.7439</transittime>
 			<description>The exoplanet candidate KOI-13 b was discovered with the Kepler spacecraft. It has been independently confirmed by ellipsoidal variations in the lightcurve. The high temperature of the host star and the small semi-major axis make this planet one of the hottest exoplanets known. The equilibrium temperature is 2864K.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/07/24</lastupdate>
