@@ -32,6 +32,14 @@ def removeemptytags(elem):
     for child in elem:
         removeemptytags(child)
     # Convert error to errorminus and errorplus
+    if 'ep' in elem.attrib:
+        err = elem.attrib['ep']
+        del elem.attrib['ep']
+        elem.attrib['errorplus'] = err
+    if 'em' in elem.attrib:
+        err = elem.attrib['em']
+        del elem.attrib['em']
+        elem.attrib['errorminus'] = err
     if 'error' in elem.attrib:
         err = elem.attrib['error']
         del elem.attrib['error']
