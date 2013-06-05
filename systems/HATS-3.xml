@@ -1,0 +1,42 @@
+<system>
+	<name>HATS-3</name>
+	<name>2MASS 20494978-2425436</name>
+	<name>GSC 6926-00454</name>
+	<rightascension>20 49 59</rightascension>
+	<declination>-24 25 44</declination>
+	<distance errorminus="78" errorplus="78">556</distance>
+	<star>
+		<name>HATS-3</name>
+		<name>2MASS 20494978-2425436</name>
+		<name>GSC 6926-00454</name>
+		<mass errorminus="0.088" errorplus="0.088">1.300</mass>
+		<radius errorminus="0.242" errorplus="0.242">1.725</radius>
+		<temperature errorminus="76" errorplus="76">6351</temperature>
+		<metallicity errorminus="0.07" errorplus="0.07">-0.157</metallicity>
+		<magV errorminus="0.2" errorplus="0.2">12.44</magV>
+		<magB errorminus="0.18" errorplus="0.18">12.46</magB>
+		<magJ errorminus="0.021" errorplus="0.021">10.980</magJ>
+		<magH errorminus="0.024" errorplus="0.024">10.719</magH>
+		<age errorminus="0.4" errorplus="0.8">3.1</age>
+		<planet>
+			<name>HATS-3 b</name>
+			<name>2MASS 20494978-2425436 b</name>
+			<name>GSC 6926-00454 b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.152" errorplus="0.152">1.138</mass>
+			<radius errorminus="0.238" errorplus="0.238">1.697</radius>
+			<temperature errorminus="127" errorplus="127">1816</temperature>
+			<period errorminus="0.000005" errorplus="0.000005">3.547849</period>
+			<transittime errorminus="0.00039" errorplus="0.00039">2456092.10547</transittime>
+			<semimajoraxis errorminus="0.0011" errorplus="0.0011">0.0497</semimajoraxis>
+			<eccentricity errorminus="0.110" errorplus="0.110">0.253</eccentricity>
+			<inclination errorminus="2.0" errorplus="1.3">84.3</inclination>
+			<periastron errorminus="25" errorplus="25">134</periastron>
+			<description>HATS-3 b is a transiting exoplanet, discovered by HATSouth and confirmed with reconnaissance spectroscopy. HATSouth is a network of automated telescopes that is capable of year-round 24-hour monitoring of stars over the entire southern hemisphere of the sky. Because of the brightness of the host star, HATS-3 b is an interesting target for future observations to measure the Rossiter-McLaughlin effect and determine the spin-orbit alignment of the system.</description>
+			<discoverymethod>transit</discoverymethod>
+			<lastupdate>13/06/04</lastupdate>
+			<discoveryyear>2013</discoveryyear>
+			<new>1</new>
+		</planet>
+	</star>
+</system>
