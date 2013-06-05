@@ -4,8 +4,10 @@
 	<declination>-30 36 02</declination>
 	<distance>240</distance>
 	<star>
-		<mass>1.56</mass>
-		<radius>1.64</radius>
+		<name>WASP-79</name>
+		<temperature>6600.0</temperature>
+		<mass errorminus="0.09" errorplus="0.09">1.56</mass>
+		<radius errorminus="0.08" errorplus="0.08">1.64</radius>
 		<magV>10.1</magV>
 		<magB errorminus="0.03" errorplus="0.03">10.45</magB>
 		<magJ errorminus="0.022" errorplus="0.022">9.299</magJ>
@@ -21,21 +23,20 @@
 			<name>SAO 195000 b</name>
 			<name>GSC 7038-834 b</name>
 			<list>Confirmed planets</list>
-			<mass>0.89</mass>
-			<radius>1.7</radius>
-			<period>2.17517632</period>
+			<mass errorminus="0.09" errorplus="0.09">0.90</mass>
+			<radius errorminus="0.11" errorplus="0.11">1.70</radius>
+			<period errorminus="0.0000050" errorplus="0.0000050">3.6623817</period>
 			<semimajoraxis>0.0362</semimajoraxis>
 			<eccentricity>0.0</eccentricity>
-			<inclination>83.2</inclination>
-			<transittime errorminus="0.00150" errorplus="0.00150" unit="BJD">2455545.23606</transittime>
+			<inclination errorminus="0.6" errorplus="0.6">85.4</inclination>
+			<rossitermclaughlin errorminus="8" errorplus="10">-106</rossitermclaughlin>
+			<transittime errorminus="0.002" errorplus="0.002" unit="BJD">2456285.035358</transittime>
 			<description>WASP-79b is a highly bloated Jupiter-mass exoplanet. It is orbiting an F-type star and was discovered and analyzed using WASP, TRAPPIST and CORALIE data. WASP-79b is about twice as big as Jupiter, but its mass is smaller than that of Jupiter.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>12/06/07</lastupdate>
+			<lastupdate>13/06/04</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<new>0</new>
 			<temperature>1958.7</temperature>
 		</planet>
-		<name>WASP-79</name>
-		<temperature>6600.0</temperature>
 	</star>
 </system>
