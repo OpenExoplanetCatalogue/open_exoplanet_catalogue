@@ -106,7 +106,9 @@ for filename in glob.glob("systems*/*.xml"):
     	binaries 	= root.findall(".//binary")
     except ET.ParseError as error:
         print '{}, {}'.format(filename, error)
-    f.close()
+	continue
+    finally:
+        f.close()
 
     # Convert units to default units
     for mass in root.findall(".//planet/mass[@unit='me']"):
