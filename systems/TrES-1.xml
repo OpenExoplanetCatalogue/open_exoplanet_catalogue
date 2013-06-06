@@ -7,9 +7,14 @@
 		<name>TrES-1</name>
 		<mass>0.88</mass>
 		<radius>0.85</radius>
-		<magV>11.79</magV>
+		<magB errorminus="0.21" errorplus="0.21">12.35</magB>
+		<magV errorminus="0.10" errorplus="0.10">11.42</magV>
+		<magJ errorminus="0.022" errorplus="0.022">10.294</magJ>
+		<magH errorminus="0.021" errorplus="0.021">9.887</magH>
+		<magK errorminus="0.019" errorplus="0.019">9.819</magK>
 		<metallicity>0.001</metallicity>
 		<spectraltype>K0V</spectraltype>
+		<temperature errorminus="200" errorplus="200">5250</temperature>
 		<planet>
 			<name>TrES-1 b</name>
 			<name>TYC 2652-01324-1</name>
