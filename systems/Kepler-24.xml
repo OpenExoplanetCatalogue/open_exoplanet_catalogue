@@ -4,9 +4,16 @@
 	<declination>+38 20 37</declination>
 	<distance>1224</distance>
 	<star>
+		<name>Kepler-24</name>
+		<name>2MASS J19213918+3820375</name>
+		<name>KIC 3231341</name>
+		<name>KOI-1102</name>
 		<mass>1.03</mass>
 		<radius>1.07</radius>
 		<metallicity>-0.24</metallicity>
+		<magJ errorminus="0.023" errorplus="0.023">13.763</magJ>
+		<magH errorminus="0.03" errorplus="0.03">13.45</magH>
+		<magK errorminus="0.04" errorplus="0.04">13.37</magK>
 		<planet>
 			<name>Kepler-24 b</name>
 			<name>KOI 1102.02</name>
@@ -16,6 +23,7 @@
 			<semimajoraxis>0.08</semimajoraxis>
 			<description>This planet candidate was discovered with the Kepler spacecraft. Its host star gets periodically fainter whenever the planet is in front of the star. Because there are multiple phenomena that can create a signal that looks similar to a planetary transit, the candidates have to be confirmed with another method. For Kepler-24 the planetary nature of the companions has been confirmed by transit timing variations, caused by other planets in the system, and a stability analysis. However, the mass of the planets is not well constrained yet.</description>
 			<discoverymethod>transit</discoverymethod>
+			<transittime unit="BJD">2454973.5689</transittime>
 			<lastupdate>12/08/06</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<new>0</new>
@@ -30,12 +38,12 @@
 			<semimajoraxis>0.106</semimajoraxis>
 			<description>This planet candidate was discovered with the Kepler spacecraft. Its host star gets periodically fainter whenever the planet is in front of the star. Because there are multiple phenomena that can create a signal that looks similar to a planetary transit, the candidates have to be confirmed with another method. For Kepler-24 the planetary nature of the companions has been confirmed by transit timing variations, caused by other planets in the system, and a stability analysis. However, the mass of the planets is not well constrained yet.</description>
 			<discoverymethod>transit</discoverymethod>
+			<transittime unit="BJD">2454970.586</transittime>
 			<lastupdate>12/08/06</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<new>0</new>
 			<temperature>812.5</temperature>
 		</planet>
-		<name>Kepler-24</name>
 		<temperature>5800.0</temperature>
 	</star>
 </system>

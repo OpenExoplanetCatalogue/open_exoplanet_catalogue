@@ -7,6 +7,11 @@
 		<mass>1.1</mass>
 		<radius>1.39</radius>
 		<magV>14.3</magV>
+		<magB>14.9</magB>
+		<magR errorminus="0.12" errorplus="0.12">14.43</magR>
+		<magJ errorminus="0.025" errorplus="0.025">13.236</magJ>
+		<magH errorminus="0.023" errorplus="0.023">12.999</magH>
+		<magK errorminus="0.028" errorplus="0.028">12.918</magK>
 		<metallicity>-0.29</metallicity>
 		<spectraltype>F7IV</spectraltype>
 		<planet>
@@ -19,6 +24,7 @@
 			<semimajoraxis>0.155</semimajoraxis>
 			<eccentricity>0.121</eccentricity>
 			<inclination>88.83</inclination>
+			<transittime errorminus="0.0005" errorplus="0.0006" unit="BJD">294972.5959</transittime>
 			<description>This planet was confirmed by SOPHIE measurements (Bouchy et al. 2011).</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>11/06/17</lastupdate>

@@ -8,7 +8,12 @@
 		<name>2MASS 09012265+0605500</name>
 		<mass>1.179</mass>
 		<radius>1.528</radius>
-		<magV>3.94</magV>
+		<magV errorminus="0.03" errorplus="0.03">12.17</magV>
+		<magB errorminus="0.02" errorplus="0.02">12.83</magB>
+		<magR errorminus="0.04" errorplus="0.04">12.02</magR>
+		<magJ errorminus="0.023" errorplus="0.023">10.960</magJ>
+		<magH errorminus="0.024" errorplus="0.024">10.677</magH>
+		<magK errorminus="0.026" errorplus="0.026">10.626</magK>
 		<age>5.1</age>
 		<metallicity>0.27</metallicity>
 		<spectraltype>G</spectraltype>
@@ -23,9 +28,10 @@
 			<eccentricity>0</eccentricity>
 			<inclination>85.9</inclination>
 			<temperature>1427</temperature>
+			<transittime errorminus="0.00077" errorplus="0.00077" unit="BJD">2455952.52606</transittime>
 			<description>HAT-P-42 b is a typical Hot Jupiter on a circular orbit around an early G-type main sequence star. The planet is inflated compared to our own Jupiter. It was discovered by the HATNet collaboration.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>13/01/02</lastupdate>
+			<lastupdate>13/05/29</lastupdate>
 			<discoveryyear>2013</discoveryyear>
 			<new>0</new>
 		</planet>

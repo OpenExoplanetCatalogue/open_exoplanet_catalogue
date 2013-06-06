@@ -6,9 +6,12 @@
 	<star>
 		<mass>0.8</mass>
 		<radius>0.788</radius>
-		<magV>7.67</magV>
+		<magV errorminus="0.05" errorplus="0.05">7.68</magV>
+		<magJ errorminus="0.027" errorplus="0.027">6.073</magJ>
+		<magH errorminus="0.027" errorplus="0.027">5.587</magH>
+		<magK errorminus="0.02" errorplus="0.02">5.54</magK>
 		<metallicity>-0.03</metallicity>
-		<spectraltype>K1-K2</spectraltype>
+		<spectraltype>K2V</spectraltype>
 		<planet>
 			<name>HD 189733 b</name>
 			<list>Confirmed planets</list>
@@ -18,6 +21,7 @@
 			<semimajoraxis>0.03142</semimajoraxis>
 			<eccentricity>0.0041</eccentricity>
 			<inclination>85.51</inclination>
+			<transittime errorminus="0.0004" errorplus="0.0004" unit="BJD">2453629.3928</transittime>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>11/12/12</lastupdate>
 			<discoveryyear>2005</discoveryyear>

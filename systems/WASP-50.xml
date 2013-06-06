@@ -7,6 +7,11 @@
 		<mass>0.89</mass>
 		<radius>0.84</radius>
 		<magV>11.6</magV>
+		<magB errorminus="0.27" errorplus="0.27">12.43</magB>
+		<magR errorminus="0.024" errorplus="0.024">11.599</magR>
+		<magJ errorminus="0.022" errorplus="0.022">10.401</magJ>
+		<magH errorminus="0.022" errorplus="0.022">10.041</magH>
+		<magK errorminus="0.021" errorplus="0.021">9.969</magK>
 		<metallicity>-0.12</metallicity>
 		<spectraltype>G9</spectraltype>
 		<planet>
@@ -18,6 +23,7 @@
 			<semimajoraxis>0.02945</semimajoraxis>
 			<eccentricity>0.009</eccentricity>
 			<inclination>84.74</inclination>
+			<transittime errorminus="0.000118" errorplus="0.00018" unit="BJD">2455859.691755</transittime>
 			<description>WASP-50 b is a Hot Jupiter transiting a solar type star in the southern constellation Eridanus.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>11/08/15</lastupdate>

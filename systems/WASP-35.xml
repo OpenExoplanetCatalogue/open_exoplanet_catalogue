@@ -1,6 +1,13 @@
 <system>
 	<name>WASP-35</name>
+	<rightascension>05 04 20</rightascension>
+	<declination>-06 13 47</declination>
 	<star>
+		<magB errorminus="0.09" errorplus="0.09">11.55</magB>
+		<magV errorminus="0.09" errorplus="0.09">10.94</magV>
+		<magJ errorminus="0.030" errorplus="0.030">9.887</magJ>
+		<magH errorminus="0.023" errorplus="0.023">9.598</magH>
+		<magK errorminus="0.021" errorplus="0.021">9.525</magK>
 		<planet>
 			<name>WASP-35 b</name>
 			<name>2MASS J05041962-0613473 b</name>
@@ -11,6 +18,7 @@
 			<semimajoraxis>0.04317</semimajoraxis>
 			<eccentricity>0.0</eccentricity>
 			<inclination>87.96</inclination>
+			<transittime errorminus="0.00015" errorplus="0.00015" unit="BJD">2455531.47984</transittime>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>11/04/15</lastupdate>
 			<discoveryyear>2011</discoveryyear>

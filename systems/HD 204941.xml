@@ -4,9 +4,14 @@
 	<declination>-20 57 27</declination>
 	<distance>27</distance>
 	<star>
+		<spectraltype>K2V</spectraltype>
 		<mass>0.74</mass>
 		<radius>0.72</radius>
 		<magV>8.45</magV>
+		<magB>9.39</magB>
+		<magJ errorminus="0.026" errorplus="0.026">6.895</magJ>
+		<magH errorminus="0.046" errorplus="0.046">6.475</magH>
+		<magK errorminus="0.018" errorplus="0.018">6.357</magK>
 		<metallicity>-0.19</metallicity>
 		<planet>
 			<name>HD 204941 b</name>

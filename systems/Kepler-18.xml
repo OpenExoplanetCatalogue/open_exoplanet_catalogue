@@ -6,6 +6,10 @@
 		<mass>0.972</mass>
 		<radius>1.108</radius>
 		<magV>14</magV>
+		<magR errorminus="0.06" errorplus="0.06">13.93</magR>
+		<magJ errorminus="0.03" errorplus="0.03">12.19</magJ>
+		<magH errorminus="0.025" errorplus="0.025">11.873</magH>
+		<magK errorminus="0.019" errorplus="0.019">11.756</magK>
 		<metallicity>0.2</metallicity>
 		<planet>
 			<name>Kepler-18 b</name>
@@ -18,7 +22,8 @@
 			<period>3.504725</period>
 			<semimajoraxis>0.0447</semimajoraxis>
 			<inclination>84.92</inclination>
-			<description>The Kepler-18 system is hosting at least three tansiting plantes. It was discovered with the Kepler satellite, and confirmed by a combination of large transit-timing variations, radial-velocity variations, Warm-Spitzer observations, and a statistical analysis of false-positive probabilities.</description>
+			<transittime errorminus="0.0021" errorplus="0.0021" unit="BJD">2454966.5068</transittime>
+			<description>The Kepler-18 system is hosting at least three transiting planets. It was discovered with the Kepler satellite, and confirmed by a combination of large transit-timing variations, radial-velocity variations, Warm-Spitzer observations, and a statistical analysis of false-positive probabilities.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>11/10/05</lastupdate>
 			<discoveryyear>2011</discoveryyear>
@@ -36,7 +41,8 @@
 			<period>7.64159</period>
 			<semimajoraxis>0.0752</semimajoraxis>
 			<inclination>87.68</inclination>
-			<description>The Kepler-18 system is hosting at least three tansiting plantes. It was discovered with the Kepler satellite, and confirmed by a combination of large transit-timing variations, radial-velocity variations, Warm-Spitzer observations, and a statistical analysis of false-positive probabilities.</description>
+			<transittime errorminus="0.0023" errorplus="0.0023" unit="BJD">2455167.0883</transittime>
+			<description>The Kepler-18 system is hosting at least three transiting planets. It was discovered with the Kepler satellite, and confirmed by a combination of large transit-timing variations, radial-velocity variations, Warm-Spitzer observations, and a statistical analysis of false-positive probabilities.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>11/10/05</lastupdate>
 			<discoveryyear>2011</discoveryyear>
@@ -51,7 +57,8 @@
 			<period>14.85888</period>
 			<semimajoraxis>0.1172</semimajoraxis>
 			<inclination>88.07</inclination>
-			<description>The Kepler-18 system is hosting at least three tansiting plantes. It was discovered with the Kepler satellite, and confirmed by a combination of large transit-timing variations, radial-velocity variations, Warm-Spitzer observations, and a statistical analysis of false-positive probabilities.</description>
+			<transittime errorminus="0.0013" errorplus="0.0013" unit="BJD">245169.1776</transittime>
+			<description>The Kepler-18 system is hosting at least three transiting planets. It was discovered with the Kepler satellite, and confirmed by a combination of large transit-timing variations, radial-velocity variations, Warm-Spitzer observations, and a statistical analysis of false-positive probabilities.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>11/10/05</lastupdate>
 			<discoveryyear>2011</discoveryyear>

@@ -4,22 +4,33 @@
 	<declination>+46 00 18</declination>
 	<distance>917.8</distance>
 	<star>
-		<mass>1.291</mass>
-		<radius>1.82</radius>
+		<magB errorminus="0.42" errorplus="0.42">14.39</magB>
+		<magV errorminus="0.28" errorplus="0.28">13.74</magV>
+		<magR errorminus="0.09" errorplus="0.09">14.26</magR>
+		<magI errorminus="0.43" errorplus="0.43">13.23</magI>
+		<magJ errorminus="0.020" errorplus="0.020">12.871</magJ>
+		<magH errorminus="0.021" errorplus="0.021">12.620</magH>
+		<magK errorminus="0.022" errorplus="0.022">12.591</magK>
+		<mass errorminus="0.121" errorplus="0.063">1.291</mass>
+		<metallicity errorminus="0.0019" errorplus="0.0019">0.0250</metallicity>
+		<radius errorminus="0.18" errorplus="0.14">1.82</radius>
+		<age errorminus="1.03" errorplus="0.74">4.27</age>
 		<planet>
 			<name>Kepler-33 b</name>
 			<name>KOI 707.01</name>
 			<name>KIC 9458613 b</name>
 			<list>Confirmed planets</list>
 			<radius>0.158566</radius>
-			<period>5.66</period>
+			<period errorminus="0.00012" errorplus="0.00012">5.66793</period>
 			<semimajoraxis>0.0677</semimajoraxis>
+			<inclination errorminus="1.62" errorplus="0.96">86.39</inclination>
 			<description>This planet candidate was discovered with the Kepler spacecraft. Its host star gets periodically fainter whenever the planet is in front of the star. Because there are multiple phenomena that can create a signal that looks similar to a planetary transit, the candidates have to be confirmed with another method. The closely packed system Kepler-33 was validated by multiplicity (Lissauer et al. 2012). However, the mass of the planets is not known yet.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/01/26</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<new>0</new>
 			<temperature>1349.8</temperature>
+			<transittime errorminus="0.0075" errorplus="0.0075" unit="BJD">2454964.8981</transittime>
 		</planet>
 		<planet>
 			<name>Kepler-33 c</name>
@@ -27,14 +38,16 @@
 			<name>KIC 9458613 c</name>
 			<list>Confirmed planets</list>
 			<radius>0.2916</radius>
-			<period>13.17</period>
+			<period errorminus="0.00014" errorplus="0.00014">13.17562</period>
 			<semimajoraxis>0.1189</semimajoraxis>
+			<inclination errorminus="1.06" errorplus="0.58">88.19</inclination>
 			<description>This planet candidate was discovered with the Kepler spacecraft. Its host star gets periodically fainter whenever the planet is in front of the star. Because there are multiple phenomena that can create a signal that looks similar to a planetary transit, the candidates have to be confirmed with another method. The closely packed system Kepler-33 was validated by multiplicity (Lissauer et al. 2012). However, the mass of the planets is not known yet.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/01/26</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<new>0</new>
 			<temperature>1018.5</temperature>
+			<transittime errorminus="0.0042" errorplus="0.0042" unit="BJD">2454976.6764</transittime>
 		</planet>
 		<planet>
 			<name>Kepler-33 d</name>
@@ -42,14 +55,16 @@
 			<name>KIC 9458613 d</name>
 			<list>Confirmed planets</list>
 			<radius>0.487547</radius>
-			<period>21.77</period>
+			<period errorminus="0.00011" errorplus="0.00011">21.77596</period>
 			<semimajoraxis>0.166</semimajoraxis>
+			<inclination errorminus="0.48" errorplus="0.61">88.71</inclination>
 			<description>This planet candidate was discovered with the Kepler spacecraft. Its host star gets periodically fainter whenever the planet is in front of the star. Because there are multiple phenomena that can create a signal that looks similar to a planetary transit, the candidates have to be confirmed with another method. The closely packed system Kepler-33 was validated by multiplicity (Lissauer et al. 2012). However, the mass of the planets is not known yet.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/01/26</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<new>0</new>
 			<temperature>861.5</temperature>
+			<transittime errorminus="0.0018" errorplus="0.0018" unit="BJD">2455022.6342</transittime>
 		</planet>
 		<planet>
 			<name>Kepler-33 e</name>
@@ -57,7 +72,7 @@
 			<name>KIC 9458613 e</name>
 			<list>Confirmed planets</list>
 			<radius>0.366343</radius>
-			<period>31.78</period>
+			<period errorminus="0.00039" errorplus="0.00039">31.78440</period>
 			<semimajoraxis>0.2138</semimajoraxis>
 			<description>This planet candidate was discovered with the Kepler spacecraft. Its host star gets periodically fainter whenever the planet is in front of the star. Because there are multiple phenomena that can create a signal that looks similar to a planetary transit, the candidates have to be confirmed with another method. The closely packed system Kepler-33 was validated by multiplicity (Lissauer et al. 2012). However, the mass of the planets is not known yet.</description>
 			<discoverymethod>transit</discoverymethod>
@@ -65,6 +80,7 @@
 			<discoveryyear>2012</discoveryyear>
 			<new>0</new>
 			<temperature>759.5</temperature>
+			<transittime errorminus="0.0048" errorplus="0.0048" unit="BJD">2454968.8715</transittime>
 		</planet>
 		<planet>
 			<name>Kepler-33 f</name>
@@ -72,16 +88,17 @@
 			<name>KIC 9458613 f</name>
 			<list>Confirmed planets</list>
 			<radius>0.406441</radius>
-			<period>105.5763</period>
-			<semimajoraxis>0.2535</semimajoraxis>
+			<period errorminus="0.00042" errorplus="0.00042">41.02902</period>
+			<semimajoraxis errorminus="0.0054" errorplus="0.0054">0.2535</semimajoraxis>
 			<description>This planet candidate was discovered with the Kepler spacecraft. Its host star gets periodically fainter whenever the planet is in front of the star. Because there are multiple phenomena that can create a signal that looks similar to a planetary transit, the candidates have to be confirmed with another method. The closely packed system Kepler-33 was validated by multiplicity (Lissauer et al. 2012). However, the mass of the planets is not known yet.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/01/26</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<new>0</new>
 			<temperature>697.5</temperature>
+			<transittime errorminus="0.0040" errorplus="0.0040" unit="BJD">2455005.5763</transittime>
 		</planet>
 		<name>Kepler-33</name>
-		<temperature>5904.0</temperature>
+		<temperature errorminus="47" errorplus="47">5904.0</temperature>
 	</star>
 </system>

@@ -7,6 +7,11 @@
 		<mass>1.24</mass>
 		<radius>1.31</radius>
 		<magV>10.64</magV>
+		<magB errorminus="0.06" errorplus="0.06">11.07</magB>
+		<magR errorminus="0.04" errorplus="0.04">10.52</magR>
+		<magJ errorminus="0.020" errorplus="0.020">9.603</magJ>
+		<magH errorminus="0.014" errorplus="0.014">9.407</magH>
+		<magK errorminus="0.015" errorplus="0.015">9.361</magK>
 		<spectraltype>F7V</spectraltype>
 		<planet>
 			<name>WASP-3 b</name>
@@ -19,6 +24,7 @@
 			<semimajoraxis>0.0313</semimajoraxis>
 			<eccentricity>0.0</eccentricity>
 			<inclination>85.06</inclination>
+			<transittime errorminus="0.00010" errorplus="0.00010" unit="BJD">2454605.55978</transittime>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>11/06/23</lastupdate>
 			<discoveryyear>2007</discoveryyear>

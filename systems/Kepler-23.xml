@@ -4,9 +4,25 @@
 	<declination>+49 28 45</declination>
 	<distance>1018</distance>
 	<star>
+		<magB>13.6</magB>
+		<magR errorminus="0.13" errorplus="0.13">13.71</magR>
+		<name>Kepler-23</name>
+		<name>GSC 03564-01806</name>
+		<name>CMC14 J193652.5+492845</name>
+		<name>GSC2.3 N2HD003526</name>
+		<name>GSC2 N03021013526</name>
+		<name>KIC 11512246</name>
+		<name>KOI-168</name>
+		<name>2MASS J19365254+4928452</name>
+		<name>PPMX J193652.5+492845</name>
+		<name>UCAC3 279-152018</name>
+		<name>USNO-B1.0 1394-00316778</name>
 		<mass>1.11</mass>
 		<radius>1.52</radius>
 		<metallicity>-0.09</metallicity>
+		<magJ errorminus="0.021" errorplus="0.021">12.353</magJ>
+		<magH errorminus="0.017" errorplus="0.017">12.047</magH>
+		<magK errorminus="0.019" errorplus="0.019">11.998</magK>
 		<planet>
 			<name>Kepler-23 b</name>
 			<name>KOI 168.01</name>
@@ -17,6 +33,7 @@
 			<semimajoraxis>0.075</semimajoraxis>
 			<description>This planet candidate was discovered with the Kepler spacecraft. Its host star gets periodically fainter whenever the planet is in front of the star. Because there are multiple phenomena that can create a signal that looks similar to a planetary transit, the candidates have to be confirmed with another method. For Kepler-23 the planetary nature of the companions has been confirmed by transit timing variations, caused by other planets in the system, and a stability analysis. However, the mass of the planets is not well constrained yet and should be considered an upper limit.</description>
 			<discoverymethod>transit</discoverymethod>
+			<transittime unit="BJD">2454971.3022</transittime>
 			<lastupdate>12/08/06</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<new>0</new>
@@ -32,12 +49,12 @@
 			<semimajoraxis>0.099</semimajoraxis>
 			<description>This planet candidate was discovered with the Kepler spacecraft. Its host star gets periodically fainter whenever the planet is in front of the star. Because there are multiple phenomena that can create a signal that looks similar to a planetary transit, the candidates have to be confirmed with another method. For Kepler-23 the planetary nature of the companions has been confirmed by transit timing variations, caused by other planets in the system, and a stability analysis. However, the mass of the planets is not well constrained yet and should be considered an upper limit.</description>
 			<discoverymethod>transit</discoverymethod>
+			<transittime unit="BJD">2454966.2926</transittime>
 			<lastupdate>12/01/26</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<new>0</new>
 			<temperature>995.2</temperature>
 		</planet>
-		<name>Kepler-23</name>
 		<temperature>5760.0</temperature>
 	</star>
 </system>

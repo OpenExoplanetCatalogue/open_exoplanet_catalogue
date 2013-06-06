@@ -6,6 +6,12 @@
 		<mass>0.917</mass>
 		<radius>0.865</radius>
 		<magV>12.9</magV>
+		<magB>13.7</magB>
+		<magR errorminus="0.07" errorplus="0.07">13.17</magR>
+		<magI errorminus="0.04" errorplus="0.04">12.19</magI>
+		<magJ errorminus="0.023" errorplus="0.023">11.702</magJ>
+		<magH errorminus="0.025" errorplus="0.025">11.408</magH>
+		<magK errorminus="0.026" errorplus="0.026">11.341</magK>
 		<metallicity>0.06</metallicity>
 		<spectraltype>G8V</spectraltype>
 		<age>4.1</age>
@@ -20,6 +26,7 @@
 			<semimajoraxis>0.03445</semimajoraxis>
 			<eccentricity>0.0</eccentricity>
 			<inclination>86.02</inclination>
+			<transittime errorminus="0.00040" errorplus="0.00040" unit="BJD">2455434.37674</transittime>
 			<description>WASP-44 b is a sub-Jupiter mass planet in a 2.42 day orbit around a G8V star. It was discovered by the WASP collaboration and published in a paper by Anderson et al. (2012).</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>13/01/14</lastupdate>

@@ -4,6 +4,9 @@
 	<declination>+46 34 27</declination>
 	<distance>399</distance>
 	<star>
+		<magJ errorminus="0.023" errorplus="0.023">13.616</magJ>
+		<magH errorminus="0.024" errorplus="0.024">12.901</magH>
+		<magK errorminus="0.024" errorplus="0.024">12.757</magK>
 		<mass>0.58</mass>
 		<radius>0.53</radius>
 		<planet>
@@ -14,6 +17,7 @@
 			<radius>0.136695</radius>
 			<period>0.7429</period>
 			<semimajoraxis>0.013</semimajoraxis>
+			<transittime errorminus="0.008" errorplus="0.008" unit="BJD">2454974.902</transittime>
 			<description>This planet candidate was discovered with the Kepler spacecraft. Because there are multiple phenomena that can create a signal that looks similar to a planetary transit, the candidates have to be confirmed with another method. For Kepler-32 the planetary nature of the companions has been confirmed by transit timing variations, caused by other planets in the system, and a stability analysis. However, the mass of the planets is not well constrained yet. There are at least three other unconfirmed planets in the system.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/08/06</lastupdate>
@@ -29,6 +33,7 @@
 			<radius>0.24605179</radius>
 			<period>2.8960</period>
 			<semimajoraxis>0.033</semimajoraxis>
+			<transittime errorminus="0.013" errorplus="0.013" unit="BJD">2454977.378</transittime>
 			<description>This planet candidate was discovered with the Kepler spacecraft. Because there are multiple phenomena that can create a signal that looks similar to a planetary transit, the candidates have to be confirmed with another method. For Kepler-32 the planetary nature of the companions has been confirmed by transit timing variations, caused by other planets in the system, and a stability analysis. However, the mass of the planets is not well constrained yet. There are at least three other unconfirmed planets in the system.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/08/06</lastupdate>

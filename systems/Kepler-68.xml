@@ -11,6 +11,10 @@
 		<radius>1.243</radius>
 		<temperature>5793</temperature>
 		<magV>4.34</magV>
+		<magB errorminus="0.04" errorplus="0.04">10.73</magB>
+		<magJ errorminus="0.046" errorplus="0.046">8.975</magJ>
+		<magH errorminus="0.029" errorplus="0.029">8.662</magH>
+		<magK errorminus="0.022" errorplus="0.022">8.588</magK>
 		<age>6.3</age>
 		<metallicity>0.12</metallicity>
 		<spectraltype>G</spectraltype>
@@ -27,6 +31,7 @@
 			<semimajoraxis>0.06170</semimajoraxis>
 			<eccentricity>0.0</eccentricity>
 			<inclination>87.60</inclination>
+			<transittime errorminus="0.00042" errorplus="0.00042" unit="BJD">2455006.85729</transittime>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>13/02/13</lastupdate>
 			<discoveryyear>2013</discoveryyear>
@@ -44,6 +49,7 @@
 			<period>9.605085</period>
 			<semimajoraxis>0.09059</semimajoraxis>
 			<inclination>86.93</inclination>
+			<transittime errorminus="0.0041" errorplus="0.0041" unit="BJD">2454969.3805"</transittime>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>13/02/13</lastupdate>
 			<discoveryyear>2013</discoveryyear>

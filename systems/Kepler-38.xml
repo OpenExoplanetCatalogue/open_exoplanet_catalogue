@@ -4,6 +4,9 @@
 	<declination>+42 16 45</declination>
 	<distance>3500</distance>
 	<binary>
+		<magJ errorminus="0.023" errorplus="0.023">12.730</magJ>
+		<magH errorminus="0.022" errorplus="0.022">12.412</magH>
+		<magK errorminus="0.022" errorplus="0.022">12.342</magK>
 		<semimajoraxis>0.1460</semimajoraxis>
 		<eccentricity>0.1032</eccentricity>
 		<star>
@@ -28,6 +31,7 @@
 			<semimajoraxis>0.4644</semimajoraxis>
 			<eccentricity>0.032</eccentricity>
 			<inclination>90.182</inclination>
+			<transittime errorminus="0.000090" errorplus="0.000090" unit="BJD">2454952.872560</transittime>
 			<description>Kepler-38 (AB) b is a Neptune-sized planet orbiting a binary star (therefore the name with AB). The planet is not sufficiently massive to alter the orbit of the binary. Therefore one can only place an upper limit on the mass of the planet of 122 Earth masses.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/08/24</lastupdate>

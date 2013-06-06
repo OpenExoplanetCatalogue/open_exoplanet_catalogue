@@ -1,0 +1,62 @@
+<system>
+	<name>Gliese 221</name>
+	<name>GJ 221</name>
+	<name>BD-061339</name>
+	<name>HIP 27803</name>
+	<rightascension>05 53 00</rightascension>
+	<declination>-05 59 41</declination>
+	<distance errorminus="1" errorplus="1">20</distance>
+	<star>
+		<magB>11.041</magB>
+		<magV>9.693</magV>
+		<magR>8.855</magR>
+		<magI>8.099</magI>
+		<magJ errorminus="0.018" errorplus="0.018">7.128</magJ>
+		<magH errorminus="0.059" errorplus="0.059">6.517</magH>
+		<magK errorminus="0.018" errorplus="0.018">6.305</magK>
+		<name>Gliese 221</name>
+		<name>GJ 221</name>
+		<name>BD-061339</name>
+		<name>HIP 27803</name>
+		<mass errorminus="0.032" errorplus="0.032">0.637</mass>
+		<temperature errorminus="50" errorplus="50">4040</temperature>
+		<metallicity errorminus="0.10" errorplus="0.10">-0.07</metallicity>
+		<spectraltype>K7V</spectraltype>
+		<age errorminus="2" errorplus="2">3</age>
+		<planet>
+			<name>Gliese 221 b</name>
+			<name>GJ 221 b</name>
+			<name>BD-061339 b</name>
+			<name>HIP 27803 b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.0118" errorplus="0.0118">0.13</mass>
+			<period errorminus="1.1" errorplus="1.1">125.06</period>
+			<semimajoraxis errorminus="0.0039" errorplus="0.0039">0.448</semimajoraxis>
+			<eccentricity upperlimit="0.24" />
+			<periastron errorminus="44" errorplus="44">118</periastron>
+			<longitude errorminus="17.5" errorplus="17.5">131</longitude>
+			<description>The planets orbiting the K7 star GJ 221 were discovered using publicly available HARPS data. The dataset was complemented with high precision Doppler measurements from Magellan/PFS. The system hosts at least two planets, one hot Super-Earth and one sub-Saturn mass planet.</description>
+			<discoverymethod>RV</discoverymethod>
+			<lastupdate>13/05/13</lastupdate>
+			<discoveryyear>2013</discoveryyear>
+			<new>0</new>
+		</planet>
+		<planet>
+			<name>Gliese 221 c</name>
+			<name>GJ 221 c</name>
+			<name>BD-061339 c</name>
+			<name>HIP 27803 c</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.00541" errorplus="0.00541">0.0196</mass>
+			<period errorminus="0.00066" errorplus="0.00066">3.8731</period>
+			<semimajoraxis>0.044</semimajoraxis>
+			<eccentricity upperlimit="0.48" />
+			<periastron>94</periastron>
+			<description>The planets orbiting the K7 star GJ 221 were discovered using publicly available HARPS data. The dataset was complemented with high precision Doppler measurements from Magellan/PFS. The system hosts at least two planets, one hot Super-Earth and one sub-Saturn mass planet.</description>
+			<discoverymethod>RV</discoverymethod>
+			<lastupdate>13/05/13</lastupdate>
+			<discoveryyear>2013</discoveryyear>
+			<new>0</new>
+		</planet>
+	</star>
+</system>
