@@ -1,10 +1,16 @@
 <system>
 	<name>HAT-P-38</name>
+	<rightascension>02 21 32</rightascension>
+	<declination>+32 14 47</declination>
 	<distance>249</distance>
 	<star>
 		<mass>0.886</mass>
 		<radius>0.923</radius>
-		<magV>12.56</magV>
+		<magV errorminus="0.094" errorplus="0.094">12.557</magV>
+		<magB>12.2</magB>
+		<magJ errorminus="0.022" errorplus="0.022">10.989</magJ>
+		<magH errorminus="0.021" errorplus="0.021">10.593</magH>
+		<magK errorminus="0.017" errorplus="0.017">10.501</magK>
 		<metallicity>0.06</metallicity>
 		<spectraltype>G</spectraltype>
 		<planet>
@@ -17,7 +23,7 @@
 			<eccentricity>0.067</eccentricity>
 			<inclination>88.3</inclination>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>12/01/25</lastupdate>
+			<lastupdate>13/05/29</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<new>0</new>
 			<temperature>987.0</temperature>

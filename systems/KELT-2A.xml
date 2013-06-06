@@ -6,7 +6,11 @@
 	<star>
 		<mass>1.31</mass>
 		<radius>1.842</radius>
-		<magV>8.7</magV>
+		<magV errorminus="0.02" errorplus="0.02">8.77</magV>
+		<magB errorminus="0.02" errorplus="0.02">9.33</magB>
+		<magJ errorminus="0.021" errorplus="0.021">7.669</magJ>
+		<magH errorminus="0.026" errorplus="0.026">7.417</magH>
+		<magK errorminus="0.031" errorplus="0.031">7.346</magK>
 		<metallicity>-0.015</metallicity>
 		<spectraltype>F7V</spectraltype>
 		<planet>
@@ -24,6 +28,7 @@
 			<period>4.1137914</period>
 			<semimajoraxis>0.05498</semimajoraxis>
 			<eccentricity>0.185</eccentricity>
+			<transittime errorminus="0.00085" errorplus="0.00081" unit="BJD">2455974.60361</transittime>
 			<description>This planet is a typical Hot Jupiter. It is the first planet discovered by the Kilodegree Extremely Little Telescope-North (KELT-North) survey. KELT-2A is the third brightest star with a transiting planet identified by ground-based transit surveys, and the ninth brightest star overall with a transiting planet. The planet might have been put on its orbit by the binary companion KELT-2B via the so-called eccentric Kozai mechanism.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/06/11</lastupdate>

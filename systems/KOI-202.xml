@@ -4,7 +4,13 @@
 	<declination>+43 40 52</declination>
 	<star>
 		<radius>1.04</radius>
-		<magV>14.5</magV>
+		<magV errorminus="0.24" errorplus="0.24">13.73</magV>
+		<magB errorminus="0.33" errorplus="0.33">14.41</magB>
+		<magR errorminus="0.11" errorplus="0.11">14.67</magR>
+		<magI errorminus="0.43" errorplus="0.43">12.79</magI>
+		<magJ errorminus="0.027" errorplus="0.027">13.190</magJ>
+		<magH errorminus="0.03" errorplus="0.03">12.93</magH>
+		<magK errorminus="0.03" errorplus="0.03">12.84</magK>
 		<metallicity>0.12</metallicity>
 		<planet>
 			<name>KOI-202 b</name>

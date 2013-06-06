@@ -7,7 +7,13 @@
 		<name>TrES-3</name>
 		<mass>0.88</mass>
 		<radius>0.85</radius>
-		<magV>11.79</magV>
+		<magB errorminus="0.009" errorplus="0.009">13.114</magB>
+		<magV errorminus="0.006" errorplus="0.006">12.402</magV>
+		<magR>12.06</magR>
+		<magI errorminus="0.010" errorplus="0.010">11.603</magI>
+		<magJ errorminus="0.022" errorplus="0.022">11.015</magJ>
+		<magH errorminus="0.030" errorplus="0.030">10.655</magH>
+		<magK errorminus="0.028" errorplus="0.028">10.608</magK>
 		<metallicity>0.001</metallicity>
 		<spectraltype>K0V</spectraltype>
 		<planet>
@@ -20,6 +26,7 @@
 			<semimajoraxis>0.0226</semimajoraxis>
 			<eccentricity>0.0</eccentricity>
 			<inclination>82.15</inclination>
+			<transittime errorminus="0.00018" errorplus="0.00018" unit="BJD">2455358.86636</transittime>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>10/12/13</lastupdate>
 			<discoveryyear>2007</discoveryyear>

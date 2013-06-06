@@ -2,10 +2,16 @@
 	<name>Kepler-9</name>
 	<rightascension>19 02 18</rightascension>
 	<declination>+38 24 03</declination>
+	<distance>650</distance>
 	<star>
+		<spectraltype>G2</spectraltype>
 		<mass>1</mass>
 		<radius>1.1</radius>
 		<magV>13.9</magV>
+		<magR errorminus="0.10" errorplus="0.10">14.09</magR>
+		<magJ errorminus="0.021" errorplus="0.021">12.710</magJ>
+		<magH errorminus="0.021" errorplus="0.021">12.391</magH>
+		<magK errorminus="0.021" errorplus="0.021">12.337</magK>
 		<metallicity>0.17</metallicity>
 		<planet>
 			<name>Kepler-9 b</name>
@@ -49,8 +55,9 @@
 			<list>Confirmed planets</list>
 			<mass>0.022</mass>
 			<radius>0.147</radius>
-			<period>1.592851</period>
+			<period errorminus="0.000045" errorplus="0.000045">1.592851</period>
 			<semimajoraxis>0.0273</semimajoraxis>
+			<transittime errorminus="0.0033" errorplus="0.0018" unit="BJD">2455015.0943</transittime>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>10/11/23</lastupdate>
 			<discoveryyear>2010</discoveryyear>

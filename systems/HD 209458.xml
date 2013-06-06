@@ -6,9 +6,13 @@
 	<star>
 		<mass>1.148</mass>
 		<radius>1.146</radius>
-		<magV>7.65</magV>
+		<magV errorminus="0.01" errorplus="0.01">7.63</magV>
+		<magB errorminus="0.02" errorplus="0.02">8.21</magB>
+		<magJ errorminus="0.020" errorplus="0.020">6.591</magJ>
+		<magH errorminus="0.04" errorplus="0.04">6.37</magH>
+		<magK errorminus="0.026" errorplus="0.026">6.308</magK>
 		<metallicity>0.02</metallicity>
-		<spectraltype>G0 V</spectraltype>
+		<spectraltype>G0V</spectraltype>
 		<planet>
 			<name>HD 209458 b</name>
 			<list>Confirmed planets</list>
@@ -18,6 +22,7 @@
 			<semimajoraxis>0.04747</semimajoraxis>
 			<eccentricity>0.0004</eccentricity>
 			<inclination>86.59</inclination>
+			<transittime errorminus="0.014" errorplus="0.014" unit="HJD">2451370.048</transittime>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/07/05</lastupdate>
 			<discoveryyear>1999</discoveryyear>

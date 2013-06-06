@@ -2,10 +2,15 @@
 	<name>WASP-1</name>
 	<rightascension>00 20 40</rightascension>
 	<declination>+31 59 24</declination>
+	<distance errorminus="27" errorplus="27">408</distance>
 	<star>
 		<mass>1.24</mass>
 		<radius>1.382</radius>
 		<magV>11.79</magV>
+		<magB errorminus="0.21" errorplus="0.21">12.06</magB>
+		<magJ errorminus="0.019" errorplus="0.019">10.586</magJ>
+		<magH errorminus="0.016" errorplus="0.016">10.364</magH>
+		<magK errorminus="0.018" errorplus="0.018">10.276</magK>
 		<spectraltype>F7V</spectraltype>
 		<planet>
 			<name>WASP-1 b</name>
@@ -18,6 +23,7 @@
 			<semimajoraxis>0.0382</semimajoraxis>
 			<eccentricity>0.0</eccentricity>
 			<inclination>88.65</inclination>
+			<transittime errorminus="0.0011" errorplus="0.0011" unit="BJD">2454774.3502</transittime>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>11/06/15</lastupdate>
 			<discoveryyear>2006</discoveryyear>

@@ -3,7 +3,12 @@
 	<rightascension>19 16 18</rightascension>
 	<declination>+51 45 27</declination>
 	<distance>60</distance>
+	<magJ errorminus="0.023" errorplus="0.023">9.815</magJ>
+	<magH errorminus="0.03" errorplus="0.03">9.14</magH>
+	<magK errorminus="0.022" errorplus="0.022">8.996</magK>
 	<binary>
+		<magB>12.1</magB>
+		<magR errorminus="0.06" errorplus="0.06">11.90</magR>
 		<semimajoraxis>0.22</semimajoraxis>
 		<period>41</period>
 		<star>
@@ -29,6 +34,7 @@
 			<semimajoraxis>0.7048</semimajoraxis>
 			<eccentricity>0.00685</eccentricity>
 			<inclination>90.0322</inclination>
+			<transittime errorminus="0.0011" errorplus="0.0011" unit="BJD">2455425.2038</transittime>
 			<description>Kepler-16 (AB) b is a circum-binary planet. It is orbiting two stars. The orbit of the binary stars and the planet are perfectly alligned within half a degree. This suggests that the planet formed in a circumbinary disc.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/11/27</lastupdate>

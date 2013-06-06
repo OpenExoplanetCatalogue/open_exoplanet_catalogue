@@ -4,9 +4,14 @@
 	<declination>-17 30 13</declination>
 	<distance>330</distance>
 	<star>
+		<spectraltype>G1</spectraltype>
 		<mass>1.01</mass>
 		<radius>1.06</radius>
 		<magV>11.8</magV>
+		<magB errorminus="0.32" errorplus="0.32">12.69</magB>
+		<magJ errorminus="0.027" errorplus="0.027">10.775</magJ>
+		<magH errorminus="0.023" errorplus="0.023">10.443</magH>
+		<magK errorminus="0.024" errorplus="0.024">10.396</magK>
 		<metallicity>-0.2</metallicity>
 		<planet>
 			<name>WASP-55 b</name>
@@ -17,6 +22,7 @@
 			<semimajoraxis>0.0533</semimajoraxis>
 			<eccentricity>0.0</eccentricity>
 			<inclination>89.2</inclination>
+			<transittime errorminus="0.0003" errorplus="0.0003" unit="BJD">2455737.94039</transittime>
 			<description>This planet has been announced at the Extreme Solar Systems II conference in Jackson Hole by the WASP team.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/04/24</lastupdate>

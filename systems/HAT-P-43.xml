@@ -8,7 +8,12 @@
 		<name>2MASS 08354217+1012239</name>
 		<mass>1.048</mass>
 		<radius>1.104</radius>
-		<magV>4.73</magV>
+		<magV errorminus="0.03" errorplus="0.03">13.36</magV>
+		<magB errorminus="0.06" errorplus="0.06">14.12</magB>
+		<magR errorminus="0.05" errorplus="0.05">13.17</magR>
+		<magJ errorminus="0.021" errorplus="0.021">12.146</magJ>
+		<magH errorminus="0.029" errorplus="0.029">11.809</magH>
+		<magK errorminus="0.023" errorplus="0.023">11.764</magK>
 		<age>5.7</age>
 		<metallicity>0.23</metallicity>
 		<spectraltype>F</spectraltype>
@@ -23,6 +28,7 @@
 			<eccentricity>0</eccentricity>
 			<inclination>88.7</inclination>
 			<temperature>1361</temperature>
+			<transittime errorminus="0.00033" errorplus="0.00033" unit="BJD">24559997.37105</transittime>
 			<description>HAT-P-43 b is a typical Hot Jupiter on a circular orbit around a late F-type main sequence star. The planet is inflated compared to our own Jupiter. It was discovered by the HATNet collaboration.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>13/01/02</lastupdate>

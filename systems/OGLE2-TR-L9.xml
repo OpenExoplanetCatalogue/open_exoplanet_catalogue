@@ -4,9 +4,14 @@
 	<declination>-61 08 46</declination>
 	<distance>900</distance>
 	<star>
+		<magR>14.74</magR>
+		<magI errorminus="0.03" errorplus="0.03">14.00</magI>
 		<mass>1.52</mass>
 		<radius>1.53</radius>
 		<metallicity>-0.05</metallicity>
+		<magJ errorminus="0.03" errorplus="0.03">13.51</magJ>
+		<magH errorminus="0.04" errorplus="0.04">13.25</magH>
+		<magK errorminus="0.04" errorplus="0.04">13.12</magK>
 		<spectraltype>F3</spectraltype>
 		<planet>
 			<name>OGLE2-TR-L9 b</name>

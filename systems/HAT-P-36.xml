@@ -7,7 +7,13 @@
 		<mass>1.022</mass>
 		<radius>1.096</radius>
 		<magV>12.262</magV>
+		<magB errorminus="0.25" errorplus="0.25">12.97</magB>
+		<magR errorminus="0.05" errorplus="0.05">12.27</magR>
+		<magJ errorminus="0.16" errorplus="0.16">12.15</magJ>
+		<magH errorminus="0.03" errorplus="0.03">10.72</magH>
+		<magK errorminus="0.021" errorplus="0.021">10.603</magK>
 		<metallicity>0.26</metallicity>
+		<spectraltype>G</spectraltype>
 		<planet>
 			<name>HAT-P-36 b</name>
 			<name>2MASS 12330390+4454552</name>
@@ -20,7 +26,7 @@
 			<inclination>86.0</inclination>
 			<description>HAT-P-36 b is a transiting planet that has been discovered by the HATNet collaboration. HATNet is a ground-based survey using standard telephoto lenses such as the Canon 11cm diameter f/1.8L.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>12/01/04</lastupdate>
+			<lastupdate>13/05/29</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<new>0</new>
 			<temperature>1669.2</temperature>

@@ -2,12 +2,18 @@
 	<name>WASP-72</name>
 	<rightascension>02 44 09</rightascension>
 	<declination>-30 10 08</declination>
-	<distance>250</distance>
+	<distance errorminus="60" errorplus="60">340</distance>
 	<star>
 		<mass>1.23</mass>
 		<radius>1.37</radius>
-		<temperature>6250</temperature>
+		<temperature errorminus="100" errorplus="100">6250</temperature>
 		<magV>10.88</magV>
+		<magR>10.47</magR>
+		<magB errorminus="0.07" errorplus="0.07">11.51</magB>
+		<magI errorminus="0.03" errorplus="0.03">10.428</magI>
+		<magJ errorminus="0.024" errorplus="0.024">9.964</magJ>
+		<magH errorminus="0.024" errorplus="0.024">9.724</magH>
+		<magK errorminus="0.021" errorplus="0.021">9.617</magK>
 		<metallicity>-0.06</metallicity>
 		<spectraltype>F7</spectraltype>
 		<planet>
@@ -20,6 +26,8 @@
 			<semimajoraxis>0.03655</semimajoraxis>
 			<eccentricity>0</eccentricity>
 			<inclination>86.8</inclination>
+			<transittime errorminus="0.0021" errorplus="0.0021" unit="HJD">2455583.6529</transittime>
+			<temperature errorminus="130" errorplus="120">2210</temperature>
 			<description>Despite its extreme irradiation, this planet has a size consistant with that of Jupiter. That makes it a possible outlier among the Hot Jupiters of similar masses, suggesting a significant enrichment in heavy elements.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/10/17</lastupdate>

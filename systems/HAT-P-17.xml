@@ -6,7 +6,12 @@
 	<star>
 		<mass>0.857</mass>
 		<radius>0.837</radius>
-		<magV>10.54</magV>
+		<magV errorminus="0.03" errorplus="0.03">10.38</magV>
+		<magB errorminus="0.06" errorplus="0.06">11.33</magB>
+		<magR errorminus="0.03" errorplus="0.03">10.24</magR>
+		<magJ errorminus="0.022" errorplus="0.022">9.017</magJ>
+		<magH errorminus="0.029" errorplus="0.029">8.619</magH>
+		<magK errorminus="0.025" errorplus="0.025">8.544</magK>
 		<spectraltype>K</spectraltype>
 		<planet>
 			<name>HAT-P-17 b</name>
@@ -35,7 +40,8 @@
 			<period>1798</period>
 			<semimajoraxis>2.75</semimajoraxis>
 			<eccentricity>0.1</eccentricity>
-			<discoverymethod>transit</discoverymethod>
+			<transittime errorminus="0.00020" errorplus="0.00020" unit="BJD">2454801.16943</transittime>
+			<discoverymethod>RV</discoverymethod>
 			<lastupdate>10/12/10</lastupdate>
 			<discoveryyear>2010</discoveryyear>
 			<new>0</new>

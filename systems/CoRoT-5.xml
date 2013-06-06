@@ -7,6 +7,12 @@
 		<mass errorminus="0.02" errorplus="0.02">1.00</mass>
 		<radius errorminus="0.04" errorplus="0.04">1.186</radius>
 		<magV>14</magV>
+		<magR>13.82</magR>
+		<magB errorminus="0.35" errorplus="0.35">14.67</magB>
+		<magI errorminus="0.03" errorplus="0.03">13.29</magI>
+		<magJ errorminus="0.024" errorplus="0.024">12.871</magJ>
+		<magH errorminus="0.03" errorplus="0.03">12.61</magH>
+		<magK errorminus="0.026" errorplus="0.026">12.546</magK>
 		<metallicity errorminus="0.06" errorplus="0.06">-0.25</metallicity>
 		<spectraltype>F9V</spectraltype>
 		<planet>
@@ -26,7 +32,7 @@
 			<discoveryyear>2008</discoveryyear>
 			<new>0</new>
 			<temperature>1316.3</temperature>
-			<transittime errorminus="0.0002" errorplus="0.0002" unit="HJD">2454400.19885</transittime>
+			<transittime errorminus="0.0002" errorplus="0.0002" unit="BJD">2454400.19963</transittime>
 		</planet>
 		<name>CoRoT-5</name>
 		<temperature>6100.0</temperature>

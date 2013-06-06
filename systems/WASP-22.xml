@@ -4,9 +4,15 @@
 	<declination>-23 49 11</declination>
 	<distance>300</distance>
 	<star>
+		<spectraltype>G</spectraltype>
 		<mass>1.1</mass>
 		<radius>1.13</radius>
 		<magV>12</magV>
+		<magR>11.41</magR>
+		<magB errorminus="0.19" errorplus="0.19">12.38</magB>
+		<magJ errorminus="0.021" errorplus="0.021">10.634</magJ>
+		<magH errorminus="0.023" errorplus="0.023">10.392</magH>
+		<magK errorminus="0.020" errorplus="0.020">10.318</magK>
 		<metallicity>-0.05</metallicity>
 		<planet>
 			<name>WASP-22 b</name>
@@ -19,6 +25,7 @@
 			<semimajoraxis>0.04698</semimajoraxis>
 			<eccentricity>0.0</eccentricity>
 			<inclination>88.26</inclination>
+			<transittime errorminus="0.00025" errorplus="0.00025" unit="BJD">2455497.40043</transittime>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>11/07/01</lastupdate>
 			<discoveryyear>2010</discoveryyear>

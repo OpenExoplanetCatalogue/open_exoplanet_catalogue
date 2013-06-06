@@ -7,6 +7,9 @@
 		<mass>0.65</mass>
 		<radius>0.59</radius>
 		<metallicity>-0.21</metallicity>
+		<magJ errorminus="0.027" errorplus="0.027">13.408</magJ>
+		<magH errorminus="0.023" errorplus="0.023">12.746</magH>
+		<magK errorminus="0.026" errorplus="0.026">12.630</magK>
 		<planet>
 			<name>Kepler-26 b</name>
 			<name>KOI 250.01</name>
@@ -15,6 +18,7 @@
 			<radius>0.32806</radius>
 			<period>12.28</period>
 			<semimajoraxis>0.085</semimajoraxis>
+			<transittime errorminus="0.0030" errorplus="0.0030" unit="BJD">2454978.8321</transittime>
 			<description>This planet candidate was discovered with the Kepler spacecraft. Its host star gets periodically fainter whenever the planet is in front of the star. Because there are multiple phenomena that can create a signal that looks similar to a planetary transit, the candidates have to be confirmed with another method. For Kepler-26 the planetary nature of the companions has been confirmed by transit timing variations, caused by other planets in the system, and a stability analysis. However, the mass of the planets is not well constrained yet.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/08/06</lastupdate>
@@ -30,6 +34,7 @@
 			<radius>0.32806</radius>
 			<period>17.25</period>
 			<semimajoraxis>0.107</semimajoraxis>
+			<transittime errorminus="0.0040" errorplus="0.0040" unit="BJD">2454982.8854</transittime>
 			<description>This planet candidate was discovered with the Kepler spacecraft. Its host star gets periodically fainter whenever the planet is in front of the star. Because there are multiple phenomena that can create a signal that looks similar to a planetary transit, the candidates have to be confirmed with another method. For Kepler-26 the planetary nature of the companions has been confirmed by transit timing variations, caused by other planets in the system, and a stability analysis. However, the mass of the planets is not well constrained yet.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/08/06</lastupdate>

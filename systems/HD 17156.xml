@@ -6,9 +6,13 @@
 	<star>
 		<mass>1.275</mass>
 		<radius>1.508</radius>
-		<magV>8.17</magV>
+		<magV errorminus="0.01" errorplus="0.01">8.16</magV>
+		<magB errorminus="0.02" errorplus="0.02">8.78</magB>
+		<magJ errorminus="0.007" errorplus="0.007">7.080</magJ>
+		<magH errorminus="0.023" errorplus="0.023">6.857</magH>
+		<magK errorminus="0.024" errorplus="0.024">6.807</magK>
 		<metallicity>0.24</metallicity>
-		<spectraltype>G0</spectraltype>
+		<spectraltype>G0V</spectraltype>
 		<planet>
 			<name>HD 17156 b</name>
 			<list>Confirmed planets</list>
@@ -18,6 +22,7 @@
 			<semimajoraxis>0.1623</semimajoraxis>
 			<eccentricity>0.6768</eccentricity>
 			<inclination>87.21</inclination>
+			<transittime errorminus="0.000081" errorplus="0.000081" unit="HJD">2454777.946341</transittime>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/04/08</lastupdate>
 			<discoveryyear>2007</discoveryyear>

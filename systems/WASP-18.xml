@@ -7,6 +7,10 @@
 		<mass>1.24</mass>
 		<radius>1.23</radius>
 		<magV>9.3</magV>
+		<magB>9.74</magB>
+		<magJ errorminus="0.018" errorplus="0.018">8.409</magJ>
+		<magH errorminus="0.055" errorplus="0.055">8.231</magH>
+		<magK errorminus="0.027" errorplus="0.027">8.131</magK>
 		<spectraltype>F6</spectraltype>
 		<planet>
 			<name>WASP-18 b</name>
@@ -24,6 +28,7 @@
 			<semimajoraxis>0.02047</semimajoraxis>
 			<eccentricity>0.0088</eccentricity>
 			<inclination>86</inclination>
+			<transittime errorminus="0.000080" errorplus="0.000080" unit="BJD">2455084.792931</transittime>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/07/05</lastupdate>
 			<discoveryyear>2009</discoveryyear>

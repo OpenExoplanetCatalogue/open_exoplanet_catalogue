@@ -1,0 +1,46 @@
+<system>
+	<name>KOI-127</name>
+	<name>KIC 8359498</name>
+	<name>GSC2.3 N2K0000444</name>
+	<name>USNO-A2 1275-11111739</name>
+	<name>2MASS 19182590+4420435</name>
+	<rightascension>19 18 26</rightascension>
+	<declination>44 20 44</declination>
+	<distance errorminus="70" errorplus="70">570</distance>
+	<star>
+		<name>KOI-127</name>
+		<name>KIC 8359498</name>
+		<name>GSC2.3 N2K0000444</name>
+		<name>USNO-A2 1275-11111739</name>
+		<name>2MASS 19182590+4420435</name>
+		<mass errorminus="0.04" errorplus="0.04">0.95</mass>
+		<radius errorminus="0.02" errorplus="0.02">0.99</radius>
+		<age errorminus="2.0" errorplus="2.0">7.5</age>
+		<temperature errorminus="60" errorplus="60">5520</temperature>
+		<metallicity errorminus="0.05" errorplus="0.05">0.20</metallicity>
+		<spectraltype>G5V</spectraltype>
+		<magJ errorminus="0.023" errorplus="0.023">12.758</magJ>
+		<magH errorminus="0.019" errorplus="0.019">12.444</magH>
+		<magK errorminus="0.018" errorplus="0.018">12.361</magK>
+		<planet>
+			<name>KOI-127 b</name>
+			<name>KIC 8359498 b</name>
+			<name>GSC2.3 N2K0000444</name>
+			<name>USNO-A2 1275-11111739 b</name>
+			<name>2MASS 19182590+4420435 b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.032" errorplus="0.032">0.430</mass>
+			<radius errorminus="0.016" errorplus="0.016">0.960</radius>
+			<temperature errorminus="120" errorplus="100">1440</temperature>
+			<period errorminus="0.00000023" errorplus="0.00000023">3.57878087</period>
+			<transittime errorminus="0.000029" errorplus="0.000029" unit="HJD">2455095.865727</transittime>
+			<semimajoraxis errorminus="0.00063" errorplus="0.00063">0.04501</semimajoraxis>
+			<inclination errorminus="0.11" errorplus="0.11">88.00</inclination>
+			<description>KOI-127 b is a transiting Saturn-mass planet in a 3.6 day orbit. It was found in the publicly available Kepler photometry from quarters 1-13 and has been confirmed independently with ground based spectroscopy. The planet has one of the lowest albedos of all known gas giants (less than 0.087).</description>
+			<discoverymethod>transit</discoverymethod>
+			<lastupdate>13/05/17</lastupdate>
+			<discoveryyear>2013</discoveryyear>
+			<new>0</new>
+		</planet>
+	</star>
+</system>

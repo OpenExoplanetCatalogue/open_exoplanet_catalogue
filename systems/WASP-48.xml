@@ -6,6 +6,11 @@
 		<mass>1.19</mass>
 		<radius>1.75</radius>
 		<magV>11.06</magV>
+		<magB errorminus="0.18" errorplus="0.18">12.31</magB>
+		<magR errorminus="0.05" errorplus="0.05">11.61</magR>
+		<magJ errorminus="0.025" errorplus="0.025">10.627</magJ>
+		<magH errorminus="0.03" errorplus="0.03">10.44</magH>
+		<magK errorminus="0.022" errorplus="0.022">10.372</magK>
 		<metallicity>-0.12</metallicity>
 		<planet>
 			<name>WASP-48 b</name>
@@ -17,6 +22,7 @@
 			<semimajoraxis>0.03444</semimajoraxis>
 			<eccentricity>0.0</eccentricity>
 			<inclination>80.09</inclination>
+			<transittime errorminus="0.00042" errorplus="0.00042" unit="BJD">2455364.55119</transittime>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>11/04/15</lastupdate>
 			<discoveryyear>2011</discoveryyear>

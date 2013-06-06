@@ -7,6 +7,10 @@
 		<mass>1.495</mass>
 		<radius>1.444</radius>
 		<magV>8.3</magV>
+		<magB errorminus="0.01" errorplus="0.01">8.41</magB>
+		<magJ errorminus="0.021" errorplus="0.021">7.581</magJ>
+		<magH errorminus="0.024" errorplus="0.024">7.516</magH>
+		<magK errorminus="0.024" errorplus="0.024">7.468</magK>
 		<metallicity>0.1</metallicity>
 		<spectraltype>A5</spectraltype>
 		<planet>
@@ -24,6 +28,7 @@
 			<semimajoraxis>0.02558</semimajoraxis>
 			<eccentricity>0.0</eccentricity>
 			<inclination>87.67</inclination>
+			<transittime errorminus="0.00028" errorplus="0.00028" unit="BJD">2454590.18025</transittime>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/04/08</lastupdate>
 			<discoveryyear>2010</discoveryyear>

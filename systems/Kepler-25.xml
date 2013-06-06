@@ -4,8 +4,15 @@
 	<declination>+38 20 37</declination>
 	<distance>191</distance>
 	<star>
+		<name>Kepler-25</name>
 		<mass>1.22</mass>
 		<radius>1.36</radius>
+		<magB errorminus="0.07" errorplus="0.07">11.32</magB>
+		<magV errorminus="0.06" errorplus="0.06">10.77</magV>
+		<magR errorminus="0.021" errorplus="0.021">10.598</magR>
+		<magJ errorminus="0.020" errorplus="0.020">9.764</magJ>
+		<magH errorminus="0.020" errorplus="0.020">9.532</magH>
+		<magK errorminus="0.017" errorplus="0.017">9.493</magK>
 		<planet>
 			<name>Kepler-25 b</name>
 			<name>KIC 3231341 b</name>
@@ -14,6 +21,7 @@
 			<radius>0.2369387</radius>
 			<period>6.238</period>
 			<semimajoraxis>0.068</semimajoraxis>
+			<transittime errorminus="0.0021" errorplus="0.0021" unit="BJD">2454973.5126</transittime>
 			<description>This planet candidate was discovered with the Kepler spacecraft. Its host star gets periodically fainter whenever the planet is in front of the star. Because there are multiple phenomena that can create a signal that looks similar to a planetary transit, the candidates have to be confirmed with another method. For Kepler-25 the planetary nature of the companions has been confirmed by transit timing variations, caused by other planets in the system, and a stability analysis. However, the mass of the planets is not well constrained yet.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/08/06</lastupdate>
@@ -29,6 +37,7 @@
 			<radius>0.410086</radius>
 			<period>12.72</period>
 			<semimajoraxis>0.110</semimajoraxis>
+			<transittime errorminus="0.0008" errorplus="0.0008" unit="BJD">2454986.0871</transittime>
 			<description>This planet candidate was discovered with the Kepler spacecraft. Its host star gets periodically fainter whenever the planet is in front of the star. Because there are multiple phenomena that can create a signal that looks similar to a planetary transit, the candidates have to be confirmed with another method. For Kepler-25 the planetary nature of the companions has been confirmed by transit timing variations, caused by other planets in the system, and a stability analysis. However, the mass of the planets is not well constrained yet.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/08/06</lastupdate>
@@ -36,7 +45,6 @@
 			<new>0</new>
 			<temperature>959.7</temperature>
 		</planet>
-		<name>Kepler-25</name>
 		<temperature>6190.0</temperature>
 	</star>
 </system>

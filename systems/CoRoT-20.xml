@@ -1,10 +1,18 @@
 <system>
 	<name>CoRoT-20</name>
+	<rightascension>06 30 53</rightascension>
+	<declination>00 13 37</declination>
 	<distance>1230</distance>
 	<star>
 		<mass>1.14</mass>
 		<radius>0.92</radius>
 		<magV>14.66</magV>
+		<magB errorminus="0.42" errorplus="0.42">15.41</magB>
+		<magR errorminus="0.12" errorplus="0.12">14.60</magR>
+		<magI errorminus="0.43" errorplus="0.43">13.69</magI>
+		<magJ errorminus="0.026" errorplus="0.026">12.991</magJ>
+		<magH errorminus="0.027" errorplus="0.027">12.652</magH>
+		<magK errorminus="0.029" errorplus="0.029">12.513</magK>
 		<metallicity>0.14</metallicity>
 		<spectraltype>G2V</spectraltype>
 		<planet>
@@ -19,6 +27,7 @@
 			<semimajoraxis>0.0902</semimajoraxis>
 			<eccentricity>0.562</eccentricity>
 			<inclination>88.21</inclination>
+			<transittime errorminus="0.0014" errorplus="0.0014" unit="BJD">2455266.0001</transittime>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>11/06/14</lastupdate>
 			<discoveryyear>2011</discoveryyear>

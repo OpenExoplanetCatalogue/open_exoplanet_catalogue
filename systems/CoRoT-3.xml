@@ -6,7 +6,13 @@
 	<star>
 		<mass errorminus="0.09" errorplus="0.09">1.37</mass>
 		<radius errorminus="0.09" errorplus="0.09">1.56</radius>
-		<magV>13.3</magV>
+		<magV>13.292</magV>
+		<magB>14.199</magB>
+		<magR>13.099</magR>
+		<magI errorminus="0.04" errorplus="0.04">12.54</magI>
+		<magJ errorminus="0.03" errorplus="0.03">11.94</magJ>
+		<magH errorminus="0.04" errorplus="0.04">11.71</magH>
+		<magK errorminus="0.03" errorplus="0.03">11.62</magK>
 		<metallicity errorminus="0.06" errorplus="0.06">-0.02</metallicity>
 		<spectraltype>F3V</spectraltype>
 		<planet>
@@ -26,7 +32,7 @@
 			<discoveryyear>2008</discoveryyear>
 			<new>0</new>
 			<temperature>1554.7</temperature>
-			<transittime errorminus="0.0003" errorplus="0.0003">2454283.1383</transittime>
+			<transittime errorminus="0.0003" errorplus="0.0003" unit="BJD">2454283.1390</transittime>
 		</planet>
 		<name>CoRoT-3</name>
 		<temperature errorminus="140" errorplus="140">6740</temperature>

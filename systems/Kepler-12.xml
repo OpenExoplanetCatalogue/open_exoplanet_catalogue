@@ -1,9 +1,17 @@
 <system>
 	<name>Kepler-12</name>
+	<rightascension>19 04 58</rightascension>
+	<declination>50 02 25</declination>
+	<distance>600</distance>
 	<star>
 		<mass>1.166</mass>
 		<radius>1.483</radius>
 		<magV>13.4</magV>
+		<magB errorminus="0.42" errorplus="0.42">13.96</magB>
+		<magR errorminus="0.10" errorplus="0.10">13.68</magR>
+		<magJ errorminus="0.026" errorplus="0.026">12.406</magJ>
+		<magH errorminus="0.03" errorplus="0.03">12.11</magH>
+		<magK errorminus="0.023" errorplus="0.023">12.066</magK>
 		<metallicity>0.07</metallicity>
 		<spectraltype>G0</spectraltype>
 		<planet>
@@ -19,6 +27,7 @@
 			<semimajoraxis>0.0556</semimajoraxis>
 			<eccentricity>0.01</eccentricity>
 			<inclination>88.76</inclination>
+			<transittime errorminus="0.00002" errorplus="0.00002" unit="HJD">2455004.00835</transittime>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>11/09/09</lastupdate>
 			<discoveryyear>2011</discoveryyear>

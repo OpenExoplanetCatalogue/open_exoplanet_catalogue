@@ -13,6 +13,9 @@
 		<radius errorminus="0.04" errorplus="0.04">0.88</radius>
 		<mass errorminus="0.08" errorplus="0.08">0.88</mass>
 		<magV>15</magV>
+		<magJ errorminus="0.021" errorplus="0.021">13.665</magJ>
+		<magH errorminus="0.025" errorplus="0.025">13.262</magH>
+		<magK errorminus="0.029" errorplus="0.029">13.118</magK>
 		<metallicity errorminus="0.15" errorplus="0.15">-0.07</metallicity>
 		<age errorminus="3" errorplus="3">6</age>
 		<spectraltype>G8V</spectraltype>
@@ -28,11 +31,12 @@
 			<periastron errorminus="1.4" errorplus="1.4">63.6</periastron>
 			<inclination errorminus="1" errorplus="0.6">89.1</inclination>
 			<semimajoraxis errorminus="0.005" errorplus="0.005">0.080</semimajoraxis>
+			<transittime errorminus="0.0002" errorplus="0.002" unit="BJD">2455002.991</transittime>
 			<description>This planet was discovered with the Kepler telescope and confirmed with the SOPHIE and HARPS-N spectrographs. The planet is on a very eccentric orbit and at the boundary between regimes where the tides from the host star can explain circularization and where tidal effects are negligible.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>13/04/23</lastupdate>
 			<discoveryyear>2013</discoveryyear>
-			<new>1</new>
+			<new>0</new>
 			<temperature errorminus="40" errorplus="40">850</temperature>
 		</planet>
 	</star>

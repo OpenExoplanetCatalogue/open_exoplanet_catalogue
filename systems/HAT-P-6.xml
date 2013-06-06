@@ -6,7 +6,11 @@
 	<star>
 		<mass>1.29</mass>
 		<radius>1.46</radius>
-		<magV>10.5</magV>
+		<magV errorminus="0.04" errorplus="0.04">10.47</magV>
+		<magB errorminus="0.04" errorplus="0.04">10.88</magB>
+		<magJ errorminus="0.023" errorplus="0.023">9.558</magJ>
+		<magH errorminus="0.018" errorplus="0.018">9.440</magH>
+		<magK errorminus="0.019" errorplus="0.019">9.313</magK>
 		<metallicity>-0.13</metallicity>
 		<spectraltype>F</spectraltype>
 		<planet>
@@ -25,7 +29,7 @@
 			<discoveryyear>2007</discoveryyear>
 			<new>0</new>
 			<temperature>1529.9</temperature>
-			<transittime errorminus="0.00028" errorplus="0.00028" unit="HJD">2454035.67575</transittime>
+			<transittime errorminus="0.00028" errorplus="0.00028" unit="BJD">2454035.67652</transittime>
 		</planet>
 		<name>HAT-P-6</name>
 		<temperature>6570.0</temperature>

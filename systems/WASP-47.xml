@@ -7,6 +7,9 @@
 		<mass>1.084</mass>
 		<radius>1.15</radius>
 		<magV>11.9</magV>
+		<magJ errorminus="0.022" errorplus="0.022">10.613</magJ>
+		<magH errorminus="0.022" errorplus="0.022">10.310</magH>
+		<magK errorminus="0.026" errorplus="0.026">10.192</magK>
 		<metallicity>0.18</metallicity>
 		<spectraltype>G9V</spectraltype>
 		<planet>
@@ -18,6 +21,7 @@
 			<semimajoraxis>0.052</semimajoraxis>
 			<eccentricity>0.0</eccentricity>
 			<inclination>89.2</inclination>
+			<transittime errorminus="0.00022" errorplus="0.00022" unit="BJD">2455764.34677</transittime>
 			<description>This planet has been announced at the Extreme Solar Systems II conference in Jackson Hole by the WASP team.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/04/24</lastupdate>

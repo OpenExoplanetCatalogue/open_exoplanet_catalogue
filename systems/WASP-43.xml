@@ -2,10 +2,17 @@
 	<name>WASP-43</name>
 	<rightascension>10 19 38</rightascension>
 	<declination>-09 48 23</declination>
+	<distance errorminus="20" errorplus="20">80</distance>
 	<star>
 		<mass>0.717</mass>
 		<radius>0.667</radius>
 		<magV>12.4</magV>
+		<magB>13.4</magB>
+		<magR errorminus="0.08" errorplus="0.08">12.08</magR>
+		<magI errorminus="0.02" errorplus="0.02">11.10</magI>
+		<magJ errorminus="0.024" errorplus="0.024">9.995</magJ>
+		<magH errorminus="0.025" errorplus="0.025">9.397</magH>
+		<magK errorminus="0.026" errorplus="0.026">9.267</magK>
 		<metallicity>-0.01</metallicity>
 		<spectraltype>K7V</spectraltype>
 		<planet>
@@ -18,6 +25,7 @@
 			<semimajoraxis>0.01526</semimajoraxis>
 			<eccentricity>0.0035</eccentricity>
 			<inclination>82.33</inclination>
+			<transittime errorminus="0.00012" errorplus="0.00012" unit="BJD">2455726.54336</transittime>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/05/29</lastupdate>
 			<discoveryyear>2011</discoveryyear>
