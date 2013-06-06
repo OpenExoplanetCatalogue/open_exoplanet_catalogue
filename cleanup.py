@@ -106,7 +106,7 @@ for filename in glob.glob("systems*/*.xml"):
     	binaries 	= root.findall(".//binary")
     except ET.ParseError as error:
         print '{}, {}'.format(filename, error)
-	continue
+        continue
     finally:
         f.close()
 
