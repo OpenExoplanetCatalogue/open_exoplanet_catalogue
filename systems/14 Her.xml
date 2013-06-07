@@ -5,23 +5,24 @@
 	<distance>18.1</distance>
 	<star>
 		<mass>0.9</mass>
-		<radius>0.708</radius>
+		<radius errorminus="0.085" errorplus="0.085">0.708</radius>
+		<age>5.1</age>
 		<magV>6.67</magV>
-		<metallicity>0.43</metallicity>
+		<metallicity errorminus="0.08" errorplus="0.08">0.43</metallicity>
 		<spectraltype>K0 V</spectraltype>
 		<planet>
 			<name>14 Her b</name>
 			<list>Confirmed planets</list>
-			<mass>4.64</mass>
-			<period>1773.4</period>
-			<semimajoraxis>2.77</semimajoraxis>
-			<eccentricity>0.369</eccentricity>
+			<mass errorminus="0.19" errorplus="0.19">4.64</mass>
+			<period errorminus="2.5" errorplus="2.5">1773.4</period>
+			<semimajoraxis errorminus="0.05" errorplus="0.05">2.77</semimajoraxis>
+			<eccentricity errorminus="0.005" errorplus="0.005">0.369</eccentricity>
 			<description>The star 14 Herculis is only 59 light years away in the constellation Hercules. However, because it is an orange dwarf star it can not be seen with the naked eye. There is only one confirmed planet in the system, but a dynamical analysis suggests that they might be two planets locked in a 4:1 mean motion resonance.</description>
 			<discoverymethod>RV</discoverymethod>
 			<lastupdate>09/10/07</lastupdate>
 			<discoveryyear>2002</discoveryyear>
 			<new>0</new>
-			<temperature>117.3</temperature>
+			<temperature errorminus="87" errorplus="87">117.3</temperature>
 		</planet>
 		<name>14 Her</name>
 		<temperature>5311.0</temperature>
