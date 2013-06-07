@@ -4,7 +4,8 @@
 	<declination>+43 37 09</declination>
 	<distance>38.7</distance>
 	<star>
-		<magB>17.8</magB>
+		<magB errorminus="0.14" errorplus="0.14">17.96</magB>
+		<magV errorminus="0.055" errorplus="0.055">16.124</magV>
 		<magR>16.06</magR>
 		<magI>13.8</magI>
 		<mass>0.13</mass>
@@ -21,6 +22,7 @@
 			<radius>0.07108</radius>
 			<period>1.21376</period>
 			<semimajoraxis>0.0116</semimajoraxis>
+			<transittime errorminus="0.00054" errorplus="0.00054" unit="BJD">245503.48329</transittime>
 			<description>KOI-961 is an M-dwarf with transit signals of at least three short-period planets. The properties of the star are very similar to those of Barnard's star, the fourth closest star to the Sun. All planets in the system are very close to their host star and thought to be rocky. The system is more similar in size to Jupiter and its moons than any other planetary system.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/01/11</lastupdate>
@@ -38,6 +40,7 @@ Image credit: NASA/JPL-Caltech</imagedescription>
 			<radius>0.0665</radius>
 			<period>0.4532</period>
 			<semimajoraxis>0.0060</semimajoraxis>
+			<transittime errorminus="0.00042" errorplus="0.00042" unit="BJD">2454966.86952</transittime>
 			<description>KOI-961 is an M-dwarf with transit signals of at least three short-period planets. The properties of the star are very similar to those of Barnard's star, the fourth closest star to the Sun. All planets in the system are very close to their host star and thought to be rocky. The system is more similar in size to Jupiter and its moons than any other planetary system.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/01/11</lastupdate>
@@ -55,6 +58,7 @@ Image credit: NASA/JPL-Caltech</imagedescription>
 			<radius>0.0519</radius>
 			<period>1.865</period>
 			<semimajoraxis>0.0154</semimajoraxis>
+			<transittime errorminus="0.00013" errorplus="0.00013" unit="BJD">2454966.7847</transittime>
 			<description>KOI-961 is an M-dwarf with transit signals of at least three short-period planets. The properties of the star are very similar to those of Barnard's star, the fourth closest star to the Sun. All planets in the system are very close to their host star and thought to be rocky. The system is more similar in size to Jupiter and its moons than any other planetary system.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/01/11</lastupdate>
