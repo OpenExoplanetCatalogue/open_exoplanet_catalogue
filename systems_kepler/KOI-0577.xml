@@ -4,21 +4,19 @@
 	<declination>+44 37 56</declination>
 	<distance>750.79</distance>
 	<star>
-		<magJ errorminus="0.025" errorplus="0.025">12.965</magJ>
-		<magH errorminus="0.021" errorplus="0.021">12.498</magH>
-		<magK errorminus="0.019" errorplus="0.019">12.426</magK>
 		<name>KOI-0577</name>
-		<temperature>5043.00</temperature>
-		<radius>1.15</radius>
+		<temperature errorminus="200.00" errorplus="200.00">5043.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">1.1500</radius>
 		<planet>
 			<name>KOI-0577 b</name>
 			<name>KOI-0577 01</name>
-			<radius>0.30346</radius>
-			<period>39.678700</period>
-			<semimajoraxis>0.227</semimajoraxis>
+			<radius errorminus="0.08019" errorplus="0.08019">0.30346</radius>
+			<period errorminus="7.00000e-04" errorplus="7.00000e-04">39.678660000000</period>
+			<transittime errorminus="0.0056000" errorplus="0.0056000">2455011.5498000</transittime>
+			<semimajoraxis>0.2270000</semimajoraxis>
+			<temperature>502.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>442.6</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

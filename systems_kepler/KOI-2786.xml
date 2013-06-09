@@ -5,17 +5,19 @@
 	<distance>1296.25</distance>
 	<star>
 		<name>KOI-2786</name>
-		<temperature>6774.00</temperature>
-		<radius>1.46</radius>
-		<age>1.7800</age>
+		<temperature errorminus="125.00" errorplus="125.00">6774.00</temperature>
+		<radius errorminus="0.6600" errorplus="0.6600">1.4600</radius>
+		<age errorminus="0.4000" errorplus="0.4000">1.7800</age>
 		<planet>
 			<name>KOI-2786 b</name>
 			<name>KOI-2786 01</name>
-			<radius>0.22783</radius>
-			<period>44.616800</period>
-			<semimajoraxis>0.270</semimajoraxis>
+			<radius errorminus="0.12758" errorplus="0.12758">0.22783</radius>
+			<period errorminus="8.30000e-04" errorplus="8.30000e-04">44.616790000000</period>
+			<transittime errorminus="0.0088000" errorplus="0.0088000">2454997.4468000</transittime>
+			<semimajoraxis>0.2700000</semimajoraxis>
+			<temperature>694.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

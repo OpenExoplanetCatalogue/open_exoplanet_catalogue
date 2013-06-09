@@ -2,24 +2,22 @@
 	<name>KOI-1569</name>
 	<rightascension>18 52 31</rightascension>
 	<declination>+43 53 17</declination>
-	<distance>676.44</distance>
+	<distance>671.39</distance>
 	<star>
-		<magJ errorminus="0.025" errorplus="0.025">13.968</magJ>
-		<magH errorminus="0.022" errorplus="0.022">13.378</magH>
-		<magK errorminus="0.04" errorplus="0.04">13.34</magK>
 		<name>KOI-1569</name>
-		<temperature>4777.00</temperature>
-		<radius>0.67</radius>
-		<age>13.7000</age>
+		<temperature errorminus="67.00" errorplus="67.00">4777.00</temperature>
+		<radius errorminus="0.0170" errorplus="0.0170">0.6650</radius>
+		<age errorminus="3.8000" errorplus="3.8000">13.7000</age>
 		<planet>
 			<name>KOI-1569 b</name>
 			<name>KOI-1569 01</name>
-			<radius>0.26246</radius>
-			<period>13.752100</period>
-			<semimajoraxis>0.099</semimajoraxis>
+			<radius errorminus="0.02643" errorplus="0.02643">0.26246</radius>
+			<period errorminus="1.20000e-04" errorplus="1.20000e-04">13.752100000000</period>
+			<transittime errorminus="0.0032000" errorplus="0.0032000">2454976.0312000</transittime>
+			<semimajoraxis>0.0990000</semimajoraxis>
+			<temperature>546.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>524.1</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

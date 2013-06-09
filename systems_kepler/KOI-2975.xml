@@ -5,17 +5,19 @@
 	<distance>1319.64</distance>
 	<star>
 		<name>KOI-2975</name>
-		<temperature>6004.00</temperature>
-		<radius>0.94</radius>
-		<age>0.3000</age>
+		<temperature errorminus="115.00" errorplus="115.00">6004.00</temperature>
+		<radius errorminus="0.4200" errorplus="0.4200">0.9400</radius>
+		<age errorminus="2.3000" errorplus="2.3000">0.3000</age>
 		<planet>
 			<name>KOI-2975 b</name>
 			<name>KOI-2975 01</name>
-			<radius>0.26428</radius>
-			<period>175.330000</period>
-			<semimajoraxis>0.621</semimajoraxis>
+			<radius errorminus="0.16403" errorplus="0.16403">0.26428</radius>
+			<period errorminus="4.50000e-03" errorplus="4.50000e-03">175.330100000000</period>
+			<transittime errorminus="0.0120000" errorplus="0.0120000">2455063.9320000</transittime>
+			<semimajoraxis>0.6210000</semimajoraxis>
+			<temperature>325.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

@@ -2,33 +2,33 @@
 	<name>KOI-0717</name>
 	<rightascension>18 48 51</rightascension>
 	<declination>+46 43 04</declination>
-	<distance>560.90</distance>
+	<distance>559.34</distance>
 	<star>
-		<magJ errorminus="0.021" errorplus="0.021">12.194</magJ>
-		<magH errorminus="0.020" errorplus="0.020">11.868</magH>
-		<magK errorminus="0.011" errorplus="0.011">11.793</magK>
 		<name>KOI-0717</name>
-		<temperature>5686.00</temperature>
-		<radius>1.08</radius>
-		<age>2.8000</age>
+		<temperature errorminus="50.00" errorplus="50.00">5686.00</temperature>
+		<radius errorminus="0.0960" errorplus="0.0960">1.0770</radius>
+		<age errorminus="1.5000" errorplus="1.5000">2.8000</age>
 		<planet>
 			<name>KOI-0717 b</name>
 			<name>KOI-0717 01</name>
-			<radius>0.15857</radius>
-			<period>14.707500</period>
-			<semimajoraxis>0.121</semimajoraxis>
+			<radius errorminus="0.05377" errorplus="0.05377">0.15857</radius>
+			<period errorminus="2.80000e-04" errorplus="2.80000e-04">14.707510000000</period>
+			<transittime errorminus="0.0000880" errorplus="0.0000880">2455008.7916470</transittime>
+			<semimajoraxis>0.1210000</semimajoraxis>
+			<temperature>748.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>749.0</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-0717 c</name>
 			<name>KOI-0717 02</name>
-			<radius>0.08657</radius>
-			<period>3.602000</period>
-			<semimajoraxis>0.047</semimajoraxis>
+			<radius errorminus="0.04374" errorplus="0.04374">0.08657</radius>
+			<period errorminus="8.80000e-02" errorplus="8.80000e-02">3.602000000000</period>
+			<transittime errorminus="0.0000460" errorplus="0.0000460">2454966.1147340</transittime>
+			<semimajoraxis>0.0470000</semimajoraxis>
+			<temperature>1201.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

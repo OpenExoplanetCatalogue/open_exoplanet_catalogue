@@ -2,24 +2,22 @@
 	<name>KOI-0161</name>
 	<rightascension>19 08 12</rightascension>
 	<declination>+40 12 41</declination>
-	<distance>303.94</distance>
+	<distance>303.18</distance>
 	<star>
-		<magJ errorminus="0.021" errorplus="0.021">11.821</magJ>
-		<magH errorminus="0.022" errorplus="0.022">11.331</magH>
-		<magK errorminus="0.020" errorplus="0.020">11.241</magK>
 		<name>KOI-0161</name>
-		<temperature>4915.00</temperature>
-		<radius>0.80</radius>
-		<age>8.1000</age>
+		<temperature errorminus="52.00" errorplus="52.00">4915.00</temperature>
+		<radius errorminus="0.0350" errorplus="0.0350">0.7980</radius>
+		<age errorminus="3.9000" errorplus="3.9000">8.1000</age>
 		<planet>
 			<name>KOI-0161 b</name>
 			<name>KOI-0161 01</name>
-			<radius>0.24423</radius>
-			<period>3.105510</period>
-			<semimajoraxis>0.039</semimajoraxis>
+			<radius errorminus="0.01640" errorplus="0.01640">0.24423</radius>
+			<period errorminus="3.90000e-06" errorplus="3.90000e-06">3.105509100000</period>
+			<transittime errorminus="0.0003900" errorplus="0.0003900">2454966.2094700</transittime>
+			<semimajoraxis>0.0390000</semimajoraxis>
+			<temperature>981.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>981.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

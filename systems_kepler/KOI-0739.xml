@@ -2,24 +2,22 @@
 	<name>KOI-0739</name>
 	<rightascension>18 51 56</rightascension>
 	<declination>+47 34 42</declination>
-	<distance>393.70</distance>
+	<distance>392.24</distance>
 	<star>
-		<magJ errorminus="0.026" errorplus="0.026">13.441</magJ>
-		<magH errorminus="0.024" errorplus="0.024">12.727</magH>
-		<magK errorminus="0.027" errorplus="0.027">12.627</magK>
 		<name>KOI-0739</name>
-		<temperature>4153.00</temperature>
-		<radius>0.54</radius>
-		<age>13.7000</age>
+		<temperature errorminus="80.00" errorplus="80.00">4153.00</temperature>
+		<radius errorminus="0.0120" errorplus="0.0120">0.5380</radius>
+		<age errorminus="3.5000" errorplus="3.5000">13.7000</age>
 		<planet>
 			<name>KOI-0739 b</name>
 			<name>KOI-0739 01</name>
-			<radius>0.13487</radius>
-			<period>1.287070</period>
-			<semimajoraxis>0.019</semimajoraxis>
+			<radius errorminus="0.01276" errorplus="0.01276">0.13487</radius>
+			<period errorminus="5.60000e-06" errorplus="5.60000e-06">1.287074900000</period>
+			<transittime errorminus="0.0008100" errorplus="0.0008100">2455002.8155700</transittime>
+			<semimajoraxis>0.0190000</semimajoraxis>
+			<temperature>975.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>858.9</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

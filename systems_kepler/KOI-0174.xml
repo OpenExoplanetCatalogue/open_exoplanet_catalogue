@@ -2,24 +2,22 @@
 	<name>KOI-0174</name>
 	<rightascension>19 47 17</rightascension>
 	<declination>+48 06 27</declination>
-	<distance>275.59</distance>
+	<distance>274.27</distance>
 	<star>
-		<magJ errorminus="0.021" errorplus="0.021">12.173</magJ>
-		<magH errorminus="0.019" errorplus="0.019">11.661</magH>
-		<magK errorminus="0.018" errorplus="0.018">11.536</magK>
 		<name>KOI-0174</name>
-		<temperature>4768.00</temperature>
-		<radius>0.63</radius>
-		<age>6.8000</age>
+		<temperature errorminus="100.00" errorplus="100.00">4768.00</temperature>
+		<radius errorminus="0.0250" errorplus="0.0250">0.6270</radius>
+		<age errorminus="4.0000" errorplus="4.0000">6.8000</age>
 		<planet>
 			<name>KOI-0174 b</name>
 			<name>KOI-0174 01</name>
-			<radius>0.17679</radius>
-			<period>56.353900</period>
-			<semimajoraxis>0.253</semimajoraxis>
+			<radius errorminus="0.00729" errorplus="0.00729">0.17679</radius>
+			<period errorminus="3.60000e-04" errorplus="3.60000e-04">56.353870000000</period>
+			<transittime errorminus="0.0020000" errorplus="0.0020000">2454977.8368000</transittime>
+			<semimajoraxis>0.2530000</semimajoraxis>
+			<temperature>331.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>331.8</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

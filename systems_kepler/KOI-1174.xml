@@ -2,20 +2,22 @@
 	<name>KOI-1174</name>
 	<rightascension>19 47 17</rightascension>
 	<declination>+47 21 14</declination>
-	<distance>191.73</distance>
+	<distance>190.75</distance>
 	<star>
 		<name>KOI-1174</name>
-		<temperature>4436.00</temperature>
-		<radius>0.59</radius>
-		<age>14.0000</age>
+		<temperature errorminus="64.00" errorplus="64.00">4436.00</temperature>
+		<radius errorminus="0.0130" errorplus="0.0130">0.5870</radius>
+		<age errorminus="3.7000" errorplus="3.7000">14.0000</age>
 		<planet>
 			<name>KOI-1174 b</name>
 			<name>KOI-1174 01</name>
-			<radius>0.21598</radius>
-			<period>330.000000</period>
-			<semimajoraxis>0.796</semimajoraxis>
+			<radius errorminus="0.02187" errorplus="0.02187">0.21598</radius>
+			<period errorminus=".00000e+00" errorplus="0.00000e+00">330.000000000000</period>
+			<transittime errorminus="0.0028000" errorplus="0.0028000">2455226.5995000</transittime>
+			<semimajoraxis>0.7960000</semimajoraxis>
+			<temperature>168.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

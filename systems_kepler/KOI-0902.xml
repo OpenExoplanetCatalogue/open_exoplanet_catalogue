@@ -2,24 +2,22 @@
 	<name>KOI-0902</name>
 	<rightascension>19 11 24</rightascension>
 	<declination>+43 53 52</declination>
-	<distance>578.98</distance>
+	<distance>578.01</distance>
 	<star>
-		<magJ errorminus="0.026" errorplus="0.026">14.000</magJ>
-		<magH errorminus="0.022" errorplus="0.022">13.359</magH>
-		<magK errorminus="0.03" errorplus="0.03">13.21</magK>
 		<name>KOI-0902</name>
-		<temperature>4494.00</temperature>
-		<radius>0.60</radius>
-		<age>14.0000</age>
+		<temperature errorminus="68.00" errorplus="68.00">4494.00</temperature>
+		<radius errorminus="0.0140" errorplus="0.0140">0.5990</radius>
+		<age errorminus="3.9000" errorplus="3.9000">14.0000</age>
 		<planet>
 			<name>KOI-0902 b</name>
 			<name>KOI-0902 01</name>
-			<radius>0.49484</radius>
-			<period>83.910900</period>
-			<semimajoraxis>0.321</semimajoraxis>
+			<radius errorminus="0.01914" errorplus="0.01914">0.49484</radius>
+			<period errorminus="2.60000e-04" errorplus="2.60000e-04">83.910890000000</period>
+			<transittime errorminus="0.0009100" errorplus="0.0009100">2455069.8076700</transittime>
+			<semimajoraxis>0.3210000</semimajoraxis>
+			<temperature>271.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>226.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

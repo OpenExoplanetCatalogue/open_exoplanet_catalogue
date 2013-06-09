@@ -5,17 +5,19 @@
 	<distance>411.81</distance>
 	<star>
 		<name>KOI-2813</name>
-		<temperature>5277.00</temperature>
-		<radius>0.84</radius>
-		<age>14.0000</age>
+		<temperature errorminus="74.00" errorplus="74.00">5277.00</temperature>
+		<radius errorminus="0.8900" errorplus="0.8900">0.8400</radius>
+		<age errorminus="3.3000" errorplus="3.3000">14.0000</age>
 		<planet>
 			<name>KOI-2813 b</name>
 			<name>KOI-2813 01</name>
-			<radius>0.11847</radius>
-			<period>0.698460</period>
-			<semimajoraxis>0.014</semimajoraxis>
+			<radius errorminus="0.12758" errorplus="0.12758">0.11847</radius>
+			<period errorminus="2.80000e-04" errorplus="2.80000e-04">0.698460000000</period>
+			<transittime errorminus="0.0037000" errorplus="0.0037000">2454964.8511000</transittime>
+			<semimajoraxis>0.0140000</semimajoraxis>
+			<temperature>1801.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

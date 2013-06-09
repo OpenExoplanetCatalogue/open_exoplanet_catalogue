@@ -5,17 +5,19 @@
 	<distance>1024.48</distance>
 	<star>
 		<name>KOI-3041</name>
-		<temperature>6220.00</temperature>
-		<radius>1.13</radius>
-		<age>2.7000</age>
+		<temperature errorminus="109.00" errorplus="109.00">6220.00</temperature>
+		<radius errorminus="0.4900" errorplus="0.4900">1.1300</radius>
+		<age errorminus="1.2000" errorplus="1.2000">2.7000</age>
 		<planet>
 			<name>KOI-3041 b</name>
 			<name>KOI-3041 01</name>
-			<radius>0.15492</radius>
-			<period>5.082910</period>
-			<semimajoraxis>0.060</semimajoraxis>
+			<radius errorminus="0.10024" errorplus="0.10024">0.15492</radius>
+			<period errorminus="5.40000e-05" errorplus="5.40000e-05">5.082913000000</period>
+			<transittime errorminus="0.0047000" errorplus="0.0047000">2454967.0008000</transittime>
+			<semimajoraxis>0.0600000</semimajoraxis>
+			<temperature>1189.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

@@ -4,22 +4,20 @@
 	<declination>+44 15 52</declination>
 	<distance>803.22</distance>
 	<star>
-		<magJ errorminus="0.023" errorplus="0.023">13.028</magJ>
-		<magH errorminus="0.020" errorplus="0.020">12.723</magH>
-		<magK errorminus="0.024" errorplus="0.024">12.685</magK>
 		<name>KOI-1145</name>
-		<temperature>6064.00</temperature>
-		<radius>0.96</radius>
-		<age>0.4000</age>
+		<temperature errorminus="87.00" errorplus="87.00">6064.00</temperature>
+		<radius errorminus="0.5500" errorplus="0.5500">0.9600</radius>
+		<age errorminus="1.9000" errorplus="1.9000">0.4000</age>
 		<planet>
 			<name>KOI-1145 b</name>
 			<name>KOI-1145 01</name>
-			<radius>0.24605</radius>
-			<period>30.584000</period>
-			<semimajoraxis>0.195</semimajoraxis>
+			<radius errorminus="0.14581" errorplus="0.14581">0.24605</radius>
+			<period errorminus="2.90000e-04" errorplus="2.90000e-04">30.583960000000</period>
+			<transittime errorminus="0.0034000" errorplus="0.0034000">2454995.9103000</transittime>
+			<semimajoraxis>0.1950000</semimajoraxis>
+			<temperature>593.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>552.8</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

@@ -5,18 +5,19 @@
 	<distance>818.43</distance>
 	<star>
 		<name>KOI-2095</name>
-		<temperature>5734.00</temperature>
-		<radius>0.85</radius>
-		<age>0.4000</age>
+		<temperature errorminus="86.00" errorplus="86.00">5734.00</temperature>
+		<radius errorminus="0.3100" errorplus="0.3100">0.8500</radius>
+		<age errorminus="3.7000" errorplus="3.7000">0.4000</age>
 		<planet>
 			<name>KOI-2095 b</name>
 			<name>KOI-2095 01</name>
-			<radius>0.10115</radius>
-			<period>1.434780</period>
-			<semimajoraxis>0.025</semimajoraxis>
+			<radius errorminus="0.03645" errorplus="0.03645">0.10115</radius>
+			<period errorminus="1.60000e-05" errorplus="1.60000e-05">1.434779000000</period>
+			<transittime errorminus="0.0027000" errorplus="0.0027000">2454965.6208000</transittime>
+			<semimajoraxis>0.0250000</semimajoraxis>
+			<temperature>1476.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1343.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

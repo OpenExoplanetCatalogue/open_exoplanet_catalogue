@@ -2,24 +2,22 @@
 	<name>KOI-1584</name>
 	<rightascension>19 06 20</rightascension>
 	<declination>+46 52 15</declination>
-	<distance>539.16</distance>
+	<distance>537.24</distance>
 	<star>
-		<magJ errorminus="0.025" errorplus="0.025">13.959</magJ>
-		<magH errorminus="0.026" errorplus="0.026">13.340</magH>
-		<magK errorminus="0.03" errorplus="0.03">13.19</magK>
 		<name>KOI-1584</name>
-		<temperature>4280.00</temperature>
-		<radius>0.56</radius>
-		<age>13.9000</age>
+		<temperature errorminus="67.00" errorplus="67.00">4280.00</temperature>
+		<radius errorminus="0.0110" errorplus="0.0110">0.5580</radius>
+		<age errorminus="3.5000" errorplus="3.5000">13.9000</age>
 		<planet>
 			<name>KOI-1584 b</name>
 			<name>KOI-1584 01</name>
-			<radius>0.12485</radius>
-			<period>5.870720</period>
-			<semimajoraxis>0.053</semimajoraxis>
+			<radius errorminus="0.02825" errorplus="0.02825">0.12485</radius>
+			<period errorminus="6.90000e-05" errorplus="6.90000e-05">5.870719000000</period>
+			<transittime errorminus="0.0042000" errorplus="0.0042000">2454970.2441000</transittime>
+			<semimajoraxis>0.0530000</semimajoraxis>
+			<temperature>613.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>602.9</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

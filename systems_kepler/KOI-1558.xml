@@ -5,16 +5,18 @@
 	<distance>1226.73</distance>
 	<star>
 		<name>KOI-1558</name>
-		<temperature>5874.00</temperature>
-		<radius>0.99</radius>
+		<temperature errorminus="200.00" errorplus="200.00">5874.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">0.9900</radius>
 		<planet>
 			<name>KOI-1558 b</name>
 			<name>KOI-1558 01</name>
-			<radius>3.28069</radius>
-			<period>32.504700</period>
-			<semimajoraxis>0.204</semimajoraxis>
+			<radius errorminus="1.91374" errorplus="1.91374">3.28069</radius>
+			<period errorminus="8.60000e-05" errorplus="8.60000e-05">32.504651000000</period>
+			<transittime errorminus="0.0006400" errorplus="0.0006400">2455198.3574000</transittime>
+			<semimajoraxis>0.2040000</semimajoraxis>
+			<temperature>571.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

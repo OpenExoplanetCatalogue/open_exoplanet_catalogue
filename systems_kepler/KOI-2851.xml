@@ -5,25 +5,29 @@
 	<distance>1113.42</distance>
 	<star>
 		<name>KOI-2851</name>
-		<temperature>5285.00</temperature>
-		<radius>0.95</radius>
+		<temperature errorminus="200.00" errorplus="200.00">5285.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">0.9500</radius>
 		<planet>
 			<name>KOI-2851 b</name>
 			<name>KOI-2851 01</name>
-			<radius>0.15036</radius>
-			<period>3.420700</period>
-			<semimajoraxis>0.044</semimajoraxis>
+			<radius errorminus="0.04830" errorplus="0.04830">0.15036</radius>
+			<period errorminus="1.10000e-03" errorplus="1.10000e-03">3.420700000000</period>
+			<transittime errorminus="0.0028000" errorplus="0.0028000">2454965.2930000</transittime>
+			<semimajoraxis>0.0440000</semimajoraxis>
+			<temperature>1083.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-2851 c</name>
 			<name>KOI-2851 02</name>
-			<radius>0.10024</radius>
-			<period>1.239350</period>
-			<semimajoraxis>0.023</semimajoraxis>
+			<radius errorminus="0.05923" errorplus="0.05923">0.10024</radius>
+			<period errorminus="1.30000e-05" errorplus="1.30000e-05">1.239348000000</period>
+			<transittime errorminus="0.0053000" errorplus="0.0053000">2454964.8531000</transittime>
+			<semimajoraxis>0.0230000</semimajoraxis>
+			<temperature>1498.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

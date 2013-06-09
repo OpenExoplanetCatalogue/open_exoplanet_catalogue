@@ -5,17 +5,18 @@
 	<distance>623.26</distance>
 	<star>
 		<name>KOI-2608</name>
-		<temperature>6030.00</temperature>
-		<radius>1.10</radius>
+		<temperature errorminus="" errorplus="">6030.00</temperature>
+		<radius errorminus="" errorplus="">1.1000</radius>
 		<planet>
 			<name>KOI-2608 b</name>
 			<name>KOI-2608 01</name>
-			<radius>0.11938</radius>
-			<period>2.761210</period>
-			<semimajoraxis>0.039</semimajoraxis>
+			<radius errorminus="0.00456" errorplus="0.00456">0.11938</radius>
+			<period errorminus="4.20000e-05" errorplus="4.20000e-05">2.761210000000</period>
+			<transittime errorminus="0.0048000" errorplus="0.0048000">2454964.6090000</transittime>
+			<semimajoraxis>0.0390000</semimajoraxis>
+			<temperature>1413.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1425.6</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

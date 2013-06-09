@@ -4,23 +4,20 @@
 	<declination>+49 08 24</declination>
 	<distance>695.39</distance>
 	<star>
-		<magR errorminus="0.14" errorplus="0.14">14.03</magR>
-		<magJ errorminus="0.027" errorplus="0.027">12.578</magJ>
-		<magH errorminus="0.03" errorplus="0.03">12.28</magH>
-		<magK errorminus="0.028" errorplus="0.028">12.216</magK>
 		<name>KOI-0128</name>
-		<temperature>5786.00</temperature>
-		<radius>1.09</radius>
-		<age>2.1000</age>
+		<temperature errorminus="50.00" errorplus="50.00">5786.00</temperature>
+		<radius errorminus="0.0780" errorplus="0.0780">1.0900</radius>
+		<age errorminus="1.3000" errorplus="1.3000">2.1000</age>
 		<planet>
 			<name>KOI-0128 b</name>
 			<name>KOI-0128 01</name>
-			<radius>1.09083</radius>
-			<period>4.942780</period>
-			<semimajoraxis>0.059</semimajoraxis>
+			<radius errorminus="0.07746" errorplus="0.07746">1.09083</radius>
+			<period errorminus="9.30000e-07" errorplus="9.30000e-07">4.942783270000</period>
+			<transittime errorminus="0.0000670" errorplus="0.0000670">2454969.3290040</transittime>
+			<semimajoraxis>0.0590000</semimajoraxis>
+			<temperature>1097.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a confirmed planet by the Kepler team and might have already appear in a peer reviewed paper.</description>
-			<temperature>1096.6</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

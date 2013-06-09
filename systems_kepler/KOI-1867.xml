@@ -2,41 +2,44 @@
 	<name>KOI-1867</name>
 	<rightascension>19 30 34</rightascension>
 	<declination>+44 05 15</declination>
-	<distance>289.23</distance>
+	<distance>290.90</distance>
 	<star>
 		<name>KOI-1867</name>
-		<temperature>4042.00</temperature>
-		<radius>0.52</radius>
-		<age>13.9000</age>
+		<temperature errorminus="200.00" errorplus="200.00">4042.00</temperature>
+		<radius errorminus="0.0260" errorplus="0.0260">0.5230</radius>
+		<age errorminus="3.7000" errorplus="3.7000">13.9000</age>
 		<planet>
 			<name>KOI-1867 b</name>
 			<name>KOI-1867 01</name>
-			<radius>0.10936</radius>
-			<period>2.549560</period>
-			<semimajoraxis>0.030</semimajoraxis>
+			<radius errorminus="0.01185" errorplus="0.01185">0.10936</radius>
+			<period errorminus="1.30000e-05" errorplus="1.30000e-05">2.549559000000</period>
+			<transittime errorminus="0.0014000" errorplus="0.0014000">2454965.6071000</transittime>
+			<semimajoraxis>0.0300000</semimajoraxis>
+			<temperature>744.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>721.3</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1867 c</name>
 			<name>KOI-1867 02</name>
-			<radius>0.19502</radius>
-			<period>13.969400</period>
-			<semimajoraxis>0.093</semimajoraxis>
+			<radius errorminus="0.02005" errorplus="0.02005">0.19502</radius>
+			<period errorminus="6.50000e-05" errorplus="6.50000e-05">13.969407000000</period>
+			<transittime errorminus="0.0017000" errorplus="0.0017000">2454965.1719000</transittime>
+			<semimajoraxis>0.0930000</semimajoraxis>
+			<temperature>423.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>409.7</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1867 d</name>
 			<name>KOI-1867 03</name>
-			<radius>0.09751</radius>
-			<period>5.212270</period>
-			<semimajoraxis>0.048</semimajoraxis>
+			<radius errorminus="0.01094" errorplus="0.01094">0.09751</radius>
+			<period errorminus="4.40000e-05" errorplus="4.40000e-05">5.212275000000</period>
+			<transittime errorminus="0.0028000" errorplus="0.0028000">2454965.7097000</transittime>
+			<semimajoraxis>0.0480000</semimajoraxis>
+			<temperature>589.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>570.2</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

@@ -4,62 +4,64 @@
 	<declination>+42 25 27</declination>
 	<distance>1369.12</distance>
 	<star>
-		<magJ errorminus="0.028" errorplus="0.028">14.537</magJ>
-		<magH errorminus="0.03" errorplus="0.03">14.08</magH>
-		<magK errorminus="0.06" errorplus="0.06">13.97</magK>
 		<name>KOI-1364</name>
-		<temperature>5447.00</temperature>
-		<radius>0.88</radius>
-		<age>10.9000</age>
+		<temperature errorminus="123.00" errorplus="123.00">5447.00</temperature>
+		<radius errorminus="0.4400" errorplus="0.4400">0.8800</radius>
+		<age errorminus="3.9000" errorplus="3.9000">10.9000</age>
 		<planet>
 			<name>KOI-1364 b</name>
 			<name>KOI-1364 01</name>
-			<radius>0.27339</radius>
-			<period>20.834300</period>
-			<semimajoraxis>0.140</semimajoraxis>
+			<radius errorminus="0.13670" errorplus="0.13670">0.27339</radius>
+			<period errorminus="2.30000e-04" errorplus="2.30000e-04">20.834280000000</period>
+			<transittime errorminus="0.0056000" errorplus="0.0056000">2455019.0308000</transittime>
+			<semimajoraxis>0.1400000</semimajoraxis>
+			<temperature>602.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>592.8</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1364 c</name>
 			<name>KOI-1364 02</name>
-			<radius>0.24605</radius>
-			<period>7.055650</period>
-			<semimajoraxis>0.068</semimajoraxis>
+			<radius errorminus="0.12758" errorplus="0.12758">0.24605</radius>
+			<period errorminus="5.70000e-05" errorplus="5.70000e-05">7.055652000000</period>
+			<transittime errorminus="0.0038000" errorplus="0.0038000">2455014.9110000</transittime>
+			<semimajoraxis>0.0680000</semimajoraxis>
+			<temperature>864.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>850.4</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1364 d</name>
 			<name>KOI-1364 03</name>
-			<radius>0.22783</radius>
-			<period>11.978700</period>
-			<semimajoraxis>0.096</semimajoraxis>
+			<radius errorminus="0.11847" errorplus="0.11847">0.22783</radius>
+			<period errorminus="1.40000e-04" errorplus="1.40000e-04">11.978650000000</period>
+			<transittime errorminus="0.0057000" errorplus="0.0057000">2455011.9788000</transittime>
+			<semimajoraxis>0.0960000</semimajoraxis>
+			<temperature>727.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>713.6</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1364 e</name>
 			<name>KOI-1364 04</name>
-			<radius>0.17132</radius>
-			<period>3.715350</period>
-			<semimajoraxis>0.044</semimajoraxis>
+			<radius errorminus="0.08657" errorplus="0.08657">0.17132</radius>
+			<period errorminus="4.30000e-05" errorplus="4.30000e-05">3.715345000000</period>
+			<transittime errorminus="0.0048000" errorplus="0.0048000">2455002.7975000</transittime>
+			<semimajoraxis>0.0440000</semimajoraxis>
+			<temperature>1075.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1053.1</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1364 f</name>
 			<name>KOI-1364 05</name>
-			<radius>0.14034</radius>
-			<period>2.580790</period>
-			<semimajoraxis>0.035</semimajoraxis>
+			<radius errorminus="0.07108" errorplus="0.07108">0.14034</radius>
+			<period errorminus="3.60000e-05" errorplus="3.60000e-05">2.580788000000</period>
+			<transittime errorminus="0.0051000" errorplus="0.0051000">2455004.5672000</transittime>
+			<semimajoraxis>0.0350000</semimajoraxis>
+			<temperature>1205.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1194.1</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

@@ -5,17 +5,19 @@
 	<distance>620.92</distance>
 	<star>
 		<name>KOI-2876</name>
-		<temperature>5058.00</temperature>
-		<radius>0.74</radius>
-		<age>13.8000</age>
+		<temperature errorminus="69.00" errorplus="69.00">5058.00</temperature>
+		<radius errorminus="0.6700" errorplus="0.6700">0.7400</radius>
+		<age errorminus="3.7000" errorplus="3.7000">13.8000</age>
 		<planet>
 			<name>KOI-2876 b</name>
 			<name>KOI-2876 01</name>
-			<radius>0.15492</radius>
-			<period>5.195310</period>
-			<semimajoraxis>0.053</semimajoraxis>
+			<radius errorminus="0.13670" errorplus="0.13670">0.15492</radius>
+			<period errorminus="6.20000e-04" errorplus="6.20000e-04">5.195310000000</period>
+			<transittime errorminus="0.0031000" errorplus="0.0031000">2454966.3352000</transittime>
+			<semimajoraxis>0.0530000</semimajoraxis>
+			<temperature>836.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

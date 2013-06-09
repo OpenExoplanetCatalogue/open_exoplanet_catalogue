@@ -2,24 +2,22 @@
 	<name>KOI-0854</name>
 	<rightascension>19 18 02</rightascension>
 	<declination>+41 48 43</declination>
-	<distance>378.25</distance>
+	<distance>380.52</distance>
 	<star>
-		<magJ errorminus="0.022" errorplus="0.022">13.446</magJ>
-		<magH errorminus="0.025" errorplus="0.025">12.778</magH>
-		<magK errorminus="0.024" errorplus="0.024">12.536</magK>
 		<name>KOI-0854</name>
-		<temperature>3893.00</temperature>
-		<radius>0.50</radius>
-		<age>14.0000</age>
+		<temperature errorminus="200.00" errorplus="200.00">3893.00</temperature>
+		<radius errorminus="0.0250" errorplus="0.0250">0.5030</radius>
+		<age errorminus="3.5000" errorplus="3.5000">14.0000</age>
 		<planet>
 			<name>KOI-0854 b</name>
 			<name>KOI-0854 01</name>
-			<radius>0.19866</radius>
-			<period>56.056300</period>
-			<semimajoraxis>0.231</semimajoraxis>
+			<radius errorminus="0.08657" errorplus="0.08657">0.19866</radius>
+			<period errorminus="8.50000e-04" errorplus="8.50000e-04">56.056280000000</period>
+			<transittime errorminus="0.0044000" errorplus="0.0044000">2455034.1631000</transittime>
+			<semimajoraxis>0.2310000</semimajoraxis>
+			<temperature>253.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>228.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

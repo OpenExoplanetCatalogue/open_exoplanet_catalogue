@@ -5,18 +5,29 @@
 	<distance>709.55</distance>
 	<star>
 		<name>KOI-1915</name>
-		<temperature>5990.00</temperature>
-		<radius>0.93</radius>
-		<age>0.3000</age>
+		<temperature errorminus="88.00" errorplus="88.00">5990.00</temperature>
+		<radius errorminus="0.3100" errorplus="0.3100">0.9300</radius>
+		<age errorminus="2.5000" errorplus="2.5000">0.3000</age>
 		<planet>
 			<name>KOI-1915 b</name>
 			<name>KOI-1915 01</name>
-			<radius>0.14490</radius>
-			<period>6.562000</period>
-			<semimajoraxis>0.069</semimajoraxis>
+			<radius errorminus="0.07837" errorplus="0.07837">0.14490</radius>
+			<period errorminus="6.20000e-02" errorplus="6.20000e-02">6.562000000000</period>
+			<transittime errorminus="0.0000360" errorplus="0.0000360">2454965.6072350</transittime>
+			<semimajoraxis>0.0690000</semimajoraxis>
+			<temperature>971.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>909.6</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-1915 c</name>
+			<name>KOI-1915 02</name>
+			<radius errorminus="0.17315" errorplus="0.17315">0.13670</radius>
+			<period errorminus="1.10000e-03" errorplus="1.10000e-03">67.843200000000</period>
+			<transittime errorminus="0.0096000" errorplus="0.0096000">2454982.5016000</transittime>
+			<semimajoraxis errorminus="3.6e-06" errorplus="3.6e-06">0.3293410</semimajoraxis>
+			<temperature errorminus="75.0" errorplus="75.0">445.0</temperature>
+			<list>Kepler Objects of Interest</list>
 		</planet>
 	</star>
 </system>

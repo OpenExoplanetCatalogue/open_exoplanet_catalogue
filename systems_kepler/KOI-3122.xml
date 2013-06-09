@@ -5,17 +5,19 @@
 	<distance>552.17</distance>
 	<star>
 		<name>KOI-3122</name>
-		<temperature>6354.00</temperature>
-		<radius>1.55</radius>
-		<age>3.5100</age>
+		<temperature errorminus="75.00" errorplus="75.00">6354.00</temperature>
+		<radius errorminus="0.3600" errorplus="0.3600">1.5500</radius>
+		<age errorminus="0.6100" errorplus="0.6100">3.5100</age>
 		<planet>
 			<name>KOI-3122 b</name>
 			<name>KOI-3122 01</name>
-			<radius>0.12849</radius>
-			<period>8.053200</period>
-			<semimajoraxis>0.084</semimajoraxis>
+			<radius errorminus="0.04648" errorplus="0.04648">0.12849</radius>
+			<period errorminus="1.30000e-04" errorplus="1.30000e-04">8.053200000000</period>
+			<transittime errorminus="0.0079000" errorplus="0.0079000">2454967.9693000</transittime>
+			<semimajoraxis>0.0840000</semimajoraxis>
+			<temperature>1205.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

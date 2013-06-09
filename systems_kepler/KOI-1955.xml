@@ -5,28 +5,50 @@
 	<distance>673.08</distance>
 	<star>
 		<name>KOI-1955</name>
-		<temperature>6464.00</temperature>
-		<radius>1.12</radius>
-		<age>0.2400</age>
+		<temperature errorminus="75.00" errorplus="75.00">6464.00</temperature>
+		<radius errorminus="0.4700" errorplus="0.4700">1.1200</radius>
+		<age errorminus="0.8800" errorplus="0.8800">0.2400</age>
 		<planet>
 			<name>KOI-1955 b</name>
 			<name>KOI-1955 01</name>
-			<radius>0.18773</radius>
-			<period>15.170200</period>
-			<semimajoraxis>0.127</semimajoraxis>
+			<radius errorminus="0.07837" errorplus="0.07837">0.18773</radius>
+			<period errorminus="8.70000e-05" errorplus="8.70000e-05">15.170189000000</period>
+			<transittime errorminus="0.0028000" errorplus="0.0028000">2454965.6668000</transittime>
+			<semimajoraxis>0.1270000</semimajoraxis>
+			<temperature>849.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>802.8</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1955 c</name>
 			<name>KOI-1955 02</name>
-			<radius>0.18955</radius>
-			<period>39.459900</period>
-			<semimajoraxis>0.241</semimajoraxis>
+			<radius errorminus="0.07837" errorplus="0.07837">0.18955</radius>
+			<period errorminus="3.40000e-04" errorplus="3.40000e-04">39.459880000000</period>
+			<transittime errorminus="0.0040000" errorplus="0.0040000">2454969.4553000</transittime>
+			<semimajoraxis>0.2410000</semimajoraxis>
+			<temperature>616.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>584.3</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-1955 d</name>
+			<name>KOI-1955 03</name>
+			<radius errorminus="0.03463" errorplus="0.03463">0.06926</radius>
+			<period errorminus="1.10000e-05" errorplus="1.10000e-05">1.644198000000</period>
+			<transittime errorminus="0.0025000" errorplus="0.0025000">2454964.7567000</transittime>
+			<semimajoraxis errorminus="1.3e-07" errorplus="1.3e-07">0.0289136</semimajoraxis>
+			<temperature errorminus="369.0" errorplus="369.0">1777.0</temperature>
+			<list>Kepler Objects of Interest</list>
+		</planet>
+		<planet>
+			<name>KOI-1955 e</name>
+			<name>KOI-1955 04</name>
+			<radius errorminus="0.11847" errorplus="0.11847">0.13670</radius>
+			<period errorminus="1.80000e-04" errorplus="1.80000e-04">26.234200000000</period>
+			<transittime errorminus="0.0042000" errorplus="0.0042000">2454974.9958000</transittime>
+			<semimajoraxis errorminus="8.2e-07" errorplus="8.2e-07">0.1832500</semimajoraxis>
+			<temperature errorminus="147.0" errorplus="147.0">706.0</temperature>
+			<list>Kepler Objects of Interest</list>
 		</planet>
 	</star>
 </system>

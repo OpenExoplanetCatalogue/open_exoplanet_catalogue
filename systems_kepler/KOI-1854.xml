@@ -5,18 +5,19 @@
 	<distance>716.16</distance>
 	<star>
 		<name>KOI-1854</name>
-		<temperature>5597.00</temperature>
-		<radius>1.33</radius>
-		<age>13.8000</age>
+		<temperature errorminus="94.00" errorplus="94.00">5597.00</temperature>
+		<radius errorminus="0.3700" errorplus="0.3700">1.3300</radius>
+		<age errorminus="3.0000" errorplus="3.0000">13.8000</age>
 		<planet>
 			<name>KOI-1854 b</name>
 			<name>KOI-1854 01</name>
-			<radius>0.28615</radius>
-			<period>43.032500</period>
-			<semimajoraxis>0.232</semimajoraxis>
+			<radius errorminus="0.08293" errorplus="0.08293">0.28615</radius>
+			<period errorminus="3.50000e-04" errorplus="3.50000e-04">43.032520000000</period>
+			<transittime errorminus="0.0028000" errorplus="0.0028000">2454970.7012000</transittime>
+			<semimajoraxis>0.2320000</semimajoraxis>
+			<temperature>590.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>573.2</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

@@ -4,22 +4,20 @@
 	<declination>+45 06 55</declination>
 	<distance>1355.53</distance>
 	<star>
-		<magJ errorminus="0.04" errorplus="0.04">14.38</magJ>
-		<magH errorminus="0.05" errorplus="0.05">13.99</magH>
-		<magK errorminus="0.05" errorplus="0.05">13.94</magK>
 		<name>KOI-0923</name>
-		<temperature>5894.00</temperature>
-		<radius>0.90</radius>
-		<age>0.4000</age>
+		<temperature errorminus="104.00" errorplus="104.00">5894.00</temperature>
+		<radius errorminus="0.3500" errorplus="0.3500">0.9000</radius>
+		<age errorminus="2.9000" errorplus="2.9000">0.4000</age>
 		<planet>
 			<name>KOI-0923 b</name>
 			<name>KOI-0923 01</name>
-			<radius>0.29162</radius>
-			<period>5.743490</period>
-			<semimajoraxis>0.063</semimajoraxis>
+			<radius errorminus="0.10936" errorplus="0.10936">0.29162</radius>
+			<period errorminus="2.70000e-05" errorplus="2.70000e-05">5.743491000000</period>
+			<transittime errorminus="0.0015000" errorplus="0.0015000">2455007.8975000</transittime>
+			<semimajoraxis>0.0630000</semimajoraxis>
+			<temperature>982.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>925.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

@@ -5,18 +5,19 @@
 	<distance>657.66</distance>
 	<star>
 		<name>KOI-1965</name>
-		<temperature>5659.00</temperature>
-		<radius>0.83</radius>
-		<age>0.4000</age>
+		<temperature errorminus="83.00" errorplus="83.00">5659.00</temperature>
+		<radius errorminus="0.4200" errorplus="0.4200">0.8300</radius>
+		<age errorminus="3.8000" errorplus="3.8000">0.4000</age>
 		<planet>
 			<name>KOI-1965 b</name>
 			<name>KOI-1965 01</name>
-			<radius>0.13578</radius>
-			<period>2.514620</period>
-			<semimajoraxis>0.035</semimajoraxis>
+			<radius errorminus="0.07290" errorplus="0.07290">0.13578</radius>
+			<period errorminus="1.90000e-05" errorplus="1.90000e-05">2.514615000000</period>
+			<transittime errorminus="0.0022000" errorplus="0.0022000">2454965.9107000</transittime>
+			<semimajoraxis>0.0350000</semimajoraxis>
+			<temperature>1218.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1159.2</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

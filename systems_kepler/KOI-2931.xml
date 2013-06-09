@@ -5,17 +5,19 @@
 	<distance>531.60</distance>
 	<star>
 		<name>KOI-2931</name>
-		<temperature>5083.00</temperature>
-		<radius>0.70</radius>
-		<age>2.8000</age>
+		<temperature errorminus="85.00" errorplus="85.00">5083.00</temperature>
+		<radius errorminus="0.2800" errorplus="0.2800">0.7000</radius>
+		<age errorminus="3.9000" errorplus="3.9000">2.8000</age>
 		<planet>
 			<name>KOI-2931 b</name>
 			<name>KOI-2931 01</name>
-			<radius>0.15492</radius>
-			<period>99.248100</period>
-			<semimajoraxis>0.387</semimajoraxis>
+			<radius errorminus="0.10024" errorplus="0.10024">0.15492</radius>
+			<period errorminus="2.10000e-03" errorplus="2.10000e-03">99.248100000000</period>
+			<transittime errorminus="0.0100000" errorplus="0.0100000">2454981.5500000</transittime>
+			<semimajoraxis>0.3870000</semimajoraxis>
+			<temperature>302.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

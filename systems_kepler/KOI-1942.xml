@@ -5,18 +5,19 @@
 	<distance>797.85</distance>
 	<star>
 		<name>KOI-1942</name>
-		<temperature>5214.00</temperature>
-		<radius>0.72</radius>
-		<age>0.6000</age>
+		<temperature errorminus="89.00" errorplus="89.00">5214.00</temperature>
+		<radius errorminus="0.1200" errorplus="0.1200">0.7200</radius>
+		<age errorminus="3.8000" errorplus="3.8000">0.6000</age>
 		<planet>
 			<name>KOI-1942 b</name>
 			<name>KOI-1942 01</name>
-			<radius>0.25972</radius>
-			<period>10.849800</period>
-			<semimajoraxis>0.090</semimajoraxis>
+			<radius errorminus="0.04465" errorplus="0.04465">0.25972</radius>
+			<period errorminus="9.70000e-05" errorplus="9.70000e-05">10.849813000000</period>
+			<transittime errorminus="0.0034000" errorplus="0.0034000">2454969.7413000</transittime>
+			<semimajoraxis>0.0900000</semimajoraxis>
+			<temperature>651.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>638.1</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

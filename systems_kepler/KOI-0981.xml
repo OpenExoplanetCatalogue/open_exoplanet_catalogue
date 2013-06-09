@@ -4,24 +4,20 @@
 	<declination>+44 42 47</declination>
 	<distance>437.03</distance>
 	<star>
-		<magB errorminus="0.09" errorplus="0.09">11.69</magB>
-		<magV errorminus="0.06" errorplus="0.06">10.87</magV>
-		<magJ errorminus="0.022" errorplus="0.022">9.261</magJ>
-		<magH errorminus="0.018" errorplus="0.018">8.800</magH>
-		<magK errorminus="0.013" errorplus="0.013">8.716</magK>
 		<name>KOI-0981</name>
-		<temperature>5189.00</temperature>
-		<radius>3.43</radius>
-		<age>3.3000</age>
+		<temperature errorminus="50.00" errorplus="50.00">5189.00</temperature>
+		<radius errorminus="0.4200" errorplus="0.4200">3.4300</radius>
+		<age errorminus="0.8100" errorplus="0.8100">3.3000</age>
 		<planet>
 			<name>KOI-0981 b</name>
 			<name>KOI-0981 01</name>
-			<radius>0.27977</radius>
-			<period>3.997800</period>
-			<semimajoraxis>0.055</semimajoraxis>
+			<radius errorminus="0.03827" errorplus="0.03827">0.27977</radius>
+			<period errorminus="1.20000e-04" errorplus="1.20000e-04">3.997800000000</period>
+			<transittime errorminus="0.0077000" errorplus="0.0077000">2455094.7172000</transittime>
+			<semimajoraxis>0.0550000</semimajoraxis>
+			<temperature>1808.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1806.8</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

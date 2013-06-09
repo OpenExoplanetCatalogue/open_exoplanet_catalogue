@@ -2,23 +2,21 @@
 	<name>KOI-1375</name>
 	<rightascension>19 13 16</rightascension>
 	<declination>+42 15 41</declination>
-	<distance>829.58</distance>
+	<distance>828.17</distance>
 	<star>
-		<magJ errorminus="0.021" errorplus="0.021">12.495</magJ>
-		<magH errorminus="0.020" errorplus="0.020">12.260</magH>
-		<magK errorminus="0.018" errorplus="0.018">12.232</magK>
 		<name>KOI-1375</name>
-		<temperature>6169.00</temperature>
-		<radius>1.17</radius>
+		<temperature errorminus="" errorplus="">6169.00</temperature>
+		<radius errorminus="" errorplus="">1.1680</radius>
 		<planet>
 			<name>KOI-1375 b</name>
 			<name>KOI-1375 01</name>
-			<radius>0.61786</radius>
-			<period>321.214000</period>
-			<semimajoraxis>0.958</semimajoraxis>
+			<radius errorminus="0.06470" errorplus="0.06470">0.61786</radius>
+			<period errorminus="2.00000e-03" errorplus="2.00000e-03">321.213900000000</period>
+			<transittime errorminus="0.0014000" errorplus="0.0014000">2455039.9287000</transittime>
+			<semimajoraxis>0.9580000</semimajoraxis>
+			<temperature>300.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>297.2</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

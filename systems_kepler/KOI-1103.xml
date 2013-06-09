@@ -5,17 +5,18 @@
 	<distance>1297.49</distance>
 	<star>
 		<name>KOI-1103</name>
-		<temperature>6288.00</temperature>
-		<radius>0.99</radius>
+		<temperature errorminus="200.00" errorplus="200.00">6288.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">0.9900</radius>
 		<planet>
 			<name>KOI-1103 b</name>
 			<name>KOI-1103 01</name>
-			<radius>0.52856</radius>
-			<period>90.138600</period>
-			<semimajoraxis>0.408</semimajoraxis>
+			<radius errorminus="0.16403" errorplus="0.16403">0.52856</radius>
+			<period errorminus="1.80000e-03" errorplus="1.80000e-03">90.138600000000</period>
+			<transittime errorminus="0.0045000" errorplus="0.0045000">2455189.1924000</transittime>
+			<semimajoraxis>0.4080000</semimajoraxis>
+			<temperature>432.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>464.2</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

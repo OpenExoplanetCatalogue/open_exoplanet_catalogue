@@ -4,42 +4,42 @@
 	<declination>+46 16 34</declination>
 	<distance>674.63</distance>
 	<star>
-		<magJ errorminus="0.021" errorplus="0.021">11.811</magJ>
-		<magH errorminus="0.020" errorplus="0.020">11.555</magH>
-		<magK errorminus="0.013" errorplus="0.013">11.503</magK>
 		<name>KOI-0115</name>
-		<temperature>6398.00</temperature>
-		<radius>1.35</radius>
-		<age>3.1700</age>
+		<temperature errorminus="91.00" errorplus="91.00">6398.00</temperature>
+		<radius errorminus="0.3200" errorplus="0.3200">1.3500</radius>
+		<age errorminus="0.6000" errorplus="0.6000">3.1700</age>
 		<planet>
 			<name>KOI-0115 b</name>
 			<name>KOI-0115 01</name>
-			<radius>0.30802</radius>
-			<period>5.412200</period>
-			<semimajoraxis>0.064</semimajoraxis>
+			<radius errorminus="0.07290" errorplus="0.07290">0.30802</radius>
+			<period errorminus="8.60000e-06" errorplus="8.60000e-06">5.412201400000</period>
+			<transittime errorminus="0.0005600" errorplus="0.0005600">2454966.1423700</transittime>
+			<semimajoraxis>0.0640000</semimajoraxis>
+			<temperature>1296.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1256.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-0115 c</name>
 			<name>KOI-0115 02</name>
-			<radius>0.17406</radius>
-			<period>7.125970</period>
-			<semimajoraxis>0.077</semimajoraxis>
+			<radius errorminus="0.04101" errorplus="0.04101">0.17406</radius>
+			<period errorminus="4.00000e-05" errorplus="4.00000e-05">7.125967000000</period>
+			<transittime errorminus="0.0020000" errorplus="0.0020000">2454972.0032000</transittime>
+			<semimajoraxis>0.0770000</semimajoraxis>
+			<temperature>1182.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1144.0</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-0115 d</name>
 			<name>KOI-0115 03</name>
-			<radius>0.05832</radius>
-			<period>3.435840</period>
-			<semimajoraxis>0.047</semimajoraxis>
+			<radius errorminus="0.01458" errorplus="0.01458">0.05832</radius>
+			<period errorminus="1.20000e-04" errorplus="1.20000e-04">3.435840000000</period>
+			<transittime errorminus="0.0110000" errorplus="0.0110000">2454965.6570000</transittime>
+			<semimajoraxis>0.0470000</semimajoraxis>
+			<temperature>1513.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1470.4</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

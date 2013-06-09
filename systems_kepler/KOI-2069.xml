@@ -2,20 +2,21 @@
 	<name>KOI-2069</name>
 	<rightascension>19 45 51</rightascension>
 	<declination>+49 10 58</declination>
-	<distance>798.75</distance>
+	<distance>800.17</distance>
 	<star>
 		<name>KOI-2069</name>
-		<temperature>6096.00</temperature>
-		<radius>1.13</radius>
+		<temperature errorminus="" errorplus="">6096.00</temperature>
+		<radius errorminus="" errorplus="">1.1320</radius>
 		<planet>
 			<name>KOI-2069 b</name>
 			<name>KOI-2069 01</name>
-			<radius>0.33080</radius>
-			<period>77.255700</period>
-			<semimajoraxis>0.366</semimajoraxis>
+			<radius errorminus="0.00547" errorplus="0.00547">0.33080</radius>
+			<period errorminus="1.20000e-03" errorplus="1.20000e-03">77.255700000000</period>
+			<transittime errorminus="0.0057000" errorplus="0.0057000">2454992.3199000</transittime>
+			<semimajoraxis>0.3660000</semimajoraxis>
+			<temperature>473.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>482.0</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

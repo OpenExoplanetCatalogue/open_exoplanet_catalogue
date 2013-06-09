@@ -2,20 +2,22 @@
 	<name>KOI-2976</name>
 	<rightascension>19 20 52</rightascension>
 	<declination>+41 52 07</declination>
-	<distance>1102.18</distance>
+	<distance>1100.73</distance>
 	<star>
 		<name>KOI-2976</name>
-		<temperature>5374.00</temperature>
-		<radius>0.76</radius>
-		<age>0.5000</age>
+		<temperature errorminus="74.00" errorplus="74.00">5374.00</temperature>
+		<radius errorminus="0.0680" errorplus="0.0680">0.7590</radius>
+		<age errorminus="3.9000" errorplus="3.9000">0.5000</age>
 		<planet>
 			<name>KOI-2976 b</name>
 			<name>KOI-2976 01</name>
-			<radius>0.25516</radius>
-			<period>21.613100</period>
-			<semimajoraxis>0.145</semimajoraxis>
+			<radius errorminus="0.12758" errorplus="0.12758">0.25516</radius>
+			<period errorminus="1.50000e-04" errorplus="1.50000e-04">21.613100000000</period>
+			<transittime errorminus="0.0034000" errorplus="0.0034000">2454970.0226000</transittime>
+			<semimajoraxis>0.1450000</semimajoraxis>
+			<temperature>542.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

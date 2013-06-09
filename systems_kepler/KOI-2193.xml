@@ -2,21 +2,33 @@
 	<name>KOI-2193</name>
 	<rightascension>18 56 25</rightascension>
 	<declination>+44 14 44</declination>
-	<distance>551.72</distance>
+	<distance>549.88</distance>
 	<star>
 		<name>KOI-2193</name>
-		<temperature>4485.00</temperature>
-		<radius>0.60</radius>
-		<age>13.9000</age>
+		<temperature errorminus="65.00" errorplus="65.00">4485.00</temperature>
+		<radius errorminus="0.0130" errorplus="0.0130">0.5980</radius>
+		<age errorminus="3.8000" errorplus="3.8000">13.9000</age>
 		<planet>
 			<name>KOI-2193 b</name>
 			<name>KOI-2193 01</name>
-			<radius>0.15583</radius>
-			<period>2.361710</period>
-			<semimajoraxis>0.030</semimajoraxis>
+			<radius errorminus="0.05194" errorplus="0.05194">0.15583</radius>
+			<period errorminus="1.50000e-05" errorplus="1.50000e-05">2.361715000000</period>
+			<transittime errorminus="0.0017000" errorplus="0.0017000">2454966.2396000</transittime>
+			<semimajoraxis>0.0300000</semimajoraxis>
+			<temperature>883.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>844.9</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-2193 c</name>
+			<name>KOI-2193 02</name>
+			<radius errorminus="0.58323" errorplus="0.58323">0.16403</radius>
+			<period errorminus="2.30000e-05" errorplus="2.30000e-05">4.163013000000</period>
+			<transittime errorminus="0.0026000" errorplus="0.0026000">2454964.6690000</transittime>
+			<semimajoraxis errorminus="1.6e-07" errorplus="1.6e-07">0.0433614</semimajoraxis>
+			<temperature errorminus="13.0" errorplus="13.0">735.0</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

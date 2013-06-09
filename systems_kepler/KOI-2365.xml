@@ -5,18 +5,29 @@
 	<distance>897.74</distance>
 	<star>
 		<name>KOI-2365</name>
-		<temperature>6242.00</temperature>
-		<radius>1.16</radius>
-		<age>2.8400</age>
+		<temperature errorminus="89.00" errorplus="89.00">6242.00</temperature>
+		<radius errorminus="0.4000" errorplus="0.4000">1.1600</radius>
+		<age errorminus="0.9700" errorplus="0.9700">2.8400</age>
 		<planet>
 			<name>KOI-2365 b</name>
 			<name>KOI-2365 01</name>
-			<radius>0.16039</radius>
-			<period>35.968600</period>
-			<semimajoraxis>0.220</semimajoraxis>
+			<radius errorminus="0.08475" errorplus="0.08475">0.16039</radius>
+			<period errorminus="5.60000e-04" errorplus="5.60000e-04">35.968640000000</period>
+			<transittime errorminus="0.0059000" errorplus="0.0059000">2454971.6647000</transittime>
+			<semimajoraxis>0.2200000</semimajoraxis>
+			<temperature>631.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>584.1</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-2365 c</name>
+			<name>KOI-2365 02</name>
+			<radius errorminus="0.20960" errorplus="0.20960">0.12758</radius>
+			<period errorminus="3.00000e-03" errorplus="3.00000e-03">110.979700000000</period>
+			<transittime errorminus="0.0170000" errorplus="0.0170000">2454980.0300000</transittime>
+			<semimajoraxis errorminus="8.4e-06" errorplus="8.4e-06">0.4668360</semimajoraxis>
+			<temperature errorminus="75.0" errorplus="75.0">433.0</temperature>
+			<list>Kepler Objects of Interest</list>
 		</planet>
 	</star>
 </system>

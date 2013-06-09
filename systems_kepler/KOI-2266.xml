@@ -5,17 +5,18 @@
 	<distance>1034.80</distance>
 	<star>
 		<name>KOI-2266</name>
-		<temperature>4778.00</temperature>
-		<radius>0.87</radius>
+		<temperature errorminus="200.00" errorplus="200.00">4778.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">0.8700</radius>
 		<planet>
 			<name>KOI-2266 b</name>
 			<name>KOI-2266 01</name>
-			<radius>0.18864</radius>
-			<period>1.003960</period>
-			<semimajoraxis>0.019</semimajoraxis>
+			<radius errorminus="0.07746" errorplus="0.07746">0.18864</radius>
+			<period errorminus="1.20000e-05" errorplus="1.20000e-05">1.003965000000</period>
+			<transittime errorminus="0.0022000" errorplus="0.0022000">2454965.0859000</transittime>
+			<semimajoraxis>0.0190000</semimajoraxis>
+			<temperature>1429.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1342.2</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

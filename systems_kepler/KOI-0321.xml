@@ -4,31 +4,31 @@
 	<declination>+44 58 05</declination>
 	<distance>366.84</distance>
 	<star>
-		<magJ errorminus="0.021" errorplus="0.021">11.340</magJ>
-		<magH errorminus="0.017" errorplus="0.017">11.035</magH>
-		<magK errorminus="0.017" errorplus="0.017">10.970</magK>
 		<name>KOI-0321</name>
-		<temperature>5538.00</temperature>
-		<radius>1.11</radius>
-		<age>9.1000</age>
+		<temperature errorminus="44.00" errorplus="44.00">5538.00</temperature>
+		<radius errorminus="0.1200" errorplus="0.1200">1.1100</radius>
+		<age errorminus="2.5000" errorplus="2.5000">9.1000</age>
 		<planet>
 			<name>KOI-0321 b</name>
 			<name>KOI-0321 01</name>
-			<radius>0.13670</radius>
-			<period>2.426310</period>
-			<semimajoraxis>0.035</semimajoraxis>
+			<radius errorminus="0.01549" errorplus="0.01549">0.13670</radius>
+			<period errorminus="5.50000e-06" errorplus="5.50000e-06">2.426307700000</period>
+			<transittime errorminus="0.0007800" errorplus="0.0007800">2455003.4542700</transittime>
+			<semimajoraxis>0.0350000</semimajoraxis>
+			<temperature>1375.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1375.1</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-0321 c</name>
 			<name>KOI-0321 02</name>
-			<radius>0.07655</radius>
-			<period>4.623390</period>
-			<semimajoraxis>0.054</semimajoraxis>
+			<radius errorminus="0.00911" errorplus="0.00911">0.07655</radius>
+			<period errorminus="4.80000e-05" errorplus="4.80000e-05">4.623390000000</period>
+			<transittime errorminus="0.0045000" errorplus="0.0045000">2454965.3660000</transittime>
+			<semimajoraxis>0.0540000</semimajoraxis>
+			<temperature>1107.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

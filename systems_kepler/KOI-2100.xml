@@ -5,17 +5,19 @@
 	<distance>914.88</distance>
 	<star>
 		<name>KOI-2100</name>
-		<temperature>5983.00</temperature>
-		<radius>0.93</radius>
-		<age>0.5000</age>
+		<temperature errorminus="110.00" errorplus="110.00">5983.00</temperature>
+		<radius errorminus="0.4500" errorplus="0.4500">0.9300</radius>
+		<age errorminus="2.4000" errorplus="2.4000">0.5000</age>
 		<planet>
 			<name>KOI-2100 b</name>
 			<name>KOI-2100 01</name>
-			<radius>0.15492</radius>
-			<period>4.271000</period>
-			<semimajoraxis>0.052</semimajoraxis>
+			<radius errorminus="0.09113" errorplus="0.09113">0.15492</radius>
+			<period errorminus="2.40000e-05" errorplus="2.40000e-05">4.270995000000</period>
+			<transittime errorminus="0.0028000" errorplus="0.0028000">2454966.1454000</transittime>
+			<semimajoraxis>0.0520000</semimajoraxis>
+			<temperature>1115.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

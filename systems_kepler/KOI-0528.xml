@@ -4,42 +4,42 @@
 	<declination>+46 53 47</declination>
 	<distance>948.45</distance>
 	<star>
-		<magJ errorminus="0.023" errorplus="0.023">13.280</magJ>
-		<magH errorminus="0.017" errorplus="0.017">12.967</magH>
-		<magK errorminus="0.024" errorplus="0.024">12.899</magK>
 		<name>KOI-0528</name>
-		<temperature>5674.00</temperature>
-		<radius>1.05</radius>
-		<age>11.3000</age>
+		<temperature errorminus="84.00" errorplus="84.00">5674.00</temperature>
+		<radius errorminus="0.4600" errorplus="0.4600">1.0500</radius>
+		<age errorminus="3.3000" errorplus="3.3000">11.3000</age>
 		<planet>
 			<name>KOI-0528 b</name>
 			<name>KOI-0528 01</name>
-			<radius>0.26428</radius>
-			<period>9.576720</period>
-			<semimajoraxis>0.085</semimajoraxis>
+			<radius errorminus="0.10936" errorplus="0.10936">0.26428</radius>
+			<period errorminus="4.40000e-05" errorplus="4.40000e-05">9.576715000000</period>
+			<transittime errorminus="0.0015000" errorplus="0.0015000">2455009.6811000</transittime>
+			<semimajoraxis>0.0850000</semimajoraxis>
+			<temperature>880.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>812.1</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-0528 c</name>
 			<name>KOI-0528 02</name>
-			<radius>0.32807</radius>
-			<period>96.672000</period>
-			<semimajoraxis>0.397</semimajoraxis>
+			<radius errorminus="0.14581" errorplus="0.14581">0.32807</radius>
+			<period errorminus="1.40000e-03" errorplus="1.40000e-03">96.672000000000</period>
+			<transittime errorminus="0.0042000" errorplus="0.0042000">2454973.1926000</transittime>
+			<semimajoraxis>0.3970000</semimajoraxis>
+			<temperature>407.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>376.4</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-0528 d</name>
 			<name>KOI-0528 03</name>
-			<radius>0.30984</radius>
-			<period>20.552800</period>
-			<semimajoraxis>0.141</semimajoraxis>
+			<radius errorminus="0.13670" errorplus="0.13670">0.30984</radius>
+			<period errorminus="1.40000e-04" errorplus="1.40000e-04">20.552800000000</period>
+			<transittime errorminus="0.0025000" errorplus="0.0025000">2454978.0280000</transittime>
+			<semimajoraxis>0.1410000</semimajoraxis>
+			<temperature>683.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>631.3</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

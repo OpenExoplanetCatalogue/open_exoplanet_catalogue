@@ -5,18 +5,19 @@
 	<distance>538.26</distance>
 	<star>
 		<name>KOI-1784</name>
-		<temperature>5853.00</temperature>
-		<radius>0.89</radius>
-		<age>0.3000</age>
+		<temperature errorminus="94.00" errorplus="94.00">5853.00</temperature>
+		<radius errorminus="0.4900" errorplus="0.4900">0.8900</radius>
+		<age errorminus="3.2000" errorplus="3.2000">0.3000</age>
 		<planet>
 			<name>KOI-1784 b</name>
 			<name>KOI-1784 01</name>
-			<radius>0.47388</radius>
-			<period>5.007410</period>
-			<semimajoraxis>0.057</semimajoraxis>
+			<radius errorminus="0.27339" errorplus="0.27339">0.47388</radius>
+			<period errorminus="4.80000e-06" errorplus="4.80000e-06">5.007409900000</period>
+			<transittime errorminus="0.0003000" errorplus="0.0003000">2454968.0236300</transittime>
+			<semimajoraxis>0.0570000</semimajoraxis>
+			<temperature>1017.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1011.6</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

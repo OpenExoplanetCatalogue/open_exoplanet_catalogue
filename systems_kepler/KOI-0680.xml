@@ -4,26 +4,20 @@
 	<declination>+43 11 50</declination>
 	<distance>853.73</distance>
 	<star>
-		<magB errorminus="0.11" errorplus="0.11">14.00</magB>
-		<magV errorminus="0.26" errorplus="0.26">13.91</magV>
-		<magR errorminus="0.11" errorplus="0.11">13.94</magR>
-		<magI errorminus="0.18" errorplus="0.18">12.92</magI>
-		<magJ errorminus="0.020" errorplus="0.020">12.593</magJ>
-		<magH errorminus="0.019" errorplus="0.019">12.345</magH>
-		<magK errorminus="0.022" errorplus="0.022">12.291</magK>
 		<name>KOI-0680</name>
-		<temperature>6327.00</temperature>
-		<radius>1.18</radius>
-		<age>2.3500</age>
+		<temperature errorminus="94.00" errorplus="94.00">6327.00</temperature>
+		<radius errorminus="0.3500" errorplus="0.3500">1.1800</radius>
+		<age errorminus="0.7300" errorplus="0.7300">2.3500</age>
 		<planet>
 			<name>KOI-0680 b</name>
 			<name>KOI-0680 01</name>
-			<radius>0.72904</radius>
-			<period>8.600150</period>
-			<semimajoraxis>0.086</semimajoraxis>
+			<radius errorminus="0.21871" errorplus="0.21871">0.72904</radius>
+			<period errorminus="5.00000e-06" errorplus="5.00000e-06">8.600145300000</period>
+			<transittime errorminus="0.0002000" errorplus="0.0002000">2455010.6421000</transittime>
+			<semimajoraxis>0.0860000</semimajoraxis>
+			<temperature>1032.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>972.6</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

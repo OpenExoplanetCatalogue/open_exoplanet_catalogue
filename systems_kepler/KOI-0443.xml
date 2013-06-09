@@ -4,22 +4,20 @@
 	<declination>+38 55 56</declination>
 	<distance>729.07</distance>
 	<star>
-		<magJ errorminus="0.023" errorplus="0.023">13.024</magJ>
-		<magH errorminus="0.022" errorplus="0.022">12.702</magH>
-		<magK errorminus="0.026" errorplus="0.026">12.633</magK>
 		<name>KOI-0443</name>
-		<temperature>5889.00</temperature>
-		<radius>0.90</radius>
-		<age>0.4000</age>
+		<temperature errorminus="80.00" errorplus="80.00">5889.00</temperature>
+		<radius errorminus="0.3200" errorplus="0.3200">0.9000</radius>
+		<age errorminus="3.0000" errorplus="3.0000">0.4000</age>
 		<planet>
 			<name>KOI-0443 b</name>
 			<name>KOI-0443 01</name>
-			<radius>0.27339</radius>
-			<period>16.217500</period>
-			<semimajoraxis>0.126</semimajoraxis>
+			<radius errorminus="0.10024" errorplus="0.10024">0.27339</radius>
+			<period errorminus="9.50000e-05" errorplus="9.50000e-05">16.217504000000</period>
+			<transittime errorminus="0.0020000" errorplus="0.0020000">2455013.0452000</transittime>
+			<semimajoraxis>0.1260000</semimajoraxis>
+			<temperature>694.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>625.6</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

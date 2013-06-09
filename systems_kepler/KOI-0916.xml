@@ -4,22 +4,20 @@
 	<declination>+44 47 34</declination>
 	<distance>964.06</distance>
 	<star>
-		<magJ errorminus="0.025" errorplus="0.025">13.873</magJ>
-		<magH errorminus="0.026" errorplus="0.026">13.442</magH>
-		<magK errorminus="0.04" errorplus="0.04">13.37</magK>
 		<name>KOI-0916</name>
-		<temperature>5513.00</temperature>
-		<radius>0.88</radius>
-		<age>9.1000</age>
+		<temperature errorminus="107.00" errorplus="107.00">5513.00</temperature>
+		<radius errorminus="0.4300" errorplus="0.4300">0.8800</radius>
+		<age errorminus="3.8000" errorplus="3.8000">9.1000</age>
 		<planet>
 			<name>KOI-0916 b</name>
 			<name>KOI-0916 01</name>
-			<radius>0.36452</radius>
-			<period>3.314950</period>
-			<semimajoraxis>0.041</semimajoraxis>
+			<radius errorminus="0.17315" errorplus="0.17315">0.36452</radius>
+			<period errorminus="6.70000e-06" errorplus="6.70000e-06">3.314952300000</period>
+			<transittime errorminus="0.0006100" errorplus="0.0006100">2455004.3120000</transittime>
+			<semimajoraxis>0.0410000</semimajoraxis>
+			<temperature>1128.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1113.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

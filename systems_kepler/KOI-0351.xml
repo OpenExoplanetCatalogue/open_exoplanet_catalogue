@@ -4,42 +4,42 @@
 	<declination>+49 18 18</declination>
 	<distance>834.52</distance>
 	<star>
-		<magJ errorminus="0.029" errorplus="0.029">12.790</magJ>
-		<magH errorminus="0.03" errorplus="0.03">12.53</magH>
-		<magK errorminus="0.024" errorplus="0.024">12.482</magK>
 		<name>KOI-0351</name>
-		<temperature>6330.00</temperature>
-		<radius>1.07</radius>
-		<age>0.5300</age>
+		<temperature errorminus="86.00" errorplus="86.00">6330.00</temperature>
+		<radius errorminus="0.4600" errorplus="0.4600">1.0700</radius>
+		<age errorminus="0.8800" errorplus="0.8800">0.5300</age>
 		<planet>
 			<name>KOI-0351 b</name>
 			<name>KOI-0351 01</name>
-			<radius>0.89308</radius>
-			<period>331.643000</period>
-			<semimajoraxis>0.980</semimajoraxis>
+			<radius errorminus="0.39186" errorplus="0.39186">0.89308</radius>
+			<period errorminus="5.70000e-02" errorplus="5.70000e-02">331.643000000000</period>
+			<transittime errorminus="0.0011000" errorplus="0.0011000">2454973.4774000</transittime>
+			<semimajoraxis>0.9800000</semimajoraxis>
+			<temperature>292.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>276.1</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-0351 c</name>
 			<name>KOI-0351 02</name>
-			<radius>0.63791</radius>
-			<period>210.605000</period>
-			<semimajoraxis>0.724</semimajoraxis>
+			<radius errorminus="0.28250" errorplus="0.28250">0.63791</radius>
+			<period errorminus="3.90000e-02" errorplus="3.90000e-02">210.605000000000</period>
+			<transittime errorminus="0.0004400" errorplus="0.0004400">2454980.0513100</transittime>
+			<semimajoraxis>0.7240000</semimajoraxis>
+			<temperature>340.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>321.2</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-0351 d</name>
 			<name>KOI-0351 03</name>
-			<radius>0.23694</radius>
-			<period>59.740000</period>
-			<semimajoraxis>0.312</semimajoraxis>
+			<radius errorminus="0.11847" errorplus="0.11847">0.23694</radius>
+			<period errorminus="2.10000e-01" errorplus="2.10000e-01">59.740000000000</period>
+			<transittime errorminus="0.0004700" errorplus="0.0004700">2454991.9537500</transittime>
+			<semimajoraxis>0.3120000</semimajoraxis>
+			<temperature>518.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>488.9</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

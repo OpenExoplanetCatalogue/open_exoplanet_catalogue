@@ -5,18 +5,19 @@
 	<distance>1240.04</distance>
 	<star>
 		<name>KOI-2533</name>
-		<temperature>5172.00</temperature>
-		<radius>3.04</radius>
-		<age>3.3000</age>
+		<temperature errorminus="81.00" errorplus="81.00">5172.00</temperature>
+		<radius errorminus="0.6200" errorplus="0.6200">3.0400</radius>
+		<age errorminus="1.0000" errorplus="1.0000">3.3000</age>
 		<planet>
 			<name>KOI-2533 b</name>
 			<name>KOI-2533 01</name>
-			<radius>0.28433</radius>
-			<period>6.033100</period>
-			<semimajoraxis>0.072</semimajoraxis>
+			<radius errorminus="0.05832" errorplus="0.05832">0.28433</radius>
+			<period errorminus="1.70000e-04" errorplus="1.70000e-04">6.033100000000</period>
+			<transittime errorminus="0.0091000" errorplus="0.0091000">2454970.1320000</transittime>
+			<semimajoraxis>0.0720000</semimajoraxis>
+			<temperature>1482.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1407.9</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

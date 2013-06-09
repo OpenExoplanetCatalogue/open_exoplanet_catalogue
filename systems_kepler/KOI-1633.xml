@@ -5,18 +5,19 @@
 	<distance>784.36</distance>
 	<star>
 		<name>KOI-1633</name>
-		<temperature>5315.00</temperature>
-		<radius>0.75</radius>
-		<age>0.6000</age>
+		<temperature errorminus="101.00" errorplus="101.00">5315.00</temperature>
+		<radius errorminus="0.2200" errorplus="0.2200">0.7500</radius>
+		<age errorminus="3.8000" errorplus="3.8000">0.6000</age>
 		<planet>
 			<name>KOI-1633 b</name>
 			<name>KOI-1633 01</name>
-			<radius>0.15583</radius>
-			<period>32.298600</period>
-			<semimajoraxis>0.188</semimajoraxis>
+			<radius errorminus="0.05377" errorplus="0.05377">0.15583</radius>
+			<period errorminus="7.50000e-04" errorplus="7.50000e-04">32.298610000000</period>
+			<transittime errorminus="0.0086000" errorplus="0.0086000">2454971.5000000</transittime>
+			<semimajoraxis>0.1880000</semimajoraxis>
+			<temperature>467.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>473.2</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

@@ -5,16 +5,18 @@
 	<distance>1514.87</distance>
 	<star>
 		<name>KOI-2852</name>
-		<temperature>5718.00</temperature>
-		<radius>0.91</radius>
+		<temperature errorminus="200.00" errorplus="200.00">5718.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">0.9100</radius>
 		<planet>
 			<name>KOI-2852 b</name>
 			<name>KOI-2852 01</name>
-			<radius>0.21051</radius>
-			<period>0.675650</period>
-			<semimajoraxis>0.015</semimajoraxis>
+			<radius errorminus="0.06926" errorplus="0.06926">0.21051</radius>
+			<period errorminus="2.20000e-04" errorplus="2.20000e-04">0.675650000000</period>
+			<transittime errorminus="0.0014000" errorplus="0.0014000">2454964.6847000</transittime>
+			<semimajoraxis>0.0150000</semimajoraxis>
+			<temperature>1961.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

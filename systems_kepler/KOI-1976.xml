@@ -5,18 +5,19 @@
 	<distance>744.04</distance>
 	<star>
 		<name>KOI-1976</name>
-		<temperature>5240.00</temperature>
-		<radius>0.77</radius>
-		<age>8.0000</age>
+		<temperature errorminus="84.00" errorplus="84.00">5240.00</temperature>
+		<radius errorminus="0.5400" errorplus="0.5400">0.7700</radius>
+		<age errorminus="3.8000" errorplus="3.8000">8.0000</age>
 		<planet>
 			<name>KOI-1976 b</name>
 			<name>KOI-1976 01</name>
-			<radius>0.19137</radius>
-			<period>12.124000</period>
-			<semimajoraxis>0.096</semimajoraxis>
+			<radius errorminus="0.14581" errorplus="0.14581">0.19137</radius>
+			<period errorminus="1.20000e-04" errorplus="1.20000e-04">12.124000000000</period>
+			<transittime errorminus="0.0036000" errorplus="0.0036000">2454967.9536000</transittime>
+			<semimajoraxis>0.0960000</semimajoraxis>
+			<temperature>655.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>644.4</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

@@ -5,17 +5,18 @@
 	<distance>1286.41</distance>
 	<star>
 		<name>KOI-1793</name>
-		<temperature>5876.00</temperature>
-		<radius>0.97</radius>
+		<temperature errorminus="200.00" errorplus="200.00">5876.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">0.9700</radius>
 		<planet>
 			<name>KOI-1793 b</name>
 			<name>KOI-1793 01</name>
-			<radius>2.91617</radius>
-			<period>3.261760</period>
-			<semimajoraxis>0.044</semimajoraxis>
+			<radius errorminus="1.73148" errorplus="1.73148">2.91617</radius>
+			<period errorminus="6.90000e-06" errorplus="6.90000e-06">3.261758000000</period>
+			<transittime errorminus="0.0008100" errorplus="0.0008100">2454964.7784900</transittime>
+			<semimajoraxis>0.0440000</semimajoraxis>
+			<temperature>1218.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1191.9</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

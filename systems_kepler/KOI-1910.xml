@@ -5,18 +5,19 @@
 	<distance>688.83</distance>
 	<star>
 		<name>KOI-1910</name>
-		<temperature>5299.00</temperature>
-		<radius>0.84</radius>
-		<age>13.2000</age>
+		<temperature errorminus="81.00" errorplus="81.00">5299.00</temperature>
+		<radius errorminus="0.3700" errorplus="0.3700">0.8400</radius>
+		<age errorminus="4.0000" errorplus="4.0000">13.2000</age>
 		<planet>
 			<name>KOI-1910 b</name>
 			<name>KOI-1910 01</name>
-			<radius>0.21871</radius>
-			<period>34.267500</period>
-			<semimajoraxis>0.191</semimajoraxis>
+			<radius errorminus="0.10024" errorplus="0.10024">0.21871</radius>
+			<period errorminus="3.80000e-04" errorplus="3.80000e-04">34.267490000000</period>
+			<transittime errorminus="0.0040000" errorplus="0.0040000">2454980.0571000</transittime>
+			<semimajoraxis>0.1910000</semimajoraxis>
+			<temperature>490.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>469.4</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

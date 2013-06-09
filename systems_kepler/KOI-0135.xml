@@ -2,26 +2,22 @@
 	<name>KOI-0135</name>
 	<rightascension>19 00 57</rightascension>
 	<declination>+46 40 05</declination>
-	<distance>927.51</distance>
+	<distance>928.28</distance>
 	<star>
-		<magB>13.8</magB>
-		<magR errorminus="0.15" errorplus="0.15">14.16</magR>
-		<magJ errorminus="0.022" errorplus="0.022">12.858</magJ>
-		<magH errorminus="0.020" errorplus="0.020">12.605</magH>
-		<magK errorminus="0.03" errorplus="0.03">12.55</magK>
 		<name>KOI-0135</name>
-		<temperature>6082.00</temperature>
-		<radius>1.20</radius>
-		<age>0.6900</age>
+		<temperature errorminus="50.00" errorplus="50.00">6082.00</temperature>
+		<radius errorminus="0.0520" errorplus="0.0520">1.2010</radius>
+		<age errorminus="0.5400" errorplus="0.5400">0.6900</age>
 		<planet>
 			<name>KOI-0135 b</name>
 			<name>KOI-0135 01</name>
-			<radius>0.96234</radius>
-			<period>3.024090</period>
-			<semimajoraxis>0.044</semimajoraxis>
+			<radius errorminus="0.04192" errorplus="0.04192">0.96234</radius>
+			<period errorminus="6.20000e-07" errorplus="6.20000e-07">3.024094890000</period>
+			<transittime errorminus="0.0000650" errorplus="0.0000650">2454965.4159290</transittime>
+			<semimajoraxis>0.0440000</semimajoraxis>
+			<temperature>1402.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a confirmed planet by the Kepler team and might have already appear in a peer reviewed paper.</description>
-			<temperature>1400.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

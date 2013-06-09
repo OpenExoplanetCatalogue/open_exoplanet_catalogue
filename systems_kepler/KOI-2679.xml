@@ -2,20 +2,22 @@
 	<name>KOI-2679</name>
 	<rightascension>19 51 21</rightascension>
 	<declination>+42 07 05</declination>
-	<distance>823.37</distance>
+	<distance>821.25</distance>
 	<star>
 		<name>KOI-2679</name>
-		<temperature>6516.00</temperature>
-		<radius>1.17</radius>
-		<age>0.5000</age>
+		<temperature errorminus="124.00" errorplus="124.00">6516.00</temperature>
+		<radius errorminus="0.0880" errorplus="0.0880">1.1670</radius>
+		<age errorminus="0.3400" errorplus="0.3400">0.5000</age>
 		<planet>
 			<name>KOI-2679 b</name>
 			<name>KOI-2679 01</name>
-			<radius>4.55651</radius>
-			<period>110.755000</period>
-			<semimajoraxis>0.481</semimajoraxis>
+			<radius errorminus="2.27826" errorplus="2.27826">4.55651</radius>
+			<period errorminus="1.10000e-03" errorplus="1.10000e-03">110.754800000000</period>
+			<transittime errorminus="0.0051000" errorplus="0.0051000">2454977.8058000</transittime>
+			<semimajoraxis>0.4810000</semimajoraxis>
+			<temperature>448.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

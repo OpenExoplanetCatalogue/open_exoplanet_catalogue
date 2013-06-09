@@ -4,22 +4,20 @@
 	<declination>+43 22 05</declination>
 	<distance>1426.89</distance>
 	<star>
-		<magJ errorminus="0.025" errorplus="0.025">14.469</magJ>
-		<magH errorminus="0.04" errorplus="0.04">14.17</magH>
-		<magK errorminus="0.06" errorplus="0.06">14.17</magK>
 		<name>KOI-1508</name>
-		<temperature>5880.00</temperature>
-		<radius>0.89</radius>
-		<age>0.4000</age>
+		<temperature errorminus="119.00" errorplus="119.00">5880.00</temperature>
+		<radius errorminus="0.1700" errorplus="0.1700">0.8900</radius>
+		<age errorminus="2.9000" errorplus="2.9000">0.4000</age>
 		<planet>
 			<name>KOI-1508 b</name>
 			<name>KOI-1508 01</name>
-			<radius>0.27430</radius>
-			<period>22.045800</period>
-			<semimajoraxis>0.154</semimajoraxis>
+			<radius errorminus="0.05468" errorplus="0.05468">0.27430</radius>
+			<period errorminus="3.90000e-04" errorplus="3.90000e-04">22.045790000000</period>
+			<transittime errorminus="0.0067000" errorplus="0.0067000">2454969.4799000</transittime>
+			<semimajoraxis>0.1540000</semimajoraxis>
+			<temperature>624.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>603.7</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

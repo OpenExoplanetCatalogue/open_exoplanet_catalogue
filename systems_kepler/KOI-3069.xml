@@ -5,17 +5,19 @@
 	<distance>1052.57</distance>
 	<star>
 		<name>KOI-3069</name>
-		<temperature>5639.00</temperature>
-		<radius>1.02</radius>
-		<age>11.6000</age>
+		<temperature errorminus="129.00" errorplus="129.00">5639.00</temperature>
+		<radius errorminus="0.3900" errorplus="0.3900">1.0200</radius>
+		<age errorminus="3.5000" errorplus="3.5000">11.6000</age>
 		<planet>
 			<name>KOI-3069 b</name>
 			<name>KOI-3069 01</name>
-			<radius>0.16403</radius>
-			<period>43.102800</period>
-			<semimajoraxis>0.230</semimajoraxis>
+			<radius errorminus="0.10024" errorplus="0.10024">0.16403</radius>
+			<period errorminus="1.20000e-03" errorplus="1.20000e-03">43.102800000000</period>
+			<transittime errorminus="0.0140000" errorplus="0.0140000">2454973.1310000</transittime>
+			<semimajoraxis>0.2300000</semimajoraxis>
+			<temperature>524.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

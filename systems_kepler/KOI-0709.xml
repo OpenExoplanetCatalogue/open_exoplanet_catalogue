@@ -4,22 +4,20 @@
 	<declination>+46 12 12</declination>
 	<distance>577.15</distance>
 	<star>
-		<magJ errorminus="0.021" errorplus="0.021">12.719</magJ>
-		<magH errorminus="0.020" errorplus="0.020">12.397</magH>
-		<magK errorminus="0.018" errorplus="0.018">12.270</magK>
 		<name>KOI-0709</name>
-		<temperature>5658.00</temperature>
-		<radius>0.87</radius>
-		<age>3.7000</age>
+		<temperature errorminus="74.00" errorplus="74.00">5658.00</temperature>
+		<radius errorminus="0.3500" errorplus="0.3500">0.8700</radius>
+		<age errorminus="3.9000" errorplus="3.9000">3.7000</age>
 		<planet>
 			<name>KOI-0709 b</name>
 			<name>KOI-0709 01</name>
-			<radius>0.19684</radius>
-			<period>21.384500</period>
-			<semimajoraxis>0.147</semimajoraxis>
+			<radius errorminus="0.07928" errorplus="0.07928">0.19684</radius>
+			<period errorminus="1.20000e-04" errorplus="1.20000e-04">21.384500000000</period>
+			<transittime errorminus="0.0019000" errorplus="0.0019000">2455011.7897000</transittime>
+			<semimajoraxis>0.1470000</semimajoraxis>
+			<temperature>606.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>577.3</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

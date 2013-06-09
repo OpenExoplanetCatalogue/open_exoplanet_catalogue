@@ -4,40 +4,42 @@
 	<declination>+43 31 38</declination>
 	<distance>722.95</distance>
 	<star>
-		<magJ errorminus="0.023" errorplus="0.023">13.154</magJ>
-		<magH errorminus="0.022" errorplus="0.022">12.736</magH>
-		<magK errorminus="0.024" errorplus="0.024">12.684</magK>
 		<name>KOI-1499</name>
-		<temperature>5438.00</temperature>
-		<radius>0.92</radius>
-		<age>13.8000</age>
+		<temperature errorminus="84.00" errorplus="84.00">5438.00</temperature>
+		<radius errorminus="0.4300" errorplus="0.4300">0.9200</radius>
+		<age errorminus="3.9000" errorplus="3.9000">13.8000</age>
 		<planet>
 			<name>KOI-1499 b</name>
 			<name>KOI-1499 01</name>
-			<radius>0.22783</radius>
-			<period>14.164000</period>
-			<semimajoraxis>0.107</semimajoraxis>
+			<radius errorminus="0.10024" errorplus="0.10024">0.22783</radius>
+			<period errorminus="6.50000e-05" errorplus="6.50000e-05">14.163994000000</period>
+			<transittime errorminus="0.0022000" errorplus="0.0022000">2454973.5894000</transittime>
+			<semimajoraxis>0.1070000</semimajoraxis>
+			<temperature>705.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>657.3</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1499 c</name>
 			<name>KOI-1499 02</name>
-			<radius>0.06015</radius>
-			<period>0.840649</period>
-			<semimajoraxis>0.016</semimajoraxis>
+			<radius errorminus="0.02825" errorplus="0.02825">0.06015</radius>
+			<period errorminus="2.10000e-05" errorplus="2.10000e-05">0.840649000000</period>
+			<transittime errorminus="0.0036000" errorplus="0.0036000">2454964.7243000</transittime>
+			<semimajoraxis>0.0160000</semimajoraxis>
+			<temperature>1822.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1499 d</name>
 			<name>KOI-1499 03</name>
-			<radius>0.08657</radius>
-			<period>6.209340</period>
-			<semimajoraxis>0.062</semimajoraxis>
+			<radius errorminus="0.04101" errorplus="0.04101">0.08657</radius>
+			<period errorminus="1.30000e-04" errorplus="1.30000e-04">6.209340000000</period>
+			<transittime errorminus="0.0096000" errorplus="0.0096000">2454969.8671000</transittime>
+			<semimajoraxis>0.0620000</semimajoraxis>
+			<temperature>926.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

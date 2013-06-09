@@ -5,18 +5,19 @@
 	<distance>1323.64</distance>
 	<star>
 		<name>KOI-1727</name>
-		<temperature>5793.00</temperature>
-		<radius>0.87</radius>
-		<age>0.4000</age>
+		<temperature errorminus="88.00" errorplus="88.00">5793.00</temperature>
+		<radius errorminus="0.2800" errorplus="0.2800">0.8700</radius>
+		<age errorminus="3.4000" errorplus="3.4000">0.4000</age>
 		<planet>
 			<name>KOI-1727 b</name>
 			<name>KOI-1727 01</name>
-			<radius>0.52856</radius>
-			<period>49.770000</period>
-			<semimajoraxis>0.263</semimajoraxis>
+			<radius errorminus="0.17315" errorplus="0.17315">0.52856</radius>
+			<period errorminus="3.70000e-04" errorplus="3.70000e-04">49.769990000000</period>
+			<transittime errorminus="0.0028000" errorplus="0.0028000">2454992.9850000</transittime>
+			<semimajoraxis>0.2630000</semimajoraxis>
+			<temperature>464.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a confirmed planet by the Kepler team and might have already appear in a peer reviewed paper.</description>
-			<temperature>433.8</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

@@ -4,22 +4,20 @@
 	<declination>+45 33 04</declination>
 	<distance>633.51</distance>
 	<star>
-		<magJ errorminus="0.024" errorplus="0.024">13.247</magJ>
-		<magH errorminus="0.024" errorplus="0.024">12.865</magH>
-		<magK errorminus="0.04" errorplus="0.04">12.74</magK>
 		<name>KOI-0526</name>
-		<temperature>5526.00</temperature>
-		<radius>0.80</radius>
-		<age>0.8000</age>
+		<temperature errorminus="121.00" errorplus="121.00">5526.00</temperature>
+		<radius errorminus="0.3200" errorplus="0.3200">0.8000</radius>
+		<age errorminus="4.1000" errorplus="4.1000">0.8000</age>
 		<planet>
 			<name>KOI-0526 b</name>
 			<name>KOI-0526 01</name>
-			<radius>0.24605</radius>
-			<period>2.104710</period>
-			<semimajoraxis>0.031</semimajoraxis>
+			<radius errorminus="0.10024" errorplus="0.10024">0.24605</radius>
+			<period errorminus="3.50000e-06" errorplus="3.50000e-06">2.104714200000</period>
+			<transittime errorminus="0.0004300" errorplus="0.0004300">2455004.0442200</transittime>
+			<semimajoraxis>0.0310000</semimajoraxis>
+			<temperature>1240.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1292.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

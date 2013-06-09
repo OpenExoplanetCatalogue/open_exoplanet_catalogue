@@ -2,21 +2,32 @@
 	<name>KOI-1628</name>
 	<rightascension>19 53 34</rightascension>
 	<declination>+42 27 35</declination>
-	<distance>600.01</distance>
+	<distance>601.01</distance>
 	<star>
 		<name>KOI-1628</name>
-		<temperature>6197.00</temperature>
-		<radius>1.19</radius>
-		<age>0.8200</age>
+		<temperature errorminus="50.00" errorplus="50.00">6197.00</temperature>
+		<radius errorminus="0.0620" errorplus="0.0620">1.1920</radius>
+		<age errorminus="0.6700" errorplus="0.6700">0.8200</age>
 		<planet>
 			<name>KOI-1628 b</name>
 			<name>KOI-1628 01</name>
-			<radius>0.25972</radius>
-			<period>19.747500</period>
-			<semimajoraxis>0.153</semimajoraxis>
+			<radius errorminus="0.01458" errorplus="0.01458">0.25972</radius>
+			<period errorminus="9.40000e-05" errorplus="9.40000e-05">19.747469000000</period>
+			<transittime errorminus="0.0024000" errorplus="0.0024000">2454980.1029000</transittime>
+			<semimajoraxis>0.1530000</semimajoraxis>
+			<temperature>763.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>762.0</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-1628 c</name>
+			<name>KOI-1628 02</name>
+			<radius errorminus="0.07837" errorplus="0.07837">0.11665</radius>
+			<period errorminus="1.00000e-05" errorplus="1.00000e-05">1.772427000000</period>
+			<transittime errorminus="0.0020000" errorplus="0.0020000">2454965.0945000</transittime>
+			<semimajoraxis errorminus="1.2e-07" errorplus="1.2e-07">0.0298907</semimajoraxis>
+			<temperature errorminus="307.0" errorplus="307.0">1943.0</temperature>
+			<list>Kepler Objects of Interest</list>
 		</planet>
 	</star>
 </system>

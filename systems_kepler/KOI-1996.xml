@@ -5,17 +5,18 @@
 	<distance>789.14</distance>
 	<star>
 		<name>KOI-1996</name>
-		<temperature>4619.00</temperature>
-		<radius>0.82</radius>
+		<temperature errorminus="200.00" errorplus="200.00">4619.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">0.8200</radius>
 		<planet>
 			<name>KOI-1996 b</name>
 			<name>KOI-1996 01</name>
-			<radius>0.21962</radius>
-			<period>10.131900</period>
-			<semimajoraxis>0.085</semimajoraxis>
+			<radius errorminus="0.08657" errorplus="0.08657">0.21962</radius>
+			<period errorminus="1.30000e-04" errorplus="1.30000e-04">10.131950000000</period>
+			<transittime errorminus="0.0058000" errorplus="0.0058000">2454965.9127000</transittime>
+			<semimajoraxis>0.0850000</semimajoraxis>
+			<temperature>634.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>531.1</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

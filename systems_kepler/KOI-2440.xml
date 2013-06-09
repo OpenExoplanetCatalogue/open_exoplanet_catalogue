@@ -5,18 +5,19 @@
 	<distance>650.33</distance>
 	<star>
 		<name>KOI-2440</name>
-		<temperature>5656.00</temperature>
-		<radius>0.96</radius>
-		<age>9.3000</age>
+		<temperature errorminus="76.00" errorplus="76.00">5656.00</temperature>
+		<radius errorminus="0.4600" errorplus="0.4600">0.9600</radius>
+		<age errorminus="3.6000" errorplus="3.6000">9.3000</age>
 		<planet>
 			<name>KOI-2440 b</name>
 			<name>KOI-2440 01</name>
-			<radius>0.11756</radius>
-			<period>4.866590</period>
-			<semimajoraxis>0.054</semimajoraxis>
+			<radius errorminus="0.05923" errorplus="0.05923">0.11756</radius>
+			<period errorminus="8.30000e-05" errorplus="8.30000e-05">4.866591000000</period>
+			<transittime errorminus="0.0059000" errorplus="0.0059000">2454967.0002000</transittime>
+			<semimajoraxis>0.0540000</semimajoraxis>
+			<temperature>1054.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>996.3</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

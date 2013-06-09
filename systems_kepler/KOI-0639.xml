@@ -4,22 +4,20 @@
 	<declination>+40 13 41</declination>
 	<distance>777.31</distance>
 	<star>
-		<magJ errorminus="0.024" errorplus="0.024">12.519</magJ>
-		<magH errorminus="0.025" errorplus="0.025">12.263</magH>
-		<magK errorminus="0.026" errorplus="0.026">12.208</magK>
 		<name>KOI-0639</name>
-		<temperature>6433.00</temperature>
-		<radius>1.11</radius>
-		<age>0.2400</age>
+		<temperature errorminus="100.00" errorplus="100.00">6433.00</temperature>
+		<radius errorminus="0.4600" errorplus="0.4600">1.1100</radius>
+		<age errorminus="0.8700" errorplus="0.8700">0.2400</age>
 		<planet>
 			<name>KOI-0639 b</name>
 			<name>KOI-0639 01</name>
-			<radius>0.24605</radius>
-			<period>17.979900</period>
-			<semimajoraxis>0.142</semimajoraxis>
+			<radius errorminus="0.10024" errorplus="0.10024">0.24605</radius>
+			<period errorminus="1.20000e-04" errorplus="1.20000e-04">17.979880000000</period>
+			<transittime errorminus="0.0023000" errorplus="0.0023000">2455015.2407000</transittime>
+			<semimajoraxis>0.1420000</semimajoraxis>
+			<temperature>795.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>729.4</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

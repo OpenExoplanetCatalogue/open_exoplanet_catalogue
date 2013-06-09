@@ -5,17 +5,19 @@
 	<distance>688.88</distance>
 	<star>
 		<name>KOI-3147</name>
-		<temperature>5765.00</temperature>
-		<radius>0.86</radius>
-		<age>0.4000</age>
+		<temperature errorminus="74.00" errorplus="74.00">5765.00</temperature>
+		<radius errorminus="0.3100" errorplus="0.3100">0.8600</radius>
+		<age errorminus="3.6000" errorplus="3.6000">0.4000</age>
 		<planet>
 			<name>KOI-3147 b</name>
 			<name>KOI-3147 01</name>
-			<radius>0.10662</radius>
-			<period>39.441100</period>
-			<semimajoraxis>0.224</semimajoraxis>
+			<radius errorminus="0.05741" errorplus="0.05741">0.10662</radius>
+			<period errorminus="1.10000e-03" errorplus="1.10000e-03">39.441100000000</period>
+			<transittime errorminus="0.0140000" errorplus="0.0140000">2455002.1460000</transittime>
+			<semimajoraxis>0.2240000</semimajoraxis>
+			<temperature>499.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

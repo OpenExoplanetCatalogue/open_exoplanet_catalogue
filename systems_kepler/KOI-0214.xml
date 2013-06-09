@@ -4,22 +4,20 @@
 	<declination>+48 34 38</declination>
 	<distance>661.72</distance>
 	<star>
-		<magJ errorminus="0.025" errorplus="0.025">12.905</magJ>
-		<magH errorminus="0.03" errorplus="0.03">12.60</magH>
-		<magK errorminus="0.022" errorplus="0.022">12.470</magK>
 		<name>KOI-0214</name>
-		<temperature>5478.00</temperature>
-		<radius>0.92</radius>
-		<age>12.2000</age>
+		<temperature errorminus="107.00" errorplus="107.00">5478.00</temperature>
+		<radius errorminus="0.4700" errorplus="0.4700">0.9200</radius>
+		<age errorminus="3.6000" errorplus="3.6000">12.2000</age>
 		<planet>
 			<name>KOI-0214 b</name>
 			<name>KOI-0214 01</name>
-			<radius>0.64703</radius>
-			<period>3.311860</period>
-			<semimajoraxis>0.041</semimajoraxis>
+			<radius errorminus="0.32807" errorplus="0.32807">0.64703</radius>
+			<period errorminus="1.60000e-06" errorplus="1.60000e-06">3.311862800000</period>
+			<transittime errorminus="0.0001400" errorplus="0.0001400">2454964.7420700</transittime>
+			<semimajoraxis>0.0410000</semimajoraxis>
+			<temperature>1143.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1104.2</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

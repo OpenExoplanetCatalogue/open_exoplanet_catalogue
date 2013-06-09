@@ -2,20 +2,22 @@
 	<name>KOI-2834</name>
 	<rightascension>19 14 09</rightascension>
 	<declination>+40 52 37</declination>
-	<distance>762.54</distance>
+	<distance>759.13</distance>
 	<star>
 		<name>KOI-2834</name>
-		<temperature>4786.00</temperature>
-		<radius>0.67</radius>
-		<age>13.9000</age>
+		<temperature errorminus="70.00" errorplus="70.00">4786.00</temperature>
+		<radius errorminus="0.0170" errorplus="0.0170">0.6670</radius>
+		<age errorminus="3.8000" errorplus="3.8000">13.9000</age>
 		<planet>
 			<name>KOI-2834 b</name>
 			<name>KOI-2834 01</name>
-			<radius>0.20595</radius>
-			<period>136.209000</period>
-			<semimajoraxis>0.457</semimajoraxis>
+			<radius errorminus="0.01002" errorplus="0.01002">0.20595</radius>
+			<period errorminus="1.80000e-03" errorplus="1.80000e-03">136.208900000000</period>
+			<transittime errorminus="0.0014000" errorplus="0.0014000">2455067.7128000</transittime>
+			<semimajoraxis>0.4570000</semimajoraxis>
+			<temperature>255.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

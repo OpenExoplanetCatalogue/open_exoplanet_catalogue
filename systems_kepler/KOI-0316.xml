@@ -4,41 +4,42 @@
 	<declination>+43 53 21</declination>
 	<distance>436.83</distance>
 	<star>
-		<magJ errorminus="0.021" errorplus="0.021">11.530</magJ>
-		<magH errorminus="0.018" errorplus="0.018">11.222</magH>
-		<magK errorminus="0.016" errorplus="0.016">11.167</magK>
 		<name>KOI-0316</name>
-		<temperature>5622.00</temperature>
-		<radius>1.18</radius>
-		<age>5.1000</age>
+		<temperature errorminus="53.00" errorplus="53.00">5622.00</temperature>
+		<radius errorminus="0.1500" errorplus="0.1500">1.1800</radius>
+		<age errorminus="1.7000" errorplus="1.7000">5.1000</age>
 		<planet>
 			<name>KOI-0316 b</name>
 			<name>KOI-0316 01</name>
-			<radius>0.23967</radius>
-			<period>16.000000</period>
-			<semimajoraxis>0.126</semimajoraxis>
+			<radius errorminus="0.03190" errorplus="0.03190">0.23967</radius>
+			<period errorminus="1.60000e+01" errorplus="1.60000e+01">16.000000000000</period>
+			<transittime errorminus="0.0000530" errorplus="0.0000530">2455017.9065420</transittime>
+			<semimajoraxis>0.1260000</semimajoraxis>
+			<temperature>758.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>758.6</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-0316 c</name>
 			<name>KOI-0316 02</name>
-			<radius>0.25516</radius>
-			<period>157.070000</period>
-			<semimajoraxis>0.586</semimajoraxis>
+			<radius errorminus="0.03372" errorplus="0.03372">0.25516</radius>
+			<period errorminus="2.00000e-03" errorplus="2.00000e-03">157.070200000000</period>
+			<transittime errorminus="0.0035000" errorplus="0.0035000">2455314.2644000</transittime>
+			<semimajoraxis>0.5860000</semimajoraxis>
+			<temperature>351.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>351.8</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-0316 d</name>
 			<name>KOI-0316 03</name>
-			<radius>0.19593</radius>
-			<period>7.305690</period>
-			<semimajoraxis>0.076</semimajoraxis>
+			<radius errorminus="0.02643" errorplus="0.02643">0.19593</radius>
+			<period errorminus="3.40000e-05" errorplus="3.40000e-05">7.305685000000</period>
+			<transittime errorminus="0.0022000" errorplus="0.0022000">2454964.7801000</transittime>
+			<semimajoraxis>0.0760000</semimajoraxis>
+			<temperature>976.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

@@ -4,22 +4,20 @@
 	<declination>+40 21 18</declination>
 	<distance>1126.21</distance>
 	<star>
-		<magJ errorminus="0.029" errorplus="0.029">14.180</magJ>
-		<magH errorminus="0.04" errorplus="0.04">13.84</magH>
-		<magK errorminus="0.05" errorplus="0.05">13.85</magK>
 		<name>KOI-1564</name>
-		<temperature>5796.00</temperature>
-		<radius>0.87</radius>
-		<age>0.4000</age>
+		<temperature errorminus="124.00" errorplus="124.00">5796.00</temperature>
+		<radius errorminus="0.2200" errorplus="0.2200">0.8700</radius>
+		<age errorminus="3.3000" errorplus="3.3000">0.4000</age>
 		<planet>
 			<name>KOI-1564 b</name>
 			<name>KOI-1564 01</name>
-			<radius>0.46476</radius>
-			<period>53.449600</period>
-			<semimajoraxis>0.276</semimajoraxis>
+			<radius errorminus="0.12758" errorplus="0.12758">0.46476</radius>
+			<period errorminus="1.90000e-04" errorplus="1.90000e-04">53.449650000000</period>
+			<transittime errorminus="0.0014000" errorplus="0.0014000">2454982.1993000</transittime>
+			<semimajoraxis>0.2760000</semimajoraxis>
+			<temperature>453.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>458.8</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

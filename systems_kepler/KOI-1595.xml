@@ -4,22 +4,20 @@
 	<declination>+46 57 13</declination>
 	<distance>1069.29</distance>
 	<star>
-		<magJ errorminus="0.021" errorplus="0.021">13.659</magJ>
-		<magH errorminus="0.020" errorplus="0.020">13.332</magH>
-		<magK errorminus="0.028" errorplus="0.028">13.260</magK>
 		<name>KOI-1595</name>
-		<temperature>5966.00</temperature>
-		<radius>0.93</radius>
-		<age>0.6000</age>
+		<temperature errorminus="100.00" errorplus="100.00">5966.00</temperature>
+		<radius errorminus="0.4300" errorplus="0.4300">0.9300</radius>
+		<age errorminus="2.5000" errorplus="2.5000">0.6000</age>
 		<planet>
 			<name>KOI-1595 b</name>
 			<name>KOI-1595 01</name>
-			<radius>0.27339</radius>
-			<period>40.110000</period>
-			<semimajoraxis>0.231</semimajoraxis>
+			<radius errorminus="0.12758" errorplus="0.12758">0.27339</radius>
+			<period errorminus="4.50000e-04" errorplus="4.50000e-04">40.109990000000</period>
+			<transittime errorminus="0.0042000" errorplus="0.0042000">2454975.0773000</transittime>
+			<semimajoraxis>0.2310000</semimajoraxis>
+			<temperature>527.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>499.4</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

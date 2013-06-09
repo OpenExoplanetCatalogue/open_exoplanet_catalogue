@@ -5,17 +5,19 @@
 	<distance>1364.11</distance>
 	<star>
 		<name>KOI-3115</name>
-		<temperature>5969.00</temperature>
-		<radius>1.00</radius>
-		<age>3.9000</age>
+		<temperature errorminus="133.00" errorplus="133.00">5969.00</temperature>
+		<radius errorminus="0.4500" errorplus="0.4500">1.0000</radius>
+		<age errorminus="2.3000" errorplus="2.3000">3.9000</age>
 		<planet>
 			<name>KOI-3115 b</name>
 			<name>KOI-3115 01</name>
-			<radius>0.14581</radius>
-			<period>5.865940</period>
-			<semimajoraxis>0.064</semimajoraxis>
+			<radius errorminus="0.06470" errorplus="0.06470">0.14581</radius>
+			<period errorminus="6.90000e-05" errorplus="6.90000e-05">5.865937000000</period>
+			<transittime errorminus="0.0059000" errorplus="0.0059000">2454969.3598000</transittime>
+			<semimajoraxis>0.0640000</semimajoraxis>
+			<temperature>1043.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

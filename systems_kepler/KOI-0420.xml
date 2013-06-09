@@ -2,24 +2,22 @@
 	<name>KOI-0420</name>
 	<rightascension>19 04 28</rightascension>
 	<declination>+44 20 43</declination>
-	<distance>389.02</distance>
+	<distance>387.32</distance>
 	<star>
-		<magJ errorminus="0.021" errorplus="0.021">12.588</magJ>
-		<magH errorminus="0.022" errorplus="0.022">12.107</magH>
-		<magK errorminus="0.016" errorplus="0.016">11.998</magK>
 		<name>KOI-0420</name>
-		<temperature>4860.00</temperature>
-		<radius>0.69</radius>
-		<age>13.8000</age>
+		<temperature errorminus="65.00" errorplus="65.00">4860.00</temperature>
+		<radius errorminus="0.0190" errorplus="0.0190">0.6870</radius>
+		<age errorminus="4.0000" errorplus="4.0000">13.8000</age>
 		<planet>
 			<name>KOI-0420 b</name>
 			<name>KOI-0420 01</name>
-			<radius>0.33263</radius>
-			<period>6.010370</period>
-			<semimajoraxis>0.058</semimajoraxis>
+			<radius errorminus="0.02278" errorplus="0.02278">0.33263</radius>
+			<period errorminus="5.00000e-06" errorplus="5.00000e-06">6.010373600000</period>
+			<transittime errorminus="0.0002700" errorplus="0.0002700">2455007.0847300</transittime>
+			<semimajoraxis>0.0580000</semimajoraxis>
+			<temperature>738.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>712.8</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

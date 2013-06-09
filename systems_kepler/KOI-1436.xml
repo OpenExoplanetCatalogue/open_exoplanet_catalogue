@@ -4,42 +4,42 @@
 	<declination>+49 13 58</declination>
 	<distance>733.48</distance>
 	<star>
-		<magJ errorminus="0.023" errorplus="0.023">13.146</magJ>
-		<magH errorminus="0.027" errorplus="0.027">12.824</magH>
-		<magK errorminus="0.027" errorplus="0.027">12.706</magK>
 		<name>KOI-1436</name>
-		<temperature>5811.00</temperature>
-		<radius>0.90</radius>
-		<age>2.4000</age>
+		<temperature errorminus="78.00" errorplus="78.00">5811.00</temperature>
+		<radius errorminus="0.4700" errorplus="0.4700">0.9000</radius>
+		<age errorminus="3.1000" errorplus="3.1000">2.4000</age>
 		<planet>
 			<name>KOI-1436 b</name>
 			<name>KOI-1436 01</name>
-			<radius>0.12849</radius>
-			<period>2.508570</period>
-			<semimajoraxis>0.036</semimajoraxis>
+			<radius errorminus="0.06744" errorplus="0.06744">0.12849</radius>
+			<period errorminus="2.50000e-05" errorplus="2.50000e-05">2.508567000000</period>
+			<transittime errorminus="0.0028000" errorplus="0.0028000">2454968.0087000</transittime>
+			<semimajoraxis>0.0360000</semimajoraxis>
+			<temperature>1283.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1227.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1436 c</name>
 			<name>KOI-1436 02</name>
-			<radius>0.17315</radius>
-			<period>13.751400</period>
-			<semimajoraxis>0.111</semimajoraxis>
+			<radius errorminus="0.09113" errorplus="0.09113">0.17315</radius>
+			<period errorminus="1.80000e-04" errorplus="1.80000e-04">13.751350000000</period>
+			<transittime errorminus="0.0044000" errorplus="0.0044000">2454977.6117000</transittime>
+			<semimajoraxis>0.1110000</semimajoraxis>
+			<temperature>731.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>695.6</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1436 d</name>
 			<name>KOI-1436 03</name>
-			<radius>0.13670</radius>
-			<period>5.419110</period>
-			<semimajoraxis>0.060</semimajoraxis>
+			<radius errorminus="0.07199" errorplus="0.07199">0.13670</radius>
+			<period errorminus="7.50000e-05" errorplus="7.50000e-05">5.419115000000</period>
+			<transittime errorminus="0.0045000" errorplus="0.0045000">2454964.6427000</transittime>
+			<semimajoraxis>0.0600000</semimajoraxis>
+			<temperature>994.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>945.4</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

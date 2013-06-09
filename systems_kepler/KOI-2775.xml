@@ -5,17 +5,19 @@
 	<distance>996.02</distance>
 	<star>
 		<name>KOI-2775</name>
-		<temperature>5680.00</temperature>
-		<radius>0.94</radius>
-		<age>7.8000</age>
+		<temperature errorminus="86.00" errorplus="86.00">5680.00</temperature>
+		<radius errorminus="0.5300" errorplus="0.5300">0.9400</radius>
+		<age errorminus="3.5000" errorplus="3.5000">7.8000</age>
 		<planet>
 			<name>KOI-2775 b</name>
 			<name>KOI-2775 01</name>
-			<radius>0.22783</radius>
-			<period>17.576700</period>
-			<semimajoraxis>0.128</semimajoraxis>
+			<radius errorminus="0.16403" errorplus="0.16403">0.22783</radius>
+			<period errorminus="9.70000e-05" errorplus="9.70000e-05">17.576681000000</period>
+			<transittime errorminus="0.0026000" errorplus="0.0026000">2454970.7378000</transittime>
+			<semimajoraxis>0.1280000</semimajoraxis>
+			<temperature>680.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

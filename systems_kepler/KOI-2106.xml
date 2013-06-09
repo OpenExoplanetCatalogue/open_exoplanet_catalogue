@@ -5,18 +5,19 @@
 	<distance>1039.67</distance>
 	<star>
 		<name>KOI-2106</name>
-		<temperature>5770.00</temperature>
-		<radius>0.86</radius>
-		<age>0.4000</age>
+		<temperature errorminus="106.00" errorplus="106.00">5770.00</temperature>
+		<radius errorminus="0.2900" errorplus="0.2900">0.8600</radius>
+		<age errorminus="3.6000" errorplus="3.6000">0.4000</age>
 		<planet>
 			<name>KOI-2106 b</name>
 			<name>KOI-2106 01</name>
-			<radius>0.20049</radius>
-			<period>9.753800</period>
-			<semimajoraxis>0.088</semimajoraxis>
+			<radius errorminus="0.09113" errorplus="0.09113">0.20049</radius>
+			<period errorminus="1.10000e-04" errorplus="1.10000e-04">9.753800000000</period>
+			<transittime errorminus="0.0042000" errorplus="0.0042000">2454967.0554000</transittime>
+			<semimajoraxis>0.0880000</semimajoraxis>
+			<temperature>797.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>767.4</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

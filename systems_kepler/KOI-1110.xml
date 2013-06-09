@@ -4,22 +4,20 @@
 	<declination>+38 05 18</declination>
 	<distance>1009.33</distance>
 	<star>
-		<magJ errorminus="0.023" errorplus="0.023">13.585</magJ>
-		<magH errorminus="0.026" errorplus="0.026">13.244</magH>
-		<magK errorminus="0.028" errorplus="0.028">13.202</magK>
 		<name>KOI-1110</name>
-		<temperature>5945.00</temperature>
-		<radius>0.93</radius>
-		<age>0.9000</age>
+		<temperature errorminus="110.00" errorplus="110.00">5945.00</temperature>
+		<radius errorminus="0.5100" errorplus="0.5100">0.9300</radius>
+		<age errorminus="2.6000" errorplus="2.6000">0.9000</age>
 		<planet>
 			<name>KOI-1110 b</name>
 			<name>KOI-1110 01</name>
-			<radius>0.14763</radius>
-			<period>8.734770</period>
-			<semimajoraxis>0.083</semimajoraxis>
+			<radius errorminus="0.08202" errorplus="0.08202">0.14763</radius>
+			<period errorminus="1.50000e-04" errorplus="1.50000e-04">8.734770000000</period>
+			<transittime errorminus="0.0063000" errorplus="0.0063000">2454968.0856000</transittime>
+			<semimajoraxis>0.0830000</semimajoraxis>
+			<temperature>876.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>826.0</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

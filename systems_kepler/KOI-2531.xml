@@ -5,17 +5,18 @@
 	<distance>660.44</distance>
 	<star>
 		<name>KOI-2531</name>
-		<temperature>4646.00</temperature>
-		<radius>0.74</radius>
+		<temperature errorminus="200.00" errorplus="200.00">4646.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">0.7400</radius>
 		<planet>
 			<name>KOI-2531 b</name>
 			<name>KOI-2531 01</name>
-			<radius>0.19137</radius>
-			<period>17.699300</period>
-			<semimajoraxis>0.122</semimajoraxis>
+			<radius errorminus="0.10936" errorplus="0.10936">0.19137</radius>
+			<period errorminus="3.90000e-04" errorplus="3.90000e-04">17.699310000000</period>
+			<transittime errorminus="0.0099000" errorplus="0.0099000">2454973.9621000</transittime>
+			<semimajoraxis>0.1220000</semimajoraxis>
+			<temperature>506.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>493.3</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

@@ -5,46 +5,51 @@
 	<distance>604.26</distance>
 	<star>
 		<name>KOI-1358</name>
-		<temperature>4601.00</temperature>
-		<radius>0.67</radius>
+		<temperature errorminus="200.00" errorplus="200.00">4601.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">0.6700</radius>
 		<planet>
 			<name>KOI-1358 b</name>
 			<name>KOI-1358 01</name>
-			<radius>0.19137</radius>
-			<period>5.644950</period>
-			<semimajoraxis>0.056</semimajoraxis>
+			<radius errorminus="0.09113" errorplus="0.09113">0.19137</radius>
+			<period errorminus="4.00000e-05" errorplus="4.00000e-05">5.644954000000</period>
+			<transittime errorminus="0.0016000" errorplus="0.0016000">2455189.7340000</transittime>
+			<semimajoraxis>0.0560000</semimajoraxis>
+			<temperature>703.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>701.7</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1358 c</name>
 			<name>KOI-1358 02</name>
-			<radius>0.14399</radius>
-			<period>8.743060</period>
-			<semimajoraxis>0.075</semimajoraxis>
+			<radius errorminus="0.06744" errorplus="0.06744">0.14399</radius>
+			<period errorminus="1.40000e-04" errorplus="1.40000e-04">8.743060000000</period>
+			<transittime errorminus="0.0039000" errorplus="0.0039000">2455191.5864000</transittime>
+			<semimajoraxis>0.0750000</semimajoraxis>
+			<temperature>608.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>606.4</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1358 d</name>
 			<name>KOI-1358 03</name>
-			<radius>0.10298</radius>
-			<period>3.648460</period>
-			<semimajoraxis>0.042</semimajoraxis>
+			<radius errorminus="0.04830" errorplus="0.04830">0.10298</radius>
+			<period errorminus="7.20000e-05" errorplus="7.20000e-05">3.648459000000</period>
+			<transittime errorminus="0.0045000" errorplus="0.0045000">2455188.3816000</transittime>
+			<semimajoraxis>0.0420000</semimajoraxis>
+			<temperature>812.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>810.3</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1358 e</name>
 			<name>KOI-1358 04</name>
-			<radius>0.09933</radius>
-			<period>2.345870</period>
-			<semimajoraxis>0.031</semimajoraxis>
+			<radius errorminus="0.04648" errorplus="0.04648">0.09933</radius>
+			<period errorminus="4.30000e-05" errorplus="4.30000e-05">2.345870000000</period>
+			<transittime errorminus="0.0038000" errorplus="0.0038000">2455187.1109000</transittime>
+			<semimajoraxis>0.0310000</semimajoraxis>
+			<temperature>945.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

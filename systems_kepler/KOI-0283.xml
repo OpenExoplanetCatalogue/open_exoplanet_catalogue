@@ -2,25 +2,22 @@
 	<name>KOI-0283</name>
 	<rightascension>19 14 07</rightascension>
 	<declination>+40 56 32</declination>
-	<distance>227.01</distance>
+	<distance>227.89</distance>
 	<star>
-		<magB errorminus="0.16" errorplus="0.16">12.22</magB>
-		<magV errorminus="0.10" errorplus="0.10">11.49</magV>
-		<magJ errorminus="0.022" errorplus="0.022">10.418</magJ>
-		<magH errorminus="0.022" errorplus="0.022">10.127</magH>
-		<magK errorminus="0.017" errorplus="0.017">10.079</magK>
 		<name>KOI-0283</name>
-		<temperature>5687.00</temperature>
-		<radius>1.03</radius>
-		<age>5.3000</age>
+		<temperature errorminus="44.00" errorplus="44.00">5687.00</temperature>
+		<radius errorminus="0.0980" errorplus="0.0980">1.0340</radius>
+		<age errorminus="2.5000" errorplus="2.5000">5.3000</age>
 		<planet>
 			<name>KOI-0283 c</name>
 			<name>KOI-0283 02</name>
-			<radius>0.07655</radius>
-			<period>25.517000</period>
-			<semimajoraxis>0.171</semimajoraxis>
+			<radius errorminus="0.00820" errorplus="0.00820">0.07655</radius>
+			<period errorminus="3.20000e-04" errorplus="3.20000e-04">25.517040000000</period>
+			<transittime errorminus="0.0063000" errorplus="0.0063000">2454987.4205000</transittime>
+			<semimajoraxis>0.1710000</semimajoraxis>
+			<temperature>617.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

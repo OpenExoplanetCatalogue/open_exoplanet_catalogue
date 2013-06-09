@@ -1,0 +1,30 @@
+<system>
+	<name>KOI-4431</name>
+	<rightascension>18 54 53</rightascension>
+	<declination>+46 52 44</declination>
+	<star>
+		<name>KOI-4431</name>
+		<radius errorminus=".0000" errorplus="0.0000">1.0000</radius>
+		<planet>
+			<name>KOI-4431 b</name>
+			<name>KOI-4431 01</name>
+			<radius errorminus="0.04557" errorplus="0.04557">0.07655</radius>
+			<period errorminus="2.60000e-04" errorplus="2.60000e-04">19.564330000000</period>
+			<transittime errorminus="0.0083000" errorplus="0.0083000">2454969.2989000</transittime>
+			<semimajoraxis errorminus="1.3e-06" errorplus="1.3e-06">0.1421260</semimajoraxis>
+			<temperature errorminus=".0" errorplus="0.0">676.4</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-4431 c</name>
+			<name>KOI-4431 02</name>
+			<radius errorminus="0.39186" errorplus="0.39186">0.10936</radius>
+			<period errorminus="1.00000e-02" errorplus="1.00000e-02">355.828000000000</period>
+			<transittime errorminus="0.0130000" errorplus="0.0130000">2455179.6310000</transittime>
+			<semimajoraxis errorminus="1.9e-05" errorplus="1.9e-05">0.9829340</semimajoraxis>
+			<temperature errorminus=".0" errorplus="0.0">257.2</temperature>
+			<list>Kepler Objects of Interest</list>
+		</planet>
+	</star>
+</system>

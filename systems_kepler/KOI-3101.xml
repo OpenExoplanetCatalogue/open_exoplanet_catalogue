@@ -5,17 +5,19 @@
 	<distance>1349.88</distance>
 	<star>
 		<name>KOI-3101</name>
-		<temperature>6111.00</temperature>
-		<radius>0.98</radius>
-		<age>0.5000</age>
+		<temperature errorminus="125.00" errorplus="125.00">6111.00</temperature>
+		<radius errorminus="0.4600" errorplus="0.4600">0.9800</radius>
+		<age errorminus="1.8000" errorplus="1.8000">0.5000</age>
 		<planet>
 			<name>KOI-3101 b</name>
 			<name>KOI-3101 01</name>
-			<radius>0.16403</radius>
-			<period>14.256500</period>
-			<semimajoraxis>0.118</semimajoraxis>
+			<radius errorminus="0.10024" errorplus="0.10024">0.16403</radius>
+			<period errorminus="2.20000e-04" errorplus="2.20000e-04">14.256520000000</period>
+			<transittime errorminus="0.0077000" errorplus="0.0077000">2454966.4015000</transittime>
+			<semimajoraxis>0.1180000</semimajoraxis>
+			<temperature>778.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

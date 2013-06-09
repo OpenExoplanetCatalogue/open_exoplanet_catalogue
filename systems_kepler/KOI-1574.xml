@@ -4,40 +4,42 @@
 	<declination>+46 57 54</declination>
 	<distance>781.83</distance>
 	<star>
-		<magJ errorminus="0.022" errorplus="0.022">13.389</magJ>
-		<magH errorminus="0.022" errorplus="0.022">13.033</magH>
-		<magK errorminus="0.024" errorplus="0.024">12.981</magK>
 		<name>KOI-1574</name>
-		<temperature>5723.00</temperature>
-		<radius>0.85</radius>
-		<age>0.5000</age>
+		<temperature errorminus="89.00" errorplus="89.00">5723.00</temperature>
+		<radius errorminus="0.2900" errorplus="0.2900">0.8500</radius>
+		<age errorminus="3.7000" errorplus="3.7000">0.5000</age>
 		<planet>
 			<name>KOI-1574 b</name>
 			<name>KOI-1574 01</name>
-			<radius>0.56501</radius>
-			<period>114.737000</period>
-			<semimajoraxis>0.455</semimajoraxis>
+			<radius errorminus="0.19137" errorplus="0.19137">0.56501</radius>
+			<period errorminus="3.10000e-04" errorplus="3.10000e-04">114.736530000000</period>
+			<transittime errorminus="0.0013000" errorplus="0.0013000">2454998.1507000</transittime>
+			<semimajoraxis>0.4550000</semimajoraxis>
+			<temperature>345.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>332.1</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1574 c</name>
 			<name>KOI-1574 02</name>
-			<radius>0.29162</radius>
-			<period>573.960000</period>
-			<semimajoraxis>1.332</semimajoraxis>
+			<radius errorminus="0.10024" errorplus="0.10024">0.29162</radius>
+			<period errorminus="1.10000e-02" errorplus="1.10000e-02">573.960000000000</period>
+			<transittime errorminus="0.0080000" errorplus="0.0080000">2455119.0823000</transittime>
+			<semimajoraxis>1.3320000</semimajoraxis>
+			<temperature>202.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1574 d</name>
 			<name>KOI-1574 03</name>
-			<radius>0.07108</radius>
-			<period>5.833430</period>
-			<semimajoraxis>0.062</semimajoraxis>
+			<radius errorminus="0.02461" errorplus="0.02461">0.07108</radius>
+			<period errorminus="1.50000e-04" errorplus="1.50000e-04">5.833430000000</period>
+			<transittime errorminus="0.0120000" errorplus="0.0120000">2454965.6550000</transittime>
+			<semimajoraxis>0.0620000</semimajoraxis>
+			<temperature>935.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

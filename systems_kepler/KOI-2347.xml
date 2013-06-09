@@ -2,21 +2,22 @@
 	<name>KOI-2347</name>
 	<rightascension>19 31 05</rightascension>
 	<declination>+44 10 41</declination>
-	<distance>293.94</distance>
+	<distance>295.05</distance>
 	<star>
 		<name>KOI-2347</name>
-		<temperature>4115.00</temperature>
-		<radius>0.53</radius>
-		<age>14.0000</age>
+		<temperature errorminus="63.00" errorplus="63.00">4115.00</temperature>
+		<radius errorminus="0.0098" errorplus="0.0098">0.5320</radius>
+		<age errorminus="3.4000" errorplus="3.4000">14.0000</age>
 		<planet>
 			<name>KOI-2347 b</name>
 			<name>KOI-2347 01</name>
-			<radius>0.09204</radius>
-			<period>0.587993</period>
-			<semimajoraxis>0.011</semimajoraxis>
+			<radius errorminus="0.00638" errorplus="0.00638">0.09204</radius>
+			<period errorminus="4.60000e-06" errorplus="4.60000e-06">0.587993300000</period>
+			<transittime errorminus="0.0006600" errorplus="0.0006600">2454965.0608600</transittime>
+			<semimajoraxis>0.0110000</semimajoraxis>
+			<temperature>1262.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1225.2</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

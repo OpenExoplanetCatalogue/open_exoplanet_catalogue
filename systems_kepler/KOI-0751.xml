@@ -4,22 +4,20 @@
 	<declination>+47 56 48</declination>
 	<distance>1092.51</distance>
 	<star>
-		<magJ errorminus="0.03" errorplus="0.03">14.45</magJ>
-		<magH errorminus="0.04" errorplus="0.04">14.02</magH>
-		<magK errorminus="0.05" errorplus="0.05">13.90</magK>
 		<name>KOI-0751</name>
-		<temperature>5249.00</temperature>
-		<radius>0.79</radius>
-		<age>9.7000</age>
+		<temperature errorminus="108.00" errorplus="108.00">5249.00</temperature>
+		<radius errorminus="0.3400" errorplus="0.3400">0.7900</radius>
+		<age errorminus="4.1000" errorplus="4.1000">9.7000</age>
 		<planet>
 			<name>KOI-0751 b</name>
 			<name>KOI-0751 01</name>
-			<radius>0.21871</radius>
-			<period>4.996780</period>
-			<semimajoraxis>0.053</semimajoraxis>
+			<radius errorminus="0.12758" errorplus="0.12758">0.21871</radius>
+			<period errorminus="4.60000e-05" errorplus="4.60000e-05">4.996777000000</period>
+			<transittime errorminus="0.0028000" errorplus="0.0028000">2455004.7410000</transittime>
+			<semimajoraxis>0.0530000</semimajoraxis>
+			<temperature>893.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>886.2</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

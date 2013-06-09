@@ -5,17 +5,19 @@
 	<distance>1059.96</distance>
 	<star>
 		<name>KOI-0948</name>
-		<temperature>5493.00</temperature>
-		<radius>0.79</radius>
-		<age>0.5000</age>
+		<temperature errorminus="73.00" errorplus="73.00">5493.00</temperature>
+		<radius errorminus="0.1400" errorplus="0.1400">0.7900</radius>
+		<age errorminus="3.6000" errorplus="3.6000">0.5000</age>
 		<planet>
 			<name>KOI-0948 b</name>
 			<name>KOI-0948 01</name>
-			<radius>0.21871</radius>
-			<period>24.587100</period>
-			<semimajoraxis>0.160</semimajoraxis>
+			<radius errorminus="0.04010" errorplus="0.04010">0.21871</radius>
+			<period errorminus="1.20000e-03" errorplus="1.20000e-03">24.587100000000</period>
+			<transittime errorminus="0.0009100" errorplus="0.0009100">2455006.7030400</transittime>
+			<semimajoraxis>0.1600000</semimajoraxis>
+			<temperature>538.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

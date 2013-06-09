@@ -5,17 +5,18 @@
 	<distance>1038.41</distance>
 	<star>
 		<name>KOI-2624</name>
-		<temperature>5779.00</temperature>
-		<radius>0.85</radius>
+		<temperature errorminus="200.00" errorplus="200.00">5779.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">0.8500</radius>
 		<planet>
 			<name>KOI-2624 b</name>
 			<name>KOI-2624 01</name>
-			<radius>0.25516</radius>
-			<period>115.688000</period>
-			<semimajoraxis>0.472</semimajoraxis>
+			<radius errorminus="0.12758" errorplus="0.12758">0.25516</radius>
+			<period errorminus="4.70000e-03" errorplus="4.70000e-03">115.687900000000</period>
+			<transittime errorminus="0.0130000" errorplus="0.0130000">2455079.9790000</transittime>
+			<semimajoraxis>0.4720000</semimajoraxis>
+			<temperature>342.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>348.4</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

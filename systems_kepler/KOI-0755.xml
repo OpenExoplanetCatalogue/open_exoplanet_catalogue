@@ -4,22 +4,20 @@
 	<declination>+48 13 34</declination>
 	<distance>1512.57</distance>
 	<star>
-		<magJ errorminus="0.03" errorplus="0.03">14.37</magJ>
-		<magH errorminus="0.05" errorplus="0.05">14.06</magH>
-		<magK errorminus="0.05" errorplus="0.05">13.95</magK>
 		<name>KOI-0755</name>
-		<temperature>5953.00</temperature>
-		<radius>1.00</radius>
-		<age>3.9000</age>
+		<temperature errorminus="119.00" errorplus="119.00">5953.00</temperature>
+		<radius errorminus="0.4400" errorplus="0.4400">1.0000</radius>
+		<age errorminus="2.4000" errorplus="2.4000">3.9000</age>
 		<planet>
 			<name>KOI-0755 b</name>
 			<name>KOI-0755 01</name>
-			<radius>0.25516</radius>
-			<period>2.525610</period>
-			<semimajoraxis>0.036</semimajoraxis>
+			<radius errorminus="0.11847" errorplus="0.11847">0.25516</radius>
+			<period errorminus="1.30000e-05" errorplus="1.30000e-05">2.525612000000</period>
+			<transittime errorminus="0.0015000" errorplus="0.0015000">2455004.5919000</transittime>
+			<semimajoraxis>0.0360000</semimajoraxis>
+			<temperature>1382.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1344.9</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

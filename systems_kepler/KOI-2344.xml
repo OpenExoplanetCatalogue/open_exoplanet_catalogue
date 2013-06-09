@@ -2,21 +2,22 @@
 	<name>KOI-2344</name>
 	<rightascension>19 46 24</rightascension>
 	<declination>+44 07 45</declination>
-	<distance>568.35</distance>
+	<distance>567.39</distance>
 	<star>
 		<name>KOI-2344</name>
-		<temperature>4450.00</temperature>
-		<radius>0.59</radius>
-		<age>13.3000</age>
+		<temperature errorminus="61.00" errorplus="61.00">4450.00</temperature>
+		<radius errorminus="0.0120" errorplus="0.0120">0.5890</radius>
+		<age errorminus="3.6000" errorplus="3.6000">13.3000</age>
 		<planet>
 			<name>KOI-2344 b</name>
 			<name>KOI-2344 01</name>
-			<radius>0.09204</radius>
-			<period>1.118560</period>
-			<semimajoraxis>0.018</semimajoraxis>
+			<radius errorminus="0.01094" errorplus="0.01094">0.09204</radius>
+			<period errorminus="1.40000e-05" errorplus="1.40000e-05">1.118557000000</period>
+			<transittime errorminus="0.0023000" errorplus="0.0023000">2454965.8455000</transittime>
+			<semimajoraxis>0.0180000</semimajoraxis>
+			<temperature>1123.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1101.8</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

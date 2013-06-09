@@ -4,24 +4,20 @@
 	<declination>+46 52 06</declination>
 	<distance>735.73</distance>
 	<star>
-		<magB>10.16</magB>
-		<magV>9.95</magV>
-		<magJ errorminus="0.022" errorplus="0.022">9.466</magJ>
-		<magH errorminus="0.019" errorplus="0.019">9.455</magH>
-		<magK errorminus="0.014" errorplus="0.014">9.425</magK>
 		<name>KOI-0013</name>
-		<temperature>9071.00</temperature>
-		<radius>2.70</radius>
-		<age>0.5800</age>
+		<temperature errorminus="200.00" errorplus="200.00">9071.00</temperature>
+		<radius errorminus="1.9000" errorplus="1.9000">2.7000</radius>
+		<age errorminus="0.1300" errorplus="0.1300">0.5800</age>
 		<planet>
 			<name>KOI-0013 b</name>
 			<name>KOI-0013 01</name>
-			<radius>2.09600</radius>
-			<period>1.763590</period>
-			<semimajoraxis>0.038</semimajoraxis>
+			<radius errorminus="1.45808" errorplus="1.45808">2.09600</radius>
+			<period errorminus="1.00000e-06" errorplus="1.00000e-06">1.763587700000</period>
+			<transittime errorminus="0.0000100" errorplus="0.0000100">2454953.5651260</transittime>
+			<semimajoraxis>0.0380000</semimajoraxis>
+			<temperature>3370.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a confirmed planet by the Kepler team and might have already appear in a peer reviewed paper.</description>
-			<temperature>3320.3</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

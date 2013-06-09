@@ -4,42 +4,42 @@
 	<declination>+45 58 36</declination>
 	<distance>1060.71</distance>
 	<star>
-		<magJ errorminus="0.027" errorplus="0.027">14.227</magJ>
-		<magH errorminus="0.026" errorplus="0.026">13.854</magH>
-		<magK errorminus="0.04" errorplus="0.04">13.69</magK>
 		<name>KOI-0938</name>
-		<temperature>5463.00</temperature>
-		<radius>0.80</radius>
-		<age>2.4000</age>
+		<temperature errorminus="128.00" errorplus="128.00">5463.00</temperature>
+		<radius errorminus="0.3800" errorplus="0.3800">0.8000</radius>
+		<age errorminus="4.0000" errorplus="4.0000">2.4000</age>
 		<planet>
 			<name>KOI-0938 b</name>
 			<name>KOI-0938 01</name>
-			<radius>0.26428</radius>
-			<period>9.946050</period>
-			<semimajoraxis>0.087</semimajoraxis>
+			<radius errorminus="0.12758" errorplus="0.12758">0.26428</radius>
+			<period errorminus="6.70000e-05" errorplus="6.70000e-05">9.946049000000</period>
+			<transittime errorminus="0.0024000" errorplus="0.0024000">2455004.7003000</transittime>
+			<semimajoraxis>0.0870000</semimajoraxis>
+			<temperature>729.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>728.1</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-0938 c</name>
 			<name>KOI-0938 02</name>
-			<radius>0.11665</radius>
-			<period>1.045630</period>
-			<semimajoraxis>0.019</semimajoraxis>
+			<radius errorminus="0.05650" errorplus="0.05650">0.11665</radius>
+			<period errorminus="1.40000e-05" errorplus="1.40000e-05">1.045632000000</period>
+			<transittime errorminus="0.0024000" errorplus="0.0024000">2454966.9141000</transittime>
+			<semimajoraxis>0.0190000</semimajoraxis>
+			<temperature>1561.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1544.6</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-0938 d</name>
 			<name>KOI-0938 03</name>
-			<radius>0.14672</radius>
-			<period>5.714420</period>
-			<semimajoraxis>0.060</semimajoraxis>
+			<radius errorminus="0.07108" errorplus="0.07108">0.14672</radius>
+			<period errorminus="1.00000e-04" errorplus="1.00000e-04">5.714420000000</period>
+			<transittime errorminus="0.0064000" errorplus="0.0064000">2454965.6477000</transittime>
+			<semimajoraxis>0.0600000</semimajoraxis>
+			<temperature>878.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>877.3</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

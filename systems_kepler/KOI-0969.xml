@@ -2,19 +2,21 @@
 	<name>KOI-0969</name>
 	<rightascension>19 10 27</rightascension>
 	<declination>+39 07 38</declination>
-	<distance>374.65</distance>
+	<distance>375.36</distance>
 	<star>
 		<name>KOI-0969</name>
-		<temperature>5975.00</temperature>
-		<radius>1.06</radius>
+		<temperature errorminus="" errorplus="">5975.00</temperature>
+		<radius errorminus="" errorplus="">1.0620</radius>
 		<planet>
 			<name>KOI-0969 b</name>
 			<name>KOI-0969 01</name>
-			<radius>0.77370</radius>
-			<period>17.512000</period>
-			<semimajoraxis>0.133</semimajoraxis>
+			<radius errorminus="0.00547" errorplus="0.00547">0.77370</radius>
+			<period errorminus="4.40000e-06" errorplus="4.40000e-06">17.512009200000</period>
+			<transittime errorminus="0.0001200" errorplus="0.0001200">2455007.2818500</transittime>
+			<semimajoraxis>0.1330000</semimajoraxis>
+			<temperature>745.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

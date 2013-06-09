@@ -4,22 +4,20 @@
 	<declination>+49 15 52</declination>
 	<distance>628.31</distance>
 	<star>
-		<magJ errorminus="0.026" errorplus="0.026">12.275</magJ>
-		<magH errorminus="0.03" errorplus="0.03">11.94</magH>
-		<magK errorminus="0.021" errorplus="0.021">11.923</magK>
 		<name>KOI-0350</name>
-		<temperature>6018.00</temperature>
-		<radius>1.08</radius>
-		<age>5.0000</age>
+		<temperature errorminus="91.00" errorplus="91.00">6018.00</temperature>
+		<radius errorminus="0.4700" errorplus="0.4700">1.0800</radius>
+		<age errorminus="1.9000" errorplus="1.9000">5.0000</age>
 		<planet>
 			<name>KOI-0350 b</name>
 			<name>KOI-0350 01</name>
-			<radius>0.21871</radius>
-			<period>12.991600</period>
-			<semimajoraxis>0.109</semimajoraxis>
+			<radius errorminus="0.10024" errorplus="0.10024">0.21871</radius>
+			<period errorminus="7.80000e-05" errorplus="7.80000e-05">12.991603000000</period>
+			<transittime errorminus="0.0018000" errorplus="0.0018000">2455010.2206000</transittime>
+			<semimajoraxis>0.1090000</semimajoraxis>
+			<temperature>836.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>801.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

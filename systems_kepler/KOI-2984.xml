@@ -5,17 +5,19 @@
 	<distance>640.07</distance>
 	<star>
 		<name>KOI-2984</name>
-		<temperature>6031.00</temperature>
-		<radius>1.27</radius>
-		<age>6.3000</age>
+		<temperature errorminus="86.00" errorplus="86.00">6031.00</temperature>
+		<radius errorminus="0.5100" errorplus="0.5100">1.2700</radius>
+		<age errorminus="1.7000" errorplus="1.7000">6.3000</age>
 		<planet>
 			<name>KOI-2984 b</name>
 			<name>KOI-2984 01</name>
-			<radius>0.12303</radius>
-			<period>11.455500</period>
-			<semimajoraxis>0.101</semimajoraxis>
+			<radius errorminus="0.06653" errorplus="0.06653">0.12303</radius>
+			<period errorminus="1.90000e-04" errorplus="1.90000e-04">11.455470000000</period>
+			<transittime errorminus="0.0081000" errorplus="0.0081000">2454969.3254000</transittime>
+			<semimajoraxis>0.1010000</semimajoraxis>
+			<temperature>944.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

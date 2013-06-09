@@ -4,21 +4,19 @@
 	<declination>+41 36 54</declination>
 	<distance>1088.70</distance>
 	<star>
-		<magJ errorminus="0.025" errorplus="0.025">13.553</magJ>
-		<magH errorminus="0.028" errorplus="0.028">13.244</magH>
-		<magK errorminus="0.03" errorplus="0.03">13.15</magK>
 		<name>KOI-0452</name>
-		<temperature>5935.00</temperature>
-		<radius>1.08</radius>
+		<temperature errorminus="200.00" errorplus="200.00">5935.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">1.0800</radius>
 		<planet>
 			<name>KOI-0452 b</name>
 			<name>KOI-0452 01</name>
-			<radius>0.23238</radius>
-			<period>3.705970</period>
-			<semimajoraxis>0.048</semimajoraxis>
+			<radius errorminus="0.06470" errorplus="0.06470">0.23238</radius>
+			<period errorminus="1.80000e-05" errorplus="1.80000e-05">3.705970000000</period>
+			<transittime errorminus="0.0015000" errorplus="0.0015000">2455002.9436000</transittime>
+			<semimajoraxis>0.0480000</semimajoraxis>
+			<temperature>1242.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1232.3</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

@@ -1,0 +1,30 @@
+<system>
+	<name>KOI-3685</name>
+	<rightascension>19 25 58</rightascension>
+	<declination>+44 31 24</declination>
+	<star>
+		<name>KOI-3685</name>
+		<radius errorminus=".0000" errorplus="0.0000">1.0110</radius>
+		<planet>
+			<name>KOI-3685 b</name>
+			<name>KOI-3685 01</name>
+			<radius errorminus="0.35541" errorplus="0.35541">2.21447</radius>
+			<period errorminus="1.30000e-04" errorplus="1.30000e-04">208.869080000000</period>
+			<transittime errorminus="0.0003100" errorplus="0.0003100">2455106.6915900</transittime>
+			<semimajoraxis errorminus="2.9e-07" errorplus="2.9e-07">0.6846160</semimajoraxis>
+			<temperature errorminus="64.0" errorplus="64.0">317.0</temperature>
+			<list>Kepler Objects of Interest</list>
+		</planet>
+		<planet>
+			<name>KOI-3685 c</name>
+			<name>KOI-3685 02</name>
+			<radius errorminus="0.10936" errorplus="0.10936">0.14581</radius>
+			<period errorminus="4.50000e-05" errorplus="4.50000e-05">7.259350000000</period>
+			<transittime errorminus="0.0036000" errorplus="0.0036000">2454964.7079000</transittime>
+			<semimajoraxis errorminus="3.0e-07" errorplus="3.0e-07">0.0729116</semimajoraxis>
+			<temperature errorminus="197.0" errorplus="197.0">973.0</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+	</star>
+</system>

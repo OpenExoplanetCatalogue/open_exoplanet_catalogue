@@ -4,41 +4,42 @@
 	<declination>+47 51 51</declination>
 	<distance>1259.31</distance>
 	<star>
-		<magJ errorminus="0.024" errorplus="0.024">13.780</magJ>
-		<magH errorminus="0.028" errorplus="0.028">13.450</magH>
-		<magK errorminus="0.05" errorplus="0.05">13.51</magK>
 		<name>KOI-0597</name>
-		<temperature>6107.00</temperature>
-		<radius>1.04</radius>
-		<age>2.5000</age>
+		<temperature errorminus="102.00" errorplus="102.00">6107.00</temperature>
+		<radius errorminus="0.3800" errorplus="0.3800">1.0400</radius>
+		<age errorminus="1.7000" errorplus="1.7000">2.5000</age>
 		<planet>
 			<name>KOI-0597 b</name>
 			<name>KOI-0597 01</name>
-			<radius>0.24150</radius>
-			<period>17.306900</period>
-			<semimajoraxis>0.133</semimajoraxis>
+			<radius errorminus="0.08840" errorplus="0.08840">0.24150</radius>
+			<period errorminus="1.20000e-04" errorplus="1.20000e-04">17.306930000000</period>
+			<transittime errorminus="0.0034000" errorplus="0.0034000">2455009.9820000</transittime>
+			<semimajoraxis>0.1330000</semimajoraxis>
+			<temperature>752.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>710.8</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-0597 c</name>
 			<name>KOI-0597 02</name>
-			<radius>0.13305</radius>
-			<period>2.092280</period>
-			<semimajoraxis>0.033</semimajoraxis>
+			<radius errorminus="0.04921" errorplus="0.04921">0.13305</radius>
+			<period errorminus="1.70000e-05" errorplus="1.70000e-05">2.092282000000</period>
+			<transittime errorminus="0.0026000" errorplus="0.0026000">2454966.0604000</transittime>
+			<semimajoraxis>0.0330000</semimajoraxis>
+			<temperature>1510.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1438.7</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-0597 d</name>
 			<name>KOI-0597 03</name>
-			<radius>0.22145</radius>
-			<period>52.814800</period>
-			<semimajoraxis>0.280</semimajoraxis>
+			<radius errorminus="0.08111" errorplus="0.08111">0.22145</radius>
+			<period errorminus="8.60000e-04" errorplus="8.60000e-04">52.814760000000</period>
+			<transittime errorminus="0.0081000" errorplus="0.0081000">2454997.9064000</transittime>
+			<semimajoraxis>0.2800000</semimajoraxis>
+			<temperature>518.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

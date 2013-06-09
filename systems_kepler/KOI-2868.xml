@@ -5,16 +5,18 @@
 	<distance>874.62</distance>
 	<star>
 		<name>KOI-2868</name>
-		<temperature>5392.00</temperature>
-		<radius>0.57</radius>
+		<temperature errorminus="200.00" errorplus="200.00">5392.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">0.5700</radius>
 		<planet>
 			<name>KOI-2868 b</name>
 			<name>KOI-2868 01</name>
-			<radius>0.14581</radius>
-			<period>10.652700</period>
-			<semimajoraxis>0.092</semimajoraxis>
+			<radius errorminus="0.07655" errorplus="0.07655">0.14581</radius>
+			<period errorminus="2.10000e-04" errorplus="2.10000e-04">10.652720000000</period>
+			<transittime errorminus="0.0110000" errorplus="0.0110000">2454969.0890000</transittime>
+			<semimajoraxis>0.0920000</semimajoraxis>
+			<temperature>595.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

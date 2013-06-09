@@ -5,25 +5,29 @@
 	<distance>299.16</distance>
 	<star>
 		<name>KOI-2704</name>
-		<temperature>3240.00</temperature>
-		<radius>0.27</radius>
+		<temperature errorminus="" errorplus="">3240.00</temperature>
+		<radius errorminus="" errorplus="">0.2700</radius>
 		<planet>
 			<name>KOI-2704 b</name>
 			<name>KOI-2704 01</name>
-			<radius>0.19046</radius>
-			<period>4.871170</period>
-			<semimajoraxis>0.033</semimajoraxis>
+			<radius errorminus="0.06288" errorplus="0.06288">0.19046</radius>
+			<period errorminus="2.90000e-05" errorplus="2.90000e-05">4.871172000000</period>
+			<transittime errorminus="0.0036000" errorplus="0.0036000">2454966.6476000</transittime>
+			<semimajoraxis>0.0330000</semimajoraxis>
+			<temperature>409.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-2704 c</name>
 			<name>KOI-2704 02</name>
-			<radius>0.13032</radius>
-			<period>2.984160</period>
-			<semimajoraxis>0.024</semimajoraxis>
+			<radius errorminus="0.04557" errorplus="0.04557">0.13032</radius>
+			<period errorminus="3.70000e-05" errorplus="3.70000e-05">2.984165000000</period>
+			<transittime errorminus="0.0075000" errorplus="0.0075000">2454966.1167000</transittime>
+			<semimajoraxis>0.0240000</semimajoraxis>
+			<temperature>479.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

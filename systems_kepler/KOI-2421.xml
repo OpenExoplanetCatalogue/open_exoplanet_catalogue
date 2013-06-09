@@ -2,21 +2,22 @@
 	<name>KOI-2421</name>
 	<rightascension>19 53 40</rightascension>
 	<declination>+45 04 17</declination>
-	<distance>384.67</distance>
+	<distance>387.03</distance>
 	<star>
 		<name>KOI-2421</name>
-		<temperature>4848.00</temperature>
-		<radius>0.65</radius>
-		<age>3.6000</age>
+		<temperature errorminus="68.00" errorplus="68.00">4848.00</temperature>
+		<radius errorminus="0.0180" errorplus="0.0180">0.6540</radius>
+		<age errorminus="3.8000" errorplus="3.8000">3.6000</age>
 		<planet>
 			<name>KOI-2421 b</name>
 			<name>KOI-2421 01</name>
-			<radius>0.06561</radius>
-			<period>2.270400</period>
-			<semimajoraxis>0.030</semimajoraxis>
+			<radius errorminus="0.00638" errorplus="0.00638">0.06561</radius>
+			<period errorminus="4.40000e-05" errorplus="4.40000e-05">2.270395000000</period>
+			<transittime errorminus="0.0057000" errorplus="0.0057000">2454966.5572000</transittime>
+			<semimajoraxis>0.0300000</semimajoraxis>
+			<temperature>998.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>861.4</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

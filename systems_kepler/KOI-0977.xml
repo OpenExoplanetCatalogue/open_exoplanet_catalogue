@@ -5,18 +5,19 @@
 	<distance>1252.72</distance>
 	<star>
 		<name>KOI-0977</name>
-		<temperature>4204.00</temperature>
-		<radius>16.50</radius>
-		<age>12.3000</age>
+		<temperature errorminus="50.00" errorplus="50.00">4204.00</temperature>
+		<radius errorminus="1.5000" errorplus="1.5000">16.5000</radius>
+		<age errorminus="1.2000" errorplus="1.2000">12.3000</age>
 		<planet>
 			<name>KOI-0977 b</name>
 			<name>KOI-0977 01</name>
-			<radius>5.78677</radius>
-			<period>1.353780</period>
-			<semimajoraxis>0.024</semimajoraxis>
+			<radius errorminus="0.51033" errorplus="0.51033">5.78677</radius>
+			<period errorminus="6.30000e-06" errorplus="6.30000e-06">1.353776300000</period>
+			<transittime errorminus="0.0010000" errorplus="0.0010000">2455094.4343700</transittime>
+			<semimajoraxis>0.0240000</semimajoraxis>
+			<temperature>4859.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>4857.4</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

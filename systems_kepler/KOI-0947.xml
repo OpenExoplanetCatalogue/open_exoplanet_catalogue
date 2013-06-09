@@ -2,24 +2,22 @@
 	<name>KOI-0947</name>
 	<rightascension>19 27 27</rightascension>
 	<declination>+46 25 45</declination>
-	<distance>297.55</distance>
+	<distance>299.30</distance>
 	<star>
-		<magJ errorminus="0.023" errorplus="0.023">12.910</magJ>
-		<magH errorminus="0.020" errorplus="0.020">12.293</magH>
-		<magK errorminus="0.023" errorplus="0.023">12.097</magK>
 		<name>KOI-0947</name>
-		<temperature>3979.00</temperature>
-		<radius>0.51</radius>
-		<age>14.0000</age>
+		<temperature errorminus="200.00" errorplus="200.00">3979.00</temperature>
+		<radius errorminus="0.0250" errorplus="0.0250">0.5130</radius>
+		<age errorminus="3.6000" errorplus="3.6000">14.0000</age>
 		<planet>
 			<name>KOI-0947 b</name>
 			<name>KOI-0947 01</name>
-			<radius>0.22600</radius>
-			<period>28.598800</period>
-			<semimajoraxis>0.149</semimajoraxis>
+			<radius errorminus="0.01458" errorplus="0.01458">0.22600</radius>
+			<period errorminus="1.90000e-04" errorplus="1.90000e-04">28.598780000000</period>
+			<transittime errorminus="0.0020000" errorplus="0.0020000">2455022.9282000</transittime>
+			<semimajoraxis>0.1490000</semimajoraxis>
+			<temperature>326.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>295.6</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

@@ -5,17 +5,19 @@
 	<distance>1002.51</distance>
 	<star>
 		<name>KOI-3108</name>
-		<temperature>5855.00</temperature>
-		<radius>0.89</radius>
-		<age>0.5000</age>
+		<temperature errorminus="88.00" errorplus="88.00">5855.00</temperature>
+		<radius errorminus="0.2400" errorplus="0.2400">0.8900</radius>
+		<age errorminus="3.0000" errorplus="3.0000">0.5000</age>
 		<planet>
 			<name>KOI-3108 b</name>
 			<name>KOI-3108 01</name>
-			<radius>0.20049</radius>
-			<period>7.362800</period>
-			<semimajoraxis>0.074</semimajoraxis>
+			<radius errorminus="0.10024" errorplus="0.10024">0.20049</radius>
+			<period errorminus="4.30000e-05" errorplus="4.30000e-05">7.362798000000</period>
+			<transittime errorminus="0.0025000" errorplus="0.0025000">2454969.8571000</transittime>
+			<semimajoraxis>0.0740000</semimajoraxis>
+			<temperature>895.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

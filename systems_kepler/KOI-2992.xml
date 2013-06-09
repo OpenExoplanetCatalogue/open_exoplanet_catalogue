@@ -2,20 +2,22 @@
 	<name>KOI-2992</name>
 	<rightascension>19 46 56</rightascension>
 	<declination>+44 30 05</declination>
-	<distance>482.17</distance>
+	<distance>485.81</distance>
 	<star>
 		<name>KOI-2992</name>
-		<temperature>4128.00</temperature>
-		<radius>0.53</radius>
-		<age>13.8000</age>
+		<temperature errorminus="68.00" errorplus="68.00">4128.00</temperature>
+		<radius errorminus="0.0100" errorplus="0.0100">0.5340</radius>
+		<age errorminus="3.5000" errorplus="3.5000">13.8000</age>
 		<planet>
 			<name>KOI-2992 b</name>
 			<name>KOI-2992 01</name>
-			<radius>1.69502</radius>
-			<period>82.659900</period>
-			<semimajoraxis>0.306</semimajoraxis>
+			<radius errorminus="0.84751" errorplus="0.84751">1.69502</radius>
+			<period errorminus="1.40000e-03" errorplus="1.40000e-03">82.659900000000</period>
+			<transittime errorminus="0.0089000" errorplus="0.0089000">2454985.6709000</transittime>
+			<semimajoraxis>0.3060000</semimajoraxis>
+			<temperature>241.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

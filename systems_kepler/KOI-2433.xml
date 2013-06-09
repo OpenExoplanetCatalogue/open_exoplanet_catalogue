@@ -5,27 +5,59 @@
 	<distance>1433.03</distance>
 	<star>
 		<name>KOI-2433</name>
-		<temperature>6084.00</temperature>
-		<radius>1.04</radius>
+		<temperature errorminus="200.00" errorplus="200.00">6084.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">1.0400</radius>
 		<planet>
 			<name>KOI-2433 b</name>
 			<name>KOI-2433 01</name>
-			<radius>0.20504</radius>
-			<period>15.163400</period>
-			<semimajoraxis>0.124</semimajoraxis>
+			<radius errorminus="0.06015" errorplus="0.06015">0.20504</radius>
+			<period errorminus="6.10000e-04" errorplus="6.10000e-04">15.163430000000</period>
+			<transittime errorminus="0.0180000" errorplus="0.0180000">2454977.4410000</transittime>
+			<semimajoraxis>0.1240000</semimajoraxis>
+			<temperature>779.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>773.2</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-2433 c</name>
 			<name>KOI-2433 02</name>
-			<radius>0.22783</radius>
-			<period>10.043300</period>
-			<semimajoraxis>0.094</semimajoraxis>
+			<radius errorminus="0.06561" errorplus="0.06561">0.22783</radius>
+			<period errorminus="2.60000e-04" errorplus="2.60000e-04">10.043280000000</period>
+			<transittime errorminus="0.0065000" errorplus="0.0065000">2455186.6266000</transittime>
+			<semimajoraxis>0.0940000</semimajoraxis>
+			<temperature>895.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>888.0</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-2433 d</name>
+			<name>KOI-2433 03</name>
+			<radius errorminus="0.33718" errorplus="0.33718">0.20960</radius>
+			<period errorminus="1.30000e-03" errorplus="1.30000e-03">56.416300000000</period>
+			<transittime errorminus="0.0140000" errorplus="0.0140000">2454996.1130000</transittime>
+			<semimajoraxis errorminus="4.5e-06" errorplus="4.5e-06">0.2976540</semimajoraxis>
+			<temperature errorminus=".0" errorplus="0.0">502.9</temperature>
+			<list>Kepler Objects of Interest</list>
+		</planet>
+		<planet>
+			<name>KOI-2433 e</name>
+			<name>KOI-2433 04</name>
+			<radius errorminus="0.45565" errorplus="0.45565">0.17315</radius>
+			<period errorminus="6.70000e-04" errorplus="6.70000e-04">27.904160000000</period>
+			<transittime errorminus="0.0160000" errorplus="0.0160000">2454987.9400000</transittime>
+			<semimajoraxis errorminus="3.0e-06" errorplus="3.0e-06">0.1861600</semimajoraxis>
+			<temperature errorminus=".0" errorplus="0.0">635.9</temperature>
+			<list>Kepler Objects of Interest</list>
+		</planet>
+		<planet>
+			<name>KOI-2433 f</name>
+			<name>KOI-2433 05</name>
+			<radius errorminus="0.03645" errorplus="0.03645">0.14034</radius>
+			<period errorminus="1.50000e-05" errorplus="1.50000e-05">0.646738000000</period>
+			<transittime errorminus="0.0019000" errorplus="0.0019000">2454965.0227000</transittime>
+			<semimajoraxis errorminus="2.4e-07" errorplus="2.4e-07">0.0151331</semimajoraxis>
+			<temperature errorminus=".0" errorplus="0.0">2230.4</temperature>
+			<list>Kepler Objects of Interest</list>
 		</planet>
 	</star>
 </system>

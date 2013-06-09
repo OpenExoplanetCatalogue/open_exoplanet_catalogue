@@ -2,20 +2,21 @@
 	<name>KOI-1852</name>
 	<rightascension>19 13 40</rightascension>
 	<declination>+46 35 25</declination>
-	<distance>541.88</distance>
+	<distance>540.32</distance>
 	<star>
 		<name>KOI-1852</name>
-		<temperature>5939.00</temperature>
-		<radius>1.04</radius>
+		<temperature errorminus="" errorplus="">5939.00</temperature>
+		<radius errorminus="" errorplus="">1.0370</radius>
 		<planet>
 			<name>KOI-1852 b</name>
 			<name>KOI-1852 01</name>
-			<radius>0.22145</radius>
-			<period>15.773800</period>
-			<semimajoraxis>0.124</semimajoraxis>
+			<radius errorminus="0.00365" errorplus="0.00365">0.22145</radius>
+			<period errorminus="1.20000e-04" errorplus="1.20000e-04">15.773780000000</period>
+			<transittime errorminus="0.0030000" errorplus="0.0030000">2454970.5310000</transittime>
+			<semimajoraxis>0.1240000</semimajoraxis>
+			<temperature>758.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>763.1</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

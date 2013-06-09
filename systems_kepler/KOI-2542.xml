@@ -2,21 +2,22 @@
 	<name>KOI-2542</name>
 	<rightascension>18 53 36</rightascension>
 	<declination>+41 30 58</declination>
-	<distance>285.26</distance>
+	<distance>288.23</distance>
 	<star>
 		<name>KOI-2542</name>
-		<temperature>3716.00</temperature>
-		<radius>0.48</radius>
-		<age>13.8000</age>
+		<temperature errorminus="200.00" errorplus="200.00">3716.00</temperature>
+		<radius errorminus="0.0210" errorplus="0.0210">0.4850</radius>
+		<age errorminus="3.5000" errorplus="3.5000">13.8000</age>
 		<planet>
 			<name>KOI-2542 b</name>
 			<name>KOI-2542 01</name>
-			<radius>0.09295</radius>
-			<period>0.727315</period>
-			<semimajoraxis>0.013</semimajoraxis>
+			<radius errorminus="0.01823" errorplus="0.01823">0.09295</radius>
+			<period errorminus="1.10000e-05" errorplus="1.10000e-05">0.727315000000</period>
+			<transittime errorminus="0.0015000" errorplus="0.0015000">2454965.3757000</transittime>
+			<semimajoraxis>0.0130000</semimajoraxis>
+			<temperature>1001.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>984.8</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

@@ -4,22 +4,20 @@
 	<declination>+38 32 54</declination>
 	<distance>496.10</distance>
 	<star>
-		<magJ errorminus="0.021" errorplus="0.021">12.210</magJ>
-		<magH errorminus="0.021" errorplus="0.021">11.854</magH>
-		<magK errorminus="0.021" errorplus="0.021">11.783</magK>
 		<name>KOI-0385</name>
-		<temperature>5639.00</temperature>
-		<radius>0.95</radius>
-		<age>9.2000</age>
+		<temperature errorminus="86.00" errorplus="86.00">5639.00</temperature>
+		<radius errorminus="0.3700" errorplus="0.3700">0.9500</radius>
+		<age errorminus="3.5000" errorplus="3.5000">9.2000</age>
 		<planet>
 			<name>KOI-0385 b</name>
 			<name>KOI-0385 01</name>
-			<radius>0.18773</radius>
-			<period>13.144900</period>
-			<semimajoraxis>0.105</semimajoraxis>
+			<radius errorminus="0.07199" errorplus="0.07199">0.18773</radius>
+			<period errorminus="1.30000e-04" errorplus="1.30000e-04">13.144940000000</period>
+			<transittime errorminus="0.0034000" errorplus="0.0034000">2455007.8458000</transittime>
+			<semimajoraxis>0.1050000</semimajoraxis>
+			<temperature>749.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>736.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

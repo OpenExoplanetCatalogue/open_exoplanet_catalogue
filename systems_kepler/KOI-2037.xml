@@ -5,27 +5,29 @@
 	<distance>992.94</distance>
 	<star>
 		<name>KOI-2037</name>
-		<temperature>4836.00</temperature>
-		<radius>1.14</radius>
+		<temperature errorminus="200.00" errorplus="200.00">4836.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">1.1400</radius>
 		<planet>
 			<name>KOI-2037 b</name>
 			<name>KOI-2037 01</name>
-			<radius>0.49210</radius>
-			<period>73.757100</period>
-			<semimajoraxis>0.338</semimajoraxis>
+			<radius errorminus="0.25516" errorplus="0.25516">0.49210</radius>
+			<period errorminus="1.20000e-03" errorplus="1.20000e-03">73.757100000000</period>
+			<transittime errorminus="0.0074000" errorplus="0.0074000">2455016.7263000</transittime>
+			<semimajoraxis>0.3380000</semimajoraxis>
+			<temperature>391.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>350.0</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-2037 d</name>
 			<name>KOI-2037 03</name>
-			<radius>0.27339</radius>
-			<period>8.562680</period>
-			<semimajoraxis>0.081</semimajoraxis>
+			<radius errorminus="0.14581" errorplus="0.14581">0.27339</radius>
+			<period errorminus="9.30000e-05" errorplus="9.30000e-05">8.562680000000</period>
+			<transittime errorminus="0.0027000" errorplus="0.0027000">2455188.1335000</transittime>
+			<semimajoraxis>0.0810000</semimajoraxis>
+			<temperature>800.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>716.8</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

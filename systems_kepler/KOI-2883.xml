@@ -5,16 +5,18 @@
 	<distance>648.31</distance>
 	<star>
 		<name>KOI-2883</name>
-		<temperature>4187.00</temperature>
-		<radius>0.72</radius>
+		<temperature errorminus="200.00" errorplus="200.00">4187.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">0.7200</radius>
 		<planet>
 			<name>KOI-2883 b</name>
 			<name>KOI-2883 01</name>
-			<radius>0.20049</radius>
-			<period>11.953900</period>
-			<semimajoraxis>0.088</semimajoraxis>
+			<radius errorminus="0.11847" errorplus="0.11847">0.20049</radius>
+			<period errorminus="1.50000e-04" errorplus="1.50000e-04">11.953880000000</period>
+			<transittime errorminus="0.0071000" errorplus="0.0071000">2454973.2678000</transittime>
+			<semimajoraxis>0.0880000</semimajoraxis>
+			<temperature>530.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

@@ -5,18 +5,19 @@
 	<distance>697.22</distance>
 	<star>
 		<name>KOI-2209</name>
-		<temperature>5744.00</temperature>
-		<radius>0.86</radius>
-		<age>0.8000</age>
+		<temperature errorminus="82.00" errorplus="82.00">5744.00</temperature>
+		<radius errorminus="0.3700" errorplus="0.3700">0.8600</radius>
+		<age errorminus="3.5000" errorplus="3.5000">0.8000</age>
 		<planet>
 			<name>KOI-2209 b</name>
 			<name>KOI-2209 01</name>
-			<radius>0.10571</radius>
-			<period>18.302200</period>
-			<semimajoraxis>0.134</semimajoraxis>
+			<radius errorminus="0.04557" errorplus="0.04557">0.10571</radius>
+			<period errorminus="4.90000e-04" errorplus="4.90000e-04">18.302160000000</period>
+			<transittime errorminus="0.0100000" errorplus="0.0100000">2454975.8970000</transittime>
+			<semimajoraxis>0.1340000</semimajoraxis>
+			<temperature>642.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>600.1</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

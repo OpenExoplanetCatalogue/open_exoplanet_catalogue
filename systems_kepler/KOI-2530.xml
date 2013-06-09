@@ -5,18 +5,19 @@
 	<distance>725.88</distance>
 	<star>
 		<name>KOI-2530</name>
-		<temperature>6115.00</temperature>
-		<radius>1.09</radius>
-		<age>3.6000</age>
+		<temperature errorminus="120.00" errorplus="120.00">6115.00</temperature>
+		<radius errorminus="0.4500" errorplus="0.4500">1.0900</radius>
+		<age errorminus="1.6000" errorplus="1.6000">3.6000</age>
 		<planet>
 			<name>KOI-2530 b</name>
 			<name>KOI-2530 01</name>
-			<radius>0.14672</radius>
-			<period>37.330800</period>
-			<semimajoraxis>0.222</semimajoraxis>
+			<radius errorminus="0.06015" errorplus="0.06015">0.14672</radius>
+			<period errorminus="1.40000e-03" errorplus="1.40000e-03">37.330800000000</period>
+			<transittime errorminus="0.0120000" errorplus="0.0120000">2454995.9410000</transittime>
+			<semimajoraxis>0.2220000</semimajoraxis>
+			<temperature>599.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>571.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

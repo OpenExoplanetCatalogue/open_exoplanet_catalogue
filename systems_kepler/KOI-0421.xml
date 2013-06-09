@@ -4,22 +4,20 @@
 	<declination>+45 26 22</declination>
 	<distance>820.22</distance>
 	<star>
-		<magJ errorminus="0.029" errorplus="0.029">13.581</magJ>
-		<magH errorminus="0.03" errorplus="0.03">13.15</magH>
-		<magK errorminus="0.03" errorplus="0.03">13.07</magK>
 		<name>KOI-0421</name>
-		<temperature>5321.00</temperature>
-		<radius>0.86</radius>
-		<age>14.0000</age>
+		<temperature errorminus="92.00" errorplus="92.00">5321.00</temperature>
+		<radius errorminus="0.5600" errorplus="0.5600">0.8600</radius>
+		<age errorminus="3.8000" errorplus="3.8000">14.0000</age>
 		<planet>
 			<name>KOI-0421 b</name>
 			<name>KOI-0421 01</name>
-			<radius>1.01155</radius>
-			<period>4.454190</period>
-			<semimajoraxis>0.049</semimajoraxis>
+			<radius errorminus="0.66525" errorplus="0.66525">1.01155</radius>
+			<period errorminus="1.20000e-06" errorplus="1.20000e-06">4.454191300000</period>
+			<transittime errorminus="0.0000850" errorplus="0.0000850">2455005.8195910</transittime>
+			<semimajoraxis>0.0490000</semimajoraxis>
+			<temperature>984.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>952.9</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

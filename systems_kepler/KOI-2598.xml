@@ -5,18 +5,19 @@
 	<distance>831.28</distance>
 	<star>
 		<name>KOI-2598</name>
-		<temperature>6018.00</temperature>
-		<radius>1.00</radius>
-		<age>2.8000</age>
+		<temperature errorminus="118.00" errorplus="118.00">6018.00</temperature>
+		<radius errorminus="1.2000" errorplus="1.2000">1.0000</radius>
+		<age errorminus="2.3000" errorplus="2.3000">2.8000</age>
 		<planet>
 			<name>KOI-2598 b</name>
 			<name>KOI-2598 01</name>
-			<radius>0.11847</radius>
-			<period>29.226000</period>
-			<semimajoraxis>0.187</semimajoraxis>
+			<radius errorminus="0.14581" errorplus="0.14581">0.11847</radius>
+			<period errorminus="9.10000e-04" errorplus="9.10000e-04">29.226040000000</period>
+			<transittime errorminus="0.0110000" errorplus="0.0110000">2454976.9830000</transittime>
+			<semimajoraxis>0.1870000</semimajoraxis>
+			<temperature>613.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>589.6</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

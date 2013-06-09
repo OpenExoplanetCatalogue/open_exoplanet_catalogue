@@ -4,22 +4,20 @@
 	<declination>+42 27 49</declination>
 	<distance>894.83</distance>
 	<star>
-		<magJ errorminus="0.021" errorplus="0.021">13.699</magJ>
-		<magH errorminus="0.023" errorplus="0.023">13.364</magH>
-		<magK errorminus="0.03" errorplus="0.03">13.29</magK>
 		<name>KOI-1370</name>
-		<temperature>5707.00</temperature>
-		<radius>0.84</radius>
-		<age>0.4000</age>
+		<temperature errorminus="79.00" errorplus="79.00">5707.00</temperature>
+		<radius errorminus="0.4000" errorplus="0.4000">0.8400</radius>
+		<age errorminus="3.7000" errorplus="3.7000">0.4000</age>
 		<planet>
 			<name>KOI-1370 b</name>
 			<name>KOI-1370 01</name>
-			<radius>0.17041</radius>
-			<period>6.883590</period>
-			<semimajoraxis>0.070</semimajoraxis>
+			<radius errorminus="0.08931" errorplus="0.08931">0.17041</radius>
+			<period errorminus="8.30000e-05" errorplus="8.30000e-05">6.883593000000</period>
+			<transittime errorminus="0.0043000" errorplus="0.0043000">2454968.2526000</transittime>
+			<semimajoraxis>0.0700000</semimajoraxis>
+			<temperature>874.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>815.1</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

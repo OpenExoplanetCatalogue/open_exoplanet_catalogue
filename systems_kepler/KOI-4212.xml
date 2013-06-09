@@ -1,0 +1,30 @@
+<system>
+	<name>KOI-4212</name>
+	<rightascension>19 28 49</rightascension>
+	<declination>+37 13 16</declination>
+	<star>
+		<name>KOI-4212</name>
+		<radius errorminus=".0000" errorplus="0.0000">1.0990</radius>
+		<planet>
+			<name>KOI-4212 b</name>
+			<name>KOI-4212 01</name>
+			<radius errorminus="0.03372" errorplus="0.03372">0.13396</radius>
+			<period errorminus="5.50000e-05" errorplus="5.50000e-05">5.791957000000</period>
+			<transittime errorminus="0.0053000" errorplus="0.0053000">2454966.3464000</transittime>
+			<semimajoraxis errorminus="4.1e-07" errorplus="4.1e-07">0.0647012</semimajoraxis>
+			<temperature errorminus="323.0" errorplus="323.0">1123.0</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-4212 c</name>
+			<name>KOI-4212 02</name>
+			<radius errorminus="0.10024" errorplus="0.10024">0.10024</radius>
+			<period errorminus="1.60000e-04" errorplus="1.60000e-04">10.099120000000</period>
+			<transittime errorminus="0.0095000" errorplus="0.0095000">2454965.3133000</transittime>
+			<semimajoraxis errorminus="1.0e-06" errorplus="1.0e-06">0.0937313</semimajoraxis>
+			<temperature errorminus="268.0" errorplus="268.0">933.0</temperature>
+			<list>Kepler Objects of Interest</list>
+		</planet>
+	</star>
+</system>

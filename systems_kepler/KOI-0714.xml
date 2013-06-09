@@ -2,24 +2,22 @@
 	<name>KOI-0714</name>
 	<rightascension>19 12 01</rightascension>
 	<declination>+46 28 24</declination>
-	<distance>422.12</distance>
+	<distance>421.18</distance>
 	<star>
-		<magJ errorminus="0.023" errorplus="0.023">12.192</magJ>
-		<magH errorminus="0.020" errorplus="0.020">11.848</magH>
-		<magK errorminus="0.014" errorplus="0.014">11.737</magK>
 		<name>KOI-0714</name>
-		<temperature>5396.00</temperature>
-		<radius>0.90</radius>
-		<age>7.1000</age>
+		<temperature errorminus="52.00" errorplus="52.00">5396.00</temperature>
+		<radius errorminus="0.0650" errorplus="0.0650">0.8980</radius>
+		<age errorminus="3.8000" errorplus="3.8000">7.1000</age>
 		<planet>
 			<name>KOI-0714 b</name>
 			<name>KOI-0714 01</name>
-			<radius>0.23512</radius>
-			<period>4.182010</period>
-			<semimajoraxis>0.049</semimajoraxis>
+			<radius errorminus="0.02096" errorplus="0.02096">0.23512</radius>
+			<period errorminus="6.90000e-06" errorplus="6.90000e-06">4.182009700000</period>
+			<transittime errorminus="0.0005100" errorplus="0.0005100">2455005.7882700</transittime>
+			<semimajoraxis>0.0490000</semimajoraxis>
+			<temperature>1019.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1019.7</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

@@ -4,41 +4,42 @@
 	<declination>+40 43 15</declination>
 	<distance>795.01</distance>
 	<star>
-		<magJ errorminus="0.029" errorplus="0.029">14.036</magJ>
-		<magH errorminus="0.03" errorplus="0.03">13.48</magH>
-		<magK errorminus="0.04" errorplus="0.04">13.45</magK>
 		<name>KOI-1590</name>
-		<temperature>4931.00</temperature>
-		<radius>0.71</radius>
-		<age>13.7000</age>
+		<temperature errorminus="80.00" errorplus="80.00">4931.00</temperature>
+		<radius errorminus="0.2700" errorplus="0.2700">0.7100</radius>
+		<age errorminus="3.8000" errorplus="3.8000">13.7000</age>
 		<planet>
 			<name>KOI-1590 b</name>
 			<name>KOI-1590 01</name>
-			<radius>0.14854</radius>
-			<period>13.000000</period>
-			<semimajoraxis>0.096</semimajoraxis>
+			<radius errorminus="0.05923" errorplus="0.05923">0.14854</radius>
+			<period errorminus="3.30000e+01" errorplus="3.30000e+01">13.000000000000</period>
+			<transittime errorminus="0.0001600" errorplus="0.0001600">2455034.2260200</transittime>
+			<semimajoraxis>0.0960000</semimajoraxis>
+			<temperature>590.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>576.2</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1590 c</name>
 			<name>KOI-1590 02</name>
-			<radius>0.10753</radius>
-			<period>2.355790</period>
-			<semimajoraxis>0.031</semimajoraxis>
+			<radius errorminus="0.04283" errorplus="0.04283">0.10753</radius>
+			<period errorminus="2.70000e-05" errorplus="2.70000e-05">2.355788000000</period>
+			<transittime errorminus="0.0035000" errorplus="0.0035000">2455010.8804000</transittime>
+			<semimajoraxis>0.0310000</semimajoraxis>
+			<temperature>1039.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1019.2</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1590 d</name>
 			<name>KOI-1590 03</name>
-			<radius>0.10389</radius>
-			<period>4.746680</period>
-			<semimajoraxis>0.050</semimajoraxis>
+			<radius errorminus="0.04192" errorplus="0.04192">0.10389</radius>
+			<period errorminus="7.50000e-05" errorplus="7.50000e-05">4.746676000000</period>
+			<transittime errorminus="0.0064000" errorplus="0.0064000">2454967.6346000</transittime>
+			<semimajoraxis>0.0500000</semimajoraxis>
+			<temperature>818.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

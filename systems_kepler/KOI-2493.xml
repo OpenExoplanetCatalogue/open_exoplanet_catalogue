@@ -2,21 +2,22 @@
 	<name>KOI-2493</name>
 	<rightascension>19 51 21</rightascension>
 	<declination>+46 58 03</declination>
-	<distance>706.83</distance>
+	<distance>705.82</distance>
 	<star>
 		<name>KOI-2493</name>
-		<temperature>5099.00</temperature>
-		<radius>0.70</radius>
-		<age>1.2000</age>
+		<temperature errorminus="98.00" errorplus="98.00">5099.00</temperature>
+		<radius errorminus="0.0850" errorplus="0.0850">0.6990</radius>
+		<age errorminus="3.9000" errorplus="3.9000">1.2000</age>
 		<planet>
 			<name>KOI-2493 b</name>
 			<name>KOI-2493 01</name>
-			<radius>0.12029</radius>
-			<period>0.663098</period>
-			<semimajoraxis>0.014</semimajoraxis>
+			<radius errorminus="0.01823" errorplus="0.01823">0.12029</radius>
+			<period errorminus="7.30000e-06" errorplus="7.30000e-06">0.663098300000</period>
+			<transittime errorminus="0.0009700" errorplus="0.0009700">2454964.9760300</transittime>
+			<semimajoraxis>0.0140000</semimajoraxis>
+			<temperature>1589.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1600.9</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

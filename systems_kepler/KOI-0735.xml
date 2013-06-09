@@ -4,22 +4,20 @@
 	<declination>+47 23 31</declination>
 	<distance>1087.92</distance>
 	<star>
-		<magJ errorminus="0.027" errorplus="0.027">14.137</magJ>
-		<magH errorminus="0.024" errorplus="0.024">13.612</magH>
-		<magK errorminus="0.04" errorplus="0.04">13.46</magK>
 		<name>KOI-0735</name>
-		<temperature>5317.00</temperature>
-		<radius>0.85</radius>
-		<age>13.5000</age>
+		<temperature errorminus="86.00" errorplus="86.00">5317.00</temperature>
+		<radius errorminus="0.7200" errorplus="0.7200">0.8500</radius>
+		<age errorminus="3.4000" errorplus="3.4000">13.5000</age>
 		<planet>
 			<name>KOI-0735 b</name>
 			<name>KOI-0735 01</name>
-			<radius>0.51944</radius>
-			<period>22.341300</period>
-			<semimajoraxis>0.144</semimajoraxis>
+			<radius errorminus="0.43743" errorplus="0.43743">0.51944</radius>
+			<period errorminus="1.70000e-04" errorplus="1.70000e-04">22.341330000000</period>
+			<transittime errorminus="0.0025000" errorplus="0.0025000">2455004.5669000</transittime>
+			<semimajoraxis>0.1440000</semimajoraxis>
+			<temperature>570.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>489.7</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

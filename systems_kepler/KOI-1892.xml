@@ -5,18 +5,19 @@
 	<distance>1131.80</distance>
 	<star>
 		<name>KOI-1892</name>
-		<temperature>5664.00</temperature>
-		<radius>0.83</radius>
-		<age>0.5000</age>
+		<temperature errorminus="96.00" errorplus="96.00">5664.00</temperature>
+		<radius errorminus="0.3600" errorplus="0.3600">0.8300</radius>
+		<age errorminus="3.8000" errorplus="3.8000">0.5000</age>
 		<planet>
 			<name>KOI-1892 b</name>
 			<name>KOI-1892 01</name>
-			<radius>0.27339</radius>
-			<period>62.562600</period>
-			<semimajoraxis>0.302</semimajoraxis>
+			<radius errorminus="0.11847" errorplus="0.11847">0.27339</radius>
+			<period errorminus="8.90000e-04" errorplus="8.90000e-04">62.562590000000</period>
+			<transittime errorminus="0.0047000" errorplus="0.0047000">2455011.3980000</transittime>
+			<semimajoraxis>0.3020000</semimajoraxis>
+			<temperature>415.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>398.6</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

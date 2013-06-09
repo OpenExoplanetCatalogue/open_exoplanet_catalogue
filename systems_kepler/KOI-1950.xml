@@ -5,17 +5,18 @@
 	<distance>1056.68</distance>
 	<star>
 		<name>KOI-1950</name>
-		<temperature>5186.00</temperature>
-		<radius>0.74</radius>
+		<temperature errorminus="200.00" errorplus="200.00">5186.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">0.7400</radius>
 		<planet>
 			<name>KOI-1950 b</name>
 			<name>KOI-1950 01</name>
-			<radius>0.30073</radius>
-			<period>66.415900</period>
-			<semimajoraxis>0.313</semimajoraxis>
+			<radius errorminus="0.13670" errorplus="0.13670">0.30073</radius>
+			<period errorminus="1.80000e-03" errorplus="1.80000e-03">66.415900000000</period>
+			<transittime errorminus="0.0110000" errorplus="0.0110000">2455021.1360000</transittime>
+			<semimajoraxis>0.3130000</semimajoraxis>
+			<temperature>352.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>354.2</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

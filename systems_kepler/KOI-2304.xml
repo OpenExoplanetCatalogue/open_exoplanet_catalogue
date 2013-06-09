@@ -5,18 +5,19 @@
 	<distance>1246.21</distance>
 	<star>
 		<name>KOI-2304</name>
-		<temperature>5900.00</temperature>
-		<radius>0.90</radius>
-		<age>0.4000</age>
+		<temperature errorminus="110.00" errorplus="110.00">5900.00</temperature>
+		<radius errorminus="0.3400" errorplus="0.3400">0.9000</radius>
+		<age errorminus="2.9000" errorplus="2.9000">0.4000</age>
 		<planet>
 			<name>KOI-2304 b</name>
 			<name>KOI-2304 01</name>
-			<radius>0.14125</radius>
-			<period>11.173600</period>
-			<semimajoraxis>0.098</semimajoraxis>
+			<radius errorminus="0.06197" errorplus="0.06197">0.14125</radius>
+			<period errorminus="2.40000e-04" errorplus="2.40000e-04">11.173600000000</period>
+			<transittime errorminus="0.0082000" errorplus="0.0082000">2454967.7156000</transittime>
+			<semimajoraxis>0.0980000</semimajoraxis>
+			<temperature>790.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>743.8</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

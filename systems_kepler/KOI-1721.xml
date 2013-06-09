@@ -5,18 +5,19 @@
 	<distance>871.07</distance>
 	<star>
 		<name>KOI-1721</name>
-		<temperature>5604.00</temperature>
-		<radius>0.82</radius>
-		<age>0.5000</age>
+		<temperature errorminus="81.00" errorplus="81.00">5604.00</temperature>
+		<radius errorminus="0.2100" errorplus="0.2100">0.8200</radius>
+		<age errorminus="4.0000" errorplus="4.0000">0.5000</age>
 		<planet>
 			<name>KOI-1721 b</name>
 			<name>KOI-1721 01</name>
-			<radius>0.21233</radius>
-			<period>52.632000</period>
-			<semimajoraxis>0.268</semimajoraxis>
+			<radius errorminus="0.05468" errorplus="0.05468">0.21233</radius>
+			<period errorminus="1.10000e-03" errorplus="1.10000e-03">52.632000000000</period>
+			<transittime errorminus="0.0068000" errorplus="0.0068000">2454988.6017000</transittime>
+			<semimajoraxis>0.2680000</semimajoraxis>
+			<temperature>432.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>414.0</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

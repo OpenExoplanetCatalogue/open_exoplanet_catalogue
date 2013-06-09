@@ -2,21 +2,22 @@
 	<name>KOI-1431</name>
 	<rightascension>19 08 05</rightascension>
 	<declination>+48 40 54</declination>
-	<distance>530.14</distance>
+	<distance>531.73</distance>
 	<star>
 		<name>KOI-1431</name>
-		<temperature>5649.00</temperature>
-		<radius>1.00</radius>
-		<age>2.1000</age>
+		<temperature errorminus="50.00" errorplus="50.00">5649.00</temperature>
+		<radius errorminus="0.0560" errorplus="0.0560">1.0030</radius>
+		<age errorminus="1.7000" errorplus="1.7000">2.1000</age>
 		<planet>
 			<name>KOI-1431 b</name>
 			<name>KOI-1431 01</name>
-			<radius>0.77005</radius>
-			<period>345.161000</period>
-			<semimajoraxis>0.983</semimajoraxis>
+			<radius errorminus="0.04374" errorplus="0.04374">0.77005</radius>
+			<period errorminus="1.60000e-03" errorplus="1.60000e-03">345.161300000000</period>
+			<transittime errorminus="0.0011000" errorplus="0.0011000">2455151.3068000</transittime>
+			<semimajoraxis>0.9830000</semimajoraxis>
+			<temperature>252.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>251.2</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

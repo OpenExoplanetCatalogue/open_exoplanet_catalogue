@@ -4,21 +4,30 @@
 	<declination>+38 42 14</declination>
 	<distance>752.96</distance>
 	<star>
-		<magJ errorminus="0.022" errorplus="0.022">12.918</magJ>
-		<magH errorminus="0.022" errorplus="0.022">12.546</magH>
-		<magK errorminus="0.024" errorplus="0.024">12.472</magK>
 		<name>KOI-1192</name>
-		<temperature>5575.00</temperature>
-		<radius>1.03</radius>
-		<age>13.6000</age>
+		<temperature errorminus="91.00" errorplus="91.00">5575.00</temperature>
+		<radius errorminus="0.4200" errorplus="0.4200">1.0300</radius>
+		<age errorminus="3.3000" errorplus="3.3000">13.6000</age>
 		<planet>
 			<name>KOI-1192 b</name>
 			<name>KOI-1192 01</name>
-			<radius>3.28069</radius>
-			<period>201292.000000</period>
-			<semimajoraxis>63.900</semimajoraxis>
+			<radius errorminus="2.09600" errorplus="2.09600">3.28069</radius>
+			<period errorminus="1.23278e+05" errorplus="1.23278e+05">201292.000000000000</period>
+			<transittime errorminus="0.0024000" errorplus="0.0024000">2455009.1013000</transittime>
+			<semimajoraxis>63.8970000</semimajoraxis>
+			<temperature>31.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-1192 c</name>
+			<name>KOI-1192 02</name>
+			<radius errorminus="0.28250" errorplus="0.28250">0.99332</radius>
+			<period errorminus="6.50000e-03" errorplus="6.50000e-03">359.054600000000</period>
+			<transittime errorminus="0.0083000" errorplus="0.0083000">2455128.7764000</transittime>
+			<semimajoraxis errorminus="1.1e-05" errorplus="1.1e-05">0.9394440</semimajoraxis>
+			<temperature errorminus="52.0" errorplus="52.0">258.0</temperature>
+			<list>Kepler Objects of Interest</list>
 		</planet>
 	</star>
 </system>

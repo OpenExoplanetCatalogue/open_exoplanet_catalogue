@@ -2,21 +2,22 @@
 	<name>KOI-2214</name>
 	<rightascension>19 06 51</rightascension>
 	<declination>+47 25 32</declination>
-	<distance>723.73</distance>
+	<distance>719.28</distance>
 	<star>
 		<name>KOI-2214</name>
-		<temperature>4724.00</temperature>
-		<radius>0.65</radius>
-		<age>11.7000</age>
+		<temperature errorminus="76.00" errorplus="76.00">4724.00</temperature>
+		<radius errorminus="0.0180" errorplus="0.0180">0.6460</radius>
+		<age errorminus="3.8000" errorplus="3.8000">11.7000</age>
 		<planet>
 			<name>KOI-2214 b</name>
 			<name>KOI-2214 01</name>
-			<radius>0.10298</radius>
-			<period>2.352240</period>
-			<semimajoraxis>0.030</semimajoraxis>
+			<radius errorminus="0.01549" errorplus="0.01549">0.10298</radius>
+			<period errorminus="3.10000e-05" errorplus="3.10000e-05">2.352237000000</period>
+			<transittime errorminus="0.0039000" errorplus="0.0039000">2454964.8072000</transittime>
+			<semimajoraxis>0.0300000</semimajoraxis>
+			<temperature>967.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>960.6</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

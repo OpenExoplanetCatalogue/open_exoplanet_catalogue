@@ -1,0 +1,20 @@
+<system>
+	<name>KOI-3443</name>
+	<rightascension>19 34 54</rightascension>
+	<declination>+42 48 24</declination>
+	<star>
+		<name>KOI-3443</name>
+		<radius errorminus=".0000" errorplus="0.0000">0.7640</radius>
+		<planet>
+			<name>KOI-3443 b</name>
+			<name>KOI-3443 01</name>
+			<radius errorminus="0.30984" errorplus="0.30984">0.20960</radius>
+			<period errorminus="1.40000e-03" errorplus="1.40000e-03">96.171400000000</period>
+			<transittime errorminus="0.0083000" errorplus="0.0083000">2455003.2503000</transittime>
+			<semimajoraxis errorminus="3.9e-06" errorplus="3.9e-06">0.3918530</semimajoraxis>
+			<temperature errorminus="40.0" errorplus="40.0">332.0</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+	</star>
+</system>

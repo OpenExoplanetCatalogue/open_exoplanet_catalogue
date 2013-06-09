@@ -4,42 +4,42 @@
 	<declination>+43 02 21</declination>
 	<distance>594.33</distance>
 	<star>
-		<magJ errorminus="0.023" errorplus="0.023">13.597</magJ>
-		<magH errorminus="0.024" errorplus="0.024">13.178</magH>
-		<magK errorminus="0.026" errorplus="0.026">13.051</magK>
 		<name>KOI-0884</name>
-		<temperature>5010.00</temperature>
-		<radius>0.68</radius>
-		<age>0.8000</age>
+		<temperature errorminus="80.00" errorplus="80.00">5010.00</temperature>
+		<radius errorminus="0.2100" errorplus="0.2100">0.6800</radius>
+		<age errorminus="3.7000" errorplus="3.7000">0.8000</age>
 		<planet>
 			<name>KOI-0884 b</name>
 			<name>KOI-0884 01</name>
-			<radius>0.34630</radius>
-			<period>9.439450</period>
-			<semimajoraxis>0.080</semimajoraxis>
+			<radius errorminus="0.10936" errorplus="0.10936">0.34630</radius>
+			<period errorminus="1.50000e-05" errorplus="1.50000e-05">9.439451000000</period>
+			<transittime errorminus="0.0005200" errorplus="0.0005200">2455010.1851800</transittime>
+			<semimajoraxis>0.0800000</semimajoraxis>
+			<temperature>643.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>653.1</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-0884 c</name>
 			<name>KOI-0884 02</name>
-			<radius>0.35541</radius>
-			<period>20.476500</period>
-			<semimajoraxis>0.134</semimajoraxis>
+			<radius errorminus="0.10936" errorplus="0.10936">0.35541</radius>
+			<period errorminus="5.10000e-05" errorplus="5.10000e-05">20.476536000000</period>
+			<transittime errorminus="0.0008400" errorplus="0.0008400">2455011.6761700</transittime>
+			<semimajoraxis>0.1340000</semimajoraxis>
+			<temperature>497.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>503.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-0884 d</name>
 			<name>KOI-0884 03</name>
-			<radius>0.13214</radius>
-			<period>3.336210</period>
-			<semimajoraxis>0.040</semimajoraxis>
+			<radius errorminus="0.04101" errorplus="0.04101">0.13214</radius>
+			<period errorminus="2.00000e-05" errorplus="2.00000e-05">3.336205000000</period>
+			<transittime errorminus="0.0019000" errorplus="0.0019000">2454968.3087000</transittime>
+			<semimajoraxis>0.0400000</semimajoraxis>
+			<temperature>910.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>923.7</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

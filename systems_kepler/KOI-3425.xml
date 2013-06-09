@@ -1,0 +1,30 @@
+<system>
+	<name>KOI-3425</name>
+	<rightascension>20 01 15</rightascension>
+	<declination>+45 29 43</declination>
+	<star>
+		<name>KOI-3425</name>
+		<radius errorminus=".0000" errorplus="0.0000">1.0000</radius>
+		<planet>
+			<name>KOI-3425 b</name>
+			<name>KOI-3425 01</name>
+			<radius errorminus="0.11847" errorplus="0.11847">0.10024</radius>
+			<period errorminus="2.60000e-04" errorplus="2.60000e-04">20.035150000000</period>
+			<transittime errorminus="0.0076000" errorplus="0.0076000">2454978.4378000</transittime>
+			<semimajoraxis errorminus="1.2e-06" errorplus="1.2e-06">0.1443970</semimajoraxis>
+			<temperature errorminus=".0" errorplus="0.0">671.0</temperature>
+			<list>Kepler Objects of Interest</list>
+		</planet>
+		<planet>
+			<name>KOI-3425 c</name>
+			<name>KOI-3425 02</name>
+			<radius errorminus="0.10024" errorplus="0.10024">0.06379</radius>
+			<period errorminus="2.80000e-05" errorplus="2.80000e-05">3.157203000000</period>
+			<transittime errorminus="0.0045000" errorplus="0.0045000">2454964.6995000</transittime>
+			<semimajoraxis errorminus="2.5e-07" errorplus="2.5e-07">0.0421275</semimajoraxis>
+			<temperature errorminus=".0" errorplus="0.0">1242.3</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+	</star>
+</system>

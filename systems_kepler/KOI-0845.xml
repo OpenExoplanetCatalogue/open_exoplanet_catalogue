@@ -4,22 +4,20 @@
 	<declination>+41 18 06</declination>
 	<distance>1389.28</distance>
 	<star>
-		<magJ errorminus="0.03" errorplus="0.03">14.26</magJ>
-		<magH errorminus="0.04" errorplus="0.04">13.87</magH>
-		<magK errorminus="0.05" errorplus="0.05">13.80</magK>
 		<name>KOI-0845</name>
-		<temperature>5846.00</temperature>
-		<radius>0.98</radius>
-		<age>5.4000</age>
+		<temperature errorminus="114.00" errorplus="114.00">5846.00</temperature>
+		<radius errorminus="0.4000" errorplus="0.4000">0.9800</radius>
+		<age errorminus="3.1000" errorplus="3.1000">5.4000</age>
 		<planet>
 			<name>KOI-0845 b</name>
 			<name>KOI-0845 01</name>
-			<radius>0.31896</radius>
-			<period>16.329900</period>
-			<semimajoraxis>0.124</semimajoraxis>
+			<radius errorminus="0.12758" errorplus="0.12758">0.31896</radius>
+			<period errorminus="1.10000e-04" errorplus="1.10000e-04">16.329860000000</period>
+			<transittime errorminus="0.0024000" errorplus="0.0024000">2455010.2907000</transittime>
+			<semimajoraxis>0.1240000</semimajoraxis>
+			<temperature>725.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>702.7</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

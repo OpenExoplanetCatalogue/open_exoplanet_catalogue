@@ -5,18 +5,19 @@
 	<distance>421.63</distance>
 	<star>
 		<name>KOI-1979</name>
-		<temperature>5794.00</temperature>
-		<radius>0.94</radius>
-		<age>4.9000</age>
+		<temperature errorminus="72.00" errorplus="72.00">5794.00</temperature>
+		<radius errorminus="0.3200" errorplus="0.3200">0.9400</radius>
+		<age errorminus="3.3000" errorplus="3.3000">4.9000</age>
 		<planet>
 			<name>KOI-1979 b</name>
 			<name>KOI-1979 01</name>
-			<radius>0.10298</radius>
-			<period>2.714060</period>
-			<semimajoraxis>0.037</semimajoraxis>
+			<radius errorminus="0.03827" errorplus="0.03827">0.10298</radius>
+			<period errorminus="1.50000e-05" errorplus="1.50000e-05">2.714060000000</period>
+			<transittime errorminus="0.0016000" errorplus="0.0016000">2454966.7133000</transittime>
+			<semimajoraxis>0.0370000</semimajoraxis>
+			<temperature>1288.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1148.4</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

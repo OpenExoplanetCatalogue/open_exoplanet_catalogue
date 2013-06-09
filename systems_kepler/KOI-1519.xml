@@ -4,21 +4,19 @@
 	<declination>+43 23 01</declination>
 	<distance>708.60</distance>
 	<star>
-		<magJ errorminus="0.026" errorplus="0.026">13.925</magJ>
-		<magH errorminus="0.03" errorplus="0.03">13.44</magH>
-		<magK errorminus="0.04" errorplus="0.04">13.35</magK>
 		<name>KOI-1519</name>
-		<temperature>4994.00</temperature>
-		<radius>0.71</radius>
+		<temperature errorminus="200.00" errorplus="200.00">4994.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">0.7100</radius>
 		<planet>
 			<name>KOI-1519 b</name>
 			<name>KOI-1519 01</name>
-			<radius>0.13305</radius>
-			<period>5.144390</period>
-			<semimajoraxis>0.056</semimajoraxis>
+			<radius errorminus="0.06379" errorplus="0.06379">0.13305</radius>
+			<period errorminus="7.70000e-05" errorplus="7.70000e-05">5.144392000000</period>
+			<transittime errorminus="0.0052000" errorplus="0.0052000">2454966.8272000</transittime>
+			<semimajoraxis>0.0560000</semimajoraxis>
+			<temperature>785.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>818.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

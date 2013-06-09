@@ -4,22 +4,20 @@
 	<declination>+50 34 04</declination>
 	<distance>1097.51</distance>
 	<star>
-		<magJ errorminus="0.025" errorplus="0.025">14.196</magJ>
-		<magH errorminus="0.027" errorplus="0.027">13.783</magH>
-		<magK errorminus="0.05" errorplus="0.05">13.69</magK>
 		<name>KOI-0785</name>
-		<temperature>5605.00</temperature>
-		<radius>0.82</radius>
-		<age>0.4000</age>
+		<temperature errorminus="86.00" errorplus="86.00">5605.00</temperature>
+		<radius errorminus="0.3700" errorplus="0.3700">0.8200</radius>
+		<age errorminus="3.9000" errorplus="3.9000">0.4000</age>
 		<planet>
 			<name>KOI-0785 b</name>
 			<name>KOI-0785 01</name>
-			<radius>0.25516</radius>
-			<period>12.393400</period>
-			<semimajoraxis>0.102</semimajoraxis>
+			<radius errorminus="0.11847" errorplus="0.11847">0.25516</radius>
+			<period errorminus="1.30000e-04" errorplus="1.30000e-04">12.393430000000</period>
+			<transittime errorminus="0.0035000" errorplus="0.0035000">2455011.7492000</transittime>
+			<semimajoraxis>0.1020000</semimajoraxis>
+			<temperature>701.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>637.3</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

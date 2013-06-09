@@ -2,24 +2,32 @@
 	<name>KOI-0142</name>
 	<rightascension>19 24 35</rightascension>
 	<declination>+40 40 09</declination>
-	<distance>447.38</distance>
+	<distance>446.03</distance>
 	<star>
-		<magJ errorminus="0.020" errorplus="0.020">11.882</magJ>
-		<magH errorminus="0.019" errorplus="0.019">11.517</magH>
-		<magK errorminus="0.019" errorplus="0.019">11.454</magK>
 		<name>KOI-0142</name>
-		<temperature>5621.00</temperature>
-		<radius>1.00</radius>
-		<age>1.6000</age>
+		<temperature errorminus="50.00" errorplus="50.00">5621.00</temperature>
+		<radius errorminus="0.0450" errorplus="0.0450">0.9970</radius>
+		<age errorminus="1.4000" errorplus="1.4000">1.6000</age>
 		<planet>
 			<name>KOI-0142 b</name>
 			<name>KOI-0142 01</name>
-			<radius>0.37181</radius>
-			<period>10.916400</period>
-			<semimajoraxis>0.098</semimajoraxis>
+			<radius errorminus="0.01914" errorplus="0.01914">0.37181</radius>
+			<period errorminus="1.40000e-05" errorplus="1.40000e-05">10.916384000000</period>
+			<transittime errorminus="0.0004800" errorplus="0.0004800">2454966.0191000</transittime>
+			<semimajoraxis>0.0980000</semimajoraxis>
+			<temperature>791.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>791.7</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-0142 c</name>
+			<name>KOI-0142 02</name>
+			<radius errorminus="0.00000" errorplus="0.00000">0.13751</radius>
+			<period errorminus=".00000e+00" errorplus="0.00000e+00">339.429340840000</period>
+			<transittime errorminus="0.0000000" errorplus="0.0000000">2455020.5194914</transittime>
+			<semimajoraxis errorminus=".0e+00" errorplus="0.0e+00">0.9244370</semimajoraxis>
+			<temperature errorminus=".0" errorplus="0.0">230.0</temperature>
+			<list>Kepler Objects of Interest</list>
 		</planet>
 	</star>
 </system>

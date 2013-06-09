@@ -4,22 +4,20 @@
 	<declination>+48 01 05</declination>
 	<distance>947.48</distance>
 	<star>
-		<magJ errorminus="0.029" errorplus="0.029">13.557</magJ>
-		<magH errorminus="0.04" errorplus="0.04">13.24</magH>
-		<magK errorminus="0.03" errorplus="0.03">13.20</magK>
 		<name>KOI-1302</name>
-		<temperature>5908.00</temperature>
-		<radius>0.90</radius>
-		<age>0.4000</age>
+		<temperature errorminus="123.00" errorplus="123.00">5908.00</temperature>
+		<radius errorminus="0.5200" errorplus="0.5200">0.9000</radius>
+		<age errorminus="2.9000" errorplus="2.9000">0.4000</age>
 		<planet>
 			<name>KOI-1302 b</name>
 			<name>KOI-1302 01</name>
-			<radius>0.24605</radius>
-			<period>55.637700</period>
-			<semimajoraxis>0.286</semimajoraxis>
+			<radius errorminus="0.14581" errorplus="0.14581">0.24605</radius>
+			<period errorminus="5.60000e-04" errorplus="5.60000e-04">55.637650000000</period>
+			<transittime errorminus="0.0036000" errorplus="0.0036000">2455020.5588000</transittime>
+			<semimajoraxis>0.2860000</semimajoraxis>
+			<temperature>463.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>440.9</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

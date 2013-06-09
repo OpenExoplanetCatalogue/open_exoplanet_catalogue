@@ -5,17 +5,18 @@
 	<distance>643.87</distance>
 	<star>
 		<name>KOI-2021</name>
-		<temperature>4883.00</temperature>
-		<radius>0.64</radius>
+		<temperature errorminus="200.00" errorplus="200.00">4883.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">0.6400</radius>
 		<planet>
 			<name>KOI-2021 b</name>
 			<name>KOI-2021 01</name>
-			<radius>0.14307</radius>
-			<period>3.764160</period>
-			<semimajoraxis>0.044</semimajoraxis>
+			<radius errorminus="0.07928" errorplus="0.07928">0.14307</radius>
+			<period errorminus="4.00000e-05" errorplus="4.00000e-05">3.764162000000</period>
+			<transittime errorminus="0.0043000" errorplus="0.0043000">2454965.3527000</transittime>
+			<semimajoraxis>0.0440000</semimajoraxis>
+			<temperature>821.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>843.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

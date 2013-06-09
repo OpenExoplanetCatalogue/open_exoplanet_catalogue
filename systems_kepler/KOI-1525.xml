@@ -4,24 +4,31 @@
 	<declination>+43 40 21</declination>
 	<distance>613.09</distance>
 	<star>
-		<magB errorminus="0.18" errorplus="0.18">12.36</magB>
-		<magV errorminus="0.16" errorplus="0.16">11.85</magV>
-		<magJ errorminus="0.021" errorplus="0.021">11.250</magJ>
-		<magH errorminus="0.029" errorplus="0.029">11.065</magH>
-		<magK errorminus="0.021" errorplus="0.021">11.039</magK>
 		<name>KOI-1525</name>
-		<temperature>6905.00</temperature>
-		<radius>1.46</radius>
-		<age>1.4100</age>
+		<temperature errorminus="87.00" errorplus="87.00">6905.00</temperature>
+		<radius errorminus="0.6300" errorplus="0.6300">1.4600</radius>
+		<age errorminus="0.2500" errorplus="0.2500">1.4100</age>
 		<planet>
 			<name>KOI-1525 b</name>
 			<name>KOI-1525 01</name>
-			<radius>0.21871</radius>
-			<period>7.714680</period>
-			<semimajoraxis>0.084</semimajoraxis>
+			<radius errorminus="0.09113" errorplus="0.09113">0.21871</radius>
+			<period errorminus="6.40000e-05" errorplus="6.40000e-05">7.714683000000</period>
+			<transittime errorminus="0.0030000" errorplus="0.0030000">2454966.5535000</transittime>
+			<semimajoraxis>0.0840000</semimajoraxis>
+			<temperature>1271.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1224.9</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-1525 c</name>
+			<name>KOI-1525 02</name>
+			<radius errorminus="0.06106" errorplus="0.06106">0.14307</radius>
+			<period errorminus="7.60000e-05" errorplus="7.60000e-05">11.806091000000</period>
+			<transittime errorminus="0.0037000" errorplus="0.0037000">2454971.2671000</transittime>
+			<semimajoraxis errorminus="4.8e-07" errorplus="4.8e-07">0.1121330</semimajoraxis>
+			<temperature errorminus="236.0" errorplus="236.0">1100.0</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

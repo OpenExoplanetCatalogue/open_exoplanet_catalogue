@@ -5,18 +5,29 @@
 	<distance>776.52</distance>
 	<star>
 		<name>KOI-1747</name>
-		<temperature>5590.00</temperature>
-		<radius>0.81</radius>
-		<age>0.5000</age>
+		<temperature errorminus="99.00" errorplus="99.00">5590.00</temperature>
+		<radius errorminus="0.3700" errorplus="0.3700">0.8100</radius>
+		<age errorminus="3.9000" errorplus="3.9000">0.5000</age>
 		<planet>
 			<name>KOI-1747 b</name>
 			<name>KOI-1747 01</name>
-			<radius>0.17315</radius>
-			<period>20.558700</period>
-			<semimajoraxis>0.143</semimajoraxis>
+			<radius errorminus="0.10936" errorplus="0.10936">0.17315</radius>
+			<period errorminus="1.70000e-04" errorplus="1.70000e-04">20.558730000000</period>
+			<transittime errorminus="0.0030000" errorplus="0.0030000">2454966.0026000</transittime>
+			<semimajoraxis>0.1430000</semimajoraxis>
+			<temperature>588.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>587.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-1747 c</name>
+			<name>KOI-1747 02</name>
+			<radius errorminus="0.10936" errorplus="0.10936">0.09113</radius>
+			<period errorminus="2.20000e-05" errorplus="2.20000e-05">0.566834000000</period>
+			<transittime errorminus="0.0070000" errorplus="0.0070000">2454964.7801000</transittime>
+			<semimajoraxis errorminus="3.3e-07" errorplus="3.3e-07">0.0130342</semimajoraxis>
+			<temperature errorminus="439.0" errorplus="439.0">1946.0</temperature>
+			<list>Kepler Objects of Interest</list>
 		</planet>
 	</star>
 </system>

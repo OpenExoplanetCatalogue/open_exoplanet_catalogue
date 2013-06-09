@@ -5,17 +5,19 @@
 	<distance>502.38</distance>
 	<star>
 		<name>KOI-2991</name>
-		<temperature>4978.00</temperature>
-		<radius>0.67</radius>
-		<age>0.8000</age>
+		<temperature errorminus="188.00" errorplus="188.00">4978.00</temperature>
+		<radius errorminus="0.0500" errorplus="0.0500">0.6700</radius>
+		<age errorminus="3.6000" errorplus="3.6000">0.8000</age>
 		<planet>
 			<name>KOI-2991 b</name>
 			<name>KOI-2991 01</name>
-			<radius>0.08202</radius>
-			<period>1.501690</period>
-			<semimajoraxis>0.023</semimajoraxis>
+			<radius errorminus="0.00638" errorplus="0.00638">0.08202</radius>
+			<period errorminus="1.00000e-05" errorplus="1.00000e-05">1.501691000000</period>
+			<transittime errorminus="0.0029000" errorplus="0.0029000">2454964.5851000</transittime>
+			<semimajoraxis>0.0230000</semimajoraxis>
+			<temperature>1185.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

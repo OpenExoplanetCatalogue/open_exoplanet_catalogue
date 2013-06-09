@@ -5,18 +5,19 @@
 	<distance>1442.06</distance>
 	<star>
 		<name>KOI-1685</name>
-		<temperature>6450.00</temperature>
-		<radius>1.12</radius>
-		<age>0.2400</age>
+		<temperature errorminus="136.00" errorplus="136.00">6450.00</temperature>
+		<radius errorminus="0.4600" errorplus="0.4600">1.1200</radius>
+		<age errorminus="0.8800" errorplus="0.8800">0.2400</age>
 		<planet>
 			<name>KOI-1685 b</name>
 			<name>KOI-1685 01</name>
-			<radius>0.32807</radius>
-			<period>70.465400</period>
-			<semimajoraxis>0.354</semimajoraxis>
+			<radius errorminus="0.13670" errorplus="0.13670">0.32807</radius>
+			<period errorminus="1.00000e-03" errorplus="1.00000e-03">70.465400000000</period>
+			<transittime errorminus="0.0053000" errorplus="0.0053000">2455022.1697000</transittime>
+			<semimajoraxis>0.3540000</semimajoraxis>
+			<temperature>506.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>480.2</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

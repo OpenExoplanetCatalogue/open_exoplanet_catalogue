@@ -2,24 +2,22 @@
 	<name>KOI-1288</name>
 	<rightascension>19 16 04</rightascension>
 	<declination>+48 07 11</declination>
-	<distance>1653.47</distance>
+	<distance>1659.33</distance>
 	<star>
-		<magJ errorminus="0.029" errorplus="0.029">14.079</magJ>
-		<magH errorminus="0.04" errorplus="0.04">13.77</magH>
-		<magK errorminus="0.05" errorplus="0.05">13.69</magK>
 		<name>KOI-1288</name>
-		<temperature>6392.00</temperature>
-		<radius>1.13</radius>
-		<age>1.0600</age>
+		<temperature errorminus="111.00" errorplus="111.00">6392.00</temperature>
+		<radius errorminus="0.0760" errorplus="0.0760">1.1340</radius>
+		<age errorminus="0.2300" errorplus="0.2300">1.0600</age>
 		<planet>
 			<name>KOI-1288 b</name>
 			<name>KOI-1288 01</name>
-			<radius>0.99059</radius>
-			<period>117.931000</period>
-			<semimajoraxis>0.495</semimajoraxis>
+			<radius errorminus="0.06835" errorplus="0.06835">0.99059</radius>
+			<period errorminus="3.00000e-04" errorplus="3.00000e-04">117.931190000000</period>
+			<transittime errorminus="0.0007500" errorplus="0.0007500">2455052.7033100</transittime>
+			<semimajoraxis>0.4950000</semimajoraxis>
+			<temperature>427.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>400.2</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

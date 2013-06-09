@@ -5,18 +5,29 @@
 	<distance>823.29</distance>
 	<star>
 		<name>KOI-2147</name>
-		<temperature>5873.00</temperature>
-		<radius>0.89</radius>
-		<age>0.4000</age>
+		<temperature errorminus="79.00" errorplus="79.00">5873.00</temperature>
+		<radius errorminus="0.3600" errorplus="0.3600">0.8900</radius>
+		<age errorminus="3.0000" errorplus="3.0000">0.4000</age>
 		<planet>
 			<name>KOI-2147 b</name>
 			<name>KOI-2147 01</name>
-			<radius>0.15948</radius>
-			<period>37.865900</period>
-			<semimajoraxis>0.220</semimajoraxis>
+			<radius errorminus="0.08384" errorplus="0.08384">0.15948</radius>
+			<period errorminus="4.80000e-04" errorplus="4.80000e-04">37.865890000000</period>
+			<transittime errorminus="0.0004200" errorplus="0.0004200">2454967.3587200</transittime>
+			<semimajoraxis>0.2200000</semimajoraxis>
+			<temperature>521.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>447.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-2147 c</name>
+			<name>KOI-2147 02</name>
+			<radius errorminus="0.07746" errorplus="0.07746">0.10298</radius>
+			<period errorminus="9.90000e-05" errorplus="9.90000e-05">10.327136000000</period>
+			<transittime errorminus="0.0055000" errorplus="0.0055000">2454972.3812000</transittime>
+			<semimajoraxis errorminus="5.9e-07" errorplus="5.9e-07">0.0926692</semimajoraxis>
+			<temperature errorminus="163.0" errorplus="163.0">803.0</temperature>
+			<list>Kepler Objects of Interest</list>
 		</planet>
 	</star>
 </system>

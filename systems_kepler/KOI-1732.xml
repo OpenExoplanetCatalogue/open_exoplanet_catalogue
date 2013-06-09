@@ -5,18 +5,19 @@
 	<distance>1289.74</distance>
 	<star>
 		<name>KOI-1732</name>
-		<temperature>5691.00</temperature>
-		<radius>0.84</radius>
-		<age>0.4000</age>
+		<temperature errorminus="96.00" errorplus="96.00">5691.00</temperature>
+		<radius errorminus="0.3500" errorplus="0.3500">0.8400</radius>
+		<age errorminus="3.7000" errorplus="3.7000">0.4000</age>
 		<planet>
 			<name>KOI-1732 b</name>
 			<name>KOI-1732 01</name>
-			<radius>0.29162</radius>
-			<period>43.316900</period>
-			<semimajoraxis>0.237</semimajoraxis>
+			<radius errorminus="0.12758" errorplus="0.12758">0.29162</radius>
+			<period errorminus="7.80000e-04" errorplus="7.80000e-04">43.316880000000</period>
+			<transittime errorminus="0.0067000" errorplus="0.0067000">2454969.5675000</transittime>
+			<semimajoraxis>0.2370000</semimajoraxis>
+			<temperature>473.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>421.1</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

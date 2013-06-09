@@ -4,22 +4,20 @@
 	<declination>+42 24 49</declination>
 	<distance>1517.65</distance>
 	<star>
-		<magJ errorminus="0.021" errorplus="0.021">13.845</magJ>
-		<magH errorminus="0.018" errorplus="0.018">13.568</magH>
-		<magK errorminus="0.03" errorplus="0.03">13.53</magK>
 		<name>KOI-0513</name>
-		<temperature>6491.00</temperature>
-		<radius>1.14</radius>
-		<age>0.3000</age>
+		<temperature errorminus="143.00" errorplus="143.00">6491.00</temperature>
+		<radius errorminus="0.4200" errorplus="0.4200">1.1400</radius>
+		<age errorminus="0.8400" errorplus="0.8400">0.3000</age>
 		<planet>
 			<name>KOI-0513 b</name>
 			<name>KOI-0513 01</name>
-			<radius>0.36452</radius>
-			<period>35.181100</period>
-			<semimajoraxis>0.223</semimajoraxis>
+			<radius errorminus="0.13670" errorplus="0.13670">0.36452</radius>
+			<period errorminus="3.30000e-04" errorplus="3.30000e-04">35.181120000000</period>
+			<transittime errorminus="0.0030000" errorplus="0.0030000">2455003.0969000</transittime>
+			<semimajoraxis>0.2230000</semimajoraxis>
+			<temperature>647.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>620.0</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

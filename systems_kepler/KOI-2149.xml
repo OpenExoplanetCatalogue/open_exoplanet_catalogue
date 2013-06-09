@@ -5,18 +5,19 @@
 	<distance>499.56</distance>
 	<star>
 		<name>KOI-2149</name>
-		<temperature>6314.00</temperature>
-		<radius>1.43</radius>
-		<age>3.7100</age>
+		<temperature errorminus="73.00" errorplus="73.00">6314.00</temperature>
+		<radius errorminus="0.5100" errorplus="0.5100">1.4300</radius>
+		<age errorminus="0.7200" errorplus="0.7200">3.7100</age>
 		<planet>
 			<name>KOI-2149 b</name>
 			<name>KOI-2149 01</name>
-			<radius>0.13943</radius>
-			<period>13.151300</period>
-			<semimajoraxis>0.115</semimajoraxis>
+			<radius errorminus="0.05012" errorplus="0.05012">0.13943</radius>
+			<period errorminus="1.90000e-04" errorplus="1.90000e-04">13.151270000000</period>
+			<transittime errorminus="0.0049000" errorplus="0.0049000">2454977.1625000</transittime>
+			<semimajoraxis>0.1150000</semimajoraxis>
+			<temperature>981.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>965.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

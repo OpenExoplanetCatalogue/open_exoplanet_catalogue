@@ -2,41 +2,43 @@
 	<name>KOI-0710</name>
 	<rightascension>19 32 09</rightascension>
 	<declination>+46 16 39</declination>
-	<distance>926.44</distance>
+	<distance>923.72</distance>
 	<star>
-		<magJ errorminus="0.022" errorplus="0.022">12.319</magJ>
-		<magH errorminus="0.024" errorplus="0.024">12.176</magH>
-		<magK errorminus="0.024" errorplus="0.024">12.103</magK>
 		<name>KOI-0710</name>
-		<temperature>6653.00</temperature>
-		<radius>1.36</radius>
+		<temperature errorminus="" errorplus="">6653.00</temperature>
+		<radius errorminus="" errorplus="">1.3560</radius>
 		<planet>
 			<name>KOI-0710 b</name>
 			<name>KOI-0710 01</name>
-			<radius>0.20960</radius>
-			<period>5.374850</period>
-			<semimajoraxis>0.067</semimajoraxis>
+			<radius errorminus="0.00365" errorplus="0.00365">0.20960</radius>
+			<period errorminus="3.10000e-05" errorplus="3.10000e-05">5.374851000000</period>
+			<transittime errorminus="0.0025000" errorplus="0.0025000">2455003.9513000</transittime>
+			<semimajoraxis>0.0670000</semimajoraxis>
+			<temperature>1320.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1326.7</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-0710 c</name>
 			<name>KOI-0710 02</name>
-			<radius>0.16677</radius>
-			<period>8.586040</period>
-			<semimajoraxis>0.091</semimajoraxis>
+			<radius errorminus="0.00729" errorplus="0.00729">0.16677</radius>
+			<period errorminus="1.10000e-04" errorplus="1.10000e-04">8.586040000000</period>
+			<transittime errorminus="0.0059000" errorplus="0.0059000">2454970.9585000</transittime>
+			<semimajoraxis>0.0910000</semimajoraxis>
+			<temperature>1133.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-0710 d</name>
 			<name>KOI-0710 03</name>
-			<radius>0.11391</radius>
-			<period>3.886830</period>
-			<semimajoraxis>0.054</semimajoraxis>
+			<radius errorminus="0.00547" errorplus="0.00547">0.11391</radius>
+			<period errorminus="6.10000e-05" errorplus="6.10000e-05">3.886831000000</period>
+			<transittime errorminus="0.0067000" errorplus="0.0067000">2454965.4974000</transittime>
+			<semimajoraxis>0.0540000</semimajoraxis>
+			<temperature>1471.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

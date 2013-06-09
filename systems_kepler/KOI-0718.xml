@@ -4,42 +4,42 @@
 	<declination>+46 45 45</declination>
 	<distance>838.64</distance>
 	<star>
-		<magJ errorminus="0.023" errorplus="0.023">12.678</magJ>
-		<magH errorminus="0.019" errorplus="0.019">12.400</magH>
-		<magK errorminus="0.020" errorplus="0.020">12.389</magK>
 		<name>KOI-0718</name>
-		<temperature>5788.00</temperature>
-		<radius>1.31</radius>
-		<age>4.0000</age>
+		<temperature errorminus="53.00" errorplus="53.00">5788.00</temperature>
+		<radius errorminus="0.1800" errorplus="0.1800">1.3100</radius>
+		<age errorminus="1.1000" errorplus="1.1000">4.0000</age>
 		<planet>
 			<name>KOI-0718 b</name>
 			<name>KOI-0718 01</name>
-			<radius>0.23512</radius>
-			<period>4.585500</period>
-			<semimajoraxis>0.057</semimajoraxis>
+			<radius errorminus="0.03281" errorplus="0.03281">0.23512</radius>
+			<period errorminus="1.90000e-05" errorplus="1.90000e-05">4.585504000000</period>
+			<transittime errorminus="0.0013000" errorplus="0.0013000">2455002.8581000</transittime>
+			<semimajoraxis>0.0570000</semimajoraxis>
+			<temperature>1225.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1223.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-0718 c</name>
 			<name>KOI-0718 02</name>
-			<radius>0.27977</radius>
-			<period>22.714600</period>
-			<semimajoraxis>0.166</semimajoraxis>
+			<radius errorminus="0.03919" errorplus="0.03919">0.27977</radius>
+			<period errorminus="1.50000e-04" errorplus="1.50000e-04">22.714560000000</period>
+			<transittime errorminus="0.0025000" errorplus="0.0025000">2454980.2950000</transittime>
+			<semimajoraxis>0.1660000</semimajoraxis>
+			<temperature>718.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>716.9</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-0718 d</name>
 			<name>KOI-0718 03</name>
-			<radius>0.24332</radius>
-			<period>47.904200</period>
-			<semimajoraxis>0.272</semimajoraxis>
+			<radius errorminus="0.03463" errorplus="0.03463">0.24332</radius>
+			<period errorminus="6.40000e-04" errorplus="6.40000e-04">47.904210000000</period>
+			<transittime errorminus="0.0049000" errorplus="0.0049000">2454974.9789000</transittime>
+			<semimajoraxis>0.2720000</semimajoraxis>
+			<temperature>561.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>560.1</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

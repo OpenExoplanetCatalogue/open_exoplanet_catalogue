@@ -5,18 +5,19 @@
 	<distance>850.42</distance>
 	<star>
 		<name>KOI-2271</name>
-		<temperature>5159.00</temperature>
-		<radius>0.71</radius>
-		<age>0.6000</age>
+		<temperature errorminus="73.00" errorplus="73.00">5159.00</temperature>
+		<radius errorminus="0.2200" errorplus="0.2200">0.7100</radius>
+		<age errorminus="4.0000" errorplus="4.0000">0.6000</age>
 		<planet>
 			<name>KOI-2271 b</name>
 			<name>KOI-2271 01</name>
-			<radius>0.20049</radius>
-			<period>55.822800</period>
-			<semimajoraxis>0.267</semimajoraxis>
+			<radius errorminus="0.11847" errorplus="0.11847">0.20049</radius>
+			<period errorminus="1.50000e-03" errorplus="1.50000e-03">55.822800000000</period>
+			<transittime errorminus="0.0100000" errorplus="0.0100000">2455002.0350000</transittime>
+			<semimajoraxis>0.2670000</semimajoraxis>
+			<temperature>371.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>357.1</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

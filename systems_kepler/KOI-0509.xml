@@ -4,41 +4,42 @@
 	<declination>+41 45 19</declination>
 	<distance>842.26</distance>
 	<star>
-		<magJ errorminus="0.027" errorplus="0.027">13.586</magJ>
-		<magH errorminus="0.03" errorplus="0.03">13.23</magH>
-		<magK errorminus="0.04" errorplus="0.04">13.21</magK>
 		<name>KOI-0509</name>
-		<temperature>5632.00</temperature>
-		<radius>0.83</radius>
-		<age>0.7000</age>
+		<temperature errorminus="93.00" errorplus="93.00">5632.00</temperature>
+		<radius errorminus="0.3300" errorplus="0.3300">0.8300</radius>
+		<age errorminus="4.0000" errorplus="4.0000">0.7000</age>
 		<planet>
 			<name>KOI-0509 b</name>
 			<name>KOI-0509 01</name>
-			<radius>0.20687</radius>
-			<period>4.166940</period>
-			<semimajoraxis>0.050</semimajoraxis>
+			<radius errorminus="0.08384" errorplus="0.08384">0.20687</radius>
+			<period errorminus="1.20000e-05" errorplus="1.20000e-05">4.166937000000</period>
+			<transittime errorminus="0.0011000" errorplus="0.0011000">2455002.7191000</transittime>
+			<semimajoraxis>0.0500000</semimajoraxis>
+			<temperature>1012.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>974.7</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-0509 c</name>
 			<name>KOI-0509 02</name>
-			<radius>0.25516</radius>
-			<period>11.463500</period>
-			<semimajoraxis>0.097</semimajoraxis>
+			<radius errorminus="0.10024" errorplus="0.10024">0.25516</radius>
+			<period errorminus="3.90000e-05" errorplus="3.90000e-05">11.463527000000</period>
+			<transittime errorminus="0.0016000" errorplus="0.0016000">2454970.3823000</transittime>
+			<semimajoraxis>0.0970000</semimajoraxis>
+			<temperature>727.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>696.4</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-0509 d</name>
 			<name>KOI-0509 03</name>
-			<radius>0.17679</radius>
-			<period>39.594900</period>
-			<semimajoraxis>0.222</semimajoraxis>
+			<radius errorminus="0.07199" errorplus="0.07199">0.17679</radius>
+			<period errorminus="5.20000e-04" errorplus="5.20000e-04">39.594920000000</period>
+			<transittime errorminus="0.0063000" errorplus="0.0063000">2455001.1479000</transittime>
+			<semimajoraxis>0.2220000</semimajoraxis>
+			<temperature>480.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

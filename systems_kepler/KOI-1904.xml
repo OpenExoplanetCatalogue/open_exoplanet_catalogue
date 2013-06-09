@@ -5,18 +5,19 @@
 	<distance>778.35</distance>
 	<star>
 		<name>KOI-1904</name>
-		<temperature>5054.00</temperature>
-		<radius>1.89</radius>
-		<age>13.8000</age>
+		<temperature errorminus="72.00" errorplus="72.00">5054.00</temperature>
+		<radius errorminus="0.2600" errorplus="0.2600">1.8900</radius>
+		<age errorminus="2.1000" errorplus="2.1000">13.8000</age>
 		<planet>
 			<name>KOI-1904 b</name>
 			<name>KOI-1904 01</name>
-			<radius>0.33445</radius>
-			<period>12.439500</period>
-			<semimajoraxis>0.102</semimajoraxis>
+			<radius errorminus="0.05103" errorplus="0.05103">0.33445</radius>
+			<period errorminus="8.80000e-05" errorplus="8.80000e-05">12.439517000000</period>
+			<transittime errorminus="0.0026000" errorplus="0.0026000">2454969.3709000</transittime>
+			<semimajoraxis>0.1020000</semimajoraxis>
+			<temperature>959.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>919.6</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

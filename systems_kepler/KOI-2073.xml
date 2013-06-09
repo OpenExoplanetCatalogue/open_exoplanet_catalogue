@@ -5,38 +5,41 @@
 	<distance>781.42</distance>
 	<star>
 		<name>KOI-2073</name>
-		<temperature>4978.00</temperature>
-		<radius>0.72</radius>
-		<age>13.8000</age>
+		<temperature errorminus="91.00" errorplus="91.00">4978.00</temperature>
+		<radius errorminus="0.5100" errorplus="0.5100">0.7200</radius>
+		<age errorminus="3.8000" errorplus="3.8000">13.8000</age>
 		<planet>
 			<name>KOI-2073 b</name>
 			<name>KOI-2073 01</name>
-			<radius>0.20049</radius>
-			<period>49.500800</period>
-			<semimajoraxis>0.237</semimajoraxis>
+			<radius errorminus="0.14581" errorplus="0.14581">0.20049</radius>
+			<period errorminus="8.50000e-04" errorplus="8.50000e-04">49.500810000000</period>
+			<transittime errorminus="0.0060000" errorplus="0.0060000">2454972.0384000</transittime>
+			<semimajoraxis>0.2370000</semimajoraxis>
+			<temperature>383.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>387.7</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-2073 c</name>
 			<name>KOI-2073 02</name>
-			<radius>0.15492</radius>
-			<period>6.475340</period>
-			<semimajoraxis>0.061</semimajoraxis>
+			<radius errorminus="0.10936" errorplus="0.10936">0.15492</radius>
+			<period errorminus="7.00000e-05" errorplus="7.00000e-05">6.475341000000</period>
+			<transittime errorminus="0.0038000" errorplus="0.0038000">2454970.5824000</transittime>
+			<semimajoraxis>0.0610000</semimajoraxis>
+			<temperature>755.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>761.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-2073 d</name>
 			<name>KOI-2073 03</name>
-			<radius>0.21871</radius>
-			<period>16.858100</period>
-			<semimajoraxis>0.116</semimajoraxis>
+			<radius errorminus="0.15492" errorplus="0.15492">0.21871</radius>
+			<period errorminus="1.80000e-04" errorplus="1.80000e-04">16.858080000000</period>
+			<transittime errorminus="0.0038000" errorplus="0.0038000">2454975.3461000</transittime>
+			<semimajoraxis>0.1160000</semimajoraxis>
+			<temperature>547.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>554.1</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

@@ -5,18 +5,19 @@
 	<distance>1003.87</distance>
 	<star>
 		<name>KOI-2337</name>
-		<temperature>5132.00</temperature>
-		<radius>0.75</radius>
-		<age>9.8000</age>
+		<temperature errorminus="79.00" errorplus="79.00">5132.00</temperature>
+		<radius errorminus="0.2700" errorplus="0.2700">0.7500</radius>
+		<age errorminus="3.9000" errorplus="3.9000">9.8000</age>
 		<planet>
 			<name>KOI-2337 b</name>
 			<name>KOI-2337 01</name>
-			<radius>0.20960</radius>
-			<period>8.496450</period>
-			<semimajoraxis>0.075</semimajoraxis>
+			<radius errorminus="0.10024" errorplus="0.10024">0.20960</radius>
+			<period errorminus="9.00000e-05" errorplus="9.00000e-05">8.496449000000</period>
+			<transittime errorminus="0.0039000" errorplus="0.0039000">2454971.7343000</transittime>
+			<semimajoraxis>0.0750000</semimajoraxis>
+			<temperature>715.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>667.3</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

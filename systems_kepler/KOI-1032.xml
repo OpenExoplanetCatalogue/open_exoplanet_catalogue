@@ -4,21 +4,20 @@
 	<declination>+37 31 57</declination>
 	<distance>1262.99</distance>
 	<star>
-		<magJ errorminus="0.022" errorplus="0.022">12.204</magJ>
-		<magH errorminus="0.021" errorplus="0.021">11.681</magH>
-		<magK errorminus="0.020" errorplus="0.020">11.582</magK>
 		<name>KOI-1032</name>
-		<temperature>5007.00</temperature>
-		<radius>2.52</radius>
-		<age>5.7000</age>
+		<temperature errorminus="50.00" errorplus="50.00">5007.00</temperature>
+		<radius errorminus="0.2400" errorplus="0.2400">2.5200</radius>
+		<age errorminus="1.2000" errorplus="1.2000">5.7000</age>
 		<planet>
 			<name>KOI-1032 b</name>
 			<name>KOI-1032 01</name>
-			<radius>2.31471</radius>
-			<period>650.000000</period>
-			<semimajoraxis>1.571</semimajoraxis>
+			<radius errorminus="0.27339" errorplus="0.27339">2.31471</radius>
+			<period errorminus=".00000e+00" errorplus="0.00000e+00">650.000000000000</period>
+			<transittime errorminus="0.0042000" errorplus="0.0042000">2455009.0876000</transittime>
+			<semimajoraxis>1.5710000</semimajoraxis>
+			<temperature>280.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

@@ -4,41 +4,42 @@
 	<declination>+39 33 00</declination>
 	<distance>941.24</distance>
 	<star>
-		<magJ errorminus="0.021" errorplus="0.021">13.391</magJ>
-		<magH errorminus="0.025" errorplus="0.025">13.040</magH>
-		<magK errorminus="0.03" errorplus="0.03">13.05</magK>
 		<name>KOI-1338</name>
-		<temperature>5836.00</temperature>
-		<radius>0.98</radius>
-		<age>5.9000</age>
+		<temperature errorminus="97.00" errorplus="97.00">5836.00</temperature>
+		<radius errorminus="0.3600" errorplus="0.3600">0.9800</radius>
+		<age errorminus="2.8000" errorplus="2.8000">5.9000</age>
 		<planet>
 			<name>KOI-1338 b</name>
 			<name>KOI-1338 01</name>
-			<radius>0.13578</radius>
-			<period>3.222960</period>
-			<semimajoraxis>0.042</semimajoraxis>
+			<radius errorminus="0.07473" errorplus="0.07473">0.13578</radius>
+			<period errorminus="3.10000e-04" errorplus="3.10000e-04">3.222960000000</period>
+			<transittime errorminus="0.0000260" errorplus="0.0000260">2455011.0694980</transittime>
+			<semimajoraxis>0.0420000</semimajoraxis>
+			<temperature>1247.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1162.7</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1338 c</name>
 			<name>KOI-1338 02</name>
-			<radius>0.14945</radius>
-			<period>42.040000</period>
-			<semimajoraxis>0.233</semimajoraxis>
+			<radius errorminus="0.07837" errorplus="0.07837">0.14945</radius>
+			<period errorminus="1.10000e-01" errorplus="1.10000e-01">42.040000000000</period>
+			<transittime errorminus="0.0010000" errorplus="0.0010000">2455011.2550000</transittime>
+			<semimajoraxis>0.2330000</semimajoraxis>
+			<temperature>529.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>495.2</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1338 d</name>
 			<name>KOI-1338 03</name>
-			<radius>0.11027</radius>
-			<period>21.010000</period>
-			<semimajoraxis>0.147</semimajoraxis>
+			<radius errorminus="0.04010" errorplus="0.04010">0.11027</radius>
+			<period errorminus="1.30000e-01" errorplus="1.30000e-01">21.010000000000</period>
+			<transittime errorminus="0.0007000" errorplus="0.0007000">2454965.6354300</transittime>
+			<semimajoraxis>0.1470000</semimajoraxis>
+			<temperature>666.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

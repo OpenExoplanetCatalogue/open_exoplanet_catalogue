@@ -4,22 +4,20 @@
 	<declination>+40 23 20</declination>
 	<distance>1023.64</distance>
 	<star>
-		<magJ errorminus="0.023" errorplus="0.023">13.368</magJ>
-		<magH errorminus="0.026" errorplus="0.026">13.094</magH>
-		<magK errorminus="0.03" errorplus="0.03">13.05</magK>
 		<name>KOI-1603</name>
-		<temperature>6218.00</temperature>
-		<radius>1.02</radius>
-		<age>0.2000</age>
+		<temperature errorminus="89.00" errorplus="89.00">6218.00</temperature>
+		<radius errorminus="0.3700" errorplus="0.3700">1.0200</radius>
+		<age errorminus="1.4000" errorplus="1.4000">0.2000</age>
 		<planet>
 			<name>KOI-1603 b</name>
 			<name>KOI-1603 01</name>
-			<radius>0.15128</radius>
-			<period>3.021540</period>
-			<semimajoraxis>0.042</semimajoraxis>
+			<radius errorminus="0.05468" errorplus="0.05468">0.15128</radius>
+			<period errorminus="3.30000e-05" errorplus="3.30000e-05">3.021542000000</period>
+			<transittime errorminus="0.0035000" errorplus="0.0035000">2454966.4926000</transittime>
+			<semimajoraxis>0.0420000</semimajoraxis>
+			<temperature>1354.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1252.2</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

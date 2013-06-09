@@ -4,22 +4,20 @@
 	<declination>+49 15 43</declination>
 	<distance>761.71</distance>
 	<star>
-		<magJ errorminus="0.022" errorplus="0.022">12.724</magJ>
-		<magH errorminus="0.018" errorplus="0.018">12.400</magH>
-		<magK errorminus="0.025" errorplus="0.025">12.383</magK>
 		<name>KOI-0173</name>
-		<temperature>5706.00</temperature>
-		<radius>1.18</radius>
-		<age>9.1000</age>
+		<temperature errorminus="50.00" errorplus="50.00">5706.00</temperature>
+		<radius errorminus="0.1500" errorplus="0.1500">1.1800</radius>
+		<age errorminus="2.0000" errorplus="2.0000">9.1000</age>
 		<planet>
 			<name>KOI-0173 b</name>
 			<name>KOI-0173 01</name>
-			<radius>0.22600</radius>
-			<period>10.060800</period>
-			<semimajoraxis>0.091</semimajoraxis>
+			<radius errorminus="0.02825" errorplus="0.02825">0.22600</radius>
+			<period errorminus="5.80000e-05" errorplus="5.80000e-05">10.060791000000</period>
+			<transittime errorminus="0.0021000" errorplus="0.0021000">2454971.9677000</transittime>
+			<semimajoraxis>0.0910000</semimajoraxis>
+			<temperature>905.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>906.0</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

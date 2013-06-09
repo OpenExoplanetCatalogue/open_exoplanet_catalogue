@@ -4,45 +4,62 @@
 	<declination>+38 56 50</declination>
 	<distance>1139.51</distance>
 	<star>
-		<magB errorminus="0.42" errorplus="0.42">16.50</magB>
-		<magR errorminus="0.25" errorplus="0.25">15.95</magR>
-		<magI errorminus="0.44" errorplus="0.44">14.55</magI>
-		<magJ errorminus="0.03" errorplus="0.03">14.00</magJ>
-		<magH errorminus="0.04" errorplus="0.04">13.62</magH>
-		<magK errorminus="0.05" errorplus="0.05">13.58</magK>
 		<name>KOI-0806</name>
-		<temperature>5461.00</temperature>
-		<radius>0.94</radius>
-		<age>4.8000</age>
+		<temperature errorminus="92.00" errorplus="92.00">5461.00</temperature>
+		<radius errorminus="0.0900" errorplus="0.0900">0.9400</radius>
+		<age errorminus="3.5000" errorplus="3.5000">4.8000</age>
 		<planet>
 			<name>KOI-0806 b</name>
 			<name>KOI-0806 01</name>
-			<radius>0.86847</radius>
-			<period>143.213000</period>
-			<semimajoraxis>0.530</semimajoraxis>
+			<radius errorminus="0.08384" errorplus="0.08384">0.86847</radius>
+			<period errorminus="6.70000e-04" errorplus="6.70000e-04">143.212950000000</period>
+			<transittime errorminus="0.0012000" errorplus="0.0012000">2454987.2180000</transittime>
+			<semimajoraxis>0.5300000</semimajoraxis>
+			<temperature>321.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a confirmed planet by the Kepler team and might have already appear in a peer reviewed paper.</description>
-			<temperature>320.7</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-0806 c</name>
 			<name>KOI-0806 02</name>
-			<radius>1.20292</radius>
-			<period>60.322900</period>
-			<semimajoraxis>0.298</semimajoraxis>
+			<radius errorminus="0.11847" errorplus="0.11847">1.20292</radius>
+			<period errorminus="8.70000e-05" errorplus="8.70000e-05">60.322931000000</period>
+			<transittime errorminus="0.0004300" errorplus="0.0004300">2455076.9063700</transittime>
+			<semimajoraxis>0.2980000</semimajoraxis>
+			<temperature>428.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a confirmed planet by the Kepler team and might have already appear in a peer reviewed paper.</description>
-			<temperature>427.7</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-0806 d</name>
 			<name>KOI-0806 03</name>
-			<radius>0.19228</radius>
-			<period>29.163900</period>
-			<semimajoraxis>0.184</semimajoraxis>
+			<radius errorminus="0.02278" errorplus="0.02278">0.19228</radius>
+			<period errorminus="8.50000e-04" errorplus="8.50000e-04">29.163920000000</period>
+			<transittime errorminus="0.0100000" errorplus="0.0100000">2454983.7000000</transittime>
+			<semimajoraxis>0.1840000</semimajoraxis>
+			<temperature>544.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a confirmed planet by the Kepler team and might have already appear in a peer reviewed paper.</description>
-			<temperature>544.2</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-0806 e</name>
+			<name>KOI-0806 04</name>
+			<radius errorminus="0.86574" errorplus="0.86574">0.34630</radius>
+			<period errorminus="6.10000e-03" errorplus="6.10000e-03">381.840900000000</period>
+			<transittime errorminus="0.0090000" errorplus="0.0090000">2455129.5040000</transittime>
+			<semimajoraxis errorminus="1.0e-05" errorplus="1.0e-05">0.9650130</semimajoraxis>
+			<temperature errorminus="58.0" errorplus="58.0">218.0</temperature>
+			<list>Kepler Objects of Interest</list>
+		</planet>
+		<planet>
+			<name>KOI-0806 f</name>
+			<name>KOI-0806 05</name>
+			<radius errorminus="0.04739" errorplus="0.04739">0.42011</radius>
+			<period errorminus="9.60000e-03" errorplus="9.60000e-03">411.972100000000</period>
+			<transittime errorminus="0.0120000" errorplus="0.0120000">2455187.9060000</transittime>
+			<semimajoraxis errorminus="1.6e-05" errorplus="1.6e-05">1.0151300</semimajoraxis>
+			<temperature errorminus="57.0" errorplus="57.0">213.0</temperature>
+			<list>Kepler Objects of Interest</list>
 		</planet>
 	</star>
 </system>

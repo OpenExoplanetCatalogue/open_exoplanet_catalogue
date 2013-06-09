@@ -2,21 +2,22 @@
 	<name>KOI-2013</name>
 	<rightascension>19 25 40</rightascension>
 	<declination>+39 07 38</declination>
-	<distance>148.57</distance>
+	<distance>148.04</distance>
 	<star>
 		<name>KOI-2013</name>
-		<temperature>4286.00</temperature>
-		<radius>0.56</radius>
-		<age>12.9000</age>
+		<temperature errorminus="67.00" errorplus="67.00">4286.00</temperature>
+		<radius errorminus="0.0120" errorplus="0.0120">0.5580</radius>
+		<age errorminus="3.4000" errorplus="3.4000">12.9000</age>
 		<planet>
 			<name>KOI-2013 b</name>
 			<name>KOI-2013 01</name>
-			<radius>0.07837</radius>
-			<period>2.414360</period>
-			<semimajoraxis>0.030</semimajoraxis>
+			<radius errorminus="0.00729" errorplus="0.00729">0.07837</radius>
+			<period errorminus="1.20000e-05" errorplus="1.20000e-05">2.414360000000</period>
+			<transittime errorminus="0.0013000" errorplus="0.0013000">2454965.4276000</transittime>
+			<semimajoraxis>0.0300000</semimajoraxis>
+			<temperature>815.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>759.0</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

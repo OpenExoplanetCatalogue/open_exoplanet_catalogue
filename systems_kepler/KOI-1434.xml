@@ -2,24 +2,22 @@
 	<name>KOI-1434</name>
 	<rightascension>18 54 01</rightascension>
 	<declination>+49 27 03</declination>
-	<distance>454.95</distance>
+	<distance>452.88</distance>
 	<star>
-		<magJ errorminus="0.03" errorplus="0.03">13.24</magJ>
-		<magH errorminus="0.03" errorplus="0.03">12.74</magH>
-		<magK>12.708</magK>
 		<name>KOI-1434</name>
-		<temperature>4751.00</temperature>
-		<radius>0.66</radius>
-		<age>13.9000</age>
+		<temperature errorminus="76.00" errorplus="76.00">4751.00</temperature>
+		<radius errorminus="0.0200" errorplus="0.0200">0.6570</radius>
+		<age errorminus="3.9000" errorplus="3.9000">13.9000</age>
 		<planet>
 			<name>KOI-1434 b</name>
 			<name>KOI-1434 01</name>
-			<radius>0.09204</radius>
-			<period>2.343250</period>
-			<semimajoraxis>0.030</semimajoraxis>
+			<radius errorminus="0.00911" errorplus="0.00911">0.09204</radius>
+			<period errorminus="3.00000e-05" errorplus="3.00000e-05">2.343248000000</period>
+			<transittime errorminus="0.0034000" errorplus="0.0034000">2454966.2035000</transittime>
+			<semimajoraxis>0.0300000</semimajoraxis>
+			<temperature>981.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1043.0</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

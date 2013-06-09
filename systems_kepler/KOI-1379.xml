@@ -4,22 +4,20 @@
 	<declination>+42 43 39</declination>
 	<distance>565.60</distance>
 	<star>
-		<magJ errorminus="0.022" errorplus="0.022">12.539</magJ>
-		<magH errorminus="0.021" errorplus="0.021">12.227</magH>
-		<magK errorminus="0.019" errorplus="0.019">12.159</magK>
 		<name>KOI-1379</name>
-		<temperature>5870.00</temperature>
-		<radius>0.89</radius>
-		<age>0.4000</age>
+		<temperature errorminus="70.00" errorplus="70.00">5870.00</temperature>
+		<radius errorminus="0.2200" errorplus="0.2200">0.8900</radius>
+		<age errorminus="3.1000" errorplus="3.1000">0.4000</age>
 		<planet>
 			<name>KOI-1379 b</name>
 			<name>KOI-1379 01</name>
-			<radius>0.10480</radius>
-			<period>5.621550</period>
-			<semimajoraxis>0.062</semimajoraxis>
+			<radius errorminus="0.02643" errorplus="0.02643">0.10480</radius>
+			<period errorminus="5.00000e-05" errorplus="5.00000e-05">5.621546000000</period>
+			<transittime errorminus="0.0031000" errorplus="0.0031000">2454969.8893000</transittime>
+			<semimajoraxis>0.0620000</semimajoraxis>
+			<temperature>981.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>918.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

@@ -5,16 +5,18 @@
 	<distance>516.08</distance>
 	<star>
 		<name>KOI-2839</name>
-		<temperature>4025.00</temperature>
-		<radius>0.63</radius>
+		<temperature errorminus="200.00" errorplus="200.00">4025.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">0.6300</radius>
 		<planet>
 			<name>KOI-2839 b</name>
 			<name>KOI-2839 01</name>
-			<radius>0.14945</radius>
-			<period>2.164560</period>
-			<semimajoraxis>0.027</semimajoraxis>
+			<radius errorminus="0.07199" errorplus="0.07199">0.14945</radius>
+			<period errorminus="4.40000e-04" errorplus="4.40000e-04">2.164560000000</period>
+			<transittime errorminus="0.0024000" errorplus="0.0024000">2454964.8339000</transittime>
+			<semimajoraxis>0.0270000</semimajoraxis>
+			<temperature>855.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

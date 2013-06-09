@@ -5,18 +5,19 @@
 	<distance>1180.53</distance>
 	<star>
 		<name>KOI-2444</name>
-		<temperature>5540.00</temperature>
-		<radius>0.82</radius>
-		<age>2.9000</age>
+		<temperature errorminus="129.00" errorplus="129.00">5540.00</temperature>
+		<radius errorminus="0.4400" errorplus="0.4400">0.8200</radius>
+		<age errorminus="4.1000" errorplus="4.1000">2.9000</age>
 		<planet>
 			<name>KOI-2444 b</name>
 			<name>KOI-2444 01</name>
-			<radius>0.21871</radius>
-			<period>18.552700</period>
-			<semimajoraxis>0.132</semimajoraxis>
+			<radius errorminus="0.13670" errorplus="0.13670">0.21871</radius>
+			<period errorminus="3.30000e-04" errorplus="3.30000e-04">18.552690000000</period>
+			<transittime errorminus="0.0065000" errorplus="0.0065000">2454968.5086000</transittime>
+			<semimajoraxis>0.1320000</semimajoraxis>
+			<temperature>610.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>584.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

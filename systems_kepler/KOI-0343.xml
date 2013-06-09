@@ -4,42 +4,42 @@
 	<declination>+48 28 52</declination>
 	<distance>555.11</distance>
 	<star>
-		<magJ errorminus="0.021" errorplus="0.021">12.092</magJ>
-		<magH errorminus="0.019" errorplus="0.019">11.801</magH>
-		<magK errorminus="0.021" errorplus="0.021">11.762</magK>
 		<name>KOI-0343</name>
-		<temperature>5744.00</temperature>
-		<radius>1.14</radius>
-		<age>8.2000</age>
+		<temperature errorminus="50.00" errorplus="50.00">5744.00</temperature>
+		<radius errorminus="0.1400" errorplus="0.1400">1.1400</radius>
+		<age errorminus="2.1000" errorplus="2.1000">8.2000</age>
 		<planet>
 			<name>KOI-0343 b</name>
 			<name>KOI-0343 01</name>
-			<radius>0.24514</radius>
-			<period>4.761700</period>
-			<semimajoraxis>0.055</semimajoraxis>
+			<radius errorminus="0.03007" errorplus="0.03007">0.24514</radius>
+			<period errorminus="1.20000e-05" errorplus="1.20000e-05">4.761697000000</period>
+			<transittime errorminus="0.0008100" errorplus="0.0008100">2455003.3355700</transittime>
+			<semimajoraxis>0.0550000</semimajoraxis>
+			<temperature>1156.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1153.1</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-0343 c</name>
 			<name>KOI-0343 02</name>
-			<radius>0.16950</radius>
-			<period>2.024130</period>
-			<semimajoraxis>0.031</semimajoraxis>
+			<radius errorminus="0.02096" errorplus="0.02096">0.16950</radius>
+			<period errorminus="7.10000e-06" errorplus="7.10000e-06">2.024134600000</period>
+			<transittime errorminus="0.0009100" errorplus="0.0009100">2455003.4965700</transittime>
+			<semimajoraxis>0.0310000</semimajoraxis>
+			<temperature>1540.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1535.9</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-0343 d</name>
 			<name>KOI-0343 03</name>
-			<radius>0.14399</radius>
-			<period>41.809200</period>
-			<semimajoraxis>0.235</semimajoraxis>
+			<radius errorminus="0.01823" errorplus="0.01823">0.14399</radius>
+			<period errorminus="9.70000e-04" errorplus="9.70000e-04">41.809250000000</period>
+			<transittime errorminus="0.0081000" errorplus="0.0081000">2454981.6985000</transittime>
+			<semimajoraxis>0.2350000</semimajoraxis>
+			<temperature>559.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>557.8</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

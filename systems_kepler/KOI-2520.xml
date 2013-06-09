@@ -2,21 +2,22 @@
 	<name>KOI-2520</name>
 	<rightascension>18 58 20</rightascension>
 	<declination>+47 04 46</declination>
-	<distance>647.04</distance>
+	<distance>650.02</distance>
 	<star>
 		<name>KOI-2520</name>
-		<temperature>4727.00</temperature>
-		<radius>0.65</radius>
-		<age>13.8000</age>
+		<temperature errorminus="69.00" errorplus="69.00">4727.00</temperature>
+		<radius errorminus="0.0170" errorplus="0.0170">0.6530</radius>
+		<age errorminus="3.7000" errorplus="3.7000">13.8000</age>
 		<planet>
 			<name>KOI-2520 b</name>
 			<name>KOI-2520 01</name>
-			<radius>0.11847</radius>
-			<period>6.494470</period>
-			<semimajoraxis>0.060</semimajoraxis>
+			<radius errorminus="0.03919" errorplus="0.03919">0.11847</radius>
+			<period errorminus="9.90000e-05" errorplus="9.90000e-05">6.494474000000</period>
+			<transittime errorminus="0.0055000" errorplus="0.0055000">2454965.2452000</transittime>
+			<semimajoraxis>0.0600000</semimajoraxis>
+			<temperature>688.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>676.9</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

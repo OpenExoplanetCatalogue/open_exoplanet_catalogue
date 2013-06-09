@@ -5,16 +5,18 @@
 	<distance>510.25</distance>
 	<star>
 		<name>KOI-3144</name>
-		<temperature>3679.00</temperature>
-		<radius>0.67</radius>
+		<temperature errorminus="200.00" errorplus="200.00">3679.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">0.6700</radius>
 		<planet>
 			<name>KOI-3144 b</name>
 			<name>KOI-3144 01</name>
-			<radius>0.20049</radius>
-			<period>8.074600</period>
-			<semimajoraxis>0.062</semimajoraxis>
+			<radius errorminus="0.09113" errorplus="0.09113">0.20049</radius>
+			<period errorminus="1.40000e-03" errorplus="1.40000e-03">8.074600000000</period>
+			<transittime errorminus="0.0032000" errorplus="0.0032000">2454969.3066000</transittime>
+			<semimajoraxis>0.0620000</semimajoraxis>
+			<temperature>532.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

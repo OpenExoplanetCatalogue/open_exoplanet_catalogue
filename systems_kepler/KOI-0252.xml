@@ -2,24 +2,22 @@
 	<name>KOI-0252</name>
 	<rightascension>19 21 36</rightascension>
 	<declination>+48 49 21</declination>
-	<distance>443.81</distance>
+	<distance>446.54</distance>
 	<star>
-		<magJ errorminus="0.027" errorplus="0.027">13.418</magJ>
-		<magH errorminus="0.03" errorplus="0.03">12.74</magH>
-		<magK errorminus="0.03" errorplus="0.03">12.55</magK>
 		<name>KOI-0252</name>
-		<temperature>3905.00</temperature>
-		<radius>0.65</radius>
-		<age>0.0000</age>
+		<temperature errorminus="52.00" errorplus="52.00">3905.00</temperature>
+		<radius errorminus="0.0350" errorplus="0.0350">0.6540</radius>
+		<age errorminus="2.3000" errorplus="2.3000">0.0000</age>
 		<planet>
 			<name>KOI-0252 b</name>
 			<name>KOI-0252 01</name>
-			<radius>0.28797</radius>
-			<period>17.604400</period>
-			<semimajoraxis>0.113</semimajoraxis>
+			<radius errorminus="0.05194" errorplus="0.05194">0.28797</radius>
+			<period errorminus="7.80000e-05" errorplus="7.80000e-05">17.604437000000</period>
+			<transittime errorminus="0.0015000" errorplus="0.0015000">2455003.5012000</transittime>
+			<semimajoraxis>0.1130000</semimajoraxis>
+			<temperature>414.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>355.0</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

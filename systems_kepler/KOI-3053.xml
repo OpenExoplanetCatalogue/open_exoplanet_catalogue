@@ -5,17 +5,19 @@
 	<distance>1501.73</distance>
 	<star>
 		<name>KOI-3053</name>
-		<temperature>5900.00</temperature>
-		<radius>0.90</radius>
-		<age>0.3000</age>
+		<temperature errorminus="122.00" errorplus="122.00">5900.00</temperature>
+		<radius errorminus="0.3500" errorplus="0.3500">0.9000</radius>
+		<age errorminus="3.0000" errorplus="3.0000">0.3000</age>
 		<planet>
 			<name>KOI-3053 b</name>
 			<name>KOI-3053 01</name>
-			<radius>0.23056</radius>
-			<period>42.520500</period>
-			<semimajoraxis>0.239</semimajoraxis>
+			<radius errorminus="0.09022" errorplus="0.09022">0.23056</radius>
+			<period errorminus="8.60000e-04" errorplus="8.60000e-04">42.520460000000</period>
+			<transittime errorminus="0.0100000" errorplus="0.0100000">2454969.1480000</transittime>
+			<semimajoraxis>0.2390000</semimajoraxis>
+			<temperature>506.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

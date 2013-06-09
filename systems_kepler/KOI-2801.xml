@@ -5,17 +5,19 @@
 	<distance>373.05</distance>
 	<star>
 		<name>KOI-2801</name>
-		<temperature>6095.00</temperature>
-		<radius>2.07</radius>
-		<age>4.5000</age>
+		<temperature errorminus="64.00" errorplus="64.00">6095.00</temperature>
+		<radius errorminus="0.5000" errorplus="0.5000">2.0700</radius>
+		<age errorminus="1.1000" errorplus="1.1000">4.5000</age>
 		<planet>
 			<name>KOI-2801 b</name>
 			<name>KOI-2801 01</name>
-			<radius>0.15219</radius>
-			<period>6.991830</period>
-			<semimajoraxis>0.077</semimajoraxis>
+			<radius errorminus="0.05377" errorplus="0.05377">0.15219</radius>
+			<period errorminus="7.30000e-05" errorplus="7.30000e-05">6.991826000000</period>
+			<transittime errorminus="0.0052000" errorplus="0.0052000">2454971.0744000</transittime>
+			<semimajoraxis>0.0770000</semimajoraxis>
+			<temperature>1395.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

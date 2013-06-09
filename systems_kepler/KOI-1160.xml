@@ -2,24 +2,22 @@
 	<name>KOI-1160</name>
 	<rightascension>19 10 36</rightascension>
 	<declination>+47 24 53</declination>
-	<distance>1162.72</distance>
+	<distance>1161.19</distance>
 	<star>
-		<magJ errorminus="0.021" errorplus="0.021">14.598</magJ>
-		<magH errorminus="0.04" errorplus="0.04">14.12</magH>
-		<magK errorminus="0.06" errorplus="0.06">14.05</magK>
 		<name>KOI-1160</name>
-		<temperature>5363.00</temperature>
-		<radius>0.76</radius>
-		<age>0.7000</age>
+		<temperature errorminus="76.00" errorplus="76.00">5363.00</temperature>
+		<radius errorminus="0.0550" errorplus="0.0550">0.7590</radius>
+		<age errorminus="3.6000" errorplus="3.6000">0.7000</age>
 		<planet>
 			<name>KOI-1160 b</name>
 			<name>KOI-1160 01</name>
-			<radius>0.26246</radius>
-			<period>13.214200</period>
-			<semimajoraxis>0.104</semimajoraxis>
+			<radius errorminus="0.03098" errorplus="0.03098">0.26246</radius>
+			<period errorminus="1.20000e-04" errorplus="1.20000e-04">13.214150000000</period>
+			<transittime errorminus="0.0034000" errorplus="0.0034000">2454973.5839000</transittime>
+			<semimajoraxis>0.1040000</semimajoraxis>
+			<temperature>639.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>583.4</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

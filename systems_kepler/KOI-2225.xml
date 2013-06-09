@@ -2,21 +2,22 @@
 	<name>KOI-2225</name>
 	<rightascension>19 46 53</rightascension>
 	<declination>+49 31 57</declination>
-	<distance>374.68</distance>
+	<distance>374.10</distance>
 	<star>
 		<name>KOI-2225</name>
-		<temperature>4706.00</temperature>
-		<radius>0.65</radius>
-		<age>13.9000</age>
+		<temperature errorminus="75.00" errorplus="75.00">4706.00</temperature>
+		<radius errorminus="0.0180" errorplus="0.0180">0.6490</radius>
+		<age errorminus="3.8000" errorplus="3.8000">13.9000</age>
 		<planet>
 			<name>KOI-2225 b</name>
 			<name>KOI-2225 01</name>
-			<radius>0.10207</radius>
-			<period>2.787880</period>
-			<semimajoraxis>0.034</semimajoraxis>
+			<radius errorminus="0.00820" errorplus="0.00820">0.10207</radius>
+			<period errorminus="2.60000e-05" errorplus="2.60000e-05">2.787876000000</period>
+			<transittime errorminus="0.0029000" errorplus="0.0029000">2454966.9028000</transittime>
+			<semimajoraxis>0.0340000</semimajoraxis>
+			<temperature>907.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1455.2</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

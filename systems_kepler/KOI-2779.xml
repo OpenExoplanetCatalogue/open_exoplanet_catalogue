@@ -5,17 +5,19 @@
 	<distance>1287.86</distance>
 	<star>
 		<name>KOI-2779</name>
-		<temperature>6206.00</temperature>
-		<radius>1.02</radius>
-		<age>0.3000</age>
+		<temperature errorminus="97.00" errorplus="97.00">6206.00</temperature>
+		<radius errorminus="0.3400" errorplus="0.3400">1.0200</radius>
+		<age errorminus="1.5000" errorplus="1.5000">0.3000</age>
 		<planet>
 			<name>KOI-2779 b</name>
 			<name>KOI-2779 01</name>
-			<radius>0.20960</radius>
-			<period>34.458500</period>
-			<semimajoraxis>0.214</semimajoraxis>
+			<radius errorminus="0.11847" errorplus="0.11847">0.20960</radius>
+			<period errorminus="6.30000e-04" errorplus="6.30000e-04">34.458510000000</period>
+			<transittime errorminus="0.0086000" errorplus="0.0086000">2454980.8274000</transittime>
+			<semimajoraxis>0.2140000</semimajoraxis>
+			<temperature>596.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

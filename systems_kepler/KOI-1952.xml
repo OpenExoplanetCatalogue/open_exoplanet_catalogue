@@ -5,47 +5,52 @@
 	<distance>1021.57</distance>
 	<star>
 		<name>KOI-1952</name>
-		<temperature>6000.00</temperature>
-		<radius>1.01</radius>
-		<age>3.6000</age>
+		<temperature errorminus="100.00" errorplus="100.00">6000.00</temperature>
+		<radius errorminus="0.4000" errorplus="0.4000">1.0100</radius>
+		<age errorminus="2.2000" errorplus="2.2000">3.6000</age>
 		<planet>
 			<name>KOI-1952 b</name>
 			<name>KOI-1952 01</name>
-			<radius>0.17041</radius>
-			<period>8.010350</period>
-			<semimajoraxis>0.079</semimajoraxis>
+			<radius errorminus="0.06744" errorplus="0.06744">0.17041</radius>
+			<period errorminus="1.10000e-04" errorplus="1.10000e-04">8.010350000000</period>
+			<transittime errorminus="0.0050000" errorplus="0.0050000">2454968.3174000</transittime>
+			<semimajoraxis>0.0790000</semimajoraxis>
+			<temperature>946.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>907.0</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1952 c</name>
 			<name>KOI-1952 02</name>
-			<radius>0.18773</radius>
-			<period>27.665000</period>
-			<semimajoraxis>0.180</semimajoraxis>
+			<radius errorminus="0.07473" errorplus="0.07473">0.18773</radius>
+			<period errorminus="5.80000e-04" errorplus="5.80000e-04">27.664960000000</period>
+			<transittime errorminus="0.0077000" errorplus="0.0077000">2454976.8765000</transittime>
+			<semimajoraxis>0.1800000</semimajoraxis>
+			<temperature>627.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>601.7</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1952 d</name>
 			<name>KOI-1952 03</name>
-			<radius>0.11391</radius>
-			<period>5.195500</period>
-			<semimajoraxis>0.059</semimajoraxis>
+			<radius errorminus="0.04557" errorplus="0.04557">0.11391</radius>
+			<period errorminus="1.20000e-04" errorplus="1.20000e-04">5.195500000000</period>
+			<transittime errorminus="0.0080000" errorplus="0.0080000">2454965.7283000</transittime>
+			<semimajoraxis>0.0590000</semimajoraxis>
+			<temperature>1095.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1045.1</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1952 e</name>
 			<name>KOI-1952 04</name>
-			<radius>0.18317</radius>
-			<period>42.469900</period>
-			<semimajoraxis>0.239</semimajoraxis>
+			<radius errorminus="0.07290" errorplus="0.07290">0.18317</radius>
+			<period errorminus="1.20000e-03" errorplus="1.20000e-03">42.469900000000</period>
+			<transittime errorminus="0.0110000" errorplus="0.0110000">2454979.3050000</transittime>
+			<semimajoraxis>0.2390000</semimajoraxis>
+			<temperature>544.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

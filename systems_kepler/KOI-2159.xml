@@ -5,18 +5,19 @@
 	<distance>505.92</distance>
 	<star>
 		<name>KOI-2159</name>
-		<temperature>5853.00</temperature>
-		<radius>0.88</radius>
-		<age>0.4000</age>
+		<temperature errorminus="68.00" errorplus="68.00">5853.00</temperature>
+		<radius errorminus="0.3400" errorplus="0.3400">0.8800</radius>
+		<age errorminus="3.0000" errorplus="3.0000">0.4000</age>
 		<planet>
 			<name>KOI-2159 b</name>
 			<name>KOI-2159 01</name>
-			<radius>0.09751</radius>
-			<period>7.596770</period>
-			<semimajoraxis>0.075</semimajoraxis>
+			<radius errorminus="0.03827" errorplus="0.03827">0.09751</radius>
+			<period errorminus="9.60000e-05" errorplus="9.60000e-05">7.596769000000</period>
+			<transittime errorminus="0.0047000" errorplus="0.0047000">2454964.9504000</transittime>
+			<semimajoraxis>0.0750000</semimajoraxis>
+			<temperature>886.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>835.9</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

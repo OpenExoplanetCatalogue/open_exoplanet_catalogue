@@ -5,18 +5,19 @@
 	<distance>611.77</distance>
 	<star>
 		<name>KOI-2363</name>
-		<temperature>5314.00</temperature>
-		<radius>0.86</radius>
-		<age>14.0000</age>
+		<temperature errorminus="81.00" errorplus="81.00">5314.00</temperature>
+		<radius errorminus="0.8400" errorplus="0.8400">0.8600</radius>
+		<age errorminus="3.4000" errorplus="3.4000">14.0000</age>
 		<planet>
 			<name>KOI-2363 b</name>
 			<name>KOI-2363 01</name>
-			<radius>0.16403</radius>
-			<period>3.138690</period>
-			<semimajoraxis>0.039</semimajoraxis>
+			<radius errorminus="0.17315" errorplus="0.17315">0.16403</radius>
+			<period errorminus="4.60000e-05" errorplus="4.60000e-05">3.138691000000</period>
+			<transittime errorminus="0.0049000" errorplus="0.0049000">2454966.6655000</transittime>
+			<semimajoraxis>0.0390000</semimajoraxis>
+			<temperature>1101.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>965.2</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

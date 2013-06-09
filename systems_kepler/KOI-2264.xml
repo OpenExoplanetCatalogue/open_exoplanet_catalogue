@@ -5,18 +5,19 @@
 	<distance>820.34</distance>
 	<star>
 		<name>KOI-2264</name>
-		<temperature>5560.00</temperature>
-		<radius>1.00</radius>
-		<age>13.0000</age>
+		<temperature errorminus="98.00" errorplus="98.00">5560.00</temperature>
+		<radius errorminus="0.5200" errorplus="0.5200">1.0000</radius>
+		<age errorminus="3.4000" errorplus="3.4000">13.0000</age>
 		<planet>
 			<name>KOI-2264 b</name>
 			<name>KOI-2264 01</name>
-			<radius>0.20049</radius>
-			<period>33.242000</period>
-			<semimajoraxis>0.192</semimajoraxis>
+			<radius errorminus="0.10936" errorplus="0.10936">0.20049</radius>
+			<period errorminus="6.90000e-04" errorplus="6.90000e-04">33.242010000000</period>
+			<transittime errorminus="0.0078000" errorplus="0.0078000">2454976.4517000</transittime>
+			<semimajoraxis>0.1920000</semimajoraxis>
+			<temperature>559.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>537.3</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

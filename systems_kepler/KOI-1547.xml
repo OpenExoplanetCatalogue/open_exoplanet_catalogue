@@ -5,17 +5,18 @@
 	<distance>1346.40</distance>
 	<star>
 		<name>KOI-1547</name>
-		<temperature>5901.00</temperature>
-		<radius>0.84</radius>
+		<temperature errorminus="200.00" errorplus="200.00">5901.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">0.8400</radius>
 		<planet>
 			<name>KOI-1547 b</name>
 			<name>KOI-1547 01</name>
-			<radius>1.02977</radius>
-			<period>30.693900</period>
-			<semimajoraxis>0.196</semimajoraxis>
+			<radius errorminus="0.36452" errorplus="0.36452">1.02977</radius>
+			<period errorminus="3.50000e-05" errorplus="3.50000e-05">30.693946000000</period>
+			<transittime errorminus="0.0002700" errorplus="0.0002700">2455198.6645900</transittime>
+			<semimajoraxis>0.1960000</semimajoraxis>
+			<temperature>540.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>574.3</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

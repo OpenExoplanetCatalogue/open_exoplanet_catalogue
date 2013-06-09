@@ -2,20 +2,22 @@
 	<name>KOI-2691</name>
 	<rightascension>19 16 26</rightascension>
 	<declination>+39 41 07</declination>
-	<distance>481.18</distance>
+	<distance>478.22</distance>
 	<star>
 		<name>KOI-2691</name>
-		<temperature>4703.00</temperature>
-		<radius>0.65</radius>
-		<age>14.0000</age>
+		<temperature errorminus="65.00" errorplus="65.00">4703.00</temperature>
+		<radius errorminus="0.0170" errorplus="0.0170">0.6460</radius>
+		<age errorminus="3.7000" errorplus="3.7000">14.0000</age>
 		<planet>
 			<name>KOI-2691 b</name>
 			<name>KOI-2691 01</name>
-			<radius>0.27977</radius>
-			<period>97.455300</period>
-			<semimajoraxis>0.363</semimajoraxis>
+			<radius errorminus="0.01094" errorplus="0.01094">0.27977</radius>
+			<period errorminus="9.40000e-04" errorplus="9.40000e-04">97.455300000000</period>
+			<transittime errorminus="0.0036000" errorplus="0.0036000">2455037.8114000</transittime>
+			<semimajoraxis>0.3630000</semimajoraxis>
+			<temperature>277.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

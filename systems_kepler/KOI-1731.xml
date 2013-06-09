@@ -5,17 +5,28 @@
 	<distance>863.29</distance>
 	<star>
 		<name>KOI-1731</name>
-		<temperature>4593.00</temperature>
-		<radius>0.87</radius>
+		<temperature errorminus="200.00" errorplus="200.00">4593.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">0.8700</radius>
 		<planet>
 			<name>KOI-1731 b</name>
 			<name>KOI-1731 01</name>
-			<radius>0.22874</radius>
-			<period>2.594960</period>
-			<semimajoraxis>0.034</semimajoraxis>
+			<radius errorminus="0.08111" errorplus="0.08111">0.22874</radius>
+			<period errorminus="3.80000e-05" errorplus="3.80000e-05">2.594962000000</period>
+			<transittime errorminus="0.0051000" errorplus="0.0051000">2454965.7449000</transittime>
+			<semimajoraxis>0.0340000</semimajoraxis>
+			<temperature>1025.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>938.4</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-1731 c</name>
+			<name>KOI-1731 02</name>
+			<radius errorminus="1.09356" errorplus="1.09356">0.36452</radius>
+			<period errorminus="6.90000e-06" errorplus="6.90000e-06">0.837925800000</period>
+			<transittime errorminus="0.0023000" errorplus="0.0023000">2454964.9640000</transittime>
+			<semimajoraxis errorminus="8.9e-08" errorplus="8.9e-08">0.0162248</semimajoraxis>
+			<temperature errorminus=".0" errorplus="0.0">1484.6</temperature>
+			<list>Kepler Objects of Interest</list>
 		</planet>
 	</star>
 </system>

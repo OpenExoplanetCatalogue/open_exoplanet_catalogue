@@ -2,21 +2,22 @@
 	<name>KOI-2399</name>
 	<rightascension>19 39 33</rightascension>
 	<declination>+49 22 47</declination>
-	<distance>437.64</distance>
+	<distance>439.46</distance>
 	<star>
 		<name>KOI-2399</name>
-		<temperature>5220.00</temperature>
-		<radius>0.72</radius>
-		<age>0.6000</age>
+		<temperature errorminus="62.00" errorplus="62.00">5220.00</temperature>
+		<radius errorminus="0.0300" errorplus="0.0300">0.7230</radius>
+		<age errorminus="3.8000" errorplus="3.8000">0.6000</age>
 		<planet>
 			<name>KOI-2399 b</name>
 			<name>KOI-2399 01</name>
-			<radius>0.08202</radius>
-			<period>1.916990</period>
-			<semimajoraxis>0.028</semimajoraxis>
+			<radius errorminus="0.00911" errorplus="0.00911">0.08202</radius>
+			<period errorminus="2.20000e-05" errorplus="2.20000e-05">1.916992000000</period>
+			<transittime errorminus="0.0028000" errorplus="0.0028000">2454965.4576000</transittime>
+			<semimajoraxis>0.0280000</semimajoraxis>
+			<temperature>1170.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1058.8</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

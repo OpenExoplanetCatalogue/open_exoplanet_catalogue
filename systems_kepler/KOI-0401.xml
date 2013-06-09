@@ -4,41 +4,42 @@
 	<declination>+38 23 02</declination>
 	<distance>968.54</distance>
 	<star>
-		<magJ errorminus="0.023" errorplus="0.023">12.694</magJ>
-		<magH errorminus="0.025" errorplus="0.025">12.274</magH>
-		<magK errorminus="0.025" errorplus="0.025">12.184</magK>
 		<name>KOI-0401</name>
-		<temperature>5363.00</temperature>
-		<radius>1.58</radius>
-		<age>14.0000</age>
+		<temperature errorminus="92.00" errorplus="92.00">5363.00</temperature>
+		<radius errorminus="0.1700" errorplus="0.1700">1.5800</radius>
+		<age errorminus="2.0000" errorplus="2.0000">14.0000</age>
 		<planet>
 			<name>KOI-0401 b</name>
 			<name>KOI-0401 01</name>
-			<radius>0.65978</radius>
-			<period>29.199000</period>
-			<semimajoraxis>0.180</semimajoraxis>
+			<radius errorminus="0.08293" errorplus="0.08293">0.65978</radius>
+			<period errorminus="6.30000e-02" errorplus="6.30000e-02">29.199000000000</period>
+			<transittime errorminus="0.0000550" errorplus="0.0000550">2455018.4406740</transittime>
+			<semimajoraxis>0.1800000</semimajoraxis>
+			<temperature>700.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>656.0</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-0401 c</name>
 			<name>KOI-0401 02</name>
-			<radius>0.66525</radius>
-			<period>160.017000</period>
-			<semimajoraxis>0.559</semimajoraxis>
+			<radius errorminus="0.16403" errorplus="0.16403">0.66525</radius>
+			<period errorminus="1.20000e-02" errorplus="1.20000e-02">160.017000000000</period>
+			<transittime errorminus="0.0012000" errorplus="0.0012000">2455084.2847000</transittime>
+			<semimajoraxis>0.5590000</semimajoraxis>
+			<temperature>397.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>372.4</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-0401 d</name>
 			<name>KOI-0401 03</name>
-			<radius>0.24605</radius>
-			<period>55.328400</period>
-			<semimajoraxis>0.275</semimajoraxis>
+			<radius errorminus="0.12758" errorplus="0.12758">0.24605</radius>
+			<period errorminus="5.10000e-04" errorplus="5.10000e-04">55.328410000000</period>
+			<transittime errorminus="0.0011000" errorplus="0.0011000">2455019.3262000</transittime>
+			<semimajoraxis>0.2750000</semimajoraxis>
+			<temperature>567.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

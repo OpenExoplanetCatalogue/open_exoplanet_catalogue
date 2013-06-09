@@ -5,18 +5,19 @@
 	<distance>507.64</distance>
 	<star>
 		<name>KOI-2300</name>
-		<temperature>5264.00</temperature>
-		<radius>0.83</radius>
-		<age>13.9000</age>
+		<temperature errorminus="72.00" errorplus="72.00">5264.00</temperature>
+		<radius errorminus="0.5900" errorplus="0.5900">0.8300</radius>
+		<age errorminus="3.6000" errorplus="3.6000">13.9000</age>
 		<planet>
 			<name>KOI-2300 b</name>
 			<name>KOI-2300 01</name>
-			<radius>0.11482</radius>
-			<period>2.685060</period>
-			<semimajoraxis>0.035</semimajoraxis>
+			<radius errorminus="0.08749" errorplus="0.08749">0.11482</radius>
+			<period errorminus="1.90000e-05" errorplus="1.90000e-05">2.685058000000</period>
+			<transittime errorminus="0.0019000" errorplus="0.0019000">2454965.6020000</transittime>
+			<semimajoraxis>0.0350000</semimajoraxis>
+			<temperature>1129.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1100.8</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

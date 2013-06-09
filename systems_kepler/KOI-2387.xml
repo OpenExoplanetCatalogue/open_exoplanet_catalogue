@@ -5,18 +5,19 @@
 	<distance>1402.95</distance>
 	<star>
 		<name>KOI-2387</name>
-		<temperature>6111.00</temperature>
-		<radius>0.97</radius>
-		<age>0.3000</age>
+		<temperature errorminus="125.00" errorplus="125.00">6111.00</temperature>
+		<radius errorminus="0.4600" errorplus="0.4600">0.9700</radius>
+		<age errorminus="1.8000" errorplus="1.8000">0.3000</age>
 		<planet>
 			<name>KOI-2387 b</name>
 			<name>KOI-2387 01</name>
-			<radius>0.14763</radius>
-			<period>2.032320</period>
-			<semimajoraxis>0.032</semimajoraxis>
+			<radius errorminus="0.07017" errorplus="0.07017">0.14763</radius>
+			<period errorminus="2.70000e-05" errorplus="2.70000e-05">2.032324000000</period>
+			<transittime errorminus="0.0036000" errorplus="0.0036000">2454965.3197000</transittime>
+			<semimajoraxis>0.0320000</semimajoraxis>
+			<temperature>1487.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1411.9</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

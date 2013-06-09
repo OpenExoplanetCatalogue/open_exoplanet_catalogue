@@ -5,17 +5,18 @@
 	<distance>1447.97</distance>
 	<star>
 		<name>KOI-2640</name>
-		<temperature>4860.00</temperature>
-		<radius>4.11</radius>
+		<temperature errorminus="200.00" errorplus="200.00">4860.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">4.1100</radius>
 		<planet>
 			<name>KOI-2640 b</name>
 			<name>KOI-2640 01</name>
-			<radius>0.85298</radius>
-			<period>33.180900</period>
-			<semimajoraxis>0.226</semimajoraxis>
+			<radius errorminus="0.06926" errorplus="0.06926">0.85298</radius>
+			<period errorminus="1.40000e-03" errorplus="1.40000e-03">33.180900000000</period>
+			<transittime errorminus="0.0160000" errorplus="0.0160000">2454969.4820000</transittime>
+			<semimajoraxis>0.2260000</semimajoraxis>
+			<temperature>914.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>891.0</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

@@ -2,24 +2,22 @@
 	<name>KOI-0306</name>
 	<rightascension>19 57 16</rightascension>
 	<declination>+41 23 04</declination>
-	<distance>288.32</distance>
+	<distance>288.65</distance>
 	<star>
-		<magJ errorminus="0.023" errorplus="0.023">11.258</magJ>
-		<magH errorminus="0.025" errorplus="0.025">10.793</magH>
-		<magK errorminus="0.021" errorplus="0.021">10.761</magK>
 		<name>KOI-0306</name>
-		<temperature>5407.00</temperature>
-		<radius>0.87</radius>
-		<age>2.9000</age>
+		<temperature errorminus="50.00" errorplus="50.00">5407.00</temperature>
+		<radius errorminus="0.0410" errorplus="0.0410">0.8710</radius>
+		<age errorminus="2.8000" errorplus="2.8000">2.9000</age>
 		<planet>
 			<name>KOI-0306 b</name>
 			<name>KOI-0306 01</name>
-			<radius>0.20869</radius>
-			<period>24.308000</period>
-			<semimajoraxis>0.161</semimajoraxis>
+			<radius errorminus="0.06106" errorplus="0.06106">0.20869</radius>
+			<period errorminus="8.90000e-05" errorplus="8.90000e-05">24.307983000000</period>
+			<transittime errorminus="0.0013000" errorplus="0.0013000">2455011.3628000</transittime>
+			<semimajoraxis>0.1610000</semimajoraxis>
+			<temperature>555.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>554.2</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

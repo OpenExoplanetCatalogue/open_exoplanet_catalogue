@@ -4,22 +4,20 @@
 	<declination>+49 28 46</declination>
 	<distance>1513.25</distance>
 	<star>
-		<magJ errorminus="0.027" errorplus="0.027">14.203</magJ>
-		<magH errorminus="0.03" errorplus="0.03">13.85</magH>
-		<magK errorminus="0.06" errorplus="0.06">13.85</magK>
 		<name>KOI-0772</name>
-		<temperature>6110.00</temperature>
-		<radius>1.07</radius>
-		<age>3.1000</age>
+		<temperature errorminus="113.00" errorplus="113.00">6110.00</temperature>
+		<radius errorminus="0.4600" errorplus="0.4600">1.0700</radius>
+		<age errorminus="1.7000" errorplus="1.7000">3.1000</age>
 		<planet>
 			<name>KOI-0772 b</name>
 			<name>KOI-0772 01</name>
-			<radius>1.19381</radius>
-			<period>61.257100</period>
-			<semimajoraxis>0.310</semimajoraxis>
+			<radius errorminus="0.60146" errorplus="0.60146">1.19381</radius>
+			<period errorminus="6.40000e-04" errorplus="6.40000e-04">61.257140000000</period>
+			<transittime errorminus="0.0027000" errorplus="0.0027000">2455006.8345000</transittime>
+			<semimajoraxis>0.3100000</semimajoraxis>
+			<temperature>500.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>476.0</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

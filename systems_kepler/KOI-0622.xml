@@ -4,22 +4,20 @@
 	<declination>+51 15 49</declination>
 	<distance>799.76</distance>
 	<star>
-		<magJ errorminus="0.028" errorplus="0.028">13.502</magJ>
-		<magH errorminus="0.024" errorplus="0.024">13.039</magH>
-		<magK errorminus="0.03" errorplus="0.03">12.99</magK>
 		<name>KOI-0622</name>
-		<temperature>5331.00</temperature>
-		<radius>0.86</radius>
-		<age>13.8000</age>
+		<temperature errorminus="94.00" errorplus="94.00">5331.00</temperature>
+		<radius errorminus="0.5300" errorplus="0.5300">0.8600</radius>
+		<age errorminus="3.7000" errorplus="3.7000">13.8000</age>
 		<planet>
 			<name>KOI-0622 b</name>
 			<name>KOI-0622 01</name>
-			<radius>0.60146</radius>
-			<period>155.043000</period>
-			<semimajoraxis>0.524</semimajoraxis>
+			<radius errorminus="0.37363" errorplus="0.37363">0.60146</radius>
+			<period errorminus="1.40000e-03" errorplus="1.40000e-03">155.042900000000</period>
+			<transittime errorminus="0.0026000" errorplus="0.0026000">2455046.4994000</transittime>
+			<semimajoraxis>0.5240000</semimajoraxis>
+			<temperature>302.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>297.6</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

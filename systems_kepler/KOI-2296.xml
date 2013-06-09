@@ -5,18 +5,19 @@
 	<distance>973.13</distance>
 	<star>
 		<name>KOI-2296</name>
-		<temperature>5952.00</temperature>
-		<radius>1.00</radius>
-		<age>4.1000</age>
+		<temperature errorminus="106.00" errorplus="106.00">5952.00</temperature>
+		<radius errorminus="0.5400" errorplus="0.5400">1.0000</radius>
+		<age errorminus="2.5000" errorplus="2.5000">4.1000</age>
 		<planet>
 			<name>KOI-2296 b</name>
 			<name>KOI-2296 01</name>
-			<radius>0.20049</radius>
-			<period>106.249000</period>
-			<semimajoraxis>0.439</semimajoraxis>
+			<radius errorminus="0.10936" errorplus="0.10936">0.20049</radius>
+			<period errorminus="3.70000e-03" errorplus="3.70000e-03">106.249000000000</period>
+			<transittime errorminus="0.0120000" errorplus="0.0120000">2454968.7410000</transittime>
+			<semimajoraxis>0.4390000</semimajoraxis>
+			<temperature>397.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>375.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

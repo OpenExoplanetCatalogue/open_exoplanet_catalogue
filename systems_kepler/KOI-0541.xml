@@ -4,22 +4,20 @@
 	<declination>+49 45 43</declination>
 	<distance>738.17</distance>
 	<star>
-		<magJ errorminus="0.026" errorplus="0.026">13.480</magJ>
-		<magH errorminus="0.04" errorplus="0.04">13.10</magH>
-		<magK errorminus="0.03" errorplus="0.03">13.00</magK>
 		<name>KOI-0541</name>
-		<temperature>5540.00</temperature>
-		<radius>0.80</radius>
-		<age>0.5000</age>
+		<temperature errorminus="87.00" errorplus="87.00">5540.00</temperature>
+		<radius errorminus="0.3400" errorplus="0.3400">0.8000</radius>
+		<age errorminus="4.0000" errorplus="4.0000">0.5000</age>
 		<planet>
 			<name>KOI-0541 b</name>
 			<name>KOI-0541 01</name>
-			<radius>0.22783</radius>
-			<period>13.646300</period>
-			<semimajoraxis>0.108</semimajoraxis>
+			<radius errorminus="0.10024" errorplus="0.10024">0.22783</radius>
+			<period errorminus="1.20000e-04" errorplus="1.20000e-04">13.646250000000</period>
+			<transittime errorminus="0.0030000" errorplus="0.0030000">2455013.3473000</transittime>
+			<semimajoraxis>0.1080000</semimajoraxis>
+			<temperature>666.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>644.3</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

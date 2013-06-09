@@ -4,22 +4,20 @@
 	<declination>+37 03 40</declination>
 	<distance>741.43</distance>
 	<star>
-		<magJ errorminus="0.023" errorplus="0.023">13.284</magJ>
-		<magH errorminus="0.024" errorplus="0.024">12.909</magH>
-		<magK errorminus="0.03" errorplus="0.03">12.84</magK>
 		<name>KOI-0994</name>
-		<temperature>5461.00</temperature>
-		<radius>0.88</radius>
-		<age>10.4000</age>
+		<temperature errorminus="135.00" errorplus="135.00">5461.00</temperature>
+		<radius errorminus="0.4200" errorplus="0.4200">0.8800</radius>
+		<age errorminus="4.0000" errorplus="4.0000">10.4000</age>
 		<planet>
 			<name>KOI-0994 b</name>
 			<name>KOI-0994 01</name>
-			<radius>0.11665</radius>
-			<period>4.298860</period>
-			<semimajoraxis>0.049</semimajoraxis>
+			<radius errorminus="0.05832" errorplus="0.05832">0.11665</radius>
+			<period errorminus="6.80000e-05" errorplus="6.80000e-05">4.298863000000</period>
+			<transittime errorminus="0.0054000" errorplus="0.0054000">2454965.8642000</transittime>
+			<semimajoraxis>0.0490000</semimajoraxis>
+			<temperature>1021.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1026.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

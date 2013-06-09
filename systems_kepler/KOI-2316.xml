@@ -5,18 +5,19 @@
 	<distance>1363.07</distance>
 	<star>
 		<name>KOI-2316</name>
-		<temperature>6195.00</temperature>
-		<radius>1.05</radius>
-		<age>1.5000</age>
+		<temperature errorminus="122.00" errorplus="122.00">6195.00</temperature>
+		<radius errorminus="0.4600" errorplus="0.4600">1.0500</radius>
+		<age errorminus="1.3000" errorplus="1.3000">1.5000</age>
 		<planet>
 			<name>KOI-2316 b</name>
 			<name>KOI-2316 01</name>
-			<radius>0.20960</radius>
-			<period>17.137600</period>
-			<semimajoraxis>0.134</semimajoraxis>
+			<radius errorminus="0.09113" errorplus="0.09113">0.20960</radius>
+			<period errorminus="3.30000e-04" errorplus="3.30000e-04">17.137560000000</period>
+			<transittime errorminus="0.0072000" errorplus="0.0072000">2454974.0002000</transittime>
+			<semimajoraxis>0.1340000</semimajoraxis>
+			<temperature>765.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>738.2</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

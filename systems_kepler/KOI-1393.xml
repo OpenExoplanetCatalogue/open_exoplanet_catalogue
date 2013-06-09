@@ -5,17 +5,18 @@
 	<distance>462.82</distance>
 	<star>
 		<name>KOI-1393</name>
-		<temperature>3972.00</temperature>
-		<radius>0.60</radius>
+		<temperature errorminus="200.00" errorplus="200.00">3972.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">0.6000</radius>
 		<planet>
 			<name>KOI-1393 b</name>
 			<name>KOI-1393 01</name>
-			<radius>0.20960</radius>
-			<period>1.694740</period>
-			<semimajoraxis>0.022</semimajoraxis>
+			<radius errorminus="0.10936" errorplus="0.10936">0.20960</radius>
+			<period errorminus="7.30000e-06" errorplus="7.30000e-06">1.694735400000</period>
+			<transittime errorminus="0.0008500" errorplus="0.0008500">2455188.3576500</transittime>
+			<semimajoraxis>0.0220000</semimajoraxis>
+			<temperature>913.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>856.4</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

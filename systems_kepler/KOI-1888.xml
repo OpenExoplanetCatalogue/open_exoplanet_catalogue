@@ -5,18 +5,19 @@
 	<distance>968.98</distance>
 	<star>
 		<name>KOI-1888</name>
-		<temperature>6741.00</temperature>
-		<radius>1.41</radius>
-		<age>1.7000</age>
+		<temperature errorminus="103.00" errorplus="103.00">6741.00</temperature>
+		<radius errorminus="0.6400" errorplus="0.6400">1.4100</radius>
+		<age errorminus="0.3900" errorplus="0.3900">1.7000</age>
 		<planet>
 			<name>KOI-1888 b</name>
 			<name>KOI-1888 01</name>
-			<radius>0.39186</radius>
-			<period>120.019000</period>
-			<semimajoraxis>0.519</semimajoraxis>
+			<radius errorminus="0.18226" errorplus="0.18226">0.39186</radius>
+			<period errorminus="1.40000e-03" errorplus="1.40000e-03">120.019000000000</period>
+			<transittime errorminus="0.0035000" errorplus="0.0035000">2454967.1826000</transittime>
+			<semimajoraxis>0.5190000</semimajoraxis>
+			<temperature>489.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>475.8</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

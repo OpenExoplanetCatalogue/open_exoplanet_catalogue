@@ -2,24 +2,22 @@
 	<name>KOI-1300</name>
 	<rightascension>19 26 22</rightascension>
 	<declination>+48 26 44</declination>
-	<distance>318.96</distance>
+	<distance>319.98</distance>
 	<star>
-		<magJ errorminus="0.022" errorplus="0.022">12.555</magJ>
-		<magH errorminus="0.019" errorplus="0.019">12.011</magH>
-		<magK errorminus="0.022" errorplus="0.022">11.879</magK>
 		<name>KOI-1300</name>
-		<temperature>4602.00</temperature>
-		<radius>0.62</radius>
-		<age>13.9000</age>
+		<temperature errorminus="71.00" errorplus="71.00">4602.00</temperature>
+		<radius errorminus="0.0170" errorplus="0.0170">0.6220</radius>
+		<age errorminus="3.8000" errorplus="3.8000">13.9000</age>
 		<planet>
 			<name>KOI-1300 b</name>
 			<name>KOI-1300 01</name>
-			<radius>0.12211</radius>
-			<period>0.631330</period>
-			<semimajoraxis>0.012</semimajoraxis>
+			<radius errorminus="0.00638" errorplus="0.00638">0.12211</radius>
+			<period errorminus="2.30000e-06" errorplus="2.30000e-06">0.631329800000</period>
+			<transittime errorminus="0.0003100" errorplus="0.0003100">2454966.9446400</transittime>
+			<semimajoraxis>0.0120000</semimajoraxis>
+			<temperature>1461.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1231.0</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

@@ -4,22 +4,20 @@
 	<declination>+43 42 11</declination>
 	<distance>1590.92</distance>
 	<star>
-		<magJ errorminus="0.028" errorplus="0.028">14.197</magJ>
-		<magH errorminus="0.04" errorplus="0.04">14.02</magH>
-		<magK errorminus="0.05" errorplus="0.05">13.85</magK>
 		<name>KOI-0900</name>
-		<temperature>5908.00</temperature>
-		<radius>1.11</radius>
-		<age>7.4000</age>
+		<temperature errorminus="116.00" errorplus="116.00">5908.00</temperature>
+		<radius errorminus="0.3900" errorplus="0.3900">1.1100</radius>
+		<age errorminus="2.4000" errorplus="2.4000">7.4000</age>
 		<planet>
 			<name>KOI-0900 b</name>
 			<name>KOI-0900 01</name>
-			<radius>0.41920</radius>
-			<period>13.809900</period>
-			<semimajoraxis>0.112</semimajoraxis>
+			<radius errorminus="0.16403" errorplus="0.16403">0.41920</radius>
+			<period errorminus="9.10000e-05" errorplus="9.10000e-05">13.809940000000</period>
+			<transittime errorminus="0.0024000" errorplus="0.0024000">2455005.3417000</transittime>
+			<semimajoraxis>0.1120000</semimajoraxis>
+			<temperature>820.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>793.7</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>
