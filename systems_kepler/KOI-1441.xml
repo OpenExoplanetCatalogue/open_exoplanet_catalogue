@@ -4,22 +4,20 @@
 	<declination>+49 08 24</declination>
 	<distance>1185.70</distance>
 	<star>
-		<magJ errorminus="0.026" errorplus="0.026">13.876</magJ>
-		<magH errorminus="0.027" errorplus="0.027">13.478</magH>
-		<magK errorminus="0.04" errorplus="0.04">13.39</magK>
 		<name>KOI-1441</name>
-		<temperature>5803.00</temperature>
-		<radius>0.98</radius>
-		<age>6.4000</age>
+		<temperature errorminus="118.00" errorplus="118.00">5803.00</temperature>
+		<radius errorminus="0.4700" errorplus="0.4700">0.9800</radius>
+		<age errorminus="3.0000" errorplus="3.0000">6.4000</age>
 		<planet>
 			<name>KOI-1441 b</name>
 			<name>KOI-1441 01</name>
-			<radius>0.15401</radius>
-			<period>8.506910</period>
-			<semimajoraxis>0.080</semimajoraxis>
+			<radius errorminus="0.07746" errorplus="0.07746">0.15401</radius>
+			<period errorminus="1.40000e-04" errorplus="1.40000e-04">8.506910000000</period>
+			<transittime errorminus="0.0062000" errorplus="0.0062000">2454967.6459000</transittime>
+			<semimajoraxis>0.0800000</semimajoraxis>
+			<temperature>895.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>852.4</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

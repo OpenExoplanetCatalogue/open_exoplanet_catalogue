@@ -5,16 +5,18 @@
 	<distance>1386.51</distance>
 	<star>
 		<name>KOI-1496</name>
-		<temperature>5667.00</temperature>
-		<radius>0.97</radius>
+		<temperature errorminus="200.00" errorplus="200.00">5667.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">0.9700</radius>
 		<planet>
 			<name>KOI-1496 b</name>
 			<name>KOI-1496 01</name>
-			<radius>1.01155</radius>
-			<period>36.128500</period>
-			<semimajoraxis>0.218</semimajoraxis>
+			<radius errorminus="0.54678" errorplus="0.54678">1.01155</radius>
+			<period errorminus="1.80000e-04" errorplus="1.80000e-04">36.128460000000</period>
+			<transittime errorminus="0.0011000" errorplus="0.0011000">2455221.5535000</transittime>
+			<semimajoraxis>0.2180000</semimajoraxis>
+			<temperature>528.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

@@ -5,18 +5,19 @@
 	<distance>953.20</distance>
 	<star>
 		<name>KOI-2252</name>
-		<temperature>6367.00</temperature>
-		<radius>1.31</radius>
-		<age>3.1400</age>
+		<temperature errorminus="107.00" errorplus="107.00">6367.00</temperature>
+		<radius errorminus="0.4900" errorplus="0.4900">1.3100</radius>
+		<age errorminus="0.7200" errorplus="0.7200">3.1400</age>
 		<planet>
 			<name>KOI-2252 b</name>
 			<name>KOI-2252 01</name>
-			<radius>0.14399</radius>
-			<period>13.540000</period>
-			<semimajoraxis>0.117</semimajoraxis>
+			<radius errorminus="0.05377" errorplus="0.05377">0.14399</radius>
+			<period errorminus="2.70000e-04" errorplus="2.70000e-04">13.539960000000</period>
+			<transittime errorminus="0.0073000" errorplus="0.0073000">2454976.1396000</transittime>
+			<semimajoraxis>0.1170000</semimajoraxis>
+			<temperature>940.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>898.9</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

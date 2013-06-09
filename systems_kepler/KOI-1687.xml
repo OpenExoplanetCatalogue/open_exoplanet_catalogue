@@ -2,21 +2,22 @@
 	<name>KOI-1687</name>
 	<rightascension>19 19 40</rightascension>
 	<declination>+41 32 34</declination>
-	<distance>588.76</distance>
+	<distance>592.32</distance>
 	<star>
 		<name>KOI-1687</name>
-		<temperature>4775.00</temperature>
-		<radius>0.66</radius>
-		<age>13.8000</age>
+		<temperature errorminus="67.00" errorplus="67.00">4775.00</temperature>
+		<radius errorminus="0.0180" errorplus="0.0180">0.6640</radius>
+		<age errorminus="3.7000" errorplus="3.7000">13.8000</age>
 		<planet>
 			<name>KOI-1687 b</name>
 			<name>KOI-1687 01</name>
-			<radius>0.13487</radius>
-			<period>3.932450</period>
-			<semimajoraxis>0.043</semimajoraxis>
+			<radius errorminus="0.01731" errorplus="0.01731">0.13487</radius>
+			<period errorminus="3.30000e-05" errorplus="3.30000e-05">3.932449000000</period>
+			<transittime errorminus="0.0028000" errorplus="0.0028000">2454965.5555000</transittime>
+			<semimajoraxis>0.0430000</semimajoraxis>
+			<temperature>828.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>838.2</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

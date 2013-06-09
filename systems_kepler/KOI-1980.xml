@@ -5,18 +5,19 @@
 	<distance>497.83</distance>
 	<star>
 		<name>KOI-1980</name>
-		<temperature>5590.00</temperature>
-		<radius>0.82</radius>
-		<age>0.8000</age>
+		<temperature errorminus="96.00" errorplus="96.00">5590.00</temperature>
+		<radius errorminus="0.3600" errorplus="0.3600">0.8200</radius>
+		<age errorminus="3.9000" errorplus="3.9000">0.8000</age>
 		<planet>
 			<name>KOI-1980 b</name>
 			<name>KOI-1980 01</name>
-			<radius>0.25516</radius>
-			<period>122.877000</period>
-			<semimajoraxis>0.470</semimajoraxis>
+			<radius errorminus="0.10936" errorplus="0.10936">0.25516</radius>
+			<period errorminus="2.00000e-03" errorplus="2.00000e-03">122.876700000000</period>
+			<transittime errorminus="0.0068000" errorplus="0.0068000">2454998.4710000</transittime>
+			<semimajoraxis>0.4700000</semimajoraxis>
+			<temperature>325.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>320.0</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

@@ -5,18 +5,19 @@
 	<distance>1476.46</distance>
 	<star>
 		<name>KOI-2487</name>
-		<temperature>6180.00</temperature>
-		<radius>1.02</radius>
-		<age>0.5000</age>
+		<temperature errorminus="121.00" errorplus="121.00">6180.00</temperature>
+		<radius errorminus="0.4600" errorplus="0.4600">1.0200</radius>
+		<age errorminus="1.2000" errorplus="1.2000">0.5000</age>
 		<planet>
 			<name>KOI-2487 b</name>
 			<name>KOI-2487 01</name>
-			<radius>0.18044</radius>
-			<period>36.292900</period>
-			<semimajoraxis>0.221</semimajoraxis>
+			<radius errorminus="0.08202" errorplus="0.08202">0.18044</radius>
+			<period errorminus="1.10000e-03" errorplus="1.10000e-03">36.292900000000</period>
+			<transittime errorminus="0.0120000" errorplus="0.0120000">2454965.1650000</transittime>
+			<semimajoraxis>0.2210000</semimajoraxis>
+			<temperature>584.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>544.6</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

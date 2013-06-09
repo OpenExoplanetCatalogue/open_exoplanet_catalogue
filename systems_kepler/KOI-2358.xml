@@ -5,18 +5,19 @@
 	<distance>784.73</distance>
 	<star>
 		<name>KOI-2358</name>
-		<temperature>6428.00</temperature>
-		<radius>1.11</radius>
-		<age>0.3200</age>
+		<temperature errorminus="93.00" errorplus="93.00">6428.00</temperature>
+		<radius errorminus="0.4300" errorplus="0.4300">1.1100</radius>
+		<age errorminus="0.8600" errorplus="0.8600">0.3200</age>
 		<planet>
 			<name>KOI-2358 b</name>
 			<name>KOI-2358 01</name>
-			<radius>0.19958</radius>
-			<period>56.494300</period>
-			<semimajoraxis>0.305</semimajoraxis>
+			<radius errorminus="0.07655" errorplus="0.07655">0.19958</radius>
+			<period errorminus="1.00000e-03" errorplus="1.00000e-03">56.494300000000</period>
+			<transittime errorminus="0.0068000" errorplus="0.0068000">2454976.9855000</transittime>
+			<semimajoraxis>0.3050000</semimajoraxis>
+			<temperature>542.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>501.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

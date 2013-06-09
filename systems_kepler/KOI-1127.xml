@@ -5,37 +5,40 @@
 	<distance>1368.11</distance>
 	<star>
 		<name>KOI-1127</name>
-		<temperature>5602.00</temperature>
-		<radius>0.89</radius>
+		<temperature errorminus="200.00" errorplus="200.00">5602.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">0.8900</radius>
 		<planet>
 			<name>KOI-1127 b</name>
 			<name>KOI-1127 01</name>
-			<radius>0.24332</radius>
-			<period>5.326680</period>
-			<semimajoraxis>0.060</semimajoraxis>
+			<radius errorminus="0.08202" errorplus="0.08202">0.24332</radius>
+			<period errorminus="9.80000e-05" errorplus="9.80000e-05">5.326679000000</period>
+			<transittime errorminus="0.0046000" errorplus="0.0046000">2455190.1243000</transittime>
+			<semimajoraxis>0.0600000</semimajoraxis>
+			<temperature>951.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>959.4</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1127 c</name>
 			<name>KOI-1127 02</name>
-			<radius>0.15492</radius>
-			<period>8.128100</period>
-			<semimajoraxis>0.080</semimajoraxis>
+			<radius errorminus="0.05377" errorplus="0.05377">0.15492</radius>
+			<period errorminus="4.20000e-04" errorplus="4.20000e-04">8.128100000000</period>
+			<transittime errorminus="0.0130000" errorplus="0.0130000">2455191.6810000</transittime>
+			<semimajoraxis>0.0800000</semimajoraxis>
+			<temperature>824.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>829.1</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1127 d</name>
 			<name>KOI-1127 03</name>
-			<radius>0.12576</radius>
-			<period>2.836780</period>
-			<semimajoraxis>0.040</semimajoraxis>
+			<radius errorminus="0.04374" errorplus="0.04374">0.12576</radius>
+			<period errorminus="1.30000e-04" errorplus="1.30000e-04">2.836780000000</period>
+			<transittime errorminus="0.0110000" errorplus="0.0110000">2455186.8060000</transittime>
+			<semimajoraxis>0.0400000</semimajoraxis>
+			<temperature>1165.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1180.0</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

@@ -5,18 +5,19 @@
 	<distance>809.14</distance>
 	<star>
 		<name>KOI-2067</name>
-		<temperature>5570.00</temperature>
-		<radius>2.35</radius>
-		<age>4.6000</age>
+		<temperature errorminus="103.00" errorplus="103.00">5570.00</temperature>
+		<radius errorminus="0.3600" errorplus="0.3600">2.3500</radius>
+		<age errorminus="2.7000" errorplus="2.7000">4.6000</age>
 		<planet>
 			<name>KOI-2067 b</name>
 			<name>KOI-2067 01</name>
-			<radius>0.26154</radius>
-			<period>13.245100</period>
-			<semimajoraxis>0.118</semimajoraxis>
+			<radius errorminus="0.04283" errorplus="0.04283">0.26154</radius>
+			<period errorminus="1.80000e-04" errorplus="1.80000e-04">13.245140000000</period>
+			<transittime errorminus="0.0051000" errorplus="0.0051000">2454975.0029000</transittime>
+			<semimajoraxis>0.1180000</semimajoraxis>
+			<temperature>1097.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1098.6</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

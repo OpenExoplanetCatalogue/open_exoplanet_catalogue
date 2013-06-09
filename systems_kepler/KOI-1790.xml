@@ -5,18 +5,19 @@
 	<distance>1250.83</distance>
 	<star>
 		<name>KOI-1790</name>
-		<temperature>5890.00</temperature>
-		<radius>0.95</radius>
-		<age>3.5000</age>
+		<temperature errorminus="114.00" errorplus="114.00">5890.00</temperature>
+		<radius errorminus="0.3800" errorplus="0.3800">0.9500</radius>
+		<age errorminus="2.7000" errorplus="2.7000">3.5000</age>
 		<planet>
 			<name>KOI-1790 b</name>
 			<name>KOI-1790 01</name>
-			<radius>0.61057</radius>
-			<period>130.351000</period>
-			<semimajoraxis>0.500</semimajoraxis>
+			<radius errorminus="0.24605" errorplus="0.24605">0.61057</radius>
+			<period errorminus="4.10000e-04" errorplus="4.10000e-04">130.351480000000</period>
+			<transittime errorminus="0.0013000" errorplus="0.0013000">2454977.0561000</transittime>
+			<semimajoraxis>0.5000000</semimajoraxis>
+			<temperature>359.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>343.0</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

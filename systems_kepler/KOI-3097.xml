@@ -5,35 +5,41 @@
 	<distance>596.22</distance>
 	<star>
 		<name>KOI-3097</name>
-		<temperature>6306.00</temperature>
-		<radius>1.79</radius>
-		<age>4.3400</age>
+		<temperature errorminus="71.00" errorplus="71.00">6306.00</temperature>
+		<radius errorminus="0.6400" errorplus="0.6400">1.7900</radius>
+		<age errorminus="0.8100" errorplus="0.8100">4.3400</age>
 		<planet>
 			<name>KOI-3097 b</name>
 			<name>KOI-3097 01</name>
-			<radius>0.15128</radius>
-			<period>11.922000</period>
-			<semimajoraxis>0.109</semimajoraxis>
+			<radius errorminus="0.07108" errorplus="0.07108">0.15128</radius>
+			<period errorminus="2.10000e-04" errorplus="2.10000e-04">11.921960000000</period>
+			<transittime errorminus="0.0088000" errorplus="0.0088000">2454970.4610000</transittime>
+			<semimajoraxis>0.1090000</semimajoraxis>
+			<temperature>1128.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-3097 c</name>
 			<name>KOI-3097 02</name>
-			<radius>0.09660</radius>
-			<period>6.802730</period>
-			<semimajoraxis>0.075</semimajoraxis>
+			<radius errorminus="0.05468" errorplus="0.05468">0.09660</radius>
+			<period errorminus="1.60000e-04" errorplus="1.60000e-04">6.802730000000</period>
+			<transittime errorminus="0.0120000" errorplus="0.0120000">2454971.0420000</transittime>
+			<semimajoraxis>0.0750000</semimajoraxis>
+			<temperature>1360.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-3097 d</name>
 			<name>KOI-3097 03</name>
-			<radius>0.09751</radius>
-			<period>8.702950</period>
-			<semimajoraxis>0.088</semimajoraxis>
+			<radius errorminus="0.05650" errorplus="0.05650">0.09751</radius>
+			<period errorminus="2.70000e-04" errorplus="2.70000e-04">8.702950000000</period>
+			<transittime errorminus="0.0150000" errorplus="0.0150000">2454973.1620000</transittime>
+			<semimajoraxis>0.0880000</semimajoraxis>
+			<temperature>1255.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

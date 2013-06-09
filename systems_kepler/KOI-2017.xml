@@ -5,18 +5,19 @@
 	<distance>416.86</distance>
 	<star>
 		<name>KOI-2017</name>
-		<temperature>5782.00</temperature>
-		<radius>0.89</radius>
-		<age>2.2000</age>
+		<temperature errorminus="69.00" errorplus="69.00">5782.00</temperature>
+		<radius errorminus="0.4300" errorplus="0.4300">0.8900</radius>
+		<age errorminus="3.2000" errorplus="3.2000">2.2000</age>
 		<planet>
 			<name>KOI-2017 b</name>
 			<name>KOI-2017 01</name>
-			<radius>0.11938</radius>
-			<period>2.295030</period>
-			<semimajoraxis>0.034</semimajoraxis>
+			<radius errorminus="0.05832" errorplus="0.05832">0.11938</radius>
+			<period errorminus="1.30000e-05" errorplus="1.30000e-05">2.295026000000</period>
+			<transittime errorminus="0.0015000" errorplus="0.0015000">2454965.6932000</transittime>
+			<semimajoraxis>0.0340000</semimajoraxis>
+			<temperature>1306.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1224.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

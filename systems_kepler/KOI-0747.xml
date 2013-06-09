@@ -2,24 +2,22 @@
 	<name>KOI-0747</name>
 	<rightascension>18 54 50</rightascension>
 	<declination>+47 51 47</declination>
-	<distance>571.87</distance>
+	<distance>575.74</distance>
 	<star>
-		<magJ errorminus="0.027" errorplus="0.027">14.001</magJ>
-		<magH errorminus="0.026" errorplus="0.026">13.370</magH>
-		<magK errorminus="0.04" errorplus="0.04">13.23</magK>
 		<name>KOI-0747</name>
-		<temperature>4473.00</temperature>
-		<radius>0.59</radius>
-		<age>13.6000</age>
+		<temperature errorminus="63.00" errorplus="63.00">4473.00</temperature>
+		<radius errorminus="0.0130" errorplus="0.0130">0.5940</radius>
+		<age errorminus="3.7000" errorplus="3.7000">13.6000</age>
 		<planet>
 			<name>KOI-0747 b</name>
 			<name>KOI-0747 01</name>
-			<radius>0.29162</radius>
-			<period>6.029270</period>
-			<semimajoraxis>0.055</semimajoraxis>
+			<radius errorminus="0.03372" errorplus="0.03372">0.29162</radius>
+			<period errorminus="2.00000e-05" errorplus="2.00000e-05">6.029272000000</period>
+			<transittime errorminus="0.0011000" errorplus="0.0011000">2455004.6037000</transittime>
+			<semimajoraxis>0.0550000</semimajoraxis>
+			<temperature>648.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>628.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

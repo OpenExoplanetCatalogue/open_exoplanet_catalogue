@@ -5,17 +5,18 @@
 	<distance>47.87</distance>
 	<star>
 		<name>KOI-1725</name>
-		<temperature>3240.00</temperature>
-		<radius>0.27</radius>
+		<temperature errorminus="" errorplus="">3240.00</temperature>
+		<radius errorminus="" errorplus="">0.2700</radius>
 		<planet>
 			<name>KOI-1725 b</name>
 			<name>KOI-1725 01</name>
-			<radius>0.10480</radius>
-			<period>9.884700</period>
-			<semimajoraxis>0.054</semimajoraxis>
+			<radius errorminus="0.04830" errorplus="0.04830">0.10480</radius>
+			<period errorminus="2.30000e-03" errorplus="2.30000e-03">9.884700000000</period>
+			<transittime errorminus="0.0032000" errorplus="0.0032000">2454971.4041000</transittime>
+			<semimajoraxis>0.0540000</semimajoraxis>
+			<temperature>320.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a confirmed planet by the Kepler team and might have already appear in a peer reviewed paper.</description>
-			<temperature>364.8</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

@@ -5,18 +5,19 @@
 	<distance>1230.71</distance>
 	<star>
 		<name>KOI-2014</name>
-		<temperature>5669.00</temperature>
-		<radius>0.86</radius>
-		<age>2.8000</age>
+		<temperature errorminus="139.00" errorplus="139.00">5669.00</temperature>
+		<radius errorminus="0.4000" errorplus="0.4000">0.8600</radius>
+		<age errorminus="3.7000" errorplus="3.7000">2.8000</age>
 		<planet>
 			<name>KOI-2014 b</name>
 			<name>KOI-2014 01</name>
-			<radius>0.21871</radius>
-			<period>2.466080</period>
-			<semimajoraxis>0.035</semimajoraxis>
+			<radius errorminus="0.10936" errorplus="0.10936">0.21871</radius>
+			<period errorminus="1.40000e-05" errorplus="1.40000e-05">2.466077000000</period>
+			<transittime errorminus="0.0016000" errorplus="0.0016000">2454965.3197000</transittime>
+			<semimajoraxis>0.0350000</semimajoraxis>
+			<temperature>1240.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1184.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

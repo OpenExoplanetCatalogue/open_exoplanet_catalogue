@@ -4,24 +4,20 @@
 	<declination>+49 37 24</declination>
 	<distance>151.33</distance>
 	<star>
-		<magB errorminus="0.20" errorplus="0.20">12.16</magB>
-		<magV errorminus="0.10" errorplus="0.10">11.27</magV>
-		<magJ errorminus="0.024" errorplus="0.024">10.026</magJ>
-		<magH errorminus="0.017" errorplus="0.017">9.670</magH>
-		<magK errorminus="0.013" errorplus="0.013">9.645</magK>
 		<name>KOI-0365</name>
-		<temperature>5451.00</temperature>
-		<radius>0.87</radius>
-		<age>9.6000</age>
+		<temperature errorminus="44.00" errorplus="44.00">5451.00</temperature>
+		<radius errorminus="0.0530" errorplus="0.0530">0.8700</radius>
+		<age errorminus="3.6000" errorplus="3.6000">9.6000</age>
 		<planet>
 			<name>KOI-0365 b</name>
 			<name>KOI-0365 01</name>
-			<radius>0.20869</radius>
-			<period>81.737500</period>
-			<semimajoraxis>0.349</semimajoraxis>
+			<radius errorminus="0.01458" errorplus="0.01458">0.20869</radius>
+			<period errorminus="2.90000e-04" errorplus="2.90000e-04">81.737470000000</period>
+			<transittime errorminus="0.0012000" errorplus="0.0012000">2455044.6787000</transittime>
+			<semimajoraxis>0.3490000</semimajoraxis>
+			<temperature>380.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>379.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

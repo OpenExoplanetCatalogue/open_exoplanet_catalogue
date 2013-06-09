@@ -5,18 +5,19 @@
 	<distance>822.17</distance>
 	<star>
 		<name>KOI-2422</name>
-		<temperature>5413.00</temperature>
-		<radius>0.91</radius>
-		<age>13.9000</age>
+		<temperature errorminus="96.00" errorplus="96.00">5413.00</temperature>
+		<radius errorminus="0.4400" errorplus="0.4400">0.9100</radius>
+		<age errorminus="3.7000" errorplus="3.7000">13.9000</age>
 		<planet>
 			<name>KOI-2422 b</name>
 			<name>KOI-2422 01</name>
-			<radius>0.15492</radius>
-			<period>26.783700</period>
-			<semimajoraxis>0.164</semimajoraxis>
+			<radius errorminus="0.08566" errorplus="0.08566">0.15492</radius>
+			<period errorminus="5.40000e-04" errorplus="5.40000e-04">26.783720000000</period>
+			<transittime errorminus="0.0003600" errorplus="0.0003600">2454973.7544600</transittime>
+			<semimajoraxis>0.1640000</semimajoraxis>
+			<temperature>563.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>555.2</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

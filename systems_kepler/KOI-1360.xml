@@ -4,41 +4,42 @@
 	<declination>+42 40 53</declination>
 	<distance>813.64</distance>
 	<star>
-		<magJ errorminus="0.026" errorplus="0.026">14.054</magJ>
-		<magH errorminus="0.03" errorplus="0.03">13.58</magH>
-		<magK errorminus="0.04" errorplus="0.04">13.45</magK>
 		<name>KOI-1360</name>
-		<temperature>5115.00</temperature>
-		<radius>0.70</radius>
-		<age>1.1000</age>
+		<temperature errorminus="86.00" errorplus="86.00">5115.00</temperature>
+		<radius errorminus="0.1400" errorplus="0.1400">0.7000</radius>
+		<age errorminus="3.7000" errorplus="3.7000">1.1000</age>
 		<planet>
 			<name>KOI-1360 b</name>
 			<name>KOI-1360 01</name>
-			<radius>0.23056</radius>
-			<period>36.770000</period>
-			<semimajoraxis>0.201</semimajoraxis>
+			<radius errorminus="0.05012" errorplus="0.05012">0.23056</radius>
+			<period errorminus="7.40000e-01" errorplus="7.40000e-01">36.770000000000</period>
+			<transittime errorminus="0.0002500" errorplus="0.0002500">2454997.2958500</transittime>
+			<semimajoraxis>0.2010000</semimajoraxis>
+			<temperature>422.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>411.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1360 c</name>
 			<name>KOI-1360 02</name>
-			<radius>0.20231</radius>
-			<period>14.590000</period>
-			<semimajoraxis>0.108</semimajoraxis>
+			<radius errorminus="0.04283" errorplus="0.04283">0.20231</radius>
+			<period errorminus="8.10000e-02" errorplus="8.10000e-02">14.590000000000</period>
+			<transittime errorminus="0.0000840" errorplus="0.0000840">2454974.9278260</transittime>
+			<semimajoraxis>0.1080000</semimajoraxis>
+			<temperature>575.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>560.0</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1360 d</name>
 			<name>KOI-1360 03</name>
-			<radius>0.07108</radius>
-			<period>0.764020</period>
-			<semimajoraxis>0.015</semimajoraxis>
+			<radius errorminus="0.03827" errorplus="0.03827">0.07108</radius>
+			<period errorminus="5.50000e-04" errorplus="5.50000e-04">0.764020000000</period>
+			<transittime errorminus="0.0000150" errorplus="0.0000150">2454965.2168410</transittime>
+			<semimajoraxis>0.0150000</semimajoraxis>
+			<temperature>1544.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

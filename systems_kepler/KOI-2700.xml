@@ -2,20 +2,22 @@
 	<name>KOI-2700</name>
 	<rightascension>19 48 00</rightascension>
 	<declination>+44 46 30</declination>
-	<distance>450.73</distance>
+	<distance>453.89</distance>
 	<star>
 		<name>KOI-2700</name>
-		<temperature>4433.00</temperature>
-		<radius>0.57</radius>
-		<age>4.8000</age>
+		<temperature errorminus="65.00" errorplus="65.00">4433.00</temperature>
+		<radius errorminus="0.0130" errorplus="0.0130">0.5740</radius>
+		<age errorminus="3.8000" errorplus="3.8000">4.8000</age>
 		<planet>
 			<name>KOI-2700 b</name>
 			<name>KOI-2700 01</name>
-			<radius>0.11482</radius>
-			<period>0.910020</period>
-			<semimajoraxis>0.016</semimajoraxis>
+			<radius errorminus="0.00273" errorplus="0.00273">0.11482</radius>
+			<period errorminus="2.20000e-04" errorplus="2.20000e-04">0.910020000000</period>
+			<transittime errorminus="0.0009300" errorplus="0.0009300">2454965.0020600</transittime>
+			<semimajoraxis>0.0160000</semimajoraxis>
+			<temperature>1171.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

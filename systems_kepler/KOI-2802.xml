@@ -5,17 +5,19 @@
 	<distance>1405.37</distance>
 	<star>
 		<name>KOI-2802</name>
-		<temperature>6325.00</temperature>
-		<radius>1.08</radius>
-		<age>0.6100</age>
+		<temperature errorminus="125.00" errorplus="125.00">6325.00</temperature>
+		<radius errorminus="0.4700" errorplus="0.4700">1.0800</radius>
+		<age errorminus="0.9400" errorplus="0.9400">0.6100</age>
 		<planet>
 			<name>KOI-2802 b</name>
 			<name>KOI-2802 01</name>
-			<radius>0.19137</radius>
-			<period>3.848210</period>
-			<semimajoraxis>0.050</semimajoraxis>
+			<radius errorminus="0.12758" errorplus="0.12758">0.19137</radius>
+			<period errorminus="2.50000e-05" errorplus="2.50000e-05">3.848211000000</period>
+			<transittime errorminus="0.0031000" errorplus="0.0031000">2454964.9189000</transittime>
+			<semimajoraxis>0.0500000</semimajoraxis>
+			<temperature>1297.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

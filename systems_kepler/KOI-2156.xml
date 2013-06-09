@@ -2,21 +2,22 @@
 	<name>KOI-2156</name>
 	<rightascension>19 06 22</rightascension>
 	<declination>+37 53 28</declination>
-	<distance>437.54</distance>
+	<distance>433.33</distance>
 	<star>
 		<name>KOI-2156</name>
-		<temperature>4003.00</temperature>
-		<radius>0.52</radius>
-		<age>13.4000</age>
+		<temperature errorminus="200.00" errorplus="200.00">4003.00</temperature>
+		<radius errorminus="0.0270" errorplus="0.0270">0.5150</radius>
+		<age errorminus="3.5000" errorplus="3.5000">13.4000</age>
 		<planet>
 			<name>KOI-2156 b</name>
 			<name>KOI-2156 01</name>
-			<radius>0.30073</radius>
-			<period>2.852370</period>
-			<semimajoraxis>0.032</semimajoraxis>
+			<radius errorminus="0.12758" errorplus="0.12758">0.30073</radius>
+			<period errorminus="1.40000e-05" errorplus="1.40000e-05">2.852375000000</period>
+			<transittime errorminus="0.0012000" errorplus="0.0012000">2454965.0415000</transittime>
+			<semimajoraxis>0.0320000</semimajoraxis>
+			<temperature>708.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>680.8</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

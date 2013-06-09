@@ -5,48 +5,52 @@
 	<distance>470.42</distance>
 	<star>
 		<name>KOI-1930</name>
-		<temperature>5897.00</temperature>
-		<radius>1.51</radius>
-		<age>6.5000</age>
+		<temperature errorminus="57.00" errorplus="57.00">5897.00</temperature>
+		<radius errorminus="0.2000" errorplus="0.2000">1.5100</radius>
+		<age errorminus="1.2000" errorplus="1.2000">6.5000</age>
 		<planet>
 			<name>KOI-1930 b</name>
 			<name>KOI-1930 01</name>
-			<radius>0.20140</radius>
-			<period>13.726900</period>
-			<semimajoraxis>0.116</semimajoraxis>
+			<radius errorminus="0.02643" errorplus="0.02643">0.20140</radius>
+			<period errorminus="1.40000e-04" errorplus="1.40000e-04">13.726860000000</period>
+			<transittime errorminus="0.0037000" errorplus="0.0037000">2454971.7478000</transittime>
+			<semimajoraxis>0.1160000</semimajoraxis>
+			<temperature>938.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>938.1</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1930 c</name>
 			<name>KOI-1930 02</name>
-			<radius>0.19502</radius>
-			<period>24.310600</period>
-			<semimajoraxis>0.170</semimajoraxis>
+			<radius errorminus="0.02552" errorplus="0.02552">0.19502</radius>
+			<period errorminus="3.60000e-04" errorplus="3.60000e-04">24.310580000000</period>
+			<transittime errorminus="0.0055000" errorplus="0.0055000">2454970.0438000</transittime>
+			<semimajoraxis>0.1700000</semimajoraxis>
+			<temperature>775.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>774.9</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1930 d</name>
 			<name>KOI-1930 03</name>
-			<radius>0.22418</radius>
-			<period>44.431500</period>
-			<semimajoraxis>0.254</semimajoraxis>
-			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<radius errorminus="0.02916" errorplus="0.02916">0.22418</radius>
+			<period errorminus="7.60000e-04" errorplus="7.60000e-04">44.431500000000</period>
+			<transittime errorminus="0.0060000" errorplus="0.0060000">2454976.5344000</transittime>
+			<semimajoraxis>0.2540000</semimajoraxis>
 			<temperature>634.0</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1930 e</name>
 			<name>KOI-1930 04</name>
-			<radius>0.12394</radius>
-			<period>9.341310</period>
-			<semimajoraxis>0.090</semimajoraxis>
-			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<radius errorminus="0.01640" errorplus="0.01640">0.12394</radius>
+			<period errorminus="2.10000e-04" errorplus="2.10000e-04">9.341310000000</period>
+			<transittime errorminus="0.0080000" errorplus="0.0080000">2454965.3931000</transittime>
+			<semimajoraxis>0.0900000</semimajoraxis>
 			<temperature>1065.0</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

@@ -5,38 +5,41 @@
 	<distance>718.00</distance>
 	<star>
 		<name>KOI-1931</name>
-		<temperature>5639.00</temperature>
-		<radius>0.83</radius>
-		<age>0.4000</age>
+		<temperature errorminus="72.00" errorplus="72.00">5639.00</temperature>
+		<radius errorminus="0.2700" errorplus="0.2700">0.8300</radius>
+		<age errorminus="4.2000" errorplus="4.2000">0.4000</age>
 		<planet>
 			<name>KOI-1931 b</name>
 			<name>KOI-1931 01</name>
-			<radius>0.14399</radius>
-			<period>4.977670</period>
-			<semimajoraxis>0.056</semimajoraxis>
+			<radius errorminus="0.04648" errorplus="0.04648">0.14399</radius>
+			<period errorminus="3.90000e-05" errorplus="3.90000e-05">4.977671000000</period>
+			<transittime errorminus="0.0027000" errorplus="0.0027000">2454967.6667000</transittime>
+			<semimajoraxis>0.0560000</semimajoraxis>
+			<temperature>956.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>890.1</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1931 c</name>
 			<name>KOI-1931 02</name>
-			<radius>0.12485</radius>
-			<period>10.558000</period>
-			<semimajoraxis>0.092</semimajoraxis>
+			<radius errorminus="0.04101" errorplus="0.04101">0.12485</radius>
+			<period errorminus="1.50000e-04" errorplus="1.50000e-04">10.558030000000</period>
+			<transittime errorminus="0.0055000" errorplus="0.0055000">2454969.3576000</transittime>
+			<semimajoraxis>0.0920000</semimajoraxis>
+			<temperature>746.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>693.4</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1931 d</name>
 			<name>KOI-1931 03</name>
-			<radius>0.11209</radius>
-			<period>6.988250</period>
-			<semimajoraxis>0.070</semimajoraxis>
+			<radius errorminus="0.03645" errorplus="0.03645">0.11209</radius>
+			<period errorminus="1.00000e-04" errorplus="1.00000e-04">6.988250000000</period>
+			<transittime errorminus="0.0052000" errorplus="0.0052000">2454965.5530000</transittime>
+			<semimajoraxis>0.0700000</semimajoraxis>
+			<temperature>855.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>793.2</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

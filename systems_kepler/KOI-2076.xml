@@ -5,18 +5,29 @@
 	<distance>1332.19</distance>
 	<star>
 		<name>KOI-2076</name>
-		<temperature>6052.00</temperature>
-		<radius>0.95</radius>
-		<age>0.3000</age>
+		<temperature errorminus="96.00" errorplus="96.00">6052.00</temperature>
+		<radius errorminus="0.2100" errorplus="0.2100">0.9500</radius>
+		<age errorminus="2.2000" errorplus="2.2000">0.3000</age>
 		<planet>
 			<name>KOI-2076 b</name>
 			<name>KOI-2076 01</name>
-			<radius>0.25516</radius>
-			<period>56.777300</period>
-			<semimajoraxis>0.294</semimajoraxis>
+			<radius errorminus="0.06379" errorplus="0.06379">0.25516</radius>
+			<period errorminus="9.90000e-04" errorplus="9.90000e-04">56.777270000000</period>
+			<transittime errorminus="0.0060000" errorplus="0.0060000">2455014.0977000</transittime>
+			<semimajoraxis>0.2940000</semimajoraxis>
+			<temperature>480.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>462.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-2076 c</name>
+			<name>KOI-2076 02</name>
+			<radius errorminus="0.03736" errorplus="0.03736">0.51124</radius>
+			<period errorminus="1.90000e-03" errorplus="1.90000e-03">219.321000000000</period>
+			<transittime errorminus="0.0034000" errorplus="0.0034000">2455153.7288000</transittime>
+			<semimajoraxis errorminus="4.1e-06" errorplus="4.1e-06">0.7236650</semimajoraxis>
+			<temperature errorminus="34.0" errorplus="34.0">306.0</temperature>
+			<list>Kepler Objects of Interest</list>
 		</planet>
 	</star>
 </system>

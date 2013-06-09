@@ -5,17 +5,19 @@
 	<distance>696.16</distance>
 	<star>
 		<name>KOI-2753</name>
-		<temperature>5983.00</temperature>
-		<radius>1.09</radius>
-		<age>5.7000</age>
+		<temperature errorminus="90.00" errorplus="90.00">5983.00</temperature>
+		<radius errorminus="0.4500" errorplus="0.4500">1.0900</radius>
+		<age errorminus="1.9000" errorplus="1.9000">5.7000</age>
 		<planet>
 			<name>KOI-2753 b</name>
 			<name>KOI-2753 01</name>
-			<radius>0.10480</radius>
-			<period>0.935120</period>
-			<semimajoraxis>0.019</semimajoraxis>
+			<radius errorminus="0.04283" errorplus="0.04283">0.10480</radius>
+			<period errorminus="8.00000e-04" errorplus="8.00000e-04">0.935120000000</period>
+			<transittime errorminus="0.0009200" errorplus="0.0009200">2454965.1960500</transittime>
+			<semimajoraxis>0.0190000</semimajoraxis>
+			<temperature>2000.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

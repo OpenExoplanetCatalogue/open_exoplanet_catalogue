@@ -2,21 +2,22 @@
 	<name>KOI-2662</name>
 	<rightascension>19 03 42</rightascension>
 	<declination>+38 31 15</declination>
-	<distance>174.88</distance>
+	<distance>175.61</distance>
 	<star>
 		<name>KOI-2662</name>
-		<temperature>3696.00</temperature>
-		<radius>0.48</radius>
-		<age>13.8000</age>
+		<temperature errorminus="200.00" errorplus="200.00">3696.00</temperature>
+		<radius errorminus="0.0210" errorplus="0.0210">0.4820</radius>
+		<age errorminus="3.5000" errorplus="3.5000">13.8000</age>
 		<planet>
 			<name>KOI-2662 b</name>
 			<name>KOI-2662 01</name>
-			<radius>0.08749</radius>
-			<period>2.104320</period>
-			<semimajoraxis>0.025</semimajoraxis>
+			<radius errorminus="0.04010" errorplus="0.04010">0.08749</radius>
+			<period errorminus="1.90000e-05" errorplus="1.90000e-05">2.104316000000</period>
+			<transittime errorminus="0.0021000" errorplus="0.0021000">2454966.3174000</transittime>
+			<semimajoraxis>0.0250000</semimajoraxis>
+			<temperature>716.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>692.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

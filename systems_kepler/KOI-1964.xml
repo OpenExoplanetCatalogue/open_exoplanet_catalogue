@@ -2,21 +2,22 @@
 	<name>KOI-1964</name>
 	<rightascension>19 22 48</rightascension>
 	<declination>+43 36 25</declination>
-	<distance>138.32</distance>
+	<distance>138.46</distance>
 	<star>
 		<name>KOI-1964</name>
-		<temperature>5548.00</temperature>
-		<radius>0.97</radius>
-		<age>8.7000</age>
+		<temperature errorminus="50.00" errorplus="50.00">5548.00</temperature>
+		<radius errorminus="0.0950" errorplus="0.0950">0.9710</radius>
+		<age errorminus="3.5000" errorplus="3.5000">8.7000</age>
 		<planet>
 			<name>KOI-1964 b</name>
 			<name>KOI-1964 01</name>
-			<radius>0.06653</radius>
-			<period>2.229320</period>
-			<semimajoraxis>0.033</semimajoraxis>
+			<radius errorminus="0.00638" errorplus="0.00638">0.06653</radius>
+			<period errorminus="1.30000e-05" errorplus="1.30000e-05">2.229323000000</period>
+			<transittime errorminus="0.0016000" errorplus="0.0016000">2454966.0928000</transittime>
+			<semimajoraxis>0.0330000</semimajoraxis>
+			<temperature>1327.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1326.3</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

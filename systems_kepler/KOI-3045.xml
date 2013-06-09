@@ -5,16 +5,18 @@
 	<distance>1354.31</distance>
 	<star>
 		<name>KOI-3045</name>
-		<temperature>5878.00</temperature>
-		<radius>0.82</radius>
+		<temperature errorminus="200.00" errorplus="200.00">5878.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">0.8200</radius>
 		<planet>
 			<name>KOI-3045 b</name>
 			<name>KOI-3045 01</name>
-			<radius>0.20049</radius>
-			<period>44.868600</period>
-			<semimajoraxis>0.251</semimajoraxis>
+			<radius errorminus="0.10936" errorplus="0.10936">0.20049</radius>
+			<period errorminus="1.90000e-03" errorplus="1.90000e-03">44.868600000000</period>
+			<transittime errorminus="0.0170000" errorplus="0.0170000">2454974.1200000</transittime>
+			<semimajoraxis>0.2510000</semimajoraxis>
+			<temperature>469.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

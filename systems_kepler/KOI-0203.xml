@@ -2,26 +2,22 @@
 	<name>KOI-0203</name>
 	<rightascension>19 53 34</rightascension>
 	<declination>+47 48 54</declination>
-	<distance>799.36</distance>
+	<distance>797.84</distance>
 	<star>
-		<magB>14.6</magB>
-		<magR>13.6</magR>
-		<magJ errorminus="0.021" errorplus="0.021">12.992</magJ>
-		<magH errorminus="0.017" errorplus="0.017">12.670</magH>
-		<magK errorminus="0.023" errorplus="0.023">12.585</magK>
 		<name>KOI-0203</name>
-		<temperature>5787.00</temperature>
-		<radius>1.05</radius>
-		<age>1.0300</age>
+		<temperature errorminus="54.00" errorplus="54.00">5787.00</temperature>
+		<radius errorminus="0.0400" errorplus="0.0400">1.0480</radius>
+		<age errorminus="0.9400" errorplus="0.9400">1.0300</age>
 		<planet>
 			<name>KOI-0203 b</name>
 			<name>KOI-0203 01</name>
-			<radius>1.35055</radius>
-			<period>1.485710</period>
-			<semimajoraxis>0.026</semimajoraxis>
+			<radius errorminus="0.05194" errorplus="0.05194">1.35055</radius>
+			<period errorminus="1.60000e-07" errorplus="1.60000e-07">1.485711270000</period>
+			<transittime errorminus="0.0000250" errorplus="0.0000250">2454965.7927290</transittime>
+			<semimajoraxis>0.0260000</semimajoraxis>
+			<temperature>1621.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a confirmed planet by the Kepler team and might have already appear in a peer reviewed paper.</description>
-			<temperature>1621.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

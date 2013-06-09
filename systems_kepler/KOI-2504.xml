@@ -5,17 +5,18 @@
 	<distance>1317.77</distance>
 	<star>
 		<name>KOI-2504</name>
-		<temperature>5470.00</temperature>
-		<radius>0.85</radius>
+		<temperature errorminus="200.00" errorplus="200.00">5470.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">0.8500</radius>
 		<planet>
 			<name>KOI-2504 b</name>
 			<name>KOI-2504 01</name>
-			<radius>0.20049</radius>
-			<period>20.490100</period>
-			<semimajoraxis>0.147</semimajoraxis>
+			<radius errorminus="0.10024" errorplus="0.10024">0.20049</radius>
+			<period errorminus="5.80000e-04" errorplus="5.80000e-04">20.490130000000</period>
+			<transittime errorminus="0.0130000" errorplus="0.0130000">2454977.4180000</transittime>
+			<semimajoraxis>0.1470000</semimajoraxis>
+			<temperature>579.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>598.8</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

@@ -5,18 +5,30 @@
 	<distance>1034.08</distance>
 	<star>
 		<name>KOI-2257</name>
-		<temperature>5540.00</temperature>
-		<radius>0.80</radius>
-		<age>0.5000</age>
+		<temperature errorminus="84.00" errorplus="84.00">5540.00</temperature>
+		<radius errorminus="0.4500" errorplus="0.4500">0.8000</radius>
+		<age errorminus="3.9000" errorplus="3.9000">0.5000</age>
 		<planet>
 			<name>KOI-2257 b</name>
 			<name>KOI-2257 01</name>
-			<radius>0.22783</radius>
-			<period>32.562800</period>
-			<semimajoraxis>0.193</semimajoraxis>
+			<radius errorminus="0.12758" errorplus="0.12758">0.22783</radius>
+			<period errorminus="6.80000e-04" errorplus="6.80000e-04">32.562810000000</period>
+			<transittime errorminus="0.0075000" errorplus="0.0075000">2454996.4690000</transittime>
+			<semimajoraxis>0.1930000</semimajoraxis>
+			<temperature>498.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>474.2</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-2257 c</name>
+			<name>KOI-2257 02</name>
+			<radius errorminus="0.24605" errorplus="0.24605">0.14581</radius>
+			<period errorminus="1.20000e-03" errorplus="1.20000e-03">59.279800000000</period>
+			<transittime errorminus="0.0130000" errorplus="0.0130000">2454981.7670000</transittime>
+			<semimajoraxis errorminus="4.0e-06" errorplus="4.0e-06">0.2879980</semimajoraxis>
+			<temperature errorminus="114.0" errorplus="114.0">407.0</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

@@ -5,17 +5,19 @@
 	<distance>769.75</distance>
 	<star>
 		<name>KOI-2920</name>
-		<temperature>5706.00</temperature>
-		<radius>0.90</radius>
-		<age>4.5000</age>
+		<temperature errorminus="101.00" errorplus="101.00">5706.00</temperature>
+		<radius errorminus="0.3500" errorplus="0.3500">0.9000</radius>
+		<age errorminus="3.4000" errorplus="3.4000">4.5000</age>
 		<planet>
 			<name>KOI-2920 b</name>
 			<name>KOI-2920 01</name>
-			<radius>0.14216</radius>
-			<period>6.739880</period>
-			<semimajoraxis>0.068</semimajoraxis>
+			<radius errorminus="0.08202" errorplus="0.08202">0.14216</radius>
+			<period errorminus="9.10000e-05" errorplus="9.10000e-05">6.739876000000</period>
+			<transittime errorminus="0.0068000" errorplus="0.0068000">2454965.2808000</transittime>
+			<semimajoraxis>0.0680000</semimajoraxis>
+			<temperature>914.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

@@ -2,21 +2,22 @@
 	<name>KOI-2006</name>
 	<rightascension>19 09 23</rightascension>
 	<declination>+47 46 22</declination>
-	<distance>198.60</distance>
+	<distance>198.98</distance>
 	<star>
 		<name>KOI-2006</name>
-		<temperature>4025.00</temperature>
-		<radius>0.52</radius>
-		<age>13.5000</age>
+		<temperature errorminus="200.00" errorplus="200.00">4025.00</temperature>
+		<radius errorminus="0.0280" errorplus="0.0280">0.5210</radius>
+		<age errorminus="3.6000" errorplus="3.6000">13.5000</age>
 		<planet>
 			<name>KOI-2006 b</name>
 			<name>KOI-2006 01</name>
-			<radius>0.08019</radius>
-			<period>3.273460</period>
-			<semimajoraxis>0.035</semimajoraxis>
+			<radius errorminus="0.00729" errorplus="0.00729">0.08019</radius>
+			<period errorminus="2.00000e-05" errorplus="2.00000e-05">3.273459000000</period>
+			<transittime errorminus="0.0019000" errorplus="0.0019000">2454967.4467000</transittime>
+			<semimajoraxis>0.0350000</semimajoraxis>
+			<temperature>685.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>645.8</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

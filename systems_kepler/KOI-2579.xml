@@ -5,18 +5,40 @@
 	<distance>1504.00</distance>
 	<star>
 		<name>KOI-2579</name>
-		<temperature>6180.00</temperature>
-		<radius>1.09</radius>
-		<age>2.5000</age>
+		<temperature errorminus="116.00" errorplus="116.00">6180.00</temperature>
+		<radius errorminus="0.4500" errorplus="0.4500">1.0900</radius>
+		<age errorminus="1.4000" errorplus="1.4000">2.5000</age>
 		<planet>
 			<name>KOI-2579 b</name>
 			<name>KOI-2579 01</name>
-			<radius>0.12758</radius>
-			<period>2.729650</period>
-			<semimajoraxis>0.039</semimajoraxis>
+			<radius errorminus="0.05377" errorplus="0.05377">0.12758</radius>
+			<period errorminus="5.20000e-05" errorplus="5.20000e-05">2.729651000000</period>
+			<transittime errorminus="0.0058000" errorplus="0.0058000">2454966.2803000</transittime>
+			<semimajoraxis>0.0390000</semimajoraxis>
+			<temperature>1441.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1402.3</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-2579 c</name>
+			<name>KOI-2579 02</name>
+			<radius errorminus="0.07017" errorplus="0.07017">0.14672</radius>
+			<period errorminus="2.80000e-05" errorplus="2.80000e-05">3.596503000000</period>
+			<transittime errorminus="0.0041000" errorplus="0.0041000">2454965.7615000</transittime>
+			<semimajoraxis errorminus="2.5e-07" errorplus="2.5e-07">0.0471306</semimajoraxis>
+			<temperature errorminus="273.0" errorplus="273.0">1311.0</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-2579 d</name>
+			<name>KOI-2579 03</name>
+			<radius errorminus="0.20960" errorplus="0.20960">0.13670</radius>
+			<period errorminus="1.50000e-04" errorplus="1.50000e-04">10.301180000000</period>
+			<transittime errorminus="0.0084000" errorplus="0.0084000">2454967.8998000</transittime>
+			<semimajoraxis errorminus="9.1e-07" errorplus="9.1e-07">0.0950547</semimajoraxis>
+			<temperature errorminus="192.0" errorplus="192.0">923.0</temperature>
+			<list>Kepler Objects of Interest</list>
 		</planet>
 	</star>
 </system>

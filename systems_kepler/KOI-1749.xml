@@ -5,18 +5,19 @@
 	<distance>1323.78</distance>
 	<star>
 		<name>KOI-1749</name>
-		<temperature>5697.00</temperature>
-		<radius>0.84</radius>
-		<age>0.4000</age>
+		<temperature errorminus="115.00" errorplus="115.00">5697.00</temperature>
+		<radius errorminus="0.3500" errorplus="0.3500">0.8400</radius>
+		<age errorminus="3.7000" errorplus="3.7000">0.4000</age>
 		<planet>
 			<name>KOI-1749 b</name>
 			<name>KOI-1749 01</name>
-			<radius>0.19137</radius>
-			<period>26.964500</period>
-			<semimajoraxis>0.173</semimajoraxis>
+			<radius errorminus="0.10024" errorplus="0.10024">0.19137</radius>
+			<period errorminus="5.20000e-04" errorplus="5.20000e-04">26.964470000000</period>
+			<transittime errorminus="0.0072000" errorplus="0.0072000">2454978.3414000</transittime>
+			<semimajoraxis>0.1730000</semimajoraxis>
+			<temperature>555.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>535.8</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

@@ -4,41 +4,42 @@
 	<declination>+38 52 32</declination>
 	<distance>698.93</distance>
 	<star>
-		<magJ errorminus="0.03" errorplus="0.03">12.94</magJ>
-		<magH errorminus="0.026" errorplus="0.026">12.627</magH>
-		<magK errorminus="0.03" errorplus="0.03">12.57</magK>
 		<name>KOI-0442</name>
-		<temperature>5969.00</temperature>
-		<radius>0.92</radius>
-		<age>0.3000</age>
+		<temperature errorminus="86.00" errorplus="86.00">5969.00</temperature>
+		<radius errorminus="0.4400" errorplus="0.4400">0.9200</radius>
+		<age errorminus="2.3000" errorplus="2.3000">0.3000</age>
 		<planet>
 			<name>KOI-0442 b</name>
 			<name>KOI-0442 01</name>
-			<radius>0.17679</radius>
-			<period>13.540000</period>
-			<semimajoraxis>0.112</semimajoraxis>
+			<radius errorminus="0.08475" errorplus="0.08475">0.17679</radius>
+			<period errorminus="4.40000e-01" errorplus="4.40000e-01">13.540000000000</period>
+			<transittime errorminus="0.0000760" errorplus="0.0000760">2455004.6815170</transittime>
+			<semimajoraxis>0.1120000</semimajoraxis>
+			<temperature>756.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>721.9</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-0442 c</name>
 			<name>KOI-0442 02</name>
-			<radius>0.10571</radius>
-			<period>1.732320</period>
-			<semimajoraxis>0.028</semimajoraxis>
+			<radius errorminus="0.05103" errorplus="0.05103">0.10571</radius>
+			<period errorminus="1.10000e-05" errorplus="1.10000e-05">1.732323000000</period>
+			<transittime errorminus="0.0018000" errorplus="0.0018000">2454967.5359000</transittime>
+			<semimajoraxis>0.0280000</semimajoraxis>
+			<temperature>1512.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1437.4</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-0442 d</name>
 			<name>KOI-0442 03</name>
-			<radius>0.13852</radius>
-			<period>7.025760</period>
-			<semimajoraxis>0.072</semimajoraxis>
+			<radius errorminus="0.06653" errorplus="0.06653">0.13852</radius>
+			<period errorminus="5.50000e-05" errorplus="5.50000e-05">7.025763000000</period>
+			<transittime errorminus="0.0036000" errorplus="0.0036000">2454966.6262000</transittime>
+			<semimajoraxis>0.0720000</semimajoraxis>
+			<temperature>943.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

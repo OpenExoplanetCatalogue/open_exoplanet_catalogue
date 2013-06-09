@@ -4,22 +4,20 @@
 	<declination>+38 27 29</declination>
 	<distance>682.94</distance>
 	<star>
-		<magJ errorminus="0.020" errorplus="0.020">12.079</magJ>
-		<magH errorminus="0.021" errorplus="0.021">11.814</magH>
-		<magK errorminus="0.021" errorplus="0.021">11.733</magK>
 		<name>KOI-0384</name>
-		<temperature>6074.00</temperature>
-		<radius>1.21</radius>
-		<age>5.5000</age>
+		<temperature errorminus="133.00" errorplus="133.00">6074.00</temperature>
+		<radius errorminus="0.5500" errorplus="0.5500">1.2100</radius>
+		<age errorminus="1.7000" errorplus="1.7000">5.5000</age>
 		<planet>
 			<name>KOI-0384 b</name>
 			<name>KOI-0384 01</name>
-			<radius>0.16859</radius>
-			<period>5.080060</period>
-			<semimajoraxis>0.059</semimajoraxis>
+			<radius errorminus="0.07746" errorplus="0.07746">0.16859</radius>
+			<period errorminus="4.20000e-05" errorplus="4.20000e-05">5.080060000000</period>
+			<transittime errorminus="0.0026000" errorplus="0.0026000">2455007.4287000</transittime>
+			<semimajoraxis>0.0590000</semimajoraxis>
+			<temperature>1211.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1122.7</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

@@ -5,36 +5,40 @@
 	<distance>1333.92</distance>
 	<star>
 		<name>KOI-1332</name>
-		<temperature>5661.00</temperature>
-		<radius>1.15</radius>
+		<temperature errorminus="200.00" errorplus="200.00">5661.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">1.1500</radius>
 		<planet>
 			<name>KOI-1332 b</name>
 			<name>KOI-1332 01</name>
-			<radius>0.28250</radius>
-			<period>19.306000</period>
-			<semimajoraxis>0.145</semimajoraxis>
+			<radius errorminus="0.10936" errorplus="0.10936">0.28250</radius>
+			<period errorminus="7.70000e-02" errorplus="7.70000e-02">19.306000000000</period>
+			<transittime errorminus="0.0002000" errorplus="0.0002000">2455206.1924600</transittime>
+			<semimajoraxis>0.1450000</semimajoraxis>
+			<temperature>703.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>679.4</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1332 c</name>
 			<name>KOI-1332 02</name>
-			<radius>0.15036</radius>
-			<period>6.097400</period>
-			<semimajoraxis>0.067</semimajoraxis>
+			<radius errorminus="0.08384" errorplus="0.08384">0.15036</radius>
+			<period errorminus="5.50000e-04" errorplus="5.50000e-04">6.097400000000</period>
+			<transittime errorminus="0.0001200" errorplus="0.0001200">2455187.0625300</transittime>
+			<semimajoraxis>0.0670000</semimajoraxis>
+			<temperature>1035.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>994.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1332 d</name>
 			<name>KOI-1332 03</name>
-			<radius>0.26154</radius>
-			<period>56.634000</period>
-			<semimajoraxis>0.296</semimajoraxis>
+			<radius errorminus="0.06835" errorplus="0.06835">0.26154</radius>
+			<period errorminus="8.50000e-02" errorplus="8.50000e-02">56.634000000000</period>
+			<transittime errorminus="0.0012000" errorplus="0.0012000">2454968.5487000</transittime>
+			<semimajoraxis>0.2960000</semimajoraxis>
+			<temperature>492.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

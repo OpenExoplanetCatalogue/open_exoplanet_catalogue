@@ -5,18 +5,19 @@
 	<distance>513.36</distance>
 	<star>
 		<name>KOI-1716</name>
-		<temperature>4811.00</temperature>
-		<radius>0.68</radius>
-		<age>13.9000</age>
+		<temperature errorminus="82.00" errorplus="82.00">4811.00</temperature>
+		<radius errorminus="0.5500" errorplus="0.5500">0.6800</radius>
+		<age errorminus="3.7000" errorplus="3.7000">13.9000</age>
 		<planet>
 			<name>KOI-1716 b</name>
 			<name>KOI-1716 01</name>
-			<radius>0.16403</radius>
-			<period>4.880860</period>
-			<semimajoraxis>0.050</semimajoraxis>
+			<radius errorminus="0.13670" errorplus="0.13670">0.16403</radius>
+			<period errorminus="5.00000e-05" errorplus="5.00000e-05">4.880861000000</period>
+			<transittime errorminus="0.0037000" errorplus="0.0037000">2454969.1928000</transittime>
+			<semimajoraxis>0.0500000</semimajoraxis>
+			<temperature>780.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>821.0</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

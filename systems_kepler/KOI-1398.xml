@@ -5,17 +5,18 @@
 	<distance>1426.98</distance>
 	<star>
 		<name>KOI-1398</name>
-		<temperature>5542.00</temperature>
-		<radius>0.91</radius>
+		<temperature errorminus="200.00" errorplus="200.00">5542.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">0.9100</radius>
 		<planet>
 			<name>KOI-1398 b</name>
 			<name>KOI-1398 01</name>
-			<radius>0.30073</radius>
-			<period>5.823450</period>
-			<semimajoraxis>0.064</semimajoraxis>
+			<radius errorminus="0.10024" errorplus="0.10024">0.30073</radius>
+			<period errorminus="6.90000e-05" errorplus="6.90000e-05">5.823445000000</period>
+			<transittime errorminus="0.0029000" errorplus="0.0029000">2455187.9962000</transittime>
+			<semimajoraxis>0.0640000</semimajoraxis>
+			<temperature>923.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>906.8</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

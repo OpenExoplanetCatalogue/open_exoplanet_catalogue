@@ -5,18 +5,19 @@
 	<distance>752.37</distance>
 	<star>
 		<name>KOI-2631</name>
-		<temperature>6132.00</temperature>
-		<radius>1.20</radius>
-		<age>4.7000</age>
+		<temperature errorminus="76.00" errorplus="76.00">6132.00</temperature>
+		<radius errorminus="0.9500" errorplus="0.9500">1.2000</radius>
+		<age errorminus="1.4000" errorplus="1.4000">4.7000</age>
 		<planet>
 			<name>KOI-2631 b</name>
 			<name>KOI-2631 01</name>
-			<radius>0.14581</radius>
-			<period>44.999500</period>
-			<semimajoraxis>0.253</semimajoraxis>
+			<radius errorminus="0.11847" errorplus="0.11847">0.14581</radius>
+			<period errorminus="1.70000e-03" errorplus="1.70000e-03">44.999500000000</period>
+			<transittime errorminus="0.0140000" errorplus="0.0140000">2454993.2250000</transittime>
+			<semimajoraxis>0.2530000</semimajoraxis>
+			<temperature>588.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>564.8</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

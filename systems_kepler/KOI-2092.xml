@@ -5,27 +5,39 @@
 	<distance>1480.09</distance>
 	<star>
 		<name>KOI-2092</name>
-		<temperature>5999.00</temperature>
-		<radius>0.81</radius>
+		<temperature errorminus="200.00" errorplus="200.00">5999.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">0.8100</radius>
 		<planet>
 			<name>KOI-2092 b</name>
 			<name>KOI-2092 01</name>
-			<radius>0.32807</radius>
-			<period>57.687000</period>
-			<semimajoraxis>0.298</semimajoraxis>
+			<radius errorminus="0.12758" errorplus="0.12758">0.32807</radius>
+			<period errorminus="7.50000e-04" errorplus="7.50000e-04">57.686960000000</period>
+			<transittime errorminus="0.0071000" errorplus="0.0071000">2454972.9485000</transittime>
+			<semimajoraxis>0.2980000</semimajoraxis>
+			<temperature>435.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>478.1</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-2092 c</name>
 			<name>KOI-2092 02</name>
-			<radius>0.25516</radius>
-			<period>25.562900</period>
-			<semimajoraxis>0.173</semimajoraxis>
+			<radius errorminus="0.10024" errorplus="0.10024">0.25516</radius>
+			<period errorminus="3.50000e-04" errorplus="3.50000e-04">25.562940000000</period>
+			<transittime errorminus="0.0048000" errorplus="0.0048000">2455208.2864000</transittime>
+			<semimajoraxis>0.1730000</semimajoraxis>
+			<temperature>572.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>627.7</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-2092 d</name>
+			<name>KOI-2092 03</name>
+			<radius errorminus="0.47388" errorplus="0.47388">0.35541</radius>
+			<period errorminus="1.60000e-03" errorplus="1.60000e-03">77.094100000000</period>
+			<transittime errorminus="0.0130000" errorplus="0.0130000">2455035.6880000</transittime>
+			<semimajoraxis errorminus="5.1e-06" errorplus="5.1e-06">0.3613770</semimajoraxis>
+			<temperature errorminus=".0" errorplus="0.0">395.5</temperature>
+			<list>Kepler Objects of Interest</list>
 		</planet>
 	</star>
 </system>

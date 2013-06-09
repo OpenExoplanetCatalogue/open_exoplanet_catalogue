@@ -5,18 +5,19 @@
 	<distance>905.84</distance>
 	<star>
 		<name>KOI-2074</name>
-		<temperature>5121.00</temperature>
-		<radius>0.70</radius>
-		<age>0.7000</age>
+		<temperature errorminus="76.00" errorplus="76.00">5121.00</temperature>
+		<radius errorminus="0.2600" errorplus="0.2600">0.7000</radius>
+		<age errorminus="4.0000" errorplus="4.0000">0.7000</age>
 		<planet>
 			<name>KOI-2074 b</name>
 			<name>KOI-2074 01</name>
-			<radius>0.20960</radius>
-			<period>33.418300</period>
-			<semimajoraxis>0.188</semimajoraxis>
+			<radius errorminus="0.12758" errorplus="0.12758">0.20960</radius>
+			<period errorminus="5.20000e-04" errorplus="5.20000e-04">33.418320000000</period>
+			<transittime errorminus="0.0057000" errorplus="0.0057000">2454988.5811000</transittime>
+			<semimajoraxis>0.1880000</semimajoraxis>
+			<temperature>436.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>422.0</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

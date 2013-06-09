@@ -5,17 +5,18 @@
 	<distance>1020.50</distance>
 	<star>
 		<name>KOI-1491</name>
-		<temperature>5059.00</temperature>
-		<radius>1.03</radius>
+		<temperature errorminus="200.00" errorplus="200.00">5059.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">1.0300</radius>
 		<planet>
 			<name>KOI-1491 b</name>
 			<name>KOI-1491 01</name>
-			<radius>0.23147</radius>
-			<period>3.148680</period>
-			<semimajoraxis>0.042</semimajoraxis>
+			<radius errorminus="0.07199" errorplus="0.07199">0.23147</radius>
+			<period errorminus="3.60000e-05" errorplus="3.60000e-05">3.148679000000</period>
+			<transittime errorminus="0.0024000" errorplus="0.0024000">2455189.9339000</transittime>
+			<semimajoraxis>0.0420000</semimajoraxis>
+			<temperature>1103.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1029.1</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

@@ -5,17 +5,18 @@
 	<distance>974.17</distance>
 	<star>
 		<name>KOI-2274</name>
-		<temperature>5065.00</temperature>
-		<radius>0.74</radius>
+		<temperature errorminus="200.00" errorplus="200.00">5065.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">0.7400</radius>
 		<planet>
 			<name>KOI-2274 b</name>
 			<name>KOI-2274 01</name>
-			<radius>0.21871</radius>
-			<period>9.989650</period>
-			<semimajoraxis>0.088</semimajoraxis>
+			<radius errorminus="0.10024" errorplus="0.10024">0.21871</radius>
+			<period errorminus="1.50000e-04" errorplus="1.50000e-04">9.989650000000</period>
+			<transittime errorminus="0.0057000" errorplus="0.0057000">2454966.7611000</transittime>
+			<semimajoraxis>0.0880000</semimajoraxis>
+			<temperature>646.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>668.7</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

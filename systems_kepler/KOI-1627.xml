@@ -5,27 +5,39 @@
 	<distance>1068.65</distance>
 	<star>
 		<name>KOI-1627</name>
-		<temperature>5207.00</temperature>
-		<radius>0.82</radius>
+		<temperature errorminus="200.00" errorplus="200.00">5207.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">0.8200</radius>
 		<planet>
 			<name>KOI-1627 b</name>
 			<name>KOI-1627 01</name>
-			<radius>0.20869</radius>
-			<period>10.296800</period>
-			<semimajoraxis>0.091</semimajoraxis>
+			<radius errorminus="0.08202" errorplus="0.08202">0.20869</radius>
+			<period errorminus="1.60000e-04" errorplus="1.60000e-04">10.296780000000</period>
+			<transittime errorminus="0.0071000" errorplus="0.0071000">2454965.1925000</transittime>
+			<semimajoraxis>0.0910000</semimajoraxis>
+			<temperature>689.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>687.0</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1627 c</name>
 			<name>KOI-1627 02</name>
-			<radius>0.14125</radius>
-			<period>5.939170</period>
-			<semimajoraxis>0.063</semimajoraxis>
+			<radius errorminus="0.05559" errorplus="0.05559">0.14125</radius>
+			<period errorminus="1.50000e-04" errorplus="1.50000e-04">5.939170000000</period>
+			<transittime errorminus="0.0063000" errorplus="0.0063000">2455186.7538000</transittime>
+			<semimajoraxis>0.0630000</semimajoraxis>
+			<temperature>829.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>822.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-1627 d</name>
+			<name>KOI-1627 03</name>
+			<radius errorminus="0.19137" errorplus="0.19137">0.14581</radius>
+			<period errorminus="3.80000e-05" errorplus="3.80000e-05">3.806672000000</period>
+			<transittime errorminus="0.0059000" errorplus="0.0059000">2454966.7570000</transittime>
+			<semimajoraxis errorminus="3.2e-07" errorplus="3.2e-07">0.0469465</semimajoraxis>
+			<temperature errorminus=".0" errorplus="0.0">960.0</temperature>
+			<list>Kepler Objects of Interest</list>
 		</planet>
 	</star>
 </system>

@@ -2,21 +2,22 @@
 	<name>KOI-2490</name>
 	<rightascension>19 31 36</rightascension>
 	<declination>+38 17 49</declination>
-	<distance>750.09</distance>
+	<distance>754.64</distance>
 	<star>
 		<name>KOI-2490</name>
-		<temperature>4937.00</temperature>
-		<radius>0.66</radius>
-		<age>1.0000</age>
+		<temperature errorminus="66.00" errorplus="66.00">4937.00</temperature>
+		<radius errorminus="0.0200" errorplus="0.0200">0.6640</radius>
+		<age errorminus="3.7000" errorplus="3.7000">1.0000</age>
 		<planet>
 			<name>KOI-2490 b</name>
 			<name>KOI-2490 01</name>
-			<radius>0.18591</radius>
-			<period>11.606600</period>
-			<semimajoraxis>0.091</semimajoraxis>
+			<radius errorminus="0.08202" errorplus="0.08202">0.18591</radius>
+			<period errorminus="1.80000e-04" errorplus="1.80000e-04">11.606580000000</period>
+			<transittime errorminus="0.0057000" errorplus="0.0057000">2454967.4162000</transittime>
+			<semimajoraxis>0.0910000</semimajoraxis>
+			<temperature>588.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>559.3</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

@@ -5,17 +5,19 @@
 	<distance>697.75</distance>
 	<star>
 		<name>KOI-2970</name>
-		<temperature>6475.00</temperature>
-		<radius>1.32</radius>
-		<age>2.6500</age>
+		<temperature errorminus="95.00" errorplus="95.00">6475.00</temperature>
+		<radius errorminus="0.5100" errorplus="0.5100">1.3200</radius>
+		<age errorminus="0.7500" errorplus="0.7500">2.6500</age>
 		<planet>
 			<name>KOI-2970 b</name>
 			<name>KOI-2970 01</name>
-			<radius>0.09204</radius>
-			<period>4.820490</period>
-			<semimajoraxis>0.059</semimajoraxis>
+			<radius errorminus="0.03554" errorplus="0.03554">0.09204</radius>
+			<period errorminus="8.90000e-04" errorplus="8.90000e-04">4.820490000000</period>
+			<transittime errorminus="0.0012000" errorplus="0.0012000">2454968.7839000</transittime>
+			<semimajoraxis>0.0590000</semimajoraxis>
+			<temperature>1351.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

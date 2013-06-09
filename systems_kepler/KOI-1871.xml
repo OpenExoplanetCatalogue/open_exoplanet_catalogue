@@ -2,21 +2,22 @@
 	<name>KOI-1871</name>
 	<rightascension>19 01 00</rightascension>
 	<declination>+46 34 55</declination>
-	<distance>417.30</distance>
+	<distance>414.61</distance>
 	<star>
 		<name>KOI-1871</name>
-		<temperature>4572.00</temperature>
-		<radius>0.62</radius>
-		<age>14.0000</age>
+		<temperature errorminus="64.00" errorplus="64.00">4572.00</temperature>
+		<radius errorminus="0.0140" errorplus="0.0140">0.6160</radius>
+		<age errorminus="3.6000" errorplus="3.6000">14.0000</age>
 		<planet>
 			<name>KOI-1871 b</name>
 			<name>KOI-1871 01</name>
-			<radius>0.20140</radius>
-			<period>92.725000</period>
-			<semimajoraxis>0.346</semimajoraxis>
+			<radius errorminus="0.03554" errorplus="0.03554">0.20140</radius>
+			<period errorminus="1.70000e-03" errorplus="1.70000e-03">92.725000000000</period>
+			<transittime errorminus="0.0050000" errorplus="0.0050000">2455010.4538000</transittime>
+			<semimajoraxis>0.3460000</semimajoraxis>
+			<temperature>269.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>260.1</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

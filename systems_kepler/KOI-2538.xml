@@ -2,21 +2,22 @@
 	<name>KOI-2538</name>
 	<rightascension>19 05 08</rightascension>
 	<declination>+37 23 13</declination>
-	<distance>429.56</distance>
+	<distance>431.38</distance>
 	<star>
 		<name>KOI-2538</name>
-		<temperature>5178.00</temperature>
-		<radius>0.71</radius>
-		<age>0.7000</age>
+		<temperature errorminus="62.00" errorplus="62.00">5178.00</temperature>
+		<radius errorminus="0.0670" errorplus="0.0670">0.7130</radius>
+		<age errorminus="3.9000" errorplus="3.9000">0.7000</age>
 		<planet>
 			<name>KOI-2538 b</name>
 			<name>KOI-2538 01</name>
-			<radius>0.30073</radius>
-			<period>39.831000</period>
-			<semimajoraxis>0.213</semimajoraxis>
+			<radius errorminus="0.10936" errorplus="0.10936">0.30073</radius>
+			<period errorminus="7.60000e-04" errorplus="7.60000e-04">39.831010000000</period>
+			<transittime errorminus="0.0071000" errorplus="0.0071000">2454988.6399000</transittime>
+			<semimajoraxis>0.2130000</semimajoraxis>
+			<temperature>418.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>378.8</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

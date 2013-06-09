@@ -5,26 +5,39 @@
 	<distance>1490.40</distance>
 	<star>
 		<name>KOI-2167</name>
-		<temperature>5994.00</temperature>
-		<radius>1.08</radius>
+		<temperature errorminus="200.00" errorplus="200.00">5994.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">1.0800</radius>
 		<planet>
 			<name>KOI-2167 b</name>
 			<name>KOI-2167 01</name>
-			<radius>0.35541</radius>
-			<period>24.339600</period>
-			<semimajoraxis>0.170</semimajoraxis>
+			<radius errorminus="0.10024" errorplus="0.10024">0.35541</radius>
+			<period errorminus="5.90000e-04" errorplus="5.90000e-04">24.339620000000</period>
+			<transittime errorminus="0.0110000" errorplus="0.0110000">2454969.0580000</transittime>
+			<semimajoraxis>0.1700000</semimajoraxis>
+			<temperature>667.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>655.4</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-2167 c</name>
 			<name>KOI-2167 02</name>
-			<radius>0.14399</radius>
-			<period>6.957460</period>
-			<semimajoraxis>0.074</semimajoraxis>
+			<radius errorminus="0.04101" errorplus="0.04101">0.14399</radius>
+			<period errorminus="3.50000e-04" errorplus="3.50000e-04">6.957460000000</period>
+			<transittime errorminus="0.0120000" errorplus="0.0120000">2455192.0210000</transittime>
+			<semimajoraxis>0.0740000</semimajoraxis>
+			<temperature>1011.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-2167 d</name>
+			<name>KOI-2167 03</name>
+			<radius errorminus="0.25516" errorplus="0.25516">0.28250</radius>
+			<period errorminus="1.10000e-03" errorplus="1.10000e-03">76.534700000000</period>
+			<transittime errorminus="0.0099000" errorplus="0.0099000">2454997.1805000</transittime>
+			<semimajoraxis errorminus="3.5e-06" errorplus="3.5e-06">0.3643230</semimajoraxis>
+			<temperature errorminus=".0" errorplus="0.0">455.5</temperature>
+			<list>Kepler Objects of Interest</list>
 		</planet>
 	</star>
 </system>

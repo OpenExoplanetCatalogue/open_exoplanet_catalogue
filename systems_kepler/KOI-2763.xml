@@ -2,20 +2,22 @@
 	<name>KOI-2763</name>
 	<rightascension>19 04 11</rightascension>
 	<declination>+38 57 36</declination>
-	<distance>591.74</distance>
+	<distance>595.38</distance>
 	<star>
 		<name>KOI-2763</name>
-		<temperature>4739.00</temperature>
-		<radius>0.65</radius>
-		<age>13.5000</age>
+		<temperature errorminus="65.00" errorplus="65.00">4739.00</temperature>
+		<radius errorminus="0.0160" errorplus="0.0160">0.6540</radius>
+		<age errorminus="3.7000" errorplus="3.7000">13.5000</age>
 		<planet>
 			<name>KOI-2763 b</name>
 			<name>KOI-2763 01</name>
-			<radius>0.09842</radius>
-			<period>0.498430</period>
-			<semimajoraxis>0.011</semimajoraxis>
+			<radius errorminus="0.00456" errorplus="0.00456">0.09842</radius>
+			<period errorminus="2.90000e-04" errorplus="2.90000e-04">0.498430000000</period>
+			<transittime errorminus="0.0016000" errorplus="0.0016000">2454964.5709000</transittime>
+			<semimajoraxis>0.0110000</semimajoraxis>
+			<temperature>1612.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

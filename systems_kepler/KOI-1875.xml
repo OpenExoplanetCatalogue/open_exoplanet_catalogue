@@ -5,18 +5,30 @@
 	<distance>913.40</distance>
 	<star>
 		<name>KOI-1875</name>
-		<temperature>5959.00</temperature>
-		<radius>0.96</radius>
-		<age>2.4000</age>
+		<temperature errorminus="98.00" errorplus="98.00">5959.00</temperature>
+		<radius errorminus="0.6600" errorplus="0.6600">0.9600</radius>
+		<age errorminus="2.4000" errorplus="2.4000">2.4000</age>
 		<planet>
 			<name>KOI-1875 b</name>
 			<name>KOI-1875 01</name>
-			<radius>0.20960</radius>
-			<period>9.917190</period>
-			<semimajoraxis>0.091</semimajoraxis>
+			<radius errorminus="0.15492" errorplus="0.15492">0.20960</radius>
+			<period errorminus="4.80000e-05" errorplus="4.80000e-05">9.917189000000</period>
+			<transittime errorminus="0.0024000" errorplus="0.0024000">2454968.1410000</transittime>
+			<semimajoraxis>0.0910000</semimajoraxis>
+			<temperature>854.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>819.3</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-1875 c</name>
+			<name>KOI-1875 02</name>
+			<radius errorminus="0.02734" errorplus="0.02734">0.12941</radius>
+			<period errorminus="4.00000e-06" errorplus="4.00000e-06">0.538360700000</period>
+			<transittime errorminus="0.0006000" errorplus="0.0006000">2454964.6458100</transittime>
+			<semimajoraxis errorminus="6.4e-08" errorplus="6.4e-08">0.0129796</semimajoraxis>
+			<temperature errorminus="772.0" errorplus="772.0">2261.0</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

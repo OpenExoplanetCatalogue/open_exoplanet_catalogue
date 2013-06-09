@@ -4,22 +4,20 @@
 	<declination>+49 38 13</declination>
 	<distance>897.31</distance>
 	<star>
-		<magJ errorminus="0.022" errorplus="0.022">12.379</magJ>
-		<magH errorminus="0.015" errorplus="0.015">11.988</magH>
-		<magK errorminus="0.021" errorplus="0.021">11.892</magK>
 		<name>KOI-0356</name>
-		<temperature>5364.00</temperature>
-		<radius>1.60</radius>
-		<age>13.7000</age>
+		<temperature errorminus="79.00" errorplus="79.00">5364.00</temperature>
+		<radius errorminus="0.1700" errorplus="0.1700">1.6000</radius>
+		<age errorminus="2.0000" errorplus="2.0000">13.7000</age>
 		<planet>
 			<name>KOI-0356 b</name>
 			<name>KOI-0356 01</name>
-			<radius>0.52218</radius>
-			<period>1.827080</period>
-			<semimajoraxis>0.028</semimajoraxis>
+			<radius errorminus="0.05741" errorplus="0.05741">0.52218</radius>
+			<period errorminus="2.00000e-06" errorplus="2.00000e-06">1.827081300000</period>
+			<transittime errorminus="0.0002700" errorplus="0.0002700">2455003.5251200</transittime>
+			<semimajoraxis>0.0280000</semimajoraxis>
+			<temperature>1791.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1791.2</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

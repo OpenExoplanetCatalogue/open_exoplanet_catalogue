@@ -5,18 +5,29 @@
 	<distance>1159.20</distance>
 	<star>
 		<name>KOI-2243</name>
-		<temperature>6158.00</temperature>
-		<radius>0.99</radius>
-		<age>0.3000</age>
+		<temperature errorminus="111.00" errorplus="111.00">6158.00</temperature>
+		<radius errorminus="0.3300" errorplus="0.3300">0.9900</radius>
+		<age errorminus="1.7000" errorplus="1.7000">0.3000</age>
 		<planet>
 			<name>KOI-2243 b</name>
 			<name>KOI-2243 01</name>
-			<radius>0.14490</radius>
-			<period>5.185460</period>
-			<semimajoraxis>0.060</semimajoraxis>
+			<radius errorminus="0.04830" errorplus="0.04830">0.14490</radius>
+			<period errorminus="7.50000e-05" errorplus="7.50000e-05">5.185458000000</period>
+			<transittime errorminus="0.0051000" errorplus="0.0051000">2454965.3329000</transittime>
+			<semimajoraxis>0.0600000</semimajoraxis>
+			<temperature>1101.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1044.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-2243 c</name>
+			<name>KOI-2243 02</name>
+			<radius errorminus="0.15492" errorplus="0.15492">0.15492</radius>
+			<period errorminus="7.10000e-05" errorplus="7.10000e-05">8.458007000000</period>
+			<transittime errorminus="0.0048000" errorplus="0.0048000">2454970.0610000</transittime>
+			<semimajoraxis errorminus="4.7e-07" errorplus="4.7e-07">0.0833925</semimajoraxis>
+			<temperature errorminus="155.0" errorplus="155.0">931.0</temperature>
+			<list>Kepler Objects of Interest</list>
 		</planet>
 	</star>
 </system>

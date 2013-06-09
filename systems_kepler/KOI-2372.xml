@@ -5,18 +5,19 @@
 	<distance>645.62</distance>
 	<star>
 		<name>KOI-2372</name>
-		<temperature>6218.00</temperature>
-		<radius>1.04</radius>
-		<age>1.0000</age>
+		<temperature errorminus="75.00" errorplus="75.00">6218.00</temperature>
+		<radius errorminus="0.4400" errorplus="0.4400">1.0400</radius>
+		<age errorminus="1.1000" errorplus="1.1000">1.0000</age>
 		<planet>
 			<name>KOI-2372 b</name>
 			<name>KOI-2372 01</name>
-			<radius>0.11027</radius>
-			<period>5.349330</period>
-			<semimajoraxis>0.062</semimajoraxis>
+			<radius errorminus="0.04739" errorplus="0.04739">0.11027</radius>
+			<period errorminus="8.40000e-05" errorplus="8.40000e-05">5.349325000000</period>
+			<transittime errorminus="0.0055000" errorplus="0.0055000">2454966.9117000</transittime>
+			<semimajoraxis>0.0620000</semimajoraxis>
+			<temperature>1125.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1064.8</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

@@ -4,22 +4,20 @@
 	<declination>+45 43 10</declination>
 	<distance>484.80</distance>
 	<star>
-		<magJ errorminus="0.022" errorplus="0.022">12.402</magJ>
-		<magH errorminus="0.019" errorplus="0.019">12.005</magH>
-		<magK errorminus="0.020" errorplus="0.020">11.966</magK>
 		<name>KOI-0704</name>
-		<temperature>5444.00</temperature>
-		<radius>0.88</radius>
-		<age>10.9000</age>
+		<temperature errorminus="77.00" errorplus="77.00">5444.00</temperature>
+		<radius errorminus="0.4000" errorplus="0.4000">0.8800</radius>
+		<age errorminus="4.1000" errorplus="4.1000">10.9000</age>
 		<planet>
 			<name>KOI-0704 b</name>
 			<name>KOI-0704 01</name>
-			<radius>0.25516</radius>
-			<period>18.396300</period>
-			<semimajoraxis>0.128</semimajoraxis>
+			<radius errorminus="0.11847" errorplus="0.11847">0.25516</radius>
+			<period errorminus="7.30000e-05" errorplus="7.30000e-05">18.396319000000</period>
+			<transittime errorminus="0.0014000" errorplus="0.0014000">2455018.1393000</transittime>
+			<semimajoraxis>0.1280000</semimajoraxis>
+			<temperature>629.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>611.0</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

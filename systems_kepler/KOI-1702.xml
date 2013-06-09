@@ -2,21 +2,22 @@
 	<name>KOI-1702</name>
 	<rightascension>19 50 55</rightascension>
 	<declination>+42 52 00</declination>
-	<distance>304.88</distance>
+	<distance>304.24</distance>
 	<star>
 		<name>KOI-1702</name>
-		<temperature>3673.00</temperature>
-		<radius>0.48</radius>
-		<age>13.9000</age>
+		<temperature errorminus="200.00" errorplus="200.00">3673.00</temperature>
+		<radius errorminus="0.0200" errorplus="0.0200">0.4790</radius>
+		<age errorminus="3.6000" errorplus="3.6000">13.9000</age>
 		<planet>
 			<name>KOI-1702 b</name>
 			<name>KOI-1702 01</name>
-			<radius>0.14034</radius>
-			<period>1.538160</period>
-			<semimajoraxis>0.021</semimajoraxis>
+			<radius errorminus="0.06015" errorplus="0.06015">0.14034</radius>
+			<period errorminus="8.00000e-06" errorplus="8.00000e-06">1.538162500000</period>
+			<transittime errorminus="0.0009900" errorplus="0.0009900">2454964.8253100</transittime>
+			<semimajoraxis>0.0210000</semimajoraxis>
+			<temperature>774.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>765.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

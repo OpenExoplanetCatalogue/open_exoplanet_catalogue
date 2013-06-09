@@ -4,41 +4,42 @@
 	<declination>+48 24 57</declination>
 	<distance>1077.54</distance>
 	<star>
-		<magJ errorminus="0.028" errorplus="0.028">13.579</magJ>
-		<magH errorminus="0.04" errorplus="0.04">13.26</magH>
-		<magK errorminus="0.04" errorplus="0.04">13.29</magK>
 		<name>KOI-0601</name>
-		<temperature>6119.00</temperature>
-		<radius>0.98</radius>
-		<age>0.4000</age>
+		<temperature errorminus="90.00" errorplus="90.00">6119.00</temperature>
+		<radius errorminus="0.5100" errorplus="0.5100">0.9800</radius>
+		<age errorminus="1.8000" errorplus="1.8000">0.4000</age>
 		<planet>
 			<name>KOI-0601 b</name>
 			<name>KOI-0601 01</name>
-			<radius>0.27339</radius>
-			<period>5.404280</period>
-			<semimajoraxis>0.062</semimajoraxis>
+			<radius errorminus="0.14581" errorplus="0.14581">0.27339</radius>
+			<period errorminus="1.40000e-05" errorplus="1.40000e-05">5.404283000000</period>
+			<transittime errorminus="0.0011000" errorplus="0.0011000">2455005.1842000</transittime>
+			<semimajoraxis>0.0620000</semimajoraxis>
+			<temperature>1072.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1003.8</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-0601 c</name>
 			<name>KOI-0601 02</name>
-			<radius>0.82017</radius>
-			<period>11.678900</period>
-			<semimajoraxis>0.103</semimajoraxis>
+			<radius errorminus="0.52856" errorplus="0.52856">0.82017</radius>
+			<period errorminus="2.60000e-05" errorplus="2.60000e-05">11.678907000000</period>
+			<transittime errorminus="0.0011000" errorplus="0.0011000">2454964.5124000</transittime>
+			<semimajoraxis>0.1030000</semimajoraxis>
+			<temperature>832.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>776.3</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-0601 d</name>
 			<name>KOI-0601 03</name>
-			<radius>0.14763</radius>
-			<period>1.208450</period>
-			<semimajoraxis>0.023</semimajoraxis>
+			<radius errorminus="0.07837" errorplus="0.07837">0.14763</radius>
+			<period errorminus="6.50000e-06" errorplus="6.50000e-06">1.208448500000</period>
+			<transittime errorminus="0.0010000" errorplus="0.0010000">2454966.6798000</transittime>
+			<semimajoraxis>0.0230000</semimajoraxis>
+			<temperature>1760.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

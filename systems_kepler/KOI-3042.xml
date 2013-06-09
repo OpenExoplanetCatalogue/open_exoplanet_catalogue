@@ -5,17 +5,19 @@
 	<distance>1862.25</distance>
 	<star>
 		<name>KOI-3042</name>
-		<temperature>6078.00</temperature>
-		<radius>0.96</radius>
-		<age>0.3000</age>
+		<temperature errorminus="138.00" errorplus="138.00">6078.00</temperature>
+		<radius errorminus="0.3500" errorplus="0.3500">0.9600</radius>
+		<age errorminus="2.1000" errorplus="2.1000">0.3000</age>
 		<planet>
 			<name>KOI-3042 b</name>
 			<name>KOI-3042 01</name>
-			<radius>0.16403</radius>
-			<period>31.025700</period>
-			<semimajoraxis>0.197</semimajoraxis>
+			<radius errorminus="0.06015" errorplus="0.06015">0.16403</radius>
+			<period errorminus="2.90000e-03" errorplus="2.90000e-03">31.025700000000</period>
+			<transittime errorminus="0.0040000" errorplus="0.0040000">2454991.5648000</transittime>
+			<semimajoraxis>0.1970000</semimajoraxis>
+			<temperature>592.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

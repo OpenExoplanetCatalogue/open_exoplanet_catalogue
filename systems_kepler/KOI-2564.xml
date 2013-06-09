@@ -5,18 +5,19 @@
 	<distance>896.88</distance>
 	<star>
 		<name>KOI-2564</name>
-		<temperature>6255.00</temperature>
-		<radius>1.04</radius>
-		<age>0.3000</age>
+		<temperature errorminus="115.00" errorplus="115.00">6255.00</temperature>
+		<radius errorminus="0.5300" errorplus="0.5300">1.0400</radius>
+		<age errorminus="1.1000" errorplus="1.1000">0.3000</age>
 		<planet>
 			<name>KOI-2564 b</name>
 			<name>KOI-2564 01</name>
-			<radius>0.13578</radius>
-			<period>66.559800</period>
-			<semimajoraxis>0.334</semimajoraxis>
+			<radius errorminus="0.06926" errorplus="0.06926">0.13578</radius>
+			<period errorminus="2.40000e-03" errorplus="2.40000e-03">66.559800000000</period>
+			<transittime errorminus="0.0130000" errorplus="0.0130000">2455014.3070000</transittime>
+			<semimajoraxis>0.3340000</semimajoraxis>
+			<temperature>487.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>463.6</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

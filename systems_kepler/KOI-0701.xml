@@ -2,46 +2,54 @@
 	<name>KOI-0701</name>
 	<rightascension>18 52 51</rightascension>
 	<declination>+45 20 59</declination>
-	<distance>260.22</distance>
+	<distance>260.66</distance>
 	<star>
-		<magB>14.4</magB>
-		<magV>13.8</magV>
-		<magJ errorminus="0.022" errorplus="0.022">12.256</magJ>
-		<magH errorminus="0.019" errorplus="0.019">11.739</magH>
-		<magK errorminus="0.021" errorplus="0.021">11.659</magK>
 		<name>KOI-0701</name>
-		<temperature>4807.00</temperature>
-		<radius>0.60</radius>
-		<age>9.8000</age>
+		<temperature errorminus="50.00" errorplus="50.00">4807.00</temperature>
+		<radius errorminus="0.0180" errorplus="0.0180">0.6010</radius>
+		<age errorminus="3.7000" errorplus="3.7000">9.8000</age>
 		<planet>
 			<name>KOI-0701 b</name>
 			<name>KOI-0701 01</name>
-			<radius>0.17406</radius>
-			<period>18.164100</period>
-			<semimajoraxis>0.117</semimajoraxis>
+			<radius errorminus="0.00547" errorplus="0.00547">0.17406</radius>
+			<period errorminus="2.20000e-04" errorplus="2.20000e-04">18.164060000000</period>
+			<transittime errorminus="0.0110000" errorplus="0.0110000">2455013.8120000</transittime>
+			<semimajoraxis>0.1170000</semimajoraxis>
+			<temperature>481.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>480.0</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-0701 c</name>
 			<name>KOI-0701 02</name>
-			<radius>0.11209</radius>
-			<period>5.714930</period>
-			<semimajoraxis>0.054</semimajoraxis>
+			<radius errorminus="0.00547" errorplus="0.00547">0.11209</radius>
+			<period errorminus="1.90000e-04" errorplus="1.90000e-04">5.714930000000</period>
+			<transittime errorminus="0.0590000" errorplus="0.0590000">2455003.9190000</transittime>
+			<semimajoraxis>0.0540000</semimajoraxis>
+			<temperature>707.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>706.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-0701 d</name>
 			<name>KOI-0701 03</name>
-			<radius>0.14034</radius>
-			<period>122.387000</period>
-			<semimajoraxis>0.417</semimajoraxis>
+			<radius errorminus="0.03372" errorplus="0.03372">0.14034</radius>
+			<period errorminus="7.20000e-03" errorplus="7.20000e-03">122.387400000000</period>
+			<transittime errorminus="0.0003100" errorplus="0.0003100">2454983.4041100</transittime>
+			<semimajoraxis>0.4170000</semimajoraxis>
+			<temperature>255.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>254.2</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-0701 f</name>
+			<name>KOI-0701 05</name>
+			<radius errorminus="0.10024" errorplus="0.10024">0.05468</radius>
+			<period errorminus="2.10000e-04" errorplus="2.10000e-04">12.441630000000</period>
+			<transittime errorminus="0.0099000" errorplus="0.0099000">2454967.6605000</transittime>
+			<semimajoraxis errorminus="1.1e-06" errorplus="1.1e-06">0.0966561</semimajoraxis>
+			<temperature errorminus="13.0" errorplus="13.0">590.0</temperature>
+			<list>Kepler Objects of Interest</list>
 		</planet>
 	</star>
 </system>

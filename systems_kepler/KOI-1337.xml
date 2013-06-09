@@ -4,22 +4,20 @@
 	<declination>+39 22 46</declination>
 	<distance>613.30</distance>
 	<star>
-		<magJ errorminus="0.023" errorplus="0.023">13.435</magJ>
-		<magH errorminus="0.024" errorplus="0.024">12.967</magH>
-		<magK errorminus="0.026" errorplus="0.026">12.869</magK>
 		<name>KOI-1337</name>
-		<temperature>5119.00</temperature>
-		<radius>0.75</radius>
-		<age>11.0000</age>
+		<temperature errorminus="83.00" errorplus="83.00">5119.00</temperature>
+		<radius errorminus="0.0390" errorplus="0.0390">0.7500</radius>
+		<age errorminus="3.8000" errorplus="3.8000">11.0000</age>
 		<planet>
 			<name>KOI-1337 b</name>
 			<name>KOI-1337 01</name>
-			<radius>0.10298</radius>
-			<period>1.922820</period>
-			<semimajoraxis>0.028</semimajoraxis>
+			<radius errorminus="0.00729" errorplus="0.00729">0.10298</radius>
+			<period errorminus="1.80000e-05" errorplus="1.80000e-05">1.922820000000</period>
+			<transittime errorminus="0.0026000" errorplus="0.0026000">2454967.4982000</transittime>
+			<semimajoraxis>0.0280000</semimajoraxis>
+			<temperature>1169.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1164.0</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

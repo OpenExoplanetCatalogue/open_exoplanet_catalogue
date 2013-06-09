@@ -5,17 +5,19 @@
 	<distance>1371.50</distance>
 	<star>
 		<name>KOI-3071</name>
-		<temperature>4934.00</temperature>
-		<radius>2.05</radius>
-		<age>14.0000</age>
+		<temperature errorminus="75.00" errorplus="75.00">4934.00</temperature>
+		<radius errorminus="0.3600" errorplus="0.3600">2.0500</radius>
+		<age errorminus="2.0000" errorplus="2.0000">14.0000</age>
 		<planet>
 			<name>KOI-3071 b</name>
 			<name>KOI-3071 01</name>
-			<radius>0.26701</radius>
-			<period>23.958300</period>
-			<semimajoraxis>0.158</semimajoraxis>
+			<radius errorminus="0.04830" errorplus="0.04830">0.26701</radius>
+			<period errorminus="3.20000e-03" errorplus="3.20000e-03">23.958300000000</period>
+			<transittime errorminus="0.0014000" errorplus="0.0014000">2454979.6287000</transittime>
+			<semimajoraxis>0.1580000</semimajoraxis>
+			<temperature>785.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

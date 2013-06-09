@@ -5,18 +5,19 @@
 	<distance>822.97</distance>
 	<star>
 		<name>KOI-2627</name>
-		<temperature>5469.00</temperature>
-		<radius>0.95</radius>
-		<age>13.9000</age>
+		<temperature errorminus="90.00" errorplus="90.00">5469.00</temperature>
+		<radius errorminus="0.5200" errorplus="0.5200">0.9500</radius>
+		<age errorminus="3.5000" errorplus="3.5000">13.9000</age>
 		<planet>
 			<name>KOI-2627 b</name>
 			<name>KOI-2627 01</name>
-			<radius>0.09569</radius>
-			<period>8.384690</period>
-			<semimajoraxis>0.076</semimajoraxis>
+			<radius errorminus="0.05286" errorplus="0.05286">0.09569</radius>
+			<period errorminus="2.50000e-04" errorplus="2.50000e-04">8.384690000000</period>
+			<transittime errorminus="0.0110000" errorplus="0.0110000">2454967.3860000</transittime>
+			<semimajoraxis>0.0760000</semimajoraxis>
+			<temperature>852.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>796.6</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

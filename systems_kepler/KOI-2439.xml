@@ -5,17 +5,18 @@
 	<distance>1458.34</distance>
 	<star>
 		<name>KOI-2439</name>
-		<temperature>6096.00</temperature>
-		<radius>0.95</radius>
+		<temperature errorminus="200.00" errorplus="200.00">6096.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">0.9500</radius>
 		<planet>
 			<name>KOI-2439 b</name>
 			<name>KOI-2439 01</name>
-			<radius>0.16312</radius>
-			<period>5.191190</period>
-			<semimajoraxis>0.060</semimajoraxis>
+			<radius errorminus="0.05194" errorplus="0.05194">0.16312</radius>
+			<period errorminus="1.50000e-04" errorplus="1.50000e-04">5.191190000000</period>
+			<transittime errorminus="0.0120000" errorplus="0.0120000">2454968.2030000</transittime>
+			<semimajoraxis>0.0600000</semimajoraxis>
+			<temperature>1073.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1132.2</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

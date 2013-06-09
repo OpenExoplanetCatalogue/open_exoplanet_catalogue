@@ -4,22 +4,20 @@
 	<declination>+42 20 07</declination>
 	<distance>964.96</distance>
 	<star>
-		<magJ errorminus="0.024" errorplus="0.024">13.620</magJ>
-		<magH errorminus="0.024" errorplus="0.024">13.290</magH>
-		<magK errorminus="0.03" errorplus="0.03">13.18</magK>
 		<name>KOI-0417</name>
-		<temperature>5870.00</temperature>
-		<radius>0.89</radius>
-		<age>0.4000</age>
+		<temperature errorminus="99.00" errorplus="99.00">5870.00</temperature>
+		<radius errorminus="0.3900" errorplus="0.3900">0.8900</radius>
+		<age errorminus="3.0000" errorplus="3.0000">0.4000</age>
 		<planet>
 			<name>KOI-0417 b</name>
 			<name>KOI-0417 01</name>
-			<radius>1.09356</radius>
-			<period>19.193100</period>
-			<semimajoraxis>0.140</semimajoraxis>
+			<radius errorminus="0.52856" errorplus="0.52856">1.09356</radius>
+			<period errorminus="1.80000e-05" errorplus="1.80000e-05">19.193091000000</period>
+			<transittime errorminus="0.0003200" errorplus="0.0003200">2455009.9662600</transittime>
+			<semimajoraxis>0.1400000</semimajoraxis>
+			<temperature>653.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>618.0</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

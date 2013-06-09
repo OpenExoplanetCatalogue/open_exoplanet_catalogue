@@ -5,17 +5,29 @@
 	<distance>1141.59</distance>
 	<star>
 		<name>KOI-2034</name>
-		<temperature>5443.00</temperature>
-		<radius>0.89</radius>
+		<temperature errorminus="200.00" errorplus="200.00">5443.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">0.8900</radius>
 		<planet>
 			<name>KOI-2034 b</name>
 			<name>KOI-2034 01</name>
-			<radius>0.29162</radius>
-			<period>3.609320</period>
-			<semimajoraxis>0.046</semimajoraxis>
+			<radius errorminus="0.12758" errorplus="0.12758">0.29162</radius>
+			<period errorminus="2.20000e-05" errorplus="2.20000e-05">3.609322000000</period>
+			<transittime errorminus="0.0023000" errorplus="0.0023000">2454966.7899000</transittime>
+			<semimajoraxis>0.0460000</semimajoraxis>
+			<temperature>1053.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1043.1</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-2034 c</name>
+			<name>KOI-2034 02</name>
+			<radius errorminus="0.24605" errorplus="0.24605">0.13670</radius>
+			<period errorminus="2.30000e-05" errorplus="2.30000e-05">2.370388000000</period>
+			<transittime errorminus="0.0047000" errorplus="0.0047000">2454966.6561000</transittime>
+			<semimajoraxis errorminus="2.3e-07" errorplus="2.3e-07">0.0348770</semimajoraxis>
+			<temperature errorminus=".0" errorplus="0.0">1209.6</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

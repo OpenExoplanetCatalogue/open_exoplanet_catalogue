@@ -2,44 +2,44 @@
 	<name>KOI-0775</name>
 	<rightascension>19 06 57</rightascension>
 	<declination>+49 58 32</declination>
-	<distance>345.82</distance>
+	<distance>344.56</distance>
 	<star>
-		<magJ errorminus="0.025" errorplus="0.025">13.153</magJ>
-		<magH errorminus="0.03" errorplus="0.03">12.51</magH>
-		<magK errorminus="0.027" errorplus="0.027">12.360</magK>
 		<name>KOI-0775</name>
-		<temperature>4222.00</temperature>
-		<radius>0.55</radius>
-		<age>13.8000</age>
+		<temperature errorminus="65.00" errorplus="65.00">4222.00</temperature>
+		<radius errorminus="0.0110" errorplus="0.0110">0.5480</radius>
+		<age errorminus="3.6000" errorplus="3.6000">13.8000</age>
 		<planet>
 			<name>KOI-0775 b</name>
 			<name>KOI-0775 01</name>
-			<radius>0.17588</radius>
-			<period>16.385000</period>
-			<semimajoraxis>0.105</semimajoraxis>
+			<radius errorminus="0.01823" errorplus="0.01823">0.17588</radius>
+			<period errorminus="1.40000e-04" errorplus="1.40000e-04">16.385000000000</period>
+			<transittime errorminus="0.0027000" errorplus="0.0027000">2455005.7255000</transittime>
+			<semimajoraxis>0.1050000</semimajoraxis>
+			<temperature>425.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a confirmed planet by the Kepler team and might have already appear in a peer reviewed paper.</description>
-			<temperature>392.0</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-0775 c</name>
 			<name>KOI-0775 02</name>
-			<radius>0.20140</radius>
-			<period>7.877360</period>
-			<semimajoraxis>0.065</semimajoraxis>
+			<radius errorminus="0.02096" errorplus="0.02096">0.20140</radius>
+			<period errorminus="3.80000e-05" errorplus="3.80000e-05">7.877356000000</period>
+			<transittime errorminus="0.0015000" errorplus="0.0015000">2455009.3769000</transittime>
+			<semimajoraxis>0.0650000</semimajoraxis>
+			<temperature>541.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a confirmed planet by the Kepler team and might have already appear in a peer reviewed paper.</description>
-			<temperature>500.4</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-0775 d</name>
 			<name>KOI-0775 03</name>
-			<radius>0.17862</radius>
-			<period>36.445900</period>
-			<semimajoraxis>0.179</semimajoraxis>
+			<radius errorminus="0.01914" errorplus="0.01914">0.17862</radius>
+			<period errorminus="4.90000e-04" errorplus="4.90000e-04">36.445910000000</period>
+			<transittime errorminus="0.0044000" errorplus="0.0044000">2454984.5963000</transittime>
+			<semimajoraxis>0.1790000</semimajoraxis>
+			<temperature>326.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>308.8</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

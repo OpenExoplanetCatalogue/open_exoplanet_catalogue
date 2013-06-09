@@ -5,18 +5,19 @@
 	<distance>491.88</distance>
 	<star>
 		<name>KOI-2110</name>
-		<temperature>6470.00</temperature>
-		<radius>1.27</radius>
-		<age>2.3200</age>
+		<temperature errorminus="112.00" errorplus="112.00">6470.00</temperature>
+		<radius errorminus="0.4600" errorplus="0.4600">1.2700</radius>
+		<age errorminus="0.8300" errorplus="0.8300">2.3200</age>
 		<planet>
 			<name>KOI-2110 b</name>
 			<name>KOI-2110 01</name>
-			<radius>0.10389</radius>
-			<period>5.037280</period>
-			<semimajoraxis>0.061</semimajoraxis>
+			<radius errorminus="0.03736" errorplus="0.03736">0.10389</radius>
+			<period errorminus="4.70000e-05" errorplus="4.70000e-05">5.037282000000</period>
+			<transittime errorminus="0.0032000" errorplus="0.0032000">2454967.1082000</transittime>
+			<semimajoraxis>0.0610000</semimajoraxis>
+			<temperature>1301.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1240.7</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

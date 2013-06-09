@@ -2,26 +2,22 @@
 	<name>KOI-0257</name>
 	<rightascension>18 58 32</rightascension>
 	<declination>+40 43 11</declination>
-	<distance>220.57</distance>
+	<distance>221.33</distance>
 	<star>
-		<magB errorminus="0.07" errorplus="0.07">11.57</magB>
-		<magV errorminus="0.08" errorplus="0.08">11.09</magV>
-		<magJ errorminus="0.022" errorplus="0.022">9.911</magJ>
-		<magH errorminus="0.022" errorplus="0.022">9.665</magH>
-		<magK errorminus="0.017" errorplus="0.017">9.617</magK>
 		<name>KOI-0257</name>
-		<temperature>6145.00</temperature>
-		<radius>1.16</radius>
-		<age>1.7000</age>
+		<temperature errorminus="50.00" errorplus="50.00">6145.00</temperature>
+		<radius errorminus="0.0940" errorplus="0.0940">1.1640</radius>
+		<age errorminus="1.1000" errorplus="1.1000">1.7000</age>
 		<planet>
 			<name>KOI-0257 b</name>
 			<name>KOI-0257 01</name>
-			<radius>0.23785</radius>
-			<period>6.883400</period>
-			<semimajoraxis>0.075</semimajoraxis>
+			<radius errorminus="0.01914" errorplus="0.01914">0.23785</radius>
+			<period errorminus="1.20000e-05" errorplus="1.20000e-05">6.883403000000</period>
+			<transittime errorminus="0.0005800" errorplus="0.0005800">2455005.6613200</transittime>
+			<semimajoraxis>0.0750000</semimajoraxis>
+			<temperature>1068.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1065.6</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

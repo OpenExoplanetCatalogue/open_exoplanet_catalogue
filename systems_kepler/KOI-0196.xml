@@ -4,22 +4,20 @@
 	<declination>+45 58 53</declination>
 	<distance>771.43</distance>
 	<star>
-		<magJ errorminus="0.022" errorplus="0.022">13.262</magJ>
-		<magH errorminus="0.024" errorplus="0.024">12.938</magH>
-		<magK errorminus="0.028" errorplus="0.028">12.892</magK>
 		<name>KOI-0196</name>
-		<temperature>5731.00</temperature>
-		<radius>0.89</radius>
-		<age>3.5000</age>
+		<temperature errorminus="106.00" errorplus="106.00">5731.00</temperature>
+		<radius errorminus="0.4500" errorplus="0.4500">0.8900</radius>
+		<age errorminus="3.5000" errorplus="3.5000">3.5000</age>
 		<planet>
 			<name>KOI-0196 b</name>
 			<name>KOI-0196 01</name>
-			<radius>0.85662</radius>
-			<period>1.855560</period>
-			<semimajoraxis>0.029</semimajoraxis>
+			<radius errorminus="0.42831" errorplus="0.42831">0.85662</radius>
+			<period errorminus="2.70000e-07" errorplus="2.70000e-07">1.855557730000</period>
+			<transittime errorminus="0.0000390" errorplus="0.0000390">2454970.1802650</transittime>
+			<semimajoraxis>0.0290000</semimajoraxis>
+			<temperature>1401.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a confirmed planet by the Kepler team and might have already appear in a peer reviewed paper.</description>
-			<temperature>1402.0</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

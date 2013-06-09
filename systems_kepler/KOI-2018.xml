@@ -5,18 +5,29 @@
 	<distance>920.66</distance>
 	<star>
 		<name>KOI-2018</name>
-		<temperature>5707.00</temperature>
-		<radius>1.03</radius>
-		<age>10.2000</age>
+		<temperature errorminus="96.00" errorplus="96.00">5707.00</temperature>
+		<radius errorminus="0.3800" errorplus="0.3800">1.0300</radius>
+		<age errorminus="3.5000" errorplus="3.5000">10.2000</age>
 		<planet>
 			<name>KOI-2018 b</name>
 			<name>KOI-2018 01</name>
-			<radius>0.22783</radius>
-			<period>27.495400</period>
-			<semimajoraxis>0.172</semimajoraxis>
+			<radius errorminus="0.09113" errorplus="0.09113">0.22783</radius>
+			<period errorminus="4.00000e-04" errorplus="4.00000e-04">27.495410000000</period>
+			<transittime errorminus="0.0051000" errorplus="0.0051000">2454966.2841000</transittime>
+			<semimajoraxis>0.1720000</semimajoraxis>
+			<temperature>617.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>551.6</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-2018 c</name>
+			<name>KOI-2018 02</name>
+			<radius errorminus="0.42831" errorplus="0.42831">0.12758</radius>
+			<period errorminus="3.40000e-04" errorplus="3.40000e-04">16.098310000000</period>
+			<transittime errorminus="0.0110000" errorplus="0.0110000">2454964.8940000</transittime>
+			<semimajoraxis errorminus="1.7e-06" errorplus="1.7e-06">0.1204750</semimajoraxis>
+			<temperature errorminus="138.0" errorplus="138.0">738.0</temperature>
+			<list>Kepler Objects of Interest</list>
 		</planet>
 	</star>
 </system>

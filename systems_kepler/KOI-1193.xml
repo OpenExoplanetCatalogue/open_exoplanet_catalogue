@@ -4,22 +4,20 @@
 	<declination>+39 04 43</declination>
 	<distance>1328.98</distance>
 	<star>
-		<magJ errorminus="0.03" errorplus="0.03">14.03</magJ>
-		<magH errorminus="0.028" errorplus="0.028">13.607</magH>
-		<magK errorminus="0.04" errorplus="0.04">13.53</magK>
 		<name>KOI-1193</name>
-		<temperature>5756.00</temperature>
-		<radius>1.04</radius>
-		<age>9.2000</age>
+		<temperature errorminus="102.00" errorplus="102.00">5756.00</temperature>
+		<radius errorminus="0.4800" errorplus="0.4800">1.0400</radius>
+		<age errorminus="2.9000" errorplus="2.9000">9.2000</age>
 		<planet>
 			<name>KOI-1193 b</name>
 			<name>KOI-1193 01</name>
-			<radius>0.92953</radius>
-			<period>119.063000</period>
-			<semimajoraxis>0.460</semimajoraxis>
+			<radius errorminus="0.49210" errorplus="0.49210">0.92953</radius>
+			<period errorminus="4.90000e-04" errorplus="4.90000e-04">119.062850000000</period>
+			<transittime errorminus="0.0015000" errorplus="0.0015000">2454982.2204000</transittime>
+			<semimajoraxis>0.4600000</semimajoraxis>
+			<temperature>381.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>337.4</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

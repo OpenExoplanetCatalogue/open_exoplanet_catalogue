@@ -4,22 +4,20 @@
 	<declination>+40 30 19</declination>
 	<distance>1493.07</distance>
 	<star>
-		<magJ errorminus="0.03" errorplus="0.03">14.21</magJ>
-		<magH errorminus="0.03" errorplus="0.03">13.81</magH>
-		<magK errorminus="0.05" errorplus="0.05">13.78</magK>
 		<name>KOI-0833</name>
-		<temperature>6093.00</temperature>
-		<radius>0.97</radius>
-		<age>0.3000</age>
+		<temperature errorminus="113.00" errorplus="113.00">6093.00</temperature>
+		<radius errorminus="0.4300" errorplus="0.4300">0.9700</radius>
+		<age errorminus="1.9000" errorplus="1.9000">0.3000</age>
 		<planet>
 			<name>KOI-0833 b</name>
 			<name>KOI-0833 01</name>
-			<radius>4.00973</radius>
-			<period>3.951420</period>
-			<semimajoraxis>0.050</semimajoraxis>
+			<radius errorminus="2.64278" errorplus="2.64278">4.00973</radius>
+			<period errorminus="7.90000e-06" errorplus="7.90000e-06">3.951417700000</period>
+			<transittime errorminus="0.0006200" errorplus="0.0006200">2455006.2746900</transittime>
+			<semimajoraxis>0.0500000</semimajoraxis>
+			<temperature>1181.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1058.2</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

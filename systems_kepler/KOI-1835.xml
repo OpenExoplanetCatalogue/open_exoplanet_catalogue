@@ -5,38 +5,41 @@
 	<distance>869.28</distance>
 	<star>
 		<name>KOI-1835</name>
-		<temperature>5110.00</temperature>
-		<radius>1.80</radius>
-		<age>14.0000</age>
+		<temperature errorminus="83.00" errorplus="83.00">5110.00</temperature>
+		<radius errorminus="0.2400" errorplus="0.2400">1.8000</radius>
+		<age errorminus="2.3000" errorplus="2.3000">14.0000</age>
 		<planet>
 			<name>KOI-1835 b</name>
 			<name>KOI-1835 01</name>
-			<radius>0.30802</radius>
-			<period>4.580340</period>
-			<semimajoraxis>0.052</semimajoraxis>
+			<radius errorminus="0.04283" errorplus="0.04283">0.30802</radius>
+			<period errorminus="2.30000e-05" errorplus="2.30000e-05">4.580339000000</period>
+			<transittime errorminus="0.0017000" errorplus="0.0017000">2454967.0756000</transittime>
+			<semimajoraxis>0.0520000</semimajoraxis>
+			<temperature>1325.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1223.3</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1835 c</name>
 			<name>KOI-1835 02</name>
-			<radius>0.26610</radius>
-			<period>2.248310</period>
-			<semimajoraxis>0.033</semimajoraxis>
+			<radius errorminus="0.03645" errorplus="0.03645">0.26610</radius>
+			<period errorminus="9.80000e-06" errorplus="9.80000e-06">2.248307700000</period>
+			<transittime errorminus="0.0013000" errorplus="0.0013000">2454966.4224000</transittime>
+			<semimajoraxis>0.0330000</semimajoraxis>
+			<temperature>1664.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1564.9</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1835 d</name>
 			<name>KOI-1835 03</name>
-			<radius>0.30529</radius>
-			<period>6.766910</period>
-			<semimajoraxis>0.068</semimajoraxis>
+			<radius errorminus="0.04283" errorplus="0.04283">0.30529</radius>
+			<period errorminus="4.70000e-05" errorplus="4.70000e-05">6.766912000000</period>
+			<transittime errorminus="0.0025000" errorplus="0.0025000">2454969.6150000</transittime>
+			<semimajoraxis>0.0680000</semimajoraxis>
+			<temperature>1159.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1074.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

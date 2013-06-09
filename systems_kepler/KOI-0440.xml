@@ -4,32 +4,31 @@
 	<declination>+37 44 58</declination>
 	<distance>431.90</distance>
 	<star>
-		<magJ errorminus="0.022" errorplus="0.022">12.735</magJ>
-		<magH errorminus="0.017" errorplus="0.017">12.255</magH>
-		<magK errorminus="0.023" errorplus="0.023">12.155</magK>
 		<name>KOI-0440</name>
-		<temperature>5031.00</temperature>
-		<radius>0.74</radius>
-		<age>13.7000</age>
+		<temperature errorminus="74.00" errorplus="74.00">5031.00</temperature>
+		<radius errorminus="0.3900" errorplus="0.3900">0.7400</radius>
+		<age errorminus="3.8000" errorplus="3.8000">13.7000</age>
 		<planet>
 			<name>KOI-0440 b</name>
 			<name>KOI-0440 01</name>
-			<radius>0.20049</radius>
-			<period>15.906800</period>
-			<semimajoraxis>0.112</semimajoraxis>
+			<radius errorminus="0.10936" errorplus="0.10936">0.20049</radius>
+			<period errorminus="8.20000e-05" errorplus="8.20000e-05">15.906811000000</period>
+			<transittime errorminus="0.0018000" errorplus="0.0018000">2455010.9317000</transittime>
+			<semimajoraxis>0.1120000</semimajoraxis>
+			<temperature>569.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>567.0</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-0440 c</name>
 			<name>KOI-0440 02</name>
-			<radius>0.20960</radius>
-			<period>4.973460</period>
-			<semimajoraxis>0.052</semimajoraxis>
+			<radius errorminus="0.10936" errorplus="0.10936">0.20960</radius>
+			<period errorminus="1.70000e-05" errorplus="1.70000e-05">4.973455000000</period>
+			<transittime errorminus="0.0011000" errorplus="0.0011000">2455003.8852000</transittime>
+			<semimajoraxis>0.0520000</semimajoraxis>
+			<temperature>835.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>839.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

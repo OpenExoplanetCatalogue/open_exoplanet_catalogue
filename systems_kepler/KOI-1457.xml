@@ -5,17 +5,18 @@
 	<distance>1023.08</distance>
 	<star>
 		<name>KOI-1457</name>
-		<temperature>5364.00</temperature>
-		<radius>0.81</radius>
+		<temperature errorminus="200.00" errorplus="200.00">5364.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">0.8100</radius>
 		<planet>
 			<name>KOI-1457 b</name>
 			<name>KOI-1457 01</name>
-			<radius>0.67436</radius>
-			<period>8.027670</period>
-			<semimajoraxis>0.078</semimajoraxis>
+			<radius errorminus="0.25516" errorplus="0.25516">0.67436</radius>
+			<period errorminus="9.50000e-06" errorplus="9.50000e-06">8.027672900000</period>
+			<transittime errorminus="0.0002900" errorplus="0.0002900">2455193.1707800</transittime>
+			<semimajoraxis>0.0780000</semimajoraxis>
+			<temperature>761.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>785.8</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

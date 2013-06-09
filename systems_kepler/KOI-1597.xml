@@ -2,24 +2,22 @@
 	<name>KOI-1597</name>
 	<rightascension>19 53 28</rightascension>
 	<declination>+40 10 24</declination>
-	<distance>684.08</distance>
+	<distance>686.01</distance>
 	<star>
-		<magJ errorminus="0.021" errorplus="0.021">11.583</magJ>
-		<magH errorminus="0.024" errorplus="0.024">11.409</magH>
-		<magK errorminus="0.018" errorplus="0.018">11.321</magK>
 		<name>KOI-1597</name>
-		<temperature>6443.00</temperature>
-		<radius>1.42</radius>
-		<age>0.7400</age>
+		<temperature errorminus="52.00" errorplus="52.00">6443.00</temperature>
+		<radius errorminus="0.0980" errorplus="0.0980">1.4240</radius>
+		<age errorminus="0.4800" errorplus="0.4800">0.7400</age>
 		<planet>
 			<name>KOI-1597 b</name>
 			<name>KOI-1597 01</name>
-			<radius>0.24423</radius>
-			<period>7.796730</period>
-			<semimajoraxis>0.086</semimajoraxis>
+			<radius errorminus="0.01731" errorplus="0.01731">0.24423</radius>
+			<period errorminus="4.70000e-05" errorplus="4.70000e-05">7.796734000000</period>
+			<transittime errorminus="0.0022000" errorplus="0.0022000">2454967.4183000</transittime>
+			<semimajoraxis>0.0860000</semimajoraxis>
+			<temperature>1156.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1154.4</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

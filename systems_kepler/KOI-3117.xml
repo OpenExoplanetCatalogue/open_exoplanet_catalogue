@@ -5,17 +5,19 @@
 	<distance>619.00</distance>
 	<star>
 		<name>KOI-3117</name>
-		<temperature>5689.00</temperature>
-		<radius>1.32</radius>
-		<age>12.2000</age>
+		<temperature errorminus="83.00" errorplus="83.00">5689.00</temperature>
+		<radius errorminus="0.3500" errorplus="0.3500">1.3200</radius>
+		<age errorminus="2.5000" errorplus="2.5000">12.2000</age>
 		<planet>
 			<name>KOI-3117 b</name>
 			<name>KOI-3117 01</name>
-			<radius>0.15401</radius>
-			<period>6.066630</period>
-			<semimajoraxis>0.063</semimajoraxis>
+			<radius errorminus="0.07382" errorplus="0.07382">0.15401</radius>
+			<period errorminus="3.60000e-05" errorplus="3.60000e-05">6.066634000000</period>
+			<transittime errorminus="0.0030000" errorplus="0.0030000">2454969.1410000</transittime>
+			<semimajoraxis>0.0630000</semimajoraxis>
+			<temperature>1147.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

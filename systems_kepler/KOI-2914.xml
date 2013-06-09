@@ -5,17 +5,19 @@
 	<distance>605.86</distance>
 	<star>
 		<name>KOI-2914</name>
-		<temperature>6464.00</temperature>
-		<radius>1.56</radius>
-		<age>3.0400</age>
+		<temperature errorminus="77.00" errorplus="77.00">6464.00</temperature>
+		<radius errorminus="0.5100" errorplus="0.5100">1.5600</radius>
+		<age errorminus="0.6700" errorplus="0.6700">3.0400</age>
 		<planet>
 			<name>KOI-2914 b</name>
 			<name>KOI-2914 01</name>
-			<radius>0.18226</radius>
-			<period>21.117600</period>
-			<semimajoraxis>0.162</semimajoraxis>
+			<radius errorminus="0.10024" errorplus="0.10024">0.18226</radius>
+			<period errorminus="2.80000e-04" errorplus="2.80000e-04">21.117610000000</period>
+			<transittime errorminus="0.0069000" errorplus="0.0069000">2454966.5997000</transittime>
+			<semimajoraxis>0.1620000</semimajoraxis>
+			<temperature>886.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

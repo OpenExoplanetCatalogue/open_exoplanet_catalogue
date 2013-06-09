@@ -5,18 +5,19 @@
 	<distance>1288.03</distance>
 	<star>
 		<name>KOI-1700</name>
-		<temperature>4996.00</temperature>
-		<radius>1.95</radius>
-		<age>13.9000</age>
+		<temperature errorminus="75.00" errorplus="75.00">4996.00</temperature>
+		<radius errorminus="0.2700" errorplus="0.2700">1.9500</radius>
+		<age errorminus="2.0000" errorplus="2.0000">13.9000</age>
 		<planet>
 			<name>KOI-1700 b</name>
 			<name>KOI-1700 01</name>
-			<radius>0.33718</radius>
-			<period>8.037620</period>
-			<semimajoraxis>0.076</semimajoraxis>
+			<radius errorminus="0.06288" errorplus="0.06288">0.33718</radius>
+			<period errorminus="8.50000e-05" errorplus="8.50000e-05">8.037617000000</period>
+			<transittime errorminus="0.0039000" errorplus="0.0039000">2454972.3535000</transittime>
+			<semimajoraxis>0.0760000</semimajoraxis>
+			<temperature>1117.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>709.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

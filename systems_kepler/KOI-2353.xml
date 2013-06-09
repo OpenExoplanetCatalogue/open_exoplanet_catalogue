@@ -5,18 +5,19 @@
 	<distance>657.95</distance>
 	<star>
 		<name>KOI-2353</name>
-		<temperature>5181.00</temperature>
-		<radius>0.73</radius>
-		<age>4.4000</age>
+		<temperature errorminus="83.00" errorplus="83.00">5181.00</temperature>
+		<radius errorminus="0.6700" errorplus="0.6700">0.7300</radius>
+		<age errorminus="2.4000" errorplus="2.4000">4.4000</age>
 		<planet>
 			<name>KOI-2353 b</name>
 			<name>KOI-2353 01</name>
-			<radius>0.18226</radius>
-			<period>5.186780</period>
-			<semimajoraxis>0.054</semimajoraxis>
+			<radius errorminus="0.17315" errorplus="0.17315">0.18226</radius>
+			<period errorminus="3.80000e-05" errorplus="3.80000e-05">5.186781000000</period>
+			<transittime errorminus="0.0024000" errorplus="0.0024000">2454967.9918000</transittime>
+			<semimajoraxis>0.0540000</semimajoraxis>
+			<temperature>843.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>819.7</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

@@ -5,37 +5,40 @@
 	<distance>787.46</distance>
 	<star>
 		<name>KOI-1860</name>
-		<temperature>5708.00</temperature>
-		<radius>1.12</radius>
+		<temperature errorminus="200.00" errorplus="200.00">5708.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">1.1200</radius>
 		<planet>
 			<name>KOI-1860 b</name>
 			<name>KOI-1860 01</name>
-			<radius>0.23512</radius>
-			<period>6.319440</period>
-			<semimajoraxis>0.069</semimajoraxis>
+			<radius errorminus="0.06288" errorplus="0.06288">0.23512</radius>
+			<period errorminus="4.90000e-05" errorplus="4.90000e-05">6.319439000000</period>
+			<transittime errorminus="0.0034000" errorplus="0.0034000">2454965.2282000</transittime>
+			<semimajoraxis>0.0690000</semimajoraxis>
+			<temperature>1017.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1008.6</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1860 c</name>
 			<name>KOI-1860 02</name>
-			<radius>0.22783</radius>
-			<period>12.209400</period>
-			<semimajoraxis>0.107</semimajoraxis>
+			<radius errorminus="0.06106" errorplus="0.06106">0.22783</radius>
+			<period errorminus="1.60000e-04" errorplus="1.60000e-04">12.209420000000</period>
+			<transittime errorminus="0.0033000" errorplus="0.0033000">2455193.3223000</transittime>
+			<semimajoraxis>0.1070000</semimajoraxis>
+			<temperature>816.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>811.3</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1860 d</name>
 			<name>KOI-1860 03</name>
-			<radius>0.14672</radius>
-			<period>3.076510</period>
-			<semimajoraxis>0.042</semimajoraxis>
+			<radius errorminus="0.03919" errorplus="0.03919">0.14672</radius>
+			<period errorminus="4.60000e-05" errorplus="4.60000e-05">3.076508000000</period>
+			<transittime errorminus="0.0034000" errorplus="0.0034000">2455186.7592000</transittime>
+			<semimajoraxis>0.0420000</semimajoraxis>
+			<temperature>1303.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1279.7</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

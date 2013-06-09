@@ -5,17 +5,18 @@
 	<distance>519.28</distance>
 	<star>
 		<name>KOI-2548</name>
-		<temperature>4696.00</temperature>
-		<radius>0.70</radius>
+		<temperature errorminus="200.00" errorplus="200.00">4696.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">0.7000</radius>
 		<planet>
 			<name>KOI-2548 b</name>
 			<name>KOI-2548 01</name>
-			<radius>0.08475</radius>
-			<period>0.827166</period>
-			<semimajoraxis>0.016</semimajoraxis>
+			<radius errorminus="0.03736" errorplus="0.03736">0.08475</radius>
+			<period errorminus="1.30000e-05" errorplus="1.30000e-05">0.827166000000</period>
+			<transittime errorminus="0.0022000" errorplus="0.0022000">2454965.0754000</transittime>
+			<semimajoraxis>0.0160000</semimajoraxis>
+			<temperature>1372.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1373.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

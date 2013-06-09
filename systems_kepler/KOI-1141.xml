@@ -2,24 +2,22 @@
 	<name>KOI-1141</name>
 	<rightascension>18 50 53</rightascension>
 	<declination>+44 20 47</declination>
-	<distance>486.10</distance>
+	<distance>483.40</distance>
 	<star>
-		<magJ errorminus="0.026" errorplus="0.026">13.875</magJ>
-		<magH errorminus="0.023" errorplus="0.023">13.209</magH>
-		<magK errorminus="0.021" errorplus="0.021">13.046</magK>
 		<name>KOI-1141</name>
-		<temperature>4149.00</temperature>
-		<radius>0.54</radius>
-		<age>13.9000</age>
+		<temperature errorminus="77.00" errorplus="77.00">4149.00</temperature>
+		<radius errorminus="0.0110" errorplus="0.0110">0.5370</radius>
+		<age errorminus="3.5000" errorplus="3.5000">13.9000</age>
 		<planet>
 			<name>KOI-1141 b</name>
 			<name>KOI-1141 01</name>
-			<radius>0.14399</radius>
-			<period>5.728260</period>
-			<semimajoraxis>0.052</semimajoraxis>
+			<radius errorminus="0.03736" errorplus="0.03736">0.14399</radius>
+			<period errorminus="6.60000e-05" errorplus="6.60000e-05">5.728256000000</period>
+			<transittime errorminus="0.0041000" errorplus="0.0041000">2454968.1718000</transittime>
+			<semimajoraxis>0.0520000</semimajoraxis>
+			<temperature>588.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>589.6</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

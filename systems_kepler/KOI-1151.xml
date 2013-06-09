@@ -4,32 +4,61 @@
 	<declination>+44 17 03</declination>
 	<distance>520.85</distance>
 	<star>
-		<magJ errorminus="0.022" errorplus="0.022">12.198</magJ>
-		<magH errorminus="0.019" errorplus="0.019">11.819</magH>
-		<magK errorminus="0.021" errorplus="0.021">11.745</magK>
 		<name>KOI-1151</name>
-		<temperature>5759.00</temperature>
-		<radius>0.97</radius>
-		<age>7.1000</age>
+		<temperature errorminus="70.00" errorplus="70.00">5759.00</temperature>
+		<radius errorminus="0.3500" errorplus="0.3500">0.9700</radius>
+		<age errorminus="3.0000" errorplus="3.0000">7.1000</age>
 		<planet>
 			<name>KOI-1151 b</name>
 			<name>KOI-1151 01</name>
-			<radius>0.11027</radius>
-			<period>5.217810</period>
-			<semimajoraxis>0.057</semimajoraxis>
+			<radius errorminus="0.03919" errorplus="0.03919">0.11027</radius>
+			<period errorminus="7.30000e-05" errorplus="7.30000e-05">5.217811000000</period>
+			<transittime errorminus="0.0050000" errorplus="0.0050000">2454967.8157000</transittime>
+			<semimajoraxis>0.0570000</semimajoraxis>
+			<temperature>1048.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>859.6</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1151 c</name>
 			<name>KOI-1151 02</name>
-			<radius>0.12758</radius>
-			<period>7.411050</period>
-			<semimajoraxis>0.072</semimajoraxis>
+			<radius errorminus="0.04557" errorplus="0.04557">0.12758</radius>
+			<period errorminus="9.40000e-05" errorplus="9.40000e-05">7.411048000000</period>
+			<transittime errorminus="0.0047000" errorplus="0.0047000">2454968.7436000</transittime>
+			<semimajoraxis>0.0720000</semimajoraxis>
+			<temperature>933.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>763.0</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-1151 d</name>
+			<name>KOI-1151 03</name>
+			<radius errorminus="0.03281" errorplus="0.03281">0.07564</radius>
+			<period errorminus="5.30000e-05" errorplus="5.30000e-05">5.249722000000</period>
+			<transittime errorminus="0.0054000" errorplus="0.0054000">2454968.4660000</transittime>
+			<semimajoraxis errorminus="3.9e-07" errorplus="3.9e-07">0.0575794</semimajoraxis>
+			<temperature errorminus="186.0" errorplus="186.0">1043.0</temperature>
+			<list>Kepler Objects of Interest</list>
+		</planet>
+		<planet>
+			<name>KOI-1151 e</name>
+			<name>KOI-1151 04</name>
+			<radius errorminus="0.04648" errorplus="0.04648">0.10024</radius>
+			<period errorminus="2.90000e-04" errorplus="2.90000e-04">17.453370000000</period>
+			<transittime errorminus="0.0097000" errorplus="0.0097000">2454979.6500000</transittime>
+			<semimajoraxis errorminus="1.4e-06" errorplus="1.4e-06">0.1282620</semimajoraxis>
+			<temperature errorminus="125.0" errorplus="125.0">699.0</temperature>
+			<list>Kepler Objects of Interest</list>
+		</planet>
+		<planet>
+			<name>KOI-1151 f</name>
+			<name>KOI-1151 05</name>
+			<radius errorminus="0.24605" errorplus="0.24605">0.09113</radius>
+			<period errorminus="2.60000e-04" errorplus="2.60000e-04">21.720690000000</period>
+			<transittime errorminus="0.0074000" errorplus="0.0074000">2454967.7589000</transittime>
+			<semimajoraxis errorminus="1.2e-06" errorplus="1.2e-06">0.1483970</semimajoraxis>
+			<temperature errorminus="116.0" errorplus="116.0">650.0</temperature>
+			<list>Kepler Objects of Interest</list>
 		</planet>
 	</star>
 </system>

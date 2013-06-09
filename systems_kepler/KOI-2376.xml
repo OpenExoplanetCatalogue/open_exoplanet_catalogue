@@ -5,17 +5,18 @@
 	<distance>899.42</distance>
 	<star>
 		<name>KOI-2376</name>
-		<temperature>5019.00</temperature>
-		<radius>0.93</radius>
+		<temperature errorminus="200.00" errorplus="200.00">5019.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">0.9300</radius>
 		<planet>
 			<name>KOI-2376 b</name>
 			<name>KOI-2376 01</name>
-			<radius>0.24605</radius>
-			<period>18.827300</period>
-			<semimajoraxis>0.136</semimajoraxis>
+			<radius errorminus="0.11847" errorplus="0.11847">0.24605</radius>
+			<period errorminus="6.00000e-04" errorplus="6.00000e-04">18.827350000000</period>
+			<transittime errorminus="0.0140000" errorplus="0.0140000">2454967.6780000</transittime>
+			<semimajoraxis>0.1360000</semimajoraxis>
+			<temperature>580.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>556.7</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

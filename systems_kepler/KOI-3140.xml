@@ -2,20 +2,22 @@
 	<name>KOI-3140</name>
 	<rightascension>19 46 28</rightascension>
 	<declination>+41 16 52</declination>
-	<distance>416.62</distance>
+	<distance>419.71</distance>
 	<star>
 		<name>KOI-3140</name>
-		<temperature>4201.00</temperature>
-		<radius>0.54</radius>
-		<age>13.9000</age>
+		<temperature errorminus="72.00" errorplus="72.00">4201.00</temperature>
+		<radius errorminus="0.0110" errorplus="0.0110">0.5440</radius>
+		<age errorminus="3.6000" errorplus="3.6000">13.9000</age>
 		<planet>
 			<name>KOI-3140 b</name>
 			<name>KOI-3140 01</name>
-			<radius>0.09386</radius>
-			<period>5.688800</period>
-			<semimajoraxis>0.052</semimajoraxis>
+			<radius errorminus="0.00456" errorplus="0.00456">0.09386</radius>
+			<period errorminus="8.00000e-04" errorplus="8.00000e-04">5.688800000000</period>
+			<transittime errorminus="0.0021000" errorplus="0.0021000">2454964.6704000</transittime>
+			<semimajoraxis>0.0520000</semimajoraxis>
+			<temperature>599.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

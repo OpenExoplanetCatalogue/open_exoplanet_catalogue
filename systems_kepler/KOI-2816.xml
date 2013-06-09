@@ -5,17 +5,19 @@
 	<distance>969.56</distance>
 	<star>
 		<name>KOI-2816</name>
-		<temperature>5444.00</temperature>
-		<radius>0.78</radius>
-		<age>0.6000</age>
+		<temperature errorminus="87.00" errorplus="87.00">5444.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">0.7800</radius>
+		<age errorminus="3.8000" errorplus="3.8000">0.6000</age>
 		<planet>
 			<name>KOI-2816 b</name>
 			<name>KOI-2816 01</name>
-			<radius>0.20049</radius>
-			<period>1.289600</period>
-			<semimajoraxis>0.022</semimajoraxis>
+			<radius errorminus="0.07655" errorplus="0.07655">0.20049</radius>
+			<period errorminus="3.60000e-04" errorplus="3.60000e-04">1.289600000000</period>
+			<transittime errorminus="0.0012000" errorplus="0.0012000">2454964.8850000</transittime>
+			<semimajoraxis>0.0220000</semimajoraxis>
+			<temperature>1428.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

@@ -5,18 +5,19 @@
 	<distance>444.29</distance>
 	<star>
 		<name>KOI-1938</name>
-		<temperature>5271.00</temperature>
-		<radius>0.74</radius>
-		<age>0.7000</age>
+		<temperature errorminus="64.00" errorplus="64.00">5271.00</temperature>
+		<radius errorminus="0.3400" errorplus="0.3400">0.7400</radius>
+		<age errorminus="3.8000" errorplus="3.8000">0.7000</age>
 		<planet>
 			<name>KOI-1938 b</name>
 			<name>KOI-1938 01</name>
-			<radius>0.20960</radius>
-			<period>96.914900</period>
-			<semimajoraxis>0.389</semimajoraxis>
+			<radius errorminus="0.10936" errorplus="0.10936">0.20960</radius>
+			<period errorminus="9.50000e-04" errorplus="9.50000e-04">96.914920000000</period>
+			<transittime errorminus="0.0034000" errorplus="0.0034000">2455020.0907000</transittime>
+			<semimajoraxis>0.3890000</semimajoraxis>
+			<temperature>320.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>297.0</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

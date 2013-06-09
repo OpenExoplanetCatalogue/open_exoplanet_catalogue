@@ -2,41 +2,44 @@
 	<name>KOI-2174</name>
 	<rightascension>20 00 58</rightascension>
 	<declination>+44 08 29</declination>
-	<distance>497.85</distance>
+	<distance>499.59</distance>
 	<star>
 		<name>KOI-2174</name>
-		<temperature>4356.00</temperature>
-		<radius>0.57</radius>
-		<age>13.9000</age>
+		<temperature errorminus="66.00" errorplus="66.00">4356.00</temperature>
+		<radius errorminus="0.0130" errorplus="0.0130">0.5720</radius>
+		<age errorminus="3.7000" errorplus="3.7000">13.9000</age>
 		<planet>
 			<name>KOI-2174 b</name>
 			<name>KOI-2174 01</name>
-			<radius>0.12303</radius>
-			<period>6.693200</period>
-			<semimajoraxis>0.059</semimajoraxis>
+			<radius errorminus="0.04101" errorplus="0.04101">0.12303</radius>
+			<period errorminus="7.50000e-05" errorplus="7.50000e-05">6.693196000000</period>
+			<transittime errorminus="0.0040000" errorplus="0.0040000">2454970.7098000</transittime>
+			<semimajoraxis>0.0590000</semimajoraxis>
+			<temperature>598.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>578.3</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-2174 c</name>
 			<name>KOI-2174 02</name>
-			<radius>0.13487</radius>
-			<period>33.137300</period>
-			<semimajoraxis>0.171</semimajoraxis>
+			<radius errorminus="0.04557" errorplus="0.04557">0.13487</radius>
+			<period errorminus="7.20000e-04" errorplus="7.20000e-04">33.137330000000</period>
+			<transittime errorminus="0.0076000" errorplus="0.0076000">2455002.5007000</transittime>
+			<semimajoraxis>0.1710000</semimajoraxis>
+			<temperature>351.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>338.8</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-2174 d</name>
 			<name>KOI-2174 03</name>
-			<radius>0.08657</radius>
-			<period>7.725100</period>
-			<semimajoraxis>0.065</semimajoraxis>
+			<radius errorminus="0.02916" errorplus="0.02916">0.08657</radius>
+			<period errorminus="1.90000e-04" errorplus="1.90000e-04">7.725100000000</period>
+			<transittime errorminus="0.0083000" errorplus="0.0083000">2455009.7996000</transittime>
+			<semimajoraxis>0.0650000</semimajoraxis>
+			<temperature>570.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>550.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

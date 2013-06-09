@@ -5,17 +5,18 @@
 	<distance>1404.44</distance>
 	<star>
 		<name>KOI-2415</name>
-		<temperature>5874.00</temperature>
-		<radius>0.89</radius>
+		<temperature errorminus="200.00" errorplus="200.00">5874.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">0.8900</radius>
 		<planet>
 			<name>KOI-2415 b</name>
 			<name>KOI-2415 01</name>
-			<radius>0.16586</radius>
-			<period>5.254080</period>
-			<semimajoraxis>0.060</semimajoraxis>
+			<radius errorminus="0.05923" errorplus="0.05923">0.16586</radius>
+			<period errorminus="1.10000e-04" errorplus="1.10000e-04">5.254080000000</period>
+			<transittime errorminus="0.0084000" errorplus="0.0084000">2454966.7379000</transittime>
+			<semimajoraxis>0.0600000</semimajoraxis>
+			<temperature>1000.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1033.8</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

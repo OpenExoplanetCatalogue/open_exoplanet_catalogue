@@ -2,24 +2,22 @@
 	<name>KOI-0484</name>
 	<rightascension>19 24 53</rightascension>
 	<declination>+50 34 52</declination>
-	<distance>533.52</distance>
+	<distance>534.25</distance>
 	<star>
-		<magJ errorminus="0.024" errorplus="0.024">13.114</magJ>
-		<magH errorminus="0.03" errorplus="0.03">12.65</magH>
-		<magK errorminus="0.021" errorplus="0.021">12.558</magK>
 		<name>KOI-0484</name>
-		<temperature>5254.00</temperature>
-		<radius>0.73</radius>
-		<age>0.6000</age>
+		<temperature errorminus="66.00" errorplus="66.00">5254.00</temperature>
+		<radius errorminus="0.0780" errorplus="0.0780">0.7310</radius>
+		<age errorminus="3.7000" errorplus="3.7000">0.6000</age>
 		<planet>
 			<name>KOI-0484 b</name>
 			<name>KOI-0484 01</name>
-			<radius>0.22418</radius>
-			<period>17.205200</period>
-			<semimajoraxis>0.123</semimajoraxis>
+			<radius errorminus="0.03919" errorplus="0.03919">0.22418</radius>
+			<period errorminus="8.50000e-05" errorplus="8.50000e-05">17.205222000000</period>
+			<transittime errorminus="0.0017000" errorplus="0.0017000">2455008.0586000</transittime>
+			<semimajoraxis>0.1230000</semimajoraxis>
+			<temperature>565.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>522.3</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

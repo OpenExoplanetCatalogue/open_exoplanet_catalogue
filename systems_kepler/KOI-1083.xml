@@ -4,22 +4,20 @@
 	<declination>+47 09 52</declination>
 	<distance>1137.15</distance>
 	<star>
-		<magJ errorminus="0.026" errorplus="0.026">14.105</magJ>
-		<magH errorminus="0.027" errorplus="0.027">13.697</magH>
-		<magK errorminus="0.04" errorplus="0.04">13.62</magK>
 		<name>KOI-1083</name>
-		<temperature>5804.00</temperature>
-		<radius>0.87</radius>
-		<age>0.7000</age>
+		<temperature errorminus="101.00" errorplus="101.00">5804.00</temperature>
+		<radius errorminus="0.5800" errorplus="0.5800">0.8700</radius>
+		<age errorminus="3.1000" errorplus="3.1000">0.7000</age>
 		<planet>
 			<name>KOI-1083 b</name>
 			<name>KOI-1083 01</name>
-			<radius>0.16403</radius>
-			<period>7.336740</period>
-			<semimajoraxis>0.073</semimajoraxis>
+			<radius errorminus="0.10936" errorplus="0.10936">0.16403</radius>
+			<period errorminus="1.30000e-04" errorplus="1.30000e-04">7.336740000000</period>
+			<transittime errorminus="0.0057000" errorplus="0.0057000">2454971.5856000</transittime>
+			<semimajoraxis>0.0730000</semimajoraxis>
+			<temperature>886.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>824.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

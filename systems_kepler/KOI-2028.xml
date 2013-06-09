@@ -5,28 +5,41 @@
 	<distance>1434.59</distance>
 	<star>
 		<name>KOI-2028</name>
-		<temperature>5629.00</temperature>
-		<radius>0.85</radius>
-		<age>2.9000</age>
+		<temperature errorminus="101.00" errorplus="101.00">5629.00</temperature>
+		<radius errorminus="0.4000" errorplus="0.4000">0.8500</radius>
+		<age errorminus="3.7000" errorplus="3.7000">2.9000</age>
 		<planet>
 			<name>KOI-2028 b</name>
 			<name>KOI-2028 01</name>
-			<radius>0.29162</radius>
-			<period>57.247200</period>
-			<semimajoraxis>0.282</semimajoraxis>
+			<radius errorminus="0.14581" errorplus="0.14581">0.29162</radius>
+			<period errorminus="9.40000e-04" errorplus="9.40000e-04">57.247190000000</period>
+			<transittime errorminus="0.0056000" errorplus="0.0056000">2455017.6968000</transittime>
+			<semimajoraxis>0.2820000</semimajoraxis>
+			<temperature>431.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>409.3</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-2028 c</name>
 			<name>KOI-2028 02</name>
-			<radius>0.24605</radius>
-			<period>37.053000</period>
-			<semimajoraxis>0.211</semimajoraxis>
+			<radius errorminus="0.12758" errorplus="0.12758">0.24605</radius>
+			<period errorminus="5.50000e-04" errorplus="5.50000e-04">37.053020000000</period>
+			<transittime errorminus="0.0052000" errorplus="0.0052000">2455033.2216000</transittime>
+			<semimajoraxis>0.2110000</semimajoraxis>
+			<temperature>498.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>473.7</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-2028 d</name>
+			<name>KOI-2028 03</name>
+			<radius errorminus="0.51033" errorplus="0.51033">0.21871</radius>
+			<period errorminus="3.70000e-03" errorplus="3.70000e-03">142.545900000000</period>
+			<transittime errorminus="0.0140000" errorplus="0.0140000">2455035.8770000</transittime>
+			<semimajoraxis errorminus="8.9e-06" errorplus="8.9e-06">0.5187270</semimajoraxis>
+			<temperature errorminus="76.0" errorplus="76.0">318.0</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

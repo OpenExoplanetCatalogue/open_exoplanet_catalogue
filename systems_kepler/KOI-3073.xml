@@ -5,17 +5,19 @@
 	<distance>588.20</distance>
 	<star>
 		<name>KOI-3073</name>
-		<temperature>5400.00</temperature>
-		<radius>0.77</radius>
-		<age>1.2000</age>
+		<temperature errorminus="104.00" errorplus="104.00">5400.00</temperature>
+		<radius errorminus="0.5000" errorplus="0.5000">0.7700</radius>
+		<age errorminus="3.7000" errorplus="3.7000">1.2000</age>
 		<planet>
 			<name>KOI-3073 b</name>
 			<name>KOI-3073 01</name>
-			<radius>0.12758</radius>
-			<period>7.409860</period>
-			<semimajoraxis>0.071</semimajoraxis>
+			<radius errorminus="0.09113" errorplus="0.09113">0.12758</radius>
+			<period errorminus="3.10000e-05" errorplus="3.10000e-05">7.409861000000</period>
+			<transittime errorminus="0.0019000" errorplus="0.0019000">2454971.1793000</transittime>
+			<semimajoraxis>0.0710000</semimajoraxis>
+			<temperature>786.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

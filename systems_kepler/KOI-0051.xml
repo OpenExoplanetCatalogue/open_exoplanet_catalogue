@@ -4,21 +4,19 @@
 	<declination>+41 19 56</declination>
 	<distance>54.09</distance>
 	<star>
-		<magJ errorminus="0.10" errorplus="0.10">15.68</magJ>
-		<magH errorminus="0.15" errorplus="0.15">15.24</magH>
-		<magK>14.315</magK>
 		<name>KOI-0051</name>
-		<temperature>3240.00</temperature>
-		<radius>0.27</radius>
+		<temperature errorminus="" errorplus="">3240.00</temperature>
+		<radius errorminus="" errorplus="">0.2700</radius>
 		<planet>
 			<name>KOI-0051 b</name>
 			<name>KOI-0051 01</name>
-			<radius>1.13913</radius>
-			<period>10.431200</period>
-			<semimajoraxis>0.056</semimajoraxis>
+			<radius errorminus="0.46476" errorplus="0.46476">1.13913</radius>
+			<period errorminus="8.90000e-06" errorplus="8.90000e-06">10.431162700000</period>
+			<transittime errorminus="0.0003600" errorplus="0.0003600">2454966.9349400</transittime>
+			<semimajoraxis>0.0560000</semimajoraxis>
+			<temperature>314.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>357.2</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

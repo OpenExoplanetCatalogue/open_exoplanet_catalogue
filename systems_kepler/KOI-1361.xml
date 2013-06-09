@@ -2,24 +2,22 @@
 	<name>KOI-1361</name>
 	<rightascension>19 41 13</rightascension>
 	<declination>+42 28 31</declination>
-	<distance>326.20</distance>
+	<distance>323.23</distance>
 	<star>
-		<magJ errorminus="0.023" errorplus="0.023">13.078</magJ>
-		<magH errorminus="0.022" errorplus="0.022">12.426</magH>
-		<magK errorminus="0.019" errorplus="0.019">12.272</magK>
 		<name>KOI-1361</name>
-		<temperature>4196.00</temperature>
-		<radius>0.55</radius>
-		<age>14.0000</age>
+		<temperature errorminus="66.00" errorplus="66.00">4196.00</temperature>
+		<radius errorminus="0.0110" errorplus="0.0110">0.5450</radius>
+		<age errorminus="3.5000" errorplus="3.5000">14.0000</age>
 		<planet>
 			<name>KOI-1361 b</name>
 			<name>KOI-1361 01</name>
-			<radius>0.21233</radius>
-			<period>59.877700</period>
-			<semimajoraxis>0.249</semimajoraxis>
+			<radius errorminus="0.01367" errorplus="0.01367">0.21233</radius>
+			<period errorminus="5.20000e-04" errorplus="5.20000e-04">59.877690000000</period>
+			<transittime errorminus="0.0030000" errorplus="0.0030000">2454984.1868000</transittime>
+			<semimajoraxis>0.2490000</semimajoraxis>
+			<temperature>274.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>257.7</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

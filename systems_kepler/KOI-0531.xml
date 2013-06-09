@@ -2,24 +2,22 @@
 	<name>KOI-0531</name>
 	<rightascension>19 10 45</rightascension>
 	<declination>+47 32 48</declination>
-	<distance>229.08</distance>
+	<distance>228.64</distance>
 	<star>
-		<magJ errorminus="0.025" errorplus="0.025">12.357</magJ>
-		<magH errorminus="0.020" errorplus="0.020">11.750</magH>
-		<magK errorminus="0.013" errorplus="0.013">11.610</magK>
 		<name>KOI-0531</name>
-		<temperature>4091.00</temperature>
-		<radius>0.53</radius>
-		<age>14.0000</age>
+		<temperature errorminus="58.00" errorplus="58.00">4091.00</temperature>
+		<radius errorminus="0.0081" errorplus="0.0081">0.5290</radius>
+		<age errorminus="3.5000" errorplus="3.5000">14.0000</age>
 		<planet>
 			<name>KOI-0531 b</name>
 			<name>KOI-0531 01</name>
-			<radius>0.27339</radius>
-			<period>3.687470</period>
-			<semimajoraxis>0.038</semimajoraxis>
+			<radius errorminus="0.01185" errorplus="0.01185">0.27339</radius>
+			<period errorminus="2.20000e-06" errorplus="2.20000e-06">3.687468700000</period>
+			<transittime errorminus="0.0001700" errorplus="0.0001700">2455003.8796200</transittime>
+			<semimajoraxis>0.0380000</semimajoraxis>
+			<temperature>673.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>689.1</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

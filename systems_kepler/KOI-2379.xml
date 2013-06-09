@@ -5,18 +5,19 @@
 	<distance>1474.16</distance>
 	<star>
 		<name>KOI-2379</name>
-		<temperature>6271.00</temperature>
-		<radius>1.09</radius>
-		<age>1.5000</age>
+		<temperature errorminus="120.00" errorplus="120.00">6271.00</temperature>
+		<radius errorminus="0.4300" errorplus="0.4300">1.0900</radius>
+		<age errorminus="1.0000" errorplus="1.0000">1.5000</age>
 		<planet>
 			<name>KOI-2379 b</name>
 			<name>KOI-2379 01</name>
-			<radius>0.22783</radius>
-			<period>40.007300</period>
-			<semimajoraxis>0.238</semimajoraxis>
+			<radius errorminus="0.13670" errorplus="0.13670">0.22783</radius>
+			<period errorminus="6.30000e-04" errorplus="6.30000e-04">40.007280000000</period>
+			<transittime errorminus="0.0061000" errorplus="0.0061000">2454974.7573000</transittime>
+			<semimajoraxis>0.2380000</semimajoraxis>
+			<temperature>593.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>559.2</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

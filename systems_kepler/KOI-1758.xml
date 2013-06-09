@@ -5,17 +5,18 @@
 	<distance>787.43</distance>
 	<star>
 		<name>KOI-1758</name>
-		<temperature>5410.00</temperature>
-		<radius>0.51</radius>
+		<temperature errorminus="200.00" errorplus="200.00">5410.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">0.5100</radius>
 		<planet>
 			<name>KOI-1758 b</name>
 			<name>KOI-1758 01</name>
-			<radius>0.13670</radius>
-			<period>5.597160</period>
-			<semimajoraxis>0.060</semimajoraxis>
+			<radius errorminus="0.10024" errorplus="0.10024">0.13670</radius>
+			<period errorminus="5.30000e-05" errorplus="5.30000e-05">5.597163000000</period>
+			<transittime errorminus="0.0040000" errorplus="0.0040000">2454964.8757000</transittime>
+			<semimajoraxis>0.0600000</semimajoraxis>
+			<temperature>693.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>878.4</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

@@ -5,18 +5,19 @@
 	<distance>673.89</distance>
 	<star>
 		<name>KOI-1961</name>
-		<temperature>5538.00</temperature>
-		<radius>1.75</radius>
-		<age>9.8000</age>
+		<temperature errorminus="76.00" errorplus="76.00">5538.00</temperature>
+		<radius errorminus="0.3100" errorplus="0.3100">1.7500</radius>
+		<age errorminus="2.5000" errorplus="2.5000">9.8000</age>
 		<planet>
 			<name>KOI-1961 b</name>
 			<name>KOI-1961 01</name>
-			<radius>0.19866</radius>
-			<period>1.907810</period>
-			<semimajoraxis>0.030</semimajoraxis>
+			<radius errorminus="0.03554" errorplus="0.03554">0.19866</radius>
+			<period errorminus="9.50000e-06" errorplus="9.50000e-06">1.907808600000</period>
+			<transittime errorminus="0.0013000" errorplus="0.0013000">2454964.6376000</transittime>
+			<semimajoraxis>0.0300000</semimajoraxis>
+			<temperature>1864.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1805.0</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

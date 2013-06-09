@@ -2,31 +2,43 @@
 	<name>KOI-1781</name>
 	<rightascension>19 10 25</rightascension>
 	<declination>+49 31 23</declination>
-	<distance>177.58</distance>
+	<distance>177.35</distance>
 	<star>
 		<name>KOI-1781</name>
-		<temperature>4977.00</temperature>
-		<radius>0.76</radius>
-		<age>4.4000</age>
+		<temperature errorminus="50.00" errorplus="50.00">4977.00</temperature>
+		<radius errorminus="0.0310" errorplus="0.0310">0.7590</radius>
+		<age errorminus="3.7000" errorplus="3.7000">4.4000</age>
 		<planet>
 			<name>KOI-1781 b</name>
 			<name>KOI-1781 01</name>
-			<radius>0.34265</radius>
-			<period>7.834450</period>
-			<semimajoraxis>0.072</semimajoraxis>
-			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<radius errorminus="0.01549" errorplus="0.01549">0.34265</radius>
+			<period errorminus="7.00000e-06" errorplus="7.00000e-06">7.834450800000</period>
+			<transittime errorminus="0.0004300" errorplus="0.0004300">2454968.2205900</transittime>
+			<semimajoraxis>0.0720000</semimajoraxis>
 			<temperature>713.0</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1781 c</name>
 			<name>KOI-1781 02</name>
-			<radius>0.20687</radius>
-			<period>3.005160</period>
-			<semimajoraxis>0.038</semimajoraxis>
+			<radius errorminus="0.01002" errorplus="0.01002">0.20687</radius>
+			<period errorminus="4.70000e-06" errorplus="4.70000e-06">3.005156900000</period>
+			<transittime errorminus="0.0005900" errorplus="0.0005900">2454970.1026800</transittime>
+			<semimajoraxis>0.0380000</semimajoraxis>
+			<temperature>981.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>981.4</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-1781 d</name>
+			<name>KOI-1781 03</name>
+			<radius errorminus="0.16403" errorplus="0.16403">0.83840</radius>
+			<period errorminus="1.40000e-04" errorplus="1.40000e-04">58.021260000000</period>
+			<transittime errorminus="0.0012000" errorplus="0.0012000">2454984.8476000</transittime>
+			<semimajoraxis errorminus="4.6e-07" errorplus="4.6e-07">0.2854120</semimajoraxis>
+			<temperature errorminus="93.0" errorplus="93.0">635.0</temperature>
+			<list>Kepler Objects of Interest</list>
 		</planet>
 	</star>
 </system>

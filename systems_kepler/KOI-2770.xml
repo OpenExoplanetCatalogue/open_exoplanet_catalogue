@@ -2,21 +2,22 @@
 	<name>KOI-2770</name>
 	<rightascension>19 21 00</rightascension>
 	<declination>+48 21 38</declination>
-	<distance>515.34</distance>
+	<distance>518.83</distance>
 	<star>
 		<name>KOI-2770</name>
-		<temperature>4473.00</temperature>
-		<radius>0.59</radius>
-		<age>13.5000</age>
+		<temperature errorminus="61.00" errorplus="61.00">4473.00</temperature>
+		<radius errorminus="0.0130" errorplus="0.0130">0.5940</radius>
+		<age errorminus="3.6000" errorplus="3.6000">13.5000</age>
 		<planet>
 			<name>KOI-2770 b</name>
 			<name>KOI-2770 01</name>
-			<radius>0.19866</radius>
-			<period>205.383000</period>
-			<semimajoraxis>0.583</semimajoraxis>
+			<radius errorminus="0.06653" errorplus="0.06653">0.19866</radius>
+			<period errorminus="6.90000e-03" errorplus="6.90000e-03">205.383100000000</period>
+			<transittime errorminus="0.0089000" errorplus="0.0089000">2455117.1941000</transittime>
+			<semimajoraxis>0.5830000</semimajoraxis>
+			<temperature>199.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>193.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

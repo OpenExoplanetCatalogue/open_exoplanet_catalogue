@@ -2,24 +2,22 @@
 	<name>KOI-0781</name>
 	<rightascension>19 44 53</rightascension>
 	<declination>+50 17 13</declination>
-	<distance>428.81</distance>
+	<distance>425.52</distance>
 	<star>
-		<magJ errorminus="0.023" errorplus="0.023">13.474</magJ>
-		<magH errorminus="0.021" errorplus="0.021">12.813</magH>
-		<magK errorminus="0.027" errorplus="0.027">12.628</magK>
 		<name>KOI-0781</name>
-		<temperature>3983.00</temperature>
-		<radius>0.52</radius>
-		<age>13.8000</age>
+		<temperature errorminus="200.00" errorplus="200.00">3983.00</temperature>
+		<radius errorminus="0.0270" errorplus="0.0270">0.5160</radius>
+		<age errorminus="3.5000" errorplus="3.5000">13.8000</age>
 		<planet>
 			<name>KOI-0781 b</name>
 			<name>KOI-0781 01</name>
-			<radius>0.27248</radius>
-			<period>11.598200</period>
-			<semimajoraxis>0.082</semimajoraxis>
+			<radius errorminus="0.04374" errorplus="0.04374">0.27248</radius>
+			<period errorminus="3.10000e-05" errorplus="3.10000e-05">11.598192000000</period>
+			<transittime errorminus="0.0008900" errorplus="0.0008900">2455013.3948400</transittime>
+			<semimajoraxis>0.0820000</semimajoraxis>
+			<temperature>441.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>400.3</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

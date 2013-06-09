@@ -2,24 +2,22 @@
 	<name>KOI-1424</name>
 	<rightascension>19 29 18</rightascension>
 	<declination>+49 39 12</declination>
-	<distance>527.19</distance>
+	<distance>524.72</distance>
 	<star>
-		<magJ errorminus="0.03" errorplus="0.03">13.54</magJ>
-		<magH errorminus="0.04" errorplus="0.04">13.00</magH>
-		<magK errorminus="0.03" errorplus="0.03">12.91</magK>
 		<name>KOI-1424</name>
-		<temperature>4797.00</temperature>
-		<radius>0.64</radius>
-		<age>1.0000</age>
+		<temperature errorminus="65.00" errorplus="65.00">4797.00</temperature>
+		<radius errorminus="0.0180" errorplus="0.0180">0.6370</radius>
+		<age errorminus="3.7000" errorplus="3.7000">1.0000</age>
 		<planet>
 			<name>KOI-1424 b</name>
 			<name>KOI-1424 01</name>
-			<radius>0.13396</radius>
-			<period>1.219580</period>
-			<semimajoraxis>0.020</semimajoraxis>
+			<radius errorminus="0.01458" errorplus="0.01458">0.13396</radius>
+			<period errorminus="5.90000e-06" errorplus="5.90000e-06">1.219584700000</period>
+			<transittime errorminus="0.0009300" errorplus="0.0009300">2454966.4559100</transittime>
+			<semimajoraxis>0.0200000</semimajoraxis>
+			<temperature>1194.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1164.1</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

@@ -2,20 +2,22 @@
 	<name>KOI-3068</name>
 	<rightascension>19 21 02</rightascension>
 	<declination>+38 21 17</declination>
-	<distance>527.43</distance>
+	<distance>524.23</distance>
 	<star>
 		<name>KOI-3068</name>
-		<temperature>4892.00</temperature>
-		<radius>0.66</radius>
-		<age>1.1000</age>
+		<temperature errorminus="63.00" errorplus="63.00">4892.00</temperature>
+		<radius errorminus="0.0190" errorplus="0.0190">0.6560</radius>
+		<age errorminus="3.9000" errorplus="3.9000">1.1000</age>
 		<planet>
 			<name>KOI-3068 b</name>
 			<name>KOI-3068 01</name>
-			<radius>0.09660</radius>
-			<period>3.916760</period>
-			<semimajoraxis>0.044</semimajoraxis>
+			<radius errorminus="0.00547" errorplus="0.00547">0.09660</radius>
+			<period errorminus="7.70000e-04" errorplus="7.70000e-04">3.916760000000</period>
+			<transittime errorminus="0.0017000" errorplus="0.0017000">2454966.6039000</transittime>
+			<semimajoraxis>0.0440000</semimajoraxis>
+			<temperature>833.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

@@ -5,16 +5,18 @@
 	<distance>1351.19</distance>
 	<star>
 		<name>KOI-2927</name>
-		<temperature>5968.00</temperature>
-		<radius>0.76</radius>
+		<temperature errorminus="200.00" errorplus="200.00">5968.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">0.7600</radius>
 		<planet>
 			<name>KOI-2927 b</name>
 			<name>KOI-2927 01</name>
-			<radius>0.15492</radius>
-			<period>24.436600</period>
-			<semimajoraxis>0.167</semimajoraxis>
+			<radius errorminus="0.09113" errorplus="0.09113">0.15492</radius>
+			<period errorminus="7.30000e-04" errorplus="7.30000e-04">24.436590000000</period>
+			<transittime errorminus="0.0180000" errorplus="0.0180000">2454967.8060000</transittime>
+			<semimajoraxis>0.1670000</semimajoraxis>
+			<temperature>563.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

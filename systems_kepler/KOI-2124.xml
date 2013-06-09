@@ -2,21 +2,22 @@
 	<name>KOI-2124</name>
 	<rightascension>19 41 09</rightascension>
 	<declination>+49 22 47</declination>
-	<distance>240.21</distance>
+	<distance>241.52</distance>
 	<star>
 		<name>KOI-2124</name>
-		<temperature>4250.00</temperature>
-		<radius>0.55</radius>
-		<age>13.8000</age>
+		<temperature errorminus="63.00" errorplus="63.00">4250.00</temperature>
+		<radius errorminus="0.0110" errorplus="0.0110">0.5530</radius>
+		<age errorminus="3.6000" errorplus="3.6000">13.8000</age>
 		<planet>
 			<name>KOI-2124 b</name>
 			<name>KOI-2124 01</name>
-			<radius>0.09569</radius>
-			<period>42.337100</period>
-			<semimajoraxis>0.199</semimajoraxis>
+			<radius errorminus="0.01731" errorplus="0.01731">0.09569</radius>
+			<period errorminus="7.10000e-04" errorplus="7.10000e-04">42.337110000000</period>
+			<transittime errorminus="0.0064000" errorplus="0.0064000">2454991.2561000</transittime>
+			<semimajoraxis>0.1990000</semimajoraxis>
+			<temperature>313.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>299.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

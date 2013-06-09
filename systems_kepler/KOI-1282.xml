@@ -4,22 +4,20 @@
 	<declination>+45 03 11</declination>
 	<distance>722.55</distance>
 	<star>
-		<magJ errorminus="0.018" errorplus="0.018">11.547</magJ>
-		<magH errorminus="0.019" errorplus="0.019">11.294</magH>
-		<magK errorminus="0.018" errorplus="0.018">11.200</magK>
 		<name>KOI-1282</name>
-		<temperature>5873.00</temperature>
-		<radius>1.92</radius>
-		<age>6.3000</age>
+		<temperature errorminus="50.00" errorplus="50.00">5873.00</temperature>
+		<radius errorminus="0.2200" errorplus="0.2200">1.9200</radius>
+		<age errorminus="1.3000" errorplus="1.3000">6.3000</age>
 		<planet>
 			<name>KOI-1282 b</name>
 			<name>KOI-1282 01</name>
-			<radius>0.27339</radius>
-			<period>30.863900</period>
-			<semimajoraxis>0.200</semimajoraxis>
+			<radius errorminus="0.03190" errorplus="0.03190">0.27339</radius>
+			<period errorminus="3.10000e-04" errorplus="3.10000e-04">30.863920000000</period>
+			<transittime errorminus="0.0036000" errorplus="0.0036000">2454995.8808000</transittime>
+			<semimajoraxis>0.2000000</semimajoraxis>
+			<temperature>804.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>802.3</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

@@ -4,24 +4,20 @@
 	<declination>+44 04 07</declination>
 	<distance>509.49</distance>
 	<star>
-		<magB errorminus="0.21" errorplus="0.21">12.46</magB>
-		<magV errorminus="0.13" errorplus="0.13">11.65</magV>
-		<magJ errorminus="0.021" errorplus="0.021">11.302</magJ>
-		<magH errorminus="0.022" errorplus="0.022">11.092</magH>
-		<magK errorminus="0.011" errorplus="0.011">11.068</magK>
 		<name>KOI-0318</name>
-		<temperature>6285.00</temperature>
-		<radius>1.38</radius>
-		<age>1.2300</age>
+		<temperature errorminus="50.00" errorplus="50.00">6285.00</temperature>
+		<radius errorminus="0.1300" errorplus="0.1300">1.3800</radius>
+		<age errorminus="0.6700" errorplus="0.6700">1.2300</age>
 		<planet>
 			<name>KOI-0318 b</name>
 			<name>KOI-0318 01</name>
-			<radius>0.47297</radius>
-			<period>38.583400</period>
-			<semimajoraxis>0.247</semimajoraxis>
-			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<radius errorminus="0.04465" errorplus="0.04465">0.47297</radius>
+			<period errorminus="1.50000e-04" errorplus="1.50000e-04">38.583360000000</period>
+			<transittime errorminus="0.0014000" errorplus="0.0014000">2455007.8394000</transittime>
+			<semimajoraxis>0.2470000</semimajoraxis>
 			<temperature>655.0</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

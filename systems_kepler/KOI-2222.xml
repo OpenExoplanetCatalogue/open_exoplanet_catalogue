@@ -2,20 +2,21 @@
 	<name>KOI-2222</name>
 	<rightascension>19 40 59</rightascension>
 	<declination>+45 45 26</declination>
-	<distance>1227.67</distance>
+	<distance>1226.90</distance>
 	<star>
 		<name>KOI-2222</name>
-		<temperature>7644.00</temperature>
-		<radius>1.59</radius>
+		<temperature errorminus="" errorplus="">7644.00</temperature>
+		<radius errorminus="" errorplus="">1.5890</radius>
 		<planet>
 			<name>KOI-2222 b</name>
 			<name>KOI-2222 01</name>
-			<radius>0.39459</radius>
-			<period>34.132300</period>
-			<semimajoraxis>0.249</semimajoraxis>
+			<radius errorminus="0.04374" errorplus="0.04374">0.39459</radius>
+			<period errorminus="3.40000e-03" errorplus="3.40000e-03">34.132300000000</period>
+			<transittime errorminus="0.0360000" errorplus="0.0360000">2454990.8130000</transittime>
+			<semimajoraxis>0.2490000</semimajoraxis>
+			<temperature>852.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>870.2</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

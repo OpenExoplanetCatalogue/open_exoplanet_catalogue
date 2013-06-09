@@ -5,18 +5,19 @@
 	<distance>1024.67</distance>
 	<star>
 		<name>KOI-1651</name>
-		<temperature>6034.00</temperature>
-		<radius>0.94</radius>
-		<age>0.3000</age>
+		<temperature errorminus="84.00" errorplus="84.00">6034.00</temperature>
+		<radius errorminus="0.4000" errorplus="0.4000">0.9400</radius>
+		<age errorminus="2.0000" errorplus="2.0000">0.3000</age>
 		<planet>
 			<name>KOI-1651 b</name>
 			<name>KOI-1651 01</name>
-			<radius>0.24605</radius>
-			<period>51.300200</period>
-			<semimajoraxis>0.274</semimajoraxis>
+			<radius errorminus="0.10936" errorplus="0.10936">0.24605</radius>
+			<period errorminus="1.40000e-03" errorplus="1.40000e-03">51.300200000000</period>
+			<transittime errorminus="0.0094000" errorplus="0.0094000">2454986.5343000</transittime>
+			<semimajoraxis>0.2740000</semimajoraxis>
+			<temperature>494.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>459.6</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

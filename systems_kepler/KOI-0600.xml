@@ -4,22 +4,20 @@
 	<declination>+48 03 39</declination>
 	<distance>1166.35</distance>
 	<star>
-		<magJ errorminus="0.027" errorplus="0.027">13.670</magJ>
-		<magH errorminus="0.04" errorplus="0.04">13.42</magH>
-		<magK errorminus="0.04" errorplus="0.04">13.34</magK>
 		<name>KOI-0600</name>
-		<temperature>6086.00</temperature>
-		<radius>1.01</radius>
-		<age>2.0000</age>
+		<temperature errorminus="107.00" errorplus="107.00">6086.00</temperature>
+		<radius errorminus="0.4300" errorplus="0.4300">1.0100</radius>
+		<age errorminus="1.8000" errorplus="1.8000">2.0000</age>
 		<planet>
 			<name>KOI-0600 b</name>
 			<name>KOI-0600 01</name>
-			<radius>0.21051</radius>
-			<period>3.595740</period>
-			<semimajoraxis>0.047</semimajoraxis>
+			<radius errorminus="0.09022" errorplus="0.09022">0.21051</radius>
+			<period errorminus="3.10000e-05" errorplus="3.10000e-05">3.595736000000</period>
+			<transittime errorminus="0.0025000" errorplus="0.0025000">2455003.3701000</transittime>
+			<semimajoraxis>0.0470000</semimajoraxis>
+			<temperature>1244.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1187.7</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

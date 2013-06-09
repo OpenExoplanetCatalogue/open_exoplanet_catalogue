@@ -5,17 +5,18 @@
 	<distance>1082.37</distance>
 	<star>
 		<name>KOI-2473</name>
-		<temperature>5174.00</temperature>
-		<radius>0.84</radius>
+		<temperature errorminus="200.00" errorplus="200.00">5174.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">0.8400</radius>
 		<planet>
 			<name>KOI-2473 b</name>
 			<name>KOI-2473 01</name>
-			<radius>0.17497</radius>
-			<period>3.244220</period>
-			<semimajoraxis>0.042</semimajoraxis>
+			<radius errorminus="0.06561" errorplus="0.06561">0.17497</radius>
+			<period errorminus="3.60000e-05" errorplus="3.60000e-05">3.244218000000</period>
+			<transittime errorminus="0.0051000" errorplus="0.0051000">2454965.9335000</transittime>
+			<semimajoraxis>0.0420000</semimajoraxis>
+			<temperature>1022.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1000.9</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

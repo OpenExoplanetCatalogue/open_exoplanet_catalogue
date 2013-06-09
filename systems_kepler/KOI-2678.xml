@@ -5,17 +5,19 @@
 	<distance>354.61</distance>
 	<star>
 		<name>KOI-2678</name>
-		<temperature>5371.00</temperature>
-		<radius>1.59</radius>
-		<age>13.9000</age>
+		<temperature errorminus="62.00" errorplus="62.00">5371.00</temperature>
+		<radius errorminus="0.1400" errorplus="0.1400">1.5900</radius>
+		<age errorminus="1.8000" errorplus="1.8000">13.9000</age>
 		<planet>
 			<name>KOI-2678 b</name>
 			<name>KOI-2678 01</name>
-			<radius>0.34630</radius>
-			<period>3.833090</period>
-			<semimajoraxis>0.046</semimajoraxis>
+			<radius errorminus="0.14581" errorplus="0.14581">0.34630</radius>
+			<period errorminus="1.20000e-05" errorplus="1.20000e-05">3.833090000000</period>
+			<transittime errorminus="0.0015000" errorplus="0.0015000">2454964.6336000</transittime>
+			<semimajoraxis>0.0460000</semimajoraxis>
+			<temperature>1392.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

@@ -5,18 +5,19 @@
 	<distance>449.75</distance>
 	<star>
 		<name>KOI-1913</name>
-		<temperature>5517.00</temperature>
-		<radius>0.95</radius>
-		<age>12.7000</age>
+		<temperature errorminus="107.00" errorplus="107.00">5517.00</temperature>
+		<radius errorminus="0.4000" errorplus="0.4000">0.9500</radius>
+		<age errorminus="3.6000" errorplus="3.6000">12.7000</age>
 		<planet>
 			<name>KOI-1913 b</name>
 			<name>KOI-1913 01</name>
-			<radius>0.12211</radius>
-			<period>5.508580</period>
-			<semimajoraxis>0.058</semimajoraxis>
+			<radius errorminus="0.05103" errorplus="0.05103">0.12211</radius>
+			<period errorminus="3.70000e-05" errorplus="3.70000e-05">5.508576000000</period>
+			<transittime errorminus="0.0024000" errorplus="0.0024000">2454965.2983000</transittime>
+			<semimajoraxis>0.0580000</semimajoraxis>
+			<temperature>986.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>974.9</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

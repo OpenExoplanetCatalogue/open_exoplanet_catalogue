@@ -5,18 +5,19 @@
 	<distance>3678.58</distance>
 	<star>
 		<name>KOI-1894</name>
-		<temperature>4998.00</temperature>
-		<radius>9.00</radius>
-		<age>0.8400</age>
+		<temperature errorminus="100.00" errorplus="100.00">4998.00</temperature>
+		<radius errorminus="1.4000" errorplus="1.4000">9.0000</radius>
+		<age errorminus="0.0910" errorplus="0.0910">0.8400</age>
 		<planet>
 			<name>KOI-1894 b</name>
 			<name>KOI-1894 01</name>
-			<radius>1.55833</radius>
-			<period>5.288020</period>
-			<semimajoraxis>0.077</semimajoraxis>
+			<radius errorminus="0.24605" errorplus="0.24605">1.55833</radius>
+			<period errorminus="4.50000e-05" errorplus="4.50000e-05">5.288016000000</period>
+			<transittime errorminus="0.0031000" errorplus="0.0031000">2454968.3533000</transittime>
+			<semimajoraxis>0.0770000</semimajoraxis>
+			<temperature>2388.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>2276.1</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

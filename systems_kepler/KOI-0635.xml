@@ -2,24 +2,22 @@
 	<name>KOI-0635</name>
 	<rightascension>19 37 29</rightascension>
 	<declination>+40 11 40</declination>
-	<distance>579.57</distance>
+	<distance>579.05</distance>
 	<star>
-		<magJ errorminus="0.019" errorplus="0.019">12.060</magJ>
-		<magH errorminus="0.028" errorplus="0.028">11.825</magH>
-		<magK errorminus="0.026" errorplus="0.026">11.751</magK>
 		<name>KOI-0635</name>
-		<temperature>6129.00</temperature>
-		<radius>1.13</radius>
-		<age>0.8900</age>
+		<temperature errorminus="57.00" errorplus="57.00">6129.00</temperature>
+		<radius errorminus="0.0580" errorplus="0.0580">1.1290</radius>
+		<age errorminus="0.7700" errorplus="0.7700">0.8900</age>
 		<planet>
 			<name>KOI-0635 b</name>
 			<name>KOI-0635 01</name>
-			<radius>0.24879</radius>
-			<period>16.719800</period>
-			<semimajoraxis>0.135</semimajoraxis>
+			<radius errorminus="0.03645" errorplus="0.03645">0.24879</radius>
+			<period errorminus="1.00000e-04" errorplus="1.00000e-04">16.719790000000</period>
+			<transittime errorminus="0.0021000" errorplus="0.0021000">2455004.4018000</transittime>
+			<semimajoraxis>0.1350000</semimajoraxis>
+			<temperature>782.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>781.9</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

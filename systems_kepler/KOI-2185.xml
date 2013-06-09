@@ -5,18 +5,19 @@
 	<distance>937.80</distance>
 	<star>
 		<name>KOI-2185</name>
-		<temperature>5886.00</temperature>
-		<radius>1.08</radius>
-		<age>7.3000</age>
+		<temperature errorminus="89.00" errorplus="89.00">5886.00</temperature>
+		<radius errorminus="0.3700" errorplus="0.3700">1.0800</radius>
+		<age errorminus="2.5000" errorplus="2.5000">7.3000</age>
 		<planet>
 			<name>KOI-2185 b</name>
 			<name>KOI-2185 01</name>
-			<radius>0.18864</radius>
-			<period>76.961100</period>
-			<semimajoraxis>0.350</semimajoraxis>
+			<radius errorminus="0.06653" errorplus="0.06653">0.18864</radius>
+			<period errorminus="2.80000e-03" errorplus="2.80000e-03">76.961100000000</period>
+			<transittime errorminus="0.0100000" errorplus="0.0100000">2455025.3200000</transittime>
+			<semimajoraxis>0.3500000</semimajoraxis>
+			<temperature>457.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>425.9</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

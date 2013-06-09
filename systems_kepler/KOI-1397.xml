@@ -5,17 +5,18 @@
 	<distance>620.51</distance>
 	<star>
 		<name>KOI-1397</name>
-		<temperature>4019.00</temperature>
-		<radius>0.96</radius>
+		<temperature errorminus="200.00" errorplus="200.00">4019.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">0.9600</radius>
 		<planet>
 			<name>KOI-1397 b</name>
 			<name>KOI-1397 01</name>
-			<radius>0.31896</radius>
-			<period>6.247070</period>
-			<semimajoraxis>0.059</semimajoraxis>
+			<radius errorminus="0.14581" errorplus="0.14581">0.31896</radius>
+			<period errorminus="4.00000e-05" errorplus="4.00000e-05">6.247069000000</period>
+			<transittime errorminus="0.0016000" errorplus="0.0016000">2455189.9075000</transittime>
+			<semimajoraxis>0.0590000</semimajoraxis>
+			<temperature>714.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>555.3</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

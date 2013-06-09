@@ -5,18 +5,19 @@
 	<distance>1144.25</distance>
 	<star>
 		<name>KOI-1762</name>
-		<temperature>6010.00</temperature>
-		<radius>0.94</radius>
-		<age>0.3000</age>
+		<temperature errorminus="115.00" errorplus="115.00">6010.00</temperature>
+		<radius errorminus="0.3900" errorplus="0.3900">0.9400</radius>
+		<age errorminus="2.2000" errorplus="2.2000">0.3000</age>
 		<planet>
 			<name>KOI-1762 b</name>
 			<name>KOI-1762 01</name>
-			<radius>0.20322</radius>
-			<period>0.870697</period>
-			<semimajoraxis>0.018</semimajoraxis>
+			<radius errorminus="0.08566" errorplus="0.08566">0.20322</radius>
+			<period errorminus="4.40000e-06" errorplus="4.40000e-06">0.870697000000</period>
+			<transittime errorminus="0.0006300" errorplus="0.0006300">2454965.0825600</transittime>
+			<semimajoraxis>0.0180000</semimajoraxis>
+			<temperature>1915.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1785.3</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

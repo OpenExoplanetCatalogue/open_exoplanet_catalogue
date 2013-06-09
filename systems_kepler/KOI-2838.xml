@@ -5,26 +5,19 @@
 	<distance>492.15</distance>
 	<star>
 		<name>KOI-2838</name>
-		<temperature>5789.00</temperature>
-		<radius>0.90</radius>
-		<age>2.9000</age>
-		<planet>
-			<name>KOI-2838 b</name>
-			<name>KOI-2838 01</name>
-			<radius>0.09751</radius>
-			<period>7.699840</period>
-			<semimajoraxis>0.075</semimajoraxis>
-			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-		</planet>
+		<temperature errorminus="86.00" errorplus="86.00">5789.00</temperature>
+		<radius errorminus="0.4400" errorplus="0.4400">0.9000</radius>
+		<age errorminus="3.0000" errorplus="3.0000">2.9000</age>
 		<planet>
 			<name>KOI-2838 c</name>
 			<name>KOI-2838 02</name>
-			<radius>0.05559</radius>
-			<period>4.774830</period>
-			<semimajoraxis>0.055</semimajoraxis>
+			<radius errorminus="0.03554" errorplus="0.03554">0.05559</radius>
+			<period errorminus="7.70000e-05" errorplus="7.70000e-05">4.774827000000</period>
+			<transittime errorminus="0.0075000" errorplus="0.0075000">2454968.1471000</transittime>
+			<semimajoraxis>0.0550000</semimajoraxis>
+			<temperature>1034.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

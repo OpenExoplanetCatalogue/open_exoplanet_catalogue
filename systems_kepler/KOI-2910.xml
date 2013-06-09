@@ -5,16 +5,18 @@
 	<distance>939.25</distance>
 	<star>
 		<name>KOI-2910</name>
-		<temperature>4828.00</temperature>
-		<radius>1.00</radius>
+		<temperature errorminus="200.00" errorplus="200.00">4828.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">1.0000</radius>
 		<planet>
 			<name>KOI-2910 b</name>
 			<name>KOI-2910 01</name>
-			<radius>0.21871</radius>
-			<period>15.362400</period>
-			<semimajoraxis>0.117</semimajoraxis>
+			<radius errorminus="0.10936" errorplus="0.10936">0.21871</radius>
+			<period errorminus="3.20000e-04" errorplus="3.20000e-04">15.362430000000</period>
+			<transittime errorminus="0.0110000" errorplus="0.0110000">2454978.5740000</transittime>
+			<semimajoraxis>0.1170000</semimajoraxis>
+			<temperature>622.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

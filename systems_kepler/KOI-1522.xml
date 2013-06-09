@@ -4,22 +4,20 @@
 	<declination>+50 54 35</declination>
 	<distance>802.02</distance>
 	<star>
-		<magJ errorminus="0.024" errorplus="0.024">13.074</magJ>
-		<magH errorminus="0.022" errorplus="0.022">12.767</magH>
-		<magK errorminus="0.024" errorplus="0.024">12.681</magK>
 		<name>KOI-1522</name>
-		<temperature>5803.00</temperature>
-		<radius>0.99</radius>
-		<age>7.0000</age>
+		<temperature errorminus="108.00" errorplus="108.00">5803.00</temperature>
+		<radius errorminus="0.3800" errorplus="0.3800">0.9900</radius>
+		<age errorminus="3.0000" errorplus="3.0000">7.0000</age>
 		<planet>
 			<name>KOI-1522 b</name>
 			<name>KOI-1522 01</name>
-			<radius>0.21142</radius>
-			<period>33.385400</period>
-			<semimajoraxis>0.199</semimajoraxis>
+			<radius errorminus="0.08657" errorplus="0.08657">0.21142</radius>
+			<period errorminus="4.40000e-04" errorplus="4.40000e-04">33.385410000000</period>
+			<transittime errorminus="0.0051000" errorplus="0.0051000">2454981.9289000</transittime>
+			<semimajoraxis>0.1990000</semimajoraxis>
+			<temperature>572.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>555.8</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

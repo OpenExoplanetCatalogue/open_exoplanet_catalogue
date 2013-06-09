@@ -5,17 +5,18 @@
 	<distance>955.56</distance>
 	<star>
 		<name>KOI-1320</name>
-		<temperature>4936.00</temperature>
-		<radius>0.75</radius>
+		<temperature errorminus="200.00" errorplus="200.00">4936.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">0.7500</radius>
 		<planet>
 			<name>KOI-1320 b</name>
 			<name>KOI-1320 01</name>
-			<radius>0.74727</radius>
-			<period>10.506800</period>
-			<semimajoraxis>0.090</semimajoraxis>
+			<radius errorminus="0.30073" errorplus="0.30073">0.74727</radius>
+			<period errorminus="1.50000e-05" errorplus="1.50000e-05">10.506822000000</period>
+			<transittime errorminus="0.0003700" errorplus="0.0003700">2455193.0816500</transittime>
+			<semimajoraxis>0.0900000</semimajoraxis>
+			<temperature>628.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>631.1</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

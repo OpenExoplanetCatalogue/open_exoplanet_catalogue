@@ -5,17 +5,19 @@
 	<distance>1073.65</distance>
 	<star>
 		<name>KOI-3019</name>
-		<temperature>5570.00</temperature>
-		<radius>1.06</radius>
-		<age>13.9000</age>
+		<temperature errorminus="110.00" errorplus="110.00">5570.00</temperature>
+		<radius errorminus="0.3900" errorplus="0.3900">1.0600</radius>
+		<age errorminus="3.2000" errorplus="3.2000">13.9000</age>
 		<planet>
 			<name>KOI-3019 b</name>
 			<name>KOI-3019 01</name>
-			<radius>0.18226</radius>
-			<period>4.179360</period>
-			<semimajoraxis>0.048</semimajoraxis>
+			<radius errorminus="0.10024" errorplus="0.10024">0.18226</radius>
+			<period errorminus="3.60000e-05" errorplus="3.60000e-05">4.179361000000</period>
+			<transittime errorminus="0.0042000" errorplus="0.0042000">2454966.8503000</transittime>
+			<semimajoraxis>0.0480000</semimajoraxis>
+			<temperature>1152.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

@@ -4,22 +4,20 @@
 	<declination>+38 59 56</declination>
 	<distance>649.74</distance>
 	<star>
-		<magJ errorminus="0.022" errorplus="0.022">13.212</magJ>
-		<magH errorminus="0.022" errorplus="0.022">12.796</magH>
-		<magK errorminus="0.026" errorplus="0.026">12.728</magK>
 		<name>KOI-1187</name>
-		<temperature>5517.00</temperature>
-		<radius>0.80</radius>
-		<age>0.5000</age>
+		<temperature errorminus="70.00" errorplus="70.00">5517.00</temperature>
+		<radius errorminus="0.2100" errorplus="0.2100">0.8000</radius>
+		<age errorminus="3.9000" errorplus="3.9000">0.5000</age>
 		<planet>
 			<name>KOI-1187 b</name>
 			<name>KOI-1187 01</name>
-			<radius>0.34630</radius>
-			<period>0.370529</period>
-			<semimajoraxis>0.010</semimajoraxis>
+			<radius errorminus="0.09113" errorplus="0.09113">0.34630</radius>
+			<period errorminus="1.30000e-07" errorplus="1.30000e-07">0.370529400000</period>
+			<transittime errorminus="0.0001100" errorplus="0.0001100">2454966.7981500</transittime>
+			<semimajoraxis>0.0100000</semimajoraxis>
+			<temperature>2173.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>2070.2</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

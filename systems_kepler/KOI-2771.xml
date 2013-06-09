@@ -5,16 +5,18 @@
 	<distance>352.78</distance>
 	<star>
 		<name>KOI-2771</name>
-		<temperature>6235.00</temperature>
-		<radius>1.20</radius>
+		<temperature errorminus="" errorplus="">6235.00</temperature>
+		<radius errorminus="" errorplus="">1.2000</radius>
 		<planet>
 			<name>KOI-2771 b</name>
 			<name>KOI-2771 01</name>
-			<radius>0.15310</radius>
-			<period>0.814284</period>
-			<semimajoraxis>0.018</semimajoraxis>
+			<radius errorminus="0.00091" errorplus="0.00091">0.15310</radius>
+			<period errorminus="1.10000e-06" errorplus="1.10000e-06">0.814283600000</period>
+			<transittime errorminus="0.0006200" errorplus="0.0006200">2454964.6462800</transittime>
+			<semimajoraxis>0.0180000</semimajoraxis>
+			<temperature>2246.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

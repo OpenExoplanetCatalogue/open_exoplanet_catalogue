@@ -4,22 +4,20 @@
 	<declination>+46 41 40</declination>
 	<distance>697.05</distance>
 	<star>
-		<magJ errorminus="0.022" errorplus="0.022">12.633</magJ>
-		<magH errorminus="0.020" errorplus="0.020">12.335</magH>
-		<magK errorminus="0.018" errorplus="0.018">12.209</magK>
 		<name>KOI-0716</name>
-		<temperature>6115.00</temperature>
-		<radius>0.98</radius>
-		<age>0.3000</age>
+		<temperature errorminus="82.00" errorplus="82.00">6115.00</temperature>
+		<radius errorminus="0.3900" errorplus="0.3900">0.9800</radius>
+		<age errorminus="1.7000" errorplus="1.7000">0.3000</age>
 		<planet>
 			<name>KOI-0716 b</name>
 			<name>KOI-0716 01</name>
-			<radius>0.61969</radius>
-			<period>26.893100</period>
-			<semimajoraxis>0.180</semimajoraxis>
+			<radius errorminus="0.29162" errorplus="0.29162">0.61969</radius>
+			<period errorminus="4.90000e-05" errorplus="4.90000e-05">26.893084000000</period>
+			<transittime errorminus="0.0005900" errorplus="0.0005900">2455012.9525300</transittime>
+			<semimajoraxis>0.1800000</semimajoraxis>
+			<temperature>629.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>594.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

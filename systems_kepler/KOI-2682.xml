@@ -5,16 +5,17 @@
 	<distance>5589.60</distance>
 	<star>
 		<name>KOI-2682</name>
-		<temperature>5750.00</temperature>
-		<radius>1.00</radius>
+		<temperature errorminus="" errorplus="">5750.00</temperature>
+		<radius errorminus="" errorplus="">1.0000</radius>
 		<planet>
 			<name>KOI-2682 b</name>
 			<name>KOI-2682 01</name>
 			<radius>2.18439</radius>
-			<period>8.531650</period>
-			<semimajoraxis>0.000</semimajoraxis>
+			<period errorminus="5.00000e-05" errorplus="5.00000e-05">8.531652000000</period>
+			<transittime errorminus="0.0035000" errorplus="0.0035000">2454969.2749000</transittime>
+			<semimajoraxis>0.0000000</semimajoraxis>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

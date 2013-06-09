@@ -2,24 +2,22 @@
 	<name>KOI-1586</name>
 	<rightascension>19 44 42</rightascension>
 	<declination>+46 59 56</declination>
-	<distance>463.90</distance>
+	<distance>462.43</distance>
 	<star>
-		<magJ errorminus="0.022" errorplus="0.022">13.375</magJ>
-		<magH errorminus="0.022" errorplus="0.022">12.835</magH>
-		<magK errorminus="0.023" errorplus="0.023">12.701</magK>
 		<name>KOI-1586</name>
-		<temperature>4735.00</temperature>
-		<radius>0.63</radius>
-		<age>1.7000</age>
+		<temperature errorminus="73.00" errorplus="73.00">4735.00</temperature>
+		<radius errorminus="0.0180" errorplus="0.0180">0.6280</radius>
+		<age errorminus="3.7000" errorplus="3.7000">1.7000</age>
 		<planet>
 			<name>KOI-1586 b</name>
 			<name>KOI-1586 01</name>
-			<radius>0.14125</radius>
-			<period>6.991310</period>
-			<semimajoraxis>0.064</semimajoraxis>
+			<radius errorminus="0.04739" errorplus="0.04739">0.14125</radius>
+			<period errorminus="5.00000e-05" errorplus="5.00000e-05">6.991307000000</period>
+			<transittime errorminus="0.0023000" errorplus="0.0023000">2454968.4632000</transittime>
+			<semimajoraxis>0.0640000</semimajoraxis>
+			<temperature>654.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>673.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

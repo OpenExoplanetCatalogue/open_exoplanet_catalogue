@@ -4,24 +4,20 @@
 	<declination>+50 08 08</declination>
 	<distance>407.33</distance>
 	<star>
-		<magB>12.9</magB>
-		<magR>12.3</magR>
-		<magJ errorminus="0.023" errorplus="0.023">11.122</magJ>
-		<magH errorminus="0.03" errorplus="0.03">10.84</magH>
-		<magK errorminus="0.023" errorplus="0.023">10.805</magK>
 		<name>KOI-0007</name>
-		<temperature>5858.00</temperature>
-		<radius>1.27</radius>
-		<age>4.7000</age>
+		<temperature errorminus="60.00" errorplus="60.00">5858.00</temperature>
+		<radius errorminus="0.1700" errorplus="0.1700">1.2700</radius>
+		<age errorminus="1.4000" errorplus="1.4000">4.7000</age>
 		<planet>
 			<name>KOI-0007 b</name>
 			<name>KOI-0007 01</name>
-			<radius>0.33900</radius>
-			<period>3.213660</period>
-			<semimajoraxis>0.044</semimajoraxis>
+			<radius errorminus="0.04465" errorplus="0.04465">0.33900</radius>
+			<period errorminus="4.20000e-06" errorplus="4.20000e-06">3.213664100000</period>
+			<transittime errorminus="0.0004100" errorplus="0.0004100">2454956.6115400</transittime>
+			<semimajoraxis>0.0440000</semimajoraxis>
+			<temperature>1386.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a confirmed planet by the Kepler team and might have already appear in a peer reviewed paper.</description>
-			<temperature>1387.7</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

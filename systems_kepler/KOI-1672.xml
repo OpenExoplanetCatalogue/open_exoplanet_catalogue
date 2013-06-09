@@ -2,21 +2,22 @@
 	<name>KOI-1672</name>
 	<rightascension>19 20 25</rightascension>
 	<declination>+40 29 26</declination>
-	<distance>616.16</distance>
+	<distance>614.14</distance>
 	<star>
 		<name>KOI-1672</name>
-		<temperature>4539.00</temperature>
-		<radius>0.61</radius>
-		<age>13.9000</age>
+		<temperature errorminus="64.00" errorplus="64.00">4539.00</temperature>
+		<radius errorminus="0.0140" errorplus="0.0140">0.6080</radius>
+		<age errorminus="3.6000" errorplus="3.6000">13.9000</age>
 		<planet>
 			<name>KOI-1672 b</name>
 			<name>KOI-1672 01</name>
-			<radius>0.17224</radius>
-			<period>33.867400</period>
-			<semimajoraxis>0.176</semimajoraxis>
+			<radius errorminus="0.05012" errorplus="0.05012">0.17224</radius>
+			<period errorminus="4.70000e-04" errorplus="4.70000e-04">33.867360000000</period>
+			<transittime errorminus="0.0053000" errorplus="0.0053000">2454970.5187000</transittime>
+			<semimajoraxis>0.1760000</semimajoraxis>
+			<temperature>372.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>359.7</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

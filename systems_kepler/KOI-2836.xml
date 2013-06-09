@@ -2,20 +2,22 @@
 	<name>KOI-2836</name>
 	<rightascension>19 47 59</rightascension>
 	<declination>+49 15 23</declination>
-	<distance>629.65</distance>
+	<distance>626.92</distance>
 	<star>
 		<name>KOI-2836</name>
-		<temperature>4863.00</temperature>
-		<radius>0.69</radius>
-		<age>13.9000</age>
+		<temperature errorminus="71.00" errorplus="71.00">4863.00</temperature>
+		<radius errorminus="0.0190" errorplus="0.0190">0.6870</radius>
+		<age errorminus="3.6000" errorplus="3.6000">13.9000</age>
 		<planet>
 			<name>KOI-2836 b</name>
 			<name>KOI-2836 01</name>
-			<radius>0.15128</radius>
-			<period>2.941930</period>
-			<semimajoraxis>0.036</semimajoraxis>
+			<radius errorminus="0.06835" errorplus="0.06835">0.15128</radius>
+			<period errorminus="1.40000e-05" errorplus="1.40000e-05">2.941933000000</period>
+			<transittime errorminus="0.0026000" errorplus="0.0026000">2454966.1072000</transittime>
+			<semimajoraxis>0.0360000</semimajoraxis>
+			<temperature>937.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

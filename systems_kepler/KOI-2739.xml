@@ -5,26 +5,30 @@
 	<distance>964.40</distance>
 	<star>
 		<name>KOI-2739</name>
-		<temperature>5643.00</temperature>
-		<radius>0.89</radius>
-		<age>5.5000</age>
+		<temperature errorminus="136.00" errorplus="136.00">5643.00</temperature>
+		<radius errorminus="0.4400" errorplus="0.4400">0.8900</radius>
+		<age errorminus="3.6000" errorplus="3.6000">5.5000</age>
 		<planet>
 			<name>KOI-2739 b</name>
 			<name>KOI-2739 01</name>
-			<radius>0.16403</radius>
-			<period>10.107500</period>
-			<semimajoraxis>0.088</semimajoraxis>
+			<radius errorminus="0.10936" errorplus="0.10936">0.16403</radius>
+			<period errorminus="1.10000e-04" errorplus="1.10000e-04">10.107450000000</period>
+			<transittime errorminus="0.0055000" errorplus="0.0055000">2454968.1236000</transittime>
+			<semimajoraxis>0.0880000</semimajoraxis>
+			<temperature>789.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-2739 c</name>
 			<name>KOI-2739 02</name>
-			<radius>0.08657</radius>
-			<period>7.095730</period>
-			<semimajoraxis>0.070</semimajoraxis>
+			<radius errorminus="0.05650" errorplus="0.05650">0.08657</radius>
+			<period errorminus="1.90000e-04" errorplus="1.90000e-04">7.095730000000</period>
+			<transittime errorminus="0.0130000" errorplus="0.0130000">2454967.9860000</transittime>
+			<semimajoraxis>0.0700000</semimajoraxis>
+			<temperature>885.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

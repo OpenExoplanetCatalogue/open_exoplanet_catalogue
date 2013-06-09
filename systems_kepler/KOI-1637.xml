@@ -5,17 +5,18 @@
 	<distance>630.86</distance>
 	<star>
 		<name>KOI-1637</name>
-		<temperature>4894.00</temperature>
-		<radius>0.55</radius>
+		<temperature errorminus="200.00" errorplus="200.00">4894.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">0.5500</radius>
 		<planet>
 			<name>KOI-1637 b</name>
 			<name>KOI-1637 01</name>
-			<radius>0.13032</radius>
-			<period>2.970440</period>
-			<semimajoraxis>0.038</semimajoraxis>
+			<radius errorminus="0.07199" errorplus="0.07199">0.13032</radius>
+			<period errorminus="4.30000e-05" errorplus="4.30000e-05">2.970439000000</period>
+			<transittime errorminus="0.0043000" errorplus="0.0043000">2454966.3861000</transittime>
+			<semimajoraxis>0.0380000</semimajoraxis>
+			<temperature>818.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>925.1</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

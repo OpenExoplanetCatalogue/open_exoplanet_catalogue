@@ -5,16 +5,18 @@
 	<distance>1159.24</distance>
 	<star>
 		<name>KOI-3086</name>
-		<temperature>5278.00</temperature>
-		<radius>0.89</radius>
+		<temperature errorminus="200.00" errorplus="200.00">5278.00</temperature>
+		<radius errorminus="0.3000" errorplus="0.3000">0.8900</radius>
 		<planet>
 			<name>KOI-3086 b</name>
 			<name>KOI-3086 01</name>
-			<radius>0.27339</radius>
-			<period>174.738000</period>
-			<semimajoraxis>0.608</semimajoraxis>
+			<radius errorminus="0.09113" errorplus="0.09113">0.27339</radius>
+			<period errorminus="1.70000e-02" errorplus="1.70000e-02">174.738000000000</period>
+			<transittime errorminus="0.0011000" errorplus="0.0011000">2455085.5158000</transittime>
+			<semimajoraxis>0.6080000</semimajoraxis>
+			<temperature>282.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

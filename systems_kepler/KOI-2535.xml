@@ -5,18 +5,19 @@
 	<distance>579.56</distance>
 	<star>
 		<name>KOI-2535</name>
-		<temperature>4934.00</temperature>
-		<radius>0.71</radius>
-		<age>14.0000</age>
+		<temperature errorminus="68.00" errorplus="68.00">4934.00</temperature>
+		<radius errorminus="0.9300" errorplus="0.9300">0.7100</radius>
+		<age errorminus="3.2000" errorplus="3.2000">14.0000</age>
 		<planet>
 			<name>KOI-2535 b</name>
 			<name>KOI-2535 01</name>
-			<radius>0.14581</radius>
-			<period>48.892800</period>
-			<semimajoraxis>0.234</semimajoraxis>
+			<radius errorminus="0.20960" errorplus="0.20960">0.14581</radius>
+			<period errorminus="9.80000e-04" errorplus="9.80000e-04">48.892760000000</period>
+			<transittime errorminus="0.0077000" errorplus="0.0077000">2454986.8116000</transittime>
+			<semimajoraxis>0.2340000</semimajoraxis>
+			<temperature>378.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>366.4</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

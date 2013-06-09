@@ -5,17 +5,19 @@
 	<distance>934.17</distance>
 	<star>
 		<name>KOI-3050</name>
-		<temperature>5485.00</temperature>
-		<radius>0.79</radius>
-		<age>0.5000</age>
+		<temperature errorminus="103.00" errorplus="103.00">5485.00</temperature>
+		<radius errorminus="0.2500" errorplus="0.2500">0.7900</radius>
+		<age errorminus="4.0000" errorplus="4.0000">0.5000</age>
 		<planet>
 			<name>KOI-3050 b</name>
 			<name>KOI-3050 01</name>
-			<radius>0.10389</radius>
-			<period>1.242610</period>
-			<semimajoraxis>0.022</semimajoraxis>
+			<radius errorminus="0.05559" errorplus="0.05559">0.10389</radius>
+			<period errorminus="8.10000e-06" errorplus="8.10000e-06">1.242612900000</period>
+			<transittime errorminus="0.0029000" errorplus="0.0029000">2454964.8916000</transittime>
+			<semimajoraxis>0.0220000</semimajoraxis>
+			<temperature>1450.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

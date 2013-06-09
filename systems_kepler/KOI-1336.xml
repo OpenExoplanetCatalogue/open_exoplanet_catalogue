@@ -4,50 +4,53 @@
 	<declination>+39 06 54</declination>
 	<distance>1253.04</distance>
 	<star>
-		<magJ errorminus="0.023" errorplus="0.023">13.643</magJ>
-		<magH errorminus="0.025" errorplus="0.025">13.382</magH>
-		<magK errorminus="0.03" errorplus="0.03">13.28</magK>
 		<name>KOI-1336</name>
-		<temperature>6082.00</temperature>
-		<radius>1.09</radius>
-		<age>4.0000</age>
+		<temperature errorminus="127.00" errorplus="127.00">6082.00</temperature>
+		<radius errorminus="0.4600" errorplus="0.4600">1.0900</radius>
+		<age errorminus="1.8000" errorplus="1.8000">4.0000</age>
 		<planet>
 			<name>KOI-1336 b</name>
 			<name>KOI-1336 01</name>
-			<radius>0.23694</radius>
-			<period>10.218500</period>
-			<semimajoraxis>0.093</semimajoraxis>
+			<radius errorminus="0.10024" errorplus="0.10024">0.23694</radius>
+			<period errorminus="1.00000e-04" errorplus="1.00000e-04">10.218510000000</period>
+			<transittime errorminus="0.0044000" errorplus="0.0044000">2454969.8710000</transittime>
+			<semimajoraxis>0.0930000</semimajoraxis>
+			<temperature>918.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a confirmed planet by the Kepler team and might have already appear in a peer reviewed paper.</description>
-			<temperature>866.8</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1336 c</name>
 			<name>KOI-1336 02</name>
-			<radius>0.23694</radius>
-			<period>15.573800</period>
-			<semimajoraxis>0.124</semimajoraxis>
+			<radius errorminus="0.10024" errorplus="0.10024">0.23694</radius>
+			<period errorminus="1.90000e-04" errorplus="1.90000e-04">15.573800000000</period>
+			<transittime errorminus="0.0054000" errorplus="0.0054000">2454965.4379000</transittime>
+			<semimajoraxis>0.1240000</semimajoraxis>
+			<temperature>795.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a confirmed planet by the Kepler team and might have already appear in a peer reviewed paper.</description>
-			<temperature>751.7</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1336 d</name>
 			<name>KOI-1336 03</name>
-			<radius>0.24605</radius>
-			<period>40.101000</period>
-			<semimajoraxis>0.232</semimajoraxis>
+			<radius errorminus="0.10936" errorplus="0.10936">0.24605</radius>
+			<period errorminus="7.50000e-04" errorplus="7.50000e-04">40.101010000000</period>
+			<transittime errorminus="0.0082000" errorplus="0.0082000">2454965.7152000</transittime>
+			<semimajoraxis>0.2320000</semimajoraxis>
+			<temperature>581.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1336 e</name>
 			<name>KOI-1336 04</name>
-			<radius>0.15492</radius>
-			<period>4.458250</period>
-			<semimajoraxis>0.054</semimajoraxis>
+			<radius errorminus="0.06653" errorplus="0.06653">0.15492</radius>
+			<period errorminus="7.10000e-05" errorplus="7.10000e-05">4.458252000000</period>
+			<transittime errorminus="0.0061000" errorplus="0.0061000">2454967.3870000</transittime>
+			<semimajoraxis>0.0540000</semimajoraxis>
+			<temperature>1205.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

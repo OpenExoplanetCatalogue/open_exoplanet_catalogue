@@ -4,22 +4,20 @@
 	<declination>+44 51 28</declination>
 	<distance>387.85</distance>
 	<star>
-		<magJ errorminus="0.029" errorplus="0.029">11.650</magJ>
-		<magH errorminus="0.03" errorplus="0.03">11.23</magH>
-		<magK errorminus="0.020" errorplus="0.020">11.209</magK>
 		<name>KOI-0105</name>
-		<temperature>5649.00</temperature>
-		<radius>0.96</radius>
-		<age>12.2000</age>
+		<temperature errorminus="50.00" errorplus="50.00">5649.00</temperature>
+		<radius errorminus="0.1300" errorplus="0.1300">0.9600</radius>
+		<age errorminus="2.5000" errorplus="2.5000">12.2000</age>
 		<planet>
 			<name>KOI-0105 b</name>
 			<name>KOI-0105 01</name>
-			<radius>0.30529</radius>
-			<period>8.981010</period>
-			<semimajoraxis>0.080</semimajoraxis>
+			<radius errorminus="0.05286" errorplus="0.05286">0.30529</radius>
+			<period errorminus="1.30000e-05" errorplus="1.30000e-05">8.981008000000</period>
+			<transittime errorminus="0.0005300" errorplus="0.0005300">2454969.6487100</transittime>
+			<semimajoraxis>0.0800000</semimajoraxis>
+			<temperature>861.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>862.8</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

@@ -2,21 +2,22 @@
 	<name>KOI-2623</name>
 	<rightascension>19 20 06</rightascension>
 	<declination>+48 20 09</declination>
-	<distance>816.11</distance>
+	<distance>812.68</distance>
 	<star>
 		<name>KOI-2623</name>
-		<temperature>6540.00</temperature>
-		<radius>1.19</radius>
-		<age>0.6500</age>
+		<temperature errorminus="99.00" errorplus="99.00">6540.00</temperature>
+		<radius errorminus="0.0920" errorplus="0.0920">1.1850</radius>
+		<age errorminus="0.4700" errorplus="0.4700">0.6500</age>
 		<planet>
 			<name>KOI-2623 b</name>
 			<name>KOI-2623 01</name>
-			<radius>0.08657</radius>
-			<period>5.576610</period>
-			<semimajoraxis>0.066</semimajoraxis>
+			<radius errorminus="0.00820" errorplus="0.00820">0.08657</radius>
+			<period errorminus="1.20000e-04" errorplus="1.20000e-04">5.576610000000</period>
+			<transittime errorminus="0.0075000" errorplus="0.0075000">2454969.4268000</transittime>
+			<semimajoraxis>0.0660000</semimajoraxis>
+			<temperature>1222.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1166.2</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

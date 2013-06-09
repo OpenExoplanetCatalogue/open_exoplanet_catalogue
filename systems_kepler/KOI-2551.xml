@@ -2,20 +2,22 @@
 	<name>KOI-2551</name>
 	<rightascension>19 46 53</rightascension>
 	<declination>+49 06 23</declination>
-	<distance>804.58</distance>
+	<distance>805.76</distance>
 	<star>
 		<name>KOI-2551</name>
-		<temperature>4872.00</temperature>
-		<radius>0.68</radius>
-		<age>11.3000</age>
+		<temperature errorminus="95.00" errorplus="95.00">4872.00</temperature>
+		<radius errorminus="0.0660" errorplus="0.0660">0.6810</radius>
+		<age errorminus="3.6000" errorplus="3.6000">11.3000</age>
 		<planet>
 			<name>KOI-2551 b</name>
 			<name>KOI-2551 01</name>
-			<radius>0.15492</radius>
-			<period>16.480000</period>
-			<semimajoraxis>0.113</semimajoraxis>
+			<radius errorminus="0.07199" errorplus="0.07199">0.15492</radius>
+			<period errorminus="2.10000e-04" errorplus="2.10000e-04">16.480020000000</period>
+			<transittime errorminus="0.0064000" errorplus="0.0064000">2454975.9206000</transittime>
+			<semimajoraxis>0.1130000</semimajoraxis>
+			<temperature>528.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

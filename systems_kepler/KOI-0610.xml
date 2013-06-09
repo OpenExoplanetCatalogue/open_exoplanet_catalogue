@@ -2,24 +2,22 @@
 	<name>KOI-0610</name>
 	<rightascension>18 57 54</rightascension>
 	<declination>+40 55 59</declination>
-	<distance>282.72</distance>
+	<distance>280.67</distance>
 	<star>
-		<magJ errorminus="0.022" errorplus="0.022">12.689</magJ>
-		<magH errorminus="0.023" errorplus="0.023">12.073</magH>
-		<magK errorminus="0.020" errorplus="0.020">11.909</magK>
 		<name>KOI-0610</name>
-		<temperature>4208.00</temperature>
-		<radius>0.55</radius>
-		<age>13.9000</age>
+		<temperature errorminus="67.00" errorplus="67.00">4208.00</temperature>
+		<radius errorminus="0.0110" errorplus="0.0110">0.5460</radius>
+		<age errorminus="3.5000" errorplus="3.5000">13.9000</age>
 		<planet>
 			<name>KOI-0610 b</name>
 			<name>KOI-0610 01</name>
-			<radius>0.16312</radius>
-			<period>14.282300</period>
-			<semimajoraxis>0.096</semimajoraxis>
+			<radius errorminus="0.04101" errorplus="0.04101">0.16312</radius>
+			<period errorminus="7.10000e-05" errorplus="7.10000e-05">14.282318000000</period>
+			<transittime errorminus="0.0017000" errorplus="0.0017000">2455013.8450000</transittime>
+			<semimajoraxis>0.0960000</semimajoraxis>
+			<temperature>443.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>369.4</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

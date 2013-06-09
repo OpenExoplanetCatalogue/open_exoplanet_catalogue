@@ -5,18 +5,29 @@
 	<distance>694.57</distance>
 	<star>
 		<name>KOI-2289</name>
-		<temperature>6255.00</temperature>
-		<radius>1.12</radius>
-		<age>2.2400</age>
+		<temperature errorminus="92.00" errorplus="92.00">6255.00</temperature>
+		<radius errorminus="0.4500" errorplus="0.4500">1.1200</radius>
+		<age errorminus="0.7900" errorplus="0.7900">2.2400</age>
 		<planet>
 			<name>KOI-2289 b</name>
 			<name>KOI-2289 01</name>
-			<radius>0.20049</radius>
-			<period>62.785000</period>
-			<semimajoraxis>0.320</semimajoraxis>
+			<radius errorminus="0.10936" errorplus="0.10936">0.20049</radius>
+			<period errorminus="3.60000e-02" errorplus="3.60000e-02">62.785000000000</period>
+			<transittime errorminus="0.0010000" errorplus="0.0010000">2454990.3033000</transittime>
+			<semimajoraxis>0.3200000</semimajoraxis>
+			<temperature>517.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>500.1</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-2289 c</name>
+			<name>KOI-2289 02</name>
+			<radius errorminus="0.07746" errorplus="0.07746">0.13214</radius>
+			<period errorminus="2.30000e-04" errorplus="2.30000e-04">20.098460000000</period>
+			<transittime errorminus="0.0067000" errorplus="0.0067000">2454980.2808000</transittime>
+			<semimajoraxis errorminus="1.1e-06" errorplus="1.1e-06">0.1497590</semimajoraxis>
+			<temperature errorminus="150.0" errorplus="150.0">756.0</temperature>
+			<list>Kepler Objects of Interest</list>
 		</planet>
 	</star>
 </system>

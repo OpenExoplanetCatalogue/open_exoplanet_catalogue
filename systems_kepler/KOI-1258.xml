@@ -4,41 +4,42 @@
 	<declination>+44 46 14</declination>
 	<distance>1303.94</distance>
 	<star>
-		<magJ errorminus="0.025" errorplus="0.025">14.500</magJ>
-		<magH errorminus="0.04" errorplus="0.04">14.16</magH>
-		<magK errorminus="0.06" errorplus="0.06">13.99</magK>
 		<name>KOI-1258</name>
-		<temperature>5675.00</temperature>
-		<radius>0.84</radius>
-		<age>0.6000</age>
+		<temperature errorminus="106.00" errorplus="106.00">5675.00</temperature>
+		<radius errorminus="0.4200" errorplus="0.4200">0.8400</radius>
+		<age errorminus="3.9000" errorplus="3.9000">0.6000</age>
 		<planet>
 			<name>KOI-1258 b</name>
 			<name>KOI-1258 01</name>
-			<radius>0.44654</radius>
-			<period>36.337700</period>
-			<semimajoraxis>0.211</semimajoraxis>
+			<radius errorminus="0.22783" errorplus="0.22783">0.44654</radius>
+			<period errorminus="1.40000e-04" errorplus="1.40000e-04">36.337670000000</period>
+			<transittime errorminus="0.0019000" errorplus="0.0019000">2454993.3969000</transittime>
+			<semimajoraxis>0.2110000</semimajoraxis>
+			<temperature>499.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>491.6</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1258 c</name>
 			<name>KOI-1258 02</name>
-			<radius>0.20049</radius>
-			<period>14.646100</period>
-			<semimajoraxis>0.115</semimajoraxis>
+			<radius errorminus="0.10024" errorplus="0.10024">0.20049</radius>
+			<period errorminus="1.60000e-04" errorplus="1.60000e-04">14.646130000000</period>
+			<transittime errorminus="0.0052000" errorplus="0.0052000">2454969.5208000</transittime>
+			<semimajoraxis>0.1150000</semimajoraxis>
+			<temperature>676.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>666.2</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-1258 d</name>
 			<name>KOI-1258 03</name>
-			<radius>1.64035</radius>
-			<period>148.268000</period>
-			<semimajoraxis>0.538</semimajoraxis>
+			<radius errorminus="1.00243" errorplus="1.00243">1.64035</radius>
+			<period errorminus="2.50000e-03" errorplus="2.50000e-03">148.268200000000</period>
+			<transittime errorminus="0.0069000" errorplus="0.0069000">2454971.0110000</transittime>
+			<semimajoraxis>0.5380000</semimajoraxis>
+			<temperature>313.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

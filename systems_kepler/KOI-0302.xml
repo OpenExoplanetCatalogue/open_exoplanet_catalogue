@@ -4,24 +4,30 @@
 	<declination>+38 44 08</declination>
 	<distance>691.13</distance>
 	<star>
-		<magB errorminus="0.30" errorplus="0.30">12.94</magB>
-		<magV errorminus="0.19" errorplus="0.19">12.12</magV>
-		<magJ errorminus="0.023" errorplus="0.023">11.180</magJ>
-		<magH errorminus="0.018" errorplus="0.018">11.053</magH>
-		<magK errorminus="0.014" errorplus="0.014">10.987</magK>
 		<name>KOI-0302</name>
-		<temperature>6954.00</temperature>
-		<radius>1.64</radius>
-		<age>1.7000</age>
+		<temperature errorminus="104.00" errorplus="104.00">6954.00</temperature>
+		<radius errorminus="0.6100" errorplus="0.6100">1.6400</radius>
+		<age errorminus="0.2500" errorplus="0.2500">1.7000</age>
 		<planet>
 			<name>KOI-0302 b</name>
 			<name>KOI-0302 01</name>
-			<radius>0.45565</radius>
-			<period>24.854800</period>
-			<semimajoraxis>0.187</semimajoraxis>
+			<radius errorminus="0.17315" errorplus="0.17315">0.45565</radius>
+			<period errorminus="1.00000e-04" errorplus="1.00000e-04">24.854800000000</period>
+			<transittime errorminus="0.0014000" errorplus="0.0014000">2455006.9973000</transittime>
+			<semimajoraxis>0.1870000</semimajoraxis>
+			<temperature>908.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>890.1</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-0302 c</name>
+			<name>KOI-0302 02</name>
+			<radius errorminus="0.25516" errorplus="0.25516">0.18226</radius>
+			<period errorminus="9.80000e-04" errorplus="9.80000e-04">53.344180000000</period>
+			<transittime errorminus="0.0081000" errorplus="0.0081000">2455003.0740000</transittime>
+			<semimajoraxis errorminus="3.8e-06" errorplus="3.8e-06">0.3107810</semimajoraxis>
+			<temperature errorminus="132.0" errorplus="132.0">704.0</temperature>
+			<list>Kepler Objects of Interest</list>
 		</planet>
 	</star>
 </system>

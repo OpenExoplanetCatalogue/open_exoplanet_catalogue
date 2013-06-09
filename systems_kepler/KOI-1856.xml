@@ -5,18 +5,19 @@
 	<distance>1014.28</distance>
 	<star>
 		<name>KOI-1856</name>
-		<temperature>5353.00</temperature>
-		<radius>1.60</radius>
-		<age>13.9000</age>
+		<temperature errorminus="83.00" errorplus="83.00">5353.00</temperature>
+		<radius errorminus="0.2000" errorplus="0.2000">1.6000</radius>
+		<age errorminus="2.2000" errorplus="2.2000">13.9000</age>
 		<planet>
 			<name>KOI-1856 b</name>
 			<name>KOI-1856 01</name>
-			<radius>0.39642</radius>
-			<period>46.294900</period>
-			<semimajoraxis>0.245</semimajoraxis>
+			<radius errorminus="0.06926" errorplus="0.06926">0.39642</radius>
+			<period errorminus="4.90000e-04" errorplus="4.90000e-04">46.294940000000</period>
+			<transittime errorminus="0.0036000" errorplus="0.0036000">2454988.8381000</transittime>
+			<semimajoraxis>0.2450000</semimajoraxis>
+			<temperature>604.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>581.5</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

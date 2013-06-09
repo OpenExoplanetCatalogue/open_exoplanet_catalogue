@@ -4,42 +4,42 @@
 	<declination>+42 09 57</declination>
 	<distance>594.35</distance>
 	<star>
-		<magJ errorminus="0.023" errorplus="0.023">12.100</magJ>
-		<magH errorminus="0.020" errorplus="0.020">11.841</magH>
-		<magK errorminus="0.016" errorplus="0.016">11.805</magK>
 		<name>KOI-0665</name>
-		<temperature>6080.00</temperature>
-		<radius>1.10</radius>
-		<age>4.1000</age>
+		<temperature errorminus="87.00" errorplus="87.00">6080.00</temperature>
+		<radius errorminus="0.4300" errorplus="0.4300">1.1000</radius>
+		<age errorminus="1.7000" errorplus="1.7000">4.1000</age>
 		<planet>
 			<name>KOI-0665 b</name>
 			<name>KOI-0665 01</name>
-			<radius>0.22783</radius>
-			<period>5.868050</period>
-			<semimajoraxis>0.065</semimajoraxis>
+			<radius errorminus="0.09113" errorplus="0.09113">0.22783</radius>
+			<period errorminus="2.00000e-05" errorplus="2.00000e-05">5.868050000000</period>
+			<transittime errorminus="0.0011000" errorplus="0.0011000">2455003.3240000</transittime>
+			<semimajoraxis>0.0650000</semimajoraxis>
+			<temperature>1102.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1062.1</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-0665 c</name>
 			<name>KOI-0665 02</name>
-			<radius>0.10662</radius>
-			<period>1.611880</period>
-			<semimajoraxis>0.027</semimajoraxis>
+			<radius errorminus="0.04192" errorplus="0.04192">0.10662</radius>
+			<period errorminus="1.20000e-05" errorplus="1.20000e-05">1.611881000000</period>
+			<transittime errorminus="0.0020000" errorplus="0.0020000">2454966.5707000</transittime>
+			<semimajoraxis>0.0270000</semimajoraxis>
+			<temperature>1709.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1635.3</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-0665 d</name>
 			<name>KOI-0665 03</name>
-			<radius>0.10115</radius>
-			<period>3.071560</period>
-			<semimajoraxis>0.042</semimajoraxis>
+			<radius errorminus="0.04010" errorplus="0.04010">0.10115</radius>
+			<period errorminus="3.70000e-05" errorplus="3.70000e-05">3.071563000000</period>
+			<transittime errorminus="0.0039000" errorplus="0.0039000">2454966.3015000</transittime>
+			<semimajoraxis>0.0420000</semimajoraxis>
+			<temperature>1371.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1311.1</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

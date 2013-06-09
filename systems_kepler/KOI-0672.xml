@@ -4,41 +4,42 @@
 	<declination>+42 38 26</declination>
 	<distance>649.46</distance>
 	<star>
-		<magJ errorminus="0.022" errorplus="0.022">12.797</magJ>
-		<magH errorminus="0.017" errorplus="0.017">12.432</magH>
-		<magK errorminus="0.021" errorplus="0.021">12.362</magK>
 		<name>KOI-0672</name>
-		<temperature>5524.00</temperature>
-		<radius>1.00</radius>
-		<age>9.3000</age>
+		<temperature errorminus="50.00" errorplus="50.00">5524.00</temperature>
+		<radius errorminus="0.1000" errorplus="0.1000">1.0000</radius>
+		<age errorminus="3.4000" errorplus="3.4000">9.3000</age>
 		<planet>
 			<name>KOI-0672 b</name>
 			<name>KOI-0672 01</name>
-			<radius>0.30255</radius>
-			<period>16.087800</period>
-			<semimajoraxis>0.122</semimajoraxis>
+			<radius errorminus="0.03190" errorplus="0.03190">0.30255</radius>
+			<period errorminus="6.30000e-05" errorplus="6.30000e-05">16.087836000000</period>
+			<transittime errorminus="0.0018000" errorplus="0.0018000">2455005.8128000</transittime>
+			<semimajoraxis>0.1220000</semimajoraxis>
+			<temperature>697.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>697.3</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-0672 c</name>
 			<name>KOI-0672 02</name>
-			<radius>0.36726</radius>
-			<period>41.750000</period>
-			<semimajoraxis>0.230</semimajoraxis>
+			<radius errorminus="0.03736" errorplus="0.03736">0.36726</radius>
+			<period errorminus="1.70000e-04" errorplus="1.70000e-04">41.749990000000</period>
+			<transittime errorminus="0.0021000" errorplus="0.0021000">2454986.8387000</transittime>
+			<semimajoraxis>0.2300000</semimajoraxis>
+			<temperature>507.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>507.9</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-0672 d</name>
 			<name>KOI-0672 03</name>
-			<radius>0.05012</radius>
-			<period>0.566869</period>
-			<semimajoraxis>0.013</semimajoraxis>
+			<radius errorminus="0.00547" errorplus="0.00547">0.05012</radius>
+			<period errorminus="1.40000e-05" errorplus="1.40000e-05">0.566869000000</period>
+			<transittime errorminus="0.0041000" errorplus="0.0041000">2454964.7516000</transittime>
+			<semimajoraxis>0.0130000</semimajoraxis>
+			<temperature>2134.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

@@ -5,17 +5,19 @@
 	<distance>620.27</distance>
 	<star>
 		<name>KOI-2943</name>
-		<temperature>5885.00</temperature>
-		<radius>0.90</radius>
-		<age>0.4000</age>
+		<temperature errorminus="74.00" errorplus="74.00">5885.00</temperature>
+		<radius errorminus="0.2800" errorplus="0.2800">0.9000</radius>
+		<age errorminus="3.0000" errorplus="3.0000">0.4000</age>
 		<planet>
 			<name>KOI-2943 b</name>
 			<name>KOI-2943 01</name>
-			<radius>0.12029</radius>
-			<period>54.409000</period>
-			<semimajoraxis>0.281</semimajoraxis>
+			<radius errorminus="0.05650" errorplus="0.05650">0.12029</radius>
+			<period errorminus="1.50000e-03" errorplus="1.50000e-03">54.409000000000</period>
+			<transittime errorminus="0.0130000" errorplus="0.0130000">2455008.4040000</transittime>
+			<semimajoraxis>0.2810000</semimajoraxis>
+			<temperature>463.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>

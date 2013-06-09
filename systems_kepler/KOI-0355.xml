@@ -2,24 +2,22 @@
 	<name>KOI-0355</name>
 	<rightascension>19 46 15</rightascension>
 	<declination>+49 41 46</declination>
-	<distance>676.70</distance>
+	<distance>678.93</distance>
 	<star>
-		<magJ errorminus="0.024" errorplus="0.024">12.141</magJ>
-		<magH errorminus="0.03" errorplus="0.03">11.91</magH>
-		<magK errorminus="0.019" errorplus="0.019">11.845</magK>
 		<name>KOI-0355</name>
-		<temperature>6197.00</temperature>
-		<radius>1.21</radius>
-		<age>0.7200</age>
+		<temperature errorminus="50.00" errorplus="50.00">6197.00</temperature>
+		<radius errorminus="0.0580" errorplus="0.0580">1.2140</radius>
+		<age errorminus="0.5700" errorplus="0.5700">0.7200</age>
 		<planet>
 			<name>KOI-0355 b</name>
 			<name>KOI-0355 01</name>
-			<radius>0.21416</radius>
-			<period>4.903350</period>
-			<semimajoraxis>0.061</semimajoraxis>
+			<radius errorminus="0.01276" errorplus="0.01276">0.21416</radius>
+			<period errorminus="2.20000e-05" errorplus="2.20000e-05">4.903349000000</period>
+			<transittime errorminus="0.0015000" errorplus="0.0015000">2455005.8977000</transittime>
+			<semimajoraxis>0.0610000</semimajoraxis>
+			<temperature>1219.0</temperature>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q8 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<temperature>1217.0</temperature>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>
