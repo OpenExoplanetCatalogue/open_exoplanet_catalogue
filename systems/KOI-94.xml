@@ -20,10 +20,10 @@
 			<list>Confirmed planets</list>
 			<mass>0.0330298</mass>
 			<radius>0.1558328</radius>
-			<period>3.743208</period>
+			<period errorminus="0.0000015" errorplus="0.0000015">3.743208</period>
 			<semimajoraxis>0.05119</semimajoraxis>
-			<inclination>89.30</inclination>
-			<eccentricity>0.25</eccentricity>
+			<inclination errorminus="0.57" errorplus="0.57">89.30</inclination>
+			<eccentricity errorminus="0.17" errorplus="0.17">0.25</eccentricity>
 			<transittime errorminus="0.00024" errorplus="0.00024" unit="BJD">2455211.51363</transittime>
 			<description>This planetary system was discovered by the Kepler spacecraft. The planets were confirmed by an analysis of the Rossiter-McLaughlin (RM) effect.</description>
 			<discoverymethod>transit</discoverymethod>
@@ -38,10 +38,10 @@
 			<list>Confirmed planets</list>
 			<radius>0.39368287</radius>
 			<mass>0.04907293</mass>
-			<period>10.423648</period>
+			<period errorminus="0.000016" errorplus="0.000016">10.423648</period>
 			<semimajoraxis>0.1013</semimajoraxis>
-			<inclination>88.36</inclination>
-			<eccentricity>0.43</eccentricity>
+			<inclination errorminus="0.75" errorplus="0.75">88.36</inclination>
+			<eccentricity errorminus="0.23" errorplus="0.23">0.43</eccentricity>
 			<transittime errorminus="0.0051" errorplus="0.0051" unit="BJD">2454971.0084</transittime>
 			<description>This planetary system was discovered by the Kepler spacecraft. The planets were confirmed by an analysis of the Rossiter-McLaughlin (RM) effect.</description>
 			<discoverymethod>transit</discoverymethod>
@@ -57,9 +57,9 @@
 			<radius>1.0270384</radius>
 			<mass>0.33344427</mass>
 			<semimajoraxis>0.1684</semimajoraxis>
-			<period>22.3429890</period>
-			<inclination>89.871</inclination>
-			<eccentricity>0.022</eccentricity>
+			<period errorminus="0.0000067" errorplus="0.0000067">22.3429890</period>
+			<inclination errorminus="0.123" errorplus="0.123">89.871</inclination>
+			<eccentricity errorminus="0.038" errorplus="0.038">0.022</eccentricity>
 			<transittime errorminus="0.00062" errorplus="0.00062" unit="BJD">2455211.51790</transittime>
 			<description>This planetary system was discovered by the Kepler spacecraft. The planets were confirmed by an analysis of the Rossiter-McLaughlin (RM) effect.</description>
 			<discoverymethod>transit</discoverymethod>
@@ -73,11 +73,12 @@
 			<name>KOI-94.03</name>
 			<list>Confirmed planets</list>
 			<radius>0.59781473</radius>
-			<period>54.32031</period>
+			<period errorminus="0.00012" errorplus="0.00012">54.32031</period>
 			<semimajoraxis>0.3046</semimajoraxis>
 			<mass>0.11009952</mass>
 			<inclination>89.76</inclination>
 			<eccentricity>0.019</eccentricity>
+			<transittime errorminus="0.0012" errorplus="0.0012" unit="BJD">2454994.2379</transittime>
 			<description>This planetary system was discovered by the Kepler spacecraft. The planets were confirmed by an analysis of the Rossiter-McLaughlin (RM) effect.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>13/03/15</lastupdate>
