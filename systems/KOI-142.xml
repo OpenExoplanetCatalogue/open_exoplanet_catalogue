@@ -2,7 +2,7 @@
 	<name>KOI-142</name>
 	<rightascension>19 24 35</rightascension>
 	<declination>+40 40 09</declination>
-	<distance>385</distance>
+	<distance errorminus="20" errorplus="16">385</distance>
 	<star>
 		<name>KOI-142</name>
 		<mass>1.022</mass>
@@ -24,7 +24,7 @@
 			<periastron>90.7</periastron>
 			<longitude>6.425</longitude>
 			<ascendingnode>270</ascendingnode>
-			<transittime>2454954.62702</transittime>
+			<transittime errorminus="0.0013" errorplus="0.0013" unit="BJD">2454966.08938</transittime>
 			<description>The planets in the KOI-142 have been confirmed using transit timing (TTV) and transit duration variations (TDV). The planets are just wide of the 2:1 mean motion resonance. It is often assumed that convergent migration locks planets in resonances. Then, multiple effects such as stochastic migration can move the planets slightly out of resonance. This is an important clue that might help scientists understand the formation of planetary systems. Note that the mass of the inner planet KOI-142 b is an upper limit.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>13/04/17</lastupdate>
