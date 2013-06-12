@@ -1,10 +1,12 @@
 <system>
 	<name>Sun</name>
 	<star>
+		<name>Sun</name>
 		<mass>1</mass>
 		<radius>1</radius>
 		<metallicity>0.00000001</metallicity>
 		<spectraltype>G2V</spectraltype>
+		<age errorminus="0.11" errorplus="0.11">4.57</age>
 		<planet>
 			<name>Mercury</name>
 			<name>Sun b</name>
@@ -152,6 +154,5 @@
 			<lastupdate>12/01/01</lastupdate>
 			<discoveryyear>1930</discoveryyear>
 		</planet>
-		<name>Sun</name>
 	</star>
 </system>
