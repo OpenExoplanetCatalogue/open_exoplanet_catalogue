@@ -7,16 +7,17 @@
 		<magJ errorminus="0.029" errorplus="0.029">14.233</magJ>
 		<magH errorminus="0.04" errorplus="0.04">13.98</magH>
 		<magK errorminus="0.05" errorplus="0.05">13.87</magK>
-		<mass>1.21</mass>
-		<radius>1.22</radius>
+		<mass errorminus="0.17" errorplus="0.17">1.21</mass>
+		<radius errorminus="0.24" errorplus="0.24">1.22</radius>
+		<metallicity errorminus="0.400" errorplus="0.400">-0.076</metallicity>
 		<planet>
 			<name>Kepler-31 b</name>
 			<name>KOI 935.01</name>
 			<name>KIC 9347899 b</name>
 			<list>Confirmed planets</list>
-			<radius>0.118469</radius>
-			<period>9.61</period>
-			<semimajoraxis>0.09</semimajoraxis>
+			<radius errorminus="0.11" errorplus="0.11">0.55</radius>
+			<period errorminus="0.0002" errorplus="0.0002">20.8613</period>
+			<semimajoraxis>0.16</semimajoraxis>
 			<transittime errorminus="0.006" errorplus="0.006" unit="BJD">2454992.141</transittime>
 			<description>This planet candidate was discovered with the Kepler spacecraft. Because there are multiple phenomena that can create a signal that looks similar to a planetary transit, the candidates have to be confirmed with another method. For Kepler-31 the planetary nature of the companions has been confirmed by transit timing variations, caused by other planets in the system, and a stability analysis. However, the mass of the planets is not well constrained yet. There are at least two other unconfirmed planets in the system.</description>
 			<discoverymethod>transit</discoverymethod>
@@ -30,9 +31,10 @@
 			<name>KOI 935.02</name>
 			<name>KIC 9347899 c</name>
 			<list>Confirmed planets</list>
-			<radius>0.391860</radius>
-			<period>20.86</period>
-			<semimajoraxis>0.16</semimajoraxis>
+			<mass>4.7</mass>
+			<radius errorminus="0.11" errorplus="0.11">0.53</radius>
+			<period errorminus="0.0005" errorplus="0.0005">42.6318</period>
+			<semimajoraxis>0.26</semimajoraxis>
 			<transittime errorminus="0.007" errorplus="0.007" unit="BJD">2454974.191</transittime>
 			<description>This planet candidate was discovered with the Kepler spacecraft. Because there are multiple phenomena that can create a signal that looks similar to a planetary transit, the candidates have to be confirmed with another method. For Kepler-31 the planetary nature of the companions has been confirmed by transit timing variations, caused by other planets in the system, and a stability analysis. However, the mass of the planets is not well constrained yet and is just an upper limit. There are at least two other unconfirmed planets in the system.</description>
 			<discoverymethod>transit</discoverymethod>
@@ -42,6 +44,6 @@
 			<temperature>605.5</temperature>
 		</planet>
 		<name>Kepler-31</name>
-		<temperature>6340.0</temperature>
+		<temperature errorminus="200" errorplus="200">6340</temperature>
 	</star>
 </system>
