@@ -55,7 +55,7 @@ The following table shows all the possible tags in the Open Exoplanet Catalogue.
 
 Errors
 -------------
-Uncertanties can be added to values using the following attributes of the tag. We assume that these uncertanties represent the standard error of the measurement (68.2% cofidence level). However, keep in mind that it is often not possible to collapse an entire posterior distribution to a single number.
+Uncertanties can be added to values using the following attributes of the tag. We assume that these uncertanties represent the standard error of the measurement (68.2% confidence level). However, keep in mind that it is often not possible to collapse an entire posterior distribution to a single number.
 
 The syntax for error bars is: `<mass errorminus="0.1" errorplus="0.1">1.0</mass>`
 
@@ -85,7 +85,7 @@ To create custom plots please visit [this repository](https://github.com/hannore
 
 Download ASCII tables
 --------------
-A few words of caution: Many planetary systems are part of binary star systems. The architecture of these systems is correctly represented in the original XML files of the Open Exoplanet Catalogue. In fact, it is to my knowlegde the only catalogue that can do that. However, you might prefer to work with a simpler comma or tab separated table instead of the hierarchical XML file format. During the convertion process, some information is inevitably lost. Most importantly, the architecture of the star system. One cannot easily represent an arbitrary binary/tripple/quadruple system in a simple table. Additionally, if planets have multiple identifiers only the first identifier is outputted. Using the original XML file format and git, you can use the `git blame` funtionality to find references to scientific publications for every numeric value in the database. This functionality is also lost in the convertion process.
+A few words of caution: Many planetary systems are part of binary star systems. The architecture of these systems is correctly represented in the original XML files of the Open Exoplanet Catalogue. In fact, it is to my knowledge the only catalogue that can do that. However, you might prefer to work with a simpler comma or tab separated table instead of the hierarchical XML file format. During the conversion process, some information is inevitably lost. Most importantly, the architecture of the star system. One cannot easily represent an arbitrary binary/triple/quadruple system in a simple table. Additionally, if planets have multiple identifiers only the first identifier is outputted. Using the original XML file format and git, you can use the `git blame` functionality to find references to scientific publications for every numeric value in the database. This functionality is also lost in the conversion process.
 
 In a [separate repository](https://github.com/hannorein/oec_tables/), you will find a [comma separated](https://github.com/hannorein/oec_tables/raw/master/comma_separated/open_exoplanet_catalogue.txt) and a [tab separated](https://github.com/hannorein/oec_tables/blob/master/tab_separated/open_exoplanet_catalogue.txt) ASCII table of the Open Exoplanet Catalogue. 
 
@@ -93,7 +93,7 @@ In a [separate repository](https://github.com/hannorein/oec_tables/), you will f
 
 Documentation
 --------------
-[This file](https://raw.github.com/hannorein/open_exoplanet_catalogue/master/oec_paper.pdf) describes the philosophy and data-format of the catalogue. However, everything should be rather self-explanatory. The actual data is in the `systems` directory. Each xml file corresponds to one planetary system. 
+[This file](https://raw.github.com/hannorein/open_exoplanet_catalogue/master/oec_paper.pdf) describes the philosophy and data-format of the catalogue. However, everything should be rather self-explanatory. The actual data is in the `systems` directory. Each XML file corresponds to one planetary system. 
 
 If you are editing the file with vim, have a look at the [xmledit plugin](http://www.vim.org/scripts/script.php?script_id=301). I found it very helpful.
 
