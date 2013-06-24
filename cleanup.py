@@ -110,11 +110,22 @@ for filename in glob.glob("systems*/*.xml"):
     finally:
         f.close()
 
+    # Find tags with range=1 and convert to default error format
+    for elem in root.findall(".//*[@range='1']"):
+        fragments = elem.text.split()
+	elem.text = fragments[0]
+	elem.attrib["errorminus"] = "%f" % (float(fragments[0])-float(fragments[1]))
+	elem.attrib["errorplus"]  = "%f" % (float(fragments[2])-float(fragments[0]))
+	del elem.attrib["range"]
+	print "Converted range to errorbars in tag '"+elem.tag+"'." 
+
     # Convert units to default units
     for mass in root.findall(".//planet/mass[@unit='me']"):
         convertunit(mass, 0.0031457007)
     for radius in root.findall(".//planet/radius[@unit='re']"):
         convertunit(radius, 0.091130294)
+    for angle in root.findall(".//*[@unit='rad']"):
+        convertunit(angle, 57.2957795130823)
 
     # Check that names follow conventions
     if not root.findtext("./name") + ".xml" == os.path.basename(filename):

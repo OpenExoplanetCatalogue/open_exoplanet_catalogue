@@ -1,0 +1,196 @@
+<system>
+	<name>Gliese 667</name>
+	<rightascension>17 18 57</rightascension>
+	<declination>-34 59 23</declination>
+	<distance>6.97</distance>
+	<binary>
+		<semimajoraxis>230</semimajoraxis>
+		<binary>
+			<period>42.15</period>
+			<eccentricity>0.58</eccentricity>
+			<inclination>128</inclination>
+			<ascendingnode>313</ascendingnode>
+			<star>
+				<name>Gliese 667 A</name>
+				<name>HR 6426 A</name>
+				<name>HIP 84709 A</name>
+				<metallicity errorminus="0.1" errorplus="0.1">-0.59</metallicity>
+				<age errorminus="4" errorplus="4">6</age>
+				<mass>0.73</mass>
+				<radius>0.76</radius>
+			</star>
+			<star>
+				<name>Gliese 667 B</name>
+				<name>HR 6426 B</name>
+				<name>HIP 84709 B</name>
+				<metallicity errorminus="0.1" errorplus="0.1">-0.59</metallicity>
+				<age errorminus="4" errorplus="4">6</age>
+				<mass>0.69</mass>
+				<radius>0.70</radius>
+			</star>
+		</binary>
+		<star>
+			<name>Gliese 667 C</name>
+			<name>HR 6426 C</name>
+			<temperature errorminus="50" errorplus="50">3350</temperature>
+			<age lowerlimit="2" />
+			<mass errorminus="0.02" errorplus="0.02">0.33</mass>
+			<radius>0.41</radius>
+			<magV>10.22</magV>
+			<magB>11.79</magB>
+			<magR>10.05</magR>
+			<magI errorminus="0.06" errorplus="0.06">8.82</magI>
+			<magJ errorminus="0.021" errorplus="0.021">6.848</magJ>
+			<magH errorminus="0.044" errorplus="0.044">6.322</magH>
+			<magK errorminus="0.020" errorplus="0.020">6.036</magK>
+			<spectraltype>M1.5V</spectraltype>
+			<planet>
+				<name>Gliese 667 C b</name>
+				<name>GJ 667 C b</name>
+				<name>HR 6426C c</name>
+				<list>Confirmed planets</list>
+				<period errorminus="0.001700" errorplus="0.001700">7.2004</period>
+				<eccentricity errorminus="0.110000" errorplus="0.100000">0.13</eccentricity>
+				<periastron errorminus="43.1543" errorplus="42.971835">5.729578</periastron>
+				<longitude errorminus="33.000000" errorplus="49.000000">201</longitude>
+				<mass errorminus="0.004089" errorplus="0.004404">0.017616</mass>
+				<semimajoraxis errorminus="0.005300" errorplus="0.004400">0.0505</semimajoraxis>
+				<description>Gliese 667 is a nearby triple star system in the constellation Scorpius, about 22 light years away. The star Gliese 667 C hosts at least six planets. Three of them, all Super-Earths, are located in the habitable zone. The habitable zone is so densely packed that any additional planet is likely to destabilize the system. This planet, Gliese 667 C b, is located too close to the star and not in the habitable zone.</description>
+				<discoverymethod>RV</discoverymethod>
+				<lastupdate>13/06/26</lastupdate>
+				<discoveryyear>2009</discoveryyear>
+				<new>0</new>
+				<image>Gliese667</image>
+				<imagedescription>This artist's impression shows the view from the exoplanet Gliese 667 C d looking towards the planet's parent star (Gliese 667 C). In the background to the right the more distant stars in this triple system (Gliese 667 A and Gliese 667 B) are visible and to the left in the sky one of the other planets, the newly discovered Gliese 667 Ce, can be seen as a crescent. A record-breaking three planets in this system are super-Earths lying in the zone around the star where liquid water could exist, making them possible candidates for the presence of life. This is the first system found with a fully packed habitable zone.
+
+	Credit: ESO/M. Kornmesser</imagedescription>
+			</planet>
+			<planet>
+				<name>Gliese 667 C h</name>
+				<name>GJ 667C h</name>
+				<name>HR 6426C h</name>
+				<list>Controversial</list>
+				<period errorminus="0.074000" errorplus="0.051000">16.946</period>
+				<eccentricity errorminus="0.060000" errorplus="0.320000">0.06</eccentricity>
+				<periastron>114.591559</periastron>
+				<longitude>45</longitude>
+				<mass errorminus="0.002831" errorplus="0.003146">0.003460</mass>
+				<semimajoraxis errorminus="0.009300" errorplus="0.008400">0.0893</semimajoraxis>
+				<description>Gliese 667 is a nearby triple star system in the constellation Scorpius, about 22 light years away. The star Gliese 667 C hosts at least six planets. Three of them, all Super-Earths, are located in the habitable zone. The habitable zone is so densely packed that any additional planet is likely to destabilize the system. This planet, Gliese 667 C h has yet to be confirmed.</description>
+				<discoverymethod>RV</discoverymethod>
+				<lastupdate>13/06/26</lastupdate>
+				<discoveryyear>2013</discoveryyear>
+				<new>1</new>
+				<image>Gliese667</image>
+				<imagedescription>This artist's impression shows the view from the exoplanet Gliese 667C d looking towards the planet's parent star (Gliese 667 C). In the background to the right the more distant stars in this triple system (Gliese 667 A and Gliese 667 B) are visible and to the left in the sky one of the other planets, the newly discovered Gliese 667 Ce, can be seen as a crescent. A record-breaking three planets in this system are super-Earths lying in the zone around the star where liquid water could exist, making them possible candidates for the presence of life. This is the first system found with a fully packed habitable zone.
+
+	Credit: ESO/M. Kornmesser</imagedescription>
+			</planet>
+			<planet>
+				<name>Gliese 667 C c</name>
+				<name>GJ 667C c</name>
+				<name>HR 6426C c</name>
+				<list>Confirmed planets</list>
+				<period errorminus="0.065000" errorplus="0.053000">28.140</period>
+				<eccentricity errorminus="0.020000" errorplus="0.150000">0.02</eccentricity>
+				<periastron>292.208476</periastron>
+				<longitude errorminus="99" errorplus="99">308</longitude>
+				<mass errorminus="0.003775" errorplus="0.004719">0.011954</mass>
+				<semimajoraxis errorminus="0.013000" errorplus="0.012000">0.125</semimajoraxis>
+				<description>Gliese 667 is a nearby triple star system in the constellation Scorpius, about 22 light years away. The star Gliese 667 C hosts at least six planets. Three of them, all Super-Earths, are located in the habitable zone. The habitable zone is so densely packed that any additional planet is likely to destabilize the system. This planet, Gliese 667 C c, is located on the inner edge of the habitable zone.</description>
+				<discoverymethod>RV</discoverymethod>
+				<lastupdate>13/06/26</lastupdate>
+				<discoveryyear>2009</discoveryyear>
+				<new>1</new>
+				<image>Gliese667</image>
+				<imagedescription>This artist's impression shows the view from the exoplanet Gliese 667 C d looking towards the planet's parent star (Gliese 667 C). In the background to the right the more distant stars in this triple system (Gliese 667 A and Gliese 667 B) are visible and to the left in the sky one of the other planets, the newly discovered Gliese 667 Ce, can be seen as a crescent. A record-breaking three planets in this system are super-Earths lying in the zone around the star where liquid water could exist, making them possible candidates for the presence of life. This is the first system found with a fully packed habitable zone.
+
+	Credit: ESO/M. Kornmesser</imagedescription>
+			</planet>
+			<planet>
+				<name>Gliese 667 C f</name>
+				<name>GJ 667C f</name>
+				<name>HR 6426C f</name>
+				<list>Confirmed planets</list>
+				<period errorminus="0.211000" errorplus="0.194000">39.026</period>
+				<eccentricity errorminus="0.030000" errorplus="0.160000">0.03</eccentricity>
+				<periastron>103.132403</periastron>
+				<longitude errorminus="170" errorplus="170">34</longitude>
+				<mass errorminus="0.003775" errorplus="0.004404">0.008493</mass>
+				<semimajoraxis errorminus="0.017000" errorplus="0.014000">0.156</semimajoraxis>
+				<description>Gliese 667 is a nearby triple star system in the constellation Scorpius, about 22 light years away. The star Gliese 667 C hosts at least six planets. Three of them, all Super-Earths, are located in the habitable zone. The habitable zone is so densely packed that any additional planet is likely to destabilize the system. This planet, Gliese 667 C f, is right in the middle of the habitable zone.</description>
+				<discoverymethod>RV</discoverymethod>
+				<lastupdate>13/06/26</lastupdate>
+				<discoveryyear>2013</discoveryyear>
+				<new>1</new>
+				<image>Gliese667</image>
+				<imagedescription>This artist's impression shows the view from the exoplanet Gliese 667C d looking towards the planet's parent star (Gliese 667 C). In the background to the right the more distant stars in this triple system (Gliese 667 A and Gliese 667 B) are visible and to the left in the sky one of the other planets, the newly discovered Gliese 667 Ce, can be seen as a crescent. A record-breaking three planets in this system are super-Earths lying in the zone around the star where liquid water could exist, making them possible candidates for the presence of life. This is the first system found with a fully packed habitable zone.
+
+	Credit: ESO/M. Kornmesser</imagedescription>
+			</planet>
+			<planet>
+				<name>Gliese 667 C e</name>
+				<name>GJ 667C e</name>
+				<name>HR 6426C e</name>
+				<list>Confirmed planets</list>
+				<period errorminus="0.550000" errorplus="0.550000">62.24</period>
+				<eccentricity errorminus="0.020000" errorplus="0.220000">0.02</eccentricity>
+				<periastron>28.647890</periastron>
+				<longitude errorminus="150" errorplus="150">262</longitude>
+				<mass errorminus="0.004404" errorplus="0.005033">0.008493</mass>
+				<semimajoraxis errorminus="0.022000" errorplus="0.019000">0.213</semimajoraxis>
+				<description>Gliese 667 is a nearby triple star system in the constellation Scorpius, about 22 light years away. The star Gliese 667 C hosts at least six planets. Three of them, all Super-Earths, are located in the habitable zone. The habitable zone is so densely packed that any additional planet is likely to destabilize the system. This planet, Gliese 667 C e, is close the outer edge of the habitable zone.</description>
+				<discoverymethod>RV</discoverymethod>
+				<lastupdate>13/06/26</lastupdate>
+				<discoveryyear>2013</discoveryyear>
+				<new>1</new>
+				<image>Gliese667</image>
+				<imagedescription>This artist's impression shows the view from the exoplanet Gliese 667 C d looking towards the planet's parent star (Gliese 667 C). In the background to the right the more distant stars in this triple system (Gliese 667 A and Gliese 667 B) are visible and to the left in the sky one of the other planets, the newly discovered Gliese 667 Ce, can be seen as a crescent. A record-breaking three planets in this system are super-Earths lying in the zone around the star where liquid water could exist, making them possible candidates for the presence of life. This is the first system found with a fully packed habitable zone.
+
+	Credit: ESO/M. Kornmesser</imagedescription>
+			</planet>
+			<planet>
+				<name>Gliese 667 C d</name>
+				<name>GJ 667 C d</name>
+				<name>HR 6426 C d</name>
+				<list>Confirmed planets</list>
+				<period errorminus="0.890000" errorplus="0.810000">91.61</period>
+				<eccentricity errorminus="0.030000" errorplus="0.200000">0.03</eccentricity>
+				<periastron>40.107046</periastron>
+				<longitude errorminus="126" errorplus="126">251</longitude>
+				<mass errorminus="0.005348" errorplus="0.005662">0.016043</mass>
+				<semimajoraxis errorminus="0.030000" errorplus="0.024000">0.276</semimajoraxis>
+				<description>Gliese 667 is a nearby triple star system in the constellation Scorpius, about 22 light years away. The star Gliese 667 C hosts at least six planets. Three of them, all Super-Earths, are located in the habitable zone. The habitable zone is so densely packed that any additional planet is likely to destabilize the system. This planet, Gliese 667 C d, is located outside the habitable zone and therefore to cool to host liquid water on its surface.</description>
+				<discoverymethod>RV</discoverymethod>
+				<lastupdate>13/06/26</lastupdate>
+				<discoveryyear>2013</discoveryyear>
+				<new>1</new>
+				<image>Gliese667</image>
+				<imagedescription>This artist's impression shows the view from the exoplanet Gliese 667 C d looking towards the planet's parent star (Gliese 667 C). In the background to the right the more distant stars in this triple system (Gliese 667 A and Gliese 667 B) are visible and to the left in the sky one of the other planets, the newly discovered Gliese 667 Ce, can be seen as a crescent. A record-breaking three planets in this system are super-Earths lying in the zone around the star where liquid water could exist, making them possible candidates for the presence of life. This is the first system found with a fully packed habitable zone.
+
+	Credit: ESO/M. Kornmesser</imagedescription>
+			</planet>
+			<planet>
+				<name>Gliese 667 C g</name>
+				<name>GJ 667 C g</name>
+				<name>HR 6426 C g</name>
+				<list>Confirmed planets</list>
+				<period errorminus="7.900000" errorplus="13.800000">256.2</period>
+				<eccentricity errorminus="0.080000" errorplus="0.410000">0.08</eccentricity>
+				<periastron>51.566202</periastron>
+				<longitude errorminus="170" errorplus="170">285</longitude>
+				<mass errorminus="0.007235" errorplus="0.008179">0.014470</mass>
+				<semimajoraxis errorminus="0.058000" errorplus="0.052000">0.549</semimajoraxis>
+				<description>Gliese 667 is a nearby triple star system in the constellation Scorpius, about 22 light years away. The star Gliese 667 C hosts at least six planets. Three of them, all Super-Earths, are located in the habitable zone. The habitable zone is so densely packed that any additional planet is likely to destabilize the system. This planet, Gliese 667 C g, is outside the habitable zone and cannot host liquid water on its surface.</description>
+				<discoverymethod>RV</discoverymethod>
+				<lastupdate>13/06/26</lastupdate>
+				<discoveryyear>2013</discoveryyear>
+				<new>1</new>
+				<image>Gliese667</image>
+				<imagedescription>This artist's impression shows the view from the exoplanet Gliese 667 C d looking towards the planet's parent star (Gliese 667 C). In the background to the right the more distant stars in this triple system (Gliese 667 A and Gliese 667 B) are visible and to the left in the sky one of the other planets, the newly discovered Gliese 667 Ce, can be seen as a crescent. A record-breaking three planets in this system are super-Earths lying in the zone around the star where liquid water could exist, making them possible candidates for the presence of life. This is the first system found with a fully packed habitable zone.
+
+	Credit: ESO/M. Kornmesser</imagedescription>
+			</planet>
+		</star>
+	</binary>
+</system>
