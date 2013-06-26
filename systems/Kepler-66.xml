@@ -1,0 +1,29 @@
+<system>
+	<name>Kepler-66</name>
+	<rightascension>19 35 56</rightascension>
+	<declination>46 41 16</declination>
+	<distance errorminus="90" errorplus="90">1107</distance>
+	<star>
+		<name>Kepler-66</name>
+		<mass errorminus="0.044" errorplus="0.044">1.038</mass>
+		<radius errorminus="0.042" errorplus="0.042">0.966</radius>
+		<temperature errorminus="79" errorplus="79">5962</temperature>
+		<magV>15.3</magV>
+		<metallicity errorminus="0.003" errorplus="0.003">0.012</metallicity>
+		<spectraltype>G0V</spectraltype>
+		<age errorminus="0.17" errorplus="0.17">1</age>
+		<planet>
+			<name>Kepler-66 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.16" errorplus="0.16" unit="me">2.8</radius>
+			<period errorminus="0.000075" errorplus="0.000075">17.815815</period>
+			<transittime errorminus="0.0025" errorplus="0.0025">2454967.4854</transittime>
+			<semimajoraxis errorminus="0.0017" errorplus="0.0017">0.1352</semimajoraxis>
+			<discoverymethod>transit</discoverymethod>
+			<description>Kepler-66b is orbiting a Sun-like star in the billion-year-old open cluster NGC6811. It demonstrates that small planets can form and survive in a dense cluster environment. The frequency of planet around stars in open cluster and field stars in the Milky Way are approximately the same.</description>
+			<lastupdate>13/06/26</lastupdate>
+			<discoveryyear>2013</discoveryyear>
+			<new>1</new>
+		</planet>
+	</star>
+</system>
