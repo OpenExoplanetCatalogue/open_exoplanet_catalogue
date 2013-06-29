@@ -2,9 +2,23 @@
 	<name>KOI-2078</name>
 	<rightascension>19 41 00</rightascension>
 	<declination>+45 50 34</declination>
+	<distance>460.32</distance>
 	<star>
 		<name>KOI-2078</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.5650</radius>
+		<temperature errorminus="65.00" errorplus="65.00">4317.00</temperature>
+		<radius errorminus="0.0120" errorplus="0.0120">0.5650</radius>
+		<age errorminus="3.5000" errorplus="3.5000">14.0000</age>
+		<planet>
+			<name>KOI-2078 b</name>
+			<name>KOI-2078 01</name>
+			<radius errorminus="0.06106" errorplus="0.06106">0.16130</radius>
+			<period errorminus="2.10000e-04" errorplus="2.10000e-04">18.784290000000</period>
+			<transittime errorminus="0.0041000" errorplus="0.0041000">2454970.8799000</transittime>
+			<semimajoraxis>0.1160000</semimajoraxis>
+			<temperature>420.0</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
 		<planet>
 			<name>KOI-2078 c</name>
 			<name>KOI-2078 02</name>

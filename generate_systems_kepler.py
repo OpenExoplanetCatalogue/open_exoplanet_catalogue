@@ -9,6 +9,7 @@ os.system("rm systems_kepler/*.xml")
 
 # Read in csv file. This file is presorted according to the KOI Name (the default file they offer as a download is not). 
 # This makes matching systems with multiple planets much easier, but it should be incorporated in this script.
+os.system("sort -k3 -t',' cumulative.csv >cumulative.sorted")
 csvfile = open("cumulative.sorted","r")
 
 lastsystemname = ""
