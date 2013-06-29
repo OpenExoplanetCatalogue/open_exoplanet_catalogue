@@ -2,9 +2,45 @@
 	<name>KOI-2859</name>
 	<rightascension>19 15 19</rightascension>
 	<declination>+47 33 07</declination>
+	<distance>522.58</distance>
 	<star>
 		<name>KOI-2859</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.8830</radius>
+		<temperature errorminus="69.00" errorplus="69.00">5464.00</temperature>
+		<radius errorminus="0.4100" errorplus="0.4100">0.8800</radius>
+		<age errorminus="4.0000" errorplus="4.0000">10.5000</age>
+		<planet>
+			<name>KOI-2859 b</name>
+			<name>KOI-2859 01</name>
+			<radius errorminus="0.06835" errorplus="0.06835">0.11574</radius>
+			<period errorminus="2.20000e-05" errorplus="2.20000e-05">3.446219000000</period>
+			<transittime errorminus="0.0032000" errorplus="0.0032000">2454965.2274000</transittime>
+			<semimajoraxis>0.0420000</semimajoraxis>
+			<temperature>1105.0</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-2859 c</name>
+			<name>KOI-2859 02</name>
+			<radius errorminus="0.04465" errorplus="0.04465">0.06561</radius>
+			<period errorminus="1.80000e-05" errorplus="1.80000e-05">2.005396000000</period>
+			<transittime errorminus="0.0040000" errorplus="0.0040000">2454966.2442000</transittime>
+			<semimajoraxis>0.0290000</semimajoraxis>
+			<temperature>1330.0</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-2859 d</name>
+			<name>KOI-2859 03</name>
+			<radius errorminus="0.04101" errorplus="0.04101">0.06561</radius>
+			<period errorminus="5.70000e-05" errorplus="5.70000e-05">4.288814000000</period>
+			<transittime errorminus="0.0061000" errorplus="0.0061000">2454965.3824000</transittime>
+			<semimajoraxis>0.0490000</semimajoraxis>
+			<temperature>1023.0</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
 		<planet>
 			<name>KOI-2859 e</name>
 			<name>KOI-2859 04</name>

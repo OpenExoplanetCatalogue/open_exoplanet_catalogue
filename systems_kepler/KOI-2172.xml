@@ -2,9 +2,23 @@
 	<name>KOI-2172</name>
 	<rightascension>19 40 39</rightascension>
 	<declination>+39 12 05</declination>
+	<distance>1106.69</distance>
 	<star>
 		<name>KOI-2172</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.9620</radius>
+		<temperature errorminus="109.00" errorplus="109.00">5705.00</temperature>
+		<radius errorminus="0.8700" errorplus="0.8700">0.9600</radius>
+		<age errorminus="3.7000" errorplus="3.7000">8.1000</age>
+		<planet>
+			<name>KOI-2172 b</name>
+			<name>KOI-2172 01</name>
+			<radius errorminus="0.20960" errorplus="0.20960">0.22783</radius>
+			<period errorminus="9.60000e-05" errorplus="9.60000e-05">10.440828000000</period>
+			<transittime errorminus="0.0033000" errorplus="0.0033000">2454970.9711000</transittime>
+			<semimajoraxis>0.0910000</semimajoraxis>
+			<temperature>818.0</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
 		<planet>
 			<name>KOI-2172 c</name>
 			<name>KOI-2172 02</name>

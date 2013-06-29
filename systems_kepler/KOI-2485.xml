@@ -2,9 +2,34 @@
 	<name>KOI-2485</name>
 	<rightascension>19 00 41</rightascension>
 	<declination>+48 46 12</declination>
+	<distance>764.54</distance>
 	<star>
 		<name>KOI-2485</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.7510</radius>
+		<temperature errorminus="78.00" errorplus="78.00">5115.00</temperature>
+		<radius errorminus="0.3500" errorplus="0.3500">0.7500</radius>
+		<age errorminus="3.7000" errorplus="3.7000">11.4000</age>
+		<planet>
+			<name>KOI-2485 b</name>
+			<name>KOI-2485 01</name>
+			<radius errorminus="0.09113" errorplus="0.09113">0.16403</radius>
+			<period errorminus="1.60000e-04" errorplus="1.60000e-04">9.991260000000</period>
+			<transittime errorminus="0.0054000" errorplus="0.0054000">2454967.3912000</transittime>
+			<semimajoraxis>0.0830000</semimajoraxis>
+			<temperature>679.0</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-2485 c</name>
+			<name>KOI-2485 02</name>
+			<radius errorminus="0.01458" errorplus="0.01458">0.16768</radius>
+			<period errorminus="2.30000e-05" errorplus="2.30000e-05">3.600795000000</period>
+			<transittime errorminus="0.0031000" errorplus="0.0031000">2454967.0396000</transittime>
+			<semimajoraxis errorminus="1.8e-07" errorplus="1.8e-07">0.0419813</semimajoraxis>
+			<temperature errorminus="223.0" errorplus="223.0">954.0</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
 		<planet>
 			<name>KOI-2485 d</name>
 			<name>KOI-2485 03</name>
