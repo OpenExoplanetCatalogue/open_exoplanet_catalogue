@@ -2,6 +2,18 @@
 import xml.etree.ElementTree as ET
 import glob
 import os
+import hashlib
+import sys
+
+# Calculate md5 hash to check for changes in file.
+def md5_for_file(f, block_size=2**20):
+    md5 = hashlib.md5()
+    while True:
+        data = f.read(block_size)
+        if not data:
+            break
+        md5.update(data)
+    return md5.digest()
 
 # Nicely indents the XML output
 def indent(elem, level=0):
@@ -93,8 +105,14 @@ def convertunit(elem, factor):
     convertunitattrib(elem,"upperlimit",factor)
     convertunitattrib(elem,"lowerlimit",factor)
 
+errorcode = 0
+
 # Loop over all files and  create new data
 for filename in glob.glob("systems*/*.xml"):
+    # Save md5 for later
+    f = open(filename, 'rt')
+    md5_orig = md5_for_file(f)
+    
     # Open file
     f = open(filename, 'rt')
 
@@ -106,6 +124,7 @@ for filename in glob.glob("systems*/*.xml"):
     	binaries 	= root.findall(".//binary")
     except ET.ParseError as error:
         print '{}, {}'.format(filename, error)
+        errorcode = 1
         continue
     finally:
         f.close()
@@ -162,3 +181,12 @@ for filename in glob.glob("systems*/*.xml"):
 
     # Write XML to file.
     ET.ElementTree(root).write(filename)
+    
+    # Check for new md5
+    f = open(filename, 'rt')
+    md5_new = md5_for_file(f)
+    if md5_orig!=md5_new:
+        errorcode = 2
+
+sys.exit(errorcode)
+
