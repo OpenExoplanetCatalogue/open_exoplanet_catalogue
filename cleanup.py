@@ -105,10 +105,15 @@ def convertunit(elem, factor):
     convertunitattrib(elem,"upperlimit",factor)
     convertunitattrib(elem,"lowerlimit",factor)
 
-errorcode = 0
+fileschecked = 0
+issues = 0
+xmlerrors = 0
+fileschanged = 0
 
 # Loop over all files and  create new data
 for filename in glob.glob("systems*/*.xml"):
+    fileschecked += 1
+
     # Save md5 for later
     f = open(filename, 'rt')
     md5_orig = md5_for_file(f)
@@ -124,7 +129,8 @@ for filename in glob.glob("systems*/*.xml"):
     	binaries 	= root.findall(".//binary")
     except ET.ParseError as error:
         print '{}, {}'.format(filename, error)
-        errorcode = 1
+        xmlerrors += 1
+        issues += 1
         continue
     finally:
         f.close()
@@ -149,19 +155,23 @@ for filename in glob.glob("systems*/*.xml"):
     # Check that names follow conventions
     if not root.findtext("./name") + ".xml" == os.path.basename(filename):
         print "Name of system not the same as filename: " + filename
+        issues += 1
     for obj in planets + stars:
         name = obj.findtext("./name")
         if not name:
             print "Didn't find name tag for object \"" + obj.tag + "\" in file \"" + filename + "\"."
+            issues += 1
 
     # Check if tags are valid and have valid attributes
     problematictag = checkforvalidtags(root)
     if problematictag:
         print "Problematic tag/attribute '" + problematictag + "' found in file \"" + filename + "\"."
+        issues += 1
     discoverymethods = root.findall(".//discoverymethod")
     for dm in discoverymethods:
         if not (dm.text in validdiscoverymethods):
             print "Problematic discoverymethod '" + dm.text + "' found in file \"" + filename + "\"."
+            issues += 1
 
     # Check if there are duplicate tags
     for obj in planets + stars + binaries:
@@ -170,6 +180,7 @@ for filename in glob.glob("systems*/*.xml"):
             if not child.tag in tagsallowmultiple:
                 if child.tag in uniquetags:
                     print "Error: Found duplicate tag \""+child.tag+"\" in file \""+filename+"\"."
+                    issues += 1
                 else:
                     uniquetags.append(child.tag)
 	
@@ -186,12 +197,23 @@ for filename in glob.glob("systems*/*.xml"):
     f = open(filename, 'rt')
     md5_new = md5_for_file(f)
     if md5_orig!=md5_new:
-        errorcode = 2
+        fileschanged += 1
 
-if errorcode!=0:
-	print "Cleanup script changed files and/or found syntax errors."
+errorcode = 0
+print "Cleanup script finished. %d files checked." % fileschecked 
+if fileschanged > 0:
+    print "%d file(s) modified." %fileschanged
+    errorcode = 1
+
+if xmlerrors > 0:
+    print "%d XML errors found." % xmlerrors
+    errorcode = 2
+
+if issues>0:
+    print "Number of issues: %d (see above)." % issues
+    errorcode = 3
 else:
-	print "Cleanup script finished. No issues found. No files updated."
+    print "No issues found." 
 
 sys.exit(errorcode)
 
