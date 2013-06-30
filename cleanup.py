@@ -188,5 +188,10 @@ for filename in glob.glob("systems*/*.xml"):
     if md5_orig!=md5_new:
         errorcode = 2
 
+if errorcode!=0:
+	print "Cleanup script changed files and/or found syntax errors."
+else:
+	print "Cleanup script finished. No issues found. No files updated."
+
 sys.exit(errorcode)
 
