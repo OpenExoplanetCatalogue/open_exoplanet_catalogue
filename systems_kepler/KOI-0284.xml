@@ -2,6 +2,7 @@
 	<name>KOI-0284</name>
 	<rightascension>18 52 56</rightascension>
 	<declination>+41 20 34</declination>
+	<distance>282.01</distance>
 	<star>
 		<magB errorminus="0.23" errorplus="0.23">12.49</magB>
 		<magV errorminus="0.19" errorplus="0.19">11.92</magV>
@@ -9,7 +10,42 @@
 		<magH errorminus="0.023" errorplus="0.023">10.516</magH>
 		<magK errorminus="0.019" errorplus="0.019">10.424</magK>
 		<name>KOI-0284</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.4890</radius>
+		<temperature errorminus="53.00" errorplus="53.00">5925.00</temperature>
+		<radius errorminus="0.1000" errorplus="0.1000">1.0300</radius>
+		<age errorminus="2.5000" errorplus="2.5000">5.6000</age>
+		<planet>
+			<name>KOI-0284 b</name>
+			<name>KOI-0284 01</name>
+			<radius errorminus="0.01458" errorplus="0.01458">0.13578</radius>
+			<period errorminus="1.50000e-04" errorplus="1.50000e-04">18.009990000000</period>
+			<transittime errorminus="0.0028000" errorplus="0.0028000">2455012.4253000</transittime>
+			<semimajoraxis>0.1340000</semimajoraxis>
+			<temperature>725.0</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-0284 c</name>
+			<name>KOI-0284 02</name>
+			<radius errorminus="0.01094" errorplus="0.01094">0.10389</radius>
+			<period errorminus="4.70000e-05" errorplus="4.70000e-05">6.414833000000</period>
+			<transittime errorminus="0.0024000" errorplus="0.0024000">2455002.6420000</transittime>
+			<semimajoraxis>0.0670000</semimajoraxis>
+			<temperature>1025.0</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-0284 d</name>
+			<name>KOI-0284 03</name>
+			<radius errorminus="0.01002" errorplus="0.01002">0.09933</radius>
+			<period errorminus="4.80000e-05" errorplus="4.80000e-05">6.178179000000</period>
+			<transittime errorminus="0.0026000" errorplus="0.0026000">2455001.8602000</transittime>
+			<semimajoraxis>0.0660000</semimajoraxis>
+			<temperature>1033.0</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
 		<planet>
 			<name>KOI-0284 e</name>
 			<name>KOI-0284 04</name>
