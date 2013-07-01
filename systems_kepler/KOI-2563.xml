@@ -2,9 +2,23 @@
 	<name>KOI-2563</name>
 	<rightascension>19 12 22</rightascension>
 	<declination>+40 21 57</declination>
+	<distance>997.19</distance>
 	<star>
 		<name>KOI-2563</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.1570</radius>
+		<temperature errorminus="100.00" errorplus="100.00">6392.00</temperature>
+		<radius errorminus="0.3900" errorplus="0.3900">1.1600</radius>
+		<age errorminus="0.6800" errorplus="0.6800">1.5800</age>
+		<planet>
+			<name>KOI-2563 b</name>
+			<name>KOI-2563 01</name>
+			<radius errorminus="0.04465" errorplus="0.04465">0.13032</radius>
+			<period errorminus="7.00000e-04" errorplus="7.00000e-04">23.477710000000</period>
+			<transittime errorminus="0.0110000" errorplus="0.0110000">2454978.3490000</transittime>
+			<semimajoraxis>0.1680000</semimajoraxis>
+			<temperature>740.0</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
 		<planet>
 			<name>KOI-2563 c</name>
 			<name>KOI-2563 02</name>

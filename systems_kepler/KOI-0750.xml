@@ -2,12 +2,26 @@
 	<name>KOI-0750</name>
 	<rightascension>19 21 51</rightascension>
 	<declination>+47 55 45</declination>
+	<distance>662.51</distance>
 	<star>
 		<magJ errorminus="0.027" errorplus="0.027">13.810</magJ>
 		<magH errorminus="0.04" errorplus="0.04">13.30</magH>
 		<magK errorminus="0.03" errorplus="0.03">13.20</magK>
 		<name>KOI-0750</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.6870</radius>
+		<temperature errorminus="67.00" errorplus="67.00">4900.00</temperature>
+		<radius errorminus="0.0190" errorplus="0.0190">0.6870</radius>
+		<age errorminus="3.8000" errorplus="3.8000">11.0000</age>
+		<planet>
+			<name>KOI-0750 b</name>
+			<name>KOI-0750 01</name>
+			<radius errorminus="0.05103" errorplus="0.05103">0.19958</radius>
+			<period errorminus="1.80000e-04" errorplus="1.80000e-04">21.676890000000</period>
+			<transittime errorminus="0.0030000" errorplus="0.0030000">2455004.5367000</transittime>
+			<semimajoraxis>0.1360000</semimajoraxis>
+			<temperature>486.0</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
 		<planet>
 			<name>KOI-0750 c</name>
 			<name>KOI-0750 02</name>

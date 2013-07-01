@@ -2,6 +2,18 @@
 import xml.etree.ElementTree as ET
 import glob
 import os
+import hashlib
+import sys
+
+# Calculate md5 hash to check for changes in file.
+def md5_for_file(f, block_size=2**20):
+    md5 = hashlib.md5()
+    while True:
+        data = f.read(block_size)
+        if not data:
+            break
+        md5.update(data)
+    return md5.digest()
 
 # Nicely indents the XML output
 def indent(elem, level=0):
@@ -93,8 +105,19 @@ def convertunit(elem, factor):
     convertunitattrib(elem,"upperlimit",factor)
     convertunitattrib(elem,"lowerlimit",factor)
 
+fileschecked = 0
+issues = 0
+xmlerrors = 0
+fileschanged = 0
+
 # Loop over all files and  create new data
 for filename in glob.glob("systems*/*.xml"):
+    fileschecked += 1
+
+    # Save md5 for later
+    f = open(filename, 'rt')
+    md5_orig = md5_for_file(f)
+    
     # Open file
     f = open(filename, 'rt')
 
@@ -106,6 +129,8 @@ for filename in glob.glob("systems*/*.xml"):
     	binaries 	= root.findall(".//binary")
     except ET.ParseError as error:
         print '{}, {}'.format(filename, error)
+        xmlerrors += 1
+        issues += 1
         continue
     finally:
         f.close()
@@ -130,19 +155,23 @@ for filename in glob.glob("systems*/*.xml"):
     # Check that names follow conventions
     if not root.findtext("./name") + ".xml" == os.path.basename(filename):
         print "Name of system not the same as filename: " + filename
+        issues += 1
     for obj in planets + stars:
         name = obj.findtext("./name")
         if not name:
             print "Didn't find name tag for object \"" + obj.tag + "\" in file \"" + filename + "\"."
+            issues += 1
 
     # Check if tags are valid and have valid attributes
     problematictag = checkforvalidtags(root)
     if problematictag:
         print "Problematic tag/attribute '" + problematictag + "' found in file \"" + filename + "\"."
+        issues += 1
     discoverymethods = root.findall(".//discoverymethod")
     for dm in discoverymethods:
         if not (dm.text in validdiscoverymethods):
             print "Problematic discoverymethod '" + dm.text + "' found in file \"" + filename + "\"."
+            issues += 1
 
     # Check if there are duplicate tags
     for obj in planets + stars + binaries:
@@ -151,6 +180,7 @@ for filename in glob.glob("systems*/*.xml"):
             if not child.tag in tagsallowmultiple:
                 if child.tag in uniquetags:
                     print "Error: Found duplicate tag \""+child.tag+"\" in file \""+filename+"\"."
+                    issues += 1
                 else:
                     uniquetags.append(child.tag)
 	
@@ -162,3 +192,28 @@ for filename in glob.glob("systems*/*.xml"):
 
     # Write XML to file.
     ET.ElementTree(root).write(filename)
+    
+    # Check for new md5
+    f = open(filename, 'rt')
+    md5_new = md5_for_file(f)
+    if md5_orig!=md5_new:
+        fileschanged += 1
+
+errorcode = 0
+print "Cleanup script finished. %d files checked." % fileschecked 
+if fileschanged > 0:
+    print "%d file(s) modified." %fileschanged
+    errorcode = 1
+
+if xmlerrors > 0:
+    print "%d XML errors found." % xmlerrors
+    errorcode = 2
+
+if issues>0:
+    print "Number of issues: %d (see above)." % issues
+    errorcode = 3
+else:
+    print "No issues found." 
+
+sys.exit(errorcode)
+

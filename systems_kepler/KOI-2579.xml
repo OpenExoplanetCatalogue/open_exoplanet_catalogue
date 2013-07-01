@@ -2,9 +2,23 @@
 	<name>KOI-2579</name>
 	<rightascension>19 35 57</rightascension>
 	<declination>+46 43 04</declination>
+	<distance>1504.00</distance>
 	<star>
 		<name>KOI-2579</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.0890</radius>
+		<temperature errorminus="116.00" errorplus="116.00">6180.00</temperature>
+		<radius errorminus="0.4500" errorplus="0.4500">1.0900</radius>
+		<age errorminus="1.4000" errorplus="1.4000">2.5000</age>
+		<planet>
+			<name>KOI-2579 b</name>
+			<name>KOI-2579 01</name>
+			<radius errorminus="0.05377" errorplus="0.05377">0.12758</radius>
+			<period errorminus="5.20000e-05" errorplus="5.20000e-05">2.729651000000</period>
+			<transittime errorminus="0.0058000" errorplus="0.0058000">2454966.2803000</transittime>
+			<semimajoraxis>0.0390000</semimajoraxis>
+			<temperature>1441.0</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
 		<planet>
 			<name>KOI-2579 c</name>
 			<name>KOI-2579 02</name>
