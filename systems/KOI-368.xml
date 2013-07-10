@@ -1,0 +1,32 @@
+<system>
+	<name>KOI-368</name>
+	<rightascension>19 23 25</rightascension>
+	<declination>+42 05 12</declination>
+	<distance errorminus="0.1" errorplus="0.1">1200</distance>
+	<star>
+		<magB errorminus="0.05" errorplus="0.05">11.30</magB>
+		<magV errorminus="0.06" errorplus="0.06">11.02</magV>
+		<magJ errorminus="0.023" errorplus="0.023">11.109</magJ>
+		<magH errorminus="0.019" errorplus="0.019">11.089</magH>
+		<magK errorminus="0.011" errorplus="0.011">11.081</magK>
+		<name>KOI-368</name>
+		<metallicity errorminus="0.1" errorplus="0.1">0.4</metallicity>
+		<temperature errorminus="200.00" errorplus="200.00">9257.00</temperature>
+		<radius errorminus="0.2" errorplus="0.2">2.5</radius>
+		<mass errorminus="0.1" errorplus="0.1">2.5</mass>
+		<age errorminus="0.07" errorplus="0.07">0.25</age>
+		<planet>
+			<name>KOI-368 b</name>
+			<name>KOI-368.01</name>
+			<name>KOI-0368 b</name>
+			<name>KOI-0368 01</name>
+			<period errorminus="0.000006" errorplus="0.000003">11.321611</period>
+			<transittime errorminus="0.00001" errorplus="0.00001">24541030.36451</transittime>
+			<inclination errorminus="0.007" errorplus="0.003">89.215</inclination>
+			<radius errorminus="0.2" errorplus="0.2">2.1</radius>
+			<semimajoraxis errorminus="0.2" errorplus="0.2">0.6</semimajoraxis>
+			<eccentricity errorminus="0.07" errorplus="0.18">0.07</eccentricity>
+			<description>The planet KOI-368 b was flagged by the Kepler team as a planet canidate. A new study by Zhou and Huang has now excluded blend scenarios and argues that the object has to be of substellar nature. The planet has a very high obliquity of 64 degrees. KOI-368 is the hottest host star to date for systems with spin-orbit measurements.</description>
+		</planet>
+	</star>
+</system>
