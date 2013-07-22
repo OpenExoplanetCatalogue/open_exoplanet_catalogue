@@ -1,0 +1,34 @@
+<system>
+	<name>Gliese 504</name>
+	<distance errorminus="0.08" errorplus="0.08">17.56</distance>
+	<star>
+		<name>Gliese 504</name>
+		<name>GJ 504</name>
+		<name>HIP 64792</name>
+		<name>HD 115383</name>
+		<mass errorminus="0.08" errorplus="0.08">1.22</mass>
+		<temperature errorminus="25" errorplus="25">6234</temperature>
+		<metallicity errorminus="0.03" errorplus="0.03">0.28</metallicity>
+		<spectraltype>G0V</spectraltype>
+		<age errorminus="0.06" errorplus="0.35">0.16</age>
+		<planet>
+			<name>Gliese 504 b</name>
+			<name>GJ 504 b</name>
+			<name>HIP 64792 b</name>
+			<name>HD 115383 b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="1.0" errorplus="4.5">4</mass>
+			<temperature errorminus="20" errorplus="30">510</temperature>
+			<semimajoraxis>43.5</semimajoraxis>
+			<description>Gliese 504 b is the first directly imaged planet on a wide orbit around a G-type main-sequence star with a mass similar to that of our Sun. The planet is a gas giant, about 4 times more massive than Jupiter. It was discovered by the SEEDS survey.</description>
+			<discoverymethod>imaging</discoverymethod>
+			<lastupdate>13/07/22</lastupdate>
+			<discoveryyear>2013</discoveryyear>
+			<new>1</new>
+			<image>GJ504</image>
+			<imagedescription>This is an actual image of the exoplanet Gliese 504 b and its host star. It was taken by the SEEDS survey. 
+			
+Credit: Kuzuhara et al. (2013).</imagedescription>
+		</planet>
+	</star>
+</system>
