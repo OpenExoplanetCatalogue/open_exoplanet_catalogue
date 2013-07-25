@@ -11,13 +11,13 @@
 		<magJ errorminus="0.024" errorplus="0.024">9.818</magJ>
 		<magH errorminus="0.021" errorplus="0.021">9.463</magH>
 		<magK errorminus="0.021" errorplus="0.021">9.393</magK>
-		<metallicity>0.08</metallicity>
+		<metallicity errormins="0.07" errorplus="0.07">0.08</metallicity>
 		<spectraltype>G8</spectraltype>
 		<planet>
 			<name>WASP-63 b</name>
 			<list>Confirmed planets</list>
-			<mass>0.38</mass>
-			<radius>1.43</radius>
+			<mass errorminus="0.03" errorplus="0.03">0.38</mass>
+			<radius errorminus="0.06" errorplus="0.10">1.43</radius>
 			<period>4.37809</period>
 			<semimajoraxis>0.0574</semimajoraxis>
 			<eccentricity>0.0</eccentricity>
@@ -28,9 +28,9 @@
 			<lastupdate>12/04/24</lastupdate>
 			<discoveryyear>2011</discoveryyear>
 			<new>0</new>
-			<temperature>1540</temperature>
+			<temperature errorminus="40" errorplus="40">1540</temperature>
 		</planet>
 		<name>WASP-63</name>
-		<temperature>5550.0</temperature>
+		<temperature errorminus="90" errorplus="90">5570.0</temperature>
 	</star>
 </system>
