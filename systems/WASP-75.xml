@@ -2,31 +2,27 @@
 	<name>WASP-75</name>
 	<rightascension>22 49 33</rightascension>
 	<declination>-10 40 32</declination>
-	<distance error="70">260</distance>
+	<distance errorminus="70" errorplus="70">260</distance>
 	<star>
 		<name>WASP-75</name>
 		<name>1SWASP J224932.56-104031.8</name>
-		<mass errorplus="0.07" errorminus="0.06">1.14</mass>
-		<radius error="0.04">1.26</radius>
-		<temperature error="100">6100</temperature>
-		<magV error="0.01">11.45</magV>
-		<metallicity error="0.09">0.07</metallicity>
+		<mass errorminus="0.06" errorplus="0.07">1.14</mass>
+		<radius errorminus="0.04" errorplus="0.04">1.26</radius>
+		<temperature errorminus="100" errorplus="100">6100</temperature>
+		<magV errorminus="0.01" errorplus="0.01">11.45</magV>
+		<metallicity errorminus="0.09" errorplus="0.09">0.07</metallicity>
 		<spectraltype>F9</spectraltype>
 		<planet>
 			<name>WASP-75 b</name>
 			<name>1SWASP J224932.56-104031.8 b</name>
 			<list>Confirmed planets</list>
-			<mass error="0.05">1.07</mass>
-			<radius error="0.048">1.270</radius>
-			<temperature error="20">1710</temperature>
-			<period error="0.000003">2.484193</period>
-			<transittime error="0.0003">2456016.2669</transittime>
-			<semimajoraxis errorplus="0.0007" errorminus="0.0008">0.0375</semimajoraxis>
-			<eccentricity></eccentricity>
-			<inclination errorplus="0.3" errorminus="0.2">82.0</inclination>
-			<periastron></periastron>
-			<longitude></longitude>
-			<description></description>
+			<mass errorminus="0.05" errorplus="0.05">1.07</mass>
+			<radius errorminus="0.048" errorplus="0.048">1.270</radius>
+			<temperature errorminus="20" errorplus="20">1710</temperature>
+			<period errorminus="0.000003" errorplus="0.000003">2.484193</period>
+			<transittime errorminus="0.0003" errorplus="0.0003">2456016.2669</transittime>
+			<semimajoraxis errorminus="0.0008" errorplus="0.0007">0.0375</semimajoraxis>
+			<inclination errorminus="0.2" errorplus="0.3">82.0</inclination>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>13/07/25</lastupdate>
 			<discoveryyear>2013</discoveryyear>

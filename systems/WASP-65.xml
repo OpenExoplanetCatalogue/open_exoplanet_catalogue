@@ -1,26 +1,26 @@
 <system>
 	<name>WASP-65</name>
-	<rightascention>08 53 28</rightascention>
+	<rightascension>08 53 28</rightascension>
 	<declination>+08 31 23</declination>
-	<distance error="50">310</distance>
+	<distance errorminus="50" errorplus="50">310</distance>
 	<star>
 		<name>WASP-65</name>
 		<name>1SWASP J085317.82+083122.8</name>
-		<temperature error="100">5600.0</temperature>
+		<temperature errorminus="100" errorplus="100">5600.0</temperature>
 		<spectraltype>G6</spectraltype>
-		<metallicity error="0.07">-0.07</metallicity>
-		<mass errorplus="0.12" errorminus="0.16">0.93</mass>
+		<metallicity errorminus="0.07" errorplus="0.07">-0.07</metallicity>
+		<mass errorminus="0.16" errorplus="0.12">0.93</mass>
 		<planet>
 			<name>WASP-65 b</name>
 			<name>1SWASP J085317.82+083122.8 b</name>
 			<list>Confirmed planets</list>
-			<mass error="0.16">1.55</mass>
-			<radius error="0.059">1.112</radius>
-			<semimajoraxis errorplus="0.0016" errorminus="0.0017">0.0334</semimajoraxis>
-			<temperature error="10">1480</temperature>
-			<period error="0.0000015">2.3114243</period>
-			<transittime error="0.000015">2456110.68772</transittime>
-			<inclination errorplus="0.8" errorminus="0.7">88.8</inclination>
+			<mass errorminus="0.16" errorplus="0.16">1.55</mass>
+			<radius errorminus="0.059" errorplus="0.059">1.112</radius>
+			<semimajoraxis errorminus="0.0017" errorplus="0.0016">0.0334</semimajoraxis>
+			<temperature errorminus="10" errorplus="10">1480</temperature>
+			<period errorminus="0.0000015" errorplus="0.0000015">2.3114243</period>
+			<transittime errorminus="0.000015" errorplus="0.000015">2456110.68772</transittime>
+			<inclination errorminus="0.7" errorplus="0.8">88.8</inclination>
 			<description>This planet has been announced at the Extreme Solar Systems II conference in Jackson Hole by the WASP team. The scientific paper was published online in July 2013. The mean density of WASP-65 b is similar to that of Jupiter.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>13/07/25</lastupdate>
