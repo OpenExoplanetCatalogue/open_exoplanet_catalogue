@@ -2,36 +2,56 @@
 	<name>WASP-12</name>
 	<rightascension>06 30 33</rightascension>
 	<declination>+29 40 20</declination>
-	<distance>427</distance>
-	<star>
-		<mass>1.35</mass>
-		<radius>1.599</radius>
-		<magV>11.69</magV>
-		<magR>11.6</magR>
-		<magB errorminus="0.21" errorplus="0.21">12.14</magB>
-		<magJ errorminus="0.021" errorplus="0.021">10.477</magJ>
-		<magH errorminus="0.022" errorplus="0.022">10.228</magH>
-		<magK errorminus="0.020" errorplus="0.020">10.188</magK>
-		<metallicity>0.3</metallicity>
-		<spectraltype>G0</spectraltype>
-		<planet>
-			<name>WASP-12 b</name>
-			<name>2MASS J06303279+2940202 b</name>
-			<list>Confirmed planets</list>
-			<mass>1.404</mass>
-			<radius>1.736</radius>
-			<period>1.0914222</period>
-			<semimajoraxis>0.02293</semimajoraxis>
-			<eccentricity>0.0</eccentricity>
-			<inclination>86</inclination>
-			<transittime errorminus="0.00028" errorplus="0.00028" unit="BJD">2454508.98074</transittime>
-			<discoverymethod>transit</discoverymethod>
-			<lastupdate>12/07/05</lastupdate>
-			<discoveryyear>2008</discoveryyear>
-			<new>0</new>
-			<temperature>2319.7</temperature>
-		</planet>
-		<name>WASP-12</name>
-		<temperature>6300.0</temperature>
-	</star>
+	<distance errorminus="30" errorplus="30">250</distance>
+	<binary>
+		<semimajoraxis errorminus="5" errorplus="5">260</semimajoraxis>
+		<binary>
+			<semimajoraxis errorminus="3" errorplus="3">21</semimajoraxis>
+			<star>
+				<name>WASP-12 B</name>
+				<spectraltype>M3V</spectraltype>
+				<mass errorminus="0.05" errorplus="0.05">0.38</mass>
+			</star>
+			<star>
+				<name>WASP-12 C</name>
+				<spectraltype>M3V</spectraltype>
+				<mass errorminus="0.05" errorplus="0.05">0.37</mass>
+			</star>
+		</binary>
+		<star>
+			<name>WASP-12</name>
+			<name>WASP-12 A</name>
+			<mass>1.35</mass>
+			<radius>1.599</radius>
+			<magV>11.69</magV>
+			<magR>11.6</magR>
+			<magB errorminus="0.21" errorplus="0.21">12.14</magB>
+			<magJ errorminus="0.021" errorplus="0.021">10.477</magJ>
+			<magH errorminus="0.022" errorplus="0.022">10.228</magH>
+			<magK errorminus="0.020" errorplus="0.020">10.188</magK>
+			<metallicity>0.3</metallicity>
+			<spectraltype>G0</spectraltype>
+			<planet>
+				<name>WASP-12 b</name>
+				<name>WASP-12 A b</name>
+				<name>2MASS J06303279+2940202 b</name>
+				<list>Confirmed planets</list>
+				<mass>1.404</mass>
+				<radius>1.736</radius>
+				<period>1.0914222</period>
+				<semimajoraxis>0.02293</semimajoraxis>
+				<eccentricity>0.0</eccentricity>
+				<inclination>86</inclination>
+				<rossitermclaughlin errorminus="20" errorplus="15">59</rossitermclaughlin>
+				<transittime errorminus="0.00028" errorplus="0.00028" unit="BJD">2454508.98074</transittime>
+				<discoverymethod>transit</discoverymethod>
+				<lastupdate>13/07/31</lastupdate>
+				<description>The host star of WASP-12 b is the primary of a hierarchical triple system. The distant binary consists of two M dwarfs.</description>
+				<discoveryyear>2008</discoveryyear>
+				<new>0</new>
+				<temperature>2319.7</temperature>
+			</planet>
+			<temperature>6300.0</temperature>
+		</star>
+	</binary>
 </system>
