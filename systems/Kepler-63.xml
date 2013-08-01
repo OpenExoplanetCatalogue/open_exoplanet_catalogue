@@ -1,0 +1,35 @@
+<system>
+	<name>Kepler-63</name>
+	<rightascension>19 16 54</rightascension>
+	<declination>+49 32 54</declination>
+	<distance errorminus="15" errorplus="15">200</distance>
+	<star>
+		<name>Kepler-63</name>
+		<name>KIC 11554435</name>
+		<name>KOI 63</name>
+		<mass errorminus="0.04" errorplus="0.035">0.984</mass>
+		<radius errorminus="0.022" errorplus="0.027">0.901</radius>
+		<temperature errorminus="50" errorplus="50">5576</temperature>
+		<metallicity errorminus="0.08" errorplus="0.08">0.05</metallicity>
+		<planet>
+			<name>Kepler-63 b</name>
+			<name>KIC 11554435 b</name>
+			<name>KOI 63 b</name>
+			<name>KOI 63.01</name>
+			<list>Confirmed planets</list>
+			<mass upperlimit="0.377484" />
+			<radius errorminus="0.018226" errorplus="0.018226">0.556806</radius>
+			<rossitermclaughlin errorminus="14" errorplus="22">-110</rossitermclaughlin>
+			<period errorminus="0.0000010" errorplus="0.0000010">9.4341505</period>
+			<transittime errorminus="0.00005" errorplus="0.00005">2455010.84307</transittime>
+			<semimajoraxis errorminus="0.002" errorplus="0.002">0.080</semimajoraxis>
+			<eccentricity upperlimit="0.45" />
+			<inclination errorminus="0.019" errorplus="0.018">87.806</inclination>
+			<description>Kepler-63 b orbits a Sun-like star ever 9.43 days. The host star has a large and persistant polar starspot and a high sky-projected obliquity of 104 degrees. Polar star spots have been predicted in simulations of magnetic activity of young Sun-like stars.</description>
+			<discoverymethod>transit</discoverymethod>
+			<lastupdate>13/08/01</lastupdate>
+			<discoveryyear>2013</discoveryyear>
+			<new>1</new>
+		</planet>
+	</star>
+</system>
