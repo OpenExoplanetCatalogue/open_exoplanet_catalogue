@@ -1,0 +1,37 @@
+<system>
+	<name>KELT-6</name>
+	<rightascension>13 03 56</rightascension>
+	<declination>+30 38 24</declination>
+	<distance errorminus="8" errorplus="8">222</distance>
+	<star>
+		<name>KELT-6</name>
+		<name>TYC 2532-556-1</name>
+		<name>BD+31 2447</name>
+		<mass errorminus="0.04" errorplus="0.04">1.09</mass>
+		<radius errorminus="0.09" errorplus="0.16">1.58</radius>
+		<temperature errorminus="43" errorplus="43">6102</temperature>
+		<magV errorminus="0.054" errorplus="0.054">10.337</magV>
+		<metallicity errorminus="0.04" errorplus="0.04">-0.28</metallicity>
+		<spectraltype>F8</spectraltype>
+		<age errorminus="0.2" errorplus="0.2">6.1</age>
+		<planet>
+			<name>KELT-6 b</name>
+			<name>TYC 2532-556-1 b</name>
+			<name>BD+31 2447 b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.046" errorplus="0.045">0.430</mass>
+			<radius errorminus="0.077" errorplus="0.130">1.193</radius>
+			<temperature errorminus="38" errorplus="59">1313</temperature>
+			<period errorminus="0.000046" errorplus="0.000046">7.845631</period>
+			<semimajoraxis errorminus="0.001" errorplus="0.001">0.079</semimajoraxis>
+			<eccentricity errorminus="0.1" errorplus="0.12">0.22</eccentricity>
+			<inclination errorminus="0.91" errorplus="0.79">88.81</inclination>
+			<transittime errorminus="0.00036" errorplus="0.00036">2456347.79679</transittime>
+			<description>KELT-6b is a Saturn-mass planet transiting a metal-poor host star. The planet candidate was originally discovered by the KELT-North survey. Follow up observation confirmed the planetary nature of the candidate using a combination of photometry, high-resolution imaging, high resolution spectroscopy and radial velocity measurements.</description>
+			<discoverymethod>transit</discoverymethod>
+			<lastupdate>13/08/13</lastupdate>
+			<discoveryyear>2013</discoveryyear>
+			<new>1</new>
+		</planet>
+	</star>
+</system>
