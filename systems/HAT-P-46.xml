@@ -1,0 +1,35 @@
+<system>
+	<name>HAT-P-46</name>
+	<rightascension>18 01 47</rightascension>
+	<declination>-02 58 15</declination>
+	<distance errorminus="29" errorplus="61">296</distance>
+	<star>
+		<name>HAT-P-46</name>
+		<name>GSC 5100-00045</name>
+		<name>2MASS 18014660-0258154</name>
+		<mass errorminus="0.060" errorplus="0.095">1.284</mass>
+		<radius errorminus="0.136" errorplus="0.293">1.396</radius>
+		<temperature errorminus="100" errorplus="100">6120</temperature>
+		<magV errorminus="0.34" errorplus="0.34">3.79</magV>
+		<age errorminus="1" errorplus="0.7">2.5</age>
+		<metallicity errorminus="0.1" errorplus="0.1">0.3</metallicity>
+		<planet>
+			<name>HAT-P-46 b</name>
+			<name>GSC 5100-00045 b</name>
+			<name>2MASS 18014660-0258154 b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.052" errorplus="0.082">0.493</mass>
+			<radius errorminus="0.133" errorplus="0.271">1.284</radius>
+			<temperature errorminus="75" errorplus="140">1458</temperature>
+			<semimajoraxis errorminus="0.0009" errorplus="0.0014">0.0577</semimajoraxis>
+			<eccentricity errorminus="0.120" errorplus="0.120">0.123</eccentricity>
+			<inclination errorminus="2.3" errorplus="0.8">85.5</inclination>
+			<periastron errorminus="87" errorplus="87">70</periastron>
+			<description>This planet was disocerved by the HATNet transit survey. The RV data suggest there might be a second planet with an orbital period of 78 days in the system. However, more data is required to confirm its existance.</description>
+			<discoverymethod>transit</discoverymethod>
+			<lastupdate>13/08/16</lastupdate>
+			<discoveryyear>2013</discoveryyear>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

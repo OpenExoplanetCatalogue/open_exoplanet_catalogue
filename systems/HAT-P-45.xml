@@ -1,0 +1,37 @@
+<system>
+	<name>HAT-P-45</name>
+	<rightascension>18 17 29</rightascension>
+	<declination>-03 22 52</declination>
+	<distance errorminus="17" errorplus="35">305</distance>
+	<star>
+		<name>HAT-P-45</name>
+		<name>GSC 5102-00262</name>
+		<name>2MASS 18172957-0322517</name>
+		<mass errorminus="0.058" errorplus="0.058">1.259</mass>
+		<radius errorminus="0.072" errorplus="0.155">1.319</radius>
+		<temperature errorminus="100" errorplus="100">6330</temperature>
+		<magV errorminus="0.21" errorplus="0.21">3.75</magV>
+		<metallicity errorminus="0.1" errorplus="0.1">0.07"</metallicity>
+		<age errorminus="0.8" errorplus="0.8">2</age>
+		<planet>
+			<name>HAT-P-45 b</name>
+			<name>GSC 5102-00262 b</name>
+			<name>2MASS 18172957-0322517 b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.099" errorplus="0.137">0.892</mass>
+			<radius errorminus="0.087" errorplus="0.175">1.426</radius>
+			<temperature errorminus="52" errorplus="90">1652</temperature>
+			<period errorminus="0.000021" errorplus="0.000021">3.128992</period>
+			<transittime errorminus="0.00041" errorplus="0.00041">2455729.98612</transittime>
+			<semimajoraxis errorminus="0.0007" errorplus="0.0007">0.0452</semimajoraxis>
+			<eccentricity errorminus="0.063" errorplus="0.063">0.049</eccentricity>
+			<inclination errorminus="0.9" errorplus="0.9">87.8</inclination>
+			<periastron errorminus="98" errorplus="98">146</periastron>
+			<description>This planet was disocerved by the HATNet transit survey. The RV data suggest there might be a second planet in the system. However, the data currently preferres a single planet solution.</description>
+			<discoverymethod>transit</discoverymethod>
+			<lastupdate>13/08/16</lastupdate>
+			<discoveryyear>2013</discoveryyear>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

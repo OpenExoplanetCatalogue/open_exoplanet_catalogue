@@ -1,0 +1,50 @@
+<system>
+	<name>HAT-P-44</name>
+	<rightascension>14 12 35</rightascension>
+	<declination>+47 00 53</declination>
+	<distance errorminus="23" errorplus="42">374</distance>
+	<star>
+		<name>HAT-P-44</name>
+		<name>GSC 3465-00123</name>
+		<name>2MASS 14123457+4700528</name>
+		<mass errorminus="0.041" errorplus="0.041">0.939</mass>
+		<radius errorminus="0.055" errorplus="0.110">0.979</radius>
+		<temperature errorminus="100" errorplus="100">5295</temperature>
+		<magV errorminus="0.23" errorplus="0.23">5.34</magV>
+		<metallicity errorminus="0.10" errorplus="0.10">0.33</metallicity>
+		<age errorminus="3.9" errorplus="3.9">8.9</age>
+		<planet>
+			<name>HAT-P-44 b</name>
+			<name>GSC 3465-00123 b</name>
+			<name>2MASS 14123457+4700528 b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.077" errorplus="0.077">0.347</mass>
+			<radius errorminus="0.074" errorplus="0.145">1.28</radius>
+			<temperature errorminus="42" errorplus="67">1126</temperature>
+			<semimajoraxis errorminus="0.0007" errorplus="0.0007">0.0507</semimajoraxis>
+			<eccentricity errorminus="0.071" errorplus="0.071">0.072</eccentricity>
+			<inclination errorminus="0.5" errorplus="0.5">89</inclination>
+			<periastron errorminus="84" errorplus="84">98</periastron>
+			<description>This planet was disocerved by the HATNet transit survey. Follow up observations to measure the radial velocity of the star confirmed the planetary nature.</description>
+			<discoverymethod>transit</discoverymethod>
+			<lastupdate>13/08/16</lastupdate>
+			<discoveryyear>2013</discoveryyear>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>HAT-P-44 b</name>
+			<name>GSC 3465-00123 b</name>
+			<name>2MASS 14123457+4700528 b</name>
+			<list>Confirmed planets</list>
+			<period errorminus="4.5" errorplus="4.5">219.9</period>
+			<mass errorminus="0.2" errorplus="0.2">1.6</mass>
+			<transittime errorminus="4.1" errorplus="4.1">2455686.2</transittime>
+			<discoverymethod>transit</discoverymethod>
+			<semimajoraxis errorminus="0.014" errorplus="0.014">0.699</semimajoraxis>
+			<description>This planet was disocerved by the HATNet transit survey. Follow up observations to measure the radial velocity of the star confirmed the planetary nature. However, due to aliasing one cannot rule out an alternative solution for the outer planet having a period of 438 days and a minimum mass of 3.7 Jupiter masses.</description>
+			<lastupdate>13/08/16</lastupdate>
+			<discoveryyear>2013</discoveryyear>
+			<new>1</new>
+		</planet>
+	</star>
+</system>
