@@ -49,7 +49,6 @@ The following table shows all the possible tags in the Open Exoplanet Catalogue.
 | `description` 	| `planet` | Short description of the planet  |   |
 | `image` 		| `planet` | Filename without extension of a picture of the planet. File is stored in the images directory. |   |
 | `imagedescription`	| `planet` | Short description and copyright information of the image. |   |
-| `new`		| `planet` | The value for this tag is 1 if the system has been added recently (since the last update or within 48 hours) |   |
 | `discoveryyear`	| `planet` | Year of the planet's discovery | yyyy  |
 | `lastupdate`	| `planet` | Date of the last (non-trivial) update | yy/mm/dd   |
 
