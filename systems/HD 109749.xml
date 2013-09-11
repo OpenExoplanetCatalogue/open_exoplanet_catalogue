@@ -3,25 +3,32 @@
 	<rightascension>12 37 16</rightascension>
 	<declination>-40 48 43</declination>
 	<distance>59</distance>
-	<star>
-		<mass>1.2</mass>
-		<magV>8.1</magV>
-		<magB>8.76</magB>
-		<metallicity>0.25</metallicity>
-		<spectraltype>G3 IV</spectraltype>
-		<planet>
-			<name>HD 109749 b</name>
-			<list>Confirmed planets</list>
-			<mass>0.28</mass>
-			<period>5.24</period>
-			<semimajoraxis>0.0635</semimajoraxis>
-			<eccentricity>0.01</eccentricity>
-			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/12/23</lastupdate>
-			<discoveryyear>2005</discoveryyear>
-			<temperature>1161.9</temperature>
-		</planet>
-		<name>HD 109749</name>
-		<temperature>5610.0</temperature>
-	</star>
+	<binary>
+		<semimajoraxis>495.6</semimajoraxis>
+		<star>
+			<name>HD 109749 A</name>
+			<mass>1.2</mass>
+			<magV>8.1</magV>
+			<magB>8.76</magB>
+			<metallicity>0.25</metallicity>
+			<spectraltype>G3 IV</spectraltype>
+			<planet>
+				<name>HD 109749 A b</name>
+				<list>Confirmed planets</list>
+				<mass>0.28</mass>
+				<period>5.24</period>
+				<semimajoraxis>0.0635</semimajoraxis>
+				<eccentricity>0.01</eccentricity>
+				<discoverymethod>RV</discoverymethod>
+				<lastupdate>10/12/23</lastupdate>
+				<discoveryyear>2005</discoveryyear>
+				<temperature>1161.9</temperature>
+			</planet>
+			<temperature>5610.0</temperature>
+		</star>
+		<star>
+			<name>HD 109749 B</name>
+			<mass>0.78</mass>
+		</star>
+	</binary>
 </system>
