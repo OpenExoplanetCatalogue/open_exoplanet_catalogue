@@ -7,6 +7,7 @@
 		<name>KOI-1992</name>
 		<temperature errorminus="102.00" errorplus="102.00">6064.00</temperature>
 		<radius errorminus="0.5200" errorplus="0.5200">0.9600</radius>
+		<mass errorminus="0.1200" errorplus="0.1200">1.0600</mass>
 		<age errorminus="2.0000" errorplus="2.0000">0.3000</age>
 		<planet>
 			<name>KOI-1992 b</name>
@@ -16,6 +17,17 @@
 			<transittime errorminus="0.0001300" errorplus="0.0001300">2454966.6464200</transittime>
 			<semimajoraxis>0.1090000</semimajoraxis>
 			<temperature>794.0</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-1992 c</name>
+			<name>KOI-1992 02</name>
+			<radius errorminus="0.24605" errorplus="0.24605">0.13670</radius>
+			<period errorminus="3.80000e-04" errorplus="3.80000e-04">27.321020000000</period>
+			<transittime errorminus="0.0086000" errorplus="0.0086000">2454987.3003000</transittime>
+			<semimajoraxis errorminus="1.7e-06" errorplus="1.7e-06">0.1809430</semimajoraxis>
+			<temperature errorminus="167.0" errorplus="167.0">617.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

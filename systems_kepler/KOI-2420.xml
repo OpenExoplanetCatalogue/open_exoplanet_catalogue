@@ -7,6 +7,7 @@
 		<name>KOI-2420</name>
 		<temperature errorminus="92.00" errorplus="92.00">5817.00</temperature>
 		<radius errorminus="0.4900" errorplus="0.4900">0.8800</radius>
+		<mass errorminus="0.1100" errorplus="0.1100">0.9800</mass>
 		<age errorminus="3.2000" errorplus="3.2000">0.5000</age>
 		<planet>
 			<name>KOI-2420 b</name>
@@ -16,6 +17,17 @@
 			<transittime errorminus="0.0078000" errorplus="0.0078000">2454970.4565000</transittime>
 			<semimajoraxis>0.0930000</semimajoraxis>
 			<temperature>788.0</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-2420 c</name>
+			<name>KOI-2420 02</name>
+			<radius errorminus="0.07473" errorplus="0.07473">0.08566</radius>
+			<period errorminus="8.40000e-05" errorplus="8.40000e-05">5.467454000000</period>
+			<transittime errorminus="0.0087000" errorplus="0.0087000">2454966.4352000</transittime>
+			<semimajoraxis errorminus="6.2e-07" errorplus="6.2e-07">0.0603332</semimajoraxis>
+			<temperature errorminus="273.0" errorplus="273.0">977.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

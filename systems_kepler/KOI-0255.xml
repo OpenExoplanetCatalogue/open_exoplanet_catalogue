@@ -10,6 +10,7 @@
 		<name>KOI-0255</name>
 		<temperature errorminus="91.00" errorplus="91.00">4057.00</temperature>
 		<radius errorminus="0.0130" errorplus="0.0130">0.5230</radius>
+		<mass errorminus="0.0170" errorplus="0.0170">0.5470</mass>
 		<age errorminus="3.4000" errorplus="3.4000">13.8000</age>
 		<planet>
 			<name>KOI-0255 b</name>
@@ -19,6 +20,17 @@
 			<transittime errorminus="0.0012000" errorplus="0.0012000">2455022.8255000</transittime>
 			<semimajoraxis>0.1460000</semimajoraxis>
 			<temperature>339.0</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-0255 c</name>
+			<name>KOI-0255 02</name>
+			<radius errorminus="0.09113" errorplus="0.09113">0.07290</radius>
+			<period errorminus="1.80000e-04" errorplus="1.80000e-04">13.602740000000</period>
+			<transittime errorminus="0.0079000" errorplus="0.0079000">2454973.4108000</transittime>
+			<semimajoraxis errorminus="7.9e-07" errorplus="7.9e-07">0.0912254</semimajoraxis>
+			<temperature errorminus="11.0" errorplus="11.0">429.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

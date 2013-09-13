@@ -7,6 +7,7 @@
 		<name>KOI-1960</name>
 		<temperature errorminus="133.00" errorplus="133.00">6111.00</temperature>
 		<radius errorminus="0.4600" errorplus="0.4600">1.0600</radius>
+		<mass errorminus="0.1300" errorplus="0.1300">1.0500</mass>
 		<age errorminus="1.7000" errorplus="1.7000">2.9000</age>
 		<planet>
 			<name>KOI-1960 b</name>
@@ -16,6 +17,17 @@
 			<transittime errorminus="0.0000650" errorplus="0.0000650">2454972.3905860</transittime>
 			<semimajoraxis>0.0860000</semimajoraxis>
 			<temperature>947.0</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-1960 c</name>
+			<name>KOI-1960 02</name>
+			<radius errorminus="0.10024" errorplus="0.10024">0.13670</radius>
+			<period errorminus="2.20000e-04" errorplus="2.20000e-04">23.221830000000</period>
+			<transittime errorminus="0.0057000" errorplus="0.0057000">2454984.0680000</transittime>
+			<semimajoraxis errorminus="1.0e-06" errorplus="1.0e-06">0.1620730</semimajoraxis>
+			<temperature errorminus="151.0" errorplus="151.0">690.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

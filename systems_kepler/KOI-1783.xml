@@ -10,6 +10,7 @@
 		<name>KOI-1783</name>
 		<temperature errorminus="75.00" errorplus="75.00">6235.00</temperature>
 		<radius errorminus="0.3700" errorplus="0.3700">1.0300</radius>
+		<mass errorminus="0.0940" errorplus="0.0940">1.1150</mass>
 		<age errorminus="1.3000" errorplus="1.3000">0.2000</age>
 		<planet>
 			<name>KOI-1783 b</name>
@@ -19,6 +20,17 @@
 			<transittime errorminus="0.0016000" errorplus="0.0016000">2455002.2786000</transittime>
 			<semimajoraxis>0.5330000</semimajoraxis>
 			<temperature>382.0</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-1783 c</name>
+			<name>KOI-1783 02</name>
+			<radius errorminus="0.17315" errorplus="0.17315">0.47388</radius>
+			<period errorminus="2.00000e-03" errorplus="2.00000e-03">284.042300000000</period>
+			<transittime errorminus="0.0027000" errorplus="0.0027000">2455033.8513000</transittime>
+			<semimajoraxis>0.8770000</semimajoraxis>
+			<temperature>298.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

@@ -10,6 +10,7 @@
 		<name>KOI-0520</name>
 		<temperature errorminus="83.00" errorplus="83.00">5166.00</temperature>
 		<radius errorminus="0.9300" errorplus="0.9300">0.7900</radius>
+		<mass errorminus="0.2200" errorplus="0.2200">0.7700</mass>
 		<age errorminus="2.9000" errorplus="2.9000">13.7000</age>
 		<planet>
 			<name>KOI-0520 b</name>
@@ -30,6 +31,17 @@
 			<transittime errorminus="0.0036000" errorplus="0.0036000">2454971.3736000</transittime>
 			<semimajoraxis>0.0550000</semimajoraxis>
 			<temperature>861.0</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-0520 d</name>
+			<name>KOI-0520 03</name>
+			<radius errorminus="0.29162" errorplus="0.29162">0.24605</radius>
+			<period errorminus="2.00000e-04" errorplus="2.00000e-04">25.751010000000</period>
+			<transittime errorminus="0.0028000" errorplus="0.0028000">2454969.4610000</transittime>
+			<semimajoraxis>0.1560000</semimajoraxis>
+			<temperature>511.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

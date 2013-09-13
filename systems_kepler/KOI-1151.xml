@@ -10,6 +10,7 @@
 		<name>KOI-1151</name>
 		<temperature errorminus="70.00" errorplus="70.00">5759.00</temperature>
 		<radius errorminus="0.3500" errorplus="0.3500">0.9700</radius>
+		<mass errorminus="0.0590" errorplus="0.0590">0.9250</mass>
 		<age errorminus="3.0000" errorplus="3.0000">7.1000</age>
 		<planet>
 			<name>KOI-1151 b</name>
@@ -30,6 +31,17 @@
 			<transittime errorminus="0.0047000" errorplus="0.0047000">2454968.7436000</transittime>
 			<semimajoraxis>0.0720000</semimajoraxis>
 			<temperature>933.0</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-1151 d</name>
+			<name>KOI-1151 03</name>
+			<radius errorminus="0.03281" errorplus="0.03281">0.07564</radius>
+			<period errorminus="5.30000e-05" errorplus="5.30000e-05">5.249722000000</period>
+			<transittime errorminus="0.0054000" errorplus="0.0054000">2454968.4660000</transittime>
+			<semimajoraxis errorminus="3.9e-07" errorplus="3.9e-07">0.0575794</semimajoraxis>
+			<temperature errorminus="186.0" errorplus="186.0">1043.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

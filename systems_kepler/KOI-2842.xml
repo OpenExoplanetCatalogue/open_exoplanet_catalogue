@@ -7,6 +7,7 @@
 		<name>KOI-2842</name>
 		<temperature errorminus="200.00" errorplus="200.00">3553.00</temperature>
 		<radius errorminus="0.3000" errorplus="0.3000">0.9200</radius>
+		<mass errorminus="0.3000" errorplus="0.3000">0.5600</mass>
 		<planet>
 			<name>KOI-2842 b</name>
 			<name>KOI-2842 01</name>
@@ -26,6 +27,17 @@
 			<transittime errorminus="0.0360000" errorplus="0.0360000">2454966.3030000</transittime>
 			<semimajoraxis>0.0480000</semimajoraxis>
 			<temperature>687.0</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-2842 d</name>
+			<name>KOI-2842 03</name>
+			<radius errorminus="0.67436" errorplus="0.67436">0.41009</radius>
+			<period errorminus="1.00000e-05" errorplus="1.00000e-05">3.036204000000</period>
+			<transittime errorminus="0.0016000" errorplus="0.0016000">2454967.0604000</transittime>
+			<semimajoraxis errorminus="7.7e-08" errorplus="7.7e-08">0.0337861</semimajoraxis>
+			<temperature errorminus=".0" errorplus="0.0">818.8</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

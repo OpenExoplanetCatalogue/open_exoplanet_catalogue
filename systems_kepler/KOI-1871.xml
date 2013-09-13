@@ -7,6 +7,7 @@
 		<name>KOI-1871</name>
 		<temperature errorminus="64.00" errorplus="64.00">4572.00</temperature>
 		<radius errorminus="0.0140" errorplus="0.0140">0.6160</radius>
+		<mass errorminus="0.0160" errorplus="0.0160">0.6440</mass>
 		<age errorminus="3.6000" errorplus="3.6000">14.0000</age>
 		<planet>
 			<name>KOI-1871 b</name>
@@ -16,6 +17,17 @@
 			<transittime errorminus="0.0050000" errorplus="0.0050000">2455010.4538000</transittime>
 			<semimajoraxis>0.3460000</semimajoraxis>
 			<temperature>269.0</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-1871 c</name>
+			<name>KOI-1871 02</name>
+			<radius errorminus="0.02916" errorplus="0.02916">0.16586</radius>
+			<period errorminus="3.70000e-04" errorplus="3.70000e-04">32.376700000000</period>
+			<transittime errorminus="0.0043000" errorplus="0.0043000">2454983.4052000</transittime>
+			<semimajoraxis>0.1720000</semimajoraxis>
+			<temperature>382.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
