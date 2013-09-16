@@ -25,7 +25,7 @@
 			<discoveryyear>2013</discoveryyear>
 		</planet>
 		<planet>
-			<name>KOI-156 c</name>
+			<name>KOI-156 d</name>
 			<name>KOI-156 3</name>
 			<radius errorminus="0.00729" errorplus="0.00729">0.23056</radius>
 			<mass errorminus="0.00189" errorplus="0.02328">0.01510</mass>
@@ -35,6 +35,17 @@
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>13/09/13</lastupdate>
 			<discoveryyear>2013</discoveryyear>
+		</planet>
+		<planet>
+			<name>KOI-0156 c</name>
+			<name>KOI-0156 02</name>
+			<radius errorminus="0.00729" errorplus="0.00729">0.10753</radius>
+			<period errorminus="2.90000e-05" errorplus="2.90000e-05">5.188548000000</period>
+			<transittime errorminus="0.0019000" errorplus="0.0019000">2454978.3635000</transittime>
+			<semimajoraxis>0.0520000</semimajoraxis>
+			<temperature>722.0</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
 	</star>
 </system>
