@@ -7,6 +7,7 @@
 		<name>KOI-1760</name>
 		<temperature errorminus="113.00" errorplus="113.00">5372.00</temperature>
 		<radius errorminus="0.4600" errorplus="0.4600">0.8600</radius>
+		<mass errorminus="0.0810" errorplus="0.0810">0.8160</mass>
 		<age errorminus="3.7000" errorplus="3.7000">11.6000</age>
 		<planet>
 			<name>KOI-1760 b</name>
@@ -25,8 +26,8 @@
 			<radius errorminus="0.08657" errorplus="0.08657">0.15492</radius>
 			<period errorminus="1.80000e-04" errorplus="1.80000e-04">8.775140000000</period>
 			<transittime errorminus="0.0074000" errorplus="0.0074000">2454966.7028000</transittime>
-			<semimajoraxis>0.0780000</semimajoraxis>
-			<temperature>785.0</temperature>
+			<semimajoraxis errorminus="5.3e-07" errorplus="5.3e-07">0.0780000</semimajoraxis>
+			<temperature errorminus="214.0" errorplus="214.0">785.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

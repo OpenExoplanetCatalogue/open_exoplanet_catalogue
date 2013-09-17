@@ -1,0 +1,20 @@
+<system>
+	<name>KOI-3770</name>
+	<rightascension>19 23 44</rightascension>
+	<declination>+40 07 29</declination>
+	<star>
+		<name>KOI-3770</name>
+		<radius errorminus=".0000" errorplus="0.0000">1.1210</radius>
+		<planet>
+			<name>KOI-3770 b</name>
+			<name>KOI-3770 01</name>
+			<radius errorminus="0.01002" errorplus="0.01002">0.65705</radius>
+			<period errorminus="1.30000e-06" errorplus="1.30000e-06">2.607275600000</period>
+			<transittime errorminus="0.0002900" errorplus="0.0002900">2454964.8266400</transittime>
+			<semimajoraxis errorminus="1.3e-08" errorplus="1.3e-08">0.0384792</semimajoraxis>
+			<temperature errorminus=".0" errorplus="0.0">1456.8</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+	</star>
+</system>

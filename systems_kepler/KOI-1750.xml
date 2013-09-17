@@ -7,6 +7,7 @@
 		<name>KOI-1750</name>
 		<temperature errorminus="99.00" errorplus="99.00">5800.00</temperature>
 		<radius errorminus="0.6800" errorplus="0.6800">0.9400</radius>
+		<mass errorminus="0.1800" errorplus="0.1800">0.9500</mass>
 		<age errorminus="3.2000" errorplus="3.2000">4.8000</age>
 		<planet>
 			<name>KOI-1750 b</name>
@@ -16,6 +17,17 @@
 			<transittime errorminus="0.0000930" errorplus="0.0000930">2454971.0537330</transittime>
 			<semimajoraxis>0.0750000</semimajoraxis>
 			<temperature>906.0</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-1750 c</name>
+			<name>KOI-1750 02</name>
+			<radius errorminus="0.04648" errorplus="0.04648">0.09386</radius>
+			<period errorminus="1.90000e-05" errorplus="1.90000e-05">2.537405000000</period>
+			<transittime errorminus="0.0033000" errorplus="0.0033000">2454965.3474000</transittime>
+			<semimajoraxis errorminus="1.8e-07" errorplus="1.8e-07">0.0357561</semimajoraxis>
+			<temperature errorminus="478.0" errorplus="478.0">1312.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

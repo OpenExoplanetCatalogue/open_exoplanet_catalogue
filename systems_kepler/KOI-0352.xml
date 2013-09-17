@@ -10,6 +10,7 @@
 		<name>KOI-0352</name>
 		<temperature errorminus="91.00" errorplus="91.00">6002.00</temperature>
 		<radius errorminus="0.4100" errorplus="0.4100">1.0600</radius>
+		<mass errorminus="0.0900" errorplus="0.0900">1.0080</mass>
 		<age errorminus="2.0000" errorplus="2.0000">4.8000</age>
 		<planet>
 			<name>KOI-0352 b</name>
@@ -19,6 +20,17 @@
 			<transittime errorminus="0.0001700" errorplus="0.0001700">2455024.8073500</transittime>
 			<semimajoraxis>0.1770000</semimajoraxis>
 			<temperature>649.0</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-0352 c</name>
+			<name>KOI-0352 02</name>
+			<radius errorminus="0.07837" errorplus="0.07837">0.20231</radius>
+			<period errorminus="9.20000e-03" errorplus="9.20000e-03">16.007500000000</period>
+			<transittime errorminus="0.0001100" errorplus="0.0001100">2454975.6366900</transittime>
+			<semimajoraxis errorminus="4.5e-07" errorplus="4.5e-07">0.1250000</semimajoraxis>
+			<temperature errorminus="150.0" errorplus="150.0">772.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

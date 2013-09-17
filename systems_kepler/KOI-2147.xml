@@ -7,6 +7,7 @@
 		<name>KOI-2147</name>
 		<temperature errorminus="79.00" errorplus="79.00">5873.00</temperature>
 		<radius errorminus="0.3600" errorplus="0.3600">0.8900</radius>
+		<mass errorminus="0.0720" errorplus="0.0720">0.9960</mass>
 		<age errorminus="3.0000" errorplus="3.0000">0.4000</age>
 		<planet>
 			<name>KOI-2147 b</name>
@@ -16,6 +17,17 @@
 			<transittime errorminus="0.0004200" errorplus="0.0004200">2454967.3587200</transittime>
 			<semimajoraxis>0.2200000</semimajoraxis>
 			<temperature>521.0</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-2147 c</name>
+			<name>KOI-2147 02</name>
+			<radius errorminus="0.07746" errorplus="0.07746">0.10298</radius>
+			<period errorminus="9.90000e-05" errorplus="9.90000e-05">10.327136000000</period>
+			<transittime errorminus="0.0055000" errorplus="0.0055000">2454972.3812000</transittime>
+			<semimajoraxis errorminus="5.9e-07" errorplus="5.9e-07">0.0926692</semimajoraxis>
+			<temperature errorminus="163.0" errorplus="163.0">803.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

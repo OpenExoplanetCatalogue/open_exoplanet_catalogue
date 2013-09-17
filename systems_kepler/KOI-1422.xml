@@ -10,6 +10,7 @@
 		<name>KOI-1422</name>
 		<temperature errorminus="200.00" errorplus="200.00">3862.00</temperature>
 		<radius errorminus="0.0230" errorplus="0.0230">0.5000</radius>
+		<mass errorminus="0.0330" errorplus="0.0330">0.5160</mass>
 		<age errorminus="3.7000" errorplus="3.7000">13.9000</age>
 		<planet>
 			<name>KOI-1422 b</name>
@@ -41,6 +42,28 @@
 			<transittime errorminus="0.0046000" errorplus="0.0046000">2454967.7505000</transittime>
 			<semimajoraxis>0.0370000</semimajoraxis>
 			<temperature>626.0</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-1422 e</name>
+			<name>KOI-1422 04</name>
+			<radius errorminus="0.04192" errorplus="0.04192">0.14945</radius>
+			<period errorminus="9.40000e-04" errorplus="9.40000e-04">63.338280000000</period>
+			<transittime errorminus="0.0071000" errorplus="0.0071000">2454995.5928000</transittime>
+			<semimajoraxis errorminus="2.5e-06" errorplus="2.5e-06">0.2490000</semimajoraxis>
+			<temperature errorminus="13.0" errorplus="13.0">241.0</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-1422 f</name>
+			<name>KOI-1422 05</name>
+			<radius errorminus="0.03554" errorplus="0.03554">0.12941</radius>
+			<period errorminus="4.40000e-04" errorplus="4.40000e-04">34.142480000000</period>
+			<transittime errorminus="0.0067000" errorplus="0.0067000">2454969.0346000</transittime>
+			<semimajoraxis>0.1650000</semimajoraxis>
+			<temperature>297.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

@@ -7,6 +7,7 @@
 		<name>KOI-1833</name>
 		<temperature errorminus="59.00" errorplus="59.00">4495.00</temperature>
 		<radius errorminus="0.0130" errorplus="0.0130">0.5990</radius>
+		<mass errorminus="0.0150" errorplus="0.0150">0.6290</mass>
 		<age errorminus="3.7000" errorplus="3.7000">13.9000</age>
 		<planet>
 			<name>KOI-1833 b</name>
@@ -27,6 +28,17 @@
 			<transittime errorminus="0.0007900" errorplus="0.0007900">2454966.3594200</transittime>
 			<semimajoraxis errorminus="6.4e-08" errorplus="6.4e-08">0.0653209</semimajoraxis>
 			<temperature errorminus="10.0" errorplus="10.0">601.0</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
+			<name>KOI-1833 d</name>
+			<name>KOI-1833 03</name>
+			<radius errorminus="0.06379" errorplus="0.06379">0.13305</radius>
+			<period errorminus="1.50000e-05" errorplus="1.50000e-05">5.709387000000</period>
+			<transittime errorminus="0.0014000" errorplus="0.0014000">2454970.1238000</transittime>
+			<semimajoraxis errorminus="9.6e-08" errorplus="9.6e-08">0.0535848</semimajoraxis>
+			<temperature errorminus="11.0" errorplus="11.0">663.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
