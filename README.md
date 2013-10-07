@@ -48,8 +48,6 @@ The following table shows all the possible tags in the Open Exoplanet Catalogue.
 | | | | |
 | `discoverymethod` 	| `planet` | Discovery method of the planet. For example: timing, RV, transit, imaging.  |   |
 | `description` 	| `planet` | Short description of the planet  |   |
-| `image` 		| `planet` | Filename without extension of a picture of the planet. File is stored in the images directory. |   |
-| `imagedescription`	| `planet` | Short description and copyright information of the image. |   |
 | `discoveryyear`	| `planet` | Year of the planet's discovery | yyyy  |
 | `lastupdate`	| `planet` | Date of the last (non-trivial) update | yy/mm/dd   |
 
@@ -112,6 +110,7 @@ The following list contains links to other catalogues, websites and apps that ar
 
  * [oec_web](https://github.com/hannorein/oec_web): A suite of HTML pages acting as a front-end of the Open Exoplanet Catalogue. It includes visualizations of orbits, planet sizes and habitable zones. It also includes a plotting tool to generate correlation diagrams. The website is hosted at [openexoplanetcatalogue.com](http://openexoplanetcatalogue.com).
  * [oec_plots](https://github.com/hannorein/oec_plots): Plots and example scripts that make use of the Open Exoplanet Catalogue.
+ * [oec_outreach](https://github.com/hannorein/oec_outreach): A clone of the main repository with images and tags that are mainly used for outreach purposes.
  * [oec_iphone](https://github.com/hannorein/oec_iphone): Compressed files, references to refereed publications, resized images and legacy support for various versions of the mobile version are in the repository.
  * [iPhone Exoplanet App](http://exoplanetapp.com): Popular iOS application with many visualizations of the entire catalogue. Version 9.1 and later will fully support planets in multiple star systems.
 
