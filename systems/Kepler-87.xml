@@ -1,0 +1,52 @@
+<system>
+	<name>Kepler-87</name>
+	<rightascension>19 51 40</rightascension>
+	<declination>+46 57 54</declination>
+	<distance>781.83</distance>
+	<star>
+		<name>Kepler-87</name>
+		<name>KOI-1574</name>
+		<magJ errorminus="0.022" errorplus="0.022">13.389</magJ>
+		<magH errorminus="0.022" errorplus="0.022">13.033</magH>
+		<magK errorminus="0.024" errorplus="0.024">12.981</magK>
+		<temperature errorminus="50" errorplus="50">5600</temperature>
+		<metallicity errorminus="0.03" errorplus="0.03">-0.17</metallicity>
+		<mass errorminus="0.06" errorplus="0.06">1.05</mass>
+		<radius errorminus="0.04" errorplus="0.04">1.82</radius>
+		<age errorminus="0.5" errorplus="0.5">7.5</age>
+		<planet>
+			<name>Kepler-87 b</name>
+			<name>KOI-1574 b</name>
+			<name>KOI-1574 01</name>
+			<radius errorminus="0.026428" errorplus="0.026428">1.229348</radius>
+			<mass errorminus="0.027682" errorplus="0.027682">1.019836</mass>
+			<period errorminus="0.0005" errorplus="0.0005">114.7309</period>
+			<transittime errorminus="0.0013000" errorplus="0.0013000">2454998.1507000</transittime>
+			<semimajoraxis errorminus="0.01" errorplus="0.01">0.471</semimajoraxis>
+			<eccentricity errorminus="0.009" errorplus="0.009">0.036</eccentricity>
+			<temperature errorminus="4.3" errorplus="4.3">478.1</temperature>
+			<description>The Kepler-87 system consists of at least two planets which have been confirmed using transit timing variations (TTV). There might be two more planets in the system which have not been confirmed yet.</description>
+			<discoverymethod>transit</discoverymethod>
+			<lastupdate>13/10/10</lastupdate>
+			<discoveryyear>2013</discoveryyear>
+			<list>Confirmed planets</list>
+		</planet>
+		<planet>
+			<name>Kepler-87 c</name>
+			<name>KOI-1574 c</name>
+			<name>KOI-1574 02</name>
+			<radius errorminus="0.026428" errorplus="0.026428">0.559540</radius>
+			<mass errorminus="0.002517" errorplus="0.002517">0.020132</mass>
+			<period errorminus="0.074" errorplus="0.074">192.363</period>
+			<transittime errorminus="0.0080000" errorplus="0.0080000">2455119.0823000</transittime>
+			<semimajoraxis errorminus="0.013" errorplus="0.013">0.664</semimajoraxis>
+			<eccentricity errorminus="0.012" errorplus="0.012">0.039</eccentricity>
+			<temperature errorminus="3.6" errorplus="3.6">403.3</temperature>
+			<description>The Kepler-87 system consists of at least two planets. The planets have been confirmed using transit timing variations (TTV). Kepler-87 c is the lowest density planet in the super-Earth range.</description>
+			<discoverymethod>transit</discoverymethod>
+			<lastupdate>13/10/10</lastupdate>
+			<discoveryyear>2013</discoveryyear>
+			<list>Confirmed planets</list>
+		</planet>
+	</star>
+</system>
