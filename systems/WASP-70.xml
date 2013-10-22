@@ -1,18 +1,38 @@
 <system>
 	<name>WASP-70</name>
-	<star>
-		<planet>
-			<name>WASP-70 b</name>
-			<list>Confirmed planets</list>
-			<mass>0.6</mass>
-			<radius>0.8</radius>
-			<period>3.7</period>
-			<description>This planet has been announced at the Extreme Solar Systems II conference in Jackson Hole by the WASP team.</description>
-			<discoverymethod>transit</discoverymethod>
-			<lastupdate>11/09/13</lastupdate>
-			<discoveryyear>2011</discoveryyear>
-		</planet>
-		<name>WASP-70</name>
-		<temperature>5700.0</temperature>
-	</star>
+	<rightascension>21 01 54</rightascension>
+	<declination>-13 25 60</declination>
+	<distance errorminus="20" errorplus="20">245</distance>
+	<binary>
+		<semimajoraxis>800</semimajoraxis>
+		<star>
+			<name>WASP-70 B</name>
+			<temperature errorminus="200" errorplus="200">4900</temperature>
+			<spectraltype>K3</spectraltype>
+			<age errorminus="0.5" errorplus="0.5">9.5</age>
+		</star>
+		<star>
+			<name>WASP-70 A</name>
+			<mass errorminus="0.042" errorplus="0.042">1.106</mass>
+			<radius errorminus="0.089" errorplus="0.064">1.215</radius>
+			<metallicity errorminus="0.063" errorplus="0.063">-0.006</metallicity>
+			<age errorminus="0.5" errorplus="0.5">9.5</age>
+			<planet>
+				<name>WASP-70A b</name>
+				<list>Confirmed planets</list>
+				<mass errorminus="0.022" errorplus="0.022">0.59</mass>
+				<radius errorminus="0.102" errorplus="0.073">1.164</radius>
+				<semimajoraxis errorminus="0.00062" errorplus="0.00062">0.04853</semimajoraxis>
+				<temperature errorminus="40" errorplus="40">1387</temperature>
+				<period errorminus="0.0000047" errorplus="0.0000047">3.7130203</period>
+				<transittime errorminus="0.00027" errorplus="0.00027" unit="BJD">2455736.50348</transittime>
+				<inclination errorminus="0.65" errorplus="1.24">87.12</inclination>
+				<eccentricity upperlimit="0.067" />
+				<description>WASP-70A b is part of a binary system. The planet has been announced at the Extreme Solar Systems II conference in Jackson Hole by the WASP team. It was published in a paper in October 2013.</description>
+				<discoverymethod>transit</discoverymethod>
+				<lastupdate>13/10/22</lastupdate>
+				<discoveryyear>2011</discoveryyear>
+			</planet>
+		</star>
+	</binary>
 </system>
