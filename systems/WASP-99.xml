@@ -1,0 +1,34 @@
+<system>
+	<name>WASP-99</name>
+	<rightascension>02 39 35</rightascension>
+	<declination>-50 00 29</declination>
+	<star>
+		<name>WASP-99</name>
+		<name>1SWASP J023935.44-500028.8</name>
+		<name>2MASS 02393544-5000288</name>
+		<mass errorminus="0.1" errorplus="0.1">1.48</mass>
+		<radius errorminus="0.06" errorplus="0.11">1.76</radius>
+		<temperature errorminus="100" errorplus="100">6180</temperature>
+		<metallicity errorminus="0.15" errorplus="0.15">0.21</metallicity>
+		<age>1.4</age>
+		<spectraltype>F8</spectraltype>
+		<planet>
+			<name>WASP-99 b</name>
+			<name>1SWASP J023935.44-500028.8 b</name>
+			<name>2MASS 02393544-5000288 b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.13" errorplus="0.13">2.78</mass>
+			<radius errorminus="0.05" errorplus="0.08">1.1</radius>
+			<temperature errorminus="40" errorplus="40">1480</temperature>
+			<period errorminus="0.00004" errorplus="0.00004">5.75251</period>
+			<transittime errorminus="0.0014" errorplus="0.0014" unit="HJD">2456224.9824</transittime>
+			<semimajoraxis errorminus="0.0016" errorplus="0.0016">0.0717</semimajoraxis>
+			<eccentricity upperlimit="0.02" />
+			<inclination errorminus="1.1" errorplus="1.1">88.8</inclination>
+			<description>This is a hot Jupiter discovered by the WASP team.</description>
+			<discoverymethod>transit</discoverymethod>
+			<lastupdate>13/10/22</lastupdate>
+			<discoveryyear>2013</discoveryyear>
+		</planet>
+	</star>
+</system>
