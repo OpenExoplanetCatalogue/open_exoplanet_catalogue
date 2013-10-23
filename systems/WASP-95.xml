@@ -1,0 +1,34 @@
+<system>
+	<name>WASP-95</name>
+	<rightascension>22 29 50</rightascension>
+	<declination>-48 00 11</declination>
+	<star>
+		<name>WASP-95</name>
+		<name>1SWASP J222949.73-480011.0</name>
+		<name>2MASS 22294972-4800111</name>
+		<mass errorminus="0.09" errorplus="0.09">1.11</mass>
+		<radius errorminus="0.04" errorplus="0.08">1.13</radius>
+		<temperature errorminus="130" errorplus="130">5630</temperature>
+		<metallicity errorminus="0.16" errorplus="0.16">0.14</metallicity>
+		<age>3</age>
+		<spectraltype>G2</spectraltype>
+		<planet>
+			<name>WASP-95 b</name>
+			<name>1SWASP J222949.73-480011.0 b</name>
+			<name>2MASS 22294972-4800111 b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.04" errorplus="0.1">1.13</mass>
+			<radius errorminus="0.06" errorplus="0.06">1.21</radius>
+			<temperature errorminus="50" errorplus="50">1570</temperature>
+			<period errorminus="0.0000014" errorplus="0.0000014">2.1846730</period>
+			<transittime errorminus="0.00024" errorplus="0.00024" unit="HJD">2456338.45851</transittime>
+			<semimajoraxis errorminus="0.00083" errorplus="0.00083">0.03416</semimajoraxis>
+			<eccentricity upperlimit="0.04" />
+			<inclination errorminus="2.1" errorplus="1.2">88.4</inclination>
+			<description>This is a hot Jupiter discovered by the WASP team.</description>
+			<discoverymethod>transit</discoverymethod>
+			<lastupdate>13/10/22</lastupdate>
+			<discoveryyear>2013</discoveryyear>
+		</planet>
+	</star>
+</system>
