@@ -203,7 +203,7 @@ def generateList(path):
 #****************************MAIN*********************************          
 parser = MyHTMLParser()
 
-path = "systems_kepler"
+path = "systems"
 generateList(path)
 system_list = open("list.txt","r") #list of the systems to process
 line = system_list.readlines()
@@ -219,7 +219,17 @@ for elt in line:#read all the list of systems and run the parser class and the m
     spectre = ""
 
     planet = elt
-    code_source = urllib.urlopen('http://simbad.u-strasbg.fr/simbad/sim-basic?Ident='+planet).read()
+    try:
+        code_source = urllib.urlopen('http://simbad.u-strasbg.fr/simbad/sim-basic?Ident='+planet).read()
+    except IOError:
+        print('Lookup failed - sleeping for 10 seconds')
+        time.sleep(10)
+
+        try:
+            code_source = urllib.urlopen('http://simbad.u-strasbg.fr/simbad/sim-basic?Ident='+planet).read()
+        except IOError:
+            print('Lookup failed again for {} - skipping'.format(planet))
+            log.write('Lookup failed for {}'.format(planet))
     
     #First check its existence on simbad
     if not re.findall("Identifier not found in the database", code_source):
