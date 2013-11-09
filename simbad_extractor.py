@@ -70,18 +70,21 @@ def magnitude(dic, filename, path):
             read_file = readable.read()
             
             tabulation = ""
-            #positionning the magnitudes in the file
-            if "</magV>" in read_file:
-                elt_index = read_file.index("</magV>")
-                elt_len = len("</magV>")
-                if "<binary>" in read_file:
-                    tabulation = "\t"
-            elif "<binary>" in read_file:
-                elt_index = read_file.index("<binary>")
-                elt_len = len("<binary>")
-            else:
-                elt_index = read_file.index("<star>")
-                elt_len = len("<star>")
+            try:
+                #positionning the magnitudes in the file
+                if "</magV>" in read_file:
+                    elt_index = read_file.index("</magV>")
+                    elt_len = len("</magV>")
+                    if "<binary>" in read_file:
+                        tabulation = "\t"
+                elif "<binary>" in read_file:
+                    elt_index = read_file.index("<binary>")
+                    elt_len = len("<binary>")
+                else:
+                    elt_index = read_file.index("<star>")
+                    elt_len = len("<star>")
+            except ValueError: # ie free floating planet (no star or parent)
+                print '{} failed (no parent object tag'.format(filename)
 
         
         with open(path+"/"+filename+".xml", "w") as writable:#Write mag in the file
@@ -165,23 +168,27 @@ def spectralType(spectre, filename, path):
                 back_line = ""
                 
                 #Positionning of the information in the file.
-                if not "<binary>" in read_file:
-                    if not "<spectraltype>" in read_file:
-                        elt_index = read_file.index("<star>")
-                        elt_len = len("<star>")
-                        back_line = "\n"
-                        
-                        #Writing the SP (spectral type) in the file
-                        with open(path+"/"+filename+".xml","w") as writable:
-                                spectre = back_line+"\t\t"+tabulation+"<spectraltype>"+spectre+"</spectraltype>"
-                                read_file = read_file[0:elt_index+elt_len]+spectre+read_file[elt_index+elt_len:]
-                                writable.write(read_file)
-                                print filename+"\tSP done."
+                try:
+                    if not "<binary>" in read_file:
+                        if not "<spectraltype>" in read_file:
+                            elt_index = read_file.index("<star>")
+                            elt_len = len("<star>")
+                            back_line = "\n"
+                            
+                            #Writing the SP (spectral type) in the file
+                            with open(path+"/"+filename+".xml","w") as writable:
+                                    spectre = back_line+"\t\t"+tabulation+"<spectraltype>"+spectre+"</spectraltype>"
+                                    read_file = read_file[0:elt_index+elt_len]+spectre+read_file[elt_index+elt_len:]
+                                    writable.write(read_file)
+                                    print filename+"\tSP done."
+                        else:
+                            print filename, " has already a spectral type."
                     else:
-                        print filename, " has already a spectral type."
-                else:
-                    print filename, " is a binary system."
-                    log.write(filename+"\t:\tbinary system\n")
+                        print filename, " is a binary system."
+                        log.write(filename+"\t:\tbinary system\n")
+
+                except ValueError: # ie free floating planet (no star or parent)
+                    print '{} failed (no parent object tag - probably)'.format(filename)
     else:
         print filename, "not found."
     
