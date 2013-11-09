@@ -85,6 +85,7 @@ def magnitude(dic, filename, path):
                     elt_len = len("<star>")
             except ValueError: # ie free floating planet (no star or parent)
                 print '{} failed (no parent object tag'.format(filename)
+                return False
 
         
         with open(path+"/"+filename+".xml", "w") as writable:#Write mag in the file
@@ -242,14 +243,14 @@ for elt in line:#read all the list of systems and run the parser class and the m
     if not re.findall("Identifier not found in the database", code_source):
         parser.feed(code_source)
         magnitude(dictio, planet, path)
-        '''if re.search('Spectral type:( *<.*?>\n){5}\w*/?\w*', code_source):
-            extraction_spectre = re.search('Spectral type:( *<.*?>\n){5}\w*/?\w*', code_source).group(0)
-            spectre = re.search('(?<=<TT>\n)\w*/?\w*', extraction_spectre).group(0)
-            spectralType(spectre, planet, path)
-        else:
-            print elt, " has no spectral type."
-            log.write(elt+"\t:\tno spectral type\n")'''
-        
+        #if re.search('Spectral type:( *<.*?>\n){5}\w*/?\w*', code_source):
+        #    extraction_spectre = re.search('Spectral type:( *<.*?>\n){5}\w*/?\w*', code_source).group(0)
+        #    spectre = re.search('(?<=<TT>\n)\w*/?\w*', extraction_spectre).group(0)
+        #    spectralType(spectre, planet, path)
+        #else:
+        #    print elt, " has no spectral type."
+        #    log.write(elt+"\t:\tno spectral type\n")
+        #
     else:
         print planet,"\t:\t404 page not found"
         log.write(planet+" 404 page not found\n")
