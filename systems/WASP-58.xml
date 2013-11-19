@@ -7,6 +7,9 @@
 		<spectraltype>G2V</spectraltype>
 		<magB>12.33</magB>
 		<magV>11.66</magV>
+		<mass errorminus="0.10" errorplus="0.10">0.94</mass>
+		<radius errorminus="0.13" errorplus="0.13">1.17</radius>
+		<metallicity errorminus="0.09" errorplus="0.09">-0.45</metallicity>
 		<planet>
 			<name>WASP-58 b</name>
 			<list>Confirmed planets</list>
@@ -21,7 +24,7 @@
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>11/09/13</lastupdate>
 			<discoveryyear>2011</discoveryyear>
-			<temperature>1167.9</temperature>
+			<temperature errorminus="80" errorplus="80">1270</temperature>
 		</planet>
 		<name>WASP-58</name>
 		<temperature errorminus="150" errorplus="150">5800</temperature>

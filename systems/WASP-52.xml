@@ -4,23 +4,28 @@
 	<declination>08 45 41</declination>
 	<distance errorminus="20" errorplus="20">140</distance>
 	<star>
+		<mass errorminus="0.03" errorplus="0.03">0.87</mass>
+		<radius errorminus="0.02" errorplus="0.02">0.79</radius>
 		<spectraltype>K2V</spectraltype>
 		<magB>12.9</magB>
 		<magV>12.0</magV>
+		<metallicity errorminus="0.12" errorplus="0.12">0.03</metallicity>
 		<planet>
 			<name>WASP-52 b</name>
 			<list>Confirmed planets</list>
-			<mass>0.5</mass>
-			<radius>1.3</radius>
-			<period>1.7</period>
+			<mass errorminus="0.02" errorplus="0.02">0.46</mass>
+			<radius errorminus="0.03" errorplus="0.03">1.27</radius>
+			<period errorminus="0.0000012" errorplus="0.0000012">1.7497798</period>
 			<transittime errorminus="0.00009" errorplus="0.00009" unit="BJD">2455793.68218</transittime>
+			<inclination errorminus="0.20" errorplus="0.20">85.35</inclination>
+			<eccentricity>0</eccentricity>
 			<description>This planet has been announced at the Extreme Solar Systems II conference in Jackson Hole by the WASP team.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>11/09/13</lastupdate>
 			<discoveryyear>2011</discoveryyear>
-			<temperature>1188.1</temperature>
+			<temperature errorminus="35" errorplus="35">1315</temperature>
 		</planet>
 		<name>WASP-52</name>
-		<temperature>5000.0</temperature>
+		<temperature errorminus="100" errorplus="100">5000.0</temperature>
 	</star>
 </system>
