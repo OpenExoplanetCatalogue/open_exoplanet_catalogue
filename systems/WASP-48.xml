@@ -3,32 +3,32 @@
 	<rightascension>19 24 39</rightascension>
 	<declination>+55 28 23</declination>
 	<star>
-		<mass>1.19</mass>
-		<radius>1.75</radius>
+		<mass errorminus="0.05" errorplus="0.05">1.19</mass>
+		<radius errorminus="0.09" errorplus="0.09">1.75</radius>
 		<magV>11.06</magV>
 		<magB errorminus="0.18" errorplus="0.18">12.31</magB>
 		<magR errorminus="0.05" errorplus="0.05">11.61</magR>
 		<magJ errorminus="0.025" errorplus="0.025">10.627</magJ>
 		<magH errorminus="0.03" errorplus="0.03">10.44</magH>
 		<magK errorminus="0.022" errorplus="0.022">10.372</magK>
-		<metallicity>-0.12</metallicity>
+		<metallicity errorminus="0.12" errorplus="0.12">-0.12</metallicity>
 		<planet>
 			<name>WASP-48 b</name>
 			<name>2MASS J19243895+5528233 b</name>
 			<list>Confirmed planets</list>
-			<mass>0.98</mass>
-			<radius>1.67</radius>
-			<period>2.143634</period>
-			<semimajoraxis>0.03444</semimajoraxis>
+			<mass errorminus="0.09" errorplus="0.09">0.98</mass>
+			<radius errorminus="0.10" errorplus="0.10">1.67</radius>
+			<period errorminus="0.000003" errorplus="0.000003">2.143634</period>
+			<semimajoraxis errorminus="0.00045" errorplus="0.00045">0.03444</semimajoraxis>
 			<eccentricity>0.0</eccentricity>
-			<inclination>80.09</inclination>
+			<inclination errorminus="0.79" errorplus="0.88">80.09</inclination>
 			<transittime errorminus="0.00042" errorplus="0.00042" unit="BJD">2455364.55119</transittime>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>11/04/15</lastupdate>
 			<discoveryyear>2011</discoveryyear>
-			<temperature>1882.7</temperature>
+			<temperature errorminus="70" errorplus="70">2030</temperature>
 		</planet>
 		<name>WASP-48</name>
-		<temperature>5990.0</temperature>
+		<temperature errorminus="150" errorplus="150">5920</temperature>
 	</star>
 </system>
