@@ -72,7 +72,8 @@ validattributes = [
     "errorminus",
     "unit",
     "upperlimit",
-    "lowerlimit"]
+    "lowerlimit",
+    "type"]
 validdiscoverymethods = ["RV", "transit", "timing", "imaging", "microlensing"]
 tagsallowmultiple = ["list","name","planet","star","binary"]
 

@@ -70,18 +70,22 @@ def magnitude(dic, filename, path):
             read_file = readable.read()
             
             tabulation = ""
-            #positionning the magnitudes in the file
-            if "</magV>" in read_file:
-                elt_index = read_file.index("</magV>")
-                elt_len = len("</magV>")
-                if "<binary>" in read_file:
-                    tabulation = "\t"
-            elif "<binary>" in read_file:
-                elt_index = read_file.index("<binary>")
-                elt_len = len("<binary>")
-            else:
-                elt_index = read_file.index("<star>")
-                elt_len = len("<star>")
+            try:
+                #positionning the magnitudes in the file
+                if "</magV>" in read_file:
+                    elt_index = read_file.index("</magV>")
+                    elt_len = len("</magV>")
+                    if "<binary>" in read_file:
+                        tabulation = "\t"
+                elif "<binary>" in read_file:
+                    elt_index = read_file.index("<binary>")
+                    elt_len = len("<binary>")
+                else:
+                    elt_index = read_file.index("<star>")
+                    elt_len = len("<star>")
+            except ValueError: # ie free floating planet (no star or parent)
+                print '{} failed (no parent object tag'.format(filename)
+                return False
 
         
         with open(path+"/"+filename+".xml", "w") as writable:#Write mag in the file
@@ -165,23 +169,27 @@ def spectralType(spectre, filename, path):
                 back_line = ""
                 
                 #Positionning of the information in the file.
-                if not "<binary>" in read_file:
-                    if not "<spectraltype>" in read_file:
-                        elt_index = read_file.index("<star>")
-                        elt_len = len("<star>")
-                        back_line = "\n"
-                        
-                        #Writing the SP (spectral type) in the file
-                        with open(path+"/"+filename+".xml","w") as writable:
-                                spectre = back_line+"\t\t"+tabulation+"<spectraltype>"+spectre+"</spectraltype>"
-                                read_file = read_file[0:elt_index+elt_len]+spectre+read_file[elt_index+elt_len:]
-                                writable.write(read_file)
-                                print filename+"\tSP done."
+                try:
+                    if not "<binary>" in read_file:
+                        if not "<spectraltype>" in read_file:
+                            elt_index = read_file.index("<star>")
+                            elt_len = len("<star>")
+                            back_line = "\n"
+                            
+                            #Writing the SP (spectral type) in the file
+                            with open(path+"/"+filename+".xml","w") as writable:
+                                    spectre = back_line+"\t\t"+tabulation+"<spectraltype>"+spectre+"</spectraltype>"
+                                    read_file = read_file[0:elt_index+elt_len]+spectre+read_file[elt_index+elt_len:]
+                                    writable.write(read_file)
+                                    print filename+"\tSP done."
+                        else:
+                            print filename, " has already a spectral type."
                     else:
-                        print filename, " has already a spectral type."
-                else:
-                    print filename, " is a binary system."
-                    log.write(filename+"\t:\tbinary system\n")
+                        print filename, " is a binary system."
+                        log.write(filename+"\t:\tbinary system\n")
+
+                except ValueError: # ie free floating planet (no star or parent)
+                    print '{} failed (no parent object tag - probably)'.format(filename)
     else:
         print filename, "not found."
     
@@ -203,7 +211,7 @@ def generateList(path):
 #****************************MAIN*********************************          
 parser = MyHTMLParser()
 
-path = "systems_kepler"
+path = "systems"
 generateList(path)
 system_list = open("list.txt","r") #list of the systems to process
 line = system_list.readlines()
@@ -219,20 +227,30 @@ for elt in line:#read all the list of systems and run the parser class and the m
     spectre = ""
 
     planet = elt
-    code_source = urllib.urlopen('http://simbad.u-strasbg.fr/simbad/sim-basic?Ident='+planet).read()
+    try:
+        code_source = urllib.urlopen('http://simbad.u-strasbg.fr/simbad/sim-basic?Ident='+planet).read()
+    except IOError:
+        print('Lookup failed - sleeping for 10 seconds')
+        time.sleep(10)
+
+        try:
+            code_source = urllib.urlopen('http://simbad.u-strasbg.fr/simbad/sim-basic?Ident='+planet).read()
+        except IOError:
+            print('Lookup failed again for {} - skipping'.format(planet))
+            log.write('Lookup failed for {}'.format(planet))
     
     #First check its existence on simbad
     if not re.findall("Identifier not found in the database", code_source):
         parser.feed(code_source)
         magnitude(dictio, planet, path)
-        '''if re.search('Spectral type:( *<.*?>\n){5}\w*/?\w*', code_source):
-            extraction_spectre = re.search('Spectral type:( *<.*?>\n){5}\w*/?\w*', code_source).group(0)
-            spectre = re.search('(?<=<TT>\n)\w*/?\w*', extraction_spectre).group(0)
-            spectralType(spectre, planet, path)
-        else:
-            print elt, " has no spectral type."
-            log.write(elt+"\t:\tno spectral type\n")'''
-        
+        #if re.search('Spectral type:( *<.*?>\n){5}\w*/?\w*', code_source):
+        #    extraction_spectre = re.search('Spectral type:( *<.*?>\n){5}\w*/?\w*', code_source).group(0)
+        #    spectre = re.search('(?<=<TT>\n)\w*/?\w*', extraction_spectre).group(0)
+        #    spectralType(spectre, planet, path)
+        #else:
+        #    print elt, " has no spectral type."
+        #    log.write(elt+"\t:\tno spectral type\n")
+        #
     else:
         print planet,"\t:\t404 page not found"
         log.write(planet+" 404 page not found\n")

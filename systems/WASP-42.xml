@@ -4,25 +4,31 @@
 	<declination>-42 04 25</declination>
 	<distance errorminus="40" errorplus="40">160</distance>
 	<star>
+		<mass errorminus="0.080" errorplus="0.086">0.884</mass>
+		<radius errorminus="0.034" errorplus="0.041">0.863</radius>
+		<magV>12.57</magV>
 		<magJ errorminus="0.025" errorplus="0.025">10.542</magJ>
 		<magH errorminus="0.022" errorplus="0.022">10.103</magH>
 		<magK errorminus="0.022" errorplus="0.022">10.033</magK>
+		<spectraltype>K1</spectraltype>
+		<metallicity errorminus="0.13" errorplus="0.13">0.05</metallicity>
 		<planet>
 			<name>WASP-42 b</name>
 			<list>Confirmed planets</list>
-			<mass>0.5</mass>
-			<radius>1.08</radius>
-			<period>4.9816872</period>
-			<semimajoraxis>0.0458</semimajoraxis>
-			<eccentricity>0.06</eccentricity>
-			<inclination>88.25</inclination>
+			<mass errorminus="0.035" errorplus="0.035">0.500</mass>
+			<radius errorminus="0.057" errorplus="0.057">1.080</radius>
+			<period errorminus="0.0000073" errorplus="0.0000073">4.9816872</period>
+			<semimajoraxis errorminus="0.0017" errorplus="0.0017">0.0548</semimajoraxis>
+			<eccentricity errorminus="0.013" errorplus="0.013">0.060</eccentricity>
+			<inclination errorminus="0.23" errorplus="0.27">88.25</inclination>
 			<transittime errorminus="0.00024" errorplus="0.00024" unit="BJD">2455650.56801</transittime>
+			<temperature errorminus="34" errorplus="34">995</temperature>
 			<description>This planet has been announced at the Extreme Solar Systems II conference in Jackson Hole by the WASP team.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/05/15</lastupdate>
 			<discoveryyear>2011</discoveryyear>
 		</planet>
 		<name>WASP-42</name>
-		<temperature>5700.0</temperature>
+		<temperature errorminus="150" errorplus="150">5200</temperature>
 	</star>
 </system>

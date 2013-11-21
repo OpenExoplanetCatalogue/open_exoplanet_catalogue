@@ -8,22 +8,27 @@
 		<magJ errorminus="0.030" errorplus="0.030">9.887</magJ>
 		<magH errorminus="0.023" errorplus="0.023">9.598</magH>
 		<magK errorminus="0.021" errorplus="0.021">9.525</magK>
+		<spectraltype>G0</spectraltype>
+		<metallicity errorminus="0.09" errorplus="0.09">-0.15</metallicity>
+		<mass errorminus="0.03" errorplus="0.03">1.07</mass>
+		<radius errorminus="0.03" errorplus="0.03">1.09</radius>
 		<planet>
 			<name>WASP-35 b</name>
 			<name>2MASS J05041962-0613473 b</name>
 			<list>Confirmed planets</list>
-			<mass>0.72</mass>
-			<radius>1.32</radius>
-			<period>3.161575</period>
-			<semimajoraxis>0.04317</semimajoraxis>
+			<mass errorminus="0.06" errorplus="0.06">0.72</mass>
+			<radius errorminus="0.05" errorplus="0.05">1.32</radius>
+			<period errorminus="0.000002" errorplus="0.000002">3.161575</period>
+			<semimajoraxis errorminus="0.00033" errorplus="0.00033">0.04317</semimajoraxis>
 			<eccentricity>0.0</eccentricity>
-			<inclination>87.96</inclination>
+			<inclination errorminus="0.49" errorplus="0.62">87.96</inclination>
 			<transittime errorminus="0.00015" errorplus="0.00015" unit="BJD">2455531.47984</transittime>
+			<temperature errorminus="30" errorplus="30">1450</temperature>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>11/04/15</lastupdate>
 			<discoveryyear>2011</discoveryyear>
 		</planet>
 		<name>WASP-35</name>
-		<temperature>5700.0</temperature>
+		<temperature errorminus="90" errorplus="90">5990</temperature>
 	</star>
 </system>
