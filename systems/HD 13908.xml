@@ -1,0 +1,41 @@
+<system>
+	<name>HD 13908</name>
+	<rightascension>02 18 15</rightascension>
+	<declination>+65 35 40</declination>
+	<distance errorminus="3.5" errorplus="3.5">71.3</distance>
+	<star>
+		<name>HD 13908 b</name>
+		<mass errorminus="0.04" errorplus="0.04">1.29</mass>
+		<radius errorminus="0.1" errorplus="0.1">1.67</radius>
+		<temperature errorminus="66" errorplus="66">6255</temperature>
+		<age errorminus="0.4" errorplus="0.4">2.9</age>
+		<metallicity errorminus="0.04" errorplus="0.04">0.01</metallicity>
+		<spectraltype>F8V</spectraltype>
+		<planet>
+			<name>HD 13908 b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.035" errorplus="0.035">0.865</mass>
+			<period errorminus="0.006" errorplus="0.006">19.382</period>
+			<semimajoraxis errorminus="0.0025" errorplus="0.0025">0.154</semimajoraxis>
+			<eccentricity errorminus="0.022" errorplus="0.022">0.046</eccentricity>
+			<periastron errorminus="43" errorplus="43">185</periastron>
+			<discoverymethod>RV</discoverymethod>
+			<lastupdate>13/11/22</lastupdate>
+			<discoveryyear>2013</discoveryyear>
+			<description>HD 13908 b is a Hot Jupiter with an orbital period of 19 days. There is another planet in the system with a perdio of over 900 days. The system was discovered with the SOPHIE spectrograph in France.</description>
+		</planet>
+		<planet>
+			<name>HD 13908 c</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.25" errorplus="0.25">5.13</mass>
+			<period errorminus="17" errorplus="17">931</period>
+			<semimajoraxis errorminus="0.04" errorplus="0.04">2.03</semimajoraxis>
+			<eccentricity errorminus="0.02" errorplus="0.02">0.12</eccentricity>
+			<periastron errorminus="11" errorplus="11">185</periastron>
+			<discoverymethod>RV</discoverymethod>
+			<lastupdate>13/11/22</lastupdate>
+			<discoveryyear>2013</discoveryyear>
+			<description>HD 13908 c is a planet with 5 times the mass of our Jupiter. The system HD 13908 also hosts a hot Jupiter with an orbital period of 19 days. The system was discovered with the SOPHIE spectrograph in France.</description>
+		</planet>
+	</star>
+</system>
