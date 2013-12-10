@@ -1,18 +1,27 @@
 <system>
 	<name>WASP-68</name>
+	<rightascension>20 20 23</rightascension>
+	<declination>-19 18 52</declination>
 	<star>
+		<name>WASP-68</name>
+		<temperature errorminus="60" errorplus="59">5911</temperature>
+		<metallicity errorminus="0.08" errorplus="0.08">0.22</metallicity>
+		<spectraltype>G0</spectraltype>
+		<mass errorminus="0.03" errorplus="0.03">1.24</mass>
+		<radius errorminus="0.06" errorplus="0.11">1.69</radius>
 		<planet>
 			<name>WASP-68 b</name>
 			<list>Confirmed planets</list>
-			<mass>0.8</mass>
-			<radius>0.9</radius>
-			<period>5.1</period>
-			<description>This planet has been announced at the Extreme Solar Systems II conference in Jackson Hole by the WASP team.</description>
+			<mass errorminus="0.03" errorplus="0.03">0.95</mass>
+			<radius errorminus="0.06" errorplus="0.1">1.24</radius>
+			<temperature errorminus="29" errorplus="44">1490</temperature>
+			<period errorminus="0.000015" errorplus="0.000015">5.084298</period>
+			<semimajoraxis errorminus="0.0004" errorplus="0.00045">0.06206</semimajoraxis>
+			<inclination errorminus="1.3" errorplus="1.3">88.1</inclination>
+			<description>This planet has been announced at the Extreme Solar Systems II conference in Jackson Hole by the WASP team. The scientific paper was published in December 2013.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>11/09/13</lastupdate>
+			<lastupdate>13/12/09</lastupdate>
 			<discoveryyear>2011</discoveryyear>
 		</planet>
-		<name>WASP-68</name>
-		<temperature>5700.0</temperature>
 	</star>
 </system>

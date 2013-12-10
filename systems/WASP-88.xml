@@ -1,0 +1,27 @@
+<system>
+	<name>WASP-88</name>
+	<rightascension>20 38 03</rightascension>
+	<declination>-48 27 43</declination>
+	<star>
+		<name>WASP-88</name>
+		<mass errorminus="0.05" errorplus="0.05">1.45</mass>
+		<radius errorminus="0.06" errorplus="0.12">2.08</radius>
+		<temperature errorminus="130" errorplus="130">6431</temperature>
+		<metallicity errorminus="0.12" errorplus="0.12">-0.08</metallicity>
+		<spectraltype>F6</spectraltype>
+		<planet>
+			<name>WASP-88 b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.08" errorplus="0.08">0.56</mass>
+			<radius errorminus="0.07" errorplus="0.13">1.7</radius>
+			<temperature errorminus="45" errorplus="54">1772</temperature>
+			<period errorminus="0.000019" errorplus="0.000019">4.954000</period>
+			<semimajoraxis errorminus="0.00062" errorplus="0.00065">0.06431</semimajoraxis>
+			<inclination errorminus="1.5" errorplus="1.4">88</inclination>
+			<description>WASP-88 b is a Hot Jupiter discovered by the WASP transit survey. The planet joins a handful of planets with super-inflated radii.</description>
+			<discoverymethod>transit</discoverymethod>
+			<lastupdate>13/12/09</lastupdate>
+			<discoveryyear>2013</discoveryyear>
+		</planet>
+	</star>
+</system>
