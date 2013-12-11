@@ -7,6 +7,8 @@
 		<temperature errorminus="60" errorplus="59">5911</temperature>
 		<metallicity errorminus="0.08" errorplus="0.08">0.22</metallicity>
 		<spectraltype>G0</spectraltype>
+		<magV>10.7</magV>
+		<magK>8.9</magK>
 		<mass errorminus="0.03" errorplus="0.03">1.24</mass>
 		<radius errorminus="0.06" errorplus="0.11">1.69</radius>
 		<planet>
@@ -22,6 +24,7 @@
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>13/12/09</lastupdate>
 			<discoveryyear>2011</discoveryyear>
+			<transittime errorminus="0.00061" errorplus="0.00060" unit="HJD">2456064.86356</transittime>
 		</planet>
 	</star>
 </system>
