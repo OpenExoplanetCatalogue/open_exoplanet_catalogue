@@ -9,6 +9,8 @@
 		<temperature errorminus="130" errorplus="130">6431</temperature>
 		<metallicity errorminus="0.12" errorplus="0.12">-0.08</metallicity>
 		<spectraltype>F6</spectraltype>
+		<magV>11.4</magV>
+		<magK>10.3</magK>
 		<planet>
 			<name>WASP-88 b</name>
 			<list>Confirmed planets</list>
@@ -22,6 +24,7 @@
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>13/12/09</lastupdate>
 			<discoveryyear>2013</discoveryyear>
+			<transittime errorminus="0.00086" errorplus="0.00085" unit="HJD">2456474.73154</transittime>
 		</planet>
 	</star>
 </system>

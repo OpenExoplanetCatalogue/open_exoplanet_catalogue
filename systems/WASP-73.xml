@@ -9,6 +9,8 @@
 		<temperature errorminus="120" errorplus="120">6036</temperature>
 		<metallicity errorminus="0.14" errorplus="0.14">0.14</metallicity>
 		<spectraltype>F9</spectraltype>
+		<magV>10.5</magV>
+		<magK>9.0</magK>
 		<planet>
 			<name>WASP-73 b</name>
 			<list>Confirmed planets</list>
@@ -22,6 +24,7 @@
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>13/12/09</lastupdate>
 			<discoveryyear>2013</discoveryyear>
+			<transittime errorminus="0.0011" errorplus="0.0011" unit="HJD">2456128.7063</transittime>
 		</planet>
 	</star>
 </system>
