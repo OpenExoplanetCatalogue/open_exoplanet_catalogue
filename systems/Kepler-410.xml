@@ -2,15 +2,15 @@
 	<name>Kepler-410</name>
 	<rightascension>18 52 36</rightascension>
 	<declination>+45 08 23</declination>
-	<distance error="6.9">132</distance>
+	<distance errorminus="6.9" errorplus="6.9">132</distance>
 	<star>
 		<name>Kepler-410</name>
 		<name>Kepler-410 A</name>
 		<name>HD 175289</name>
 		<name>KIC 8866102</name>
-		<mass error="0.033">1.214</mass>
-		<radius error="0.010">1.352</radius>
-		<age error="0.54">2.76</age>
+		<mass errorminus="0.033" errorplus="0.033">1.214</mass>
+		<radius errorminus="0.010" errorplus="0.010">1.352</radius>
+		<age errorminus="0.54" errorplus="0.54">2.76</age>
 		<planet>
 			<name>Kepler-410 b</name>
 			<name>Kepler-410 A b</name>
@@ -19,13 +19,13 @@
 			<name>KOI-0042 b</name>
 			<name>KOI-0042 01</name>
 			<list>Confirmed planets</list>
-			<period error="0.000054">17.833648</period>
-			<radius unit="me" error="0.054">2.838</radius>
-			<semimajoraxis error="0.0047">0.1226</semimajoraxis>
-			<eccentricity ep="0.07" em="0.06">0.17</eccentricity>
-			<inclination ep="0.13" em="0.15">87.72</inclination>
+			<period errorminus="0.000054" errorplus="0.000054">17.833648</period>
+			<radius errorminus="0.054" errorplus="0.054" unit="me">2.838</radius>
+			<semimajoraxis errorminus="0.0047" errorplus="0.0047">0.1226</semimajoraxis>
+			<eccentricity errorminus="0.06" errorplus="0.07">0.17</eccentricity>
+			<inclination errorminus="0.15" errorplus="0.13">87.72</inclination>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdated>13/12/20</lastupdated>
+			<lastupdate>13/12/20</lastupdate>
 			<discoveryyear>2013</discoveryyear>
 			<description>Kepler-410 b is a Neptune sized exoplanet aroud the bright star Kepler-410. The host star is in fact one of the brightest hosts of all currently known transiting exoplanets. The confirmation was difficult because there is a second, fainter star nearby. Transit timing variations inficate the presence of another planet in the system.</description>
 		</planet>
