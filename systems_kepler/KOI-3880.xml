@@ -2,17 +2,20 @@
 	<name>KOI-3880</name>
 	<rightascension>19 15 28</rightascension>
 	<declination>+39 15 53</declination>
+	<distance>231.76</distance>
 	<star>
 		<name>KOI-3880</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.0000</radius>
+		<temperature errorminus="286.00" errorplus="286.00">6438.00</temperature>
+		<radius errorminus="0.8060" errorplus="0.8060">1.1660</radius>
+		<metallicity errorminus="0.3400" errorplus="0.3400">-0.2600</metallicity>
 		<planet>
 			<name>KOI-3880 b</name>
 			<name>KOI-3880 01</name>
-			<radius errorminus="0.02734" errorplus="0.02734">0.09478</radius>
-			<period errorminus="6.70000e-06" errorplus="6.70000e-06">1.803697400000</period>
-			<transittime errorminus="0.0012000" errorplus="0.0012000">2454964.5122000</transittime>
-			<semimajoraxis errorminus="7.2e-08" errorplus="7.2e-08">0.0290050</semimajoraxis>
-			<temperature errorminus=".0" errorplus="0.0">1497.2</temperature>
+			<radius errorminus="0.00939" errorplus="0.00939">0.10854</radius>
+			<period errorminus="2.1820000e-06" errorplus="2.1820000e-06">1.803699813000</period>
+			<transittime errorminus="0.0003610" errorplus="0.0003610">2454964.5114520</transittime>
+			<semimajoraxis errorminus="2.38e-08" errorplus="2.38e-08">0.0295760</semimajoraxis>
+			<temperature errorminus="621.0" errorplus="621.0">1783.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

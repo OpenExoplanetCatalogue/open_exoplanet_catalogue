@@ -2,17 +2,20 @@
 	<name>KOI-3421</name>
 	<rightascension>19 19 40</rightascension>
 	<declination>+40 10 06</declination>
+	<distance>1132.82</distance>
 	<star>
 		<name>KOI-3421</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.1430</radius>
+		<temperature errorminus="295.00" errorplus="295.00">6535.00</temperature>
+		<radius errorminus="1.1530" errorplus="1.1530">1.2830</radius>
+		<metallicity errorminus="0.5700" errorplus="0.5700">0.2100</metallicity>
 		<planet>
 			<name>KOI-3421 b</name>
 			<name>KOI-3421 01</name>
-			<radius errorminus="0.13670" errorplus="0.13670">0.11847</radius>
-			<period errorminus="8.10000e-04" errorplus="8.10000e-04">40.650470000000</period>
-			<transittime errorminus="0.0120000" errorplus="0.0120000">2454997.5510000</transittime>
-			<semimajoraxis errorminus="3.3e-06" errorplus="3.3e-06">0.2460960</semimajoraxis>
-			<temperature errorminus="96.0" errorplus="96.0">617.0</temperature>
+			<radius errorminus="0.01978" errorplus="0.01978">0.15437</radius>
+			<period errorminus="5.6140000e-04" errorplus="5.6140000e-04">40.650872900000</period>
+			<transittime errorminus="0.0114000" errorplus="0.0114000">2454997.5565000</transittime>
+			<semimajoraxis errorminus="2.35e-06" errorplus="2.35e-06">0.2550130</semimajoraxis>
+			<temperature errorminus="292.0" errorplus="292.0">647.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

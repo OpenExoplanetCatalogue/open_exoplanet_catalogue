@@ -2,17 +2,20 @@
 	<name>KOI-3323</name>
 	<rightascension>19 34 56</rightascension>
 	<declination>+40 18 25</declination>
+	<distance>1059.92</distance>
 	<star>
 		<name>KOI-3323</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.8680</radius>
+		<temperature errorminus="183.00" errorplus="183.00">5810.00</temperature>
+		<radius errorminus="0.5290" errorplus="0.5290">0.8980</radius>
+		<metallicity errorminus="0.2800" errorplus="0.2800">-0.0600</metallicity>
 		<planet>
 			<name>KOI-3323 b</name>
 			<name>KOI-3323 01</name>
-			<radius errorminus="0.12758" errorplus="0.12758">0.12758</radius>
-			<period errorminus="1.70000e-04" errorplus="1.70000e-04">14.320350000000</period>
-			<transittime errorminus="0.0069000" errorplus="0.0069000">2454967.1412000</transittime>
-			<semimajoraxis errorminus="9.2e-07" errorplus="9.2e-07">0.1142030</semimajoraxis>
-			<temperature errorminus="156.0" errorplus="156.0">702.0</temperature>
+			<radius errorminus="0.15492" errorplus="0.15492">0.12758</radius>
+			<period errorminus="1.1890000e-04" errorplus="1.1890000e-04">14.319149300000</period>
+			<transittime errorminus="0.0065500" errorplus="0.0065500">2454967.2029600</transittime>
+			<semimajoraxis errorminus="6.37e-07" errorplus="6.37e-07">0.1149460</semimajoraxis>
+			<temperature errorminus="212.0" errorplus="212.0">716.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

@@ -2,17 +2,20 @@
 	<name>KOI-4312</name>
 	<rightascension>19 12 55</rightascension>
 	<declination>+48 00 07</declination>
+	<distance>636.90</distance>
 	<star>
 		<name>KOI-4312</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.9780</radius>
+		<temperature errorminus="129.00" errorplus="129.00">5678.00</temperature>
+		<radius errorminus="0.2070" errorplus="0.2070">0.9900</radius>
+		<metallicity errorminus="0.1800" errorplus="0.1800">-0.2800</metallicity>
 		<planet>
 			<name>KOI-4312 b</name>
 			<name>KOI-4312 01</name>
-			<radius errorminus="0.14581" errorplus="0.14581">0.07290</radius>
-			<period errorminus="9.80000e-05" errorplus="9.80000e-05">7.849493000000</period>
-			<transittime errorminus="0.0073000" errorplus="0.0073000">2454967.8672000</transittime>
-			<semimajoraxis errorminus="6.6e-07" errorplus="6.6e-07">0.0791561</semimajoraxis>
-			<temperature errorminus="157.0" errorplus="157.0">949.0</temperature>
+			<radius errorminus="0.07682" errorplus="0.07682">0.07892</radius>
+			<period errorminus="5.9500000e-05" errorplus="5.9500000e-05">7.849270150000</period>
+			<transittime errorminus="0.0059100" errorplus="0.0059100">2454967.8750600</transittime>
+			<semimajoraxis errorminus="3.67e-07" errorplus="3.67e-07">0.0726117</semimajoraxis>
+			<temperature errorminus="99.0" errorplus="99.0">924.9</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

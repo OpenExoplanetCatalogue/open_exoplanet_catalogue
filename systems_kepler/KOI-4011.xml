@@ -2,17 +2,20 @@
 	<name>KOI-4011</name>
 	<rightascension>19 40 12</rightascension>
 	<declination>+50 20 51</declination>
+	<distance>471.53</distance>
 	<star>
 		<name>KOI-4011</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.1380</radius>
+		<temperature errorminus="212.00" errorplus="212.00">6205.00</temperature>
+		<radius errorminus="0.9270" errorplus="0.9270">1.1360</radius>
+		<metallicity errorminus="0.3400" errorplus="0.3400">-0.0200</metallicity>
 		<planet>
 			<name>KOI-4011 b</name>
 			<name>KOI-4011 01</name>
-			<radius errorminus="0.01549" errorplus="0.01549">0.06197</radius>
-			<period errorminus="1.60000e-05" errorplus="1.60000e-05">2.190656000000</period>
-			<transittime errorminus="0.0033000" errorplus="0.0033000">2454965.0216000</transittime>
-			<semimajoraxis errorminus="1.7e-07" errorplus="1.7e-07">0.0338461</semimajoraxis>
-			<temperature errorminus="332.0" errorplus="332.0">1581.0</temperature>
+			<radius errorminus="0.04365" errorplus="0.04365">0.06625</radius>
+			<period errorminus="8.7520000e-06" errorplus="8.7520000e-06">2.190687922000</period>
+			<transittime errorminus="0.0022200" errorplus="0.0022200">2454965.0130400</transittime>
+			<semimajoraxis errorminus="9.07e-08" errorplus="9.07e-08">0.0340411</semimajoraxis>
+			<temperature errorminus="647.0" errorplus="647.0">1581.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

@@ -2,17 +2,20 @@
 	<name>KOI-4072</name>
 	<rightascension>18 55 03</rightascension>
 	<declination>+42 13 19</declination>
+	<distance>629.84</distance>
 	<star>
 		<name>KOI-4072</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.0690</radius>
+		<temperature errorminus="189.00" errorplus="189.00">6103.00</temperature>
+		<radius errorminus="0.5380" errorplus="0.5380">1.0240</radius>
+		<metallicity errorminus="0.3200" errorplus="0.3200">-0.2600</metallicity>
 		<planet>
 			<name>KOI-4072 b</name>
 			<name>KOI-4072 01</name>
-			<radius errorminus="0.01731" errorplus="0.01731">0.08749</radius>
-			<period errorminus="7.90000e-06" errorplus="7.90000e-06">0.692974300000</period>
-			<transittime errorminus="0.0012000" errorplus="0.0012000">2454964.8000000</transittime>
-			<semimajoraxis errorminus="1.2e-07" errorplus="1.2e-07">0.0156013</semimajoraxis>
-			<temperature errorminus="556.0" errorplus="556.0">2232.0</temperature>
+			<radius errorminus="0.01704" errorplus="0.01704">0.07427</radius>
+			<period errorminus="5.4320000e-06" errorplus="5.4320000e-06">0.692978977000</period>
+			<transittime errorminus="0.0009730" errorplus="0.0009730">2454964.7988230</transittime>
+			<semimajoraxis errorminus="7.97e-08" errorplus="7.97e-08">0.0152421</semimajoraxis>
+			<temperature errorminus="584.0" errorplus="584.0">2207.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

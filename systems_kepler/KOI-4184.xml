@@ -2,17 +2,20 @@
 	<name>KOI-4184</name>
 	<rightascension>18 47 35</rightascension>
 	<declination>+42 17 09</declination>
+	<distance>334.72</distance>
 	<star>
 		<name>KOI-4184</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.7080</radius>
+		<temperature errorminus="168.00" errorplus="168.00">4991.00</temperature>
+		<radius errorminus="1.0710" errorplus="1.0710">0.8040</radius>
+		<metallicity errorminus="0.2800" errorplus="0.2800">0.0400</metallicity>
 		<planet>
 			<name>KOI-4184 b</name>
 			<name>KOI-4184 01</name>
-			<radius errorminus="0.06197" errorplus="0.06197">0.10845</radius>
-			<period errorminus="2.80000e-05" errorplus="2.80000e-05">6.080121000000</period>
-			<transittime errorminus="0.0025000" errorplus="0.0025000">2454969.8763000</transittime>
-			<semimajoraxis errorminus="1.8e-07" errorplus="1.8e-07">0.0583437</semimajoraxis>
-			<temperature errorminus="17.0" errorplus="17.0">759.0</temperature>
+			<radius errorminus="0.06452" errorplus="0.06452">0.12047</radius>
+			<period errorminus="1.5900000e-05" errorplus="1.5900000e-05">6.080062580000</period>
+			<transittime errorminus="0.0017600" errorplus="0.0017600">2454969.8805600</transittime>
+			<semimajoraxis errorminus="1.04e-07" errorplus="1.04e-07">0.0597228</semimajoraxis>
+			<temperature errorminus="539.0" errorplus="539.0">808.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

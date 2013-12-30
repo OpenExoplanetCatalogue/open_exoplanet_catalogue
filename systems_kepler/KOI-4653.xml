@@ -2,17 +2,20 @@
 	<name>KOI-4653</name>
 	<rightascension>19 06 14</rightascension>
 	<declination>+48 53 34</declination>
+	<distance>790.78</distance>
 	<star>
 		<name>KOI-4653</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.0830</radius>
+		<temperature errorminus="235.00" errorplus="235.00">6362.00</temperature>
+		<radius errorminus="0.8600" errorplus="0.8600">1.1440</radius>
+		<metallicity errorminus="0.4500" errorplus="0.4500">0.0700</metallicity>
 		<planet>
 			<name>KOI-4653 b</name>
 			<name>KOI-4653 01</name>
-			<radius errorminus="0.14581" errorplus="0.14581">0.08202</radius>
-			<period errorminus="4.50000e-04" errorplus="4.50000e-04">19.977930000000</period>
-			<transittime errorminus="0.0130000" errorplus="0.0130000">2454968.1670000</transittime>
-			<semimajoraxis errorminus="2.3e-06" errorplus="2.3e-06">0.1509440</semimajoraxis>
-			<temperature errorminus="132.0" errorplus="132.0">750.0</temperature>
+			<radius errorminus="0.04529" errorplus="0.04529">0.11036</radius>
+			<period errorminus="2.4180000e-04" errorplus="2.4180000e-04">19.977578300000</period>
+			<transittime errorminus="0.0090600" errorplus="0.0090600">2454968.1765300</transittime>
+			<semimajoraxis errorminus="1.24e-06" errorplus="1.24e-06">0.1540550</semimajoraxis>
+			<temperature errorminus="289.0" errorplus="289.0">765.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

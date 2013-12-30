@@ -2,17 +2,20 @@
 	<name>KOI-4194</name>
 	<rightascension>19 51 48</rightascension>
 	<declination>+40 48 24</declination>
+	<distance>745.36</distance>
 	<star>
 		<name>KOI-4194</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.7530</radius>
+		<temperature errorminus="220.00" errorplus="220.00">5112.00</temperature>
+		<radius errorminus="0.1850" errorplus="0.1850">0.7260</radius>
+		<metallicity errorminus="0.3800" errorplus="0.3800">-0.2000</metallicity>
 		<planet>
 			<name>KOI-4194 b</name>
 			<name>KOI-4194 01</name>
-			<radius errorminus="0.05377" errorplus="0.05377">0.13852</radius>
-			<period errorminus="1.10000e-05" errorplus="1.10000e-05">1.538227000000</period>
-			<transittime errorminus="0.0023000" errorplus="0.0023000">2454965.4752000</transittime>
-			<semimajoraxis errorminus="1.2e-07" errorplus="1.2e-07">0.0249024</semimajoraxis>
-			<temperature errorminus=".0" errorplus="0.0">1194.8</temperature>
+			<radius errorminus="0.06170" errorplus="0.06170">0.13177</radius>
+			<period errorminus="6.1140000e-06" errorplus="6.1140000e-06">1.538160852000</period>
+			<transittime errorminus="0.0014200" errorplus="0.0014200">2454965.5020600</transittime>
+			<semimajoraxis errorminus="6.37e-08" errorplus="6.37e-08">0.0240246</semimajoraxis>
+			<temperature errorminus="167.0" errorplus="167.0">1240.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

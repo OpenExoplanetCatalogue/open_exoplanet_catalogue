@@ -2,17 +2,20 @@
 	<name>KOI-3224</name>
 	<rightascension>18 45 18</rightascension>
 	<declination>+47 35 05</declination>
+	<distance>212.88</distance>
 	<star>
 		<name>KOI-3224</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.7790</radius>
+		<temperature errorminus="176.00" errorplus="176.00">5431.00</temperature>
+		<radius errorminus="0.4180" errorplus="0.4180">0.7790</radius>
+		<metallicity errorminus="0.3800" errorplus="0.3800">-0.2000</metallicity>
 		<planet>
 			<name>KOI-3224 b</name>
 			<name>KOI-3224 01</name>
-			<radius errorminus="0.49210" errorplus="0.49210">0.10936</radius>
-			<period errorminus="3.00000e-05" errorplus="3.00000e-05">3.438674000000</period>
-			<transittime errorminus="0.0044000" errorplus="0.0044000">2454965.6766000</transittime>
-			<semimajoraxis errorminus="2.5e-07" errorplus="2.5e-07">0.0426890</semimajoraxis>
-			<temperature errorminus="131.0" errorplus="131.0">1023.0</temperature>
+			<radius errorminus="0.07172" errorplus="0.07172">0.04912</radius>
+			<period errorminus="1.0980000e-05" errorplus="1.0980000e-05">3.438656250000</period>
+			<transittime errorminus="0.0017300" errorplus="0.0017300">2454965.6778400</transittime>
+			<semimajoraxis errorminus="8.98e-08" errorplus="8.98e-08">0.0421678</semimajoraxis>
+			<temperature errorminus="278.0" errorplus="278.0">1030.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

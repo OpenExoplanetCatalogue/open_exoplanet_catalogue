@@ -2,17 +2,20 @@
 	<name>KOI-1562</name>
 	<rightascension>19 58 13</rightascension>
 	<declination>+40 27 23</declination>
+	<distance>1440.39</distance>
 	<star>
 		<name>KOI-1562</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.7830</radius>
+		<temperature errorminus="227.00" errorplus="227.00">5997.00</temperature>
+		<radius errorminus="0.4770" errorplus="0.4770">0.9040</radius>
+		<metallicity errorminus="0.3000" errorplus="0.3000">-0.2200</metallicity>
 		<planet>
 			<name>KOI-1562 c</name>
 			<name>KOI-1562 02</name>
-			<radius errorminus="0.51033" errorplus="0.51033">0.15492</radius>
-			<period errorminus="5.60000e-04" errorplus="5.60000e-04">20.067780000000</period>
-			<transittime errorminus="0.0190000" errorplus="0.0190000">2454983.7690000</transittime>
-			<semimajoraxis errorminus="2.7e-06" errorplus="2.7e-06">0.1459500</semimajoraxis>
-			<temperature errorminus=".0" errorplus="0.0">586.0</temperature>
+			<radius errorminus="0.41009" errorplus="0.41009">0.18044</radius>
+			<period errorminus="3.1820000e-04" errorplus="3.1820000e-04">20.068068400000</period>
+			<transittime errorminus="0.0138000" errorplus="0.0138000">2454983.7638000</transittime>
+			<semimajoraxis errorminus="1.52e-06" errorplus="1.52e-06">0.1441500</semimajoraxis>
+			<temperature errorminus="177.0" errorplus="177.0">663.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

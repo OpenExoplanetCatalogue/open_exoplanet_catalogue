@@ -2,17 +2,20 @@
 	<name>KOI-3715</name>
 	<rightascension>19 41 21</rightascension>
 	<declination>+40 02 14</declination>
+	<distance>3827.14</distance>
 	<star>
 		<name>KOI-3715</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.3110</radius>
+		<temperature errorminus="321.00" errorplus="321.00">6907.00</temperature>
+		<radius errorminus="0.8480" errorplus="0.8480">1.2760</radius>
+		<metallicity errorminus="0.3200" errorplus="0.3200">-0.5000</metallicity>
 		<planet>
 			<name>KOI-3715 b</name>
 			<name>KOI-3715 01</name>
-			<radius errorminus="0.51944" errorplus="0.51944">2.91617</radius>
-			<period errorminus="3.90000e-05" errorplus="3.90000e-05">9.848876000000</period>
-			<transittime errorminus="0.0025000" errorplus="0.0025000">2454968.9900000</transittime>
-			<semimajoraxis errorminus="2.5e-07" errorplus="2.5e-07">0.0955044</semimajoraxis>
-			<temperature errorminus=".0" errorplus="0.0">1095.9</temperature>
+			<radius errorminus="0.32807" errorplus="0.32807">2.66738</radius>
+			<period errorminus="3.5550000e-05" errorplus="3.5550000e-05">9.848883180000</period>
+			<transittime errorminus="0.0022900" errorplus="0.0022900">2454968.9900700</transittime>
+			<semimajoraxis errorminus="2.26e-07" errorplus="2.26e-07">0.0940854</semimajoraxis>
+			<temperature errorminus="377.0" errorplus="377.0">1122.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

@@ -2,17 +2,20 @@
 	<name>KOI-4444</name>
 	<rightascension>19 38 29</rightascension>
 	<declination>+49 53 38</declination>
+	<distance>580.71</distance>
 	<star>
 		<name>KOI-4444</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.5690</radius>
+		<temperature errorminus="131.00" errorplus="131.00">4391.00</temperature>
+		<radius errorminus="0.0660" errorplus="0.0660">0.6820</radius>
+		<metallicity errorminus="0.3000" errorplus="0.3000">0.0400</metallicity>
 		<planet>
 			<name>KOI-4444 b</name>
 			<name>KOI-4444 01</name>
-			<radius errorminus="0.12758" errorplus="0.12758">0.10936</radius>
-			<period errorminus="4.70000e-05" errorplus="4.70000e-05">5.943684000000</period>
-			<transittime errorminus="0.0044000" errorplus="0.0044000">2454968.2611000</transittime>
-			<semimajoraxis errorminus="2.9e-07" errorplus="2.9e-07">0.0541763</semimajoraxis>
-			<temperature errorminus="12.0" errorplus="12.0">621.0</temperature>
+			<radius errorminus="0.13670" errorplus="0.13670">0.12120</radius>
+			<period errorminus="2.8590000e-05" errorplus="2.8590000e-05">5.943710180000</period>
+			<transittime errorminus="0.0034300" errorplus="0.0034300">2454968.2614100</transittime>
+			<semimajoraxis errorminus="1.80e-07" errorplus="1.80e-07">0.0562676</semimajoraxis>
+			<temperature errorminus="38.3" errorplus="38.3">674.4</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

@@ -2,17 +2,20 @@
 	<name>KOI-4715</name>
 	<rightascension>18 54 17</rightascension>
 	<declination>+41 41 44</declination>
+	<distance>807.22</distance>
 	<star>
 		<name>KOI-4715</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.0000</radius>
+		<temperature errorminus="208.00" errorplus="208.00">6015.00</temperature>
+		<radius errorminus="0.4050" errorplus="0.4050">1.0570</radius>
+		<metallicity errorminus="0.3400" errorplus="0.3400">-0.6800</metallicity>
 		<planet>
 			<name>KOI-4715 b</name>
 			<name>KOI-4715 01</name>
-			<radius errorminus="0.23694" errorplus="0.23694">0.11847</radius>
-			<period errorminus="1.10000e-03" errorplus="1.10000e-03">53.287900000000</period>
-			<transittime errorminus="0.0120000" errorplus="0.0120000">2455005.2610000</transittime>
-			<semimajoraxis errorminus="3.8e-06" errorplus="3.8e-06">0.2771930</semimajoraxis>
-			<temperature errorminus=".0" errorplus="0.0">484.3</temperature>
+			<radius errorminus="0.21871" errorplus="0.21871">0.12303</radius>
+			<period errorminus="6.9050000e-04" errorplus="6.9050000e-04">53.285840200000</period>
+			<transittime errorminus="0.0107000" errorplus="0.0107000">2455005.2926000</transittime>
+			<semimajoraxis errorminus="2.23e-06" errorplus="2.23e-06">0.2581200</semimajoraxis>
+			<temperature errorminus="105.0" errorplus="105.0">537.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

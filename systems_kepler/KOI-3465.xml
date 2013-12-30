@@ -2,17 +2,20 @@
 	<name>KOI-3465</name>
 	<rightascension>19 14 14</rightascension>
 	<declination>+46 32 09</declination>
+	<distance>386.22</distance>
 	<star>
 		<name>KOI-3465</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.5390</radius>
+		<temperature errorminus="178.00" errorplus="178.00">5443.00</temperature>
+		<radius errorminus="0.6430" errorplus="0.6430">0.9110</radius>
+		<metallicity errorminus="0.3900" errorplus="0.3900">-0.1800</metallicity>
 		<planet>
 			<name>KOI-3465 b</name>
 			<name>KOI-3465 01</name>
-			<radius errorminus="0.28250" errorplus="0.28250">0.12758</radius>
-			<period errorminus="2.20000e-04" errorplus="2.20000e-04">16.050710000000</period>
-			<transittime errorminus="0.0079000" errorplus="0.0079000">2454974.7347000</transittime>
-			<semimajoraxis errorminus="1.1e-06" errorplus="1.1e-06">0.1206480</semimajoraxis>
-			<temperature errorminus="47.0" errorplus="47.0">856.0</temperature>
+			<radius errorminus="0.04502" errorplus="0.04502">0.08767</radius>
+			<period errorminus="9.8500000e-05" errorplus="9.8500000e-05">16.050731290000</period>
+			<transittime errorminus="0.0048700" errorplus="0.0048700">2454974.7324300</transittime>
+			<semimajoraxis errorminus="4.72e-07" errorplus="4.72e-07">0.1154440</semimajoraxis>
+			<temperature errorminus="239.0" errorplus="239.0">675.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

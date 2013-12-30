@@ -2,17 +2,20 @@
 	<name>KOI-4009</name>
 	<rightascension>18 53 22</rightascension>
 	<declination>+45 16 28</declination>
+	<distance>1603.32</distance>
 	<star>
 		<name>KOI-4009</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.0220</radius>
+		<temperature errorminus="242.00" errorplus="242.00">6210.00</temperature>
+		<radius errorminus="0.8170" errorplus="0.8170">1.1000</radius>
+		<metallicity errorminus="0.3400" errorplus="0.3400">-0.0200</metallicity>
 		<planet>
 			<name>KOI-4009 b</name>
 			<name>KOI-4009 01</name>
-			<radius errorminus="0.18226" errorplus="0.18226">0.23694</radius>
-			<period errorminus="4.70000e-03" errorplus="4.70000e-03">175.136700000000</period>
-			<transittime errorminus="0.0140000" errorplus="0.0140000">2455129.0400000</transittime>
-			<semimajoraxis errorminus="1.1e-05" errorplus="1.1e-05">0.6298680</semimajoraxis>
-			<temperature errorminus="72.0" errorplus="72.0">347.0</temperature>
+			<radius errorminus="0.12758" errorplus="0.12758">0.26519</radius>
+			<period errorminus="2.3430000e-03" errorplus="2.3430000e-03">175.138820000000</period>
+			<transittime errorminus="0.0101000" errorplus="0.0101000">2455129.0360000</transittime>
+			<semimajoraxis errorminus="5.66e-06" errorplus="5.66e-06">0.6341820</semimajoraxis>
+			<temperature errorminus="135.0" errorplus="135.0">361.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

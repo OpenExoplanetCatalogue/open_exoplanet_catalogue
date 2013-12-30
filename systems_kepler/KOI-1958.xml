@@ -4,6 +4,11 @@
 	<declination>+46 41 15</declination>
 	<distance>1213.49</distance>
 	<star>
+		<magV>15.3</magV>
+		<magR errorminus="0.10" errorplus="0.10">15.29</magR>
+		<magJ errorminus="0.026" errorplus="0.026">14.021</magJ>
+		<magH errorminus="0.029" errorplus="0.029">13.689</magH>
+		<magK errorminus="0.04" errorplus="0.04">13.62</magK>
 		<name>KOI-1958</name>
 		<temperature errorminus="103.00" errorplus="103.00">5969.00</temperature>
 		<radius errorminus="0.2700" errorplus="0.2700">0.9200</radius>
@@ -13,7 +18,7 @@
 			<name>KOI-1958 b</name>
 			<name>KOI-1958 01</name>
 			<radius errorminus="0.08657" errorplus="0.08657">0.26792</radius>
-			<period errorminus="1.50000e-04" errorplus="1.50000e-04">17.815630000000</period>
+			<period errorminus="1.5000000e-04" errorplus="1.5000000e-04">17.815630000000</period>
 			<transittime errorminus="0.0032000" errorplus="0.0032000">2454967.4875000</transittime>
 			<semimajoraxis>0.1350000</semimajoraxis>
 			<temperature>688.0</temperature>

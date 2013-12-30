@@ -2,17 +2,20 @@
 	<name>KOI-3209</name>
 	<rightascension>19 03 41</rightascension>
 	<declination>+42 32 59</declination>
+	<distance>416.37</distance>
 	<star>
 		<name>KOI-3209</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.2840</radius>
+		<temperature errorminus="215.00" errorplus="215.00">6603.00</temperature>
+		<radius errorminus="0.5810" errorplus="0.5810">1.1710</radius>
+		<metallicity errorminus="0.3200" errorplus="0.3200">-0.5400</metallicity>
 		<planet>
 			<name>KOI-3209 b</name>
 			<name>KOI-3209 01</name>
-			<radius errorminus="0.05194" errorplus="0.05194">0.12758</radius>
-			<period errorminus="6.90000e-05" errorplus="6.90000e-05">11.912685000000</period>
-			<transittime errorminus="0.0032000" errorplus="0.0032000">2454976.1534000</transittime>
-			<semimajoraxis errorminus="4.2e-07" errorplus="4.2e-07">0.1095000</semimajoraxis>
-			<temperature errorminus="188.0" errorplus="188.0">998.0</temperature>
+			<radius errorminus="0.02205" errorplus="0.02205">0.11965</radius>
+			<period errorminus="4.3190000e-05" errorplus="4.3190000e-05">11.912697270000</period>
+			<transittime errorminus="0.0024900" errorplus="0.0024900">2454976.1519500</transittime>
+			<semimajoraxis errorminus="2.50e-07" errorplus="2.50e-07">0.1033730</semimajoraxis>
+			<temperature errorminus="245.0" errorplus="245.0">980.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

@@ -2,17 +2,20 @@
 	<name>KOI-3791</name>
 	<rightascension>19 13 53</rightascension>
 	<declination>+40 39 04</declination>
+	<distance>1073.43</distance>
 	<star>
 		<name>KOI-3791</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.4870</radius>
+		<temperature errorminus="211.00" errorplus="211.00">6340.00</temperature>
+		<radius errorminus="0.5530" errorplus="0.5530">1.3930</radius>
+		<metallicity errorminus="0.3000" errorplus="0.3000">-0.3800</metallicity>
 		<planet>
 			<name>KOI-3791 b</name>
 			<name>KOI-3791 01</name>
-			<radius errorminus="0.01094" errorplus="0.01094">0.70535</radius>
-			<period errorminus="1.60000e-03" errorplus="1.60000e-03">440.782400000000</period>
-			<transittime errorminus="0.0018000" errorplus="0.0018000">2454972.3524000</transittime>
-			<semimajoraxis errorminus="2.9e-06" errorplus="2.9e-06">1.2098200</semimajoraxis>
-			<temperature errorminus="51.0" errorplus="51.0">312.0</temperature>
+			<radius errorminus="0.00975" errorplus="0.00975">0.65696</radius>
+			<period errorminus="8.8830000e-04" errorplus="8.8830000e-04">440.785196600000</period>
+			<transittime errorminus="0.0017700" errorplus="0.0017700">2454972.3510500</transittime>
+			<semimajoraxis errorminus="1.54e-06" errorplus="1.54e-06">1.1450300</semimajoraxis>
+			<temperature errorminus="62.1" errorplus="62.1">308.5</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

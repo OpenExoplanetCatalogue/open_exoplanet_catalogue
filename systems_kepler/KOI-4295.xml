@@ -2,17 +2,20 @@
 	<name>KOI-4295</name>
 	<rightascension>19 11 03</rightascension>
 	<declination>+43 16 27</declination>
+	<distance>1572.54</distance>
 	<star>
 		<name>KOI-4295</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.0960</radius>
+		<temperature errorminus="287.00" errorplus="287.00">6418.00</temperature>
+		<radius errorminus="0.7620" errorplus="0.7620">1.1710</radius>
+		<metallicity errorminus="0.4900" errorplus="0.4900">0.0700</metallicity>
 		<planet>
 			<name>KOI-4295 b</name>
 			<name>KOI-4295 01</name>
-			<radius errorminus="0.11847" errorplus="0.11847">0.13670</radius>
-			<period errorminus="1.70000e-04" errorplus="1.70000e-04">13.399950000000</period>
-			<transittime errorminus="0.0076000" errorplus="0.0076000">2454964.8389000</transittime>
-			<semimajoraxis errorminus="9.8e-07" errorplus="9.8e-07">0.1162270</semimajoraxis>
-			<temperature errorminus="146.0" errorplus="146.0">865.0</temperature>
+			<radius errorminus="0.01914" errorplus="0.01914">0.20222</radius>
+			<period errorminus="1.4440000e-04" errorplus="1.4440000e-04">13.399303500000</period>
+			<transittime errorminus="0.0086900" errorplus="0.0086900">2454964.8816000</transittime>
+			<semimajoraxis errorminus="8.53e-07" errorplus="8.53e-07">0.1187020</semimajoraxis>
+			<temperature errorminus="292.0" errorplus="292.0">889.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

@@ -2,17 +2,20 @@
 	<name>KOI-3626</name>
 	<rightascension>19 13 16</rightascension>
 	<declination>+51 43 31</declination>
+	<distance>2028.08</distance>
 	<star>
 		<name>KOI-3626</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.9750</radius>
+		<temperature errorminus="183.00" errorplus="183.00">5881.00</temperature>
+		<radius errorminus="0.5060" errorplus="0.5060">0.8940</radius>
+		<metallicity errorminus="0.3000" errorplus="0.3000">-0.3000</metallicity>
 		<planet>
 			<name>KOI-3626 b</name>
 			<name>KOI-3626 01</name>
-			<radius errorminus="0.00000" errorplus="0.00000">4.71095</radius>
-			<period errorminus=".00000e+00" errorplus="0.00000e+00">44.147716522200</period>
-			<transittime errorminus="0.0000000" errorplus="0.0000000">2455000.3447170</transittime>
-			<semimajoraxis errorminus=".0e+00" errorplus="0.0e+00">0.2488700</semimajoraxis>
-			<temperature errorminus=".0" errorplus="0.0">491.6</temperature>
+			<radius errorminus="0.10936" errorplus="0.10936">4.48179</radius>
+			<period errorminus="1.8870000e-05" errorplus="1.8870000e-05">44.145838360000</period>
+			<transittime errorminus="0.0004460" errorplus="0.0004460">2455000.3912270</transittime>
+			<semimajoraxis errorminus="6.76e-08" errorplus="6.76e-08">0.2372370</semimajoraxis>
+			<temperature errorminus="143.0" errorplus="143.0">504.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

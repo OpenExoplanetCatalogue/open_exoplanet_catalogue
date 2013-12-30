@@ -2,17 +2,20 @@
 	<name>KOI-3264</name>
 	<rightascension>19 33 02</rightascension>
 	<declination>+45 50 14</declination>
+	<distance>776.70</distance>
 	<star>
 		<name>KOI-3264</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.6840</radius>
+		<temperature errorminus="150.00" errorplus="150.00">4794.00</temperature>
+		<radius errorminus="0.0630" errorplus="0.0630">0.6430</radius>
+		<metallicity errorminus="0.3200" errorplus="0.3200">-0.5000</metallicity>
 		<planet>
 			<name>KOI-3264 b</name>
 			<name>KOI-3264 01</name>
-			<radius errorminus="0.07837" errorplus="0.07837">0.14581</radius>
-			<period errorminus="1.80000e-04" errorplus="1.80000e-04">13.015070000000</period>
-			<transittime errorminus="0.0080000" errorplus="0.0080000">2454967.7471000</transittime>
-			<semimajoraxis errorminus="8.7e-07" errorplus="8.7e-07">0.0963161</semimajoraxis>
-			<temperature errorminus="11.0" errorplus="11.0">571.0</temperature>
+			<radius errorminus="0.24605" errorplus="0.24605">0.10845</radius>
+			<period errorminus="1.1170000e-04" errorplus="1.1170000e-04">13.015213700000</period>
+			<transittime errorminus="0.0068800" errorplus="0.0068800">2454967.7459600</transittime>
+			<semimajoraxis errorminus="5.32e-07" errorplus="5.32e-07">0.0929263</semimajoraxis>
+			<temperature errorminus="32.3" errorplus="32.3">556.3</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

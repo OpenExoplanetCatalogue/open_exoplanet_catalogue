@@ -2,17 +2,20 @@
 	<name>KOI-3762</name>
 	<rightascension>19 46 40</rightascension>
 	<declination>+49 27 42</declination>
+	<distance>964.03</distance>
 	<star>
 		<name>KOI-3762</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.9150</radius>
+		<temperature errorminus="180.00" errorplus="180.00">5911.00</temperature>
+		<radius errorminus="0.5360" errorplus="0.5360">0.8870</radius>
+		<metallicity errorminus="0.2800" errorplus="0.2800">-0.2000</metallicity>
 		<planet>
 			<name>KOI-3762 b</name>
 			<name>KOI-3762 01</name>
-			<radius errorminus="0.00848" errorplus="0.00848">0.63627</radius>
-			<period errorminus="1.20000e-03" errorplus="1.20000e-03">240.799900000000</period>
-			<transittime errorminus="0.0022000" errorplus="0.0022000">2455167.1417000</transittime>
-			<semimajoraxis errorminus="2.5e-06" errorplus="2.5e-06">0.7587210</semimajoraxis>
-			<temperature errorminus="60.0" errorplus="60.0">286.0</temperature>
+			<radius errorminus="0.00670" errorplus="0.00670">0.61605</radius>
+			<period errorminus="5.6390000e-04" errorplus="5.6390000e-04">240.800606600000</period>
+			<transittime errorminus="0.0017700" errorplus="0.0017700">2455167.1413100</transittime>
+			<semimajoraxis errorminus="1.17e-06" errorplus="1.17e-06">0.7506160</semimajoraxis>
+			<temperature errorminus="86.1" errorplus="86.1">283.5</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

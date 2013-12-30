@@ -2,17 +2,20 @@
 	<name>KOI-4129</name>
 	<rightascension>19 42 07</rightascension>
 	<declination>+50 22 13</declination>
+	<distance>430.04</distance>
 	<star>
 		<name>KOI-4129</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.7820</radius>
+		<temperature errorminus="194.00" errorplus="194.00">5240.00</temperature>
+		<radius errorminus="0.5170" errorplus="0.5170">0.9230</radius>
+		<metallicity errorminus="0.2600" errorplus="0.2600">0.1200</metallicity>
 		<planet>
 			<name>KOI-4129 b</name>
 			<name>KOI-4129 01</name>
-			<radius errorminus="0.04465" errorplus="0.04465">0.06926</radius>
-			<period errorminus="1.50000e-05" errorplus="1.50000e-05">2.314865000000</period>
-			<transittime errorminus="0.0027000" errorplus="0.0027000">2454966.0367000</transittime>
-			<semimajoraxis errorminus="1.3e-07" errorplus="1.3e-07">0.0312982</semimajoraxis>
-			<temperature errorminus="420.0" errorplus="420.0">1138.0</temperature>
+			<radius errorminus="0.03190" errorplus="0.03190">0.07227</radius>
+			<period errorminus="9.4420000e-06" errorplus="9.4420000e-06">2.314857427000</period>
+			<transittime errorminus="0.0020500" errorplus="0.0020500">2454966.0425000</transittime>
+			<semimajoraxis errorminus="8.76e-08" errorplus="8.76e-08">0.0322241</semimajoraxis>
+			<temperature errorminus="350.0" errorplus="350.0">1237.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

@@ -211,7 +211,7 @@ def generateList(path):
 #****************************MAIN*********************************          
 parser = MyHTMLParser()
 
-path = "systems"
+path = "systems_kepler"
 generateList(path)
 system_list = open("list.txt","r") #list of the systems to process
 line = system_list.readlines()

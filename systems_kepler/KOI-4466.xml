@@ -2,17 +2,20 @@
 	<name>KOI-4466</name>
 	<rightascension>19 14 33</rightascension>
 	<declination>+42 51 26</declination>
+	<distance>1368.41</distance>
 	<star>
 		<name>KOI-4466</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.0420</radius>
+		<temperature errorminus="269.00" errorplus="269.00">6338.00</temperature>
+		<radius errorminus="0.6260" errorplus="0.6260">1.0020</radius>
+		<metallicity errorminus="0.3400" errorplus="0.3400">-0.3600</metallicity>
 		<planet>
 			<name>KOI-4466 b</name>
 			<name>KOI-4466 01</name>
-			<radius errorminus="0.38275" errorplus="0.38275">0.19137</radius>
-			<period errorminus="6.80000e-03" errorplus="6.80000e-03">154.677100000000</period>
-			<transittime errorminus="0.0300000" errorplus="0.0300000">2455010.3450000</transittime>
-			<semimajoraxis errorminus="1.7e-05" errorplus="1.7e-05">0.5833010</semimajoraxis>
-			<temperature errorminus=".0" errorplus="0.0">359.6</temperature>
+			<radius errorminus="0.10024" errorplus="0.10024">0.20322</radius>
+			<period errorminus="4.5970000e-03" errorplus="4.5970000e-03">154.671556000000</period>
+			<transittime errorminus="0.0226000" errorplus="0.0226000">2455010.3793000</transittime>
+			<semimajoraxis errorminus="1.13e-05" errorplus="1.13e-05">0.5695730</semimajoraxis>
+			<temperature errorminus="117.0" errorplus="117.0">371.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

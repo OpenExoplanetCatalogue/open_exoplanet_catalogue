@@ -2,17 +2,20 @@
 	<name>KOI-3298</name>
 	<rightascension>19 02 13</rightascension>
 	<declination>+44 00 38</declination>
+	<distance>663.62</distance>
 	<star>
 		<name>KOI-3298</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.7700</radius>
+		<temperature errorminus="170.00" errorplus="170.00">4463.00</temperature>
+		<radius errorminus="0.0690" errorplus="0.0690">0.6380</radius>
+		<metallicity errorminus="0.3400" errorplus="0.3400">-0.2800</metallicity>
 		<planet>
 			<name>KOI-3298 b</name>
 			<name>KOI-3298 01</name>
-			<radius errorminus="0.15492" errorplus="0.15492">0.25516</radius>
-			<period errorminus="3.00000e-04" errorplus="3.00000e-04">29.963370000000</period>
-			<transittime errorminus="0.0068000" errorplus="0.0068000">2454982.9406000</transittime>
-			<semimajoraxis errorminus="1.1e-06" errorplus="1.1e-06">0.1662460</semimajoraxis>
-			<temperature errorminus=".0" errorplus="0.0">407.3</temperature>
+			<radius errorminus="0.22783" errorplus="0.22783">0.17679</radius>
+			<period errorminus="1.6920000e-04" errorplus="1.6920000e-04">29.963298900000</period>
+			<transittime errorminus="0.0051200" errorplus="0.0051200">2454982.9432100</transittime>
+			<semimajoraxis errorminus="6.07e-07" errorplus="6.07e-07">0.1613010</semimajoraxis>
+			<temperature errorminus="25.9" errorplus="25.9">391.6</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

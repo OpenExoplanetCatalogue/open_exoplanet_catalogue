@@ -2,17 +2,20 @@
 	<name>KOI-3312</name>
 	<rightascension>19 06 00</rightascension>
 	<declination>+50 14 46</declination>
+	<distance>1428.58</distance>
 	<star>
 		<name>KOI-3312</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.9050</radius>
+		<temperature errorminus="168.00" errorplus="168.00">5903.00</temperature>
+		<radius errorminus="0.4170" errorplus="0.4170">0.8640</radius>
+		<metallicity errorminus="0.2800" errorplus="0.2800">-0.2400</metallicity>
 		<planet>
 			<name>KOI-3312 b</name>
 			<name>KOI-3312 01</name>
-			<radius errorminus="0.28250" errorplus="0.28250">0.20960</radius>
-			<period errorminus="2.20000e-04" errorplus="2.20000e-04">18.093800000000</period>
-			<transittime errorminus="0.0068000" errorplus="0.0068000">2454972.0196000</transittime>
-			<semimajoraxis errorminus="1.1e-06" errorplus="1.1e-06">0.1352540</semimajoraxis>
-			<temperature errorminus="175.0" errorplus="175.0">674.0</temperature>
+			<radius errorminus="0.04693" errorplus="0.04693">0.21379</radius>
+			<period errorminus="1.6660000e-04" errorplus="1.6660000e-04">18.093801800000</period>
+			<transittime errorminus="0.0071200" errorplus="0.0071200">2454972.0200000</transittime>
+			<semimajoraxis errorminus="8.16e-07" errorplus="8.16e-07">0.1329620</semimajoraxis>
+			<temperature errorminus="161.0" errorplus="161.0">664.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

@@ -2,17 +2,20 @@
 	<name>KOI-4002</name>
 	<rightascension>19 01 19</rightascension>
 	<declination>+41 03 50</declination>
+	<distance>931.26</distance>
 	<star>
 		<name>KOI-4002</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.8100</radius>
+		<temperature errorminus="166.00" errorplus="166.00">5396.00</temperature>
+		<radius errorminus="0.4190" errorplus="0.4190">0.9300</radius>
+		<metallicity errorminus="0.3200" errorplus="0.3200">0.4000</metallicity>
 		<planet>
 			<name>KOI-4002 b</name>
 			<name>KOI-4002 01</name>
-			<radius errorminus="0.04465" errorplus="0.04465">0.16677</radius>
-			<period errorminus="8.50000e-06" errorplus="8.50000e-06">0.524178100000</period>
-			<transittime errorminus="0.0006200" errorplus="0.0006200">2454964.5995500</transittime>
-			<semimajoraxis errorminus="1.3e-07" errorplus="1.3e-07">0.0116952</semimajoraxis>
-			<temperature errorminus="698.0" errorplus="698.0">1918.0</temperature>
+			<radius errorminus="0.03135" errorplus="0.03135">0.15191</radius>
+			<period errorminus="3.0670000e-06" errorplus="3.0670000e-06">0.524181363000</period>
+			<transittime errorminus="0.0005170" errorplus="0.0005170">2454964.6028990</transittime>
+			<semimajoraxis errorminus="4.93e-08" errorplus="4.93e-08">0.0126282</semimajoraxis>
+			<temperature errorminus="464.0" errorplus="464.0">2043.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

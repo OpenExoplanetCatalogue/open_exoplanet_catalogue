@@ -2,17 +2,20 @@
 	<name>KOI-4647</name>
 	<rightascension>19 21 02</rightascension>
 	<declination>+46 53 06</declination>
+	<distance>1037.12</distance>
 	<star>
 		<name>KOI-4647</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.9210</radius>
+		<temperature errorminus="192.00" errorplus="192.00">5303.00</temperature>
+		<radius errorminus="1.0930" errorplus="1.0930">1.9640</radius>
+		<metallicity errorminus="0.3200" errorplus="0.3200">-0.0400</metallicity>
 		<planet>
 			<name>KOI-4647 b</name>
 			<name>KOI-4647 01</name>
-			<radius errorminus="0.34630" errorplus="0.34630">0.17315</radius>
-			<period errorminus="1.10000e-03" errorplus="1.10000e-03">37.902700000000</period>
-			<transittime errorminus="0.0160000" errorplus="0.0160000">2454996.7240000</transittime>
-			<semimajoraxis errorminus="4.2e-06" errorplus="4.2e-06">0.2208830</semimajoraxis>
-			<temperature errorminus="32.0" errorplus="32.0">685.0</temperature>
+			<radius errorminus="0.07573" errorplus="0.07573">0.21379</radius>
+			<period errorminus="6.4920000e-04" errorplus="6.4920000e-04">37.903509500000</period>
+			<transittime errorminus="0.0139000" errorplus="0.0139000">2454996.7136000</transittime>
+			<semimajoraxis errorminus="2.56e-06" errorplus="2.56e-06">0.2239980</semimajoraxis>
+			<temperature errorminus="194.0" errorplus="194.0">693.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

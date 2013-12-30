@@ -2,17 +2,20 @@
 	<name>KOI-3554</name>
 	<rightascension>19 02 24</rightascension>
 	<declination>+41 49 03</declination>
+	<distance>1029.86</distance>
 	<star>
 		<name>KOI-3554</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.9230</radius>
+		<temperature errorminus="190.00" errorplus="190.00">5780.00</temperature>
+		<radius errorminus="0.4860" errorplus="0.4860">0.8300</radius>
+		<metallicity errorminus="0.3600" errorplus="0.3600">-0.5400</metallicity>
 		<planet>
 			<name>KOI-3554 b</name>
 			<name>KOI-3554 01</name>
-			<radius errorminus="0.00000" errorplus="0.00000">3.72402</radius>
-			<period errorminus=".00000e+00" errorplus="0.00000e+00">394.674987793000</period>
+			<radius errorminus="0.00000" errorplus="0.00000">3.59244</radius>
+			<period errorminus=".0000000e+00" errorplus="0.0000000e+00">394.681793213000</period>
 			<transittime errorminus="0.0000000" errorplus="0.0000000">2455179.1387170</transittime>
-			<semimajoraxis errorminus=".0e+00" errorplus="0.0e+00">1.0431000</semimajoraxis>
-			<temperature errorminus="54.0" errorplus="54.0">243.0</temperature>
+			<semimajoraxis errorminus=".00e+00" errorplus="0.00e+00">0.9792960</semimajoraxis>
+			<temperature errorminus=".0" errorplus="0.0">234.8</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

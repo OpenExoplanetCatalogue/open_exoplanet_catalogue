@@ -2,17 +2,20 @@
 	<name>KOI-4491</name>
 	<rightascension>19 20 35</rightascension>
 	<declination>+39 39 56</declination>
+	<distance>1578.56</distance>
 	<star>
 		<name>KOI-4491</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.0530</radius>
+		<temperature errorminus="260.00" errorplus="260.00">6257.00</temperature>
+		<radius errorminus="1.0430" errorplus="1.0430">1.1860</radius>
+		<metallicity errorminus="0.4200" errorplus="0.4200">0.1800</metallicity>
 		<planet>
 			<name>KOI-4491 b</name>
 			<name>KOI-4491 01</name>
-			<radius errorminus="0.20049" errorplus="0.20049">0.14581</radius>
-			<period errorminus="4.60000e-03" errorplus="4.60000e-03">114.326300000000</period>
-			<transittime errorminus="0.0220000" errorplus="0.0220000">2455049.8120000</transittime>
-			<semimajoraxis errorminus="1.3e-05" errorplus="1.3e-05">0.4736020</semimajoraxis>
-			<temperature errorminus="82.0" errorplus="82.0">407.0</temperature>
+			<radius errorminus="0.04502" errorplus="0.04502">0.19475</radius>
+			<period errorminus="3.3320000e-03" errorplus="3.3320000e-03">114.340434000000</period>
+			<transittime errorminus="0.0196000" errorplus="0.0196000">2455049.7630000</transittime>
+			<semimajoraxis errorminus="9.58e-06" errorplus="9.58e-06">0.4930450</semimajoraxis>
+			<temperature errorminus="189.0" errorplus="189.0">428.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

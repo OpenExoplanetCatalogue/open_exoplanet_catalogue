@@ -2,17 +2,20 @@
 	<name>KOI-4069</name>
 	<rightascension>19 57 24</rightascension>
 	<declination>+41 11 44</declination>
+	<distance>428.89</distance>
 	<star>
 		<name>KOI-4069</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.6060</radius>
+		<temperature errorminus="142.00" errorplus="142.00">4522.00</temperature>
+		<radius errorminus="0.0640" errorplus="0.0640">0.6550</radius>
+		<metallicity errorminus="0.3400" errorplus="0.3400">-0.2200</metallicity>
 		<planet>
 			<name>KOI-4069 b</name>
 			<name>KOI-4069 01</name>
-			<radius errorminus="0.01185" errorplus="0.01185">0.17588</radius>
-			<period errorminus="1.00000e-04" errorplus="1.00000e-04">13.062560000000</period>
-			<transittime errorminus="0.0047000" errorplus="0.0047000">2454977.1793000</transittime>
-			<semimajoraxis errorminus="5.0e-07" errorplus="5.0e-07">0.0933321</semimajoraxis>
-			<temperature errorminus="9.4" errorplus="9.4">508.9</temperature>
+			<radius errorminus="0.10024" errorplus="0.10024">0.13123</radius>
+			<period errorminus="5.3090000e-05" errorplus="5.3090000e-05">13.062593460000</period>
+			<transittime errorminus="0.0032100" errorplus="0.0032100">2454977.1779800</transittime>
+			<semimajoraxis errorminus="2.54e-07" errorplus="2.54e-07">0.0938018</semimajoraxis>
+			<temperature errorminus="30.6" errorplus="30.6">527.2</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

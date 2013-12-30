@@ -13,10 +13,21 @@
 		<mass errorminus="0.0730" errorplus="0.0730">0.8280</mass>
 		<age errorminus="3.9000" errorplus="3.9000">0.9000</age>
 		<planet>
+			<name>KOI-0582 b</name>
+			<name>KOI-0582 01</name>
+			<radius errorminus="0.09113" errorplus="0.09113">0.20049</radius>
+			<period errorminus="1.6000000e-05" errorplus="1.6000000e-05">5.945053000000</period>
+			<transittime errorminus="0.0011000" errorplus="0.0011000">2455003.4712000</transittime>
+			<semimajoraxis>0.0600000</semimajoraxis>
+			<temperature>805.0</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
+		<planet>
 			<name>KOI-0582 c</name>
 			<name>KOI-0582 02</name>
 			<radius errorminus="0.08840" errorplus="0.08840">0.18408</radius>
-			<period errorminus="1.10000e-04" errorplus="1.10000e-04">17.738570000000</period>
+			<period errorminus="1.1000000e-04" errorplus="1.1000000e-04">17.738570000000</period>
 			<transittime errorminus="0.0030000" errorplus="0.0030000">2454981.9861000</transittime>
 			<semimajoraxis>0.1250000</semimajoraxis>
 			<temperature>558.0</temperature>
@@ -27,7 +38,7 @@
 			<name>KOI-0582 d</name>
 			<name>KOI-0582 03</name>
 			<radius errorminus="0.06015" errorplus="0.06015">0.12576</radius>
-			<period errorminus="8.20000e-05" errorplus="8.20000e-05">9.939543000000</period>
+			<period errorminus="8.2000000e-05" errorplus="8.2000000e-05">9.939543000000</period>
 			<transittime errorminus="0.0040000" errorplus="0.0040000">2454964.5869000</transittime>
 			<semimajoraxis>0.0850000</semimajoraxis>
 			<temperature>676.0</temperature>

@@ -2,17 +2,20 @@
 	<name>KOI-3533</name>
 	<rightascension>19 13 07</rightascension>
 	<declination>+39 59 31</declination>
+	<distance>1078.46</distance>
 	<star>
 		<name>KOI-3533</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.0220</radius>
+		<temperature errorminus="227.00" errorplus="227.00">6217.00</temperature>
+		<radius errorminus="0.6020" errorplus="0.6020">0.9890</radius>
+		<metallicity errorminus="0.3400" errorplus="0.3400">-0.2200</metallicity>
 		<planet>
 			<name>KOI-3533 b</name>
 			<name>KOI-3533 01</name>
-			<radius errorminus="0.00000" errorplus="0.00000">2.63088</radius>
-			<period errorminus=".00000e+00" errorplus="0.00000e+00">152.155395508000</period>
-			<transittime errorminus="0.0000000" errorplus="0.0000000">2455048.0163058</transittime>
-			<semimajoraxis errorminus=".0e+00" errorplus="0.0e+00">0.5774610</semimajoraxis>
-			<temperature errorminus="89.0" errorplus="89.0">365.0</temperature>
+			<radius errorminus="0.45565" errorplus="0.45565">5.30469</radius>
+			<period errorminus="3.1410000e-05" errorplus="3.1410000e-05">152.151436030000</period>
+			<transittime errorminus="0.0001460" errorplus="0.0001460">2455048.0158890</transittime>
+			<semimajoraxis errorminus="7.82e-08" errorplus="7.82e-08">0.5684320</semimajoraxis>
+			<temperature errorminus="111.0" errorplus="111.0">362.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

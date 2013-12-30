@@ -2,17 +2,20 @@
 	<name>KOI-4716</name>
 	<rightascension>19 13 22</rightascension>
 	<declination>+49 01 18</declination>
+	<distance>410.22</distance>
 	<star>
 		<name>KOI-4716</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.1680</radius>
+		<temperature errorminus="187.00" errorplus="187.00">6177.00</temperature>
+		<radius errorminus="0.5350" errorplus="0.5350">1.0930</radius>
+		<metallicity errorminus="0.3000" errorplus="0.3000">-0.3400</metallicity>
 		<planet>
 			<name>KOI-4716 b</name>
 			<name>KOI-4716 01</name>
-			<radius errorminus="0.03372" errorplus="0.03372">0.05832</radius>
-			<period errorminus="8.90000e-05" errorplus="8.90000e-05">5.894339000000</period>
-			<transittime errorminus="0.0079000" errorplus="0.0079000">2454967.1094000</transittime>
-			<semimajoraxis errorminus="6.6e-07" errorplus="6.6e-07">0.0656068</semimajoraxis>
-			<temperature errorminus="191.0" errorplus="191.0">1153.0</temperature>
+			<radius errorminus="0.02533" errorplus="0.02533">0.06343</radius>
+			<period errorminus="5.0860000e-05" errorplus="5.0860000e-05">5.894264940000</period>
+			<transittime errorminus="0.0059000" errorplus="0.0059000">2454967.1154400</transittime>
+			<semimajoraxis errorminus="3.63e-07" errorplus="3.63e-07">0.0631050</semimajoraxis>
+			<temperature errorminus="280.0" errorplus="280.0">1134.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

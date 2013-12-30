@@ -2,17 +2,20 @@
 	<name>KOI-4391</name>
 	<rightascension>19 21 34</rightascension>
 	<declination>+41 46 53</declination>
+	<distance>1074.34</distance>
 	<star>
 		<name>KOI-4391</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.9600</radius>
+		<temperature errorminus="179.00" errorplus="179.00">5952.00</temperature>
+		<radius errorminus="0.5060" errorplus="0.5060">0.9170</radius>
+		<metallicity errorminus="0.2800" errorplus="0.2800">-0.2800</metallicity>
 		<planet>
 			<name>KOI-4391 b</name>
 			<name>KOI-4391 01</name>
-			<radius errorminus="0.32807" errorplus="0.32807">0.14581</radius>
-			<period errorminus="1.10000e-03" errorplus="1.10000e-03">49.471100000000</period>
-			<transittime errorminus="0.0140000" errorplus="0.0140000">2454999.1740000</transittime>
-			<semimajoraxis errorminus="4.0e-06" errorplus="4.0e-06">0.2649190</semimajoraxis>
-			<temperature>502.0</temperature>
+			<radius errorminus="0.06069" errorplus="0.06069">0.15602</radius>
+			<period errorminus="6.6120000e-04" errorplus="6.6120000e-04">49.475074600000</period>
+			<transittime errorminus="0.0111000" errorplus="0.0111000">2454999.1311000</transittime>
+			<semimajoraxis errorminus="2.30e-06" errorplus="2.30e-06">0.2585440</semimajoraxis>
+			<temperature errorminus="137.0" errorplus="137.0">495.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

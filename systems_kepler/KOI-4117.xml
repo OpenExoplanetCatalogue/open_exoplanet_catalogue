@@ -2,17 +2,20 @@
 	<name>KOI-4117</name>
 	<rightascension>19 27 40</rightascension>
 	<declination>+39 01 20</declination>
+	<distance>732.26</distance>
 	<star>
 		<name>KOI-4117</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.7420</radius>
+		<temperature errorminus="179.00" errorplus="179.00">5328.00</temperature>
+		<radius errorminus="0.2560" errorplus="0.2560">0.7800</radius>
+		<metallicity errorminus="0.3600" errorplus="0.3600">-0.1000</metallicity>
 		<planet>
 			<name>KOI-4117 b</name>
 			<name>KOI-4117 01</name>
-			<radius errorminus="0.11847" errorplus="0.11847">0.10024</radius>
-			<period errorminus="3.10000e-05" errorplus="3.10000e-05">4.242621000000</period>
-			<transittime errorminus="0.0040000" errorplus="0.0040000">2454968.0288000</transittime>
-			<semimajoraxis errorminus="2.4e-07" errorplus="2.4e-07">0.0484979</semimajoraxis>
-			<temperature errorminus="30.0" errorplus="30.0">914.0</temperature>
+			<radius errorminus="0.10024" errorplus="0.10024">0.11118</radius>
+			<period errorminus="1.8380000e-05" errorplus="1.8380000e-05">4.242628900000</period>
+			<transittime errorminus="0.0029500" errorplus="0.0029500">2454968.0300100</transittime>
+			<semimajoraxis errorminus="1.41e-07" errorplus="1.41e-07">0.0488859</semimajoraxis>
+			<temperature errorminus="157.0" errorplus="157.0">939.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

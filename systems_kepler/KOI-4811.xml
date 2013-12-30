@@ -2,17 +2,20 @@
 	<name>KOI-4811</name>
 	<rightascension>19 15 25</rightascension>
 	<declination>+45 05 51</declination>
+	<distance>974.47</distance>
 	<star>
 		<name>KOI-4811</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.6380</radius>
+		<temperature errorminus="195.00" errorplus="195.00">5767.00</temperature>
+		<radius errorminus="0.5050" errorplus="0.5050">1.4970</radius>
+		<metallicity errorminus="0.2900" errorplus="0.2900">-0.0800</metallicity>
 		<planet>
 			<name>KOI-4811 b</name>
 			<name>KOI-4811 01</name>
-			<radius errorminus="0.26428" errorplus="0.26428">0.20049</radius>
-			<period errorminus="3.60000e-04" errorplus="3.60000e-04">21.742210000000</period>
-			<transittime errorminus="0.0100000" errorplus="0.0100000">2454981.9580000</transittime>
-			<semimajoraxis errorminus="1.8e-06" errorplus="1.8e-06">0.1597500</semimajoraxis>
-			<temperature errorminus=".0" errorplus="0.0">782.5</temperature>
+			<radius errorminus="0.28250" errorplus="0.28250">0.17224</radius>
+			<period errorminus="2.5370000e-04" errorplus="2.5370000e-04">21.742455400000</period>
+			<transittime errorminus="0.0099700" errorplus="0.0099700">2454981.9596200</transittime>
+			<semimajoraxis errorminus="1.18e-06" errorplus="1.18e-06">0.1518390</semimajoraxis>
+			<temperature errorminus="137.0" errorplus="137.0">799.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

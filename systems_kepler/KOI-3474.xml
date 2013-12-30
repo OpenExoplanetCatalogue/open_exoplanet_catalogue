@@ -2,17 +2,20 @@
 	<name>KOI-3474</name>
 	<rightascension>19 52 20</rightascension>
 	<declination>+40 20 46</declination>
+	<distance>590.37</distance>
 	<star>
 		<name>KOI-3474</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.8720</radius>
+		<temperature errorminus="178.00" errorplus="178.00">5751.00</temperature>
+		<radius errorminus="0.4820" errorplus="0.4820">0.7670</radius>
+		<metallicity errorminus="0.3600" errorplus="0.3600">-0.5200</metallicity>
 		<planet>
 			<name>KOI-3474 b</name>
 			<name>KOI-3474 01</name>
-			<radius errorminus="0.11847" errorplus="0.11847">0.10936</radius>
-			<period errorminus="1.30000e-03" errorplus="1.30000e-03">52.605300000000</period>
-			<transittime errorminus="0.0150000" errorplus="0.0150000">2454991.6820000</transittime>
-			<semimajoraxis errorminus="4.6e-06" errorplus="4.6e-06">0.2729360</semimajoraxis>
-			<temperature errorminus="123.0" errorplus="123.0">458.0</temperature>
+			<radius errorminus="0.04365" errorplus="0.04365">0.11209</radius>
+			<period errorminus="7.6410000e-04" errorplus="7.6410000e-04">52.610015600000</period>
+			<transittime errorminus="0.0117000" errorplus="0.0117000">2454991.6165000</transittime>
+			<semimajoraxis errorminus="2.50e-06" errorplus="2.50e-06">0.2581900</semimajoraxis>
+			<temperature errorminus="138.0" errorplus="138.0">437.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

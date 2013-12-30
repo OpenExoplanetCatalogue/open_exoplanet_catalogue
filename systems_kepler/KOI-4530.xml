@@ -2,17 +2,20 @@
 	<name>KOI-4530</name>
 	<rightascension>19 22 56</rightascension>
 	<declination>+51 46 15</declination>
+	<distance>686.14</distance>
 	<star>
 		<name>KOI-4530</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.8800</radius>
+		<temperature errorminus="153.00" errorplus="153.00">5766.00</temperature>
+		<radius errorminus="0.5240" errorplus="0.5240">0.8670</radius>
+		<metallicity errorminus="0.2800" errorplus="0.2800">-0.1400</metallicity>
 		<planet>
 			<name>KOI-4530 b</name>
 			<name>KOI-4530 01</name>
-			<radius errorminus="0.12758" errorplus="0.12758">0.10024</radius>
-			<period errorminus="1.90000e-04" errorplus="1.90000e-04">12.635910000000</period>
-			<transittime errorminus="0.0089000" errorplus="0.0089000">2454967.4725000</transittime>
-			<semimajoraxis errorminus="1.0e-06" errorplus="1.0e-06">0.1044140</semimajoraxis>
-			<temperature errorminus="270.0" errorplus="270.0">737.0</temperature>
+			<radius errorminus="0.10936" errorplus="0.10936">0.09569</radius>
+			<period errorminus="1.1820000e-04" errorplus="1.1820000e-04">12.636070300000</period>
+			<transittime errorminus="0.0074300" errorplus="0.0074300">2454967.4682000</transittime>
+			<semimajoraxis errorminus="6.51e-07" errorplus="6.51e-07">0.1043400</semimajoraxis>
+			<temperature errorminus="222.0" errorplus="222.0">733.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

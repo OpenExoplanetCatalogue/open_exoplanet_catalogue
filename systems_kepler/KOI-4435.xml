@@ -2,17 +2,20 @@
 	<name>KOI-4435</name>
 	<rightascension>18 47 49</rightascension>
 	<declination>+44 15 41</declination>
+	<distance>691.81</distance>
 	<star>
 		<name>KOI-4435</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.0750</radius>
+		<temperature errorminus="206.00" errorplus="206.00">6328.00</temperature>
+		<radius errorminus="0.5930" errorplus="0.5930">1.0130</radius>
+		<metallicity errorminus="0.3400" errorplus="0.3400">-0.2800</metallicity>
 		<planet>
 			<name>KOI-4435 b</name>
 			<name>KOI-4435 01</name>
-			<radius errorminus="0.05377" errorplus="0.05377">0.08566</radius>
-			<period errorminus="1.90000e-04" errorplus="1.90000e-04">10.861500000000</period>
-			<transittime errorminus="0.0100000" errorplus="0.0100000">2454969.8170000</transittime>
-			<semimajoraxis errorminus="1.2e-06" errorplus="1.2e-06">0.1005920</semimajoraxis>
-			<temperature errorminus="133.0" errorplus="133.0">914.0</temperature>
+			<radius errorminus="0.02798" errorplus="0.02798">0.08894</radius>
+			<period errorminus="1.2440000e-04" errorplus="1.2440000e-04">10.861442200000</period>
+			<transittime errorminus="0.0090200" errorplus="0.0090200">2454969.8182900</transittime>
+			<semimajoraxis errorminus="7.50e-07" errorplus="7.50e-07">0.0981812</semimajoraxis>
+			<temperature errorminus="264.0" errorplus="264.0">897.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

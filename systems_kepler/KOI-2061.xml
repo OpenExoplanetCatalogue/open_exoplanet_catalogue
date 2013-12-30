@@ -2,16 +2,31 @@
 	<name>KOI-2061</name>
 	<rightascension>19 26 38</rightascension>
 	<declination>+50 35 01</declination>
+	<distance>828.11</distance>
 	<star>
 		<name>KOI-2061</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.6910</radius>
+		<temperature errorminus="85.00" errorplus="85.00">5013.00</temperature>
+		<radius errorminus="0.1300" errorplus="0.1300">0.6900</radius>
+		<mass errorminus="0.0300" errorplus="0.0300">0.7640</mass>
+		<age errorminus="3.8000" errorplus="3.8000">4.0000</age>
+		<planet>
+			<name>KOI-2061 b</name>
+			<name>KOI-2061 01</name>
+			<radius errorminus="0.08475" errorplus="0.08475">0.16677</radius>
+			<period errorminus="1.0000000e-04" errorplus="1.0000000e-04">14.092768000000</period>
+			<transittime errorminus="0.0051000" errorplus="0.0051000">2454974.1385000</transittime>
+			<semimajoraxis>0.1040000</semimajoraxis>
+			<temperature>570.0</temperature>
+			<list>Kepler Objects of Interest</list>
+			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+		</planet>
 		<planet>
 			<name>KOI-2061 c</name>
 			<name>KOI-2061 02</name>
 			<radius errorminus="0.10936" errorplus="0.10936">0.09113</radius>
-			<period errorminus="1.60000e-05" errorplus="1.60000e-05">1.089979000000</period>
+			<period errorminus="1.6000000e-05" errorplus="1.6000000e-05">1.089979000000</period>
 			<transittime errorminus="0.0031000" errorplus="0.0031000">2454964.5936000</transittime>
-			<semimajoraxis errorminus="1.8e-07" errorplus="1.8e-07">0.0189508</semimajoraxis>
+			<semimajoraxis errorminus="1.80e-07" errorplus="1.80e-07">0.0189508</semimajoraxis>
 			<temperature errorminus="127.0" errorplus="127.0">1335.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>

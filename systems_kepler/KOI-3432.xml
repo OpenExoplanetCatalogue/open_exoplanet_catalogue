@@ -2,17 +2,20 @@
 	<name>KOI-3432</name>
 	<rightascension>18 59 06</rightascension>
 	<declination>+44 55 00</declination>
+	<distance>875.21</distance>
 	<star>
 		<name>KOI-3432</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.8550</radius>
+		<temperature errorminus="197.00" errorplus="197.00">5359.00</temperature>
+		<radius errorminus="0.4390" errorplus="0.4390">0.8890</radius>
+		<metallicity errorminus="0.3400" errorplus="0.3400">-0.0400</metallicity>
 		<planet>
 			<name>KOI-3432 b</name>
 			<name>KOI-3432 01</name>
-			<radius errorminus="0.18226" errorplus="0.18226">0.11847</radius>
-			<period errorminus="1.20000e-03" errorplus="1.20000e-03">48.051700000000</period>
-			<transittime errorminus="0.0160000" errorplus="0.0160000">2454973.4880000</transittime>
-			<semimajoraxis errorminus="4.1e-06" errorplus="4.1e-06">0.2399640</semimajoraxis>
-			<temperature errorminus="50.0" errorplus="50.0">443.0</temperature>
+			<radius errorminus="0.01358" errorplus="0.01358">0.18226</radius>
+			<period errorminus="9.0430000e-04" errorplus="9.0430000e-04">48.052380800000</period>
+			<transittime errorminus="0.0144000" errorplus="0.0144000">2454973.4868000</transittime>
+			<semimajoraxis errorminus="3.05e-06" errorplus="3.05e-06">0.2430940</semimajoraxis>
+			<temperature errorminus="113.0" errorplus="113.0">452.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

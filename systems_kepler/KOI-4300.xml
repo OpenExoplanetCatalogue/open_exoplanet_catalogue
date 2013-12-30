@@ -2,17 +2,20 @@
 	<name>KOI-4300</name>
 	<rightascension>19 44 38</rightascension>
 	<declination>+44 33 47</declination>
+	<distance>1362.81</distance>
 	<star>
 		<name>KOI-4300</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.8990</radius>
+		<temperature errorminus="205.00" errorplus="205.00">5448.00</temperature>
+		<radius errorminus="0.4670" errorplus="0.4670">0.8720</radius>
+		<metallicity errorminus="0.2500" errorplus="0.2500">0.0700</metallicity>
 		<planet>
 			<name>KOI-4300 b</name>
 			<name>KOI-4300 01</name>
-			<radius errorminus="0.53767" errorplus="0.53767">0.29162</radius>
-			<period errorminus="2.70000e-05" errorplus="2.70000e-05">3.582665000000</period>
-			<transittime errorminus="0.0042000" errorplus="0.0042000">2454967.9602000</transittime>
-			<semimajoraxis errorminus="2.3e-07" errorplus="2.3e-07">0.0454647</semimajoraxis>
-			<temperature errorminus=".0" errorplus="0.0">1028.7</temperature>
+			<radius errorminus="0.09113" errorplus="0.09113">0.18955</radius>
+			<period errorminus="1.2100000e-05" errorplus="1.2100000e-05">3.582738630000</period>
+			<transittime errorminus="0.0021800" errorplus="0.0021800">2454967.9515000</transittime>
+			<semimajoraxis errorminus="1.00e-07" errorplus="1.00e-07">0.0444479</semimajoraxis>
+			<temperature errorminus="288.0" errorplus="288.0">1065.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

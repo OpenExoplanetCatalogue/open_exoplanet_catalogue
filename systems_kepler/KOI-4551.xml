@@ -2,17 +2,20 @@
 	<name>KOI-4551</name>
 	<rightascension>19 40 22</rightascension>
 	<declination>+49 56 24</declination>
+	<distance>1091.28</distance>
 	<star>
 		<name>KOI-4551</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.0010</radius>
+		<temperature errorminus="224.00" errorplus="224.00">6102.00</temperature>
+		<radius errorminus="0.7360" errorplus="0.7360">1.0180</radius>
+		<metallicity errorminus="0.3200" errorplus="0.3200">-0.0600</metallicity>
 		<planet>
 			<name>KOI-4551 b</name>
 			<name>KOI-4551 01</name>
-			<radius errorminus="0.13670" errorplus="0.13670">0.10936</radius>
-			<period errorminus="2.90000e-04" errorplus="2.90000e-04">14.717300000000</period>
-			<transittime errorminus="0.0120000" errorplus="0.0120000">2454968.6650000</transittime>
-			<semimajoraxis errorminus="1.5e-06" errorplus="1.5e-06">0.1193640</semimajoraxis>
-			<temperature errorminus="217.0" errorplus="217.0">776.0</temperature>
+			<radius errorminus="0.08065" errorplus="0.08065">0.11628</radius>
+			<period errorminus="1.8260000e-04" errorplus="1.8260000e-04">14.717866600000</period>
+			<transittime errorminus="0.0097200" errorplus="0.0097200">2454968.6501400</transittime>
+			<semimajoraxis errorminus="9.92e-07" errorplus="9.92e-07">0.1199750</semimajoraxis>
+			<temperature errorminus="285.0" errorplus="285.0">784.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

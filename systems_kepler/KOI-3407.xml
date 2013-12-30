@@ -2,17 +2,20 @@
 	<name>KOI-3407</name>
 	<rightascension>19 42 46</rightascension>
 	<declination>+42 36 34</declination>
+	<distance>969.32</distance>
 	<star>
 		<name>KOI-3407</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.8300</radius>
+		<temperature errorminus="199.00" errorplus="199.00">5598.00</temperature>
+		<radius errorminus="0.4410" errorplus="0.4410">0.7450</radius>
+		<metallicity errorminus="0.4000" errorplus="0.4000">-0.4800</metallicity>
 		<planet>
 			<name>KOI-3407 b</name>
 			<name>KOI-3407 01</name>
-			<radius errorminus="0.44654" errorplus="0.44654">0.20960</radius>
-			<period errorminus="1.10000e-03" errorplus="1.10000e-03">92.437100000000</period>
-			<transittime errorminus="0.0076000" errorplus="0.0076000">2454996.5892000</transittime>
-			<semimajoraxis errorminus="3.1e-06" errorplus="3.1e-06">0.3917240</semimajoraxis>
-			<temperature errorminus="86.0" errorplus="86.0">363.0</temperature>
+			<radius errorminus="0.01595" errorplus="0.01595">0.24660</radius>
+			<period errorminus="7.7900000e-04" errorplus="7.7900000e-04">92.436613800000</period>
+			<transittime errorminus="0.0071500" errorplus="0.0071500">2454996.5871000</transittime>
+			<semimajoraxis errorminus="2.09e-06" errorplus="2.09e-06">0.3724180</semimajoraxis>
+			<temperature errorminus="104.0" errorplus="104.0">349.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

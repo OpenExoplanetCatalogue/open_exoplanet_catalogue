@@ -2,17 +2,20 @@
 	<name>KOI-3245</name>
 	<rightascension>18 40 59</rightascension>
 	<declination>+43 54 54</declination>
+	<distance>413.36</distance>
 	<star>
 		<name>KOI-3245</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.1740</radius>
+		<temperature errorminus="135.00" errorplus="135.00">6086.00</temperature>
+		<radius errorminus="0.1980" errorplus="0.1980">1.0920</radius>
+		<metallicity errorminus="0.1600" errorplus="0.1600">-0.1400</metallicity>
 		<planet>
 			<name>KOI-3245 b</name>
 			<name>KOI-3245 01</name>
-			<radius errorminus="0.03554" errorplus="0.03554">0.09295</radius>
-			<period errorminus="1.10000e-04" errorplus="1.10000e-04">10.600620000000</period>
-			<transittime errorminus="0.0061000" errorplus="0.0061000">2454965.9831000</transittime>
-			<semimajoraxis errorminus="6.5e-07" errorplus="6.5e-07">0.0974309</semimajoraxis>
-			<temperature errorminus="184.0" errorplus="184.0">953.0</temperature>
+			<radius errorminus="0.02861" errorplus="0.02861">0.08995</radius>
+			<period errorminus="8.3370000e-05" errorplus="8.3370000e-05">10.600544270000</period>
+			<transittime errorminus="0.0062200" errorplus="0.0062200">2454965.9843400</transittime>
+			<semimajoraxis errorminus="4.97e-07" errorplus="4.97e-07">0.0948559</semimajoraxis>
+			<temperature errorminus="85.0" errorplus="85.0">911.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

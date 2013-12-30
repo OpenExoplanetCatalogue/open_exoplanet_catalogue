@@ -2,17 +2,20 @@
 	<name>KOI-4343</name>
 	<rightascension>19 12 18</rightascension>
 	<declination>+43 57 30</declination>
+	<distance>861.47</distance>
 	<star>
 		<name>KOI-4343</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.3970</radius>
+		<temperature errorminus="117.00" errorplus="117.00">5973.00</temperature>
+		<radius errorminus="0.2360" errorplus="0.2360">1.3050</radius>
+		<metallicity errorminus="0.1600" errorplus="0.1600">-0.3400</metallicity>
 		<planet>
 			<name>KOI-4343 b</name>
 			<name>KOI-4343 01</name>
-			<radius errorminus="0.24605" errorplus="0.24605">0.11847</radius>
-			<period errorminus="6.20000e-04" errorplus="6.20000e-04">27.211060000000</period>
-			<transittime errorminus="0.0140000" errorplus="0.0140000">2454965.3770000</transittime>
-			<semimajoraxis errorminus="2.7e-06" errorplus="2.7e-06">0.1801600</semimajoraxis>
-			<temperature errorminus="145.0" errorplus="145.0">739.0</temperature>
+			<radius errorminus="0.01558" errorplus="0.01558">0.14298</radius>
+			<period errorminus="3.6590000e-04" errorplus="3.6590000e-04">27.210672100000</period>
+			<transittime errorminus="0.0115000" errorplus="0.0115000">2454965.3853000</transittime>
+			<semimajoraxis errorminus="1.54e-06" errorplus="1.54e-06">0.1722910</semimajoraxis>
+			<temperature errorminus="67.1" errorplus="67.1">725.2</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

@@ -2,17 +2,20 @@
 	<name>KOI-4743</name>
 	<rightascension>19 54 44</rightascension>
 	<declination>+41 49 53</declination>
+	<distance>810.83</distance>
 	<star>
 		<name>KOI-4743</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.8570</radius>
+		<temperature errorminus="191.00" errorplus="191.00">5692.00</temperature>
+		<radius errorminus="0.4700" errorplus="0.4700">0.7620</radius>
+		<metallicity errorminus="0.3800" errorplus="0.3800">-0.5200</metallicity>
 		<planet>
 			<name>KOI-4743 b</name>
 			<name>KOI-4743 01</name>
-			<radius errorminus="0.07199" errorplus="0.07199">0.25790</radius>
-			<period errorminus="4.10000e-04" errorplus="4.10000e-04">49.538120000000</period>
-			<transittime errorminus="0.0052000" errorplus="0.0052000">2454965.5088000</transittime>
-			<semimajoraxis errorminus="1.5e-06" errorplus="1.5e-06">0.2606020</semimajoraxis>
-			<temperature errorminus="90.0" errorplus="90.0">460.0</temperature>
+			<radius errorminus="0.15492" errorplus="0.15492">0.19046</radius>
+			<period errorminus="2.1010000e-04" errorplus="2.1010000e-04">49.538196800000</period>
+			<transittime errorminus="0.0035800" errorplus="0.0035800">2454965.5096300</transittime>
+			<semimajoraxis errorminus="6.96e-07" errorplus="6.96e-07">0.2462030</semimajoraxis>
+			<temperature errorminus="137.0" errorplus="137.0">442.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

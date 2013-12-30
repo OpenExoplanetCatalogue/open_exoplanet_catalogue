@@ -2,17 +2,20 @@
 	<name>KOI-4428</name>
 	<rightascension>19 53 10</rightascension>
 	<declination>+40 14 22</declination>
+	<distance>767.92</distance>
 	<star>
 		<name>KOI-4428</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.8830</radius>
+		<temperature errorminus="182.00" errorplus="182.00">5790.00</temperature>
+		<radius errorminus="0.5000" errorplus="0.5000">0.8030</radius>
+		<metallicity errorminus="0.3400" errorplus="0.3400">-0.4200</metallicity>
 		<planet>
 			<name>KOI-4428 b</name>
 			<name>KOI-4428 01</name>
-			<radius errorminus="0.06015" errorplus="0.06015">0.13943</radius>
-			<period errorminus="1.70000e-04" errorplus="1.70000e-04">13.003130000000</period>
-			<transittime errorminus="0.0077000" errorplus="0.0077000">2454965.0140000</transittime>
-			<semimajoraxis errorminus="9.4e-07" errorplus="9.4e-07">0.1078210</semimajoraxis>
-			<temperature errorminus="188.0" errorplus="188.0">738.0</temperature>
+			<radius errorminus="0.10024" errorplus="0.10024">0.10753</radius>
+			<period errorminus="1.2300000e-04" errorplus="1.2300000e-04">13.003465100000</period>
+			<transittime errorminus="0.0075800" errorplus="0.0075800">2454964.9896500</transittime>
+			<semimajoraxis errorminus="6.50e-07" errorplus="6.50e-07">0.1030890</semimajoraxis>
+			<temperature errorminus="223.0" errorplus="223.0">713.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

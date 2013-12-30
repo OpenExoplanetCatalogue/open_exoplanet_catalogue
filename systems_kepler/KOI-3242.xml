@@ -2,17 +2,20 @@
 	<name>KOI-3242</name>
 	<rightascension>18 57 49</rightascension>
 	<declination>+42 26 23</declination>
+	<distance>1539.47</distance>
 	<star>
 		<name>KOI-3242</name>
-		<radius errorminus=".0000" errorplus="0.0000">2.4770</radius>
+		<temperature errorminus="367.00" errorplus="367.00">7382.00</temperature>
+		<radius errorminus="0.9350" errorplus="0.9350">2.8040</radius>
+		<metallicity errorminus="0.4200" errorplus="0.4200">0.1800</metallicity>
 		<planet>
 			<name>KOI-3242 b</name>
 			<name>KOI-3242 01</name>
-			<radius errorminus="0.01914" errorplus="0.01914">0.10389</radius>
-			<period errorminus="1.60000e-05" errorplus="1.60000e-05">1.549474000000</period>
-			<transittime errorminus="0.0042000" errorplus="0.0042000">2454965.5046000</transittime>
-			<semimajoraxis errorminus="2.2e-07" errorplus="2.2e-07">0.0316546</semimajoraxis>
-			<temperature errorminus="644.0" errorplus="644.0">2873.0</temperature>
+			<radius errorminus="0.01905" errorplus="0.01905">0.12284</radius>
+			<period errorminus="1.0510000e-05" errorplus="1.0510000e-05">1.549507490000</period>
+			<transittime errorminus="0.0031500" errorplus="0.0031500">2454965.4808500</transittime>
+			<semimajoraxis errorminus="1.49e-07" errorplus="1.49e-07">0.0328860</semimajoraxis>
+			<temperature errorminus="523.0" errorplus="523.0">3007.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

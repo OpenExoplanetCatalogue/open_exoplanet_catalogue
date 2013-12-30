@@ -2,17 +2,20 @@
 	<name>KOI-4535</name>
 	<rightascension>19 29 00</rightascension>
 	<declination>+38 36 32</declination>
+	<distance>641.64</distance>
 	<star>
 		<name>KOI-4535</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.7960</radius>
+		<temperature errorminus="184.00" errorplus="184.00">5289.00</temperature>
+		<radius errorminus="0.2120" errorplus="0.2120">0.7480</radius>
+		<metallicity errorminus="0.4200" errorplus="0.4200">-0.4400</metallicity>
 		<planet>
 			<name>KOI-4535 b</name>
 			<name>KOI-4535 01</name>
-			<radius errorminus="0.15492" errorplus="0.15492">0.10024</radius>
-			<period errorminus="1.40000e-04" errorplus="1.40000e-04">9.848040000000</period>
-			<transittime errorminus="0.0084000" errorplus="0.0084000">2454969.8034000</transittime>
-			<semimajoraxis errorminus="8.1e-07" errorplus="8.1e-07">0.0843087</semimajoraxis>
-			<temperature errorminus="207.0" errorplus="207.0">724.0</temperature>
+			<radius errorminus="0.10936" errorplus="0.10936">0.09295</radius>
+			<period errorminus="9.4500000e-05" errorplus="9.4500000e-05">9.848063570000</period>
+			<transittime errorminus="0.0076600" errorplus="0.0076600">2454969.8019900</transittime>
+			<semimajoraxis errorminus="5.15e-07" errorplus="5.15e-07">0.0805129</semimajoraxis>
+			<temperature errorminus="104.0" errorplus="104.0">711.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

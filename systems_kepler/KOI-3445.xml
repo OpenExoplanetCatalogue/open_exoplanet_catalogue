@@ -2,17 +2,20 @@
 	<name>KOI-3445</name>
 	<rightascension>19 18 50</rightascension>
 	<declination>+50 07 41</declination>
+	<distance>1279.76</distance>
 	<star>
 		<name>KOI-3445</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.8740</radius>
+		<temperature errorminus="173.00" errorplus="173.00">5751.00</temperature>
+		<radius errorminus="0.5020" errorplus="0.5020">0.8480</radius>
+		<metallicity errorminus="0.3400" errorplus="0.3400">-0.2800</metallicity>
 		<planet>
 			<name>KOI-3445 b</name>
 			<name>KOI-3445 01</name>
-			<radius errorminus="0.31896" errorplus="0.31896">0.20049</radius>
-			<period errorminus="2.10000e-03" errorplus="2.10000e-03">82.306200000000</period>
-			<transittime errorminus="0.0150000" errorplus="0.0150000">2454992.0000000</transittime>
-			<semimajoraxis errorminus="6.1e-06" errorplus="6.1e-06">0.3658700</semimajoraxis>
-			<temperature errorminus="142.0" errorplus="142.0">394.0</temperature>
+			<radius errorminus="0.04402" errorplus="0.04402">0.22992</radius>
+			<period errorminus="1.1600000e-03" errorplus="1.1600000e-03">82.304880000000</period>
+			<transittime errorminus="0.0110000" errorplus="0.0110000">2454992.0325000</transittime>
+			<semimajoraxis errorminus="3.35e-06" errorplus="3.35e-06">0.3561050</semimajoraxis>
+			<temperature errorminus="116.0" errorplus="116.0">392.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

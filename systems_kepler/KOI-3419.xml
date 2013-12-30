@@ -2,17 +2,20 @@
 	<name>KOI-3419</name>
 	<rightascension>19 48 09</rightascension>
 	<declination>+49 28 08</declination>
+	<distance>752.12</distance>
 	<star>
 		<name>KOI-3419</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.4330</radius>
+		<temperature errorminus="234.00" errorplus="234.00">6391.00</temperature>
+		<radius errorminus="0.8150" errorplus="0.8150">1.3320</radius>
+		<metallicity errorminus="0.3400" errorplus="0.3400">-0.2200</metallicity>
 		<planet>
 			<name>KOI-3419 b</name>
 			<name>KOI-3419 01</name>
-			<radius errorminus="0.61057" errorplus="0.61057">5.20354</radius>
-			<period errorminus="1.60000e-05" errorplus="1.60000e-05">58.585023000000</period>
-			<transittime errorminus="0.0001600" errorplus="0.0001600">2454973.7991300</transittime>
-			<semimajoraxis errorminus="5.9e-08" errorplus="5.9e-08">0.3136070</semimajoraxis>
-			<temperature errorminus="98.0" errorplus="98.0">602.0</temperature>
+			<radius errorminus="0.10024" errorplus="0.10024">4.75153</radius>
+			<period errorminus="2.6290000e-06" errorplus="2.6290000e-06">58.585035518000</period>
+			<transittime errorminus="0.0000350" errorplus="0.0000350">2454973.7998135</transittime>
+			<semimajoraxis errorminus="9.09e-09" errorplus="9.09e-09">0.3037790</semimajoraxis>
+			<temperature errorminus="182.0" errorplus="182.0">590.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

@@ -2,17 +2,20 @@
 	<name>KOI-3891</name>
 	<rightascension>19 44 37</rightascension>
 	<declination>+44 55 12</declination>
+	<distance>1446.54</distance>
 	<star>
 		<name>KOI-3891</name>
-		<radius errorminus=".0000" errorplus="0.0000">3.1490</radius>
+		<temperature errorminus="178.00" errorplus="178.00">5258.00</temperature>
+		<radius errorminus="1.7560" errorplus="1.7560">2.7800</radius>
+		<metallicity errorminus="0.3200" errorplus="0.3200">-0.4200</metallicity>
 		<planet>
 			<name>KOI-3891 b</name>
 			<name>KOI-3891 01</name>
-			<radius errorminus="0.71082" errorplus="0.71082">0.67436</radius>
-			<period errorminus="2.30000e-04" errorplus="2.30000e-04">47.109580000000</period>
-			<transittime errorminus="0.0029000" errorplus="0.0029000">2454977.1336000</transittime>
-			<semimajoraxis errorminus="9.4e-07" errorplus="9.4e-07">0.2887700</semimajoraxis>
-			<temperature errorminus="44.0" errorplus="44.0">773.0</temperature>
+			<radius errorminus="0.20049" errorplus="0.20049">0.64976</radius>
+			<period errorminus="1.4530000e-04" errorplus="1.4530000e-04">47.109769600000</period>
+			<transittime errorminus="0.0026100" errorplus="0.0026100">2454977.1319300</transittime>
+			<semimajoraxis errorminus="5.45e-07" errorplus="5.45e-07">0.2647290</semimajoraxis>
+			<temperature errorminus="239.0" errorplus="239.0">752.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

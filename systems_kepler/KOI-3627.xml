@@ -2,17 +2,20 @@
 	<name>KOI-3627</name>
 	<rightascension>19 49 51</rightascension>
 	<declination>+47 01 23</declination>
+	<distance>1424.29</distance>
 	<star>
 		<name>KOI-3627</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.8670</radius>
+		<temperature errorminus="259.00" errorplus="259.00">6185.00</temperature>
+		<radius errorminus="0.5850" errorplus="0.5850">0.9910</radius>
+		<metallicity errorminus="0.3200" errorplus="0.3200">-0.1800</metallicity>
 		<planet>
 			<name>KOI-3627 c</name>
 			<name>KOI-3627 02</name>
-			<radius errorminus="0.01823" errorplus="0.01823">1.09265</radius>
-			<period errorminus="5.30000e-06" errorplus="5.30000e-06">8.530003900000</period>
-			<transittime errorminus="0.0003900" errorplus="0.0003900">2454970.6556600</transittime>
-			<semimajoraxis errorminus="3.5e-08" errorplus="3.5e-08">0.0834980</semimajoraxis>
-			<temperature errorminus=".0" errorplus="0.0">844.8</temperature>
+			<radius errorminus="0.14581" errorplus="0.14581">2.10329</radius>
+			<period errorminus="1.7180000e-06" errorplus="1.7180000e-06">8.529992426000</period>
+			<transittime errorminus="0.0001680" errorplus="0.0001680">2454970.6547000</transittime>
+			<semimajoraxis errorminus="1.12e-08" errorplus="1.12e-08">0.0833768</semimajoraxis>
+			<temperature errorminus="280.0" errorplus="280.0">941.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

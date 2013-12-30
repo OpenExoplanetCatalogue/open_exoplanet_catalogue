@@ -2,17 +2,20 @@
 	<name>KOI-3690</name>
 	<rightascension>19 36 40</rightascension>
 	<declination>+46 25 31</declination>
+	<distance>2460.60</distance>
 	<star>
 		<name>KOI-3690</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.4570</radius>
+		<temperature errorminus="274.00" errorplus="274.00">6387.00</temperature>
+		<radius errorminus="0.6930" errorplus="0.6930">1.4080</radius>
+		<metallicity errorminus="0.3400" errorplus="0.3400">-0.2600</metallicity>
 		<planet>
 			<name>KOI-3690 b</name>
 			<name>KOI-3690 01</name>
-			<radius errorminus="0.38275" errorplus="0.38275">2.67923</radius>
-			<period errorminus="1.60000e-05" errorplus="1.60000e-05">12.893016000000</period>
-			<transittime errorminus="0.0010000" errorplus="0.0010000">2454974.6107000</transittime>
-			<semimajoraxis errorminus="9.3e-08" errorplus="9.3e-08">0.1133030</semimajoraxis>
-			<temperature errorminus=".0" errorplus="0.0">972.3</temperature>
+			<radius errorminus="0.23694" errorplus="0.23694">2.54071</radius>
+			<period errorminus="5.4160000e-06" errorplus="5.4160000e-06">12.893021861000</period>
+			<transittime errorminus="0.0004320" errorplus="0.0004320">2454974.6109290</transittime>
+			<semimajoraxis errorminus="3.10e-08" errorplus="3.10e-08">0.1107480</semimajoraxis>
+			<temperature errorminus="251.0" errorplus="251.0">1005.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

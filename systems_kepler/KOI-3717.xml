@@ -2,17 +2,20 @@
 	<name>KOI-3717</name>
 	<rightascension>19 22 19</rightascension>
 	<declination>+48 57 37</declination>
+	<distance>1265.74</distance>
 	<star>
 		<name>KOI-3717</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.0410</radius>
+		<temperature errorminus="205.00" errorplus="205.00">6124.00</temperature>
+		<radius errorminus="0.5120" errorplus="0.5120">1.0070</radius>
+		<metallicity errorminus="0.3000" errorplus="0.3000">-0.3400</metallicity>
 		<planet>
 			<name>KOI-3717 b</name>
 			<name>KOI-3717 01</name>
-			<radius errorminus="1.09356" errorplus="1.09356">2.00487</radius>
-			<period errorminus="4.60000e-04" errorplus="4.60000e-04">227.663430000000</period>
-			<transittime errorminus="0.0011000" errorplus="0.0011000">2455065.2385000</transittime>
-			<semimajoraxis errorminus="1.0e-06" errorplus="1.0e-06">0.7462080</semimajoraxis>
-			<temperature errorminus="76.0" errorplus="76.0">320.0</temperature>
+			<radius errorminus="0.31896" errorplus="0.31896">1.74332</radius>
+			<period errorminus="1.7100000e-04" errorplus="1.7100000e-04">227.662530200000</period>
+			<transittime errorminus="0.0005070" errorplus="0.0005070">2455065.2420180</transittime>
+			<semimajoraxis errorminus="3.60e-07" errorplus="3.60e-07">0.7198540</semimajoraxis>
+			<temperature errorminus="81.9" errorplus="81.9">319.5</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

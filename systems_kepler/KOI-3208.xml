@@ -2,17 +2,20 @@
 	<name>KOI-3208</name>
 	<rightascension>19 46 43</rightascension>
 	<declination>+47 10 23</declination>
+	<distance>555.10</distance>
 	<star>
 		<name>KOI-3208</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.0000</radius>
+		<temperature errorminus="208.00" errorplus="208.00">5884.00</temperature>
+		<radius errorminus="0.8630" errorplus="0.8630">1.9860</radius>
+		<metallicity errorminus="0.3100" errorplus="0.3100">0.2100</metallicity>
 		<planet>
 			<name>KOI-3208 b</name>
 			<name>KOI-3208 01</name>
-			<radius errorminus="0.00884" errorplus="0.00884">0.07473</radius>
-			<period errorminus="1.50000e-05" errorplus="1.50000e-05">2.131629000000</period>
-			<transittime errorminus="0.0029000" errorplus="0.0029000">2454966.1412000</transittime>
-			<semimajoraxis errorminus="1.5e-07" errorplus="1.5e-07">0.0324219</semimajoraxis>
-			<temperature errorminus=".0" errorplus="0.0">1416.1</temperature>
+			<radius errorminus="0.02697" errorplus="0.02697">0.11127</radius>
+			<period errorminus="8.8080000e-06" errorplus="8.8080000e-06">2.131662841000</period>
+			<transittime errorminus="0.0019100" errorplus="0.0019100">2454966.1335900</transittime>
+			<semimajoraxis errorminus="9.78e-08" errorplus="9.78e-08">0.0354946</semimajoraxis>
+			<temperature errorminus="427.0" errorplus="427.0">1942.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

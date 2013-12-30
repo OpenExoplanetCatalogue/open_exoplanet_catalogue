@@ -2,17 +2,20 @@
 	<name>KOI-4152</name>
 	<rightascension>19 25 32</rightascension>
 	<declination>+42 42 32</declination>
+	<distance>1008.36</distance>
 	<star>
 		<name>KOI-4152</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.5270</radius>
+		<temperature errorminus="314.00" errorplus="314.00">6955.00</temperature>
+		<radius errorminus="1.2510" errorplus="1.2510">1.5710</radius>
+		<metallicity errorminus="0.4400" errorplus="0.4400">-0.0800</metallicity>
 		<planet>
 			<name>KOI-4152 b</name>
 			<name>KOI-4152 01</name>
-			<radius errorminus="0.04557" errorplus="0.04557">0.34812</radius>
-			<period errorminus="3.40000e-04" errorplus="3.40000e-04">64.190490000000</period>
-			<transittime errorminus="0.0031000" errorplus="0.0031000">2455024.6202000</transittime>
-			<semimajoraxis errorminus="1.2e-06" errorplus="1.2e-06">0.3490630</semimajoraxis>
-			<temperature errorminus="130.0" errorplus="130.0">642.0</temperature>
+			<radius errorminus="0.07819" errorplus="0.07819">0.34502</radius>
+			<period errorminus="1.8830000e-04" errorplus="1.8830000e-04">64.190607500000</period>
+			<transittime errorminus="0.0024300" errorplus="0.0024300">2455024.6198700</transittime>
+			<semimajoraxis errorminus="6.87e-07" errorplus="6.87e-07">0.3511250</semimajoraxis>
+			<temperature errorminus="260.0" errorplus="260.0">649.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

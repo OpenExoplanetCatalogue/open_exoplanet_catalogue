@@ -2,17 +2,20 @@
 	<name>KOI-4570</name>
 	<rightascension>19 29 25</rightascension>
 	<declination>+39 07 10</declination>
+	<distance>970.80</distance>
 	<star>
 		<name>KOI-4570</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.9580</radius>
+		<temperature errorminus="188.00" errorplus="188.00">6060.00</temperature>
+		<radius errorminus="0.4110" errorplus="0.4110">0.9250</radius>
+		<metallicity errorminus="0.3000" errorplus="0.3000">-0.2200</metallicity>
 		<planet>
 			<name>KOI-4570 b</name>
 			<name>KOI-4570 01</name>
-			<radius errorminus="0.24605" errorplus="0.24605">0.15492</radius>
-			<period errorminus="4.90000e-04" errorplus="4.90000e-04">35.017670000000</period>
-			<transittime errorminus="0.0085000" errorplus="0.0085000">2454972.8500000</transittime>
-			<semimajoraxis errorminus="2.0e-06" errorplus="2.0e-06">0.2133690</semimajoraxis>
-			<temperature errorminus="83.0" errorplus="83.0">567.0</temperature>
+			<radius errorminus="0.16403" errorplus="0.16403">0.15583</radius>
+			<period errorminus="2.8410000e-04" errorplus="2.8410000e-04">35.017575700000</period>
+			<transittime errorminus="0.0067600" errorplus="0.0067600">2454972.8504400</transittime>
+			<semimajoraxis errorminus="1.14e-06" errorplus="1.14e-06">0.2100470</semimajoraxis>
+			<temperature errorminus="126.0" errorplus="126.0">561.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

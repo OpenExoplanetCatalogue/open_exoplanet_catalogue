@@ -2,17 +2,20 @@
 	<name>KOI-4098</name>
 	<rightascension>19 10 00</rightascension>
 	<declination>+44 10 02</declination>
+	<distance>1304.59</distance>
 	<star>
 		<name>KOI-4098</name>
-		<radius errorminus=".0000" errorplus="0.0000">2.4270</radius>
+		<temperature errorminus="149.00" errorplus="149.00">5023.00</temperature>
+		<radius errorminus="1.8620" errorplus="1.8620">2.5710</radius>
+		<metallicity errorminus="0.3000" errorplus="0.3000">0.0400</metallicity>
 		<planet>
 			<name>KOI-4098 b</name>
 			<name>KOI-4098 01</name>
-			<radius errorminus="0.17315" errorplus="0.17315">0.25516</radius>
-			<period errorminus="8.20000e-06" errorplus="8.20000e-06">1.121738300000</period>
-			<transittime errorminus="0.0012000" errorplus="0.0012000">2454964.5670000</transittime>
-			<semimajoraxis errorminus="1.0e-07" errorplus="1.0e-07">0.0211351</semimajoraxis>
-			<temperature errorminus="359.0" errorplus="359.0">2350.0</temperature>
+			<radius errorminus="0.23694" errorplus="0.23694">0.20231</radius>
+			<period errorminus="6.0270000e-06" errorplus="6.0270000e-06">1.121722451000</period>
+			<transittime errorminus="0.0010600" errorplus="0.0010600">2454964.5727100</transittime>
+			<semimajoraxis errorminus="7.95e-08" errorplus="7.95e-08">0.0222001</semimajoraxis>
+			<temperature errorminus="866.0" errorplus="866.0">2385.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

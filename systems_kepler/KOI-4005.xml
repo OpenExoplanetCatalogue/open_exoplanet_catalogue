@@ -2,17 +2,20 @@
 	<name>KOI-4005</name>
 	<rightascension>18 43 12</rightascension>
 	<declination>+44 02 02</declination>
+	<distance>674.20</distance>
 	<star>
 		<name>KOI-4005</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.8200</radius>
+		<temperature errorminus="165.00" errorplus="165.00">5592.00</temperature>
+		<radius errorminus="0.3860" errorplus="0.3860">0.7820</radius>
+		<metallicity errorminus="0.3700" errorplus="0.3700">-0.3000</metallicity>
 		<planet>
 			<name>KOI-4005 b</name>
 			<name>KOI-4005 01</name>
-			<radius errorminus="0.38275" errorplus="0.38275">0.17315</radius>
-			<period errorminus="4.50000e-03" errorplus="4.50000e-03">178.142500000000</period>
-			<transittime errorminus="0.0150000" errorplus="0.0150000">2455043.1170000</transittime>
-			<semimajoraxis errorminus="1.0e-05" errorplus="1.0e-05">0.6040670</semimajoraxis>
-			<temperature errorminus="38.0" errorplus="38.0">288.0</temperature>
+			<radius errorminus="0.09113" errorplus="0.09113">0.19866</radius>
+			<period errorminus="2.1280000e-03" errorplus="2.1280000e-03">178.140754000000</period>
+			<transittime errorminus="0.0090100" errorplus="0.0090100">2455043.1160400</transittime>
+			<semimajoraxis errorminus="4.69e-06" errorplus="4.69e-06">0.5884060</semimajoraxis>
+			<temperature errorminus="70.7" errorplus="70.7">284.4</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

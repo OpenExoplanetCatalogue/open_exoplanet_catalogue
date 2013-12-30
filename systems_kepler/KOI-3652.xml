@@ -2,17 +2,20 @@
 	<name>KOI-3652</name>
 	<rightascension>19 54 42</rightascension>
 	<declination>+44 10 32</declination>
+	<distance>2279.65</distance>
 	<star>
 		<name>KOI-3652</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.5450</radius>
+		<temperature errorminus="202.00" errorplus="202.00">5642.00</temperature>
+		<radius errorminus="0.4560" errorplus="0.4560">1.4150</radius>
+		<metallicity errorminus="0.2800" errorplus="0.2800">-0.0200</metallicity>
 		<planet>
 			<name>KOI-3652 b</name>
 			<name>KOI-3652 01</name>
-			<radius errorminus="0.71082" errorplus="0.71082">5.22177</radius>
-			<period errorminus="2.70000e-05" errorplus="2.70000e-05">16.371881000000</period>
-			<transittime errorminus="0.0014000" errorplus="0.0014000">2454973.0193000</transittime>
-			<semimajoraxis errorminus="1.4e-07" errorplus="1.4e-07">0.1312350</semimajoraxis>
-			<temperature errorminus=".0" errorplus="0.0">821.3</temperature>
+			<radius errorminus="0.42831" errorplus="0.42831">5.01308</radius>
+			<period errorminus="6.1520000e-06" errorplus="6.1520000e-06">16.371893362000</period>
+			<transittime errorminus="0.0004080" errorplus="0.0004080">2454973.0193740</transittime>
+			<semimajoraxis errorminus="3.11e-08" errorplus="3.11e-08">0.1240510</semimajoraxis>
+			<temperature errorminus="139.0" errorplus="139.0">841.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

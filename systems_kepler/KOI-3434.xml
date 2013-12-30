@@ -2,17 +2,20 @@
 	<name>KOI-3434</name>
 	<rightascension>19 33 22</rightascension>
 	<declination>+44 42 02</declination>
+	<distance>1331.33</distance>
 	<star>
 		<name>KOI-3434</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.0640</radius>
+		<temperature errorminus="224.00" errorplus="224.00">6180.00</temperature>
+		<radius errorminus="0.6900" errorplus="0.6900">1.0560</radius>
+		<metallicity errorminus="0.3200" errorplus="0.3200">-0.1800</metallicity>
 		<planet>
 			<name>KOI-3434 b</name>
 			<name>KOI-3434 01</name>
-			<radius errorminus="0.10936" errorplus="0.10936">0.12758</radius>
-			<period errorminus="1.40000e-04" errorplus="1.40000e-04">10.285540000000</period>
-			<transittime errorminus="0.0084000" errorplus="0.0084000">2454974.2058000</transittime>
-			<semimajoraxis errorminus="8.8e-07" errorplus="8.8e-07">0.0950188</semimajoraxis>
-			<temperature errorminus="163.0" errorplus="163.0">913.0</temperature>
+			<radius errorminus="0.18226" errorplus="0.18226">0.12211</radius>
+			<period errorminus="7.8600000e-05" errorplus="7.8600000e-05">10.285619130000</period>
+			<transittime errorminus="0.0060700" errorplus="0.0060700">2454974.2081700</transittime>
+			<semimajoraxis errorminus="4.75e-07" errorplus="4.75e-07">0.0931737</semimajoraxis>
+			<temperature errorminus="302.0" errorplus="302.0">918.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

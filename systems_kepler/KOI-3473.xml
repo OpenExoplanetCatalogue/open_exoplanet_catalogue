@@ -2,17 +2,20 @@
 	<name>KOI-3473</name>
 	<rightascension>19 52 18</rightascension>
 	<declination>+45 11 20</declination>
+	<distance>1312.37</distance>
 	<star>
 		<name>KOI-3473</name>
-		<radius errorminus=".0000" errorplus="0.0000">2.1720</radius>
+		<temperature errorminus="186.00" errorplus="186.00">5214.00</temperature>
+		<radius errorminus="1.4270" errorplus="1.4270">2.4270</radius>
+		<metallicity errorminus="0.3400" errorplus="0.3400">0.0600</metallicity>
 		<planet>
 			<name>KOI-3473 b</name>
 			<name>KOI-3473 01</name>
-			<radius errorminus="0.27339" errorplus="0.27339">0.58323</radius>
-			<period errorminus="9.60000e-05" errorplus="9.60000e-05">27.637192000000</period>
-			<transittime errorminus="0.0021000" errorplus="0.0021000">2454976.9323000</transittime>
-			<semimajoraxis errorminus="4.2e-07" errorplus="4.2e-07">0.1820820</semimajoraxis>
-			<temperature errorminus="53.0" errorplus="53.0">786.0</temperature>
+			<radius errorminus="0.26428" errorplus="0.26428">0.63244</radius>
+			<period errorminus="4.7240000e-05" errorplus="4.7240000e-05">27.637152830000</period>
+			<transittime errorminus="0.0013300" errorplus="0.0013300">2454976.9337400</transittime>
+			<semimajoraxis errorminus="2.20e-07" errorplus="2.20e-07">0.1929330</semimajoraxis>
+			<temperature errorminus="242.0" errorplus="242.0">816.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

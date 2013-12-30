@@ -2,17 +2,20 @@
 	<name>KOI-3830</name>
 	<rightascension>19 44 35</rightascension>
 	<declination>+47 56 16</declination>
+	<distance>2086.63</distance>
 	<star>
 		<name>KOI-3830</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.6630</radius>
+		<temperature errorminus="230.00" errorplus="230.00">5661.00</temperature>
+		<radius errorminus="0.4010" errorplus="0.4010">0.7600</radius>
+		<metallicity errorminus="0.3600" errorplus="0.3600">-0.4800</metallicity>
 		<planet>
 			<name>KOI-3830 b</name>
 			<name>KOI-3830 01</name>
-			<radius errorminus="0.05194" errorplus="0.05194">0.74271</radius>
-			<period errorminus="2.50000e-06" errorplus="2.50000e-06">1.031075100000</period>
-			<transittime errorminus="0.0004500" errorplus="0.0004500">2454964.8956600</transittime>
-			<semimajoraxis errorminus="3.2e-08" errorplus="3.2e-08">0.0196743</semimajoraxis>
-			<temperature errorminus=".0" errorplus="0.0">1396.0</temperature>
+			<radius errorminus="0.92953" errorplus="0.92953">1.23937</radius>
+			<period errorminus="2.6950000e-06" errorplus="2.6950000e-06">1.031089893000</period>
+			<transittime errorminus="0.0006540" errorplus="0.0006540">2454964.9288990</transittime>
+			<semimajoraxis errorminus="3.26e-08" errorplus="3.26e-08">0.0186826</semimajoraxis>
+			<temperature errorminus="425.0" errorplus="425.0">1593.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

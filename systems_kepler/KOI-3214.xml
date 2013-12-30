@@ -2,17 +2,20 @@
 	<name>KOI-3214</name>
 	<rightascension>19 54 41</rightascension>
 	<declination>+43 47 43</declination>
+	<distance>974.01</distance>
 	<star>
 		<name>KOI-3214</name>
-		<radius errorminus=".0000" errorplus="0.0000">3.1700</radius>
+		<temperature errorminus="180.00" errorplus="180.00">6036.00</temperature>
+		<radius errorminus="1.9060" errorplus="1.9060">3.1320</radius>
+		<metallicity errorminus="0.3200" errorplus="0.3200">-0.1000</metallicity>
 		<planet>
 			<name>KOI-3214 b</name>
 			<name>KOI-3214 01</name>
-			<radius errorminus="0.08749" errorplus="0.08749">0.20778</radius>
-			<period errorminus="1.50000e-04" errorplus="1.50000e-04">11.494850000000</period>
-			<transittime errorminus="0.0077000" errorplus="0.0077000">2454974.2824000</transittime>
-			<semimajoraxis errorminus="1.0e-06" errorplus="1.0e-06">0.1144830</semimajoraxis>
-			<temperature errorminus="115.0" errorplus="115.0">1397.0</temperature>
+			<radius errorminus="0.05322" errorplus="0.05322">0.22518</radius>
+			<period errorminus="8.4570000e-05" errorplus="8.4570000e-05">11.494982010000</period>
+			<transittime errorminus="0.0056900" errorplus="0.0056900">2454974.2774800</transittime>
+			<semimajoraxis errorminus="5.60e-07" errorplus="5.60e-07">0.1141780</semimajoraxis>
+			<temperature errorminus="426.0" errorplus="426.0">1395.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

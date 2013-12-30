@@ -2,17 +2,20 @@
 	<name>KOI-4519</name>
 	<rightascension>19 12 02</rightascension>
 	<declination>+46 58 42</declination>
+	<distance>1453.43</distance>
 	<star>
 		<name>KOI-4519</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.1040</radius>
+		<temperature errorminus="281.00" errorplus="281.00">6434.00</temperature>
+		<radius errorminus="0.7990" errorplus="0.7990">1.1700</radius>
+		<metallicity errorminus="0.3800" errorplus="0.3800">-0.0600</metallicity>
 		<planet>
 			<name>KOI-4519 b</name>
 			<name>KOI-4519 01</name>
-			<radius errorminus="0.24605" errorplus="0.24605">0.21871</radius>
-			<period errorminus="2.30000e-03" errorplus="2.30000e-03">148.568800000000</period>
-			<transittime errorminus="0.0098000" errorplus="0.0098000">2454972.6188000</transittime>
-			<semimajoraxis errorminus="5.9e-06" errorplus="5.9e-06">0.5793780</semimajoraxis>
-			<temperature errorminus="75.0" errorplus="75.0">390.0</temperature>
+			<radius errorminus="0.26428" errorplus="0.26428">0.21142</radius>
+			<period errorminus="1.7410000e-03" errorplus="1.7410000e-03">148.569116000000</period>
+			<transittime errorminus="0.0090200" errorplus="0.0090200">2454972.6040700</transittime>
+			<semimajoraxis errorminus="4.54e-06" errorplus="4.54e-06">0.5809070</semimajoraxis>
+			<temperature errorminus="139.0" errorplus="139.0">403.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

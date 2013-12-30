@@ -2,17 +2,20 @@
 	<name>KOI-4235</name>
 	<rightascension>19 23 41</rightascension>
 	<declination>+48 10 49</declination>
+	<distance>925.58</distance>
 	<star>
 		<name>KOI-4235</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.2550</radius>
+		<temperature errorminus="242.00" errorplus="242.00">6609.00</temperature>
+		<radius errorminus="1.0190" errorplus="1.0190">1.4220</radius>
+		<metallicity errorminus="0.4000" errorplus="0.4000">-0.0800</metallicity>
 		<planet>
 			<name>KOI-4235 b</name>
 			<name>KOI-4235 01</name>
-			<radius errorminus="0.03098" errorplus="0.03098">0.22965</radius>
-			<period errorminus="4.70000e-04" errorplus="4.70000e-04">66.643670000000</period>
-			<transittime errorminus="0.0039000" errorplus="0.0039000">2455003.0797000</transittime>
-			<semimajoraxis errorminus="1.6e-06" errorplus="1.6e-06">0.3459120</semimajoraxis>
-			<temperature errorminus="138.0" errorplus="138.0">557.0</temperature>
+			<radius errorminus="0.08703" errorplus="0.08703">0.20705</radius>
+			<period errorminus="2.8680000e-04" errorplus="2.8680000e-04">66.643320300000</period>
+			<transittime errorminus="0.0032600" errorplus="0.0032600">2455003.0831500</transittime>
+			<semimajoraxis errorminus="9.98e-07" errorplus="9.98e-07">0.3479110</semimajoraxis>
+			<temperature errorminus="212.0" errorplus="212.0">589.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

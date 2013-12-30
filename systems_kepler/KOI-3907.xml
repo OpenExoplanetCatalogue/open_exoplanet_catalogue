@@ -2,17 +2,20 @@
 	<name>KOI-3907</name>
 	<rightascension>19 47 59</rightascension>
 	<declination>+42 39 11</declination>
+	<distance>764.77</distance>
 	<star>
 		<name>KOI-3907</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.7110</radius>
+		<temperature errorminus="224.00" errorplus="224.00">6498.00</temperature>
+		<radius errorminus="0.5760" errorplus="0.5760">1.5890</radius>
+		<metallicity errorminus="0.3200" errorplus="0.3200">-0.3800</metallicity>
 		<planet>
 			<name>KOI-3907 b</name>
 			<name>KOI-3907 01</name>
-			<radius errorminus="0.08475" errorplus="0.08475">0.40006</radius>
-			<period errorminus="4.20000e-05" errorplus="4.20000e-05">28.643474000000</period>
-			<transittime errorminus="0.0008600" errorplus="0.0008600">2454974.2271400</transittime>
-			<semimajoraxis errorminus="2.0e-07" errorplus="2.0e-07">0.2011630</semimajoraxis>
-			<temperature errorminus="177.0" errorplus="177.0">838.0</temperature>
+			<radius errorminus="0.08047" errorplus="0.08047">0.36953</radius>
+			<period errorminus="2.2360000e-05" errorplus="2.2360000e-05">28.643425190000</period>
+			<transittime errorminus="0.0005960" errorplus="0.0005960">2454974.2281590</transittime>
+			<semimajoraxis errorminus="9.87e-08" errorplus="9.87e-08">0.1897270</semimajoraxis>
+			<temperature errorminus="153.0" errorplus="153.0">830.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

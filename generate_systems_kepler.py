@@ -152,8 +152,9 @@ for row in csvfile:
 	if transittime:
 		element = ET.SubElement(planet,"transittime")
 		element.text = "%.7f" % transittime
-		element.attrib["errorplus"] = "%.7f" % float(transittimeerrorplus)
-		element.attrib["errorminus"] = "%.7f" % float (transittimeerrorminus[1:])
+		if transittimeerrorplus and transittimeerrorminus:
+			element.attrib["errorplus"] = "%.7f" % float(transittimeerrorplus)
+			element.attrib["errorminus"] = "%.7f" % float (transittimeerrorminus[1:])
 
 	if semia:
 		element = ET.SubElement(planet,"semimajoraxis")

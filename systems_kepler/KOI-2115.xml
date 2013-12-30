@@ -4,6 +4,10 @@
 	<declination>+46 09 59</declination>
 	<distance>1505.92</distance>
 	<star>
+		<magV>16.4</magV>
+		<magJ errorminus="0.03" errorplus="0.03">14.74</magJ>
+		<magH errorminus="0.05" errorplus="0.05">14.34</magH>
+		<magK errorminus="0.065" errorplus="0.065">14.155</magK>
 		<name>KOI-2115</name>
 		<temperature errorminus="200.00" errorplus="200.00">5184.00</temperature>
 		<radius errorminus="0.3000" errorplus="0.3000">0.9800</radius>
@@ -12,7 +16,7 @@
 			<name>KOI-2115 b</name>
 			<name>KOI-2115 01</name>
 			<radius errorminus="0.13670" errorplus="0.13670">0.34630</radius>
-			<period errorminus="3.90000e-04" errorplus="3.90000e-04">15.725840000000</period>
+			<period errorminus="3.9000000e-04" errorplus="3.9000000e-04">15.725840000000</period>
 			<transittime errorminus="0.0120000" errorplus="0.0120000">2454966.9870000</transittime>
 			<semimajoraxis>0.1220000</semimajoraxis>
 			<temperature>648.0</temperature>

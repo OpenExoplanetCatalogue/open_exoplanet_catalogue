@@ -2,17 +2,20 @@
 	<name>KOI-3939</name>
 	<rightascension>19 36 06</rightascension>
 	<declination>+46 12 06</declination>
+	<distance>1841.35</distance>
 	<star>
 		<name>KOI-3939</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.3210</radius>
+		<temperature errorminus="252.00" errorplus="252.00">6296.00</temperature>
+		<radius errorminus="0.5520" errorplus="0.5520">1.2490</radius>
+		<metallicity errorminus="0.3200" errorplus="0.3200">-0.3600</metallicity>
 		<planet>
 			<name>KOI-3939 b</name>
 			<name>KOI-3939 01</name>
-			<radius errorminus="0.11847" errorplus="0.11847">0.53767</radius>
-			<period errorminus="3.70000e-06" errorplus="3.70000e-06">1.886652200000</period>
-			<transittime errorminus="0.0004900" errorplus="0.0004900">2454965.3536300</transittime>
-			<semimajoraxis errorminus="4.1e-08" errorplus="4.1e-08">0.0311956</semimajoraxis>
-			<temperature errorminus=".0" errorplus="0.0">1739.4</temperature>
+			<radius errorminus="0.07053" errorplus="0.07053">0.58023</radius>
+			<period errorminus="3.3220000e-06" errorplus="3.3220000e-06">1.886527656000</period>
+			<transittime errorminus="0.0004680" errorplus="0.0004680">2454965.4081600</transittime>
+			<semimajoraxis errorminus="3.51e-08" errorplus="3.51e-08">0.0299351</semimajoraxis>
+			<temperature errorminus="403.0" errorplus="403.0">1794.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

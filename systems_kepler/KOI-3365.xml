@@ -2,17 +2,20 @@
 	<name>KOI-3365</name>
 	<rightascension>19 27 59</rightascension>
 	<declination>+49 18 06</declination>
+	<distance>1105.17</distance>
 	<star>
 		<name>KOI-3365</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.7540</radius>
+		<temperature errorminus="210.00" errorplus="210.00">5312.00</temperature>
+		<radius errorminus="0.5440" errorplus="0.5440">1.4450</radius>
+		<metallicity errorminus="0.2700" errorplus="0.2700">0.3400</metallicity>
 		<planet>
 			<name>KOI-3365 b</name>
 			<name>KOI-3365 01</name>
-			<radius errorminus="0.08111" errorplus="0.08111">0.39095</radius>
-			<period errorminus="1.80000e-04" errorplus="1.80000e-04">22.126660000000</period>
-			<transittime errorminus="0.0047000" errorplus="0.0047000">2454977.9369000</transittime>
-			<semimajoraxis errorminus="8.0e-07" errorplus="8.0e-07">0.1497360</semimajoraxis>
-			<temperature errorminus="59.0" errorplus="59.0">780.0</temperature>
+			<radius errorminus="0.13670" errorplus="0.13670">0.28797</radius>
+			<period errorminus="9.3360000e-05" errorplus="9.3360000e-05">22.126769970000</period>
+			<transittime errorminus="0.0033300" errorplus="0.0033300">2454977.9328200</transittime>
+			<semimajoraxis errorminus="4.29e-07" errorplus="4.29e-07">0.1524830</semimajoraxis>
+			<temperature errorminus="139.0" errorplus="139.0">721.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

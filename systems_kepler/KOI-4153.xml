@@ -2,17 +2,20 @@
 	<name>KOI-4153</name>
 	<rightascension>19 39 55</rightascension>
 	<declination>+44 25 31</declination>
+	<distance>785.66</distance>
 	<star>
 		<name>KOI-4153</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.8990</radius>
+		<temperature errorminus="174.00" errorplus="174.00">5834.00</temperature>
+		<radius errorminus="0.5000" errorplus="0.5000">0.7970</radius>
+		<metallicity errorminus="0.3400" errorplus="0.3400">-0.5000</metallicity>
 		<planet>
 			<name>KOI-4153 b</name>
 			<name>KOI-4153 01</name>
-			<radius errorminus="0.05103" errorplus="0.05103">0.18773</radius>
-			<period errorminus="1.10000e-05" errorplus="1.10000e-05">4.626026000000</period>
-			<transittime errorminus="0.0011000" errorplus="0.0011000">2454967.6803000</transittime>
-			<semimajoraxis errorminus="8.9e-08" errorplus="8.9e-08">0.0544096</semimajoraxis>
-			<temperature errorminus="211.0" errorplus="211.0">1057.0</temperature>
+			<radius errorminus="0.05267" errorplus="0.05267">0.14116</radius>
+			<period errorminus="7.4090000e-06" errorplus="7.4090000e-06">4.626028725000</period>
+			<transittime errorminus="0.0008680" errorplus="0.0008680">2454967.6815390</transittime>
+			<semimajoraxis errorminus="5.50e-08" errorplus="5.50e-08">0.0515397</semimajoraxis>
+			<temperature errorminus="319.0" errorplus="319.0">1012.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

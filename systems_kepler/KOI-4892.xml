@@ -2,17 +2,20 @@
 	<name>KOI-4892</name>
 	<rightascension>19 02 49</rightascension>
 	<declination>+47 52 11</declination>
+	<distance>857.12</distance>
 	<star>
 		<name>KOI-4892</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.1740</radius>
+		<temperature errorminus="164.00" errorplus="164.00">5984.00</temperature>
+		<radius errorminus="0.4060" errorplus="0.4060">1.0520</radius>
+		<metallicity errorminus="0.3200" errorplus="0.3200">-0.5200</metallicity>
 		<planet>
 			<name>KOI-4892 b</name>
 			<name>KOI-4892 01</name>
-			<radius errorminus="0.28250" errorplus="0.28250">0.10024</radius>
-			<period errorminus="6.70000e-04" errorplus="6.70000e-04">21.374690000000</period>
-			<transittime errorminus="0.0170000" errorplus="0.0170000">2454976.6540000</transittime>
-			<semimajoraxis errorminus="3.2e-06" errorplus="3.2e-06">0.1519650</semimajoraxis>
-			<temperature errorminus="186.0" errorplus="186.0">740.0</temperature>
+			<radius errorminus="0.14581" errorplus="0.14581">0.10024</radius>
+			<period errorminus="3.8310000e-04" errorplus="3.8310000e-04">21.375874000000</period>
+			<transittime errorminus="0.0142000" errorplus="0.0142000">2454976.6313000</transittime>
+			<semimajoraxis errorminus="1.70e-06" errorplus="1.70e-06">0.1426670</semimajoraxis>
+			<temperature errorminus="140.0" errorplus="140.0">717.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

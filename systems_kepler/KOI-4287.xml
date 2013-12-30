@@ -2,17 +2,20 @@
 	<name>KOI-4287</name>
 	<rightascension>19 21 49</rightascension>
 	<declination>+48 39 40</declination>
+	<distance>369.11</distance>
 	<star>
 		<name>KOI-4287</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.5410</radius>
+		<temperature errorminus="206.00" errorplus="206.00">6344.00</temperature>
+		<radius errorminus="0.7910" errorplus="0.7910">1.5170</radius>
+		<metallicity errorminus="0.3200" errorplus="0.3200">-0.1600</metallicity>
 		<planet>
 			<name>KOI-4287 b</name>
 			<name>KOI-4287 01</name>
-			<radius errorminus="0.02278" errorplus="0.02278">0.10207</radius>
-			<period errorminus="9.90000e-05" errorplus="9.90000e-05">13.122979000000</period>
-			<transittime errorminus="0.0044000" errorplus="0.0044000">2454969.0874000</transittime>
-			<semimajoraxis errorminus="5.8e-07" errorplus="5.8e-07">0.1164810</semimajoraxis>
-			<temperature errorminus="155.0" errorplus="155.0">1017.0</temperature>
+			<radius errorminus="0.02816" errorplus="0.02816">0.11291</radius>
+			<period errorminus="6.2440000e-05" errorplus="6.2440000e-05">13.123086700000</period>
+			<transittime errorminus="0.0036500" errorplus="0.0036500">2454969.0824500</transittime>
+			<semimajoraxis errorminus="3.66e-07" errorplus="3.66e-07">0.1154460</semimajoraxis>
+			<temperature errorminus="267.0" errorplus="267.0">1015.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

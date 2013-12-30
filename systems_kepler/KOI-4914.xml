@@ -2,17 +2,20 @@
 	<name>KOI-4914</name>
 	<rightascension>19 45 36</rightascension>
 	<declination>+50 33 30</declination>
+	<distance>866.14</distance>
 	<star>
 		<name>KOI-4914</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.9520</radius>
+		<temperature errorminus="222.00" errorplus="222.00">6077.00</temperature>
+		<radius errorminus="0.5930" errorplus="0.5930">0.9990</radius>
+		<metallicity errorminus="0.3400" errorplus="0.3400">-0.0400</metallicity>
 		<planet>
 			<name>KOI-4914 b</name>
 			<name>KOI-4914 01</name>
-			<radius errorminus="0.08202" errorplus="0.08202">0.06561</radius>
-			<period errorminus="1.20000e-04" errorplus="1.20000e-04">5.474850000000</period>
-			<transittime errorminus="0.0120000" errorplus="0.0120000">2454966.5570000</transittime>
-			<semimajoraxis errorminus="9.0e-07" errorplus="9.0e-07">0.0617121</semimajoraxis>
-			<temperature errorminus="206.0" errorplus="206.0">1046.0</temperature>
+			<radius errorminus="0.08566" errorplus="0.08566">0.08238</radius>
+			<period errorminus="4.6590000e-05" errorplus="4.6590000e-05">5.474497360000</period>
+			<transittime errorminus="0.0062400" errorplus="0.0062400">2454966.5661800</transittime>
+			<semimajoraxis errorminus="3.54e-07" errorplus="3.54e-07">0.0623214</semimajoraxis>
+			<temperature errorminus="321.0" errorplus="321.0">1073.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

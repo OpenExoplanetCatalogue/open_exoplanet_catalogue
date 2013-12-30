@@ -2,17 +2,20 @@
 	<name>KOI-4804</name>
 	<rightascension>19 44 23</rightascension>
 	<declination>+47 59 33</declination>
+	<distance>1122.25</distance>
 	<star>
 		<name>KOI-4804</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.9760</radius>
+		<temperature errorminus="178.00" errorplus="178.00">6068.00</temperature>
+		<radius errorminus="0.4370" errorplus="0.4370">0.8290</radius>
+		<metallicity errorminus="0.3600" errorplus="0.3600">-0.5000</metallicity>
 		<planet>
 			<name>KOI-4804 b</name>
 			<name>KOI-4804 01</name>
-			<radius errorminus="0.18226" errorplus="0.18226">0.20960</radius>
-			<period errorminus="1.40000e-04" errorplus="1.40000e-04">21.086750000000</period>
-			<transittime errorminus="0.0037000" errorplus="0.0037000">2454968.5643000</transittime>
-			<semimajoraxis errorminus="6.7e-07" errorplus="6.7e-07">0.1529920</semimajoraxis>
-			<temperature errorminus="92.0" errorplus="92.0">681.0</temperature>
+			<radius errorminus="0.11847" errorplus="0.11847">0.17406</radius>
+			<period errorminus="8.3750000e-05" errorplus="8.3750000e-05">21.086760270000</period>
+			<transittime errorminus="0.0029700" errorplus="0.0029700">2454968.5642300</transittime>
+			<semimajoraxis errorminus="3.86e-07" errorplus="3.86e-07">0.1456820</semimajoraxis>
+			<temperature errorminus="169.0" errorplus="169.0">639.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

@@ -2,17 +2,20 @@
 	<name>KOI-4747</name>
 	<rightascension>19 50 21</rightascension>
 	<declination>+43 50 28</declination>
+	<distance>1555.23</distance>
 	<star>
 		<name>KOI-4747</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.0500</radius>
+		<temperature errorminus="313.00" errorplus="313.00">6343.00</temperature>
+		<radius errorminus="0.8560" errorplus="0.8560">1.1370</radius>
+		<metallicity errorminus="0.4500" errorplus="0.4500">0.0700</metallicity>
 		<planet>
 			<name>KOI-4747 b</name>
 			<name>KOI-4747 01</name>
-			<radius errorminus="0.31896" errorplus="0.31896">0.15492</radius>
-			<period errorminus="3.00000e-03" errorplus="3.00000e-03">92.267500000000</period>
-			<transittime errorminus="0.0180000" errorplus="0.0180000">2454979.3750000</transittime>
-			<semimajoraxis errorminus="9.0e-06" errorplus="9.0e-06">0.4167310</semimajoraxis>
-			<temperature errorminus="120.0" errorplus="120.0">440.0</temperature>
+			<radius errorminus="0.31896" errorplus="0.31896">0.18226</radius>
+			<period errorminus="1.5000000e-03" errorplus="1.5000000e-03">92.269389000000</period>
+			<transittime errorminus="0.0133000" errorplus="0.0133000">2454979.3698000</transittime>
+			<semimajoraxis errorminus="4.62e-06" errorplus="4.62e-06">0.4264900</semimajoraxis>
+			<temperature errorminus="173.0" errorplus="173.0">457.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

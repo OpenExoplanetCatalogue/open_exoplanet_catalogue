@@ -2,17 +2,20 @@
 	<name>KOI-4513</name>
 	<rightascension>19 25 00</rightascension>
 	<declination>+45 39 18</declination>
+	<distance>751.67</distance>
 	<star>
 		<name>KOI-4513</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.8020</radius>
+		<temperature errorminus="163.00" errorplus="163.00">5543.00</temperature>
+		<radius errorminus="0.3380" errorplus="0.3380">0.8130</radius>
+		<metallicity errorminus="0.3400" errorplus="0.3400">-0.1400</metallicity>
 		<planet>
 			<name>KOI-4513 b</name>
 			<name>KOI-4513 01</name>
-			<radius errorminus="0.07928" errorplus="0.07928">0.08931</radius>
-			<period errorminus="3.90000e-05" errorplus="3.90000e-05">3.917890000000</period>
-			<transittime errorminus="0.0052000" errorplus="0.0052000">2454965.8689000</transittime>
-			<semimajoraxis errorminus="3.1e-07" errorplus="3.1e-07">0.0470813</semimajoraxis>
-			<temperature errorminus="64.0" errorplus="64.0">1008.0</temperature>
+			<radius errorminus="0.06990" errorplus="0.06990">0.08047</radius>
+			<period errorminus="2.1260000e-05" errorplus="2.1260000e-05">3.917943550000</period>
+			<transittime errorminus="0.0035700" errorplus="0.0035700">2454965.8630300</transittime>
+			<semimajoraxis errorminus="1.69e-07" errorplus="1.69e-07">0.0468234</semimajoraxis>
+			<temperature errorminus="214.0" errorplus="214.0">1019.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

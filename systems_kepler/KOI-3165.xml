@@ -2,17 +2,20 @@
 	<name>KOI-3165</name>
 	<rightascension>19 10 33</rightascension>
 	<declination>+46 12 15</declination>
+	<distance>300.58</distance>
 	<star>
 		<name>KOI-3165</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.5370</radius>
+		<temperature errorminus="56.00" errorplus="56.00">6422.00</temperature>
+		<radius errorminus="0.0800" errorplus="0.0800">1.8500</radius>
+		<metallicity errorminus="0.3000" errorplus="0.3000">-0.2000</metallicity>
 		<planet>
 			<name>KOI-3165 b</name>
 			<name>KOI-3165 01</name>
-			<radius errorminus="0.01549" errorplus="0.01549">0.08202</radius>
-			<period errorminus="2.70000e-05" errorplus="2.70000e-05">4.117506000000</period>
-			<transittime errorminus="0.0032000" errorplus="0.0032000">2454965.7952000</transittime>
-			<semimajoraxis errorminus="2.4e-07" errorplus="2.4e-07">0.0540633</semimajoraxis>
-			<temperature errorminus="203.0" errorplus="203.0">1511.0</temperature>
+			<radius errorminus="0.01631" errorplus="0.01631">0.11054</radius>
+			<period errorminus="1.6360000e-05" errorplus="1.6360000e-05">4.117547880000</period>
+			<transittime errorminus="0.0024100" errorplus="0.0024100">2454965.7917200</transittime>
+			<semimajoraxis errorminus="1.46e-07" errorplus="1.46e-07">0.0551109</semimajoraxis>
+			<temperature errorminus="38.3" errorplus="38.3">1641.5</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

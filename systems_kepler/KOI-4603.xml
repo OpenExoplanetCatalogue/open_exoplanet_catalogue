@@ -2,17 +2,20 @@
 	<name>KOI-4603</name>
 	<rightascension>19 26 09</rightascension>
 	<declination>+44 26 49</declination>
+	<distance>905.55</distance>
 	<star>
 		<name>KOI-4603</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.1550</radius>
+		<temperature errorminus="256.00" errorplus="256.00">6453.00</temperature>
+		<radius errorminus="0.9910" errorplus="0.9910">1.2110</radius>
+		<metallicity errorminus="0.3800" errorplus="0.3800">-0.0800</metallicity>
 		<planet>
 			<name>KOI-4603 b</name>
 			<name>KOI-4603 01</name>
-			<radius errorminus="0.12758" errorplus="0.12758">0.10936</radius>
-			<period errorminus="1.80000e-04" errorplus="1.80000e-04">15.951620000000</period>
-			<transittime errorminus="0.0067000" errorplus="0.0067000">2454979.4497000</transittime>
-			<semimajoraxis errorminus="1.0e-06" errorplus="1.0e-06">0.1310050</semimajoraxis>
-			<temperature errorminus="112.0" errorplus="112.0">844.0</temperature>
+			<radius errorminus="0.09067" errorplus="0.09067">0.11555</radius>
+			<period errorminus="1.1130000e-04" errorplus="1.1130000e-04">15.951239000000</period>
+			<transittime errorminus="0.0057200" errorplus="0.0057200">2454979.4628300</transittime>
+			<semimajoraxis errorminus="6.08e-07" errorplus="6.08e-07">0.1308150</semimajoraxis>
+			<temperature errorminus="356.0" errorplus="356.0">866.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

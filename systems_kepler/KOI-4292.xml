@@ -2,17 +2,20 @@
 	<name>KOI-4292</name>
 	<rightascension>19 05 32</rightascension>
 	<declination>+47 00 59</declination>
+	<distance>388.47</distance>
 	<star>
 		<name>KOI-4292</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.8660</radius>
+		<temperature errorminus="169.00" errorplus="169.00">5806.00</temperature>
+		<radius errorminus="0.5280" errorplus="0.5280">0.8990</radius>
+		<metallicity errorminus="0.2800" errorplus="0.2800">-0.0400</metallicity>
 		<planet>
 			<name>KOI-4292 b</name>
 			<name>KOI-4292 01</name>
-			<radius errorminus="0.00665" errorplus="0.00665">0.07591</radius>
-			<period errorminus="1.60000e-04" errorplus="1.60000e-04">9.327980000000</period>
-			<transittime errorminus="0.0100000" errorplus="0.0100000">2454965.8621000</transittime>
-			<semimajoraxis errorminus="9.7e-07" errorplus="9.7e-07">0.0858817</semimajoraxis>
-			<temperature errorminus="193.0" errorplus="193.0">810.0</temperature>
+			<radius errorminus="0.03071" errorplus="0.03071">0.05641</radius>
+			<period errorminus="7.4800000e-05" errorplus="7.4800000e-05">9.328108100000</period>
+			<transittime errorminus="0.0062500" errorplus="0.0062500">2454965.8625400</transittime>
+			<semimajoraxis errorminus="4.63e-07" errorplus="4.63e-07">0.0865764</semimajoraxis>
+			<temperature errorminus="244.0" errorplus="244.0">825.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

@@ -2,17 +2,20 @@
 	<name>KOI-3331</name>
 	<rightascension>19 27 51</rightascension>
 	<declination>+41 07 19</declination>
+	<distance>1485.34</distance>
 	<star>
 		<name>KOI-3331</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.8790</radius>
+		<temperature errorminus="184.00" errorplus="184.00">5791.00</temperature>
+		<radius errorminus="0.5300" errorplus="0.5300">0.8560</radius>
+		<metallicity errorminus="0.3000" errorplus="0.3000">-0.1800</metallicity>
 		<planet>
 			<name>KOI-3331 b</name>
 			<name>KOI-3331 01</name>
-			<radius errorminus="0.00547" errorplus="0.00547">0.80432</radius>
-			<period errorminus="3.10000e-05" errorplus="3.10000e-05">18.173023000000</period>
-			<transittime errorminus="0.0012000" errorplus="0.0012000">2454977.1598000</transittime>
-			<semimajoraxis errorminus="1.6e-07" errorplus="1.6e-07">0.1365550</semimajoraxis>
-			<temperature errorminus=".0" errorplus="0.0">622.2</temperature>
+			<radius errorminus="0.00403" errorplus="0.00403">0.77803</radius>
+			<period errorminus="1.7650000e-05" errorplus="1.7650000e-05">18.173007410000</period>
+			<transittime errorminus="0.0008610" errorplus="0.0008610">2454977.1609450</transittime>
+			<semimajoraxis errorminus="8.60e-08" errorplus="8.60e-08">0.1328300</semimajoraxis>
+			<temperature errorminus="202.0" errorplus="202.0">649.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

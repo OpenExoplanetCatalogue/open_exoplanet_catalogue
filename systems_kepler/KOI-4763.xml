@@ -2,17 +2,20 @@
 	<name>KOI-4763</name>
 	<rightascension>18 57 31</rightascension>
 	<declination>+44 18 29</declination>
+	<distance>849.50</distance>
 	<star>
 		<name>KOI-4763</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.1050</radius>
+		<temperature errorminus="190.00" errorplus="190.00">5993.00</temperature>
+		<radius errorminus="0.5440" errorplus="0.5440">1.0870</radius>
+		<metallicity errorminus="0.3000" errorplus="0.3000">-0.1400</metallicity>
 		<planet>
 			<name>KOI-4763 b</name>
 			<name>KOI-4763 01</name>
-			<radius errorminus="0.21871" errorplus="0.21871">0.11847</radius>
-			<period errorminus="1.20000e-03" errorplus="1.20000e-03">56.445400000000</period>
-			<transittime errorminus="0.0130000" errorplus="0.0130000">2455003.5960000</transittime>
-			<semimajoraxis errorminus="4.2e-06" errorplus="4.2e-06">0.2879770</semimajoraxis>
-			<temperature errorminus="106.0" errorplus="106.0">517.0</temperature>
+			<radius errorminus="0.03518" errorplus="0.03518">0.14134</radius>
+			<period errorminus="8.4090000e-04" errorplus="8.4090000e-04">56.446871800000</period>
+			<transittime errorminus="0.0115000" errorplus="0.0115000">2455003.5845000</transittime>
+			<semimajoraxis errorminus="2.85e-06" errorplus="2.85e-06">0.2868200</semimajoraxis>
+			<temperature errorminus="130.0" errorplus="130.0">515.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

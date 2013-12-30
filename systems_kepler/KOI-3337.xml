@@ -2,17 +2,20 @@
 	<name>KOI-3337</name>
 	<rightascension>19 39 37</rightascension>
 	<declination>+43 22 54</declination>
+	<distance>1335.74</distance>
 	<star>
 		<name>KOI-3337</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.7990</radius>
+		<temperature errorminus="185.00" errorplus="185.00">5547.00</temperature>
+		<radius errorminus="0.4360" errorplus="0.4360">0.8390</radius>
+		<metallicity errorminus="0.2800" errorplus="0.2800">-0.0400</metallicity>
 		<planet>
 			<name>KOI-3337 b</name>
 			<name>KOI-3337 01</name>
-			<radius errorminus="0.02734" errorplus="0.02734">0.18864</radius>
-			<period errorminus="1.50000e-04" errorplus="1.50000e-04">11.166180000000</period>
-			<transittime errorminus="0.0079000" errorplus="0.0079000">2454967.9669000</transittime>
-			<semimajoraxis errorminus="8.4e-07" errorplus="8.4e-07">0.0945507</semimajoraxis>
-			<temperature errorminus="122.0" errorplus="122.0">708.0</temperature>
+			<radius errorminus="0.15492" errorplus="0.15492">0.17132</radius>
+			<period errorminus="8.5080000e-05" errorplus="8.5080000e-05">11.166503140000</period>
+			<transittime errorminus="0.0060700" errorplus="0.0060700">2454967.9578000</transittime>
+			<semimajoraxis errorminus="4.84e-07" errorplus="4.84e-07">0.0952394</semimajoraxis>
+			<temperature errorminus="190.0" errorplus="190.0">726.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

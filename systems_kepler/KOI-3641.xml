@@ -2,17 +2,20 @@
 	<name>KOI-3641</name>
 	<rightascension>19 13 18</rightascension>
 	<declination>+38 37 39</declination>
+	<distance>580.44</distance>
 	<star>
 		<name>KOI-3641</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.9300</radius>
+		<temperature errorminus="160.00" errorplus="160.00">5934.00</temperature>
+		<radius errorminus="0.4540" errorplus="0.4540">0.7940</radius>
+		<metallicity errorminus="0.3200" errorplus="0.3200">-0.5600</metallicity>
 		<planet>
 			<name>KOI-3641 b</name>
 			<name>KOI-3641 01</name>
-			<radius errorminus="0.00902" errorplus="0.00902">1.78306</radius>
-			<period errorminus="7.20000e-05" errorplus="7.20000e-05">178.412863000000</period>
-			<transittime errorminus="0.0001900" errorplus="0.0001900">2455051.2248900</transittime>
-			<semimajoraxis errorminus="1.7e-07" errorplus="1.7e-07">0.6270520</semimajoraxis>
-			<temperature errorminus="64.0" errorplus="64.0">322.0</temperature>
+			<radius errorminus="0.14581" errorplus="0.14581">1.96021</radius>
+			<period errorminus="2.9640000e-05" errorplus="2.9640000e-05">178.412963490000</period>
+			<transittime errorminus="0.0001340" errorplus="0.0001340">2455051.2252470</transittime>
+			<semimajoraxis errorminus="6.56e-08" errorplus="6.56e-08">0.5918270</semimajoraxis>
+			<temperature errorminus="87.1" errorplus="87.1">303.2</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

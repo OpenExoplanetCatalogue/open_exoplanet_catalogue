@@ -2,17 +2,20 @@
 	<name>KOI-3608</name>
 	<rightascension>18 59 15</rightascension>
 	<declination>+47 23 33</declination>
+	<distance>642.64</distance>
 	<star>
 		<name>KOI-3608</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.0130</radius>
+		<temperature errorminus="193.00" errorplus="193.00">6105.00</temperature>
+		<radius errorminus="0.5520" errorplus="0.5520">0.9930</radius>
+		<metallicity errorminus="0.3200" errorplus="0.3200">-0.2400</metallicity>
 		<planet>
 			<name>KOI-3608 b</name>
 			<name>KOI-3608 01</name>
-			<radius errorminus="0.24605" errorplus="0.24605">2.78859</radius>
-			<period errorminus="8.20000e-05" errorplus="8.20000e-05">244.832710000000</period>
-			<transittime errorminus="0.0001500" errorplus="0.0001500">2455118.7018900</transittime>
-			<semimajoraxis errorminus="1.7e-07" errorplus="1.7e-07">0.7810580</semimajoraxis>
-			<temperature errorminus="63.0" errorplus="63.0">307.0</temperature>
+			<radius errorminus="0.13670" errorplus="0.13670">2.71113</radius>
+			<period errorminus="3.5320000e-05" errorplus="3.5320000e-05">244.832687850000</period>
+			<transittime errorminus="0.0001030" errorplus="0.0001030">2455118.7026870</transittime>
+			<semimajoraxis errorminus="7.36e-08" errorplus="7.36e-08">0.7654370</semimajoraxis>
+			<temperature errorminus="85.8" errorplus="85.8">306.8</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

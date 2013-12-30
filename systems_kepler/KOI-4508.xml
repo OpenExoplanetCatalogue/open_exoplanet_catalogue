@@ -2,17 +2,20 @@
 	<name>KOI-4508</name>
 	<rightascension>19 37 29</rightascension>
 	<declination>+40 39 05</declination>
+	<distance>632.84</distance>
 	<star>
 		<name>KOI-4508</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.6390</radius>
+		<temperature errorminus="166.00" errorplus="166.00">4705.00</temperature>
+		<radius errorminus="0.0660" errorplus="0.0660">0.7200</radius>
+		<metallicity errorminus="0.3200" errorplus="0.3200">-0.0400</metallicity>
 		<planet>
 			<name>KOI-4508 b</name>
 			<name>KOI-4508 01</name>
-			<radius errorminus="0.10024" errorplus="0.10024">0.10024</radius>
-			<period errorminus="1.90000e-05" errorplus="1.90000e-05">2.499153000000</period>
-			<transittime errorminus="0.0031000" errorplus="0.0031000">2454966.0883000</transittime>
-			<semimajoraxis errorminus="1.6e-07" errorplus="1.6e-07">0.0314214</semimajoraxis>
-			<temperature errorminus="20.0" errorplus="20.0">930.0</temperature>
+			<radius errorminus="0.09113" errorplus="0.09113">0.09204</radius>
+			<period errorminus="1.1230000e-05" errorplus="1.1230000e-05">2.499160790000</period>
+			<transittime errorminus="0.0023500" errorplus="0.0023500">2454966.0856500</transittime>
+			<semimajoraxis errorminus="9.61e-08" errorplus="9.61e-08">0.0320958</semimajoraxis>
+			<temperature errorminus="56.9" errorplus="56.9">983.1</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

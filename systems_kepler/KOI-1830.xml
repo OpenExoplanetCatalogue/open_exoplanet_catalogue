@@ -4,6 +4,9 @@
 	<declination>+38 24 19</declination>
 	<distance>565.77</distance>
 	<star>
+		<magJ errorminus="0.023" errorplus="0.023">12.991</magJ>
+		<magH errorminus="0.026" errorplus="0.026">12.539</magH>
+		<magK errorminus="0.021" errorplus="0.021">12.396</magK>
 		<name>KOI-1830</name>
 		<temperature errorminus="73.00" errorplus="73.00">5203.00</temperature>
 		<radius errorminus="0.2500" errorplus="0.2500">0.8000</radius>
@@ -12,9 +15,9 @@
 		<planet>
 			<name>KOI-1830 b</name>
 			<name>KOI-1830 01</name>
-			<radius errorminus="0.07473" errorplus="0.07473">0.22145</radius>
-			<period errorminus="7.70000e-05" errorplus="7.70000e-05">13.226919000000</period>
-			<transittime errorminus="0.0022000" errorplus="0.0022000">2454975.2052000</transittime>
+			<radius errorminus="0.07199" errorplus="0.07199">0.22054</radius>
+			<period errorminus="3.1000000e-05" errorplus="3.1000000e-05">13.227123000000</period>
+			<transittime errorminus="0.0015000" errorplus="0.0015000">2454975.2027000</transittime>
 			<semimajoraxis>0.1000000</semimajoraxis>
 			<temperature>649.0</temperature>
 			<list>Kepler Objects of Interest</list>
@@ -23,11 +26,11 @@
 		<planet>
 			<name>KOI-1830 c</name>
 			<name>KOI-1830 02</name>
-			<radius errorminus="0.07382" errorplus="0.07382">0.32716</radius>
-			<period errorminus="1.00000e-03" errorplus="1.00000e-03">198.710000000000</period>
-			<transittime errorminus="0.0031000" errorplus="0.0031000">2454989.5189000</transittime>
-			<semimajoraxis errorminus="2.1e-06" errorplus="2.1e-06">0.6112750</semimajoraxis>
-			<temperature errorminus="41.0" errorplus="41.0">263.0</temperature>
+			<radius errorminus="0.02953" errorplus="0.02953">0.26537</radius>
+			<period errorminus="5.9390000e-04" errorplus="5.9390000e-04">198.710197500000</period>
+			<transittime errorminus="0.0024900" errorplus="0.0024900">2454989.5208600</transittime>
+			<semimajoraxis errorminus="1.13e-06" errorplus="1.13e-06">0.5677410</semimajoraxis>
+			<temperature errorminus="15.0" errorplus="15.0">235.7</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

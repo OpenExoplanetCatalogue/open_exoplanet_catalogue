@@ -2,17 +2,20 @@
 	<name>KOI-4377</name>
 	<rightascension>19 48 38</rightascension>
 	<declination>+40 02 34</declination>
+	<distance>1983.82</distance>
 	<star>
 		<name>KOI-4377</name>
-		<radius errorminus=".0000" errorplus="0.0000">2.9190</radius>
+		<temperature errorminus="276.00" errorplus="276.00">6423.00</temperature>
+		<radius errorminus="1.4240" errorplus="1.4240">2.7860</radius>
+		<metallicity errorminus="0.2800" errorplus="0.2800">-0.0800</metallicity>
 		<planet>
 			<name>KOI-4377 b</name>
 			<name>KOI-4377 01</name>
-			<radius errorminus="0.17315" errorplus="0.17315">0.28250</radius>
-			<period errorminus="3.90000e-04" errorplus="3.90000e-04">19.875460000000</period>
-			<transittime errorminus="0.0120000" errorplus="0.0120000">2454981.3810000</transittime>
-			<semimajoraxis errorminus="2.2e-06" errorplus="2.2e-06">0.1694590</semimajoraxis>
-			<temperature errorminus="143.0" errorplus="143.0">1172.0</temperature>
+			<radius errorminus="0.08411" errorplus="0.08411">0.30547</radius>
+			<period errorminus="2.1700000e-04" errorplus="2.1700000e-04">19.875102400000</period>
+			<transittime errorminus="0.0087300" errorplus="0.0087300">2454981.3940100</transittime>
+			<semimajoraxis errorminus="1.20e-06" errorplus="1.20e-06">0.1643960</semimajoraxis>
+			<temperature errorminus="302.0" errorplus="302.0">1166.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

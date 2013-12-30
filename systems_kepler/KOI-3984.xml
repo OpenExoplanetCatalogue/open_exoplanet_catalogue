@@ -2,17 +2,20 @@
 	<name>KOI-3984</name>
 	<rightascension>19 37 32</rightascension>
 	<declination>+43 49 31</declination>
+	<distance>1111.95</distance>
 	<star>
 		<name>KOI-3984</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.7380</radius>
+		<temperature errorminus="187.00" errorplus="187.00">5305.00</temperature>
+		<radius errorminus="0.5870" errorplus="0.5870">1.4490</radius>
+		<metallicity errorminus="0.2400" errorplus="0.2400">0.2400</metallicity>
 		<planet>
 			<name>KOI-3984 b</name>
 			<name>KOI-3984 01</name>
-			<radius errorminus="0.10936" errorplus="0.10936">0.29162</radius>
-			<period errorminus="5.60000e-06" errorplus="5.60000e-06">1.444482400000</period>
-			<transittime errorminus="0.0008500" errorplus="0.0008500">2454965.7953100</transittime>
-			<semimajoraxis errorminus="6.3e-08" errorplus="6.3e-08">0.0242962</semimajoraxis>
-			<temperature errorminus="118.0" errorplus="118.0">1939.0</temperature>
+			<radius errorminus="0.13670" errorplus="0.13670">0.18591</radius>
+			<period errorminus="3.6520000e-06" errorplus="3.6520000e-06">1.444464141000</period>
+			<transittime errorminus="0.0006640" errorplus="0.0006640">2454965.8057730</transittime>
+			<semimajoraxis errorminus="4.13e-08" errorplus="4.13e-08">0.0244839</semimajoraxis>
+			<temperature errorminus="370.0" errorplus="370.0">1800.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

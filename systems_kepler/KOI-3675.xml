@@ -2,17 +2,20 @@
 	<name>KOI-3675</name>
 	<rightascension>19 39 50</rightascension>
 	<declination>+46 13 32</declination>
+	<distance>1643.78</distance>
 	<star>
 		<name>KOI-3675</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.0360</radius>
+		<temperature errorminus="254.00" errorplus="254.00">5378.00</temperature>
+		<radius errorminus="0.6570" errorplus="0.6570">0.8120</radius>
+		<metallicity errorminus="0.4300" errorplus="0.4300">-0.3600</metallicity>
 		<planet>
 			<name>KOI-3675 b</name>
 			<name>KOI-3675 01</name>
-			<radius errorminus="0.08384" errorplus="0.08384">4.53920</radius>
-			<period errorminus="1.60000e-04" errorplus="1.60000e-04">20.838990000000</period>
-			<transittime errorminus="0.0063000" errorplus="0.0063000">2454966.5059000</transittime>
-			<semimajoraxis errorminus="7.5e-07" errorplus="7.5e-07">0.1477480</semimajoraxis>
-			<temperature errorminus=".0" errorplus="0.0">604.8</temperature>
+			<radius errorminus="0.02825" errorplus="0.02825">3.20350</radius>
+			<period errorminus="1.3460000e-04" errorplus="1.3460000e-04">20.839092600000</period>
+			<transittime errorminus="0.0053700" errorplus="0.0053700">2454966.5025700</transittime>
+			<semimajoraxis errorminus="5.77e-07" errorplus="5.77e-07">0.1340670</semimajoraxis>
+			<temperature errorminus="238.0" errorplus="238.0">584.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

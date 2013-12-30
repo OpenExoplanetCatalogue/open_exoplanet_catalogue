@@ -2,17 +2,20 @@
 	<name>KOI-3363</name>
 	<rightascension>19 02 50</rightascension>
 	<declination>+49 42 23</declination>
+	<distance>648.03</distance>
 	<star>
 		<name>KOI-3363</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.9360</radius>
+		<temperature errorminus="186.00" errorplus="186.00">6003.00</temperature>
+		<radius errorminus="0.5280" errorplus="0.5280">0.9320</radius>
+		<metallicity errorminus="0.3000" errorplus="0.3000">-0.1400</metallicity>
 		<planet>
 			<name>KOI-3363 b</name>
 			<name>KOI-3363 01</name>
-			<radius errorminus="0.10024" errorplus="0.10024">0.15492</radius>
-			<period errorminus="7.60000e-05" errorplus="7.60000e-05">14.532555000000</period>
-			<transittime errorminus="0.0029000" errorplus="0.0029000">2454973.4696000</transittime>
-			<semimajoraxis errorminus="4.1e-07" errorplus="4.1e-07">0.1178810</semimajoraxis>
-			<temperature errorminus="155.0" errorplus="155.0">745.0</temperature>
+			<radius errorminus="0.08156" errorplus="0.08156">0.15693</radius>
+			<period errorminus="4.4810000e-05" errorplus="4.4810000e-05">14.532547120000</period>
+			<transittime errorminus="0.0023500" errorplus="0.0023500">2454973.4706400</transittime>
+			<semimajoraxis errorminus="2.41e-07" errorplus="2.41e-07">0.1172740</semimajoraxis>
+			<temperature errorminus="213.0" errorplus="213.0">747.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

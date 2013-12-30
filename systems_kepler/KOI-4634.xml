@@ -2,17 +2,20 @@
 	<name>KOI-4634</name>
 	<rightascension>20 02 35</rightascension>
 	<declination>+44 03 20</declination>
+	<distance>729.28</distance>
 	<star>
 		<name>KOI-4634</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.0830</radius>
+		<temperature errorminus="205.00" errorplus="205.00">6163.00</temperature>
+		<radius errorminus="0.5680" errorplus="0.5680">1.0420</radius>
+		<metallicity errorminus="0.3200" errorplus="0.3200">-0.2800</metallicity>
 		<planet>
 			<name>KOI-4634 b</name>
 			<name>KOI-4634 01</name>
-			<radius errorminus="0.11847" errorplus="0.11847">0.09113</radius>
-			<period errorminus="3.20000e-05" errorplus="3.20000e-05">4.027463000000</period>
-			<transittime errorminus="0.0040000" errorplus="0.0040000">2454966.1137000</transittime>
-			<semimajoraxis errorminus="2.7e-07" errorplus="2.7e-07">0.0508710</semimajoraxis>
-			<temperature errorminus="343.0" errorplus="343.0">1259.0</temperature>
+			<radius errorminus="0.06242" errorplus="0.06242">0.08657</radius>
+			<period errorminus="2.0040000e-05" errorplus="2.0040000e-05">4.027489520000</period>
+			<transittime errorminus="0.0032300" errorplus="0.0032300">2454966.1119600</transittime>
+			<semimajoraxis errorminus="1.64e-07" errorplus="1.64e-07">0.0493513</semimajoraxis>
+			<temperature errorminus="343.0" errorplus="343.0">1249.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

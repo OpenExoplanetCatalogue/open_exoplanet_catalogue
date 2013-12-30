@@ -2,17 +2,20 @@
 	<name>KOI-4360</name>
 	<rightascension>19 34 29</rightascension>
 	<declination>+47 57 42</declination>
+	<distance>1192.58</distance>
 	<star>
 		<name>KOI-4360</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.0190</radius>
+		<temperature errorminus="225.00" errorplus="225.00">6191.00</temperature>
+		<radius errorminus="0.6650" errorplus="0.6650">1.0100</radius>
+		<metallicity errorminus="0.3400" errorplus="0.3400">-0.1400</metallicity>
 		<planet>
 			<name>KOI-4360 b</name>
 			<name>KOI-4360 01</name>
-			<radius errorminus="0.05741" errorplus="0.05741">0.10207</radius>
-			<period errorminus="2.10000e-05" errorplus="2.10000e-05">2.716055000000</period>
-			<transittime errorminus="0.0037000" errorplus="0.0037000">2454965.3563000</transittime>
-			<semimajoraxis errorminus="2.1e-07" errorplus="2.1e-07">0.0393042</semimajoraxis>
-			<temperature errorminus="379.0" errorplus="379.0">1391.0</temperature>
+			<radius errorminus="0.11847" errorplus="0.11847">0.09478</radius>
+			<period errorminus="1.1690000e-05" errorplus="1.1690000e-05">2.716021220000</period>
+			<transittime errorminus="0.0023400" errorplus="0.0023400">2454965.3636600</transittime>
+			<semimajoraxis errorminus="1.12e-07" errorplus="1.12e-07">0.0390721</semimajoraxis>
+			<temperature errorminus="460.0" errorplus="460.0">1389.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

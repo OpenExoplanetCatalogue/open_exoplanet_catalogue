@@ -2,17 +2,20 @@
 	<name>KOI-4276</name>
 	<rightascension>19 03 52</rightascension>
 	<declination>+41 21 48</declination>
+	<distance>491.06</distance>
 	<star>
 		<name>KOI-4276</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.0000</radius>
+		<temperature errorminus="238.00" errorplus="238.00">6102.00</temperature>
+		<radius errorminus="0.5380" errorplus="0.5380">1.2010</radius>
+		<metallicity errorminus="0.3000" errorplus="0.3000">-0.2400</metallicity>
 		<planet>
 			<name>KOI-4276 b</name>
 			<name>KOI-4276 01</name>
-			<radius errorminus="0.10024" errorplus="0.10024">0.10024</radius>
-			<period errorminus="1.10000e-03" errorplus="1.10000e-03">56.645200000000</period>
-			<transittime errorminus="0.0120000" errorplus="0.0120000">2454971.7590000</transittime>
-			<semimajoraxis errorminus="3.7e-06" errorplus="3.7e-06">0.2887170</semimajoraxis>
-			<temperature errorminus=".0" errorplus="0.0">474.6</temperature>
+			<radius errorminus="0.04620" errorplus="0.04620">0.12202</radius>
+			<period errorminus="6.0920000e-04" errorplus="6.0920000e-04">56.644786000000</period>
+			<transittime errorminus="0.0097200" errorplus="0.0097200">2454971.7828500</transittime>
+			<semimajoraxis errorminus="2.06e-06" errorplus="2.06e-06">0.2874080</semimajoraxis>
+			<temperature errorminus="125.0" errorplus="125.0">550.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

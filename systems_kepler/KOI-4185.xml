@@ -2,17 +2,20 @@
 	<name>KOI-4185</name>
 	<rightascension>18 49 20</rightascension>
 	<declination>+42 50 43</declination>
+	<distance>1153.91</distance>
 	<star>
 		<name>KOI-4185</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.8430</radius>
+		<temperature errorminus="176.00" errorplus="176.00">5505.00</temperature>
+		<radius errorminus="0.4710" errorplus="0.4710">0.8730</radius>
+		<metallicity errorminus="0.3000" errorplus="0.3000">-0.0400</metallicity>
 		<planet>
 			<name>KOI-4185 b</name>
 			<name>KOI-4185 01</name>
-			<radius errorminus="0.90219" errorplus="0.90219">0.29162</radius>
-			<period errorminus="9.40000e-06" errorplus="9.40000e-06">3.035165000000</period>
-			<transittime errorminus="0.0012000" errorplus="0.0012000">2454965.3348000</transittime>
-			<semimajoraxis errorminus="8.0e-08" errorplus="8.0e-08">0.0389078</semimajoraxis>
-			<temperature errorminus="520.0" errorplus="520.0">1122.0</temperature>
+			<radius errorminus="0.10936" errorplus="0.10936">0.18864</radius>
+			<period errorminus="6.9530000e-06" errorplus="6.9530000e-06">3.035175693000</period>
+			<transittime errorminus="0.0010800" errorplus="0.0010800">2454965.3335600</transittime>
+			<semimajoraxis errorminus="6.02e-08" errorplus="6.02e-08">0.0394000</semimajoraxis>
+			<temperature errorminus="311.0" errorplus="311.0">1143.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

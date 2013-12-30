@@ -2,17 +2,20 @@
 	<name>KOI-3611</name>
 	<rightascension>19 04 58</rightascension>
 	<declination>+42 08 47</declination>
+	<distance>2561.67</distance>
 	<star>
 		<name>KOI-3611</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.0580</radius>
+		<temperature errorminus="236.00" errorplus="236.00">6137.00</temperature>
+		<radius errorminus="0.5420" errorplus="0.5420">1.0050</radius>
+		<metallicity errorminus="0.3000" errorplus="0.3000">-0.3200</metallicity>
 		<planet>
 			<name>KOI-3611 b</name>
 			<name>KOI-3611 01</name>
-			<radius errorminus="0.00000" errorplus="0.00000">3.59329</radius>
-			<period errorminus=".00000e+00" errorplus="0.00000e+00">10.443531990100</period>
-			<transittime errorminus="0.0000000" errorplus="0.0000000">2454966.6020322</transittime>
-			<semimajoraxis errorminus=".0e+00" errorplus="0.0e+00">0.0961433</semimajoraxis>
-			<temperature errorminus=".0" errorplus="0.0">861.0</temperature>
+			<radius errorminus="0.99332" errorplus="0.99332">5.66830</radius>
+			<period errorminus="1.9780000e-06" errorplus="1.9780000e-06">10.443336694000</period>
+			<transittime errorminus="0.0002000" errorplus="0.0002000">2454966.6295360</transittime>
+			<semimajoraxis errorminus="1.17e-08" errorplus="1.17e-08">0.0926191</semimajoraxis>
+			<temperature errorminus="243.0" errorplus="243.0">892.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

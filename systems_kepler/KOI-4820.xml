@@ -2,17 +2,20 @@
 	<name>KOI-4820</name>
 	<rightascension>19 53 31</rightascension>
 	<declination>+46 53 21</declination>
+	<distance>1452.85</distance>
 	<star>
 		<name>KOI-4820</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.9250</radius>
+		<temperature errorminus="215.00" errorplus="215.00">5999.00</temperature>
+		<radius errorminus="0.4870" errorplus="0.4870">0.9590</radius>
+		<metallicity errorminus="0.3000" errorplus="0.3000">-0.0600</metallicity>
 		<planet>
 			<name>KOI-4820 b</name>
 			<name>KOI-4820 01</name>
-			<radius errorminus="0.12758" errorplus="0.12758">0.15492</radius>
-			<period errorminus="3.00000e-04" errorplus="3.00000e-04">14.739480000000</period>
-			<transittime errorminus="0.0120000" errorplus="0.0120000">2454966.5500000</transittime>
-			<semimajoraxis errorminus="1.6e-06" errorplus="1.6e-06">0.1187900</semimajoraxis>
-			<temperature errorminus="117.0" errorplus="117.0">735.0</temperature>
+			<radius errorminus="0.06944" errorplus="0.06944">0.16959</radius>
+			<period errorminus="1.9910000e-04" errorplus="1.9910000e-04">14.740197700000</period>
+			<transittime errorminus="0.0101000" errorplus="0.0101000">2454966.5348000</transittime>
+			<semimajoraxis errorminus="1.08e-06" errorplus="1.08e-06">0.1194660</semimajoraxis>
+			<temperature errorminus="192.0" errorplus="192.0">750.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

@@ -2,17 +2,20 @@
 	<name>KOI-4261</name>
 	<rightascension>19 13 12</rightascension>
 	<declination>+47 46 31</declination>
+	<distance>1496.43</distance>
 	<star>
 		<name>KOI-4261</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.0200</radius>
+		<temperature errorminus="211.00" errorplus="211.00">6046.00</temperature>
+		<radius errorminus="0.6010" errorplus="0.6010">1.0230</radius>
+		<metallicity errorminus="0.3000" errorplus="0.3000">-0.1400</metallicity>
 		<planet>
 			<name>KOI-4261 b</name>
 			<name>KOI-4261 01</name>
-			<radius errorminus="0.07382" errorplus="0.07382">0.12211</radius>
-			<period errorminus="1.10000e-05" errorplus="1.10000e-05">1.450904000000</period>
-			<transittime errorminus="0.0027000" errorplus="0.0027000">2454965.2231000</transittime>
-			<semimajoraxis errorminus="1.3e-07" errorplus="1.3e-07">0.0253235</semimajoraxis>
-			<temperature errorminus="366.0" errorplus="366.0">1691.0</temperature>
+			<radius errorminus="0.04228" errorplus="0.04228">0.12020</radius>
+			<period errorminus="6.8240000e-06" errorplus="6.8240000e-06">1.450880434000</period>
+			<transittime errorminus="0.0017200" errorplus="0.0017200">2454965.2340200</transittime>
+			<semimajoraxis errorminus="7.90e-08" errorplus="7.90e-08">0.0251788</semimajoraxis>
+			<temperature errorminus="503.0" errorplus="503.0">1700.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

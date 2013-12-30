@@ -2,17 +2,20 @@
 	<name>KOI-3277</name>
 	<rightascension>19 29 41</rightascension>
 	<declination>+38 15 58</declination>
+	<distance>636.21</distance>
 	<star>
 		<name>KOI-3277</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.9250</radius>
+		<temperature errorminus="146.00" errorplus="146.00">6148.00</temperature>
+		<radius errorminus="0.2050" errorplus="0.2050">1.2170</radius>
+		<metallicity errorminus="0.1600" errorplus="0.1600">-0.0400</metallicity>
 		<planet>
 			<name>KOI-3277 b</name>
 			<name>KOI-3277 01</name>
-			<radius errorminus="0.08384" errorplus="0.08384">0.10936</radius>
-			<period errorminus="5.60000e-04" errorplus="5.60000e-04">42.913860000000</period>
-			<transittime errorminus="0.0081000" errorplus="0.0081000">2454972.8845000</transittime>
-			<semimajoraxis errorminus="2.1e-06" errorplus="2.1e-06">0.2420230</semimajoraxis>
-			<temperature errorminus="117.0" errorplus="117.0">515.0</temperature>
+			<radius errorminus="0.10024" errorplus="0.10024">0.14399</radius>
+			<period errorminus="3.1800000e-04" errorplus="3.1800000e-04">42.913778600000</period>
+			<transittime errorminus="0.0064700" errorplus="0.0064700">2454972.8862100</transittime>
+			<semimajoraxis errorminus="1.21e-06" errorplus="1.21e-06">0.2456340</semimajoraxis>
+			<temperature errorminus="52.8" errorplus="52.8">603.7</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

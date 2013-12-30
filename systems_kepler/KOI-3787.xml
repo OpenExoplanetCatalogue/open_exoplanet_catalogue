@@ -2,17 +2,20 @@
 	<name>KOI-3787</name>
 	<rightascension>19 13 45</rightascension>
 	<declination>+43 30 18</declination>
+	<distance>799.71</distance>
 	<star>
 		<name>KOI-3787</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.0900</radius>
+		<temperature errorminus="190.00" errorplus="190.00">5993.00</temperature>
+		<radius errorminus="0.5920" errorplus="0.5920">1.0990</radius>
+		<metallicity errorminus="0.3000" errorplus="0.3000">-0.1000</metallicity>
 		<planet>
 			<name>KOI-3787 b</name>
 			<name>KOI-3787 01</name>
-			<radius errorminus="0.50122" errorplus="0.50122">0.78372</radius>
-			<period errorminus="1.50000e-04" errorplus="1.50000e-04">141.734030000000</period>
-			<transittime errorminus="0.0007200" errorplus="0.0007200">2455000.3455200</transittime>
-			<semimajoraxis errorminus="3.8e-07" errorplus="3.8e-07">0.5312480</semimajoraxis>
-			<temperature errorminus="91.0" errorplus="91.0">377.0</temperature>
+			<radius errorminus="0.10024" errorplus="0.10024">0.83566</radius>
+			<period errorminus="6.4710000e-05" errorplus="6.4710000e-05">141.733971090000</period>
+			<transittime errorminus="0.0003670" errorplus="0.0003670">2455000.3461180</transittime>
+			<semimajoraxis errorminus="1.62e-07" errorplus="1.62e-07">0.5317140</semimajoraxis>
+			<temperature errorminus="103.0" errorplus="103.0">380.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

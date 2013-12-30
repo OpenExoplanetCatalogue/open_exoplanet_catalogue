@@ -2,17 +2,20 @@
 	<name>KOI-3784</name>
 	<rightascension>19 03 22</rightascension>
 	<declination>+40 55 31</declination>
+	<distance>996.38</distance>
 	<star>
 		<name>KOI-3784</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.2160</radius>
+		<temperature errorminus="235.00" errorplus="235.00">6022.00</temperature>
+		<radius errorminus="0.6210" errorplus="0.6210">1.1660</radius>
+		<metallicity errorminus="0.3000" errorplus="0.3000">-0.1000</metallicity>
 		<planet>
 			<name>KOI-3784 b</name>
 			<name>KOI-3784 01</name>
-			<radius errorminus="0.80195" errorplus="0.80195">0.87485</radius>
-			<period errorminus="4.70000e-04" errorplus="4.70000e-04">23.867790000000</period>
-			<transittime errorminus="0.0160000" errorplus="0.0160000">2454970.0570000</transittime>
-			<semimajoraxis errorminus="2.2e-06" errorplus="2.2e-06">0.1671840</semimajoraxis>
-			<temperature errorminus=".0" errorplus="0.0">684.8</temperature>
+			<radius errorminus="0.36452" errorplus="0.36452">1.33506</radius>
+			<period errorminus="4.0070000e-04" errorplus="4.0070000e-04">23.870185100000</period>
+			<transittime errorminus="0.0139000" errorplus="0.0139000">2454969.9744000</transittime>
+			<semimajoraxis errorminus="1.82e-06" errorplus="1.82e-06">0.1627050</semimajoraxis>
+			<temperature errorminus="191.0" errorplus="191.0">711.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

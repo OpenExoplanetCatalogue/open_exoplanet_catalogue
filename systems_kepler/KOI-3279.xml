@@ -2,17 +2,20 @@
 	<name>KOI-3279</name>
 	<rightascension>19 25 43</rightascension>
 	<declination>+38 39 15</declination>
+	<distance>1649.72</distance>
 	<star>
 		<name>KOI-3279</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.6700</radius>
+		<temperature errorminus="233.00" errorplus="233.00">5982.00</temperature>
+		<radius errorminus="0.4550" errorplus="0.4550">0.9600</radius>
+		<metallicity errorminus="0.3200" errorplus="0.3200">-0.0400</metallicity>
 		<planet>
 			<name>KOI-3279 b</name>
 			<name>KOI-3279 01</name>
-			<radius errorminus="0.37363" errorplus="0.37363">0.16403</radius>
-			<period errorminus="5.30000e-04" errorplus="5.30000e-04">30.827360000000</period>
-			<transittime errorminus="0.0110000" errorplus="0.0110000">2454976.1500000</transittime>
-			<semimajoraxis errorminus="2.2e-06" errorplus="2.2e-06">0.1927690</semimajoraxis>
-			<temperature errorminus=".0" errorplus="0.0">472.0</temperature>
+			<radius errorminus="0.13670" errorplus="0.13670">0.26428</radius>
+			<period errorminus="2.7850000e-04" errorplus="2.7850000e-04">30.827821500000</period>
+			<transittime errorminus="0.0079000" errorplus="0.0079000">2454976.1431800</transittime>
+			<semimajoraxis errorminus="1.18e-06" errorplus="1.18e-06">0.1953620</semimajoraxis>
+			<temperature errorminus="140.0" errorplus="140.0">585.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

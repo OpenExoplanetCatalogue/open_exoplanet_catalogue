@@ -2,17 +2,20 @@
 	<name>KOI-3258</name>
 	<rightascension>19 27 45</rightascension>
 	<declination>+39 25 11</declination>
+	<distance>1202.62</distance>
 	<star>
 		<name>KOI-3258</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.8350</radius>
+		<temperature errorminus="165.00" errorplus="165.00">5658.00</temperature>
+		<radius errorminus="0.3520" errorplus="0.3520">0.8150</radius>
+		<metallicity errorminus="0.3400" errorplus="0.3400">-0.2200</metallicity>
 		<planet>
 			<name>KOI-3258 b</name>
 			<name>KOI-3258 01</name>
-			<radius errorminus="0.10936" errorplus="0.10936">0.20960</radius>
-			<period errorminus="7.60000e-04" errorplus="7.60000e-04">40.351560000000</period>
-			<transittime errorminus="0.0099000" errorplus="0.0099000">2454986.4068000</transittime>
-			<semimajoraxis errorminus="2.8e-06" errorplus="2.8e-06">0.2254560</semimajoraxis>
-			<temperature errorminus="58.0" errorplus="58.0">481.0</temperature>
+			<radius errorminus="0.02369" errorplus="0.02369">0.23749</radius>
+			<period errorminus="4.7690000e-04" errorplus="4.7690000e-04">40.351046600000</period>
+			<transittime errorminus="0.0079800" errorplus="0.0079800">2454986.4144700</transittime>
+			<semimajoraxis errorminus="1.75e-06" errorplus="1.75e-06">0.2218390</semimajoraxis>
+			<temperature errorminus="104.0" errorplus="104.0">478.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

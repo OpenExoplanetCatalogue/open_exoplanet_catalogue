@@ -2,17 +2,20 @@
 	<name>KOI-4318</name>
 	<rightascension>19 35 45</rightascension>
 	<declination>+45 43 08</declination>
+	<distance>713.56</distance>
 	<star>
 		<name>KOI-4318</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.3710</radius>
+		<temperature errorminus="281.00" errorplus="281.00">6714.00</temperature>
+		<radius errorminus="1.1410" errorplus="1.1410">1.4270</radius>
+		<metallicity errorminus="0.4200" errorplus="0.4200">-0.0600</metallicity>
 		<planet>
 			<name>KOI-4318 b</name>
 			<name>KOI-4318 01</name>
-			<radius errorminus="0.04101" errorplus="0.04101">0.12211</radius>
-			<period errorminus="1.40000e-04" errorplus="1.40000e-04">14.816270000000</period>
-			<transittime errorminus="0.0054000" errorplus="0.0054000">2454971.3807000</transittime>
-			<semimajoraxis errorminus="7.9e-07" errorplus="7.9e-07">0.1280010</semimajoraxis>
-			<temperature errorminus="227.0" errorplus="227.0">968.0</temperature>
+			<radius errorminus="0.07008" errorplus="0.07008">0.12166</radius>
+			<period errorminus="8.6160000e-05" errorplus="8.6160000e-05">14.816228030000</period>
+			<transittime errorminus="0.0045500" errorplus="0.0045500">2454971.3814200</transittime>
+			<semimajoraxis errorminus="5.00e-07" errorplus="5.00e-07">0.1289650</semimajoraxis>
+			<temperature errorminus="396.0" errorplus="396.0">985.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

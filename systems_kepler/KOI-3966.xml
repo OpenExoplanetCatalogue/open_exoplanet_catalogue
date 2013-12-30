@@ -2,17 +2,20 @@
 	<name>KOI-3966</name>
 	<rightascension>19 06 27</rightascension>
 	<declination>+38 53 31</declination>
+	<distance>724.88</distance>
 	<star>
 		<name>KOI-3966</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.9710</radius>
+		<temperature errorminus="174.00" errorplus="174.00">6049.00</temperature>
+		<radius errorminus="0.4910" errorplus="0.4910">0.8450</radius>
+		<metallicity errorminus="0.2800" errorplus="0.2800">-0.4600</metallicity>
 		<planet>
 			<name>KOI-3966 b</name>
 			<name>KOI-3966 01</name>
-			<radius errorminus="0.18226" errorplus="0.18226">0.19137</radius>
-			<period errorminus="2.20000e-03" errorplus="2.20000e-03">138.941700000000</period>
-			<transittime errorminus="0.0081000" errorplus="0.0081000">2454986.9147000</transittime>
-			<semimajoraxis errorminus="5.5e-06" errorplus="5.5e-06">0.5367000</semimajoraxis>
-			<temperature errorminus="62.0" errorplus="62.0">362.0</temperature>
+			<radius errorminus="0.02962" errorplus="0.02962">0.18982</radius>
+			<period errorminus="1.0630000e-03" errorplus="1.0630000e-03">138.944643000000</period>
+			<transittime errorminus="0.0062100" errorplus="0.0062100">2454986.9107500</transittime>
+			<semimajoraxis errorminus="2.61e-06" errorplus="2.61e-06">0.5122670</semimajoraxis>
+			<temperature errorminus="100.0" errorplus="100.0">343.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

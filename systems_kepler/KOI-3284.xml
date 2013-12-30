@@ -2,17 +2,20 @@
 	<name>KOI-3284</name>
 	<rightascension>18 46 34</rightascension>
 	<declination>+41 57 03</declination>
+	<distance>166.34</distance>
 	<star>
 		<name>KOI-3284</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.5130</radius>
+		<temperature errorminus="73.00" errorplus="73.00">3688.00</temperature>
+		<radius errorminus="0.0700" errorplus="0.0700">0.4630</radius>
+		<metallicity errorminus="0.1000" errorplus="0.1000">-0.1000</metallicity>
 		<planet>
 			<name>KOI-3284 b</name>
 			<name>KOI-3284 01</name>
-			<radius errorminus="0.12758" errorplus="0.12758">0.09113</radius>
-			<period errorminus="4.00000e-04" errorplus="4.00000e-04">35.233350000000</period>
-			<transittime errorminus="0.0068000" errorplus="0.0068000">2454968.3593000</transittime>
-			<semimajoraxis errorminus="1.3e-06" errorplus="1.3e-06">0.1707700</semimajoraxis>
-			<temperature errorminus="17.0" errorplus="17.0">304.0</temperature>
+			<radius errorminus="0.10936" errorplus="0.10936">0.08475</radius>
+			<period errorminus="2.3350000e-04" errorplus="2.3350000e-04">35.232825400000</period>
+			<transittime errorminus="0.0057200" errorplus="0.0057200">2454968.3753200</transittime>
+			<semimajoraxis errorminus="7.28e-07" errorplus="7.28e-07">0.1647090</semimajoraxis>
+			<temperature errorminus="21.3" errorplus="21.3">272.8</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

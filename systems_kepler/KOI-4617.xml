@@ -2,17 +2,20 @@
 	<name>KOI-4617</name>
 	<rightascension>19 11 44</rightascension>
 	<declination>+46 25 06</declination>
+	<distance>802.91</distance>
 	<star>
 		<name>KOI-4617</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.0590</radius>
+		<temperature errorminus="220.00" errorplus="220.00">6300.00</temperature>
+		<radius errorminus="0.7160" errorplus="0.7160">1.1260</radius>
+		<metallicity errorminus="0.3400" errorplus="0.3400">-0.1000</metallicity>
 		<planet>
 			<name>KOI-4617 b</name>
 			<name>KOI-4617 01</name>
-			<radius errorminus="0.05650" errorplus="0.05650">0.08749</radius>
-			<period errorminus="7.00000e-04" errorplus="7.00000e-04">27.480880000000</period>
-			<transittime errorminus="0.0150000" errorplus="0.0150000">2454981.5720000</transittime>
-			<semimajoraxis errorminus="3.2e-06" errorplus="3.2e-06">0.1859150</semimajoraxis>
-			<temperature errorminus="139.0" errorplus="139.0">663.0</temperature>
+			<radius errorminus="0.09113" errorplus="0.09113">0.09204</radius>
+			<period errorminus="4.1580000e-04" errorplus="4.1580000e-04">27.478570500000</period>
+			<transittime errorminus="0.0128000" errorplus="0.0128000">2454981.6257000</transittime>
+			<semimajoraxis errorminus="1.85e-06" errorplus="1.85e-06">0.1832530</semimajoraxis>
+			<temperature errorminus="220.0" errorplus="220.0">689.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

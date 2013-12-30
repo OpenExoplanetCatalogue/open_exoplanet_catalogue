@@ -2,17 +2,20 @@
 	<name>KOI-4496</name>
 	<rightascension>18 58 43</rightascension>
 	<declination>+41 35 32</declination>
+	<distance>1576.42</distance>
 	<star>
 		<name>KOI-4496</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.8790</radius>
+		<temperature errorminus="215.00" errorplus="215.00">5922.00</temperature>
+		<radius errorminus="0.6670" errorplus="0.6670">1.0090</radius>
+		<metallicity errorminus="0.3400" errorplus="0.3400">0.1600</metallicity>
 		<planet>
 			<name>KOI-4496 b</name>
 			<name>KOI-4496 01</name>
-			<radius errorminus="0.53767" errorplus="0.53767">0.21871</radius>
-			<period errorminus="1.50000e-03" errorplus="1.50000e-03">96.382800000000</period>
-			<transittime errorminus="0.0091000" errorplus="0.0091000">2454977.8759000</transittime>
-			<semimajoraxis errorminus="4.2e-06" errorplus="4.2e-06">0.4095960</semimajoraxis>
-			<temperature errorminus="105.0" errorplus="105.0">377.0</temperature>
+			<radius errorminus="0.27339" errorplus="0.27339">0.25152</radius>
+			<period errorminus="1.0750000e-03" errorplus="1.0750000e-03">96.386614000000</period>
+			<transittime errorminus="0.0098300" errorplus="0.0098300">2454977.8568200</transittime>
+			<semimajoraxis errorminus="3.15e-06" errorplus="3.15e-06">0.4242640</semimajoraxis>
+			<temperature errorminus="134.0" errorplus="134.0">403.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

@@ -2,17 +2,20 @@
 	<name>KOI-3194</name>
 	<rightascension>19 06 30</rightascension>
 	<declination>+50 28 16</declination>
+	<distance>437.01</distance>
 	<star>
 		<name>KOI-3194</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.2870</radius>
+		<temperature errorminus="259.00" errorplus="259.00">6531.00</temperature>
+		<radius errorminus="1.0010" errorplus="1.0010">1.5300</radius>
+		<metallicity errorminus="0.4000" errorplus="0.4000">0.0200</metallicity>
 		<planet>
 			<name>KOI-3194 b</name>
 			<name>KOI-3194 01</name>
-			<radius errorminus="0.05103" errorplus="0.05103">0.11482</radius>
-			<period errorminus="4.60000e-05" errorplus="4.60000e-05">10.813206000000</period>
-			<transittime errorminus="0.0023000" errorplus="0.0023000">2454964.6583000</transittime>
-			<semimajoraxis errorminus="2.9e-07" errorplus="2.9e-07">0.1016370</semimajoraxis>
-			<temperature errorminus="170.0" errorplus="170.0">1020.0</temperature>
+			<radius errorminus="0.06261" errorplus="0.06261">0.13023</radius>
+			<period errorminus="3.1780000e-05" errorplus="3.1780000e-05">10.813062530000</period>
+			<transittime errorminus="0.0021000" errorplus="0.0021000">2454964.6664700</transittime>
+			<semimajoraxis errorminus="2.05e-07" errorplus="2.05e-07">0.1045820</semimajoraxis>
+			<temperature errorminus="363.0" errorplus="363.0">1102.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

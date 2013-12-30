@@ -2,17 +2,20 @@
 	<name>KOI-3928</name>
 	<rightascension>19 00 35</rightascension>
 	<declination>+39 22 14</declination>
+	<distance>955.28</distance>
 	<star>
 		<name>KOI-3928</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.7320</radius>
+		<temperature errorminus="221.00" errorplus="221.00">6522.00</temperature>
+		<radius errorminus="0.4610" errorplus="0.4610">1.5280</radius>
+		<metallicity errorminus="0.3000" errorplus="0.3000">-0.5400</metallicity>
 		<planet>
 			<name>KOI-3928 b</name>
 			<name>KOI-3928 01</name>
-			<radius errorminus="0.02916" errorplus="0.02916">0.12849</radius>
-			<period errorminus="5.10000e-06" errorplus="5.10000e-06">1.138545800000</period>
-			<transittime errorminus="0.0013000" errorplus="0.0013000">2454965.4621000</transittime>
-			<semimajoraxis errorminus="7.0e-08" errorplus="7.0e-08">0.0235124</semimajoraxis>
-			<temperature errorminus="506.0" errorplus="506.0">2477.0</temperature>
+			<radius errorminus="0.04420" errorplus="0.04420">0.11501</radius>
+			<period errorminus="3.6460000e-06" errorplus="3.6460000e-06">1.138539123000</period>
+			<transittime errorminus="0.0009670" errorplus="0.0009670">2454965.4685730</transittime>
+			<semimajoraxis errorminus="4.62e-08" errorplus="4.62e-08">0.0216610</semimajoraxis>
+			<temperature errorminus="374.0" errorplus="374.0">2417.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

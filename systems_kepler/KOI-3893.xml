@@ -2,17 +2,20 @@
 	<name>KOI-3893</name>
 	<rightascension>19 00 28</rightascension>
 	<declination>+38 51 59</declination>
+	<distance>605.97</distance>
 	<star>
 		<name>KOI-3893</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.6060</radius>
+		<temperature errorminus="135.00" errorplus="135.00">4518.00</temperature>
+		<radius errorminus="0.0690" errorplus="0.0690">0.6530</radius>
+		<metallicity errorminus="0.3200" errorplus="0.3200">-0.2400</metallicity>
 		<planet>
 			<name>KOI-3893 b</name>
 			<name>KOI-3893 01</name>
-			<radius errorminus="0.04830" errorplus="0.04830">0.20413</radius>
-			<period errorminus="1.10000e-05" errorplus="1.10000e-05">3.908640000000</period>
-			<transittime errorminus="0.0014000" errorplus="0.0014000">2454966.9289000</transittime>
-			<semimajoraxis errorminus="7.8e-08" errorplus="7.8e-08">0.0417538</semimajoraxis>
-			<temperature errorminus="14.0" errorplus="14.0">762.0</temperature>
+			<radius errorminus="0.09077" errorplus="0.09077">0.17552</radius>
+			<period errorminus="6.2430000e-06" errorplus="6.2430000e-06">3.908627112000</period>
+			<transittime errorminus="0.0010300" errorplus="0.0010300">2454966.9314200</transittime>
+			<semimajoraxis errorminus="4.45e-08" errorplus="4.45e-08">0.0418140</semimajoraxis>
+			<temperature errorminus="47.8" errorplus="47.8">787.7</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

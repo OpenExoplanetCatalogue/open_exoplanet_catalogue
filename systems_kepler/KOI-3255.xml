@@ -2,17 +2,20 @@
 	<name>KOI-3255</name>
 	<rightascension>19 49 23</rightascension>
 	<declination>+44 01 36</declination>
+	<distance>305.39</distance>
 	<star>
 		<name>KOI-3255</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.5930</radius>
+		<temperature errorminus="136.00" errorplus="136.00">4427.00</temperature>
+		<radius errorminus="0.0630" errorplus="0.0630">0.6220</radius>
+		<metallicity errorminus="0.3200" errorplus="0.3200">-0.3200</metallicity>
 		<planet>
 			<name>KOI-3255 b</name>
 			<name>KOI-3255 01</name>
-			<radius errorminus="0.04921" errorplus="0.04921">0.13487</radius>
-			<period errorminus="6.60000e-04" errorplus="6.60000e-04">66.650600000000</period>
-			<transittime errorminus="0.0058000" errorplus="0.0058000">2455004.1788000</transittime>
-			<semimajoraxis errorminus="1.8e-06" errorplus="1.8e-06">0.2747490</semimajoraxis>
-			<temperature errorminus="5.0" errorplus="5.0">289.3</temperature>
+			<radius errorminus="0.02770" errorplus="0.02770">0.14754</radius>
+			<period errorminus="4.3890000e-04" errorplus="4.3890000e-04">66.651072600000</period>
+			<transittime errorminus="0.0052200" errorplus="0.0052200">2455004.1759900</transittime>
+			<semimajoraxis errorminus="1.20e-06" errorplus="1.20e-06">0.2735870</semimajoraxis>
+			<temperature errorminus="17.4" errorplus="17.4">294.5</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

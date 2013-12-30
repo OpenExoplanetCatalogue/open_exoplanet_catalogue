@@ -2,17 +2,20 @@
 	<name>KOI-4885</name>
 	<rightascension>18 53 49</rightascension>
 	<declination>+46 49 10</declination>
+	<distance>1146.78</distance>
 	<star>
 		<name>KOI-4885</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.9360</radius>
+		<temperature errorminus="175.00" errorplus="175.00">5516.00</temperature>
+		<radius errorminus="0.4120" errorplus="0.4120">1.1010</radius>
+		<metallicity errorminus="0.2600" errorplus="0.2600">0.0800</metallicity>
 		<planet>
 			<name>KOI-4885 b</name>
 			<name>KOI-4885 01</name>
-			<radius errorminus="0.17315" errorplus="0.17315">0.16403</radius>
-			<period errorminus="6.80000e-05" errorplus="6.80000e-05">9.339554000000</period>
-			<transittime errorminus="0.0043000" errorplus="0.0043000">2454971.1082000</transittime>
-			<semimajoraxis errorminus="3.9e-07" errorplus="3.9e-07">0.0813639</semimajoraxis>
-			<temperature errorminus="207.0" errorplus="207.0">815.0</temperature>
+			<radius errorminus="0.20049" errorplus="0.20049">0.15674</radius>
+			<period errorminus="4.4600000e-05" errorplus="4.4600000e-05">9.339566460000</period>
+			<transittime errorminus="0.0035300" errorplus="0.0035300">2454971.1108100</transittime>
+			<semimajoraxis errorminus="2.67e-07" errorplus="2.67e-07">0.0837735</semimajoraxis>
+			<temperature errorminus="167.0" errorplus="167.0">882.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

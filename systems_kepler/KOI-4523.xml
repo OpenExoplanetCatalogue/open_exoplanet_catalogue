@@ -2,17 +2,20 @@
 	<name>KOI-4523</name>
 	<rightascension>19 44 10</rightascension>
 	<declination>+44 48 19</declination>
+	<distance>869.58</distance>
 	<star>
 		<name>KOI-4523</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.8440</radius>
+		<temperature errorminus="163.00" errorplus="163.00">5695.00</temperature>
+		<radius errorminus="0.5060" errorplus="0.5060">0.8400</radius>
+		<metallicity errorminus="0.3200" errorplus="0.3200">-0.2000</metallicity>
 		<planet>
 			<name>KOI-4523 b</name>
 			<name>KOI-4523 01</name>
-			<radius errorminus="0.06288" errorplus="0.06288">0.07928</radius>
-			<period errorminus="9.40000e-05" errorplus="9.40000e-05">5.682294000000</period>
-			<transittime errorminus="0.0094000" errorplus="0.0094000">2454964.6804000</transittime>
-			<semimajoraxis errorminus="6.8e-07" errorplus="6.8e-07">0.0611798</semimajoraxis>
-			<temperature errorminus="196.0" errorplus="196.0">932.0</temperature>
+			<radius errorminus="0.10024" errorplus="0.10024">0.07017</radius>
+			<period errorminus="6.0270000e-05" errorplus="6.0270000e-05">5.682380960000</period>
+			<transittime errorminus="0.0078100" errorplus="0.0078100">2454964.6742900</transittime>
+			<semimajoraxis errorminus="4.27e-07" errorplus="4.27e-07">0.0603351</semimajoraxis>
+			<temperature errorminus="284.0" errorplus="284.0">937.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

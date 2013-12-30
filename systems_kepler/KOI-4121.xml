@@ -2,17 +2,20 @@
 	<name>KOI-4121</name>
 	<rightascension>19 06 18</rightascension>
 	<declination>+41 44 29</declination>
+	<distance>1070.64</distance>
 	<star>
 		<name>KOI-4121</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.7850</radius>
+		<temperature errorminus="178.00" errorplus="178.00">5462.00</temperature>
+		<radius errorminus="0.3640" errorplus="0.3640">0.7640</radius>
+		<metallicity errorminus="0.4000" errorplus="0.4000">-0.2800</metallicity>
 		<planet>
 			<name>KOI-4121 b</name>
 			<name>KOI-4121 01</name>
-			<radius errorminus="0.30984" errorplus="0.30984">0.22783</radius>
-			<period errorminus="4.40000e-03" errorplus="4.40000e-03">198.096300000000</period>
-			<transittime errorminus="0.0100000" errorplus="0.0100000">2455152.7200000</transittime>
-			<semimajoraxis errorminus="9.5e-06" errorplus="9.5e-06">0.6395300</semimajoraxis>
-			<temperature errorminus="48.0" errorplus="48.0">267.0</temperature>
+			<radius errorminus="0.04666" errorplus="0.04666">0.25270</radius>
+			<period errorminus="2.5310000e-03" errorplus="2.5310000e-03">198.088159000000</period>
+			<transittime errorminus="0.0092000" errorplus="0.0092000">2455152.7367500</transittime>
+			<semimajoraxis errorminus="5.33e-06" errorplus="5.33e-06">0.6256500</semimajoraxis>
+			<temperature errorminus="64.0" errorplus="64.0">266.3</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

@@ -2,17 +2,20 @@
 	<name>KOI-4024</name>
 	<rightascension>18 55 08</rightascension>
 	<declination>+48 01 46</declination>
+	<distance>857.68</distance>
 	<star>
 		<name>KOI-4024</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.6120</radius>
+		<temperature errorminus="193.00" errorplus="193.00">5365.00</temperature>
+		<radius errorminus="0.7000" errorplus="0.7000">1.5330</radius>
+		<metallicity errorminus="0.3400" errorplus="0.3400">-0.0600</metallicity>
 		<planet>
 			<name>KOI-4024 b</name>
 			<name>KOI-4024 01</name>
-			<radius errorminus="0.14581" errorplus="0.14581">0.24605</radius>
-			<period errorminus="4.10000e-05" errorplus="4.10000e-05">8.406839000000</period>
-			<transittime errorminus="0.0028000" errorplus="0.0028000">2454966.4292000</transittime>
-			<semimajoraxis errorminus="2.6e-07" errorplus="2.6e-07">0.0784685</semimajoraxis>
-			<temperature errorminus="49.0" errorplus="49.0">1067.0</temperature>
+			<radius errorminus="0.09113" errorplus="0.09113">0.20413</radius>
+			<period errorminus="2.3210000e-05" errorplus="2.3210000e-05">8.406903620000</period>
+			<transittime errorminus="0.0021400" errorplus="0.0021400">2454966.4280400</transittime>
+			<semimajoraxis errorminus="1.44e-07" errorplus="1.44e-07">0.0780697</semimajoraxis>
+			<temperature errorminus="242.0" errorplus="242.0">1049.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

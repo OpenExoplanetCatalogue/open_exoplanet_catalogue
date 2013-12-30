@@ -2,17 +2,20 @@
 	<name>KOI-3168</name>
 	<rightascension>19 09 15</rightascension>
 	<declination>+39 32 17</declination>
+	<distance>235.78</distance>
 	<star>
 		<name>KOI-3168</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.3410</radius>
+		<temperature errorminus="59.00" errorplus="59.00">5968.00</temperature>
+		<radius errorminus="0.0600" errorplus="0.0600">1.5900</radius>
+		<metallicity errorminus="0.3000" errorplus="0.3000">-0.2000</metallicity>
 		<planet>
 			<name>KOI-3168 b</name>
 			<name>KOI-3168 01</name>
-			<radius errorminus="0.05923" errorplus="0.05923">0.07655</radius>
-			<period errorminus="1.30000e-03" errorplus="1.30000e-03">56.346600000000</period>
-			<transittime errorminus="0.0140000" errorplus="0.0140000">2454996.3860000</transittime>
-			<semimajoraxis errorminus="4.6e-06" errorplus="4.6e-06">0.2901090</semimajoraxis>
-			<temperature errorminus="83.0" errorplus="83.0">566.0</temperature>
+			<radius errorminus="0.02606" errorplus="0.02606">0.11245</radius>
+			<period errorminus="8.1460000e-04" errorplus="8.1460000e-04">56.347954600000</period>
+			<transittime errorminus="0.0110000" errorplus="0.0110000">2454996.3777000</transittime>
+			<semimajoraxis errorminus="2.89e-06" errorplus="2.89e-06">0.2996040</semimajoraxis>
+			<temperature errorminus="12.9" errorplus="12.9">606.5</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

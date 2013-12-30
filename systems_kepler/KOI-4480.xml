@@ -2,17 +2,20 @@
 	<name>KOI-4480</name>
 	<rightascension>19 23 06</rightascension>
 	<declination>+47 38 54</declination>
+	<distance>563.60</distance>
 	<star>
 		<name>KOI-4480</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.8910</radius>
+		<temperature errorminus="201.00" errorplus="201.00">5574.00</temperature>
+		<radius errorminus="0.4780" errorplus="0.4780">0.8050</radius>
+		<metallicity errorminus="0.4000" errorplus="0.4000">-0.5000</metallicity>
 		<planet>
 			<name>KOI-4480 b</name>
 			<name>KOI-4480 01</name>
-			<radius errorminus="0.39186" errorplus="0.39186">0.17315</radius>
-			<period errorminus="5.10000e-04" errorplus="5.10000e-04">58.749350000000</period>
-			<transittime errorminus="0.0050000" errorplus="0.0050000">2455005.6461000</transittime>
-			<semimajoraxis errorminus="1.7e-06" errorplus="1.7e-06">0.2855080</semimajoraxis>
-			<temperature errorminus="81.0" errorplus="81.0">439.0</temperature>
+			<radius errorminus="0.29162" errorplus="0.29162">0.15583</radius>
+			<period errorminus="3.0430000e-04" errorplus="3.0430000e-04">58.748340400000</period>
+			<transittime errorminus="0.0041800" errorplus="0.0041800">2455005.6561800</transittime>
+			<semimajoraxis errorminus="9.31e-07" errorplus="9.31e-07">0.2695000</semimajoraxis>
+			<temperature errorminus="127.0" errorplus="127.0">425.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

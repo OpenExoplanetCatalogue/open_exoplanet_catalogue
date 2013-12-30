@@ -2,17 +2,20 @@
 	<name>KOI-3342</name>
 	<rightascension>19 56 16</rightascension>
 	<declination>+40 30 56</declination>
+	<distance>1734.58</distance>
 	<star>
 		<name>KOI-3342</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.8320</radius>
+		<temperature errorminus="255.00" errorplus="255.00">6153.00</temperature>
+		<radius errorminus="0.5300" errorplus="0.5300">0.9620</radius>
+		<metallicity errorminus="0.3200" errorplus="0.3200">-0.2200</metallicity>
 		<planet>
 			<name>KOI-3342 b</name>
 			<name>KOI-3342 01</name>
-			<radius errorminus="0.00337" errorplus="0.00337">3.00156</radius>
-			<period errorminus="1.70000e-05" errorplus="1.70000e-05">42.399304000000</period>
-			<transittime errorminus="0.0002700" errorplus="0.0002700">2454984.9612900</transittime>
-			<semimajoraxis errorminus="6.3e-08" errorplus="6.3e-08">0.2422990</semimajoraxis>
-			<temperature errorminus=".0" errorplus="0.0">482.4</temperature>
+			<radius errorminus="0.00198" errorplus="0.00198">3.40218</radius>
+			<period errorminus="5.9650000e-06" errorplus="5.9650000e-06">42.399320544000</period>
+			<transittime errorminus="0.0001250" errorplus="0.0001250">2454984.9618430</transittime>
+			<semimajoraxis errorminus="2.26e-08" errorplus="2.26e-08">0.2408350</semimajoraxis>
+			<temperature errorminus="151.0" errorplus="151.0">543.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

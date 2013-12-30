@@ -2,17 +2,20 @@
 	<name>KOI-3689</name>
 	<rightascension>19 03 53</rightascension>
 	<declination>+42 32 44</declination>
+	<distance>1170.67</distance>
 	<star>
 		<name>KOI-3689</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.3530</radius>
+		<temperature errorminus="270.00" errorplus="270.00">6429.00</temperature>
+		<radius errorminus="0.7410" errorplus="0.7410">1.3210</radius>
+		<metallicity errorminus="0.3200" errorplus="0.3200">-0.2800</metallicity>
 		<planet>
 			<name>KOI-3689 b</name>
 			<name>KOI-3689 01</name>
-			<radius errorminus="0.01640" errorplus="0.01640">1.18743</radius>
-			<period errorminus="3.30000e-06" errorplus="3.30000e-06">5.241091800000</period>
-			<transittime errorminus="0.0004600" errorplus="0.0004600">2454968.9959100</transittime>
-			<semimajoraxis errorminus="2.6e-08" errorplus="2.6e-08">0.0619218</semimajoraxis>
-			<temperature errorminus=".0" errorplus="0.0">1279.8</temperature>
+			<radius errorminus="0.00707" errorplus="0.00707">1.21640</radius>
+			<period errorminus="3.3050000e-06" errorplus="3.3050000e-06">5.241026254000</period>
+			<transittime errorminus="0.0004600" errorplus="0.0004600">2454969.0066960</transittime>
+			<semimajoraxis errorminus="2.54e-08" errorplus="2.54e-08">0.0604751</semimajoraxis>
+			<temperature errorminus="376.0" errorplus="376.0">1326.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

@@ -2,17 +2,20 @@
 	<name>KOI-3460</name>
 	<rightascension>19 49 30</rightascension>
 	<declination>+46 22 01</declination>
+	<distance>790.23</distance>
 	<star>
 		<name>KOI-3460</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.9410</radius>
+		<temperature errorminus="165.00" errorplus="165.00">5951.00</temperature>
+		<radius errorminus="0.4930" errorplus="0.4930">0.8510</radius>
+		<metallicity errorminus="0.3200" errorplus="0.3200">-0.4800</metallicity>
 		<planet>
 			<name>KOI-3460 b</name>
 			<name>KOI-3460 01</name>
-			<radius errorminus="0.03736" errorplus="0.03736">0.11665</radius>
-			<period errorminus="2.20000e-03" errorplus="2.20000e-03">62.597200000000</period>
-			<transittime errorminus="0.0160000" errorplus="0.0160000">2455019.0040000</transittime>
-			<semimajoraxis errorminus="7.3e-06" errorplus="7.3e-06">0.3122200</semimajoraxis>
-			<temperature errorminus="110.0" errorplus="110.0">460.0</temperature>
+			<radius errorminus="0.13670" errorplus="0.13670">0.11391</radius>
+			<period errorminus="1.0280000e-03" errorplus="1.0280000e-03">62.596712000000</period>
+			<transittime errorminus="0.0119000" errorplus="0.0119000">2455018.9937000</transittime>
+			<semimajoraxis errorminus="3.24e-06" errorplus="3.24e-06">0.2958130</semimajoraxis>
+			<temperature errorminus="130.0" errorplus="130.0">445.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

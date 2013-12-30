@@ -2,17 +2,20 @@
 	<name>KOI-3246</name>
 	<rightascension>19 17 41</rightascension>
 	<declination>+46 43 34</declination>
+	<distance>422.31</distance>
 	<star>
 		<name>KOI-3246</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.6510</radius>
+		<temperature errorminus="132.00" errorplus="132.00">4854.00</temperature>
+		<radius errorminus="1.4980" errorplus="1.4980">1.7490</radius>
+		<metallicity errorminus="0.4200" errorplus="0.4200">0.5600</metallicity>
 		<planet>
 			<name>KOI-3246 b</name>
 			<name>KOI-3246 01</name>
-			<radius errorminus="0.01185" errorplus="0.01185">0.07655</radius>
-			<period errorminus="3.60000e-06" errorplus="3.60000e-06">0.689977800000</period>
-			<transittime errorminus="0.0003800" errorplus="0.0003800">2454964.6301300</transittime>
-			<semimajoraxis errorminus="4.6e-08" errorplus="4.6e-08">0.0133960</semimajoraxis>
-			<temperature errorminus="410.0" errorplus="410.0">1453.0</temperature>
+			<radius errorminus="0.02369" errorplus="0.02369">0.15301</radius>
+			<period errorminus="2.1350000e-06" errorplus="2.1350000e-06">0.689982107000</period>
+			<transittime errorminus="0.0003520" errorplus="0.0003520">2454964.6273360</transittime>
+			<semimajoraxis errorminus="3.12e-08" errorplus="3.12e-08">0.0151280</semimajoraxis>
+			<temperature errorminus="988.0" errorplus="988.0">2303.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

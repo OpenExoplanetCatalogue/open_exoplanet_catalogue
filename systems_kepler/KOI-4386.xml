@@ -2,17 +2,20 @@
 	<name>KOI-4386</name>
 	<rightascension>18 59 53</rightascension>
 	<declination>+44 34 03</declination>
+	<distance>993.06</distance>
 	<star>
 		<name>KOI-4386</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.7300</radius>
+		<temperature errorminus="179.00" errorplus="179.00">5243.00</temperature>
+		<radius errorminus="0.1900" errorplus="0.1900">0.7440</radius>
+		<metallicity errorminus="0.3800" errorplus="0.3800">-0.2000</metallicity>
 		<planet>
 			<name>KOI-4386 b</name>
 			<name>KOI-4386 01</name>
-			<radius errorminus="0.21871" errorplus="0.21871">0.14581</radius>
-			<period errorminus="2.20000e-04" errorplus="2.20000e-04">18.501190000000</period>
-			<transittime errorminus="0.0072000" errorplus="0.0072000">2454982.1687000</transittime>
-			<semimajoraxis errorminus="1.0e-06" errorplus="1.0e-06">0.1288380</semimajoraxis>
-			<temperature errorminus="150.0" errorplus="150.0">551.0</temperature>
+			<radius errorminus="0.15492" errorplus="0.15492">0.15310</radius>
+			<period errorminus="1.4030000e-04" errorplus="1.4030000e-04">18.501114000000</period>
+			<transittime errorminus="0.0063000" errorplus="0.0063000">2454982.1719600</transittime>
+			<semimajoraxis errorminus="6.48e-07" errorplus="6.48e-07">0.1280990</semimajoraxis>
+			<temperature errorminus="73.7" errorplus="73.7">557.4</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>

@@ -2,17 +2,20 @@
 	<name>KOI-2590</name>
 	<rightascension>19 34 01</rightascension>
 	<declination>+50 27 00</declination>
+	<distance>492.74</distance>
 	<star>
 		<name>KOI-2590</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.7670</radius>
+		<temperature errorminus="217.00" errorplus="217.00">6440.00</temperature>
+		<radius errorminus="0.8850" errorplus="0.8850">1.6550</radius>
+		<metallicity errorminus="0.3400" errorplus="0.3400">-0.1000</metallicity>
 		<planet>
 			<name>KOI-2590 c</name>
 			<name>KOI-2590 02</name>
-			<radius errorminus="0.11847" errorplus="0.11847">0.10936</radius>
-			<period errorminus="4.40000e-04" errorplus="4.40000e-04">22.788720000000</period>
-			<transittime errorminus="0.0120000" errorplus="0.0120000">2454967.4600000</transittime>
-			<semimajoraxis errorminus="2.2e-06" errorplus="2.2e-06">0.1727170</semimajoraxis>
-			<temperature errorminus="122.0" errorplus="122.0">908.0</temperature>
+			<radius errorminus="0.03636" errorplus="0.03636">0.10717</radius>
+			<period errorminus="2.7720000e-04" errorplus="2.7720000e-04">22.791043200000</period>
+			<transittime errorminus="0.0098300" errorplus="0.0098300">2454967.4278000</transittime>
+			<semimajoraxis errorminus="1.36e-06" errorplus="1.36e-06">0.1673940</semimajoraxis>
+			<temperature errorminus="241.0" errorplus="241.0">893.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 		</planet>
