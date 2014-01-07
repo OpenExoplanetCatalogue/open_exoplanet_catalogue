@@ -27,7 +27,7 @@
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>14/01/07</lastupdate>
 			<discoveryyear>2014</discoveryyear>
-			<description>This planet has been confirmed by researchers trying to find extrasolar moons. Although no exo-moon was detected, they were able to confirm the planetary nature of the transit signal by using transit timing variations (TTV). These variations are due to planets pulling on each other gravitationally, therefore extending or shrinking the time between transits. There is another planet candidate in the system which has not been confirmd yet.</description>
+			<description>This planet has been confirmed by researchers trying to find extrasolar moons. Although no exo-moon was detected, they were able to confirm the planetary nature of the transit signal by using transit timing variations (TTV). These variations are due to planets pulling on each other gravitationally, therefore extending or shrinking the time between transits. There is another planet candidate in the system which has not been confirmed yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-314 c</name>
@@ -43,13 +43,13 @@
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>14/01/07</lastupdate>
 			<discoveryyear>2014</discoveryyear>
-			<description>This planet has been confirmed by researchers trying to find extrasolar moons. Although no exo-moon was detected, they were able to confirm the planetary nature of the transit signal by using transit timing variations (TTV). These variations are due to planets pulling on each other gravitationally, therefore extending or shrinking the time between transits. There is another planet candidate in the system which has not been confirmd yet.</description>
+			<description>This planet has been confirmed by researchers trying to find extrasolar moons. Although no exo-moon was detected, they were able to confirm the planetary nature of the transit signal by using transit timing variations (TTV). These variations are due to planets pulling on each other gravitationally, therefore extending or shrinking the time between transits. There is another planet candidate in the system which has not been confirmed yet.</description>
 		</planet>
 		<planet>
 			<name>KOI-314 d</name>
 			<name>KOI-314 03</name>
-			<radius>0.07199</radius>
-			<period errorminus="1.1000000e-04" errorplus="1.1000000e-04">10.312020000000</period>
+			<radius ep="0.062" em="0.05" unit="re">0.446</radius>
+			<period ep="0.00006" em="0.000061">10.312921</period>
 			<transittime errorminus="0.0036000" errorplus="0.0036000">2454966.5522000</transittime>
 			<semimajoraxis>0.0750000</semimajoraxis>
 			<temperature>491.0</temperature>
