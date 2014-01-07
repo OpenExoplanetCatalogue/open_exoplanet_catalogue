@@ -1,0 +1,32 @@
+<system>
+	<name>CoRoT-27</name>
+	<rightascension>18 33 59</rightascension>
+	<declination>+05 32 19</declination>
+	<star>
+		<name>CoRoT-27</name>
+		<name>2MASS 1183241962</name>
+		<mass errorminus="0.11" errorplus="0.11">1.05</mass>
+		<radius errorminus="0.06" errorplus="0.18">1.08</radius>
+		<temperature errorminus="120" errorplus="120">5900</temperature>
+		<age errorminus="2.72" errorplus="2.72">4.21</age>
+		<metallicity errorminus="0.1" errorplus="0.1">0.1</metallicity>
+		<spectraltype>G2</spectraltype>
+		<planet>
+			<name>CoRoT-27 b</name>
+			<name>2MASS 1183241962 b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.55" errorplus="0.55">10.39</mass>
+			<radius errorminus="0.044" errorplus="0.044">1.007</radius>
+			<temperature errorminus="130" errorplus="130">1500</temperature>
+			<period errorminus="0.00006" errorplus="0.00006">3.57532</period>
+			<transittime errorminus="0.001" errorplus="0.001" unit="HJD">2455748.684</transittime>
+			<semimajoraxis errorminus="0.0066" errorplus="0.0066">0.0476</semimajoraxis>
+			<eccentricity upperlimit="0.065" />
+			<inclination errorminus="-0.87" errorplus="1.2">86.7</inclination>
+			<description>CoRoT-27b is a massive and dense planet on a short period orbit. It was discovered by the European space mission CoRoT.</description>
+			<discoverymethod>transit</discoverymethod>
+			<lastupdate>14/01/07</lastupdate>
+			<discoveryyear>2014</discoveryyear>
+		</planet>
+	</star>
+</system>
