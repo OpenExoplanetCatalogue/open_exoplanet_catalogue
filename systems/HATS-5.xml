@@ -1,0 +1,31 @@
+<system>
+	<name>HATS-5</name>
+	<rightascension>04 28 53</rightascension>
+	<declination>-21 28 55</declination>
+	<distance errorminus="8" errorplus="8">257</distance>
+	<star>
+		<name>HATS-5</name>
+		<name>GSC 5897-00933</name>
+		<name>2MASS 04285348-2128548</name>
+		<mass errorminus="0.028" errorplus="0.028">0.936</mass>
+		<radius errorminus="0.023" errorplus="0.023">0.871</radius>
+		<temperature errorminus="50" errorplus="50">5304</temperature>
+		<age errorminus="1.9" errorplus="2.6">3.6</age>
+		<metallicity errorminus="0.08" errorplus="0.08">0.19</metallicity>
+		<planet>
+			<name>HATS-5</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.012" errorplus="0.012">0.237</mass>
+			<radius errorminus="0.025" errorplus="0.025">0.912</radius>
+			<temperature errorminus="17" errorplus="17">1025</temperature>
+			<transittime errorminus="0.0001" errorplus="0.0001" unit="BJD">2456273.79068</transittime>
+			<period errorminus="0.00001" errorplus="0.00001">4.763387</period>
+			<semimajoraxis errorminus="0.0006" errorplus="0.0006">0.0542</semimajoraxis>
+			<inclination errorminus="0.3" errorplus="0.3">89.3</inclination>
+			<description>HATS-5 is a transiting Hot Saturn. It was discovered by the HAT-South survey. The bright and quiet G-type host star make this planet an ideal candidate for follow-up observations.</description>
+			<discoverymethod>transit</discoverymethod>
+			<lastupdate>14/01/09</lastupdate>
+			<discoveryyear>2014</discoveryyear>
+		</planet>
+	</star>
+</system>
