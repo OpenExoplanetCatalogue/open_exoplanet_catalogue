@@ -53,7 +53,7 @@ The following table shows all the possible tags in the Open Exoplanet Catalogue.
 
 Errors
 -------------
-Uncertanties can be added to values using the following attributes of the tag. We assume that these uncertanties represent the standard error of the measurement (68.2% confidence level). However, keep in mind that it is often not possible to collapse an entire posterior distribution to a single number.
+Uncertainties can be added to values using the following attributes of the tag. We assume that these uncertainties represent the standard error of the measurement (68.2% confidence level). However, keep in mind that it is often not possible to collapse an entire posterior distribution to a single number.
 
 The syntax for error bars is: `<mass errorminus="0.1" errorplus="0.1">1.0</mass>`
 
