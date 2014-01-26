@@ -2,27 +2,42 @@
 	<name>HD 154857</name>
 	<rightascension>17 11 15</rightascension>
 	<declination>-56 40 50</declination>
-	<distance>68.5</distance>
+	<distance errorminus="3.1" errorplus="3.1">64.2</distance>
 	<star>
-		<mass>1.17</mass>
-		<radius>2.42</radius>
+		<name>HD 154857</name>
+		<mass errorminus="0.022" errorplus="0.03">1.718</mass>
+		<radius errorminus="0.1" errorplus="0.17">2.31</radius>
 		<magV>7.25</magV>
 		<magB errorminus="0.01" errorplus="0.01">7.93</magB>
-		<metallicity>-0.22</metallicity>
+		<metallicity>-0.31</metallicity>
 		<spectraltype>G5V</spectraltype>
+		<temperature>5508</temperature>
 		<planet>
 			<name>HD 154857 b</name>
 			<list>Confirmed planets</list>
-			<mass>1.8</mass>
-			<period>409</period>
-			<semimajoraxis>1.2</semimajoraxis>
-			<eccentricity>0.47</eccentricity>
+			<mass errorminus="0.05" errorplus="0.05">2.24</mass>
+			<period errorminus="0.5" errorplus="0.5">408.6</period>
+			<semimajoraxis errorminus="0.008" errorplus="0.008">1.291</semimajoraxis>
+			<eccentricity errorminus="0.02" errorplus="0.02">0.46</eccentricity>
+			<periastron errorminus="4" errorplus="4">57</periastron>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>07/02/09</lastupdate>
+			<lastupdate>14/01/25</lastupdate>
 			<discoveryyear>2004</discoveryyear>
 			<temperature>336.0</temperature>
+			<description>HD 114613 b is a Jupiter-mass planet in a multiplanery system. A stability analysis shows that the system is stable for at least 100 million years. The planet was discovered by the Anglo-Australian Planet Search group.</description>
 		</planet>
-		<name>HD 154857</name>
-		<temperature>5445.0</temperature>
+		<planet>
+			<name>HD 154857 c</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.16" errorplus="0.16">2.58</mass>
+			<period errorminus="105" errorplus="105">3452</period>
+			<eccentricity errorminus="0.05" errorplus="0.05">0.06</eccentricity>
+			<periastron errorminus="37" errorplus="37">352</periastron>
+			<semimajoraxis errorminus="0.09" errorplus="0.09">5.36</semimajoraxis>
+			<discoverymethod>RV</discoverymethod>
+			<lastupdate>14/01/25</lastupdate>
+			<discoveryyear>2014</discoveryyear>
+			<description>HD 154857 c is a Jupiter analogue with a period of 9.5 years. The planet is part of a multi-planetary system and was discovered by the Anglo-Australian Planet Search group.</description>
+		</planet>
 	</star>
 </system>
