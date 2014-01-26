@@ -57,7 +57,7 @@ Uncertainties can be added to values using the following attributes of the tag. 
 
 The syntax for error bars is: `<mass errorminus="0.1" errorplus="0.1">1.0</mass>`
 
-For syntax for upper/lower limits is: `<mass upperlimit="1.0" />`
+The syntax for upper/lower limits is: `<mass upperlimit="1.0" />`
 
 Constants
 -------------
