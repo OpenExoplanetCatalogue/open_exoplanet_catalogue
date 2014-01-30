@@ -16,6 +16,7 @@
 		<magK errorminus="0.028" errorplus="0.028">10.608</magK>
 		<metallicity>0.001</metallicity>
 		<spectraltype>K0V</spectraltype>
+		<temperature errorminus="150" errorplus="150">5720</temperature>
 		<planet>
 			<name>TrES-3 b</name>
 			<name>2MASS J17520702+3732461</name>
@@ -23,9 +24,9 @@
 			<mass>1.91</mass>
 			<radius>1.305</radius>
 			<period>1.30618608</period>
-			<semimajoraxis>0.0226</semimajoraxis>
+			<semimajoraxis errorminus="0.0013" errorplus="0.0013">0.0226</semimajoraxis>
 			<eccentricity>0.0</eccentricity>
-			<inclination>82.15</inclination>
+			<inclination errorminus="0.21" errorplus="0.21">82.15</inclination>
 			<transittime errorminus="0.00018" errorplus="0.00018" unit="BJD">2455358.86636</transittime>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>10/12/13</lastupdate>
