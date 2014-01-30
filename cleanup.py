@@ -4,6 +4,7 @@ import glob
 import os
 import hashlib
 import sys
+import datetime
 
 # Calculate md5 hash to check for changes in file.
 def md5_for_file(f, block_size=2**20):
@@ -152,6 +153,16 @@ for filename in glob.glob("systems*/*.xml"):
         convertunit(radius, 0.091130294)
     for angle in root.findall(".//*[@unit='rad']"):
         convertunit(angle, 57.2957795130823)
+    
+    # Check lastupdate tag for correctness
+    for lastupdate in root.findall(".//planet/lastupdate"):
+        la = lastupdate.text.split("/")
+        if len(la)!=3 or len(lastupdate.text)!=8:
+            print "Date format not following 'yy/mm/dd' convention: " + filename
+            issues += 1
+        if int(la[0])+2000-datetime.date.today().year>0 or int(la[1])>12 or int(la[2])>31:
+            print "Date not valid: " + filename
+            issues += 1
 
     # Check that names follow conventions
     if not root.findtext("./name") + ".xml" == os.path.basename(filename):
