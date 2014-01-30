@@ -1,0 +1,42 @@
+<system>
+	<name>Kepler-412</name>
+	<rightascension>19 04 26</rightascension>
+	<declination>+43 40 51</declination>
+	<distance errorminus="36" errorplus="36">1056</distance>
+	<star>
+		<name>Kepler-412</name>
+		<name>KOI-202</name>
+		<name>2MASS 19042647+4340514 b</name>
+		<magB errorminus="0.33" errorplus="0.33">14.41</magB>
+		<magV errorminus="0.24" errorplus="0.24">13.73</magV>
+		<magR errorminus="0.11" errorplus="0.11">14.67</magR>
+		<magI errorminus="0.43" errorplus="0.43">12.79</magI>
+		<magJ errorminus="0.027" errorplus="0.027">13.190</magJ>
+		<magH errorminus="0.03" errorplus="0.03">12.93</magH>
+		<magK errorminus="0.03" errorplus="0.03">12.84</magK>
+		<temperature errorminus="9-" errorplus="9-">5750</temperature>
+		<metallicity errorminus="0.12" errorplus="0.12">0.27</metallicity>
+		<spectraltype>G3V</spectraltype>
+		<mass errorminus="0.091" errorplus="0.091">1.167</mass>
+		<radius errorminus="0.035" errorplus="0.035">1.287</radius>
+		<age errorminus="1.7" errorplus="1.7">5.1</age>
+		<planet>
+			<name>Kepler-412 b</name>
+			<name>KOI-202 b</name>
+			<name>2MASS 19042647+4340514 b</name>
+			<mass errorminus="0.085" errorplus="0.085">0.939</mass>
+			<radius errorminus="0.043" errorplus="0.043">1.325</radius>
+			<period errorminus="0.000000047" errorplus="0.000000047">1.720861232</period>
+			<transittime errorminus="0.000023" errorplus="0.000023" unit="BJD">2454966.021033</transittime>
+			<eccentricity errorminus="0.0032" errorplus="0.0087">0.0038</eccentricity>
+			<periastron errorminus="49" errorplus="150">125</periastron>
+			<inclination errorminus="0.2" errorplus="0.2">80.89</inclination>
+			<semimajoraxis errorminus="0.00078" errorplus="0.00078">0.02959</semimajoraxis>
+			<list>Confirmed planetst</list>
+			<discoverymethod>transit</discoverymethod>
+			<lastupdate>14/01/29</lastupdate>
+			<discoveryyear>2014</discoveryyear>
+			<description>Kepler-413 b is an inflated Hot Jupiter. The transiting object was confirmed to be of planetary nature using SOPHIE velocimetry. Secondary eclipse observations suggest that the planet has a dayside temperature of 2380 K and a nightside temperature of 2154 K. The system is 5.1 Gyrs old.</description>
+		</planet>
+	</star>
+</system>
