@@ -12,7 +12,7 @@
 		<magJ errorminus="0.018" errorplus="0.018">9.328</magJ>
 		<magH errorminus="0.017" errorplus="0.017">9.058</magH>
 		<magK errorminus="0.017" errorplus="0.017">8.975</magK>
-		<metallicity>0.43</metallicity>
+		<metallicity errorminus="0.08" errorplus="0.08">0.41</metallicity>
 		<spectraltype>G4</spectraltype>
 		<planet>
 			<name>HAT-P-13 b</name>
@@ -44,7 +44,7 @@
 			<transittime errorminus="1.8" errorplus="1.8" unit="BJD">2454870.4</transittime>
 			<description>The star HAT-P-13 is located in the constalltion Ursa Major and hosts at least two extrasolar planets. Only the inner planet is transiting. There might be an unconfirmed third planet in the system.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>13/05/29</lastupdate>
+			<lastupdate>14/02/02</lastupdate>
 			<discoveryyear>2009</discoveryyear>
 			<temperature>276.2</temperature>
 		</planet>
