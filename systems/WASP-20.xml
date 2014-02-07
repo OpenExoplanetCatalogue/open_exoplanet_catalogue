@@ -1,18 +1,36 @@
 <system>
 	<name>WASP-20</name>
+	<rightascension>00 20 39</rightascension>
+	<declination>-23 56 08</declination>
+	<distance errorminus="20" errorplus="20">210</distance>
 	<star>
+		<name>WASP-20</name>
+		<name>CD-24 102</name>
+		<name>2MASS J00203853-2356086</name>
+		<spectraltype>F9</spectraltype>
+		<age errorminus="1" errorplus="2">7</age>
+		<temperature errorminus="100" errorplus="100">5950</temperature>
+		<metallicity errorminus="0.061" errorplus="0.061">-0.009</metallicity>
+		<mass errorminus="0.04" errorplus="0.04">1.202</mass>
+		<radius errorminus="0.044" errorplus="0.044">1.392</radius>
 		<planet>
 			<name>WASP-20 b</name>
+			<name>CD-24 102 b</name>
+			<name>2MASS J00203853-2356086 b</name>
 			<list>Confirmed planets</list>
-			<mass>0.3</mass>
-			<radius>0.9</radius>
-			<period>4</period>
-			<description>This planet has been announced at the Extreme Solar Systems II conference in Jackson Hole by the WASP team.</description>
+			<mass errorminus="0.018" errorplus="0.018">0.313</mass>
+			<radius errorminus="0.057" errorplus="0.057">1.458</radius>
+			<semimajoraxis errorminus="0.00067" errorplus="0.00067">0.06003</semimajoraxis>
+			<period errorminus="0.0000034" errorplus="0.0000034">4.8996285</period>
+			<transittime errorminus="0.00028" errorplus="0.00028" unit="BJD">2455715.65562</transittime>
+			<inclination errorminus="0.22" errorplus="0.22">85.57</inclination>
+			<eccentricity>0</eccentricity>
+			<rossitermclaughlin errorminus="3.6" errorplus="3.6">8.1</rossitermclaughlin>
+			<temperature errorminus="32" errorplus="32">1379</temperature>
+			<description>This planet has been announced in 2011 at the Extreme Solar Systems II conference in Jackson Hole by the WASP team. The scientific paper describing the discovery was published on the arXiv in 2014. The planet was discovered via the transit method and confirmed using radial velocity measurements.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>11/09/13</lastupdate>
+			<lastupdate>14/02/07</lastupdate>
 			<discoveryyear>2011</discoveryyear>
 		</planet>
-		<name>WASP-20</name>
-		<temperature>5700.0</temperature>
 	</star>
 </system>
