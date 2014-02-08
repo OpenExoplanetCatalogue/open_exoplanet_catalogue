@@ -6,6 +6,13 @@ import hashlib
 import sys
 import datetime
 
+# Variables to keep track of progress
+fileschecked = 0
+issues = 0
+xmlerrors = 0
+fileschanged = 0
+
+
 # Calculate md5 hash to check for changes in file.
 def md5_for_file(f, block_size=2**20):
     md5 = hashlib.md5()
@@ -107,10 +114,21 @@ def convertunit(elem, factor):
     convertunitattrib(elem,"upperlimit",factor)
     convertunitattrib(elem,"lowerlimit",factor)
 
-fileschecked = 0
-issues = 0
-xmlerrors = 0
-fileschanged = 0
+# Check if binary planets have been added to corresponding list
+def checkForBinaryPlanet(root,criteria,liststring):
+    global fileschanged
+    planets = root.findall(criteria)
+    for planet in planets:
+        plists = planet.findall(".//list")
+        inthere = 0
+        for plist in plists:
+            if plist.text == liststring:
+                inthere = 1
+        if inthere == 0:
+            ET.SubElement(planet,"list").text = liststring
+            print "Added '"+filename+"' to list '"+liststring+"'."
+	    fileschanged += 1
+
 
 # Loop over all files and  create new data
 for filename in glob.glob("systems*/*.xml"):
@@ -196,7 +214,9 @@ for filename in glob.glob("systems*/*.xml"):
                 else:
                     uniquetags.append(child.tag)
 	
-
+    # Check binary planet lists
+    checkForBinaryPlanet(root,".//binary/planet","Planets in binary systems, P-type")
+    checkForBinaryPlanet(root,".//binary/star/planet","Planets in binary systems, S-type")
 
     # Cleanup XML
     removeemptytags(root)
