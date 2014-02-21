@@ -223,7 +223,7 @@ for filename in glob.glob("systems*/*.xml"):
     indent(root)
 
     # Write XML to file.
-    ET.ElementTree(root).write(filename)
+    ET.ElementTree(root).write(filename,encoding="UTF-8",xml_declaration=False)
     
     # Check for new md5
     f = open(filename, 'rt')
