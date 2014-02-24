@@ -1,0 +1,43 @@
+<system>
+	<name>Kepler-97</name>
+	<name>KOI-292</name>
+	<name>KIC 11075737</name>
+	<rightascension>19 09 18</rightascension>
+	<declination>+48 40 24</declination>
+	<distance>414.4</distance>
+	<star>
+		<name>Kepler-97</name>
+		<name>KOI-292</name>
+		<name>KIC 11075737</name>
+		<temperature errorminus="74" errorplus="74">5779</temperature>
+		<metallicity errorminus="0.07" errorplus="0.07">-0.20</metallicity>
+		<mass errorminus="0.06" errorplus="0.06">0.94</mass>
+		<radius errorminus="0.09" errorplus="0.09">0.98</radius>
+		<age>8.42</age>
+		<planet>
+			<name>Kepler-97 b</name>
+			<name>KOI-292.01</name>
+			<name>KIC 11075737 b</name>
+			<period>2.58664</period>
+			<radius errorminus="0.011847" errorplus="0.011847">0.134873</radius>
+			<mass upperlimit="0.028626" />
+			<list>Confirmed planets</list>
+			<description>This planet has been discovered by the Kepler spacecraft. It was confirmed using a combination of high resolution imaging and spectroscopy and Doppler spectroscopy. This analysis pushes the false probability below 1 percent and puts contraints on the planet's size and mass.</description>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/24</lastupdate>
+			<discoverymethod>transit</discoverymethod>
+		</planet>
+		<planet>
+			<name>Kepler-97 c</name>
+			<name>KOI-292.10</name>
+			<name>KIC 11075737 c</name>
+			<period lowerlimit="789" />
+			<list>Confirmed planets</list>
+			<mass lowerlimit="1.082121" />
+			<description>This planet has been discovered during a radial velocity follow up of stars observed by Kepler which host planet candidates. Although other planets in this system are transiting, this one is not.</description>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/24</lastupdate>
+			<discoverymethod>RV</discoverymethod>
+		</planet>
+	</star>
+</system>

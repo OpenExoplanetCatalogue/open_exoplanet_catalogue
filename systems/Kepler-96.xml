@@ -1,0 +1,31 @@
+<system>
+	<name>Kepler-96</name>
+	<name>KOI-261</name>
+	<name>KIC 5383248</name>
+	<rightascension>19 48 17</rightascension>
+	<declination>+40 31 30</declination>
+	<distance>128.0</distance>
+	<star>
+		<name>Kepler-96</name>
+		<name>KOI-261</name>
+		<name>KIC 5383248</name>
+		<temperature errorminus="73" errorplus="73">5690</temperature>
+		<metallicity errorminus="0.07" errorplus="0.07">0.04</metallicity>
+		<mass errorminus="0.06" errorplus="0.06">1.00</mass>
+		<radius errorminus="0.09" errorplus="0.09">1.02</radius>
+		<age>2.34</age>
+		<planet>
+			<name>Kepler-96 b</name>
+			<name>KOI-261.01</name>
+			<name>KIC 5383248 b</name>
+			<period>16.2385</period>
+			<radius errorminus="0.020049" errorplus="0.020049">0.243318</radius>
+			<mass upperlimit="0.037748" />
+			<list>Confirmed planets</list>
+			<description>This planet has been discovered by the Kepler spacecraft. It was confirmed using a combination of high resolution imaging and spectroscopy and Doppler spectroscopy. This analysis pushes the false probability below 1 percent and puts contraints on the planet's size and mass.</description>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/24</lastupdate>
+			<discoverymethod>transit</discoverymethod>
+		</planet>
+	</star>
+</system>

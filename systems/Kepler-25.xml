@@ -14,6 +14,7 @@
 		<magH errorminus="0.020" errorplus="0.020">9.532</magH>
 		<magK errorminus="0.017" errorplus="0.017">9.493</magK>
 		<spectraltype>F</spectraltype>
+		<temperature>6190.0</temperature>
 		<planet>
 			<name>Kepler-25 b</name>
 			<name>KIC 3231341 b</name>
@@ -44,6 +45,17 @@
 			<discoveryyear>2012</discoveryyear>
 			<temperature>959.7</temperature>
 		</planet>
-		<temperature>6190.0</temperature>
+		<planet>
+			<name>Kepler-25 d</name>
+			<name>KOI-244.10</name>
+			<name>KIC 4349452 d</name>
+			<period errorminus="2" errorplus="2">123</period>
+			<mass errorminus="0.043096" errorplus="0.043096">0.282798</mass>
+			<list>Confirmed planets</list>
+			<description>This planet has been discovered during a radial velocity follow up of stars observed by Kepler which host planet candidates. Although other planets in this system are transiting, this one is not.</description>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/24</lastupdate>
+			<discoverymethod>RV</discoverymethod>
+		</planet>
 	</star>
 </system>

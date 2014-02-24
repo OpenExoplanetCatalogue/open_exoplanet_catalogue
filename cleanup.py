@@ -133,7 +133,7 @@ def checkForBinaryPlanet(root,criteria,liststring):
 
 
 # Loop over all files and  create new data
-for filename in glob.glob("systems_marcy/*.xml"):
+for filename in glob.glob("systems*/*.xml"):
     fileschecked += 1
 
     # Save md5 for later

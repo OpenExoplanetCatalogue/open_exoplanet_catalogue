@@ -1,0 +1,44 @@
+<system>
+	<name>Kepler-103</name>
+	<name>KOI-108</name>
+	<name>KIC 4914423</name>
+	<rightascension>19 15 56</rightascension>
+	<declination>+40 03 52</declination>
+	<distance>476.8</distance>
+	<star>
+		<name>Kepler-103</name>
+		<name>KOI-108</name>
+		<name>KIC 4914423</name>
+		<temperature errorminus="88" errorplus="88">5845</temperature>
+		<metallicity errorminus="0.11" errorplus="0.11">0.07</metallicity>
+		<mass errorminus="0.07" errorplus="0.07">1.09</mass>
+		<radius errorminus="0.04" errorplus="0.04">1.44</radius>
+		<age>5.70</age>
+		<planet>
+			<name>Kepler-103 b</name>
+			<name>KOI-108.01</name>
+			<name>KIC 4914423 b</name>
+			<period>15.9654</period>
+			<radius errorminus="0.008202" errorplus="0.008202">0.307109</radius>
+			<mass upperlimit="0.094371" />
+			<list>Confirmed planets</list>
+			<description>This planet has been discovered by the Kepler spacecraft. It was confirmed using a combination of high resolution imaging and spectroscopy and Doppler spectroscopy. This analysis pushes the false probability below 1 percent and puts contraints on the planet's size and mass.</description>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/24</lastupdate>
+			<discoverymethod>transit</discoverymethod>
+		</planet>
+		<planet>
+			<name>Kepler-103 c</name>
+			<name>KOI-108.02</name>
+			<name>KIC 4914423 c</name>
+			<period>179.612</period>
+			<radius errorminus="0.012758" errorplus="0.012758">0.468410</radius>
+			<mass upperlimit="0.298842" />
+			<list>Confirmed planets</list>
+			<description>This planet has been discovered by the Kepler spacecraft. It was confirmed using a combination of high resolution imaging and spectroscopy and Doppler spectroscopy. This analysis pushes the false probability below 1 percent and puts contraints on the planet's size and mass.</description>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/24</lastupdate>
+			<discoverymethod>transit</discoverymethod>
+		</planet>
+	</star>
+</system>

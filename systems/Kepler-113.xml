@@ -1,0 +1,44 @@
+<system>
+	<name>Kepler-113</name>
+	<name>KOI-153</name>
+	<name>KIC 12252424</name>
+	<rightascension>19 11 59</rightascension>
+	<declination>+50 56 39</declination>
+	<distance>255.9</distance>
+	<star>
+		<name>Kepler-113</name>
+		<name>KOI-153</name>
+		<name>KIC 12252424</name>
+		<temperature errorminus="74" errorplus="74">4725</temperature>
+		<metallicity errorminus="0.07" errorplus="0.07">0.05</metallicity>
+		<mass errorminus="0.06" errorplus="0.06">0.75</mass>
+		<radius errorminus="0.02" errorplus="0.02">0.69</radius>
+		<age>6.89</age>
+		<planet>
+			<name>Kepler-113 c</name>
+			<name>KOI-153.01</name>
+			<name>KIC 12252424 c</name>
+			<period>8.92507</period>
+			<radius errorminus="0.005468" errorplus="0.005468">0.198664</radius>
+			<mass upperlimit="0.027368" />
+			<list>Confirmed planets</list>
+			<description>This planet has been discovered by the Kepler spacecraft. It was confirmed using a combination of high resolution imaging and spectroscopy and Doppler spectroscopy. This analysis pushes the false probability below 1 percent and puts contraints on the planet's size and mass.</description>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/24</lastupdate>
+			<discoverymethod>transit</discoverymethod>
+		</planet>
+		<planet>
+			<name>Kepler-113 b</name>
+			<name>KOI-153.02</name>
+			<name>KIC 12252424 b</name>
+			<period>4.75400</period>
+			<radius errorminus="0.004557" errorplus="0.004557">0.165857</radius>
+			<mass upperlimit="0.062914" />
+			<list>Confirmed planets</list>
+			<description>This planet has been discovered by the Kepler spacecraft. It was confirmed using a combination of high resolution imaging and spectroscopy and Doppler spectroscopy. This analysis pushes the false probability below 1 percent and puts contraints on the planet's size and mass.</description>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/24</lastupdate>
+			<discoverymethod>transit</discoverymethod>
+		</planet>
+	</star>
+</system>

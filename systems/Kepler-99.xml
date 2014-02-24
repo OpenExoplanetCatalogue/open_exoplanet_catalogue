@@ -1,0 +1,31 @@
+<system>
+	<name>Kepler-99</name>
+	<name>KOI-305</name>
+	<name>KIC 6063220</name>
+	<rightascension>19 49 25</rightascension>
+	<declination>+41 18 0</declination>
+	<distance>221.3</distance>
+	<star>
+		<name>Kepler-99</name>
+		<name>KOI-305</name>
+		<name>KIC 6063220</name>
+		<temperature errorminus="129" errorplus="129">4782</temperature>
+		<metallicity errorminus="0.07" errorplus="0.07">0.18</metallicity>
+		<mass errorminus="0.06" errorplus="0.06">0.79</mass>
+		<radius errorminus="0.04" errorplus="0.04">0.73</radius>
+		<age>1.47</age>
+		<planet>
+			<name>Kepler-99 b</name>
+			<name>KOI-305.01</name>
+			<name>KIC 6063220 b</name>
+			<period>4.60358</period>
+			<radius errorminus="0.007290" errorplus="0.007290">0.134873</radius>
+			<mass upperlimit="0.030513" />
+			<list>Confirmed planets</list>
+			<description>This planet has been discovered by the Kepler spacecraft. It was confirmed using a combination of high resolution imaging and spectroscopy and Doppler spectroscopy. This analysis pushes the false probability below 1 percent and puts contraints on the planet's size and mass.</description>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/24</lastupdate>
+			<discoverymethod>transit</discoverymethod>
+		</planet>
+	</star>
+</system>

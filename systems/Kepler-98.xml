@@ -1,0 +1,31 @@
+<system>
+	<name>Kepler-98</name>
+	<name>KOI-299</name>
+	<name>KIC 2692377</name>
+	<rightascension>19 02 39</rightascension>
+	<declination>+37 57 52</declination>
+	<distance>437.2</distance>
+	<star>
+		<name>Kepler-98</name>
+		<name>KOI-299</name>
+		<name>KIC 2692377</name>
+		<temperature errorminus="73" errorplus="73">5539</temperature>
+		<metallicity errorminus="0.07" errorplus="0.07">0.18</metallicity>
+		<mass errorminus="0.06" errorplus="0.06">0.99</mass>
+		<radius errorminus="0.12" errorplus="0.12">1.11</radius>
+		<age>2.79</age>
+		<planet>
+			<name>Kepler-98 b</name>
+			<name>KOI-299.01</name>
+			<name>KIC 2692377 b</name>
+			<period>1.54168</period>
+			<radius errorminus="0.020049" errorplus="0.020049">0.181349</radius>
+			<mass upperlimit="0.020132" />
+			<list>Confirmed planets</list>
+			<description>This planet has been discovered by the Kepler spacecraft. It was confirmed using a combination of high resolution imaging and spectroscopy and Doppler spectroscopy. This analysis pushes the false probability below 1 percent and puts contraints on the planet's size and mass.</description>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/24</lastupdate>
+			<discoverymethod>transit</discoverymethod>
+		</planet>
+	</star>
+</system>

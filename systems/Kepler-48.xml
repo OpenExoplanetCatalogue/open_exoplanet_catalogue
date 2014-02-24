@@ -4,6 +4,8 @@
 	<declination>+40 56 56</declination>
 	<distance>313.14</distance>
 	<star>
+		<name>Kepler-48</name>
+		<temperature>5190.0</temperature>
 		<magJ errorminus="0.024" errorplus="0.024">11.702</magJ>
 		<magH errorminus="0.026" errorplus="0.026">11.292</magH>
 		<magK errorminus="0.023" errorplus="0.023">11.221</magK>
@@ -37,7 +39,30 @@
 			<lastupdate>12/08/19</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 		</planet>
-		<name>Kepler-48</name>
-		<temperature>5190.0</temperature>
+		<planet>
+			<name>Kepler-48 d</name>
+			<name>KOI-148.03</name>
+			<name>KIC 5735762 d</name>
+			<period>42.8961</period>
+			<radius errorminus="0.010024" errorplus="0.010024">0.185906</radius>
+			<mass upperlimit="0.078643" />
+			<list>Confirmed planets</list>
+			<description>This planet has been discovered by the Kepler spacecraft. It was confirmed using a combination of high resolution imaging and spectroscopy and Doppler spectroscopy. This analysis pushes the false probability below 1 percent and puts contraints on the planet's size and mass.</description>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/24</lastupdate>
+			<discoverymethod>transit</discoverymethod>
+		</planet>
+		<planet>
+			<name>Kepler-48 e</name>
+			<name>KOI-148.10</name>
+			<name>KIC 5735762 e</name>
+			<period errorminus="8" errorplus="8">982</period>
+			<mass errorminus="0.078643" errorplus="0.078643">2.066725</mass>
+			<list>Confirmed planets</list>
+			<description>This planet has been discovered during a radial velocity follow up of stars observed by Kepler which host planet candidates. Although other planets in this system are transiting, this one is not.</description>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/24</lastupdate>
+			<discoverymethod>RV</discoverymethod>
+		</planet>
 	</star>
 </system>
