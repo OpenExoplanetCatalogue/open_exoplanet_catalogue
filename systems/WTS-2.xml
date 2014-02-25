@@ -1,0 +1,36 @@
+<system>
+	<name>WTS-2</name>
+	<rightascension>19 34 56</rightascension>
+	<declination>+36 48 56</declination>
+	<distance>1000</distance>
+	<star>
+		<name>WTS-2</name>
+		<name>2MASS 19345587+3648557</name>
+		<name>SDSS J193455.87+364855.6</name>
+		<name>WISE J193455.86+364855.6</name>
+		<name>KIC 1173581</name>
+		<mass errorminus="0.082" errorplus="0.082">0.82</mass>
+		<radius errorminus="0.032" errorplus="0.032">0.752</radius>
+		<temperature errorminus="250" errorplus="250">5000</temperature>
+		<age lowerlimit="0.6" />
+		<metallicity errorminus="0.2" errorplus="0.3">0.2</metallicity>
+		<spectraltype>K2V</spectraltype>
+		<planet>
+			<name>WTS-2</name>
+			<name>2MASS 19345587+3648557 b</name>
+			<name>SDSS J193455.87+364855.6 b</name>
+			<name>WISE J193455.86+364855.6 b</name>
+			<name>KIC 1173581 b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.016" errorplus="0.016">1.12</mass>
+			<radius errorminus="0.061" errorplus="0.061">1.363</radius>
+			<temperature errorminus="100" errorplus="100">2000</temperature>
+			<period errorminus="0.00000065" errorplus="0.00000065">1.0187068</period>
+			<semimajoraxis errorminus="0.00062" errorplus="0.00062">0.01855</semimajoraxis>
+			<inclination errorminus="0.53" errorplus="0.53">83.55</inclination>
+			<discoverymethod>RV</discoverymethod>
+			<lastupdate>14/02/25</lastupdate>
+			<discoveryyear>2014</discoveryyear>
+		</planet>
+	</star>
+</system>
