@@ -3,6 +3,8 @@
 	<rightascension>19 52 19</rightascension>
 	<declination>+44 44 47</declination>
 	<star>
+		<name>Kepler-18</name>
+		<temperature>5383.0</temperature>
 		<mass>0.972</mass>
 		<radius>1.108</radius>
 		<magV>14</magV>
@@ -13,6 +15,8 @@
 		<metallicity>0.2</metallicity>
 		<planet>
 			<name>Kepler-18 b</name>
+			<name>KOI-137 b</name>
+			<name>KOI-137.03</name>
 			<name>GSC 03149-02089 b</name>
 			<name>KIC 8644288 b</name>
 			<name>2MASS J19521906+4444467 b</name>
@@ -31,6 +35,8 @@
 		</planet>
 		<planet>
 			<name>Kepler-18 c</name>
+			<name>KOI-137 c</name>
+			<name>KOI-137.01</name>
 			<name>GSC 03149-02089 c</name>
 			<name>KIC 8644288 c</name>
 			<name>2MASS J19521906+4444467 c</name>
@@ -49,6 +55,10 @@
 		</planet>
 		<planet>
 			<name>Kepler-18 d</name>
+			<name>KOI-137 d</name>
+			<name>KOI-137.02</name>
+			<name>KIC 8644288 d</name>
+			<name>KIC 8644288.02</name>
 			<list>Confirmed planets</list>
 			<mass>0.052</mass>
 			<radius>0.62</radius>
@@ -62,7 +72,5 @@
 			<discoveryyear>2011</discoveryyear>
 			<temperature>729.8</temperature>
 		</planet>
-		<name>Kepler-18</name>
-		<temperature>5383.0</temperature>
 	</star>
 </system>

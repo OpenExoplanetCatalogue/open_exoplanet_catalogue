@@ -1,43 +1,64 @@
 <system>
 	<name>Kepler-52</name>
-	<rightascension>19 06 57</rightascension>
+	<name>KOI-775</name>
+	<name>KIC 11754553</name>
+	<rightascension>01 16 27</rightascension>
 	<declination>+49 58 32</declination>
-	<distance>290.58</distance>
+	<distance>356.41</distance>
 	<star>
-		<magJ errorminus="0.025" errorplus="0.025">13.153</magJ>
-		<magH errorminus="0.03" errorplus="0.03">12.51</magH>
-		<magK errorminus="0.027" errorplus="0.027">12.360</magK>
-		<mass>0.54</mass>
-		<radius>0.52</radius>
-		<planet>
-			<name>Kepler-52 b</name>
-			<name>KOI 775.02</name>
-			<name>KID 11754553</name>
-			<list>Confirmed planets</list>
-			<mass>0.014504</mass>
-			<radius>0.191374</radius>
-			<period>7.8773565</period>
-			<transittime errorminus="0.0015" errorplus="0.0015" unit="BJD">2455109.37692</transittime>
-			<description>This planet candidate was discovered by the Kepler spacecraft. It transits its host star every 7.88 days for 2.4223 hours. Periodic transit timing variations confirm its planetary nature.</description>
-			<discoverymethod>transit</discoverymethod>
-			<lastupdate>12/08/19</lastupdate>
-			<discoveryyear>2012</discoveryyear>
-		</planet>
+		<name>Kepler-52</name>
+		<name>KOI-775</name>
+		<name>KIC 11754553</name>
+		<temperature errorminus="00" errorplus="100">4263</temperature>
+		<radius errorminus=".021" errorplus="0.021">0.556</radius>
+		<mass errorminus="0.0140" errorplus="0.0140">0.5770</mass>
 		<planet>
 			<name>Kepler-52 c</name>
-			<name>KOI 775.01</name>
-			<name>KID 11754553</name>
+			<name>KOI-775 c</name>
+			<name>KOI-775.01</name>
+			<name>KIC 11754553 c</name>
+			<name>KIC 11754553.01</name>
+			<radius errorminus="0.00729" errorplus="0.00729">0.15583</radius>
+			<period errorminus=".000080" errorplus="0.000080">16.384888</period>
+			<transittime errorminus="0.0028300" errorplus="0.0028300">2455005.7279400</transittime>
 			<list>Confirmed planets</list>
-			<mass>0.011047</mass>
-			<radius>0.167680</radius>
-			<period>16.3850021</period>
-			<transittime errorminus="0.0027" errorplus="0.0027" unit="BJD">2455105.72549</transittime>
-			<description>This planet candidate was discovered by the Kepler spacecraft. It transits its host star every 16.39 days for 3.1252 hours. Periodic transit timing variations confirm its planetary nature.</description>
+			<description>Kepler-52 c has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-52 c are still unknown, the object is highly unlikely to be a false positive.</description>
+			<new>1</new>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/26</lastupdate>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>12/08/19</lastupdate>
-			<discoveryyear>2012</discoveryyear>
 		</planet>
-		<name>Kepler-52</name>
-		<temperature>4075.0</temperature>
+		<planet>
+			<name>Kepler-52 b</name>
+			<name>KOI-775 b</name>
+			<name>KOI-775.02</name>
+			<name>KIC 11754553 b</name>
+			<name>KIC 11754553.02</name>
+			<radius errorminus="0.02005" errorplus="0.02005">0.21324</radius>
+			<period errorminus=".000020" errorplus="0.000020">7.877407</period>
+			<transittime errorminus="0.0013600" errorplus="0.0013600">2455009.3760800</transittime>
+			<list>Confirmed planets</list>
+			<description>Kepler-52 b has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-52 b are still unknown, the object is highly unlikely to be a false positive.</description>
+			<new>1</new>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/26</lastupdate>
+			<discoverymethod>transit</discoverymethod>
+		</planet>
+		<planet>
+			<name>Kepler-52 d</name>
+			<name>KOI-775 d</name>
+			<name>KOI-775.03</name>
+			<name>KIC 11754553 d</name>
+			<name>KIC 11754553.03</name>
+			<radius errorminus="0.01914" errorplus="0.01914">0.17770</radius>
+			<period errorminus=".000253" errorplus="0.000253">36.445171</period>
+			<transittime errorminus="0.0038800" errorplus="0.0038800">2454984.6011500</transittime>
+			<list>Confirmed planets</list>
+			<description>Kepler-52 d has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-52 d are still unknown, the object is highly unlikely to be a false positive.</description>
+			<new>1</new>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/26</lastupdate>
+			<discoverymethod>transit</discoverymethod>
+		</planet>
 	</star>
 </system>

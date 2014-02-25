@@ -1,58 +1,64 @@
 <system>
 	<name>Kepler-23</name>
-	<rightascension>19 36 53</rightascension>
+	<name>KOI-168</name>
+	<name>KIC 11512246</name>
+	<rightascension>01 18 27</rightascension>
 	<declination>+49 28 45</declination>
-	<distance>1018</distance>
+	<distance>864.68</distance>
 	<star>
-		<magB>13.6</magB>
-		<magR errorminus="0.13" errorplus="0.13">13.71</magR>
 		<name>Kepler-23</name>
-		<name>GSC 03564-01806</name>
-		<name>CMC14 J193652.5+492845</name>
-		<name>GSC2.3 N2HD003526</name>
-		<name>GSC2 N03021013526</name>
-		<name>KIC 11512246</name>
 		<name>KOI-168</name>
-		<name>2MASS J19365254+4928452</name>
-		<name>PPMX J193652.5+492845</name>
-		<name>UCAC3 279-152018</name>
-		<name>USNO-B1.0 1394-00316778</name>
-		<mass>1.11</mass>
-		<radius>1.52</radius>
-		<metallicity>-0.09</metallicity>
-		<magJ errorminus="0.021" errorplus="0.021">12.353</magJ>
-		<magH errorminus="0.017" errorplus="0.017">12.047</magH>
-		<magK errorminus="0.019" errorplus="0.019">11.998</magK>
-		<planet>
-			<name>Kepler-23 b</name>
-			<name>KOI 168.01</name>
-			<list>Confirmed planets</list>
-			<radius>0.1731475</radius>
-			<mass upperlimit="0.8" />
-			<period>7.1073</period>
-			<semimajoraxis>0.075</semimajoraxis>
-			<description>This planet candidate was discovered with the Kepler spacecraft. Its host star gets periodically fainter whenever the planet is in front of the star. Because there are multiple phenomena that can create a signal that looks similar to a planetary transit, the candidates have to be confirmed with another method. For Kepler-23 the planetary nature of the companions has been confirmed by transit timing variations, caused by other planets in the system, and a stability analysis. However, the mass of the planets is not well constrained yet and should be considered an upper limit.</description>
-			<discoverymethod>transit</discoverymethod>
-			<transittime unit="BJD">2454971.3022</transittime>
-			<lastupdate>12/08/06</lastupdate>
-			<discoveryyear>2012</discoveryyear>
-			<temperature>1143.4</temperature>
-		</planet>
+		<name>KIC 11512246</name>
+		<temperature errorminus="00" errorplus="100">5828</temperature>
+		<radius errorminus=".048" errorplus="0.048">1.548</radius>
+		<mass errorminus="0.1300" errorplus="0.1300">1.1900</mass>
 		<planet>
 			<name>Kepler-23 c</name>
-			<name>KOI 168.02</name>
+			<name>KOI-168 c</name>
+			<name>KOI-168.01</name>
+			<name>KIC 11512246 c</name>
+			<name>KIC 11512246.01</name>
+			<radius errorminus="0.03007" errorplus="0.03007">0.34447</radius>
+			<period errorminus=".000037" errorplus="0.000037">10.742371</period>
+			<transittime errorminus="0.0021000" errorplus="0.0021000">2454966.2860300</transittime>
 			<list>Confirmed planets</list>
-			<radius>0.2916169</radius>
-			<mass upperlimit="2.7" />
-			<period>10.7421</period>
-			<semimajoraxis>0.099</semimajoraxis>
-			<description>This planet candidate was discovered with the Kepler spacecraft. Its host star gets periodically fainter whenever the planet is in front of the star. Because there are multiple phenomena that can create a signal that looks similar to a planetary transit, the candidates have to be confirmed with another method. For Kepler-23 the planetary nature of the companions has been confirmed by transit timing variations, caused by other planets in the system, and a stability analysis. However, the mass of the planets is not well constrained yet and should be considered an upper limit.</description>
+			<description>Kepler-23 c has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-23 c are still unknown, the object is highly unlikely to be a false positive.</description>
+			<new>1</new>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/26</lastupdate>
 			<discoverymethod>transit</discoverymethod>
-			<transittime unit="BJD">2454966.2926</transittime>
-			<lastupdate>12/01/26</lastupdate>
-			<discoveryyear>2012</discoveryyear>
-			<temperature>995.2</temperature>
 		</planet>
-		<temperature>5760.0</temperature>
+		<planet>
+			<name>Kepler-23 d</name>
+			<name>KOI-168 d</name>
+			<name>KOI-168.02</name>
+			<name>KIC 11512246 d</name>
+			<name>KIC 11512246.02</name>
+			<radius errorminus="0.00820" errorplus="0.00820">0.20049</radius>
+			<period errorminus=".000104" errorplus="0.000104">15.274299</period>
+			<transittime errorminus="0.0038700" errorplus="0.0038700">2454980.5825300</transittime>
+			<list>Confirmed planets</list>
+			<description>Kepler-23 d has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-23 d are still unknown, the object is highly unlikely to be a false positive.</description>
+			<new>1</new>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/26</lastupdate>
+			<discoverymethod>transit</discoverymethod>
+		</planet>
+		<planet>
+			<name>Kepler-23 b</name>
+			<name>KOI-168 b</name>
+			<name>KOI-168.03</name>
+			<name>KIC 11512246 b</name>
+			<name>KIC 11512246.03</name>
+			<radius errorminus="0.01458" errorplus="0.01458">0.15401</radius>
+			<period errorminus=".000075" errorplus="0.000075">7.107163</period>
+			<transittime errorminus="0.0066100" errorplus="0.0066100">2454971.3128400</transittime>
+			<list>Confirmed planets</list>
+			<description>Kepler-23 b has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-23 b are still unknown, the object is highly unlikely to be a false positive.</description>
+			<new>1</new>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/26</lastupdate>
+			<discoverymethod>transit</discoverymethod>
+		</planet>
 	</star>
 </system>

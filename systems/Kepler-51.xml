@@ -4,6 +4,8 @@
 	<declination>+49 56 15</declination>
 	<distance>847.55</distance>
 	<star>
+		<name>Kepler-51</name>
+		<temperature>5803.0</temperature>
 		<magJ errorminus="0.023" errorplus="0.023">13.562</magJ>
 		<magH errorminus="0.023" errorplus="0.023">13.219</magH>
 		<magK errorminus="0.04" errorplus="0.04">13.20</magK>
@@ -11,7 +13,7 @@
 		<radius>0.91</radius>
 		<planet>
 			<name>Kepler-51 b</name>
-			<name>KOI 620.01</name>
+			<name>KOI-620.01</name>
 			<name>KID 11773022</name>
 			<list>Confirmed planets</list>
 			<mass>0.175787</mass>
@@ -25,7 +27,7 @@
 		</planet>
 		<planet>
 			<name>Kepler-51 c</name>
-			<name>KOI 620.03</name>
+			<name>KOI-620.03</name>
 			<name>KID 11773022</name>
 			<list>Confirmed planets</list>
 			<mass>0.113864</mass>
@@ -37,7 +39,21 @@
 			<lastupdate>12/08/19</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 		</planet>
-		<name>Kepler-51</name>
-		<temperature>5803.0</temperature>
+		<planet>
+			<name>Kepler-51 d</name>
+			<name>KOI-620 d</name>
+			<name>KOI-620.02</name>
+			<name>KIC 11773022 d</name>
+			<name>KIC 11773022.02</name>
+			<radius errorminus="0.08840" errorplus="0.45292">0.94958</radius>
+			<period errorminus=".000142" errorplus="0.000142">130.179811</period>
+			<transittime errorminus="0.0005900" errorplus="0.0005900">2455045.0277600</transittime>
+			<list>Confirmed planets</list>
+			<description>Kepler-51 d has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-51 d are still unknown, the object is highly unlikely to be a false positive.</description>
+			<new>1</new>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/26</lastupdate>
+			<discoverymethod>transit</discoverymethod>
+		</planet>
 	</star>
 </system>

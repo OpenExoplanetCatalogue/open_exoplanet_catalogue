@@ -4,6 +4,8 @@
 	<declination>+46 00 18</declination>
 	<distance>917.8</distance>
 	<star>
+		<name>Kepler-33</name>
+		<temperature errorminus="47" errorplus="47">5904.0</temperature>
 		<magB errorminus="0.42" errorplus="0.42">14.39</magB>
 		<magV errorminus="0.28" errorplus="0.28">13.74</magV>
 		<magR errorminus="0.09" errorplus="0.09">14.26</magR>
@@ -17,7 +19,7 @@
 		<age errorminus="1.03" errorplus="0.74">4.27</age>
 		<planet>
 			<name>Kepler-33 b</name>
-			<name>KOI 707.01</name>
+			<name>KOI-707.01</name>
 			<name>KIC 9458613 b</name>
 			<list>Confirmed planets</list>
 			<radius>0.158566</radius>
@@ -33,7 +35,7 @@
 		</planet>
 		<planet>
 			<name>Kepler-33 c</name>
-			<name>KOI 707.02</name>
+			<name>KOI-707.02</name>
 			<name>KIC 9458613 c</name>
 			<list>Confirmed planets</list>
 			<radius>0.2916</radius>
@@ -49,7 +51,7 @@
 		</planet>
 		<planet>
 			<name>Kepler-33 d</name>
-			<name>KOI 707.03</name>
+			<name>KOI-707.03</name>
 			<name>KIC 9458613 d</name>
 			<list>Confirmed planets</list>
 			<radius>0.487547</radius>
@@ -65,7 +67,7 @@
 		</planet>
 		<planet>
 			<name>Kepler-33 e</name>
-			<name>KOI 707.04</name>
+			<name>KOI-707.04</name>
 			<name>KIC 9458613 e</name>
 			<list>Confirmed planets</list>
 			<radius>0.366343</radius>
@@ -80,7 +82,7 @@
 		</planet>
 		<planet>
 			<name>Kepler-33 f</name>
-			<name>KOI 707.05</name>
+			<name>KOI-707.05</name>
 			<name>KIC 9458613 f</name>
 			<list>Confirmed planets</list>
 			<radius>0.406441</radius>
@@ -93,7 +95,5 @@
 			<temperature>697.5</temperature>
 			<transittime errorminus="0.0040" errorplus="0.0040" unit="BJD">2455005.5763</transittime>
 		</planet>
-		<name>Kepler-33</name>
-		<temperature errorminus="47" errorplus="47">5904.0</temperature>
 	</star>
 </system>

@@ -1,43 +1,96 @@
 <system>
 	<name>Kepler-55</name>
-	<rightascension>19 00 40</rightascension>
+	<name>KOI-904</name>
+	<name>KIC 8150320</name>
+	<rightascension>01 16 02</rightascension>
 	<declination>+44 01 35</declination>
-	<distance>511.70</distance>
+	<distance>610.01</distance>
 	<star>
-		<spectraltype>K5</spectraltype>
-		<magJ errorminus="0.03" errorplus="0.03">13.97</magJ>
-		<magH errorminus="0.03" errorplus="0.03">13.36</magH>
-		<magK errorminus="0.05" errorplus="0.05">13.29</magK>
-		<mass>0.62</mass>
-		<radius>0.58</radius>
+		<name>Kepler-55</name>
+		<name>KOI-904</name>
+		<name>KIC 8150320</name>
+		<temperature errorminus="00" errorplus="100">4503</temperature>
+		<radius errorminus=".028" errorplus="0.028">0.619</radius>
+		<mass errorminus="0.0160" errorplus="0.0160">0.6310</mass>
+		<planet>
+			<name>Kepler-55 d</name>
+			<name>KOI-904 d</name>
+			<name>KOI-904.01</name>
+			<name>KIC 8150320 d</name>
+			<name>KIC 8150320.01</name>
+			<radius errorminus="0.00820" errorplus="0.00820">0.14490</radius>
+			<period errorminus=".000004" errorplus="0.000004">2.211099</period>
+			<transittime errorminus="0.0009100" errorplus="0.0009100">2455003.1491200</transittime>
+			<list>Confirmed planets</list>
+			<description>Kepler-55 d has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-55 d are still unknown, the object is highly unlikely to be a false positive.</description>
+			<new>1</new>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/26</lastupdate>
+			<discoverymethod>transit</discoverymethod>
+		</planet>
 		<planet>
 			<name>Kepler-55 b</name>
-			<name>KOI 904.02</name>
-			<name>KID 8150320</name>
+			<name>KOI-904 b</name>
+			<name>KOI-904.02</name>
+			<name>KIC 8150320 b</name>
+			<name>KIC 8150320.02</name>
+			<radius errorminus="0.01094" errorplus="0.01094">0.19684</radius>
+			<period errorminus=".000176" errorplus="0.000176">27.953314</period>
+			<transittime errorminus="0.0030900" errorplus="0.0030900">2455011.7569100</transittime>
 			<list>Confirmed planets</list>
-			<mass>0.019591</mass>
-			<radius>0.221447</radius>
-			<period>27.9481449</period>
-			<transittime errorminus="0.0031" errorplus="0.0031" unit="BJD">2455111.79598</transittime>
-			<description>This planet candidate was discovered by the Kepler spacecraft. It transits its host star every 27.95 days for 3.4932 hours. Periodic transit timing variations confirm its planetary nature.</description>
+			<description>Kepler-55 b has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-55 b are still unknown, the object is highly unlikely to be a false positive.</description>
+			<new>1</new>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/26</lastupdate>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>12/08/19</lastupdate>
-			<discoveryyear>2012</discoveryyear>
 		</planet>
 		<planet>
 			<name>Kepler-55 c</name>
-			<name>KOI 904.03</name>
-			<name>KID 8150320</name>
+			<name>KOI-904 c</name>
+			<name>KOI-904.03</name>
+			<name>KIC 8150320 c</name>
+			<name>KIC 8150320.03</name>
+			<radius errorminus="0.01002" errorplus="0.01002">0.18864</radius>
+			<period errorminus=".000268" errorplus="0.000268">42.142596</period>
+			<transittime errorminus="0.0036000" errorplus="0.0036000">2454972.0322300</transittime>
 			<list>Confirmed planets</list>
-			<mass>0.016113</mass>
-			<radius>0.201398</radius>
-			<period>42.1516418</period>
-			<description>This planet candidate was discovered by the Kepler spacecraft. It transits its host star every 42.15 days for 5.0617 hours. Periodic transit timing variations confirm its planetary nature.</description>
+			<description>Kepler-55 c has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-55 c are still unknown, the object is highly unlikely to be a false positive.</description>
+			<new>1</new>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/26</lastupdate>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>12/08/19</lastupdate>
-			<discoveryyear>2012</discoveryyear>
 		</planet>
-		<name>Kepler-55</name>
-		<temperature>4362.0</temperature>
+		<planet>
+			<name>Kepler-55 e</name>
+			<name>KOI-904 e</name>
+			<name>KOI-904.04</name>
+			<name>KIC 8150320 e</name>
+			<name>KIC 8150320.04</name>
+			<radius errorminus="0.02096" errorplus="0.02096">0.14125</radius>
+			<period errorminus=".000021" errorplus="0.000021">4.617534</period>
+			<transittime errorminus="0.0022400" errorplus="0.0022400">2454968.0425400</transittime>
+			<list>Confirmed planets</list>
+			<description>Kepler-55 e has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-55 e are still unknown, the object is highly unlikely to be a false positive.</description>
+			<new>1</new>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/26</lastupdate>
+			<discoverymethod>transit</discoverymethod>
+		</planet>
+		<planet>
+			<name>Kepler-55 f</name>
+			<name>KOI-904 f</name>
+			<name>KOI-904.05</name>
+			<name>KIC 8150320 f</name>
+			<name>KIC 8150320.05</name>
+			<radius errorminus="0.00911" errorplus="0.00911">0.14490</radius>
+			<period errorminus=".000045" errorplus="0.000045">10.198545</period>
+			<transittime errorminus="0.0026500" errorplus="0.0026500">2454970.9171400</transittime>
+			<list>Confirmed planets</list>
+			<description>Kepler-55 f has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-55 f are still unknown, the object is highly unlikely to be a false positive.</description>
+			<new>1</new>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/26</lastupdate>
+			<discoverymethod>transit</discoverymethod>
+		</planet>
 	</star>
 </system>

@@ -1,43 +1,64 @@
 <system>
 	<name>Kepler-53</name>
-	<rightascension>19 21 50</rightascension>
+	<name>KOI-829</name>
+	<name>KIC 5358241</name>
+	<rightascension>01 17 27</rightascension>
 	<declination>+40 33 44</declination>
-	<distance>1175.19</distance>
+	<distance>1430.64</distance>
 	<star>
-		<magJ errorminus="0.027" errorplus="0.027">14.252</magJ>
-		<magH errorminus="0.03" errorplus="0.03">13.91</magH>
-		<magK errorminus="0.05" errorplus="0.05">13.81</magK>
-		<mass>0.98</mass>
-		<radius>0.89</radius>
+		<name>Kepler-53</name>
+		<name>KOI-829</name>
+		<name>KIC 5358241</name>
+		<temperature errorminus="00" errorplus="200">6085</temperature>
+		<radius errorminus=".466" errorplus="0.466">0.958</radius>
+		<mass errorminus="0.0930" errorplus="0.0930">1.0650</mass>
 		<planet>
 			<name>Kepler-53 b</name>
-			<name>KOI 829.01</name>
-			<name>KID 5358241</name>
+			<name>KOI-829 b</name>
+			<name>KOI-829.01</name>
+			<name>KIC 5358241 b</name>
+			<name>KIC 5358241.01</name>
+			<radius errorminus="0.03372" errorplus="0.12485">0.25608</radius>
+			<period errorminus=".000087" errorplus="0.000087">18.649113</period>
+			<transittime errorminus="0.0024100" errorplus="0.0024100">2455007.7750500</transittime>
 			<list>Confirmed planets</list>
-			<mass>0.028001</mass>
-			<radius>0.263367</radius>
-			<period>18.6489525</period>
-			<transittime errorminus="0.0029" errorplus="0.0029" unit="BJD">2455107.77608</transittime>
-			<description>This planet candidate was discovered by the Kepler spacecraft. It transits its host star every 18.65 days for 4.4815 hours. Periodic transit timing variations confirm its planetary nature.</description>
+			<description>Kepler-53 b has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-53 b are still unknown, the object is highly unlikely to be a false positive.</description>
+			<new>1</new>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/26</lastupdate>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>12/08/19</lastupdate>
-			<discoveryyear>2012</discoveryyear>
+		</planet>
+		<planet>
+			<name>Kepler-53 d</name>
+			<name>KOI-829 d</name>
+			<name>KOI-829.02</name>
+			<name>KIC 5358241 d</name>
+			<name>KIC 5358241.02</name>
+			<radius errorminus="0.00456" errorplus="0.09569">0.19320</radius>
+			<period errorminus=".000077" errorplus="0.000077">9.751962</period>
+			<transittime errorminus="0.0043000" errorplus="0.0043000">2454971.7852000</transittime>
+			<list>Confirmed planets</list>
+			<description>Kepler-53 d has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-53 d are still unknown, the object is highly unlikely to be a false positive.</description>
+			<new>1</new>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/26</lastupdate>
+			<discoverymethod>transit</discoverymethod>
 		</planet>
 		<planet>
 			<name>Kepler-53 c</name>
-			<name>KOI 829.03</name>
-			<name>KID 5358241</name>
+			<name>KOI-829 c</name>
+			<name>KOI-829.03</name>
+			<name>KIC 5358241 c</name>
+			<name>KIC 5358241.03</name>
+			<radius errorminus="0.07655" errorplus="0.16768">0.33992</radius>
+			<period errorminus=".000249" errorplus="0.000249">38.558585</period>
+			<transittime errorminus="0.0046200" errorplus="0.0046200">2454996.8416700</transittime>
 			<list>Confirmed planets</list>
-			<mass>0.033877</mass>
-			<radius>0.288883</radius>
-			<period>38.5583038</period>
-			<transittime errorminus="0.0027" errorplus="0.0027" unit="BJD">2455105.72549</transittime>
-			<description>This planet candidate was discovered by the Kepler spacecraft. It transits its host star every 38.56 days for 5.0162 hours. Periodic transit timing variations confirm its planetary nature.</description>
+			<description>Kepler-53 c has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-53 c are still unknown, the object is highly unlikely to be a false positive.</description>
+			<new>1</new>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/26</lastupdate>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>12/08/19</lastupdate>
-			<discoveryyear>2012</discoveryyear>
 		</planet>
-		<name>Kepler-53</name>
-		<temperature>5858.0</temperature>
 	</star>
 </system>

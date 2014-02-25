@@ -4,6 +4,8 @@
 	<declination>+47 29 28</declination>
 	<distance>1246</distance>
 	<star>
+		<name>Kepler-29</name>
+		<temperature>5750.0</temperature>
 		<mass>1.0</mass>
 		<radius>0.96</radius>
 		<magJ errorminus="0.03" errorplus="0.03">14.13</magJ>
@@ -12,7 +14,7 @@
 		<spectraltype>G5V</spectraltype>
 		<planet>
 			<name>Kepler-29 b</name>
-			<name>KOI 738.01</name>
+			<name>KOI-738.01</name>
 			<name>KIC 10358759 b</name>
 			<list>Confirmed planets</list>
 			<radius>0.328069</radius>
@@ -27,7 +29,7 @@
 		</planet>
 		<planet>
 			<name>Kepler-29 c</name>
-			<name>KOI 738.02</name>
+			<name>KOI-738.02</name>
 			<name>KIC 10358759 c</name>
 			<list>Confirmed planets</list>
 			<mass>0.3</mass>
@@ -41,7 +43,5 @@
 			<discoveryyear>2012</discoveryyear>
 			<temperature>749.0</temperature>
 		</planet>
-		<name>Kepler-29</name>
-		<temperature>5750.0</temperature>
 	</star>
 </system>

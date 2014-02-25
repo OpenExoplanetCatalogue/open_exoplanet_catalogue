@@ -1,50 +1,80 @@
 <system>
 	<name>Kepler-24</name>
-	<rightascension>19 21 39</rightascension>
+	<name>KOI-1102</name>
+	<name>KIC 3231341</name>
+	<rightascension>01 17 26</rightascension>
 	<declination>+38 20 37</declination>
-	<distance>1224</distance>
+	<distance>1462.04</distance>
 	<star>
 		<name>Kepler-24</name>
-		<name>2MASS J19213918+3820375</name>
-		<name>KIC 3231341</name>
 		<name>KOI-1102</name>
-		<mass>1.03</mass>
-		<radius>1.07</radius>
-		<metallicity>-0.24</metallicity>
-		<magJ errorminus="0.023" errorplus="0.023">13.763</magJ>
-		<magH errorminus="0.03" errorplus="0.03">13.45</magH>
-		<magK errorminus="0.04" errorplus="0.04">13.37</magK>
-		<spectraltype>G</spectraltype>
-		<planet>
-			<name>Kepler-24 b</name>
-			<name>KOI 1102.02</name>
-			<list>Confirmed planets</list>
-			<radius>0.21871271</radius>
-			<mass upperlimit="1.6" />
-			<period>8.1453</period>
-			<semimajoraxis>0.08</semimajoraxis>
-			<description>This planet candidate was discovered with the Kepler spacecraft. Its host star gets periodically fainter whenever the planet is in front of the star. Because there are multiple phenomena that can create a signal that looks similar to a planetary transit, the candidates have to be confirmed with another method. For Kepler-24 the planetary nature of the companions has been confirmed by transit timing variations, caused by other planets in the system, and a stability analysis. However, the mass of the planets is not well constrained yet.</description>
-			<discoverymethod>transit</discoverymethod>
-			<transittime unit="BJD">2454973.5689</transittime>
-			<lastupdate>12/08/06</lastupdate>
-			<discoveryyear>2012</discoveryyear>
-			<temperature>935.3</temperature>
-		</planet>
+		<name>KIC 3231341</name>
+		<temperature errorminus="19" errorplus="219">5897</temperature>
+		<radius errorminus=".291" errorplus="0.291">1.289</radius>
+		<mass errorminus="0.1900" errorplus="0.1900">1.0200</mass>
 		<planet>
 			<name>Kepler-24 c</name>
-			<name>KOI 1102.01</name>
+			<name>KOI-1102 c</name>
+			<name>KOI-1102.01</name>
+			<name>KIC 3231341 c</name>
+			<name>KIC 3231341.01</name>
+			<radius errorminus="0.02461" errorplus="0.48026">0.36179</radius>
+			<period errorminus=".000119" errorplus="0.000119">12.333360</period>
+			<transittime errorminus="0.0054000" errorplus="0.0054000">2454970.5887800</transittime>
 			<list>Confirmed planets</list>
-			<radius>0.25516482</radius>
-			<mass upperlimit="1.6" />
-			<period>12.333</period>
-			<semimajoraxis>0.106</semimajoraxis>
-			<description>This planet candidate was discovered with the Kepler spacecraft. Its host star gets periodically fainter whenever the planet is in front of the star. Because there are multiple phenomena that can create a signal that looks similar to a planetary transit, the candidates have to be confirmed with another method. For Kepler-24 the planetary nature of the companions has been confirmed by transit timing variations, caused by other planets in the system, and a stability analysis. However, the mass of the planets is not well constrained yet.</description>
+			<description>Kepler-24 c has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-24 c are still unknown, the object is highly unlikely to be a false positive.</description>
+			<new>1</new>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/26</lastupdate>
 			<discoverymethod>transit</discoverymethod>
-			<transittime unit="BJD">2454970.586</transittime>
-			<lastupdate>12/08/06</lastupdate>
-			<discoveryyear>2012</discoveryyear>
-			<temperature>812.5</temperature>
 		</planet>
-		<temperature>5800.0</temperature>
+		<planet>
+			<name>Kepler-24 b</name>
+			<name>KOI-1102 b</name>
+			<name>KOI-1102.02</name>
+			<name>KIC 3231341 b</name>
+			<name>KIC 3231341.02</name>
+			<radius errorminus="0.07746" errorplus="0.07746">0.31258</radius>
+			<period errorminus=".000059" errorplus="0.000059">8.145207</period>
+			<transittime errorminus="0.0042500" errorplus="0.0042500">2454973.5633000</transittime>
+			<list>Confirmed planets</list>
+			<description>Kepler-24 b has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-24 b are still unknown, the object is highly unlikely to be a false positive.</description>
+			<new>1</new>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/26</lastupdate>
+			<discoverymethod>transit</discoverymethod>
+		</planet>
+		<planet>
+			<name>Kepler-24 e</name>
+			<name>KOI-1102 e</name>
+			<name>KOI-1102.03</name>
+			<name>KIC 3231341 e</name>
+			<name>KIC 3231341.03</name>
+			<radius errorminus="0.05832" errorplus="0.05832">0.25334</radius>
+			<period errorminus=".000157" errorplus="0.000157">18.998355</period>
+			<transittime errorminus="0.0055500" errorplus="0.0055500">2454977.7435700</transittime>
+			<list>Confirmed planets</list>
+			<description>Kepler-24 e has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-24 e are still unknown, the object is highly unlikely to be a false positive.</description>
+			<new>1</new>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/26</lastupdate>
+			<discoverymethod>transit</discoverymethod>
+		</planet>
+		<planet>
+			<name>Kepler-24 d</name>
+			<name>KOI-1102 d</name>
+			<name>KOI-1102.04</name>
+			<name>KIC 3231341 d</name>
+			<name>KIC 3231341.04</name>
+			<radius errorminus="0.03554" errorplus="0.03554">0.15219</radius>
+			<period errorminus=".000053" errorplus="0.000053">4.244384</period>
+			<transittime errorminus="0.0068000" errorplus="0.0068000">2454970.0641100</transittime>
+			<list>Confirmed planets</list>
+			<description>Kepler-24 d has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-24 d are still unknown, the object is highly unlikely to be a false positive.</description>
+			<new>1</new>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/26</lastupdate>
+			<discoverymethod>transit</discoverymethod>
+		</planet>
 	</star>
 </system>

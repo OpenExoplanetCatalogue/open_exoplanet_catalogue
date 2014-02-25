@@ -4,6 +4,8 @@
 	<declination>+45 47 20</declination>
 	<distance>664.24</distance>
 	<star>
+		<name>Kepler-60</name>
+		<temperature>5915.0</temperature>
 		<magJ errorminus="0.023" errorplus="0.023">12.804</magJ>
 		<magH errorminus="0.018" errorplus="0.018">12.569</magH>
 		<magK errorminus="0.018" errorplus="0.018">12.516</magK>
@@ -11,7 +13,7 @@
 		<radius>1.5</radius>
 		<planet>
 			<name>Kepler-60 b</name>
-			<name>KOI 2086.01</name>
+			<name>KOI-2086.01</name>
 			<name>KID 6768394</name>
 			<list>Confirmed planets</list>
 			<mass>0.017182</mass>
@@ -25,7 +27,7 @@
 		</planet>
 		<planet>
 			<name>Kepler-60 c</name>
-			<name>KOI 2086.02</name>
+			<name>KOI-2086.02</name>
 			<name>KID 6768394</name>
 			<list>Confirmed planets</list>
 			<mass>0.020262</mass>
@@ -39,7 +41,7 @@
 		</planet>
 		<planet>
 			<name>Kepler-60 d</name>
-			<name>KOI 2086.03</name>
+			<name>KOI-2086.03</name>
 			<name>KID 6768394</name>
 			<list>Confirmed planets</list>
 			<mass>0.021637</mass>
@@ -51,7 +53,5 @@
 			<lastupdate>12/08/19</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 		</planet>
-		<name>Kepler-60</name>
-		<temperature>5915.0</temperature>
 	</star>
 </system>

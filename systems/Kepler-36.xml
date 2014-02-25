@@ -4,6 +4,8 @@
 	<declination>+49 13 54</declination>
 	<distance>436.937</distance>
 	<star>
+		<name>Kepler-36</name>
+		<temperature>5911.0</temperature>
 		<magB errorminus="0.24" errorplus="0.24">12.66</magB>
 		<magV errorminus="0.17" errorplus="0.17">11.94</magV>
 		<magJ errorminus="0.023" errorplus="0.023">11.124</magJ>
@@ -13,7 +15,7 @@
 		<radius>1.619</radius>
 		<planet>
 			<name>Kepler-36 b</name>
-			<name>KOI 277.01</name>
+			<name>KOI-277.01</name>
 			<name>KIC 11401755 b</name>
 			<name>2MASS 19250004+4913545 b</name>
 			<list>Confirmed planets</list>
@@ -34,7 +36,7 @@
 		</planet>
 		<planet>
 			<name>Kepler-36 c</name>
-			<name>KOI 277.02</name>
+			<name>KOI-277.02</name>
 			<name>KIC 11401755 c</name>
 			<name>2MASS 19250004+4913545 c</name>
 			<list>Confirmed planets</list>
@@ -53,7 +55,5 @@
 	Image credit: Harvard-Smithsonian Center for Astrophysics/David Aguilar.</imagedescription>
 			<temperature>927.8</temperature>
 		</planet>
-		<name>Kepler-36</name>
-		<temperature>5911.0</temperature>
 	</star>
 </system>
