@@ -1,0 +1,34 @@
+<system>
+	<name>HATS-4</name>
+	<rightascension>06 16 27</rightascension>
+	<declination>-22 32 49</declination>
+	<distance errorminus="12" errorplus="12">420</distance>
+	<star>
+		<name>HATS-4</name>
+		<name>GSC 6505-00217</name>
+		<name>2MASS 06162689-2232487</name>
+		<mass errorminus="0.020" errorplus="0.020">1.001</mass>
+		<radius errorminus="0.022" errorplus="0.022">0.925</radius>
+		<temperature errorminus="50" errorplus="50">5403</temperature>
+		<age errorminus="1.6" errorplus="1.6">2.1</age>
+		<metallicity errorminus="0.08" errorplus="0.08">0.43</metallicity>
+		<planet>
+			<name>HATS-4 b</name>
+			<name>GSC 6505-00217 b</name>
+			<name>2MASS 06162689-2232487 b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.028" errorplus="0.028">1.323</mass>
+			<radius errorminus="0.037" errorplus="0.037">1.020</radius>
+			<temperature errorminus="21" errorplus="21">1315</temperature>
+			<transittime errorminus="0.00036" errorplus="0.00036" unit="BJD">2455808.34095</transittime>
+			<period errorminus="0.000002" errorplus="0.000002">2.516729</period>
+			<semimajoraxis errorminus="0.0002" errorplus="0.0002">0.0362</semimajoraxis>
+			<inclination errorminus="0.6" errorplus="0.6">88.5</inclination>
+			<eccentricity errorminus="0.013" errorplus="0.013">0.016</eccentricity>
+			<description>HATS-4 is a dense transiting planet orbiting around a high-metallicity star discovered by the HATSouth survey.</description>
+			<discoverymethod>transit</discoverymethod>
+			<lastupdate>14/02/26</lastupdate>
+			<discoveryyear>2014</discoveryyear>
+		</planet>
+	</star>
+</system>
