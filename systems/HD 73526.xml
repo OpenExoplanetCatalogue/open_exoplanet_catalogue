@@ -4,33 +4,34 @@
 	<declination>-41 19 08</declination>
 	<distance>99</distance>
 	<star>
-		<mass>1.08</mass>
+		<mass errorplus="0.05" errorminus="0.05">1.08</mass>
 		<radius>1.49</radius>
 		<magV>9</magV>
 		<magB>9.69</magB>
-		<metallicity>0.25</metallicity>
+		<metallicity errorplus="0.05" errorminus="0.05">0.25</metallicity>
+		<age>5.59</age>
 		<spectraltype>G6 V</spectraltype>
 		<planet>
 			<name>HD 73526 b</name>
 			<list>Confirmed planets</list>
-			<mass>2.9</mass>
-			<period>188.3</period>
-			<semimajoraxis>0.66</semimajoraxis>
-			<eccentricity>0.19</eccentricity>
+			<mass errorplus="0.12" errorminus="0.12">2.35</mass>
+			<period errorplus="0.21" errorminus="0.21">189.65</period>
+			<semimajoraxis errorplus="0.01" errorminus="0.01">0.65</semimajoraxis>
+			<eccentricity errorplus="0.021" errorminus="0.021">0.265</eccentricity>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/12/22</lastupdate>
+			<lastupdate>14/03/03</lastupdate>
 			<discoveryyear>2002</discoveryyear>
 			<temperature>369.5</temperature>
 		</planet>
 		<planet>
 			<name>HD 73526 c</name>
 			<list>Confirmed planets</list>
-			<mass>2.5</mass>
-			<period>377.8</period>
-			<semimajoraxis>1.05</semimajoraxis>
-			<eccentricity>0.14</eccentricity>
+			<mass errorplus="0.12" errorminus="0.12">2.19</mass>
+			<period errorplus="0.69" errorminus="0.69">376.93</period>
+			<semimajoraxis errorplus="0.02" errorminus="0.02">1.03</semimajoraxis>
+			<eccentricity errorplus="0.029" errorminus="0.029">0.198</eccentricity>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/12/22</lastupdate>
+			<lastupdate>14/03/03</lastupdate>
 			<discoveryyear>2006</discoveryyear>
 			<temperature>293.3</temperature>
 		</planet>
