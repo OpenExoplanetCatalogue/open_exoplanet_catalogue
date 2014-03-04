@@ -4,20 +4,21 @@
 	<declination>-41 19 08</declination>
 	<distance>99</distance>
 	<star>
-		<mass errorplus="0.05" errorminus="0.05">1.08</mass>
+		<mass errorminus="0.05" errorplus="0.05">1.08</mass>
 		<radius>1.49</radius>
 		<magV>9</magV>
 		<magB>9.69</magB>
-		<metallicity errorplus="0.05" errorminus="0.05">0.25</metallicity>
+		<metallicity errorminus="0.05" errorplus="0.05">0.25</metallicity>
 		<age>5.59</age>
 		<spectraltype>G6 V</spectraltype>
 		<planet>
 			<name>HD 73526 b</name>
 			<list>Confirmed planets</list>
-			<mass errorplus="0.12" errorminus="0.12">2.35</mass>
-			<period errorplus="0.21" errorminus="0.21">189.65</period>
-			<semimajoraxis errorplus="0.01" errorminus="0.01">0.65</semimajoraxis>
-			<eccentricity errorplus="0.021" errorminus="0.021">0.265</eccentricity>
+			<mass errorminus="0.12" errorplus="0.12">2.35</mass>
+			<period errorminus="0.21" errorplus="0.21">189.65</period>
+			<semimajoraxis errorminus="0.01" errorplus="0.01">0.65</semimajoraxis>
+			<eccentricity errorminus="0.021" errorplus="0.021">0.265</eccentricity>
+			<description>The planetary system HD 73526 was discovered by the radial velocity method and consists of at least two planets. The orbital parameters have been obtained using a dynamical fit. The goodness-of-fit and long-term stability prefer the system in a configuration with 90 degrees inclination (face on).</description>
 			<discoverymethod>RV</discoverymethod>
 			<lastupdate>14/03/03</lastupdate>
 			<discoveryyear>2002</discoveryyear>
@@ -26,10 +27,11 @@
 		<planet>
 			<name>HD 73526 c</name>
 			<list>Confirmed planets</list>
-			<mass errorplus="0.12" errorminus="0.12">2.19</mass>
-			<period errorplus="0.69" errorminus="0.69">376.93</period>
-			<semimajoraxis errorplus="0.02" errorminus="0.02">1.03</semimajoraxis>
-			<eccentricity errorplus="0.029" errorminus="0.029">0.198</eccentricity>
+			<mass errorminus="0.12" errorplus="0.12">2.19</mass>
+			<period errorminus="0.69" errorplus="0.69">376.93</period>
+			<semimajoraxis errorminus="0.02" errorplus="0.02">1.03</semimajoraxis>
+			<eccentricity errorminus="0.029" errorplus="0.029">0.198</eccentricity>
+			<description>The planetary system HD 73526 was discovered by the radial velocity method and consists of at least two planets. The orbital parameters have been obtained using a dynamical fit. The goodness-of-fit and long-term stability prefer the system in a configuration with 90 degrees inclination (face on).</description>
 			<discoverymethod>RV</discoverymethod>
 			<lastupdate>14/03/03</lastupdate>
 			<discoveryyear>2006</discoveryyear>
