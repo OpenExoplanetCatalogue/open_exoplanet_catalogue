@@ -9,8 +9,8 @@
 		<name>Kepler-46</name>
 		<name>KOI-872</name>
 		<name>KIC 7109675</name>
-		<temperature errorminus="00" errorplus="200">5309</temperature>
-		<radius errorminus=".441" errorplus="0.441">0.790</radius>
+		<temperature errorminus="200" errorplus="200">5309</temperature>
+		<radius errorminus="0.441" errorplus="0.441">0.790</radius>
 		<mass errorminus="0.1000" errorplus="0.1000">0.8200</mass>
 		<planet>
 			<name>Kepler-46 b</name>
@@ -33,13 +33,26 @@
 			<name>KOI-872.02</name>
 			<name>KIC 7109675 c</name>
 			<name>KIC 7109675.02</name>
+			<mass errorminus="0.019" errorplus="0.021">0.376</mass>
+			<period errorminus="0.000030" errorplus="0.000030">57.011</period>
+			<list>Confirmed planets</list>
+			<discoveryyear>2012</discoveryyear>
+			<lastupdate>14/03/05</lastupdate>
+			<discoverymethod>transit</discoverymethod>
+		</planet>
+		<planet>
+			<name>Kepler-46 d</name>
+			<name>KOI-872 d</name>
+			<name>KOI-872.03</name>
+			<name>KIC 7109675 d</name>
+			<name>KIC 7109675.03</name>
 			<radius errorminus="0.08384" errorplus="0.08384">0.14945</radius>
 			<period errorminus=".000022" errorplus="0.000022">6.766589</period>
 			<transittime errorminus="0.0019200" errorplus="0.0019200">2454971.0589100</transittime>
 			<list>Confirmed planets</list>
-			<description>Kepler-46 c has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-46 c are still unknown, the object is highly unlikely to be a false positive.</description>
+			<description>Kepler-46 d has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-46 c are still unknown, the object is highly unlikely to be a false positive.</description>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/02/26</lastupdate>
+			<lastupdate>14/03/05</lastupdate>
 			<discoverymethod>transit</discoverymethod>
 		</planet>
 	</star>
