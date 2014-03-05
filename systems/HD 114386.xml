@@ -2,10 +2,11 @@
 	<name>HD 114386</name>
 	<rightascension>13 10 39</rightascension>
 	<declination>-35 03 17</declination>
-	<distance>28</distance>
+	<distance>28.04</distance>
 	<star>
 		<mass>0.75</mass>
 		<radius>0.76</radius>
+		<age>2.19</age>
 		<magV>8.73</magV>
 		<magB errorminus="0.03" errorplus="0.03">9.80</magB>
 		<spectraltype>K3 V</spectraltype>
@@ -13,11 +14,11 @@
 			<name>HD 114386 b</name>
 			<list>Confirmed planets</list>
 			<mass>1.24</mass>
-			<period>937</period>
+			<period errorminus="15.6" errorplus="15.6">937</period>
 			<semimajoraxis>1.65</semimajoraxis>
-			<eccentricity>0.23</eccentricity>
+			<eccentricity errorminus="0.03" errorplus="0.03">0.23</eccentricity>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/12/16</lastupdate>
+			<lastupdate>14/03/05</lastupdate>
 			<discoveryyear>2003</discoveryyear>
 			<temperature>182.8</temperature>
 		</planet>
