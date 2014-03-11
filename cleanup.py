@@ -136,18 +136,21 @@ def checkForBinaryPlanet(root, criteria, liststring):
             fileschanged += 1
 
 
-# Check if binary planets have been added to corresponding list
 def checkForTransitingPlanets(root):
+    """ Checks for transisting planets by first seeing if there is a transittime and then checking the discovery
+    method
+    """
     global fileschanged
     planets = root.findall(".//planet")
     for planet in planets:
+        if not planet.findtext('.//istransiting'):
             addtag = 0
             hasTransittime = planet.findtext(".//transittime")
             if hasTransittime:
                 addtag = 1
             else:
                 discoveryMethod = planet.findtext(".//discoverymethod")
-            if 'transit' in discoveryMethod:
+                if 'transit' == discoveryMethod:
                     addtag = 1
 
             if addtag:
