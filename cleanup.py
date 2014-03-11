@@ -141,17 +141,27 @@ def checkForTransitingPlanets(root):
     method
     """
     global fileschanged
+    global issues
     planets = root.findall(".//planet")
     for planet in planets:
         if not planet.findtext('.//istransiting'):
             addtag = 0
             hasTransittime = planet.findtext(".//transittime")
-            if hasTransittime:
+            discoveryMethod = planet.findtext(".//discoverymethod")
+            planetRadius = planet.findtext(".//radius")
+            if hasTransittime or 'transit' == discoveryMethod:
                 addtag = 1
             else:
-                discoveryMethod = planet.findtext(".//discoverymethod")
-                if 'transit' == discoveryMethod:
-                    addtag = 1
+                if planetRadius:  # only measured from transits, imaging for now
+                    planetName = planet.findtext(".//name")
+                    excludeList = ('Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune', 'Pluto',
+                    'PSR J1719-1438 b',  # radius estimated from  Roche Lobe radius
+                    '',
+                    )
+                    if planetName not in excludeList:
+                        if not discoveryMethod == 'imaging':
+                            print '{} in {} has a radius but is is missing a istransiting tag'.format(planetName, filename)
+                            issues += 1
 
             if addtag:
                 ET.SubElement(planet, "istransiting").text = '1'
