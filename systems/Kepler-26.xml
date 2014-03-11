@@ -1,48 +1,80 @@
 <system>
 	<name>Kepler-26</name>
+	<name>KOI-250</name>
+	<name>KIC 9757613</name>
 	<rightascension>18 59 45</rightascension>
 	<declination>+46 33 59</declination>
-	<distance>421.28</distance>
+	<distance>482.39</distance>
 	<star>
-		<mass>0.65</mass>
-		<radius>0.59</radius>
-		<metallicity>-0.21</metallicity>
-		<magJ errorminus="0.027" errorplus="0.027">13.408</magJ>
-		<magH errorminus="0.023" errorplus="0.023">12.746</magH>
-		<magK errorminus="0.026" errorplus="0.026">12.630</magK>
-		<spectraltype>K</spectraltype>
+		<name>Kepler-26</name>
+		<name>KOI-250</name>
+		<name>KIC 9757613</name>
+		<temperature errorminus="16" errorplus="116">4486</temperature>
+		<radius errorminus=".027" errorplus="0.027">0.571</radius>
+		<mass errorminus="0.0270" errorplus="0.0270">0.6340</mass>
 		<planet>
 			<name>Kepler-26 b</name>
-			<name>KOI 250.01</name>
+			<name>KOI-250 b</name>
+			<name>KOI-250.01</name>
 			<name>KIC 9757613 b</name>
+			<name>KIC 9757613.01</name>
+			<radius errorminus="0.01276" errorplus="0.01276">0.26792</radius>
+			<period errorminus=".000013" errorplus="0.000013">12.282972</period>
+			<transittime errorminus="0.0006100" errorplus="0.0006100">2455003.3985400</transittime>
 			<list>Confirmed planets</list>
-			<radius>0.32806</radius>
-			<period>12.28</period>
-			<semimajoraxis>0.085</semimajoraxis>
-			<transittime errorminus="0.0030" errorplus="0.0030" unit="BJD">2454978.8321</transittime>
-			<description>This planet candidate was discovered with the Kepler spacecraft. Its host star gets periodically fainter whenever the planet is in front of the star. Because there are multiple phenomena that can create a signal that looks similar to a planetary transit, the candidates have to be confirmed with another method. For Kepler-26 the planetary nature of the companions has been confirmed by transit timing variations, caused by other planets in the system, and a stability analysis. However, the mass of the planets is not well constrained yet.</description>
+			<description>Kepler-26 b has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-26 b are still unknown, the object is highly unlikely to be a false positive.</description>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/26</lastupdate>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>12/08/06</lastupdate>
-			<discoveryyear>2012</discoveryyear>
-			<temperature>522.8</temperature>
+			<istransiting>1</istransiting>
 		</planet>
 		<planet>
 			<name>Kepler-26 c</name>
-			<name>KOI 250.02</name>
+			<name>KOI-250 c</name>
+			<name>KOI-250.02</name>
 			<name>KIC 9757613 c</name>
+			<name>KIC 9757613.02</name>
+			<radius errorminus="0.02825" errorplus="0.02825">0.26792</radius>
+			<period errorminus=".000034" errorplus="0.000034">17.251204</period>
+			<transittime errorminus="0.0010900" errorplus="0.0010900">2454982.8863600</transittime>
 			<list>Confirmed planets</list>
-			<radius>0.32806</radius>
-			<period>17.25</period>
-			<semimajoraxis>0.107</semimajoraxis>
-			<transittime errorminus="0.0040" errorplus="0.0040" unit="BJD">2454982.8854</transittime>
-			<description>This planet candidate was discovered with the Kepler spacecraft. Its host star gets periodically fainter whenever the planet is in front of the star. Because there are multiple phenomena that can create a signal that looks similar to a planetary transit, the candidates have to be confirmed with another method. For Kepler-26 the planetary nature of the companions has been confirmed by transit timing variations, caused by other planets in the system, and a stability analysis. However, the mass of the planets is not well constrained yet.</description>
+			<description>Kepler-26 c has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-26 c are still unknown, the object is highly unlikely to be a false positive.</description>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/26</lastupdate>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>12/08/06</lastupdate>
-			<discoveryyear>2012</discoveryyear>
-			<temperature>465.9</temperature>
+			<istransiting>1</istransiting>
 		</planet>
-		<name>Kepler-26</name>
-		<temperature>4500.0</temperature>
+		<planet>
+			<name>Kepler-26 d</name>
+			<name>KOI-250 d</name>
+			<name>KOI-250.03</name>
+			<name>KIC 9757613 d</name>
+			<name>KIC 9757613.03</name>
+			<radius errorminus="0.00547" errorplus="0.00547">0.09751</radius>
+			<period errorminus=".000015" errorplus="0.000015">3.543919</period>
+			<transittime errorminus="0.0025300" errorplus="0.0025300">2454969.2590300</transittime>
+			<list>Confirmed planets</list>
+			<description>Kepler-26 d has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-26 d are still unknown, the object is highly unlikely to be a false positive.</description>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/26</lastupdate>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+		</planet>
+		<planet>
+			<name>Kepler-26 e</name>
+			<name>KOI-250 e</name>
+			<name>KOI-250.04</name>
+			<name>KIC 9757613 e</name>
+			<name>KIC 9757613.04</name>
+			<radius errorminus="0.01367" errorplus="0.01367">0.21962</radius>
+			<period errorminus=".000173" errorplus="0.000173">46.827915</period>
+			<transittime errorminus="0.0022400" errorplus="0.0022400">2454969.7431800</transittime>
+			<list>Confirmed planets</list>
+			<description>Kepler-26 e has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-26 e are still unknown, the object is highly unlikely to be a false positive.</description>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/26</lastupdate>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+		</planet>
 	</star>
-	<videolink>http://youtu.be/vhx5kW-Zgiw</videolink>
 </system>

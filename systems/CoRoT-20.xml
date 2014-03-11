@@ -2,10 +2,10 @@
 	<name>CoRoT-20</name>
 	<rightascension>06 30 53</rightascension>
 	<declination>00 13 37</declination>
-	<distance>1230</distance>
+	<distance errorminus="120" errorplus="120">1230</distance>
 	<star>
-		<mass>1.14</mass>
-		<radius>0.92</radius>
+		<mass errorminus="0.14" errorplus="0.14">1.14</mass>
+		<radius errorminus="0.05" errorplus="0.05">1.02</radius>
 		<magV>14.66</magV>
 		<magB errorminus="0.42" errorplus="0.42">15.41</magB>
 		<magR errorminus="0.12" errorplus="0.12">14.60</magR>
@@ -13,7 +13,8 @@
 		<magJ errorminus="0.026" errorplus="0.026">12.991</magJ>
 		<magH errorminus="0.027" errorplus="0.027">12.652</magH>
 		<magK errorminus="0.029" errorplus="0.029">12.513</magK>
-		<metallicity>0.14</metallicity>
+		<metallicity errorminus="0.12" errorplus="0.12">0.14</metallicity>
+		<age errorminus="0.04" errorplus="0.8">0.1</age>
 		<spectraltype>G2V</spectraltype>
 		<planet>
 			<name>CoRoT-20 b</name>
@@ -21,19 +22,20 @@
 			<name>2MASS J06305289+0013369 b</name>
 			<name>USNO-A2.0 0900-03054387 b</name>
 			<list>Confirmed planets</list>
-			<mass>4.24</mass>
-			<radius>0.84</radius>
+			<mass errorminus="0.23" errorplus="0.23">4.24</mass>
+			<radius errorminus="0.04" errorplus="0.04">0.84</radius>
 			<period>9.2</period>
-			<semimajoraxis>0.0902</semimajoraxis>
-			<eccentricity>0.562</eccentricity>
-			<inclination>88.21</inclination>
+			<semimajoraxis errorminus="0.0021" errorplus="0.0021">0.0902</semimajoraxis>
+			<eccentricity errorminus="0.013" errorplus="0.013">0.562</eccentricity>
+			<inclination errorminus="0.53" errorplus="0.53">88.21</inclination>
 			<transittime errorminus="0.0014" errorplus="0.0014" unit="BJD">2455266.0001</transittime>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>11/06/14</lastupdate>
 			<discoveryyear>2011</discoveryyear>
-			<temperature>810.2</temperature>
+			<temperature errorminus="24" errorplus="24">1002</temperature>
+			<istransiting>1</istransiting>
 		</planet>
 		<name>CoRoT-20</name>
-		<temperature>5880.0</temperature>
+		<temperature errorminus="90" errorplus="90">5880.0</temperature>
 	</star>
 </system>

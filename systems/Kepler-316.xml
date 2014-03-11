@@ -1,0 +1,48 @@
+<system>
+	<name>Kepler-316</name>
+	<name>KOI-1713</name>
+	<name>KIC 8230616</name>
+	<rightascension>19 23 18</rightascension>
+	<declination>+44 11 02</declination>
+	<distance>344.01</distance>
+	<star>
+		<name>Kepler-316</name>
+		<name>KOI-1713</name>
+		<name>KIC 8230616</name>
+		<temperature errorminus="00" errorplus="200">4204</temperature>
+		<radius errorminus=".052" errorplus="0.052">0.520</radius>
+		<mass errorminus="0.0140" errorplus="0.0140">0.5870</mass>
+		<planet>
+			<name>Kepler-316 c</name>
+			<name>KOI-1713 c</name>
+			<name>KOI-1713.01</name>
+			<name>KIC 8230616 c</name>
+			<name>KIC 8230616.01</name>
+			<radius errorminus="0.01094" errorplus="0.01094">0.10571</radius>
+			<period errorminus=".000034" errorplus="0.000034">6.827766</period>
+			<transittime errorminus="0.0026800" errorplus="0.0026800">2454971.6140100</transittime>
+			<list>Confirmed planets</list>
+			<description>Kepler-316 c has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-316 c are still unknown, the object is highly unlikely to be a false positive.</description>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/26</lastupdate>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+		</planet>
+		<planet>
+			<name>Kepler-316 b</name>
+			<name>KOI-1713 b</name>
+			<name>KOI-1713.02</name>
+			<name>KIC 8230616 b</name>
+			<name>KIC 8230616.02</name>
+			<radius errorminus="0.01002" errorplus="0.01002">0.09660</radius>
+			<period errorminus=".000006" errorplus="0.000006">2.240508</period>
+			<transittime errorminus="0.0016400" errorplus="0.0016400">2454970.8215600</transittime>
+			<list>Confirmed planets</list>
+			<description>Kepler-316 b has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-316 b are still unknown, the object is highly unlikely to be a false positive.</description>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/26</lastupdate>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+		</planet>
+	</star>
+</system>

@@ -1,12 +1,14 @@
 <system>
 	<name>Kepler-9</name>
-	<rightascension>19 02 18</rightascension>
+	<rightascension>19 02 17</rightascension>
 	<declination>+38 24 03</declination>
 	<distance>650</distance>
 	<star>
+		<name>Kepler-9</name>
+		<temperature>5722.0</temperature>
 		<spectraltype>G2</spectraltype>
-		<mass>1</mass>
-		<radius>1.1</radius>
+		<mass errorminus="0.03" errorplus="0.03">1.05</mass>
+		<radius errorminus="0.01" errorplus="0.01">1.23</radius>
 		<magV>13.9</magV>
 		<magR errorminus="0.10" errorplus="0.10">14.09</magR>
 		<magJ errorminus="0.021" errorplus="0.021">12.710</magJ>
@@ -19,16 +21,18 @@
 			<name>KIC 3323887 b</name>
 			<name>KOI-377 b</name>
 			<list>Confirmed planets</list>
-			<mass>0.252</mass>
-			<radius>0.842</radius>
-			<period>19.243158</period>
+			<mass errorminus="0.00471953186" errorplus="0.00471953186">0.141900591</mass>
+			<radius errorminus="0.009113015" errorplus="0.009113015">1.011544678</radius>
+			<period errorminus="0.00007" errorplus="0.00007">19.22418</period>
 			<transittime errorminus="0.00052" errorplus="0.00052" unit="BJD">2455073.43381</transittime>
-			<semimajoraxis>0.14</semimajoraxis>
-			<inclination>88.55</inclination>
+			<semimajoraxis errorminus="0.001" errorplus="0.001">0.143</semimajoraxis>
+			<inclination errorminus="0.7" errorplus="0.7">87.1</inclination>
+			<eccentricity errorminus="0.001" errorplus="0.001">0.0626</eccentricity>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>10/09/09</lastupdate>
+			<lastupdate>14/03/10</lastupdate>
 			<discoveryyear>2010</discoveryyear>
 			<temperature>707.2</temperature>
+			<istransiting>1</istransiting>
 		</planet>
 		<planet>
 			<name>Kepler-9 c</name>
@@ -36,16 +40,18 @@
 			<name>KIC 3323887 c</name>
 			<name>KOI-377 c</name>
 			<list>Confirmed planets</list>
-			<mass>0.171</mass>
-			<radius>0.823</radius>
-			<period>38.90861</period>
-			<semimajoraxis>0.225</semimajoraxis>
-			<inclination>88.12</inclination>
+			<mass errorminus="0.00314635457" errorplus="0.00314635457">0.0975369917</mass>
+			<radius errorminus="0.009113015" errorplus="0.009113015">0.9750926178</radius>
+			<period errorminus="0.0002" errorplus="0.0002">39.03106</period>
+			<semimajoraxis errorminus="0.002" errorplus="0.002">0.229</semimajoraxis>
+			<inclination errorminus="0.7" errorplus="0.7">87.2</inclination>
+			<eccentricity errorminus="0.0002" errorplus="0.0002">0.0684</eccentricity>
 			<transittime errorminus="0.00074" errorplus="0.00074" unit="BJD">2455164.18301</transittime>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>10/09/09</lastupdate>
+			<lastupdate>14/03/10</lastupdate>
 			<discoveryyear>2010</discoveryyear>
 			<temperature>557.9</temperature>
+			<istransiting>1</istransiting>
 		</planet>
 		<planet>
 			<name>Kepler-9 d</name>
@@ -56,14 +62,13 @@
 			<mass>0.022</mass>
 			<radius>0.147</radius>
 			<period errorminus="0.000045" errorplus="0.000045">1.592851</period>
-			<semimajoraxis>0.0273</semimajoraxis>
+			<semimajoraxis errorminus="0.0001" errorplus="0.0001">0.0271</semimajoraxis>
 			<transittime errorminus="0.0033" errorplus="0.0018" unit="BJD">2455015.0943</transittime>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>10/11/23</lastupdate>
+			<lastupdate>14/03/10</lastupdate>
 			<discoveryyear>2010</discoveryyear>
 			<temperature>1601.5</temperature>
+			<istransiting>1</istransiting>
 		</planet>
-		<name>Kepler-9</name>
-		<temperature>5722.0</temperature>
 	</star>
 </system>

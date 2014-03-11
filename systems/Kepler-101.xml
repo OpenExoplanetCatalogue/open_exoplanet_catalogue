@@ -1,0 +1,48 @@
+<system>
+	<name>Kepler-101</name>
+	<name>KOI-46</name>
+	<name>KIC 10905239</name>
+	<rightascension>18 53 01</rightascension>
+	<declination>+48 21 18</declination>
+	<distance>990.44</distance>
+	<star>
+		<name>Kepler-101</name>
+		<name>KOI-46</name>
+		<name>KIC 10905239</name>
+		<temperature errorminus="34" errorplus="134">5570</temperature>
+		<radius errorminus=".415" errorplus="0.415">1.666</radius>
+		<mass errorminus="0.0290" errorplus="0.0290">1.1270</mass>
+		<planet>
+			<name>Kepler-101 b</name>
+			<name>KOI-46 b</name>
+			<name>KOI-46.01</name>
+			<name>KIC 10905239 b</name>
+			<name>KIC 10905239.01</name>
+			<radius errorminus="0.04192" errorplus="0.13305">0.53493</radius>
+			<period errorminus=".000002" errorplus="0.000002">3.487691</period>
+			<transittime errorminus="0.0003100" errorplus="0.0003100">2455003.9312600</transittime>
+			<list>Confirmed planets</list>
+			<description>Kepler-101 b has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-101 b are still unknown, the object is highly unlikely to be a false positive.</description>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/26</lastupdate>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+		</planet>
+		<planet>
+			<name>Kepler-101 c</name>
+			<name>KOI-46 c</name>
+			<name>KOI-46.02</name>
+			<name>KIC 10905239 c</name>
+			<name>KIC 10905239.02</name>
+			<radius errorminus="0.03098" errorplus="0.03098">0.12120</radius>
+			<period errorminus=".000115" errorplus="0.000115">6.029809</period>
+			<transittime errorminus="0.0114600" errorplus="0.0114600">2454965.4820500</transittime>
+			<list>Confirmed planets</list>
+			<description>Kepler-101 c has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-101 c are still unknown, the object is highly unlikely to be a false positive.</description>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/26</lastupdate>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+		</planet>
+	</star>
+</system>

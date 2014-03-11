@@ -4,6 +4,8 @@
 	<declination>+44 39 25</declination>
 	<distance>570.05</distance>
 	<star>
+		<name>Kepler-57</name>
+		<temperature>5145.0</temperature>
 		<magJ errorminus="0.024" errorplus="0.024">13.437</magJ>
 		<magH errorminus="0.022" errorplus="0.022">13.022</magH>
 		<magK errorminus="0.028" errorplus="0.028">12.897</magK>
@@ -11,7 +13,7 @@
 		<radius>0.73</radius>
 		<planet>
 			<name>Kepler-57 b</name>
-			<name>KOI 1270.01</name>
+			<name>KOI-1270.01</name>
 			<name>KID 8564587</name>
 			<list>Confirmed planets</list>
 			<mass>0.015814</mass>
@@ -22,10 +24,11 @@
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/08/19</lastupdate>
 			<discoveryyear>2012</discoveryyear>
+			<istransiting>1</istransiting>
 		</planet>
 		<planet>
 			<name>Kepler-57 c</name>
-			<name>KOI 1270.02</name>
+			<name>KOI-1270.02</name>
 			<name>KID 8564587</name>
 			<list>Confirmed planets</list>
 			<mass>0.007759</mass>
@@ -36,8 +39,7 @@
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/08/19</lastupdate>
 			<discoveryyear>2012</discoveryyear>
+			<istransiting>1</istransiting>
 		</planet>
-		<name>Kepler-57</name>
-		<temperature>5145.0</temperature>
 	</star>
 </system>

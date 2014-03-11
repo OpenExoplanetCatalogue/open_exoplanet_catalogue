@@ -1,0 +1,47 @@
+<system>
+	<name>Kepler-225</name>
+	<name>KOI-736</name>
+	<name>KIC 10340423</name>
+	<rightascension>19 28 46</rightascension>
+	<declination>+47 27 25</declination>
+	<distance>342.18</distance>
+	<star>
+		<name>Kepler-225</name>
+		<name>KOI-736</name>
+		<name>KIC 10340423</name>
+		<temperature errorminus="50" errorplus="150">3682</temperature>
+		<radius errorminus=".020" errorplus="0.020">0.480</radius>
+		<planet>
+			<name>Kepler-225 c</name>
+			<name>KOI-736 c</name>
+			<name>KOI-736.01</name>
+			<name>KIC 10340423 c</name>
+			<name>KIC 10340423.01</name>
+			<radius errorminus="0.00911" errorplus="0.00911">0.16768</radius>
+			<period errorminus=".000076" errorplus="0.000076">18.794234</period>
+			<transittime errorminus="0.0021600" errorplus="0.0021600">2455010.7935000</transittime>
+			<list>Confirmed planets</list>
+			<description>Kepler-225 c has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-225 c are still unknown, the object is highly unlikely to be a false positive.</description>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/26</lastupdate>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+		</planet>
+		<planet>
+			<name>Kepler-225 b</name>
+			<name>KOI-736 b</name>
+			<name>KOI-736.02</name>
+			<name>KIC 10340423 b</name>
+			<name>KIC 10340423.02</name>
+			<radius errorminus="0.00638" errorplus="0.00638">0.10936</radius>
+			<period errorminus=".000041" errorplus="0.000041">6.738975</period>
+			<transittime errorminus="0.0036000" errorplus="0.0036000">2454968.2765800</transittime>
+			<list>Confirmed planets</list>
+			<description>Kepler-225 b has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-225 b are still unknown, the object is highly unlikely to be a false positive.</description>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/26</lastupdate>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+		</planet>
+	</star>
+</system>

@@ -1,43 +1,64 @@
 <system>
 	<name>Kepler-54</name>
+	<name>KOI-886</name>
+	<name>KIC 7455287</name>
 	<rightascension>19 39 05</rightascension>
 	<declination>+43 03 22</declination>
-	<distance>326.56</distance>
+	<distance>499.51</distance>
 	<star>
-		<magJ errorminus="0.023" errorplus="0.023">13.508</magJ>
-		<magH errorminus="0.024" errorplus="0.024">12.897</magH>
-		<magK errorminus="0.021" errorplus="0.021">12.648</magK>
-		<mass>0.51</mass>
-		<radius>0.5</radius>
+		<name>Kepler-54</name>
+		<name>KOI-886</name>
+		<name>KIC 7455287</name>
+		<temperature errorminus="00" errorplus="100">4252</temperature>
+		<radius errorminus=".021" errorplus="0.021">0.554</radius>
+		<mass errorminus="0.0330" errorplus="0.0330">0.5140</mass>
 		<planet>
 			<name>Kepler-54 b</name>
-			<name>KOI 886.01</name>
-			<name>KID 7455287</name>
+			<name>KOI-886 b</name>
+			<name>KOI-886.01</name>
+			<name>KIC 7455287 b</name>
+			<name>KIC 7455287.01</name>
+			<radius errorminus="0.01094" errorplus="0.01094">0.18864</radius>
+			<period errorminus=".000030" errorplus="0.000030">8.010260</period>
+			<transittime errorminus="0.0020600" errorplus="0.0020600">2455003.2282300</transittime>
 			<list>Confirmed planets</list>
-			<mass>0.014504</mass>
-			<radius>0.191374</radius>
-			<period>8.0109434</period>
-			<transittime errorminus="0.0029" errorplus="0.0029" unit="BJD">2455103.20573</transittime>
-			<description>This planet candidate was discovered by the Kepler spacecraft. It transits its host star every 8.01 days for 3.4129 hours. Periodic transit timing variations confirm its planetary nature.</description>
+			<description>Kepler-54 b has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-54 b are still unknown, the object is highly unlikely to be a false positive.</description>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/26</lastupdate>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>12/08/19</lastupdate>
-			<discoveryyear>2012</discoveryyear>
+			<istransiting>1</istransiting>
 		</planet>
 		<planet>
 			<name>Kepler-54 c</name>
-			<name>KOI 886.02</name>
-			<name>KID 7455287</name>
+			<name>KOI-886 c</name>
+			<name>KOI-886.02</name>
+			<name>KIC 7455287 c</name>
+			<name>KIC 7455287.02</name>
+			<radius errorminus="0.01094" errorplus="0.01094">0.15948</radius>
+			<period errorminus=".000100" errorplus="0.000100">12.072389</period>
+			<transittime errorminus="0.0062300" errorplus="0.0062300">2454976.4332500</transittime>
 			<list>Confirmed planets</list>
-			<mass>0.004819</mass>
-			<radius>0.112090</radius>
-			<period>12.0717249</period>
-			<transittime errorminus="0.0091" errorplus="0.0091" unit="BJD">2455076.44842</transittime>
-			<description>This planet candidate was discovered by the Kepler spacecraft. It transits its host star every 12.07 days for 4.9738 hours. Periodic transit timing variations confirm its planetary nature.</description>
+			<description>Kepler-54 c has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-54 c are still unknown, the object is highly unlikely to be a false positive.</description>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/26</lastupdate>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>12/08/19</lastupdate>
-			<discoveryyear>2012</discoveryyear>
+			<istransiting>1</istransiting>
 		</planet>
-		<name>Kepler-54</name>
-		<temperature>3705.0</temperature>
+		<planet>
+			<name>Kepler-54 d</name>
+			<name>KOI-886 d</name>
+			<name>KOI-886.03</name>
+			<name>KIC 7455287 d</name>
+			<name>KIC 7455287.03</name>
+			<radius errorminus="0.00729" errorplus="0.00729">0.13943</radius>
+			<period errorminus=".000143" errorplus="0.000143">20.995694</period>
+			<transittime errorminus="0.0039000" errorplus="0.0039000">2454985.3199500</transittime>
+			<list>Confirmed planets</list>
+			<description>Kepler-54 d has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-54 d are still unknown, the object is highly unlikely to be a false positive.</description>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/26</lastupdate>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+		</planet>
 	</star>
 </system>

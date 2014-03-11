@@ -1,19 +1,24 @@
 <system>
 	<name>KOI-314</name>
+	<name>Kepler-138</name>
+	<name>KIC 7603200</name>
 	<rightascension>19 21 31</rightascension>
 	<declination>+43 17 34</declination>
-	<distance>120.87</distance>
+	<distance>114.07</distance>
 	<star>
+		<name>KOI-314</name>
+		<name>Kepler-138</name>
+		<name>KIC 7603200</name>
 		<magJ errorminus="0.022" errorplus="0.022">10.293</magJ>
 		<magH errorminus="0.018" errorplus="0.018">9.680</magH>
 		<magK errorminus="0.011" errorplus="0.011">9.506</magK>
-		<name>KOI-314</name>
 		<temperature errorminus="58" errorplus="58">3871</temperature>
 		<radius errorminus="0.05" errorplus="0.05">0.54</radius>
 		<spectraltype>M1V</spectraltype>
 		<mass errorminus="0.05" errorplus="0.05">0.57</mass>
 		<planet>
 			<name>KOI-314 b</name>
+			<name>Kepler-138 c</name>
 			<name>KOI-314 01</name>
 			<radius errorminus="0.013670" errorplus="0.014581">0.146720</radius>
 			<mass errorminus="0.003964" errorplus="0.004750">0.012048</mass>
@@ -28,9 +33,11 @@
 			<lastupdate>14/01/07</lastupdate>
 			<discoveryyear>2014</discoveryyear>
 			<description>This planet has been confirmed by researchers trying to find extrasolar moons. Although no exo-moon was detected, they were able to confirm the planetary nature of the transit signal by using transit timing variations (TTV). These variations are due to planets pulling on each other gravitationally, therefore extending or shrinking the time between transits. There is another planet candidate in the system which has not been confirmed yet.</description>
+			<istransiting>1</istransiting>
 		</planet>
 		<planet>
 			<name>KOI-314 c</name>
+			<name>Kepler-138 d</name>
 			<name>KOI-314 02</name>
 			<radius errorminus="0.013670" errorplus="0.014581">0.146720</radius>
 			<mass errorminus="0.001070" errorplus="0.001321">0.003177</mass>
@@ -44,20 +51,22 @@
 			<lastupdate>14/01/07</lastupdate>
 			<discoveryyear>2014</discoveryyear>
 			<description>This planet has been confirmed by researchers trying to find extrasolar moons. Although no exo-moon was detected, they were able to confirm the planetary nature of the transit signal by using transit timing variations (TTV). These variations are due to planets pulling on each other gravitationally, therefore extending or shrinking the time between transits. There is another planet candidate in the system which has not been confirmed yet.</description>
+			<istransiting>1</istransiting>
 		</planet>
 		<planet>
-			<name>KOI-314 d</name>
-			<name>KOI-314 03</name>
-			<radius errorminus="0.05" errorplus="0.062">0.040644</radius>
-			<period errorminus="0.000061" errorplus="0.00006">10.312921</period>
-			<transittime errorminus="0.0036000" errorplus="0.0036000">2454966.5522000</transittime>
-			<semimajoraxis>0.0750000</semimajoraxis>
-			<temperature>491.0</temperature>
-			<list>Kepler Objects of Interest</list>
-			<discoverymethod>transit</discoverymethod>
-			<lastupdate>14/01/07</lastupdate>
+			<name>Kepler-138 b</name>
+			<name>KOI-314.03</name>
+			<name>KIC 7603200 b</name>
+			<name>KIC 7603200.03</name>
+			<radius errorminus="0.00456" errorplus="0.00456">0.05559</radius>
+			<period errorminus=".000036" errorplus="0.000036">10.312364</period>
+			<transittime errorminus="0.0019100" errorplus="0.0019100">2454966.5442500</transittime>
+			<list>Confirmed planets</list>
+			<description>Kepler-138 b has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-138 b are still unknown, the object is highly unlikely to be a false positive.</description>
 			<discoveryyear>2014</discoveryyear>
-			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<lastupdate>14/02/26</lastupdate>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
 		</planet>
 	</star>
 </system>

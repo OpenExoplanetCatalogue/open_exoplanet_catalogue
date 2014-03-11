@@ -1,0 +1,48 @@
+<system>
+	<name>Kepler-252</name>
+	<name>KOI-912</name>
+	<name>KIC 8505670</name>
+	<rightascension>19 42 19</rightascension>
+	<declination>+44 32 45</declination>
+	<distance>337.11</distance>
+	<star>
+		<name>Kepler-252</name>
+		<name>KOI-912</name>
+		<name>KIC 8505670</name>
+		<temperature errorminus="50" errorplus="150">4208</temperature>
+		<radius errorminus=".032" errorplus="0.032">0.549</radius>
+		<mass errorminus="0.0150" errorplus="0.0150">0.6100</mass>
+		<planet>
+			<name>Kepler-252 c</name>
+			<name>KOI-912 c</name>
+			<name>KOI-912.01</name>
+			<name>KIC 8505670 c</name>
+			<name>KIC 8505670.01</name>
+			<radius errorminus="0.01185" errorplus="0.01185">0.19593</radius>
+			<period errorminus=".000015" errorplus="0.000015">10.848463</period>
+			<transittime errorminus="0.0008100" errorplus="0.0008100">2455004.8043200</transittime>
+			<list>Confirmed planets</list>
+			<description>Kepler-252 c has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-252 c are still unknown, the object is highly unlikely to be a false positive.</description>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/26</lastupdate>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+		</planet>
+		<planet>
+			<name>Kepler-252 b</name>
+			<name>KOI-912 b</name>
+			<name>KOI-912.02</name>
+			<name>KIC 8505670 b</name>
+			<name>KIC 8505670.02</name>
+			<radius errorminus="0.01094" errorplus="0.01094">0.11209</radius>
+			<period errorminus=".000031" errorplus="0.000031">6.668391</period>
+			<transittime errorminus="0.0027100" errorplus="0.0027100">2454970.4348300</transittime>
+			<list>Confirmed planets</list>
+			<description>Kepler-252 b has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-252 b are still unknown, the object is highly unlikely to be a false positive.</description>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/26</lastupdate>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+		</planet>
+	</star>
+</system>

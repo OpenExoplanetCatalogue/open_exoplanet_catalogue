@@ -4,10 +4,10 @@
 	<declination>+38 56 50</declination>
 	<distance>924.9</distance>
 	<star>
+		<name>Kepler-30</name>
 		<magB errorminus="0.42" errorplus="0.42">16.50</magB>
 		<magR errorminus="0.25" errorplus="0.25">15.95</magR>
 		<magI errorminus="0.44" errorplus="0.44">14.55</magI>
-		<name>Kepler-30</name>
 		<temperature errorminus="54" errorplus="54">5498.0</temperature>
 		<mass errorminus="0.08" errorplus="0.08">0.99</mass>
 		<radius errorminus="0.12" errorplus="0.12">0.95</radius>
@@ -18,7 +18,7 @@
 		<spectraltype>G</spectraltype>
 		<planet>
 			<name>Kepler-30 b</name>
-			<name>KOI 806.01</name>
+			<name>KOI-806.01</name>
 			<name>KIC 3832474 b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.004404" errorplus="0.004404">0.035546</mass>
@@ -35,10 +35,11 @@
 			<lastupdate>12/01/26</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<temperature>556.9</temperature>
+			<istransiting>1</istransiting>
 		</planet>
 		<planet>
 			<name>Kepler-30 c</name>
-			<name>KOI 806.02</name>
+			<name>KOI-806.02</name>
 			<name>KIC 3832474 c</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.157285" errorplus="0.157285">2.013248</mass>
@@ -55,10 +56,11 @@
 			<lastupdate>12/01/26</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<temperature>431.4</temperature>
+			<istransiting>1</istransiting>
 		</planet>
 		<planet>
 			<name>Kepler-30 d</name>
-			<name>KOI 806.03</name>
+			<name>KOI-806.03</name>
 			<name>KIC 3832474 d</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.008493" errorplus="0.008493">0.072666</mass>
@@ -74,6 +76,7 @@
 			<lastupdate>12/01/26</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<temperature>334.2</temperature>
+			<istransiting>1</istransiting>
 		</planet>
 	</star>
 </system>

@@ -25,6 +25,7 @@
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>13/09/13</lastupdate>
 			<discoveryyear>2013</discoveryyear>
+			<istransiting>1</istransiting>
 		</planet>
 		<planet>
 			<name>KOI-285 c</name>
@@ -37,10 +38,11 @@
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>13/09/13</lastupdate>
 			<discoveryyear>2013</discoveryyear>
+			<istransiting>1</istransiting>
 		</planet>
 		<planet>
-			<name>KOI-0285 d</name>
-			<name>KOI-0285 03</name>
+			<name>KOI-285 d</name>
+			<name>KOI-285 03</name>
 			<radius errorminus="0.02187" errorplus="0.02187">0.16768</radius>
 			<period errorminus="7.40000e-04" errorplus="7.40000e-04">49.358990000000</period>
 			<transittime errorminus="0.0073000" errorplus="0.0073000">2454967.2716000</transittime>
@@ -48,6 +50,7 @@
 			<temperature>608.0</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<istransiting>1</istransiting>
 		</planet>
 	</star>
 </system>

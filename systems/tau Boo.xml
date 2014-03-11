@@ -2,7 +2,7 @@
 	<name>tau Boo</name>
 	<rightascension>13 47 17</rightascension>
 	<declination>+17 27 22</declination>
-	<distance>15.6</distance>
+	<distance errorminus="0.05" errorplus="0.05">15.62</distance>
 	<binary>
 		<semimajoraxis>245</semimajoraxis>
 		<eccentricity>0.91</eccentricity>
@@ -12,8 +12,8 @@
 			<name>HD 120136 A</name>
 			<name>GJ 527 A</name>
 			<name>Gliese 527 A</name>
-			<mass>1.3</mass>
-			<radius>1.331</radius>
+			<mass errorminus="0.039" errorplus="0.054">1.341</mass>
+			<radius errorminus="0.027" errorplus="0.027">1.331</radius>
 			<magV>4.5</magV>
 			<magB>4.98</magB>
 			<magR>4.2</magR>
@@ -21,7 +21,9 @@
 			<magJ>3.62</magJ>
 			<magH>3.55</magH>
 			<magK errorminus="0.05" errorplus="0.05">3.36</magK>
-			<metallicity>0.28</metallicity>
+			<metallicity>0.25</metallicity>
+			<temperature>6375</temperature>
+			<age errorminus="0.35" errorplus="0.35">1.95</age>
 			<spectraltype>F7 V</spectraltype>
 			<planet>
 				<name>tau Boo A b</name>
@@ -30,18 +32,19 @@
 				<name>GJ 527 A b</name>
 				<name>Gliese 527 A b</name>
 				<list>Confirmed planets</list>
-				<mass>5.95</mass>
-				<period>3.3135</period>
+				<mass errorminus="0.2" errorplus="0.35">5.90</mass>
+				<period>3.312</period>
 				<semimajoraxis>0.046</semimajoraxis>
 				<eccentricity>0.023</eccentricity>
-				<inclination>44.5</inclination>
+				<inclination errorminus="4" errorplus="3">45</inclination>
 				<description>The planet Tau Bootis b was one of the first exoplanets to be discovered back in 1996. In 2012, astronomers have detected the faint glow that is emitted from the planet, reliably probing the structure of the atmosphere of Tau Bootis b and deducing its mass accurately for the first time.</description>
+				<temperature>2000</temperature>
 				<discoverymethod>RV</discoverymethod>
-				<lastupdate>12/07/05</lastupdate>
+				<lastupdate>14/03/04</lastupdate>
 				<discoveryyear>1996</discoveryyear>
 				<image>tauboo</image>
 				<imagedescription>This artist's impression shows the exoplanet Tau Bootis b. 
-		
+
 		Credit: ESO/L. Calcada</imagedescription>
 				<list>Planets in binary systems, S-type</list>
 			</planet>

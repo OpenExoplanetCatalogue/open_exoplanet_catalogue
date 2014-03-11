@@ -4,6 +4,8 @@
 	<declination>+46 38 24</declination>
 	<distance>811.89</distance>
 	<star>
+		<name>Kepler-59</name>
+		<temperature>6074.0</temperature>
 		<magJ errorminus="0.028" errorplus="0.028">13.253</magJ>
 		<magH errorminus="0.027" errorplus="0.027">12.974</magH>
 		<magK errorminus="0.024" errorplus="0.024">12.928</magK>
@@ -11,7 +13,7 @@
 		<radius>0.94</radius>
 		<planet>
 			<name>Kepler-59 b</name>
-			<name>KOI 1529.02</name>
+			<name>KOI-1529.02</name>
 			<name>KID 9821454</name>
 			<list>Confirmed planets</list>
 			<mass>0.003828</mass>
@@ -22,10 +24,11 @@
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/08/19</lastupdate>
 			<discoveryyear>2012</discoveryyear>
+			<istransiting>1</istransiting>
 		</planet>
 		<planet>
 			<name>Kepler-59 c</name>
-			<name>KOI 1529.01</name>
+			<name>KOI-1529.01</name>
 			<name>KID 9821454</name>
 			<list>Confirmed planets</list>
 			<mass>0.012848</mass>
@@ -36,8 +39,7 @@
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/08/19</lastupdate>
 			<discoveryyear>2012</discoveryyear>
+			<istransiting>1</istransiting>
 		</planet>
-		<name>Kepler-59</name>
-		<temperature>6074.0</temperature>
 	</star>
 </system>

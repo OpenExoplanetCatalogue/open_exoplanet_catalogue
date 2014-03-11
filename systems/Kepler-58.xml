@@ -1,43 +1,64 @@
 <system>
 	<name>Kepler-58</name>
+	<name>KOI-1336</name>
+	<name>KIC 4077526</name>
 	<rightascension>19 45 26</rightascension>
 	<declination>+39 06 54</declination>
-	<distance>1042.62</distance>
+	<distance>1302.83</distance>
 	<star>
-		<magJ errorminus="0.023" errorplus="0.023">13.643</magJ>
-		<magH errorminus="0.025" errorplus="0.025">13.382</magH>
-		<magK errorminus="0.03" errorplus="0.03">13.28</magK>
-		<mass>0.95</mass>
-		<radius>1.03</radius>
+		<name>Kepler-58</name>
+		<name>KOI-1336</name>
+		<name>KIC 4077526</name>
+		<temperature errorminus="00" errorplus="200">6099</temperature>
+		<radius errorminus=".526" errorplus="0.526">1.127</radius>
+		<mass errorminus="0.1200" errorplus="0.1200">1.0400</mass>
 		<planet>
 			<name>Kepler-58 b</name>
-			<name>KOI 1336.01</name>
-			<name>KID 4077526</name>
+			<name>KOI-1336 b</name>
+			<name>KOI-1336.01</name>
+			<name>KIC 4077526 b</name>
+			<name>KIC 4077526.01</name>
+			<radius errorminus="0.03098" errorplus="0.12211">0.25699</radius>
+			<period errorminus=".000077" errorplus="0.000077">10.218558</period>
+			<transittime errorminus="0.0053900" errorplus="0.0053900">2454969.8691200</transittime>
 			<list>Confirmed planets</list>
-			<mass>0.025849</mass>
-			<radius>0.253342</radius>
-			<period>10.2184954</period>
-			<transittime errorminus="0.0056" errorplus="0.0056" unit="BJD">2455069.87048</transittime>
-			<description>This planet candidate was discovered by the Kepler spacecraft. It transits its host star every 10.22 days for 4.3967 hours. Periodic transit timing variations confirm its planetary nature.</description>
+			<description>Kepler-58 b has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-58 b are still unknown, the object is highly unlikely to be a false positive.</description>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/26</lastupdate>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>12/08/19</lastupdate>
-			<discoveryyear>2012</discoveryyear>
+			<istransiting>1</istransiting>
 		</planet>
 		<planet>
 			<name>Kepler-58 c</name>
-			<name>KOI 1336.02</name>
-			<name>KID 4077526</name>
+			<name>KOI-1336 c</name>
+			<name>KOI-1336.02</name>
+			<name>KIC 4077526 c</name>
+			<name>KIC 4077526.02</name>
+			<radius errorminus="0.00273" errorplus="0.18499">0.24241</radius>
+			<period errorminus=".799833" errorplus="4.799833">54.155743</period>
+			<transittime errorminus="1.6717100" errorplus="11.6717100">2454960.2488600</transittime>
 			<list>Confirmed planets</list>
-			<mass>0.027405</mass>
-			<radius>0.260633</radius>
-			<period>15.5741568</period>
-			<transittime errorminus="0.0066" errorplus="0.0066" unit="BJD">2455065.43209</transittime>
-			<description>This planet candidate was discovered by the Kepler spacecraft. It transits its host star every 15.57 days for 5.1013 hours. Periodic transit timing variations confirm its planetary nature.</description>
+			<description>Kepler-58 c has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-58 c are still unknown, the object is highly unlikely to be a false positive.</description>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/26</lastupdate>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>12/08/19</lastupdate>
-			<discoveryyear>2012</discoveryyear>
+			<istransiting>1</istransiting>
 		</planet>
-		<name>Kepler-58</name>
-		<temperature>5843.0</temperature>
+		<planet>
+			<name>Kepler-58 d</name>
+			<name>KOI-1336 d</name>
+			<name>KOI-1336.03</name>
+			<name>KIC 4077526 d</name>
+			<name>KIC 4077526.03</name>
+			<radius errorminus="0.03645" errorplus="0.12758">0.26792</radius>
+			<period errorminus=".000612" errorplus="0.000612">40.101371</period>
+			<transittime errorminus="0.0090300" errorplus="0.0090300">2454965.7179900</transittime>
+			<list>Confirmed planets</list>
+			<description>Kepler-58 d has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-58 d are still unknown, the object is highly unlikely to be a false positive.</description>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/26</lastupdate>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+		</planet>
 	</star>
 </system>

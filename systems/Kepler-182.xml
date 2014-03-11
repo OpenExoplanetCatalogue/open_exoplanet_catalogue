@@ -1,0 +1,48 @@
+<system>
+	<name>Kepler-182</name>
+	<name>KOI-546</name>
+	<name>KIC 12058931</name>
+	<rightascension>19 19 19</rightascension>
+	<declination>+50 35 10</declination>
+	<distance>1440.75</distance>
+	<star>
+		<name>Kepler-182</name>
+		<name>KOI-546</name>
+		<name>KIC 12058931</name>
+		<temperature errorminus="00" errorplus="200">6250</temperature>
+		<radius errorminus=".512" errorplus="0.512">1.146</radius>
+		<mass errorminus="0.1500" errorplus="0.1500">1.1000</mass>
+		<planet>
+			<name>Kepler-182 c</name>
+			<name>KOI-546 c</name>
+			<name>KOI-546.01</name>
+			<name>KIC 12058931 c</name>
+			<name>KIC 12058931.01</name>
+			<radius errorminus="0.04830" errorplus="0.13943">0.31258</radius>
+			<period errorminus=".000097" errorplus="0.000097">20.684342</period>
+			<transittime errorminus="0.0023200" errorplus="0.0023200">2455003.1881900</transittime>
+			<list>Confirmed planets</list>
+			<description>Kepler-182 c has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-182 c are still unknown, the object is highly unlikely to be a false positive.</description>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/26</lastupdate>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+		</planet>
+		<planet>
+			<name>Kepler-182 b</name>
+			<name>KOI-546 b</name>
+			<name>KOI-546.02</name>
+			<name>KIC 12058931 b</name>
+			<name>KIC 12058931.02</name>
+			<radius errorminus="0.01640" errorplus="0.10753">0.23512</radius>
+			<period errorminus=".000062" errorplus="0.000062">9.825792</period>
+			<transittime errorminus="0.0038000" errorplus="0.0038000">2454964.4241400</transittime>
+			<list>Confirmed planets</list>
+			<description>Kepler-182 b has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-182 b are still unknown, the object is highly unlikely to be a false positive.</description>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/26</lastupdate>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+		</planet>
+	</star>
+</system>

@@ -1,0 +1,48 @@
+<system>
+	<name>Kepler-200</name>
+	<name>KOI-654</name>
+	<name>KIC 5941160</name>
+	<rightascension>18 57 38</rightascension>
+	<declination>+41 14 14</declination>
+	<distance>643.59</distance>
+	<star>
+		<name>Kepler-200</name>
+		<name>KOI-654</name>
+		<name>KIC 5941160</name>
+		<temperature errorminus="00" errorplus="100">5678</temperature>
+		<radius errorminus=".158" errorplus="0.158">0.944</radius>
+		<mass errorminus="0.0990" errorplus="0.0990">1.0420</mass>
+		<planet>
+			<name>Kepler-200 b</name>
+			<name>KOI-654 b</name>
+			<name>KOI-654.01</name>
+			<name>KIC 5941160 b</name>
+			<name>KIC 5941160.01</name>
+			<radius errorminus="0.03736" errorplus="0.03736">0.19411</radius>
+			<period errorminus=".000036" errorplus="0.000036">8.594805</period>
+			<transittime errorminus="0.0023400" errorplus="0.0023400">2455004.6299800</transittime>
+			<list>Confirmed planets</list>
+			<description>Kepler-200 b has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-200 b are still unknown, the object is highly unlikely to be a false positive.</description>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/26</lastupdate>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+		</planet>
+		<planet>
+			<name>Kepler-200 c</name>
+			<name>KOI-654 c</name>
+			<name>KOI-654.02</name>
+			<name>KIC 5941160 c</name>
+			<name>KIC 5941160.02</name>
+			<radius errorminus="0.02643" errorplus="0.02643">0.14490</radius>
+			<period errorminus=".000053" errorplus="0.000053">10.222157</period>
+			<transittime errorminus="0.0029700" errorplus="0.0029700">2454968.8905600</transittime>
+			<list>Confirmed planets</list>
+			<description>Kepler-200 c has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-200 c are still unknown, the object is highly unlikely to be a false positive.</description>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/26</lastupdate>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+		</planet>
+	</star>
+</system>

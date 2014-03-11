@@ -1,0 +1,48 @@
+<system>
+	<name>Kepler-125</name>
+	<name>KOI-251</name>
+	<name>KIC 10489206</name>
+	<rightascension>19 53 01</rightascension>
+	<declination>+47 36 17</declination>
+	<distance>223.85</distance>
+	<star>
+		<name>Kepler-125</name>
+		<name>KOI-251</name>
+		<name>KIC 10489206</name>
+		<temperature errorminus="50" errorplus="150">3810</temperature>
+		<radius errorminus=".021" errorplus="0.021">0.512</radius>
+		<mass errorminus="0.0370" errorplus="0.0370">0.5370</mass>
+		<planet>
+			<name>Kepler-125 b</name>
+			<name>KOI-251 b</name>
+			<name>KOI-251.01</name>
+			<name>KIC 10489206 b</name>
+			<name>KIC 10489206.01</name>
+			<radius errorminus="0.00911" errorplus="0.00911">0.21598</radius>
+			<period errorminus=".000003" errorplus="0.000003">4.164389</period>
+			<transittime errorminus="0.0003700" errorplus="0.0003700">2455004.0867600</transittime>
+			<list>Confirmed planets</list>
+			<description>Kepler-125 b has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-125 b are still unknown, the object is highly unlikely to be a false positive.</description>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/26</lastupdate>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+		</planet>
+		<planet>
+			<name>Kepler-125 c</name>
+			<name>KOI-251 c</name>
+			<name>KOI-251.02</name>
+			<name>KIC 10489206 c</name>
+			<name>KIC 10489206.02</name>
+			<radius errorminus="0.00456" errorplus="0.00456">0.06744</radius>
+			<period errorminus=".000047" errorplus="0.000047">5.774464</period>
+			<transittime errorminus="0.0046800" errorplus="0.0046800">2454965.9611800</transittime>
+			<list>Confirmed planets</list>
+			<description>Kepler-125 c has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-125 c are still unknown, the object is highly unlikely to be a false positive.</description>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/02/26</lastupdate>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+		</planet>
+	</star>
+</system>
