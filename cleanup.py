@@ -40,6 +40,7 @@ def indent(elem, level=0):
         if level and (not elem.tail or not elem.tail.strip()):
             elem.tail = i
 
+
 # Removes empty nodes from the tree
 def removeemptytags(elem):
     if elem.text:
@@ -74,7 +75,8 @@ validtags = [
     "magH", "magR", "magB", "magK", "magI", "distance",
     "longitude", "imagedescription", "image", "age", "declination", "rightascension",
     "metallicity", "inclination", "spectraltype", "binary", "planet", "periastron", "star",
-    "mass", "eccentricity", "radius", "temperature", "videolink", "transittime", "rossitermclaughlin"]
+    "mass", "eccentricity", "radius", "temperature", "videolink", "transittime", "rossitermclaughlin",
+    "istransiting"]
 validattributes = [
     "error",
     "errorplus",
@@ -121,20 +123,37 @@ def convertunit(elem, factor):
     convertunitattrib(elem, "lowerlimit", factor)
 
 
-# Check if binary planets have been added to corresponding list
 def checkForBinaryPlanet(root, criteria, liststring):
+    """ Checks if binary planets have been added to corresponding list
+    """
     global fileschanged
     planets = root.findall(criteria)
     for planet in planets:
         plists = planet.findall(".//list")
-        inthere = 0
-        for plist in plists:
-            if plist.text == liststring:
-                inthere = 1
-        if inthere == 0:
+        if liststring not in [plist.text for plist in plists]:
             ET.SubElement(planet, "list").text = liststring
             print "Added '" + filename + "' to list '" + liststring + "'."
             fileschanged += 1
+
+
+# Check if binary planets have been added to corresponding list
+def checkForTransitingPlanets(root):
+    global fileschanged
+    planets = root.findall(".//planet")
+    for planet in planets:
+            addtag = 0
+            hasTransittime = planet.findtext(".//transittime")
+            if hasTransittime:
+                addtag = 1
+            else:
+                discoveryMethod = planet.findtext(".//discoverymethod")
+            if 'transit' in discoveryMethod:
+                    addtag = 1
+
+            if addtag:
+                ET.SubElement(planet, "istransiting").text = '1'
+                print 'Added istransiting tag to {}'.format(filename)
+                fileschanged += 1
 
 
 # Loop over all files and  create new data
@@ -224,6 +243,9 @@ for filename in glob.glob("systems*/*.xml"):
     # Check binary planet lists
     checkForBinaryPlanet(root, ".//binary/planet", "Planets in binary systems, P-type")
     checkForBinaryPlanet(root, ".//binary/star/planet", "Planets in binary systems, S-type")
+
+    # Check transiting planets
+    checkForTransitingPlanets(root)
 
     # Cleanup XML
     removeemptytags(root)
