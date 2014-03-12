@@ -2,7 +2,7 @@
 	<name>Gliese 433</name>
 	<rightascension>11 35 27</rightascension>
 	<declination>-32 32 24</declination>
-	<distance>9.04</distance>
+	<distance errorminus="0.15" errorplus="0.15">9.04</distance>
 	<star>
 		<mass>0.48</mass>
 		<magV>9.79</magV>
@@ -21,14 +21,28 @@
 			<name>Gl 433 b</name>
 			<list>Confirmed planets</list>
 			<mass>0.0182</mass>
-			<period>7.3709</period>
+			<period errorminus="0.0008" errorplus="0.0008">7.3709</period>
 			<semimajoraxis>0.058</semimajoraxis>
-			<eccentricity>0.08</eccentricity>
+			<eccentricity errorminus="0.08" errorplus="0.08">0.08</eccentricity>
 			<description>The star Gliese 433 is a red dwarf in the constellation Hydro. The radial velocity data shows an additional signal with a period of 10 years. However, due to a strong correlation with various activity indicators of the star, it is most likely due to a magnetic cycle and not a planet. The cycle is similar to the Sun's 11 year cycle.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>12/02/14</lastupdate>
+			<lastupdate>14/03/12</lastupdate>
 			<discoveryyear>2009</discoveryyear>
 			<temperature>416.2</temperature>
+		</planet>
+		<planet>
+			<name>Gliese 433 c</name>
+			<name>GJ 433 c</name>
+			<name>Gj 433 c</name>
+			<name>Gl 433 c</name>
+			<list>Confirmed planets</list>
+			<mass>0.14</mass>
+			<period errorminus="253.0" errorplus="253.0">3693.0</period>
+			<semimajoraxis>3.6</semimajoraxis>
+			<eccentricity errorminus="0.09" errorplus="0.09">0.17</eccentricity>
+			<discoverymethod>RV</discoverymethod>
+			<lastupdate>14/03/12</lastupdate>
+			<discoveryyear>2012</discoveryyear>
 		</planet>
 		<name>Gliese 433</name>
 		<temperature>3600.0</temperature>
