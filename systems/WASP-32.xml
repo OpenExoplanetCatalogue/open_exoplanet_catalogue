@@ -3,7 +3,7 @@
 	<rightascension>00 15 51</rightascension>
 	<declination>+01 12 02</declination>
 	<star>
-		<mass>1.07</mass>
+		<mass errorminus="0.03" errorplus="0.03">1.1</mass>
 		<radius>1.09</radius>
 		<magV>11.3</magV>
 		<magB errorminus="0.18" errorplus="0.18">12.06</magB>
@@ -20,21 +20,21 @@
 			<name>TYC 002-01155-1 b</name>
 			<name>2MASS J00155080+0112016 b</name>
 			<list>Confirmed planets</list>
-			<mass>3.46</mass>
-			<radius>1.10</radius>
-			<period>2.718661</period>
-			<semimajoraxis>0.0390</semimajoraxis>
-			<eccentricity>0.0</eccentricity>
+			<mass errorminus="0.07" errorplus="0.07">3.60</mass>
+			<radius errorminus="0.06" errorplus="0.06">1.19</radius>
+			<period errorminus="0.000008" errorplus="0.000008">2.718659</period>
+			<semimajoraxis errorminus="0.0003" errorplus="0.0003">0.0394</semimajoraxis>
+			<eccentricity errorminus="0.0065" errorplus="0.0065">0.0180</eccentricity>
 			<rossitermclaughlin>10.5</rossitermclaughlin>
-			<inclination>85.1</inclination>
+			<inclination errorminus="0.5" errorplus="0.5">85.3</inclination>
 			<transittime errorminus="0.0005" errorplus="0.0005" unit="BJD">2455151.0553</transittime>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>13/03/30</lastupdate>
+			<lastupdate>14/03/20</lastupdate>
 			<discoveryyear>2010</discoveryyear>
 			<temperature>1427.6</temperature>
 			<istransiting>1</istransiting>
 		</planet>
 		<name>WASP-32</name>
-		<temperature>6100.0</temperature>
+		<temperature errorminus="100" errorplus="100">6100.0</temperature>
 	</star>
 </system>
