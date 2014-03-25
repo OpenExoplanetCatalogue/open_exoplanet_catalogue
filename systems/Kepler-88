@@ -1,0 +1,49 @@
+<system>
+	<name>Kepler-88</name>
+	<rightascension>19 24 36</rightascension>
+	<declination>+40 40 10</declination>
+	<distance errorminus="16" errorplus="20">385</distance>
+	<star>
+		<magJ errorminus="0.020" errorplus="0.020">11.882</magJ>
+		<magH errorminus="0.019" errorplus="0.019">11.517</magH>
+		<magK errorminus="0.019" errorplus="0.019">11.454</magK>
+		<name>Kepler-88</name>
+		<temperature errorminus="67" errorplus="67">5513</temperature>
+		<radius errorminus="0.02" errorplus="0.024">0.961</radius>
+		<mass errorminus="0.026" errorplus="0.023">1.022</mass>
+		<age errorminus="1.2" errorplus="0.77">2.45</age>
+		<metallicity errorminus="0.08" errorplus="0.08">0.37</metallicity>
+		<spectraltype>B</spectraltype>
+		<planet>
+			<name>Kepler-88 b</name>
+			<name>KOI-142 b</name>
+			<name>KOI-142.01</name>
+			<radius errorminus="0.026" errorplus="0.0347">0.37647</radius>
+			<period errorminus="6.4e-05" errorplus="0.00143">10.9542</period>
+			<transittime errorminus="0.0004700" errorplus="0.0004700">2454966.0190500</transittime>
+			<mass errorminus="0.0055264" errorplus="0">0.0055264</mass>
+      <semimajoraxis>0.098</semimajoraxis>
+			<inclination errorminus="0.079" errorplus="0.088">0.931</inclination>
+			<eccentricity errorminus="0.00121" errorplus="0.00052">0.0561</eccentricity>
+			<temperature>791.0</temperature>
+			<list>Confirmed planets</list>
+			<discoverymethod>transit</discoverymethod>
+			<lastupdate>13/03/25</lastupdate>
+			<discoveryyear>2013</discoveryyear>
+			<istransiting>1</istransiting>
+		</planet>
+		<planet>
+			<name>Kepler-88 c</name>
+			<period errorminus="0.25" errorplus="0.25">22.1</period>
+			<mass errorminus="0.32" errorplus="0.16">0.76</mass>
+      <semimajoraxis errorminus="0.0021" errorplus="0.0021">0.1529</semimajoraxis>
+			<inclination errorminus="2.7" errorplus="2.1">3.7</inclination>
+			<eccentricity errorminus="0.0028" errorplus="0.0014">0.05628</eccentricity>
+			<list>Confirmed planets</list>
+			<discoverymethod>transit</discoverymethod>
+			<lastupdate>13/03/25</lastupdate>
+			<discoveryyear>2013</discoveryyear>
+			<istransiting>1</istransiting>
+		</planet>
+	</star>
+</system>
