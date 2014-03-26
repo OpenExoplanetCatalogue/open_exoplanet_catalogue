@@ -1,0 +1,41 @@
+<system>
+	<name>Kepler-92</name>
+	<rightascension>19 16 21</rightascension>
+	<declination>+41 33 47</declination>
+	<star>
+		<name>Kepler-92</name>
+		<mass errorminus="0.46" errorplus="0.34">1.17</mass>
+		<radius errorminus="0.19" errorplus="0.19">1.53</radius>
+		<magB errorminus="0.23" errorplus="0.23">12.50</magB>
+		<magV errorminus="0.15" errorplus="0.15">11.67</magV>
+		<magJ errorminus="0.023" errorplus="0.023">10.747</magJ>
+		<magH errorminus="0.021" errorplus="0.021">10.470</magH>
+		<magK errorminus="0.018" errorplus="0.018">10.403</magK>
+		<planet>
+			<name>Kepler-78 b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.0437343285" errorplus="0.0437343285">0.202310599</mass>
+			<radius errorminus="0.039" errorplus="0.039">0.314</radius>
+			<period>13.749</period>
+			<temperature>934</temperature>
+			<semimajoraxis>0.11800</semimajoraxis>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>14/03/26</lastupdate>
+			<discoveryyear>2013</discoveryyear>
+		</planet>
+		<planet>
+			<name>Kepler-78 c</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.00566343823" errorplus="0.00566343823">0.0191927629</mass>
+			<radius errorminus="0.029" errorplus="0.029">0.233</radius>
+			<period>26.723</period>
+			<temperature>748</temperature>
+			<semimajoraxis>0.18400</semimajoraxis>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>14/03/26</lastupdate>
+			<discoveryyear>2013</discoveryyear>
+		</planet>
+	</star>
+</system>
