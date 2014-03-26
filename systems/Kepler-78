@@ -1,0 +1,32 @@
+<system>
+	<name>Kepler-78</name>
+	<rightascension>19 34 58</rightascension>
+	<declination>+44 26 54</declination>
+	<star>
+		<name>Kepler-78</name>
+		<mass errorminus="0.06" errorplus="0.06">0.84</mass>
+		<radius errorminus="0.15" errorplus="0.12">0.73</radius>
+		<temperature errorminus="70" errorplus="70">5143</temperature>
+		<magB errorminus="0.32" errorplus="0.32">12.87</magB>
+		<magV errorminus="0.16" errorplus="0.16">11.72</magV>
+		<magJ errorminus="0.025" errorplus="0.025">10.184</magJ>
+		<magH errorminus="0.018" errorplus="0.018">9.675</magH>
+		<magK errorminus="0.015" errorplus="0.015">9.586</magK>
+		<metallicity errorminus="0.13" errorplus="0.13">-0.08</metallicity>
+		<spectraltype>G</spectraltype>
+		<planet>
+			<name>Kepler-78 b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.00128999779756" errorplus="0.00128999779756">0.00531730799484</mass>
+			<radius errorminus="0.0080292765265" errorplus="0.0080292765265">0.107057020353</radius>
+			<period errorminus="8e-08" errorplus="8e-08">0.35500745</period>
+			<semimajoraxis errorminus="0.011" errorplus="0.0025">0.01</semimajoraxis>
+			<inclination errorminus="6" errorplus="9">81</inclination>
+			<temperature>2330</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>14/03/26</lastupdate>
+			<discoveryyear>2014</discoveryyear>
+		</planet>
+	</star>
+</system>
