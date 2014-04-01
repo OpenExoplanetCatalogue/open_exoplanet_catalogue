@@ -1,0 +1,38 @@
+<system>
+	<name>Kepler-45</name>
+	<rightascension>19 31 30</rightascension>
+	<declination>+41 03 51</declination>
+	<distance errorminus="33" errorplus="33">333</distance>
+	<star>
+		<name>Kepler-45</name>
+		<magV errorminus="0.05" errorplus="0.05">16.88</magV>
+		<magR>16.63</magR>
+		<magJ errorminus="0.024" errorplus="0.024">13.749</magJ>
+		<magH errorminus="0.025" errorplus="0.025">13.077</magH>
+		<magK errorminus="0.03" errorplus="0.03">12.89</magK>
+		<temperature errorminus="90" errorplus="90">3820</temperature>
+		<radius errorminus="0.11" errorplus="0.11">0.55</radius>
+		<mass errorminus="0.06" errorplus="0.06">0.59</mass>
+		<age errorminus="3.6000" errorplus="3.6000">13.9000</age>
+		<metallicity errorminus="0.05" errorplus="0.05">0.08</metallicity>
+		<spectraltype>M</spectraltype>
+		<planet>
+			<name>Kepler-45 b</name>
+			<name>KOI-254 b</name>
+			<name>KOI-254 01</name>
+			<radius errorminus="0.11" errorplus="0.11">0.96</radius>
+			<mass errorminus="0.09" errorplus="0.09">0.505</mass>
+			<period errorminus="5e-06" errorplus="5e-06">2.455239</period>
+			<transittime errorminus="0.0000390" errorplus="0.0000390">2455003.8210080</transittime>
+			<semimajoraxis errorminus="0.003" errorplus="0.003">0.027</semimajoraxis>
+			<inclination errorminus="0.7" errorplus="0.7">87</inclination>
+			<eccentricity errorminus="0.1" errorplus="0.1">0.11</eccentricity>
+			<temperature>774.0</temperature>
+			<list>Confirmed planets</list>
+			<discoverymethod>transit</discoverymethod>
+			<lastupdate>13/03/25</lastupdate>
+			<discoveryyear>2011</discoveryyear>
+			<istransiting>1</istransiting>
+		</planet>
+	</star>
+</system>
