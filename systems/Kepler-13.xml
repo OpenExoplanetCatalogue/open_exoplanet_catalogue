@@ -4,19 +4,21 @@
 	<declination>+46 52 06</declination>
 	<distance>735.73</distance>
 	<star>
+		<name>Kepler-13A</name>
+		<name>KOI-13A</name>
 		<magB>10.16</magB>
 		<magV>9.95</magV>
 		<magJ errorminus="0.022" errorplus="0.022">9.466</magJ>
 		<magH errorminus="0.019" errorplus="0.019">9.455</magH>
 		<magK errorminus="0.014" errorplus="0.014">9.425</magK>
-		<name>Kepler-13A</name>
 		<temperature errorminus="200.00" errorplus="200.00">9071.00</temperature>
 		<radius errorminus="1.9000" errorplus="1.9000">2.7000</radius>
 		<mass errorminus="0.4700" errorplus="0.4700">2.2700</mass>
 		<age errorminus="0.1300" errorplus="0.1300">0.5800</age>
 		<metallicity>-0.14</metallicity>
+		<spectraltype>A</spectraltype>
 		<planet>
-	    <name>Kepler-13A b</name>
+			<name>Kepler-13A b</name>
 			<name>KOI-13 b</name>
 			<name>KOI-13.01</name>
 			<mass errorminus="1.575" errorplus="1.575">6.515</mass>
@@ -26,16 +28,11 @@
 			<semimajoraxis>0.0380000</semimajoraxis>
 			<temperature errorminus="160" errorplus="160">2750</temperature>
 			<list>Confirmed planets</list>
+			<description>KOI-13 b (also known as Kepler-13 b) is a Hot Jupiter orbiting a fast-rotating A-type star.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>13/03/25</lastupdate>
 			<discoveryyear>2011</discoveryyear>
 			<istransiting>1</istransiting>
 		</planet>
-	</star>
-	<star>
-	<name>Kepler-13B</name>
-	<star>
-	<name>Kepler-13BB</name>
-	</star>
 	</star>
 </system>
