@@ -2,7 +2,7 @@
 	<name>beta Pic</name>
 	<rightascension>05 47 17</rightascension>
 	<declination>-51 03 59</declination>
-	<distance>19.3</distance>
+	<distance errorminus="0.2" errorplus="0.2">19.3</distance>
 	<star>
 		<mass>1.8</mass>
 		<magV>3.86</magV>
@@ -10,17 +10,18 @@
 		<magJ errorminus="0.24" errorplus="0.24">3.67</magJ>
 		<magH errorminus="0.20" errorplus="0.20">3.54</magH>
 		<magK errorminus="0.22" errorplus="0.22">3.53</magK>
+		<age errorminus="0.004" errorplus="0.004">0.012</age>
 		<spectraltype>A6V</spectraltype>
 		<planet>
 			<name>beta Pic b</name>
 			<list>Confirmed planets</list>
-			<mass>8</mass>
-			<period>7300</period>
-			<semimajoraxis>8.5</semimajoraxis>
-			<eccentricity>0.17</eccentricity>
-			<inclination>88.5</inclination>
+			<mass errorminus="4" errorplus="3">7</mass>
+			<period errorminus="511.339078" errorplus="1059.20238">7487.46508</period>
+			<semimajoraxis errorminus="0.41" errorplus="0.82">9.04</semimajoraxis>
+			<eccentricity errorminus="0.04" errorplus="0.07">0.06</eccentricity>
+			<inclination errorminus="0.68" errorplus="0.68">90.69</inclination>
 			<discoverymethod>imaging</discoverymethod>
-			<lastupdate>12/02/14</lastupdate>
+			<lastupdate>14/04/01</lastupdate>
 			<discoveryyear>2008</discoveryyear>
 			<image>beta Pic</image>
 			<imagedescription>This image shows the planet Beta Pictoris b. It has been optained with NACO on VLT. The star has been masked out to enable the viewer to see clearly the planet. Credit: ESO.</imagedescription>
