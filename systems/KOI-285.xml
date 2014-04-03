@@ -1,56 +1,47 @@
 <system>
 	<name>KOI-285</name>
-	<rightascension>19 16 20</rightascension>
-	<declination>+41 33 46</declination>
-	<distance>367.56</distance>
+	<name>Kepler-92</name>
+	<rightascension>19 16 21</rightascension>
+	<declination>+41 33 47</declination>
 	<star>
+		<name>KOI-285</name>
+		<name>Kepler-92</name>
+		<mass errorminus="0.46" errorplus="0.34">1.17</mass>
+		<radius errorminus="0.19" errorplus="0.19">1.53</radius>
 		<magB errorminus="0.23" errorplus="0.23">12.50</magB>
 		<magV errorminus="0.15" errorplus="0.15">11.67</magV>
 		<magJ errorminus="0.023" errorplus="0.023">10.747</magJ>
 		<magH errorminus="0.021" errorplus="0.021">10.470</magH>
 		<magK errorminus="0.018" errorplus="0.018">10.403</magK>
-		<temperature errorminus="50.00" errorplus="50.00">5883.00</temperature>
-		<age errorminus="1.1000" errorplus="1.1000">5.2000</age>
-		<name>KOI-285</name>
-		<radius errorminus=".19" errorplus="0.19">1.53</radius>
-		<mass errorminus="0.34" errorplus="0.46">1.17</mass>
 		<planet>
 			<name>KOI-285 b</name>
-			<name>KOI-285 1</name>
-			<radius errorminus="0.04010" errorplus="0.04010">0.31987</radius>
-			<mass errorminus="0.00063" errorplus="0.28217">0.18969</mass>
-			<period>13.749</period>
+			<name>KOI-285.01</name>
+			<name>Kepler-92 b</name>
 			<list>Confirmed planets</list>
-			<description>This planet was discovered by the Kepler spacecraft. The planet is part of a multiplanetary system. Its planetary nature has been confirmed using transit timing variations which arise because the planets in one system pull on each other and slightly alter the transit times.</description>
+			<mass errorminus="0.0437343285" errorplus="0.0437343285">0.202310599</mass>
+			<radius errorminus="0.039" errorplus="0.039">0.314</radius>
+			<period>13.749</period>
+			<temperature>934</temperature>
+			<semimajoraxis>0.11800</semimajoraxis>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>13/09/13</lastupdate>
-			<discoveryyear>2013</discoveryyear>
 			<istransiting>1</istransiting>
+			<lastupdate>14/03/26</lastupdate>
+			<discoveryyear>2013</discoveryyear>
 		</planet>
 		<planet>
 			<name>KOI-285 c</name>
-			<name>KOI-285 2</name>
-			<radius errorminus="0.02916" errorplus="0.02916">0.23694</radius>
-			<mass errorminus="0.00157" errorplus="0.02800">0.01825</mass>
-			<period>26.723</period>
+			<name>KOI-285.02</name>
+			<name>Kepler-92 c</name>
 			<list>Confirmed planets</list>
-			<description>This planet was discovered by the Kepler spacecraft. The planet is part of a multiplanetary system. Its planetary nature has been confirmed using transit timing variations which arise because the planets in one system pull on each other and slightly alter the transit times.</description>
+			<mass errorminus="0.00566343823" errorplus="0.00566343823">0.0191927629</mass>
+			<radius errorminus="0.029" errorplus="0.029">0.233</radius>
+			<period>26.723</period>
+			<temperature>748</temperature>
+			<semimajoraxis>0.18400</semimajoraxis>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>13/09/13</lastupdate>
+			<istransiting>1</istransiting>
+			<lastupdate>14/03/26</lastupdate>
 			<discoveryyear>2013</discoveryyear>
-			<istransiting>1</istransiting>
-		</planet>
-		<planet>
-			<name>KOI-285 d</name>
-			<name>KOI-285 03</name>
-			<radius errorminus="0.02187" errorplus="0.02187">0.16768</radius>
-			<period errorminus="7.40000e-04" errorplus="7.40000e-04">49.358990000000</period>
-			<transittime errorminus="0.0073000" errorplus="0.0073000">2454967.2716000</transittime>
-			<semimajoraxis>0.2780000</semimajoraxis>
-			<temperature>608.0</temperature>
-			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<istransiting>1</istransiting>
 		</planet>
 	</star>
 </system>
