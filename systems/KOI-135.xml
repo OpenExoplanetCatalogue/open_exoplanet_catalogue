@@ -2,36 +2,40 @@
 	<name>KOI-135</name>
 	<rightascension>19 00 58</rightascension>
 	<declination>+46 40 06</declination>
-	<distance>1950</distance>
+	<distance errorminus="250" errorplus="250">1950</distance>
 	<star>
-		<mass>1.32</mass>
-		<radius>1.2</radius>
-		<magV>14</magV>
+		<name>KOI-135</name>
 		<magB>13.8</magB>
 		<magR errorminus="0.15" errorplus="0.15">14.16</magR>
 		<magJ errorminus="0.022" errorplus="0.022">12.858</magJ>
 		<magH errorminus="0.020" errorplus="0.020">12.605</magH>
 		<magK errorminus="0.03" errorplus="0.03">12.55</magK>
-		<metallicity>0.33</metallicity>
+		<temperature errorminus="143" errorplus="143">6041</temperature>
+		<radius errorminus="0.06" errorplus="0.06">1.2</radius>
+		<mass errorminus="0.09" errorplus="0.09">1.32</mass>
+		<age errorminus="0.8" errorplus="0.8">2.8</age>
+		<metallicity errorminus="0.11" errorplus="0.11">0.33</metallicity>
 		<spectraltype>G0V/G0IV</spectraltype>
 		<planet>
 			<name>KOI-135 b</name>
+			<name>Kepler-43 b</name>
+			<name>KOI-135.01</name>
 			<name>GSC 03541-00075 b</name>
 			<name>KIC 9818381 b</name>
 			<name>2MASS J19005780+4640057 b</name>
-			<list>Confirmed planets</list>
-			<mass>3.23</mass>
-			<radius>1.2</radius>
-			<period>3.024095</period>
-			<semimajoraxis>0.0449</semimajoraxis>
+			<mass errorminus="0.19" errorplus="0.19">3.23</mass>
+			<radius errorminus="0.06" errorplus="0.06">1.2</radius>
+			<period errorminus="2.1e-05" errorplus="2.1e-05">3.024095</period>
+			<transittime errorminus="0.0000650" errorplus="0.0000650">2454965.4159290</transittime>
+			<inclination errorminus="0.4" errorplus="0.4">84.35</inclination>
 			<eccentricity>0.025</eccentricity>
-			<inclination>84.35</inclination>
-			<transittime errorminus="0.0006" errorplus="0.0006" unit="BJD">2454965.4159</transittime>
+			<semimajoraxis errorminus="0.001" errorplus="0.001">0.0449</semimajoraxis>
+			<temperature>1402.0</temperature>
+			<list>Confirmed planets</list>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>11/10/26</lastupdate>
+			<lastupdate>13/03/25</lastupdate>
 			<discoveryyear>2011</discoveryyear>
 			<istransiting>1</istransiting>
 		</planet>
-		<name>KOI-135</name>
 	</star>
 </system>
