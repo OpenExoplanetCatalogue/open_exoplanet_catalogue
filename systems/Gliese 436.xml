@@ -2,11 +2,11 @@
 	<name>Gliese 436</name>
 	<rightascension>11 42 11</rightascension>
 	<declination>+26 42 23</declination>
-	<distance>10.2</distance>
+	<distance errorminus="0.23" errorplus="0.25">10.14</distance>
 	<star>
-		<mass>0.452</mass>
-		<radius>0.464</radius>
-		<magV errorminus="0.08" errorplus="0.08">10.59</magV>
+		<mass errorminus="0.012" errorplus="0.014">0.452</mass>
+		<radius errorminus="0.012" errorplus="0.014">0.464</radius>
+		<magV errorminus="0.011" errorplus="0.009">10.59</magV>
 		<magR>9.58</magR>
 		<magI>8.24</magI>
 		<magB errorminus="0.28" errorplus="0.28">12.06</magB>
@@ -14,23 +14,23 @@
 		<magH errorminus="0.023" errorplus="0.023">6.319</magH>
 		<magK errorminus="0.016" errorplus="0.016">6.073</magK>
 		<metallicity>-0.32</metallicity>
-		<spectraltype>M3.5V</spectraltype>
+		<spectraltype>M2V</spectraltype>
 		<planet>
 			<name>Gliese 436 b</name>
 			<name>GJ 436 b</name>
 			<name>Gj 436 b</name>
 			<name>Gl 436 b</name>
 			<list>Confirmed planets</list>
-			<mass>0.0737</mass>
-			<radius>0.365</radius>
-			<period>2.6438986</period>
-			<semimajoraxis>0.02887</semimajoraxis>
-			<eccentricity>0.15</eccentricity>
-			<inclination>85.8</inclination>
+			<mass errorminus="0.0032" errorplus="0.0032">0.0727</mass>
+			<radius errorminus="0.0092" errorplus="0.0082">0.3767</radius>
+			<period errorminus="9E-5" errorplus="9E-5">2.643850</period>
+			<semimajoraxis errorminus="0.0048" errorplus="0.0048">0.02872</semimajoraxis>
+			<eccentricity errorminus="0.012" errorplus="0.012">0.15</eccentricity>
+			<inclination errorminus="0.25" errorplus="0.25">85.8</inclination>
 			<transittime errorminus="0.0001" errorplus="0.0001" unit="BJD">2454222.6172</transittime>
 			<description>The star Gliese 436 is located in the constellation Leo. Due to tidal forces the planet Gliese 436b is expected to circularise on short timescales. It might be perturbed by an additional planet in the system.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>12/07/20</lastupdate>
+			<lastupdate>14/03/31</lastupdate>
 			<discoveryyear>2004</discoveryyear>
 			<temperature>650.3</temperature>
 			<istransiting>1</istransiting>
