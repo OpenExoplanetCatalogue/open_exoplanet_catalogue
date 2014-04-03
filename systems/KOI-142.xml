@@ -6,27 +6,30 @@
 	<star>
 		<name>KOI-142</name>
 		<name>Kepler-88</name>
-		<mass errorminus="0.038" errorplus="0.038">0.974</mass>
-		<age errorminus="2.0" errorplus="3.2">3.0</age>
-		<radius>0.961</radius>
-		<temperature errorminus="70" errorplus="70">5460</temperature>
 		<magJ errorminus="0.020" errorplus="0.020">11.882</magJ>
 		<magH errorminus="0.019" errorplus="0.019">11.517</magH>
 		<magK errorminus="0.019" errorplus="0.019">11.454</magK>
-		<metallicity errorminus="0.09" errorplus="0.09">0.25</metallicity>
+		<temperature errorminus="67" errorplus="67">5513</temperature>
+		<radius errorminus="0.02" errorplus="0.024">0.961</radius>
+		<mass errorminus="0.026" errorplus="0.023">1.022</mass>
+		<age errorminus="1.2" errorplus="0.77">2.45</age>
+		<metallicity errorminus="0.08" errorplus="0.08">0.37</metallicity>
+		<spectraltype>B</spectraltype>
 		<planet>
 			<name>KOI-142 b</name>
 			<name>Kepler-88 b</name>
 			<list>Confirmed planets</list>
-			<mass>0.0553643</mass>
-			<radius>0.3854811</radius>
-			<period>10.9542</period>
-			<eccentricity>0.05611</eccentricity>
-			<inclination>0.962</inclination>
+			<radius errorminus="0.026" errorplus="0.0347">0.37647</radius>
+			<period errorminus="6.4e-05" errorplus="0.00143">10.9542</period>
+			<transittime errorminus="0.0004700" errorplus="0.0004700">2454966.0190500</transittime>
+			<mass errorminus="0.0055264" errorplus="0">0.0055264</mass>
+			<semimajoraxis>0.098</semimajoraxis>
+			<inclination errorminus="0.079" errorplus="0.088">0.931</inclination>
+			<eccentricity errorminus="0.00121" errorplus="0.00052">0.0561</eccentricity>
+			<temperature>791.0</temperature>
 			<periastron>90.7</periastron>
 			<longitude>6.425</longitude>
 			<ascendingnode>270</ascendingnode>
-			<transittime errorminus="0.0013" errorplus="0.0013" unit="BJD">2454966.08938</transittime>
 			<description>The planets in the KOI-142 have been confirmed using transit timing (TTV) and transit duration variations (TDV). The planets are just wide of the 2:1 mean motion resonance. It is often assumed that convergent migration locks planets in resonances. Then, multiple effects such as stochastic migration can move the planets slightly out of resonance. This is an important clue that might help scientists understand the formation of planetary systems. Note that the mass of the inner planet KOI-142 b is an upper limit.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>13/04/17</lastupdate>
@@ -37,10 +40,11 @@
 			<name>KOI-142 c</name>
 			<name>Kepler-88 c</name>
 			<list>Confirmed planets</list>
-			<mass>0.67915677</mass>
-			<period>22.3383</period>
-			<eccentricity>0.05628</eccentricity>
-			<inclination>3.7</inclination>
+			<period errorminus="0.25" errorplus="0.25">22.1</period>
+			<mass errorminus="0.32" errorplus="0.16">0.76</mass>
+			<semimajoraxis errorminus="0.0021" errorplus="0.0021">0.1529</semimajoraxis>
+			<inclination errorminus="2.7" errorplus="2.1">3.7</inclination>
+			<eccentricity errorminus="0.0028" errorplus="0.0014">0.05628</eccentricity>
 			<periastron>271.1</periastron>
 			<longitude>253.0</longitude>
 			<ascendingnode>259</ascendingnode>
