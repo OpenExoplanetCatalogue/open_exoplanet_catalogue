@@ -1,42 +1,44 @@
 <system>
 	<name>KIC 8435766</name>
-	<name type="pri">Kepler-78</name>
+	<name>Kepler-78</name>
 	<name>2MASS 19345800+4426539</name>
 	<name>TYC 3147-188-1</name>
 	<rightascension>19 34 58</rightascension>
 	<declination>+44 26 54</declination>
 	<star>
 		<name>KIC 8435766</name>
-		<name type="pri">Kepler-78</name>
+		<name>Kepler-78</name>
 		<name>2MASS 19345800+4426539</name>
-		<name>TYC 3147-188-1</name>
-		<mass errorminus="0.05" errorplus="0.05">0.83</mass>
-		<radius errorminus="0.05" errorplus="0.05">0.74</radius>
-		<temperature errorminus="44" errorplus="44">5121</temperature>
-		<metallicity errorminus="0.04" errorplus="0.04">-0.08</metallicity>
-		<magV errorminus="0.32" errorplus="0.32">11.72</magV>
+         	<name>TYC 3147-188-1</name>
+		<mass errorminus="0.06" errorplus="0.06">0.84</mass>
+		<radius errorminus="0.15" errorplus="0.12">0.73</radius>
+		<temperature errorminus="70" errorplus="70">5143</temperature>
 		<magB errorminus="0.32" errorplus="0.32">12.87</magB>
-		<magJ errorminus="0.021" errorplus="0.021">10.184</magJ>
-		<magH errorminus="0.015" errorplus="0.015">9.675</magH>
-		<magK errorminus="0.012" errorplus="0.012">9.586</magK>
+		<magV errorminus="0.16" errorplus="0.16">11.72</magV>
+		<magJ errorminus="0.025" errorplus="0.025">10.184</magJ>
+		<magH errorminus="0.018" errorplus="0.018">9.675</magH>
+		<magK errorminus="0.015" errorplus="0.015">9.586</magK>
+		<metallicity errorminus="0.13" errorplus="0.13">-0.08</metallicity>
 		<spectraltype>G</spectraltype>
 		<age errorminus="0.15" errorplus="0.15">0.625</age>
 		<planet>
 			<name>KIC 8435766 b</name>
-			<name type="pri">Kepler-78 b</name>
+			<name>Kepler-78 b</name>
 			<name>2MASS 19345800+4426539 b</name>
 			<name>TYC 3147-188-1 b</name>
 			<list>Confirmed planets</list>
-			<mass errorminus="0.001290" errorplus="0.001290">0.005285</mass>
-			<radius errorminus="0.008202" errorplus="0.008202">0.109356</radius>
-			<period errorminus="0.00000006" errorplus="0.00000006">0.35500744</period>
-			<inclination errorminus="9" errorplus="6">81</inclination>
-			<transittime errorminus="0.00015" errorplus="0.00015" unit="BJD">2454953.95984</transittime>
+			<mass errorminus="0.00128999779756" errorplus="0.00128999779756">0.00531730799484</mass>
+			<radius errorminus="0.0080292765265" errorplus="0.0080292765265">0.107057020353</radius>
+			<period errorminus="8e-08" errorplus="8e-08">0.35500745</period>
+			<semimajoraxis errorminus="0.011" errorplus="0.0025">0.01</semimajoraxis>
+			<eccentricity>0</eccentricity>
+			<inclination errorminus="6" errorplus="9">81</inclination>
+			<temperature>2330</temperature>
 			<description>The Earth-sized planet KIC 8435766 b, also known as Kepler-78 b, was identified in the Kepler database and confirmed to be a transiting planet (as opposed to an eclipsing binary) through the absence of ellipsoidal or radial velocity variations. The planet has a dayside temperature of 2300K-3100K. The planet's density is similar to that of Earth, suggesting a composition of rock and iron.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>13/10/31</lastupdate>
-			<discoveryyear>2013</discoveryyear>
 			<istransiting>1</istransiting>
+			<lastupdate>14/03/26</lastupdate>
+			<discoveryyear>2013</discoveryyear>
 		</planet>
 	</star>
 </system>
