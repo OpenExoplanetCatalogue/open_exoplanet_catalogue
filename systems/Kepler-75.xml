@@ -1,0 +1,38 @@
+<system>
+	<name>Kepler-75</name>
+	<rightascension>19 24 33</rightascension>
+	<declination>+36 34 39</declination>
+	<distance errorminus="250" errorplus="160">1140</distance>
+	<star>
+		<magB>16.2</magB>
+		<magR>14.9</magR>
+		<magJ errorminus="0.021" errorplus="0.021">13.665</magJ>
+		<magH errorminus="0.025" errorplus="0.025">13.262</magH>
+		<magK errorminus="0.029" errorplus="0.029">13.118</magK>
+		<name>Kepler-75</name>
+		<temperature errorminus="120" errorplus="120">5330</temperature>
+		<radius errorminus="0.04" errorplus="0.04">0.88</radius>
+		<mass errorminus="0.06" errorplus="0.06">0.88</mass>
+		<age errorminus="3" errorplus="3">6</age>
+		<metallicity errorminus="0.15" errorplus="0.15">-0.07</metallicity>
+		<spectraltype>G8V</spectraltype>
+		<planet>
+			<name>Kepler-75 b</name>
+			<name>KOI-889 b</name>
+			<name>KOI-889.01</name>
+			<radius errorminus="0.06" errorplus="0.06">1.03</radius>
+			<period errorminus="2e-06" errorplus="2e-06">8.884924</period>
+			<transittime errorminus="0.0002" errorplus="0.0002">2455002.991</transittime>
+			<mass errorminus="0.5" errorplus="0.5">9.9</mass>
+			<semimajoraxis errorminus="0.05" errorplus="0.05">0.08</semimajoraxis>
+			<inclination errorminus="0.6" errorplus="1">89.1</inclination>
+			<eccentricity errorminus="0.01" errorplus="0.01">0.569</eccentricity>
+			<temperature>721.0</temperature>
+			<list>Confirmed planets</list>
+			<discoverymethod>transit</discoverymethod>
+			<lastupdate>13/03/26</lastupdate>
+			<discoveryyear>2013</discoveryyear>
+			<istransiting>1</istransiting>
+		</planet>
+	</star>
+</system>
