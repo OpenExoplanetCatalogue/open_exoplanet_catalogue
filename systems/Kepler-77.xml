@@ -1,0 +1,38 @@
+<system>
+	<name>Kepler-77</name>
+	<rightascension>19 18 25</rightascension>
+	<declination>+44 20 44</declination>
+	<distance errorminus="70" errorplus="70">570</distance>
+	<star>
+		<magB errorminus="0.04" errorplus="0.04">15.03</magB>
+		<magV errorminus="0.03" errorplus="0.03">14.10</magV>
+		<magR errorminus="0.07" errorplus="0.07">13.91</magR>
+		<magJ errorminus="0.023" errorplus="0.023">12.758</magJ>
+		<magH errorminus="0.019" errorplus="0.019">12.444</magH>
+		<magK errorminus="0.018" errorplus="0.018">12.361</magK>
+		<name>Kepler-77</name>
+		<temperature errorminus="60.00" errorplus="60.00">5520.00</temperature>
+		<radius errorminus="0.02" errorplus="0.02">0.99</radius>
+		<mass errorminus="0.04" errorplus="0.04">0.95</mass>
+		<age errorminus="2" errorplus="2">7.5</age>
+		<metallicity errorminus="0.05" errorplus="0.05">0.2</metallicity>
+		<spectraltype>G5V</spectraltype>
+		<planet>
+			<name>Kepler-77 b</name>
+			<name>KOI-127 b</name>
+			<name>KOI-127.01</name>
+			<radius errorminus="0.016" errorplus="0.016">0.96</radius>
+			<period errorminus="2.3e-07" errorplus="2.3e-07">3.5787087</period>
+			<transittime errorminus="2.9e-05" errorplus="2.9e-05">2455095.86573</transittime>
+			<mass errorminus="0.032" errorplus="0.032">0.43</mass>
+			<semimajoraxis errorminus="0.00063" errorplus="0.00063">0.04501</semimajoraxis>
+			<inclination errorminus="0.11" errorplus="0.11">88.0</inclination>
+			<temperature>1189.0</temperature>
+			<list>Confirmed planets</list>
+			<discoverymethod>transit</discoverymethod>
+			<lastupdate>13/03/26</lastupdate>
+			<discoveryyear>2013</discoveryyear>
+			<istransiting>1</istransiting>
+		</planet>
+	</star>
+</system>
