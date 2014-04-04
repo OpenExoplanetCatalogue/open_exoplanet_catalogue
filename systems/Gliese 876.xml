@@ -2,11 +2,10 @@
 	<name>Gliese 876</name>
 	<rightascension>22 53 13</rightascension>
 	<declination>-14 15 13</declination>
-	<distance errorminus="0.01" errorplus="0.01">4.7</distance>
+	<distance>4.7</distance>
 	<star>
-		<mass errorminus="0.03" errorplus="0.03">0.334</mass>
-		<age errorminus="2.4" errorplus="2.4">2.5</age>
-		<radius>0.36</radius>
+		<mass errorminus="0.03" errorplus="0.03">0.32</mass>
+		<radius>0.3</radius>
 		<magV>10.17</magV>
 		<magR errorminus="0.0017" errorplus="0.0017">9.013</magR>
 		<magI errorminus="0.0017" errorplus="0.0017">7.462</magI>
@@ -14,7 +13,7 @@
 		<magJ errorminus="0.019" errorplus="0.019">5.934</magJ>
 		<magH errorminus="0.049" errorplus="0.049">5.349</magH>
 		<magK errorminus="0.021" errorplus="0.021">5.010</magK>
-		<metallicity errorminus="0.2" errorplus="0.2">0.05</metallicity>
+		<metallicity>0.05</metallicity>
 		<spectraltype>M4 V</spectraltype>
 		<planet>
 			<name>Gliese 876 b</name>
@@ -22,16 +21,16 @@
 			<name>Gj 876 b</name>
 			<name>Gl 876 b</name>
 			<list>Confirmed planets</list>
-			<mass errorminus="0.003" errorplus="0.003">1.927</mass>
-			<period errorminus="3.81" errorplus="3.81">61.03</period>
+			<mass errorminus="0.0045" errorplus="0.0045">2.2756</mass>
+			<period errorminus="0.0086" errorplus="0.0086">61.1166</period>
 			<semimajoraxis errorminus="0.000020" errorplus="0.000020">0.208317</semimajoraxis>
-			<eccentricity errorminus="0.001" errorplus="0.001">0</eccentricity>
+			<eccentricity errorminus="0.0013" errorplus="0.0013">0.0324</eccentricity>
 			<periastron errorminus="3.2" errorplus="3.2">50.3</periastron>
-			<inclination errorminus="6" errorplus="6">84</inclination>
+			<inclination>59</inclination>
 			<longitude errorminus="3.2" errorplus="3.2">325.7</longitude>
 			<description>Gliese 876 is a red dwarf only 15 light years from Earth in the constellation Aquarius. The orbits of the outer three planets are locked in a Laplace reasonance. This resonance is also present in the moons of Jupiter: Io, Europa, Ganymede. This strong dynamical interaction leads to interesting conclusions about the formation history of the system. It is a very strong indication that the planets migrated in the protoplanetary disk to their current position and got locked into mean motion resonances during that process.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>14/04/01</lastupdate>
+			<lastupdate>13/05/11</lastupdate>
 			<discoveryyear>2000</discoveryyear>
 			<temperature>194.2</temperature>
 		</planet>
@@ -41,16 +40,16 @@
 			<name>Gj 876 c</name>
 			<name>Gl 876 c</name>
 			<list>Confirmed planets</list>
-			<mass errorminus="0.003" errorplus="0.003">0.637</mass>
-			<period errorminus="0.19" errorplus="0.19">30.23</period>
-			<semimajoraxis errorminus="0.000024" errorplus="0.000024">0.12959</semimajoraxis>
-			<eccentricity errorminus="0.001" errorplus="0.001">0.002</eccentricity>
-			<inclination errorminus="2.06" errorplus="2.06">48.07</inclination>
+			<mass errorminus="0.0039" errorplus="0.0039">0.7142</mass>
+			<period errorminus="0.0082" errorplus="0.0082">30.0881</period>
+			<semimajoraxis errorminus="0.000024" errorplus="0.000024">0.129590</semimajoraxis>
+			<eccentricity errorminus="0.00093" errorplus="0.00093">0.25591</eccentricity>
+			<inclination>59</inclination>
 			<periastron errorminus="0.70" errorplus="0.70">48.76</periastron>
 			<longitude errorminus="0.94" errorplus="0.94">294.59</longitude>
 			<description>Gliese 876 is a red dwarf only 15 light years from Earth in the constellation Aquarius. The orbits of the outer three planets are locked in a Laplace reasonance. This resonance is also present in the moons of Jupiter: Io, Europa, Ganymede. This strong dynamical interaction leads to interesting conclusions about the formation history of the system. It is a very strong indication that the planets migrated in the protoplanetary disk to their current position and got locked into mean motion resonances during that process.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>14/04/01</lastupdate>
+			<lastupdate>13/05/11</lastupdate>
 			<discoveryyear>2000</discoveryyear>
 			<temperature>245.2</temperature>
 		</planet>
@@ -60,16 +59,16 @@
 			<name>Gj 876 d</name>
 			<name>Gl 876 d</name>
 			<list>Confirmed planets</list>
-			<mass errorminus="0.001" errorplus="0.001">0.017</mass>
-			<period errorminus="0.01" errorplus="0.01">1.94</period>
+			<mass errorminus="0.0012" errorplus="0.0012">0.021</mass>
+			<period errorminus="0.000020" errorplus="0.000020">1.937780</period>
 			<semimajoraxis errorminus="0.00000015" errorplus="0.00000015">0.02080665</semimajoraxis>
-			<eccentricity errorminus="0.04" errorplus="0.04">0.081</eccentricity>
-			<inclination>50</inclination>
+			<eccentricity errorminus="0.055" errorplus="0.055">0.207</eccentricity>
+			<inclination>59</inclination>
 			<periastron errorminus="20" errorplus="20">234</periastron>
 			<longitude errorminus="19" errorplus="19">355</longitude>
 			<description>Gliese 876 is a red dwarf only 15 light years from Earth in the constellation Aquarius. The orbits of the outer three planets are locked in a Laplace reasonance. This resonance is also present in the moons of Jupiter: Io, Europa, Ganymede. This strong dynamical interaction leads to interesting conclusions about the formation history of the system. It is a very strong indication that the planets migrated in the protoplanetary disk to their current position and got locked into mean motion resonances during that process.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>14/04/01</lastupdate>
+			<lastupdate>13/05/11</lastupdate>
 			<discoveryyear>2005</discoveryyear>
 			<temperature>612.8</temperature>
 		</planet>
@@ -79,50 +78,24 @@
 			<name>Gj 876 e</name>
 			<name>Gl 876 e</name>
 			<list>Confirmed planets</list>
-			<mass errorminus="0.001" errorplus="0.001">0.017</mass>
-			<period errorminus="0.001" errorplus="0.001">1.94</period>
-			<eccentricity errorminus="0.04" errorplus="0.04">0.081</eccentricity>
-			<discoverymethod>RV</discoverymethod>
-			<lastupdate>14/04/01</lastupdate>
-			<discoveryyear>2014</discoveryyear>
-		</planet>
-		<planet>
-			<name>Gliese 876 f</name>
-			<name>GJ 876 f</name>
-			<name>Gj 876 f</name>
-			<name>Gl 876 f</name>
-			<list>Confirmed planets</list>
-			<mass errorminus="0.001" errorplus="0.001">0.025</mass>
-			<period errorminus="0.02" errorplus="0.02">10.01</period>
-			<eccentricity errorminus="0.046" errorplus="0.046">0.090</eccentricity>
-			<discoverymethod>RV</discoverymethod>
-			<lastupdate>14/04/01</lastupdate>
-			<discoveryyear>2014</discoveryyear>
-		</planet>
-		<planet>
-			<name>Gliese 876 g</name>
-			<name>GJ 876 g</name>
-			<name>Gj 876 g</name>
-			<name>Gl 876 g</name>
-			<list>Confirmed planets</list>
-			<mass errorminus="0.001" errorplus="0.001">0.039</mass>
-			<period errorminus="90.04" errorplus="90.04">124.69</period>
+			<mass errorminus="0.0053" errorplus="0.0053">0.046</mass>
+			<period errorminus="0.70" errorplus="0.70">124.26</period>
 			<semimajoraxis errorminus="0.0013" errorplus="0.0013">0.3343</semimajoraxis>
-			<eccentricity errorminus="0.048" errorplus="0.048">0.073</eccentricity>
-			<inclination>59.5</inclination>
+			<eccentricity errorminus="0.0013" errorplus="0.0013">0.055</eccentricity>
+			<inclination>59</inclination>
 			<periastron errorminus="22" errorplus="22">239</periastron>
 			<longitude errorminus="24" errorplus="24">335</longitude>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>14/04/01</lastupdate>
+			<lastupdate>13/05/11</lastupdate>
 			<discoveryyear>2010</discoveryyear>
 			<temperature>153.3</temperature>
 			<image>Gliese876e</image>
-			<imagedescription>Artist's impression of Gliese 876 g, a member of a multi-planetary system. The illustration shows the planet from the perspective of a hypothetical moon orbiting.
+			<imagedescription>Artist's impression of Gliese 876 e, a member of a multi-planetary system. The illustration shows the planet from the perspective of a hypothetical moon orbiting.
 
 Credit: Jonah Gallagher.</imagedescription>
 		</planet>
 		<name>Gliese 876</name>
-		<temperature errorminus="300" errorplus="300">3350.0</temperature>
+		<temperature>3350.0</temperature>
 	</star>
 	<videolink>http://youtu.be/1Uf3eBdnxUs</videolink>
 </system>
