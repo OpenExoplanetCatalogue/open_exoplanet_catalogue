@@ -4,27 +4,29 @@
 	<name>KIC 8120608</name>
 	<rightascension>19 54 36</rightascension>
 	<declination>+43 57 18</declination>
-	<distance>243.93</distance>
+	<distance errorminus="18" errorplus="18">151</distance>
 	<star>
 		<name>Kepler-186</name>
 		<name>KOI-571</name>
 		<name>KIC 8120608</name>
-		<temperature errorminus="56" errorplus="256">4048</temperature>
-		<radius errorminus=".038" errorplus="0.038">0.524</radius>
-		<mass errorminus="0.0380" errorplus="0.0380">0.5460</mass>
+		<radius errorminus="0.052" errorplus="0.052">0.472</radius>
+		<mass errorminus="0.055" errorplus="0.055">0.478</mass>
+		<metallicity errorminus="0.1" errorplus="0.1">-0.28</metallicity>
+		<temperature errorminus="54" errorplus="54">3788</temperature>
 		<planet>
 			<name>Kepler-186 c</name>
 			<name>KOI-571 c</name>
 			<name>KOI-571.01</name>
 			<name>KIC 8120608 c</name>
 			<name>KIC 8120608.01</name>
-			<radius errorminus="0.00911" errorplus="0.00911">0.12211</radius>
-			<period errorminus=".000019" errorplus="0.000019">7.267277</period>
+			<radius errorminus="0.010936" errorplus="0.010936">0.097509</radius>
+			<semimajoraxis errorminus="0.0046" errorplus="0.0046">0.0343</semimajoraxis>
+			<period errorminus="0.000012" errorplus="0.000012">7.267301</period>
 			<transittime errorminus="0.0013700" errorplus="0.0013700">2455007.3146100</transittime>
 			<list>Confirmed planets</list>
 			<description>Kepler-186 c has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-186 c are still unknown, the object is highly unlikely to be a false positive.</description>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/02/26</lastupdate>
+			<lastupdate>14/04/17</lastupdate>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
 		</planet>
@@ -34,13 +36,14 @@
 			<name>KOI-571.02</name>
 			<name>KIC 8120608 d</name>
 			<name>KIC 8120608.02</name>
-			<radius errorminus="0.01458" errorplus="0.01458">0.14216</radius>
-			<period errorminus=".000041" errorplus="0.000041">13.343058</period>
+			<radius errorminus="0.014581" errorplus="0.014581">0.127582</radius>
+			<semimajoraxis errorminus="0.01" errorplus="0.01">0.0781</semimajoraxis>
+			<period errorminus="0.000025" errorplus="0.000025">13.342996</period>
 			<transittime errorminus="0.0016900" errorplus="0.0016900">2455009.9011600</transittime>
 			<list>Confirmed planets</list>
 			<description>Kepler-186 d has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-186 d are still unknown, the object is highly unlikely to be a false positive.</description>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/02/26</lastupdate>
+			<lastupdate>14/04/17</lastupdate>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
 		</planet>
@@ -50,13 +53,14 @@
 			<name>KOI-571.03</name>
 			<name>KIC 8120608 b</name>
 			<name>KIC 8120608.03</name>
-			<radius errorminus="0.00820" errorplus="0.00820">0.10389</radius>
-			<period errorminus=".000010" errorplus="0.000010">3.886803</period>
+			<radius errorminus="0.010936" errorplus="0.010936">0.097509</radius>
+			<period errorminus="0.0000063" errorplus="0.0000063">3.8867907</period>
+			<semimajoraxis errorminus="0.0046" errorplus="0.0046">0.0343</semimajoraxis>
 			<transittime errorminus="0.0014400" errorplus="0.0014400">2454966.3284200</transittime>
 			<list>Confirmed planets</list>
 			<description>Kepler-186 b has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-186 b are still unknown, the object is highly unlikely to be a false positive.</description>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/02/26</lastupdate>
+			<lastupdate>14/04/17</lastupdate>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
 		</planet>
@@ -66,13 +70,30 @@
 			<name>KOI-571.04</name>
 			<name>KIC 8120608 e</name>
 			<name>KIC 8120608.04</name>
-			<radius errorminus="0.00911" errorplus="0.00911">0.12120</radius>
-			<period errorminus=".000123" errorplus="0.000123">22.407793</period>
+			<radius errorminus="0.013670" errorplus="0.013670">0.115735</radius>
+			<period errorminus="0.000074" errorplus="0.000074">22.407704</period>
+			<semimajoraxis errorminus="0.015" errorplus="0.015">0.110</semimajoraxis>
 			<transittime errorminus="0.0029100" errorplus="0.0029100">2454986.7975100</transittime>
 			<list>Confirmed planets</list>
 			<description>Kepler-186 e has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-186 e are still unknown, the object is highly unlikely to be a false positive.</description>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/02/26</lastupdate>
+			<lastupdate>14/04/17</lastupdate>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+		</planet>
+		<planet>
+			<name>Kepler-186 f</name>
+			<name>KOI-571 f</name>
+			<name>KOI-571.05</name>
+			<name>KIC 8120608 f</name>
+			<name>KIC 8120608.05</name>
+			<radius errorminus="0.14" errorplus="0.14">1.11</radius>
+			<semimajoraxis errorminus="0.048" errorplus="0.048">0.356</semimajoraxis>
+			<transittime errorminus="0.0068" errorplus="0.0068">2455009.8183</transittime>
+			<list>Confirmed planets</list>
+			<description>Kepler-186 f is the first Earth-size planet in the habitable zone. The mass of the planet is not know, therefore one can only speculate about the planet's composition. If it is rocky, it could have liquid water on it's surface. Kepler-186 orbits an M-dwarf, a star that is much cooler than the Sun. This is why the system's habitable zone is much closer to the star than in the Solar system.</description>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/04/17</lastupdate>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
 		</planet>
