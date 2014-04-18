@@ -4,27 +4,29 @@
 	<declination>+18 53 04</declination>
 	<distance>47</distance>
 	<star>
-		<mass>1.148</mass>
-		<radius>1.146</radius>
+		<mass errorminus="0.022" errorplus="0.022">1.148</mass>
+		<radius errorminus="0.059" errorplus="0.059">1.146</radius>
 		<magV errorminus="0.01" errorplus="0.01">7.63</magV>
 		<magB errorminus="0.02" errorplus="0.02">8.21</magB>
 		<magJ errorminus="0.020" errorplus="0.020">6.591</magJ>
 		<magH errorminus="0.04" errorplus="0.04">6.37</magH>
 		<magK errorminus="0.026" errorplus="0.026">6.308</magK>
-		<metallicity>0.02</metallicity>
+		<metallicity errorminus="0.05" errorplus="0.05">0.02</metallicity>
+		<temperature errorminus="33" errorplus="33">6075</temperature>
+		<age errorminus="2" errorplus="2">4</age>
 		<spectraltype>G0V</spectraltype>
 		<planet>
 			<name>HD 209458 b</name>
 			<list>Confirmed planets</list>
-			<mass>0.714</mass>
-			<radius>1.38</radius>
-			<period>3.52474859</period>
-			<semimajoraxis>0.04747</semimajoraxis>
-			<eccentricity>0.0004</eccentricity>
-			<inclination>86.59</inclination>
+			<mass errorminus="0.017" errorplus="0.017">0.714</mass>
+			<radius errorminus="0.018" errorplus="0.018">1.38</radius>
+			<period errorminus="3.8e-07" errorplus="3.8e-07">3.52474859</period>
+			<semimajoraxis errorminus="0.00055" errorplus="0.00055">0.04747</semimajoraxis>
+			<eccentricity errorminus="0.003" errorplus="0.003">0.0004</eccentricity>
+			<inclination errorminus="0.046" errorplus="0.046">86.59</inclination>
 			<transittime errorminus="0.014" errorplus="0.014" unit="HJD">2451370.048</transittime>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>12/07/05</lastupdate>
+			<lastupdate>14/04/18</lastupdate>
 			<discoveryyear>1999</discoveryyear>
 			<description>By studying the carbon monoxide gas in the upper atmosphere with great accuracy, astronomers found evidence for a wind, blowing at a speed of 5000 to 10000 km per hour.</description>
 			<image>HD209458</image>
@@ -39,6 +41,5 @@
 			<istransiting>1</istransiting>
 		</planet>
 		<name>HD 209458</name>
-		<temperature>6075.0</temperature>
 	</star>
 </system>
