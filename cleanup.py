@@ -75,7 +75,7 @@ validtags = [
     "magH", "magR", "magB", "magK", "magI", "distance",
     "longitude", "imagedescription", "image", "age", "declination", "rightascension",
     "metallicity", "inclination", "spectraltype", "binary", "planet", "periastron", "star",
-    "mass", "eccentricity", "radius", "temperature", "videolink", "transittime", "rossitermclaughlin",
+    "mass", "eccentricity", "radius", "temperature", "videolink", "transittime", "spinorbitalignment",
     "istransiting"]
 validattributes = [
     "error",
