@@ -51,6 +51,7 @@ The following table shows all the possible tags in the Open Exoplanet Catalogue.
 | `description` 	| `planet` | Short description of the planet  |   |
 | `discoveryyear`	| `planet` | Year of the planet's discovery | yyyy  |
 | `lastupdate`	| `planet` | Date of the last (non-trivial) update | yy/mm/dd   |
+| `spinorbitalignment` | `planet` | Rossiter-McLaughlin Effect. | degree |
 
 Errors
 -------------
