@@ -4,14 +4,14 @@
 	<xs:element name="system">
 		<xs:complexType>
 			<xs:choice maxOccurs="unbounded">
-				<xs:element name="name" type="xs:string" minOccurs="0" maxOccurs="5"/>
+				<xs:element name="name" type="xs:string" minOccurs="1"/>
 				<xs:element ref="binary"  minOccurs="0" maxOccurs="1"/>
 				<xs:element ref="planet" minOccurs="0" maxOccurs="1"/>
 				<xs:element ref="star" maxOccurs="1"/>
 				<xs:element name="spectraltype" type="spectraltypedef" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="rightascension" type="rightascensiondef" minOccurs="1" maxOccurs="1"/>
 				<xs:element name="declination" type="declinationdef" minOccurs="1" maxOccurs="1"/>
-				<xs:element name="distance" type="number" minOccurs="1" maxOccurs="1"/>
+				<xs:element name="distance" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="epoch" type="xs:string" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="videolink" type="webreference" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="magB" type="number" minOccurs="0" maxOccurs="1"/>
@@ -28,7 +28,7 @@
 	<xs:element name="planet">
 		<xs:complexType>
 			<xs:choice maxOccurs="unbounded">
-				<xs:element name="name" type="xs:string" minOccurs="0" maxOccurs="5"/>
+				<xs:element name="name" type="xs:string" minOccurs="1"/>
 				<xs:element name="list" type="listtype" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="semimajoraxis" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="eccentricity" type="number" minOccurs="0" maxOccurs="1"/>
@@ -49,7 +49,6 @@
 				<xs:element name="lastupdate" type="xs:string" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="image" type="xs:string" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="imagedescription" type="xs:string" minOccurs="0" maxOccurs="1"/>
-				<xs:element name="rossitermclaughlin" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="spinorbitalignment" type="number" minOccurs="0" maxOccurs="1"/>
 			</xs:choice>
 		</xs:complexType>
@@ -58,7 +57,7 @@
 	<xs:element name="star">
 		<xs:complexType>
 			<xs:choice maxOccurs="unbounded">
-				<xs:element name="name" type="xs:string" minOccurs="0" maxOccurs="5"/>
+				<xs:element name="name" type="xs:string" minOccurs="1"/>
 				<xs:element ref="planet" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="mass" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="radius" type="number" minOccurs="0" maxOccurs="1"/>
@@ -81,9 +80,9 @@
 		<xs:complexType>
 			<xs:choice maxOccurs="unbounded">
 				<xs:element name="name" type="xs:string"/>
-				<xs:element ref="binary" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="binary" minOccurs="0" maxOccurs="2"/>
+				<xs:element ref="star" minOccurs="0" maxOccurs="2"/>
 				<xs:element ref="planet"/>
-				<xs:element ref="star" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element name="semimajoraxis" type="number"/>
 				<xs:element name="eccentricity" type="number"/>
 				<xs:element name="periastron" type="number"/>
@@ -175,7 +174,7 @@
 	<xs:simpleType name="year">
 		<xs:restriction base="xs:integer">
 			<xs:minInclusive value="1781"/>
-			<xs:maxInclusive value="2014"/>
+			<xs:maxInclusive value="2020"/>
 		</xs:restriction>
 	</xs:simpleType>
 	<!-- Positive Integer -->
