@@ -4,22 +4,13 @@ import xml.etree.ElementTree as ET
 
 class System:
     
-    def __init__(self, name=None, rightascension=None, declination=None,\
-            distance=None, epoch=None,*args):
+    def __init__(self,**kwargs):
         """bleg"""
 
+        for key, value in kwargs.iteritems():
+            setattr(self, key, value)
+        self.children = []
         self.name = []
-        if(name.__class__.__name__ == "str"):
-            self.name.append(name)
-        elif(name is None):
-            pass
-        else:
-            self.name = list(name)
-        self.rightascension = rightascension
-        self.declination = declination
-        self.distance = distance
-        self.children = list(args)
-        self.epoch = epoch
 
     def __str__(self):
         tempstr = ""
@@ -31,13 +22,6 @@ class System:
                 else:
                     tempstr += tag + ":"+ getattr(self, tag).__str__() + "\n" 
         return tempstr
-
-    def add_child(self, obj):
-
-        try:
-            setattr(self, obj.name, obj)
-        except:
-            setattr(self, obj.name[0], obj)
 
 class Binary:
 
@@ -81,13 +65,6 @@ class Binary:
                     tempstr += +"   " + tag + ":"+ getattr(self, tag).__str__() + "\n" 
         return tempstr
     
-    def add_child(self, obj):
-
-        try:
-            setattr(self, obj.name, obj)
-        except:
-            setattr(self, obj.name[0], obj)
-
 class Star:
 
     def __init__(self, name=None, mass=None, radius=None, temperature=None, age=None, metallicity=None, \
@@ -125,13 +102,6 @@ class Star:
                 else:
                     tempstr += "        "+tag + ":"+ getattr(self, tag).__str__() + "\n" 
         return tempstr
-
-    def add_child(self, obj):
-
-        try:
-            setattr(self, obj.name, obj)
-        except:
-            setattr(self, obj.name[0], obj)
 
 class Planet:
 
@@ -177,13 +147,6 @@ class Planet:
                 else:
                     tempstr += "            " +tag + ":"+ getattr(self, tag).__str__() + "\n" 
         return tempstr
-
-    def add_child(self, obj):
-
-        try:
-            setattr(self, obj.name, obj)
-        except:
-            setattr(self, obj.name[0], obj)
 
 class number:
 
@@ -494,11 +457,18 @@ class number:
 
         return (self.errorminus != self.errorplus)
 
+def add_child(self, obj):
+
+    try:
+        setattr(self, obj.name, obj)
+    except:
+        setattr(self, obj.name[0], obj)
+
 def xml_to_obj(xml):
     """(str) -> System
     Given an xml file as a str, will return a system object
     """
-    
+
     root = ET.fromstring(xml)
     system = System()
     for sysel in root:
@@ -523,7 +493,7 @@ def xml_to_obj(xml):
                         tempnum.lowerlimit = planel.attrib["lowerlimit"]
                     setattr(planet, planel.tag, tempnum)
             system.children.append(planet)
-            system.add_child(planet)
+            add_child(system, planet)
         elif(sysel.tag == "star"):
             star = Star()
             for starel in sysel:
@@ -547,7 +517,7 @@ def xml_to_obj(xml):
                                 tempnum.lowerlimit = planel.attrib["lowerlimit"]
                             setattr(planet, planel.tag, tempnum)
                     star.children.append(planet)
-                    star.add_child(planet)
+                    add_child(star, planet)
                 elif(len(starel.attrib) == 0):
                     if(starel.tag == "name"):
                         star.name.append(starel.text)
@@ -565,7 +535,7 @@ def xml_to_obj(xml):
                         tempnum.lowerlimit = starel.attrib["lowerlimit"]
                     setattr(star, starel.tag, tempnum)
             system.children.append(star)
-            system.add_child(star)
+            add_child(system, star)
         elif(sysel.tag == "binary"):
             binary = Binary()
             for binel in sysel:
@@ -592,7 +562,7 @@ def xml_to_obj(xml):
                                         tempnum.lowerlimit = planel.attrib["lowerlimit"]
                                     setattr(planet, planel.tag, tempnum)
                             star.children.append(planet)
-                            star.add_child(planet)
+                            add_child(star, planet)
                         elif(len(starel.attrib) == 0):
                             if(starel.tag == "name"):
                                 star.name.append(starel.text)
@@ -609,7 +579,7 @@ def xml_to_obj(xml):
                             if(starel.attrib.has_key("lowerlimit")):
                                 tempnum.lowerlimit = starel.attrib["lowerlimit"]
                     binary.children.append(star)
-                    binary.add_child(star)
+                    add_child(binary, star)
                 elif(binel.tag == "binary"):
                     binarysub = Binary()
                     for binelsub in binel:
@@ -636,7 +606,7 @@ def xml_to_obj(xml):
                                                 tempnum.lowerlimit = planel.attrib["lowerlimit"]
                                             setattr(planet, planel.tag, tempnum)
                                     star.children.append(planet)
-                                    star.add_child(planet)
+                                    add_child(star, planet)
                                 elif(len(starel.attrib) == 0):
                                     if(starel.tag == "name"):
                                         star.name.append(star.text)
@@ -653,7 +623,7 @@ def xml_to_obj(xml):
                                     if(starel.attrib.has_key("lowerlimit")):
                                         tempnum.lowerlimit = starel.attrib["lowerlimit"]
                             binarysub.children.append(star)
-                            binarysub.add_child(star)
+                            add_child(binarysub, star)
                         elif(len(binelsub.attrib) == 0):
                             if(binelsub.tab == "name"):
                                 binarysub.name.append(binelsub.text)
@@ -672,7 +642,7 @@ def xml_to_obj(xml):
                             setattr(binarysub, binelsub.tag, tempnum)
 
                     binary.children.append(binarysub)
-                    binary.add_child(binarysub)
+                    add_child(binary, binarysub)
                 elif(len(binel.attrib) == 0):
                     if(binel.tag == "name"):
                         binary.name.append(binel.text)
@@ -690,7 +660,7 @@ def xml_to_obj(xml):
                         tempnum.lowerlimit = binel.attrib["lowerlimit"]
                     setattr(binary, binel.tag, tempnum)
             system.children.append(binary)
-            system.add_child(binary)
+            add_child(system, binary)
 
         if(len(sysel.attrib) == 0):
             if(sysel.tag == "name"):
@@ -710,7 +680,7 @@ def xml_to_obj(xml):
             setattr(system, sysel.tag, sysel.text)
         
     return system 
-    
+
 
 if __name__ == "__main__":
 
