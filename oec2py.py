@@ -3,94 +3,105 @@ import xml.etree.ElementTree as ET
 
 
 class System:
+    """docstring goes here    """
     
-    def __init__(self,**kwargs):
+    def __init__(self, object_type, **kwargs):
         """bleg"""
 
         for key, value in kwargs.iteritems():
             setattr(self, key, value)
-        self.children = []
         self.name = []
+        self.object_type = object_type
+        self.planets = []
+        self.stars = []
+        self.binaries = []
 
     def __str__(self):
+        # fix this
         tempstr = ""
         for tag in reversed(dir(self)):
-            if(tag[:2] != "__"):
-                if(getattr(self, tag).__class__.__name__ == "list"):
-                    for item in getattr(self, tag):
-                        tempstr += tag + ":" + item.__str__() + "\n"
+            if(tag[:4] == "add_"):
+                pass
+            elif(tag[:2] != "__"):
+                if(type(getattr(self, tag)) == list):
+                    for sub in getattr(self,tag):
+                        tempstr += str(sub) + "\n"
                 else:
-                    tempstr += tag + ":"+ getattr(self, tag).__str__() + "\n" 
+                    tempstr += tag + ": " +str(getattr(self,tag)) + "\n"
         return tempstr
 
-class Binary:
-   
-    def __init__(self,**kwargs):
-        """bleg"""
+    def add_planet(self, planet):
+        
+        if(planet.object_type == "planet"):
+            self.planets.append(planet)
+        else:
+            raise Exception("Not a planet")
+    def add_star(self, star):
+        if(star.object_type == "star"):
+            self.stars.append(star)
+        else:
+            raise Exception("Not a star")
 
-        for key, value in kwargs.iteritems():
-            setattr(self, key, value)
-        self.children = []
-        self.name = []
+    def add_binary(self, binary):
+        if(binary.object_type == "binary"):
+            self.binaries.append(binary)
+        else:
+            raise Exception("Not a binary")
 
-    def __str__(self):
-        tempstr = ""
-        for tag in dir(self):
-            if(tag[:2] != "__"):
-                if(getattr(self, tag).__class__.__name__ == "list"):
-                    for item in getattr(self, tag):
-                        tempstr += "     " + tag + ":" + item.__str__() + "\n"
-                else:
-                    tempstr += +"   " + tag + ":"+ getattr(self, tag).__str__() + "\n" 
-        return tempstr
-    
-class Star:
-    
-    def __init__(self,**kwargs):
-        """bleg"""
+    def __setattr__(self, key, value):
+        """ """
+        if(key == "name" and type(value) is str):
+            self.name.append(value)
+        elif(key == "name" and type(value) is list):
+            self.__dict__["name"] = value
+        if(key == "planet" and type(value) is str):
+            self.planets.append(value)
+        elif(key == "planet" and type(value) is list):
+            self.__dict__["planets"] = value
+        if(key == "star" and type(value) is str):
+            self.stars.append(value)
+        elif(key == "star" and type(value) is list):
+            self.__dict__["stars"] = value
+        if(key == "binary" and type(value) is str):
+            self.binaries.append(value)
+        elif(key == "binary" and type(value) is list):
+            self.__dict__["binaries"] = value
+        else:
+            self.__dict__[key] = value
 
-        for key, value in kwargs.iteritems():
-            setattr(self, key, value)
-        self.children = []
-        self.name = []
-
-    def __str__(self):
-        tempstr = ""
-        for tag in dir(self):
-            if(tag[:2] != "__"):
-                if(getattr(self, tag).__class__.__name__ == "list"):
-                    for item in getattr(self, tag):
-                        tempstr += "        " + tag + ":" + item.__str__() + "\n"
-                else:
-                    tempstr += "        "+tag + ":"+ getattr(self, tag).__str__() + "\n" 
-        return tempstr
-
-class Planet:
-
-    def __init__(self,**kwargs):
-        """bleg"""
-
-        for key, value in kwargs.iteritems():
-            setattr(self, key, value)
-        self.children = []
-        self.name = []
-
-
-    def __str__(self):
-        tempstr = ""
-        for tag in dir(self):
-            if(tag[:2] != "__"):
-                if(getattr(self, tag).__class__.__name__ == "list"):
-                    for item in getattr(self, tag):
-                        tempstr += "            " + tag + ":" + item.__str__() + "\n"
-                else:
-                    tempstr += "            " +tag + ":"+ getattr(self, tag).__str__() + "\n" 
-        return tempstr
 
 class number:
+    """Number class for values containing errors. Math operations use the \
+    the value given. Checking for no 'value' must use "=="
 
-    def __init__(self, value, errorminus=None, errorplus=None, \
-            lowerlimit=None, upperlimit=None):
+    num = Number(10, errorminus=0.5, errorplus=0.8)
+    str(num)
+    >>>10(+0.5 -0.8)
+
+    num * 2
+    >>>20
+
+    num + 2
+    >>>12
+
+    num.errorminus
+    >>>0.5
+
+    num = Number(None, upperlimit=10)
+    str(num) 
+    >>>"upperlimit=10"
+    
+    num + 2
+    >>>TypeError:....
+
+    num == None
+    >>>True
+
+    num is None
+    >>>False
+    """
+
+    def __init__(self, value, **kwargs):
         """"(float, float, float) -> (number)
         number object acts as a typical float object, but can hold\
         errorminus, errorplus, lowerlimit, upperlimit
@@ -101,35 +112,37 @@ class number:
             self.value = float(value)
         except:
             self.value = value
-        try:
-            self.errorminus = float(errorminus)
-        except:
-            self.errorminus = errorminus
-        try:
-            self.errorplus = float(errorplus)
-        except:
-            self.errorplus = errorplus 
-        try:
-            self.upperlimit = float(upperlimit)
-        except:
-            self.upperlimit = upperlimit
-        try:
-            self.lowerlimit = float(lowerlimit)
-        except:
-            self.lowerlimit = lowerlimit
+        for key,val in kwargs.iteritems():
+            setattr(self, key, value)
+   
+
     def __str__(self):
-        """(NoType) -> str
+        """(number) -> str
         Returns a string representation of the number
 
         example for a number with value=2.0, errorminus = 0.5, errorplus = 0.2
             2.0 (+0.5 -0.2)
         """
-        tempstr = str(self.value)
-        if(self.errorplus is not None or self.errorminus is not None):
-            tempstr += "(+" + str(self.errorplus) + " -" + str(self.errorminus) + ")"
-        if(self.upperlimit is not None or self.lowerlimit is not None):
-            tempstr += "(lowerlimit="+ str(self.lowerlimit)+" upperlimit="+ str(self.upperlimit) +")"
+        tempstr = ""
+        if(self.value is not None):
+            tempstr += str(self.value)
+        if(hasattr(self, "errorplus") and self.errorplus is not None):
+            tempstr += "(+" + str(self.errorplus)
+        if(hasattr(self,"errorminus") and self.errorminus is not None):
+            tempstr += " -" + str(self.errorminus) + ")"
+        if(hasattr(self,"upperlimit") and self.upperlimit is not None):
+            tempstr += "upperlimit="+ str(self.upperlimit)
+        if(hasattr(self,"lowerlimit") and self.lowerlimit is not None):
+            tempstr += " lowerlimit="+ str(self.lowerlimit)
         return tempstr 
+
+    def __setattr__(self, key, val):
+
+        try:
+            self.__dict__[key] = float(val)
+        except:
+            self.__dict__[key] = val
+
     def __eq__(self, num):
         """(any)-> any
         returns true if value of self is the same as value of num
@@ -396,12 +409,6 @@ class number:
 
         return (self.errorminus != self.errorplus)
 
-def add_child(self, obj):
-
-    try:
-        setattr(self, obj.name, obj)
-    except:
-        setattr(self, obj.name[0], obj)
 
 def xml_to_obj(xml):
     """(str) -> System
@@ -409,10 +416,10 @@ def xml_to_obj(xml):
     """
 
     root = ET.fromstring(xml)
-    system = System()
+    system = System("system")
     for sysel in root:
         if(sysel.tag == "planet"):
-            planet = Planet()
+            planet = System("planet")
             for planel in sysel:
                 if(len(planel.attrib) == 0):
                     if(planel.tag == "name"):
@@ -431,13 +438,12 @@ def xml_to_obj(xml):
                     if(planel.attrib.has_key("lowerlimit")):
                         tempnum.lowerlimit = planel.attrib["lowerlimit"]
                     setattr(planet, planel.tag, tempnum)
-            system.children.append(planet)
-            add_child(system, planet)
+            system.add_planet(planet)
         elif(sysel.tag == "star"):
-            star = Star()
+            star = System("star")
             for starel in sysel:
                 if(starel.tag == "planet"):
-                    planet = Planet()
+                    planet = System("planet")
                     for planel in starel:
                         if(len(planel.attrib) == 0):
                             if(planel.tag == "name"):
@@ -455,8 +461,7 @@ def xml_to_obj(xml):
                             if(planel.attrib.has_key("lowerlimit")):
                                 tempnum.lowerlimit = planel.attrib["lowerlimit"]
                             setattr(planet, planel.tag, tempnum)
-                    star.children.append(planet)
-                    add_child(star, planet)
+                    star.add_planet(planet)
                 elif(len(starel.attrib) == 0):
                     if(starel.tag == "name"):
                         star.name.append(starel.text)
@@ -473,16 +478,15 @@ def xml_to_obj(xml):
                     if(starel.attrib.has_key("lowerlimit")):
                         tempnum.lowerlimit = starel.attrib["lowerlimit"]
                     setattr(star, starel.tag, tempnum)
-            system.children.append(star)
-            add_child(system, star)
+            system.add_star(star)
         elif(sysel.tag == "binary"):
-            binary = Binary()
+            binary = System("binary")
             for binel in sysel:
                 if(binel.tag == "star"):
-                    star = Star()
+                    star = System("star")
                     for starel in binel:
                         if(starel.tag == "planet"):
-                            planet = Planet()
+                            planet = System("planet")
                             for planel in starel:
                                 if(len(planel.attrib) == 0):
                                     if(planel.tag == "name"):
@@ -500,8 +504,7 @@ def xml_to_obj(xml):
                                     if(planel.attrib.has_key("lowerlimit")):
                                         tempnum.lowerlimit = planel.attrib["lowerlimit"]
                                     setattr(planet, planel.tag, tempnum)
-                            star.children.append(planet)
-                            add_child(star, planet)
+                            star.add_planet(planet)
                         elif(len(starel.attrib) == 0):
                             if(starel.tag == "name"):
                                 star.name.append(starel.text)
@@ -517,16 +520,15 @@ def xml_to_obj(xml):
                                 tempnum.upperlimit = starel.attrib["upperlimit"]
                             if(starel.attrib.has_key("lowerlimit")):
                                 tempnum.lowerlimit = starel.attrib["lowerlimit"]
-                    binary.children.append(star)
-                    add_child(binary, star)
+                    binary.add_star(star)
                 elif(binel.tag == "binary"):
-                    binarysub = Binary()
+                    binarysub = System("binary")
                     for binelsub in binel:
                         if(binelsub.tag == "star"):
-                            star = Star()
+                            star = System("star")
                             for starel in binelsub:
                                 if(starel.tag == "planet"):
-                                    planet = Planet()
+                                    planet = System("planet")
                                     for planel in starel:
                                         if(len(planel.attrib) == 0):
                                             if(planel.tag == "name"):
@@ -544,8 +546,7 @@ def xml_to_obj(xml):
                                             if(planel.attrib.has_key("lowerlimit")):
                                                 tempnum.lowerlimit = planel.attrib["lowerlimit"]
                                             setattr(planet, planel.tag, tempnum)
-                                    star.children.append(planet)
-                                    add_child(star, planet)
+                                    star.add_planet(planet)
                                 elif(len(starel.attrib) == 0):
                                     if(starel.tag == "name"):
                                         star.name.append(star.text)
@@ -561,8 +562,7 @@ def xml_to_obj(xml):
                                         tempnum.upperlimit = starel.attrib["upperlimit"]
                                     if(starel.attrib.has_key("lowerlimit")):
                                         tempnum.lowerlimit = starel.attrib["lowerlimit"]
-                            binarysub.children.append(star)
-                            add_child(binarysub, star)
+                            binarysub.add_star(star)
                         elif(len(binelsub.attrib) == 0):
                             if(binelsub.tab == "name"):
                                 binarysub.name.append(binelsub.text)
@@ -579,9 +579,7 @@ def xml_to_obj(xml):
                             if(binelsub.attrib.has_key("lowerlimit")):
                                 tempnum.lowerlimit = binelsub.attrib["lowerlimit"]
                             setattr(binarysub, binelsub.tag, tempnum)
-
-                    binary.children.append(binarysub)
-                    add_child(binary, binarysub)
+                    binary.add_binary(binarysub)
                 elif(len(binel.attrib) == 0):
                     if(binel.tag == "name"):
                         binary.name.append(binel.text)
@@ -598,9 +596,7 @@ def xml_to_obj(xml):
                     if(binel.attrib.has_key("lowerlimit")):
                         tempnum.lowerlimit = binel.attrib["lowerlimit"]
                     setattr(binary, binel.tag, tempnum)
-            system.children.append(binary)
-            add_child(system, binary)
-
+            system.add_binary(binary)
         if(len(sysel.attrib) == 0):
             if(sysel.tag == "name"):
                 system.name.append(sysel.text)
@@ -623,5 +619,7 @@ def xml_to_obj(xml):
 
 if __name__ == "__main__":
 
-    a = xml_to_obj(open("systems/Kepler-69.xml").read())
+    a = xml_to_obj(open("systems/Kepler-20.xml").read())
     print(a)
+    b = xml_to_obj(open("systems/WASP-99.xml").read())
+    print(b)
