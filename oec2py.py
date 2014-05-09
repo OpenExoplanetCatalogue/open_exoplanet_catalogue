@@ -24,35 +24,14 @@ class System:
         return tempstr
 
 class Binary:
-
-    def __init__(self, name=None, semimajoraxis=None, eccentricity=None,\
-            periastron=None, longitude=None, ascendingnode=None,\
-            inclination=None, period=None, transittime=None, magB=None,\
-            magV=None, magI=None, magJ=None, magH=None, magK=None, *args):
+   
+    def __init__(self,**kwargs):
         """bleg"""
 
+        for key, value in kwargs.iteritems():
+            setattr(self, key, value)
+        self.children = []
         self.name = []
-        if(name.__class__.__name__ == "str"):
-            self.name.append(name)
-        elif(name is None):
-            pass
-        else:
-            self.name = list(name)
-        self.semimajoraxis = semimajoraxis
-        self.eccentricity = eccentricity
-        self.periastron = periastron
-        self.longitude = longitude
-        self.ascendingnode = ascendingnode
-        self.inclination = inclination
-        self.period = period
-        self.transittime = transittime
-        self.magV = magV
-        self.magB = magB
-        self.magI = magI
-        self.magJ = magJ
-        self.magH = magH
-        self.magK = magk
-        self.children = list(args)
 
     def __str__(self):
         tempstr = ""
@@ -66,31 +45,14 @@ class Binary:
         return tempstr
     
 class Star:
-
-    def __init__(self, name=None, mass=None, radius=None, temperature=None, age=None, metallicity=None, \
-            spectraltype=None, magB=None, magV=None, magI=None, magJ=None, magH=None, magK=None, *args):
+    
+    def __init__(self,**kwargs):
         """bleg"""
 
+        for key, value in kwargs.iteritems():
+            setattr(self, key, value)
+        self.children = []
         self.name = []
-        if(name.__class__.__name__ == "str"):
-            self.name.append(name)
-        elif(name is None):
-            pass
-        else:
-            self.name = list(name)
-        self.mass = mass
-        self.radius = radius
-        self.temperature = temperature
-        self.age = age
-        self.metallicity = metallicity
-        self.spectraltype = spectraltype
-        self.magV = magV
-        self.magB = magB
-        self.magI = magI
-        self.magJ = magJ
-        self.magH = magH
-        self.magK = magK
-        self.children = list(args)
 
     def __str__(self):
         tempstr = ""
@@ -105,37 +67,14 @@ class Star:
 
 class Planet:
 
-    def __init__(self, name=None, semimajoraxis=None, eccentricity=None, periastron=None,\
-            longitude=None, ascendingnode=None, inclination=None, period=None, transittime=None,\
-            mass=None, radius=None, temperature=None, age=None, discoverymethod=None, istransiting=None,\
-            description=None, discoveryyear=None, lastupdate=None, spinorbitalignment=None):
+    def __init__(self,**kwargs):
         """bleg"""
-        
+
+        for key, value in kwargs.iteritems():
+            setattr(self, key, value)
+        self.children = []
         self.name = []
-        if(name.__class__.__name__ == "str"):
-            self.name.append(name)
-        elif(name is None):
-            pass
-        else:
-            self.name = list(name)
-        self.semimajoraxis = semimajoraxis
-        self.eccentricity = eccentricity
-        self.periastron = periastron
-        self.longitude = longitude
-        self.ascendingnode = ascendingnode
-        self.inclination = inclination
-        self.period = period
-        self.transittime = transittime
-        self.mass = mass
-        self.radius = radius
-        self.temperature = temperature
-        self.age = age
-        self.discoverymethod = discoverymethod
-        self.istransiting = istransiting
-        self.description = description
-        self.discoveryyear = discoveryyear
-        self.lastupdate = lastupdate
-        self.spinorbitalignment = spinorbitalignment
+
 
     def __str__(self):
         tempstr = ""
