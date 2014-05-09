@@ -1,4 +1,4 @@
-!/usr/bin/python
+#!/usr/bin/python
 import xml.etree.ElementTree as ET
 class color:
     """"Colours for highlighting console print text"""
