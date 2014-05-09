@@ -16,19 +16,41 @@ class System:
         self.stars = []
         self.binaries = []
 
-    def __str__(self):
-        # fix this
+    def __str__(self, tab=""):
         tempstr = ""
+        subtempstr = ""
+        name = ""
         for tag in reversed(dir(self)):
-            if(tag[:4] == "add_"):
+            if(tag == "name"):
+                name = tab + tag + ": " + str(getattr(self,tag)) + "\n"
+            elif(tag[:4] == "add_" or tag == "str_nochild"):
                 pass
             elif(tag[:2] != "__"):
-                if(type(getattr(self, tag)) == list):
+                if(tag == "planets" or tag == "stars" or tag == "binary"):
                     for sub in getattr(self,tag):
-                        tempstr += str(sub) + "\n"
+                        subtempstr += sub.__str__(tab + "    ") 
                 else:
-                    tempstr += tag + ": " +str(getattr(self,tag)) + "\n"
-        return tempstr
+                    if(getattr(self,tag) != []):
+                        tempstr += tab+tag + ": " +str(getattr(self,tag)) + "\n"
+        return name + tempstr + subtempstr
+
+    def str_nochild(self):
+        tempstr = ""
+        name = ""
+        for tag in reversed(dir(self)):
+            if(tag == "name"):
+                name = tag + ": " + str(getattr(self,tag)) + "\n"
+            elif(tag[:4] == "add_" or tag == "str_nochild"):
+                pass
+            elif(tag[:2] != "__"):
+                if(tag == "planets" or tag == "stars" or tag == "binary"):
+                    pass
+                else:
+                    if(getattr(self,tag) != []):
+                        tempstr += tag + ": " +str(getattr(self,tag)) + "\n"
+        return name + tempstr
+
+
 
     def add_planet(self, planet):
         
@@ -48,23 +70,34 @@ class System:
         else:
             raise Exception("Not a binary")
 
+    def add_any_system(self, system):
+        object_type = system.object_type
+        if(object_type == "star"):
+            self.add_star(system)
+        elif(object_type == "planet"):
+            self.add_planet(system)
+        elif(object_type == "binary"):
+            self.add_binary(system)
+        else:
+            raise Exception("Not known system type")
+
     def __setattr__(self, key, value):
         """ """
-        if(key == "name" and type(value) is str):
+        if(key == "name" and type(value) == str):
             self.name.append(value)
-        elif(key == "name" and type(value) is list):
+        elif(key == "name" and type(value) == list):
             self.__dict__["name"] = value
-        if(key == "planet" and type(value) is str):
+        elif(key == "planet" and type(value) == str):
             self.planets.append(value)
-        elif(key == "planet" and type(value) is list):
+        elif(key == "planet" and type(value) == list):
             self.__dict__["planets"] = value
-        if(key == "star" and type(value) is str):
+        elif(key == "star" and type(value) == str):
             self.stars.append(value)
-        elif(key == "star" and type(value) is list):
+        elif(key == "star" and type(value) == list):
             self.__dict__["stars"] = value
-        if(key == "binary" and type(value) is str):
+        elif(key == "binary" and type(value) == str):
             self.binaries.append(value)
-        elif(key == "binary" and type(value) is list):
+        elif(key == "binary" and type(value) == list):
             self.__dict__["binaries"] = value
         else:
             self.__dict__[key] = value
@@ -410,7 +443,33 @@ class number:
         return (self.errorminus != self.errorplus)
 
 
+def xml_to_obj_helper(element):
+
+    sys = System(element.tag)
+    for el in element:
+        if(len(list(el)) != 0):
+            sys.add_any_system(xml_to_obj_helper(el))
+        elif(len(el.attrib) == 0):
+            setattr(sys, el.tag, el.text)
+        else:
+            tempnum = number(el.text)
+            if(el.attrib.has_key("errorminus")):
+                tempnum.errorminus = el.attrib["errorminus"]
+            if(el.attrib.has_key("errorplus")):
+                tempnum.errorplus = el.attrib["errorplus"]
+            if(el.attrib.has_key("upperlimit")):
+                tempnum.upperlimit = el.attrib["upperlimit"]
+            if(el.attrib.has_key("lowerlimit")):
+                tempnum.lowerlimit = el.attrib["lowerlimit"]
+            setattr(sys, el.tag, tempnum)
+    return sys
+
 def xml_to_obj(xml):
+    root = ET.fromstring(xml)
+    return xml_to_obj_helper(root)
+
+
+def xml_to_obj_bkup(xml):
     """(str) -> System
     Given an xml file as a str, will return a system object
     """
@@ -623,3 +682,5 @@ if __name__ == "__main__":
     print(a)
     b = xml_to_obj(open("systems/WASP-99.xml").read())
     print(b)
+    print("----")
+    print(b.str_nochild())
