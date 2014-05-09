@@ -1,12 +1,72 @@
-#!/usr/bin/python
+!/usr/bin/python
 import xml.etree.ElementTree as ET
-
+class color:
+    """"Colours for highlighting console print text"""
+    PURPLE = '\033[95m'
+    CYAN = '\033[96m'
+    DARKCYAN = '\033[36m'
+    BLUE = '\033[94m'
+    GREEN = '\033[92m'
+    YELLOW = '\033[93m'
+    RED = '\033[91m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+    END = '\033[0m'
 
 class System:
-    """docstring goes here    """
+    """System object. May be a planet, star, or binary.
+   
+    System type is the only required parameter for creation. The following\
+    are acceptable types:
+
+    sys = System("system")
+    bin = System("binary")
+    star = System("star")
+    planet = System("planet")
+
+    System parameters must be defined with a key:
+    star = System("star", mass=2)
+
+    Adding systems to each other can be done as follows
+
+    sys.add_binary(bin)
+    bin.add_star(star)
+    star.add_planet(planet)
+    
+    setting as a property will also add to the list:
+    sys.star = System("star")
+
+    children can be accessed as follows:
+    sys = System("system")
+    sys.planets
+    >>>['<planet1>', '<planet2>'...]
+    sys.stars
+    sys.binaries
+
+    system properties can be accessed as any attribute would
+    sys.mass
+    >>>10
+    sys.radius
+    >>>15
+ 
+    str(sys) will by default return the system and all children
+
+    str_nochild will return the properties of just the system, no children
+
+    str_planets, str_stars, str_binaries will return all of the given type
+
+    """
     
     def __init__(self, object_type, **kwargs):
-        """bleg"""
+        """(str)->System
+        arguments must be given with keys. All values and keys are assumed \
+        to be correct and accurate.
+
+        sys = System("planet", mass=10)
+        sys = System("system")
+        sys = System("star")
+        sys = System("binary")
+        """
 
         for key, value in kwargs.iteritems():
             setattr(self, key, value)
@@ -17,60 +77,118 @@ class System:
         self.binaries = []
 
     def __str__(self, tab=""):
+        """(System, str="") -> str
+        returns a string with each system property. Children are indented.\
+        Name is always the first tag.
+
+        planet = System("planet", name="foo", mass=10)
+        str(planet)
+        >>>name:['foo']
+        mass: 10
+        object_type: planet
+        """
+
         tempstr = ""
         subtempstr = ""
-        name = ""
+        name = "\n"
         for tag in reversed(dir(self)):
-            if(tag == "name"):
-                name = tab + tag + ": " + str(getattr(self,tag)) + "\n"
-            elif(tag[:4] == "add_" or tag == "str_nochild"):
+            if(tag == "name" and getattr(self,tag) != []):
+                name += tab + color.BOLD + tag + color.END + ": " + str(getattr(self,tag)) + "\n"
+            elif(tag[:4] == "add_" or tag[:4] == "str_"):
                 pass
             elif(tag[:2] != "__"):
-                if(tag == "planets" or tag == "stars" or tag == "binary"):
+                if(tag == "planets" or tag == "stars" or tag == "binaries"):
                     for sub in getattr(self,tag):
                         subtempstr += sub.__str__(tab + "    ") 
                 else:
                     if(getattr(self,tag) != []):
-                        tempstr += tab+tag + ": " +str(getattr(self,tag)) + "\n"
+                        tempstr += tab + color.BOLD + tag + color.END + ": " +str(getattr(self,tag)) + "\n"
         return name + tempstr + subtempstr
 
     def str_nochild(self):
+        """(System) - str
+        Same as str(system), but children are not included
+        """
+
         tempstr = ""
-        name = ""
+        name = "\n"
         for tag in reversed(dir(self)):
-            if(tag == "name"):
-                name = tag + ": " + str(getattr(self,tag)) + "\n"
-            elif(tag[:4] == "add_" or tag == "str_nochild"):
+            if(tag == "name" and getattr(self,tag) != []):
+                name += color.BOLD + tag + color.END + ": " + str(getattr(self,tag)) + "\n"
+            elif(tag[:4] == "add_" or tag[:4] == "str_"):
                 pass
             elif(tag[:2] != "__"):
-                if(tag == "planets" or tag == "stars" or tag == "binary"):
+                if(tag == "planets" or tag == "stars" or tag == "binaries"):
                     pass
                 else:
                     if(getattr(self,tag) != []):
-                        tempstr += tag + ": " +str(getattr(self,tag)) + "\n"
+                        tempstr += color.BOLD + tag + color.END + ": " +str(getattr(self,tag)) + "\n"
         return name + tempstr
 
+    def str_planets(self):
+        """Same as default str method, but only returns planet elements"""
 
+        tempstr = ""
+        for pl in self.planets:
+            tempstr += pl.str_nochild()
+        for st in self.stars:
+            tempstr += st.str_planets()
+        for bi in self.binaries:
+            tempstr += bi.str_planets()
+        return tempstr
+    def str_stars(self):
+        """Same as default str method, but only returns star elements"""
+
+        tempstr = ""
+        for st in self.stars:
+            tempstr += st.str_nochild()
+        for bi in self.binaries:
+            tempstr += bi.str_stars()
+        return tempstr
+    def str_binaries(self):
+        """Same as default str method, but only returns binary elements"""
+
+        tempstr = ""
+        for bi in self.binaries:
+            tempstr += bi.str_nochild()
+        return tempstr
 
     def add_planet(self, planet):
+        """(System) -> NoType
+        attach a planet system as a child to the given system. Planet is \
+        appended to the planets list
+        """
         
         if(planet.object_type == "planet"):
             self.planets.append(planet)
         else:
             raise Exception("Not a planet")
     def add_star(self, star):
+        """(System) -> NoType
+        attach a planet system as a child to the given system. Star is \
+        appended to the stars list
+        """
+
         if(star.object_type == "star"):
             self.stars.append(star)
         else:
             raise Exception("Not a star")
 
     def add_binary(self, binary):
+        """(System) -> NoType
+        attach a planet system as a child to the given system. Binary is \
+        appended to the binaries list
+        """
         if(binary.object_type == "binary"):
             self.binaries.append(binary)
         else:
             raise Exception("Not a binary")
 
     def add_any_system(self, system):
+        """(System) -> NoType
+        System is added to the list it belongs in.
+        """
+
         object_type = system.object_type
         if(object_type == "star"):
             self.add_star(system)
@@ -87,25 +205,25 @@ class System:
             self.name.append(value)
         elif(key == "name" and type(value) == list):
             self.__dict__["name"] = value
-        elif(key == "planet" and type(value) == str):
+        elif(key == "planet" and type(value) == System):
             self.planets.append(value)
         elif(key == "planet" and type(value) == list):
             self.__dict__["planets"] = value
-        elif(key == "star" and type(value) == str):
+        elif(key == "star" and type(value) == System):
             self.stars.append(value)
         elif(key == "star" and type(value) == list):
             self.__dict__["stars"] = value
-        elif(key == "binary" and type(value) == str):
+        elif(key == "binary" and type(value) == System):
             self.binaries.append(value)
         elif(key == "binary" and type(value) == list):
             self.__dict__["binaries"] = value
         else:
             self.__dict__[key] = value
 
-
 class number:
     """Number class for values containing errors. Math operations use the \
-    the value given. Checking for no 'value' must use "=="
+    the value given. Checking for no 'value' must use "==". Numbers with\
+    upper or lower limits as assumed to have no value.
 
     num = Number(10, errorminus=0.5, errorplus=0.8)
     str(num)
@@ -193,34 +311,18 @@ class number:
 
 
     def __add__(self, num):
-        """(any) -> any
-        adds the value of the number to the given number, returns as expected\
-        with a typical float, int, or double type
-        """
 
         return self.value + num
 
     def __sub__(self, num):
-        """(any) -> any
-        returns the self value minus the num value
-        x - y
-        """
 
         return self.value - num
 
     def __lt__(self, num):
-        """(any)-> any
-        returns true if value of self is less than the value of num
-        x < y
-        """
 
         return self.value < num
 
     def __le__(self, num):
-        """(any) -> any
-        returns trun if self is less than or equal to the value of num
-        x <= y
-        """
         
         return self.value <= num
 
@@ -239,67 +341,38 @@ class number:
             return self.value != num
 
     def __gt__(self, num):
-        """(any)-> any
-        returns true if selfs value is greater than the value of num
-        x > y
-        """
     
         return self.value > num
     
     def __ge__(self, num):
-        """(any) -> any
-        returns true if value of self is greater than or equal to value of num
-        x >= y
-        """
 
         return self.value >= num
 
     def __mul__(self, num):
-        """(any) -> any
-        returns a value of self multiplied by value of num
-        x * y
-        """
 
         return self.value * num
 
     def __div__(self, num):
-        """(any) -> any
-        x / y
-        """
-
+        
         return self.value / num
 
     def __floordiv__(self, num):
-        """(any) -> any
-        floor divide
-        x // y
-        """
+        
         return self.value // num
 
     def __mod__(self, num):
-        """(any) -> any
-        modulus
-        """
 
         return self.value % num
 
     def __divmod__(self, num):
-        """(any) -> any
-        dimod
-        """
+        
         return divmod(self.value, num)
 
     def __pow__(self, num,*z):
-        """(any) -> any
-        x ** y
-        """
         
         return pow(self.value, num,*z)
 
     def __float__(self):
-        """(number) -> float
-        float(number.value)
-        """
 
         return float(self.value)
 
@@ -444,6 +517,10 @@ class number:
 
 
 def xml_to_obj_helper(element):
+    """(ElementTree.Element) -> System
+    Helper function to traverse element tree to construct an arbitrary system.\
+    Intended to be used with xml_to_obj
+    """
 
     sys = System(element.tag)
     for el in element:
@@ -465,222 +542,10 @@ def xml_to_obj_helper(element):
     return sys
 
 def xml_to_obj(xml):
-    root = ET.fromstring(xml)
-    return xml_to_obj_helper(root)
-
-
-def xml_to_obj_bkup(xml):
     """(str) -> System
-    Given an xml file as a str, will return a system object
+    Converts a str xml file to a System object. Xml file is assumed to be\
+    correct in both format and content.
     """
 
     root = ET.fromstring(xml)
-    system = System("system")
-    for sysel in root:
-        if(sysel.tag == "planet"):
-            planet = System("planet")
-            for planel in sysel:
-                if(len(planel.attrib) == 0):
-                    if(planel.tag == "name"):
-                        planet.name.append(planel.text)
-                    else:
-                        setattr(planet, planel.tag, planel.text)
-
-                else:
-                    tempnum = number(planel.text)
-                    if(planel.attrib.has_key("errorminus")):
-                        tempnum.errorminus = planel.attrib["errorminus"]
-                    if(planel.attrib.has_key("errorplus")):
-                        tempnum.errorplus = planel.attrib["errorplus"]
-                    if(planel.attrib.has_key("upperlimit")):
-                        tempnum.upperlimit = planel.attrib["upperlimit"]
-                    if(planel.attrib.has_key("lowerlimit")):
-                        tempnum.lowerlimit = planel.attrib["lowerlimit"]
-                    setattr(planet, planel.tag, tempnum)
-            system.add_planet(planet)
-        elif(sysel.tag == "star"):
-            star = System("star")
-            for starel in sysel:
-                if(starel.tag == "planet"):
-                    planet = System("planet")
-                    for planel in starel:
-                        if(len(planel.attrib) == 0):
-                            if(planel.tag == "name"):
-                                planet.name.append(planel.text)
-                            else:
-                                setattr(planet, planel.tag, planel.text)
-                        else:
-                            tempnum = number(planel.text)
-                            if(planel.attrib.has_key("errorminus")):
-                                tempnum.errorminus = planel.attrib["errorminus"]
-                            if(planel.attrib.has_key("errorplus")):
-                                tempnum.errorplus = planel.attrib["errorplus"]
-                            if(planel.attrib.has_key("upperlimit")):
-                                tempnum.upperlimit = planel.attrib["upperlimit"]
-                            if(planel.attrib.has_key("lowerlimit")):
-                                tempnum.lowerlimit = planel.attrib["lowerlimit"]
-                            setattr(planet, planel.tag, tempnum)
-                    star.add_planet(planet)
-                elif(len(starel.attrib) == 0):
-                    if(starel.tag == "name"):
-                        star.name.append(starel.text)
-                    else:
-                        setattr(star, starel.tag, starel.text)
-                else:
-                    tempnum = number(starel.text)
-                    if(starel.attrib.has_key("errorminus")):
-                        tempnum.errorminus = starel.attrib["errorminus"]
-                    if(starel.attrib.has_key("errorplus")):
-                        tempnum.errorplus = starel.attrib["errorplus"]
-                    if(starel.attrib.has_key("upperlimit")):
-                        tempnum.upperlimit = starel.attrib["upperlimit"]
-                    if(starel.attrib.has_key("lowerlimit")):
-                        tempnum.lowerlimit = starel.attrib["lowerlimit"]
-                    setattr(star, starel.tag, tempnum)
-            system.add_star(star)
-        elif(sysel.tag == "binary"):
-            binary = System("binary")
-            for binel in sysel:
-                if(binel.tag == "star"):
-                    star = System("star")
-                    for starel in binel:
-                        if(starel.tag == "planet"):
-                            planet = System("planet")
-                            for planel in starel:
-                                if(len(planel.attrib) == 0):
-                                    if(planel.tag == "name"):
-                                        planet.name.append(planel.text)
-                                    else:
-                                        setattr(planet, planel.tag, planel.text)
-                                else:
-                                    tempnum = number(planel.text)
-                                    if(planel.attrib.has_key("errorminus")):
-                                        tempnum.errorminus = planel.attrib["errorminus"]
-                                    if(planel.attrib.has_key("errorplus")):
-                                        tempnum.errorplus = planel.attrib["errorplus"]
-                                    if(planel.attrib.has_key("upperlimit")):
-                                        tempnum.upperlimit = planel.attrib["upperlimit"]
-                                    if(planel.attrib.has_key("lowerlimit")):
-                                        tempnum.lowerlimit = planel.attrib["lowerlimit"]
-                                    setattr(planet, planel.tag, tempnum)
-                            star.add_planet(planet)
-                        elif(len(starel.attrib) == 0):
-                            if(starel.tag == "name"):
-                                star.name.append(starel.text)
-                            else:
-                                setattr(star, starel.tag, starel.text)
-                        else:
-                            tempnum = number(starel.text)
-                            if(starel.attrib.has_key("errorminus")):
-                                tempnum.errorminus = starel.attrib["errorminus"]
-                            if(starel.attrib.has_key("errorplus")):
-                                tempnum.errorplus = starel.attrib["errorplus"]
-                            if(starel.attrib.has_key("upperlimit")):
-                                tempnum.upperlimit = starel.attrib["upperlimit"]
-                            if(starel.attrib.has_key("lowerlimit")):
-                                tempnum.lowerlimit = starel.attrib["lowerlimit"]
-                    binary.add_star(star)
-                elif(binel.tag == "binary"):
-                    binarysub = System("binary")
-                    for binelsub in binel:
-                        if(binelsub.tag == "star"):
-                            star = System("star")
-                            for starel in binelsub:
-                                if(starel.tag == "planet"):
-                                    planet = System("planet")
-                                    for planel in starel:
-                                        if(len(planel.attrib) == 0):
-                                            if(planel.tag == "name"):
-                                                planet.name.append(planel.text)
-                                            else:
-                                                setattr(planet, planel.tag, planel.text)
-                                        else:
-                                            tempnum = number(planel.text)
-                                            if(planel.attrib.has_key("errorminus")):
-                                                tempnum.errorminus = planel.attrib["errorminus"]
-                                            if(planel.attrib.has_key("errorplus")):
-                                                tempnum.errorplus = planel.attrib["errorplus"]
-                                            if(planel.attrib.has_key("upperlimit")):
-                                                tempnum.upperlimit = planel.attrib["upperlimit"]
-                                            if(planel.attrib.has_key("lowerlimit")):
-                                                tempnum.lowerlimit = planel.attrib["lowerlimit"]
-                                            setattr(planet, planel.tag, tempnum)
-                                    star.add_planet(planet)
-                                elif(len(starel.attrib) == 0):
-                                    if(starel.tag == "name"):
-                                        star.name.append(star.text)
-                                    else:
-                                        setattr(star, starel.tag, starel.text)
-                                else:
-                                    tempnum = number(starel.text)
-                                    if(starel.attrib.has_key("errorminus")):
-                                        tempnum.errorminus = starel.attrib["errorminus"]
-                                    if(starel.attrib.has_key("errorplus")):
-                                        tempnum.errorplus = starel.attrib["errorplus"]
-                                    if(starel.attrib.has_key("upperlimit")):
-                                        tempnum.upperlimit = starel.attrib["upperlimit"]
-                                    if(starel.attrib.has_key("lowerlimit")):
-                                        tempnum.lowerlimit = starel.attrib["lowerlimit"]
-                            binarysub.add_star(star)
-                        elif(len(binelsub.attrib) == 0):
-                            if(binelsub.tab == "name"):
-                                binarysub.name.append(binelsub.text)
-                            else:
-                                setattr(binarysub, binelsub.tag, binelsub.text)
-                        else:
-                            tempnum = number(binelsub.text)
-                            if(binelsub.attrib.has_key("errorminus")):
-                                tempnum.errorminus = binelsub.attrib["errorminus"]
-                            if(binelsub.attrib.has_key("errorplus")):
-                                tempnum.errorplus = binelsub.attrib["errorplus"]
-                            if(binelsub.attrib.has_key("upperlimit")):
-                                tempnum.upperlimit = binelsub.attrib["upperlimit"]
-                            if(binelsub.attrib.has_key("lowerlimit")):
-                                tempnum.lowerlimit = binelsub.attrib["lowerlimit"]
-                            setattr(binarysub, binelsub.tag, tempnum)
-                    binary.add_binary(binarysub)
-                elif(len(binel.attrib) == 0):
-                    if(binel.tag == "name"):
-                        binary.name.append(binel.text)
-                    else:
-                        setattr(binary, binel.tag, binel.text)
-                else:
-                    tempnum = number(binel.text)
-                    if(binel.attrib.has_key("errorminus")):
-                        tempnum.errorminus = binel.attrib["errorminus"]
-                    if(binel.attrib.has_key("errorplus")):
-                        tempnum.errorplus = binel.attrib["errorplus"]
-                    if(binel.attrib.has_key("upperlimit")):
-                        tempnum.upperlimit = binel.attrib["upperlimit"]
-                    if(binel.attrib.has_key("lowerlimit")):
-                        tempnum.lowerlimit = binel.attrib["lowerlimit"]
-                    setattr(binary, binel.tag, tempnum)
-            system.add_binary(binary)
-        if(len(sysel.attrib) == 0):
-            if(sysel.tag == "name"):
-                system.name.append(sysel.text)
-            else:
-                setattr(system, sysel.tag, sysel.text)
-        else:
-            tempnum = number(sysel.text)
-            if(sysel.attrib.has_key("errorminus")):
-                tempnum.errorminus = sysel.attrib["errorminus"]
-            if(sysel.attrib.has_key("errorplus")):
-                tempnum.errorplus = sysel.attrib["errorplus"]
-            if(sysel.attrib.has_key("upperlimit")):
-                tempnum.upperlimit = sysel.attrib["upperlimit"]
-            if(sysel.attrib.has_key("lowerlimit")):
-                tempnum.upperlimit = sysel.attrib["lowerlimit"]
-            setattr(system, sysel.tag, sysel.text)
-        
-    return system 
-
-
-if __name__ == "__main__":
-
-    a = xml_to_obj(open("systems/Kepler-20.xml").read())
-    print(a)
-    b = xml_to_obj(open("systems/WASP-99.xml").read())
-    print(b)
-    print("----")
-    print(b.str_nochild())
+    return xml_to_obj_helper(root)
