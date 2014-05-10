@@ -199,6 +199,38 @@ class System:
         else:
             raise Exception("Not known system type")
 
+    def find_system(self, name, object_type):
+        """(System, str, str) -> System
+        find a subsystem by its name and object_type.
+        Should not have to find a system (has no parent)
+        """
+
+        if(object_type == "star"):
+            for st in self.stars:
+                if name in st.name:
+                    return st
+            for binary in self.binaries:
+                return binary.find_system(name, object_type)
+        elif(object_type == "planet"):
+            for plan in self.planets:
+                if name in plan.name:
+                    return plan
+            for st in self.stars:
+                return st.find_system(name, object_type)
+            for binary in self.binaries:
+                return binary.find_system(name, object_type)
+        elif(object_type == "binary"):
+            for binary in self.binaries:
+                if name in binary.name:
+                    return binary
+                else:
+                    return binary.find_system(name, object_type)
+        else:
+            raise Exception("Not known system type")
+
+
+
+
     def __setattr__(self, key, value):
         """ """
         if(key == "name" and type(value) == str):
@@ -549,3 +581,9 @@ def xml_to_obj(xml):
 
     root = ET.fromstring(xml)
     return xml_to_obj_helper(root)
+
+if __name__ is "__main__":
+    kepler67 = xml_to_obj(open("systems/Kepler-67.xml").read())
+    print(kepler67)
+    print(kepler67.find_system("Kepler-67 b", "planet"))
+
