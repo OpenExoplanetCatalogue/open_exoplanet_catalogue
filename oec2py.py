@@ -94,7 +94,7 @@ class System:
         for tag in reversed(dir(self)):
             if(tag == "name" and getattr(self,tag) != []):
                 name += tab + color.BOLD + tag + color.END + ": " + str(getattr(self,tag)) + "\n"
-            elif(tag[:4] == "add_" or tag[:4] == "str_"):
+            elif(tag[:4] == "add_" or tag[:4] == "str_" or tag == "find_system"):
                 pass
             elif(tag[:2] != "__"):
                 if(tag == "planets" or tag == "stars" or tag == "binaries"):
@@ -115,7 +115,7 @@ class System:
         for tag in reversed(dir(self)):
             if(tag == "name" and getattr(self,tag) != []):
                 name += color.BOLD + tag + color.END + ": " + str(getattr(self,tag)) + "\n"
-            elif(tag[:4] == "add_" or tag[:4] == "str_"):
+            elif(tag[:4] == "add_" or tag[:4] == "str_" or tag == "find_system"):
                 pass
             elif(tag[:2] != "__"):
                 if(tag == "planets" or tag == "stars" or tag == "binaries"):
