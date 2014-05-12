@@ -289,5 +289,7 @@ if issues > 0:
 else:
     print "No issues found."
 
+print "Generating CSV aliases.csv"
+
 sys.exit(errorcode)
 
