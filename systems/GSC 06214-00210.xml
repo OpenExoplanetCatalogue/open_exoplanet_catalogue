@@ -4,6 +4,7 @@
 	<declination>-20 43 07</declination>
 	<distance>145</distance>
 	<star>
+		<name>GSC 06214-00210</name>
 		<magB>13.1</magB>
 		<magR errorminus="0.05" errorplus="0.05">12.11</magR>
 		<magI errorminus="0.03" errorplus="0.03">11.08</magI>
@@ -14,6 +15,7 @@
 		<spectraltype>M1</spectraltype>
 		<planet>
 			<name>GSC 06214-00210 b</name>
+			<name>GSC 6214-210 b</name>
 			<list>Confirmed planets</list>
 			<mass>17</mass>
 			<semimajoraxis>320</semimajoraxis>
@@ -23,7 +25,6 @@
 			<image>GSC 06214-00210</image>
 			<imagedescription>This image shows the star GSC 06214-00210 and its planetary mass companion. Credit: Michael Ireland (Macquarie University)</imagedescription>
 		</planet>
-		<name>GSC 06214-00210</name>
 		<temperature>3840.0</temperature>
 	</star>
 </system>
