@@ -1,0 +1,38 @@
+<system>
+	<name>omi CrB</name>
+	<rightascension>15 20 08</rightascension>
+	<declination>+29 36 58</declination>
+	<distance>84</distance>
+	<star>
+		<name>omi CrB</name>
+		<name>Omicron Coronae Borealis</name>
+		<name>o CrB</name>
+		<name>HD 136512</name>
+		<name>HR 5709</name>
+		<name>HIP 75049</name>
+		<mass errorminus="0.23" errorplus="0.01">2.13</mass>
+		<radius errorminus="0.7" errorplus="0.7">10.5</radius>
+		<temperature errorminus="20" errorplus="20">4749</temperature>
+		<magV>5.51</magV>
+		<metallicity errorminus="0.03" errorplus="0.03">-0.29</metallicity>
+		<spectraltype>K0 III</spectraltype>
+		<planet>
+			<name>omi CrB b</name>
+			<name>Omicron Coronae Borealis b</name>
+			<name>o CrB b</name>
+			<name>HD 136512 b</name>
+			<name>HR 5709 b</name>
+			<name>HIP 75049 b</name>
+			<list>Confirmed planets</list>
+			<mass>1.5</mass>
+			<period errorminus="0.54" errorplus="0.54">187.83</period>
+			<semimajoraxis>0.83</semimajoraxis>
+			<eccentricity errorminus="0.085" errorplus="0.085">0.191</eccentricity>
+			<periastron errorminus="36" errorplus="36">79</periastron>
+			<description>Discovered with precise Doppler measurements at Okayama Astrophysical Observatory.</description>
+			<discoverymethod>RV</discoverymethod>
+			<lastupdate>14/05/15</lastupdate>
+			<discoveryyear>2014</discoveryyear>
+		</planet>
+	</star>
+</system>

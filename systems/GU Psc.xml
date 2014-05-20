@@ -1,0 +1,24 @@
+<system>
+	<name>GU Psc</name>
+	<rightascension>01 12 35</rightascension>
+	<declination>+17 03 56</declination>
+	<distance errorminus="5" errorplus="5">48</distance>
+	<star>
+		<name>GU Psc</name>
+		<mass errorminus="0.25" errorplus="0.25">0.325</mass>
+		<metallicity errorminus="0.13" errorplus="0.13">0.1</metallicity>
+		<spectraltype>M3</spectraltype>
+		<age errorminus="0.03" errorplus="0.03">0.1</age>
+		<planet>
+			<name>GU Psc b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="2" errorplus="2">11</mass>
+			<temperature errorminus="50" errorplus="50">1050</temperature>
+			<semimajoraxis errorminus="200" errorplus="200">2000</semimajoraxis>
+			<description>GU Psc b is a comoving companion of planetary mass to the young M3 star GU Psc. The system is only 100 million years old and the wide separation of the planetary companion raising interesting questions about the system's formation history.</description>
+			<discoverymethod>imaging</discoverymethod>
+			<lastupdate>14/05/14</lastupdate>
+			<discoveryyear>2014</discoveryyear>
+		</planet>
+	</star>
+</system>

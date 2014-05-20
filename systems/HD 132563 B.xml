@@ -1,9 +1,10 @@
 <system>
-	<name>HD 132563B</name>
+	<name>HD 132563 B</name>
 	<rightascension>14 58 21</rightascension>
 	<declination>+44 02 36</declination>
 	<distance>96</distance>
 	<star>
+		<name>HD 132563 B</name>
 		<mass>1.01</mass>
 		<magV>9.47</magV>
 		<magB errorminus="0.04" errorplus="0.04">10.16</magB>
@@ -13,7 +14,8 @@
 		<spectraltype>G</spectraltype>
 		<metallicity>-0.19</metallicity>
 		<planet>
-			<name>HD 132563B b</name>
+			<name>HD 132563 B b</name>
+			<name>HD 132563 b</name>
 			<list>Confirmed planets</list>
 			<mass>1.49</mass>
 			<period>1544</period>
@@ -25,7 +27,6 @@
 			<discoveryyear>2011</discoveryyear>
 			<temperature>158.5</temperature>
 		</planet>
-		<name>HD 132563B</name>
 		<temperature>5985.0</temperature>
 	</star>
 </system>
