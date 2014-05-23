@@ -41,6 +41,7 @@ The following table shows all the possible tags in the Open Exoplanet Catalogue.
 | `spectraltype`	| `star` | Spectral type  |   |
 | `magB`		| `binary`, `star` | B magnitude |   |
 | `magV`		| `binary`, `star` | Visual magnitude |   |
+| `magR`		| `binary`, `star` | R magnitude |   |
 | `magI`		| `binary`, `star` | I magnitude |   |
 | `magJ`		| `binary`, `star` | J magnitude |   |
 | `magH`		| `binary`, `star` | H magnitude |   |
