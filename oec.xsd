@@ -46,7 +46,7 @@
 				<xs:element name="istransiting" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="description" type="xs:string" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="discoveryyear" type="year" minOccurs="0" maxOccurs="1"/>
-				<xs:element name="lastupdate" type="xs:string" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="lastupdate" type="lastupdatedef" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="image" type="xs:string" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="imagedescription" type="xs:string" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="spinorbitalignment" type="number" minOccurs="0" maxOccurs="1"/>
@@ -83,7 +83,7 @@
 				<xs:element ref="binary" minOccurs="0" maxOccurs="2"/>
 				<xs:element ref="star" minOccurs="0" maxOccurs="2"/>
 				<xs:element ref="planet"/>
-				<xs:element name="semimajoraxis" type="number"/>
+				<xs:element name="semimajoraxis" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="eccentricity" type="number"/>
 				<xs:element name="periastron" type="number"/>
 				<xs:element name="longitude" type="number"/>
@@ -101,10 +101,20 @@
 			</xs:choice>
 		</xs:complexType>
 	</xs:element>
+	<!-- Empty String -->
+	<xs:simpleType name="empty-string">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="" />
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- Number Or Empty -->
+	<xs:simpleType name="number-or-empty">
+		<xs:union memberTypes="xs:double empty-string" />
+	</xs:simpleType>
 	<!-- Number -->
 	<xs:complexType name="number">
 		<xs:simpleContent>
-			<xs:extension base="double">
+			<xs:extension base="number-or-empty">
 				<xs:attribute name="errorminus" type="xs:double" use="optional"/>
 				<xs:attribute name="errorplus" type="xs:double" use="optional"/>
 				<xs:attribute name="lowerlimit" type="xs:double" use="optional"/>
@@ -116,19 +126,19 @@
 	<!-- Spectraltype Definition -->
 	<xs:simpleType name="spectraltypedef">
 		<xs:restriction base="xs:string">
-			<xs:pattern value="[OBAFGKMLTYRNS].*"/>
+			<xs:pattern value="[OBAFGKMLTYRNSsDC].*"/>
 		</xs:restriction>
 	</xs:simpleType>
 	<!-- Right Ascension Definition -->
 	<xs:simpleType name="rightascensiondef">
 		<xs:restriction base="xs:string">
-			<xs:pattern value="[0-2]\d [0-5]\d [0-5]\d(\.\d{2}){0,1}"/>
+			<xs:pattern value="[0-2]\d [0-5]\d [0-5]\d(\.\d{1,2}){0,1}"/>
 		</xs:restriction>
 	</xs:simpleType>
 	<!-- Declination Definition -->
 	<xs:simpleType name="declinationdef">
 		<xs:restriction base="xs:string">
-			<xs:pattern value="(\+|\-)(\d{2} [0-5]\d [0-5]\d)(\.\d{2}){0,1}"/>
+			<xs:pattern value="(\+|\-)(\d{2} [0-5]\d [0-5]\d)(\.\d{1,2}){0,1}"/>
 		</xs:restriction>
 	</xs:simpleType>
 	<!-- DateTime -->
@@ -183,6 +193,12 @@
 	<xs:simpleType name="webreference">
 		<xs:restriction base="xs:string">
 			<xs:pattern value="https{0,1}://.*"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- Last Update -->
+	<xs:simpleType name="lastupdatedef">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="\d\d/[01][0-9]/[0-3]\d"/>
 		</xs:restriction>
 	</xs:simpleType>
 </xs:schema>
