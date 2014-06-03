@@ -67,6 +67,11 @@ def removeemptytags(elem):
         del elem.attrib['error']
         elem.attrib['errorminus'] = err
         elem.attrib['errorplus'] = err
+    if 'e' in elem.attrib:
+        err = elem.attrib['e']
+        del elem.attrib['e']
+        elem.attrib['errorminus'] = err
+        elem.attrib['errorplus'] = err
 
 # Check if an unknown tag is present (most likely an indication for a typo)
 validtags = [
@@ -114,6 +119,7 @@ def convertunit(elem, factor):
     del elem.attrib['unit']
     if elem.text:
         elem.text = "%f" % (float(elem.text) * factor)
+    convertunitattrib(elem, "e", factor)
     convertunitattrib(elem, "error", factor)
     convertunitattrib(elem, "errorplus", factor)
     convertunitattrib(elem, "errorminus", factor)
