@@ -1,0 +1,49 @@
+<system>
+	<name>Kapteyn</name>
+	<rightascension>05 11 41</rightascension>
+	<declination>-45 58 54</declination>
+	<distance>3.91</distance>
+	<star>
+		<name>Kapteyn</name>
+		<name>Kapteyn's Star</name>
+		<name>HD 33793</name>
+		<name>Gliese 191</name>
+		<age errorminus="10.6" errorplus="4">11.0</age>
+		<radius errorminus="0.025" errorplus="0.025">0.291</radius>
+		<mass errorminus="0.014" errorplus="0.014">0.281</mass>
+		<spectraltype>M1.0</spectraltype>
+		<temperature errorminus="50" errorplus="50">3550.0</temperature>
+		<metallicity>-0.86</metallicity>
+		<planet>
+			<name>Kapteyn b</name>
+			<name>Kapteyn's Star b</name>
+			<name>Kapteyn's b</name>
+			<name>HD 33793 b</name>
+			<name>Gliese 191 b</name>
+			<semimajoraxis errorminus="0.008" errorplus="0.006">0.168</semimajoraxis>
+			<periastron errorminus="28.9" errorplus="30.7">80.4</periastron>
+			<eccentricity errorminus="0.10" errorplus="0.11">0.21</eccentricity>
+			<period errorminus="0.032" errorplus="0.036">48.616</period>
+			<mass errorminus="1" errorplus="0.9" units="me">4.8</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/06/04</lastupdate>
+			<description>Kapteyn's star is named in honor of its discoverer, the Dutch astronomer Jacobus Kapteyn. It is visible through binoculars or a small telescope. The planet Kapteyn b is one of the oldest known potentially habitable planets. It's roughly 11 billion years old. The system contains at least one other planet, Kapteyn c, which is close to a 5:2 period commensurability.</description>
+		</planet>
+		<planet>
+			<name>Kapteyn c</name>
+			<name>Kapteyn's Star c</name>
+			<name>Kapteyn's c</name>
+			<name>HD 33793 c</name>
+			<name>Gliese 191 c</name>
+			<semimajoraxis errorminus="0.014" errorplus="0.038">0.311</semimajoraxis>
+			<eccentricity errorminus="0.12" errorplus="0.10">0.23</eccentricity>
+			<period errorminus="0.25" errorplus="0.25">121.54</period>
+			<mass errorminus="0.003146" errorplus="0.003775">0.022020</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/06/04</lastupdate>
+			<description>Kapteyn's star is named in honor of its discoverer, the Dutch astronomer Jacobus Kapteyn. The planetary system is roughly 11 billion years old and contains at least one other planet, Kapteyn b, which is close to a 5:2 period commensurability.</description>
+		</planet>
+	</star>
+</system>
