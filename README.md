@@ -9,6 +9,28 @@ The catalogue is a community project. Please send corrections and additions via 
 
 If you are looking for a simple comma/tab separated table, you might want to check out [this repository](https://github.com/hannorein/oec_tables/).
 
+How to access the catalogue using Python 
+--------------
+It is very easy to access the Open Exoplanet Catalogue using python. Here is a short [snippet](https://gist.github.com/hannorein/2a069763cf114f66641c) to print out some basic planet data. No download, no installation and no external libraries are required.
+
+```python
+import xml.etree.ElementTree as ET, urllib, gzip, io
+url = "https://github.com/OpenExoplanetCatalogue/oec_gzip/raw/master/systems.xml.gz"
+oec = ET.parse(gzip.GzipFile(fileobj=io.BytesIO(urllib.urlopen(url).read())))
+ 
+# Output mass and radius of all planets 
+for planet in oec.findall(".//planet"):
+    print [planet.findtext("mass"), planet.findtext("radius")]
+ 
+# Find all circumbinary planets 
+for planet in oec.findall(".//binary/planet"):
+    print planet.findtext("name")
+ 
+# Output distance to planetary system (in pc, if known) and number of planets in system
+for system in oec.findall(".//system"):
+    print system.findtext("distance"), len(system.findall(".//planet"))
+```
+
 Data Structure
 -------------
 The following table shows all the possible tags in the Open Exoplanet Catalogue. 
