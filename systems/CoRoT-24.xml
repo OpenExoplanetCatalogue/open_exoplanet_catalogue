@@ -1,0 +1,53 @@
+<system>
+	<name>CoRoT-24</name>
+	<rightascension>06 47 41</rightascension>
+	<declination>-03 43 10</declination>
+	<distance errorminus="70" errorplus="70">600</distance>
+	<star>
+		<name>CoRoT-24</name>
+		<name>2MASS 06474141-0343094</name>
+		<mass errorminus="0.09" errorplus="0.09">0.91</mass>
+		<radius errorminus="0.09" errorplus="0.09">0.86</radius>
+		<temperature errorminus="150" errorplus="150">4950</temperature>
+		<magJ errorminus="0.021" errorplus="0.021">13.595</magJ>
+		<age>11</age>
+		<metallicity errorminus="0.15" errorplus="0.15">0.3</metallicity>
+		<spectraltype>K1V</spectraltype>
+		<planet>
+			<name>CoRoT-24 b</name>
+			<name>2MASS 06474141-0343094 c</name>
+			<list>Confirmed planets</list>
+			<mass upperlimit="0.018" />
+			<radius errorminus="0.04" errorplus="0.04">0.33</radius>
+			<temperature errorminus="140" errorplus="140">1070</temperature>
+			<period errorminus="0.0006" errorplus="0.0006">5.1134</period>
+			<semimajoraxis errorminus="0.002" errorplus="0.002">0.056</semimajoraxis>
+			<eccentricity>0</eccentricity>
+			<inclination errorminus="2" errorplus="2">86.5</inclination>
+			<description>CoRoT-24 is the first multiplanetary system discovered by the CoRoT mission. The probability that the observations are caused by transiting Neptune-sized planets is 26 times more likely than a blend scenario.</description>
+			<discoverymethod>transit</discoverymethod>
+			<transittime errorminus="0.006" errorplus="0.006" unit="HJD">2454789.611</transittime>
+			<istransiting>1</istransiting>
+			<lastupdate>14/06/08</lastupdate>
+			<discoveryyear>2014</discoveryyear>
+		</planet>
+		<planet>
+			<name>CoRoT-24 c</name>
+			<name>2MASS 06474141-0343094 c</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.035" errorplus="0.035">0.088</mass>
+			<radius errorminus="0.04" errorplus="0.04">0.44</radius>
+			<temperature errorminus="80" errorplus="80">850</temperature>
+			<period errorminus="0.0063" errorplus="0.0063">11.759</period>
+			<semimajoraxis errorminus="0.003" errorplus="0.003">0.098</semimajoraxis>
+			<eccentricity>0</eccentricity>
+			<inclination errorminus="1.6" errorplus="1">89</inclination>
+			<discoverymethod>transit</discoverymethod>
+			<transittime errorminus="0.0265" errorplus="0.0265" unit="HJD">2454795.3803</transittime>
+			<description>CoRoT-24 is the first multiplanetary system discovered by the CoRoT mission. The probability that the observations are caused by transiting Neptune-sized planets is 26 times more likely than a blend scenario.</description>
+			<istransiting>1</istransiting>
+			<lastupdate>14/06/08</lastupdate>
+			<discoveryyear>2014</discoveryyear>
+		</planet>
+	</star>
+</system>
