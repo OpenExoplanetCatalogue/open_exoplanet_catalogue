@@ -2,10 +2,12 @@
 	<name>Gliese 832</name>
 	<rightascension>21 33 34</rightascension>
 	<declination>-49 00 32</declination>
-	<distance>4.94</distance>
+	<distance errorminus="0.03" errorplus="0.03">4.94</distance>
 	<star>
-		<spectraltype>M1</spectraltype>
-		<mass>0.45</mass>
+		<name>Gliese 832</name>
+		<temperature>3472</temperature>
+		<spectraltype>M1.5</spectraltype>
+		<mass errorminus="0.05" errorplus="0.05">0.45</mass>
 		<magV>8.67</magV>
 		<magB>10.176</magB>
 		<magR>7.665</magR>
@@ -13,23 +15,40 @@
 		<magJ errorminus="0.032" errorplus="0.032">5.349</magJ>
 		<magH errorminus="0.256" errorplus="0.256">4.766</magH>
 		<magK errorminus="0.018" errorplus="0.018">4.501</magK>
-		<metallicity>-0.31</metallicity>
+		<metallicity errorminus="0.2" errorplus="0.2">-0.3</metallicity>
 		<planet>
 			<name>Gliese 832 b</name>
 			<name>GJ 832 b</name>
 			<name>Gj 832 b</name>
 			<name>Gl 832 b</name>
 			<list>Confirmed planets</list>
-			<mass>0.64</mass>
-			<period>3416</period>
-			<semimajoraxis>3.4</semimajoraxis>
-			<eccentricity>0.12</eccentricity>
-			<description>The star Gliese 832 is a star located in the solar neighbourhood in the constallation Grus. Therefore the observed planet Gliese 832 b is a good candidate for astrometric observations.</description>
+			<mass errorminus="0.160431" errorplus="0.160431">0.688908</mass>
+			<period errorminus="260" errorplus="310">3660</period>
+			<semimajoraxis errorminus="0.42" errorplus="0.36">3.6</semimajoraxis>
+			<eccentricity errorminus="0.08" errorplus="0.09">0.08</eccentricity>
+			<periastron errorminus="97" errorplus="58">246</periastron>
+			<longitude errorminus="45" errorplus="69">40</longitude>
+			<description>The star Gliese 832 is a star located in the solar neighbourhood in the constallation Grus. Therefore the observed planet Gliese 832 b is a good candidate for astrometric observations. In 2014, an additional planet, Gliese 832 c has been discovered.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/11/13</lastupdate>
+			<lastupdate>14/06/24</lastupdate>
 			<discoveryyear>2008</discoveryyear>
 		</planet>
-		<name>Gliese 832</name>
-		<temperature>5700.0</temperature>
+		<planet>
+			<name>Gliese 832 c</name>
+			<name>GJ 832 c</name>
+			<name>Gj 832 c</name>
+			<name>Gl 832 c</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.009752" errorplus="0.009752">0.015729</mass>
+			<period errorminus="0.12" errorplus="15">35.67</period>
+			<semimajoraxis errorminus="0.017" errorplus="0.017">0.162</semimajoraxis>
+			<eccentricity errorminus="0.03" errorplus="0.22">0.03</eccentricity>
+			<periastron>80</periastron>
+			<longitude>246</longitude>
+			<description>The star Gliese 832 is a star located in the solar neighbourhood in the constallation Grus. Therefore the observed planet Gliese 832 b is a good candidate for astrometric observations. In 2014, an additional planet, Gliese 832 c, was discovered. It's a Super-Earth, orbiting near the inner edge of the habitable zone. The large mass of the planet is likely to make the planet inhospitable. The discovered was possible with the combination of radial velocity measurements from three telescopes.</description>
+			<discoverymethod>RV</discoverymethod>
+			<lastupdate>14/06/24</lastupdate>
+			<discoveryyear>2014</discoveryyear>
+		</planet>
 	</star>
 </system>
