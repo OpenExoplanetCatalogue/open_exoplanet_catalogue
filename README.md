@@ -14,6 +14,7 @@ How to access the catalogue using Python
 It is very easy to access the Open Exoplanet Catalogue using python. Here is a short [snippet](https://gist.github.com/hannorein/2a069763cf114f66641c) to print out some basic planet data. No download, no installation and no external libraries are required.
 
 ```python
+# python 2.x
 import xml.etree.ElementTree as ET, urllib, gzip, io
 url = "https://github.com/OpenExoplanetCatalogue/oec_gzip/raw/master/systems.xml.gz"
 oec = ET.parse(gzip.GzipFile(fileobj=io.BytesIO(urllib.urlopen(url).read())))
