@@ -2,10 +2,11 @@
 	<name>HD 52265</name>
 	<rightascension>07 00 18</rightascension>
 	<declination>-05 22 01</declination>
-	<distance>28</distance>
+	<distance>28.1</distance>
 	<star>
 		<mass>1.2</mass>
 		<radius>1.25</radius>
+		<age>3.5</age>
 		<magV>6.3</magV>
 		<magB>6.837</magB>
 		<metallicity>0.21</metallicity>
@@ -13,12 +14,12 @@
 		<planet>
 			<name>HD 52265 b</name>
 			<list>Confirmed planets</list>
-			<mass>1.05</mass>
-			<period>119.6</period>
+			<mass errorminus="0.03" errorplus="0.03">1.05</mass>
+			<period errorminus="0.42" errorplus="0.42">119.6</period>
 			<semimajoraxis>0.5</semimajoraxis>
-			<eccentricity>0.35</eccentricity>
+			<eccentricity errorminus="0.03" errorplus="0.03">0.35</eccentricity>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/12/30</lastupdate>
+			<lastupdate>14/06/24</lastupdate>
 			<discoveryyear>2000</discoveryyear>
 			<temperature>426.0</temperature>
 		</planet>
