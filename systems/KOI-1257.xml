@@ -1,0 +1,53 @@
+<system>
+	<name>KOI-1257</name>
+	<rightascension>19 24 54</rightascension>
+	<declination>+44 55 38</declination>
+	<distance errorminus="110" errorplus="110">900</distance>
+	<binary>
+		<period errorminus="1200" errorplus="1200">3430</period>
+		<semimajoraxis errorminus="1.3" errorplus="1.3">5.3</semimajoraxis>
+		<inclination errorminus="5.4" errorplus="18">18.2</inclination>
+		<eccentricity errorminus="0.21" errorplus="0.37">0.31</eccentricity>
+		<periastron errorminus="110" errorplus="110">180</periastron>
+		<star>
+			<name>KOI-1257</name>
+			<name>KIC8751933</name>
+			<temperature errorminus="80" errorplus="80">5520</temperature>
+			<metallicity errorminus="0.09" errorplus="0.09">0.27</metallicity>
+			<mass errorminus="0.05" errorplus="0.05">0.99</mass>
+			<radius errorminus="0.14" errorplus="0.14">1.13</radius>
+			<spectraltype>G5V</spectraltype>
+			<age errorminus="3" errorplus="3">9.3</age>
+			<planet>
+				<name>KOI-1257 b</name>
+				<name>KOI-1257 01</name>
+				<name>KOI-1257.01</name>
+				<name>KIC8751933 b</name>
+				<list>Confirmed planets</list>
+				<list>Planets in binary systems, S-type</list>
+				<period errorminus="0.000034" errorplus="0.000034">86.647661</period>
+				<semimajoraxis errorminus="0.006" errorplus="0.006">0.382</semimajoraxis>
+				<inclination errorminus="0.38" errorplus="0.24">89.66</inclination>
+				<eccentricity errorminus="0.045" errorplus="0.045">0.772</eccentricity>
+				<periastron errorminus="17" errorplus="17">141.3</periastron>
+				<mass errorminus="0.35" errorplus="0.35">1.45</mass>
+				<radius errorminus="0.12" errorplus="0.12">0.94</radius>
+				<temperature errorminus="50" errorplus="50">511</temperature>
+				<spinorbitalignment errorminus="-46" errorplus="32">74</spinorbitalignment>
+				<discoverymethod>transit</discoverymethod>
+				<istransiting>1</istransiting>
+				<lastupdate>14/06/25</lastupdate>
+				<discoveryyear>2014</discoveryyear>
+				<description>KOI-1257 b is a highly eccentric transiting exoplanet in an old, metal-rich binary system. The transits were initially spotted in the Kepler data. Follow-up observations consisting of a joint amateur and professional campaign confirmed the planetary nature of the transits.</description>
+			</planet>
+		</star>
+		<star>
+			<name>KOI-1257 B</name>
+			<name>KIC8751933 B</name>
+			<temperature errorminus="290" errorplus="290">4270</temperature>
+			<mass errorminus="0.07" errorplus="0.07">0.7</mass>
+			<radius errorminus="0.07" errorplus="0.07">0.68</radius>
+			<spectraltype>K6V/K7V</spectraltype>
+		</star>
+	</binary>
+</system>
