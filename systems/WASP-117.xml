@@ -1,0 +1,35 @@
+<system>
+	<name>WASP-117</name>
+	<rightascension>02 27 06</rightascension>
+	<declination>-50 17 04</declination>
+	<star>
+		<name>WASP-117</name>
+		<name>GSC08055-00876</name>
+		<mass errorminus="0.029" errorplus="0.029">1.126</mass>
+		<radius errorminus="0.059" errorplus="0.067">1.17</radius>
+		<temperature errorminus="90" errorplus="90">6040</temperature>
+		<metallicity errorminus="0.14" errorplus="0.14">-0.11</metallicity>
+		<age errorminus="2" errorplus="2">4.6</age>
+		<spectraltype>F9</spectraltype>
+		<planet>
+			<name>WASP-117 b</name>
+			<name>GSC08055-00876 b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.009" errorplus="0.009">0.2755</mass>
+			<radius errorminus="0.065" errorplus="0.076">1.021</radius>
+			<temperature errorminus="-26" errorplus="30">1024</temperature>
+			<period errorminus="0.00055" errorplus="0.00055">10.02165</period>
+			<semimajoraxis errorminus="0.00079" errorplus="0.00084">0.09459</semimajoraxis>
+			<eccentricity errorminus="0.023" errorplus="0.023">0.302</eccentricity>
+			<transittime errorminus="0.0009" errorplus="0.00095" unit="HJD">2456533.82326</transittime>
+			<inclination errorminus="0.3" errorplus="0.3">89.14</inclination>
+			<periastron errorminus="2.7" errorplus="2.3">242</periastron>
+			<description>WASP-117b is a Hot Saturn in an eccentric and misaligned orbit. This is the first planet with a period beyond 10 days found by the WASP survey. Becaus eof its large orbital separation tidal forces are weak and have had little impact on the evolution of the system.</description>
+			<spinorbitangle errorminus="11" errorplus="11">-44</spinorbitangle>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>14/06/27</lastupdate>
+			<discoveryyear>2014</discoveryyear>
+		</planet>
+	</star>
+</system>
