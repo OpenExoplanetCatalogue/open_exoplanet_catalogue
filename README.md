@@ -32,6 +32,14 @@ for system in oec.findall(".//system"):
     print system.findtext("distance"), len(system.findall(".//planet"))
 ```
 
+If you are using python 3, replace the first three lines by 
+
+```python
+import xml.etree.ElementTree as ET, urllib.request, gzip, io
+url = "https://github.com/OpenExoplanetCatalogue/oec_gzip/raw/master/systems.xml.gz"
+oec = ET.parse(gzip.GzipFile(fileobj=io.BytesIO(urllib.request.urlopen(url).read())))
+```
+
 Data Structure
 -------------
 The following table shows all the possible tags in the Open Exoplanet Catalogue. 
