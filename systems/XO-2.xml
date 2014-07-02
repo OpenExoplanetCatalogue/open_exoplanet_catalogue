@@ -3,37 +3,79 @@
 	<rightascension>07 48 07</rightascension>
 	<declination>+50 13 33</declination>
 	<distance>149</distance>
-	<star>
-		<mass>0.98</mass>
-		<radius>0.964</radius>
-		<magV>11.18</magV>
-		<magB>11.91</magB>
-		<magR>10.8</magR>
-		<magI>10.5</magI>
-		<magJ errorminus="0.022" errorplus="0.022">9.744</magJ>
-		<magH errorminus="0.026" errorplus="0.026">9.340</magH>
-		<magK errorminus="0.021" errorplus="0.021">9.308</magK>
-		<metallicity>0.45</metallicity>
-		<spectraltype>K0V</spectraltype>
-		<planet>
-			<name>XO-2 b</name>
-			<name>2MASS J07480647+5013328 b</name>
-			<name>TYC 3413-00005-1 b</name>
-			<list>Confirmed planets</list>
-			<mass>0.62</mass>
-			<radius>0.973</radius>
-			<period>2.615838</period>
-			<semimajoraxis>0.0369</semimajoraxis>
-			<eccentricity>0.045</eccentricity>
-			<inclination>88.7</inclination>
-			<transittime errorminus="0.00014" errorplus="0.00014" unit="BJD">2454466.88535</transittime>
-			<discoverymethod>transit</discoverymethod>
-			<lastupdate>11/10/28</lastupdate>
-			<discoveryyear>2007</discoveryyear>
-			<temperature>1203.3</temperature>
-			<istransiting>1</istransiting>
-		</planet>
-		<name>XO-2</name>
-		<temperature>5340.0</temperature>
-	</star>
+	<binary>
+		<semimajoraxis>4000</semimajoraxis>
+		<star>
+			<name>XO-2S</name>
+			<name>TYC 3413-210-1</name>
+			<temperature errorminus="55" errorplus="55">5399</temperature>
+			<metallicity errorminus="0.05" errorplus="0.05">0.39</metallicity>
+			<mass errorminus="0.054" errorplus="0.054">0.982</mass>
+			<radius errorminus="0.07" errorplus="0.09">1.02</radius>
+			<age errorminus="2.9" errorplus="2.5">7.1</age>
+			<spectraltype>K0</spectraltype>
+			<planet>
+				<name>XO-2S b</name>
+				<name>TYC 3413-210-1 b</name>
+				<list>Confirmed planets</list>
+				<lastupdate>14/07/02</lastupdate>
+				<discoveryyear>2014</discoveryyear>
+				<period errorminus="0.034" errorplus="0.034">18.157</period>
+				<eccentricity errorminus="0.035" errorplus="0.035">0.18</eccentricity>
+				<periastron errorminus="9.5" errorplus="9.5">311.0</periastron>
+				<mass errorminus="0.014" errorplus="0.014">0.259</mass>
+				<semimajoraxis errorminus="0.0025" errorplus="0.0025">0.1344</semimajoraxis>
+				<description>The planet XO-2S c is part of a multiplanetary system. The host star itself is part of a binary system. The other binary star, XO-2N also hosts a planet. This configuration makes the system a unique laboratory for understanding the diversity of planetary systems.</description>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+			<planet>
+				<name>XO-2S c</name>
+				<name>TYC 3413-210-1 c</name>
+				<list>Confirmed planets</list>
+				<lastupdate>14/07/02</lastupdate>
+				<discoveryyear>2014</discoveryyear>
+				<period errorminus="0.34" errorplus="0.34">120.8</period>
+				<eccentricity errorminus="0.0098" errorplus="0.0094">0.1528</eccentricity>
+				<periastron errorminus="4.9" errorplus="4.9">264.5</periastron>
+				<mass errorminus="0.053" errorplus="0.053">1.370</mass>
+				<semimajoraxis errorminus="0.0087" errorplus="0.0087">0.4756</semimajoraxis>
+				<description>The planet XO-2S c is part of a multiplanetary system. The host star itself is part of a binary system. The other binary star, XO-2N also hosts a planet. This configuration makes the system a unique laboratory for understanding the diversity of planetary systems.</description>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+		<star>
+			<name>XO-2N</name>
+			<temperature>5340.0</temperature>
+			<mass>0.98</mass>
+			<radius>0.964</radius>
+			<magV>11.18</magV>
+			<magB>11.91</magB>
+			<magR>10.8</magR>
+			<magI>10.5</magI>
+			<magJ errorminus="0.022" errorplus="0.022">9.744</magJ>
+			<magH errorminus="0.026" errorplus="0.026">9.340</magH>
+			<magK errorminus="0.021" errorplus="0.021">9.308</magK>
+			<metallicity>0.45</metallicity>
+			<spectraltype>K0V</spectraltype>
+			<planet>
+				<name>XO-2N b</name>
+				<name>2MASS J07480647+5013328 b</name>
+				<name>TYC 3413-00005-1 b</name>
+				<list>Confirmed planets</list>
+				<mass>0.62</mass>
+				<radius>0.973</radius>
+				<period>2.615838</period>
+				<semimajoraxis>0.0369</semimajoraxis>
+				<eccentricity>0.045</eccentricity>
+				<inclination>88.7</inclination>
+				<transittime errorminus="0.00014" errorplus="0.00014" unit="BJD">2454466.88535</transittime>
+				<discoverymethod>transit</discoverymethod>
+				<lastupdate>11/10/28</lastupdate>
+				<discoveryyear>2007</discoveryyear>
+				<temperature>1203.3</temperature>
+				<istransiting>1</istransiting>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+	</binary>
 </system>
