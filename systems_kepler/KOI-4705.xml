@@ -4,7 +4,7 @@
 	<declination>+40 48 11</declination>
 	<star>
 		<name>KOI-4705</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.0290</radius>
+		<radius>1.0290</radius>
 		<planet>
 			<name>KOI-4705 b</name>
 			<name>KOI-4705 01</name>
@@ -12,7 +12,7 @@
 			<period errorminus="1.2000000e-05" errorplus="1.2000000e-05">1.473373000000</period>
 			<transittime errorminus="0.0017000" errorplus="0.0017000">2454965.8434000</transittime>
 			<semimajoraxis errorminus="1.40e-07" errorplus="1.40e-07">0.0256950</semimajoraxis>
-			<temperature errorminus=".0" errorplus="0.0">1540.5</temperature>
+			<temperature>1540.5</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 			<istransiting>1</istransiting>

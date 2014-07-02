@@ -4,7 +4,7 @@
 	<declination>+39 52 21</declination>
 	<star>
 		<name>KOI-3184</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.0000</radius>
+		<radius>1.0000</radius>
 		<planet>
 			<name>KOI-3184 b</name>
 			<name>KOI-3184 01</name>
@@ -12,7 +12,7 @@
 			<period errorminus="7.8000000e-05" errorplus="7.8000000e-05">7.545828000000</period>
 			<transittime errorminus="0.0059000" errorplus="0.0059000">2454967.4970000</transittime>
 			<semimajoraxis errorminus="5.20e-07" errorplus="5.20e-07">0.0753070</semimajoraxis>
-			<temperature errorminus=".0" errorplus="0.0">929.2</temperature>
+			<temperature>929.2</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 			<istransiting>1</istransiting>

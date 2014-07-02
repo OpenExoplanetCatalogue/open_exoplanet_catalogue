@@ -4,7 +4,7 @@
 	<declination>+49 18 59</declination>
 	<star>
 		<name>KOI-3204</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.0000</radius>
+		<radius>1.0000</radius>
 		<planet>
 			<name>KOI-3204 b</name>
 			<name>KOI-3204 01</name>
@@ -12,7 +12,7 @@
 			<period errorminus="7.6000000e-06" errorplus="7.6000000e-06">0.572929800000</period>
 			<transittime errorminus="0.0014000" errorplus="0.0014000">2454964.6907000</transittime>
 			<semimajoraxis errorminus="1.20e-07" errorplus="1.20e-07">0.0135030</semimajoraxis>
-			<temperature errorminus=".0" errorplus="0.0">2194.4</temperature>
+			<temperature>2194.4</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 			<istransiting>1</istransiting>

@@ -4,7 +4,7 @@
 	<declination>+39 56 57</declination>
 	<star>
 		<name>KOI-4813</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.0000</radius>
+		<radius>1.0000</radius>
 		<planet>
 			<name>KOI-4813 b</name>
 			<name>KOI-4813 01</name>
@@ -12,7 +12,7 @@
 			<period errorminus="1.5000000e-04" errorplus="1.5000000e-04">9.229800000000</period>
 			<transittime errorminus="0.0091000" errorplus="0.0091000">2454969.1802000</transittime>
 			<semimajoraxis errorminus="9.30e-07" errorplus="9.30e-07">0.0861309</semimajoraxis>
-			<temperature errorminus=".0" errorplus="0.0">868.9</temperature>
+			<temperature>868.9</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 			<istransiting>1</istransiting>

@@ -4,7 +4,7 @@
 	<declination>+41 15 35</declination>
 	<star>
 		<name>KOI-3947</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.0000</radius>
+		<radius>1.0000</radius>
 		<planet>
 			<name>KOI-3947 c</name>
 			<name>KOI-3947 02</name>
@@ -12,7 +12,7 @@
 			<period errorminus="4.5000000e-04" errorplus="4.5000000e-04">22.738060000000</period>
 			<transittime errorminus="0.0120000" errorplus="0.0120000">2454977.5720000</transittime>
 			<semimajoraxis errorminus="2.10e-06" errorplus="2.10e-06">0.1571080</semimajoraxis>
-			<temperature errorminus=".0" errorplus="0.0">643.3</temperature>
+			<temperature>643.3</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 			<istransiting>1</istransiting>

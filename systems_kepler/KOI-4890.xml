@@ -4,7 +4,7 @@
 	<declination>+42 07 02</declination>
 	<star>
 		<name>KOI-4890</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.8480</radius>
+		<radius>0.8480</radius>
 		<planet>
 			<name>KOI-4890 b</name>
 			<name>KOI-4890 01</name>
@@ -12,7 +12,7 @@
 			<period errorminus="2.1000000e-03" errorplus="2.1000000e-03">63.093900000000</period>
 			<transittime errorminus="0.0230000" errorplus="0.0230000">2454991.0920000</transittime>
 			<semimajoraxis errorminus="7.20e-06" errorplus="7.20e-06">0.3205920</semimajoraxis>
-			<temperature errorminus=".0" errorplus="0.0">459.1</temperature>
+			<temperature>459.1</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 			<istransiting>1</istransiting>

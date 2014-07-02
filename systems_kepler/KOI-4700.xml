@@ -4,7 +4,7 @@
 	<declination>+45 54 53</declination>
 	<star>
 		<name>KOI-4700</name>
-		<radius errorminus=".0000" errorplus="0.0000">0.7420</radius>
+		<radius>0.7420</radius>
 		<planet>
 			<name>KOI-4700 b</name>
 			<name>KOI-4700 01</name>
@@ -12,7 +12,7 @@
 			<period errorminus="3.7000000e-05" errorplus="3.7000000e-05">3.834913000000</period>
 			<transittime errorminus="0.0057000" errorplus="0.0057000">2454968.0824000</transittime>
 			<semimajoraxis errorminus="3.00e-07" errorplus="3.00e-07">0.0471487</semimajoraxis>
-			<temperature errorminus=".0" errorplus="0.0">927.9</temperature>
+			<temperature>927.9</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 			<istransiting>1</istransiting>

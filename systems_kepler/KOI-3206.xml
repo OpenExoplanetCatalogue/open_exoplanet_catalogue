@@ -4,7 +4,7 @@
 	<declination>+40 48 27</declination>
 	<star>
 		<name>KOI-3206</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.0000</radius>
+		<radius>1.0000</radius>
 		<planet>
 			<name>KOI-3206 b</name>
 			<name>KOI-3206 01</name>
@@ -12,7 +12,7 @@
 			<period errorminus="3.3000000e-04" errorplus="3.3000000e-04">15.151890000000</period>
 			<transittime errorminus="0.0130000" errorplus="0.0130000">2454966.9170000</transittime>
 			<semimajoraxis errorminus="1.70e-06" errorplus="1.70e-06">0.1198600</semimajoraxis>
-			<temperature errorminus=".0" errorplus="0.0">736.5</temperature>
+			<temperature>736.5</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 			<istransiting>1</istransiting>

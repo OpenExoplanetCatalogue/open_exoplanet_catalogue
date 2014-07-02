@@ -4,7 +4,7 @@
 	<declination>+43 59 39</declination>
 	<star>
 		<name>KOI-4881</name>
-		<radius errorminus=".0000" errorplus="0.0000">1.0000</radius>
+		<radius>1.0000</radius>
 		<planet>
 			<name>KOI-4881 b</name>
 			<name>KOI-4881 01</name>
@@ -12,7 +12,7 @@
 			<period errorminus="8.5000000e-05" errorplus="8.5000000e-05">5.679719000000</period>
 			<transittime errorminus="0.0085000" errorplus="0.0085000">2454965.9342000</transittime>
 			<semimajoraxis errorminus="6.20e-07" errorplus="6.20e-07">0.0623134</semimajoraxis>
-			<temperature errorminus=".0" errorplus="0.0">1021.5</temperature>
+			<temperature>1021.5</temperature>
 			<list>Kepler Objects of Interest</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 			<istransiting>1</istransiting>
