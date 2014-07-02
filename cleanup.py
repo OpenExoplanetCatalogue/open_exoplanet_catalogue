@@ -7,7 +7,7 @@ import sys
 import datetime
 import re
 
-num_format = re.compile(r'^\-?[0-9]*\.?[0-9]*$')
+num_format = re.compile(r'^\-?[0-9]*\.?[0-9]*e?\-?[0-9]?[0-9]?$')
 
 
 # Variables to keep track of progress
@@ -100,6 +100,7 @@ numerictags = ["mass", "radius", "ascnedingnode", "discoveryyear", "semimajoraxi
     "magV", "magJ", "magH", "magR", "magB", "magK", "magI", "distance", "longitude", "age",
     "metallicity", "inclination", "periastron", "eccentricity", "temperature", "transittime",
     "spinorbitalignment"]
+numericattributes = ["error", "errorplus", "errorminus", "upperlimit", "lowerlimit"]
 
 
 def checkforvalidtags(elem):
@@ -108,6 +109,20 @@ def checkforvalidtags(elem):
         if elem.text:
             if not re.match(num_format,elem.text):
                 return elem.tag
+        deleteattribs = []
+        for a in elem.attrib:
+            if a in numericattributes:
+                if not re.match(num_format,elem.attrib[a]):
+                    try:
+                        if float(elem.attrib[a])==0.:
+                            deleteattribs[] = a
+                    except ValueError:
+                        return elem.tag
+        for a in deleteattribs:
+            print "Warning: deleting zero "
+            del elem.attrib[a]
+
+
     for child in elem:
         _tmp = checkforvalidtags(child)
         if _tmp:
