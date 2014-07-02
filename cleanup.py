@@ -101,6 +101,7 @@ numerictags = ["mass", "radius", "ascnedingnode", "discoveryyear", "semimajoraxi
     "metallicity", "inclination", "periastron", "eccentricity", "temperature", "transittime",
     "spinorbitalignment"]
 numericattributes = ["error", "errorplus", "errorminus", "upperlimit", "lowerlimit"]
+nonzeroattributes = ["error", "errorplus", "errorminus"]
 
 
 def checkforvalidtags(elem):
@@ -113,16 +114,7 @@ def checkforvalidtags(elem):
         for a in elem.attrib:
             if a in numericattributes:
                 if not re.match(num_format,elem.attrib[a]):
-                    try:
-                        if float(elem.attrib[a])==0.:
-                            deleteattribs[] = a
-                    except ValueError:
-                        return elem.tag
-        for a in deleteattribs:
-            print "Warning: deleting zero "
-            del elem.attrib[a]
-
-
+                    return elem.tag
     for child in elem:
         _tmp = checkforvalidtags(child)
         if _tmp:
@@ -133,6 +125,31 @@ def checkforvalidtags(elem):
         if a not in validattributes:
             return a
     return problematictag
+
+def checkforvaliderrors(elem):
+    problematictag = None
+    if elem.tag in numerictags:
+        deleteattribs = []
+        for a in elem.attrib:
+            if a in nonzeroattributes:
+                try:
+                    if float(elem.attrib[a])==0.:
+                        deleteattribs.append(a)
+                except:
+                    print "Warning: problem reading error bars in tag "+elem.tag
+                    return 1
+        for a in deleteattribs:
+            print "Warning: deleting error bars with value 0 in tag "+elem.tag
+            del elem.attrib[a]
+        for a in elem.attrib:
+            if a=="errorplus":
+                if not "errorminus" in elem.attrib:
+                    print "Warning: one sided error found in tag "+elem.tag
+                    return 1
+    for child in elem:
+        if checkforvaliderrors(child):
+            return 1
+    return 0
 
 
 # Convert units (makes data entry easier)
@@ -265,6 +282,9 @@ for filename in glob.glob("systems*/*.xml"):
             issues += 1
 
     # Check if tags are valid and have valid attributes
+    if checkforvaliderrors(root):
+        print "Problematic errorbar in in file \"" + filename + "\"."
+
     problematictag = checkforvalidtags(root)
     if problematictag:
         print "Problematic tag/attribute '" + problematictag + "' found in file \"" + filename + "\"."
