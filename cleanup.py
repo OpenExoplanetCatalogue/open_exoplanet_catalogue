@@ -5,6 +5,10 @@ import os
 import hashlib
 import sys
 import datetime
+import re
+
+num_format = re.compile(r'^\-?[0-9]*\.?[0-9]*$')
+
 
 # Variables to keep track of progress
 fileschecked = 0
@@ -80,8 +84,8 @@ validtags = [
     "magH", "magR", "magB", "magK", "magI", "distance",
     "longitude", "imagedescription", "image", "age", "declination", "rightascension",
     "metallicity", "inclination", "spectraltype", "binary", "planet", "periastron", "star",
-    "mass", "eccentricity", "radius", "temperature", "videolink", "transittime", "spinorbitalignment",
-    "istransiting"]
+    "mass", "eccentricity", "radius", "temperature", "videolink", "transittime", 
+    "spinorbitalignment", "istransiting"]
 validattributes = [
     "error",
     "errorplus",
@@ -92,10 +96,18 @@ validattributes = [
     "type"]
 validdiscoverymethods = ["RV", "transit", "timing", "imaging", "microlensing"]
 tagsallowmultiple = ["list", "name", "planet", "star", "binary"]
+numerictags = ["mass", "radius", "ascnedingnode", "discoveryyear", "semimajoraxis", "period",
+    "magV", "magJ", "magH", "magR", "magB", "magK", "magI", "distance", "longitude", "age",
+    "metallicity", "inclination", "periastron", "eccentricity", "temperature", "transittime",
+    "spinorbitalignment"]
 
 
 def checkforvalidtags(elem):
     problematictag = None
+    if elem.tag in numerictags:
+        if elem.text:
+            if not re.match(num_format,elem.text):
+                return elem.tag
     for child in elem:
         _tmp = checkforvalidtags(child)
         if _tmp:
