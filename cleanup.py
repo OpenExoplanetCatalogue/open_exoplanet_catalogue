@@ -7,7 +7,7 @@ import sys
 import datetime
 import re
 
-num_format = re.compile(r'^\-?[0-9]*\.?[0-9]*e?\-?[0-9]?[0-9]?$')
+num_format = re.compile(r'^\-?[0-9]*\.?[0-9]*e?[\-\+]?[0-9]?[0-9]?$')
 
 
 # Variables to keep track of progress
@@ -133,7 +133,7 @@ def checkforvaliderrors(elem):
         for a in elem.attrib:
             if a in nonzeroattributes:
                 try:
-                    if float(elem.attrib[a])==0.:
+                    if len(elem.attrib[a])==0 or float(elem.attrib[a])==0.:
                         deleteattribs.append(a)
                 except:
                     print "Warning: problem reading error bars in tag "+elem.tag
@@ -141,11 +141,14 @@ def checkforvaliderrors(elem):
         for a in deleteattribs:
             print "Warning: deleting error bars with value 0 in tag "+elem.tag
             del elem.attrib[a]
-        for a in elem.attrib:
-            if a=="errorplus":
-                if not "errorminus" in elem.attrib:
-                    print "Warning: one sided error found in tag "+elem.tag
-                    return 1
+        if "errorplus" in elem.attrib:
+            if not "errorminus" in elem.attrib:
+                print "Warning: one sided error found in tag "+elem.tag+". Fixing it."
+                elem.attrib["errorminus"] = elem.attrib["errorplus"]
+        if "errorminus" in elem.attrib:
+            if not "errorplus" in elem.attrib:
+                print "Warning: one sided error found in tag "+elem.tag+". Fixing it."
+                elem.attrib["errorplus"] = elem.attrib["errorminus"]
     for child in elem:
         if checkforvaliderrors(child):
             return 1
