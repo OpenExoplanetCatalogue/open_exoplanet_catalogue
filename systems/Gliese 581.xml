@@ -21,13 +21,13 @@
 			<name>Gj 581 b</name>
 			<name>Gl 581 b</name>
 			<list>Confirmed planets</list>
-			<mass>0.05</mass>
-			<period>5.36865</period>
-			<semimajoraxis>0.041</semimajoraxis>
-			<eccentricity>0.031</eccentricity>
+			<mass errorminus="0.000944" errorplus="0.000944">0.049702</mass>
+			<period errorminus="0.0001" errorplus="0.0001">5.3686</period>
+			<semimajoraxis errorminus="0.00003" errorplus="0.00003">0.04061</semimajoraxis>
+			<eccentricity upperlimit="0.03" />
 			<description>Gliese 581 is a red dwarf in the constellation Libra. It is the 89th closest star to the Solar System. In late 2010, US astronomers annoucent a planet in the habitable zone. This statement has been challenged by the European HARPS team. Gliese 581 c is likely to have a runaway greenhouse effect. A radio message has been sent to Gliese 581 in 2008 and will reach the star system in 2029.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>11/09/13</lastupdate>
+			<lastupdate>14/07/04</lastupdate>
 			<discoveryyear>2005</discoveryyear>
 			<temperature>419.2</temperature>
 		</planet>
@@ -37,13 +37,13 @@
 			<name>Gj 581 c</name>
 			<name>Gl 581 c</name>
 			<list>Confirmed planets</list>
-			<mass>0.017</mass>
-			<period>12.9182</period>
-			<semimajoraxis>0.073</semimajoraxis>
-			<eccentricity>0.07</eccentricity>
+			<mass errorminus="0.000944" errorplus="0.000944">0.017301</mass>
+			<period errorminus="0.002" errorplus="0.002">12.914</period>
+			<semimajoraxis errorminus="0.0003" errorplus="0.0003">0.0721</semimajoraxis>
+			<eccentricity upperlimit="0.06" />
 			<description>Gliese 581 is a red dwarf in the constellation Libra. It is the 89th closest star to the Solar System. In late 2010, US astronomers annoucent a planet in the habitable zone. This statement has been challenged by the European HARPS team. Gliese 581 c is likely to have a runaway greenhouse effect. A radio message has been sent to Gliese 581 in 2008 and will reach the star system in 2029.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>11/09/13</lastupdate>
+			<lastupdate>14/07/04</lastupdate>
 			<discoveryyear>2007</discoveryyear>
 			<temperature>312.7</temperature>
 		</planet>
@@ -52,14 +52,14 @@
 			<name>GJ 581 d</name>
 			<name>Gj 581 d</name>
 			<name>Gl 581 d</name>
-			<list>Confirmed planets</list>
+			<list>Retracted planet candidate</list>
 			<mass>0.019</mass>
 			<period>66.64</period>
 			<semimajoraxis>0.22</semimajoraxis>
 			<eccentricity>0.25</eccentricity>
-			<description>Gliese 581 is a red dwarf in the constellation Libra. It is the 89th closest star to the Solar System. In late 2010, US astronomers annoucent a planet (Gliese 581f) in the habitable zone. This statement has been challenged by the European HARPS team. Gliese 581 d might be habitable according to a paper by Wordsworth et al. (2011) who studied the system using three dimensional climate simulations. A radio message has been sent to Gliese 581 in 2008 and will reach the star system in 2029.</description>
+			<description>A new analysis shows that there is no signal of the planet Gliese 581 d after stellar activity reduction.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>11/09/13</lastupdate>
+			<lastupdate>14/07/04</lastupdate>
 			<discoveryyear>2007</discoveryyear>
 			<temperature>181.0</temperature>
 		</planet>
@@ -70,12 +70,12 @@
 			<name>Gl 581 e</name>
 			<list>Confirmed planets</list>
 			<mass>0.0061</mass>
-			<period>3.14945</period>
-			<semimajoraxis>0.028</semimajoraxis>
-			<eccentricity>0.32</eccentricity>
+			<period errorminus="0.0002" errorplus="0.0002">3.1490</period>
+			<semimajoraxis errorminus="0.00006" errorplus="0.00006">0.02815</semimajoraxis>
+			<eccentricity upperlimit="0.06" />
 			<description>Gliese 581 is a red dwarf in the constellation Libra. It is the 89th closest star to the Solar System. In late 2010, US astronomers annoucent a planet in the habitable zone. This statement has been challenged by the European HARPS team. Gliese 581 c is likely to have a runaway greenhouse effect. A radio message has been sent to Gliese 581 in 2008 and will reach the star system in 2029.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>11/09/13</lastupdate>
+			<lastupdate>14/07/04</lastupdate>
 			<discoveryyear>2009</discoveryyear>
 			<temperature>500.8</temperature>
 		</planet>
@@ -91,7 +91,7 @@
 			<eccentricity>0</eccentricity>
 			<description>Gliese 581 f is an unconfirmed planet. Its discovery was announced in 2010 by the Lick-Carnegie Exoplanet Survey. However an analysis by the European HARPS team concluded that the system is unlikely to contain a planet with the quoted characteristic.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>12/09/17</lastupdate>
+			<lastupdate>14/07/04</lastupdate>
 			<discoveryyear>2010</discoveryyear>
 		</planet>
 		<planet>
@@ -99,14 +99,14 @@
 			<name>GJ 581 g</name>
 			<name>Gj 581 g</name>
 			<name>Gl 581 g</name>
-			<list>Controversial</list>
+			<list>Retracted planet candidate</list>
 			<mass>0.0097516</mass>
 			<period>36.5</period>
 			<semimajoraxis>0.146</semimajoraxis>
 			<eccentricity>0</eccentricity>
-			<description>Gliese 581 g is an unconfirmed planet. Its discovery was announced in 2010 by the Lick-Carnegie Exoplanet Survey. However an analysis by the European HARPS team concluded that the system is unlikely to contain a planet with the quoted characteristic. The planet attracted a lot of attention because of its location near the middle of the habitable zone.</description>
+			<description>A new analysis shows that there is no signal of the planet Gliese 581 d after stellar activity reduction.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>12/09/17</lastupdate>
+			<lastupdate>14/07/04</lastupdate>
 			<discoveryyear>2010</discoveryyear>
 			<temperature>230.9</temperature>
 		</planet>
