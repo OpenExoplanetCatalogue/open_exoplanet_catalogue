@@ -1,0 +1,30 @@
+<system>
+	<name>OGLE-2013-BLG-0341</name>
+	<rightascension>17 52 07</rightascension>
+	<declination>-29 50 46</declination>
+	<distance errorminus="0.07" errorplus="0.07">911</distance>
+	<binary>
+		<semimajoraxis errorminus="0.318" errorplus="0.318">10.536</semimajoraxis>
+		<star>
+			<name>OGLE-2013-BLG-0341L B</name>
+			<mass errorminus="0.0089" errorplus="0.0089">0.1127</mass>
+			<planet>
+				<name>OGLE-2013-BLG-0341L B b</name>
+				<name>OGLE-2013-BLG-0341LBb</name>
+				<list>Confirmed planets</list>
+				<mass errorminus="0.000566" errorplus="0.000566">0.005222</mass>
+				<semimajoraxis errorminus="0.022" errorplus="0.022">0.702</semimajoraxis>
+				<description>The planet OGLE-20130BLG-0341LB b was discovered with the gravitational microlensing method. The planet is orbiting a star with a very low luminosity. That is why even though the planet's semimajor axis is smaller than that of Earth, its temperature is well below freezing.</description>
+				<discoverymethod>microlensing</discoverymethod>
+				<istransiting>1</istransiting>
+				<lastupdate>14/07/04</lastupdate>
+				<discoveryyear>2014</discoveryyear>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+		<star>
+			<name>OGLE-2013-BLG-0341L A</name>
+			<mass errorminus="0.0094" errorplus="0.0094">0.1209</mass>
+		</star>
+	</binary>
+</system>
