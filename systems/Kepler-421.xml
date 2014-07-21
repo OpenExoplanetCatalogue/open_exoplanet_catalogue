@@ -1,0 +1,41 @@
+<system>
+	<name>Kepler-421</name>
+	<rightascension>18 53 01</rightascension>
+	<declination>+45 05 16</declination>
+	<distance e="20">320</distance>
+	<star>
+		<name>Kepler-421</name>
+		<name>KIC-8800954</name>
+		<name>KOI-1274</name>
+		<mass e="0.03">0.794</mass>
+		<radius e="0.029">0.757</radius>
+		<temperature e="50">5308</temperature>
+		<magV e="0.12">5.9</magV>
+		<metallicity e="0.08">-0.25</metallicity>
+		<spectraltype></spectraltype>
+		<age e="0.8">4</age>
+		<planet>
+			<name>Kepler-421 b</name>
+			<name>KIC-8800954 b</name>
+			<name>KOI-1274 b</name>
+			<list>Confirmed planets</list>
+			<mass></mass>
+			<radius unit="re" ep="0.19" em="0.16">4.16</radius>
+			<temperature ep="8.6" em="4.8">184</temperature>
+			<period e="0.0016">704.1984</period>
+			<semimajoraxis ep="0.089" em="0.106">1.219</semimajoraxis>
+			<eccentricity ep="0.095" em="0.034">0.041</eccentricity>
+			<inclination ep="0.024" em="0.031">89.965</inclination>
+			<periastron ep="150" em="120">160</periastron>
+			<longitude></longitude>
+			<description>Kepler-421 b is an Uranus-sized exoplanet. The planet's location is beyond the snow-line, indicating that the planet may have formed at its observed location. Only two transits of Kepler-421 b have been recorded during Kepler's lifetime. The planetetary nature of the signal was confirmed using a statistical analysis and lightcurve modeling.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>14/07/21</lastupdate>
+			<discoveryyear>2014</discoveryyear>
+			<image></image>
+			<imagedescription></imagedescription>
+			<spinorbitalignment></spinorbitalignment>
+		</planet>
+	</star>
+</system>
