@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<!-- System -->
+	<xs:element name="system">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="name" type="xs:string" minOccurs="1"/>
+				<xs:element ref="binary"  minOccurs="0" maxOccurs="1"/>
+				<xs:element ref="planet" minOccurs="0" maxOccurs="1"/>
+				<xs:element ref="star" maxOccurs="1"/>
+				<xs:element name="spectraltype" type="spectraltypedef" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="rightascension" type="rightascensiondef" minOccurs="1" maxOccurs="1"/>
+				<xs:element name="declination" type="declinationdef" minOccurs="1" maxOccurs="1"/>
+				<xs:element name="distance" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="epoch" type="xs:string" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="videolink" type="webreference" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="magB" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="magV" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="magI" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="magJ" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="magH" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="magK" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="magR" type="number" minOccurs="0" maxOccurs="1"/>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+	<!-- Planet -->
+	<xs:element name="planet">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="name" type="xs:string" minOccurs="1"/>
+				<xs:element name="list" type="listtype" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="semimajoraxis" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="eccentricity" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="periastron" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="longitude" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="ascendingnode" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="inclination" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="period" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="transittime" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="mass" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="radius" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="temperature" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="age" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="discoverymethod" type="discoverymethodtype" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="istransiting" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="description" type="xs:string" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="discoveryyear" type="year" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="lastupdate" type="lastupdatedef" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="image" type="xs:string" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="imagedescription" type="xs:string" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="spinorbitalignment" type="number" minOccurs="0" maxOccurs="1"/>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+	<!-- Star -->
+	<xs:element name="star">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="name" type="xs:string" minOccurs="1"/>
+				<xs:element ref="planet" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="mass" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="radius" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="temperature" type="number" minOccurs="1" maxOccurs="1"/>
+				<xs:element name="age" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="metallicity" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="spectraltype" type="spectraltypedef" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="magB" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="magV" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="magI" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="magJ" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="magH" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="magK" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="magR" type="number" minOccurs="0" maxOccurs="1"/>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+	<!-- Binary -->
+	<xs:element name="binary">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="name" type="xs:string"/>
+				<xs:element ref="binary" minOccurs="0" maxOccurs="2"/>
+				<xs:element ref="star" minOccurs="0" maxOccurs="2"/>
+				<xs:element ref="planet"/>
+				<xs:element name="semimajoraxis" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="eccentricity" type="number"/>
+				<xs:element name="periastron" type="number"/>
+				<xs:element name="longitude" type="number"/>
+				<xs:element name="ascendingnode" type="number"/>
+				<xs:element name="inclination" type="number"/>
+				<xs:element name="period" type="number"/>
+				<xs:element name="transittime" type="number"/>
+				<xs:element name="magB" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="magV" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="magI" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="magJ" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="magH" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="magK" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="magR" type="number" minOccurs="0" maxOccurs="1"/>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+	<!-- Empty String -->
+	<xs:simpleType name="empty-string">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="" />
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- Number Or Empty -->
+	<xs:simpleType name="number-or-empty">
+		<xs:union memberTypes="xs:double empty-string" />
+	</xs:simpleType>
+	<!-- Number -->
+	<xs:complexType name="number">
+		<xs:simpleContent>
+			<xs:extension base="number-or-empty">
+				<xs:attribute name="errorminus" type="xs:double" use="optional"/>
+				<xs:attribute name="errorplus" type="xs:double" use="optional"/>
+				<xs:attribute name="lowerlimit" type="xs:double" use="optional"/>
+				<xs:attribute name="upperlimit" type="xs:double" use="optional"/>
+				<xs:attribute name="unit" type="xs:string" use="optional"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<!-- Spectraltype Definition -->
+	<xs:simpleType name="spectraltypedef">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[OBAFGKMLTYRNSsDC].*"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- Right Ascension Definition -->
+	<xs:simpleType name="rightascensiondef">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[0-2]\d [0-5]\d [0-5]\d(\.\d{1,2}){0,1}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- Declination Definition -->
+	<xs:simpleType name="declinationdef">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="(\+|\-)(\d{2} [0-5]\d [0-5]\d)(\.\d{1,2}){0,1}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- DateTime -->
+	<xs:simpleType name="datetime">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="\d{2}/[0-1]\d/[0-3]\d"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- List Definition -->
+	<xs:simpleType name="listtype">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Confirmed planets"/>
+			<xs:enumeration value="Not confirmed planets"/>
+			<xs:enumeration value="Planets in binary systems, S-type"/>
+			<xs:enumeration value="Planets in binary systems, P-type"/>
+			<xs:enumeration value="Orphan planets"/>
+			<xs:enumeration value="Controversial"/>
+			<xs:enumeration value="Solar System"/>
+			<xs:enumeration value="Kepler Objects of Interest"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- Discoverymethod Definition -->
+	<xs:simpleType name="discoverymethodtype">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="imaging"/>
+			<xs:enumeration value="microlensing"/>
+			<xs:enumeration value="RV"/>
+			<xs:enumeration value="timing"/>
+			<xs:enumeration value="transit"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- Year -->
+	<xs:simpleType name="year">
+		<xs:restriction base="xs:integer">
+			<xs:minInclusive value="1781"/>
+			<xs:maxInclusive value="2020"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- Positive Integer -->
+	<xs:simpleType name="positiveinteger">
+		<xs:restriction base="xs:nonNegativeInteger">
+			<xs:minInclusive value="0"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- Positive Double -->
+	<xs:simpleType name="positivedouble">
+		<xs:restriction base="xs:double">
+			<xs:minInclusive value="0"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- Webreference -->
+	<xs:simpleType name="webreference">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="https{0,1}://.*"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- Last Update -->
+	<xs:simpleType name="lastupdatedef">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="\d\d/[01][0-9]/[0-3]\d"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>
