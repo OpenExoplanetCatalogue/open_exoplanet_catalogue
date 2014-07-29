@@ -3,31 +3,42 @@
 	<rightascension>13 12 19</rightascension>
 	<declination>+17 31 01</declination>
 	<distance>39.46</distance>
-	<star>
-		<mass>0.84</mass>
-		<radius>1.24</radius>
-		<magV>7.3</magV>
-		<magB>7.85</magB>
-		<magR>7.0</magR>
-		<magI>6.8</magI>
-		<magJ>6.14</magJ>
-		<magH>5.89</magH>
-		<magK>5.81</magK>
-		<metallicity>-0.71</metallicity>
-		<spectraltype>F9V</spectraltype>
-		<planet>
-			<name>HD 114762 b</name>
-			<list>Confirmed planets</list>
-			<mass>10.98</mass>
-			<period>83.9151</period>
-			<semimajoraxis>0.353</semimajoraxis>
-			<eccentricity>0.3354</eccentricity>
-			<discoverymethod>RV</discoverymethod>
-			<lastupdate>11/06/09</lastupdate>
-			<discoveryyear>1989</discoveryyear>
-			<temperature>486.8</temperature>
-		</planet>
-		<name>HD 114762</name>
-		<temperature>5934.0</temperature>
-	</star>
+	<binary>
+		<separation>3.26</separation>
+		<positionangle>30</positionangle>
+		<projected>129</projected>
+		<star>
+			<name>HD 114762 A</name>
+			<mass>0.84</mass>
+			<radius>1.24</radius>
+			<magV>7.3</magV>
+			<magB>7.85</magB>
+			<magR>7.0</magR>
+			<magI>6.8</magI>
+			<magJ>6.14</magJ>
+			<magH>5.89</magH>
+			<magK>5.81</magK>
+			<metallicity>-0.71</metallicity>
+			<spectraltype>F9V</spectraltype>
+			<planet>
+				<name>HD 114762 b</name>
+				<name>HD 114762 A b</name>
+				<list>Confirmed planets</list>
+				<list>Planets in binary systems, S-type</list>
+				<mass>10.98</mass>
+				<period>83.9151</period>
+				<semimajoraxis>0.353</semimajoraxis>
+				<eccentricity>0.3354</eccentricity>
+				<discoverymethod>RV</discoverymethod>
+				<lastupdate>11/06/09</lastupdate>
+				<discoveryyear>1989</discoveryyear>
+				<temperature>486.8</temperature>
+			</planet>
+			<name>HD 114762</name>
+			<temperature>5934.0</temperature>
+		</star>
+		<star>
+			<name>HD 114762 B</name>
+		</star>
+	</binary>
 </system>

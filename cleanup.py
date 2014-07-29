@@ -85,7 +85,7 @@ validtags = [
     "longitude", "imagedescription", "image", "age", "declination", "rightascension",
     "metallicity", "inclination", "spectraltype", "binary", "planet", "periastron", "star",
     "mass", "eccentricity", "radius", "temperature", "videolink", "transittime", 
-    "spinorbitalignment", "istransiting"]
+    "spinorbitalignment", "istransiting", "separation", "projected", "positionangle"]
 validattributes = [
     "error",
     "errorplus",
