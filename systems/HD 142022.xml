@@ -4,7 +4,9 @@
 	<declination>-84 13 53</declination>
 	<distance>35.87</distance>
 	<binary>
-		<semimajoraxis>820</semimajoraxis>
+		<separation unit="arcsec">20.4</separation>
+		<separation unit="AU">732</separation>
+		<positionangle>130</positionangle>
 		<star>
 			<name>HD 142022 A</name>
 			<mass>0.99</mass>
@@ -33,6 +35,7 @@
 		<star>
 			<name>HD 142022 B</name>
 			<mass>0.60</mass>
+			<spectraltype>K7V</spectraltype>
 		</star>
 	</binary>
 </system>

@@ -4,7 +4,9 @@
 	<declination>+34 35 59</declination>
 	<distance>46.73</distance>
 	<binary>
-		<semimajoraxis>640</semimajoraxis>
+		<separation unit="arcsec">16.1</separation>
+		<separation unit="AU">752</separation>
+		<positionangle>82</positionangle>
 		<star>
 			<name>HD 178911 B</name>
 			<name>HR 7272</name>
@@ -41,12 +43,12 @@
 			<period>1296.6098</period>
 			<eccentricity>0.59</eccentricity>
 			<star>
-				<name>HD 178911 A A</name>
+				<name>HD 178911 Aa</name>
 				<mass>1.1</mass>
 				<spectraltype>G1</spectraltype>
 			</star>
 			<star>
-				<name>HD 178911 A B</name>
+				<name>HD 178911 Ab</name>
 				<mass>0.79</mass>
 				<spectraltype>K1</spectraltype>
 			</star>

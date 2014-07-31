@@ -4,7 +4,9 @@
 	<declination>+05 27 46</declination>
 	<distance>33.4</distance>
 	<binary>
-		<semimajoraxis>345</semimajoraxis>
+		<separation unit="arcsec">9.4</separation>
+		<separation unit="AU">314</separation>
+		<positionangle>308</positionangle>
 		<star>
 			<name>HD 46375 A</name>
 			<mass>0.91</mass>
@@ -27,7 +29,7 @@
 				<discoverymethod>RV</discoverymethod>
 				<lastupdate>12/12/04</lastupdate>
 				<discoveryyear>2000</discoveryyear>
-				<description>This star is on its way to becoming a red giant. It is considerably older than the sun. It has a stellar companion at a distance of 345 astronomical units.</description>
+				<description>This star is on its way to becoming a red giant. It is considerably older than the sun. It has a stellar companion at a distance of 314 astronomical units.</description>
 				<list>Planets in binary systems, S-type</list>
 				<temperature>1132.0</temperature>
 			</planet>

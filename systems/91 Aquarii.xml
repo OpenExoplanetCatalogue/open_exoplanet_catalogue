@@ -4,7 +4,9 @@
 	<declination>-09 05 15</declination>
 	<distance errorminus="0.6" errorplus="0.6">45.9</distance>
 	<binary>
-		<semimajoraxis>2391</semimajoraxis>
+		<separation unit="arcsec">49.4</separation>
+		<separation unit="AU">2267</separation>
+		<positionangle>313</positionangle>
 		<star>
 			<name>91 Aquarii A</name>
 			<name>91 Aqr A</name>
@@ -43,7 +45,9 @@
 			</planet>
 		</star>
 		<binary>
-			<semimajoraxis>13.8</semimajoraxis>
+			<separation unit="arcsec">0.4</separation>
+			<separation unit="AU">18.4</separation>
+			<positionangle>101</positionangle>
 			<star>
 				<name>91 Aquarii B</name>
 				<name>91 Aqr B</name>

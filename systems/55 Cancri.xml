@@ -5,7 +5,9 @@
 	<declination>+28 20 02</declination>
 	<distance errorminus="0.1" errorplus="0.1">12.3</distance>
 	<binary>
-		<semimajoraxis>1100</semimajoraxis>
+		<separation unit="arcsec">84</separation>
+		<separation unit="AU">1033</separation>
+		<positionangle>130</positionangle>
 		<star>
 			<mass errorminus="0.015" errorplus="0.015">0.905</mass>
 			<radius errorminus="0.010" errorplus="0.010">0.943</radius>
