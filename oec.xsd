@@ -91,6 +91,8 @@
 				<xs:element name="inclination" type="number"/>
 				<xs:element name="period" type="number"/>
 				<xs:element name="transittime" type="number"/>
+				<xs:element name="separation" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="positionangle" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="magB" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="magV" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="magI" type="number" minOccurs="0" maxOccurs="1"/>
@@ -158,6 +160,7 @@
 			<xs:enumeration value="Controversial"/>
 			<xs:enumeration value="Solar System"/>
 			<xs:enumeration value="Kepler Objects of Interest"/>
+			<xs:enumeration value="Retracted planet candidate"/>
 		</xs:restriction>
 	</xs:simpleType>
 	<!-- Discoverymethod Definition -->
