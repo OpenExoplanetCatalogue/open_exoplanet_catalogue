@@ -56,6 +56,7 @@ The following table shows all the possible tags in the Open Exoplanet Catalogue.
 | `distance`		| `system` | Distance from the Sun | parsec   |
 | `name`		| `system`, `binary`, `star`, `planet` | Name of this object. This tag can be used multiple times if the object has multiple Names. |   |
 | `semimajoraxis` 	| `binary`, `planet` | Semi-major axis of a planet (heliocentric coordinates) if child of `planet`. Semi-major axis of the binary if child of `binary`. |  AU |
+| `separation`	 	| `binary`, `planet` | Projected separation of planet from its host, or if child of `binary` the projected separation from one component to the other. This tag can occur multiple times with different units. It is different from the tag `semimajoraxis` as it does not imply a specific orbital configuration. |  AU, arcsec |
 | `eccentricity` 	| `binary`, `planet` | Eccentricity  | |
 | `periastron` 	| `binary`, `planet` | Longitude of periastron | degree  |
 | `longitude` 	| `binary`, `planet` | Mean longitude at a given Epoch (same for all planets in one system) | degree  |
