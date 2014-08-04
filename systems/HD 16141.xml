@@ -5,7 +5,9 @@
 	<declination>-03 33 38</declination>
 	<distance>35.9</distance>
 	<binary>
-		<semimajoraxis>223</semimajoraxis>
+		<separation unit="arcsec">6.2</separation>
+		<separation unit="AU">223</separation>
+		<positionangle>187</positionangle>
 		<star>
 			<name>HD 16141 A</name>
 			<name>79 Ceti</name>
@@ -44,6 +46,9 @@
 			<name>HD 16141 B</name>
 			<mass>0.31</mass>
 			<spectraltype>M2.5</spectraltype>
+			<magJ>9.27</magJ>
+			<magH>10.062</magH>
+			<magK>8.77</magK>
 		</star>
 	</binary>
 </system>
