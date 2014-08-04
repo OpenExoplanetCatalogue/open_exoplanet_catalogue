@@ -4,7 +4,9 @@
 	<declination>-79 51 04</declination>
 	<distance>17.62</distance>
 	<binary>
-		<semimajoraxis>68</semimajoraxis>
+		<separation unit="arcsec">3.90</separation>
+		<separation unit="AU">68.7</separation>
+		<positionangle>355</positionangle>
 		<star>
 			<name>Gliese 3021 A</name>
 			<name>HD 1237 A</name>
@@ -51,7 +53,7 @@
 			<name>HIP 1291 B</name>
 			<mass>0.13</mass>
 			<age>0.8</age>
-			<spectraltype>M4V V</spectraltype>
+			<spectraltype>M4V</spectraltype>
 		</star>
 	</binary>
 </system>
