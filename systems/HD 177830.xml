@@ -4,7 +4,9 @@
 	<declination>+25 55 14</declination>
 	<distance>59</distance>
 	<binary>
-		<semimajoraxis>97.1</semimajoraxis>
+		<separation unit="arcsec">1.645</separation>
+		<separation unit="AU">97.1</separation>
+		<positionangle>84.85</positionangle>
 		<star>
 			<name>HD 177830 A</name>
 			<mass>1.47</mass>
@@ -48,6 +50,8 @@
 		<star>
 			<name>HD 177830 B</name>
 			<mass>0.23</mass>
+			<magH>11.6</magH>
+			<magK>11.2</magK>
 			<spectraltype>M2-M5</spectraltype>
 		</star>
 	</binary>
