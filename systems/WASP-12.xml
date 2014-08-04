@@ -4,20 +4,9 @@
 	<declination>+29 40 20</declination>
 	<distance errorminus="30" errorplus="30">250</distance>
 	<binary>
-		<semimajoraxis errorminus="5" errorplus="5">260</semimajoraxis>
-		<binary>
-			<semimajoraxis errorminus="3" errorplus="3">21</semimajoraxis>
-			<star>
-				<name>WASP-12 B</name>
-				<spectraltype>M3V</spectraltype>
-				<mass errorminus="0.05" errorplus="0.05">0.38</mass>
-			</star>
-			<star>
-				<name>WASP-12 C</name>
-				<spectraltype>M3V</spectraltype>
-				<mass errorminus="0.05" errorplus="0.05">0.37</mass>
-			</star>
-		</binary>
+		<separation errorminus="0.019" errorplus="0.019" unit="arcsec">1.064</separation>
+		<separation errorminus="5" errorplus="5" unit="AU">266</separation>
+		<positionangle>251.3</positionangle>
 		<star>
 			<name>WASP-12</name>
 			<name>WASP-12 A</name>
@@ -54,5 +43,24 @@
 			</planet>
 			<temperature>6300.0</temperature>
 		</star>
+		<binary>
+			<separation errorminus="0.0006" errorplus="0.0006" unit="arcsec">0.0843</separation>
+			<separation errorminus="3" errorplus="3" unit="AU">21</separation>
+			<positionangle>84</positionangle>
+			<star>
+				<name>WASP-12 B</name>
+				<spectraltype>M3V</spectraltype>
+				<magJ>14.3</magJ>
+				<magK>13.4</magK>
+				<mass errorminus="0.05" errorplus="0.05">0.38</mass>
+			</star>
+			<star>
+				<name>WASP-12 C</name>
+				<spectraltype>M3V</spectraltype>
+				<magJ>14.4</magJ>
+				<magK>13.5</magK>
+				<mass errorminus="0.05" errorplus="0.05">0.37</mass>
+			</star>
+		</binary>
 	</binary>
 </system>
