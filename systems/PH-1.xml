@@ -7,7 +7,9 @@
 	<magH errorminus="0.022" errorplus="0.022">12.461</magH>
 	<magK errorminus="0.021" errorplus="0.021">12.395</magK>
 	<binary>
-		<semimajoraxis>1000</semimajoraxis>
+		<separation unit="arcsec">0.7</separation>
+		<separation unit="AU">1000</separation>
+		<positionangle>123</positionangle>
 		<binary>
 			<period>20.000214</period>
 			<semimajoraxis>0.1744</semimajoraxis>
@@ -26,11 +28,12 @@
 				<spectraltype>M</spectraltype>
 			</star>
 			<planet>
-				<name>PH-1 (AaAb) b</name>
+				<name>PH-1 A(ab) b</name>
 				<name>PH-1 b</name>
-				<name>KIC 4862625 (AaAb) b</name>
+				<name>KIC 4862625 A(ab) b</name>
 				<name>Planet Hunters 1 b</name>
 				<name>Kepler-64 b</name>
+				<name>Kepler-64 A(ab) b</name>
 				<list>Confirmed planets</list>
 				<radius>0.5631852</radius>
 				<period>138.506</period>
@@ -51,7 +54,8 @@
 			</planet>
 		</binary>
 		<binary>
-			<semimajoraxis>60</semimajoraxis>
+			<separation unit="arcsec" upperlimit="0.4" />
+			<separation unit="AU" upperlimit="60" />
 			<star>
 				<name>PH-1 Ba</name>
 				<mass>0.99</mass>
