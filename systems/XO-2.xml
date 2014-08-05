@@ -4,9 +4,12 @@
 	<declination>+50 13 33</declination>
 	<distance>149</distance>
 	<binary>
-		<semimajoraxis>4000</semimajoraxis>
+		<separation unit="arcsec">31</separation>
+		<separation unit="AU">4600</separation>
+		<positionangle>342</positionangle>
 		<star>
 			<name>XO-2S</name>
+			<name>XO-2A</name>
 			<name>TYC 3413-210-1</name>
 			<temperature errorminus="55" errorplus="55">5399</temperature>
 			<metallicity errorminus="0.05" errorplus="0.05">0.39</metallicity>
@@ -45,6 +48,7 @@
 		</star>
 		<star>
 			<name>XO-2N</name>
+			<name>XO-2B</name>
 			<temperature>5340.0</temperature>
 			<mass>0.98</mass>
 			<radius>0.964</radius>

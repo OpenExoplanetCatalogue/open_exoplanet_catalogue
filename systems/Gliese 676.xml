@@ -4,12 +4,20 @@
 	<declination>-51 38 13</declination>
 	<distance>16.5</distance>
 	<binary>
-		<semimajoraxis>800</semimajoraxis>
+		<separation unit="arcsec">50.0</separation>
+		<separation unit="AU">825</separation>
+		<positionangle>135</positionangle>
 		<star>
 			<name>Gliese 676 A</name>
-			<mass>0.71</mass>
+			<mass errorminus="0.04" errorplus="0.04">0.71</mass>
 			<metallicity>0.23</metallicity>
-			<magV>9.58</magV>
+			<magB>11.028</magB>
+			<magV>9.585</magV>
+			<magR>8.675</magR>
+			<magI>8.60</magI>
+			<magJ>6.711</magJ>
+			<magH>6.082</magH>
+			<magK>5.825</magK>
 			<spectraltype>M0V</spectraltype>
 			<planet>
 				<name>Gliese 676 A d</name>
@@ -57,6 +65,12 @@
 		<star>
 			<name>Gliese 676 B</name>
 			<mass>0.17</mass>
+			<magB>14.8</magB>
+			<magR errorminus="13.14" errorplus="13.14">13.4</magR>
+			<magI>10.49</magI>
+			<magJ>8.976</magJ>
+			<magH>8.29</magH>
+			<magK>8.017</magK>
 			<spectraltype>M3.5V</spectraltype>
 		</star>
 	</binary>

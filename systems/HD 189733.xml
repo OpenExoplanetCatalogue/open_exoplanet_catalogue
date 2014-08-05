@@ -4,13 +4,9 @@
 	<declination>+22 42 39</declination>
 	<distance>19.3</distance>
 	<binary>
-		<semimajoraxis>216</semimajoraxis>
-		<star>
-			<name>HD 189733 B</name>
-			<name>V452 Vulpeculae B</name>
-			<spectraltype>M4</spectraltype>
-			<mass>0.4</mass>
-		</star>
+		<separation unit="arcsec">11.2</separation>
+		<separation unit="AU">216</separation>
+		<positionangle>246</positionangle>
 		<star>
 			<name>HD 189733 A</name>
 			<name>V452 Vulpeculae A</name>
@@ -52,6 +48,12 @@
 				<istransiting>1</istransiting>
 			</planet>
 			<temperature>4980.0</temperature>
+		</star>
+		<star>
+			<name>HD 189733 B</name>
+			<name>V452 Vulpeculae B</name>
+			<spectraltype>M4</spectraltype>
+			<mass>0.4</mass>
 		</star>
 	</binary>
 </system>

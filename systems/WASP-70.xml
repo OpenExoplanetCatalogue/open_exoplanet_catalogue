@@ -1,24 +1,21 @@
 <system>
 	<name>WASP-70</name>
-	<name>2MASS 21015446-1325595</name>
+	<name>HD 358155</name>
+	<name>2MASS J21015446-1325595</name>
+	<name>TYC 5782-970-1</name>
 	<rightascension>21 01 54</rightascension>
 	<declination>-13 26 00</declination>
 	<distance errorminus="20" errorplus="20">245</distance>
 	<binary>
-		<name>2MASS 21015446-1325595</name>
+		<name>WASP-70</name>
 		<magV errorminus="0.13" errorplus="0.13">11.75</magV>
 		<magB errorminus="0.08" errorplus="0.08">10.79</magB>
 		<magJ errorminus="0.03" errorplus="0.03">10.00</magJ>
 		<magH errorminus="0.04" errorplus="0.04">9.71</magH>
 		<magK errorminus="0.03" errorplus="0.03">9.58</magK>
-		<semimajoraxis>800</semimajoraxis>
-		<star>
-			<name>WASP-70 B</name>
-			<mass errorminus="0.2" errorplus="0.2">0.8</mass>
-			<temperature errorminus="200" errorplus="200">4900</temperature>
-			<spectraltype>K3</spectraltype>
-			<age errorminus="0.5" errorplus="0.5">9.5</age>
-		</star>
+		<separation unit="arcsec">3.3</separation>
+		<separation unit="AU">800</separation>
+		<positionangle>167</positionangle>
 		<star>
 			<name>WASP-70 A</name>
 			<mass errorminus="0.042" errorplus="0.042">1.106</mass>
@@ -46,6 +43,13 @@
 				<list>Planets in binary systems, S-type</list>
 				<istransiting>1</istransiting>
 			</planet>
+		</star>
+		<star>
+			<name>WASP-70 B</name>
+			<mass errorminus="0.2" errorplus="0.2">0.8</mass>
+			<temperature errorminus="200" errorplus="200">4900</temperature>
+			<spectraltype>K3</spectraltype>
+			<age errorminus="0.5" errorplus="0.5">9.5</age>
 		</star>
 	</binary>
 </system>

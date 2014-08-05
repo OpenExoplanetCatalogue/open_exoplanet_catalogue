@@ -4,8 +4,9 @@
 	<declination>+37 12 42</declination>
 	<distance>485</distance>
 	<binary>
-		<semimajoraxis>755</semimajoraxis>
-		<period>7670086</period>
+		<separation errorminus="0.005" errorplus="0.005" unit="arcsec">1.555</separation>
+		<separation errorminus="2" errorplus="2" unit="AU">754</separation>
+		<positionangle errorminus="0.1" errorplus="0.1">359.8</positionangle>
 		<star>
 			<name>TrES-4 A</name>
 			<mass>0.88</mass>
