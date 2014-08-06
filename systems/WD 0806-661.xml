@@ -1,0 +1,28 @@
+<system>
+	<name>WD 0806-661</name>
+	<name>GJ 3483</name>
+	<rightascension>08 06 54</rightascension>
+	<declination>-66 18 17</declination>
+	<distance>19.2</distance>
+	<star>
+		<mass>0.62</mass>
+		<spectraltype>DQ D</spectraltype>
+		<planet>
+			<name>WD 0806-661 B</name>
+			<name>GJ 3483 B</name>
+			<list>Confirmed planets</list>
+			<mass lowerlimit="6" upperlimit="10">8</mass>
+			<temperature>340</temperature>
+			<spectraltype>Y</spectraltype>
+			<separation errorminus="0.2" errorplus="0.2" unit="arcsec">130.2</separation>
+			<separation unit="AU">2500</separation>
+			<positionangle errorminus="0.2" errorplus="0.2">104.2</positionangle>
+			<discoverymethod>imaging</discoverymethod>
+			<lastupdate>11/04/22</lastupdate>
+			<discoveryyear>2011</discoveryyear>
+		</planet>
+		<name>WD 0806-661</name>
+		<name>GJ 3483</name>
+		<temperature>5700.0</temperature>
+	</star>
+</system>
