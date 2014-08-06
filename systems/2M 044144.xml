@@ -12,7 +12,11 @@
 			<name>2MASS J04414489+2301513 b</name>
 			<list>Confirmed planets</list>
 			<mass>7.5</mass>
-			<semimajoraxis>15</semimajoraxis>
+			<separation errorminus="0.004" errorplus="0.004" unit="arcsec">0.105</separation>
+			<separation unit="AU">15</separation>
+			<positionangle errorminus="2.2" errorplus="2.2">120.4</positionangle>
+			<magH errorminus="0.10" errorplus="0.10">15.62</magH>
+			<magK errorminus="0.10" errorplus="0.10">14.94</magK>
 			<discoverymethod>imaging</discoverymethod>
 			<lastupdate>10/04/06</lastupdate>
 			<discoveryyear>2010</discoveryyear>
