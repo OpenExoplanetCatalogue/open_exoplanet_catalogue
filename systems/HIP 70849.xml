@@ -3,28 +3,40 @@
 	<rightascension>14 29 19</rightascension>
 	<declination>-46 27 50</declination>
 	<distance>24</distance>
-	<star>
-		<mass>0.63</mass>
-		<magV>10.36</magV>
-		<magB>11.798</magB>
-		<magR>9.492</magR>
-		<magI>8.637</magI>
-		<magJ errorminus="0.023" errorplus="0.023">7.639</magJ>
-		<magH errorminus="0.061" errorplus="0.061">7.006</magH>
-		<magK errorminus="0.027" errorplus="0.027">6.790</magK>
-		<spectraltype>K7V</spectraltype>
-		<planet>
-			<name>HIP 70849 b</name>
-			<list>Confirmed planets</list>
-			<mass>9</mass>
-			<period>10000</period>
-			<semimajoraxis>10</semimajoraxis>
-			<eccentricity>0.6</eccentricity>
-			<discoverymethod>RV</discoverymethod>
-			<lastupdate>11/07/05</lastupdate>
-			<discoveryyear>2009</discoveryyear>
-		</planet>
-		<name>HIP 70849</name>
-		<temperature>4105.0</temperature>
-	</star>
+	<binary>
+		<separation unit="arcsec">377</separation>
+		<separation unit="AU">9050</separation>
+		<positionangle>262</positionangle>
+		<star>
+			<mass>0.63</mass>
+			<magV>10.36</magV>
+			<magB>11.798</magB>
+			<magR>9.492</magR>
+			<magI>8.637</magI>
+			<magJ errorminus="0.023" errorplus="0.023">7.639</magJ>
+			<magH errorminus="0.061" errorplus="0.061">7.006</magH>
+			<magK errorminus="0.027" errorplus="0.027">6.790</magK>
+			<spectraltype>K7V</spectraltype>
+			<planet>
+				<name>HIP 70849 b</name>
+				<list>Confirmed planets</list>
+				<mass>9</mass>
+				<period>10000</period>
+				<semimajoraxis>10</semimajoraxis>
+				<eccentricity>0.6</eccentricity>
+				<discoverymethod>RV</discoverymethod>
+				<lastupdate>11/07/05</lastupdate>
+				<discoveryyear>2009</discoveryyear>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+			<name>HIP 70849</name>
+			<temperature>4105.0</temperature>
+		</star>
+		<star>
+			<name>HIP 70849 B</name>
+			<spectraltype>T4-T5</spectraltype>
+			<magJ>15.533</magJ>
+			<magK>12.415</magK>
+		</star>
+	</binary>
 </system>
