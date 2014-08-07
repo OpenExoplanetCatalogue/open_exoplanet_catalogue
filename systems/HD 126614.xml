@@ -3,29 +3,60 @@
 	<rightascension>14 26 48</rightascension>
 	<declination>-05 10 40</declination>
 	<distance>72.4</distance>
-	<star>
-		<mass>1.145</mass>
-		<radius>1.09</radius>
-		<magV>8.81</magV>
-		<magB errorminus="0.028" errorplus="0.028">9.662</magB>
-		<magJ errorminus="0.021" errorplus="0.021">7.470</magJ>
-		<magH errorminus="0.042" errorplus="0.042">7.160</magH>
-		<magK errorminus="0.036" errorplus="0.036">7.060</magK>
-		<metallicity>0.56</metallicity>
-		<spectraltype>K0</spectraltype>
-		<planet>
-			<name>HD 126614 b</name>
-			<list>Confirmed planets</list>
-			<mass>0.38</mass>
-			<period>1244</period>
-			<semimajoraxis>2.35</semimajoraxis>
-			<eccentricity>0.41</eccentricity>
-			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/03/19</lastupdate>
-			<discoveryyear>2010</discoveryyear>
-			<temperature>165.9</temperature>
-		</planet>
-		<name>HD 126614</name>
-		<temperature>5585.0</temperature>
-	</star>
+	<binary>
+		<name>HD 126614 AC</name>
+		<name>LDS 4465</name>
+		<separation unit="arcsec">41.9</separation>
+		<separation unit="AU">3030</separation>
+		<positionangle>299</positionangle>
+		<binary>
+			<name>HD 126614 AB</name>
+			<name>HWD 1</name>
+			<separation errorminus="0.067" errorplus="0.067" unit="arcsec">0.499</separation>
+			<separation unit="AU">36.1</separation>
+			<positionangle errorminus="5.60" errorplus="5.60">60.70</positionangle>
+			<star>
+				<mass>1.145</mass>
+				<radius>1.09</radius>
+				<magV>8.81</magV>
+				<magB errorminus="0.028" errorplus="0.028">9.662</magB>
+				<magJ errorminus="0.021" errorplus="0.021">7.470</magJ>
+				<magH errorminus="0.042" errorplus="0.042">7.160</magH>
+				<magK errorminus="0.036" errorplus="0.036">7.060</magK>
+				<metallicity>0.56</metallicity>
+				<spectraltype>K0</spectraltype>
+				<planet>
+					<name>HD 126614 A b</name>
+					<list>Confirmed planets</list>
+					<mass>0.38</mass>
+					<period>1244</period>
+					<semimajoraxis>2.35</semimajoraxis>
+					<eccentricity>0.41</eccentricity>
+					<discoverymethod>RV</discoverymethod>
+					<lastupdate>10/03/19</lastupdate>
+					<discoveryyear>2010</discoveryyear>
+					<temperature>165.9</temperature>
+					<list>Planets in binary systems, S-type</list>
+				</planet>
+				<name>HD 126614 A</name>
+				<name>WDS J14268-0511 A</name>
+				<temperature>5585.0</temperature>
+			</star>
+			<star>
+				<name>HD 126614 B</name>
+				<name>WDS J14268-0511 C</name>
+				<mass errorminus="0.004" errorplus="0.004">0.324</mass>
+				<spectraltype>M V</spectraltype>
+				<magV>16.5</magV>
+			</star>
+		</binary>
+		<star>
+			<name>HD 126614 C</name>
+			<name>NLTT 37349</name>
+			<name>WDS J14268-0511 B</name>
+			<spectraltype>M4-M5</spectraltype>
+			<magJ>12.116</magJ>
+			<magK>11.279</magK>
+		</star>
+	</binary>
 </system>
