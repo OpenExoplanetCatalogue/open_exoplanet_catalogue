@@ -1,0 +1,32 @@
+<system>
+	<name>HATS-6</name>
+	<rightascension>05 52 35</rightascension>
+	<declination>-19 01 54</declination>
+	<distance errorminus="5.5" errorplus="5.5">172.6</distance>
+	<star>
+		<name>HATS-6</name>
+		<name>2MASS 05523523-1901539</name>
+		<mass errorminus="0.027" errorplus="0.020">0.574</mass>
+		<radius errorminus="0.011" errorplus="0.011">0.570</radius>
+		<temperature errorminus="18" errorplus="18">3724</temperature>
+		<age errorminus="4.3" errorplus="4.3">8.1</age>
+		<metallicity errorminus="0.091" errorplus="0.091">0.2</metallicity>
+		<planet>
+			<name>HATS-6 b</name>
+			<name>2MASS 05523523-1901539 b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.070" errorplus="0.070">0.319</mass>
+			<radius errorminus="0.019" errorplus="0.019">0.998</radius>
+			<temperature errorminus="5.1" errorplus="5.1">712.8</temperature>
+			<transittime errorminus="0.000084" errorplus="0.000084" unit="BJD">2456643.740580</transittime>
+			<period errorminus="0.0000021" errorplus="0.0000021">3.3252725</period>
+			<semimajoraxis errorminus="0.00057" errorplus="0.00042">0.03623</semimajoraxis>
+			<inclination errorminus="0.084" errorplus="0.084">88.210</inclination>
+			<description>HATS-6 is a warm Saturn orbiting an early M-dwarf star.</description>
+			<discoverymethod>transit</discoverymethod>
+			<lastupdate>14/08/07</lastupdate>
+			<discoveryyear>2014</discoveryyear>
+			<istransiting>1</istransiting>
+		</planet>
+	</star>
+</system>
