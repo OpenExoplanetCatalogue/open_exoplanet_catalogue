@@ -1,5 +1,5 @@
 <system>
-	<name>LKCA 15</name>
+	<name>LkCa 15</name>
 	<rightascension>04 39 18</rightascension>
 	<declination>+22 21 03</declination>
 	<distance>145</distance>
@@ -13,17 +13,19 @@
 		<magK errorminus="0.018" errorplus="0.018">8.163</magK>
 		<spectraltype>K5V</spectraltype>
 		<planet>
-			<name>LKCA 15 b</name>
+			<name>LkCa 15 b</name>
 			<list>Confirmed planets</list>
 			<mass>6</mass>
 			<period>40000</period>
-			<semimajoraxis>15.7</semimajoraxis>
+			<separation errorminus="0.0016" errorplus="0.0016" unit="arcsec">0.0719</separation>
+			<separation unit="AU">15.7</separation>
+			<positionangle errorminus="1.3" errorplus="1.3">335.2</positionangle>
 			<description>The young (2 Myr) solar analog LkCa 15 shows evidence for a (proto)planet surrounded by dusty material. The object is located in a known gap in the transitional disk. More planets might be present in this system.</description>
 			<discoverymethod>imaging</discoverymethod>
 			<lastupdate>11/10/19</lastupdate>
 			<discoveryyear>2011</discoveryyear>
 		</planet>
-		<name>LKCA 15</name>
+		<name>LkCa 15</name>
 		<temperature>5150.0</temperature>
 	</star>
 </system>
