@@ -1,0 +1,43 @@
+<system>
+	<name>Ross 458</name>
+	<name>DT Vir</name>
+	<rightascension>13 00 47</rightascension>
+	<declination>+12 22 33</declination>
+	<distance>114</distance>
+	<binary>
+		<name>Ross 458 AB</name>
+		<separation unit="arcsec">0.475</separation>
+		<separation unit="AU">5.4</separation>
+		<positionangle>81.5</positionangle>
+		<star>
+			<name>Ross 458 A</name>
+			<name>DT Vir A</name>
+			<mass>0.6</mass>
+			<magV>9.76</magV>
+			<magK>5.578</magK>
+			<spectraltype>M0.5V</spectraltype>
+		</star>
+		<star>
+			<name>Ross 458 B</name>
+			<name>DT Vir B</name>
+			<spectraltype>M7V</spectraltype>
+			<magK>9.9</magK>
+			<mass lowerlimit="0.06" upperlimit="0.09">0.075</mass>
+		</star>
+		<planet>
+			<name>Ross 458 C</name>
+			<name>DT Virginis C</name>
+			<name>HIP 63510 C</name>
+			<list>Confirmed planets</list>
+			<mass>8.5</mass>
+			<separation unit="arcsec">102.10</separation>
+			<separation unit="AU">1168</separation>
+			<positionangle>220</positionangle>
+			<discoverymethod>imaging</discoverymethod>
+			<lastupdate>11/08/11</lastupdate>
+			<discoveryyear>2010</discoveryyear>
+			<list>Planets in binary systems, P-type</list>
+		</planet>
+		<temperature>3840.0</temperature>
+	</binary>
+</system>
