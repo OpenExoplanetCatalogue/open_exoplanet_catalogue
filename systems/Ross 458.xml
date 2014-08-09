@@ -29,10 +29,16 @@
 			<name>DT Virginis C</name>
 			<name>HIP 63510 C</name>
 			<list>Confirmed planets</list>
-			<mass>8.5</mass>
+			<mass lowerlimit="5" upperlimit="20">12.5</mass>
 			<separation unit="arcsec">102.10</separation>
 			<separation unit="AU">1168</separation>
 			<positionangle>220</positionangle>
+			<spectraltype>T8.5p</spectraltype>
+			<magJ>16.7</magJ>
+			<magH>17.0</magH>
+			<magK>16.9</magK>
+			<radius>1.1</radius>
+			<temperature errorminus="60" errorplus="60">695</temperature>
 			<discoverymethod>imaging</discoverymethod>
 			<lastupdate>11/08/11</lastupdate>
 			<discoveryyear>2010</discoveryyear>
