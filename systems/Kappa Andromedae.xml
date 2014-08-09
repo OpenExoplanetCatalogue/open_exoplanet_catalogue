@@ -22,7 +22,9 @@
 			<mass errorminus="13" errorplus="16">50</mass>
 			<temperature errorminus="60" errorplus="60">2040</temperature>
 			<spectraltype>L1</spectraltype>
-			<semimajoraxis>61</semimajoraxis>
+			<separation errorminus="0.005" errorplus="0.005" unit="arcsec">1.029</separation>
+			<separation unit="AU">61</separation>
+			<positionangle errorminus="0.3" errorplus="0.3">55.3</positionangle>
 			<description>Kappa Andromedae b is an extrasolar planet or possibly low-mass brown dwarf. Astronomers have directly imaged it using the Subaru telescope on Hawaii.</description>
 			<discoverymethod>imaging</discoverymethod>
 			<lastupdate>12/11/19</lastupdate>
