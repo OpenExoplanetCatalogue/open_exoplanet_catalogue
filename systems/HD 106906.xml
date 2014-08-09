@@ -9,12 +9,17 @@
 		<temperature errorminus="165" errorplus="165">6516</temperature>
 		<age errorminus="0.002" errorplus="0.002">0.013</age>
 		<spectraltype>F5V</spectraltype>
+		<magJ errorminus="0.03" errorplus="0.03">6.95</magJ>
 		<planet>
 			<name>HD 106906 b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="2" errorplus="2">11</mass>
+			<spectraltype>L2.5</spectraltype>
 			<temperature errorminus="100" errorplus="100">1800</temperature>
-			<semimajoraxis>650</semimajoraxis>
+			<separation errorminus="0.03" errorplus="0.03" unit="arcsec">7.11</separation>
+			<separation unit="AU">650</separation>
+			<positionangle errorminus="0.2" errorplus="0.2">307.3</positionangle>
+			<magJ errorminus="0.3" errorplus="0.3">17.6</magJ>
 			<description>The star HD 106906 hosts a massive debris disk with an inner edge at 15-20 AU and an outer edge at 120 AU. New adaptive optics images from the Magellan telescope revealed a planetary mass companion far beyond the debris disk at 650 AU. Explaining the formation of such a wide companion is challenging.</description>
 			<discoverymethod>imaging</discoverymethod>
 			<lastupdate>13/12/06</lastupdate>
