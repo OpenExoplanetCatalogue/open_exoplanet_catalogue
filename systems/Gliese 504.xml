@@ -28,7 +28,13 @@
 			<list>Confirmed planets</list>
 			<mass errorminus="1.0" errorplus="4.5">4</mass>
 			<temperature errorminus="20" errorplus="30">510</temperature>
-			<semimajoraxis>43.5</semimajoraxis>
+			<separation errorminus="0.008" errorplus="0.008" unit="arcsec">2.483</separation>
+			<separation unit="AU">43.5</separation>
+			<spectraltype>T-Y</spectraltype>
+			<magJ errorminus="0.15" errorplus="0.15">19.91</magJ>
+			<magH errorminus="0.14" errorplus="0.14">20.14</magH>
+			<magK errorminus="0.28" errorplus="0.28">19.19</magK>
+			<positionangle errorminus="0.19" errorplus="0.19">327.45</positionangle>
 			<description>Gliese 504 b is the first directly imaged planet on a wide orbit around a G-type main-sequence star with a mass similar to that of our Sun. The planet is a gas giant, about 4 times more massive than Jupiter. It was discovered by the SEEDS survey.</description>
 			<discoverymethod>imaging</discoverymethod>
 			<lastupdate>13/07/22</lastupdate>
