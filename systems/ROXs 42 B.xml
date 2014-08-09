@@ -8,11 +8,19 @@
 		<mass errorminus="0.08" errorplus="0.08">0.89</mass>
 		<temperature errorminus="70" errorplus="100">3850</temperature>
 		<spectraltype>M0</spectraltype>
+		<magJ>9.91</magJ>
+		<magH>9.02</magH>
+		<magK>8.67</magK>
+		<age errorminus="0.0023" errorplus="0.0034">0.0068</age>
 		<planet>
 			<name>ROXs 42 B b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="4" errorplus="4">10</mass>
-			<semimajoraxis errorminus="10" errorplus="10">140</semimajoraxis>
+			<separation errorminus="0.0012" errorplus="0.0012" unit="arcsec">1.1720</separation>
+			<separation errorminus="10" errorplus="10" unit="AU">140</separation>
+			<positionangle errorminus="0.10" errorplus="0.10">270.03</positionangle>
+			<magJ errorminus="0.07" errorplus="0.07">16.99</magJ>
+			<magH errorminus="0.06" errorplus="0.06">15.88</magH>
 			<description>The substellar object ROXs 42B b is orbiting the binary M star ROXs 42B. It is most likely a planet and was discovered in 2013 by Thayne Currie.</description>
 			<discoverymethod>imaging</discoverymethod>
 			<lastupdate>13/12/02</lastupdate>

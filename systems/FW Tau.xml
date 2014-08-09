@@ -4,16 +4,25 @@
 	<declination>+26 16 53</declination>
 	<distance>145</distance>
 	<star>
-		<name>FW Tau</name>
+		<name>FW Tau AB</name>
+		<name>2MASS J04292971+2616532</name>
 		<mass errorminus="0.05" errorplus="0.05">0.28</mass>
 		<temperature errorminus="70" errorplus="70">3270</temperature>
 		<spectraltype>M4</spectraltype>
+		<age lowerlimit="0.001" upperlimit="0.005">0.003</age>
+		<magJ>10.34</magJ>
+		<magH>9.68</magH>
+		<magK>9.39</magK>
 		<planet>
 			<name>FW Tau b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="4" errorplus="4">10</mass>
-			<semimajoraxis errorminus="30" errorplus="30">330</semimajoraxis>
-			<description>DW Tau b is a wide separation planetary mass companion to the star DW Tau. The object was discovered over 10 years ago in a binary survey program, but follow-up observations only confirmed its planetary nature in 2013.</description>
+			<magJ errorminus="0.07" errorplus="0.07">17.34</magJ>
+			<magH errorminus="0.07" errorplus="0.07">16.25</magH>
+			<separation errorminus="0.002" errorplus="0.002" unit="arcsec">2.280</separation>
+			<separation errorminus="30" errorplus="30" unit="AU">330</separation>
+			<positionangle errorminus="0.17" errorplus="0.17">295.34</positionangle>
+			<description>FW Tau b is a wide separation planetary mass companion to the star FW Tau. The object was discovered over 10 years ago in a binary survey program, but follow-up observations only confirmed its planetary nature in 2013.</description>
 			<discoverymethod>imaging</discoverymethod>
 			<lastupdate>13/12/02</lastupdate>
 			<discoveryyear>2013</discoveryyear>

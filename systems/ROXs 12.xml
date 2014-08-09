@@ -5,14 +5,23 @@
 	<distance>120</distance>
 	<star>
 		<name>ROXs 12</name>
+		<name>2MASS J16262774-2527247</name>
 		<mass errorminus="0.08" errorplus="0.08">0.87</mass>
 		<temperature errorminus="70" errorplus="100">3850</temperature>
 		<spectraltype>M0</spectraltype>
+		<magJ>11.02</magJ>
+		<magH>9.93</magH>
+		<magK>9.21</magK>
+		<age errorminus="0.0025" errorplus="0.0041">0.0076</age>
 		<planet>
 			<name>ROXs 12 b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="4" errorplus="4">16</mass>
-			<semimajoraxis errorminus="20" errorplus="20">210</semimajoraxis>
+			<magJ errorminus="0.07" errorplus="0.07">16.64</magJ>
+			<magH errorminus="0.08" errorplus="0.08">15.37</magH>
+			<separation errorminus="0.002" errorplus="0.002" unit="arcsec">1.781</separation>
+			<separation errorminus="20" errorplus="20">210</separation>
+			<positionangle errorminus="0.06" errorplus="0.06">9.08</positionangle>
 			<description>ROXs 12 b is a wide separation planetary mass companion to the star ROXs 12. The object was discovered over 10 years ago in a binary survey program, but follow-up observations only confirmed its planetary nature in 2013.</description>
 			<discoverymethod>imaging</discoverymethod>
 			<lastupdate>13/12/02</lastupdate>
