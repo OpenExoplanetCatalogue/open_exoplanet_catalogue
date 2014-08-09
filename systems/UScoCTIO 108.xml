@@ -4,20 +4,26 @@
 	<declination>-18 18 43</declination>
 	<distance>145</distance>
 	<star>
-		<mass>0.057</mass>
+		<name>UScoCTIO 108</name>
+		<mass errorminus="0.019" errorplus="0.019">0.057</mass>
 		<spectraltype>M7</spectraltype>
+		<magI errorminus="0.08" errorplus="0.08">15.65</magI>
+		<temperature errorminus="100" errorplus="100">2700</temperature>
 		<planet>
 			<name>UScoCTIO 108 b</name>
 			<list>Confirmed planets</list>
-			<mass>16</mass>
-			<semimajoraxis>670</semimajoraxis>
+			<mass errorminus="8" errorplus="2">14</mass>
+			<separation errorminus="0.1" errorplus="0.1" unit="arcsec">4.6</separation>
+			<separation unit="AU">670</separation>
+			<positionangle errorminus="1" errorplus="1">177</positionangle>
+			<spectraltype>M9.5</spectraltype>
+			<magI errorminus="0.08" errorplus="0.08">19.91</magI>
+			<temperature errorminus="400" errorplus="100">2350</temperature>
 			<discoverymethod>imaging</discoverymethod>
 			<lastupdate>11/12/14</lastupdate>
 			<discoveryyear>2007</discoveryyear>
 			<image>UScoCTIO 108</image>
 			<imagedescription>This composite color image shows UScoCTIO 108 together with its companion. Credit: V.J.S. Bejar, Telescopio Nazionale Galileo, William Herschel Telescope.</imagedescription>
 		</planet>
-		<name>UScoCTIO 108</name>
-		<temperature>2600.0</temperature>
 	</star>
 </system>

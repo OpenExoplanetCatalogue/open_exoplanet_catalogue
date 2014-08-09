@@ -17,8 +17,15 @@
 			<name>GSC 06214-00210 b</name>
 			<name>GSC 6214-210 b</name>
 			<list>Confirmed planets</list>
-			<mass>17</mass>
-			<semimajoraxis>320</semimajoraxis>
+			<mass errorminus="2" errorplus="2">14</mass>
+			<temperature errorminus="100" errorplus="100">2200</temperature>
+			<separation errorminus="0.0009" errorplus="0.0009" unit="arcsec">2.2052</separation>
+			<separation errorminus="30" errorplus="30" unit="AU">320</separation>
+			<positionangle errorminus="0.09" errorplus="0.09">176.00</positionangle>
+			<spectraltype>L0</spectraltype>
+			<magJ errorminus="0.04" errorplus="0.04">16.25</magJ>
+			<magH errorminus="0.04" errorplus="0.04">15.55</magH>
+			<magK errorminus="0.03" errorplus="0.03">14.94</magK>
 			<discoverymethod>imaging</discoverymethod>
 			<lastupdate>11/12/14</lastupdate>
 			<discoveryyear>2010</discoveryyear>

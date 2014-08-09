@@ -4,6 +4,7 @@
 	<declination>+25 03 03</declination>
 	<distance>140</distance>
 	<star>
+		<name>FU Tau A</name>
 		<magB>15.1</magB>
 		<magJ errorminus="0.026" errorplus="0.026">10.781</magJ>
 		<magH errorminus="0.027" errorplus="0.027">9.945</magH>
@@ -11,10 +12,15 @@
 		<mass>0.05</mass>
 		<spectraltype>M7.25</spectraltype>
 		<planet>
-			<name>FU Tau b</name>
+			<name>FU Tau B</name>
 			<list>Confirmed planets</list>
 			<mass>15</mass>
-			<semimajoraxis>800</semimajoraxis>
+			<separation errorminus="0.1" errorplus="0.1" unit="arcsec">5.72</separation>
+			<separation unit="AU">800</separation>
+			<positionangle errorminus="1" errorplus="1">123.2</positionangle>
+			<magK errorminus="0.02" errorplus="0.02">13.20</magK>
+			<temperature>2375</temperature>
+			<spectraltype>M9.25</spectraltype>
 			<discoverymethod>imaging</discoverymethod>
 			<lastupdate>11/09/19</lastupdate>
 			<discoveryyear>2009</discoveryyear>

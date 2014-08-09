@@ -12,7 +12,12 @@
 			<name>CHXR 73 b</name>
 			<list>Confirmed planets</list>
 			<mass>12</mass>
-			<semimajoraxis>200</semimajoraxis>
+			<separation errorminus="0.03" errorplus="0.03" unit="arcsec">1.30</separation>
+			<separation unit="AU">210</separation>
+			<positionangle errorminus="1" errorplus="1">234.9</positionangle>
+			<magJ errorminus="0.3" errorplus="0.3">17.9</magJ>
+			<magH errorminus="0.3" errorplus="0.3">16.5</magH>
+			<magK errorminus="0.25" errorplus="0.25">15.5</magK>
 			<description>The companion CHXR 73 b is just under the threshold for deuterium fusion. Therefor, its status as a planet is uncertain.</description>
 			<discoverymethod>imaging</discoverymethod>
 			<lastupdate>11/03/08</lastupdate>

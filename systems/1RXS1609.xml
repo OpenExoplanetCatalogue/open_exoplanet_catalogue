@@ -17,8 +17,14 @@
 			<list>Confirmed planets</list>
 			<mass>14</mass>
 			<radius>1.7</radius>
-			<semimajoraxis>330</semimajoraxis>
-			<description>1RXS J160929.1-210524 is a 5 million year old pre-main sequence star in the constellation of Scorpius. The observed planet has a large semi-major axis, posing problems for current formation scenarios. Two possibilities are that the planet formed by gravitational instability or migrated outwards.</description>
+			<separation errorminus="0.002" errorplus="0.002" unit="arcsec">2.219</separation>
+			<separation unit="AU">330</separation>
+			<magJ errorminus="0.12" errorplus="0.12">17.90</magJ>
+			<magH errorminus="0.07" errorplus="0.07">16.87</magH>
+			<magK errorminus="0.18" errorplus="0.18">16.17</magK>
+			<spectraltype>L4</spectraltype>
+			<positionangle errorminus="0.1" errorplus="0.1">27.7</positionangle>
+			<description>1RXS J160929.1-210524 is a 5 million year old pre-main sequence star in the constellation of Scorpius. The observed planet has a large separation, posing problems for current formation scenarios. Two possibilities are that the planet formed by gravitational instability or migrated outwards.</description>
 			<discoverymethod>imaging</discoverymethod>
 			<lastupdate>11/12/14</lastupdate>
 			<discoveryyear>2008</discoveryyear>

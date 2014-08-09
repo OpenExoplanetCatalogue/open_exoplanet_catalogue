@@ -3,7 +3,7 @@
 	<name>2MASS J12073346-3932539</name>
 	<rightascension>12 07 33</rightascension>
 	<declination>-39 32 54</declination>
-	<distance>52.4</distance>
+	<distance errorminus="7" errorplus="7">59</distance>
 	<star>
 		<mass>0.025</mass>
 		<magV>20.15</magV>
@@ -12,8 +12,12 @@
 			<name>2M1207 b</name>
 			<name>2MASS J12073346-3932539 b</name>
 			<list>Confirmed planets</list>
-			<mass>4</mass>
-			<semimajoraxis>46</semimajoraxis>
+			<mass errorminus="3" errorplus="3">5</mass>
+			<temperature lowerlimit="920" upperlimit="1540">1230</temperature>
+			<separation errorminus="1.4" errorplus="1.4" unit="arcsec">773.0</separation>
+			<separation errorminus="5" errorplus="5" unit="AU">46</separation>
+			<spectraltype>L</spectraltype>
+			<positionangle errorminus="0.03" errorplus="0.03">125.37</positionangle>
 			<description>2M1207 might be the first directly imaged extrasolar planet. However, due to its high mass it might also classify as a brown dwarf.</description>
 			<discoverymethod>imaging</discoverymethod>
 			<lastupdate>10/12/28</lastupdate>

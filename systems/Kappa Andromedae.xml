@@ -3,11 +3,11 @@
 	<name>Kappa And</name>
 	<rightascension>23 40 25</rightascension>
 	<declination>+44 20 02</declination>
-	<distance>51.6</distance>
+	<distance errorminus="0.5" errorplus="0.5">51.6</distance>
 	<star>
-		<mass>2.4</mass>
-		<radius>2.31</radius>
-		<temperature>11361</temperature>
+		<mass errorminus="0.2" errorplus="0.1">2.8</mass>
+		<radius errorminus="0.06" errorplus="0.06">2.29</radius>
+		<temperature errorminus="66" errorplus="66">11361</temperature>
 		<magV>4.1</magV>
 		<magB>4.076</magB>
 		<magJ errorminus="0.264" errorplus="0.264">4.624</magJ>
@@ -15,12 +15,17 @@
 		<magK errorminus="0.354" errorplus="0.354">4.571</magK>
 		<metallicity>-0.36</metallicity>
 		<spectraltype>B9IV</spectraltype>
+		<age errorminus="0.100" errorplus="0.100">0.220</age>
 		<planet>
 			<name>Kappa And b</name>
 			<list>Controversial</list>
-			<mass>12.8</mass>
-			<semimajoraxis>61</semimajoraxis>
-			<description>Kappa Andromedae b is an extrasolar planet or possibly low-mass brown dwarf. Astronomers have directly imaged it using the Subaru telescope on Hawaii. An object is called a planet when it is not able to fuse hydrogen in its core. Kappa Andromedae b is very close to the theoretical limit of 13 Jupiter masses.</description>
+			<mass errorminus="13" errorplus="16">50</mass>
+			<temperature errorminus="60" errorplus="60">2040</temperature>
+			<spectraltype>L1</spectraltype>
+			<separation errorminus="0.005" errorplus="0.005" unit="arcsec">1.029</separation>
+			<separation unit="AU">61</separation>
+			<positionangle errorminus="0.3" errorplus="0.3">55.3</positionangle>
+			<description>Kappa Andromedae b is an extrasolar planet or possibly low-mass brown dwarf. Astronomers have directly imaged it using the Subaru telescope on Hawaii.</description>
 			<discoverymethod>imaging</discoverymethod>
 			<lastupdate>12/11/19</lastupdate>
 			<discoveryyear>2012</discoveryyear>

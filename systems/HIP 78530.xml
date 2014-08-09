@@ -4,6 +4,7 @@
 	<declination>-21 58 49</declination>
 	<distance>156.7</distance>
 	<star>
+		<name>HIP 78530</name>
 		<mass>2.5</mass>
 		<magV>7.18</magV>
 		<magB errorminus="0.01" errorplus="0.01">7.27</magB>
@@ -12,18 +13,24 @@
 		<magH errorminus="0.029" errorplus="0.029">6.946</magH>
 		<magK errorminus="0.020" errorplus="0.020">6.903</magK>
 		<spectraltype>B9V</spectraltype>
+		<temperature>10500.0</temperature>
 		<planet>
 			<name>HIP 78530 b</name>
 			<list>Confirmed planets</list>
 			<mass>23.04</mass>
-			<semimajoraxis>710</semimajoraxis>
+			<spectraltype>M8</spectraltype>
+			<magJ errorminus="0.05" errorplus="0.05">15.06</magJ>
+			<magH errorminus="0.04" errorplus="0.04">14.39</magH>
+			<magK errorminus="0.04" errorplus="0.04">14.17</magK>
+			<temperature errorminus="200" errorplus="200">2800</temperature>
+			<separation errorminus="0.006" errorplus="0.006" unit="arcsec">4.533</separation>
+			<separation errorminus="60" errorplus="60" unit="AU">710</separation>
+			<positionangle errorminus="0.1" errorplus="0.1">140.3</positionangle>
 			<discoverymethod>imaging</discoverymethod>
 			<lastupdate>11/01/26</lastupdate>
 			<discoveryyear>2011</discoveryyear>
 			<image>HIP 78530</image>
 			<imagedescription>This image shows the star HIP 78530 with its companion in the lower left corner. The companion's mass is most likely too large to be a planet. Credit: David Lafreniere (University of Montreal).</imagedescription>
 		</planet>
-		<name>HIP 78530</name>
-		<temperature>10500.0</temperature>
 	</star>
 </system>
