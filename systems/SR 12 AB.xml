@@ -3,19 +3,35 @@
 	<rightascension>16 27 20</rightascension>
 	<declination>-24 41 40</declination>
 	<distance>125</distance>
-	<star>
+	<binary>
+		<name>SR 12</name>
+		<separation unit="arcsec">2.8</separation>
+		<separation unit="AU">35</separation>
+		<positionangle>96</positionangle>
 		<magV>13.28</magV>
-		<spectraltype>K4-M2.5</spectraltype>
+		<star>
+			<name>SR 12 A</name>
+			<spectraltype>K4-M2.5</spectraltype>
+			<temperature>5150.0</temperature>
+			<radius>2.7</radius>
+			<mass lowerlimit="0.2" upperlimit="0.4">0.3</mass>
+		</star>
+		<star>
+			<name>SR 12 B</name>
+			<radius>3.8</radius>
+			<temperature>2500</temperature>
+		</star>
 		<planet>
-			<name>SR 12 AB c</name>
+			<name>SR 12 C</name>
 			<list>Confirmed planets</list>
 			<mass>13</mass>
-			<semimajoraxis>1083</semimajoraxis>
+			<separation unit="arcsec">8.8</separation>
+			<separation unit="AU">1083</separation>
+			<positionangle>166</positionangle>
 			<discoverymethod>imaging</discoverymethod>
 			<lastupdate>11/03/08</lastupdate>
 			<discoveryyear>2011</discoveryyear>
+			<list>Planets in binary systems, P-type</list>
 		</planet>
-		<name>SR 12 AB</name>
-		<temperature>5150.0</temperature>
-	</star>
+	</binary>
 </system>
