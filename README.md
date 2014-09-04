@@ -70,14 +70,14 @@ The following table shows all the possible tags in the Open Exoplanet Catalogue.
 | `temperature`	| `planet`, `star` |Temperature (surface or equilibrium) | Kelvin  |
 | `age`		| `planet`, `star` |Age | Gyr  |
 | `metallicity`	| `star` | Stellar metallicity  | log, relative to solar  |
-| `spectraltype`	| `star` | Spectral type  |   |
-| `magB`		| `binary`, `star` | B magnitude |   |
-| `magV`		| `binary`, `star` | Visual magnitude |   |
-| `magR`		| `binary`, `star` | R magnitude |   |
-| `magI`		| `binary`, `star` | I magnitude |   |
-| `magJ`		| `binary`, `star` | J magnitude |   |
-| `magH`		| `binary`, `star` | H magnitude |   |
-| `magK`		| `binary`, `star` | K magnitude |   |
+| `spectraltype`	| `star`, `planet` | Spectral type  |   |
+| `magB`		| `binary`, `star`, `planet` | B magnitude |   |
+| `magV`		| `binary`, `star`, `planet` | Visual magnitude |   |
+| `magR`		| `binary`, `star`, `planet` | R magnitude |   |
+| `magI`		| `binary`, `star`, `planet` | I magnitude |   |
+| `magJ`		| `binary`, `star`, `planet` | J magnitude |   |
+| `magH`		| `binary`, `star`, `planet` | H magnitude |   |
+| `magK`		| `binary`, `star`, `planet` | K magnitude |   |
 | | | | |
 | `discoverymethod` 	| `planet` | Discovery method of the planet. For example: timing, RV, transit, imaging.  |   |
 | `istransiting` 	| `planet` | Whether the planet is transiting (1) or not (0).  |   |
