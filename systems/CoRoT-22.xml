@@ -1,0 +1,32 @@
+<system>
+	<name>CoRoT-22</name>
+	<rightascension>18 42 40</rightascension>
+	<declination>+06 13 09</declination>
+	<distance errorminus="42" errorplus="25">592.0</distance>
+	<star>
+		<name>CoRoT-22</name>
+		<age errorminus="2" errorplus="2">3.3</age>
+		<radius errorminus="0.09" errorplus="0.038">1.136</radius>
+		<mass errorminus="0.049" errorplus="0.049">1.099</mass>
+		<spectraltype>G0IV</spectraltype>
+		<temperature errorminus="120" errorplus="54">5939</temperature>
+		<metallicity errorminus="0.12" errorplus="0.07">0.17</metallicity>
+		<planet>
+			<name>CoRoT-22 b</name>
+			<name>2MASS 18424010+0613088</name>
+			<semimajoraxis errorminus="0.0014" errorplus="0.0014">0.092</semimajoraxis>
+			<periastron errorminus="30.0" errorplus="70.0">210.0</periastron>
+			<eccentricity errorminus="0.042" errorplus="0.3">0.077</eccentricity>
+			<inclination errorminus="0.9" errorplus="0.032">89.749</inclination>
+			<period errorminus="0.00011" errorplus="0.00011">9.75598</period>
+			<temperature errorminus="280" errorplus="54">885</temperature>
+			<transittime errorminus="0.00051" errorplus="0.00099" unit="BJD">2454598.42014</transittime>
+			<mass errorminus="0.0276877576062675" errorplus="0.0440487052826983">0.0383853003178</mass>
+			<radius errorminus="0.0347935316148303" errorplus="0.0151664112167209">0.435365216104</radius>
+			<istransiting>1</istransiting>
+			<description>CoRoT-22 b is a transiting exoplanet discovered by the European CoRoT space mission. The planetary nature of this object has been validated by a full Basian analysis including observing constraints from radial-velocity spectroscopy, adaptive optics imaging and the CoRoT transit shape, as well as from priors on stellar populations, planet and multiple stellar systems frequency.</description>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/08/28</lastupdate>
+		</planet>
+	</star>
+</system>
