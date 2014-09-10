@@ -15,12 +15,13 @@
 				<xs:element name="epoch" type="xs:string" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="videolink" type="webreference" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="magB" type="number" minOccurs="0" maxOccurs="1"/>
-				<xs:element name="magV" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="magH" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="magI" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="magJ" type="number" minOccurs="0" maxOccurs="1"/>
-				<xs:element name="magH" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="magK" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="magR" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="magU" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="magV" type="number" minOccurs="0" maxOccurs="1"/>
 			</xs:choice>
 		</xs:complexType>
 	</xs:element>
@@ -53,12 +54,13 @@
 				<xs:element name="spinorbitalignment" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="spectraltype" type="spectraltypedef" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="magB" type="number" minOccurs="0" maxOccurs="1"/>
-				<xs:element name="magV" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="magH" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="magI" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="magJ" type="number" minOccurs="0" maxOccurs="1"/>
-				<xs:element name="magH" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="magK" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="magR" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="magU" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="magV" type="number" minOccurs="0" maxOccurs="1"/>
 			</xs:choice>
 		</xs:complexType>
 	</xs:element>
@@ -75,12 +77,13 @@
 				<xs:element name="metallicity" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="spectraltype" type="spectraltypedef" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="magB" type="number" minOccurs="0" maxOccurs="1"/>
-				<xs:element name="magV" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="magH" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="magI" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="magJ" type="number" minOccurs="0" maxOccurs="1"/>
-				<xs:element name="magH" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="magK" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="magR" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="magU" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="magV" type="number" minOccurs="0" maxOccurs="1"/>
 			</xs:choice>
 		</xs:complexType>
 	</xs:element>
@@ -103,12 +106,13 @@
 				<xs:element name="separation" type="number"/>
 				<xs:element name="positionangle" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="magB" type="number" minOccurs="0" maxOccurs="1"/>
-				<xs:element name="magV" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="magH" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="magI" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="magJ" type="number" minOccurs="0" maxOccurs="1"/>
-				<xs:element name="magH" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="magK" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="magR" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="magU" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="magV" type="number" minOccurs="0" maxOccurs="1"/>
 			</xs:choice>
 		</xs:complexType>
 	</xs:element>
