@@ -52,6 +52,7 @@
 				<xs:element name="image" type="xs:string" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="imagedescription" type="xs:string" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="spinorbitalignment" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="positionangle" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="spectraltype" type="spectraltypedef" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="magB" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="magH" type="number" minOccurs="0" maxOccurs="1"/>
