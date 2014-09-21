@@ -1,0 +1,53 @@
+<system>
+	<name>gam Cep</name>
+	<name>Errai</name>
+	<name>Alrai</name>
+	<name>Gliese 903</name>
+	<name>HR 8974</name>
+	<name>HD 222404</name>
+	<name>HIP 116727</name>
+	<rightascension>23 39 20</rightascension>
+	<declination>+77 37 56</declination>
+	<distance>13.79</distance>
+	<binary>
+		<semimajoraxis errorminus="0.66" errorplus="0.66">20.18</semimajoraxis>
+		<eccentricity errorminus="0.0063" errorplus="0.0063">0.4112</eccentricity>
+		<period errorminus="1.4" errorplus="1.4">67.5</period>
+		<star>
+			<name>gam Cep A</name>
+			<mass errorminus="0.12" errorplus="0.12">1.4</mass>
+			<radius>4.9</radius>
+			<magV>3.22</magV>
+			<magB errorminus="0.007" errorplus="0.007">4.250</magB>
+			<magR>2.6</magR>
+			<magI>2.1</magI>
+			<magJ>1.66</magJ>
+			<magH>1.19</magH>
+			<magK>1.04</magK>
+			<metallicity>0.18</metallicity>
+			<temperature errorminus="100" errorplus="100">4800.0</temperature>
+			<spectraltype>K1 III-IV</spectraltype>
+			<planet>
+				<name>gam Cep A b</name>
+				<name>gam Cep b</name>
+				<name>HD 222404b</name>
+				<list>Confirmed planets</list>
+				<mass errorminus="0.16" errorplus="0.16">1.85</mass>
+				<period errorminus="1.5" errorplus="1.5">903.3</period>
+				<semimajoraxis errorminus="0.06" errorplus="0.06">2.05</semimajoraxis>
+				<eccentricity errorminus="0.034" errorplus="0.034">0.049</eccentricity>
+				<inclination>5.7</inclination>
+				<discoverymethod>RV</discoverymethod>
+				<lastupdate>11/01/14</lastupdate>
+				<discoveryyear>2003</discoveryyear>
+				<temperature>327.2</temperature>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+		<star>
+			<name>gam Cep B</name>
+			<mass errorminus="0.018" errorplus="0.018">0.409</mass>
+		</star>
+	</binary>
+	<videolink>http://youtu.be/lJ3HMtDK4ms</videolink>
+</system>
