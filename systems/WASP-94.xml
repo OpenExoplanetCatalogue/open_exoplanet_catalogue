@@ -1,0 +1,64 @@
+<system>
+	<name>WASP-94</name>
+	<rightascension>20 55 08</rightascension>
+	<declination>-34 08 08</declination>
+	<distance errorminus="20" errorplus="20">180</distance>
+	<binary>
+		<separation unit="AU">2700</separation>
+		<separation unit="arcsec">15</separation>
+		<star>
+			<name>WASP-94 A</name>
+			<name>2MASS 20550794-3408079</name>
+			<mass errorminus="0.1" errorplus="0.1">1.29</mass>
+			<radius errorminus="0.13" errorplus="0.13">1.36</radius>
+			<temperature errorminus="80" errorplus="80">6170</temperature>
+			<magV>10.1</magV>
+			<metallicity errorminus="0.15" errorplus="0.15">0.26</metallicity>
+			<spectraltype>F8</spectraltype>
+			<planet>
+				<name>WASP-94 A b</name>
+				<name>2MASS 20550794-3408079 b</name>
+				<list>Confirmed planets</list>
+				<mass errorminus="0.032" errorplus="0.035">0.452</mass>
+				<radius errorminus="0.05" errorplus="0.06">1.72</radius>
+				<period errorminus="0.0000030" errorplus="0.0000044">3.9501907</period>
+				<transittime errorminus="0.00026" errorplus="0.00026" unit="HJD">2456416.40138</transittime>
+				<semimajoraxis errorminus="0.001" errorplus="0.001">0.055</semimajoraxis>
+				<eccentricity upperlimit="0.13" />
+				<inclination errorminus="0.7" errorplus="0.7">88.7</inclination>
+				<spinorbitalignment errorminus="20" errorplus="20">151</spinorbitalignment>
+				<description>WASP-94 A b is a Hot Jupiter orbiting an F-star in a binary system. The other binary component WASP-94 B also hosts a Hot Jupiter, making this system an ideal test-bed to explore planet formation scenarios. The planet's orbit is misaligned with the host star rotation axis.</description>
+				<discoverymethod>transit</discoverymethod>
+				<istransiting>1</istransiting>
+				<lastupdate>14/09/29</lastupdate>
+				<discoveryyear>2014</discoveryyear>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+		<star>
+			<name>WASP-94 B</name>
+			<name>2MASS 20550915-3408078</name>
+			<mass errorminus="0.09" errorplus="0.09">1.24</mass>
+			<radius errorminus="0.12" errorplus="0.12">1.35</radius>
+			<temperature errorminus="90" errorplus="90">6040</temperature>
+			<magV>10.5</magV>
+			<metallicity errorminus="0.14" errorplus="0.14">0.23</metallicity>
+			<spectraltype>F9</spectraltype>
+			<planet>
+				<name>WASP-94 B b</name>
+				<name>2MASS 20550915-3408078 b</name>
+				<list>Confirmed planets</list>
+				<mass errorminus="0.029" errorplus="0.028">0.618</mass>
+				<period errorminus="0.00024" errorplus="0.00024">2.00839</period>
+				<semimajoraxis errorminus="0.005" errorplus="0.006">0.0335</semimajoraxis>
+				<eccentricity>0</eccentricity>
+				<description>WASP-95 B b is a Hot Jupiter orbiting an F-star in a binary system. The planet was confirmed using radial velocity measurements. No transit has been detected yet. The other binary component, WASP-94 A also hosts a hot Jupiter.</description>
+				<discoverymethod>RV</discoverymethod>
+				<istransiting>1</istransiting>
+				<lastupdate>14/09/29</lastupdate>
+				<discoveryyear>2014</discoveryyear>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+	</binary>
+</system>
