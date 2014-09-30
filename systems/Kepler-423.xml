@@ -1,0 +1,37 @@
+<system>
+	<name>Kepler-423</name>
+	<rightascension>19 31 25</rightascension>
+	<declination>+46 23 28</declination>
+	<distance>808.63</distance>
+	<star>
+		<name>Kepler-423</name>
+		<name>KOI-0183</name>
+		<name>KOI-183</name>
+		<magJ errorminus="0.023" errorplus="0.023">13.142</magJ>
+		<magH errorminus="0.018" errorplus="0.018">12.847</magH>
+		<magK errorminus="0.03" errorplus="0.03">12.78</magK>
+		<temperature errorminus="86.00" errorplus="86.00">5976.00</temperature>
+		<radius errorminus="0.054" errorplus="0.054">0.99</radius>
+		<mass errorminus="0.05" errorplus="0.05">1.07</mass>
+		<age errorminus="2.5000" errorplus="2.5000">0.3000</age>
+		<planet>
+			<name>Kepler-423 b</name>
+			<name>KOI-0183 b</name>
+			<name>KOI-0183 01</name>
+			<name>KOI-183 b</name>
+			<name>KOI-183 01</name>
+			<radius errorminus="0.065" errorplus="0.065">1.2</radius>
+			<period errorminus="0.000000082" errorplus="0.000000082">2.68432848</period>
+			<transittime errorminus="0.000026" errorplus="0.000026" unit="BJD">2454966.3548</transittime>
+			<eccentricity>0.01</eccentricity>
+			<mass errorminus="0.12" errorplus="0.12">0.2</mass>
+			<semimajoraxis errorminus="0.003" errorplus="0.003">0.0396</semimajoraxis>
+			<list>Confirmed planets</list>
+			<description>Kepler-423 b was initially flagged as a potential planet candidate by the Kepler team, which is why the planet is also known as KOI-183 b. Follow-up observations have confirmed the planetary nature of the object and were able to measure its mass.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>14/09/30</lastupdate>
+			<discoveryyear>2014</discoveryyear>
+		</planet>
+	</star>
+</system>

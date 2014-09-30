@@ -1,0 +1,47 @@
+<system>
+	<name>Kepler-424</name>
+	<rightascension>19 54 29</rightascension>
+	<declination>+48 34 38</declination>
+	<distance>661.72</distance>
+	<star>
+		<name>Kepler-424</name>
+		<name>KOI-0214</name>
+		<temperature errorminus="81" errorplus="81">5460</temperature>
+		<metallicity errorminus="0.14" errorplus="0.14">0.44</metallicity>
+		<radius errorminus="0.056" errorplus="0.056">0.94</radius>
+		<mass errorminus="0.054" errorplus="0.054">1.01</mass>
+		<age errorminus="3.6000" errorplus="3.6000">12.2000</age>
+		<magJ errorminus="0.025" errorplus="0.025">12.905</magJ>
+		<magH errorminus="0.03" errorplus="0.03">12.60</magH>
+		<magK errorminus="0.022" errorplus="0.022">12.470</magK>
+		<planet>
+			<name>Kepler-424 b</name>
+			<name>KOI-0214 b</name>
+			<name>KOI-0214 01</name>
+			<radius errorminus="0.06" errorplus="0.08">0.89</radius>
+			<period errorminus="0.00000039" errorplus="0.00000039">3.3118644</period>
+			<transittime errorminus="0.00017" errorplus="0.00023" unit="BJD">2454964.7427</transittime>
+			<semimajoraxis errorminus="0.004" errorplus="0.005">0.044</semimajoraxis>
+			<temperature>1143.0</temperature>
+			<list>Confirmed planets</list>
+			<discoverymethod>transit</discoverymethod>
+			<lastupdate>14/09/30</lastupdate>
+			<discoveryyear>2014</discoveryyear>
+			<istransiting>1</istransiting>
+			<description>Kepler-424 b is a Hot Jupiter in a two-planet system. It was discovered using the Keple Space Telescope. The mass was determined using radial velocity measurements from the Hobby-Eberly Telescope and its High Resolution Spectrograph (HRS).</description>
+		</planet>
+		<planet>
+			<name>Kepler-424 c</name>
+			<period errorminus="2.1" errorplus="2.1">223.3</period>
+			<eccentricity>0.3185</eccentricity>
+			<mass errorminus="0.62" errorplus="0.62">6.97</mass>
+			<semimajoraxis errorminus="0.07" errorplus="0.08">0.73</semimajoraxis>
+			<discoverymethod>RV</discoverymethod>
+			<lastupdate>14/09/30</lastupdate>
+			<discoveryyear>2014</discoveryyear>
+			<list>Confirmed planets</list>
+			<istransiting>0</istransiting>
+			<description>Kepler-424 c has been discovered with the Hobby-Eberly Telescope and its High Resolution Spectrograph (HRS). Kepler-424 is a two planet system. This is unusual as the inner planet is a Hot Jupiter which come preferentially in single planet systems.</description>
+		</planet>
+	</star>
+</system>
