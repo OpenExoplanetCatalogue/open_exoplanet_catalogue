@@ -1,0 +1,40 @@
+<system>
+	<name>KOI-830</name>
+	<rightascension>19 22 20</rightascension>
+	<declination>+40 34 39</declination>
+	<distance errorminus="25" errorplus="25">720</distance>
+	<star>
+		<name>KOI-830</name>
+		<name>KOI-0830</name>
+		<name>2MASS 19221961+4034386</name>
+		<name>USNO-A2 1275-11249110</name>
+		<name>KIC 5358624</name>
+		<mass errorminus="0.05" errorplus="0.05">0.87</mass>
+		<radius errorminus="0.02" errorplus="0.02">0.80</radius>
+		<age errorminus="4" errorplus="4">5</age>
+		<temperature errorminus="100" errorplus="100">5150</temperature>
+		<metallicity errorminus="0.17" errorplus="0.17">0.09</metallicity>
+		<spectraltype>K1V</spectraltype>
+		<planet>
+			<name>KOI-830 b</name>
+			<name>KOI-0830 b</name>
+			<name>2MASS 19221961+4034386 b</name>
+			<name>USNO-A2 1275-11249110 b</name>
+			<name>KIC 5358624 b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.19" errorplus="0.19">1.27</mass>
+			<radius errorminus="0.03" errorplus="0.03">1.08</radius>
+			<temperature errorminus="25" errorplus="25">1070</temperature>
+			<period errorminus="0.00000015" errorplus="0.00000015">3.52563254</period>
+			<transittime errorminus="0.000032" errorplus="0.000032" unit="BJD">24549103.048008</transittime>
+			<semimajoraxis errorminus="0.0009" errorplus="0.0009">0.0433</semimajoraxis>
+			<eccentricity upperlimit="0.22" />
+			<inclination errorminus="0.43" errorplus="0.43">89.36</inclination>
+			<description>This planet had been flagged by the Kepler Team as a planet candidate. Follow-up observations using the HARPS-N spectrograph at the Telescopio Nazionale Galileo have now confirmed its planetary nature.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>14/10/02</lastupdate>
+			<discoveryyear>2014</discoveryyear>
+		</planet>
+	</star>
+</system>

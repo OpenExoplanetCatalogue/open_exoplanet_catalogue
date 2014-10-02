@@ -1,0 +1,40 @@
+<system>
+	<name>KOI-188</name>
+	<rightascension>19 21 26</rightascension>
+	<declination>+40 34 04</declination>
+	<distance errorminus="20" errorplus="20">650</distance>
+	<star>
+		<name>KOI-188</name>
+		<name>KOI-0188</name>
+		<name>2MASS 19212592+4034038</name>
+		<name>USNO-A2 1275-11218459</name>
+		<name>KIC 5357901</name>
+		<mass errorminus="0.05" errorplus="0.05">0.93</mass>
+		<radius errorminus="0.02" errorplus="0.02">0.86</radius>
+		<age errorminus="4" errorplus="4">5</age>
+		<temperature errorminus="70" errorplus="70">5170</temperature>
+		<metallicity errorminus="0.11" errorplus="0.11">0.24</metallicity>
+		<spectraltype>K1V</spectraltype>
+		<planet>
+			<name>KOI-188 b</name>
+			<name>KOI-0188 b</name>
+			<name>2MASS 19212592+4034038 b</name>
+			<name>USNO-A2 1275-11218459 b</name>
+			<name>KIC 5357901 b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.08" errorplus="0.08">0.25</mass>
+			<radius errorminus="0.022" errorplus="0.022">0.978</radius>
+			<temperature errorminus="15" errorplus="15">1070</temperature>
+			<period errorminus="0.00000019" errorplus="0.00000019">3.79701816</period>
+			<transittime errorminus="0.000039" errorplus="0.000039" unit="BJD">2454966.508785</transittime>
+			<semimajoraxis errorminus="0.0008" errorplus="0.0008">0.0464</semimajoraxis>
+			<eccentricity upperlimit="0.33" />
+			<inclination errorminus="0.08" errorplus="0.08">87.02</inclination>
+			<description>This planet had been flagged by the Kepler Team as a planet candidate. Follow-up observations using the HARPS-N spectrograph at the Telescopio Nazionale Galileo have now confirmed its planetary nature.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>14/10/02</lastupdate>
+			<discoveryyear>2014</discoveryyear>
+		</planet>
+	</star>
+</system>

@@ -1,0 +1,40 @@
+<system>
+	<name>KOI-195</name>
+	<rightascension>19 17 44</rightascension>
+	<declination>+49 28 24</declination>
+	<distance errorminus="30" errorplus="30">880</distance>
+	<star>
+		<name>KOI-195</name>
+		<name>KOI-0195</name>
+		<name>2MASS 19174431+4928242</name>
+		<name>USNO-A2 1350-10395462</name>
+		<name>KIC 11502867</name>
+		<mass errorminus="0.06" errorplus="0.06">0.91</mass>
+		<radius errorminus="0.02" errorplus="0.02">0.92</radius>
+		<temperature errorminus="90" errorplus="90">5725</temperature>
+		<metallicity errorminus="0.08" errorplus="0.08">-0.21</metallicity>
+		<age errorminus="1" errorplus="1">3</age>
+		<spectraltype>G1V</spectraltype>
+		<planet>
+			<name>KOI-195 b</name>
+			<name>KOI-0195 b</name>
+			<name>2MASS 19174431+4928242 b</name>
+			<name>USNO-A2 1350-10395462 b</name>
+			<name>KIC 11502867 b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.08" errorplus="0.08">0.34</mass>
+			<radius errorminus="0.03" errorplus="0.03">1.09</radius>
+			<temperature errorminus="20" errorplus="20">1300</temperature>
+			<period errorminus="0.00000019" errorplus="0.00000019">3.21751883</period>
+			<transittime errorminus="0.000047" errorplus="0.000047" unit="BJD">2454966.631964</transittime>
+			<semimajoraxis errorminus="0.0010" errorplus="0.0010">0.0414</semimajoraxis>
+			<eccentricity upperlimit="0.18" />
+			<inclination errorminus="0.06" errorplus="0.06">85.74</inclination>
+			<description>This planet had been flagged by the Kepler Team as a planet candidate. Follow-up observations using the HARPS-N spectrograph at the Telescopio Nazionale Galileo have now confirmed its planetary nature.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>14/10/02</lastupdate>
+			<discoveryyear>2014</discoveryyear>
+		</planet>
+	</star>
+</system>
