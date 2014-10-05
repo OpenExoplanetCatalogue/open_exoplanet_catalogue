@@ -2,23 +2,25 @@
 	<name>HD 169830</name>
 	<rightascension>18 27 49</rightascension>
 	<declination>-29 49 00</declination>
-	<distance>36.32</distance>
+	<distance errorminus="1.16" errorplus="1.24">36.32</distance>
 	<star>
 		<mass>1.4</mass>
 		<radius>1.84</radius>
+		<age>2.3</age>
 		<magV>5.9</magV>
 		<magB>6.386</magB>
-		<metallicity>0.21</metallicity>
+		<metallicity errorminus="0.05" errorplus="0.05">0.21</metallicity>
 		<spectraltype>F8 V</spectraltype>
+		<temperature errorminus="50" errorplus="50">6300</temperature>
 		<planet>
 			<name>HD 169830 b</name>
 			<list>Confirmed planets</list>
-			<mass>2.88</mass>
-			<period>225.62</period>
-			<semimajoraxis>0.81</semimajoraxis>
-			<eccentricity>0.31</eccentricity>
+			<mass errorminus="0.12" errorplus="0.12">2.94</mass>
+			<period errorminus="4.6" errorplus="4.6">229.9</period>
+			<semimajoraxis>0.82</semimajoraxis>
+			<eccentricity errorminus="0.04" errorplus="0.04">0.35</eccentricity>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/12/23</lastupdate>
+			<lastupdate>14/06/24</lastupdate>
 			<discoveryyear>2000</discoveryyear>
 			<temperature>413.9</temperature>
 		</planet>
@@ -35,6 +37,5 @@
 			<temperature>196.1</temperature>
 		</planet>
 		<name>HD 169830</name>
-		<temperature>6266.0</temperature>
 	</star>
 </system>
