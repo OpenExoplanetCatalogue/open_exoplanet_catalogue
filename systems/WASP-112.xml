@@ -1,0 +1,34 @@
+<system>
+	<name>WASP-112</name>
+	<rightascension>22 37 57.43</rightascension>
+	<declination>-35 09 13.9</declination>
+	<distance errorminus="30" errorplus="30">450</distance>
+	<star>
+		<name>WASP-112</name>
+		<spectraltype>G6</spectraltype>
+		<age errorminus="3.0" errorplus="3.0">10.6</age>
+		<temperature errorminus="130" errorplus="130">5610</temperature>
+		<metallicity errorminus="0.15" errorplus="0.15">-0.64</metallicity>
+		<mass errorminus="0.073" errorplus="0.073">0.807</mass>
+		<radius errorminus="0.037" errorplus="0.037">1.002</radius>
+		<magV>13.3</magV>
+		<magK>11.9</magK>
+		<planet>
+			<name>WASP-112 b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.12" errorplus="0.12">0.88</mass>
+			<radius errorminus="0.049" errorplus="0.049">1.191</radius>
+			<semimajoraxis errorminus="0.0011" errorplus="0.0011">0.0382</semimajoraxis>
+			<period errorminus="0.0000038" errorplus="0.0000038">3.0353992</period>
+			<transittime errorminus="0.00013" errorplus="0.00013" unit="HJD">2456505.48734</transittime>
+			<inclination errorminus="0.28" errorplus="0.28">86.68</inclination>
+			<eccentricity>0</eccentricity>
+			<temperature errorminus="33" errorplus="33">1395</temperature>
+			<description>This planet has been announced in 2014 by the WASP team. The scientific paper describing the discovery was published on the arXiv in 2014. The planet was discovered via the transit method and confirmed using radial velocity measurements.</description>
+			<discoverymethod>transit</discoverymethod>
+			<lastupdate>14/10/14</lastupdate>
+			<discoveryyear>2014</discoveryyear>
+			<istransiting>1</istransiting>
+		</planet>
+	</star>
+</system>
