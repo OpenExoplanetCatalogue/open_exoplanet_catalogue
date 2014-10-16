@@ -1,0 +1,34 @@
+<system>
+	<name>WASP-108</name>
+	<rightascension>13 03 18.73</rightascension>
+	<declination>-49 38 22.8</declination>
+	<distance errorminus="15" errorplus="15">220</distance>
+	<star>
+		<name>WASP-108</name>
+		<spectraltype>F9</spectraltype>
+		<age errorminus="1.9" errorplus="1.9">6.4</age>
+		<temperature errorminus="140" errorplus="140">6000</temperature>
+		<metallicity errorminus="0.11" errorplus="0.11">0.05</metallicity>
+		<mass errorminus="0.092" errorplus="0.092">1.167</mass>
+		<radius errorminus="0.040" errorplus="0.040">1.215</radius>
+		<magV>11.2</magV>
+		<magK>9.8</magK>
+		<planet>
+			<name>WASP-108 b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.055" errorplus="0.055">0.892</mass>
+			<radius errorminus="0.047" errorplus="0.047">1.284</radius>
+			<semimajoraxis errorminus="0.0010" errorplus="0.0010">0.0397</semimajoraxis>
+			<period errorminus="0.0000021" errorplus="0.0000021">2.6755463</period>
+			<transittime errorminus="0.00015" errorplus="0.00015" unit="HJD">2456413.79019</transittime>
+			<inclination errorminus="0.84" errorplus="0.84">88.49</inclination>
+			<eccentricity>0</eccentricity>
+			<temperature errorminus="36" errorplus="36">1590</temperature>
+			<description>This planet has been announced in 2014 by the WASP team. The scientific paper describing the discovery was published on the arXiv in 2014. The planet was discovered via the transit method and confirmed using radial velocity measurements.</description>
+			<discoverymethod>transit</discoverymethod>
+			<lastupdate>14/10/14</lastupdate>
+			<discoveryyear>2014</discoveryyear>
+			<istransiting>1</istransiting>
+		</planet>
+	</star>
+</system>
