@@ -22,7 +22,7 @@
 			<period errorminus="0.0000024" errorplus="0.0000024">2.3109650</period>
 			<transittime errorminus="0.00040" errorplus="0.00040" unit="HJD">2456275.75127</transittime>
 			<inclination errorminus="0.82" errorplus="0.82">81.61</inclination>
-			<eccentricity>0</eccentricity>
+			<eccentricity> upperlimit="0.10" />
 			<temperature errorminus="62" errorplus="62">2140</temperature>
 			<description>This planet has been announced in 2014 by the WASP team. The scientific paper describing the discovery was published on the arXiv in 2014. The planet was discovered via the transit method and confirmed using radial velocity measurements.</description>
 			<discoverymethod>transit</discoverymethod>
