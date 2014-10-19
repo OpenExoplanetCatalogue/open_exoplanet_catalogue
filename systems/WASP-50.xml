@@ -4,6 +4,12 @@
 	<declination>-10 53 53</declination>
 	<distance>230</distance>
 	<star>
+		<name>WASP-50</name>
+		<name>TYC 5290-462-1</name>
+		<name>2MASS J02544513-1053530</name>
+		<name>GSC2.3 S2L3000257</name>
+		<name>UCAC2 27953631</name>
+		<name>UCAC3 159-7797</name>
 		<mass>0.89</mass>
 		<radius>0.84</radius>
 		<magV>11.6</magV>
@@ -16,6 +22,11 @@
 		<spectraltype>G9</spectraltype>
 		<planet>
 			<name>WASP-50 b</name>
+			<name>TYC 5290-462-1 b</name>
+			<name>2MASS J02544513-1053530 b</name>
+			<name>GSC2.3 S2L3000257 b</name>
+			<name>UCAC2 27953631 b</name>
+			<name>UCAC3 159-7797 b</name>
 			<list>Confirmed planets</list>
 			<mass>1.47</mass>
 			<radius>1.15</radius>
@@ -31,7 +42,6 @@
 			<temperature>1289.9</temperature>
 			<istransiting>1</istransiting>
 		</planet>
-		<name>WASP-50</name>
 		<temperature>5400.0</temperature>
 	</star>
 </system>
