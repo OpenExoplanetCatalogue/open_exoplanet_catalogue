@@ -4,6 +4,8 @@
 	<declination>+45 10 19</declination>
 	<distance errorminus="50" errorplus="50">300</distance>
 	<star>
+		<name>WASP-58</name>
+		<name>TYC 3525-76-1</name>
 		<spectraltype>G2V</spectraltype>
 		<magB>12.33</magB>
 		<magV>11.66</magV>
@@ -12,6 +14,7 @@
 		<metallicity errorminus="0.09" errorplus="0.09">-0.45</metallicity>
 		<planet>
 			<name>WASP-58 b</name>
+			<name>TYC 3525-76-1 b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.07" errorplus="0.07">0.89</mass>
 			<radius errorminus="0.20" errorplus="0.20">1.37</radius>
@@ -27,7 +30,6 @@
 			<temperature errorminus="80" errorplus="80">1270</temperature>
 			<istransiting>1</istransiting>
 		</planet>
-		<name>WASP-58</name>
 		<temperature errorminus="150" errorplus="150">5800</temperature>
 	</star>
 </system>
