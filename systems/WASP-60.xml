@@ -4,6 +4,8 @@
 	<declination>+31 09 21.44</declination>
 	<distance errorminus="60" errorplus="60">400</distance>
 	<star>
+		<name>WASP-60</name>
+		<name>TYC 2767-1746-1</name>
 		<spectraltype>G1V</spectraltype>
 		<magB>12.86</magB>
 		<magV>12.18</magV>
@@ -15,6 +17,7 @@
 		<metallicity errorminus="0.09" errorplus="0.09">-0.04</metallicity>
 		<planet>
 			<name>WASP-60 b</name>
+			<name>TYC 2767-1746-1 b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.034" errorplus="0.034">0.514</mass>
 			<radius errorminus="0.12" errorplus="0.12">0.86</radius>
@@ -29,7 +32,6 @@
 			<discoveryyear>2011</discoveryyear>
 			<istransiting>1</istransiting>
 		</planet>
-		<name>WASP-60</name>
 		<temperature errorminus="100" errorplus="100">5900</temperature>
 	</star>
 </system>
