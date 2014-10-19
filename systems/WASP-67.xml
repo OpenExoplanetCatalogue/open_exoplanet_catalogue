@@ -4,6 +4,9 @@
 	<declination>-19 56 58</declination>
 	<distance>225</distance>
 	<star>
+		<name>WASP-67</name>
+		<name>TYC 6307-1388-1</name>
+		<name>2MASS J19425852-1956585</name>
 		<mass>0.87</mass>
 		<radius>0.87</radius>
 		<magV>12.5</magV>
@@ -15,6 +18,8 @@
 		<spectraltype>K0V</spectraltype>
 		<planet>
 			<name>WASP-67 b</name>
+			<name>TYC 6307-1388-1 b</name>
+			<name>2MASS J19425852-1956585 b</name>
 			<list>Confirmed planets</list>
 			<mass>0.42</mass>
 			<radius>1.4</radius>
@@ -30,7 +35,6 @@
 			<temperature>940.6</temperature>
 			<istransiting>1</istransiting>
 		</planet>
-		<name>WASP-67</name>
 		<temperature>5200.0</temperature>
 	</star>
 </system>
