@@ -1,9 +1,19 @@
 <system>
 	<name>WASP-62</name>
-	<rightascension>05 48 34</rightascension>
-	<declination>-63 59 18</declination>
+	<rightascension>05 48 33.59</rightascension>
+	<declination>-63 59 18.3</declination>
 	<distance>160</distance>
 	<star>
+		<name>WASP-62</name>
+		<name>CPD-64 484</name>
+		<name>2MASS J05483359-6359183</name>
+		<name>1SWASP J054833.59-635918.3</name>
+		<name>DENIS J054833.6-635918</name>
+		<name>PPM 776101</name>
+		<name>TYC 8900-874-1</name>
+		<name>GSC 08900-00874</name>
+		<name>RAVE J054833.6-635918</name>
+		<name>USNO-B1.0 0260-00058281</name>
 		<mass>1.25</mass>
 		<radius>1.28</radius>
 		<magV>10.3</magV>
@@ -17,6 +27,15 @@
 		<spectraltype>F7</spectraltype>
 		<planet>
 			<name>WASP-62 b</name>
+			<name>CPD-64 484 b</name>
+			<name>2MASS J05483359-6359183 b</name>
+			<name>1SWASP J054833.59-635918.3 b</name>
+			<name>DENIS J054833.6-635918 b</name>
+			<name>PPM 776101 b</name>
+			<name>TYC 8900-874-1 b</name>
+			<name>GSC 08900-00874 b</name>
+			<name>RAVE J054833.6-635918 b</name>
+			<name>USNO-B1.0 0260-00058281 b</name>
 			<list>Confirmed planets</list>
 			<mass>0.57</mass>
 			<radius>1.39</radius>
@@ -32,7 +51,6 @@
 			<temperature>1305.2</temperature>
 			<istransiting>1</istransiting>
 		</planet>
-		<name>WASP-62</name>
 		<temperature>6230.0</temperature>
 	</star>
 </system>
