@@ -1,0 +1,35 @@
+<system>
+	<name>KOI-1299</name>
+	<rightascension>19 33 07.73</rightascension>
+	<declination>+48 17 09.2</declination>
+	<star>
+		<name>KOI-1299</name>
+		<name>KIC 10864656</name>
+		<name>2MASS J19330772+4817092</name>
+		<spectraltype>K</spectraltype>
+		<magR>12.135</magR>
+		<magK>12.183</magK>
+		<mass errorminus="0.101" errorplus="0.101">1.353</mass>
+		<radius errorminus="0.120" errorplus="0.120">4.160</radius>
+		<age errorminus="1.3" errorplus="1.3">3.5</age>
+		<temperature errorminus="100" errorplus="100">4850</temperature>
+		<planet>
+			<name>KOI-1299 b</name>
+			<name>KIC 10864656 b</name>
+			<name>2MASS J19330772+4817092 b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.48" errorplus="0.48">4.87</mass>
+			<radius errorminus="0.036" errorplus="0.036">1.120</radius>
+			<period errorminus="0.00021" errorplus="0.00021">52.50097</period>
+			<transittime errorminus="0.0014" errorplus="0.0014" unit="BJD">2455477.02906</transittime>
+			<description>This massive planet orbits a red giant star in a highly eccentric orbit. Together with Kepler-56 and Kepler-91 this system occupies an almost-desert region of parameter space.</description>
+			<semimajoraxis errorminus="0.0089" errorplus="0.0089">0.3034</semimajoraxis>
+			<eccentricity errorminus="0.030" errorplus="0.030">0.535</eccentricity>
+			<inclination errorminus="1.3" errorplus="1.3">88.9</inclination>
+			<discoverymethod>transit</discoverymethod>
+			<lastupdate>14/10/14</lastupdate>
+			<discoveryyear>2014</discoveryyear>
+			<istransiting>1</istransiting>
+		</planet>
+	</star>
+</system>
