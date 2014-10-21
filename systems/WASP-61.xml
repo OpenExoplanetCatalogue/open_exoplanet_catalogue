@@ -1,9 +1,13 @@
 <system>
 	<name>WASP-61</name>
-	<rightascension>05 01 12</rightascension>
-	<declination>-26 03 15</declination>
+	<rightascension>05 01 11.92</rightascension>
+	<declination>-26 03 15.0</declination>
 	<distance>480</distance>
 	<star>
+		<name>WASP-61</name>
+		<name>TYC 6469-1972-1</name>
+		<name>2MASS J05011191-2603149</name>
+		<name>1SWASP J050111.91-260314.9</name>
 		<mass>1.22</mass>
 		<radius>1.36</radius>
 		<magV>12.5</magV>
@@ -15,6 +19,9 @@
 		<spectraltype>F7</spectraltype>
 		<planet>
 			<name>WASP-61 b</name>
+			<name>TYC 6469-1972-1 b</name>
+			<name>2MASS J05011191-2603149 b</name>
+			<name>1SWASP J050111.91-260314.9 b</name>
 			<list>Confirmed planets</list>
 			<mass>2.06</mass>
 			<radius>1.24</radius>
@@ -30,7 +37,6 @@
 			<temperature>1417.5</temperature>
 			<istransiting>1</istransiting>
 		</planet>
-		<name>WASP-61</name>
 		<temperature>6250.0</temperature>
 	</star>
 </system>
