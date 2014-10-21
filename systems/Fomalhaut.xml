@@ -4,57 +4,104 @@
 	<declination>-29 37 20</declination>
 	<distance errorminus="0.028" errorplus="0.028">7.704</distance>
 	<binary>
-		<semimajoraxis errorminus="2500" errorplus="3900">57400</semimajoraxis>
+		<separation unit="arcsec">20407.6</separation>
+		<separation unit="AU">160000</separation>
+		<positionangle>337.91</positionangle>
+		<name>MAM 1</name>
+		<name>WDS J22577-2937 AC</name>
+		<binary>
+			<separation unit="arcsec">7062.7</separation>
+			<separation unit="AU">56000</separation>
+			<positionangle>187.88</positionangle>
+			<name>SHY 106</name>
+			<name>WDS J22577-2937 AB</name>
+			<star>
+				<name>Fomalhaut A</name>
+				<name>HD 216956</name>
+				<name>HR 8728</name>
+				<name>CD-30 19370</name>
+				<name>CPD-30 6685</name>
+				<name>SAO 191524</name>
+				<name>GJ 881</name>
+				<name>2MASS J22573901-2937193</name>
+				<name>HIP 113368</name>
+				<name>IRAS 22549-2953</name>
+				<name>alf PsA</name>
+				<name>24 PsA</name>
+				<name>WDS J22577-2937 A</name>
+				<temperature errorminus="73" errorplus="73">8590.0</temperature>
+				<mass errorminus="0.02" errorplus="0.02">1.92</mass>
+				<radius>1.84</radius>
+				<magV>1.16</magV>
+				<magB>1.25</magB>
+				<magJ errorminus="0.23" errorplus="0.23">1.04</magJ>
+				<magH errorminus="0.26" errorplus="0.26">0.94</magH>
+				<magK errorminus="0.29" errorplus="0.29">0.94</magK>
+				<spectraltype>A3 V</spectraltype>
+				<planet>
+					<name>Fomalhaut b</name>
+					<name>Fomalhaut Ab</name>
+					<name>HD 216956 b</name>
+					<name>HR 8728 b</name>
+					<name>CD-30 19370 b</name>
+					<name>CPD-30 6685 b</name>
+					<name>SAO 191524 b</name>
+					<name>GJ 881 b</name>
+					<name>2MASS J22573901-2937193 b</name>
+					<name>HIP 113368 b</name>
+					<name>IRAS 22549-2953 b</name>
+					<name>alf PsA b</name>
+					<name>24 PsA b</name>
+					<list>Confirmed planets</list>
+					<mass>3</mass>
+					<period>320000</period>
+					<semimajoraxis errorminus="68" errorplus="68">177</semimajoraxis>
+					<eccentricity errorminus="0.1" errorplus="0.1">0.8</eccentricity>
+					<inclination errorminus="14" errorplus="14">305</inclination>
+					<periastron errorminus="25" errorplus="25">26</periastron>
+					<ascendingnode errorminus="13" errorplus="13">152</ascendingnode>
+					<description>Formalhaut is one of the brightest stars in the night sky and located in the constellation Piscis Austrinus. It is a young star with a debris disk. In 2008 astronomers reported the discovery of a planet orbiting the star within the debris disk. Images from the Hubble space telescope show motion consistent with a Keplerian orbit that crossed the disk. However, there are still debates about where the observed emission is coming from.</description>
+					<discoverymethod>imaging</discoverymethod>
+					<image>Fomalhaut</image>
+					<imagedescription>This false-color composite image, taken with the Hubble Space Telescope, reveals the orbital motion of the planet Fomalhaut b. The planet will appear to cross a vast belt of debris around the star roughly 20 years from now. If the planet's orbit lies in the same plane with the belt, icy and rocky debris in the belt could crash into the planet's atmosphere and produce various phenomena. The black circle at the center of the image blocks out the light from the bright star, allowing reflected light from the belt and planet to be photographed. 
+                    
+        Credit: NASA, ESA, and P. Kalas (University of California, Berkeley and SETI Institute).</imagedescription>
+					<lastupdate>13/05/12</lastupdate>
+					<discoveryyear>2008</discoveryyear>
+					<list>Planets in binary systems, S-type</list>
+				</planet>
+			</star>
+			<star>
+				<name>Fomalhaut B</name>
+				<name>TW PsA</name>
+				<name>TW Piscis Austrini</name>
+				<name>alf PsA B</name>
+				<name>HD 216803</name>
+				<name>HIP 113283</name>
+				<name>HR 8721</name>
+				<name>TYC 7505-100-1</name>
+				<name>GJ 879</name>
+				<name>CD-32 17321</name>
+				<name>CPD-32 6550</name>
+				<name>IRAS 22536-3150</name>
+				<name>2MASS J22562403-3133559</name>
+				<name>WDS J22577-2937 B</name>
+				<spectraltype>K4Ve</spectraltype>
+				<magV errorminus="0.012" errorplus="0.012">6.488</magV>
+				<temperature errorminus="80" errorplus="80">4594</temperature>
+				<mass errorminus="0.01" errorplus="0.02">0.73</mass>
+			</star>
+		</binary>
 		<star>
-			<name>Fomalhaut A</name>
-			<temperature errorminus="73" errorplus="73">8590.0</temperature>
-			<mass errorminus="0.02" errorplus="0.02">1.92</mass>
-			<radius>1.84</radius>
-			<magV>1.16</magV>
-			<magB>1.25</magB>
-			<magJ errorminus="0.23" errorplus="0.23">1.04</magJ>
-			<magH errorminus="0.26" errorplus="0.26">0.94</magH>
-			<magK errorminus="0.29" errorplus="0.29">0.94</magK>
-			<spectraltype>A3 V</spectraltype>
-			<planet>
-				<name>Fomalhaut b</name>
-				<name>Fomalhaut Ab</name>
-				<name>HD 216956 b</name>
-				<name>HR 8728 b</name>
-				<name>CD-30 19370 b</name>
-				<name>CPD-30 6685 b</name>
-				<name>SAO 191524 b</name>
-				<name>GJ 881 b</name>
-				<name>2MASS J22573901-2937193 b</name>
-				<name>HIP 113368 b</name>
-				<name>IRAS 22549-2953 b</name>
-				<name>ALF PsA b</name>
-				<name>24 PsA b</name>
-				<list>Confirmed planets</list>
-				<mass>3</mass>
-				<period>320000</period>
-				<semimajoraxis errorminus="68" errorplus="68">177</semimajoraxis>
-				<eccentricity errorminus="0.1" errorplus="0.1">0.8</eccentricity>
-				<inclination errorminus="14" errorplus="14">305</inclination>
-				<periastron errorminus="25" errorplus="25">26</periastron>
-				<ascendingnode errorminus="13" errorplus="13">152</ascendingnode>
-				<description>Formalhaut is one of the brightest stars in the night sky and located in the constellation Piscis Austrinus. It is a young star with a debris disk. In 2008 astronomers reported the discovery of a planet orbiting the star within the debris disk. Images from the Hubble space telescope show motion consistent with a Keplerian orbit that crossed the disk. However, there are still debates about where the observed emission is coming from.</description>
-				<discoverymethod>imaging</discoverymethod>
-				<image>Fomalhaut</image>
-				<imagedescription>This false-color composite image, taken with the Hubble Space Telescope, reveals the orbital motion of the planet Fomalhaut b. The planet will appear to cross a vast belt of debris around the star roughly 20 years from now. If the planet's orbit lies in the same plane with the belt, icy and rocky debris in the belt could crash into the planet's atmosphere and produce various phenomena. The black circle at the center of the image blocks out the light from the bright star, allowing reflected light from the belt and planet to be photographed. 
-				
-	 Credit: NASA, ESA, and P. Kalas (University of California, Berkeley and SETI Institute).</imagedescription>
-				<lastupdate>13/05/12</lastupdate>
-				<discoveryyear>2008</discoveryyear>
-				<list>Planets in binary systems, S-type</list>
-			</planet>
-		</star>
-		<star>
-			<name>Fomalhaut B</name>
-			<name>TW PsA</name>
-			<spectraltype>K4Ve</spectraltype>
-			<temperature errorminus="80" errorplus="80">4594</temperature>
-			<mass errorminus="0.01" errorplus="0.02">0.73</mass>
+			<name>Fomalhaut C</name>
+			<name>LP 876-10</name>
+			<name>alf PsA C</name>
+			<name>2MASS J22480446-2422075</name>
+			<name>WDS J22577-2937 C</name>
+			<spectraltype>M4V</spectraltype>
+			<magV errorminus="0.02" errorplus="0.02">13.2</magV>
+			<temperature errorminus="65" errorplus="65">3132</temperature>
+			<mass errorminus="0.02" errorplus="0.02">0.18</mass>
 		</star>
 	</binary>
 </system>
