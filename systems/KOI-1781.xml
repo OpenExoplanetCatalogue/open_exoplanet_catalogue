@@ -1,0 +1,57 @@
+<system>
+	<name>KOI-1781</name>
+	<name>Kepler-411</name>
+	<rightascension>19 10 25.34</rightascension>
+	<declination>+49 31 23.7</declination>
+	<star>
+		<name>KOI-1781</name>
+		<name>Kepler-411</name>
+		<name>KIC 11551692</name>
+		<temperature errorminus="51" errorplus="46">4974</temperature>
+		<mass errorminus="0.10" errorplus="0.04">0.83</mass>
+		<radius errorminus="0.06" errorplus="0.07">0.79</radius>
+		<magJ errorminus="0.022" errorplus="0.022">10.641</magJ>
+		<magH errorminus="0.028" errorplus="0.028">10.161</magH>
+		<magK errorminus="0.023" errorplus="0.023">10.062</magK>
+		<planet>
+			<name>KOI-1781.02</name>
+			<name>Kepler-411 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.018" errorplus="0.018">0.168</radius>
+			<period errorminus="0.00001" errorplus="0.0001">3.00516</period>
+			<semimajoraxis errorminus="0.001" errorplus="0.001">0.038</semimajoraxis>
+			<inclination errorminus="1.83" errorplus="1.73">88.27</inclination>
+			<transittime unit="BJD">2454970.1027</transittime>
+			<eccentricity upperlimit="0.35">0.00</eccentricity>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2013</discoveryyear>
+			<istransiting>1</istransiting>
+		</planet>
+		<planet>
+			<name>KOI-1781.01</name>
+			<list>Controversial</list>
+			<radius errorminus="0.050" errorplus="0.050">0.289</radius>
+			<period errorminus="0.00001" errorplus="0.00001">7.83445</period>
+			<semimajoraxis errorminus="0.002" errorplus="0.002">0.073</semimajoraxis>
+			<inclination errorminus="1.08" errorplus="0.49">89.03</inclination>
+			<transittime unit="BJD">2454968.2206</transittime>
+			<eccentricity upperlimit="0.66">0.00</eccentricity>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2013</discoveryyear>
+			<istransiting>1</istransiting>
+		</planet>
+		<planet>
+			<name>KOI-1781.03</name>
+			<list>Controversial</list>
+			<radius errorminus="0.028" errorplus="0.028">0.233</radius>
+			<period errorminus="0.00013" errorplus="0.00020">58.02125</period>
+			<semimajoraxis errorminus="0.007" errorplus="0.007">0.276</semimajoraxis>
+			<inclination errorminus="0.16" errorplus="0.35">89.63</inclination>
+			<transittime unit="BJD">2454984.8476</transittime>
+			<eccentricity upperlimit="0.38">0.00</eccentricity>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2013</discoveryyear>
+			<istransiting>1</istransiting>
+		</planet>
+	</star>
+</system>
