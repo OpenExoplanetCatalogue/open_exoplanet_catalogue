@@ -1,0 +1,34 @@
+<system>
+	<name>CoRoT-26</name>
+	<rightascension>18 39 00.13</rightascension>
+	<declination>+06 58 11.71</declination>
+	<distance errorminus="110" errorplus="205">1670</distance>
+	<star>
+		<name>CoRoT-26</name>
+		<name>2MASS J18390012+0658112</name>
+		<magB errorminus="0.131" errorplus="0.131">16.839</magB>
+		<magV errorminus="0.06" errorplus="0.06">15.756</magV>
+		<magJ errorminus="0.027" errorplus="0.027">13.813</magJ>
+		<magH errorminus="0.035" errorplus="0.035">13.358</magH>
+		<magK errorminus="0.034" errorplus="0.034">13.261</magK>
+		<mass errorminus="0.06" errorplus="0.06">1.09</mass>
+		<radius errorminus="0.09" errorplus="0.18">1.79</radius>
+		<temperature errorminus="100" errorplus="100">5590</temperature>
+		<metallicity errorminus="0.13" errorplus="0.13">0.01</metallicity>
+		<spectraltype>G5</spectraltype>
+		<planet>
+			<name>CoRoT-26 b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.05" errorplus="0.05">0.52</mass>
+			<radius errorminus="0.07" errorplus="0.13">1.26</radius>
+			<period errorminus="0.00005" errorplus="0.00005">4.20474</period>
+			<semimajoraxis errorminus="0.0010" errorplus="0.0010">0.0526</semimajoraxis>
+			<eccentricity>0</eccentricity>
+			<inclination errorminus="1.0" errorplus="2.2">86.8</inclination>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2013</discoveryyear>
+			<transittime errorminus="0.0008" errorplus="0.0008" unit="HJD">2454573.6299</transittime>
+			<istransiting>1</istransiting>
+		</planet>
+	</star>
+</system>
