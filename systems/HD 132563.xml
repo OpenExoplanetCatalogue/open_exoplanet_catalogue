@@ -1,0 +1,59 @@
+<system>
+	<name>HD 132563</name>
+	<rightascension>14 58 21.519</rightascension>
+	<declination>+44 02 35.33</declination>
+	<distance errorminus="13" errorplus="13">96</distance>
+	<binary>
+		<name>HD 132563</name>
+		<name>HIP 73261</name>
+		<name>STF 1896</name>
+		<name>WDS J14584+4403</name>
+		<separation errorminus="0.015" errorplus="0.015" unit="arcsec">4.130</separation>
+		<separation unit="AU">400</separation>
+		<positionangle errorminus="0.16" errorplus="0.16">276.95</positionangle>
+		<binary>
+			<name>HD 132563 A</name>
+			<semimajoraxis errorminus="6.3" errorplus="6.3">14.8</semimajoraxis>
+			<period errorminus="11000" errorplus="11000">17000</period>
+			<eccentricity errorminus="0.065" errorplus="0.065">0.860</eccentricity>
+			<star>
+				<name>HD 132563 Aa</name>
+				<mass errorminus="0.010" errorplus="0.010">1.081</mass>
+				<magV errorminus="0.007" errorplus="0.007">8.966</magV>
+				<magK errorminus="0.21" errorplus="0.21">7.431</magK>
+				<temperature errorminus="100" errorplus="100">6168</temperature>
+			</star>
+			<star>
+				<name>HD 132563 Ab</name>
+				<mass errorminus="0.20" errorplus="0.20">0.49</mass>
+			</star>
+		</binary>
+		<star>
+			<name>HD 132563 B</name>
+			<mass errorminus="0.010" errorplus="0.010">1.010</mass>
+			<magV>9.47</magV>
+			<magB errorminus="0.04" errorplus="0.04">10.16</magB>
+			<magJ errorminus="0.05" errorplus="0.05">7.73</magJ>
+			<magH errorminus="0.03" errorplus="0.03">7.58</magH>
+			<magK errorminus="0.05" errorplus="0.05">7.49</magK>
+			<spectraltype>G</spectraltype>
+			<metallicity>-0.19</metallicity>
+			<temperature errorminus="100" errorplus="100">5985</temperature>
+			<planet>
+				<name>HD 132563 B b</name>
+				<name>HD 132563 b</name>
+				<list>Confirmed planets</list>
+				<mass>1.49</mass>
+				<period>1544</period>
+				<semimajoraxis>2.62</semimajoraxis>
+				<eccentricity>0.22</eccentricity>
+				<description>HD 132563B b is a planet in a triple star system. It is orbiting the solar type star HD 132563B which has a solar type companion HD 132563A orbiting at 400 AU. HD 132563A itself is yet another spectroscopic binary.</description>
+				<discoverymethod>RV</discoverymethod>
+				<lastupdate>11/07/06</lastupdate>
+				<discoveryyear>2011</discoveryyear>
+				<temperature>158.5</temperature>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+	</binary>
+</system>
