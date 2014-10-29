@@ -4,20 +4,23 @@
 	<declination>-09 46 25</declination>
 	<distance>46.8</distance>
 	<star>
-		<mass>2.7</mass>
+		<name>nu Oph</name>
 		<magV>3.33</magV>
 		<magB errorminus="0.01" errorplus="0.01">4.31</magB>
 		<magJ errorminus="0.290" errorplus="0.290">1.732</magJ>
 		<magH errorminus="0.284" errorplus="0.284">1.289</magH>
 		<magK errorminus="0.306" errorplus="0.306">1.225</magK>
-		<spectraltype>G9III</spectraltype>
+		<spectraltype>K0III</spectraltype>
+		<mass lowerlimit="2.98" upperlimit="3.10">3.04</mass>
+		<radius lowerlimit="14.1" upperlimit="16.2">15.1</radius>
+		<temperature errorminus="25" errorplus="25">4928</temperature>
 		<planet>
 			<name>nu Oph b</name>
 			<list>Confirmed planets</list>
-			<mass>22.3</mass>
-			<period>536</period>
-			<semimajoraxis>1.8</semimajoraxis>
-			<eccentricity>0.13</eccentricity>
+			<mass>24</mass>
+			<period errorminus="0.35" errorplus="0.35">530.32</period>
+			<semimajoraxis>1.9</semimajoraxis>
+			<eccentricity errorminus="0.0065" errorplus="0.0065">0.1256</eccentricity>
 			<discoverymethod>RV</discoverymethod>
 			<lastupdate>11/01/05</lastupdate>
 			<discoveryyear>2004</discoveryyear>
@@ -26,16 +29,14 @@
 		<planet>
 			<name>nu Oph c</name>
 			<list>Confirmed planets</list>
-			<mass>24.5</mass>
-			<period>3169</period>
-			<semimajoraxis>5.88</semimajoraxis>
-			<eccentricity>0.18</eccentricity>
+			<mass>27</mass>
+			<period errorminus="14" errorplus="14">3186</period>
+			<semimajoraxis>6.1</semimajoraxis>
+			<eccentricity errorminus="0.013" errorplus="0.013">0.165</eccentricity>
 			<discoverymethod>RV</discoverymethod>
 			<lastupdate>11/01/05</lastupdate>
 			<discoveryyear>2010</discoveryyear>
 			<temperature>341.2</temperature>
 		</planet>
-		<name>nu Oph</name>
-		<temperature>4928.0</temperature>
 	</star>
 </system>

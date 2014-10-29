@@ -1,0 +1,28 @@
+<system>
+	<name>75 Cet</name>
+	<name>75 Ceti</name>
+	<rightascension>02 32 09.42200</rightascension>
+	<declination>-01 02 05.6236</declination>
+	<distance>81</distance>
+	<star>
+		<name>75 Cet</name>
+		<name>75 Ceti</name>
+		<name>HD 15779</name>
+		<name>HIP 11791</name>
+		<magV>5.36</magV>
+		<mass lowerlimit="2.22" upperlimit="2.51">2.49</mass>
+		<radius lowerlimit="9.5" upperlimit="11.5">10.5</radius>
+		<temperature errorminus="18" errorplus="18">4846</temperature>
+		<spectraltype>G3III:</spectraltype>
+		<planet>
+			<name>75 Cet b</name>
+			<list>Confirmed planets</list>
+			<mass>3.0</mass>
+			<period errorminus="3.6" errorplus="3.6">691.9</period>
+			<semimajoraxis>2.1</semimajoraxis>
+			<eccentricity errorminus="0.048" errorplus="0.048">0.117</eccentricity>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2012</discoveryyear>
+		</planet>
+	</star>
+</system>

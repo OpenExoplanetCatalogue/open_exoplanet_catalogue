@@ -1,0 +1,25 @@
+<system>
+	<name>HD 5608</name>
+	<rightascension>00 58 14.21893</rightascension>
+	<declination>+33 57 03.1843</declination>
+	<distance>58</distance>
+	<star>
+		<name>HD 5608</name>
+		<name>HIP 4552</name>
+		<magV>5.99</magV>
+		<mass lowerlimit="1.32" upperlimit="1.74">1.55</mass>
+		<radius lowerlimit="5.1" upperlimit="5.9">5.5</radius>
+		<temperature errorminus="25" errorplus="25">4854</temperature>
+		<spectraltype>K0IV</spectraltype>
+		<planet>
+			<name>HD 5608 b</name>
+			<list>Confirmed planets</list>
+			<mass>3.0</mass>
+			<period errorminus="7.7" errorplus="7.7">792.6</period>
+			<semimajoraxis>1.9</semimajoraxis>
+			<eccentricity errorminus="0.061" errorplus="0.061">0.190</eccentricity>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2012</discoveryyear>
+		</planet>
+	</star>
+</system>
