@@ -4,6 +4,8 @@
 	<declination>-04 38 27</declination>
 	<distance>8.8</distance>
 	<star>
+		<name>Gliese 849</name>
+		<temperature>3840.0</temperature>
 		<mass>0.49</mass>
 		<radius>0.52</radius>
 		<magV>10.42</magV>
@@ -21,16 +23,26 @@
 			<name>Gj 849 b</name>
 			<name>Gl 849 b</name>
 			<list>Confirmed planets</list>
-			<mass>0.99</mass>
-			<period>1852</period>
-			<semimajoraxis>2.35</semimajoraxis>
-			<eccentricity>0.04</eccentricity>
+			<mass errorminus="0.045" errorplus="0.043">0.900</mass>
+			<period errorminus="24" errorplus="23">1915</period>
+			<semimajoraxis>2.38</semimajoraxis>
+			<eccentricity>0.02</eccentricity>
 			<description>The star Gliese 849 is a red dwarf in the constellation of Aquarius.</description>
 			<discoverymethod>RV</discoverymethod>
 			<lastupdate>11/11/23</lastupdate>
 			<discoveryyear>2006</discoveryyear>
 		</planet>
-		<name>Gliese 849</name>
-		<temperature>3840.0</temperature>
+		<planet>
+			<name>Gliese 849 c</name>
+			<name>GJ 849 c</name>
+			<list>Controversial</list>
+			<mass errorminus="0.203" errorplus="0.344">0.702</mass>
+			<period errorminus="2170" errorplus="6280">7067</period>
+			<semimajoraxis>5.7</semimajoraxis>
+			<eccentricity>0.3</eccentricity>
+			<description>The orbital parameters of the outer planet of Gliese 849 are not well-constrained.</description>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2013</discoveryyear>
+		</planet>
 	</star>
 </system>
