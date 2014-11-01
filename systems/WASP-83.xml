@@ -1,0 +1,37 @@
+<system>
+	<name>WASP-83</name>
+	<rightascension>14 40 36.51</rightascension>
+	<declination>-19 17 03.4</declination>
+	<distance errorminus="50" errorplus="50">300</distance>
+	<star>
+		<name>WASP-83</name>
+		<name>1SWASP J124036.51-191703.4</name>
+		<name>2MASS 12403650-1917032</name>
+		<spectraltype>G8</spectraltype>
+		<age>5</age>
+		<temperature errorminus="110" errorplus="110">5480</temperature>
+		<metallicity errorminus="0.12" errorplus="0.12">0.29</metallicity>
+		<mass errorminus="0.09" errorplus="0.09">1.11</mass>
+		<radius errorminus="0.04" errorplus="0.06">1.05</radius>
+		<magV>12.9</magV>
+		<planet>
+			<name>WASP-83 b</name>
+			<name>1SWASP J124036.51-191703.4 b</name>
+			<name>2MASS 12403650-1917032 b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.03" errorplus="0.03">0.30</mass>
+			<radius errorminus="0.05" errorplus="0.08">1.04</radius>
+			<semimajoraxis errorminus="0.001" errorplus="0.001">0.059</semimajoraxis>
+			<period errorminus="0.000015" errorplus="0.000015">4.971252</period>
+			<transittime errorminus="0.0004" errorplus="0.0004" unit="HJD">2455928.8853</transittime>
+			<inclination errorminus="0.7" errorplus="0.7">88.9</inclination>
+			<eccentricity upperlimit="0.3" />
+			<temperature errorminus="30" errorplus="30">1120</temperature>
+			<description>This planet has been announced in 2014 by the WASP team. The scientific paper describing the discovery was published on the arXiv in 2014. The planet was discovered via the transit method and confirmed using radial velocity measurements.</description>
+			<discoverymethod>transit</discoverymethod>
+			<lastupdate>14/10/24</lastupdate>
+			<discoveryyear>2014</discoveryyear>
+			<istransiting>1</istransiting>
+		</planet>
+	</star>
+</system>
