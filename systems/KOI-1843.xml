@@ -1,0 +1,48 @@
+<system>
+	<name>KOI-1843</name>
+	<rightascension>19 00 03.14</rightascension>
+	<declination>+40 13 14.7</declination>
+	<star>
+		<name>KOI-1843</name>
+		<mass errorminus="0.08" errorplus="0.05">0.46</mass>
+		<radius errorminus="0.05" errorplus="0.05">0.45</radius>
+		<temperature errorminus="65" errorplus="65">3584</temperature>
+		<metallicity errorminus="0.1" errorplus="0.1">0.0</metallicity>
+		<magJ>12.0</magJ>
+		<planet>
+			<name>KOI-1843.03</name>
+			<list>Controversial</list>
+			<mass errorminus="0.0005" errorplus="0.0012">0.0014</mass>
+			<radius errorminus="0.007" errorplus="0.011">0.054</radius>
+			<period errorminus="0.0000002" errorplus="0.0000002">0.1768913</period>
+			<inclination errorminus="20" errorplus="12">72</inclination>
+			<transittime errorminus="0.0009" errorplus="0.0009" unit="BJD">2454964.5523</transittime>
+			<semimajoraxis>0.0048</semimajoraxis>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2012</discoveryyear>
+			<istransiting>1</istransiting>
+		</planet>
+		<planet>
+			<name>KOI-1843.01</name>
+			<list>Controversial</list>
+			<radius errorminus="0.024" errorplus="0.024">0.114</radius>
+			<period errorminus="0.000016" errorplus="0.000016">4.194525</period>
+			<inclination>89.38</inclination>
+			<transittime errorminus="0.0013" errorplus="0.0013" unit="BJD">2454967.1323</transittime>
+			<semimajoraxis>0.039</semimajoraxis>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+		</planet>
+		<planet>
+			<name>KOI-1843.02</name>
+			<list>Controversial</list>
+			<radius errorminus="0.015" errorplus="0.015">0.071</radius>
+			<period errorminus="0.000088" errorplus="0.000088">6.356006</period>
+			<inclination>88.24</inclination>
+			<transittime errorminus="0.005" errorplus="0.005" unit="BJD">2454970.4901</transittime>
+			<semimajoraxis>0.052</semimajoraxis>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+		</planet>
+	</star>
+</system>
