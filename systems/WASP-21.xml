@@ -4,34 +4,34 @@
 	<declination>+18 23 46</declination>
 	<distance>230</distance>
 	<star>
-		<mass>1.01</mass>
-		<radius>1.06</radius>
+		<name>WASP-21</name>
+		<mass errorminus="0.079" errorplus="0.079">0.890</mass>
+		<radius errorminus="0.051" errorplus="0.051">1.136</radius>
+		<temperature errorminus="100" errorplus="100">5800</temperature>
 		<magV>11.6</magV>
 		<magB errorminus="0.42" errorplus="0.42">12.12</magB>
 		<magR errorminus="0.05" errorplus="0.05">11.52</magR>
 		<magJ errorminus="0.023" errorplus="0.023">10.350</magJ>
 		<magH errorminus="0.022" errorplus="0.022">10.085</magH>
 		<magK errorminus="0.017" errorplus="0.017">9.982</magK>
-		<metallicity>-0.4</metallicity>
+		<metallicity errorminus="0.11" errorplus="0.11">-0.46</metallicity>
 		<spectraltype>G3V</spectraltype>
 		<planet>
 			<name>WASP-21 b</name>
 			<name>2MASS J23095825+1823459 b</name>
 			<list>Confirmed planets</list>
-			<mass>0.3</mass>
-			<radius>1.21</radius>
-			<period>4.322506</period>
-			<semimajoraxis>0.052</semimajoraxis>
-			<eccentricity>0.0</eccentricity>
-			<inclination>87.29</inclination>
-			<transittime errorminus="0.00020" errorplus="0.00020" unit="BJD">2455084.52049</transittime>
+			<mass errorminus="0.019" errorplus="0.019">0.276</mass>
+			<radius errorminus="0.054" errorplus="0.054">1.162</radius>
+			<period errorminus="0.0000030" errorplus="0.0000030">4.3225186</period>
+			<semimajoraxis errorminus="0.0015" errorplus="0.0015">0.0499</semimajoraxis>
+			<eccentricity>0</eccentricity>
+			<inclination errorminus="0.33" errorplus="0.33">86.97</inclination>
+			<transittime errorminus="0.00071" errorplus="0.00071" unit="BJD">2454743.04054</transittime>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>11/06/13</lastupdate>
+			<lastupdate>14/11/05</lastupdate>
 			<discoveryyear>2010</discoveryyear>
-			<temperature>1154.6</temperature>
+			<temperature errorminus="28" errorplus="28">1333</temperature>
 			<istransiting>1</istransiting>
 		</planet>
-		<name>WASP-21</name>
-		<temperature>5800.0</temperature>
 	</star>
 </system>
