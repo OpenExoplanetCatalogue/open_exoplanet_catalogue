@@ -148,13 +148,13 @@
 	<!-- Right Ascension Definition -->
 	<xs:simpleType name="rightascensiondef">
 		<xs:restriction base="xs:string">
-			<xs:pattern value="[0-2]\d [0-5]\d [0-5]\d(\.\d{1,2}){0,1}"/>
+			<xs:pattern value="[0-2]\d [0-5]\d [0-5]\d(\.\d{1,}){0,1}"/>
 		</xs:restriction>
 	</xs:simpleType>
 	<!-- Declination Definition -->
 	<xs:simpleType name="declinationdef">
 		<xs:restriction base="xs:string">
-			<xs:pattern value="(\+|\-)(\d{2} [0-5]\d [0-5]\d)(\.\d{1,2}){0,1}"/>
+			<xs:pattern value="(\+|\-)(\d{2} [0-5]\d [0-5]\d)(\.\d{1,}){0,1}"/>
 		</xs:restriction>
 	</xs:simpleType>
 	<!-- DateTime -->
