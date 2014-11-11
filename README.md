@@ -1,6 +1,10 @@
 Open Exoplanet Catalogue
 ==============
 
+[![Travis](https://travis-ci.org/OpenExoplanetCatalogue/open_exoplanet_catalogue.svg?branch=master)](https://travis-ci.org/OpenExoplanetCatalogue/open_exoplanet_catalogue/)
+[![MIT](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](http://opensource.org/licenses/MIT)
+[![arXiv](http://img.shields.io/badge/arXiv-1211.7121-orange.svg?style=flat)](http://arxiv.org/abs/1211.7121)
+
 The Open Exoplanet Catalogue is a database of all discovered extra-solar planets. New planets are usually added within 24 hours of their announcement.
 
 The database is licensed under an MIT license (see below), which basically says you can do everything with it. If you use it for a scientific publication, please include a reference to the Open Exoplanet Catalogue on [github](https://github.com/hannorein/open_exoplanet_catalogue) or to [this arXiv paper](http://arxiv.org/abs/1211.7121).  
