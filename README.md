@@ -1,7 +1,7 @@
 Open Exoplanet Catalogue
 ==============
 
-[![Travis](https://travis-ci.org/OpenExoplanetCatalogue/open_exoplanet_catalogue.svg?branch=master)](https://travis-ci.org/OpenExoplanetCatalogue/open_exoplanet_catalogue/)
+[![Travis](http://img.shields.io/travis/OpenExoplanetCatalogue/open_exoplanet_catalogue/master.svg?style=flat)](https://travis-ci.org/OpenExoplanetCatalogue/open_exoplanet_catalogue/)
 [![MIT](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](http://opensource.org/licenses/MIT)
 [![arXiv](http://img.shields.io/badge/arXiv-1211.7121-orange.svg?style=flat)](http://arxiv.org/abs/1211.7121)
 
