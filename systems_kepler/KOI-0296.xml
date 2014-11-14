@@ -2,27 +2,135 @@
 	<name>KOI-0296</name>
 	<rightascension>19 00 10</rightascension>
 	<declination>+50 04 31</declination>
-	<distance>517.51</distance>
-	<star>
-		<magJ errorminus="0.025" errorplus="0.025">11.846</magJ>
-		<magH errorminus="0.017" errorplus="0.017">11.551</magH>
-		<magK errorminus="0.023" errorplus="0.023">11.469</magK>
-		<name>KOI-0296</name>
-		<temperature errorminus="68.00" errorplus="68.00">6089.00</temperature>
-		<radius errorminus="0.5700" errorplus="0.5700">1.0700</radius>
-		<mass errorminus="0.1300" errorplus="0.1300">1.0400</mass>
-		<age errorminus="1.5000" errorplus="1.5000">3.6000</age>
-		<planet>
-			<name>KOI-0296 b</name>
-			<name>KOI-0296 01</name>
-			<radius errorminus="0.11847" errorplus="0.11847">0.21871</radius>
-			<period errorminus="2.5000000e-04" errorplus="2.5000000e-04">28.862310000000</period>
-			<transittime errorminus="0.0028000" errorplus="0.0028000">2455011.4844000</transittime>
-			<semimajoraxis>0.1870000</semimajoraxis>
-			<temperature>644.0</temperature>
-			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<istransiting>1</istransiting>
-		</planet>
-	</star>
+	<distance>359</distance>
+	<binary>	<star>
+			<magJ errorminus="0.025" errorplus="0.025">11.846</magJ>
+			<magH errorminus="0.017" errorplus="0.017">11.551</magH>
+			<magK errorminus="0.023" errorplus="0.023">11.469</magK>
+			<name>KOI-0296A</name>
+			<temperature errorminus="40.00" errorplus="40.00">3821.00</temperature>
+			<radius errorminus="0.011" errorplus="0.011">0.595</radius>
+			<mass errorminus="0.012" errorplus="0.012">0.626</mass>
+			<age errorminus="1.5000" errorplus="1.5000">3.6000</age>
+			<planet>
+				<name>KOI-0296 b</name>
+				<name>KOI-0296 01</name>
+				<radius errorminus="0.06" errorplus="0.06">1.22</radius>
+				<period errorminus="2.5000000e-04" errorplus="2.5000000e-04">28.862310000000</period>
+				<transittime errorminus="0.0028000" errorplus="0.0028000">2455011.4844000</transittime>
+				<semimajoraxis>0.1870000</semimajoraxis>
+				<temperature errorminus="5.0" errorplus="5.0">454.2</temperature>
+				<mass>2.2</mass>
+				<separation>0.082</separation>
+				<list>Kepler Objects of Interest</list>
+				<description>Smallest planet orbiting Kepler-296 A. Not a habitable planet.</description>
+				<istransiting>1</istransiting>
+			</planet>
+			<planet>
+				<name>KOI-0296c</name>
+				<name>KOI-0296 02</name>
+				<radius errorminus="0.05" errorplus="0.05">2.73</radius>
+				<separation>0.054</separation>
+				<mass>6.8</mass>
+				<temperature errorminus="6.2" errorplus="6.2">558.6</temperature>
+				<list>Kepler Objects of Interest</list>
+				<description>Second largest planet orbiting Kepler-296 A. Not a habitable planet.</description>
+				<istransiting>1</istransiting>
+			</planet>
+			<planet>
+				<name>KOI-0296d</name>
+				<name>KOI-0296 03</name>
+				<radius errorminus"0.06" errorplus="0.06">2.85</radius>
+				<separation>0.123</separation>
+				<mass>7.1</mass>
+				<temperature errorminus="4.1" errorplus="4.1">371.5</temperature>
+				<list>Kepler Objects of Interest</list>
+				<description>Largest planet orbiting Kepler-296 A. Not a habitable planet.</description>
+				<istransiting>1</istransiting>
+			</planet>
+			<planet>
+				<name>KOI-0296e</name>
+				<name>KOI-0296 04</name>
+				<radius errorminus"0.22" errorplus="0.22">2.27</radius>
+				<separation>0.176</separation>
+				<mass>5.8</mass>
+				<temperature errorminus="3.4" errorplus="3.4">310.1</temperature>
+				<list>Kepler Objects of Interest</list>
+				<description>Second smallest planet orbiting Kepler-296 A. Not a habitable planet.</description>
+				<istransiting>1</istransiting>
+			</planet>
+			<planet>
+				<name>KOI-0296f</name>
+				<name>KOI-0296 05</name>
+				<radius errorminus"0.09" errorplus="0.09">2.33</radius>
+				<separation>0.266</separation>
+				<mass>5.9</mass>
+				<temperature errorminus="2.8" errorplus="2.8">252.4</temperature>
+				<list>Kepler Objects of Interest</list>
+				<description>Not a habitable planet.</description>
+				<istransiting>1</istransiting>
+			</planet>
+		</star>
+		<star>
+			<name>KOI-0269B</name>
+			<temperature errorminus="19" errorplus="19">3434.00</temperature>
+			<radius errorminus="0.012" errorplus="0.012">0.429</radius>
+			<mass errorminus="0.014" errorplus="0.014">0.453</mass>
+			<planet>
+				<name>KOI-0296b</name>
+				<name>KOI-0296 01</name>
+				<radius errorminus"0.04" errorplus="0.04">1.79</radius>
+				<separation>0.074</separation>
+				<mass>4.6</mass>
+				<temperature errorminus="4.3" errorplus="4.3">366.1</temperature>
+				<list>Kepler Objects of Interest</list>
+				<description>Not a habitable planet. Smallest planet orbiting KOI-0296B</description>
+				<istransiting>1</istransiting>
+			</planet>
+			<planet>
+				<name>KOI-0296c</name>
+				<name>KOI-0296 02</name>
+				<radius errorminus"0.09" errorplus="0.09">4.00</radius>
+				<separation>0.049</separation>
+				<mass>17.4</mass>
+				<temperature errorminus="5.2" errorplus="5.2">450.3</temperature>
+				<list>Kepler Objects of Interest</list>
+				<description>Not a habitable planet. Second largest planet orbiting KOI-0296.</description>
+				<istransiting>1</istransiting>
+			</planet>
+			<planet>
+				<name>KOI-0296d</name>
+				<name>KOI-0296 03</name>
+				<radius errorminus"0.09" errorplus="0.09">4.18</radius>
+				<separation>0.110</separation>
+				<mass>19.0</mass>
+				<temperature errorminus="3.5" errorplus="3.5">299.5</temperature>
+				<list>Kepler Objects of Interest</list>
+				<description>Not a habitable planet. Largest planet oribiting KOI-0296B</description>
+				<istransiting>1</istransiting>
+			</planet>
+			<planet>
+				<name>KOI-0296e</name>
+				<name>KOI-0296 04</name>
+				<radius errorminus"0.11" errorplus="0.11">3.32</radius>
+				<separation>0.158</separation>
+				<mass>8.2</mass>
+				<temperature errorminus="2.9" errorplus="2.9">250.0</temperature>
+				<list>Kepler Objects of Interest</list>
+				<description>Not a habitable planet.</description>
+				<istransiting>1</istransiting>
+			</planet>
+			<planet>
+				<name>KOI-0296f</name>
+				<name>KOI-0296 05</name>
+				<radius errorminus"0.08" errorplus="0.08">3.42</radius>
+				<separation>0.229</separation>
+				<mass>8.4</mass>
+				<temperature errorminus="2.4" errorplus="2.4">203.4</temperature>
+				<list>Kepler Objects of Interest</list>
+				<description>Is a habitable planet..</description>
+				<istransiting>1</istransiting>
+			</planet>
+		</star>
+	</binary>
 </system>
