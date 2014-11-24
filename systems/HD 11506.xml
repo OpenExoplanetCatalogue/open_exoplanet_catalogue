@@ -1,42 +1,57 @@
 <system>
 	<name>HD 11506</name>
-	<rightascension>01 52 51</rightascension>
-	<declination>-19 30 25</declination>
-	<distance>53.82</distance>
+	<rightascension>01 52 50.535</rightascension>
+	<declination>-19 30 25.11</declination>
+	<distance errorminus="1.6" errorplus="1.6">51.7</distance>
 	<star>
+		<name>HD 11506</name>
+		<name>HIP 8770</name>
+		<name>BD-20 358</name>
+		<name>PPM 210762</name>
+		<name>SAO 148079</name>
+		<name>TYC 5858-2028-1</name>
 		<mass>1.19</mass>
-		<radius>1.38</radius>
+		<radius errorminus="0.05" errorplus="0.05">1.33</radius>
 		<magV>7.51</magV>
 		<magB errorminus="0.01" errorplus="0.01">8.11</magB>
 		<metallicity>0.31</metallicity>
 		<spectraltype>G0V</spectraltype>
 		<planet>
 			<name>HD 11506 b</name>
+			<name>HIP 8770 b</name>
+			<name>BD-20 358 b</name>
+			<name>PPM 210762 b</name>
+			<name>SAO 148079 b</name>
+			<name>TYC 5858-2028-1 b</name>
 			<list>Confirmed planets</list>
-			<mass>3.44</mass>
-			<period>1270</period>
-			<semimajoraxis>2.43</semimajoraxis>
-			<eccentricity>0.22</eccentricity>
-			<description>The star HD 11506 is a yellow dwarf star in the constellation Cetus. The star hosts two planets. The inner planer was discovered by using Bayesian analysis (Tuomi et al 2009).</description>
+			<mass errorminus="0.07" errorplus="0.07">4.21</mass>
+			<period errorminus="5.9" errorplus="5.9">1627.5</period>
+			<semimajoraxis errorminus="0.007" errorplus="0.007">2.708</semimajoraxis>
+			<eccentricity errorminus="0.01" errorplus="0.01">0.37</eccentricity>
+			<description>The star HD 11506 is a yellow dwarf star in the constellation Cetus. The star hosts two planets. The inner planer was discovered by using Bayesian analysis (Tuomi et al 2009). The N2K campaign improves the data in 2014 with some further years of observations since the discovery.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>09/02/24</lastupdate>
+			<lastupdate>14/11/19</lastupdate>
 			<discoveryyear>2007</discoveryyear>
 			<temperature>200.7</temperature>
 		</planet>
 		<planet>
 			<name>HD 11506 c</name>
+			<name>HIP 8770 c</name>
+			<name>BD-20 358 c</name>
+			<name>PPM 210762 c</name>
+			<name>SAO 148079 c</name>
+			<name>TYC 5858-2028-1 c</name>
 			<list>Confirmed planets</list>
-			<mass>0.82</mass>
-			<period>170.46</period>
-			<semimajoraxis>0.639</semimajoraxis>
-			<eccentricity>0.42</eccentricity>
-			<description>The star HD 11506 is a yellow dwarf star in the constellation Cetus. The star hosts two planets. The inner planer was discovered by using Bayesian analysis (Tuomi et al 2009).</description>
+			<mass errorminus="0.02" errorplus="0.02">0.36</mass>
+			<period errorminus="0.6" errorplus="0.6">223.6</period>
+			<semimajoraxis errorminus="0.001" errorplus="0.001">0.721</semimajoraxis>
+			<eccentricity errorminus="0.05" errorplus="0.05">0.24</eccentricity>
+			<description>The star HD 11506 is a yellow dwarf star in the constellation Cetus. The star hosts two planets. The inner planer was discovered by using Bayesian analysis (Tuomi et al 2009). The N2K campaign improves the data in 2014 with some further years of observations since the discovery.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>09/02/24</lastupdate>
+			<lastupdate>14/11/19</lastupdate>
 			<discoveryyear>2009</discoveryyear>
 			<temperature>388.0</temperature>
 		</planet>
-		<name>HD 11506</name>
 		<temperature>6058.0</temperature>
 	</star>
 </system>
