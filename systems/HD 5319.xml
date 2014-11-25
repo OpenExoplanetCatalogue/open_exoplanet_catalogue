@@ -1,31 +1,62 @@
 <system>
 	<name>HD 5319</name>
-	<rightascension>00 55 01</rightascension>
-	<declination>+00 47 22</declination>
-	<distance>100</distance>
+	<rightascension>00 55 01.400</rightascension>
+	<declination>+00 47 22.40</declination>
+	<distance errorminus="11" errorplus="11">114</distance>
 	<star>
-		<mass>1.56</mass>
+		<name>HD 5319</name>
+		<name>HIP 4297</name>
+		<name>BD+00 142</name>
+		<name>PPM 144054</name>
+		<name>2MASS J00550140+0047223</name>
+		<name>SAO 109532</name>
+		<name>TYC 12-104-1 </name>
+		<mass errorminus="0.11" errorplus="0.11">1.51</mass>
 		<radius>3.26</radius>
 		<magV>8.05</magV>
 		<magB>9.03</magB>
 		<magJ errorminus="0.027" errorplus="0.027">6.348</magJ>
 		<magH errorminus="0.044" errorplus="0.044">5.864</magH>
 		<magK errorminus="0.020" errorplus="0.020">5.699</magK>
-		<metallicity>0.15</metallicity>
+		<metallicity errorminus="0.03" errorplus="0.03">0.15</metallicity>
 		<spectraltype>G5IV</spectraltype>
 		<planet>
 			<name>HD 5319 b</name>
+			<name>HIP 4297 b</name>
+			<name>BD+00 142 b</name>
+			<name>PPM 144054 b</name>
+			<name>2MASS J00550140+0047223 b</name>
+			<name>SAO 109532 b</name>
+			<name>TYC 12-104-1 b</name>
 			<list>Confirmed planets</list>
-			<mass>1.94</mass>
-			<period>675</period>
-			<semimajoraxis>1.75</semimajoraxis>
-			<eccentricity>0.12</eccentricity>
+			<mass errorminus="0.07" errorplus="0.07">1.76</mass>
+			<period errorminus="2" errorplus="2">641</period>
+			<semimajoraxis errorminus="0.0036" errorplus="0.0036">1.6697</semimajoraxis>
+			<eccentricity errorminus="0.03" errorplus="0.03">0.02</eccentricity>
+			<description>This planet was found in 2007. The N2K campain, designed to discover short-period planets, improved the data in 2014 using long-term observations.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>07/10/31</lastupdate>
+			<lastupdate>14/11/19</lastupdate>
 			<discoveryyear>2007</discoveryyear>
 			<temperature>303.8</temperature>
 		</planet>
-		<name>HD 5319</name>
+		<planet>
+			<name>HD 5319 c</name>
+			<name>HIP 4297 c</name>
+			<name>BD+00 142 c</name>
+			<name>PPM 144054 c</name>
+			<name>2MASS J00550140+0047223 c</name>
+			<name>SAO 109532 c</name>
+			<name>TYC 12-104-1 c</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.08" errorplus="0.08">1.15</mass>
+			<period errorminus="8" errorplus="8">886</period>
+			<semimajoraxis errorminus="0.013" errorplus="0.013">2.071</semimajoraxis>
+			<eccentricity errorminus="0.06" errorplus="0.06">0.15</eccentricity>
+			<description>This planet was found by the N2K campain designed to discover short-period planets.</description>
+			<discoverymethod>RV</discoverymethod>
+			<lastupdate>14/11/19</lastupdate>
+			<discoveryyear>2014</discoveryyear>
+		</planet>
 		<temperature>5052.0</temperature>
 	</star>
 </system>
