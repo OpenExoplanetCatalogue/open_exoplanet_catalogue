@@ -1,0 +1,45 @@
+<system>
+	<name>Gliese 3341</name>
+	<rightascension>05 15 46.68</rightascension>
+	<declination>-31 17 46.6</declination>
+	<distance errorminus="0.7" errorplus="0.7">23.2</distance>
+	<star>
+		<name>Gliese 3341</name>
+		<name>GJ 3341</name>
+		<name>LHS 1748</name>
+		<name>2MASS J05154667-3117456</name>
+		<name>PM 05138-3121</name>
+		<name>RAVE J051546.7-311746</name>
+		<mass>0.47</mass>
+		<radius errorminus="0.027" errorplus="0.027">0.439</radius>
+		<magV>12.080</magV>
+		<magB>13.58</magB>
+		<magR>11.07</magR>
+		<magI>9.82</magI>
+		<magJ errorminus="0.020" errorplus="0.020">8.592</magJ>
+		<magH errorminus="0.049" errorplus="0.049">7.990</magH>
+		<magK errorminus="0.023" errorplus="0.023">7.733</magK>
+		<metallicity errorminus="0.09" errorplus="0.09">-0.09</metallicity>
+		<spectraltype>M2.5</spectraltype>
+		<temperature errorminus="49" errorplus="49">3546</temperature>
+		<planet>
+			<name>Gliese 3341 b</name>
+			<name>GJ 3341 b</name>
+			<name>LHS 1748 b</name>
+			<name>2MASS J05154667-3117456 b</name>
+			<name>PM 05138-3121 b</name>
+			<name>RAVE J051546.7-311746 b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.003" errorplus="0.003">0.02</mass>
+			<period errorminus="0.007" errorplus="0.007">14.207</period>
+			<transittime errorminus="0.8" errorplus="0.8">2455622.7</transittime>
+			<description>Gliese 3341 is a star with high proper motion and is orbited by a super-Earth planet.</description>
+			<semimajoraxis>0.089</semimajoraxis>
+			<eccentricity errorminus="0.11" errorplus="0.11">0.31</eccentricity>
+			<istransiting>0</istransiting>
+			<discoverymethod>RV</discoverymethod>
+			<lastupdate>14/11/25</lastupdate>
+			<discoveryyear>2014</discoveryyear>
+		</planet>
+	</star>
+</system>
