@@ -1,0 +1,30 @@
+<system>
+	<name>HIP 116454</name>
+	<distance errorminus="5.4" errorplus="5.4">55.2</distance>
+	<star>
+		<name>HIP 116454</name>
+		<mass errorminus="0.027" errorplus="0.027">0.775</mass>
+		<radius errorminus="0.024" errorplus="0.024">0.716</radius>
+		<temperature errorminus="50" errorplus="50">5089</temperature>
+		<magV>10.1</magV>
+		<metallicity errorminus="0.08" errorplus="0.08">-0.16</metallicity>
+		<spectraltype>K</spectraltype>
+		<planet>
+			<name>HIP 116454 b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.004184" errorplus="0.004184">0.037182</mass>
+			<radius errorminus="0.016403" errorplus="0.016403">0.230560</radius>
+			<temperature errorminus="14" errorplus="14">690</temperature>
+			<period errorminus="0.0005" errorplus="0.0005">9.1205</period>
+			<eccentricity errorminus="0.072" errorplus="0.072">0.205</eccentricity>
+			<inclination errorminus="0.4" errorplus="0.4">88.43</inclination>
+			<periastron errorminus="16.7" errorplus="16.7">-59.1</periastron>
+			<description>HIP 116454 b is the first planet discovered by the Kepler spacecraft during its extended K2 mission. The planet is about two and a half times the size of Earth and only 55.2 parsec away. This makes it a top target for follow-up observations.</description>
+			<transittime errorminus="0.03" errorplus="0.03" unit="BJD">2456907.89</transittime>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>14/12/18</lastupdate>
+			<discoveryyear>2014</discoveryyear>
+		</planet>
+	</star>
+</system>
