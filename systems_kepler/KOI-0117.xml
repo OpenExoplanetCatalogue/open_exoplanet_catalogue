@@ -2,62 +2,40 @@
 	<name>KOI-0117</name>
 	<rightascension>19 48 06</rightascension>
 	<declination>+48 12 30</declination>
-	<distance>443.22</distance>
+	<distance errorminus="50" errorplus="50">1430</distance>
 	<star>
 		<magJ errorminus="0.022" errorplus="0.022">11.392</magJ>
 		<magH errorminus="0.018" errorplus="0.018">11.114</magH>
 		<magK errorminus="0.016" errorplus="0.016">11.060</magK>
 		<name>KOI-0117</name>
-		<temperature errorminus="50.00" errorplus="50.00">5949.00</temperature>
-		<radius errorminus="0.1100" errorplus="0.1100">1.1800</radius>
-		<mass errorminus="0.0390" errorplus="0.0390">1.1830</mass>
-		<age errorminus="1.1000" errorplus="1.1000">2.3000</age>
+		<temperature errorminus="110.0" errorplus="110.0">6150.00</temperature>
+		<radius errorminus="0.049" errorplus="0.049">1.606</radius>
+		<mass errorminus="0.13" errorplus="0.023">1.129</mass>
+		<age errorminus="1.4" errorplus="1.4">5.3</age>
+		<metallicity errorminus="0.1" errorplus="0.1">-0.04</metallicity>
 		<planet>
 			<name>KOI-0117 b</name>
 			<name>KOI-0117 01</name>
-			<radius errorminus="0.02552" errorplus="0.02552">0.26701</radius>
-			<period errorminus="7.6000000e-05" errorplus="7.6000000e-05">14.749102000000</period>
+			<temperature errorminus="18" errorplus="18">984</temperature>
+			<radius errorminus="0.024" errorplus="0.024">0.719</radius>
+			<mass errorminus="0.033" errorplus="0.033">0.094</mass>
+			<period errorminus="7.5000000e-05" errorplus="7.5000000e-05">18.7959228</period>
 			<transittime errorminus="0.0018000" errorplus="0.0018000">2454971.7788000</transittime>
-			<semimajoraxis>0.1250000</semimajoraxis>
-			<temperature>807.0</temperature>
+			<semimajoraxis errorminus="0.0047" errorplus="0.0047">0.1445</semimajoraxis>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>Has been confirmed to be a Planet as of November the 14th, 2014. Unhabitable according to current data.</description>
 			<istransiting>1</istransiting>
 		</planet>
 		<planet>
 			<name>KOI-0117 c</name>
 			<name>KOI-0117 02</name>
-			<radius errorminus="0.01549" errorplus="0.01549">0.15583</radius>
-			<period errorminus="3.9000000e-05" errorplus="3.9000000e-05">4.901467000000</period>
+			<temperature errorminus="15" errorplus="15">704</temperature>
+			<radius errorminus="0.035" errorplus="0.035">1.101</radius>
+			<period errorminus="1.4000000e-05" errorplus="1.4000000e-05">50.790391</period>
 			<transittime errorminus="0.0026000" errorplus="0.0026000">2454971.6039000</transittime>
-			<semimajoraxis>0.0600000</semimajoraxis>
-			<temperature>1165.0</temperature>
+			<semimajoraxis errorminus="0.0092" errorplus="0.0092">0.2804</semimajoraxis>
 			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<istransiting>1</istransiting>
-		</planet>
-		<planet>
-			<name>KOI-0117 d</name>
-			<name>KOI-0117 03</name>
-			<radius errorminus="0.01367" errorplus="0.01367">0.14399</radius>
-			<period errorminus="2.5000000e-05" errorplus="2.5000000e-05">3.179962000000</period>
-			<transittime errorminus="0.0023000" errorplus="0.0023000">2454966.5041000</transittime>
-			<semimajoraxis>0.0450000</semimajoraxis>
-			<temperature>1345.0</temperature>
-			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
-			<istransiting>1</istransiting>
-		</planet>
-		<planet>
-			<name>KOI-0117 e</name>
-			<name>KOI-0117 04</name>
-			<radius errorminus="0.01094" errorplus="0.01094">0.09842</radius>
-			<period errorminus="1.7000000e-04" errorplus="1.7000000e-04">7.957920000000</period>
-			<transittime errorminus="0.0071000" errorplus="0.0071000">2454970.8159000</transittime>
-			<semimajoraxis>0.0830000</semimajoraxis>
-			<temperature>991.0</temperature>
-			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<description>Confirmed to be a Planet as of Novemeber the 14th, 2014. Unhabitable according to current data.</description>
 			<istransiting>1</istransiting>
 		</planet>
 	</star>
