@@ -4,24 +4,34 @@
 	<declination>+48 17 09</declination>
 	<distance>777.52</distance>
 	<star>
+		<magV errorminus="0.050" errorplus="0.050">12.463</magV>
 		<magJ errorminus="0.021" errorplus="0.021">10.684</magJ>
 		<magH errorminus="0.019" errorplus="0.019">10.221</magH>
 		<magK errorminus="0.017" errorplus="0.017">10.121</magK>
 		<name>KOI-1299</name>
-		<temperature errorminus="51.00" errorplus="51.00">5061.00</temperature>
-		<radius errorminus="0.3800" errorplus="0.3800">3.2900</radius>
-		<mass errorminus="0.0930" errorplus="0.0930">1.3430</mass>
-		<age errorminus="0.9400" errorplus="0.9400">3.8700</age>
+		<temperature errorminus="78.00" errorplus="78.00">4995.00</temperature>
+		<radius errorminus="0.08" errorplus="0.12">4.06</radius>
+		<mass errorminus="0.07" errorplus="0.1">1.32</mass>
+		<age errorminus="1.0" errorplus="0.8">4.2</age>
 		<planet>
 			<name>KOI-1299 b</name>
 			<name>KOI-1299 01</name>
-			<radius errorminus="0.10024" errorplus="0.10024">0.87485</radius>
-			<period errorminus="6.7000000e-04" errorplus="6.7000000e-04">52.501280000000</period>
-			<transittime errorminus="0.0049000" errorplus="0.0049000">2455004.5181000</transittime>
+			<radius errorminus="0.039" errorplus="0.036">1.145</radius>
+			<period errorminus="5.3000000e-04" errorplus="6.7000000e-04">52.501129</period>
+			<transittime errorminus="0.0012" errorplus="0.0011">2455949.5374</transittime>
 			<semimajoraxis>0.3030000</semimajoraxis>
 			<temperature>735.0</temperature>
-			<list>Kepler Objects of Interest</list>
-			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
+			<list>Confirmed planet</list>
+			<description>Has been identified as an inner planet since November 14th,2014. Unhabitable environment.</description>
+			<istransiting>1</istransiting>
+		</planet>
+		<planet>
+			<name>KOI-1299 c</name>
+			<name>KOI-1299 02</name>
+			<period errorminus="2.5" errorplus="3.9">406.2</period>
+			<transittime errorminus="2.9" errorplus="3.6">2456139.3</transittime>
+			<list>Confirmed planet</list>
+			<description>Discovered as of November 14th, 2014. Identified to be an outter planet. Insufficient data for accurate description.</description>
 			<istransiting>1</istransiting>
 		</planet>
 	</star>
