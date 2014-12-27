@@ -19,11 +19,13 @@
 		<planet>
 			<name>HD 100546 b</name>
 			<list>Confirmed</list>
-			<semimajoraxis>68</semimajoraxis>
+			<semimajoraxis errorminus="2" errorplus="2">53</semimajoraxis>
 			<mass>17.5</mass>
 			<magK errorminus="0.11" errorplus="0.11">13.59</magK>
-			<age errorminus="0.0025" errorplus="0.0025">0.0075</age>
-			<description>HD 100546 is a Herbig Ae/Be star. High contrast observations of the circumstellar disk reveal an emmision source at a distance of 68 astronomical units. The most likely explanation is a planet in the process of forming. HD 100546b has, as of the 2nd November, 2014, been confirmed to be a planet. HD 100546b is a unique laboratory to study the formation process of a new planetary system, with one giant planet currently forming in the disk and a second planet possibly oribitin in the disk gap at a smaller separation. High-resolution near-IR CO and OH spectroscopy show that another unseen companion at ~10AU is located. ALMA data show evidence that there exist 2 mm-sized rings of dust exist which are possibly trapped by the protoplanet candidates. The disk may also exhibit planet-induced structures at the regions exterior of HD 100546b formation region (r&gt;100AU). The system contains one bona fide protoplanet candidate at 47AU, strong evidence for a candidate at 10AU, and potential evidence of additional planets exterior to 45AU. Common proper motion has not been confirmed yet.</description>
+			<age errorminus="0.0045" errorplus="0.0045">0.0055</age>
+			<temperature errorminus="253" errorplus="227">1028</temperature>
+			<radius errorminus="2.6" errorplus="2.5">6</radius>
+			<description>HD 100546 is a Herbig Ae/Be star. High contrast observations of the circumstellar disk reveal an emmision source at a distance of 68 astronomical units. The most likely explanation is a planet in the process of forming. HD 100546b has, as of the 2nd November, 2014, been confirmed to be a planet. HD 100546b is a unique laboratory to study the formation process of a new planetary system, with one giant planet currently forming in the disk and a second planet possibly oribitin in the disk gap at a smaller separation.</description>
 			<discoverymethod>imaging</discoverymethod>
 			<lastupdate>14/12/26</lastupdate>
 			<discoveryyear>2013</discoveryyear>
@@ -31,6 +33,11 @@
 			<imagedescription>This artist's impression shows the formation of a gas giant planet in the ring of dust around the young star HD 100546. This system is also suspected to contain another large planet orbiting closer to the star. The newly-discovered object lies about 70 times further from its star than the Earth does from the Sun. This protoplanet is surrounded by a thick cloud of material so that, seen from this position, its star almost invisible and red in colour because of the scattering of light from the dust.
 			
 Credit: ESO/L. Calcada</imagedescription>
+		</planet>
+		<planet>
+			<name>HD 100546 c</name>
+			<list>Controversial</list>
+			<semimajoraxis>13.5</semimajoraxis>
 		</planet>
 	</star>
 </system>
