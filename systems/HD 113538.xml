@@ -2,44 +2,45 @@
 	<name>HD 113538</name>
 	<rightascension>13 04 57</rightascension>
 	<declination>-52 26 35</declination>
-	<distance>15.8</distance>
+	<distance>15.9</distance>
 	<star>
-		<mass>0.7</mass>
-		<radius>0.65</radius>
-		<magV>9.02</magV>
+		<name>HD 113538 A</name>
+		<temperature errorminus="145" errorplus="145">4462</temperature>
+		<mass errorminus="0.05" errorplus="0.05">0.585</mass>
+		<radius errorminus="0.02" errorplus="0.02">0.53</radius>
+		<magV>9.057</magV>
 		<magB>10.433</magB>
 		<magR>8.202</magR>
 		<magI>7.418</magI>
 		<magJ errorminus="0.021" errorplus="0.021">6.438</magJ>
 		<magH errorminus="0.042" errorplus="0.042">5.835</magH>
 		<magK errorminus="0.024" errorplus="0.024">5.637</magK>
-		<metallicity>-0.17</metallicity>
+		<metallicity errorminus="0.06" errorplus="0.06">-0.24</metallicity>
 		<spectraltype>K9V</spectraltype>
+		<age errorminus="4" errorplus="4">4.3</age>
 		<planet>
 			<name>HD 113538 b</name>
 			<list>Confirmed planets</list>
-			<mass>0.27</mass>
-			<period>263.3</period>
-			<semimajoraxis>0.71</semimajoraxis>
-			<eccentricity>0.61</eccentricity>
+			<mass errorminus="0.04" errorplus="0.04">0.36</mass>
+			<period errorminus="7.4" errorplus="7.4">663.2</period>
+			<semimajoraxis errorminus="0.04" errorplus="0.04">1.24</semimajoraxis>
+			<eccentricity errorminus="0.08" errorplus="0.08">0.14</eccentricity>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/12/20</lastupdate>
+			<lastupdate>14/12/23</lastupdate>
 			<discoveryyear>2010</discoveryyear>
 			<temperature>192.6</temperature>
 		</planet>
 		<planet>
 			<name>HD 113538 c</name>
 			<list>Confirmed planets</list>
-			<mass>0.71</mass>
-			<period>1657</period>
-			<semimajoraxis>2.43</semimajoraxis>
-			<eccentricity>0.32</eccentricity>
+			<mass errorminus="0.06" errorplus="0.06">0.93</mass>
+			<period errorminus="22" errorplus="25">1818</period>
+			<semimajoraxis errorminus="0.07" errorplus="0.07">2.44</semimajoraxis>
+			<eccentricity errorminus="0.04" errorplus="0.04">0.2</eccentricity>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/12/20</lastupdate>
+			<lastupdate>14/12/23</lastupdate>
 			<discoveryyear>2010</discoveryyear>
 			<temperature>106.1</temperature>
 		</planet>
-		<name>HD 113538</name>
-		<temperature>4685.0</temperature>
 	</star>
 </system>

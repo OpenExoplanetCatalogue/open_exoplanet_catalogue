@@ -1,0 +1,26 @@
+<system>
+	<name>HD 564</name>
+	<distance>53.6</distance>
+	<star>
+		<name>HD 564 A</name>
+		<mass errorminus="0.05" errorplus="0.05">0.961</mass>
+		<radius errorminus="0.05" errorplus="0.05">1.01</radius>
+		<temperature errorminus="61" errorplus="61">5902</temperature>
+		<age errorminus="3.1" errorplus="3.1">5.5</age>
+		<metallicity errorminus="0.05" errorplus="0.05">-0.2</metallicity>
+		<spectraltype>G2</spectraltype>
+		<magV>8.29</magV>
+		<planet>
+			<name>HD 564 b</name>
+			<semimajoraxis errorminus="0.02" errorplus="0.02">1.2</semimajoraxis>
+			<eccentricity errorminus="0.067" errorplus="0.067">0.096</eccentricity>
+			<period errorminus="2.3" errorplus="2.3">492.3</period>
+			<mass errorminus="0.03" errorplus="0.03">0.33</mass>
+			<discoverymethod>RV</discoverymethod>
+			<list>Confirmed Planets</list>
+			<description>HD 564 is a metal poor star.</description>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>14/12/23</lastupdate>
+		</planet>
+	</star>
+</system>
