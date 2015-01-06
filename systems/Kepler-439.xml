@@ -1,0 +1,27 @@
+<system>
+	<name>Kepler-439</name>
+	<rightascension>18 43 12</rightascension>
+	<declination>+44 02 02</declination>
+	<distance errorminus="38" errorplus="66">693</distance>
+	<star>
+		<name>Kepler-439</name>
+		<mass errorminus="0.038" errorplus="0.044">0.884</mass>
+		<radius errorminus="0.040" errorplus="0.076">0.866</radius>
+		<age errorminus="3.9" errorplus="3.6">7.2</age>
+		<planet>
+			<name>Kepler-439 b</name>
+			<name>KOI-4005 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.041009" errorplus="0.014581">0.204132</radius>
+			<period errorminus="0.0018" errorplus="0.0016">178.1396</period>
+			<transittime errorminus="0.0054" errorplus="0.0039" unit="BJD">2455399.3987</transittime>
+			<semimajoraxis errorminus="0.08" errorplus="0.165">0.563</semimajoraxis>
+			<inclination errorminus="0.12" errorplus="0.05">89.95</inclination>
+			<description>This planet has been discovered by the Kepler spacecraft. The results were announced at the AAS meeting in 2015.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>15/01/06</lastupdate>
+			<discoveryyear>2015</discoveryyear>
+		</planet>
+	</star>
+</system>
