@@ -1,0 +1,32 @@
+<system>
+	<name>HIP 97233</name>
+	<rightascension>19 45 41.274</rightascension>
+	<declination>-00 41 47.93</declination>
+	<distance>106</distance>
+	<star>
+		<name>HIP 97233</name>
+		<name>HD 186641</name>
+		<name>BD-01 3821</name>
+		<name>SAO 143775</name>
+		<name>TYC 5146-2250-1</name>
+		<magV>7.34</magV>
+		<spectraltype>K0</spectraltype>
+		<temperature errorminus="100" errorplus="100">5020</temperature>
+		<mass errorminus="0.11" errorplus="0.11">1.93</mass>
+		<radius errorminus="0.55" errorplus="0.55">5.34</radius>
+		<metallicity errorminus="0.13" errorplus="0.13">0.29</metallicity>
+		<planet>
+			<name>HIP 97233 b</name>
+			<period errorminus="6.7" errorplus="6.7">1058.8</period>
+			<semimajoraxis errorminus="0.05" errorplus="0.05">2.55</semimajoraxis>
+			<eccentricity errorminus="0.03" errorplus="0.03">0.61</eccentricity>
+			<periastron errorminus="2.4" errorplus="2.4">249.3</periastron>
+			<mass errorminus="0.4" errorplus="0.4">20.0</mass>
+			<discoveryyear>2014</discoveryyear>
+			<discoverymethod>RV</discoverymethod>
+			<list>Confirmed planets</list>
+			<description>The minimum mass of this object is above the deuterium-burning threshold but below the midpoint of the brown dwarf desert. The parent star is near the base of the red giant branch.</description>
+			<lastupdate>15/01/06</lastupdate>
+		</planet>
+	</star>
+</system>
