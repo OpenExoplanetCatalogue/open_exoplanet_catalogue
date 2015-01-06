@@ -1,7 +1,9 @@
 <system>
-	<name>BD 114672</name>
+	<name>BD-114672</name>
+	<rightascension>18 33 28.832</rightascension>
+	<declination>-11 38 09.73</declination>
 	<star>
-		<name>BD 114672 A</name>
+		<name>BD-114672 A</name>
 		<mass errorminus="0.014" errorplus="0.014">0.571</mass>
 		<radius errorminus="0.02" errorplus="0.02">0.52</radius>
 		<temperature errorminus="100" errorplus="100">4475</temperature>
@@ -10,12 +12,13 @@
 		<spectraltype>K7 V</spectraltype>
 		<magV>9.99</magV>
 		<planet>
-			<name>BD 114672 b</name>
+			<name>BD-114672 b</name>
 			<semimajoraxis errorminus="0.07" errorplus="0.07">2.28</semimajoraxis>
 			<eccentricity errorminus="0.04" errorplus="0.06">0.05</eccentricity>
 			<period errorminus="31" errorplus="33">1667</period>
 			<mass errorminus="0.05" errorplus="0.05">0.53</mass>
 			<list>Confirmed Planets</list>
+			<description>This planet has been discovered by the HARPS team using radial-velocity data gathered over ten years.</description>
 			<discoverymethod>RV</discoverymethod>
 			<discoveryyear>2014</discoveryyear>
 			<lastupdate>14/12/23</lastupdate>
