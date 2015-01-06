@@ -1,0 +1,49 @@
+<system>
+	<name>HIP 67851</name>
+	<rightascension>13 53 52.06197</rightascension>
+	<declination>-35 18 51.7033</declination>
+	<distance errorminus="1.7" errorplus="1.7">66.0</distance>
+	<star>
+		<name>HIP 97233</name>
+		<name>HD 121056</name>
+		<name>HR 5224</name>
+		<name>Gliese 532.1</name>
+		<name>CD-34 9223</name>
+		<name>SAO 204963</name>
+		<name>TYC 7287-1874-1</name>
+		<magV>6.17</magV>
+		<spectraltype>K0III</spectraltype>
+		<temperature errorminus="100" errorplus="100">4805</temperature>
+		<mass errorminus="0.18" errorplus="0.18">1.30</mass>
+		<radius errorminus="0.29" errorplus="0.29">5.87</radius>
+		<metallicity errorminus="0.10" errorplus="0.10">-0.03</metallicity>
+		<planet>
+			<name>HIP 67851 b</name>
+			<name>HD 121056 b</name>
+			<period errorminus="0.11" errorplus="0.11">89.09</period>
+			<eccentricity errorminus="0.04" errorplus="0.04">0.06</eccentricity>
+			<periastron errorminus="132" errorplus="132">300</periastron>
+			<mass errorminus="0.04" errorplus="0.04">1.25</mass>
+			<semimajoraxis errorminus="0.020" errorplus="0.020">0.426</semimajoraxis>
+			<discoveryyear>2014</discoveryyear>
+			<discoverymethod>RV</discoverymethod>
+			<list>Confirmed planets</list>
+			<description>HIP 67851 b is one of the rare examples of a close-in planet orbiting a red giant star.</description>
+			<lastupdate>15/01/06</lastupdate>
+		</planet>
+		<planet>
+			<name>HIP 67851 c</name>
+			<name>HD 121056 c</name>
+			<period errorminus="486" errorplus="486">2203</period>
+			<eccentricity errorminus="0.18" errorplus="0.18">0.07</eccentricity>
+			<periastron errorminus="17" errorplus="17">205</periastron>
+			<mass errorminus="1.99" errorplus="1.99">6.14</mass>
+			<semimajoraxis errorminus="0.58" errorplus="0.58">3.62</semimajoraxis>
+			<discoveryyear>2014</discoveryyear>
+			<discoverymethod>RV</discoverymethod>
+			<list>Confirmed planets</list>
+			<description>HIP 67851 c orbits a red giant star. Currently the parameters are sufficiently uncertain that it is not clear whether or not it will be engulfed during the further expansion of its parent star.</description>
+			<lastupdate>15/01/06</lastupdate>
+		</planet>
+	</star>
+</system>
