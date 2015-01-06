@@ -94,6 +94,15 @@ validattributes = [
     "upperlimit",
     "lowerlimit",
     "type"]
+validlists = [
+    "Confirmed planets",
+    "Planets in binary systems, S-type",
+    "Controversial",
+    "Orphan planets",
+    "Planets in binary systems, P-type",
+    "Kepler Objects of Interest",
+    "Solar System",
+    "Retracted planet candidate"]
 validdiscoverymethods = ["RV", "transit", "timing", "imaging", "microlensing"]
 tagsallowmultiple = ["list", "name", "planet", "star", "binary", "separation"]
 numerictags = ["mass", "radius", "ascnedingnode", "discoveryyear", "semimajoraxis", "period",
@@ -308,10 +317,19 @@ for filename in glob.glob("systems*/*.xml"):
                     issues += 1
                 else:
                     uniquetags.append(child.tag)
-
+    
     # Check binary planet lists
     checkForBinaryPlanet(root, ".//binary/planet", "Planets in binary systems, P-type")
     checkForBinaryPlanet(root, ".//binary/star/planet", "Planets in binary systems, S-type")
+    
+    # Check for valid list names
+    lists = root.findall(".//list")
+    for l in lists:
+        if l.text not in validlists:
+                print "Error: Invalid list \"" + l.text + "\" in file \"" + filename + "\"."
+                issues += 1
+
+
 
     # Check transiting planets
     checkForTransitingPlanets(root)
