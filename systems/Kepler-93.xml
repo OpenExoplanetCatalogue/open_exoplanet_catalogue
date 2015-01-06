@@ -2,29 +2,33 @@
 	<name>Kepler-93</name>
 	<name>KOI-69</name>
 	<name>KIC 3544595</name>
-	<rightascension>19 25 40</rightascension>
-	<declination>+38 40 20</declination>
+	<rightascension>19 25 40.39</rightascension>
+	<declination>+38 40 20.45</declination>
 	<distance>96.7</distance>
 	<star>
 		<name>Kepler-93</name>
 		<name>KOI-69</name>
 		<name>KIC 3544595</name>
+		<magK>8.370</magK>
 		<temperature errorminus="75" errorplus="75">5669</temperature>
 		<metallicity errorminus="0.10" errorplus="0.10">-0.18</metallicity>
-		<mass errorminus="0.06" errorplus="0.06">0.91</mass>
-		<radius errorminus="0.02" errorplus="0.02">0.92</radius>
-		<age>5.05</age>
+		<mass errorminus="0.033" errorplus="0.033">0.911</mass>
+		<radius errorminus="0.011" errorplus="0.011">0.919</radius>
+		<age errorminus="0.9" errorplus="0.9">6.6</age>
 		<planet>
 			<name>Kepler-93 b</name>
 			<name>KOI-69.01</name>
 			<name>KIC 3544595 b</name>
-			<period>4.72674</period>
-			<radius errorminus="0.002734" errorplus="0.002734">0.136695</radius>
-			<mass errorminus="0.006291" errorplus="0.006291">0.008147</mass>
+			<period errorminus="0.00000097" errorplus="0.00000097">4.72673978</period>
+			<radius errorminus="0.0017" errorplus="0.0017">0.1319</radius>
+			<mass errorminus="0.0021" errorplus="0.0021">0.0126</mass>
+			<eccentricity>0</eccentricity>
+			<semimajoraxis errorminus="0.002" errorplus="0.002">0.053</semimajoraxis>
+			<inclination errorminus="0.044" errorplus="0.044">0.1765</inclination>
 			<list>Confirmed planets</list>
 			<description>This planet has been discovered by the Kepler spacecraft. It was confirmed using a combination of high resolution imaging and spectroscopy and Doppler spectroscopy. This analysis pushes the false probability below 1 percent and puts contraints on the planet's size and mass.</description>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/02/24</lastupdate>
+			<lastupdate>15/01/06</lastupdate>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
 		</planet>
@@ -32,12 +36,13 @@
 			<name>Kepler-93 c</name>
 			<name>KOI-69.10</name>
 			<name>KIC 3544595 c</name>
-			<period lowerlimit="1460" />
-			<mass lowerlimit="3.000998" />
-			<list>Confirmed planets</list>
-			<description>This planet has been discovered during a radial velocity follow up of stars observed by Kepler which host planet candidates. Although other planets in this system are transiting, this one is not.</description>
+			<period lowerlimit="3700" />
+			<mass lowerlimit="8.5" upperlimit="670" />
+			<semimajoraxis lowerlimit="4.5" />
+			<list>Controversial</list>
+			<description>The second companion to Kepler-93 is detected as a linear trend in the system's radial velocity measurements. Constraints from imaging and radial velocity imply that its mass may be between 8.5 Jupiter masses and 0.64 solar masses, leaving the nature of the object unclear.</description>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/02/24</lastupdate>
+			<lastupdate>15/01/06</lastupdate>
 			<discoverymethod>RV</discoverymethod>
 		</planet>
 	</star>
