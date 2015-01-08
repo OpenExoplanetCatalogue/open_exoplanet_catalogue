@@ -2,26 +2,27 @@
 	<name>HD 66428</name>
 	<rightascension>08 03 28</rightascension>
 	<declination>-01 09 45</declination>
-	<distance>55</distance>
+	<distance errorminus="3.2" errorplus="3.2">54.9</distance>
 	<star>
-		<mass>1.14552</mass>
-		<magV>8.25</magV>
+		<name>HD 66428</name>
+		<temperature errorminus="44" errorplus="44">5752</temperature>
+		<mass errorminus="0.063" errorplus="0.063">1.061</mass>
+		<radius errorminus="0.034" errorplus="0.034">0.98</radius>
+		<magV>8.3</magV>
 		<magB errorminus="0.02" errorplus="0.02">8.97</magB>
-		<metallicity>0.31</metallicity>
+		<metallicity errorminus="0.03" errorplus="0.03">0.31</metallicity>
 		<spectraltype>G5</spectraltype>
 		<planet>
 			<name>HD 66428 b</name>
 			<list>Confirmed planets</list>
-			<mass>2.82</mass>
-			<period>1973</period>
-			<semimajoraxis>3.18</semimajoraxis>
-			<eccentricity>0.465</eccentricity>
+			<mass errorminus="0.06" errorplus="0.06">3.194</mass>
+			<period errorminus="6.4" errorplus="6.4">2293.9</period>
+			<semimajoraxis errorminus="0.069" errorplus="0.069">3.471</semimajoraxis>
+			<eccentricity errorminus="0.013" errorplus="0.13">0.440</eccentricity>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>06/07/15</lastupdate>
+			<lastupdate>15/01/04</lastupdate>
 			<discoveryyear>2006</discoveryyear>
 			<temperature>151.0</temperature>
 		</planet>
-		<name>HD 66428</name>
-		<temperature>5752.0</temperature>
 	</star>
 </system>

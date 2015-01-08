@@ -2,39 +2,39 @@
 	<name>HD 217107</name>
 	<rightascension>22 58 15</rightascension>
 	<declination>-02 23 42</declination>
-	<distance>19.72</distance>
+	<distance errorminus="0.15" errorplus="0.15">19.86</distance>
 	<star>
-		<mass>1.02</mass>
-		<radius>1.08</radius>
-		<magV>6.16</magV>
+		<name>HD 217107</name>
+		<temperature errorminus="44" errorplus="44">5704</temperature>
+		<mass errorminus="0.043" errorplus="0.043">1.108</mass>
+		<radius errorminus="0.03" errorplus="0.03">1.5</radius>
+		<magV>6.2</magV>
 		<magB>6.900</magB>
-		<metallicity>0.37</metallicity>
-		<spectraltype>G8 IV</spectraltype>
+		<metallicity errorminus="0.03" errorplus="0.03">0.389</metallicity>
+		<spectraltype>G8</spectraltype>
 		<planet>
 			<name>HD 217107 b</name>
 			<list>Confirmed planets</list>
-			<mass>1.33</mass>
-			<period>7.12689</period>
-			<semimajoraxis>0.073</semimajoraxis>
-			<eccentricity>0.132</eccentricity>
+			<mass errorminus="0.0042" errorplus="0.0042">1.4135</mass>
+			<period errorminus="0.000013" errorplus="0.000013">7.126846</period>
+			<semimajoraxis errorminus="0.00097" errorplus="0.00097">0.07505</semimajoraxis>
+			<eccentricity errorminus="0.0027" errorplus="0.0027">0.1283</eccentricity>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>06/09/06</lastupdate>
+			<lastupdate>15/01/04</lastupdate>
 			<discoveryyear>1998</discoveryyear>
 			<temperature>959.9</temperature>
 		</planet>
 		<planet>
 			<name>HD 217107 c</name>
 			<list>Confirmed planets</list>
-			<mass>2.49</mass>
-			<period>4210</period>
-			<semimajoraxis>5.27</semimajoraxis>
-			<eccentricity>0.517</eccentricity>
+			<mass errorminus="0.072" errorplus="0.072">4.513</mass>
+			<period errorminus="21" errorplus="21">5189</period>
+			<semimajoraxis errorminus="0.08" errorplus="0.08">6.074</semimajoraxis>
+			<eccentricity errorminus="0.0086" errorplus="0.0086">0.3848</eccentricity>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/12/17</lastupdate>
+			<lastupdate>15/01/04</lastupdate>
 			<discoveryyear>1998</discoveryyear>
 			<temperature>111.1</temperature>
 		</planet>
-		<name>HD 217107</name>
-		<temperature>5666.0</temperature>
 	</star>
 </system>
