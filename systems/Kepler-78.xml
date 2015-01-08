@@ -1,20 +1,23 @@
 <system>
+	<name>Kepler-78</name>
 	<declination>+44 26 54</declination>
 	<rightascension>19 34 57</rightascension>
-	<name>Kepler-78</name>
-	<name>KIC 8435766</name>
 	<star>
 		<name>Kepler-78</name>
 		<mass errorminus="0.05" errorplus="0.05">0.83</mass>
-		<age errorminus="1.49" errorplus="1.49">6.224</age>
+		<age errorminus="0.15" errorplus="0.15">0.625</age>
 		<planet>
 			<name>Kepler-78 b</name>
+			<name>KIC 8435766 b</name>
+			<name>Tycho 3147-188-1 b</name>
 			<period errorminus="0.00000006" errorplus="0.00000006">0.35500744</period>
-			<mass errorminus="0.26" errorplus="0.27">1.87</mass>
-			<radius errorminus="0.09" errorplus="0.09">1.2</radius>
-			<description>Evidence suggests that Kepler-78b has the rock composition as earth with and iron fraction of 32%.</description>
+			<mass errorminus="0.000818" errorplus="0.000849">0.005882</mass>
+			<radius errorminus="0.008202" errorplus="0.008202">0.109356</radius>
+			<description>Evidence suggests that Kepler-78b has a composition similar to that of Earth with an iron fraction of 32%.</description>
 			<lastupdate>15/01/06</lastupdate>
-			<istransiting>0</istransiting>
+			<discoveryyear>2013</discoveryyear>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
 		</planet>
 	</star>
 </system>
