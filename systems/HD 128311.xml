@@ -4,7 +4,7 @@
 	<declination>+09 44 47</declination>
 	<distance>16.6</distance>
 	<star>
-		<mass>0.84</mass>
+		<mass>0.828</mass>
 		<radius>0.73</radius>
 		<magV>7.51</magV>
 		<magB>8.441</magB>
@@ -18,27 +18,30 @@
 		<planet>
 			<name>HD 128311 b</name>
 			<list>Confirmed planets</list>
-			<mass>2.18</mass>
-			<period>448.6</period>
-			<semimajoraxis>1.099</semimajoraxis>
-			<eccentricity>0.25</eccentricity>
+			<mass errorminus="0.18" errorplus="0.15">1.83</mass>
+			<period errorminus="3.6" errorplus="4.2">460.1</period>
+			<eccentricity errorminus="0.04" errorplus="0.03">0.30</eccentricity>
+			<periastron errorminus="9.2" errorplus="6.4">-76.2</periastron>
+			<longitude errorminus="12.6" errorplus="11.9">259.2</longitude>
+			<inclination errorminus="35.9" errorplus="23.7">63.8</inclination>
 			<description>This planetary system is most likely in a 2:1 mean motion resonance. The inner planet orbits the star exactly twice during one orbit of the outer planet. This is a very stable configuration. Mean motion resonances help us to understand the formation of multiplanteray systems. The existense of this resonance is a strong indication that interactions with the protoplanetary disk migrated the planets to their current positions. A detailed analysis of the HD 128311 system shows that there also had to be non-adiabatic effects during the migration phase such as a third planet (Sandor and Kley 2006) or turbulence in the protoplanetary disk (Rein and Papaloizou 2009).</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>11/01/04</lastupdate>
+			<lastupdate>15/01/08</lastupdate>
 			<discoveryyear>2002</discoveryyear>
 			<temperature>177.7</temperature>
 		</planet>
 		<planet>
 			<name>HD 128311 c</name>
 			<list>Confirmed planets</list>
-			<mass>3.21</mass>
-			<period>919</period>
-			<semimajoraxis>1.76</semimajoraxis>
-			<eccentricity>0.17</eccentricity>
-			<inclination>50</inclination>
+			<mass errorminus="0.08" errorplus="0.08">3.20</mass>
+			<period errorminus="6.0" errorplus="7.6">910.7</period>
+			<eccentricity errorminus="0.06" errorplus="0.08">0.12</eccentricity>
+			<periastron errorminus="12.0" errorplus="23.2">-19.7</periastron>
+			<longitude errorminus="10.7" errorplus="20">184.2</longitude>
+			<inclination errorminus="35.9" errorplus="23.7">63.8</inclination>
 			<description>This planetary system is most likely in a 2:1 mean motion resonance. The inner planet orbits the star exactly twice during one orbit of the outer planet. This is a very stable configuration. Mean motion resonances help us to understand the formation of multiplanteray systems. The existense of this resonance is a strong indication that interactions with the protoplanetary disk migrated the planets to their current positions. A detailed analysis of the HD 128311 system shows that there also had to be non-adiabatic effects during the migration phase such as a third planet (Sandor and Kley 2006) or turbulence in the protoplanetary disk (Rein and Papaloizou 2009).</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>11/05/11</lastupdate>
+			<lastupdate>15/01/08</lastupdate>
 			<discoveryyear>2005</discoveryyear>
 			<temperature>140.7</temperature>
 		</planet>
