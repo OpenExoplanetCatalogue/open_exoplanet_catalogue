@@ -1,0 +1,38 @@
+<system>
+	<name>HD 131664</name>
+	<rightascension>15 00 06.08</rightascension>
+	<declination>-73 32 07.2</declination>
+	<distance errorminus="2.3" errorplus="2.3">55.43</distance>
+	<star>
+		<name>HD 131664</name>
+		<name>HIP 73408</name>
+		<name>TYC 9270-1491-1</name>
+		<name>CD-73 1031</name>
+		<name>CPD-73 1409</name>
+		<magB errorminus="0.02" errorplus="0.02">8.82</magB>
+		<magV errorminus="0.01" errorplus="0.01">8.13</magV>
+		<magJ errorminus="0.019" errorplus="0.019">6.973</magJ>
+		<magH errorminus="0.040" errorplus="0.040">6.727</magH>
+		<magK errorminus="0.020" errorplus="0.020">6.647</magK>
+		<spectraltype>G3V</spectraltype>
+		<mass errorminus="0.03" errorplus="0.03">1.10</mass>
+		<radius>1.16</radius>
+		<temperature errorminus="21" errorplus="21">5886</temperature>
+		<metallicity errorminus="0.02" errorplus="0.02">0.32</metallicity>
+		<age errorminus="1.8" errorplus="1.8">2.4</age>
+		<planet>
+			<name>HD 131664 b</name>
+			<list>Controversial</list>
+			<period errorminus="41" errorplus="41">1951</period>
+			<semimajoraxis errorminus="0.03" errorplus="0.03">3.17</semimajoraxis>
+			<eccentricity errorminus="0.02" errorplus="0.02">0.638</eccentricity>
+			<periastron errorminus="1.0" errorplus="1.0">149.7</periastron>
+			<mass lowerlimit="36.3" upperlimit="139.7">85.2</mass>
+			<inclination lowerlimit="149.3" upperlimit="171.9">167.1</inclination>
+			<ascendingnode lowerlimit="276.4" upperlimit="10.0">320.8</ascendingnode>
+			<discoverymethod>RV</discoverymethod>
+			<description>HD 131664 b was originally detected by radial velocity measurements, giving a minimum mass of 18.15 Jupiter masses. Using Hipparcos astrometry, the inclination and true mass have been determined, indicating that the object is either a massive brown dwarf or a low-mass star.</description>
+			<lastupdate>15/01/14</lastupdate>
+		</planet>
+	</star>
+</system>
