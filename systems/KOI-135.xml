@@ -1,21 +1,26 @@
 <system>
 	<name>KOI-135</name>
+	<name>Kepler-43</name>
 	<rightascension>19 00 58</rightascension>
 	<declination>+46 40 06</declination>
 	<distance errorminus="250" errorplus="250">1950</distance>
 	<star>
 		<name>KOI-135</name>
+		<name>Kepler-43</name>
+		<name>KIC 9818381</name>
+		<name>2MASS J19005780+4640057</name>
+		<name>GSC 03541-00075</name>
 		<magB>13.8</magB>
 		<magR errorminus="0.15" errorplus="0.15">14.16</magR>
 		<magJ errorminus="0.022" errorplus="0.022">12.858</magJ>
 		<magH errorminus="0.020" errorplus="0.020">12.605</magH>
 		<magK errorminus="0.03" errorplus="0.03">12.55</magK>
-		<temperature errorminus="143" errorplus="143">6041</temperature>
-		<radius errorminus="0.06" errorplus="0.06">1.2</radius>
-		<mass errorminus="0.09" errorplus="0.09">1.32</mass>
-		<age errorminus="0.8" errorplus="0.8">2.8</age>
-		<metallicity errorminus="0.11" errorplus="0.11">0.33</metallicity>
-		<spectraltype>G0V/G0IV</spectraltype>
+		<temperature errorminus="100" errorplus="100">6050</temperature>
+		<radius errorminus="0.03" errorplus="0.05">1.38</radius>
+		<mass errorminus="0.04" errorplus="0.04">1.27</mass>
+		<age errorminus="0.7" errorplus="0.8">2.3</age>
+		<metallicity errorminus="0.10" errorplus="0.10">0.40</metallicity>
+		<spectraltype>F8V</spectraltype>
 		<planet>
 			<name>KOI-135 b</name>
 			<name>Kepler-43 b</name>
@@ -23,17 +28,17 @@
 			<name>GSC 03541-00075 b</name>
 			<name>KIC 9818381 b</name>
 			<name>2MASS J19005780+4640057 b</name>
-			<mass errorminus="0.19" errorplus="0.19">3.23</mass>
-			<radius errorminus="0.06" errorplus="0.06">1.2</radius>
-			<period errorminus="2.1e-05" errorplus="2.1e-05">3.024095</period>
-			<transittime errorminus="0.0000650" errorplus="0.0000650">2454965.4159290</transittime>
-			<inclination errorminus="0.4" errorplus="0.4">84.35</inclination>
-			<eccentricity>0.025</eccentricity>
-			<semimajoraxis errorminus="0.001" errorplus="0.001">0.0449</semimajoraxis>
-			<temperature>1402.0</temperature>
+			<mass errorminus="0.10" errorplus="0.10">1.00</mass>
+			<radius errorminus="0.07" errorplus="0.07">1.09</radius>
+			<period errorminus="0.00000020" errorplus="0.00000020">3.02409309</period>
+			<transittime errorminus="0.00005" errorplus="0.00005" unit="BJD">2455095.45227</transittime>
+			<inclination errorminus="0.37" errorplus="0.18">84.57</inclination>
+			<eccentricity errorminus="0.017" errorplus="0.027">0.017</eccentricity>
+			<periastron errorminus="81" errorplus="27">52</periastron>
+			<semimajoraxis errorminus="0.0005" errorplus="0.0005">0.0444</semimajoraxis>
 			<list>Confirmed planets</list>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>13/03/25</lastupdate>
+			<lastupdate>15/01/27</lastupdate>
 			<discoveryyear>2011</discoveryyear>
 			<istransiting>1</istransiting>
 		</planet>
