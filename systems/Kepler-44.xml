@@ -4,17 +4,20 @@
 	<declination>+45 45 44</declination>
 	<distance errorminus="300" errorplus="300">2250</distance>
 	<star>
+		<name>Kepler-44</name>
+		<name>KOI-204</name>
+		<name>KIC 9305831</name>
+		<name>2MASS J20002456+4545437</name>
 		<magB>14.7</magB>
 		<magR>14.1</magR>
 		<magJ errorminus="0.026" errorplus="0.026">13.340</magJ>
 		<magH errorminus="0.025" errorplus="0.025">12.969</magH>
 		<magK errorminus="0.03" errorplus="0.03">12.88</magK>
-		<name>Kepler-44</name>
-		<temperature errorminus="134" errorplus="134">5757</temperature>
-		<radius errorminus="0.09" errorplus="0.09">1.52</radius>
-		<mass errorminus="0.1" errorplus="0.1">1.19</mass>
-		<age errorminus="1.7" errorplus="1.7">6.95</age>
-		<metallicity errorminus="0.1" errorplus="0.1">0.26</metallicity>
+		<temperature errorminus="100" errorplus="100">5800</temperature>
+		<radius errorminus="0.08" errorplus="0.08">1.35</radius>
+		<mass errorminus="0.08" errorplus="0.08">1.12</mass>
+		<age errorminus="1.5" errorplus="2.4">5.8</age>
+		<metallicity errorminus="0.10" errorplus="0.10">0.15</metallicity>
 		<spectraltype>G2IV</spectraltype>
 		<planet>
 			<name>Kepler-44 b</name>
@@ -24,15 +27,14 @@
 			<name>KIC 9305831 b</name>
 			<mass errorminus="0.07" errorplus="0.07">1.02</mass>
 			<radius errorminus="0.07" errorplus="0.07">1.24</radius>
-			<period errorminus="1.8e-05" errorplus="1.8e-05">3.24674</period>
-			<transittime errorminus="0.0001700" errorplus="0.0001700">2454966.3783500</transittime>
-			<semimajoraxis errorminus="0.0013" errorplus="0.0013">0.0455</semimajoraxis>
-			<inclination errorminus="0.55" errorplus="0.55">83.78</inclination>
-			<eccentricity>0.021</eccentricity>
-			<temperature>1118.0</temperature>
+			<period errorminus="0.0000030" errorplus="0.0000030">3.2467293</period>
+			<transittime errorminus="0.00021" errorplus="0.00021">2455187.15640</transittime>
+			<semimajoraxis errorminus="0.0011" errorplus="0.0011">0.0446</semimajoraxis>
+			<inclination errorminus="0.62" errorplus="0.50">84.96</inclination>
+			<eccentricity upperlimit="0.066" />
 			<list>Confirmed planets</list>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>13/03/25</lastupdate>
+			<lastupdate>15/01/27</lastupdate>
 			<discoveryyear>2011</discoveryyear>
 			<istransiting>1</istransiting>
 		</planet>
