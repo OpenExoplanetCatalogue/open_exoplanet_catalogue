@@ -13,19 +13,19 @@
 		<temperature errorminus="50" errorplus="50">5667</temperature>
 		<radius errorminus="0.20" errorplus="0.20">1.56</radius>
 		<mass errorminus="0.05" errorplus="0.07">1.17</mass>
-		<age errorminus="1.2">5.9</age>
+		<age errorminus="1.2" errorplus="1.2">5.9</age>
 		<spectraltype>G3IV</spectraltype>
 		<magB>14.52</magB>
 		<magV>13.80</magV>
-		<magJ errorminus="0.02">12.40</magJ>
-		<magK errorminus="0.02">12.01</magK>
+		<magJ errorminus="0.02" errorplus="0.02">12.40</magJ>
+		<magK errorminus="0.02" errorplus="0.02">12.01</magK>
 		<planet>
 			<name>Kepler-101 b</name>
 			<name>KOI-46 b</name>
 			<name>KOI-46.01</name>
 			<name>KIC 10905239 b</name>
-			<period errorminus="0.0000070">3.4876812</period>
-			<transittime errorminus="0.00041" unit="BJD">2455188.77995</transittime>
+			<period errorminus="0.0000070" errorplus="0.0000070">3.4876812</period>
+			<transittime errorminus="0.00041" errorplus="0.00041" unit="BJD">2455188.77995</transittime>
 			<inclination errorminus="1.53" errorplus="1.73">85.82</inclination>
 			<eccentricity errorminus="0.059" errorplus="0.080">0.086</eccentricity>
 			<periastron errorminus="90" errorplus="32">231</periastron>
@@ -44,12 +44,12 @@
 			<name>KOI-46 c</name>
 			<name>KOI-46.02</name>
 			<name>KIC 10905239 c</name>
-			<period errorminus="0.000075">6.029760</period>
-			<transittime errorminus="0.0088" unit="BJD">2454965.4860</transittime>
+			<period errorminus="0.000075" errorplus="0.000075">6.029760</period>
+			<transittime errorminus="0.0088" errorplus="0.0088" unit="BJD">2454965.4860</transittime>
 			<inclination errorminus="3.1" errorplus="3.4">84.6</inclination>
-			<mass upperlimit="0.0119"/>
+			<mass upperlimit="0.0119" />
 			<radius errorminus="0.015" errorplus="0.017">0.112</radius>
-			<semimajoraxis errorminus="0.0014">0.0684</semimajoraxis>
+			<semimajoraxis errorminus="0.0014" errorplus="0.0014">0.0684</semimajoraxis>
 			<list>Confirmed planets</list>
 			<description>Kepler-101 c has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. The upper limit on the mass from radial velocity variations rules out pure iron compositions to 68.3% probability.</description>
 			<discoveryyear>2014</discoveryyear>
