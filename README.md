@@ -70,6 +70,7 @@ The following table shows all the possible tags in the Open Exoplanet Catalogue.
 | `epoch` | `system` | Epoch for the orbital elements | BJD |
 | `period`	 	| `binary`, `planet` | Orbital period   | day  |
 | `transittime` | `binary`, `planet` | Time of the center of a transit | BJD |
+| `periastrontime` | `binary`, `planet` | Time of periastron | BJD |
 | `mass`		| `planet`, `star` |Mass (or m sin(i) for radial velocity planets) | Jupiter masses (`planet`), Solar masses (`star`)  |
 | `radius`		| `planet`, `star` |Physical radius | Jupiter radii (`planet`), Solar radii (`star`)  |
 | `temperature`	| `planet`, `star` |Temperature (surface or equilibrium) | Kelvin  |
