@@ -2,29 +2,40 @@
 	<name>Kepler-101</name>
 	<name>KOI-46</name>
 	<name>KIC 10905239</name>
-	<rightascension>18 53 01</rightascension>
-	<declination>+48 21 18</declination>
+	<rightascension>18 53 01.32</rightascension>
+	<declination>+48 21 18.84</declination>
 	<distance>990.44</distance>
 	<star>
 		<name>Kepler-101</name>
 		<name>KOI-46</name>
 		<name>KIC 10905239</name>
-		<temperature errorminus="34" errorplus="134">5570</temperature>
-		<radius errorminus=".415" errorplus="0.415">1.666</radius>
-		<mass errorminus="0.0290" errorplus="0.0290">1.1270</mass>
+		<name>2MASS J18530131+4821188</name>
+		<temperature errorminus="50" errorplus="50">5667</temperature>
+		<radius errorminus="0.20" errorplus="0.20">1.56</radius>
+		<mass errorminus="0.05" errorplus="0.07">1.17</mass>
+		<age errorminus="1.2" errorplus="1.2">5.9</age>
+		<spectraltype>G3IV</spectraltype>
+		<magB>14.52</magB>
+		<magV>13.80</magV>
+		<magJ errorminus="0.02" errorplus="0.02">12.40</magJ>
+		<magK errorminus="0.02" errorplus="0.02">12.01</magK>
 		<planet>
 			<name>Kepler-101 b</name>
 			<name>KOI-46 b</name>
 			<name>KOI-46.01</name>
 			<name>KIC 10905239 b</name>
-			<name>KIC 10905239.01</name>
-			<radius errorminus="0.04192" errorplus="0.13305">0.53493</radius>
-			<period errorminus=".000002" errorplus="0.000002">3.487691</period>
-			<transittime errorminus="0.0003100" errorplus="0.0003100">2455003.9312600</transittime>
+			<period errorminus="0.0000070" errorplus="0.0000070">3.4876812</period>
+			<transittime errorminus="0.00041" errorplus="0.00041" unit="BJD">2455188.77995</transittime>
+			<inclination errorminus="1.53" errorplus="1.73">85.82</inclination>
+			<eccentricity errorminus="0.059" errorplus="0.080">0.086</eccentricity>
+			<periastron errorminus="90" errorplus="32">231</periastron>
+			<mass errorminus="0.015" errorplus="0.016">0.161</mass>
+			<radius errorminus="0.070" errorplus="0.076">0.515</radius>
+			<semimajoraxis errorminus="0.0008" errorplus="0.0010">0.0474</semimajoraxis>
 			<list>Confirmed planets</list>
-			<description>Kepler-101 b has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-101 b are still unknown, the object is highly unlikely to be a false positive.</description>
+			<description>Kepler-101 b has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence and the radial velocity variations due to this planet have been detected with HARPS-N.</description>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/02/26</lastupdate>
+			<lastupdate>15/01/27</lastupdate>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
 		</planet>
@@ -33,14 +44,16 @@
 			<name>KOI-46 c</name>
 			<name>KOI-46.02</name>
 			<name>KIC 10905239 c</name>
-			<name>KIC 10905239.02</name>
-			<radius errorminus="0.03098" errorplus="0.03098">0.12120</radius>
-			<period errorminus=".000115" errorplus="0.000115">6.029809</period>
-			<transittime errorminus="0.0114600" errorplus="0.0114600">2454965.4820500</transittime>
+			<period errorminus="0.000075" errorplus="0.000075">6.029760</period>
+			<transittime errorminus="0.0088" errorplus="0.0088" unit="BJD">2454965.4860</transittime>
+			<inclination errorminus="3.1" errorplus="3.4">84.6</inclination>
+			<mass upperlimit="0.0119" />
+			<radius errorminus="0.015" errorplus="0.017">0.112</radius>
+			<semimajoraxis errorminus="0.0014" errorplus="0.0014">0.0684</semimajoraxis>
 			<list>Confirmed planets</list>
-			<description>Kepler-101 c has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-101 c are still unknown, the object is highly unlikely to be a false positive.</description>
+			<description>Kepler-101 c has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. The upper limit on the mass from radial velocity variations rules out pure iron compositions to 68.3% probability.</description>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/02/26</lastupdate>
+			<lastupdate>15/01/27</lastupdate>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
 		</planet>
