@@ -1,27 +1,50 @@
 <system>
 	<name>Kepler-436</name>
-	<rightascension>20 06 52</rightascension>
-	<declination>+44 24 43</declination>
+	<rightascension>20 06 52.98</rightascension>
+	<declination>+44 24 43.4</declination>
 	<distance errorminus="30" errorplus="34">618</distance>
 	<star>
 		<name>Kepler-436</name>
+		<name>KOI-2529</name>
+		<name>KIC 8463346</name>
+		<name>2MASS J20065298+4424434</name>
+		<magJ errorminus="0.028" errorplus="0.028">14.083</magJ>
+		<magH errorminus="0.032" errorplus="0.032">13.490</magH>
+		<magK errorminus="0.036" errorplus="0.036">13.333</magK>
 		<mass errorminus="0.029" errorplus="0.033">0.729</mass>
 		<radius errorminus="0.023" errorplus="0.028">0.697</radius>
-		<age errorminus="-0.3" errorplus="7.7">3</age>
+		<temperature errorminus="100" errorplus="100">4651</temperature>
+		<metallicity errorminus="0.10" errorplus="0.10">0.01</metallicity>
+		<age errorminus="0.3" errorplus="7.7">3.0</age>
 		<planet>
 			<name>Kepler-436 b</name>
+			<name>KOI-2529.02</name>
 			<name>KOI-2529 b</name>
 			<list>Confirmed planets</list>
-			<radius errorminus="0.021871" errorplus="0.020960">0.248786</radius>
+			<radius errorminus="0.021" errorplus="0.021">0.244</radius>
 			<period errorminus="0.00053" errorplus="0.00072">64.00205</period>
-			<transittime errorminus="0.0049" errorplus="0.0042">55477.6307</transittime>
+			<transittime errorminus="0.0049" errorplus="0.0042" unit="BJD">2455477.6307</transittime>
 			<semimajoraxis errorminus="0.053" errorplus="0.134">0.339</semimajoraxis>
-			<inclination errorminus="16" errorplus="34">104</inclination>
+			<inclination errorminus="0.18" errorplus="0.07">89.93</inclination>
+			<eccentricity lowerlimit="0.19" />
 			<description>This planet has been discovered by the Kepler spacecraft. The results were announced at the AAS meeting in 2015.</description>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
-			<lastupdate>15/01/06</lastupdate>
+			<lastupdate>15/01/28</lastupdate>
 			<discoveryyear>2015</discoveryyear>
+		</planet>
+		<planet>
+			<name>KOI-2529.01</name>
+			<list>Controversial</list>
+			<radius errorminus="0.015" errorplus="0.012">0.152</radius>
+			<period errorminus="0.0008561" errorplus="0.0008561">16.79713874</period>
+			<transittime errorminus="0.00404" errorplus="0.00404">134.04221</transittime>
+			<description>KOI-2529.01 is an unconfirmed exoplanet candidate that was identified in the Q1-Q6 Kepler KOI list.</description>
+			<inclination>89.95</inclination>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>15/01/28</lastupdate>
+			<discoveryyear>2014</discoveryyear>
 		</planet>
 	</star>
 </system>
