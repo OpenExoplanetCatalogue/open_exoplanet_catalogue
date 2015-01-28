@@ -6,15 +6,19 @@
 		<name>Kepler-78</name>
 		<mass errorminus="0.05" errorplus="0.05">0.83</mass>
 		<age errorminus="0.15" errorplus="0.15">0.625</age>
+		<temperature errorminus="44" errorplus="44">5121</temperature>
+		<metallicity errorminus="0.04" errorplus="0.04">-0.08</metallicity>
 		<planet>
 			<name>Kepler-78 b</name>
 			<name>KIC 8435766 b</name>
-			<name>Tycho 3147-188-1 b</name>
+			<name>TYC 3147-188-1 b</name>
 			<period errorminus="0.00000006" errorplus="0.00000006">0.35500744</period>
+			<transittime errorminus="0.00015" errorplus="0.00015" unit="BJD">2454953.95995</transittime>
 			<mass errorminus="0.000818" errorplus="0.000849">0.005882</mass>
 			<radius errorminus="0.008202" errorplus="0.008202">0.109356</radius>
+			<inclination errorminus="2.1" errorplus="2.6">75.2</inclination>
 			<description>Evidence suggests that Kepler-78b has a composition similar to that of Earth with an iron fraction of 32%.</description>
-			<lastupdate>15/01/06</lastupdate>
+			<lastupdate>15/01/27</lastupdate>
 			<discoveryyear>2013</discoveryyear>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
