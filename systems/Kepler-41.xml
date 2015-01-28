@@ -10,25 +10,28 @@
 		<name>Kepler-41</name>
 		<name>KOI-196</name>
 		<name>2MASS J19380317+4558539</name>
-		<mass>1.044</mass>
-		<radius>1.065</radius>
-		<temperature>5617</temperature>
-		<metallicity>0.036</metallicity>
-		<spectraltype>G6V</spectraltype>
+		<mass errorminus="0.07" errorplus="0.07">1.15</mass>
+		<radius errorminus="0.02" errorplus="0.02">1.29</radius>
+		<temperature errorminus="100" errorplus="100">5750</temperature>
+		<metallicity errorminus="0.11" errorplus="0.11">0.38</metallicity>
+		<spectraltype>G2V</spectraltype>
+		<age errorminus="1.1" errorplus="1.3">4.4</age>
 		<planet>
 			<name>Kepler-41 b</name>
 			<name>KOI-196 b</name>
+			<name>KOI-196.01</name>
 			<name>2MASS J19380317+4558539 b</name>
 			<list>Confirmed planets</list>
-			<mass>0.5978</mass>
-			<radius>0.9956</radius>
-			<period>1.8555577</period>
-			<semimajoraxis>0.02999</semimajoraxis>
-			<inclination>85.5</inclination>
-			<transittime errorminus="0.000048" errorplus="0.000048" unit="BJD">2455066.669310</transittime>
+			<mass errorminus="0.08" errorplus="0.08">0.56</mass>
+			<radius errorminus="0.02" errorplus="0.02">1.29</radius>
+			<period errorminus="0.00000052" errorplus="0.00000052">1.85555820</period>
+			<semimajoraxis errorminus="0.0004" errorplus="0.0004">0.03101</semimajoraxis>
+			<inclination errorminus="0.09" errorplus="0.09">82.51</inclination>
+			<eccentricity>0</eccentricity>
+			<transittime errorminus="0.000051" errorplus="0.000051" unit="BJD">2455187.280482</transittime>
 			<description>KOI-196 b, also known as Kepler-41 b, is transiting its host star and was tagged as a planet candidate by the Kepler spacecraft. Astronomers then used the SOPHIE spectrograph at the Observatoire de Haute-Provence in France to confirm the planet. The day side temperature on the planet is almost 1700 degree Celsius. In 2013, it was independently confirmed by a phase curve analysis.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>13/03/06</lastupdate>
+			<lastupdate>15/01/27</lastupdate>
 			<discoveryyear>2011</discoveryyear>
 			<istransiting>1</istransiting>
 		</planet>

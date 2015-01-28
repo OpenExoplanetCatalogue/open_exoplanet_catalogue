@@ -1,40 +1,40 @@
 <system>
 	<name>Kepler-75</name>
-	<name>KIC-757450</name>
+	<name>KIC 757450</name>
 	<name>2MASS 19243302+3634385</name>
 	<rightascension>19 24 33</rightascension>
 	<declination>+36 34 39</declination>
 	<distance errorminus="250" errorplus="160">1140</distance>
 	<star>
+		<name>Kepler-75</name>
+		<name>KIC 757450</name>
+		<name>2MASS 19243302+3634385</name>
 		<magB>16.2</magB>
 		<magR>14.9</magR>
 		<magJ errorminus="0.021" errorplus="0.021">13.665</magJ>
 		<magH errorminus="0.025" errorplus="0.025">13.262</magH>
 		<magK errorminus="0.029" errorplus="0.029">13.118</magK>
-		<name>Kepler-75</name>
-		<name>KIC-757450</name>
-		<name>2MASS 19243302+3634385</name>
-		<temperature errorminus="120" errorplus="120">5330</temperature>
-		<radius errorminus="0.04" errorplus="0.04">0.88</radius>
-		<mass errorminus="0.06" errorplus="0.06">0.88</mass>
-		<age errorminus="3" errorplus="3">6</age>
-		<metallicity errorminus="0.15" errorplus="0.15">-0.07</metallicity>
-		<spectraltype>G8V</spectraltype>
+		<temperature errorminus="100" errorplus="100">5200</temperature>
+		<radius errorminus="0.02" errorplus="0.02">0.89</radius>
+		<mass errorminus="0.04" errorplus="0.04">0.91</mass>
+		<age errorminus="2.8" errorplus="3.5">6.2</age>
+		<metallicity errorminus="0.12" errorplus="0.12">0.30</metallicity>
+		<spectraltype>K0V</spectraltype>
 		<planet>
 			<name>Kepler-75 b</name>
 			<name>KOI-889 b</name>
 			<name>KOI-889.01</name>
-			<name>KIC-757450 b</name>
+			<name>KIC 757450 b</name>
 			<name>2MASS 19243302+3634385 b</name>
-			<radius errorminus="0.06" errorplus="0.06">1.03</radius>
-			<period errorminus="2e-06" errorplus="2e-06">8.884924</period>
-			<transittime errorminus="0.0002" errorplus="0.0002">2455002.991</transittime>
-			<mass errorminus="0.5" errorplus="0.5">9.9</mass>
-			<semimajoraxis errorminus="0.05" errorplus="0.05">0.08</semimajoraxis>
-			<inclination errorminus="0.6" errorplus="1">89.1</inclination>
-			<eccentricity errorminus="0.01" errorplus="0.01">0.569</eccentricity>
+			<radius errorminus="0.03" errorplus="0.03">1.05</radius>
+			<period errorminus="0.0000034" errorplus="0.0000034">8.8849116</period>
+			<transittime errorminus="0.00012" errorplus="0.00012">2455740.44030</transittime>
+			<mass errorminus="0.4" errorplus="0.4">10.1</mass>
+			<semimajoraxis errorminus="0.0012" errorplus="0.0012">0.0818</semimajoraxis>
+			<inclination errorminus="0.64" errorplus="0.51">89.12</inclination>
+			<eccentricity errorminus="0.010" errorplus="0.010">0.570</eccentricity>
+			<periastron errorminus="1.7" errorplus="1.7">63.5</periastron>
 			<description>This planet was discovered with the Kepler telescope and confirmed with the SOPHIE and HARPS-N spectrographs. The planet is on a very eccentric orbit and at the boundary between regimes where the tides from the host star can explain circularization and where tidal effects are negligible.</description>
-			<temperature>721.0</temperature>
 			<list>Confirmed planets</list>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>13/03/26</lastupdate>
