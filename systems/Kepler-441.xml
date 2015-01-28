@@ -1,24 +1,36 @@
 <system>
 	<name>Kepler-441</name>
+	<rightascension>18 58 16.05</rightascension>
+	<declination>+49 00 45.2</declination>
 	<distance errorminus="48" errorplus="28">284</distance>
 	<star>
 		<name>Kepler-441</name>
+		<name>KOI-4622</name>
+		<name>KIC 11284772</name>
+		<name>2MASS J18581605+4900451</name>
+		<magJ errorminus="0.027" errorplus="0.027">13.040</magJ>
+		<magH errorminus="0.033" errorplus="0.033">12.403</magH>
+		<magK errorminus="0.024" errorplus="0.024">12.288</magK>
 		<mass errorminus="0.053" errorplus="0.049">0.0572</mass>
 		<radius errorminus="0.054" errorplus="0.038">0.550</radius>
+		<temperature errorminus="177" errorplus="177">4340</temperature>
+		<metallicity errorminus="0.18" errorplus="0.18">-0.57</metallicity>
 		<age errorminus="0.4" errorplus="0.5">1.9</age>
 		<planet>
 			<name>Kepler-441 b</name>
+			<name>KOI-4622.01</name>
 			<name>KOI-4622 b</name>
 			<list>Confirmed planets</list>
-			<radius errorminus="0.021871" errorplus="0.020049">0.149454</radius>
+			<radius errorminus="0.021" errorplus="0.020">0.146</radius>
 			<period errorminus="0.0020" errorplus="0.0022">207.2482</period>
-			<transittime errorminus="0.0056" errorplus="0.0067">2455849.5578</transittime>
-			<semimajoraxis errorminus="0.24" errorplus="0.32">0.64</semimajoraxis>
-			<inclination errorminus="0.12" errorplus="0.06">89.94</inclination>
+			<transittime errorminus="0.0065" errorplus="0.0040" unit="BJD">2455667.7764</transittime>
+			<semimajoraxis errorminus="0.13" errorplus="0.32">0.64</semimajoraxis>
+			<inclination errorminus="0.07" errorplus="0.03">89.97</inclination>
+			<eccentricity lowerlimit="0.10" />
 			<description>This planet has been discovered by the Kepler spacecraft. The results were announced at the AAS meeting in 2015.</description>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
-			<lastupdate>15/01/06</lastupdate>
+			<lastupdate>15/01/28</lastupdate>
 			<discoveryyear>2015</discoveryyear>
 		</planet>
 	</star>
