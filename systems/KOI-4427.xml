@@ -1,0 +1,34 @@
+<system>
+	<name>KOI-4427</name>
+	<rightascension>19 40 28.13</rightascension>
+	<declination>+39 16 26.7</declination>
+	<distance errorminus="39" errorplus="32">240</distance>
+	<star>
+		<name>KOI-4427</name>
+		<name>KIC 4172805</name>
+		<name>2MASS J19142653+4958070</name>
+		<magJ errorminus="0.023" errorplus="0.023">13.339</magJ>
+		<magH errorminus="0.024" errorplus="0.024">12.684</magH>
+		<magK errorminus="0.026" errorplus="0.026">12.499</magK>
+		<mass errorminus="0.062" errorplus="0.040">0.526</mass>
+		<radius errorminus="0.065" errorplus="0.038">0.505</radius>
+		<temperature errorminus="112" errorplus="112">3813</temperature>
+		<metallicity errorminus="0.14" errorplus="0.14">-0.07</metallicity>
+		<age errorminus="1.3" errorplus="2.6">3.6</age>
+		<planet>
+			<name>KOI-4427.01</name>
+			<list>Controversial</list>
+			<radius errorminus="0.020" errorplus="0.017">0.208</radius>
+			<period errorminus="0.0014" errorplus="0.0011">147.6606</period>
+			<transittime errorminus="0.0047" errorplus="0.0042" unit="BJD">2455815.2616</transittime>
+			<semimajoraxis errorminus="0.081" errorplus="0.073">0.419</semimajoraxis>
+			<inclination errorminus="0.08" errorplus="0.03">89.97</inclination>
+			<eccentricity lowerlimit="0.02" />
+			<description>This planet candidate has been verified to 2.6-sigma, not enough to claim a confirmation.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>15/01/28</lastupdate>
+			<discoveryyear>2015</discoveryyear>
+		</planet>
+	</star>
+</system>
