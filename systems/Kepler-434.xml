@@ -1,0 +1,38 @@
+<system>
+	<name>Kepler-434</name>
+	<rightascension>19 34 20.729</rightascension>
+	<declination>+42 45 44.08</declination>
+	<distance errorminus="120" errorplus="120">1240</distance>
+	<star>
+		<name>Kepler-434</name>
+		<name>KOI-614</name>
+		<name>KIC 7368664</name>
+		<name>2MASS J19342073+4255440</name>
+		<magJ errorminus="0.022" errorplus="0.022">13.400</magJ>
+		<magH errorminus="0.031" errorplus="0.031">13.035</magH>
+		<magK errorminus="0.030" errorplus="0.030">13.039</magK>
+		<mass errorminus="0.093" errorplus="0.093">1.198</mass>
+		<radius errorminus="0.13" errorplus="0.13">1.38</radius>
+		<temperature errorminus="100" errorplus="100">5970</temperature>
+		<metallicity errorminus="0.15" errorplus="0.15">0.35</metallicity>
+		<planet>
+			<name>Kepler-434 b</name>
+			<name>KOI-614.01</name>
+			<name>KIC 7368664 b</name>
+			<name>2MASS J19342073+4255440 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.18" errorplus="0.26">1.13</radius>
+			<mass errorminus="0.35" errorplus="0.35">2.86</mass>
+			<period errorminus="0.000005" errorplus="0.000005">12.8747099</period>
+			<semimajoraxis errorminus="0.0030" errorplus="0.0030">0.1143</semimajoraxis>
+			<transittime errorminus="0.00042" errorplus="0.00042" unit="BJD">2455003.02283</transittime>
+			<description>Kepler-434 b is an exoplanet that was identified in the Q1-Q6 Kepler KOI list.</description>
+			<inclination errorminus="0.74" errorplus="0.38">86.46</inclination>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>15/01/07</lastupdate>
+			<discoveryyear>2015</discoveryyear>
+			<temperature errorminus="45" errorplus="45">1000</temperature>
+		</planet>
+	</star>
+</system>
