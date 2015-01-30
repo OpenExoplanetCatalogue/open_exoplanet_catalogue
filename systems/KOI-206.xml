@@ -1,9 +1,15 @@
 <system>
 	<name>KOI-206</name>
-	<rightascension>19 50 22</rightascension>
-	<declination>+40 58 38</declination>
+	<rightascension>19 50 22.476</rightascension>
+	<declination>+40 58 38.17</declination>
+	<distance errorminus="210" errorplus="210">1870</distance>
 	<star>
-		<radius>1.16</radius>
+		<name>KOI-206</name>
+		<name>Kepler-433</name>
+		<name>KIC 5728139</name>
+		<name>2MASS J19502247+4058381</name>
+		<mass errorminus="0.17" errorplus="0.17">1.46</mass>
+		<radius errorminus="0.25" errorplus="0.25">2.26</radius>
 		<magV errorminus="0.34" errorplus="0.34">14.35</magV>
 		<magB errorminus="0.37" errorplus="0.37">15.08</magB>
 		<magR errorminus="0.12" errorplus="0.12">14.81</magR>
@@ -11,23 +17,25 @@
 		<magJ errorminus="0.020" errorplus="0.020">13.201</magJ>
 		<magH errorminus="0.024" errorplus="0.024">12.948</magH>
 		<magK errorminus="0.026" errorplus="0.026">12.826</magK>
-		<metallicity>-0.13</metallicity>
+		<metallicity errorminus="0.19" errorplus="0.19">0.06</metallicity>
+		<temperature errorminus="140" errorplus="140">6340</temperature>
 		<planet>
 			<name>KOI-206 b</name>
+			<name>Kepler-433 b</name>
+			<name>KIC 5728139 b</name>
+			<name>2MASS J19502247+4058381 b</name>
 			<list>Confirmed planets</list>
-			<mass>2.9</mass>
-			<radius>0.7</radius>
-			<period>5.33</period>
-			<semimajoraxis>0.059</semimajoraxis>
-			<transittime errorminus="0.00042" errorplus="0.00042" unit="BJD">2454964.98094</transittime>
+			<radius errorminus="0.16" errorplus="0.16">1.45</radius>
+			<mass errorminus="0.52" errorplus="0.52">2.82</mass>
+			<period errorminus="0.0000011" errorplus="0.0000011">5.33408384</period>
+			<semimajoraxis errorminus="0.0027" errorplus="0.0027">0.0679</semimajoraxis>
+			<transittime errorminus="0.00015" errorplus="0.00015" unit="BJD">2454964.98152</transittime>
 			<description>This planet was discovered with the Kepler telescope and confirmed with the SOPHIE spectrograph in France.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>12/06/05</lastupdate>
+			<lastupdate>15/01/07</lastupdate>
 			<discoveryyear>2012</discoveryyear>
-			<temperature>1128.3</temperature>
+			<temperature errorminus="87" errorplus="87">1776</temperature>
 			<istransiting>1</istransiting>
 		</planet>
-		<name>KOI-206</name>
-		<temperature>5771.0</temperature>
 	</star>
 </system>
