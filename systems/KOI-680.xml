@@ -1,9 +1,15 @@
 <system>
 	<name>KOI-680</name>
-	<rightascension>19 29 09</rightascension>
-	<declination>+43 11 50</declination>
+	<rightascension>19 29 08.959</rightascension>
+	<declination>+43 11 50.21</declination>
+	<distance errorminus="200" errorplus="200">2070</distance>
 	<star>
-		<radius>1.16</radius>
+		<name>KOI-680</name>
+		<name>Kepler-435</name>
+		<name>KIC 75292669</name>
+		<name>2MASS J19290895+4311502</name>
+		<mass errorminus="0.088" errorplus="0.088">1.538</mass>
+		<radius errorminus="0.30" errorplus="0.30">3.21</radius>
 		<magV errorminus="0.26" errorplus="0.26">13.91</magV>
 		<magB errorminus="0.11" errorplus="0.11">14.00</magB>
 		<magR errorminus="0.11" errorplus="0.11">13.94</magR>
@@ -11,23 +17,25 @@
 		<magJ errorminus="0.020" errorplus="0.020">12.593</magJ>
 		<magH errorminus="0.019" errorplus="0.019">12.345</magH>
 		<magK errorminus="0.022" errorplus="0.022">12.291</magK>
-		<metallicity>-0.46</metallicity>
+		<metallicity errorminus="0.10" errorplus="0.10">-0.17</metallicity>
+		<temperature errorminus="110" errorplus="110">6090</temperature>
 		<planet>
 			<name>KOI-680 b</name>
+			<name>Kepler-435 b</name>
+			<name>KIC 75292669 b</name>
+			<name>2MASS J19290895+4311502 b</name>
 			<list>Confirmed planets</list>
-			<mass>0.62</mass>
-			<radius>0.65</radius>
-			<period>8.6</period>
-			<semimajoraxis>0.08</semimajoraxis>
-			<transittime errorminus="0.00045" errorplus="0.00045" unit="BJD">2455010.64238</transittime>
+			<radius errorminus="0.18" errorplus="0.18">1.99</radius>
+			<mass errorminus="0.15" errorplus="0.15">0.84</mass>
+			<period errorminus="0.0000018" errorplus="0.0000018">8.6001536</period>
+			<semimajoraxis errorminus="0.0018" errorplus="0.0018">0.0948</semimajoraxis>
+			<transittime errorminus="0.0004" errorplus="0.0004" unit="BJD">2455010.64241</transittime>
 			<description>This planet was discovered with the Kepler telescope and confirmed with the SOPHIE spectrograph in France.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>12/06/05</lastupdate>
+			<lastupdate>15/01/07</lastupdate>
 			<discoveryyear>2012</discoveryyear>
-			<temperature>1017.5</temperature>
+			<temperature errorminus="70" errorplus="70">1729</temperature>
 			<istransiting>1</istransiting>
 		</planet>
-		<name>KOI-680</name>
-		<temperature>6060.0</temperature>
 	</star>
 </system>
