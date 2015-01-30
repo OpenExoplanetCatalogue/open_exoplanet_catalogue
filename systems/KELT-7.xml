@@ -1,0 +1,48 @@
+<system>
+	<name>KELT-7</name>
+	<rightascension>05 13 10.93</rightascension>
+	<declination>+33 19 05.40</declination>
+	<distance errorminus="8" errorplus="8">129</distance>
+	<star>
+		<name>KELT-7</name>
+		<name>HD 33643</name>
+		<name>BD+33 977</name>
+		<name>HIP 24323</name>
+		<name>PPM 70046</name>
+		<name>TYC 2393-852-1</name>
+		<name>2MASS J05131092+331954</name>
+		<mass errorminus="0.054" errorplus="0.066">1.535</mass>
+		<radius errorminus="0.045" errorplus="0.043">1.732</radius>
+		<temperature errorminus="49" errorplus="50">6789</temperature>
+		<magV errorminus="0.030" errorplus="0.030">8.540</magV>
+		<magB errorminus="0.030" errorplus="0.030">8.970</magB>
+		<magJ errorminus="0.030" errorplus="0.030">7.739</magJ>
+		<magH errorminus="0.042" errorplus="0.042">7.580</magH>
+		<magK errorminus="0.030" errorplus="0.030">7.543</magK>
+		<metallicity errorminus="0.081" errorplus="0.075">0.139</metallicity>
+		<spectraltype>F2</spectraltype>
+		<age errorminus="0.2" errorplus="0.2">1.3</age>
+		<planet>
+			<name>KELT-7 b</name>
+			<name>HD 33643 b</name>
+			<name>BD+33 977 b</name>
+			<name>HIP 24323 b</name>
+			<name>PPM 70046 b</name>
+			<name>TYC 2393-852-1 b</name>
+			<name>2MASS J05131092+331954</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.18" errorplus="0.18">1.28</mass>
+			<radius errorminus="0.047" errorplus="0.046">1.533</radius>
+			<temperature errorminus="27" errorplus="27">2048</temperature>
+			<period errorminus="0.0000039" errorplus="0.0000039">2.7347749</period>
+			<semimajoraxis errorminus="0.00052" errorplus="0.00062">0.04415</semimajoraxis>
+			<inclination errorminus="0.37" errorplus="0.38">83.76</inclination>
+			<transittime errorminus="0.000198" errorplus="0.000198">2456355.229809</transittime>
+			<description>KELT-7b is a hot Jupiter hosted by a rapid rotating star. This results in a Rossiter-McLaughlin effect with an unusually large amplitude.</description>
+			<discoverymethod>transit</discoverymethod>
+			<lastupdate>15/01/22</lastupdate>
+			<discoveryyear>2015</discoveryyear>
+			<istransiting>1</istransiting>
+		</planet>
+	</star>
+</system>
