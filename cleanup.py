@@ -329,6 +329,11 @@ for filename in glob.glob("systems*/*.xml"):
                 print "Error: Invalid list \"" + l.text + "\" in file \"" + filename + "\"."
                 issues += 1
 
+    # Check if each planet is in at least one list
+    for p in planets:
+        if p.find("./list") is None:
+            print "Error: Planet needs to contains at least one list tag. File \"" + filename + "\"."
+            issues += 1
 
 
     # Check transiting planets
