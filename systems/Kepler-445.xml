@@ -1,0 +1,76 @@
+<system>
+	<name>Kepler-445</name>
+	<rightascension>19 54 56.668</rightascension>
+	<declination>+46 29 55.08</declination>
+	<distance>90</distance>
+	<star>
+		<name>Kepler-445</name>
+		<name>KOI-2704</name>
+		<name>KIC 9730163</name>
+		<mass errorminus="0.04" errorplus="0.04">0.18</mass>
+		<radius errorminus="0.03" errorplus="0.03">0.21</radius>
+		<temperature errorminus="60" errorplus="60">3157</temperature>
+		<metallicity errorminus="0.13" errorplus="0.13">0.27</metallicity>
+		<magJ errorminus="0.029" errorplus="0.029">13.542</magJ>
+		<magH errorminus="0.035" errorplus="0.035">12.929</magH>
+		<magK errorminus="0.028" errorplus="0.028">12.610</magK>
+		<spectraltype>M4</spectraltype>
+		<planet>
+			<name>Kepler-445 b</name>
+			<name>KOI-2704 b</name>
+			<name>KOI-2704.02</name>
+			<name>KIC 9730163 b</name>
+			<name>KIC 9730163.02</name>
+			<list>Confirmed planets</list>
+			<mass lowerlimit="4" upperlimit="6" />
+			<radius errorminus="0.23" errorplus="0.23">1.58</radius>
+			<period errorminus="0.000011" errorplus="0.000011">2.984151</period>
+			<inclination errorminus="0.28" errorplus="0.18">89.74</inclination>
+			<semimajoraxis errorminus="0.001" errorplus="0.001">0.102</semimajoraxis>
+			<transittime errorminus="0.0033" errorplus="0.0033" unit="BJD">2454966.1194</transittime>
+			<description>Kepler-445 is an M-dwarf with transit signals of three short-period planets.</description>
+			<discoverymethod>transit</discoverymethod>
+			<lastupdate>15/01/06</lastupdate>
+			<discoveryyear>2015</discoveryyear>
+			<istransiting>1</istransiting>
+		</planet>
+		<planet>
+			<name>Kepler-445 c</name>
+			<name>KOI-2704 c</name>
+			<name>KOI-2704.01</name>
+			<name>KIC 9730163 c</name>
+			<name>KIC 9730163.01</name>
+			<list>Confirmed planets</list>
+			<mass lowerlimit="8" upperlimit="9" />
+			<radius errorminus="0.36" errorplus="0.36">2.51</radius>
+			<period errorminus="0.000011" errorplus="0.000011">4.871229</period>
+			<inclination errorminus="0.10" errorplus="0.07">89.91</inclination>
+			<semimajoraxis errorminus="0.002" errorplus="0.002">0.141</semimajoraxis>
+			<transittime errorminus="0.0019" errorplus="0.0019" unit="BJD">2454966.6408</transittime>
+			<description>Kepler-445 is an M-dwarf with transit signals of three short-period planets.</description>
+			<discoverymethod>transit</discoverymethod>
+			<lastupdate>15/01/06</lastupdate>
+			<discoveryyear>2015</discoveryyear>
+			<istransiting>1</istransiting>
+		</planet>
+		<planet>
+			<name>Kepler-445 d</name>
+			<name>KOI-2704 d</name>
+			<name>KOI-2704.03</name>
+			<name>KIC 9730163 d</name>
+			<name>KIC 9730163.03</name>
+			<list>Confirmed planets</list>
+			<mass lowerlimit="3" upperlimit="4" />
+			<radius errorminus="0.19" errorplus="0.19">1.25</radius>
+			<period errorminus="0.00040" errorplus="0.00040">8.15275</period>
+			<inclination errorminus="0.25" errorplus="0.27">89.61</inclination>
+			<semimajoraxis errorminus="0.003" errorplus="0.003">0.200</semimajoraxis>
+			<transittime errorminus="0.05" errorplus="0.05" unit="BJD">2454836.7512226</transittime>
+			<description>Kepler-445 is an M-dwarf with transit signals of three short-period planets.</description>
+			<discoverymethod>transit</discoverymethod>
+			<lastupdate>15/01/06</lastupdate>
+			<discoveryyear>2015</discoveryyear>
+			<istransiting>1</istransiting>
+		</planet>
+	</star>
+</system>
