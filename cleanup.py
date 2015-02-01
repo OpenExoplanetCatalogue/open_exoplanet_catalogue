@@ -331,8 +331,12 @@ for filename in glob.glob("systems*/*.xml"):
 
     # Check if each planet is in at least one list
     for p in planets:
-        if p.find("./list") is None:
-            print "Error: Planet needs to contains at least one list tag. File \"" + filename + "\"."
+        isInList = False
+        for l in p.findall("./list"):
+            if l.text in ["Confirmed planets", "Controversial", "Kepler Objects of Interest","Solar System"]:
+                isInList = True
+        if not isInList:
+            print "Error: Planet needs to be part of 'Confirmed planets' or 'Controversial' list. File \"" + filename + "\"."
             issues += 1
 
 
