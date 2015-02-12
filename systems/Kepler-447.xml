@@ -1,0 +1,37 @@
+<system>
+	<name>Kepler-447</name>
+	<rightascension>19 01 04.461</rightascension>
+	<declination>+48 33 36.05</declination>
+	<star>
+		<name>Kepler-447</name>
+		<name>KIC-11017901</name>
+		<name>KOI-1800</name>
+		<name>2MASS J19010446+4833360</name>
+		<mass errorminus="0.49" errorplus="0.145">0.764</mass>
+		<radius errorminus="0.120" errorplus="0.49">0.872</radius>
+		<spectraltype>G8V</spectraltype>
+		<temperature errorminus="62" errorplus="62">5493</temperature>
+		<magJ errorminus="0.022" errorplus="0.022">11.211</magJ>
+		<magH errorminus="0.018" errorplus="0.018">10.879</magH>
+		<magK errorminus="0.018" errorplus="0.018">10.806</magK>
+		<metallicity errorminus="0.05" errorplus="0.05">0.07</metallicity>
+		<planet>
+			<name>Kepler-447 b</name>
+			<name>KIC-11017901 b</name>
+			<name>KOI-1800 b</name>
+			<name>2MASS J19010446+4833360 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.56" errorplus="0.59">1.65</radius>
+			<mass errorminus="0.46" errorplus="0.48">1.37</mass>
+			<period errorminus="0.00000182" errorplus="0.00000182">7.79430132</period>
+			<semimajoraxis errorminus="0.04" errorplus="0.08">4.39</semimajoraxis>
+			<eccentricity errorminus="0.036" errorplus="0.037">0.123</eccentricity>
+			<inclination errorminus="0.32" errorplus="0.24">86.55</inclination>
+			<description>Kepler-447 b is a hot Jupiter with an extremely grazing transit.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>15/02/11</lastupdate>
+			<discoveryyear>2015</discoveryyear>
+		</planet>
+	</star>
+</system>
