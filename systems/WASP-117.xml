@@ -1,19 +1,28 @@
 <system>
 	<name>WASP-117</name>
-	<rightascension>02 27 06</rightascension>
-	<declination>-50 17 04</declination>
+	<rightascension>02 27 06.0972</rightascension>
+	<declination>-50 17 04.354</declination>
 	<star>
 		<name>WASP-117</name>
 		<name>GSC08055-00876</name>
+		<name>PPM 331895</name>
+		<name>TYC 8055-876-1</name>
 		<mass errorminus="0.029" errorplus="0.029">1.126</mass>
 		<radius errorminus="0.059" errorplus="0.067">1.17</radius>
 		<temperature errorminus="90" errorplus="90">6040</temperature>
+		<magB errorminus="0.04" errorplus="0.04">10.74</magB>
+		<magV errorminus="0.03" errorplus="0.03">10.14</magV>
+		<magJ errorminus="0.022" errorplus="0.022">9.143</magJ>
+		<magH errorminus="0.024" errorplus="0.024">8.860</magH>
+		<magK errorminus="0.021" errorplus="0.021">8.780</magK>
 		<metallicity errorminus="0.14" errorplus="0.14">-0.11</metallicity>
 		<age errorminus="2" errorplus="2">4.6</age>
 		<spectraltype>F9</spectraltype>
 		<planet>
 			<name>WASP-117 b</name>
 			<name>GSC08055-00876 b</name>
+			<name>PPM 331895 b</name>
+			<name>TYC 8055-876-1 b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.009" errorplus="0.009">0.2755</mass>
 			<radius errorminus="0.065" errorplus="0.076">1.021</radius>
