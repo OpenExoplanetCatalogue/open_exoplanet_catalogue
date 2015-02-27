@@ -2,22 +2,30 @@
 	<name>Kepler-79</name>
 	<name>KOI-152</name>
 	<name>KIC 8394721</name>
-	<rightascension>20 02 04</rightascension>
-	<declination>+44 22 53</declination>
+	<rightascension>20 02 04.114</rightascension>
+	<declination>+44 22 53.44</declination>
 	<distance>1100.38</distance>
 	<star>
 		<name>Kepler-79</name>
 		<name>KOI-152</name>
 		<name>KIC 8394721</name>
+		<name>UCAC3 269-182620</name>
 		<temperature errorminus="100" errorplus="100">6189</temperature>
 		<radius errorminus=".252" errorplus="0.252">1.403</radius>
 		<mass errorminus="0.1000" errorplus="0.1000">1.1800</mass>
+		<magB>14.68</magB>
+		<magV>13.99</magV>
+		<magR errorminus="0.13" errorplus="0.13">14.20</magI>
+		<magJ errorminus="0.025" errorplus="0.025">12.913</magJ>
+		<magH errorminus="0.025" errorplus="0.025">12.653</magH>
+		<magK errorminus="0.03" errorplus="0.03">12.61</magK>
 		<planet>
 			<name>Kepler-79 d</name>
 			<name>KOI-152 d</name>
 			<name>KOI-152.01</name>
 			<name>KIC 8394721 d</name>
 			<name>KIC 8394721.01</name>
+			<name>UCAC3 269-182620 d</name>
 			<radius errorminus="0.03281" errorplus="0.12394">0.69168</radius>
 			<period errorminus=".000073" errorplus="0.000073">52.090590</period>
 			<transittime errorminus="0.0007700" errorplus="0.0007700">2454991.7450800</transittime>
@@ -34,6 +42,7 @@
 			<name>KOI-152.02</name>
 			<name>KIC 8394721 c</name>
 			<name>KIC 8394721.02</name>
+			<name>UCAC3 269-182620 c</name>
 			<radius errorminus="0.06379" errorplus="0.06379">0.35450</radius>
 			<period errorminus=".000078" errorplus="0.000078">27.401994</period>
 			<transittime errorminus="0.0016100" errorplus="0.0016100">2454966.6323900</transittime>
@@ -50,6 +59,7 @@
 			<name>KOI-152.03</name>
 			<name>KIC 8394721 b</name>
 			<name>KIC 8394721.03</name>
+			<name>UCAC3 269-182620 b</name>
 			<radius errorminus="0.06015" errorplus="0.06015">0.33171</radius>
 			<period errorminus=".000036" errorplus="0.000036">13.484686</period>
 			<transittime errorminus="0.0015800" errorplus="0.0015800">2454969.6133500</transittime>
@@ -66,6 +76,7 @@
 			<name>KOI-152.04</name>
 			<name>KIC 8394721 e</name>
 			<name>KIC 8394721.04</name>
+			<name>UCAC3 269-182620 e</name>
 			<radius errorminus="0.06288" errorplus="0.06288">0.30620</radius>
 			<period errorminus=".001365" errorplus="0.001365">81.065298</period>
 			<transittime errorminus="0.0096900" errorplus="0.0096900">2454972.5290800</transittime>
