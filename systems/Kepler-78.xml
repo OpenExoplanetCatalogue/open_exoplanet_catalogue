@@ -1,12 +1,17 @@
 <system>
 	<name>Kepler-78</name>
-	<declination>+44 26 54</declination>
-	<rightascension>19 34 57</rightascension>
+	<rightascension>19 34 57.989</rightascension>
+	<declination>+44 26 54.28</declination>
 	<star>
 		<name>Kepler-78</name>
 		<mass errorminus="0.05" errorplus="0.05">0.83</mass>
 		<age errorminus="0.15" errorplus="0.15">0.625</age>
 		<temperature errorminus="44" errorplus="44">5121</temperature>
+		<magB errorminus="0.32" errorplus="0.32">12.87</magB>
+		<magV errorminus="0.16" errorplus="0.16">11.72</magV>
+		<magJ errorminus="0.025" errorplus="0.025">10.184</magJ>
+		<magH errorminus="0.018" errorplus="0.018">9.675</magH>
+		<magK errorminus="0.015" errorplus="0.015">9.586</magK>
 		<metallicity errorminus="0.04" errorplus="0.04">-0.08</metallicity>
 		<planet>
 			<name>Kepler-78 b</name>

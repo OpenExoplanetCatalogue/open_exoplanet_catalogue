@@ -2,15 +2,22 @@
 	<name>Kepler-109</name>
 	<name>KOI-123</name>
 	<name>KIC 5094751</name>
-	<rightascension>19 21 34</rightascension>
-	<declination>+40 17 05</declination>
+	<rightascension>19 21 34.263</rightascension>
+	<declination>+40 17 05.66</declination>
 	<distance>468.1</distance>
 	<star>
 		<name>Kepler-109</name>
 		<name>KOI-123</name>
 		<name>KIC 5094751</name>
+		<name>TYC 3138-1820-1</name>
+		<name>2MASS J19213425+4017055</name>
 		<temperature errorminus="75" errorplus="75">5952</temperature>
 		<metallicity errorminus="0.10" errorplus="0.10">-0.08</metallicity>
+		<magB>12.82</magB>
+		<magV>12.93</magV>
+		<magJ errorminus="0.019" errorplus="0.019">11.314</magJ>
+		<magH errorminus="0.016" errorplus="0.016">11.046</magH>
+		<magK errorminus="0.017" errorplus="0.017">11.001</magK>
 		<mass errorminus="0.06" errorplus="0.06">1.04</mass>
 		<radius errorminus="0.04" errorplus="0.04">1.32</radius>
 		<age>5.73</age>
@@ -18,6 +25,8 @@
 			<name>Kepler-109 b</name>
 			<name>KOI-123.01</name>
 			<name>KIC 5094751 b</name>
+			<name>TYC 3138-1820-1 b</name>
+			<name>2MASS J19213425+4017055 b</name>
 			<period>6.48163</period>
 			<radius errorminus="0.006379" errorplus="0.006379">0.215979</radius>
 			<mass upperlimit="0.022964" />
@@ -32,6 +41,8 @@
 			<name>Kepler-109 c</name>
 			<name>KOI-123.02</name>
 			<name>KIC 5094751 c</name>
+			<name>TYC 3138-1820-1 c</name>
+			<name>2MASS J19213425+4017055 c</name>
 			<period>21.2227</period>
 			<radius errorminus="0.006379" errorplus="0.006379">0.229648</radius>
 			<mass upperlimit="0.068576" />

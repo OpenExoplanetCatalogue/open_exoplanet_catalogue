@@ -1,17 +1,27 @@
 <system>
 	<name>Kepler-444</name>
-	<rightascension>19 19 00</rightascension>
-	<declination>+41 38 04</declination>
+	<rightascension>19 19 00.54910</rightascension>
+	<declination>+41 38 04.5682</declination>
 	<distance errorminus="1.1" errorplus="1.1">35.7</distance>
 	<star>
 		<name>Kepler-444</name>
 		<name>HIP 94931</name>
 		<name>KOI-3158</name>
 		<name>LHS 3450</name>
+		<name>PPM 58152</name>
+		<name>TYC 3129-329-1</name>
+		<name>BD+41 3306</name>
 		<mass errorminus="0.043" errorplus="0.043">0.758</mass>
 		<radius errorminus="0.014" errorplus="0.014">0.752</radius>
 		<temperature errorminus="74" errorplus="74">5046</temperature>
 		<age errorminus="0.99" errorplus="0.91">11.23</age>
+		<magB>6.67</magB>
+		<magV>8.86</magV>
+		<magR>8.18</magR>
+		<magI>7.66</magI>
+		<magJ errorminus="0.026" errorplus="0.026">7.244</magJ>
+		<magH errorminus="0.047" errorplus="0.047">6.772</magH>
+		<magK errorminus="0.020" errorplus="0.020">6.703</magK>
 		<metallicity errorminus="0.07" errorplus="0.07">-0.55</metallicity>
 		<spectraltype>K0V</spectraltype>
 		<planet>
@@ -19,6 +29,9 @@
 			<name>HIP 94931 b</name>
 			<name>KOI-3158 b</name>
 			<name>LHS 3450 b</name>
+			<name>PPM 58152 b</name>
+			<name>TYC 3129-329-1 b</name>
+			<name>BD+41 3306 b</name>
 			<list>Confirmed planets</list>
 			<radius errorminus="0.001276" errorplus="0.001458">0.036726</radius>
 			<period errorminus="0.0000080" errorplus="0.0000083">3.6001053</period>
