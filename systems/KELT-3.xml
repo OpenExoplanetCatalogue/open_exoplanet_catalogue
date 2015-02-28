@@ -1,9 +1,16 @@
 <system>
 	<name>KELT-3</name>
-	<rightascension>09 46 48</rightascension>
-	<declination>+31 44 37</declination>
+	<rightascension>09 54 34.3880</rightascension>
+	<declination>+40 23 16.981</declination>
 	<distance>178</distance>
 	<star>
+		<name>KELT-3</name>
+		<name>BD+41 2024</name>
+		<name>TYC 2996-683-1</name>
+		<name>2MASS J09543439+4023170</name>
+		<name>GSC 02996-00683</name>
+		<name>SAO 43097</name>
+		<name>PPM 51568</name>
 		<mass>1.282</mass>
 		<radius>1.482</radius>
 		<metallicity>0.047</metallicity>
@@ -15,11 +22,13 @@
 		<magK errorminus="0.019" errorplus="0.019">8.662</magK>
 		<temperature>6304</temperature>
 		<planet>
-			<name>BD+30 1138 b</name>
+			<name>KELT-3 b</name>
+			<name>BD+41 2024 b</name>
 			<name>TYC 2996-683-1 b</name>
 			<name>2MASS J09543439+4023170 b</name>
 			<name>GSC 02996-00683 b</name>
 			<name>SAO 43097 b</name>
+			<name>PPM 51568 b</name>
 			<list>Confirmed planets</list>
 			<mass>1.462</mass>
 			<radius>1.358</radius>
@@ -31,10 +40,8 @@
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/11/07</lastupdate>
 			<discoveryyear>2012</discoveryyear>
-			<name>KELT-3 b</name>
 			<temperature>1667.7</temperature>
 			<istransiting>1</istransiting>
 		</planet>
-		<name>KELT-3</name>
 	</star>
 </system>
