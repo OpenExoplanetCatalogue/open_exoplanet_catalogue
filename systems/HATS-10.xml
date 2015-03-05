@@ -1,0 +1,39 @@
+<system>
+	<name>HATS-10</name>
+	<rightascension>19 37 13.80</rightascension>
+	<declination>-22 12 16.1</declination>
+	<distance errorminus="24" errorplus="24">496</distance>
+	<star>
+		<name>HATS-10</name>
+		<name>2MASS 19371363-2212161</name>
+		<name>GSC 6311-00085</name>
+		<mass errorminus="0.054" errorplus="0.054">1.101</mass>
+		<radius errorminus="0.040" errorplus="0.055">1.105</radius>
+		<temperature errorminus="120" errorplus="120">5880</temperature>
+		<magB errorminus="0.010" errorplus="0.010">13.820</magB>
+		<magV errorminus="0.010" errorplus="0.010">13.113</magV>
+		<magJ errorminus="0.024" errorplus="0.024">11.866</magJ>
+		<magH errorminus="0.024" errorplus="0.024">11.568</magH>
+		<magK errorminus="0.025" errorplus="0.025">11.511</magK>
+		<age errorminus="1.7" errorplus="1.7">3.3</age>
+		<metallicity errorminus="0.10" errorplus="0.10">0.15</metallicity>
+		<planet>
+			<name>HATS-10 b</name>
+			<name>2MASS 19371363-2212161 b</name>
+			<name>GSC 6311-00085 b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.081" errorplus="0.081">0.526</mass>
+			<radius errorminus="0.045" errorplus="0.061">0.969</radius>
+			<temperature errorminus="39" errorplus="39">1407</temperature>
+			<transittime errorminus="0.00022" errorplus="0.00022" unit="BJD">2456457.88193</transittime>
+			<period errorminus="0.0000058" errorplus="0.0000058">3.3128460</period>
+			<semimajoraxis errorminus="0.00074" errorplus="0.00074">0.04491</semimajoraxis>
+			<inclination errorminus="0.72" errorplus="0.72">87.79</inclination>
+			<description>HATS-10 is a transiting planet that was discovered by the HATSouth survey. The planet lies in the nominal coordinates of Field 7 of K2.</description>
+			<discoverymethod>transit</discoverymethod>
+			<lastupdate>15/02/28</lastupdate>
+			<discoveryyear>2015</discoveryyear>
+			<istransiting>1</istransiting>
+		</planet>
+	</star>
+</system>
