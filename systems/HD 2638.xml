@@ -1,32 +1,65 @@
 <system>
 	<name>HD 2638</name>
-	<rightascension>00 29 59</rightascension>
-	<declination>-05 45 50</declination>
+	<rightascension>00 29 16.10949</rightascension>
+	<declination>-05 54 37.7582</declination>
 	<distance>53.71</distance>
-	<star>
-		<mass>0.93</mass>
-		<magV>9.44</magV>
-		<magB errorminus="0.04" errorplus="0.04">10.33</magB>
-		<magR>9.10</magR>
-		<magI errorminus="0.08" errorplus="0.08">9.19</magI>
-		<magJ errorminus="0.020" errorplus="0.020">7.858</magJ>
-		<magH errorminus="0.03" errorplus="0.03">7.42</magH>
-		<magK errorminus="0.023" errorplus="0.023">7.308</magK>
-		<metallicity>0.16</metallicity>
-		<spectraltype>G5</spectraltype>
-		<planet>
-			<name>HD 2638 b</name>
-			<list>Confirmed planets</list>
-			<mass>0.48</mass>
-			<period>3.4442</period>
-			<semimajoraxis>0.044</semimajoraxis>
-			<eccentricity>0.0</eccentricity>
-			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/12/24</lastupdate>
-			<discoveryyear>2005</discoveryyear>
-			<temperature>978.2</temperature>
-		</planet>
-		<name>HD 2638</name>
-		<temperature>5192.0</temperature>
-	</star>
+	<binary>
+		<name>WDS J00293-0555</name>
+		<separation unit="arcsec">839.60</separation>
+		<separation unit="AU">48000</separation>
+		<positionangle>51</positionangle>
+		<star>
+			<name>HD 2567</name>
+			<name>HD 2567 A</name>
+			<name>HIP 2292</name>
+			<magB errorminus="0.02" errorplus="0.02">8.40</magB>
+			<magV errorminus="0.01" errorplus="0.01">7.76</magV>
+			<magJ errorminus="0.024" errorplus="0.024">6.715</magJ>
+			<magH errorminus="0.033" errorplus="0.033">6.459</magH>
+			<magK errorminus="0.017" errorplus="0.017">6.369</magK>
+			<spectraltype>G0</spectraltype>
+		</star>
+		<binary>
+			<name>HD 2638</name>
+			<name>HD 2638 BC</name>
+			<separation errorminus="0.019" errorplus="0.019" unit="arcsec">0.526</separation>
+			<separation unit="AU">28.5</separation>
+			<positionangle errorminus="1.1" errorplus="1.1">166.7</positionangle>
+			<star>
+				<name>HD 2638</name>
+				<name>HD 2638 B</name>
+				<mass>0.87</mass>
+				<magV>9.44</magV>
+				<magB errorminus="0.04" errorplus="0.04">10.33</magB>
+				<magR>9.10</magR>
+				<magI errorminus="0.08" errorplus="0.08">9.19</magI>
+				<magJ>7.96</magJ>
+				<magH errorminus="0.03" errorplus="0.03">7.42</magH>
+				<magK>7.47</magK>
+				<metallicity>0.16</metallicity>
+				<spectraltype>G5</spectraltype>
+				<temperature>5192</temperature>
+				<planet>
+					<name>HD 2638 b</name>
+					<list>Confirmed planets</list>
+					<mass>0.48</mass>
+					<period>3.4442</period>
+					<semimajoraxis>0.044</semimajoraxis>
+					<eccentricity>0.0</eccentricity>
+					<discoverymethod>RV</discoverymethod>
+					<lastupdate>10/12/24</lastupdate>
+					<discoveryyear>2005</discoveryyear>
+					<temperature>978.2</temperature>
+					<list>Planets in binary systems, S-type</list>
+				</planet>
+			</star>
+			<star>
+				<name>HD 2638 C</name>
+				<magJ>10.46</magJ>
+				<magK>9.46</magK>
+				<mass>0.46</mass>
+				<spectraltype>M1V</spectraltype>
+			</star>
+		</binary>
+	</binary>
 </system>

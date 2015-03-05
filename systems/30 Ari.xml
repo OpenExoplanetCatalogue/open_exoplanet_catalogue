@@ -1,0 +1,84 @@
+<system>
+	<name>30 Ari</name>
+	<rightascension>02 37 00.52363</rightascension>
+	<declination>+24 38 49.9957</declination>
+	<distance>41.8</distance>
+	<binary>
+		<name>30 Ari</name>
+		<name>WDS J02370+2439</name>
+		<name>STFA 5</name>
+		<separation unit="arcsec">38.00</separation>
+		<separation unit="AU">1580</separation>
+		<positionangle>275</positionangle>
+		<binary>
+			<name>30 Ari A</name>
+			<name>HD 16246</name>
+			<name>HIP 12189</name>
+			<period>1.1095</period>
+			<semimajoraxis>0.02</semimajoraxis>
+			<eccentricity>0.06</eccentricity>
+			<periastron>281.4</periastron>
+			<periastrontime unit="JD">2421946.382</periastrontime>
+			<star>
+				<name>30 Ari Aa</name>
+				<spectraltype>F5V</spectraltype>
+				<magB>6.86</magB>
+				<magV>6.48</magV>
+				<magJ errorminus="0.019" errorplus="0.019">5.681</magJ>
+				<magH errorminus="0.051" errorplus="0.051">5.580</magH>
+				<magK errorminus="0.024" errorplus="0.024">5.479</magK>
+				<mass errorminus="0.04" errorplus="0.04">1.31</mass>
+				<radius errorminus="0.03" errorplus="0.03">1.37</radius>
+				<age errorminus="0.63" errorplus="0.63">0.86</age>
+				<temperature>6462</temperature>
+			</star>
+			<star>
+				<name>30 Ari Ab</name>
+				<mass>0.14</mass>
+			</star>
+		</binary>
+		<binary>
+			<separation errorminus="0.002" errorplus="0.002" unit="arcsec">0.536</separation>
+			<separation unit="AU">22.3</separation>
+			<positionangle errorminus="0.2" errorplus="0.2">285.2</positionangle>
+			<name>30 Ari BC</name>
+			<name>RAO 8</name>
+			<star>
+				<name>30 Ari B</name>
+				<name>HD 16232</name>
+				<name>HIP 12184</name>
+				<mass>1.13</mass>
+				<radius>1.13</radius>
+				<magV>7.1</magV>
+				<magB>7.59</magB>
+				<magJ>6.13</magJ>
+				<magH errorminus="0.029" errorplus="0.029">5.908</magH>
+				<magK>5.90</magK>
+				<metallicity>0.07</metallicity>
+				<spectraltype>F8V</spectraltype>
+				<age errorminus="0.83" errorplus="0.83">0.91</age>
+				<planet>
+					<name>30 Ari B b</name>
+					<list>Confirmed planets</list>
+					<mass>9.88</mass>
+					<period>335.1</period>
+					<semimajoraxis>0.995</semimajoraxis>
+					<eccentricity>0.289</eccentricity>
+					<discoverymethod>RV</discoverymethod>
+					<lastupdate>09/11/27</lastupdate>
+					<discoveryyear>2009</discoveryyear>
+					<temperature>300.2</temperature>
+					<list>Planets in binary systems, S-type</list>
+				</planet>
+				<temperature>6424</temperature>
+			</star>
+			<star>
+				<name>30 Ari C</name>
+				<magJ>9.57</magJ>
+				<magK>8.74</magK>
+				<mass>0.50</mass>
+				<spectraltype>M1V</spectraltype>
+			</star>
+		</binary>
+	</binary>
+</system>
