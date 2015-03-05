@@ -1,0 +1,39 @@
+<system>
+	<name>HATS-9</name>
+	<rightascension>19 23 14.28</rightascension>
+	<declination>-20 09 58.7</declination>
+	<distance errorminus="30" errorplus="42">622</distance>
+	<star>
+		<name>HATS-9</name>
+		<name>2MASS 19231442-2009587</name>
+		<name>GSC 6305-02502</name>
+		<mass errorminus="0.039" errorplus="0.039">1.030</mass>
+		<radius errorminus="0.043" errorplus="0.101">1.503</radius>
+		<temperature errorminus="70" errorplus="70">5366</temperature>
+		<magB errorminus="0.010" errorplus="0.010">14.080</magB>
+		<magV errorminus="0.010" errorplus="0.010">13.276</magV>
+		<magJ errorminus="0.022" errorplus="0.022">11.885</magJ>
+		<magH errorminus="0.027" errorplus="0.027">11.558</magH>
+		<magK errorminus="0.022" errorplus="0.022">11.479</magK>
+		<age errorminus="1.5" errorplus="1.5">10.8</age>
+		<metallicity errorminus="0.050" errorplus="0.050">0.340</metallicity>
+		<planet>
+			<name>HATS-9 b</name>
+			<name>2MASS 19231442-2009587 b</name>
+			<name>GSC 6305-02502 b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.029" errorplus="0.029">0.837</mass>
+			<radius errorminus="0.098" errorplus="0.098">1.065</radius>
+			<temperature errorminus="37" errorplus="52">1823</temperature>
+			<transittime errorminus="0.00086" errorplus="0.00086" unit="BJD">2456124.25896</transittime>
+			<period errorminus="0.0000052" errorplus="0.0000052">1.9153073</period>
+			<semimajoraxis errorminus="0.00038" errorplus="0.00038">0.03048</semimajoraxis>
+			<inclination errorminus="2.5" errorplus="1.6">86.5</inclination>
+			<description>HATS-9 is a transiting planet that was discovered by the HATSouth survey. The planet lies in the nominal coordinates of Field 7 of K2. Future characterisation of HATS-9b with the exquisite photometric precision of the Kepler telescope may provide measurements of its reflected light signature.</description>
+			<discoverymethod>transit</discoverymethod>
+			<lastupdate>15/02/28</lastupdate>
+			<discoveryyear>2015</discoveryyear>
+			<istransiting>1</istransiting>
+		</planet>
+	</star>
+</system>
