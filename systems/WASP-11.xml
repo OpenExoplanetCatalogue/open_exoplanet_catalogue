@@ -1,38 +1,59 @@
 <system>
 	<name>WASP-11</name>
+	<name>HAT-P-10</name>
 	<rightascension>03 09 29</rightascension>
 	<declination>+30 40 25</declination>
-	<distance>125</distance>
-	<star>
-		<mass>0.82</mass>
-		<radius>0.81</radius>
-		<magV>11.89</magV>
-		<magR>11.42</magR>
-		<magB errorminus="0.30" errorplus="0.30">12.58</magB>
-		<magJ errorminus="0.020" errorplus="0.020">10.015</magJ>
-		<magH errorminus="0.019" errorplus="0.019">9.560</magH>
-		<magK errorminus="0.017" errorplus="0.017">9.421</magK>
-		<metallicity>0.13</metallicity>
-		<spectraltype>K3V</spectraltype>
-		<planet>
-			<name>WASP-11 b</name>
-			<name>HAT-P-10 b</name>
-			<name>2MASS J03092855+3040249 b</name>
-			<list>Confirmed planets</list>
-			<mass>0.46</mass>
-			<radius>1.045</radius>
-			<period>3.722469</period>
-			<semimajoraxis>0.0439</semimajoraxis>
-			<eccentricity>0.0</eccentricity>
-			<inclination>88.5</inclination>
-			<transittime errorminus="0.00016" errorplus="0.00016" unit="BJD">2454759.68683</transittime>
-			<discoverymethod>transit</discoverymethod>
-			<lastupdate>08/11/27</lastupdate>
-			<discoveryyear>2008</discoveryyear>
-			<temperature>943.2</temperature>
-			<istransiting>1</istransiting>
-		</planet>
+	<distance errorminus="4.2" errorplus="4.2">121.7</distance>
+	<binary>
 		<name>WASP-11</name>
-		<temperature>4980.0</temperature>
-	</star>
+		<name>HAT-P-10</name>
+		<separation errorminus="0.0015" errorplus="0.0015" unit="arcsec">0.3425</separation>
+		<separation errorminus="1.4" errorplus="1.4" unit="AU">41.7</separation>
+		<positionangle errorminus="0.24" errorplus="0.24">214.09</positionangle>
+		<star>
+			<name>WASP-11 A</name>
+			<name>HAT-P-10 A</name>
+			<mass>0.82</mass>
+			<radius>0.81</radius>
+			<magV>11.89</magV>
+			<magR>11.42</magR>
+			<magB errorminus="0.30" errorplus="0.30">12.58</magB>
+			<magJ errorminus="0.020" errorplus="0.020">10.015</magJ>
+			<magH errorminus="0.019" errorplus="0.019">9.560</magH>
+			<magK errorminus="0.017" errorplus="0.017">9.421</magK>
+			<metallicity>0.13</metallicity>
+			<spectraltype>K3V</spectraltype>
+			<temperature errorminus="65" errorplus="65">4974</temperature>
+			<planet>
+				<name>WASP-11 b</name>
+				<name>HAT-P-10 b</name>
+				<name>WASP-11 A b</name>
+				<name>HAT-P-10 A b</name>
+				<name>2MASS J03092855+3040249 b</name>
+				<list>Confirmed planets</list>
+				<mass>0.46</mass>
+				<radius>1.045</radius>
+				<period>3.722469</period>
+				<semimajoraxis>0.0439</semimajoraxis>
+				<eccentricity>0.0</eccentricity>
+				<inclination>88.5</inclination>
+				<transittime errorminus="0.00016" errorplus="0.00016" unit="BJD">2454759.68683</transittime>
+				<discoverymethod>transit</discoverymethod>
+				<lastupdate>08/11/27</lastupdate>
+				<discoveryyear>2008</discoveryyear>
+				<temperature>943.2</temperature>
+				<istransiting>1</istransiting>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+		<star>
+			<name>WASP-11 B</name>
+			<name>HAT-P-10 B</name>
+			<magJ errorminus="0.017" errorplus="0.017">12.671</magJ>
+			<magH errorminus="0.014" errorplus="0.014">12.008</magH>
+			<magK errorminus="0.034" errorplus="0.034">12.184</magK>
+			<temperature errorminus="43" errorplus="43">3483</temperature>
+			<mass errorminus="0.047" errorplus="0.047">0.344</mass>
+		</star>
+	</binary>
 </system>
