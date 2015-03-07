@@ -2,31 +2,47 @@
 	<name>HD 8673</name>
 	<rightascension>01 26 08</rightascension>
 	<declination>+34 34 46</declination>
-	<distance>38.25</distance>
-	<star>
-		<mass>1.312</mass>
-		<radius>1.54</radius>
-		<magV>7.57</magV>
-		<magB>6.78</magB>
-		<magR>6.1</magR>
-		<magI>5.8</magI>
-		<magJ>5.44</magJ>
-		<magH>5.22</magH>
-		<magK>5.17</magK>
-		<spectraltype>F7 V</spectraltype>
-		<planet>
-			<name>HD 8673 b</name>
-			<list>Confirmed planets</list>
-			<mass>14.2</mass>
-			<period>1634</period>
-			<semimajoraxis>3.02</semimajoraxis>
-			<eccentricity>0.723</eccentricity>
-			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/06/24</lastupdate>
-			<discoveryyear>2010</discoveryyear>
-			<temperature>194.3</temperature>
-		</planet>
+	<distance errorminus="0.5" errorplus="0.5">36.1</distance>
+	<binary>
 		<name>HD 8673</name>
-		<temperature>6413.0</temperature>
-	</star>
+		<positionangle errorminus="0.57" errorplus="0.57">333.4</positionangle>
+		<separation errorminus="0.003" errorplus="0.003" unit="arcsec">0.308</separation>
+		<separation unit="AU">11</separation>
+		<star>
+			<mass>1.312</mass>
+			<radius>1.54</radius>
+			<magV>7.57</magV>
+			<magB>6.78</magB>
+			<magR>6.1</magR>
+			<magI>5.8</magI>
+			<magJ>5.44</magJ>
+			<magH>5.22</magH>
+			<magK>5.17</magK>
+			<spectraltype>F7 V</spectraltype>
+			<planet>
+				<name>HD 8673 b</name>
+				<name>HD 8673 A b</name>
+				<list>Confirmed planets</list>
+				<mass>14.2</mass>
+				<period>1634</period>
+				<semimajoraxis>3.02</semimajoraxis>
+				<eccentricity>0.723</eccentricity>
+				<discoverymethod>RV</discoverymethod>
+				<lastupdate>10/06/24</lastupdate>
+				<discoveryyear>2010</discoveryyear>
+				<temperature>194.3</temperature>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+			<name>HD 8673 A</name>
+			<temperature>6413.0</temperature>
+		</star>
+		<star>
+			<name>HD 8673 B</name>
+			<temperature lowerlimit="3520" upperlimit="3690" />
+			<mass lowerlimit="0.33" upperlimit="0.45" />
+			<magJ>10.00</magJ>
+			<magH>9.42</magH>
+			<magK>9.29</magK>
+		</star>
+	</binary>
 </system>
