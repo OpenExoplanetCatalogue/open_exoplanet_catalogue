@@ -4,20 +4,24 @@
 	<declination>+37 12 42</declination>
 	<distance>485</distance>
 	<binary>
+		<name>TrES-4</name>
 		<separation errorminus="0.005" errorplus="0.005" unit="arcsec">1.555</separation>
 		<separation errorminus="2" errorplus="2" unit="AU">754</separation>
 		<positionangle errorminus="0.1" errorplus="0.1">359.8</positionangle>
 		<star>
 			<name>TrES-4 A</name>
-			<mass>0.88</mass>
-			<radius>0.85</radius>
+			<name>TYC 2620-00648-1</name>
+			<name>2MASS J17531304+3712426</name>
+			<mass errorminus="0.086" errorplus="0.086">1.339</mass>
+			<radius errorminus="0.08" errorplus="0.08">1.81</radius>
 			<magB errorminus="0.007" errorplus="0.007">12.112</magB>
 			<magV errorminus="0.004" errorplus="0.004">11.592</magV>
 			<magJ errorminus="0.018" errorplus="0.018">10.583</magJ>
 			<magH errorminus="0.015" errorplus="0.015">10.350</magH>
 			<magK errorminus="0.019" errorplus="0.019">10.330</magK>
+			<temperature errorminus="75" errorplus="75">6200</temperature>
 			<metallicity>0.001</metallicity>
-			<spectraltype>K0V</spectraltype>
+			<spectraltype>F8</spectraltype>
 			<planet>
 				<name>TrES-4 A b</name>
 				<name>TrES-4 b</name>
@@ -42,8 +46,12 @@
 			</planet>
 		</star>
 		<star>
-			<name>TrES-4 C</name>
-			<mass>0.59</mass>
+			<name>TrES-4 B</name>
+			<magJ errorminus="0.012" errorplus="0.012">14.111</magJ>
+			<magH errorminus="0.013" errorplus="0.013">13.527</magH>
+			<magK errorminus="0.046" errorplus="0.046">13.631</magK>
+			<temperature errorminus="93" errorplus="93">3985</temperature>
+			<mass errorminus="0.028" errorplus="0.028">0.626</mass>
 			<spectraltype>K</spectraltype>
 		</star>
 	</binary>

@@ -4,6 +4,7 @@
 	<declination>+06 25 46</declination>
 	<distance errorminus="37.0" errorplus="25.6">165.8</distance>
 	<binary>
+		<name>WASP-2</name>
 		<separation errorminus="0.001" errorplus="0.001" unit="arcsec">0.757</separation>
 		<separation unit="AU">125</separation>
 		<positionangle errorminus="0.3" errorplus="0.3">104.7</positionangle>
@@ -16,6 +17,7 @@
 			<magJ errorminus="0.027" errorplus="0.027">10.166</magJ>
 			<magH errorminus="0.026" errorplus="0.026">9.752</magH>
 			<magK errorminus="0.024" errorplus="0.024">9.632</magK>
+			<temperature errorminus="71" errorplus="71">5255</temperature>
 			<metallicity>-0.08</metallicity>
 			<spectraltype>K1V</spectraltype>
 			<planet>
@@ -38,11 +40,14 @@
 				<temperature>1170.7</temperature>
 				<istransiting>1</istransiting>
 			</planet>
-			<temperature>5150.0</temperature>
 		</star>
 		<star>
-			<name>WASP-2 C</name>
-			<mass>0.48</mass>
+			<name>WASP-2 B</name>
+			<magJ errorminus="0.010" errorplus="0.010">13.046</magJ>
+			<magH errorminus="0.0061" errorplus="0.0061">12.4863</magH>
+			<magK errorminus="0.028" errorplus="0.028">12.503</magK>
+			<temperature errorminus="26" errorplus="26">3509</temperature>
+			<mass errorminus="0.028" errorplus="0.028">0.383</mass>
 			<spectraltype>M0</spectraltype>
 		</star>
 	</binary>
