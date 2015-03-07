@@ -2,43 +2,80 @@
 	<name>Kepler-13</name>
 	<rightascension>19 07 53.1072</rightascension>
 	<declination>+46 52 05.953</declination>
-	<distance>735.73</distance>
-	<star>
-		<name>Kepler-13 A</name>
-		<name>KOI-13A</name>
+	<distance errorminus="106" errorplus="106">530</distance>
+	<binary>
+		<name>Kepler-13</name>
+		<name>KOI-13</name>
 		<name>BD+46 2629</name>
-		<name>PPM 57894</name>
-		<magB>10.16</magB>
-		<magV>9.95</magV>
-		<magJ errorminus="0.022" errorplus="0.022">9.466</magJ>
-		<magH errorminus="0.019" errorplus="0.019">9.455</magH>
-		<magK errorminus="0.014" errorplus="0.014">9.425</magK>
-		<temperature errorminus="200.00" errorplus="200.00">9071.00</temperature>
-		<radius errorminus="1.9000" errorplus="1.9000">2.7000</radius>
-		<mass errorminus="0.4700" errorplus="0.4700">2.2700</mass>
-		<age errorminus="0.1300" errorplus="0.1300">0.5800</age>
-		<metallicity>-0.14</metallicity>
-		<spectraltype>A</spectraltype>
-		<planet>
-			<name>Kepler-13 A b</name>
-			<name>Kepler-13 b</name>
-			<name>KOI-13 b</name>
-			<name>KOI-13.01</name>
-			<name>BD+46 2629 b</name>
-			<name>PPM 57894 b</name>
-			<mass errorminus="1.575" errorplus="1.575">6.515</mass>
-			<radius errorminus="0.038" errorplus="0.038">1.406</radius>
-			<period errorminus="0.0013" errorplus="0.0013">1.7637</period>
-			<transittime errorminus="0.0000100" errorplus="0.0000100">2454953.5651260</transittime>
-			<semimajoraxis>0.0380000</semimajoraxis>
-			<temperature errorminus="160" errorplus="160">2750</temperature>
-			<list>Confirmed planets</list>
-			<description>KOI-13 b (also known as Kepler-13 b) is a Hot Jupiter orbiting a fast-rotating A-type star.</description>
-			<discoverymethod>transit</discoverymethod>
-			<lastupdate>13/03/25</lastupdate>
-			<discoveryyear>2011</discoveryyear>
-			<istransiting>1</istransiting>
-		</planet>
-	</star>
+		<separation errorminus="0.05" errorplus="0.05" unit="arcsec">1.15</separation>
+		<separation errorminus="120" errorplus="120" unit="AU">610</separation>
+		<positionangle errorminus="1" errorplus="1">281</positionangle>
+		<star>
+			<name>Kepler-13 A</name>
+			<name>KOI-13 A</name>
+			<name>BD+46 2629 A</name>
+			<name>PPM 57894</name>
+			<name>TYC 3542-64-1</name>
+			<magB>10.16</magB>
+			<magV>9.95</magV>
+			<magJ errorminus="0.022" errorplus="0.022">9.466</magJ>
+			<magH errorminus="0.019" errorplus="0.019">9.455</magH>
+			<magK errorminus="0.014" errorplus="0.014">9.425</magK>
+			<temperature errorminus="250" errorplus="250">7650</temperature>
+			<radius errorminus="0.04" errorplus="0.04">1.71</radius>
+			<mass errorminus="0.10" errorplus="0.10">1.72</mass>
+			<age errorminus="0.146" errorplus="0.183">0.708</age>
+			<metallicity>0.2</metallicity>
+			<spectraltype>A</spectraltype>
+			<planet>
+				<name>Kepler-13 A b</name>
+				<name>Kepler-13 b</name>
+				<name>KOI-13 b</name>
+				<name>KOI-13.01</name>
+				<name>BD+46 2629 A b</name>
+				<name>PPM 57894 b</name>
+				<mass lowerlimit="4.94" upperlimit="8.09" />
+				<radius errorminus="0.038" errorplus="0.038">1.406</radius>
+				<period errorminus="0.00000037" errorplus="0.00000037">1.76358799</period>
+				<transittime errorminus="0.0000100" errorplus="0.0000100">2454953.5651260</transittime>
+				<semimajoraxis errorminus="0.00066" errorplus="0.00066">0.03423</semimajoraxis>
+				<inclination>86.6</inclination>
+				<temperature errorminus="160" errorplus="160">2750</temperature>
+				<spinorbitalignment errorminus="2.0" errorplus="2.0">58.6</spinorbitalignment>
+				<list>Confirmed planets</list>
+				<description>KOI-13 b (also known as Kepler-13 b) is a Hot Jupiter orbiting a fast-rotating A-type star.</description>
+				<discoverymethod>transit</discoverymethod>
+				<lastupdate>15/03/07</lastupdate>
+				<discoveryyear>2011</discoveryyear>
+				<istransiting>1</istransiting>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+		<binary>
+			<period errorminus="0.029" errorplus="0.029">65.831</period>
+			<eccentricity errorminus="0.02" errorplus="0.02">0.52</eccentricity>
+			<periastron errorminus="3" errorplus="3">32</periastron>
+			<periastrontime errorminus="0.181" errorplus="0.181" unit="BJD">2455943.181</periastrontime>
+			<semimajoraxis>0.41</semimajoraxis>
+			<star>
+				<name>Kepler-13 B</name>
+				<name>BD+46 2629 B</name>
+				<name>TYC 3542-64-2</name>
+				<magV>10.2</magV>
+				<mass errorminus="0.10" errorplus="0.10">1.68</mass>
+				<radius errorminus="0.04" errorplus="0.04">1.68</radius>
+				<temperature errorminus="250" errorplus="250">7530</temperature>
+				<metallicity errorminus="0.2" errorplus="0.2">0.2</metallicity>
+				<age errorminus="0.1" errorplus="0.1">0.5</age>
+				<spectraltype>A</spectraltype>
+			</star>
+			<star>
+				<name>Kepler-13 C</name>
+				<name>BD+46 2629 C</name>
+				<temperature upperlimit="4700" />
+				<mass lowerlimit="0.4" upperlimit="0.75" />
+			</star>
+		</binary>
+	</binary>
 	<videolink>http://youtu.be/v26NOR1Ihuc</videolink>
 </system>
