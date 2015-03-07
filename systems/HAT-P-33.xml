@@ -2,37 +2,53 @@
 	<name>HAT-P-33</name>
 	<rightascension>07 32 44</rightascension>
 	<declination>+33 50 06</declination>
-	<distance>419</distance>
-	<star>
-		<mass>1.403</mass>
-		<radius>1.777</radius>
-		<magV errorminus="0.11" errorplus="0.11">11.03</magV>
-		<magB errorminus="0.12" errorplus="0.12">11.66</magB>
-		<magR errorminus="0.07" errorplus="0.07">11.10</magR>
-		<magJ errorminus="0.021" errorplus="0.021">10.263</magJ>
-		<magH errorminus="0.024" errorplus="0.024">10.061</magH>
-		<magK errorminus="0.018" errorplus="0.018">10.004</magK>
-		<metallicity>0.05</metallicity>
-		<spectraltype>F</spectraltype>
-		<planet>
-			<name>HAT-P-33 b</name>
-			<name>TYC 2461-00988-1 b</name>
-			<name>2MASS J07324421+3350061 b</name>
-			<list>Confirmed planets</list>
-			<mass>0.763</mass>
-			<radius>1.827</radius>
-			<period>3.474474</period>
-			<semimajoraxis>0.0503</semimajoraxis>
-			<eccentricity>0.148</eccentricity>
-			<inclination>86.7</inclination>
-			<discoverymethod>transit</discoverymethod>
-			<lastupdate>13/05/29</lastupdate>
-			<discoveryyear>2011</discoveryyear>
-			<temperature>1675.2</temperature>
-			<transittime errorminus="0.00022" errorplus="0.00022" unit="BJD">2455110.92595</transittime>
-			<istransiting>1</istransiting>
-		</planet>
+	<distance errorminus="9" errorplus="9">387</distance>
+	<binary>
 		<name>HAT-P-33</name>
-		<temperature>6401.0</temperature>
-	</star>
+		<separation errorminus="0.0015" errorplus="0.0015" unit="arcsec">0.3063</separation>
+		<separation errorminus="2.8" errorplus="2.8" unit="AU">118.5</separation>
+		<positionangle errorminus="0.29" errorplus="0.29">118.05</positionangle>
+		<star>
+			<name>HAT-P-33 A</name>
+			<mass>1.403</mass>
+			<radius>1.777</radius>
+			<magV errorminus="0.11" errorplus="0.11">11.03</magV>
+			<magB errorminus="0.12" errorplus="0.12">11.66</magB>
+			<magR errorminus="0.07" errorplus="0.07">11.10</magR>
+			<magJ errorminus="0.021" errorplus="0.021">10.263</magJ>
+			<magH errorminus="0.024" errorplus="0.024">10.061</magH>
+			<magK errorminus="0.018" errorplus="0.018">10.004</magK>
+			<temperature errorminus="88" errorplus="88">6446</temperature>
+			<metallicity>0.05</metallicity>
+			<spectraltype>F</spectraltype>
+			<planet>
+				<name>HAT-P-33 b</name>
+				<name>HAT-P-33 A b</name>
+				<name>TYC 2461-00988-1 b</name>
+				<name>2MASS J07324421+3350061 b</name>
+				<list>Confirmed planets</list>
+				<mass>0.763</mass>
+				<radius>1.827</radius>
+				<period>3.474474</period>
+				<semimajoraxis>0.0503</semimajoraxis>
+				<eccentricity>0.148</eccentricity>
+				<inclination>86.7</inclination>
+				<discoverymethod>transit</discoverymethod>
+				<lastupdate>13/05/29</lastupdate>
+				<discoveryyear>2011</discoveryyear>
+				<temperature>1675.2</temperature>
+				<transittime errorminus="0.00022" errorplus="0.00022" unit="BJD">2455110.92595</transittime>
+				<istransiting>1</istransiting>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+		<star>
+			<name>HAT-P-33 B</name>
+			<magJ errorminus="0.054" errorplus="0.054">14.400</magJ>
+			<magH errorminus="0.033" errorplus="0.033">13.530</magH>
+			<magK errorminus="0.057" errorplus="0.057">13.419</magK>
+			<temperature errorminus="32" errorplus="32">3776</temperature>
+			<mass errorminus="0.014" errorplus="0.014">0.557</mass>
+		</star>
+	</binary>
 </system>

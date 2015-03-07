@@ -3,39 +3,59 @@
 	<rightascension>08 15 48</rightascension>
 	<declination>+05 50 12</declination>
 	<distance errorminus="8" errorplus="8">193</distance>
-	<star>
-		<mass errorminus="0.041" errorplus="0.041">1.242</mass>
-		<radius errorminus="0.051" errorplus="0.051">1.215</radius>
-		<temperature errorminus="88" errorplus="88">6304</temperature>
-		<magV errorminus="0.05" errorplus="0.05">10.35</magV>
-		<magB errorminus="0.06" errorplus="0.06">10.95</magB>
-		<magJ errorminus="0.026" errorplus="0.026">9.442</magJ>
-		<magH errorminus="0.028" errorplus="0.028">9.220</magH>
-		<magK errorminus="0.023" errorplus="0.023">9.151</magK>
-		<metallicity errorminus="0.08" errorplus="0.08">0.13</metallicity>
-		<spectraltype>F</spectraltype>
-		<age errorminus="0.5" errorplus="0.8">1.0</age>
-		<planet>
-			<name>HAT-P-30 b</name>
-			<name>WASP-51 b</name>
-			<name>WASP-51</name>
-			<name>GSC 0208-00722 b</name>
-			<name>2MASS J08154797+0550121</name>
-			<list>Confirmed planets</list>
-			<mass errorminus="0.028" errorplus="0.028">0.711</mass>
-			<radius errorminus="0.065" errorplus="0.065">1.340</radius>
-			<period errorminus="0.000005" errorplus="0.000005">2.810595</period>
-			<semimajoraxis errorminus="0.0005" errorplus="0.0005">0.0419</semimajoraxis>
-			<eccentricity errorminus="0.002" errorplus="0.002">0.035</eccentricity>
-			<inclination errorminus="0.4" errorplus="0.4">83.6</inclination>
-			<description>This exoplanet is transiting the dwarf star GSC 0208-00722. The sky projection of the planet's orbit normal and the star's spin axis is 73.5 degrees.</description>
-			<discoverymethod>transit</discoverymethod>
-			<lastupdate>12/11/24</lastupdate>
-			<discoveryyear>2011</discoveryyear>
-			<temperature>1552.5</temperature>
-			<transittime errorminus="0.00037" errorplus="0.00037" unit="BJD">2455456.46561</transittime>
-			<istransiting>1</istransiting>
-		</planet>
+	<binary>
 		<name>HAT-P-30</name>
-	</star>
+		<name>WASP-51</name>
+		<separation errorminus="0.0017" errorplus="0.0017" unit="arcsec">3.8366</separation>
+		<separation errorminus="31" errorplus="31" unit="AU">740</separation>
+		<positionangle errorminus="0.024" errorplus="0.024">4.206</positionangle>
+		<star>
+			<name>HAT-P-30 A</name>
+			<name>WASP-51 A</name>
+			<mass errorminus="0.041" errorplus="0.041">1.242</mass>
+			<radius errorminus="0.051" errorplus="0.051">1.215</radius>
+			<temperature errorminus="88" errorplus="88">6304</temperature>
+			<magV errorminus="0.05" errorplus="0.05">10.35</magV>
+			<magB errorminus="0.06" errorplus="0.06">10.95</magB>
+			<magJ errorminus="0.026" errorplus="0.026">9.442</magJ>
+			<magH errorminus="0.028" errorplus="0.028">9.220</magH>
+			<magK errorminus="0.023" errorplus="0.023">9.151</magK>
+			<metallicity errorminus="0.08" errorplus="0.08">0.13</metallicity>
+			<spectraltype>F</spectraltype>
+			<age errorminus="0.5" errorplus="0.8">1.0</age>
+			<planet>
+				<name>HAT-P-30 b</name>
+				<name>HAT-P-31 A b</name>
+				<name>WASP-51 b</name>
+				<name>WASP-51 A b</name>
+				<name>WASP-51</name>
+				<name>GSC 0208-00722 b</name>
+				<name>2MASS J08154797+0550121</name>
+				<list>Confirmed planets</list>
+				<mass errorminus="0.028" errorplus="0.028">0.711</mass>
+				<radius errorminus="0.065" errorplus="0.065">1.340</radius>
+				<period errorminus="0.000005" errorplus="0.000005">2.810595</period>
+				<semimajoraxis errorminus="0.0005" errorplus="0.0005">0.0419</semimajoraxis>
+				<eccentricity errorminus="0.002" errorplus="0.002">0.035</eccentricity>
+				<inclination errorminus="0.4" errorplus="0.4">83.6</inclination>
+				<description>This exoplanet is transiting the dwarf star GSC 0208-00722. The sky projection of the planet's orbit normal and the star's spin axis is 73.5 degrees.</description>
+				<discoverymethod>transit</discoverymethod>
+				<lastupdate>12/11/24</lastupdate>
+				<discoveryyear>2011</discoveryyear>
+				<temperature>1552.5</temperature>
+				<transittime errorminus="0.00037" errorplus="0.00037" unit="BJD">2455456.46561</transittime>
+				<istransiting>1</istransiting>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+		<star>
+			<name>HAT-P-30 B</name>
+			<name>WASP-51 B</name>
+			<magJ errorminus="0.0063" errorplus="0.0063">12.8724</magJ>
+			<magH errorminus="0.0053" errorplus="0.0053">12.3353</magH>
+			<magK errorminus="0.041" errorplus="0.041">12.126</magK>
+			<temperature errorminus="40" errorplus="40">3692</temperature>
+			<mass errorminus="0.019" errorplus="0.019">0.519</mass>
+		</star>
+	</binary>
 </system>
