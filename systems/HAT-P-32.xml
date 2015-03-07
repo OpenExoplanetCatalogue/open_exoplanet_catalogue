@@ -2,42 +2,58 @@
 	<name>HAT-P-32</name>
 	<rightascension>02 01 10</rightascension>
 	<declination>+46 41 16</declination>
-	<distance>320</distance>
-	<star>
+	<distance errorminus="5" errorplus="5">283</distance>
+	<binary>
 		<name>HAT-P-32</name>
-		<name>TYC 3281-800-1</name>
-		<name>2MASS J02041028+4641162</name>
-		<name>GSC 03281-00800</name>
-		<name>UCAC2 47486078</name>
-		<name>UCAC3 274-27296</name>
-		<mass>1.176</mass>
-		<radius>1.387</radius>
-		<magV errorminus="0.12" errorplus="0.12">11.44</magV>
-		<magB errorminus="0.10" errorplus="0.10">11.79</magB>
-		<magR errorminus="0.06" errorplus="0.06">11.23</magR>
-		<magJ errorminus="0.022" errorplus="0.022">10.251</magJ>
-		<magH errorminus="0.022" errorplus="0.022">10.024</magH>
-		<magK errorminus="0.022" errorplus="0.022">9.990</magK>
-		<metallicity>-0.16</metallicity>
-		<spectraltype>F/G</spectraltype>
-		<planet>
-			<name>HAT-P-32 b</name>
-			<name>TYC 3281-00800-1 b</name>
-			<name>2MASS J02041028+4641162 b</name>
-			<list>Confirmed planets</list>
-			<mass>0.941</mass>
-			<radius>2.037</radius>
-			<period>2.150009</period>
-			<semimajoraxis>0.0344</semimajoraxis>
-			<eccentricity>0.163</eccentricity>
-			<inclination>88.7</inclination>
-			<discoverymethod>transit</discoverymethod>
-			<lastupdate>13/05/29</lastupdate>
-			<discoveryyear>2011</discoveryyear>
-			<temperature>1677.4</temperature>
-			<transittime errorminus="0.00009" errorplus="0.00009" unit="BJD">2454420.44637</transittime>
-			<istransiting>1</istransiting>
-		</planet>
-		<temperature>6001.0</temperature>
-	</star>
+		<separation errorminus="0.0017" errorplus="0.0017" unit="arcsec">2.9355</separation>
+		<separation errorminus="15" errorplus="15" unit="AU">831</separation>
+		<positionangle errorminus="0.031" errorplus="0.031">110.624</positionangle>
+		<star>
+			<name>HAT-P-32 A</name>
+			<name>TYC 3281-800-1</name>
+			<name>2MASS J02041028+4641162</name>
+			<name>GSC 03281-00800</name>
+			<name>UCAC2 47486078</name>
+			<name>UCAC3 274-27296</name>
+			<mass>1.176</mass>
+			<radius>1.387</radius>
+			<magV errorminus="0.12" errorplus="0.12">11.44</magV>
+			<magB errorminus="0.10" errorplus="0.10">11.79</magB>
+			<magR errorminus="0.06" errorplus="0.06">11.23</magR>
+			<magJ errorminus="0.022" errorplus="0.022">10.251</magJ>
+			<magH errorminus="0.022" errorplus="0.022">10.024</magH>
+			<magK errorminus="0.022" errorplus="0.022">9.990</magK>
+			<metallicity>-0.16</metallicity>
+			<temperature errorminus="88" errorplus="88">6207</temperature>
+			<spectraltype>F/G</spectraltype>
+			<planet>
+				<name>HAT-P-32 b</name>
+				<name>HAT-P-32 A b</name>
+				<name>TYC 3281-00800-1 b</name>
+				<name>2MASS J02041028+4641162 b</name>
+				<list>Confirmed planets</list>
+				<mass>0.941</mass>
+				<radius>2.037</radius>
+				<period>2.150009</period>
+				<semimajoraxis>0.0344</semimajoraxis>
+				<eccentricity>0.163</eccentricity>
+				<inclination>88.7</inclination>
+				<discoverymethod>transit</discoverymethod>
+				<lastupdate>13/05/29</lastupdate>
+				<discoveryyear>2011</discoveryyear>
+				<temperature>1677.4</temperature>
+				<transittime errorminus="0.00009" errorplus="0.00009" unit="BJD">2454420.44637</transittime>
+				<istransiting>1</istransiting>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+		<star>
+			<name>HAT-P-32 B</name>
+			<magJ errorminus="0.028" errorplus="0.028">14.399</magJ>
+			<magH errorminus="0.071" errorplus="0.071">13.692</magH>
+			<magK errorminus="0.073" errorplus="0.073">13.490</magK>
+			<temperature errorminus="10" errorplus="10">3551</temperature>
+			<mass errorminus="0.0085" errorplus="0.0085">0.4243</mass>
+		</star>
+	</binary>
 </system>

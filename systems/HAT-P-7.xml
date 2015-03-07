@@ -2,42 +2,58 @@
 	<name>HAT-P-7</name>
 	<rightascension>19 28 59</rightascension>
 	<declination>+47 58 10</declination>
-	<distance>320</distance>
-	<star>
-		<spectraltype>F6</spectraltype>
-		<mass>1.4150</mass>
-		<radius>1.9276</radius>
-		<magV errorminus="0.05" errorplus="0.05">10.48</magV>
-		<magB errorminus="0.06" errorplus="0.06">10.97</magB>
-		<magJ errorminus="0.030" errorplus="0.030">9.555</magJ>
-		<magH errorminus="0.029" errorplus="0.029">9.344</magH>
-		<magK errorminus="0.018" errorplus="0.018">9.334</magK>
-		<temperature>6350</temperature>
-		<age>2.2082</age>
-		<metallicity>0.26</metallicity>
-		<planet>
-			<name>HAT-P-7 b</name>
-			<name>2MASS J19285935+4758102 b</name>
-			<name>TYC 3547-01402-1 b</name>
-			<name>BD+47 2846 b</name>
-			<name>KIC 10666592 b</name>
-			<name>Kepler-2 b</name>
-			<name>KOI-2 b</name>
-			<list>Confirmed planets</list>
-			<mass>1.709</mass>
-			<radius>1.4588</radius>
-			<temperature>2733</temperature>
-			<period>2.204737</period>
-			<semimajoraxis>0.0379</semimajoraxis>
-			<eccentricity>0.0</eccentricity>
-			<inclination>83.111</inclination>
-			<description>The star HAT-P-7 is located in the constellation Cygnus and in the field of view of the Kepler spacecraft. Measurements of the Rossiter-McLaughlin effect suggest that this planet is in a retrograde orbit. Retrograde orbits are difficult to explain with standard disk migration. Planet-planet scattering or the Kozei effect are able to produce retrograde orbits.</description>
-			<discoverymethod>transit</discoverymethod>
-			<lastupdate>13/01/24</lastupdate>
-			<discoveryyear>2008</discoveryyear>
-			<transittime errorminus="0.00064" errorplus="0.00064" unit="BJD">2454342.42691</transittime>
-			<istransiting>1</istransiting>
-		</planet>
+	<distance errorminus="40" errorplus="50">320</distance>
+	<binary>
 		<name>HAT-P-7</name>
-	</star>
+		<separation errorminus="0.004" errorplus="0.0018" unit="arcsec">3.8587</separation>
+		<separation errorminus="67" errorplus="67" unit="AU">1238</separation>
+		<positionangle errorminus="0.1" errorplus="0.1">89.8</positionangle>
+		<star>
+			<name>HAT-P-7 A</name>
+			<spectraltype>F6</spectraltype>
+			<mass>1.4150</mass>
+			<radius>1.9276</radius>
+			<magV errorminus="0.05" errorplus="0.05">10.48</magV>
+			<magB errorminus="0.06" errorplus="0.06">10.97</magB>
+			<magJ errorminus="0.030" errorplus="0.030">9.555</magJ>
+			<magH errorminus="0.029" errorplus="0.029">9.344</magH>
+			<magK errorminus="0.018" errorplus="0.018">9.334</magK>
+			<temperature errorminus="32" errorplus="32">6259</temperature>
+			<age>2.2082</age>
+			<metallicity>0.26</metallicity>
+			<planet>
+				<name>HAT-P-7 b</name>
+				<name>HAT-P-7 A b</name>
+				<name>2MASS J19285935+4758102 b</name>
+				<name>TYC 3547-01402-1 b</name>
+				<name>BD+47 2846 b</name>
+				<name>KIC 10666592 b</name>
+				<name>Kepler-2 b</name>
+				<name>KOI-2 b</name>
+				<list>Confirmed planets</list>
+				<mass>1.709</mass>
+				<radius>1.4588</radius>
+				<temperature>2733</temperature>
+				<period>2.204737</period>
+				<semimajoraxis>0.0379</semimajoraxis>
+				<eccentricity>0.0</eccentricity>
+				<inclination>83.111</inclination>
+				<description>The star HAT-P-7 is located in the constellation Cygnus and in the field of view of the Kepler spacecraft. Measurements of the Rossiter-McLaughlin effect suggest that this planet is in a retrograde orbit. Retrograde orbits are difficult to explain with standard disk migration. Planet-planet scattering or the Kozei effect are able to produce retrograde orbits.</description>
+				<discoverymethod>transit</discoverymethod>
+				<lastupdate>13/01/24</lastupdate>
+				<discoveryyear>2008</discoveryyear>
+				<transittime errorminus="0.00064" errorplus="0.00064" unit="BJD">2454342.42691</transittime>
+				<istransiting>1</istransiting>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+		<star>
+			<name>HAT-P-7 B</name>
+			<magJ errorminus="0.075" errorplus="0.075">16.117</magJ>
+			<magH errorminus="0.078" errorplus="0.078">15.231</magH>
+			<magK errorminus="0.058" errorplus="0.058">15.254</magK>
+			<temperature errorminus="28" errorplus="28">3321</temperature>
+			<mass errorminus="0.016" errorplus="0.016">0.215</mass>
+		</star>
+	</binary>
 </system>

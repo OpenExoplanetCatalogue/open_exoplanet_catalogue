@@ -18,6 +18,7 @@
 			<magJ errorminus="0.021" errorplus="0.021">10.477</magJ>
 			<magH errorminus="0.022" errorplus="0.022">10.228</magH>
 			<magK errorminus="0.020" errorplus="0.020">10.188</magK>
+			<temperature errorminus="64" errorplus="64">6118</temperature>
 			<metallicity>0.3</metallicity>
 			<spectraltype>G0</spectraltype>
 			<planet>
@@ -41,7 +42,6 @@
 				<list>Planets in binary systems, S-type</list>
 				<istransiting>1</istransiting>
 			</planet>
-			<temperature>6300.0</temperature>
 		</star>
 		<binary>
 			<separation errorminus="0.0006" errorplus="0.0006" unit="arcsec">0.0843</separation>
@@ -50,16 +50,18 @@
 			<star>
 				<name>WASP-12 B</name>
 				<spectraltype>M3V</spectraltype>
-				<magJ>14.3</magJ>
-				<magK>13.4</magK>
-				<mass errorminus="0.05" errorplus="0.05">0.38</mass>
+				<magJ errorminus="0.076" errorplus="0.076">14.188</magJ>
+				<magK errorminus="0.11" errorplus="0.11">13.51</magK>
+				<temperature errorminus="53" errorplus="53">3786</temperature>
+				<mass errorminus="0.022" errorplus="0.022">0.561</mass>
 			</star>
 			<star>
 				<name>WASP-12 C</name>
 				<spectraltype>M3V</spectraltype>
-				<magJ>14.4</magJ>
-				<magK>13.5</magK>
-				<mass errorminus="0.05" errorplus="0.05">0.37</mass>
+				<magJ errorminus="0.021" errorplus="0.021">14.149</magJ>
+				<magK errorminus="0.036" errorplus="0.036">13.765</magK>
+				<temperature errorminus="90" errorplus="90">3748</temperature>
+				<mass errorminus="0.020" errorplus="0.020">0.540</mass>
 			</star>
 		</binary>
 	</binary>
