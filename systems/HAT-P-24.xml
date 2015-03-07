@@ -2,37 +2,55 @@
 	<name>HAT-P-24</name>
 	<rightascension>07 15 18</rightascension>
 	<declination>+14 15 44</declination>
-	<distance>306</distance>
-	<star>
-		<mass>1.191</mass>
-		<radius>1.317</radius>
-		<magV errorminus="0.016" errorplus="0.016">11.76</magV>
-		<magB errorminus="0.17" errorplus="0.17">12.21</magB>
-		<magR errorminus="0.05" errorplus="0.05">11.71</magR>
-		<magJ errorminus="0.022" errorplus="0.022">10.797</magJ>
-		<magH errorminus="0.024" errorplus="0.024">10.589</magH>
-		<magK errorminus="0.020" errorplus="0.020">10.543</magK>
-		<metallicity>-0.16</metallicity>
-		<spectraltype>F8</spectraltype>
-		<planet>
-			<name>HAT-P-24 b</name>
-			<name>TYC 774-01441-1 b</name>
-			<name>2MASS J07151801+1415453 b</name>
-			<list>Confirmed planets</list>
-			<mass>0.685</mass>
-			<radius>1.242</radius>
-			<period>3.35524</period>
-			<semimajoraxis>0.0465</semimajoraxis>
-			<eccentricity>0.067</eccentricity>
-			<inclination>88.6</inclination>
-			<discoverymethod>transit</discoverymethod>
-			<lastupdate>13/05/29</lastupdate>
-			<discoveryyear>2010</discoveryyear>
-			<temperature>1495.0</temperature>
-			<transittime errorminus="0.00024" errorplus="0.00024" unit="BJD">2455216.97669</transittime>
-			<istransiting>1</istransiting>
-		</planet>
+	<distance errorminus="20" errorplus="20">396</distance>
+	<binary>
 		<name>HAT-P-24</name>
-		<temperature>6373.0</temperature>
-	</star>
+		<separation errorminus="0.0019" errorplus="0.0019" unit="arcsec">4.9442</separation>
+		<separation errorminus="99" errorplus="99" unit="AU">1958</separation>
+		<positionangle errorminus="0.020" errorplus="0.020">170.872</positionangle>
+		<star>
+			<name>HAT-P-24 A</name>
+			<name>TYC 774-01441-1</name>
+			<name>2MASS J07151801+1415453</name>
+			<mass errorminus="0.042" errorplus="0.042">1.191</mass>
+			<radius>1.317</radius>
+			<magV errorminus="0.016" errorplus="0.016">11.76</magV>
+			<magB errorminus="0.17" errorplus="0.17">12.21</magB>
+			<magR errorminus="0.05" errorplus="0.05">11.71</magR>
+			<magJ errorminus="0.022" errorplus="0.022">10.797</magJ>
+			<magH errorminus="0.024" errorplus="0.024">10.589</magH>
+			<magK errorminus="0.020" errorplus="0.020">10.543</magK>
+			<metallicity>-0.16</metallicity>
+			<spectraltype>F8</spectraltype>
+			<temperature errorminus="67" errorplus="67">6329</temperature>
+			<planet>
+				<name>HAT-P-24 b</name>
+				<name>HAT-P-24 A b</name>
+				<name>TYC 774-01441-1 b</name>
+				<name>2MASS J07151801+1415453 b</name>
+				<list>Confirmed planets</list>
+				<mass>0.685</mass>
+				<radius>1.242</radius>
+				<period>3.35524</period>
+				<semimajoraxis>0.0465</semimajoraxis>
+				<eccentricity>0.067</eccentricity>
+				<inclination>88.6</inclination>
+				<discoverymethod>transit</discoverymethod>
+				<lastupdate>13/05/29</lastupdate>
+				<discoveryyear>2010</discoveryyear>
+				<temperature>1495.0</temperature>
+				<transittime errorminus="0.00024" errorplus="0.00024" unit="BJD">2455216.97669</transittime>
+				<istransiting>1</istransiting>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+		<star>
+			<name>HAT-P-24 B</name>
+			<magJ errorminus="0.080" errorplus="0.080">15.455</magJ>
+			<magH errorminus="0.052" errorplus="0.052">14.752</magH>
+			<magK errorminus="0.010" errorplus="0.010">14.354</magK>
+			<temperature errorminus="29" errorplus="29">3499</temperature>
+			<mass errorminus="0.030" errorplus="0.030">0.373</mass>
+		</star>
+	</binary>
 </system>
