@@ -2,36 +2,52 @@
 	<name>WASP-3</name>
 	<rightascension>18 34 32</rightascension>
 	<declination>+35 39 42</declination>
-	<distance>223</distance>
-	<star>
-		<mass>1.24</mass>
-		<radius>1.31</radius>
-		<magV>10.64</magV>
-		<magB errorminus="0.06" errorplus="0.06">11.07</magB>
-		<magR errorminus="0.04" errorplus="0.04">10.52</magR>
-		<magJ errorminus="0.020" errorplus="0.020">9.603</magJ>
-		<magH errorminus="0.014" errorplus="0.014">9.407</magH>
-		<magK errorminus="0.015" errorplus="0.015">9.361</magK>
-		<spectraltype>F7V</spectraltype>
-		<planet>
-			<name>WASP-3 b</name>
-			<name>2MASS J18343163+3539415 b</name>
-			<name>TYC 2636-00195-1 b</name>
-			<list>Confirmed planets</list>
-			<mass>2.06</mass>
-			<radius>1.454</radius>
-			<period>1.8468372</period>
-			<semimajoraxis>0.0313</semimajoraxis>
-			<eccentricity>0.0</eccentricity>
-			<inclination>85.06</inclination>
-			<transittime errorminus="0.00010" errorplus="0.00010" unit="BJD">2454605.55978</transittime>
-			<discoverymethod>transit</discoverymethod>
-			<lastupdate>11/06/23</lastupdate>
-			<discoveryyear>2007</discoveryyear>
-			<temperature>1825.6</temperature>
-			<istransiting>1</istransiting>
-		</planet>
+	<distance errorminus="20" errorplus="20">220</distance>
+	<binary>
 		<name>WASP-3</name>
-		<temperature>6400.0</temperature>
-	</star>
+		<separation errorminus="0.0015" errorplus="0.0015" unit="arcsec">1.1910</separation>
+		<separation errorminus="22" errorplus="22" unit="AU">299</separation>
+		<positionangle errorminus="0.075" errorplus="0.075">87.070</positionangle>
+		<star>
+			<name>WASP-3 A</name>
+			<temperature>6400.0</temperature>
+			<mass>1.24</mass>
+			<radius>1.31</radius>
+			<magV>10.64</magV>
+			<magB errorminus="0.06" errorplus="0.06">11.07</magB>
+			<magR errorminus="0.04" errorplus="0.04">10.52</magR>
+			<magJ errorminus="0.020" errorplus="0.020">9.603</magJ>
+			<magH errorminus="0.014" errorplus="0.014">9.407</magH>
+			<magK errorminus="0.015" errorplus="0.015">9.361</magK>
+			<spectraltype>F7V</spectraltype>
+			<planet>
+				<name>WASP-3 b</name>
+				<name>WASP-3 A b</name>
+				<name>2MASS J18343163+3539415 b</name>
+				<name>TYC 2636-00195-1 b</name>
+				<list>Confirmed planets</list>
+				<mass>2.06</mass>
+				<radius>1.454</radius>
+				<period>1.8468372</period>
+				<semimajoraxis>0.0313</semimajoraxis>
+				<eccentricity>0.0</eccentricity>
+				<inclination>85.06</inclination>
+				<transittime errorminus="0.00010" errorplus="0.00010" unit="BJD">2454605.55978</transittime>
+				<discoverymethod>transit</discoverymethod>
+				<lastupdate>11/06/23</lastupdate>
+				<discoveryyear>2007</discoveryyear>
+				<temperature>1825.6</temperature>
+				<istransiting>1</istransiting>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+		<star>
+			<name>WASP-3 B</name>
+			<magJ errorminus="0.12" errorplus="0.12">16.88</magJ>
+			<magH errorminus="0.079" errorplus="0.079">16.090</magH>
+			<magK errorminus="0.052" errorplus="0.052">16.002</magK>
+			<temperature errorminus="51" errorplus="51">2871</temperature>
+			<mass errorminus="0.0048" errorplus="0.0048">0.1053</mass>
+		</star>
+	</binary>
 </system>

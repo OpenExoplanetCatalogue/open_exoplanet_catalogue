@@ -2,37 +2,53 @@
 	<name>WASP-8</name>
 	<rightascension>23 59 36</rightascension>
 	<declination>-35 01 53</declination>
-	<distance>87</distance>
-	<star>
-		<mass>1.033</mass>
-		<radius>0.953</radius>
-		<magV>9.9</magV>
-		<magR>9.61</magR>
-		<magB errorminus="0.029" errorplus="0.029">10.518</magB>
-		<magJ errorminus="0.027" errorplus="0.027">8.501</magJ>
-		<magH errorminus="0.05" errorplus="0.05">8.22</magH>
-		<magK errorminus="0.023" errorplus="0.023">8.086</magK>
-		<metallicity>0.17</metallicity>
-		<spectraltype>G6</spectraltype>
-		<planet>
-			<name>WASP-8 b</name>
-			<name>TYC 7522-505-1 b</name>
-			<name>2MASS J23593607-3501530 b</name>
-			<list>Confirmed planets</list>
-			<mass>2.244</mass>
-			<radius>1.038</radius>
-			<period>8.158715</period>
-			<semimajoraxis>0.0801</semimajoraxis>
-			<eccentricity>0.31</eccentricity>
-			<inclination>88.55</inclination>
-			<transittime errorminus="0.00043" errorplus="0.00050" unit="BJD">2454679.33394</transittime>
-			<discoverymethod>transit</discoverymethod>
-			<lastupdate>12/04/08</lastupdate>
-			<discoveryyear>2008</discoveryyear>
-			<temperature>846.5</temperature>
-			<istransiting>1</istransiting>
-		</planet>
+	<distance errorminus="7" errorplus="7">87</distance>
+	<binary>
 		<name>WASP-8</name>
-		<temperature>5600.0</temperature>
-	</star>
+		<separation errorminus="0.0017" errorplus="0.0017" unit="arcsec">4.5052</separation>
+		<separation errorminus="48" errorplus="48" unit="AU">383</separation>
+		<positionangle errorminus="0.021" errorplus="0.021">170.948</positionangle>
+		<star>
+			<name>WASP-8 A</name>
+			<temperature>5600.0</temperature>
+			<mass>1.033</mass>
+			<radius>0.953</radius>
+			<magV>9.9</magV>
+			<magR>9.61</magR>
+			<magB errorminus="0.029" errorplus="0.029">10.518</magB>
+			<magJ errorminus="0.027" errorplus="0.027">8.501</magJ>
+			<magH errorminus="0.05" errorplus="0.05">8.22</magH>
+			<magK errorminus="0.023" errorplus="0.023">8.086</magK>
+			<metallicity>0.17</metallicity>
+			<spectraltype>G6</spectraltype>
+			<planet>
+				<name>WASP-8 b</name>
+				<name>WASP-8 A b</name>
+				<name>TYC 7522-505-1 b</name>
+				<name>2MASS J23593607-3501530 b</name>
+				<list>Confirmed planets</list>
+				<mass>2.244</mass>
+				<radius>1.038</radius>
+				<period>8.158715</period>
+				<semimajoraxis>0.0801</semimajoraxis>
+				<eccentricity>0.31</eccentricity>
+				<inclination>88.55</inclination>
+				<transittime errorminus="0.00043" errorplus="0.00050" unit="BJD">2454679.33394</transittime>
+				<discoverymethod>transit</discoverymethod>
+				<lastupdate>12/04/08</lastupdate>
+				<discoveryyear>2008</discoveryyear>
+				<temperature>846.5</temperature>
+				<istransiting>1</istransiting>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+		<star>
+			<name>WASP-8 B</name>
+			<magJ errorminus="0.062" errorplus="0.062">12.993</magJ>
+			<magH errorminus="0.056" errorplus="0.056">11.354</magH>
+			<magK errorminus="0.021" errorplus="0.021">10.636</magK>
+			<temperature errorminus="130" errorplus="130">3530</temperature>
+			<mass errorminus="0.11" errorplus="0.11">0.34</mass>
+		</star>
+	</binary>
 </system>
