@@ -1,0 +1,42 @@
+<system>
+	<name>EPIC201505350</name>
+	<rightascension>11 39 50.476</rightascension>
+	<declination>+00 36 12.87</declination>
+	<star>
+		<name>EPIC201505350</name>
+		<mass errorminus="0.14" errorplus="0.14">0.92</mass>
+		<radius errorminus="0.2" errorplus="0.2">1.03</radius>
+		<temperature errorminus="417" errorplus="417">5230</temperature>
+		<metallicity errorminus="0.23" errorplus="0.23">0.38</metallicity>
+		<magV>12.8</magV>
+		<spectraltype>K</spectraltype>
+		<planet>
+			<name>EPIC201505350 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.17" errorplus="0.19">2.5</radius>
+			<period errorminus="0.000078" errorplus="0.000081">7.919454</period>
+			<transittime errorminus="0.00039" errorplus="0.00036" unit="BJD">2456813.38345</transittime>
+			<semimajoraxis errorminus="0.013" errorplus="0.008">0.077</semimajoraxis>
+			<inclination errorminus="0.89" errorplus="1.08">88.83</inclination>
+			<description>This planet is one of two planets orbiting a K dwarf extremely close to the 3:2 mean motion resonance.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>15/03/02</lastupdate>
+			<discoveryyear>2015</discoveryyear>
+		</planet>
+		<planet>
+			<name>EPIC201505350 c</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.10" errorplus="0.10">1.4</radius>
+			<period errorminus="0.00044" errorplus="0.00039">11.90701</period>
+			<transittime errorminus="0.0012" errorplus="0.0012" unit="BJD">2456817.2759</transittime>
+			<semimajoraxis errorminus="0.0080" errorplus="0.0074">0.1032</semimajoraxis>
+			<inclination errorminus="0.32" errorplus="0.05">89.91</inclination>
+			<description>This planet is one of two planets orbiting a K dwarf extremely close to the 3:2 mean motion resonance.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>15/03/02</lastupdate>
+			<discoveryyear>2015</discoveryyear>
+		</planet>
+	</star>
+</system>
