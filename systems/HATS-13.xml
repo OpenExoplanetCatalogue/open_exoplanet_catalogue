@@ -1,0 +1,39 @@
+<system>
+	<name>HATS-13</name>
+	<rightascension>21 07 50.88</rightascension>
+	<declination>-26 05 48.0</declination>
+	<distance errorminus="12" errorplus="12">476</distance>
+	<star>
+		<name>HATS-13</name>
+		<name>2MASS J21075075-2605479</name>
+		<name>GSC 6928-00497</name>
+		<mass errorminus="0.029" errorplus="0.029">0.962</mass>
+		<radius errorminus="0.019" errorplus="0.019">0.887</radius>
+		<temperature errorminus="69" errorplus="69">5523</temperature>
+		<magB errorminus="0.020" errorplus="0.020">14.686</magB>
+		<magV errorminus="0.010" errorplus="0.010">13.887</magV>
+		<magJ errorminus="0.021" errorplus="0.021">12.439</magJ>
+		<magH errorminus="0.025" errorplus="0.025">12.052</magH>
+		<magK errorminus="0.028" errorplus="0.028">11.983</magK>
+		<age errorminus="1.7" errorplus="1.7">2.5</age>
+		<metallicity errorminus="0.060" errorplus="0.060">0.050</metallicity>
+		<planet>
+			<name>HATS-13 b</name>
+			<name>2MASS J21075075-2605479 b</name>
+			<name>GSC 6928-00497 b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.072" errorplus="0.072">0.543</mass>
+			<radius errorminus="0.035" errorplus="0.035">1.212</radius>
+			<temperature errorminus="20" errorplus="20">1244</temperature>
+			<transittime errorminus="0.00026" errorplus="0.00026" unit="BJD">2456340.31705</transittime>
+			<period errorminus="0.0000027" errorplus="0.0000027">3.0440499</period>
+			<semimajoraxis errorminus="0.00041" errorplus="0.00041">0.04057</semimajoraxis>
+			<inclination errorminus="0.43" errorplus="0.43">88.55</inclination>
+			<description>HATS-13 b is a transiting planet that was discovered by the HATSouth survey.</description>
+			<discoverymethod>transit</discoverymethod>
+			<lastupdate>15/03/11</lastupdate>
+			<discoveryyear>2015</discoveryyear>
+			<istransiting>1</istransiting>
+		</planet>
+	</star>
+</system>
