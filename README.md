@@ -65,6 +65,7 @@ The following table shows all the possible tags in the Open Exoplanet Catalogue.
 | `eccentricity` 	| `binary`, `planet` | Eccentricity  | |
 | `periastron` 	| `binary`, `planet` | Longitude of periastron | degree  |
 | `longitude` 	| `binary`, `planet` | Mean longitude at a given Epoch (same for all planets in one system) | degree  |
+| `meananomaly`	| `binary`, `planet` | Mean anomaly at a given Epoch (same for all planets in one system) | degree  |
 | `ascendingnode` 	| `binary`, `planet` | Longitude of the ascending node | degree  |
 | `inclination` 	| `binary`, `planet` | Inclination of the orbit | degree  |
 | `epoch` | `system` | Epoch for the orbital elements | BJD |

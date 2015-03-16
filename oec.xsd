@@ -37,6 +37,7 @@
 				<xs:element name="longitude" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="ascendingnode" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="inclination" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="meananomaly" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="period" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="transittime" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="periastrontime" type="number" minOccurs="0" maxOccurs="1"/>
@@ -101,6 +102,7 @@
 				<xs:element name="eccentricity" type="number"/>
 				<xs:element name="periastron" type="number"/>
 				<xs:element name="longitude" type="number"/>
+				<xs:element name="meananomaly" type="number"/>
 				<xs:element name="ascendingnode" type="number"/>
 				<xs:element name="inclination" type="number"/>
 				<xs:element name="period" type="number"/>
