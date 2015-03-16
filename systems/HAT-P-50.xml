@@ -1,0 +1,40 @@
+<system>
+	<name>HAT-P-50</name>
+	<rightascension>07 52 15.20</rightascension>
+	<declination>+12 08 21.9</declination>
+	<distance errorminus="21" errorplus="21">497</distance>
+	<star>
+		<name>HAT-P-50</name>
+		<name>GSC 0787-00340</name>
+		<name>2MASS J07521521+1208218</name>
+		<mass errorminus="0.115" errorplus="0.049">1.273</mass>
+		<radius errorminus="0.071" errorplus="0.071">1.698</radius>
+		<temperature errorminus="49" errorplus="49">6280</temperature>
+		<magB errorminus="0.050" errorplus="0.050">12.282</magB>
+		<magV errorminus="0.030" errorplus="0.030">11.762</magV>
+		<magJ errorminus="0.021" errorplus="0.021">10.816</magJ>
+		<magH errorminus="0.020" errorplus="0.020">10.545</magH>
+		<magK errorminus="0.018" errorplus="0.018">10.500</magK>
+		<metallicity errorminus="0.080" errorplus="0.080">-0.180</metallicity>
+		<age errorminus="0.27" errorplus="1.44">3.37</age>
+		<planet>
+			<name>HAT-P-50 b</name>
+			<name>GSC 0787-00340 b</name>
+			<name>2MASS J07521521+1208218 b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.073" errorplus="0.073">1.350</mass>
+			<radius errorminus="0.064" errorplus="0.064">1.288</radius>
+			<temperature errorminus="34" errorplus="34">1862</temperature>
+			<period errorminus="0.0000065" errorplus="0.0000065">3.1220109</period>
+			<transittime errorminus="0.00036" errorplus="0.00036">2456287.47093</transittime>
+			<semimajoraxis errorminus="0.00140" errorplus="0.00058">0.04530</semimajoraxis>
+			<eccentricity upperlimit="0.115" />
+			<inclination errorminus="0.57" errorplus="0.57">83.65</inclination>
+			<description>This Jupiter-mass planet was discovered by the HATNet transit survey.</description>
+			<discoverymethod>transit</discoverymethod>
+			<lastupdate>15/03/13</lastupdate>
+			<discoveryyear>2015</discoveryyear>
+			<istransiting>1</istransiting>
+		</planet>
+	</star>
+</system>
