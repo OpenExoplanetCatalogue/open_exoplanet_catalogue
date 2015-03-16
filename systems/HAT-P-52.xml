@@ -1,0 +1,40 @@
+<system>
+	<name>HAT-P-52</name>
+	<rightascension>02 50 53.20</rightascension>
+	<declination>+29 01 20.6</declination>
+	<distance errorminus="21" errorplus="21">385</distance>
+	<star>
+		<name>HAT-P-52</name>
+		<name>GSC 1793-01136</name>
+		<name>2MASS J02505320+2901206</name>
+		<mass errorminus="0.027" errorplus="0.027">0.887</mass>
+		<radius errorminus="0.047" errorplus="0.047">0.893</radius>
+		<temperature errorminus="50" errorplus="50">5131</temperature>
+		<magB errorminus="0.050" errorplus="0.050">15.183</magB>
+		<magV errorminus="0.020" errorplus="0.020">14.068</magV>
+		<magJ errorminus="0.022" errorplus="0.022">12.195</magJ>
+		<magH errorminus="0.022" errorplus="0.022">11.745</magH>
+		<magK errorminus="0.021" errorplus="0.021">11.621</magK>
+		<metallicity errorminus="0.080" errorplus="0.080">0.280</metallicity>
+		<age errorminus="4.1" errorplus="4.1">9.4</age>
+		<planet>
+			<name>HAT-P-52 b</name>
+			<name>GSC 1793-01136 b</name>
+			<name>2MASS J02505320+2901206 b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.029" errorplus="0.029">0.818</mass>
+			<radius errorminus="0.072" errorplus="0.072">1.009</radius>
+			<temperature errorminus="37" errorplus="37">1218</temperature>
+			<period errorminus="0.0000094" errorplus="0.0000094">2.7535953</period>
+			<transittime errorminus="0.00041" errorplus="0.00041">2455853.48006</transittime>
+			<semimajoraxis errorminus="0.00038" errorplus="0.00038">0.03694</semimajoraxis>
+			<eccentricity upperlimit="0.047" />
+			<inclination errorminus="0.86" errorplus="0.86">87.02</inclination>
+			<description>This Jupiter-mass planet was discovered by the HATNet transit survey.</description>
+			<discoverymethod>transit</discoverymethod>
+			<lastupdate>15/03/13</lastupdate>
+			<discoveryyear>2015</discoveryyear>
+			<istransiting>1</istransiting>
+		</planet>
+	</star>
+</system>

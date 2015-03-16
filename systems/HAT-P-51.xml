@@ -1,0 +1,40 @@
+<system>
+	<name>HAT-P-51</name>
+	<rightascension>01 24 15.66</rightascension>
+	<declination>+32 48 38.8</declination>
+	<distance errorminus="16" errorplus="15">470</distance>
+	<star>
+		<name>HAT-P-51</name>
+		<name>GSC 2296-00637</name>
+		<name>2MASS J01241564+3248387</name>
+		<mass errorminus="0.028" errorplus="0.028">0.976</mass>
+		<radius errorminus="0.029" errorplus="0.038">1.041</radius>
+		<temperature errorminus="50" errorplus="50">5449</temperature>
+		<magB errorminus="0.070" errorplus="0.070">14.261</magB>
+		<magV errorminus="0.040" errorplus="0.040">13.440</magV>
+		<magJ errorminus="0.022" errorplus="0.022">12.039</magJ>
+		<magH errorminus="0.023" errorplus="0.023">11.654</magH>
+		<magK errorminus="0.020" errorplus="0.020">11.614</magK>
+		<metallicity errorminus="0.080" errorplus="0.080">0.270</metallicity>
+		<age errorminus="1.7" errorplus="1.7">8.2</age>
+		<planet>
+			<name>HAT-P-51 b</name>
+			<name>GSC 2296-00637 b</name>
+			<name>2MASS J01241564+3248387 b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.018" errorplus="0.018">0.309</mass>
+			<radius errorminus="0.087" errorplus="0.054">1.293</radius>
+			<temperature errorminus="21" errorplus="21">1192</temperature>
+			<period errorminus="0.0000059" errorplus="0.0000059">4.2180278</period>
+			<transittime errorminus="0.00040" errorplus="0.00040">2456196.23106</transittime>
+			<semimajoraxis errorminus="0.00049" errorplus="0.00049">0.05069</semimajoraxis>
+			<eccentricity upperlimit="0.123" />
+			<inclination errorminus="0.57" errorplus="0.57">88.48</inclination>
+			<description>This planet was discovered by the HATNet transit survey. The low stellar jitter and fovorable radii ratio make it a promising target for measuring the Rossiter-McLaughlin effect for a Saturn-mass planet.</description>
+			<discoverymethod>transit</discoverymethod>
+			<lastupdate>15/03/13</lastupdate>
+			<discoveryyear>2015</discoveryyear>
+			<istransiting>1</istransiting>
+		</planet>
+	</star>
+</system>
