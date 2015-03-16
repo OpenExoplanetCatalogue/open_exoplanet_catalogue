@@ -1,0 +1,39 @@
+<system>
+	<name>HAT-P-53</name>
+	<rightascension>01 27 29.05</rightascension>
+	<declination>+38 58 05.3</declination>
+	<distance errorminus="43" errorplus="43">719</distance>
+	<star>
+		<name>HAT-P-53</name>
+		<name>GSC 2813-01266</name>
+		<name>2MASS J01272906+3858053</name>
+		<mass errorminus="0.043" errorplus="0.043">1.093</mass>
+		<radius errorminus="0.062" errorplus="0.081">1.209</radius>
+		<temperature errorminus="50" errorplus="50">5956</temperature>
+		<magV errorminus="0.18" errorplus="0.18">11.73</magV>
+		<magJ errorminus="0.023" errorplus="0.023">12.468</magJ>
+		<magH errorminus="0.026" errorplus="0.026">12.202</magH>
+		<magK errorminus="0.019" errorplus="0.019">12.100</magK>
+		<metallicity errorminus="0.080" errorplus="0.080">0.000</metallicity>
+		<age errorminus="0.83" errorplus="1.45">4.67</age>
+		<planet>
+			<name>HAT-P-53 b</name>
+			<name>GSC 2813-01266 b</name>
+			<name>2MASS J01272906+3858053 b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.056" errorplus="0.056">1.484</mass>
+			<radius errorminus="0.091" errorplus="0.091">1.318</radius>
+			<temperature errorminus="48" errorplus="48">1778</temperature>
+			<period errorminus="0.0000039" errorplus="0.0000039">1.9616241</period>
+			<transittime errorminus="0.00044" errorplus="0.00044">2455830.42863</transittime>
+			<semimajoraxis errorminus="0.00042" errorplus="0.00042">0.03159</semimajoraxis>
+			<eccentricity upperlimit="0.134" />
+			<inclination errorminus="1.5" errorplus="1.5">86.2</inclination>
+			<description>This Jupiter-mass planet was discovered by the HATNet transit survey.</description>
+			<discoverymethod>transit</discoverymethod>
+			<lastupdate>15/03/13</lastupdate>
+			<discoveryyear>2015</discoveryyear>
+			<istransiting>1</istransiting>
+		</planet>
+	</star>
+</system>
