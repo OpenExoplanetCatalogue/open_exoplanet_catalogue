@@ -3,8 +3,8 @@
 	<rightascension>19 21 41</rightascension>
 	<declination>+37 51 06</declination>
 	<star>
-		<mass>0.936</mass>
-		<radius>0.85</radius>
+		<mass errorminus="0.040" errorplus="0.040">0.936</mass>
+		<radius errorminus="0.018" errorplus="0.018">0.850</radius>
 		<magV>12</magV>
 		<magB errorminus="0.26" errorplus="0.26">12.88</magB>
 		<magR errorminus="0.05" errorplus="0.05">12.02</magR>
@@ -22,22 +22,38 @@
 			<name>2MASS J19214099+3751064 b</name>
 			<name>KIC 2571238 b</name>
 			<list>Confirmed planets</list>
-			<mass>0.064</mass>
-			<radius>0.198</radius>
-			<period>9.2869944</period>
-			<semimajoraxis>0.118</semimajoraxis>
-			<inclination>89.94</inclination>
+			<mass upperlimit="0.0639" />
+			<radius errorminus="0.0043" errorplus="0.0043">0.1971</radius>
+			<period errorminus="0.0000088" errorplus="0.0000088">9.2869944</period>
+			<semimajoraxis errorminus="0.0012" errorplus="0.0012">0.0846</semimajoraxis>
+			<inclination errorminus="0.44" errorplus="0.06">89.94</inclination>
 			<transittime errorminus="0.00036" errorplus="0.00036" unit="BJD">2454959.70597</transittime>
 			<description>Sinusoidal transit timing variations have been detected in this system. An additional planet might be present.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>11/09/09</lastupdate>
 			<discoveryyear>2011</discoveryyear>
-			<temperature>772.6</temperature>
 			<istransiting>1</istransiting>
+		</planet>
+		<planet>
+			<name>Kepler-19 c</name>
+			<name>TYC 3134-1549-1 c</name>
+			<name>GSC 03134-01549 c</name>
+			<name>KOI-84 c</name>
+			<name>2MASS J19214099+3751064 c</name>
+			<name>KIC 2571238 c</name>
+			<list>Confirmed planets</list>
+			<period upperlimit="160" />
+			<mass upperlimit="6.0" />
+			<description>The planet Kepler-19 c was the first confirmed detection of a planet by transit timing variations.</description>
+			<discoverymethod>timing</discoverymethod>
+			<discoveryyear>2011</discoveryyear>
+			<lastupdate>15/03/18</lastupdate>
+			<istransiting>0</istransiting>
 		</planet>
 		<name>Kepler-19</name>
 		<name>KOI-84</name>
 		<name>KIC 2571238</name>
-		<temperature>5541.0</temperature>
+		<temperature errorminus="60" errorplus="60">5541</temperature>
+		<age errorminus="1.7" errorplus="1.7">1.9</age>
 	</star>
 </system>
