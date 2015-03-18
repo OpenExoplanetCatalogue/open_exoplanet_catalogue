@@ -7,22 +7,32 @@
 	<magH errorminus="0.022" errorplus="0.022">12.461</magH>
 	<magK errorminus="0.021" errorplus="0.021">12.395</magK>
 	<binary>
+		<name>PH-1</name>
+		<name>Kepler-64</name>
+		<name>KIC 4862625</name>
 		<separation unit="arcsec">0.7</separation>
 		<separation unit="AU">1000</separation>
 		<positionangle>123</positionangle>
 		<binary>
+			<name>PH-1 A</name>
+			<name>Kepler-64 A</name>
+			<name>KIC 4862625 A</name>
 			<period>20.000214</period>
 			<semimajoraxis>0.1744</semimajoraxis>
 			<eccentricity>0.21166048</eccentricity>
 			<periastron>348</periastron>
 			<star>
 				<name>PH-1 Aa</name>
+				<name>Kepler-64 Aa</name>
+				<name>KIC 4862625 Aa</name>
 				<mass>1.384</mass>
 				<radius>1.759</radius>
 				<spectraltype>F</spectraltype>
 			</star>
 			<star>
 				<name>PH-1 Ab</name>
+				<name>Kepler-64 Ab</name>
+				<name>KIC 4862625 Ab</name>
 				<mass>0.386</mass>
 				<radius>0.422</radius>
 				<spectraltype>M</spectraltype>
@@ -54,15 +64,22 @@
 			</planet>
 		</binary>
 		<binary>
+			<name>PH-1 B</name>
+			<name>Kepler-64 B</name>
+			<name>KIC 4862625 B</name>
 			<separation unit="arcsec" upperlimit="0.4" />
 			<separation unit="AU" upperlimit="60" />
 			<star>
 				<name>PH-1 Ba</name>
+				<name>Kepler-64 Ba</name>
+				<name>KIC 4862625 Ba</name>
 				<mass>0.99</mass>
 				<spectraltype>G2</spectraltype>
 			</star>
 			<star>
 				<name>PH-1 Bb</name>
+				<name>Kepler-64 Bb</name>
+				<name>KIC 4862625 Bb</name>
 				<mass>0.51</mass>
 				<spectraltype>M2</spectraltype>
 			</star>
