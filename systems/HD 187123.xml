@@ -2,44 +2,44 @@
 	<name>HD 187123</name>
 	<rightascension>19 46 57</rightascension>
 	<declination>+34 25 15</declination>
-	<distance>50</distance>
+	<distance errorminus="1.2" errorplus="1.2">48.3</distance>
 	<star>
-		<mass>1.06</mass>
-		<radius>1.17</radius>
-		<magV>7.86</magV>
+		<name>HD 187123</name>
+		<mass errorminus="0.025" errorplus="0.025">1.037</mass>
+		<radius errorminus="0.039" errorplus="0.039">1.143</radius>
+		<magV>7.8</magV>
 		<magB errorminus="0.016" errorplus="0.016">8.488</magB>
 		<magR>7.4</magR>
 		<magI>7.1</magI>
 		<magJ>6.64</magJ>
 		<magH>6.39</magH>
 		<magK>6.34</magK>
-		<metallicity>0.16</metallicity>
-		<spectraltype>G5</spectraltype>
+		<metallicity errorminus="0.03" errorplus="0.03">0.121</metallicity>
+		<spectraltype>G5V</spectraltype>
+		<temperature errorminus="44" errorplus="44">5815</temperature>
 		<planet>
 			<name>HD 187123 b</name>
 			<list>Confirmed planets</list>
-			<mass>0.52</mass>
-			<period>3.0965828</period>
-			<semimajoraxis>0.0426</semimajoraxis>
-			<eccentricity>0.01</eccentricity>
+			<mass errorminus="0.0026" errorplus="0.0026">0.5074</mass>
+			<period errorminus="0.0000043" errorplus="0.0000043">3.0965886</period>
+			<semimajoraxis errorminus="0.00034" errorplus="0.00034">0.04213</semimajoraxis>
+			<eccentricity errorminus="0.0046" errorplus="0.0046">0.0093</eccentricity>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/12/17</lastupdate>
+			<lastupdate>15/01/04</lastupdate>
 			<discoveryyear>1998</discoveryyear>
 			<temperature>1320.4</temperature>
 		</planet>
 		<planet>
 			<name>HD 187123 c</name>
 			<list>Confirmed planets</list>
-			<mass>1.99</mass>
-			<period>3810</period>
-			<semimajoraxis>4.89</semimajoraxis>
-			<eccentricity>0.252</eccentricity>
+			<mass errorminus="0.035" errorplus="0.035">1.818</mass>
+			<period errorminus="46" errorplus="46">3324</period>
+			<semimajoraxis errorminus="0.054" errorplus="0.054">4.417</semimajoraxis>
+			<eccentricity errorminus="0.022" errorplus="0.022">0.28</eccentricity>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/12/17</lastupdate>
+			<lastupdate>15/01/04</lastupdate>
 			<discoveryyear>1998</discoveryyear>
 			<temperature>122.7</temperature>
 		</planet>
-		<name>HD 187123</name>
-		<temperature>5714.0</temperature>
 	</star>
 </system>

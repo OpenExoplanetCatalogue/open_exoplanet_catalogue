@@ -2,31 +2,33 @@
 	<name>HD 24040</name>
 	<rightascension>03 50 23</rightascension>
 	<declination>+17 28 35</declination>
-	<distance>46.51</distance>
+	<distance errorminus="1.6" errorplus="1.6">46.6</distance>
+	<spectraltype>G0</spectraltype>
 	<star>
-		<mass>1.18</mass>
-		<magV>7.52</magV>
+		<name>HD 24040</name>
+		<mass errorminus="0.010" errorplus="0.010">1.18</mass>
+		<radius errorminus="0.039" errorplus="0.039">1.154</radius>
+		<magV>7.5</magV>
 		<magB>8.18</magB>
 		<magR>7.1</magR>
 		<magI>6.8</magI>
 		<magJ>6.28</magJ>
 		<magH>6.04</magH>
 		<magK>5.97</magK>
-		<metallicity>0.206</metallicity>
+		<metallicity errorminus="0.0030" errorplus="0.0030">0.0206</metallicity>
 		<spectraltype>G0</spectraltype>
+		<temperature errorminus="44" errorplus="44">5853</temperature>
 		<planet>
 			<name>HD 24040 b</name>
 			<list>Confirmed planets</list>
-			<mass>4.01</mass>
-			<period>3668</period>
-			<semimajoraxis>4.92</semimajoraxis>
-			<eccentricity>0.04</eccentricity>
+			<mass errorminus="0.12" errorplus="0.12">4.1</mass>
+			<period errorminus="25" errorplus="25">3490</period>
+			<semimajoraxis errorminus="0.067" errorplus="0.067">4.637</semimajoraxis>
+			<eccentricity errorminus="0.02" errorplus="0.02">0.047</eccentricity>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>12/05/25</lastupdate>
+			<lastupdate>15/01/04</lastupdate>
 			<discoveryyear>2006</discoveryyear>
 			<temperature>133.9</temperature>
 		</planet>
-		<name>HD 24040</name>
-		<temperature>5853.0</temperature>
 	</star>
 </system>

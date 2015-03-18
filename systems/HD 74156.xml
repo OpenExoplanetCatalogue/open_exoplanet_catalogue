@@ -2,44 +2,44 @@
 	<name>HD 74156</name>
 	<rightascension>08 42 25</rightascension>
 	<declination>+04 34 41</declination>
-	<distance>64.56</distance>
+	<distance errorminus="2.2" errorplus="2.2">64.4</distance>
 	<star>
-		<mass>1.24</mass>
-		<radius>1.64</radius>
-		<magV>7.62</magV>
+		<name>HD 74156</name>
+		<mass errorminus="0.042" errorplus="042">1.238</mass>
+		<radius errorminus="0.044" errorplus="0.044">1.345</radius>
+		<magV>7.6</magV>
 		<magB errorminus="0.017" errorplus="0.017">8.194</magB>
 		<magR>7.2</magR>
 		<magI>7.0</magI>
 		<magJ>6.56</magJ>
 		<magH>6.28</magH>
 		<magK>6.21</magK>
-		<metallicity>0.13</metallicity>
-		<spectraltype>G1V</spectraltype>
+		<metallicity errorminus="0.03" errorplus="0.03">0.131</metallicity>
+		<spectraltype>G0</spectraltype>
+		<temperature errorminus="44" errorplus="44">6068</temperature>
 		<planet>
 			<name>HD 74156 b</name>
 			<list>Confirmed planets</list>
-			<mass>1.88</mass>
-			<period>51.65</period>
-			<semimajoraxis>0.294</semimajoraxis>
-			<eccentricity>0.64</eccentricity>
+			<mass errorminus="0.02" errorplus="0.02">1.778</mass>
+			<period errorminus="0.0015" errorplus="0.0015">51.6385</period>
+			<semimajoraxis errorminus="0.0033" errorplus="0.0033">0.2916</semimajoraxis>
+			<eccentricity errorminus="0.0061" errorplus="0.0061">0.638</eccentricity>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/12/21</lastupdate>
+			<lastupdate>15/01/04</lastupdate>
 			<discoveryyear>2003</discoveryyear>
 			<temperature>602.9</temperature>
 		</planet>
 		<planet>
 			<name>HD 74156 c</name>
 			<list>Confirmed planets</list>
-			<mass>8.03</mass>
-			<period>2476</period>
-			<semimajoraxis>3.4</semimajoraxis>
-			<eccentricity>0.43</eccentricity>
+			<mass errorminus="0.095" errorplus="0.095">7.997</mass>
+			<period errorminus="5.5" errorplus="5.5">2448</period>
+			<semimajoraxis errorminus="0.044" errorplus="0.044">3.82</semimajoraxis>
+			<eccentricity errorminus="0.008" errorplus="0.008">0.3829</eccentricity>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/12/21</lastupdate>
+			<lastupdate>15/01/04</lastupdate>
 			<discoveryyear>2003</discoveryyear>
 			<temperature>180.3</temperature>
 		</planet>
-		<name>HD 74156</name>
-		<temperature>5960.0</temperature>
 	</star>
 </system>
