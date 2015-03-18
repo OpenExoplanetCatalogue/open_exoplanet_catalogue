@@ -6,6 +6,7 @@
 	<star>
 		<name>Kepler-424</name>
 		<name>KOI-214</name>
+		<name>KIC 11046458</name>
 		<temperature errorminus="81" errorplus="81">5460</temperature>
 		<metallicity errorminus="0.14" errorplus="0.14">0.44</metallicity>
 		<radius errorminus="0.056" errorplus="0.056">0.94</radius>
@@ -18,6 +19,7 @@
 			<name>Kepler-424 b</name>
 			<name>KOI-214 b</name>
 			<name>KOI-214.01</name>
+			<name>KIC 11046458 b</name>
 			<radius errorminus="0.06" errorplus="0.08">0.89</radius>
 			<period errorminus="0.00000039" errorplus="0.00000039">3.3118644</period>
 			<transittime errorminus="0.00017" errorplus="0.00023" unit="BJD">2454964.7427</transittime>
@@ -32,6 +34,8 @@
 		</planet>
 		<planet>
 			<name>Kepler-424 c</name>
+			<name>KOI-214 c</name>
+			<name>KIC 11046458 c</name>
 			<period errorminus="2.1" errorplus="2.1">223.3</period>
 			<eccentricity>0.3185</eccentricity>
 			<mass errorminus="0.62" errorplus="0.62">6.97</mass>

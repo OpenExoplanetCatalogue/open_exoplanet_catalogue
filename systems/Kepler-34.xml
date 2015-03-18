@@ -4,6 +4,9 @@
 	<declination>+44 38 30</declination>
 	<distance>1500</distance>
 	<binary>
+		<name>Kepler-34</name>
+		<name>KIC 8572936</name>
+		<name>KOI-2459</name>
 		<magJ errorminus="0.025" errorplus="0.025">13.605</magJ>
 		<magH errorminus="0.027" errorplus="0.027">13.301</magH>
 		<magK errorminus="0.04" errorplus="0.04">13.24</magK>
@@ -14,11 +17,16 @@
 		<inclination>89.8584</inclination>
 		<star>
 			<name>Kepler-34 A</name>
+			<name>KIC 8572936 A</name>
+			<name>KOI-2459 A</name>
 			<mass>1.0479</mass>
 			<radius>1.1618</radius>
 		</star>
 		<star>
 			<name>Kepler-34 B</name>
+			<name>KIC 8572936 B</name>
+			<name>KOI-2459 B</name>
+			<name>KOI-2459.01</name>
 			<mass>1.0208</mass>
 			<radius>1.0927</radius>
 		</star>
@@ -27,6 +35,7 @@
 			<name>KIC 8572936 b</name>
 			<name>Kepler-34 b</name>
 			<name>KOI-2459.02</name>
+			<name>KOI-2459 (AB) b</name>
 			<list>Confirmed planets</list>
 			<mass>0.22</mass>
 			<radius>0.764</radius>
