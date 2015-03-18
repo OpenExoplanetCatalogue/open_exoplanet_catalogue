@@ -4,13 +4,17 @@
 	<declination>+45 08 23</declination>
 	<distance errorminus="6.9" errorplus="6.9">132</distance>
 	<binary>
+		<name>Kepler-410</name>
+		<name>KIC 8866102</name>
+		<name>KOI-42</name>
 		<separation unit="arcsec">1.70</separation>
 		<separation unit="AU">224</separation>
 		<positionangle>35</positionangle>
 		<star>
 			<name>Kepler-410 A</name>
 			<name>HD 175289</name>
-			<name>KIC 8866102</name>
+			<name>KIC 8866102 A</name>
+			<name>KOI-42 A</name>
 			<mass errorminus="0.033" errorplus="0.033">1.214</mass>
 			<radius errorminus="0.010" errorplus="0.010">1.352</radius>
 			<age errorminus="0.54" errorplus="0.54">2.76</age>
@@ -21,7 +25,7 @@
 				<name>HD 175289 b</name>
 				<name>KIC 8866102 b</name>
 				<name>KOI-42 b</name>
-				<name>KOI-42 01</name>
+				<name>KOI-42.01</name>
 				<list>Confirmed planets</list>
 				<period errorminus="0.000054" errorplus="0.000054">17.833648</period>
 				<radius errorminus="0.004921" errorplus="0.004921">0.258628</radius>
@@ -38,6 +42,8 @@
 		</star>
 		<star>
 			<name>Kepler-410 B</name>
+			<name>KIC 8866102 B</name>
+			<name>KOI-42 B</name>
 			<temperature>4850</temperature>
 		</star>
 	</binary>
