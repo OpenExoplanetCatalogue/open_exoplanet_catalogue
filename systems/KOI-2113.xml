@@ -1,0 +1,49 @@
+<system>
+	<name>KOI-2113</name>
+	<rightascension>19 35 17.83</rightascension>
+	<declination>+42 46 46.9</declination>
+	<star>
+		<name>KOI-2113</name>
+		<name>Kepler-417</name>
+		<name>KIC 7207061</name>
+		<name>2MASS J19351783+4246469</name>
+		<magJ errorminus="0.032" errorplus="0.032">14.426</magJ>
+		<magH errorminus="0.037" errorplus="0.037">13.958</magH>
+		<magK errorminus="0.058" errorplus="0.058">13.922</magK>
+		<mass errorminus="0.089" errorplus="0.080">0.897</mass>
+		<radius errorminus="0.060" errorplus="0.299">0.806</radius>
+		<temperature errorminus="162" errorplus="201">5376</temperature>
+		<planet>
+			<name>KOI-2113 b</name>
+			<name>Kepler-417 b</name>
+			<name>KOI-2113.02</name>
+			<name>KIC 7207061 b</name>
+			<list>Confirmed planets</list>
+			<period>12.331</period>
+			<semimajoraxis>0.1006</semimajoraxis>
+			<radius errorminus="0.015" errorplus="0.077">0.206</radius>
+			<transittime errorminus="0.00255" errorplus="0.00255">2455194.97363</transittime>
+			<description>The planet Kepler-417 b has been confirmed by transit timing variations.</description>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>15/03/18</lastupdate>
+			<istransiting>1</istransiting>
+		</planet>
+		<planet>
+			<name>KOI-2113 c</name>
+			<name>Kepler-417 c</name>
+			<name>KOI-2113.01</name>
+			<name>KIC 7207061 c</name>
+			<list>Confirmed planets</list>
+			<period>15.943</period>
+			<semimajoraxis>0.1194</semimajoraxis>
+			<radius errorminus="0.018" errorplus="0.089">0.241</radius>
+			<transittime errorminus="0.00297" errorplus="0.00297">2454979.33004</transittime>
+			<description>The planet Kepler-417 c has been confirmed by transit timing variations.</description>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>15/03/18</lastupdate>
+			<istransiting>1</istransiting>
+		</planet>
+	</star>
+</system>

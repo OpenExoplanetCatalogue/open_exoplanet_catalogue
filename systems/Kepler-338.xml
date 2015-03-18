@@ -10,7 +10,7 @@
 		<name>KOI-1930</name>
 		<name>KIC 5511081</name>
 		<temperature errorminus="7" errorplus="77">5923</temperature>
-		<radius errorminus=".082" errorplus="0.082">1.735</radius>
+		<radius errorminus="0.082" errorplus="0.082">1.735</radius>
 		<mass errorminus="0.0720" errorplus="0.0720">1.1010</mass>
 		<planet>
 			<name>Kepler-338 b</name>
@@ -18,12 +18,13 @@
 			<name>KOI-1930.01</name>
 			<name>KIC 5511081 b</name>
 			<radius errorminus="0.01185" errorplus="0.01185">0.22236</radius>
-			<period errorminus=".000059" errorplus="0.000059">13.726976</period>
+			<mass errorminus="0.0663" errorplus="0.0761">0.0963</mass>
+			<period errorminus="0.000059" errorplus="0.000059">13.726976</period>
 			<transittime errorminus="0.0024700" errorplus="0.0024700">2454971.7483300</transittime>
 			<list>Confirmed planets</list>
 			<description>Kepler-338 b has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-338 b are still unknown, the object is highly unlikely to be a false positive.</description>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/02/26</lastupdate>
+			<lastupdate>15/03/18</lastupdate>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
 		</planet>
@@ -33,7 +34,7 @@
 			<name>KOI-1930.02</name>
 			<name>KIC 5511081 c</name>
 			<radius errorminus="0.01094" errorplus="0.01094">0.21324</radius>
-			<period errorminus=".000158" errorplus="0.000158">24.310856</period>
+			<period errorminus="0.000158" errorplus="0.000158">24.310856</period>
 			<transittime errorminus="0.0039700" errorplus="0.0039700">2454970.0414700</transittime>
 			<list>Confirmed planets</list>
 			<description>Kepler-338 c has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-338 c are still unknown, the object is highly unlikely to be a false positive.</description>
@@ -48,12 +49,28 @@
 			<name>KOI-1930.03</name>
 			<name>KIC 5511081 d</name>
 			<radius errorminus="0.02552" errorplus="0.02552">0.27339</radius>
-			<period errorminus=".000368" errorplus="0.000368">44.431014</period>
+			<period errorminus="0.000368" errorplus="0.000368">44.431014</period>
 			<transittime errorminus="0.0048000" errorplus="0.0048000">2454976.5419800</transittime>
 			<list>Confirmed planets</list>
 			<description>Kepler-338 d has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-338 d are still unknown, the object is highly unlikely to be a false positive.</description>
 			<discoveryyear>2014</discoveryyear>
 			<lastupdate>14/02/26</lastupdate>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+		</planet>
+		<planet>
+			<name>Kepler-338 e</name>
+			<name>KOI-1930 e</name>
+			<name>KOI-1930.04</name>
+			<name>KIC 5511081 e</name>
+			<radius errorminus="0.006" errorplus="0.006">0.139</radius>
+			<mass errorminus="0.020" errorplus="0.023">0.027</mass>
+			<period>9.341</period>
+			<transittime errorminus="0.00453" errorplus="0.00453">2454965.38637</transittime>
+			<list>Confirmed planets</list>
+			<description>Kepler-338 e was confirmed by transit timing variations.</description>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>15/03/18</lastupdate>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
 		</planet>
