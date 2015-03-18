@@ -5,6 +5,7 @@
 	<distance>500</distance>
 	<binary>
 		<name>KIC 9632895</name>
+		<name>KOI-1451</name>
 		<period errorminus="0.000017" errorplus="0.000017">27.322037</period>
 		<semimajoraxis errorminus="0.00066" errorplus="0.00066">0.18479</semimajoraxis>
 		<inclination errorminus="0.052" errorplus="0.052">90.275</inclination>
@@ -12,6 +13,7 @@
 		<periastron errorminus="0.48" errorplus="0.48">262.86</periastron>
 		<star>
 			<name>KIC 9632895 A</name>
+			<name>KOI-1451 A</name>
 			<mass errorminus="0.01" errorplus="0.01">0.934</mass>
 			<radius errorminus="0.011" errorplus="0.011">0.833</radius>
 			<temperature errorminus="100" errorplus="100">5527</temperature>
@@ -20,6 +22,8 @@
 		</star>
 		<star>
 			<name>KIC 9632895 B</name>
+			<name>KOI-1451.01</name>
+			<name>KOI-1451 B</name>
 			<mass errorminus="0.002" errorplus="0.002">0.1938</mass>
 			<radius errorminus="0.0014" errorplus="0.0014">0.2143</radius>
 			<temperature errorminus="100" errorplus="100">3309</temperature>
@@ -28,6 +32,7 @@
 		<planet>
 			<name>KIC 9632895 b</name>
 			<name>KIC 9632895 (AB) b</name>
+			<name>KOI-1451 (AB) b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.050331" errorplus="0.050331">0.019503</mass>
 			<radius errorminus="0.003190" errorplus="0.003190">0.561818</radius>
