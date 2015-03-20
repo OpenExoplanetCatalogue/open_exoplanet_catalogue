@@ -3,8 +3,8 @@
 	<name type="pri">Kepler-78</name>
 	<name>2MASS 19345800+4426539</name>
 	<name>TYC 3147-188-1</name>
-	<rightascension>19 34 58</rightascension>
-	<declination>+44 26 54</declination>
+	<rightascension>19 34 57.989</rightascension>
+	<declination>+44 26 54.28</declination>
 	<star>
 		<name>KIC 8435766</name>
 		<name type="pri">Kepler-78</name>
@@ -27,14 +27,14 @@
 			<name>2MASS 19345800+4426539 b</name>
 			<name>TYC 3147-188-1 b</name>
 			<list>Confirmed planets</list>
-			<mass errorminus="0.001290" errorplus="0.001290">0.005285</mass>
-			<radius errorminus="0.008202" errorplus="0.008202">0.109356</radius>
 			<period errorminus="0.00000006" errorplus="0.00000006">0.35500744</period>
-			<inclination errorminus="9" errorplus="6">81</inclination>
-			<transittime errorminus="0.00015" errorplus="0.00015" unit="BJD">2454953.95984</transittime>
+			<transittime errorminus="0.00015" errorplus="0.00015" unit="BJD">2454953.95995</transittime>
+			<mass errorminus="0.000818" errorplus="0.000849">0.005882</mass>
+			<radius errorminus="0.008202" errorplus="0.008202">0.109356</radius>
+			<inclination errorminus="2.1" errorplus="2.6">75.2</inclination>
 			<description>The Earth-sized planet KIC 8435766 b, also known as Kepler-78 b, was identified in the Kepler database and confirmed to be a transiting planet (as opposed to an eclipsing binary) through the absence of ellipsoidal or radial velocity variations. The planet has a dayside temperature of 2300K-3100K. The planet's density is similar to that of Earth, suggesting a composition of rock and iron.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>13/10/31</lastupdate>
+			<lastupdate>15/01/27</lastupdate>
 			<discoveryyear>2013</discoveryyear>
 			<istransiting>1</istransiting>
 		</planet>
