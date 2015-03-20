@@ -1,0 +1,74 @@
+<system>
+	<name>KOI-1860</name>
+	<rightascension>19 26 13.67</rightascension>
+	<declination>+39 13 38.2</declination>
+	<star>
+		<name>KOI-1860</name>
+		<name>Kepler-416</name>
+		<name>KIC 4157325</name>
+		<name>2MASS J19261367+3913382</name>
+		<magJ errorminus="0.025" errorplus="0.025">12.874</magJ>
+		<magH errorminus="0.025" errorplus="0.025">12.576</magH>
+		<magK errorminus="0.027" errorplus="0.027">12.510</magK>
+		<mass errorminus="0.116" errorplus="0.174">0.999</mass>
+		<radius errorminus="0.144" errorplus="0.431">1.075</radius>
+		<planet>
+			<name>KOI-1860 b</name>
+			<name>Kepler-416 b</name>
+			<name>KOI-1860.01</name>
+			<name>KIC 4157325 b</name>
+			<list>Confirmed planets</list>
+			<period>6.319</period>
+			<semimajoraxis>0.0458</semimajoraxis>
+			<radius errorminus="0.029" errorplus="0.088">0.221</radius>
+			<transittime errorminus="0.00161" errorplus="0.00161">2454965.23059</transittime>
+			<description>The planet Kepler-416 b has been confirmed by transit timing variations.</description>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>15/03/18</lastupdate>
+			<istransiting>1</istransiting>
+		</planet>
+		<planet>
+			<name>KOI-1860 c</name>
+			<name>Kepler-416 c</name>
+			<name>KOI-1860.02</name>
+			<name>KIC 4157325 c</name>
+			<list>Confirmed planets</list>
+			<period>12.209</period>
+			<semimajoraxis>0.1038</semimajoraxis>
+			<radius errorminus="0.030" errorplus="0.091">0.227</radius>
+			<transittime errorminus="0.00195" errorplus="0.00195">2455193.32274</transittime>
+			<description>The planet Kepler-416 c has been confirmed by transit timing variations.</description>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>15/03/18</lastupdate>
+			<istransiting>1</istransiting>
+		</planet>
+		<planet>
+			<name>KOI-1860.03</name>
+			<list>Kepler Objects of Interest</list>
+			<period errorminus="0.000008492" errorplus="0.000008492">3.076452083</period>
+			<semimajoraxis>0.0414</semimajoraxis>
+			<radius errorminus="0.020" errorplus="0.061">0.150</radius>
+			<transittime errorminus="0.00187" errorplus="0.00187">2455186.76426</transittime>
+			<description>The planet candidate KOI-1860.03 has not yet been confirmed as a planet.</description>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>15/03/18</lastupdate>
+			<istransiting>1</istransiting>
+		</planet>
+		<planet>
+			<name>KOI-1860.04</name>
+			<list>Kepler Objects of Interest</list>
+			<period errorminus="0.0004607" errorplus="0.0004607">24.8435099</period>
+			<semimajoraxis>0.1667</semimajoraxis>
+			<radius errorminus="0.018" errorplus="0.053">0.131</radius>
+			<transittime errorminus="0.016" errorplus="0.016">2454833.1715</transittime>
+			<description>The planet candidate KOI-1860.04 has not yet been confirmed as a planet.</description>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>15/03/18</lastupdate>
+			<istransiting>1</istransiting>
+		</planet>
+	</star>
+</system>
