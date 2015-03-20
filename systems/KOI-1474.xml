@@ -1,0 +1,58 @@
+<system>
+	<name>KOI-1474</name>
+	<rightascension>19 41 40.30</rightascension>
+	<declination>+51 11 05.2</declination>
+	<star>
+		<name>KOI-1474</name>
+		<name>Kepler-419</name>
+		<name>KIC 12365184</name>
+		<name>2MASS J19414029+5111051</name>
+		<magJ errorminus="0.020" errorplus="0.020">12.088</magJ>
+		<magH errorminus="0.019" errorplus="0.019">11.899</magH>
+		<magK errorminus="0.018" errorplus="0.018">11.859</magK>
+		<mass errorminus="0.07" errorplus="0.08">1.39</mass>
+		<radius errorminus="0.07" errorplus="0.08">1.75</radius>
+		<temperature>6370</temperature>
+		<metallicity errorminus="0.09" errorplus="0.09">0.14</metallicity>
+		<planet>
+			<name>KOI-1474 b</name>
+			<name>KOI-1474.01</name>
+			<name>Kepler-419 b</name>
+			<name>KIC 12365184 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.116" errorplus="0.125">0.964</radius>
+			<mass errorminus="0.3" errorplus="0.3">2.5</mass>
+			<period errorminus="0.0009" errorplus="0.0007">69.7546</period>
+			<semimajoraxis errorminus="0.006" errorplus="0.007">0.370</semimajoraxis>
+			<eccentricity errorminus="0.013" errorplus="0.013">0.833</eccentricity>
+			<periastron errorminus="1.2" errorplus="1.0">95.2</periastron>
+			<meananomaly errorminus="0.05" errorplus="0.05">68.69</meananomaly>
+			<inclination errorminus="0.17" errorplus="0.14">88.95</inclination>
+			<ascendingnode>0</ascendingnode>
+			<description>The planet KOI-1474 b was identified as a potential proto-hot Jupiter in 2012. Transit timing variations revealed the presence of an outer companion, which was subsequently found to be well-aligned with the orbit of the inner planet.</description>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2015</discoveryyear>
+			<lastupdate>15/03/18</lastupdate>
+			<istransiting>1</istransiting>
+		</planet>
+		<planet>
+			<name>Kepler-419 c</name>
+			<name>KOI-1474 c</name>
+			<name>KIC 12365184 c</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.4" errorplus="0.4">7.3</mass>
+			<period errorminus="0.11" errorplus="0.11">675.47</period>
+			<semimajoraxis errorminus="0.03" errorplus="0.03">1.68</semimajoraxis>
+			<eccentricity errorminus="0.002" errorplus="0.002">0.184</eccentricity>
+			<periastron errorminus="1.0" errorplus="1.2">275.3</periastron>
+			<meananomaly errorminus="0.3" errorplus="0.3">345.0</meananomaly>
+			<ascendingnode errorminus="12">4</ascendingnode>
+			<inclination errorminus="2" errorplus="3">88</inclination>
+			<description>The planet KOI-1474 c was initially identified by transit timing variations. The timing variations allowed for the planet's properties to be effectively constrained, revealing that the two giant planets in this system have well-aligned orbits.</description>
+			<discoverymethod>timing</discoverymethod>
+			<discoveryyear>2012</discoveryyear>
+			<lastupdate>15/03/18</lastupdate>
+			<istransiting>0</istransiting>
+		</planet>
+	</star>
+</system>
