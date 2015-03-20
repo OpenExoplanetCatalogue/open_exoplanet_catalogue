@@ -1,0 +1,62 @@
+<system>
+	<name>KOI-1194</name>
+	<rightascension>19 35 13.07</rightascension>
+	<declination>+38 38 20.9</declination>
+	<star>
+		<name>KOI-1194</name>
+		<name>Kepler-415</name>
+		<name>KIC 3554031</name>
+		<name>2MASS J19351306+3838208</name>
+		<magJ errorminus="0.035" errorplus="0.035">14.091</magJ>
+		<magH errorminus="0.031" errorplus="0.031">13.434</magH>
+		<magK errorminus="0.040" errorplus="0.040">13.378</magK>
+		<mass errorminus="0.068" errorplus="0.062">0.674</mass>
+		<radius errorminus="0.055" errorplus="0.069">0.643</radius>
+		<temperature errorminus="156" errorplus="170">4523</temperature>
+		<planet>
+			<name>KOI-1194 b</name>
+			<name>Kepler-415 b</name>
+			<name>KOI-1194.03</name>
+			<name>KIC 3554031 b</name>
+			<list>Confirmed planets</list>
+			<period>4.176</period>
+			<semimajoraxis>0.0446</semimajoraxis>
+			<radius errorminus="0.009" errorplus="0.012">0.108</radius>
+			<transittime errorminus="0.00347" errorplus="0.00347">2455185.99560</transittime>
+			<description>The planet Kepler-415 b has been confirmed by transit timing variations.</description>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>15/03/18</lastupdate>
+			<istransiting>1</istransiting>
+		</planet>
+		<planet>
+			<name>KOI-1194 c</name>
+			<name>Kepler-415 c</name>
+			<name>KOI-1194.01</name>
+			<name>KIC 3554031 c</name>
+			<list>Confirmed planets</list>
+			<period>8.708</period>
+			<semimajoraxis>0.0727</semimajoraxis>
+			<radius errorminus="0.020" errorplus="0.025">0.234</radius>
+			<transittime errorminus="0.00201" errorplus="0.00201">2455196.05652</transittime>
+			<description>The planet Kepler-415 c has been confirmed by transit timing variations.</description>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>15/03/18</lastupdate>
+			<istransiting>1</istransiting>
+		</planet>
+		<planet>
+			<name>KOI-1194.02</name>
+			<list>Kepler Objects of Interest</list>
+			<period errorminus="0.000112" errorplus="0.000112">14.8622932</period>
+			<semimajoraxis>0.1038</semimajoraxis>
+			<radius errorminus="0.016" errorplus="0.020">0.184</radius>
+			<transittime errorminus="0.00613" errorplus="0.00613">2455187.57218</transittime>
+			<description>The planet candidate KOI-1194.02 has not yet been confirmed as a planet.</description>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>15/03/18</lastupdate>
+			<istransiting>1</istransiting>
+		</planet>
+	</star>
+</system>
