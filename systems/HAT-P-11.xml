@@ -4,6 +4,10 @@
 	<declination>+48 04 51</declination>
 	<distance>38</distance>
 	<star>
+		<name>HAT-P-11</name>
+		<name>Kepler-3</name>
+		<name>KOI-3</name>
+		<name>KIC 10748390</name>
 		<mass>0.81</mass>
 		<radius>0.75</radius>
 		<magV errorminus="0.02" errorplus="0.02">9.47</magV>
@@ -23,6 +27,7 @@
 			<name>2MASS J19505021+4804508 b</name>
 			<name>Kepler-3 b</name>
 			<name>KIC 10748390 b</name>
+			<name>KOI-3.01</name>
 			<name>KOI-3 b</name>
 			<list>Confirmed planets</list>
 			<mass>0.081</mass>
@@ -39,7 +44,6 @@
 			<transittime errorminus="0.00032" errorplus="0.00032" unit="BJD">2454605.89132</transittime>
 			<istransiting>1</istransiting>
 		</planet>
-		<name>HAT-P-11</name>
 		<temperature>4780.0</temperature>
 	</star>
 </system>
