@@ -1,0 +1,30 @@
+<system>
+	<name>EPIC 201736247</name>
+	<rightascension>11 52 26.591</rightascension>
+	<declination>+04 15 17.09</declination>
+	<distance errorminus="45" errorplus="29">486</distance>
+	<star>
+		<name>EPIC 201736247</name>
+		<mass errorminus="0.07" errorplus="0.05">0.8</mass>
+		<radius errorminus="0.07" errorplus="0.04">0.76</radius>
+		<temperature errorminus="57" errorplus="56">5114</temperature>
+		<magJ errorminus="0.02" errorplus="0.02">13.07</magJ>
+		<magH errorminus="0.02" errorplus="0.02">12.55</magH>
+		<magK errorminus="0.03" errorplus="0.03">12.49</magK>
+		<metallicity errorminus="0.26" errorplus="0.17">-0.14</metallicity>
+		<planet>
+			<name>EPIC 201736247 a</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.029" errorplus="0.029">0.260</radius>
+			<period errorminus="0.0017" errorplus="0.0017">11.81037</period>
+			<transittime errorminus="0.0081" errorplus="0.0081" unit="BJD">2456811.8492</transittime>
+			<semimajoraxis errorminus="0.0023" errorplus="0.0023">0.0936</semimajoraxis>
+			<temperature errorminus="21" errorplus="21">690</temperature>
+			<description>This planet was discovered by the Kepler spacecraft during its extended K2 mission, Campaign 1.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>15/03/26</lastupdate>
+			<discoveryyear>2015</discoveryyear>
+		</planet>
+	</star>
+</system>
