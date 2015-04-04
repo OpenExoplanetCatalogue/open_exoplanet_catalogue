@@ -1,0 +1,46 @@
+<system>
+	<name>EPIC 201445392</name>
+	<rightascension>11 19 10.48</rightascension>
+	<declination>-00 17 03.75</declination>
+	<distance errorminus="40" errorplus="21">386</distance>
+	<star>
+		<name>EPIC 201445392</name>
+		<mass errorminus="0.07" errorplus="0.05">0.75</mass>
+		<radius errorminus="0.07" errorplus="0.03">0.71</radius>
+		<temperature errorminus="44" errorplus="43">4813</temperature>
+		<magJ errorminus="0.03" errorplus="0.03">12.83</magJ>
+		<magH errorminus="0.03" errorplus="0.03">12.32</magH>
+		<magK errorminus="0.03" errorplus="0.03">12.24</magK>
+		<metallicity errorminus="0.26" errorplus="0.2">-0.1</metallicity>
+		<planet>
+			<name>EPIC 201445392 b</name>
+			<name>EPIC 201445392.01</name>
+			<list>Controversial</list>
+			<radius errorminus="0.047" errorplus="0.047">0.252</radius>
+			<period errorminus="0.00116" errorplus="0.00116">10.35262</period>
+			<transittime errorminus="0.0048" errorplus="0.0048" unit="BJD">2456813.6113</transittime>
+			<semimajoraxis errorminus="0.0023" errorplus="0.0023">0.0837</semimajoraxis>
+			<temperature errorminus="20" errorplus="20">663</temperature>
+			<description>This planet was discovered by the Kepler spacecraft during its extended K2 mission, Campaign 1.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>15/03/26</lastupdate>
+			<discoveryyear>2015</discoveryyear>
+		</planet>
+		<planet>
+			<name>EPIC 201445392 c</name>
+			<name>EPIC 201445392.02</name>
+			<list>Controversial</list>
+			<radius errorminus="0.036" errorplus="0.036">0.200</radius>
+			<period errorminus="0.00066" errorplus="0.00066">5.06442</period>
+			<transittime errorminus="0.0067" errorplus="0.0067" unit="BJD">2456813.0675</transittime>
+			<semimajoraxis errorminus="0.0014" errorplus="0.0014">0.052</semimajoraxis>
+			<temperature errorminus="26" errorplus="26">841</temperature>
+			<description>This planet was discovered by the Kepler spacecraft during its extended K2 mission, Campaign 1.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>15/03/26</lastupdate>
+			<discoveryyear>2015</discoveryyear>
+		</planet>
+	</star>
+</system>
