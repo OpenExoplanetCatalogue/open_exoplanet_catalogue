@@ -1,0 +1,30 @@
+<system>
+	<name>EPIC 201393098</name>
+	<rightascension>11 08 22.505</rightascension>
+	<declination>-01 03 56.72</declination>
+	<distance errorminus="28" errorplus="29">405</distance>
+	<star>
+		<name>EPIC 201393098</name>
+		<mass errorminus="0.06" errorplus="0.05">0.97</mass>
+		<radius errorminus="0.06" errorplus="0.06">0.91</radius>
+		<temperature errorminus="67" errorplus="71">5688</temperature>
+		<magJ errorminus="0.02" errorplus="0.02">11.95</magJ>
+		<magH errorminus="0.02" errorplus="0.02">11.63</magH>
+		<magK errorminus="0.02" errorplus="0.02">11.56</magK>
+		<metallicity errorminus="0.19" errorplus="0.19">-0.04</metallicity>
+		<planet>
+			<name>EPIC 201393098 a</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.044" errorplus="0.044">0.215</radius>
+			<period errorminus="0.0125" errorplus="0.0125">28.68077</period>
+			<transittime errorminus="0.0225" errorplus="0.0225" unit="BJD">2456824.6201</transittime>
+			<semimajoraxis errorminus="0.0041" errorplus="0.0041">0.1808</semimajoraxis>
+			<temperature errorminus="25" errorplus="25">614</temperature>
+			<description>This planet was discovered by the Kepler spacecraft during its extended K2 mission, Campaign 1.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>15/03/26</lastupdate>
+			<discoveryyear>2015</discoveryyear>
+		</planet>
+	</star>
+</system>
