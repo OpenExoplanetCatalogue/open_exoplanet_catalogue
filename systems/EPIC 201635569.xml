@@ -1,0 +1,31 @@
+<system>
+	<name>EPIC 201635569</name>
+	<rightascension>11 52 13.686</rightascension>
+	<declination>+02 35 39.28</declination>
+	<distance errorminus="24" errorplus="48">237</distance>
+	<star>
+		<name>EPIC 201635569</name>
+		<mass errorminus="0.04" errorplus="0.08">0.5</mass>
+		<radius errorminus="0.04" errorplus="0.08">0.48</radius>
+		<temperature errorminus="45" errorplus="74">3829</temperature>
+		<magJ errorminus="0.03" errorplus="0.03">13.42</magJ>
+		<magH errorminus="0.02" errorplus="0.02">12.77</magH>
+		<magK errorminus="0.03" errorplus="0.03">12.61</magK>
+		<metallicity errorminus="0.1" errorplus="0.3">-0.31</metallicity>
+		<planet>
+			<name>EPIC 201635569 b</name>
+			<name>EPIC 201635569.01</name>
+			<list>Controversial</list>
+			<radius errorminus="0.071" errorplus="0.071">0.472</radius>
+			<period errorminus="0.00019" errorplus="0.00019">8.36807</period>
+			<transittime errorminus="0.0017" errorplus="0.0017" unit="BJD">2456811.4511</transittime>
+			<semimajoraxis errorminus="0.0025" errorplus="0.0025">0.0636</semimajoraxis>
+			<temperature errorminus="27" errorplus="27">502</temperature>
+			<description>This planet was discovered by the Kepler spacecraft during its extended K2 mission, Campaign 1.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>15/03/26</lastupdate>
+			<discoveryyear>2015</discoveryyear>
+		</planet>
+	</star>
+</system>
