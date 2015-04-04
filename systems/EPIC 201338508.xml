@@ -1,0 +1,46 @@
+<system>
+	<name>EPIC 201338508</name>
+	<rightascension>11 17 12.84</rightascension>
+	<declination>-01 52 40.71</declination>
+	<distance errorminus="22" errorplus="25">199</distance>
+	<star>
+		<name>EPIC 201338508</name>
+		<mass errorminus="0.06" errorplus="0.07">0.58</mass>
+		<radius errorminus="0.05" errorplus="0.06">0.56</radius>
+		<temperature errorminus="70" errorplus="57">4135</temperature>
+		<magJ errorminus="0.03" errorplus="0.03">12.45</magJ>
+		<magH errorminus="0.02" errorplus="0.02">11.76</magH>
+		<magK errorminus="0.02" errorplus="0.02">11.6</magK>
+		<metallicity errorminus="0.22" errorplus="0.26">-0.29</metallicity>
+		<planet>
+			<name>EPIC 201338508 b</name>
+			<name>EPIC 201338508.01</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.034" errorplus="0.034">0.197</radius>
+			<period errorminus="0.002" errorplus="0.002">10.93271</period>
+			<transittime errorminus="0.0079" errorplus="0.0079" unit="BJD">2456814.5961</transittime>
+			<semimajoraxis errorminus="0.0024" errorplus="0.0024">0.0804</semimajoraxis>
+			<temperature errorminus="21" errorplus="21">526</temperature>
+			<description>This planet was discovered by the Kepler spacecraft during its extended K2 mission, Campaign 1.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>15/03/26</lastupdate>
+			<discoveryyear>2015</discoveryyear>
+		</planet>
+		<planet>
+			<name>EPIC 201338508 c</name>
+			<name>EPIC 201338508.02</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.022" errorplus="0.022">0.187</radius>
+			<period errorminus="0.00058" errorplus="0.00058">5.73501</period>
+			<transittime errorminus="0.0061" errorplus="0.0061" unit="BJD">2456808.8636</transittime>
+			<semimajoraxis errorminus="0.0016" errorplus="0.0016">0.0523</semimajoraxis>
+			<temperature errorminus="26" errorplus="26">652</temperature>
+			<description>This planet was discovered by the Kepler spacecraft during its extended K2 mission, Campaign 1.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>15/03/26</lastupdate>
+			<discoveryyear>2015</discoveryyear>
+		</planet>
+	</star>
+</system>

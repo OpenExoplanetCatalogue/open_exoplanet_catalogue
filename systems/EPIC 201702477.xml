@@ -1,0 +1,31 @@
+<system>
+	<name>EPIC 201702477</name>
+	<rightascension>11 40 57.791</rightascension>
+	<declination>+03 40 53.7</declination>
+	<distance errorminus="52" errorplus="51">684</distance>
+	<star>
+		<name>EPIC 201702477</name>
+		<mass errorminus="0.07" errorplus="0.05">0.92</mass>
+		<radius errorminus="0.06" errorplus="0.06">0.87</radius>
+		<temperature errorminus="66" errorplus="72">5551</temperature>
+		<magJ errorminus="0.03" errorplus="0.03">13.27</magJ>
+		<magH errorminus="0.03" errorplus="0.03">12.88</magH>
+		<magK errorminus="0.03" errorplus="0.03">12.77</magK>
+		<metallicity errorminus="0.2" errorplus="0.17">-0.08</metallicity>
+		<planet>
+			<name>EPIC 201702477 b</name>
+			<name>EPIC 201702477.01</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.075" errorplus="0.075">0.705</radius>
+			<period errorminus="0.00245" errorplus="0.00245">40.73649</period>
+			<transittime errorminus="0.0026" errorplus="0.0026" unit="BJD">2456811.5451</transittime>
+			<semimajoraxis errorminus="0.0051" errorplus="0.0051">0.2239</semimajoraxis>
+			<temperature errorminus="19" errorplus="19">526</temperature>
+			<description>This planet was discovered by the Kepler spacecraft during its extended K2 mission, Campaign 1.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>15/03/26</lastupdate>
+			<discoveryyear>2015</discoveryyear>
+		</planet>
+	</star>
+</system>
