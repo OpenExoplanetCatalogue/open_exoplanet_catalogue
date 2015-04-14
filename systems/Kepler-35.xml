@@ -4,6 +4,9 @@
 	<declination>+46 41 23</declination>
 	<distance errorminus="43" errorplus="43">1645</distance>
 	<binary>
+		<name>Kepler-35</name>
+		<name>KIC 9837578</name>
+		<name>KOI-2937</name>
 		<magJ errorminus="0.04" errorplus="0.04">14.43</magJ>
 		<magH errorminus="0.04" errorplus="0.04">14.04</magH>
 		<magK errorminus="0.06" errorplus="0.06">13.88</magK>
@@ -12,19 +15,28 @@
 		<eccentricity>0.1421</eccentricity>
 		<inclination>90.4238</inclination>
 		<star>
+			<name>Kepler-35 A</name>
+			<name>KIC 9837578 A</name>
+			<name>KOI-2937 A</name>
 			<mass>0.89</mass>
 			<radius>1.02</radius>
-			<name>Kepler-35 A</name>
 		</star>
 		<star>
+			<name>Kepler-35 B</name>
+			<name>KIC 9837578 B</name>
+			<name>KOI-2937 B</name>
+			<name>KOI-2937.01</name>
 			<mass>0.81</mass>
 			<radius>0.7861</radius>
-			<name>Kepler-35 B</name>
 		</star>
 		<planet>
 			<name>Kepler-35 (AB) b</name>
+			<name>KIC 9837578 (AB) b</name>
 			<name>KIC 9837578 b</name>
 			<name>Kepler-35 b</name>
+			<name>KOI-2937.02</name>
+			<name>KOI-2937 (AB) b</name>
+			<name>KOI-2937 b</name>
 			<list>Confirmed planets</list>
 			<mass>0.127</mass>
 			<radius>0.728</radius>
