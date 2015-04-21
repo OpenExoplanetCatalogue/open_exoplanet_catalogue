@@ -1,0 +1,69 @@
+<system>
+	<name>GJ 229</name>
+	<rightascension>06 10 34.61533</rightascension>
+	<declination>-21 51 52.7117</declination>
+	<distance errorminus="0.03" errorplus="0.03">5.75</distance>
+	<binary>
+		<name>GJ 229</name>
+		<name>Gliese 229</name>
+		<name>WDS J06106-2152</name>
+		<name>NAJ 1</name>
+		<separation unit="arcsec">6.80</separation>
+		<separation unit="AU">39.1</separation>
+		<positionangle>168</positionangle>
+		<star>
+			<name>GJ 229 A</name>
+			<name>Gliese 229 A</name>
+			<name>WDS J06106-2152 A</name>
+			<name>NAJ 1 A</name>
+			<name>HD 42581</name>
+			<name>HIP 29295</name>
+			<name>BD-21 1377</name>
+			<name>CPD-21 1138</name>
+			<name>LHS 1827</name>
+			<name>SAO 171334</name>
+			<name>TYC 5945-765-1</name>
+			<name>2MASS J06103462-2151521</name>
+			<magU>10.801</magU>
+			<magB>9.607</magB>
+			<magV>8.125</magV>
+			<magR>7.164</magR>
+			<magI>6.121</magI>
+			<magJ errorminus="0.037" errorplus="0.037">5.104</magJ>
+			<magH errorminus="0.254" errorplus="0.254">4.393</magH>
+			<magK errorminus="0.232" errorplus="0.232">4.166</magK>
+			<spectraltype>M1/M2 V</spectraltype>
+			<mass>0.58</mass>
+			<temperature>3564</temperature>
+			<planet>
+				<name>GJ 229 b</name>
+				<name>GJ 229 A b</name>
+				<name>Gliese 229 A b</name>
+				<period errorminus="12" errorplus="22">471</period>
+				<eccentricity errorminus="0.10" errorplus="0.22">0.10</eccentricity>
+				<periastron>150</periastron>
+				<meananomaly>230</meananomaly>
+				<mass errorminus="0.050" errorplus="0.053">0.101</mass>
+				<semimajoraxis errorminus="0.09" errorplus="0.12">0.97</semimajoraxis>
+				<discoverymethod>RV</discoverymethod>
+				<discoveryyear>2014</discoveryyear>
+				<description>This planet is in a binary system comprising the red dwarf star GJ 229 A and the brown dwarf GJ 229 B, which was the first identified methane brown dwarf. The planet candidate orbiting GJ 229 A was identified by Bayesian analysis of 73 UVES and 17 HARPS radial velocity measurements.</description>
+				<list>Controversial</list>
+				<lastupdate>15/04/21</lastupdate>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+		<star>
+			<name>GJ 229 B</name>
+			<name>Gliese 229 B</name>
+			<name>WDS 06102-2152 B</name>
+			<name>NAJ 1 B</name>
+			<magJ errorminus="0.05" errorplus="0.05">14.01</magJ>
+			<magH errorminus="0.05" errorplus="0.05">14.36</magH>
+			<magK errorminus="0.05" errorplus="0.05">14.36</magK>
+			<spectraltype>T6</spectraltype>
+			<mass lowerlimit="0.04" upperlimit="0.055" />
+			<temperature>1000</temperature>
+		</star>
+	</binary>
+</system>
