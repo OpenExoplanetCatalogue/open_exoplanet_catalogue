@@ -1,0 +1,55 @@
+<system>
+	<name>GJ 180</name>
+	<rightascension>04 53 49.97976</rightascension>
+	<declination>-17 46 24.2944</declination>
+	<distance errorminus="0.3" errorplus="0.4">12.1</distance>
+	<star>
+		<name>GJ 180</name>
+		<name>Gliese 180</name>
+		<name>HIP 22762</name>
+		<name>LHS 1712</name>
+		<name>2MASS J04534995-1746235</name>
+		<name>TYC 5903-680-1</name>
+		<magU>13.598</magU>
+		<magB>12.443</magB>
+		<magV>10.894</magV>
+		<magR>9.876</magR>
+		<magI>8.671</magI>
+		<magJ errorminus="0.020" errorplus="0.020">7.413</magJ>
+		<magH errorminus="0.038" errorplus="0.038">6.860</magH>
+		<magK errorminus="0.021" errorplus="0.021">6.598</magK>
+		<spectraltype>M2 V</spectraltype>
+		<mass>0.43</mass>
+		<temperature>3371</temperature>
+		<planet>
+			<name>GJ 180 b</name>
+			<name>Gliese 180 b</name>
+			<period errorminus="0.020" errorplus="0.018">17.380</period>
+			<eccentricity errorminus="0.11" errorplus="0.14">0.11</eccentricity>
+			<periastron>10</periastron>
+			<meananomaly>290</meananomaly>
+			<mass errorminus="0.017" errorplus="0.011">0.026</mass>
+			<semimajoraxis errorminus="0.014" errorplus="0.006">0.103</semimajoraxis>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2014</discoveryyear>
+			<description>The planet candidates orbiting GJ 180 were identified by Bayesian analysis of 56 UVES and 31 HARPS radial velocity measurements.</description>
+			<list>Controversial</list>
+			<lastupdate>15/04/21</lastupdate>
+		</planet>
+		<planet>
+			<name>GJ 180 c</name>
+			<name>Gliese 180 c</name>
+			<period errorminus="0.066" errorplus="0.052">24.329</period>
+			<eccentricity errorminus="0.09" errorplus="0.20">0.09</eccentricity>
+			<periastron>230</periastron>
+			<meananomaly>120</meananomaly>
+			<mass errorminus="0.013" errorplus="0.012">0.020</mass>
+			<semimajoraxis errorminus="0.017" errorplus="0.007">0.129</semimajoraxis>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2014</discoveryyear>
+			<description>The planet candidates orbiting GJ 180 were identified by Bayesian analysis of 56 UVES and 31 HARPS radial velocity measurements.</description>
+			<list>Controversial</list>
+			<lastupdate>15/04/21</lastupdate>
+		</planet>
+	</star>
+</system>

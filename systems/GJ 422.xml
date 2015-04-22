@@ -1,0 +1,42 @@
+<system>
+	<name>GJ 422</name>
+	<rightascension>11 16 00.20551</rightascension>
+	<declination>-57 32 51.5988</declination>
+	<distance errorminus="0.40" errorplus="0.43">12.67</distance>
+	<star>
+		<name>GJ 422</name>
+		<name>Gliese 422</name>
+		<name>Innes' star</name>
+		<name>HD 304043</name>
+		<name>HIP 55042</name>
+		<name>LHS 40</name>
+		<name>TYC 8624-3387-1</name>
+		<name>2MASS J11160018-5732513</name>
+		<magU>13.666</magU>
+		<magB>12.848</magB>
+		<magV>11.516</magV>
+		<magR>10.497</magR>
+		<magI>9.132</magI>
+		<magJ errorminus="0.020" errorplus="0.020">7.811</magJ>
+		<magH errorminus="0.053" errorplus="0.053">7.304</magH>
+		<magK errorminus="0.031" errorplus="0.031">7.035</magK>
+		<spectraltype>M3.5 V</spectraltype>
+		<mass>0.35</mass>
+		<temperature>3323</temperature>
+		<planet>
+			<name>GJ 422 b</name>
+			<name>Gliese 422 b</name>
+			<period errorminus="0.098" errorplus="0.082">26.161</period>
+			<eccentricity errorminus="0.05" errorplus="0.21">0.05</eccentricity>
+			<periastron>250</periastron>
+			<meananomaly>70</meananomaly>
+			<mass errorminus="0.013" errorplus="0.018">0.031</mass>
+			<semimajoraxis errorminus="0.011" errorplus="0.014">0.119</semimajoraxis>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2014</discoveryyear>
+			<description>The planet candidate orbiting GJ 422 was identified by Bayesian analysis of 24 UVES and 25 HARPS radial velocity measurements.</description>
+			<list>Controversial</list>
+			<lastupdate>15/04/21</lastupdate>
+		</planet>
+	</star>
+</system>
