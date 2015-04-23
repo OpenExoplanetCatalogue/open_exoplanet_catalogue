@@ -3,12 +3,15 @@
 	<name>GJ 3470</name>
 	<rightascension>07 59 06</rightascension>
 	<declination>+15 23 30</declination>
-	<distance>30.7</distance>
+	<distance errorminus="2.53" errorplus="2.53">28.82</distance>
 	<star>
-		<name>Gliese 3470</name>
 		<name>GJ 3470</name>
-		<mass>0.539</mass>
-		<radius>0.568</radius>
+		<name>Gliese 3470</name>
+		<name>LP 424-4</name>
+		<name>2MASS J07590587+1523294</name>
+		<name>NLTT 18739</name>
+		<mass errorminus="0.06" errorplus="0.06">0.51</mass>
+		<radius errorminus="0.04" errorplus="0.04">0.48</radius>
 		<magV>12.3</magV>
 		<magB>13.5</magB>
 		<magR>11.2</magR>
@@ -16,27 +19,29 @@
 		<magJ errorminus="0.026" errorplus="0.026">8.794</magJ>
 		<magH errorminus="0.023" errorplus="0.023">8.206</magH>
 		<magK errorminus="0.023" errorplus="0.023">7.989</magK>
-		<metallicity>0.20</metallicity>
+		<metallicity errorminus="0.06" errorplus="0.06">0.17</metallicity>
 		<spectraltype>M1.5</spectraltype>
-		<temperature>3600</temperature>
+		<temperature errorminus="50" errorplus="50">3652</temperature>
+		<age lowerlimit="1" upperlimit="4" />
 		<planet>
-			<name>Gliese 3470 b</name>
 			<name>GJ 3470 b</name>
+			<name>Gliese 3470 b</name>
 			<name>LP 424-4</name>
 			<name>2MASS J07590587+1523294</name>
 			<list>Confirmed planets</list>
 			<inclination errorminus="0.30" errorplus="0.34">88.12</inclination>
-			<mass>0.04372523</mass>
-			<radius>0.440159</radius>
-			<period errorminus="0.000002" errorplus="0.000002">3.336649</period>
-			<semimajoraxis>0.03557</semimajoraxis>
-			<eccentricity>0.0</eccentricity>
-			<transittime errorminus="0.00011" errorplus="0.00009" unit="BJD">2456340.72559</transittime>
-			<description>The planet Gliese 3470 b is a transiting Hot Uranus orbiting a nearby M-dwarf. The planet was originally seen in HARPS radial velocity data and then confirmed to be a transiting planet. Spitzer observations show that it has a very low density.</description>
+			<mass errorminus="0.00506" errorplus="0.00506">0.04320</mass>
+			<radius errorminus="0.029" errorplus="0.029">0.346</radius>
+			<period errorminus="0.0000033" errorplus="0.0000043">3.3366487</period>
+			<semimajoraxis errorminus="0.0028" errorplus="0.0028">0.031</semimajoraxis>
+			<eccentricity errorminus="0.012" errorplus="0.016">0.017</eccentricity>
+			<periastron errorminus="1.20" errorplus="0.96">1.70</periastron>
+			<transittime errorminus="0.00021" errorplus="0.00021" unit="BJD">2455983.70472</transittime>
+			<description>The planet GJ 3470 b is a transiting Hot Uranus orbiting a nearby M-dwarf. The planet was originally seen in HARPS radial velocity data and then confirmed to be a transiting planet. Spitzer observations show that it has a very low density.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>13/01/28</lastupdate>
+			<lastupdate>15/04/23</lastupdate>
 			<discoveryyear>2012</discoveryyear>
-			<temperature>603.5</temperature>
+			<temperature lowerlimit="506" upperlimit="702" />
 			<istransiting>1</istransiting>
 		</planet>
 	</star>
