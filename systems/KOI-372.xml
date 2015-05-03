@@ -1,0 +1,51 @@
+<system>
+	<name>KOI-372</name>
+	<rightascension>19 56 29.39</rightascension>
+	<declination>+41 52 00.3</declination>
+	<star>
+		<name>KOI-372</name>
+		<name>KIC 6471021</name>
+		<magJ errorminus="0.021" errorplus="0.021">11.294</magJ>
+		<magH errorminus="0.022" errorplus="0.022">10.964</magH>
+		<magK errorminus="0.018" errorplus="0.018">10.915</magK>
+		<temperature errorminus="80" errorplus="80">5820</temperature>
+		<metallicity errorminus="0.07" errorplus="0.07">-0.01</metallicity>
+		<age errorminus="0.3" errorplus="0.3">1.0</age>
+		<spectraltype>G2V</spectraltype>
+		<mass errorminus="0.052" errorplus="0.052">1.014</mass>
+		<radius errorminus="0.084" errorplus="0.084">1.122</radius>
+		<planet>
+			<name>KOI-372 b</name>
+			<name>KOI-372.01</name>
+			<name>KIC 6471021 b</name>
+			<mass errorminus="0.20" errorplus="0.20">3.25</mass>
+			<radius errorminus="0.088" errorplus="0.088">0.882</radius>
+			<transittime errorminus="0.0030" errorplus="0.0030" unit="BJD">2455588.8710</transittime>
+			<period errorminus="0.00071" errorplus="0.00071">125.63243</period>
+			<semimajoraxis errorminus="0.0085" errorplus="0.0085">0.4937</semimajoraxis>
+			<inclination errorminus="0.086" errorplus="0.086">89.845</inclination>
+			<eccentricity errorminus="0.079" errorplus="0.079">0.172</eccentricity>
+			<periastron errorminus="16" errorplus="16">791</periastron>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2015</discoveryyear>
+			<description>KOI-372 b has been confirmed to be a planet using radial velocity measurements obtained with the CAFE spectrograph. It is a dense Jupiter-like planet with an eccentric orbit.</description>
+			<lastupdate>15/05/03</lastupdate>
+			<list>Confirmed planets</list>
+			<istransiting>1</istransiting>
+		</planet>
+		<planet>
+			<name>KOI-372 c</name>
+			<name>KIC 6471021 c</name>
+			<mass errorminus="0.0026" errorplus="0.0034">0.3194</mass>
+			<period errorminus="0.25" errorplus="0.25">463.44</period>
+			<eccentricity errorminus="0.0017" errorplus="0.0016">0.1701</eccentricity>
+			<periastron errorminus="0.90" errorplus="0.86">178.88</periastron>
+			<inclination errorminus="1.28" errorplus="1.17">91.78</inclination>
+			<discoverymethod>timing</discoverymethod>
+			<discoveryyear>2015</discoveryyear>
+			<description>The existence of the planet KOI-372 c was detected by modelling transit timing variations of the inner planet KOI-372 b.</description>
+			<lastupdate>15/05/03</lastupdate>
+			<list>Confirmed planets</list>
+		</planet>
+	</star>
+</system>
