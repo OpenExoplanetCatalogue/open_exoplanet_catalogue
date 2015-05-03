@@ -1,0 +1,51 @@
+<system>
+	<name>EPIC 201637175</name>
+	<rightascension>11 17 55.856</rightascension>
+	<declination>+02 37 06.79</declination>
+	<distance errorminus="50" errorplus="50">225</distance>
+	<binary>
+		<name>EPIC 201637175</name>
+		<separation unit="arcsec">1.9</separation>
+		<separation unit="AU">430</separation>
+		<positionangle>227</positionangle>
+		<star>
+			<name>EPIC 201637175 A</name>
+			<magJ errorminus="0.05" errorplus="0.05">12.74</magJ>
+			<magH errorminus="0.05" errorplus="0.05">12.09</magH>
+			<magK errorminus="0.05" errorplus="0.05">11.91</magK>
+			<temperature errorminus="100" errorplus="100">3830</temperature>
+			<metallicity errorminus="0.08" errorplus="0.08">0.03</metallicity>
+			<mass errorminus="0.07" errorplus="0.07">0.60</mass>
+			<radius errorminus="0.06" errorplus="0.06">0.57</radius>
+			<spectraltype>M0V</spectraltype>
+			<planet>
+				<name>EPIC 201637175 b</name>
+				<name>EPIC 201637175 A b</name>
+				<period errorminus="0.000001" errorplus="0.000001">0.381071</period>
+				<transittime errorminus="0.0005" errorplus="0.0005" unit="BJD">2456811.1216</transittime>
+				<semimajoraxis errorminus="0.0008" errorplus="0.0008">0.0088</semimajoraxis>
+				<radius upperlimit="0.22" />
+				<mass upperlimit="1.4" />
+				<inclination lowerlimit="75" upperlimit="80" />
+				<discoverymethod>transit</discoverymethod>
+				<discoveryyear>2015</discoveryyear>
+				<description>EPIC 201637175 b is a disintegrating planet orbiting the primary star of a binary system. It exhibits highly variable transit depths due to dust trails ejected from the planet.</description>
+				<lastupdate>15/05/03</lastupdate>
+				<list>Confirmed planets</list>
+				<list>Planets in binary systems, S-type</list>
+				<istransiting>1</istransiting>
+			</planet>
+		</star>
+		<star>
+			<name>EPIC 201637175 B</name>
+			<magJ errorminus="0.05" errorplus="0.05">14.87</magJ>
+			<magH errorminus="0.05" errorplus="0.05">14.27</magH>
+			<magK errorminus="0.05" errorplus="0.05">13.93</magK>
+			<temperature errorminus="120" errorplus="120">3290</temperature>
+			<metallicity errorminus="0.20" errorplus="0.20">0.06</metallicity>
+			<mass errorminus="0.05" errorplus="0.05">0.27</mass>
+			<radius errorminus="0.08" errorplus="0.08">0.30</radius>
+			<spectraltype>M4V</spectraltype>
+		</star>
+	</binary>
+</system>
