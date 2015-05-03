@@ -1,0 +1,36 @@
+<system>
+	<name>KOI-12</name>
+	<rightascension>19 49 48.90</rightascension>
+	<declination>+41 00 39.56</declination>
+	<distance errorminus="40" errorplus="40">426</distance>
+	<star>
+		<name>KOI-12</name>
+		<name>KIC 5812701</name>
+		<name>2MASS J19494889+4100395</name>
+		<magJ errorminus="0.020" errorplus="0.020">10.461</magJ>
+		<magH errorminus="0.022" errorplus="0.022">10.287</magH>
+		<magK errorminus="0.018" errorplus="0.018">10.234</magK>
+		<radius errorminus="0.15" errorplus="0.15">1.63</radius>
+		<age errorminus="0.5" errorplus="0.5">1.5</age>
+		<mass errorminus="0.093" errorplus="0.093">1.452</mass>
+		<temperature errorminus="120" errorplus="120">6820</temperature>
+		<planet>
+			<name>KOI-12 b</name>
+			<name>KOI-12.01</name>
+			<name>KIC 5812701 b</name>
+			<period errorminus="0.0000010" errorplus="0.0000010">17.8552332</period>
+			<transittime errorminus="0.00005" errorplus="0.00005" unit="BJD">2454979.59601</transittime>
+			<semimajoraxis errorminus="0.003" errorplus="0.003">0.151</semimajoraxis>
+			<inclination errorminus="0.02" errorplus="0.02">88.90</inclination>
+			<radius errorminus="0.13" errorplus="0.13">1.44</radius>
+			<mass upperlimit="8.7" />
+			<spinorbitalignment errorminus="2.9" errorplus="3.0">12.5</spinorbitalignment>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2015</discoveryyear>
+			<description>The planet KOI-12 b was detected by transits and confirmed using Doppler spectroscopy and line-profile tomography. It is orbiting a rapidly-rotating star and has a low projected obliquity.</description>
+			<lastupdate>15/05/03</lastupdate>
+			<istransiting>1</istransiting>
+			<list>Confirmed planets</list>
+		</planet>
+	</star>
+</system>
