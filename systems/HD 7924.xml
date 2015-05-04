@@ -1,32 +1,85 @@
 <system>
 	<name>HD 7924</name>
-	<rightascension>01 21 59</rightascension>
-	<declination>+76 42 37</declination>
-	<distance>16.8</distance>
+	<rightascension>01 21 59.11491</rightascension>
+	<declination>+76 42 37.0335</declination>
+	<distance errorminus="0.13" errorplus="0.13">16.82</distance>
 	<star>
-		<mass>0.832</mass>
-		<radius>0.78</radius>
+		<name>HD 7924</name>
+		<name>BD+75 58</name>
+		<name>Gliese 9054</name>
+		<name>HIP 6379</name>
+		<name>2MASS J01215911+76542372</name>
+		<name>PPM 4675</name>
+		<name>TYC 4494-1346-1</name>
+		<mass errorminus="0.036" errorplus="0.022">0.832</mass>
+		<radius errorminus="0.0258" errorplus="0.0258">0.7821</radius>
 		<magV>7.185</magV>
 		<magB>8.005</magB>
 		<magJ errorminus="0.026" errorplus="0.026">5.618</magJ>
 		<magH errorminus="0.033" errorplus="0.033">5.231</magH>
 		<magK errorminus="0.020" errorplus="0.020">5.159</magK>
-		<metallicity>-0.15</metallicity>
+		<metallicity errorminus="0.03" errorplus="0.03">-0.15</metallicity>
 		<spectraltype>K0V</spectraltype>
+		<temperature errorminus="83" errorplus="83">5075</temperature>
 		<planet>
 			<name>HD 7924 b</name>
+			<name>BD+75 58 b</name>
+			<name>Gliese 9054 b</name>
+			<name>HIP 6379 b</name>
+			<name>2MASS J01215911+76542372 b</name>
+			<name>PPM 4675 b</name>
+			<name>TYC 4494-1346-1 b</name>
 			<list>Confirmed planets</list>
-			<mass>0.029</mass>
-			<period>5.3978</period>
-			<semimajoraxis>0.057</semimajoraxis>
+			<mass errorminus="0.0016" errorplus="0.0016">0.029</mass>
+			<period errorminus="0.00025" errorplus="0.00025">5.39792</period>
+			<periastrontime errorminus="0.110" errorplus="0.086" unit="BJD">2455586.38</periastrontime>
+			<semimajoraxis errorminus="0.00069" errorplus="0.00067">0.05664</semimajoraxis>
 			<eccentricity>0.17</eccentricity>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>09/01/29</lastupdate>
+			<lastupdate>15/04/24</lastupdate>
 			<discoveryyear>2009</discoveryyear>
-			<temperature>842.9</temperature>
+			<temperature errorminus="6.5" errorplus="6.6">825.9</temperature>
 		</planet>
-		<name>HD 7924</name>
-		<temperature>5177.0</temperature>
+		<planet>
+			<name>HD 7924 c</name>
+			<name>BD+75 58 c</name>
+			<name>Gliese 9054 c</name>
+			<name>HIP 6379 c</name>
+			<name>2MASS J01215911+76542372 c</name>
+			<name>PPM 4675 c</name>
+			<name>TYC 4494-1346-1 c</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.0022" errorplus="0.0023">0.0247</mass>
+			<period errorminus="0.0033" errorplus="0.0032">15.299</period>
+			<periastrontime errorminus="0.47" errorplus="0.40" unit="BJD">2455586.29</periastrontime>
+			<semimajoraxis errorminus="0.0014" errorplus="0.0013">0.1134</semimajoraxis>
+			<eccentricity>0.10</eccentricity>
+			<description>This super-Earth was discovered by performing joint analysis of high-precision radial velocity data from Keck/HIRES and the new Automated Planet Finder Telescope (APF).</description>
+			<discoverymethod>RV</discoverymethod>
+			<lastupdate>15/04/24</lastupdate>
+			<discoveryyear>2015</discoveryyear>
+			<temperature errorminus="4.6" errorplus="4.7">583.6</temperature>
+		</planet>
+		<planet>
+			<name>HD 7924 d</name>
+			<name>BD+75 58 d</name>
+			<name>Gliese 9054 d</name>
+			<name>HIP 6379 d</name>
+			<name>2MASS J01215911+76542372 d</name>
+			<name>PPM 4675 d</name>
+			<name>TYC 4494-1346-1 d</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.0025" errorplus="0.0025">0.0203</mass>
+			<period errorminus="0.017" errorplus="0.015">24.451</period>
+			<periastrontime errorminus="0.9" errorplus="1.0" unit="BJD">2455579.1</periastrontime>
+			<semimajoraxis errorminus="0.0019" errorplus="0.0018">0.1551</semimajoraxis>
+			<eccentricity>0.20</eccentricity>
+			<description>This super-Earth was discovered by performing joint analysis of high-precision radial velocity data from Keck/HIRES and the new Automated Planet Finder Telescope (APF).</description>
+			<discoverymethod>RV</discoverymethod>
+			<lastupdate>15/04/24</lastupdate>
+			<discoveryyear>2015</discoveryyear>
+			<temperature errorminus="4" errorplus="4">499</temperature>
+		</planet>
 	</star>
 	<videolink>http://youtu.be/Zp5gMMGCMhg</videolink>
 </system>
