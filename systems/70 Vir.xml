@@ -1,34 +1,50 @@
 <system>
 	<name>70 Vir</name>
-	<rightascension>13 28 26</rightascension>
-	<declination>+13 47 12</declination>
-	<distance>22</distance>
+	<rightascension>13 28 25.80861</rightascension>
+	<declination>+13 46 43.6386</declination>
+	<distance errorminus="0.2" errorplus="0.2">18.1</distance>
 	<star>
-		<mass>0.92</mass>
-		<radius>1.968</radius>
-		<magV>5</magV>
+		<name>70 Vir</name>
+		<name>BD+14 2621</name>
+		<name>Gliese 9446</name>
+		<name>HD 117176</name>
+		<name>HIP 65721</name>
+		<name>2MASS J1328282584+1346447</name>
+		<name>PPM 129843</name>
+		<name>TYC 898-1042-1</name>
+		<mass errorminus="0.002" errorplus="0.002">1.09</mass>
+		<radius errorminus="0.05" errorplus="0.05">1.94</radius>
+		<magV errorminus="0.009" errorplus="0.009">4.970</magV>
 		<magB errorminus="0.007" errorplus="0.007">5.680</magB>
-		<magR>4.5</magR>
-		<magI>4.2</magI>
+		<magR>4.37</magR>
+		<magI>3.98</magI>
 		<magJ>3.80</magJ>
 		<magH>3.46</magH>
 		<magK errorminus="0.05" errorplus="0.05">3.24</magK>
-		<metallicity>-0.11</metallicity>
+		<metallicity errorminus="0.03" errorplus="0.03">-0.09</metallicity>
+		<age errorminus="0.51" errorplus="0.51">7.77</age>
 		<spectraltype>G4 V</spectraltype>
+		<temperature errorminus="44" errorplus="44">5439</temperature>
 		<planet>
 			<name>70 Vir b</name>
+			<name>BD+14 2621 b</name>
+			<name>Gliese 9446 b</name>
+			<name>HD 117176 b</name>
+			<name>HIP 65721 b</name>
+			<name>2MASS J1328282584+1346447 b</name>
+			<name>PPM 129843 b</name>
+			<name>TYC 898-1042-1 b</name>
 			<list>Confirmed planets</list>
-			<mass>6.6</mass>
-			<period>116.67</period>
-			<semimajoraxis>0.48</semimajoraxis>
-			<eccentricity>0.43</eccentricity>
+			<mass errorminus="0.02" errorplus="0.02">7.4</mass>
+			<period errorminus="0.0014" errorplus="0.0014">116.6926</period>
+			<periastrontime errorminus="0.11" errorplus="0.11">2447239.7091</periastrontime>
+			<semimajoraxis errorminus="0.003" errorplus="0.003">0.481</semimajoraxis>
+			<eccentricity errorminus="0.002" errorplus="0.002">0.399</eccentricity>
 			<description>The star 70 Virginis is located in the constellation Virgo and starting to evolve into the subgiant phase. It has a dust disc at 3.4 AU.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/12/29</lastupdate>
+			<lastupdate>15/04/15</lastupdate>
 			<discoveryyear>1996</discoveryyear>
 			<temperature>479.1</temperature>
 		</planet>
-		<name>70 Vir</name>
-		<temperature>5432.0</temperature>
 	</star>
 </system>
