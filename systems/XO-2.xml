@@ -1,8 +1,8 @@
 <system>
 	<name>XO-2</name>
-	<rightascension>07 48 07</rightascension>
-	<declination>+50 13 33</declination>
-	<distance>149</distance>
+	<rightascension>07 48 07.479</rightascension>
+	<declination>+50 13 03.25</declination>
+	<distance errorminus="2.9" errorplus="2.8">148.0</distance>
 	<binary>
 		<separation unit="arcsec">31</separation>
 		<separation unit="AU">4600</separation>
@@ -11,10 +11,10 @@
 			<name>XO-2S</name>
 			<name>XO-2A</name>
 			<name>TYC 3413-210-1</name>
-			<temperature errorminus="55" errorplus="55">5399</temperature>
+			<temperature errorminus="54" errorplus="54">5395</temperature>
 			<metallicity errorminus="0.05" errorplus="0.05">0.39</metallicity>
-			<mass errorminus="0.054" errorplus="0.054">0.982</mass>
-			<radius errorminus="0.07" errorplus="0.09">1.02</radius>
+			<mass errorminus="0.054" errorplus="0.054">0.98</mass>
+			<radius errorminus="0.06" errorplus="0.09">1.02</radius>
 			<age errorminus="2.9" errorplus="2.5">7.1</age>
 			<spectraltype>K0</spectraltype>
 			<planet>
@@ -51,9 +51,11 @@
 		<star>
 			<name>XO-2N</name>
 			<name>XO-2B</name>
-			<temperature>5340.0</temperature>
-			<mass>0.98</mass>
-			<radius>0.964</radius>
+			<temperature errorminus="57" errorplus="57">5332</temperature>
+			<metallicity errorminus="0.05" errorplus="0.05">0.43</metallicity>
+			<mass errorminus="0.05" errorplus="0.05">0.97</mass>
+			<radius errorminus="0.07" errorplus="0.10">1.01</radius>
+			<age errorminus="3.0" errorplus="2.3">7.9</age>
 			<magV>11.18</magV>
 			<magB>11.91</magB>
 			<magR>10.8</magR>
@@ -61,25 +63,35 @@
 			<magJ errorminus="0.022" errorplus="0.022">9.744</magJ>
 			<magH errorminus="0.026" errorplus="0.026">9.340</magH>
 			<magK errorminus="0.021" errorplus="0.021">9.308</magK>
-			<metallicity>0.45</metallicity>
 			<spectraltype>K0V</spectraltype>
 			<planet>
 				<name>XO-2N b</name>
 				<name>2MASS J07480647+5013328 b</name>
 				<name>TYC 3413-00005-1 b</name>
 				<list>Confirmed planets</list>
-				<mass>0.62</mass>
+				<mass errorminus="0.021" errorplus="0.021">0.597</mass>
 				<radius>0.973</radius>
-				<period>2.615838</period>
-				<semimajoraxis>0.0369</semimajoraxis>
-				<eccentricity>0.045</eccentricity>
-				<inclination>88.7</inclination>
-				<transittime errorminus="0.00014" errorplus="0.00014" unit="BJD">2454466.88535</transittime>
+				<period errorminus="0.00000028" errorplus="0.00000028">2.61585922</period>
+				<semimajoraxis errorminus="0.00064" errorplus="0.00064">0.03673</semimajoraxis>
+				<eccentricity upperlimit="0.006" />
+				<inclination errorminus="0.34" errorplus="0.42">87.96</inclination>
+				<transittime errorminus="0.000054" errorplus="0.000054" unit="BJD">2455565.546480</transittime>
 				<discoverymethod>transit</discoverymethod>
-				<lastupdate>11/10/28</lastupdate>
+				<lastupdate>15/05/10</lastupdate>
 				<discoveryyear>2007</discoveryyear>
-				<temperature>1203.3</temperature>
 				<istransiting>1</istransiting>
+				<description>The planet XO-2N b was the first planet discovered in the XO-2 binary. The host star is variable (Zellem et al. 2015) which complicates the analysis of the planetary properties. The stellar variability may be caused by starspots.</description>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+			<planet>
+				<name>XO-2N c</name>
+				<list>Controversial</list>
+				<period lowerlimit="6200" />
+				<mass lowerlimit="1.8" />
+				<discoverymethod>RV</discoverymethod>
+				<discoveryyear>2015</discoveryyear>
+				<istransiting>0</istransiting>
+				<description>The radial velocity measurements of the star XO-2 exhibit a long-term quadratic trend. This trend correlates with stellar activity indicators so is more likely due to the stellar activity cycle rather than being caused by reflex motion from a planet.</description>
 				<list>Planets in binary systems, S-type</list>
 			</planet>
 		</star>
