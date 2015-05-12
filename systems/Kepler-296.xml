@@ -6,9 +6,6 @@
 	<declination>+49 26 14.37</declination>
 	<distance>558.5</distance>
 	<binary>
-		<magJ errorminus="0.027" errorplus="0.027">13.391</magJ>
-		<magH errorminus="0.03" errorplus="0.03">12.81</magH>
-		<magK errorminus="0.028" errorplus="0.028">12.600</magK>
 		<separation errorminus="0.004" errorplus="0.004" unit="arcsec">0.217</separation>
 		<separation unit="AU">80</separation>
 		<positionangle errorminus="0.8" errorplus="0.8">217.3</positionangle>
@@ -17,112 +14,120 @@
 			<name>KOI-1422 A</name>
 			<name>KIC 11497958 A</name>
 			<name>2MASS J19060960+4926143 A</name>
-			<temperature errorminus="40" errorplus="40">3821</temperature>
-			<radius errorminus="0.011" errorplus="0.011">0.595</radius>
-			<mass errorminus="0.012" errorplus="0.012">0.626</mass>
+			<magJ errorminus="0.03" errorplus="0.03">13.73</magJ>
+			<magK errorminus="0.03" errorplus="0.03">12.93</magK>
+			<temperature errorminus="130" errorplus="130">3740</temperature>
+			<metallicity errorminus="0.30" errorplus="0.28">-0.08</metallicity>
+			<radius errorminus="0.087" errorplus="0.066">0.480</radius>
+			<mass errorminus="0.087" errorplus="0.067">0.498</mass>
 			<spectraltype>M2V</spectraltype>
 			<planet>
 				<name>Kepler-296 c</name>
+				<name>Kepler-296 Ac</name>
 				<name>KOI-1422 c</name>
 				<name>KOI-1422.01</name>
 				<name>KIC 11497958 c</name>
 				<name>KIC 11497958.01 c</name>
 				<name>2MASS J19060960+4926143 c</name>
-				<radius errorminus="0.00460" errorplus="0.00460">0.2513</radius>
-				<mass>0.0214</mass>
-				<temperature errorminus="6.2" errorplus="6.2">558.6</temperature>
-				<period errorminus="0.000015" errorplus="0.000015">5.841648</period>
-				<semimajoraxis>0.054</semimajoraxis>
-				<transittime errorminus="0.0014100" errorplus="0.0014100">2454968.9212700</transittime>
+				<radius errorminus="0.029" errorplus="0.029">0.178</radius>
+				<period errorminus="0.000010" errorplus="0.000010">5.8416366</period>
+				<semimajoraxis errorminus="0.0086" errorplus="0.0088">0.0521</semimajoraxis>
+				<transittime errorminus="0.0013" errorplus="0.0013" unit="BJD">2454968.9229</transittime>
+				<inclination errorminus="0.5" errorplus="0.4">89.4</inclination>
+				<eccentricity upperlimit="0.33" />
 				<list>Confirmed planets</list>
 				<list>Planets in binary systems, S-type</list>
-				<description>Kepler-296 Ac has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-296 Ac are still unknown, the object is highly unlikely to be a false positive. New analysis with high resolution imaging by Hubble Space Telescope shows a binary star system, where it is not clear, if this planet orbits component A or B. The data presented here are the calculated values in case of orbiting component A.</description>
+				<description>Kepler-296 Ac has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-296 Ac are still unknown, the object is highly unlikely to be a false positive. Statistical analysis indicates that all five transiting planets in the system orbit the primary star Kepler-296 A.</description>
 				<discoveryyear>2014</discoveryyear>
-				<lastupdate>14/07/03</lastupdate>
+				<lastupdate>15/05/11</lastupdate>
 				<discoverymethod>transit</discoverymethod>
 				<istransiting>1</istransiting>
 			</planet>
 			<planet>
 				<name>Kepler-296 d</name>
+				<name>Kepler-296 Ad</name>
 				<name>KOI-1422 d</name>
 				<name>KOI-1422.02</name>
 				<name>KIC 11497958 d</name>
 				<name>KIC 11497958.02 d</name>
 				<name>2MASS J19060960+4926143 d</name>
-				<radius errorminus="0.00552" errorplus="0.00552">0.2623</radius>
-				<mass>0.0223</mass>
-				<temperature errorminus="4.1" errorplus="4.1">371.5</temperature>
-				<period errorminus="0.000097" errorplus="0.000097">19.850242</period>
-				<semimajoraxis>0.123</semimajoraxis>
-				<transittime errorminus="0.0027500" errorplus="0.0027500">2454966.6509800</transittime>
+				<radius errorminus="0.029" errorplus="0.029">0.186</radius>
+				<period errorminus="0.000057" errorplus="0.000061">19.850291</period>
+				<semimajoraxis errorminus="0.020" errorplus="0.020">0.118</semimajoraxis>
+				<transittime errorminus="0.0022" errorplus="0.0022" unit="BJD">2454966.6496</transittime>
+				<inclination errorminus="0.2" errorplus="0.2">89.7</inclination>
+				<eccentricity upperlimit="0.33" />
 				<list>Confirmed planets</list>
 				<list>Planets in binary systems, S-type</list>
-				<description>Kepler-296 Ad has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-296 Ad are still unknown, the object is highly unlikely to be a false positive. New analysis with high resolution imaging by Hubble Space Telescope shows a binary star system, where it is not clear, if this planet orbits component A or B. The data presented here are the calculated values in case of orbiting component A.</description>
+				<description>Kepler-296 Ad has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-296 Ad are still unknown, the object is highly unlikely to be a false positive. Statistical analysis indicates that all five transiting planets in the system orbit the primary star Kepler-296 A.</description>
 				<discoveryyear>2014</discoveryyear>
-				<lastupdate>14/07/03</lastupdate>
+				<lastupdate>15/05/11</lastupdate>
 				<discoverymethod>transit</discoverymethod>
 				<istransiting>1</istransiting>
 			</planet>
 			<planet>
 				<name>Kepler-296 b</name>
+				<name>Kepler-296 Ab</name>
 				<name>KOI-1422 b</name>
 				<name>KOI-1422.03</name>
 				<name>KIC 11497958 b</name>
 				<name>KIC 11497958.03 b</name>
 				<name>2MASS J19060960+4926143 b</name>
-				<radius errorminus="0.00552" errorplus="0.00552">0.1123</radius>
-				<mass>0.00692</mass>
-				<temperature errorminus="5.0" errorplus="5.0">454.2</temperature>
-				<period errorminus="0.000040" errorplus="0.000040">3.621457</period>
-				<semimajoraxis>0.082</semimajoraxis>
-				<transittime errorminus="0.0050600" errorplus="0.0050600">2454967.7536000</transittime>
+				<radius errorminus="0.024" errorplus="0.026">0.144</radius>
+				<period errorminus="0.000046" errorplus="0.000051">10.864384</period>
+				<semimajoraxis errorminus="0.013" errorplus="0.013">0.079</semimajoraxis>
+				<transittime errorminus="0.0039" errorplus="0.0030">2454964.1285</transittime>
+				<inclination errorminus="0.2" errorplus="0.3">89.0</inclination>
+				<eccentricity upperlimit="0.33" />
 				<list>Confirmed planets</list>
 				<list>Planets in binary systems, S-type</list>
-				<description>Kepler-296 Ab has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-296 Ab are still unknown, the object is highly unlikely to be a false positive. New analysis with high resolution imaging by Hubble Space Telescope shows a binary star system, where it is not clear, if this planet orbits component A or B. The data presented here are the calculated values in case of orbiting component A.</description>
+				<description>Kepler-296 Ab has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-296 Ab are still unknown, the object is highly unlikely to be a false positive. This planet was originally thought to have a period three times smaller than the actual value. Statistical analysis indicates that all five transiting planets in the system orbit the primary star Kepler-296 A.</description>
 				<discoveryyear>2014</discoveryyear>
-				<lastupdate>14/07/03</lastupdate>
+				<lastupdate>15/05/11</lastupdate>
 				<discoverymethod>transit</discoverymethod>
 				<istransiting>1</istransiting>
 			</planet>
 			<planet>
 				<name>Kepler-296 f</name>
+				<name>Kepler-296 Af</name>
 				<name>KOI-1422 f</name>
 				<name>KOI-1422.04</name>
 				<name>KIC 11497958 f</name>
 				<name>KIC 11497958.04 f</name>
 				<name>2MASS J19060960+4926143 f</name>
-				<radius errorminus="0.00828" errorplus="0.00828">0.2145</radius>
-				<mass>0.0186</mass>
-				<temperature errorminus="2.8" errorplus="2.8">252.4</temperature>
-				<period errorminus="0.001292" errorplus="0.001292">63.335879</period>
-				<semimajoraxis>0.266</semimajoraxis>
-				<transittime errorminus="0.0104300" errorplus="0.0104300">2454995.6116100</transittime>
+				<radius errorminus="0.027" errorplus="0.028">0.161</radius>
+				<period errorminus="0.00062" errorplus="0.00060">63.33627</period>
+				<semimajoraxis errorminus="0.042" errorplus="0.043">0.255</semimajoraxis>
+				<transittime errorminus="0.0072" errorplus="0.0071">2454995.6069</transittime>
+				<inclination errorminus="0.1" errorplus="0.1">89.7</inclination>
+				<eccentricity upperlimit="0.33" />
 				<list>Confirmed planets</list>
 				<list>Planets in binary systems, S-type</list>
-				<description>Kepler-296 Af has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-296 Af are still unknown, the object is highly unlikely to be a false positive. New analysis with high resolution imaging by Hubble Space Telescope shows a binary star system, where it is not clear, if this planet orbits component A or B. The data presented here are the calculated values in case of orbiting component A. In case of orbiting component B, this planet would reside in a habitable zone.</description>
+				<description>Kepler-296 Af has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-296 Af are still unknown, the object is highly unlikely to be a false positive. Statistical analysis indicates that all five transiting planets in the system orbit the primary star Kepler-296 A. This planet receives an incident flux from its host star 0.62 times that received by Earth from the Sun.</description>
 				<discoveryyear>2014</discoveryyear>
-				<lastupdate>14/07/03</lastupdate>
+				<lastupdate>15/05/11</lastupdate>
 				<discoverymethod>transit</discoverymethod>
 				<istransiting>1</istransiting>
 			</planet>
 			<planet>
 				<name>Kepler-296 e</name>
+				<name>Kepler-296 Ae</name>
 				<name>KOI-1422 e</name>
 				<name>KOI-1422.05</name>
 				<name>KIC 11497958 e</name>
 				<name>KIC 11497958.05 e</name>
 				<name>2MASS J19060960+4926143 e</name>
-				<radius errorminus="0.0203" errorplus="0.0203">0.2089</radius>
-				<mass>0.00714</mass>
-				<temperature errorminus="3.4" errorplus="3.4">310.1</temperature>
-				<period errorminus="0.003409" errorplus="0.003409">34.142347</period>
-				<semimajoraxis>0.176</semimajoraxis>
-				<transittime errorminus="0.0761200" errorplus="0.0761200">2454954.0275200</transittime>
+				<radius errorminus="0.022" errorplus="0.024">0.136</radius>
+				<period errorminus="0.00025" errorplus="0.00025">34.14211</period>
+				<semimajoraxis errorminus="0.028" errorplus="0.029">0.169</semimajoraxis>
+				<transittime errorminus="0.0057" errorplus="0.0061">2454969.0350</transittime>
+				<inclination errorminus="0.2" errorplus="0.2">89.7</inclination>
+				<eccentricity upperlimit="0.33" />
 				<list>Planets in binary systems, S-type</list>
 				<list>Confirmed planets</list>
-				<description>Kepler-296 Ae has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-296 Ae are still unknown, the object is highly unlikely to be a false positive. New analysis with high resolution imaging by Hubble Space Telescope shows a binary star system, where it is not clear, if this planet orbits component A or B. The data presented here are the calculated values in case of orbiting component A.</description>
+				<description>Kepler-296 Ae has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-296 Ae are still unknown, the object is highly unlikely to be a false positive. Statistical analysis indicates that all five transiting planets in the system orbit the primary star Kepler-296 A. This planet receives an incident flux from its host star 1.41 times greater than that the Earth receives from the Sun.</description>
 				<discoveryyear>2014</discoveryyear>
-				<lastupdate>14/07/03</lastupdate>
+				<lastupdate>15/05/11</lastupdate>
 				<discoverymethod>transit</discoverymethod>
 				<istransiting>1</istransiting>
 			</planet>
@@ -132,9 +137,12 @@
 			<name>KOI-1422 B</name>
 			<name>KIC 11497958 B</name>
 			<name>2MASS J19060960+4926143 B</name>
-			<temperature errorminus="19" errorplus="19">3434</temperature>
-			<radius errorminus="0.012" errorplus="0.012">0.429</radius>
-			<mass errorminus="0.014" errorplus="0.014">0.453</mass>
+			<magJ errorminus="0.03" errorplus="0.03">14.83</magJ>
+			<magK errorminus="0.03" errorplus="0.03">14.07</magK>
+			<temperature errorminus="75" errorplus="75">3440</temperature>
+			<metallicity errorminus="0.30" errorplus="0.28">-0.08</metallicity>
+			<radius errorminus="0.068" errorplus="0.060">0.322</radius>
+			<mass errorminus="0.079" errorplus="0.070">0.326</mass>
 		</star>
 	</binary>
 </system>
