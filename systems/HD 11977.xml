@@ -4,26 +4,28 @@
 	<declination>-67 38 50</declination>
 	<distance>66.5</distance>
 	<star>
-		<mass>1.91</mass>
+		<mass>2.31</mass>
 		<radius>13</radius>
 		<magV>4.7</magV>
 		<magB>5.614</magB>
 		<magJ errorminus="0.01" errorplus="0.01">3.046</magJ>
 		<magH errorminus="0.01" errorplus="0.01">2.594</magH>
 		<magK errorminus="0.01" errorplus="0.01">2.486</magK>
-		<metallicity>-0.21</metallicity>
-		<spectraltype>G8.5 III</spectraltype>
+		<metallicity>-0.16</metallicity>
+		<spectraltype>G5 III</spectraltype>
 		<planet>
 			<name>HD 11977 b</name>
 			<list>Confirmed planets</list>
-			<mass>6.54</mass>
-			<period>711</period>
-			<semimajoraxis>1.93</semimajoraxis>
-			<eccentricity>0.4</eccentricity>
+			<mass errorminus="0.2" errorplus="0.2">6.5</mass>
+			<period errorminus="2.4" errorplus="2.4">621.6</period>
+			<semimajoraxis errorminus="0.005" errorplus="0.005">1.89</semimajoraxis>
+			<eccentricity errorminus="0.03" errorplus="0.03">0.3</eccentricity>
+			<periastron errorminus="5.8" errorplus="5.8">35.5</periastron>
+			<periastrontime errorminus="10" errorplus="10">2452906.6</periastrontime>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/12/29</lastupdate>
+			<lastupdate>15/05/24</lastupdate>
 			<discoveryyear>2005</discoveryyear>
-			<temperature>563.4</temperature>
+			<description>HD 11977 b was the first planet confirmed to be orbiting an intermediate-mass star.</description>
 		</planet>
 		<name>HD 11977</name>
 		<temperature>4975.0</temperature>

@@ -4,23 +4,39 @@
 	<declination>-07 59 44</declination>
 	<distance>90</distance>
 	<star>
-		<mass>2.17</mass>
+		<mass>2.09</mass>
 		<radius>20.9</radius>
 		<magV>4.66</magV>
 		<magB>5.904</magB>
-		<metallicity>0.19</metallicity>
+		<metallicity>0.14</metallicity>
 		<spectraltype>K2III</spectraltype>
 		<planet>
 			<name>HD 110014 b</name>
 			<list>Confirmed planets</list>
-			<mass>11.09</mass>
-			<period>835.477</period>
-			<semimajoraxis>2.14</semimajoraxis>
-			<eccentricity>0.462</eccentricity>
+			<mass errorminus="1.0" errorplus="1.0">10.7</mass>
+			<period errorminus="21.5" errorplus="21.5">882.6</period>
+			<semimajoraxis errorminus="0.04" errorplus="0.04">2.31</semimajoraxis>
+			<eccentricity errorminus="0.1" errorplus="0.1">0.26</eccentricity>
+			<periastron errorminus="15.5" errorplus="15.5">47.72</periastron>
+			<periastrontime errorminus="50.2" errorplus="50.2">2453739.4</periastrontime>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>09/07/31</lastupdate>
+			<lastupdate>15/05/24</lastupdate>
 			<discoveryyear>2009</discoveryyear>
-			<temperature>603.9</temperature>
+			<description>HD 110014 b is a planet in an eccentric orbit around a red giant star.</description>
+		</planet>
+		<planet>
+			<name>HD 110014 c</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.4" errorplus="0.4">3.1</mass>
+			<period errorminus="0.9" errorplus="0.9">130.0</period>
+			<semimajoraxis errorminus="0.003" errorplus="0.003">0.64</semimajoraxis>
+			<eccentricity errorminus="0.2" errorplus="0.2">0.44</eccentricity>
+			<periastron errorminus="19.9" errorplus="19.9">307.6</periastron>
+			<periastrontime errorminus="3.78" errorplus="3.78">2454031.3</periastrontime>
+			<discoverymethod>RV</discoverymethod>
+			<lastupdate>15/05/24</lastupdate>
+			<discoveryyear>2015</discoveryyear>
+			<description>The planet HD 110014 c was discovered by the Reanalysis of Archival FEROS specTra (RAFT) program. The outer planet HD 110014 b was already known.</description>
 		</planet>
 		<name>HD 110014</name>
 		<temperature>4445.0</temperature>
