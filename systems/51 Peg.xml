@@ -4,7 +4,15 @@
 	<declination>+20 46 07</declination>
 	<distance>14.7</distance>
 	<star>
-		<mass>1.11</mass>
+		<name>51 Peg</name>
+		<name>HD 217014</name>
+		<name>HIP 113357</name>
+		<name>HR 8729</name>
+		<name>BD+19 5036</name>
+		<name>Gliese 882</name>
+		<name>SAO 90896</name>
+		<name>TYC 1717-2193-1</name>
+		<mass>1.04</mass>
 		<radius>1.266</radius>
 		<magV>5.49</magV>
 		<magB>6.16</magB>
@@ -17,19 +25,22 @@
 		<spectraltype>G2 IV</spectraltype>
 		<planet>
 			<name>51 Peg b</name>
+			<name>Bellerophon</name>
 			<list>Confirmed planets</list>
-			<mass>0.468</mass>
-			<period>4.23077</period>
+			<mass errorminus="0.01" errorplus="0.06">0.46</mass>
+			<period>4.231</period>
 			<semimajoraxis>0.052</semimajoraxis>
-			<eccentricity>0.0</eccentricity>
-			<inclination>79</inclination>
-			<description>51 Pegasi is a Sun-like star in the constellation Pegasus. The planet is also called Bellerophon.</description>
+			<eccentricity>0</eccentricity>
+			<inclination errorminus="19" errorplus="10">80</inclination>
+			<radius lowerlimit="1.6" />
+			<periastron>0</periastron>
+			<periastrontime unit="BJD">2456021.256</periastrontime>
+			<description>51 Pegasi is a Sun-like star in the constellation Pegasus. The planet is also called Bellerophon. The lower limit for the radius is given for the limit of a perfectly-reflecting Lambert sphere.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/12/07</lastupdate>
+			<lastupdate>15/05/24</lastupdate>
 			<discoveryyear>1995</discoveryyear>
 			<temperature>1260.3</temperature>
 		</planet>
-		<name>51 Peg</name>
 		<temperature>5793.0</temperature>
 	</star>
 </system>
