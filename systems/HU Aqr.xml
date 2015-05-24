@@ -1,0 +1,77 @@
+<system>
+	<name>HU Aqr</name>
+	<rightascension>21 07 58</rightascension>
+	<declination>-05 17 41</declination>
+	<binary>
+		<name>HU Aqr</name>
+		<name>RX J2107.9-0518</name>
+		<name>2MASS J21075818-0517404</name>
+		<period errorminus="0.0000000004" errorplus="0.0000000004">0.8682036931</period>
+		<transittime errorminus="0.00001" errorplus="0.00001">2453504.88899</transittime>
+		<inclination errorminus="0.5" errorplus="0.8">87</inclination>
+		<magB>15.1</magB>
+		<magV>15.0</magV>
+		<magR>15.4</magR>
+		<magJ errorminus="0.030" errorplus="0.030">14.177</magJ>
+		<magH errorminus="0.041" errorplus="0.041">13.893</magH>
+		<magK errorminus="0.044" errorplus="0.044">13.634</magK>
+		<star>
+			<name>HU Aqr A</name>
+			<mass>0.80</mass>
+			<spectraltype>WD</spectraltype>
+		</star>
+		<star>
+			<name>HU Aqr B</name>
+			<mass errorminus="0.06" errorplus="0.06">0.18</mass>
+			<spectraltype>M4V</spectraltype>
+		</star>
+		<planet>
+			<name>HU Aqr (AB) b</name>
+			<mass>4.758</mass>
+			<semimajoraxis>3.602</semimajoraxis>
+			<eccentricity>0.0218</eccentricity>
+			<inclination>90</inclination>
+			<ascendingnode>0</ascendingnode>
+			<periastron>173.01</periastron>
+			<meananomaly>133.69</meananomaly>
+			<discoveryyear>2011</discoveryyear>
+			<discoverymethod>timing</discoverymethod>
+			<list>Controversial</list>
+			<lastupdate>15/05/24</lastupdate>
+			<description>The eclipse timing data for HU Aquarii does not allow for any stable coplanar 2-planet systems and is not sufficient to uniquely constrain a stable 3-planet system. The data given here are for a stable coplanar 3-planet system where the middle planet orbits in a retrograde direction. The eclipse timing variations may be due to the Applegate mechanism rather than reflex motion due to circumbinary planets: the luminosity variations associated with this mechanism may be smoothed out by the long thermal timescale of the stellar convection zone.</description>
+			<list>Planets in binary systems, P-type</list>
+		</planet>
+		<planet>
+			<name>HU Aqr (AB) c</name>
+			<mass>20.20</mass>
+			<semimajoraxis>6.557</semimajoraxis>
+			<eccentricity>0.1365</eccentricity>
+			<inclination>90</inclination>
+			<ascendingnode>180</ascendingnode>
+			<periastron>10.77</periastron>
+			<meananomaly>245.50</meananomaly>
+			<discoveryyear>2011</discoveryyear>
+			<discoverymethod>timing</discoverymethod>
+			<list>Controversial</list>
+			<lastupdate>15/05/24</lastupdate>
+			<description>The eclipse timing data for HU Aquarii does not allow for any stable coplanar 2-planet systems and is not sufficient to uniquely constrain a stable 3-planet system. The data given here are for a stable coplanar 3-planet system where the middle planet orbits in a retrograde direction. The eclipse timing variations may be due to the Applegate mechanism rather than reflex motion due to circumbinary planets: the luminosity variations associated with this mechanism may be smoothed out by the long thermal timescale of the stellar convection zone.</description>
+			<list>Planets in binary systems, P-type</list>
+		</planet>
+		<planet>
+			<name>HU Aqr (AB) d</name>
+			<mass>80.00</mass>
+			<semimajoraxis>12.887</semimajoraxis>
+			<eccentricity>0.0158</eccentricity>
+			<inclination>90</inclination>
+			<ascendingnode>0</ascendingnode>
+			<periastron>311.94</periastron>
+			<meananomaly>83.47</meananomaly>
+			<discoveryyear>2014</discoveryyear>
+			<discoverymethod>timing</discoverymethod>
+			<list>Controversial</list>
+			<lastupdate>15/05/24</lastupdate>
+			<description>The eclipse timing data for HU Aquarii does not allow for any stable coplanar 2-planet systems and is not sufficient to uniquely constrain a stable 3-planet system. The data given here are for a stable coplanar 3-planet system where the middle planet orbits in a retrograde direction. The eclipse timing variations may be due to the Applegate mechanism rather than reflex motion due to circumbinary planets: the luminosity variations associated with this mechanism may be smoothed out by the long thermal timescale of the stellar convection zone.</description>
+			<list>Planets in binary systems, P-type</list>
+		</planet>
+	</binary>
+</system>
