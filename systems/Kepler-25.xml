@@ -7,8 +7,8 @@
 		<name>Kepler-25</name>
 		<name>KOI-244</name>
 		<name>KIC 4349452</name>
-		<mass>1.22</mass>
-		<radius>1.36</radius>
+		<mass errorminus="0.03" errorplus="0.03">1.26</mass>
+		<radius errorminus="0.01" errorplus="0.01">1.34</radius>
 		<magB errorminus="0.07" errorplus="0.07">11.32</magB>
 		<magV errorminus="0.06" errorplus="0.06">10.77</magV>
 		<magR errorminus="0.021" errorplus="0.021">10.598</magR>
@@ -16,7 +16,9 @@
 		<magH errorminus="0.020" errorplus="0.020">9.532</magH>
 		<magK errorminus="0.017" errorplus="0.017">9.493</magK>
 		<spectraltype>F</spectraltype>
-		<temperature>6190.0</temperature>
+		<temperature errorminus="27" errorplus="27">6354</temperature>
+		<age errorminus="0.300" errorplus="0.300">2.750</age>
+		<metallicity errorminus="0.03" errorplus="0.03">0.11</metallicity>
 		<planet>
 			<name>Kepler-25 b</name>
 			<name>KIC 4349452 b</name>
@@ -44,9 +46,10 @@
 			<period>12.72</period>
 			<semimajoraxis>0.110</semimajoraxis>
 			<transittime errorminus="0.0008" errorplus="0.0008" unit="BJD">2454986.0871</transittime>
-			<description>This planet candidate was discovered with the Kepler spacecraft. Its host star gets periodically fainter whenever the planet is in front of the star. Because there are multiple phenomena that can create a signal that looks similar to a planetary transit, the candidates have to be confirmed with another method. For Kepler-25 the planetary nature of the companions has been confirmed by transit timing variations, caused by other planets in the system, and a stability analysis. However, the mass of the planets is not well constrained yet.</description>
+			<description>This planet candidate was discovered with the Kepler spacecraft. Its host star gets periodically fainter whenever the planet is in front of the star. Because there are multiple phenomena that can create a signal that looks similar to a planetary transit, the candidates have to be confirmed with another method. For Kepler-25 the planetary nature of the companions has been confirmed by transit timing variations, caused by other planets in the system, and a stability analysis. However, the mass of the planets is not well constrained yet. The orbit is aligned at 26.9 degrees from the stellar equator.</description>
+			<spinorbitalignment errorminus="7.1" errorplus="7.1">9.4</spinorbitalignment>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>12/08/06</lastupdate>
+			<lastupdate>15/05/24</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<temperature>959.7</temperature>
 			<istransiting>1</istransiting>
