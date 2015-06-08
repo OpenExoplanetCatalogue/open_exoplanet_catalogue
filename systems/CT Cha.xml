@@ -12,18 +12,20 @@
 		<magH errorminus="0.047" errorplus="0.047">8.944</magH>
 		<magK errorminus="0.021" errorplus="0.021">8.661</magK>
 		<spectraltype>K7</spectraltype>
+		<age lowerlimit="0.001" upperlimit="0.005" />
 		<planet>
-			<name>CT Cha b</name>
+			<name>CT Cha B</name>
 			<list>Confirmed planets</list>
-			<mass errorminus="6" errorplus="6">17</mass>
-			<radius errorminus="0.60" errorplus="0.81">2.2</radius>
+			<mass lowerlimit="14" upperlimit="24" />
+			<radius>2.4</radius>
 			<separation errorminus="0.036" errorplus="0.036" unit="arcsec">2.670</separation>
 			<separation unit="AU">440</separation>
 			<positionangle errorminus="1.24" errorplus="1.24">300.71</positionangle>
-			<temperature errorminus="250" errorplus="250">2600</temperature>
-			<description>CT Chamaeleontis is a pre-main sequence T Tauri star. The companion might be a brown dwarf due to its large mass.</description>
+			<temperature errorminus="100" errorplus="100">2500</temperature>
+			<spectraltype>M9±1</spectraltype>
+			<description>CT Chamaeleontis is a pre-main sequence T Tauri star. The companion might be a brown dwarf due to its large mass. There is evidence for material accreting onto the object at around 6×10^-10 solar masses per year.</description>
 			<discoverymethod>imaging</discoverymethod>
-			<lastupdate>08/09/24</lastupdate>
+			<lastupdate>15/06/08</lastupdate>
 			<discoveryyear>2008</discoveryyear>
 			<image>CT Cha</image>
 			<imagedescription>This image shows the young star CT Cha and a companion (on the right). Due to its large mass it is currently unclear if the companion is a planet or brown dwarf. Credit: Tobias Schmidt (AIU Jena).</imagedescription>
