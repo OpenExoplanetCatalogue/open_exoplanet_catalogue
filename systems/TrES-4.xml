@@ -12,16 +12,17 @@
 			<name>TrES-4 A</name>
 			<name>TYC 2620-00648-1</name>
 			<name>2MASS J17531304+3712426</name>
-			<mass errorminus="0.086" errorplus="0.086">1.339</mass>
+			<mass errorminus="0.05" errorplus="0.05">1.45</mass>
 			<radius errorminus="0.08" errorplus="0.08">1.81</radius>
 			<magB errorminus="0.007" errorplus="0.007">12.112</magB>
 			<magV errorminus="0.004" errorplus="0.004">11.592</magV>
 			<magJ errorminus="0.018" errorplus="0.018">10.583</magJ>
 			<magH errorminus="0.015" errorplus="0.015">10.350</magH>
 			<magK errorminus="0.019" errorplus="0.019">10.330</magK>
-			<temperature errorminus="75" errorplus="75">6200</temperature>
-			<metallicity>0.001</metallicity>
+			<temperature errorminus="65" errorplus="65">6295</temperature>
+			<metallicity errorminus="0.09" errorplus="0.09">0.28</metallicity>
 			<spectraltype>F8</spectraltype>
+			<age errorminus="0.4" errorplus="0.4">2.2</age>
 			<planet>
 				<name>TrES-4 A b</name>
 				<name>TrES-4 b</name>
@@ -30,17 +31,17 @@
 				<name>TrES-4</name>
 				<list>Confirmed planets</list>
 				<list>Planets in binary systems, S-type</list>
-				<mass>0.917</mass>
-				<radius>1.706</radius>
-				<period>3.5539268</period>
-				<semimajoraxis>0.05084</semimajoraxis>
-				<eccentricity>0.0</eccentricity>
-				<inclination>82.81</inclination>
-				<transittime errorminus="0.00062" errorplus="0.00062" unit="BJD">2454230.90524</transittime>
+				<mass errorminus="0.035" errorplus="0.035">0.494</mass>
+				<radius errorminus="0.090" errorplus="0.081">1.838</radius>
+				<period errorminus="0.00000047" errorplus="0.00000047">3.55392771</period>
+				<semimajoraxis errorminus="0.0005" errorplus="0.0005">0.0516</semimajoraxis>
+				<eccentricity upperlimit="0.016" />
+				<inclination errorminus="0.44" errorplus="0.51">83.07</inclination>
+				<transittime errorminus="0.00030" errorplus="0.00030" unit="BJD">2454230.90560</transittime>
 				<discoverymethod>transit</discoverymethod>
-				<lastupdate>13/01/27</lastupdate>
+				<lastupdate>15/06/08</lastupdate>
 				<discoveryyear>2007</discoveryyear>
-				<temperature>1782</temperature>
+				<temperature errorminus="39" errorplus="35">1795</temperature>
 				<description>The planet TrES-4 b was discovered by the Trans-Atlantic Exoplanet Survey and is located in the constellation Hercules. The host star is a member of a binary system.</description>
 				<istransiting>1</istransiting>
 			</planet>
