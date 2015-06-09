@@ -25,13 +25,14 @@
 			<name>KOI-244.02</name>
 			<name>KOI-244 b</name>
 			<list>Confirmed planets</list>
-			<radius>0.2369387</radius>
-			<period>6.238</period>
+			<radius errorminus="0.0033" errorplus="0.0033">0.2411</radius>
+			<period errorminus="0.0000033" errorplus="0.0000033">6.2385369</period>
 			<semimajoraxis>0.068</semimajoraxis>
 			<transittime errorminus="0.0021" errorplus="0.0021" unit="BJD">2454973.5126</transittime>
+			<eccentricity errorminus="0.05" errorplus="0.11">0.05</eccentricity>
 			<description>This planet candidate was discovered with the Kepler spacecraft. Its host star gets periodically fainter whenever the planet is in front of the star. Because there are multiple phenomena that can create a signal that looks similar to a planetary transit, the candidates have to be confirmed with another method. For Kepler-25 the planetary nature of the companions has been confirmed by transit timing variations, caused by other planets in the system, and a stability analysis. However, the mass of the planets is not well constrained yet.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>12/08/06</lastupdate>
+			<lastupdate>15/06/09</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<temperature>1220.6</temperature>
 			<istransiting>1</istransiting>
@@ -42,14 +43,15 @@
 			<name>KOI-244.01</name>
 			<name>KOI-244 c</name>
 			<list>Confirmed planets</list>
-			<radius>0.410086</radius>
-			<period>12.72</period>
+			<radius errorminus="0.0054" errorplus="0.0054">0.4598</radius>
+			<period errorminus="0.0000035" errorplus="0.0000035">12.7203678</period>
 			<semimajoraxis>0.110</semimajoraxis>
 			<transittime errorminus="0.0008" errorplus="0.0008" unit="BJD">2454986.0871</transittime>
+			<eccentricity errorminus="0.01" errorplus="0.07">0.01</eccentricity>
 			<description>This planet candidate was discovered with the Kepler spacecraft. Its host star gets periodically fainter whenever the planet is in front of the star. Because there are multiple phenomena that can create a signal that looks similar to a planetary transit, the candidates have to be confirmed with another method. For Kepler-25 the planetary nature of the companions has been confirmed by transit timing variations, caused by other planets in the system, and a stability analysis. However, the mass of the planets is not well constrained yet. The orbit is aligned at 26.9 degrees from the stellar equator.</description>
 			<spinorbitalignment errorminus="7.1" errorplus="7.1">9.4</spinorbitalignment>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>15/05/24</lastupdate>
+			<lastupdate>15/06/09</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<temperature>959.7</temperature>
 			<istransiting>1</istransiting>
