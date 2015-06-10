@@ -1,0 +1,44 @@
+<system>
+	<name>HAT-P-56</name>
+	<rightascension>06 43 23.52950</rightascension>
+	<declination>+27 15 08.2182</declination>
+	<distance errorminus="7.1" errorplus="7.1">310.5</distance>
+	<star>
+		<name>HAT-P-56</name>
+		<name>GSC 1901-00976</name>
+		<name>2MASS 06432353+2715082</name>
+		<name>EPIC 202126852</name>
+		<name>HD 262389</name>
+		<mass errorminus="0.036" errorplus="0.036">1.296</mass>
+		<radius errorminus="0.030" errorplus="0.030">1.428</radius>
+		<temperature errorminus="50" errorplus="50">6566</temperature>
+		<magB errorminus="0.040" errorplus="0.040">11.287</magB>
+		<magV errorminus="0.036" errorplus="0.036">10.908</magV>
+		<magI errorminus="0.093" errorplus="0.093">9.919</magI>
+		<magJ errorminus="0.021" errorplus="0.021">10.068</magJ>
+		<magH errorminus="0.017" errorplus="0.017">9.881</magH>
+		<magK errorminus="0.016" errorplus="0.016">9.830</magK>
+		<age errorminus="0.35" errorplus="0.35">2.01</age>
+		<planet>
+			<name>HAT-P-56 b</name>
+			<name>GSC 1901-00976 b</name>
+			<name>2MASS 06432353+2715082 b</name>
+			<name>EPIC 202126852 b</name>
+			<name>HD 262389 b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.25" errorplus="0.25">2.18</mass>
+			<radius errorminus="0.040" errorplus="0.040">1.466</radius>
+			<temperature errorminus="21" errorplus="21">1840</temperature>
+			<period errorminus="0.0000047" errorplus="0.0000047">2.7908327</period>
+			<transittime errorminus="0.00042" errorplus="0.00042" unit="BJD">2456553.61645</transittime>
+			<semimajoraxis errorminus="0.00039" errorplus="0.00039">0.04230</semimajoraxis>
+			<eccentricity upperlimit="0.246" />
+			<inclination errorminus="0.18" errorplus="0.18">82.13</inclination>
+			<description>This planet was discovered by the HATNet transit survey. The star is located in field 0 of the NASA's K2 mission. The planet is a inflated hot Jupiter and transits its host star on a near-grazing orbit. The radius is among the largest known for a planet with a mass grater two Jupiter masses.</description>
+			<discoverymethod>transit</discoverymethod>
+			<lastupdate>15/06/05</lastupdate>
+			<discoveryyear>2015</discoveryyear>
+			<istransiting>1</istransiting>
+		</planet>
+	</star>
+</system>
