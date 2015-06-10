@@ -146,7 +146,7 @@
 	<!-- Spectraltype Definition -->
 	<xs:simpleType name="spectraltypedef">
 		<xs:restriction base="xs:string">
-			<xs:pattern value="[OBAFGKMLTYRNSsDC].*"/>
+			<xs:pattern value="[OBAFGKMLTYRNSsDCW].*"/>
 		</xs:restriction>
 	</xs:simpleType>
 	<!-- Right Ascension Definition -->
