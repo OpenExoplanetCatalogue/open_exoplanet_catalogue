@@ -1,0 +1,37 @@
+<system>
+	<name>HATS-8</name>
+	<rightascension>19 39 46.08</rightascension>
+	<declination>-25 44 53.9</declination>
+	<distance errorminus="48" errorplus="110">829</distance>
+	<star>
+		<name>HATS-8</name>
+		<name>2MASS 19394601-2544539</name>
+		<mass errorminus="0.037" errorplus="0.037">1.056</mass>
+		<radius errorminus="0.059" errorplus="0.149">1.086</radius>
+		<magV errorminus="0.10" errorplus="0.10">14.03</magV>
+		<magJ errorminus="0.024" errorplus="0.024">13.098</magJ>
+		<magH errorminus="0.029" errorplus="0.029">12.779</magH>
+		<magK errorminus="0.033" errorplus="0.033">12.661</magK>
+		<temperature errorminus="50" errorplus="50">5679</temperature>
+		<age errorminus="1.7" errorplus="1.7">5.1</age>
+		<metallicity errorminus="0.080" errorplus="0.080">0.210</metallicity>
+		<planet>
+			<name>HATS-8 b</name>
+			<name>2MASS 19394601-2544539 b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.019" errorplus="0.019">0.138</mass>
+			<radius errorminus="0.075" errorplus="0.123">0.873</radius>
+			<temperature errorminus="38" errorplus="79">1324</temperature>
+			<transittime errorminus="0.0012" errorplus="0.0012" unit="BJD">2456672.1102</transittime>
+			<period errorminus="0.000010" errorplus="0.000010">3.583893</period>
+			<semimajoraxis errorminus="0.00055" errorplus="0.00055">0.04667</semimajoraxis>
+			<inclination errorminus="1.8" errorplus="1.2">87.8</inclination>
+			<eccentricity upperlimit="0.376" />
+			<description>HATS-8 b is a low density transiting super-Neptune discovered as part of the HATSouth project. The low density, large radius and a large separation to its host star on the sky makes HATS-8 b an exiting target for future atmospheric characterization studies, particularly for long-slit transmission spectroscopy.</description>
+			<discoverymethod>transit</discoverymethod>
+			<lastupdate>15/06/03</lastupdate>
+			<discoveryyear>2015</discoveryyear>
+			<istransiting>1</istransiting>
+		</planet>
+	</star>
+</system>
