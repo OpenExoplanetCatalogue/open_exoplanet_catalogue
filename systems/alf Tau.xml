@@ -3,41 +3,64 @@
 	<rightascension>04 35 55.20</rightascension>
 	<declination>+16 30 35.1</declination>
 	<distance errorminus="0.32" errorplus="0.32">20.43</distance>
-	<star>
-		<name>alf Tau</name>
-		<name>Aldebaran</name>
-		<name>HR 1457</name>
-		<name>HD 29139</name>
-		<name>HIP 21421</name>
-		<name>TYC 1266-1416-1</name>
-		<name>BD +16 629</name>
-		<name>PPM 120061</name>
-		<mass errorminus="0.11" errorplus="0.11">1.13</mass>
-		<radius errorminus="0.1" errorplus="0.1">45.1</radius>
-		<magV>0.99</magV>
-		<metallicity errorminus="0.05" errorplus="0.05">-0.27</metallicity>
-		<spectraltype>K5 III</spectraltype>
-		<age errorminus="2.4" errorplus="2.4">6.6</age>
-		<temperature errorminus="70" errorplus="70">4055</temperature>
-		<planet>
-			<name>alf Tau b</name>
-			<name>Aldebaran b</name>
-			<name>HR 1457 b</name>
-			<name>HD 29139 b</name>
-			<name>HIP 21421 b</name>
-			<name>TYC 1266-1416-1 b</name>
-			<name>BD +16 629 b</name>
-			<name>PPM 120061 b</name>
-			<list>Controversial</list>
-			<mass lowerlimit="6.47" />
-			<period errorminus="0.90" errorplus="0.90">628.96</period>
-			<periastron errorminus="50.0" errorplus="50.0">2451297.0</periastron>
-			<semimajoraxis errorminus="0.27" errorplus="0.27">1.46</semimajoraxis>
-			<eccentricity errorminus="0.05" errorplus="0.05">0.10</eccentricity>
-			<description>Investigations of long-period radial velocity in Aldebaran first reported over 20 years ago and further photometric investigations provide further evidence of a planetary companion to Aldebaran.</description>
-			<discoverymethod>RV</discoverymethod>
-			<lastupdate>15/05/13</lastupdate>
-			<discoveryyear>2015</discoveryyear>
-		</planet>
-	</star>
+	<binary>
+		<name>WDS J04359+1631</name>
+		<name>BU 550</name>
+		<separation unit="arcsec">31.60</separation>
+		<separation unit="AU">645</separation>
+		<positionangle>113</positionangle>
+		<star>
+			<name>alf Tau</name>
+			<name>Aldebaran</name>
+			<name>alf Tau A</name>
+			<name>Aldebaran A</name>
+			<name>HR 1457</name>
+			<name>HD 29139</name>
+			<name>HIP 21421</name>
+			<name>TYC 1266-1416-1</name>
+			<name>BD +16 629</name>
+			<name>PPM 120061</name>
+			<name>Gliese 171.1 A</name>
+			<name>WDS J04359+1631 A</name>
+			<name>BU 550 A</name>
+			<mass errorminus="0.11" errorplus="0.11">1.13</mass>
+			<radius errorminus="0.1" errorplus="0.1">45.1</radius>
+			<magV>0.99</magV>
+			<metallicity errorminus="0.05" errorplus="0.05">-0.27</metallicity>
+			<spectraltype>K5 III</spectraltype>
+			<age errorminus="2.4" errorplus="2.4">6.6</age>
+			<temperature errorminus="70" errorplus="70">4055</temperature>
+			<planet>
+				<name>alf Tau b</name>
+				<name>Aldebaran b</name>
+				<name>HR 1457 b</name>
+				<name>HD 29139 b</name>
+				<name>HIP 21421 b</name>
+				<name>TYC 1266-1416-1 b</name>
+				<name>BD +16 629 b</name>
+				<name>PPM 120061 b</name>
+				<list>Controversial</list>
+				<mass lowerlimit="6.47" />
+				<period errorminus="0.90" errorplus="0.90">628.96</period>
+				<periastron errorminus="50.0" errorplus="50.0">2451297.0</periastron>
+				<semimajoraxis errorminus="0.27" errorplus="0.27">1.46</semimajoraxis>
+				<eccentricity errorminus="0.05" errorplus="0.05">0.10</eccentricity>
+				<description>Investigations of long-period radial velocity in Aldebaran first reported over 20 years ago and further photometric investigations provide further evidence of a planetary companion to Aldebaran.</description>
+				<discoverymethod>RV</discoverymethod>
+				<lastupdate>15/05/13</lastupdate>
+				<discoveryyear>2015</discoveryyear>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+		<star>
+			<name>alf Tau B</name>
+			<name>Aldebaran B</name>
+			<name>Gliese 171.1 B</name>
+			<name>BD+16 629 B</name>
+			<name>WDS J04359+1631 B</name>
+			<name>BU 550B</name>
+			<magV>13.6</magV>
+			<spectraltype>M2V</spectraltype>
+		</star>
+	</binary>
 </system>
