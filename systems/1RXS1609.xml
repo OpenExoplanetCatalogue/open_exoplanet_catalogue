@@ -2,27 +2,32 @@
 	<name>1RXS1609</name>
 	<rightascension>16 09 30</rightascension>
 	<declination>-21 04 58</declination>
-	<distance>145</distance>
+	<distance errorminus="14" errorplus="14">145</distance>
 	<star>
 		<name>1RXS1609</name>
 		<name>1RXS J160929.1-210524</name>
 		<name>GSC 6213-1358</name>
-		<mass>0.73</mass>
+		<magJ errorminus="0.027" errorplus="0.027">9.764</magJ>
+		<magH errorminus="0.023" errorplus="0.023">9.109</magH>
+		<magK errorminus="0.021" errorplus="0.021">8.891</magK>
+		<mass errorminus="0.10" errorplus="0.20">0.85</mass>
 		<radius>1.35</radius>
-		<spectraltype>K7V</spectraltype>
+		<spectraltype>K7±1V</spectraltype>
+		<temperature errorminus="200" errorplus="300">4060</temperature>
+		<age errorminus="2" errorplus="2">11</age>
 		<planet>
 			<name>1RXS1609 b</name>
 			<name>1RXS J160929.1-210524 b</name>
 			<name>GSC 6213-1358 b</name>
 			<list>Confirmed planets</list>
-			<mass>14</mass>
+			<mass errorminus="1" errorplus="1">12</mass>
 			<radius>1.7</radius>
 			<separation errorminus="0.002" errorplus="0.002" unit="arcsec">2.219</separation>
 			<separation unit="AU">330</separation>
-			<magJ errorminus="0.12" errorplus="0.12">17.90</magJ>
-			<magH errorminus="0.07" errorplus="0.07">16.87</magH>
-			<magK errorminus="0.18" errorplus="0.18">16.17</magK>
-			<spectraltype>L4</spectraltype>
+			<magJ errorminus="0.12" errorplus="0.12">17.85</magJ>
+			<magH errorminus="0.07" errorplus="0.07">16.86</magH>
+			<magK errorminus="0.18" errorplus="0.18">16.15</magK>
+			<spectraltype>L4±1γ</spectraltype>
 			<positionangle errorminus="0.1" errorplus="0.1">27.7</positionangle>
 			<description>1RXS J160929.1-210524 is a 5 million year old pre-main sequence star in the constellation of Scorpius. The observed planet has a large separation, posing problems for current formation scenarios. Two possibilities are that the planet formed by gravitational instability or migrated outwards.</description>
 			<discoverymethod>imaging</discoverymethod>
@@ -31,7 +36,6 @@
 			<image>1RXS1609</image>
 			<imagedescription>This image of the host star and the planet was taken with the Gemini North telescope and released in September 2008. Credit: Gemini Observatory.</imagedescription>
 		</planet>
-		<temperature>4060.0</temperature>
 	</star>
 	<videolink>http://youtu.be/xbowd4IY-Cg</videolink>
 </system>
