@@ -8,30 +8,32 @@
 		<name>KOI-285</name>
 		<name>Kepler-92</name>
 		<name>KIC 6196457</name>
-		<mass errorminus="0.46" errorplus="0.34">1.17</mass>
-		<radius errorminus="0.19" errorplus="0.19">1.53</radius>
+		<mass errorminus="0.030" errorplus="0.020">1.209</mass>
+		<radius errorminus="0.013" errorplus="0.011">1.719</radius>
 		<magB errorminus="0.23" errorplus="0.23">12.50</magB>
 		<magV errorminus="0.15" errorplus="0.15">11.67</magV>
 		<magJ errorminus="0.023" errorplus="0.023">10.747</magJ>
 		<magH errorminus="0.021" errorplus="0.021">10.470</magH>
 		<magK errorminus="0.018" errorplus="0.018">10.403</magK>
-		<temperature errorminus="50.00" errorplus="50.00">5883.00</temperature>
-		<age errorminus="1.1000" errorplus="1.1000">5.2000</age>
+		<temperature errorminus="50" errorplus="50">5883</temperature>
+		<age errorminus="1.1" errorplus="1.1">5.2</age>
 		<planet>
 			<name>KOI-285 b</name>
 			<name>KOI-285.01</name>
 			<name>Kepler-92 b</name>
 			<name>KIC 6196457 b</name>
 			<list>Confirmed planets</list>
-			<mass errorminus="0.0437343285" errorplus="0.0437343285">0.202310599</mass>
-			<radius errorminus="0.039" errorplus="0.039">0.314</radius>
-			<period>13.749</period>
+			<mass upperlimit="0.162" />
+			<radius errorminus="0.012" errorplus="0.012">0.326</radius>
+			<period errorminus="0.000075" errorplus="0.000075">13.748933</period>
+			<transittime errorminus="0.0130786" errorplus="0.0130786" unit="BJD">2455008.9263306</transittime>
+			<eccentricity errorminus="0.17" errorplus="0.1">0.17</eccentricity>
 			<temperature>934</temperature>
 			<semimajoraxis>0.11800</semimajoraxis>
 			<description>This planet was discovered by the Kepler spacecraft. The planet is part of a multiplanetary system. Its planetary nature has been confirmed using transit timing variations which arise because the planets in one system pull on each other and slightly alter the transit times.</description>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
-			<lastupdate>14/03/26</lastupdate>
+			<lastupdate>15/06/09</lastupdate>
 			<discoveryyear>2013</discoveryyear>
 		</planet>
 		<planet>
@@ -40,28 +42,34 @@
 			<name>Kepler-92 c</name>
 			<name>KIC 6196457 c</name>
 			<list>Confirmed planets</list>
-			<mass errorminus="0.00566343823" errorplus="0.00566343823">0.0191927629</mass>
-			<radius errorminus="0.029" errorplus="0.029">0.233</radius>
-			<period>26.723</period>
+			<mass upperlimit="0.0890" />
+			<radius errorminus="0.0047" errorplus="0.0047">0.2190</radius>
+			<period errorminus="0.00019" errorplus="0.00019">26.72311</period>
+			<transittime errorminus="0.0184593" errorplus="0.0184593" unit="BJD">2454986.4408417</transittime>
+			<eccentricity errorminus="0.04" errorplus="0.22">0.04</eccentricity>
 			<temperature>748</temperature>
 			<semimajoraxis>0.18400</semimajoraxis>
 			<description>This planet was discovered by the Kepler spacecraft. The planet is part of a multiplanetary system. Its planetary nature has been confirmed using transit timing variations which arise because the planets in one system pull on each other and slightly alter the transit times.</description>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
-			<lastupdate>14/03/26</lastupdate>
+			<lastupdate>15/06/09</lastupdate>
 			<discoveryyear>2013</discoveryyear>
 		</planet>
 		<planet>
+			<name>KOI-285 d</name>
 			<name>KOI-285.03</name>
-			<radius errorminus="0.02187" errorplus="0.02187">0.16768</radius>
-			<period errorminus="7.40000e-04" errorplus="7.40000e-04">49.358990000000</period>
-			<transittime errorminus="0.0073000" errorplus="0.0073000">2454967.2716000</transittime>
+			<name>Kepler-92 d</name>
+			<name>KIC 6196457 d</name>
+			<radius errorminus="0.0050" errorplus="0.0050">0.1844</radius>
+			<period errorminus="0.0024" errorplus="0.0024">49.3568</period>
+			<eccentricity errorminus="0.04" errorplus="0.34">0.07</eccentricity>
+			<transittime errorminus="0.0073" errorplus="0.0073" unit="BJD">2454967.2716</transittime>
 			<semimajoraxis>0.2780000</semimajoraxis>
 			<temperature>608.0</temperature>
-			<list>Kepler Objects of Interest</list>
+			<list>Confirmed planets</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>14/02/25</lastupdate>
+			<lastupdate>15/06/09</lastupdate>
 			<discoveryyear>2014</discoveryyear>
 			<istransiting>1</istransiting>
 		</planet>

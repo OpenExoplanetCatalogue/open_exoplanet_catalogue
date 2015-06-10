@@ -14,10 +14,10 @@
 		<name>KOI-245</name>
 		<name>KIC 8478994</name>
 		<name>UGA-1785</name>
-		<mass>0.803</mass>
-		<radius>0.770</radius>
-		<metallicity>-0.32</metallicity>
-		<temperature>5417</temperature>
+		<mass errorminus="0.068" errorplus="0.068">0.803</mass>
+		<radius errorminus="0.026" errorplus="0.026">0.770</radius>
+		<metallicity errorminus="0.07" errorplus="0.07">-0.32</metallicity>
+		<temperature errorminus="75" errorplus="75">5417</temperature>
 		<age>6</age>
 		<planet>
 			<name>Kepler-37 b</name>
@@ -26,14 +26,14 @@
 			<name>KIC 8478994 b</name>
 			<name>UGA-1785 b</name>
 			<list>Confirmed planets</list>
-			<radius>0.02761247</radius>
-			<period>13.367308</period>
-			<semimajoraxis>0.1003</semimajoraxis>
-			<eccentricity>0.715</eccentricity>
-			<inclination>88.63</inclination>
+			<radius errorminus="0.0065" errorplus="0.0047">0.0270</radius>
+			<period errorminus="0.000085" errorplus="0.000058">13.367308</period>
+			<semimajoraxis errorminus="0.0011" errorplus="0.0008">0.1003</semimajoraxis>
+			<eccentricity errorminus="0.08" errorplus="0.21">0.08</eccentricity>
+			<inclination errorminus="0.53" errorplus="0.30">88.63</inclination>
 			<transittime errorminus="0.00089" errorplus="0.00034" unit="BJD">2455017.03271</transittime>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>13/04/17</lastupdate>
+			<lastupdate>15/06/09</lastupdate>
 			<discoveryyear>2013</discoveryyear>
 			<description>Kepler-37 b is a tiny planet, about the size of our Moon. Due to the high irradiation it has probably a rocky surface with no atmosphere or water, similar than Mercury. NASA has given the planetary system the alternative identifier UGA-1785 in honor of the University of Georgia.</description>
 			<istransiting>1</istransiting>
@@ -45,14 +45,14 @@
 			<name>KIC 8478994 c</name>
 			<name>UGA-1785 c</name>
 			<list>Confirmed planets</list>
-			<radius>0.067618678</radius>
-			<period>21.301886</period>
-			<semimajoraxis>0.1368</semimajoraxis>
-			<eccentricity>0.098</eccentricity>
-			<inclination>89.07</inclination>
+			<radius errorminus="0.0074" errorplus="0.0058">0.0662</radius>
+			<period errorminus="0.000044" errorplus="0.000046">21.301886</period>
+			<semimajoraxis errorminus="0.0014" errorplus="0.0011">0.1368</semimajoraxis>
+			<eccentricity errorminus="0.09" errorplus="0.18">0.09</eccentricity>
+			<inclination errorminus="0.33" errorplus="0.19">89.07</inclination>
 			<transittime errorminus="0.00078" errorplus="0.00036" unit="BJD">2455024.83816</transittime>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>13/04/17</lastupdate>
+			<lastupdate>15/06/09</lastupdate>
 			<discoveryyear>2013</discoveryyear>
 			<description>Kepler-37 is a three planet system discovered by Kepler. The planet Kepler-37 c is about three quaters the size of Earth. NASA has given the planetary system the alternative identifier UGA-1785 in honor of the University of Georgia.</description>
 			<istransiting>1</istransiting>
@@ -65,12 +65,12 @@
 			<name>UGA-1785 d</name>
 			<list>Confirmed planets</list>
 			<radius>0.181349</radius>
-			<period>39.792187</period>
-			<semimajoraxis>0.2076</semimajoraxis>
-			<eccentricity>0.1024</eccentricity>
-			<inclination>89.335</inclination>
+			<period errorminus="0.000043" errorplus="0.000040">39.792187</period>
+			<semimajoraxis errorminus="0.0022" errorplus="0.0016">0.2076</semimajoraxis>
+			<eccentricity errorminus="0.1" errorplus="0.07">0.15</eccentricity>
+			<inclination errorminus="0.047" errorplus="0.043">89.335</inclination>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>13/04/17</lastupdate>
+			<lastupdate>15/06/09</lastupdate>
 			<transittime errorminus="0.00049" errorplus="0.00043" unit="BJD">2455008.24979</transittime>
 			<discoveryyear>2013</discoveryyear>
 			<description>Kepler-37 d is the outermost planet in a three planet system discovered by Kepler. It is twice as big as Earth and therefore the largest known planet in the system. NASA has given the planetary system the alternative identifier UGA-1785 in honor of the University of Georgia.</description>
