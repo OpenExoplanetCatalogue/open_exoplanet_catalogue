@@ -2,36 +2,37 @@
 	<name>GSC 06214-00210</name>
 	<rightascension>16 21 55</rightascension>
 	<declination>-20 43 07</declination>
-	<distance>145</distance>
+	<distance errorminus="14" errorplus="14">145</distance>
 	<star>
 		<name>GSC 06214-00210</name>
 		<magB>13.1</magB>
 		<magR errorminus="0.05" errorplus="0.05">12.11</magR>
 		<magI errorminus="0.03" errorplus="0.03">11.08</magI>
-		<magJ errorminus="0.027" errorplus="0.027">9.998</magJ>
-		<magH errorminus="0.024" errorplus="0.024">9.342</magH>
-		<magK errorminus="0.021" errorplus="0.021">9.152</magK>
-		<mass>0.6</mass>
-		<spectraltype>M1</spectraltype>
+		<magJ errorminus="0.027" errorplus="0.027">9.946</magJ>
+		<magH errorminus="0.024" errorplus="0.024">9.329</magH>
+		<magK errorminus="0.021" errorplus="0.021">9.129</magK>
+		<mass errorminus="0.1" errorplus="0.1">0.9</mass>
+		<spectraltype>K7±0.5</spectraltype>
+		<temperature errorminus="200" errorplus="300">4060</temperature>
+		<age errorminus="2" errorplus="2">11</age>
 		<planet>
 			<name>GSC 06214-00210 b</name>
 			<name>GSC 6214-210 b</name>
 			<list>Confirmed planets</list>
-			<mass errorminus="2" errorplus="2">14</mass>
-			<temperature errorminus="100" errorplus="100">2200</temperature>
-			<separation errorminus="0.0009" errorplus="0.0009" unit="arcsec">2.2052</separation>
+			<mass errorminus="1" errorplus="1">17</mass>
+			<temperature errorminus="100" errorplus="100">1700</temperature>
+			<separation errorminus="0.002" errorplus="0.002" unit="arcsec">2.204</separation>
 			<separation errorminus="30" errorplus="30" unit="AU">320</separation>
-			<positionangle errorminus="0.09" errorplus="0.09">176.00</positionangle>
-			<spectraltype>L0</spectraltype>
-			<magJ errorminus="0.04" errorplus="0.04">16.25</magJ>
-			<magH errorminus="0.04" errorplus="0.04">15.55</magH>
-			<magK errorminus="0.03" errorplus="0.03">14.94</magK>
+			<positionangle errorminus="0.05" errorplus="0.05">175.97</positionangle>
+			<spectraltype>M9±0.5γ</spectraltype>
+			<magJ errorminus="0.04" errorplus="0.04">16.13</magJ>
+			<magH errorminus="0.04" errorplus="0.04">15.52</magH>
+			<magK errorminus="0.02" errorplus="0.02">14.87</magK>
 			<discoverymethod>imaging</discoverymethod>
-			<lastupdate>11/12/14</lastupdate>
+			<lastupdate>15/06/10</lastupdate>
 			<discoveryyear>2010</discoveryyear>
 			<image>GSC 06214-00210</image>
 			<imagedescription>This image shows the star GSC 06214-00210 and its planetary mass companion. Credit: Michael Ireland (Macquarie University)</imagedescription>
 		</planet>
-		<temperature>3840.0</temperature>
 	</star>
 </system>
