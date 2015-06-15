@@ -7,11 +7,11 @@ Open Exoplanet Catalogue
 
 The Open Exoplanet Catalogue is a database of all discovered extra-solar planets. New planets are usually added within 24 hours of their announcement.
 
-The database is licensed under an MIT license (see below), which basically says you can do everything with it. If you use it for a scientific publication, please include a reference to the Open Exoplanet Catalogue on [github](https://github.com/hannorein/open_exoplanet_catalogue) or to [this arXiv paper](http://arxiv.org/abs/1211.7121).  
+The database is licensed under an MIT license (see below), which basically says you can do everything with it. If you use it for a scientific publication, please include a reference to the Open Exoplanet Catalogue on [github](https://github.com/OpenExoplanetCatalogue/open_exoplanet_catalogue) or to [this arXiv paper](http://arxiv.org/abs/1211.7121).  
 
 The catalogue is a community project. Please send corrections and additions via pull request or [email](mailto:exoplanet@hanno-rein.de). If you have questions or comments about git or the database, please do not hesitate to contact of the contributors directly.
 
-If you are looking for a simple comma/tab separated table, you might want to check out [this repository](https://github.com/hannorein/oec_tables/).
+If you are looking for a simple comma/tab separated table, you might want to check out [this repository](https://github.com/OpenExoplanetCatalogue/oec_tables/).
 
 How to access the catalogue using Python 
 --------------
@@ -115,25 +115,25 @@ There are several constant used in defining the units in the Open Exoplanet Cata
 
 Plots
 -------------
-![Mass vs semi-major axis](https://raw.github.com/hannorein/oec_plots/master/plot_mass_vs_semimajoraxis_discovery.svg.png "Plot")
-![Architecture](https://raw.github.com/hannorein/oec_plots/master/plot_architecture.svg.png "Plot")
-![Discovery year](https://raw.github.com/hannorein/oec_plots/master/plot_discoveryyear.svg.png "Plot")
-![Period ratios](https://raw.github.com/hannorein/oec_plots/master/plot_periodratio.svg.png "Plot")
+![Mass vs semi-major axis](https://raw.github.com/OpenExoplanetCatalogue/oec_plots/master/plot_mass_vs_semimajoraxis_discovery.svg.png "Plot")
+![Architecture](https://raw.github.com/OpenExoplanetCatalogue/oec_plots/master/plot_architecture.svg.png "Plot")
+![Discovery year](https://raw.github.com/OpenExoplanetCatalogue/oec_plots/master/plot_discoveryyear.svg.png "Plot")
+![Period ratios](https://raw.github.com/OpenExoplanetCatalogue/oec_plots/master/plot_periodratio.svg.png "Plot")
 
-To create custom plots please visit [this repository](https://github.com/hannorein/oec_plots) for example scripts.
+To create custom plots please visit [this repository](https://github.com/OpenExoplanetCatalogue/oec_plots) for example scripts.
 
 
 Download ASCII tables
 --------------
 A few words of caution: Many planetary systems are part of binary star systems. The architecture of these systems is correctly represented in the original XML files of the Open Exoplanet Catalogue. In fact, it is to my knowledge the only catalogue that can do that. However, you might prefer to work with a simpler comma or tab separated table instead of the hierarchical XML file format. During the conversion process, some information is inevitably lost. Most importantly, the architecture of the star system. One cannot easily represent an arbitrary binary/triple/quadruple system in a simple table. Additionally, if planets have multiple identifiers only the first identifier is outputted. Using the original XML file format and git, you can use the `git blame` functionality to find references to scientific publications for every numeric value in the database. This functionality is also lost in the conversion process.
 
-In a [separate repository](https://github.com/hannorein/oec_tables/), you will find a [comma separated](https://github.com/hannorein/oec_tables/raw/master/comma_separated/open_exoplanet_catalogue.txt) and a [tab separated](https://github.com/hannorein/oec_tables/blob/master/tab_separated/open_exoplanet_catalogue.txt) ASCII table of the Open Exoplanet Catalogue. 
+In a [separate repository](https://github.com/OpenExoplanetCatalogue/oec_tables/), you will find a [comma separated](https://github.com/OpenExoplanetCatalogue/oec_tables/raw/master/comma_separated/open_exoplanet_catalogue.txt) and a [tab separated](https://github.com/OpenExoplanetCatalogue/oec_tables/blob/master/tab_separated/open_exoplanet_catalogue.txt) ASCII table of the Open Exoplanet Catalogue. 
 
 
 
 Documentation
 --------------
-[This file](https://raw.github.com/hannorein/open_exoplanet_catalogue/master/oec_paper.pdf) describes the philosophy and data-format of the catalogue. However, everything should be rather self-explanatory. The actual data is in the `systems` directory. Each XML file corresponds to one planetary system. 
+[This file](https://raw.github.com/OpenExoplanetCatalogue/open_exoplanet_catalogue/master/oec_paper.pdf) describes the philosophy and data-format of the catalogue. However, everything should be rather self-explanatory. The actual data is in the `systems` directory. Each XML file corresponds to one planetary system. 
 
 If you are editing the file with vim, have a look at the [xmledit plugin](http://www.vim.org/scripts/script.php?script_id=301). I found it very helpful.
 
@@ -150,11 +150,11 @@ Derived products
 --------------
 The following list contains links to other catalogues, websites and apps that are derived from or make use of the Open Exoplanet Catalogue.
 
- * [oec_web](https://github.com/hannorein/oec_web): A suite of HTML pages acting as a front-end of the Open Exoplanet Catalogue. It includes visualizations of orbits, planet sizes and habitable zones. It also includes a plotting tool to generate correlation diagrams. The website is hosted at [openexoplanetcatalogue.com](http://openexoplanetcatalogue.com).
- * [oec_plots](https://github.com/hannorein/oec_plots): Plots and example scripts that make use of the Open Exoplanet Catalogue.
+ * [oec_web](https://github.com/OpenExoplanetCatalogue/oec_web): A suite of HTML pages acting as a front-end of the Open Exoplanet Catalogue. It includes visualizations of orbits, planet sizes and habitable zones. It also includes a plotting tool to generate correlation diagrams. The website is hosted at [openexoplanetcatalogue.com](http://openexoplanetcatalogue.com).
+ * [oec_plots](https://github.com/OpenExoplanetCatalogue/oec_plots): Plots and example scripts that make use of the Open Exoplanet Catalogue.
  * [oec_outreach](https://github.com/hannorein/oec_outreach): A clone of the main repository with images and tags that are mainly used for outreach purposes.
  * [oec_iphone](https://github.com/hannorein/oec_iphone): Compressed files, references to refereed publications, resized images and legacy support for various versions of the mobile version are in the repository.
- * [OECPy](https://github.com/ryanvarley/open-exoplanet-catalogue-python): Open Exoplanet Catalogue Python Interface. A Python module for loading the catalogue into python for use with applications along with many exoplanet related equations and tools.
+ * [OECPy](https://github.com/ryanvarley/ExoData): A Python module for loading the catalogue into python for use with applications along with many exoplanet related equations and tools.
  * [iPhone Exoplanet App](http://exoplanetapp.com): Popular iOS application with many visualizations of the entire catalogue. Version 9.1 and later will fully support planets in multiple star systems.
 
 
