@@ -154,7 +154,7 @@ The following list contains links to other catalogues, websites and apps that ar
  * [oec_plots](https://github.com/OpenExoplanetCatalogue/oec_plots): Plots and example scripts that make use of the Open Exoplanet Catalogue.
  * [oec_outreach](https://github.com/hannorein/oec_outreach): A clone of the main repository with images and tags that are mainly used for outreach purposes.
  * [oec_iphone](https://github.com/hannorein/oec_iphone): Compressed files, references to refereed publications, resized images and legacy support for various versions of the mobile version are in the repository.
- * [OECPy](https://github.com/ryanvarley/ExoData): A Python module for loading the catalogue into python for use with applications along with many exoplanet related equations and tools.
+ * [ExoData](https://github.com/ryanvarley/ExoData): A Python module for loading the catalogue into python for use with applications along with many exoplanet related equations and tools.
  * [iPhone Exoplanet App](http://exoplanetapp.com): Popular iOS application with many visualizations of the entire catalogue. Version 9.1 and later will fully support planets in multiple star systems.
 
 
