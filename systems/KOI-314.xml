@@ -12,18 +12,19 @@
 		<magJ errorminus="0.022" errorplus="0.022">10.293</magJ>
 		<magH errorminus="0.018" errorplus="0.018">9.680</magH>
 		<magK errorminus="0.011" errorplus="0.011">9.506</magK>
-		<temperature errorminus="58" errorplus="58">3871</temperature>
-		<radius errorminus="0.05" errorplus="0.05">0.54</radius>
+		<temperature errorminus="49" errorplus="49">3841</temperature>
+		<radius errorminus="0.024" errorplus="0.024">0.442</radius>
 		<spectraltype>M1V</spectraltype>
-		<mass errorminus="0.05" errorplus="0.05">0.57</mass>
+		<mass errorminus="0.055" errorplus="0.055">0.521</mass>
+		<metallicity errorminus="0.099" errorplus="0.099">-0.280</metallicity>
 		<planet>
 			<name>KOI-314 b</name>
 			<name>Kepler-138 c</name>
 			<name>KOI-314.01</name>
 			<name>KIC 7603200 c</name>
-			<radius errorminus="0.013670" errorplus="0.014581">0.146720</radius>
-			<mass errorminus="0.003964" errorplus="0.004750">0.012048</mass>
-			<period errorminus="0.00014" errorplus="0.00019">13.78164</period>
+			<radius errorminus="0.006379" errorplus="0.006379">0.109083</radius>
+			<mass errorminus="0.003523" errorplus="0.006015">0.006197</mass>
+			<period errorminus="0.0001" errorplus="0.0001">13.7813</period>
 			<transittime>2455010.8521500</transittime>
 			<eccentricity errorminus="0.025" errorplus="0.049">0.050</eccentricity>
 			<periastron errorminus="28" errorplus="47">72</periastron>
@@ -31,7 +32,7 @@
 			<temperature>446.0</temperature>
 			<list>Confirmed planets</list>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>14/01/07</lastupdate>
+			<lastupdate>15/06/17</lastupdate>
 			<discoveryyear>2014</discoveryyear>
 			<description>This planet has been confirmed by researchers trying to find extrasolar moons. Although no exo-moon was detected, they were able to confirm the planetary nature of the transit signal by using transit timing variations (TTV). These variations are due to planets pulling on each other gravitationally, therefore extending or shrinking the time between transits. There is another planet candidate in the system which has not been confirmed yet.</description>
 			<istransiting>1</istransiting>
@@ -41,16 +42,16 @@
 			<name>Kepler-138 d</name>
 			<name>KOI-314.02</name>
 			<name>KIC 7603200 d</name>
-			<radius errorminus="0.013670" errorplus="0.014581">0.146720</radius>
-			<mass errorminus="0.001070" errorplus="0.001321">0.003177</mass>
-			<period errorminus="0.00071" errorplus="0.00071">23.08933</period>
+			<radius errorminus="0.006835" errorplus="0.006835">0.110450</radius>
+			<mass errorminus="0.001217" errorplus="0.002120">0.002013</mass>
+			<period errorminus="0.0008" errorplus="0.0009">23.0881</period>
 			<periastron errorminus="120" errorplus="130">170</periastron>
 			<transittime errorminus="0.0009700" errorplus="0.0009700">2455004.0047100</transittime>
 			<semimajoraxis>0.1280000</semimajoraxis>
 			<temperature>376.0</temperature>
 			<list>Confirmed planets</list>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>14/01/07</lastupdate>
+			<lastupdate>15/06/17</lastupdate>
 			<discoveryyear>2014</discoveryyear>
 			<description>This planet has been confirmed by researchers trying to find extrasolar moons. Although no exo-moon was detected, they were able to confirm the planetary nature of the transit signal by using transit timing variations (TTV). These variations are due to planets pulling on each other gravitationally, therefore extending or shrinking the time between transits. There is another planet candidate in the system which has not been confirmed yet.</description>
 			<istransiting>1</istransiting>
@@ -60,13 +61,14 @@
 			<name>KOI-314.03</name>
 			<name>KIC 7603200 b</name>
 			<name>KIC 7603200.03</name>
-			<radius errorminus="0.00456" errorplus="0.00456">0.05559</radius>
-			<period errorminus=".000036" errorplus="0.000036">10.312364</period>
+			<radius errorminus="0.002916" errorplus="0.002916">0.047570</radius>
+			<mass errorminus="0.000116" errorplus="0.000186">0.000208</mass>
+			<period errorminus="0.0006" errorplus="0.0004">10.3126</period>
 			<transittime errorminus="0.0019100" errorplus="0.0019100">2454966.5442500</transittime>
 			<list>Confirmed planets</list>
 			<description>Kepler-138 b has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-138 b are still unknown, the object is highly unlikely to be a false positive.</description>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/02/26</lastupdate>
+			<lastupdate>15/06/17</lastupdate>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
 		</planet>
