@@ -12,9 +12,10 @@
 		<name>Kepler-107</name>
 		<name>KOI-117</name>
 		<name>KIC 10875245</name>
-		<temperature errorminus="5" errorplus="75">5851</temperature>
-		<radius errorminus=".047" errorplus="0.047">1.411</radius>
+		<temperature errorminus="75" errorplus="75">5851</temperature>
+		<radius errorminus="0.047" errorplus="0.047">1.411</radius>
 		<mass errorminus="0.0390" errorplus="0.0390">1.1830</mass>
+		<metallicity errorminus="0.10" errorplus="0.10">0.27</metallicity>
 		<planet>
 			<name>Kepler-107 e</name>
 			<name>KOI-117 e</name>
@@ -22,8 +23,11 @@
 			<name>KIC 10875245 e</name>
 			<name>KIC 10875245.01</name>
 			<radius errorminus="0.02278" errorplus="0.02278">0.31440</radius>
-			<period errorminus=".000034" errorplus="0.000034">14.749049</period>
+			<period errorminus="0.000034" errorplus="0.000034">14.749049</period>
 			<transittime errorminus="0.0013400" errorplus="0.0013400">2454971.7799800</transittime>
+			<semimajoraxis errorminus="0.001" errorplus="0.001">0.124</semimajoraxis>
+			<inclination errorminus="0.1" errorplus="1.6">87.3</inclination>
+			<eccentricity errorminus="0.02" errorplus="0.18">0.02</eccentricity>
 			<list>Confirmed planets</list>
 			<description>Kepler-107 e has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-107 e are still unknown, the object is highly unlikely to be a false positive.</description>
 			<discoveryyear>2014</discoveryyear>
@@ -40,6 +44,9 @@
 			<radius errorminus="0.01640" errorplus="0.01640">0.16495</radius>
 			<period errorminus=".000016" errorplus="0.000016">4.901425</period>
 			<transittime errorminus="0.0017400" errorplus="0.0017400">2454971.6074200</transittime>
+			<semimajoraxis errorminus="0.0006" errorplus="0.0006">0.0597</semimajoraxis>
+			<inclination errorminus="0.2" errorplus="3.5">85.1</inclination>
+			<eccentricity errorminus="0.02" errorplus="0.26">0.02</eccentricity>
 			<list>Confirmed planets</list>
 			<description>Kepler-107 c has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-107 c are still unknown, the object is highly unlikely to be a false positive.</description>
 			<discoveryyear>2014</discoveryyear>
@@ -54,8 +61,11 @@
 			<name>KIC 10875245 b</name>
 			<name>KIC 10875245.03</name>
 			<radius errorminus="0.00547" errorplus="0.00547">0.14216</radius>
-			<period errorminus=".000011" errorplus="0.000011">3.179997</period>
+			<period errorminus="0.000011" errorplus="0.000011">3.179997</period>
 			<transittime errorminus="0.0020000" errorplus="0.0020000">2454966.4990400</transittime>
+			<semimajoraxis errorminus="0.0005" errorplus="0.0005">0.0448</semimajoraxis>
+			<inclination errorminus="1.2" errorplus="2.9">87.1</inclination>
+			<eccentricity errorminus="0.02" errorplus="0.20">0.02</eccentricity>
 			<list>Confirmed planets</list>
 			<description>Kepler-107 b has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-107 b are still unknown, the object is highly unlikely to be a false positive.</description>
 			<discoveryyear>2014</discoveryyear>
@@ -72,6 +82,9 @@
 			<radius errorminus="0.00547" errorplus="0.00547">0.09751</radius>
 			<period errorminus=".000104" errorplus="0.000104">7.958203</period>
 			<transittime errorminus="0.0061200" errorplus="0.0061200">2454970.7996800</transittime>
+			<semimajoraxis errorminus="0.0009" errorplus="0.0009">0.0825</semimajoraxis>
+			<inclination errorminus="0.9" errorplus="1.2">88.8</inclination>
+			<eccentricity errorminus="0.14" errorplus="0.25">0.14</eccentricity>
 			<list>Confirmed planets</list>
 			<description>Kepler-107 d has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-107 d are still unknown, the object is highly unlikely to be a false positive.</description>
 			<discoveryyear>2014</discoveryyear>
