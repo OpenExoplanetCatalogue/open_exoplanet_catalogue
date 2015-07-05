@@ -1,7 +1,7 @@
 <system>
 	<name>Gliese 777</name>
-	<rightascension>20 03 37</rightascension>
-	<declination>+29 53 48</declination>
+	<rightascension>20 03 37.405</rightascension>
+	<declination>+29 53 48.50</declination>
 	<distance>15.89</distance>
 	<binary>
 		<separation unit="arcsec">179</separation>
@@ -24,13 +24,14 @@
 				<name>HR 7670 A b</name>
 				<list>Confirmed planets</list>
 				<list>Planets in binary systems, S-type</list>
-				<mass>1.502</mass>
-				<period>2891</period>
+				<mass errorminus="0.154" errorplus="1.154">1.495</mass>
+				<period errorminus="7.7" errorplus="7.7">2867.9</period>
+				<periastrontime errorminus="19" errorplus="19" unit="BJD">2459271</periastrontime>
 				<description>The A component of the star system Gliese 777 hosts at least two planets. With 6.7 billion years, the host star is much older than our Sun. The binary companion is a dim red dwarf orbiting at a distance of 3000 astronomical units.</description>
 				<semimajoraxis>3.92</semimajoraxis>
-				<eccentricity>0.36</eccentricity>
+				<eccentricity errorminus="0.017" errorplus="0.017">0.343</eccentricity>
 				<discoverymethod>RV</discoverymethod>
-				<lastupdate>12/12/08</lastupdate>
+				<lastupdate>15/06/29</lastupdate>
 				<discoveryyear>2003</discoveryyear>
 			</planet>
 			<planet>
@@ -41,12 +42,13 @@
 				<list>Confirmed planets</list>
 				<list>Planets in binary systems, S-type</list>
 				<description>The A component of the star system Gliese 777 hosts at least two planets. With 6.7 billion years, the host star is much older than our Sun. The binary companion is a dim red dwarf orbiting at a distance of 3000 astronomical units.</description>
-				<mass>0.057</mass>
-				<period>17.1</period>
+				<mass errorminus="0.01" errorplus="0.01">0.064</mass>
+				<period errorminus="0.0016" errorplus="0.0016">17.1186</period>
+				<periastrontime errorminus="2.9" errorplus="1.5" unit="BJD">2455570.3</periastrontime>
 				<semimajoraxis>0.128</semimajoraxis>
-				<eccentricity>0.01</eccentricity>
+				<eccentricity errorminus="0.07" errorplus="0.07">0.107</eccentricity>
 				<discoverymethod>RV</discoverymethod>
-				<lastupdate>12/12/08</lastupdate>
+				<lastupdate>15/06/29</lastupdate>
 				<discoveryyear>2005</discoveryyear>
 			</planet>
 		</star>
