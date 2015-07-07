@@ -1,0 +1,38 @@
+<system>
+	<name>HATS-7</name>
+	<rightascension>13 55 25.68</rightascension>
+	<declination>-21 12 27.7</declination>
+	<distance errorminus="12" errorplus="15">257</distance>
+	<star>
+		<name>HATS-7</name>
+		<name>GSC 6148-00422</name>
+		<name>2MASS J13552567-2112276</name>
+		<temperature errorminus="50" errorplus="50">4985</temperature>
+		<spectraltype>K2</spectraltype>
+		<metallicity errorminus="0.080" errorplus="0.080">0.250</metallicity>
+		<magB errorminus="0.020" errorplus="0.020">14.359</magB>
+		<magV errorminus="0.010" errorplus="0.010">13.340</magV>
+		<magJ errorminus="0.024" errorplus="0.024">11.528</magJ>
+		<magH errorminus="0.024" errorplus="0.024">11.085</magH>
+		<magK errorminus="0.026" errorplus="0.026">10.976</magK>
+		<mass errorminus="0.027" errorplus="0.027">0.849</mass>
+		<radius errorminus="0.035" errorplus="0.049">0.815</radius>
+		<age errorminus="5.0" errorplus="5.0">7.8</age>
+		<planet>
+			<name>HATS-7 b</name>
+			<period errorminus="0.0000054" errorplus="0.0000054">3.1853150</period>
+			<transittime errorminus="0.00058" errorplus="0.00058">2456528.29697</transittime>
+			<inclination errorminus="0.75" errorplus="0.75">87.92</inclination>
+			<eccentricity upperlimit="0.170" />
+			<mass errorminus="0.012" errorplus="0.012">0.120</mass>
+			<radius errorminus="0.034" errorplus="0.046">0.563</radius>
+			<semimajoraxis errorminus="0.00043" errorplus="0.00043">0.04012</semimajoraxis>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2015</discoveryyear>
+			<description>HATS-7b is a hot super-Neptune orbiting a metal-rich K-dwarf star. The inferred composition based on its observed properties suggests it is mainly composed of heavy elements, which makes it more similar to Uranus and Neptune than Saturn.</description>
+			<lastupdate>15/07/07</lastupdate>
+			<istransiting>1</istransiting>
+			<list>Confirmed planets</list>
+		</planet>
+	</star>
+</system>
