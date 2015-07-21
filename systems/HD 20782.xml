@@ -21,10 +21,11 @@
 				<name>HD 20782 b</name>
 				<list>Confirmed planets</list>
 				<list>Planets in binary systems, S-type</list>
-				<mass>1.9</mass>
-				<period>591.9</period>
-				<semimajoraxis>1.381</semimajoraxis>
-				<eccentricity>0.97</eccentricity>
+				<mass errorminus="0.5" errorplus="0.5">1.9</mass>
+				<period errorminus="2.8" errorplus="2.8">591.9</period>
+				<semimajoraxis errorminus="0.005" errorplus="0.005">1.381</semimajoraxis>
+				<eccentricity errorminus="0.01" errorplus="0.01">0.97</eccentricity>
+				<periastron errorminus="6.5" errorplus="6.5">147.7</periastron>
 				<discoverymethod>RV</discoverymethod>
 				<description>The planet HD 20782 b is orbiting the main sequence star HD 20782, a star in a binary system in which both stars host a planetary systems. This is the first such system.</description>
 				<lastupdate>12/12/09</lastupdate>
