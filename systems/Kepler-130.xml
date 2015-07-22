@@ -14,8 +14,8 @@
 		<name>Kepler-130</name>
 		<name>KOI-282</name>
 		<name>KIC 5088536</name>
-		<temperature errorminus="5" errorplus="75">5884</temperature>
-		<radius errorminus=".033" errorplus="0.033">1.127</radius>
+		<temperature errorminus="75" errorplus="75">5884</temperature>
+		<radius errorminus="0.033" errorplus="0.033">1.127</radius>
 		<mass errorminus="0.0400" errorplus="0.0400">0.9650</mass>
 		<planet>
 			<name>Kepler-130 c</name>
@@ -24,12 +24,15 @@
 			<name>KIC 5088536 c</name>
 			<name>KIC 5088536.01</name>
 			<radius errorminus="0.00820" errorplus="0.00820">0.25608</radius>
-			<period errorminus=".000033" errorplus="0.000033">27.508653</period>
-			<transittime errorminus="0.0006500" errorplus="0.0006500">2455015.1038700</transittime>
+			<period errorminus="0.000033" errorplus="0.000033">27.508653</period>
+			<transittime errorminus="0.0006500" errorplus="0.0006500" unit="BJD">2455015.1038700</transittime>
+			<semimajoraxis errorminus="0.002" errorplus="0.002">0.176</semimajoraxis>
+			<inclination errorminus="0.3" errorplus="0.2">89.8</inclination>
+			<eccentricity errorminus="0.08" errorplus="0.15">0.08</eccentricity>
 			<list>Confirmed planets</list>
 			<description>Kepler-130 c has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-130 c are still unknown, the object is highly unlikely to be a false positive.</description>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/02/26</lastupdate>
+			<lastupdate>15/07/22</lastupdate>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
 		</planet>
@@ -40,12 +43,15 @@
 			<name>KIC 5088536 b</name>
 			<name>KIC 5088536.02</name>
 			<radius errorminus="0.00365" errorplus="0.00365">0.09295</radius>
-			<period errorminus=".000039" errorplus="0.000039">8.457458</period>
-			<transittime errorminus="0.0026900" errorplus="0.0026900">2454972.0666600</transittime>
+			<period errorminus="0.000039" errorplus="0.000039">8.457458</period>
+			<transittime errorminus="0.0026900" errorplus="0.0026900" unit="BJD">2454972.0666600</transittime>
+			<semimajoraxis errorminus="0.001" errorplus="0.001">0.080</semimajoraxis>
+			<inclination errorminus="1.1" errorplus="0.4">89.6</inclination>
+			<eccentricity errorminus="0.15" errorplus="0.14">0.15</eccentricity>
 			<list>Confirmed planets</list>
 			<description>Kepler-130 b has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-130 b are still unknown, the object is highly unlikely to be a false positive.</description>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/02/26</lastupdate>
+			<lastupdate>15/07/22</lastupdate>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
 		</planet>
@@ -56,12 +62,15 @@
 			<name>KIC 5088536 d</name>
 			<name>KIC 5088536.03</name>
 			<radius errorminus="0.01458" errorplus="0.01458">0.14945</radius>
-			<period errorminus=".000744" errorplus="0.000744">87.517905</period>
-			<transittime errorminus="0.0046700" errorplus="0.0046700">2455034.1580500</transittime>
+			<period errorminus="0.000744" errorplus="0.000744">87.517905</period>
+			<transittime errorminus="0.0046700" errorplus="0.0046700" unit="BJD">2455034.1580500</transittime>
+			<semimajoraxis errorminus="0.005" errorplus="0.005">0.381</semimajoraxis>
+			<inclination errorminus="0.1" errorplus="0.02">89.3</inclination>
+			<eccentricity upperlimit="0.89" />
 			<list>Confirmed planets</list>
 			<description>Kepler-130 d has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-130 d are still unknown, the object is highly unlikely to be a false positive.</description>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/02/26</lastupdate>
+			<lastupdate>15/07/22</lastupdate>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
 		</planet>
