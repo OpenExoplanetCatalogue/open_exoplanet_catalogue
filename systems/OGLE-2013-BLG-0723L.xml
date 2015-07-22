@@ -1,0 +1,29 @@
+<system>
+	<name>OGLE-2013-BLG-0723L</name>
+	<rightascension>17 34 40.51</rightascension>
+	<declination>-27 26 53.2</declination>
+	<distance errorminus="40" errorplus="40">490</distance>
+	<binary>
+		<name>OGLE-2013-BLG-0723L</name>
+		<separation errorminus="0.15" errorplus="0.15" unit="AU">1.74</separation>
+		<star>
+			<name>OGLE-2013-BLG-0723LA</name>
+			<mass errorminus="0.009" errorplus="0.009">0.097</mass>
+		</star>
+		<star>
+			<name>OGLE-2013-BLG-0723LB</name>
+			<mass errorminus="0.003" errorplus="0.003">0.031</mass>
+			<planet>
+				<name>OGLE-2013-BLG-0723LB b</name>
+				<list>Confirmed planets</list>
+				<mass errorminus="0.0002" errorplus="0.0002">0.0022</mass>
+				<separation errorminus="0.03" errorplus="0.03" unit="AU">0.34</separation>
+				<discoverymethod>microlensing</discoverymethod>
+				<discoveryyear>2015</discoveryyear>
+				<lastupdate>15/07/22</lastupdate>
+				<description>OGLE-2013-BLG-0723LBb is a Venus-mass planet orbiting a brown dwarf of 32 Jupiter masses, which is itself orbiting a low-mass star. It can therefore be considered either a scaled-up exommon system or a scaled-down planetary system. There is evidence that the system may also contain an additional, more luminous star around which the three known objects revolve.</description>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+	</binary>
+</system>
