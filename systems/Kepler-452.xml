@@ -1,0 +1,32 @@
+<system>
+	<name>Kepler-452</name>
+	<name>KIC 8311864</name>
+	<rightascension>19 44 00</rightascension>
+	<declination>+44 16 39</declination>
+	<distance>430</distance>
+	<star>
+		<name>Kepler-452</name>
+		<name>KIC 8311864</name>
+		<mass errorminus="0.047" errorplus="0.054">1.037</mass>
+		<age errorminus="2" errorplus="2">6</age>
+		<radius errorminus="0.09" errorplus="0.15">1.11</radius>
+		<temperature errorminus="85" errorplus="85">5757</temperature>
+		<metallicity errorminus="0.09" errorplus="0.09">0.21</metallicity>
+		<planet>
+			<name>Kepler-452 b</name>
+			<name>KIC 8311864 b</name>
+			<name>KOI-7016.01</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.018226" errorplus="0.020960">0.148542</radius>
+			<temperature errorminus="13" errorplus="15">265</temperature>
+			<period errorminus="0.019" errorplus="0.015">384.843</period>
+			<semimajoraxis errorminus="0.015" errorplus="0.019">1.046</semimajoraxis>
+			<inclination errorminus="0.049" errorplus="0.134">89.806</inclination>
+			<discoverymethod>transit</discoverymethod>
+			<description>Kepler-452b is a about 60% bigger than Earth and located in the habitable zone of a Sun-like star. It orbits it star every 385 days. The planet's star is 1400 light-years away and with an age of 6 billion years, roughly 1.5 billion years older than our Sun. At the speed of New Horizons, the fastest spacecraft yet launched by humanity, it would take about 25.8 million years to get there.</description>
+			<istransiting>1</istransiting>
+			<lastupdate>15/07/23</lastupdate>
+			<discoveryyear>2015</discoveryyear>
+		</planet>
+	</star>
+</system>
