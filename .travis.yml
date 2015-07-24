@@ -1,3 +1,4 @@
+sudo: false
 install: true
 script:
     - python cleanup.py
