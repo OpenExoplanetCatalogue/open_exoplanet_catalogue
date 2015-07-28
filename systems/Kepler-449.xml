@@ -1,0 +1,64 @@
+<system>
+	<name>Kepler-449</name>
+	<rightascension>19 34 55.88</rightascension>
+	<declination>41 54 03.0</declination>
+	<binary>
+		<name>Kepler-449</name>
+		<name>KOI-270</name>
+		<name>KIC 6528464</name>
+		<separation unit="arcsec">0.08</separation>
+		<positionangle>68.4</positionangle>
+		<star>
+			<name>Kepler-449 A</name>
+			<name>KOI-270 A</name>
+			<name>KIC 6528464 A</name>
+			<mass errorminus="0.053" errorplus="0.053">0.969</mass>
+			<radius errorminus="0.085" errorplus="0.085">1.570</radius>
+			<temperature errorminus="99" errorplus="99">5588</temperature>
+			<magJ>10.088</magJ>
+			<magK>9.701</magK>
+			<planet>
+				<name>Kepler-449 b</name>
+				<name>KOI-270.01</name>
+				<name>KOI-270 b</name>
+				<name>KIC 6528464 b</name>
+				<period errorminus="0.00027" errorplus="0.00027">12.58242</period>
+				<radius errorminus="0.0062" errorplus="0.0062">0.1834</radius>
+				<eccentricity errorminus="0.03" errorplus="0.28">0.03</eccentricity>
+				<transittime errorminus="0.00168" errorplus="0.00168" unit="BJD">2455008.02202</transittime>
+				<semimajoraxis errorminus="0.002" errorplus="0.002">0.105</semimajoraxis>
+				<istransiting>1</istransiting>
+				<discoverymethod>transit</discoverymethod>
+				<discoveryyear>2015</discoveryyear>
+				<lastupdate>15/07/28</lastupdate>
+				<description>Kepler-449 b is a planet orbiting one of the two components of the binary star KOI-270.</description>
+				<list>Confirmed planets</list>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+			<planet>
+				<name>Kepler-449 c</name>
+				<name>KOI-270.02</name>
+				<name>KOI-270 c</name>
+				<name>KIC 6528464 c</name>
+				<period errorminus="0.0010" errorplus="0.0010">33.6727</period>
+				<radius errorminus="0.0077" errorplus="0.0077">0.2466</radius>
+				<eccentricity errorminus="0.05" errorplus="0.24">0.05</eccentricity>
+				<transittime errorminus="0.00229" errorplus="0.00229" unit="BJD">2454995.03824</transittime>
+				<semimajoraxis errorminus="0.004" errorplus="0.004">0.202</semimajoraxis>
+				<istransiting>1</istransiting>
+				<discoverymethod>transit</discoverymethod>
+				<discoveryyear>2015</discoveryyear>
+				<lastupdate>15/07/28</lastupdate>
+				<description>Kepler-449 c is a planet orbiting one of the two components of the binary star KOI-270.</description>
+				<list>Confirmed planets</list>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+		<star>
+			<name>Kepler-449 B</name>
+			<name>KOI-270 B</name>
+			<name>KIC 6528464 B</name>
+			<magK>9.801</magK>
+		</star>
+	</binary>
+</system>
