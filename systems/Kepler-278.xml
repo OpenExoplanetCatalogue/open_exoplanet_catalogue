@@ -14,9 +14,10 @@
 		<name>Kepler-278</name>
 		<name>KOI-1221</name>
 		<name>KIC 3640905</name>
-		<temperature errorminus="5" errorplus="75">4991</temperature>
-		<radius errorminus=".066" errorplus="0.066">2.935</radius>
+		<temperature errorminus="75" errorplus="75">4991</temperature>
+		<radius errorminus="0.066" errorplus="0.066">2.935</radius>
 		<mass errorminus="0.0690" errorplus="0.0690">1.0790</mass>
+		<metallicity errorminus="0.10" errorplus="0.10">0.28</metallicity>
 		<planet>
 			<name>Kepler-278 b</name>
 			<name>KOI-1221 b</name>
@@ -24,12 +25,15 @@
 			<name>KIC 3640905 b</name>
 			<name>KIC 3640905.01</name>
 			<radius errorminus="0.01458" errorplus="0.01458">0.37090</radius>
-			<period errorminus=".000311" errorplus="0.000311">30.160546</period>
-			<transittime errorminus="0.0064400" errorplus="0.0064400">2454971.5124800</transittime>
+			<period errorminus="0.000311" errorplus="0.000311">30.160546</period>
+			<transittime errorminus="0.0064400" errorplus="0.0064400" unit="BJD">2454971.5124800</transittime>
+			<eccentricity errorminus="0.03" errorplus="0.33">0.03</eccentricity>
+			<semimajoraxis errorminus="0.004" errorplus="0.004">0.195</semimajoraxis>
+			<inclination errorminus="0.4" errorplus="1.5">88.5</inclination>
 			<list>Confirmed planets</list>
 			<description>Kepler-278 b has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-278 b are still unknown, the object is highly unlikely to be a false positive.</description>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/02/26</lastupdate>
+			<lastupdate>15/07/28</lastupdate>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
 		</planet>
@@ -40,12 +44,14 @@
 			<name>KIC 3640905 c</name>
 			<name>KIC 3640905.02</name>
 			<radius errorminus="0.03919" errorplus="0.03919">0.32716</radius>
-			<period errorminus=".000890" errorplus="0.000890">51.078775</period>
-			<transittime errorminus="0.0095300" errorplus="0.0095300">2454985.3489200</transittime>
+			<period errorminus="0.000890" errorplus="0.000890">51.078775</period>
+			<transittime errorminus="0.0095300" errorplus="0.0095300" unit="BJD">2454985.3489200</transittime>
+			<semimajoraxis errorminus="0.006" errorplus="0.006">0.276</semimajoraxis>
+			<inclination errorminus="0.1" errorplus="1.5">87.8</inclination>
 			<list>Confirmed planets</list>
 			<description>Kepler-278 c has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-278 c are still unknown, the object is highly unlikely to be a false positive.</description>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/02/26</lastupdate>
+			<lastupdate>15/07/28</lastupdate>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
 		</planet>

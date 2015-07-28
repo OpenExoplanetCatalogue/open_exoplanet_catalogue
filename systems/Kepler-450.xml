@@ -1,0 +1,75 @@
+<system>
+	<name>Kepler-450</name>
+	<rightascension>19 41 56.76</rightascension>
+	<declination>+51 00 48.6</declination>
+	<binary>
+		<name>Kepler-450</name>
+		<name>KOI-279</name>
+		<name>KIC 12314973</name>
+		<separation unit="arcsec">0.9</separation>
+		<star>
+			<name>Kepler-450 A</name>
+			<name>KOI-279 A</name>
+			<name>KIC 12314973 A</name>
+			<mass errorminus="0.084" errorplus="0.084">1.346</mass>
+			<radius errorminus="0.085" errorplus="0.085">1.570</radius>
+			<planet>
+				<name>Kepler-450 b</name>
+				<name>Kepler-450 A b</name>
+				<name>KOI-279.01</name>
+				<name>KOI-279 A b</name>
+				<name>KIC 12314973 A b</name>
+				<period errorminus="0.000025" errorplus="0.000025">28.454851</period>
+				<radius errorminus="0.029" errorplus="0.029">0.548</radius>
+				<eccentricity errorminus="0.02" errorplus="0.14">0.02</eccentricity>
+				<transittime errorminus="0.000363" errorplus="0.000363" unit="BJD">2455009.705841</transittime>
+				<semimajoraxis errorminus="0.004" errorplus="0.004">0.201</semimajoraxis>
+				<istransiting>1</istransiting>
+				<discoverymethod>transit</discoverymethod>
+				<discoveryyear>2015</discoveryyear>
+				<description>Kepler-450 b is a planet orbiting the brighter member of the binary star KOI-279.</description>
+				<list>Confirmed planets</list>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+			<planet>
+				<name>Kepler-450 c</name>
+				<name>Kepler-450 A c</name>
+				<name>KOI-279.02</name>
+				<name>KOI-279 A c</name>
+				<name>KIC 12314973 A c</name>
+				<period errorminus="0.000085" errorplus="0.000085">15.413135</period>
+				<radius errorminus="0.012" errorplus="0.012">0.234</radius>
+				<eccentricity errorminus="0.02" errorplus="0.17">0.02</eccentricity>
+				<transittime errorminus="0.00165" errorplus="0.00165" unit="BJD">2454969.94232</transittime>
+				<semimajoraxis errorminus="0.003" errorplus="0.003">0.134</semimajoraxis>
+				<istransiting>1</istransiting>
+				<discoverymethod>transit</discoverymethod>
+				<discoveryyear>2015</discoveryyear>
+				<description>Kepler-450 c is a planet orbiting the brighter member of the binary star KOI-279.</description>
+				<list>Confirmed planets</list>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+			<planet>
+				<name>Kepler-450 d</name>
+				<name>Kepler-450 A d</name>
+				<name>KOI-279.03</name>
+				<name>KOI-279 A d</name>
+				<period errorminus="0.00023" errorplus="0.00023">7.51464</period>
+				<radius errorminus="0.0061" errorplus="0.0061">0.0747</radius>
+				<eccentricity errorminus="0.14" errorplus="0.24">0.14</eccentricity>
+				<transittime errorminus="0.0114" errorplus="0.0114" unit="BJD">2454969.1745</transittime>
+				<semimajoraxis errorminus="0.002" errorplus="0.002">0.083</semimajoraxis>
+				<istransiting>1</istransiting>
+				<discoverymethod>transit</discoverymethod>
+				<discoveryyear>2015</discoveryyear>
+				<description>Kepler-450 d is a planet orbiting the brighter member of the binary star KOI-279.</description>
+				<list>Confirmed planets</list>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+		<star>
+			<name>Kepler-450 B</name>
+			<name>KOI-279 B</name>
+		</star>
+	</binary>
+</system>
