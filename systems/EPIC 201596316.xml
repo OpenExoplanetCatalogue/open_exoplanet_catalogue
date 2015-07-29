@@ -2,29 +2,31 @@
 	<name>EPIC 201596316</name>
 	<rightascension>11 16 10.08</rightascension>
 	<declination>+01 59 12.62</declination>
-	<distance errorminus="41" errorplus="24">297</distance>
+	<distance errorminus="1728" errorplus="71">2019</distance>
 	<star>
 		<name>EPIC 201596316</name>
-		<mass errorminus="0.11" errorplus="0.07">0.83</mass>
-		<radius errorminus="0.1" errorplus="0.05">0.77</radius>
-		<temperature errorminus="50" errorplus="46">5254</temperature>
+		<name>K2-11</name>
+		<mass errorminus="0.56" errorplus="0.04">1.35</mass>
+		<radius errorminus="4.39" errorplus="0.2">5.15</radius>
+		<temperature errorminus="144" errorplus="49">5433</temperature>
 		<magJ errorminus="0.02" errorplus="0.02">11.87</magJ>
 		<magH errorminus="0.02" errorplus="0.02">11.46</magH>
 		<magK errorminus="0.02" errorplus="0.02">11.35</magK>
-		<metallicity errorminus="0.38" errorplus="0.25">-0.16</metallicity>
+		<metallicity errorminus="0.17" errorplus="0.01">-0.12</metallicity>
 		<planet>
 			<name>EPIC 201596316 b</name>
 			<name>EPIC 201596316.01</name>
-			<list>Controversial</list>
-			<radius errorminus="0.035" errorplus="0.035">0.205</radius>
-			<period errorminus="0.01392" errorplus="0.01392">39.84348</period>
-			<transittime errorminus="0.0096" errorplus="0.0096" unit="BJD">2456829.8566</transittime>
-			<semimajoraxis errorminus="0.0072" errorplus="0.0072">0.2126</semimajoraxis>
-			<temperature errorminus="19" errorplus="19">475</temperature>
+			<name>K2-11 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.859" errorplus="0.859">0.695</radius>
+			<period errorminus="0.23229" errorplus="0.23229">39.93767</period>
+			<transittime errorminus="0.1156" errorplus="0.1156" unit="BJD">2456829.829</transittime>
+			<semimajoraxis errorminus="0.0143" errorplus="0.0143">0.2257</semimajoraxis>
+			<temperature errorminus="253" errorplus="253">734</temperature>
 			<description>This planet was discovered by the Kepler spacecraft during its extended K2 mission, Campaign 1.</description>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
-			<lastupdate>15/03/26</lastupdate>
+			<lastupdate>15/07/07</lastupdate>
 			<discoveryyear>2015</discoveryyear>
 		</planet>
 	</star>
