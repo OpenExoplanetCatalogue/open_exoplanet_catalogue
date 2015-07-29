@@ -1,33 +1,38 @@
 <system>
-	<name>EPIC 201393098</name>
-	<rightascension>11 08 22.505</rightascension>
-	<declination>-01 03 56.72</declination>
-	<distance errorminus="38" errorplus="75">433</distance>
-	<star>
-		<name>EPIC 201393098</name>
-		<name>K2-7</name>
-		<mass errorminus="0.06" errorplus="0.06">0.97</mass>
-		<radius errorminus="0.08" errorplus="0.17">0.96</radius>
-		<temperature errorminus="91" errorplus="72">5772</temperature>
-		<magJ errorminus="0.02" errorplus="0.02">11.95</magJ>
-		<magH errorminus="0.02" errorplus="0.02">11.63</magH>
-		<magK errorminus="0.02" errorplus="0.02">11.56</magK>
-		<metallicity errorminus="0.16" errorplus="0.16">-0.07</metallicity>
-		<planet>
-			<name>EPIC 201393098 b</name>
-			<name>EPIC 201393098.01</name>
-			<name>K2-7 b</name>
-			<list>Confirmed planets</list>
-			<radius errorminus="0.052" errorplus="0.052">0.246</radius>
-			<period errorminus="0.00947" errorplus="0.00947">28.67992</period>
-			<transittime errorminus="0.0149" errorplus="0.0149" unit="BJD">2456824.6155</transittime>
-			<semimajoraxis errorminus="0.0043" errorplus="0.0043">0.1814</semimajoraxis>
-			<temperature errorminus="61" errorplus="61">651</temperature>
-			<description>This planet was discovered by the Kepler spacecraft during its extended K2 mission, Campaign 1.</description>
-			<discoverymethod>transit</discoverymethod>
-			<istransiting>1</istransiting>
-			<lastupdate>15/07/07</lastupdate>
-			<discoveryyear>2015</discoveryyear>
-		</planet>
-	</star>
+	<name>EPIC 201403446</name>
+	<rightascension>11 37 03.923</rightascension>
+	<declination>-00 54 26.14</declination>
+	<distance errorminus="48" errorplus="86">362</distance>
+	<binary>
+		<star>
+			<name>EPIC 201403446</name>
+			<mass errorminus="0.06" errorplus="0.08">1.01</mass>
+			<radius errorminus="0.14" errorplus="0.26">1.12</radius>
+			<temperature errorminus="111" errorplus="81">6445</temperature>
+			<magJ errorminus="0.03" errorplus="0.03">11.05</magJ>
+			<magH errorminus="0.02" errorplus="0.02">10.76</magH>
+			<magK errorminus="0.02" errorplus="0.02">10.78</magK>
+			<metallicity errorminus="0.13" errorplus="0.15">-0.5</metallicity>
+			<planet>
+				<name>EPIC 201403446 b</name>
+				<name>EPIC 201403446.01</name>
+				<list>Controversial</list>
+				<radius errorminus="0.042" errorplus="0.042">0.188</radius>
+				<period errorminus="0.00607" errorplus="0.00607">19.15344</period>
+				<transittime errorminus="0.0152" errorplus="0.0152" unit="BJD">2456815.3412</transittime>
+				<semimajoraxis errorminus="0.004" errorplus="0.004">0.1408</semimajoraxis>
+				<temperature errorminus="88" errorplus="88">889</temperature>
+				<description>This planet was discovered by the Kepler spacecraft during its extended K2 mission, Campaign 1.</description>
+				<discoverymethod>transit</discoverymethod>
+				<istransiting>1</istransiting>
+				<lastupdate>15/07/07</lastupdate>
+				<discoveryyear>2015</discoveryyear>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+		<star>
+			<name>EPIC 201403446 B</name>
+		</star>
+		<separation errorminus="0.14" errorplus="0.14" unit="arcsec">9.78</separation>
+	</binary>
 </system>
