@@ -1,0 +1,37 @@
+<system>
+	<name>PTFO 8-8695</name>
+	<rightascension>05 25 07.55</rightascension>
+	<declination>+01 34 24.3</declination>
+	<distance>330</distance>
+	<star>
+		<name>PTFO 8-8695</name>
+		<name>2MASS J05250755+0134243</name>
+		<name>CVSO 30</name>
+		<magV>16.26</magV>
+		<magJ errorminus="0.028" errorplus="0.028">12.232</magJ>
+		<magH errorminus="0.026" errorplus="0.026">11.559</magH>
+		<magK errorminus="0.021" errorplus="0.021">11.357</magK>
+		<spectraltype>M3</spectraltype>
+		<temperature>3470</temperature>
+		<radius errorminus="0.10" errorplus="0.10">1.07</radius>
+		<mass>0.34</mass>
+		<age>0.00268</age>
+		<planet>
+			<name>PTFO 8-8695 b</name>
+			<name>2MASS J05250755+0134243 b</name>
+			<name>CVSO 30 b</name>
+			<transittime errorminus="0.0004" errorplus="0.0004" unit="BJD">2456605.7555</transittime>
+			<period errorminus="0.000040" errorplus="0.000040">0.448413</period>
+			<inclination errorminus="3.7" errorplus="3.7">61.8</inclination>
+			<semimajoraxis>0.00800</semimajoraxis>
+			<mass upperlimit="3" />
+			<radius errorminus="0.21" errorplus="0.21">1.91</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2012</discoveryyear>
+			<lastupdate>15/07/29</lastupdate>
+			<list>Controversial</list>
+			<description>PTFO 8-8695 b is a Jupiter-sized candidate planet orbiting a T Tauri star. The orbit is rapidly precessing, causing it to stop transiting during part of its orbital evolution.</description>
+		</planet>
+	</star>
+</system>
