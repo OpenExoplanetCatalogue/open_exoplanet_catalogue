@@ -2,30 +2,39 @@
 	<name>EPIC 201384232</name>
 	<rightascension>11 52 46.142</rightascension>
 	<declination>-01 11 54.52</declination>
-	<distance errorminus="28" errorplus="30">335</distance>
-	<star>
-		<name>EPIC 201384232</name>
-		<mass errorminus="0.07" errorplus="0.06">0.98</mass>
-		<radius errorminus="0.07" errorplus="0.08">0.94</radius>
-		<temperature errorminus="80" errorplus="82">5772</temperature>
-		<magJ errorminus="0.02" errorplus="0.02">11.44</magJ>
-		<magH errorminus="0.02" errorplus="0.02">11.09</magH>
-		<magK errorminus="0.02" errorplus="0.02">11.07</magK>
-		<metallicity errorminus="0.2" errorplus="0.18">-0.05</metallicity>
-		<planet>
-			<name>EPIC 201384232 b</name>
-			<name>EPIC 201384232.01</name>
-			<list>Confirmed planets</list>
-			<radius errorminus="0.029" errorplus="0.029">0.247</radius>
-			<period errorminus="0.00428" errorplus="0.00428">30.93716</period>
-			<transittime errorminus="0.0056" errorplus="0.0056" unit="BJD">2456827.5044</transittime>
-			<semimajoraxis errorminus="0.0048" errorplus="0.0048">0.1911</semimajoraxis>
-			<temperature errorminus="31" errorplus="31">616</temperature>
-			<description>This planet was discovered by the Kepler spacecraft during its extended K2 mission, Campaign 1.</description>
-			<discoverymethod>transit</discoverymethod>
-			<istransiting>1</istransiting>
-			<lastupdate>15/03/26</lastupdate>
-			<discoveryyear>2015</discoveryyear>
-		</planet>
-	</star>
+	<distance errorminus="33" errorplus="52">343</distance>
+	<binary>
+		<star>
+			<name>EPIC 201384232</name>
+			<name>K2-6</name>
+			<mass errorminus="0.07" errorplus="0.07">0.97</mass>
+			<radius errorminus="0.09" errorplus="0.14">0.96</radius>
+			<temperature errorminus="98" errorplus="79">5850</temperature>
+			<magJ errorminus="0.02" errorplus="0.02">11.44</magJ>
+			<magH errorminus="0.02" errorplus="0.02">11.09</magH>
+			<magK errorminus="0.02" errorplus="0.02">11.07</magK>
+			<metallicity errorminus="0.2" errorplus="0.17">-0.14</metallicity>
+			<planet>
+				<name>EPIC 201384232 b</name>
+				<name>EPIC 201384232.01</name>
+				<name>K2-6 b</name>
+				<list>Confirmed planets</list>
+				<radius errorminus="0.081" errorplus="0.081">0.230</radius>
+				<period errorminus="0.00467" errorplus="0.00467">30.94191</period>
+				<transittime errorminus="0.009" errorplus="0.009" unit="BJD">2456827.5014</transittime>
+				<semimajoraxis errorminus="0.0056" errorplus="0.0056">0.1898</semimajoraxis>
+				<temperature errorminus="105" errorplus="105">615</temperature>
+				<description>This planet was discovered by the Kepler spacecraft during its extended K2 mission, Campaign 1.</description>
+				<discoverymethod>transit</discoverymethod>
+				<istransiting>1</istransiting>
+				<lastupdate>15/07/07</lastupdate>
+				<discoveryyear>2015</discoveryyear>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+		<star>
+			<name>EPIC 201384232 B</name>
+		</star>
+		<separation errorminus="0.06" errorplus="0.06" unit="arcsec">24.14</separation>
+	</binary>
 </system>

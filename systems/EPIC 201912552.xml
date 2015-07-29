@@ -5,6 +5,7 @@
 	<distance errorminus="4" errorplus="4">34</distance>
 	<star>
 		<name>EPIC 201912552</name>
+		<name>K2-18</name>
 		<mass errorminus="0.043" errorplus="0.043">0.413</mass>
 		<radius errorminus="0.038" errorplus="0.038">0.394</radius>
 		<temperature errorminus="60" errorplus="60">3503</temperature>
@@ -16,16 +17,17 @@
 		<planet>
 			<name>EPIC 201912552 b</name>
 			<name>EPIC 201912552.01</name>
+			<name>K2-18 b</name>
 			<list>Confirmed planets</list>
-			<radius errorminus="0.023" errorplus="0.023">0.206</radius>
-			<period errorminus="0.00292" errorplus="0.00292">32.94139</period>
-			<transittime errorminus="0.0036" errorplus="0.0036" unit="BJD">2456836.1877</transittime>
-			<semimajoraxis errorminus="0.0053" errorplus="0.0053">0.1491</semimajoraxis>
-			<temperature errorminus="16" errorplus="16">271</temperature>
+			<radius errorminus="0.021" errorplus="0.021">0.206</radius>
+			<period errorminus="0.00281" errorplus="0.00281">32.94488</period>
+			<transittime errorminus="0.0027" errorplus="0.0027" unit="BJD">2456836.1849</transittime>
+			<semimajoraxis errorminus="0.0055" errorplus="0.0055">0.1491</semimajoraxis>
+			<temperature errorminus="15" errorplus="15">272</temperature>
 			<description>This planet was discovered by the Kepler spacecraft during its extended K2 mission, Campaign 1. This planet may be an interesting target for atmospheric studies of transiting exoplanets.</description>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
-			<lastupdate>15/03/26</lastupdate>
+			<lastupdate>15/07/07</lastupdate>
 			<discoveryyear>2015</discoveryyear>
 		</planet>
 	</star>

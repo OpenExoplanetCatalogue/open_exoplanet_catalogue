@@ -2,44 +2,47 @@
 	<name>EPIC 201754305</name>
 	<rightascension>11 40 23.342</rightascension>
 	<declination>+04 33 26.42</declination>
-	<distance errorminus="25" errorplus="27">325</distance>
+	<distance errorminus="16" errorplus="16">324</distance>
 	<star>
 		<name>EPIC 201754305</name>
-		<mass errorminus="0.05" errorplus="0.06">0.67</mass>
-		<radius errorminus="0.05" errorplus="0.05">0.64</radius>
-		<temperature errorminus="39" errorplus="40">4717</temperature>
+		<name>K2-16</name>
+		<mass errorminus="0.03" errorplus="0.04">0.67</mass>
+		<radius errorminus="0.03" errorplus="0.03">0.64</radius>
+		<temperature errorminus="57" errorplus="50">4761</temperature>
 		<magJ errorminus="0.03" errorplus="0.03">12.76</magJ>
 		<magH errorminus="0.03" errorplus="0.03">12.21</magH>
 		<magK errorminus="0.02" errorplus="0.02">12.09</magK>
-		<metallicity errorminus="0.29" errorplus="0.21">-0.35</metallicity>
+		<metallicity errorminus="0.17" errorplus="0.12">-0.4</metallicity>
 		<planet>
-			<name>EPIC 201754305 b</name>
+			<name>EPIC 201754305 c</name>
 			<name>EPIC 201754305.01</name>
+			<name>K2-16 c</name>
 			<list>Confirmed planets</list>
-			<radius errorminus="0.077" errorplus="0.077">0.203</radius>
-			<period errorminus="0.00519" errorplus="0.00519">19.07246</period>
-			<transittime errorminus="0.0148" errorplus="0.0148" unit="BJD">2456809.4889</transittime>
-			<semimajoraxis errorminus="0.0035" errorplus="0.0035">0.1219</semimajoraxis>
-			<temperature errorminus="16" errorplus="16">517</temperature>
+			<radius errorminus="0.038" errorplus="0.038">0.197</radius>
+			<period errorminus="0.0049" errorplus="0.0049">19.07536</period>
+			<transittime errorminus="0.0119" errorplus="0.0119" unit="BJD">2456809.4854</transittime>
+			<semimajoraxis errorminus="0.0021" errorplus="0.0021">0.122</semimajoraxis>
+			<temperature errorminus="12" errorplus="12">523</temperature>
 			<description>This planet was discovered by the Kepler spacecraft during its extended K2 mission, Campaign 1.</description>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
-			<lastupdate>15/03/26</lastupdate>
+			<lastupdate>15/07/07</lastupdate>
 			<discoveryyear>2015</discoveryyear>
 		</planet>
 		<planet>
-			<name>EPIC 201754305 c</name>
+			<name>EPIC 201754305 b</name>
 			<name>EPIC 201754305.02</name>
+			<name>K2-16 b</name>
 			<list>Confirmed planets</list>
-			<radius errorminus="0.096" errorplus="0.096">0.201</radius>
-			<period errorminus="0.00103" errorplus="0.00103">7.62016</period>
-			<transittime errorminus="0.0057" errorplus="0.0057" unit="BJD">2456811.6811</transittime>
-			<semimajoraxis errorminus="0.0019" errorplus="0.0019">0.0661</semimajoraxis>
-			<temperature errorminus="22" errorplus="22">702</temperature>
+			<radius errorminus="0.034" errorplus="0.034">0.196</radius>
+			<period errorminus="0.00095" errorplus="0.00095">7.62067</period>
+			<transittime errorminus="0.0054" errorplus="0.0054" unit="BJD">2456811.6802</transittime>
+			<semimajoraxis errorminus="0.0011" errorplus="0.0011">0.0662</semimajoraxis>
+			<temperature errorminus="16" errorplus="16">710</temperature>
 			<description>This planet was discovered by the Kepler spacecraft during its extended K2 mission, Campaign 1.</description>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
-			<lastupdate>15/03/26</lastupdate>
+			<lastupdate>15/07/07</lastupdate>
 			<discoveryyear>2015</discoveryyear>
 		</planet>
 	</star>
