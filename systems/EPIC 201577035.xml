@@ -2,30 +2,38 @@
 	<name>EPIC 201577035</name>
 	<rightascension>11 28 29.27</rightascension>
 	<declination>+01 41 26.29</declination>
-	<distance errorminus="17" errorplus="19">256</distance>
-	<star>
-		<name>EPIC 201577035</name>
-		<mass errorminus="0.06" errorplus="0.05">0.93</mass>
-		<radius errorminus="0.05" errorplus="0.06">0.88</radius>
-		<temperature errorminus="63" errorplus="63">5553</temperature>
-		<magJ errorminus="0.02" errorplus="0.02">11.06</magJ>
-		<magH errorminus="0.02" errorplus="0.02">10.75</magH>
-		<magK errorminus="0.02" errorplus="0.02">10.64</magK>
-		<metallicity errorminus="0.18" errorplus="0.18">-0.04</metallicity>
-		<planet>
-			<name>EPIC 201577035 b</name>
-			<name>EPIC 201577035.01</name>
-			<list>Confirmed planets</list>
-			<radius errorminus="0.056" errorplus="0.056">0.330</radius>
-			<period errorminus="0.00136" errorplus="0.00136">19.30622</period>
-			<transittime errorminus="0.0031" errorplus="0.0031" unit="BJD">2456819.5785</transittime>
-			<semimajoraxis errorminus="0.0035" errorplus="0.0035">0.1365</semimajoraxis>
-			<temperature errorminus="49" errorplus="49">668</temperature>
-			<description>This planet was discovered by the Kepler spacecraft during its extended K2 mission, Campaign 1.</description>
-			<discoverymethod>transit</discoverymethod>
-			<istransiting>1</istransiting>
-			<lastupdate>15/03/26</lastupdate>
-			<discoveryyear>2015</discoveryyear>
-		</planet>
-	</star>
+	<distance errorminus="21" errorplus="48">271</distance>
+	<binary>
+		<star>
+			<name>EPIC 201577035</name>
+			<name>K2-10</name>
+			<mass errorminus="0.06" errorplus="0.04">0.94</mass>
+			<radius errorminus="0.07" errorplus="0.16">0.93</radius>
+			<temperature errorminus="89" errorplus="60">5647</temperature>
+			<magJ errorminus="0.02" errorplus="0.02">11.06</magJ>
+			<magH errorminus="0.02" errorplus="0.02">10.75</magH>
+			<magK errorminus="0.02" errorplus="0.02">10.64</magK>
+			<metallicity errorminus="0.17" errorplus="0.14">-0.04</metallicity>
+			<planet>
+				<name>EPIC 201577035 b</name>
+				<name>EPIC 201577035.01</name>
+				<name>K2-10 b</name>
+				<list>Confirmed planets</list>
+				<radius errorminus="0.064" errorplus="0.064">0.361</radius>
+				<period errorminus="0.00127" errorplus="0.00127">19.30691</period>
+				<transittime errorminus="0.0033" errorplus="0.0033" unit="BJD">2456819.5768</transittime>
+				<semimajoraxis errorminus="0.0025" errorplus="0.0025">0.1374</semimajoraxis>
+				<temperature errorminus="55" errorplus="55">703</temperature>
+				<description>This planet was discovered by the Kepler spacecraft during its extended K2 mission, Campaign 1.</description>
+				<discoverymethod>transit</discoverymethod>
+				<istransiting>1</istransiting>
+				<lastupdate>15/07/07</lastupdate>
+				<discoveryyear>2015</discoveryyear>
+			</planet>
+		</star>
+		<star>
+			<name>EPIC 201577035 B</name>
+		</star>
+		<separation errorminus="0.12" errorplus="0.12" unit="arcsec">17.19</separation>
+	</binary>
 </system>
