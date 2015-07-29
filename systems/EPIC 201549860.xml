@@ -2,30 +2,36 @@
 	<name>EPIC 201549860</name>
 	<rightascension>11 20 24.739</rightascension>
 	<declination>+01 17 09.44</declination>
-	<distance errorminus="15" errorplus="12">242</distance>
-	<star>
-		<name>EPIC 201549860</name>
-		<mass errorminus="0.05" errorplus="0.04">0.71</mass>
-		<radius errorminus="0.04" errorplus="0.02">0.67</radius>
-		<temperature errorminus="46" errorplus="46">4480</temperature>
-		<magJ errorminus="0.02" errorplus="0.02">12.14</magJ>
-		<magH errorminus="0.02" errorplus="0.02">11.56</magH>
-		<magK errorminus="0.02" errorplus="0.02">11.42</magK>
-		<metallicity errorminus="0.18" errorplus="0.19">-0.01</metallicity>
-		<planet>
-			<name>EPIC 201549860 b</name>
-			<name>EPIC 201549860.01</name>
-			<list>Controversial</list>
-			<radius errorminus="0.041" errorplus="0.041">0.196</radius>
-			<period errorminus="0.00057" errorplus="0.00057">5.60822</period>
-			<transittime errorminus="0.0049" errorplus="0.0049" unit="BJD">2456812.1193</transittime>
-			<semimajoraxis errorminus="0.0012" errorplus="0.0012">0.0548</semimajoraxis>
-			<temperature errorminus="17" errorplus="17">750</temperature>
-			<description>This planet was discovered by the Kepler spacecraft during its extended K2 mission, Campaign 1.</description>
-			<discoverymethod>transit</discoverymethod>
-			<istransiting>1</istransiting>
-			<lastupdate>15/03/26</lastupdate>
-			<discoveryyear>2015</discoveryyear>
-		</planet>
-	</star>
+	<distance errorminus="9" errorplus="9">249</distance>
+	<binary>
+		<star>
+			<name>EPIC 201549860</name>
+			<mass errorminus="0.03" errorplus="0.03">0.73</mass>
+			<radius errorminus="0.02" errorplus="0.02">0.69</radius>
+			<temperature errorminus="47" errorplus="43">4523</temperature>
+			<magJ errorminus="0.02" errorplus="0.02">12.14</magJ>
+			<magH errorminus="0.02" errorplus="0.02">11.56</magH>
+			<magK errorminus="0.02" errorplus="0.02">11.42</magK>
+			<metallicity errorminus="0.14" errorplus="0.15">0.05</metallicity>
+			<planet>
+				<name>EPIC 201549860 b</name>
+				<name>EPIC 201549860.01</name>
+				<list>Controversial</list>
+				<radius errorminus="0.037" errorplus="0.037">0.203</radius>
+				<period errorminus="0.00055" errorplus="0.00055">5.6084</period>
+				<transittime errorminus="0.0047" errorplus="0.0047" unit="BJD">2456812.1181</transittime>
+				<semimajoraxis errorminus="0.0008" errorplus="0.0008">0.0555</semimajoraxis>
+				<temperature errorminus="14" errorplus="14">766</temperature>
+				<description>This planet was discovered by the Kepler spacecraft during its extended K2 mission, Campaign 1.</description>
+				<discoverymethod>transit</discoverymethod>
+				<istransiting>1</istransiting>
+				<lastupdate>15/07/07</lastupdate>
+				<discoveryyear>2015</discoveryyear>
+			</planet>
+		</star>
+		<star>
+			<name>EPIC 201549860 B</name>
+		</star>
+		<separation errorminus="0.05" errorplus="0.05" unit="arcsec">21.21</separation>
+	</binary>
 </system>
