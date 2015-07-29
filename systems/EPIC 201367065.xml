@@ -2,54 +2,31 @@
 	<name>EPIC 201367065</name>
 	<rightascension>11 29 20.388</rightascension>
 	<declination>-01 27 17.23</declination>
-	<distance errorminus="4" errorplus="3">45</distance>
+	<distance errorminus="2" errorplus="2">42</distance>
 	<star>
 		<name>EPIC 201367065</name>
 		<name>K2-3</name>
-		<name>2MASS 11292037-0127173</name>
-		<mass errorminus="0.04" errorplus="0.04">0.56</mass>
-		<radius errorminus="0.04" errorplus="0.03">0.54</radius>
-		<temperature errorminus="43" errorplus="34">3943</temperature>
+		<mass errorminus="0.02" errorplus="0.02">0.53</mass>
+		<radius errorminus="0.02" errorplus="0.02">0.52</radius>
+		<temperature errorminus="38" errorplus="33">3951</temperature>
 		<magJ errorminus="0.03" errorplus="0.03">9.42</magJ>
 		<magH errorminus="0.04" errorplus="0.04">8.8</magH>
 		<magK errorminus="0.02" errorplus="0.02">8.56</magK>
-		<age lowerlimit="1" />
-		<metallicity errorminus="0.15" errorplus="0.16">-0.16</metallicity>
-		<spectraltype>M0.2V</spectraltype>
+		<metallicity errorminus="0.06" errorplus="0.07">-0.3</metallicity>
 		<planet>
 			<name>EPIC 201367065 b</name>
 			<name>EPIC 201367065.01</name>
 			<name>K2-3 b</name>
-			<name>2MASS 11292037-0127173 b</name>
 			<list>Confirmed planets</list>
-			<radius errorminus="0.020" errorplus="0.020">0.195</radius>
-			<period errorminus="0.00032" errorplus="0.00032">10.05429</period>
-			<transittime errorminus="0.0019" errorplus="0.0019" unit="BJD">2456813.4184</transittime>
-			<semimajoraxis errorminus="0.002" errorplus="0.002">0.0749</semimajoraxis>
-			<inclination errorminus="0.6" errorplus="0.46">89.28</inclination>
-			<temperature errorminus="17" errorplus="17">507</temperature>
+			<radius errorminus="0.009" errorplus="0.009">0.182</radius>
+			<period errorminus="0.00033" errorplus="0.00033">10.05448</period>
+			<transittime errorminus="0.0015" errorplus="0.0015" unit="BJD">2456813.4177</transittime>
+			<semimajoraxis errorminus="0.0009" errorplus="0.0009">0.074</semimajoraxis>
+			<temperature errorminus="9" errorplus="9">504</temperature>
 			<description>This planet was discovered by the Kepler spacecraft during its extended K2 mission, Campaign 1.</description>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
-			<lastupdate>15/03/26</lastupdate>
-			<discoveryyear>2015</discoveryyear>
-		</planet>
-		<planet>
-			<name>EPIC 201367065 c</name>
-			<name>EPIC 201367065.02</name>
-			<name>K2-3 c</name>
-			<name>2MASS 11292037-0127173 c</name>
-			<list>Confirmed planets</list>
-			<radius errorminus="0.014" errorplus="0.014">0.146</radius>
-			<period errorminus="0.00149" errorplus="0.00149">24.64682</period>
-			<transittime errorminus="0.0031" errorplus="0.0031" unit="BJD">2456812.2766</transittime>
-			<semimajoraxis errorminus="0.0036" errorplus="0.0036">0.1361</semimajoraxis>
-			<inclination errorminus="0.44" errorplus="0.29">89.55</inclination>
-			<temperature errorminus="13" errorplus="13">376</temperature>
-			<description>This planet was discovered by the Kepler spacecraft during its extended K2 mission, Campaign 1.</description>
-			<discoverymethod>transit</discoverymethod>
-			<istransiting>1</istransiting>
-			<lastupdate>15/03/26</lastupdate>
+			<lastupdate>15/07/07</lastupdate>
 			<discoveryyear>2015</discoveryyear>
 		</planet>
 		<planet>
