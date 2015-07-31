@@ -1,0 +1,51 @@
+<system>
+	<name>EPIC 206011691</name>
+	<rightascension>22 41 12.89</rightascension>
+	<declination>-14 29 20.35</declination>
+	<distance errorminus="6" errorplus="6">65</distance>
+	<star>
+		<name>EPIC 206011691</name>
+		<name>2MASS J22411288-1429202</name>
+		<magB errorminus="0.06" errorplus="0.06">14.14</magB>
+		<magV errorminus="0.02" errorplus="0.02">12.85</magV>
+		<magJ errorminus="0.02" errorplus="0.02">10.25</magJ>
+		<magH errorminus="0.02" errorplus="0.02">9.63</magH>
+		<magK errorminus="0.02" errorplus="0.02">9.42</magK>
+		<spectraltype>M0.0±0.5V</spectraltype>
+		<temperature errorminus="375" errorplus="375">4043</temperature>
+		<metallicity errorminus="0.13" errorplus="0.13">-0.11</metallicity>
+		<radius errorminus="0.10" errorplus="0.10">0.60</radius>
+		<mass errorminus="0.11" errorplus="0.11">0.64</mass>
+		<age lowerlimit="1" />
+		<planet>
+			<name>EPIC 206011691 b</name>
+			<name>2MASS J22411288-1429202 b</name>
+			<transittime errorminus="0.0020" errorplus="0.0025" unit="BJD">2456989.4239</transittime>
+			<period errorminus="0.00063" errorplus="0.00059">9.32414</period>
+			<inclination errorminus="1.1" errorplus="1.3">88.3</inclination>
+			<semimajoraxis errorminus="0.0067" errorplus="0.0057">0.0731</semimajoraxis>
+			<radius errorminus="0.44" errorplus="0.42">1.59</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2015</discoveryyear>
+			<description>The EPIC 206011691 system consists of a pair of small planets orbiting a nearby M0 dwarf close to the 5:3 resonance.</description>
+			<lastupdate>15/07/31</lastupdate>
+			<list>Confirmed planets</list>
+		</planet>
+		<planet>
+			<name>EPIC 206011691 c</name>
+			<name>2MASS J22411288-1429202 c</name>
+			<transittime errorminus="0.0017" errorplus="0.0021" unit="BJD">2456988.4708</transittime>
+			<period errorminus="0.00099" errorplus="0.00093">15.50120</period>
+			<inclination errorminus="0.75" errorplus="0.63">89.08</inclination>
+			<semimajoraxis errorminus="0.0094" errorplus="0.0079">0.1026</semimajoraxis>
+			<radius errorminus="0.52" errorplus="0.54">1.92</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2015</discoveryyear>
+			<description>The EPIC 206011691 system consists of a pair of small planets orbiting a nearby M0 dwarf close to the 5:3 resonance.</description>
+			<lastupdate>15/07/31</lastupdate>
+			<list>Confirmed planets</list>
+		</planet>
+	</star>
+</system>
