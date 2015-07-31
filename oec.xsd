@@ -33,7 +33,7 @@
 				<xs:element name="list" type="listtype" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="semimajoraxis" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="eccentricity" type="number" minOccurs="0" maxOccurs="1"/>
-				<xs:element name="periastron" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="periastron" type="number-with-component" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="longitude" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="ascendingnode" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="inclination" type="number" minOccurs="0" maxOccurs="1"/>
@@ -100,7 +100,7 @@
 				<xs:element ref="planet"/>
 				<xs:element name="semimajoraxis" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="eccentricity" type="number"/>
-				<xs:element name="periastron" type="number"/>
+				<xs:element name="periastron" type="number-with-component"/>
 				<xs:element name="longitude" type="number"/>
 				<xs:element name="meananomaly" type="number"/>
 				<xs:element name="ascendingnode" type="number"/>
@@ -140,6 +140,21 @@
 				<xs:attribute name="lowerlimit" type="xs:double" use="optional"/>
 				<xs:attribute name="upperlimit" type="xs:double" use="optional"/>
 				<xs:attribute name="unit" type="xs:string" use="optional"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<!-- Periastron -->
+	<xs:complexType name="number-with-component">
+		<xs:simpleContent>
+			<xs:extension base="periastron">
+				<xs:attribute name="component" use="optional">
+					<xs:simpleType>
+						<xs:restriction base="xs:integer">
+							<xs:enumeration value="1"/>
+							<xs:enumeration value="2"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:attribute>
 			</xs:extension>
 		</xs:simpleContent>
 	</xs:complexType>

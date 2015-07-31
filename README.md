@@ -63,7 +63,7 @@ The following table shows all the possible tags in the Open Exoplanet Catalogue.
 | `separation`	 	| `binary`, `planet` | Projected separation of planet from its host, or if child of `binary` the projected separation from one component to the other. This tag can occur multiple times with different units. It is different from the tag `semimajoraxis` as it does not imply a specific orbital configuration. |  AU, arcsec |
 | `positionangle` | `binary` | Position angle | degree |
 | `eccentricity` 	| `binary`, `planet` | Eccentricity  | |
-| `periastron` 	| `binary`, `planet` | Longitude of periastron | degree  |
+| `periastron` 	| `binary`, `planet` | Longitude of periastron, can take an optional `component` attribute to specify whether it refers to the primary (default) or secondary orbit (values 1 or 2 respectively). | degree  |
 | `longitude` 	| `binary`, `planet` | Mean longitude at a given Epoch (same for all planets in one system) | degree  |
 | `meananomaly`	| `binary`, `planet` | Mean anomaly at a given Epoch (same for all planets in one system) | degree  |
 | `ascendingnode` 	| `binary`, `planet` | Longitude of the ascending node | degree  |
