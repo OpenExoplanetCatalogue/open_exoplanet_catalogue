@@ -2,21 +2,23 @@
 	<name>OGLE-05-169L</name>
 	<rightascension>18 06 05</rightascension>
 	<declination>-30 43 57</declination>
-	<distance>2700</distance>
+	<distance errorminus="400" errorplus="400">4100</distance>
 	<star>
-		<mass>0.49</mass>
+		<name>OGLE-2005-BLG-169L</name>
+		<magV errorminus="0.067" errorplus="0.067">22.783</magV>
+		<magI errorminus="0.051" errorplus="0.051">20.493</magI>
+		<mass errorminus="0.02" errorplus="0.02">0.69</mass>
+		<spectraltype>K</spectraltype>
 		<planet>
 			<name>OGLE-05-169L b</name>
 			<name>OGLE 2005-BLG-169L b</name>
 			<list>Confirmed planets</list>
-			<mass>0.04</mass>
-			<period>3300</period>
-			<semimajoraxis>2.8</semimajoraxis>
+			<mass errorminus="0.0028" errorplus="0.0028">0.0444</mass>
+			<separation errorminus="0.3" errorplus="0.3" unit="AU">3.5</separation>
 			<discoverymethod>microlensing</discoverymethod>
-			<lastupdate>06/04/12</lastupdate>
+			<lastupdate>15/08/01</lastupdate>
 			<discoveryyear>2005</discoveryyear>
+			<description>The planetary signal in the microlensing event OGLE-2005-BLG-169 was confirmed in 2015 with follow-up measurements of the relative proper motion of the source and lens stars. The lens system consists of a 14.1 Earth mass planet orbiting a 0.69 solar mass K-dwarf with a projected separation of 3.5 AU. Assuming random orientation of the system, the 3D separation is 4.0+2.2-0.6 AU, locating it well beyond the star's snowline. The planet likely represents a "failed Jupiter core".</description>
 		</planet>
-		<name>OGLE-05-169L</name>
-		<temperature>5700.0</temperature>
 	</star>
 </system>
