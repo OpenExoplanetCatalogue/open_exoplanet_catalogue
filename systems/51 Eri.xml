@@ -1,0 +1,82 @@
+<system>
+	<name>51 Eri</name>
+	<rightascension>04 37 36.13234</rightascension>
+	<declination>-02 28 24.7749</declination>
+	<distance errorminus="0.3" errorplus="0.3">29.4</distance>
+	<binary>
+		<name>WAL 32</name>
+		<separation unit="arcsec">66.70</separation>
+		<separation unit="AU">1960</separation>
+		<positionangle>163</positionangle>
+		<star>
+			<name>51 Eri</name>
+			<name>51 Eridani</name>
+			<name>c Eri</name>
+			<name>c Eridani</name>
+			<name>HD 29391</name>
+			<name>HIP 21547</name>
+			<name>TYC 4739-1551-1</name>
+			<name>2MASS J04373613-0228248</name>
+			<name>HR 1474</name>
+			<name>BD-02 963</name>
+			<name>WDS J04376-0228 A</name>
+			<name>WAL 32 A</name>
+			<spectraltype>F0IV</spectraltype>
+			<mass errorminus="0.05" errorplus="0.05">1.75</mass>
+			<age errorminus="0.006" errorplus="0.006">0.020</age>
+			<metallicity>-0.027</metallicity>
+			<magB>5.485</magB>
+			<magV>5.223</magV>
+			<magJ>4.68</magJ>
+			<magH>4.60</magH>
+			<magK>4.56</magK>
+			<planet>
+				<name>51 Eri b</name>
+				<name>51 Eridani b</name>
+				<separation errorminus="0.007" errorplus="0.007" unit="arcsec">0.449</separation>
+				<separation errorminus="0.2" errorplus="0.2" unit="AU">13.2</separation>
+				<positionangle errorminus="0.3" errorplus="0.3">170.8</positionangle>
+				<temperature errorminus="150" errorplus="50">700</temperature>
+				<magJ errorminus="0.40" errorplus="0.40">19.09</magJ>
+				<magH errorminus="0.21" errorplus="0.21">19.20</magH>
+				<spectraltype>T4.5–T6</spectraltype>
+				<radius>1</radius>
+				<mass>2</mass>
+				<discoverymethod>imaging</discoverymethod>
+				<discoveryyear>2015</discoveryyear>
+				<description>51 Eri b is a directly-imaged exoplanet located at a projected separation of 13.2 AU from its star. The system also exhibits an infrared excess indicating the presence of debris belts at around 5.5 AU and 82 AU from the star. It is a member of the Beta Pictoris moving group.</description>
+				<lastupdate>15/08/14</lastupdate>
+				<list>Confirmed planets</list>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+		<binary>
+			<name>GJ 3305</name>
+			<name>WDS J04376-0228 C</name>
+			<name>KAS 1</name>
+			<name>2MASS J04373746-0229282</name>
+			<name>WAL 32 B</name>
+			<semimajoraxis>8.5</semimajoraxis>
+			<inclination>93.2</inclination>
+			<eccentricity>0.06</eccentricity>
+			<period>7850</period>
+			<ascendingnode>196</ascendingnode>
+			<star>
+				<name>GJ 3305 A</name>
+				<name>WDS J04376-0228 Ca</name>
+				<name>KAS 1 A</name>
+				<spectraltype>M0</spectraltype>
+				<magV>7.70</magV>
+				<mass>0.590</mass>
+			</star>
+			<star>
+				<name>GJ 3305 B</name>
+				<name>WDS J04376-0228 Cb</name>
+				<name>KAS 1 B</name>
+				<spectraltype>M3</spectraltype>
+				<magV>10.90</magV>
+				<mass>0.290</mass>
+			</star>
+		</binary>
+	</binary>
+</system>
