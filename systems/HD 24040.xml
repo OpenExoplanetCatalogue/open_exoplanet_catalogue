@@ -1,10 +1,15 @@
 <system>
 	<name>HD 24040</name>
-	<rightascension>03 50 23</rightascension>
-	<declination>+17 28 35</declination>
-	<distance>46.51</distance>
+	<rightascension>03 50 22.9</rightascension>
+	<declination>+17 28 34.9</declination>
+	<distance errorminus="1.6" errorplus="1.6">46.6</distance>
 	<star>
-		<mass>1.18</mass>
+		<name>HD 24040</name>
+		<name>HIP 17960</name>
+		<name>SAO 93630</name>
+		<name>TYC 1252-844-1</name>
+		<name>2MASS J03502296+1728349</name>
+		<name>BD+17 638</name>
 		<magV>7.52</magV>
 		<magB>8.18</magB>
 		<magR>7.1</magR>
@@ -12,21 +17,24 @@
 		<magJ>6.28</magJ>
 		<magH>6.04</magH>
 		<magK>5.97</magK>
-		<metallicity>0.206</metallicity>
 		<spectraltype>G0</spectraltype>
+		<metallicity errorminus="0.030" errorplus="0.030">0.206</metallicity>
+		<temperature errorminus="44" errorplus="44">5853</temperature>
+		<mass errorminus="0.10" errorplus="0.10">1.18</mass>
+		<radius errorminus="0.039" errorplus="0.039">1.154</radius>
 		<planet>
 			<name>HD 24040 b</name>
 			<list>Confirmed planets</list>
-			<mass>4.01</mass>
-			<period>3668</period>
-			<semimajoraxis>4.92</semimajoraxis>
-			<eccentricity>0.04</eccentricity>
+			<mass errorminus="0.12" errorplus="0.12">4.10</mass>
+			<period errorminus="25" errorplus="25">3490</period>
+			<periastrontime errorminus="240" errorplus="240" unit="BJD">2456670</periastrontime>
+			<semimajoraxis errorminus="0.067" errorplus="0.067">4.637</semimajoraxis>
+			<eccentricity errorminus="0.020" errorplus="0.020">0.047</eccentricity>
+			<periastron errorminus="24" errorplus="24">67</periastron>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>12/05/25</lastupdate>
+			<description>HD 24040 b is a massive Jupiter-analogue orbiting a sunlike star. The radial velocity measurements for the star exhibit a linear trend, indicating the presence of an additional object in the system.</description>
+			<lastupdate>15/08/15</lastupdate>
 			<discoveryyear>2006</discoveryyear>
-			<temperature>133.9</temperature>
 		</planet>
-		<name>HD 24040</name>
-		<temperature>5853.0</temperature>
 	</star>
 </system>

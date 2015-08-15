@@ -1,48 +1,59 @@
 <system>
 	<name>Gliese 849</name>
-	<rightascension>22 09 40</rightascension>
-	<declination>-04 38 27</declination>
-	<distance>8.8</distance>
+	<rightascension>22 09 40.3</rightascension>
+	<declination>-04 38 26.6</declination>
+	<distance errorminus="0.17" errorplus="0.17">9.10</distance>
 	<star>
 		<name>Gliese 849</name>
-		<temperature>3840.0</temperature>
-		<mass>0.49</mass>
+		<name>GJ 849</name>
+		<name>HIP 109388</name>
+		<name>TYC 5227-1521-1</name>
+		<name>BD-05 5715</name>
+		<name>2MASS J22094029-0438267</name>
+		<name>Wolf 1329</name>
+		<temperature errorminus="19" errorplus="19">3601</temperature>
+		<mass errorminus="0.049" errorplus="0.049">0.490</mass>
 		<radius>0.52</radius>
-		<magV>10.42</magV>
 		<magB>11.868</magB>
+		<magV>10.366</magV>
 		<magR>9.279</magR>
 		<magI>7.877</magI>
 		<magJ errorminus="0.024" errorplus="0.024">6.510</magJ>
 		<magH errorminus="0.04" errorplus="0.04">5.90</magH>
 		<magK errorminus="0.017" errorplus="0.017">5.594</magK>
-		<metallicity>0.16</metallicity>
-		<spectraltype>M3.5</spectraltype>
+		<metallicity errorminus="0.12" errorplus="0.12">0.31</metallicity>
+		<spectraltype>M3.5V</spectraltype>
 		<planet>
 			<name>Gliese 849 b</name>
 			<name>GJ 849 b</name>
 			<name>Gj 849 b</name>
 			<name>Gl 849 b</name>
 			<list>Confirmed planets</list>
-			<mass errorminus="0.045" errorplus="0.043">0.900</mass>
-			<period errorminus="24" errorplus="23">1915</period>
-			<semimajoraxis>2.38</semimajoraxis>
-			<eccentricity>0.02</eccentricity>
-			<description>The star Gliese 849 is a red dwarf in the constellation of Aquarius.</description>
+			<mass errorminus="0.036" errorplus="0.036">0.911</mass>
+			<period errorminus="15" errorplus="15">1924</period>
+			<semimajoraxis errorminus="0.082" errorplus="0.082">2.39</semimajoraxis>
+			<eccentricity errorminus="0.019" errorplus="0.019">0.038</eccentricity>
+			<periastrontime errorminus="150" errorplus="150" unit="BJD">2453770</periastrontime>
+			<periastron errorminus="28" errorplus="28">66</periastron>
+			<description>The star Gliese 849 is a red dwarf in the constellation of Aquarius. Gliese 849 b is the inner of the system's two known planets.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>11/11/23</lastupdate>
+			<lastupdate>15/08/15</lastupdate>
 			<discoveryyear>2006</discoveryyear>
 		</planet>
 		<planet>
 			<name>Gliese 849 c</name>
 			<name>GJ 849 c</name>
-			<list>Controversial</list>
-			<mass errorminus="0.203" errorplus="0.344">0.702</mass>
-			<period errorminus="2170" errorplus="6280">7067</period>
-			<semimajoraxis>5.7</semimajoraxis>
-			<eccentricity>0.3</eccentricity>
-			<description>The orbital parameters of the outer planet of Gliese 849 are not well-constrained.</description>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.070" errorplus="0.070">0.944</mass>
+			<period errorminus="390" errorplus="390">5520</period>
+			<semimajoraxis errorminus="0.21" errorplus="0.21">4.82</semimajoraxis>
+			<eccentricity errorminus="0.056" errorplus="0.056">0.087</eccentricity>
+			<periastrontime errorminus="690" errorplus="690" unit="BJD">2454320</periastrontime>
+			<periastron errorminus="50" errorplus="50">172</periastron>
+			<description>The radial velocity date for Gliese 849 has poor phase coverage for the orbit of Gliese 849 c, however its parameters can be better constrained by considering the dynamical stability of the two-planet system.</description>
 			<discoverymethod>RV</discoverymethod>
 			<discoveryyear>2013</discoveryyear>
+			<lastupdate>15/08/15</lastupdate>
 		</planet>
 	</star>
 </system>
