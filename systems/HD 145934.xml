@@ -4,9 +4,13 @@
 	<declination>+13 14 22.1</declination>
 	<star>
 		<name>HD 145934</name>
+		<name>SAO 102017</name>
+		<name>TYC 958-771-1</name>
+		<name>BD+13 3090</name>
+		<name>2MASS J16130987+1314221</name>
 		<mass errorminus="0.105" errorplus="0.105">1.748</mass>
 		<radius errorminus="0.44" errorplus="0.44">5.38</radius>
-		<magV>8.5</magV>
+		<magV>8.49</magV>
 		<magB>9.54</magB>
 		<magJ errorminus="0.023" errorplus="0.023">6.758</magJ>
 		<magH errorminus="0.017" errorplus="0.017">6.234</magH>
@@ -20,10 +24,11 @@
 			<semimajoraxis errorminus="0.14" errorplus="0.14">4.6</semimajoraxis>
 			<eccentricity errorminus="0.063" errorplus="0.053">0.053</eccentricity>
 			<periastron errorminus="62" errorplus="62">215</periastron>
+			<periastrontime errorminus="370" errorplus="370" unit="BJD">2451430</periastrontime>
 			<description>This 2 Jupiter mass planet is in a 7.5 year orbit around a giant star.</description>
 			<discoverymethod>RV</discoverymethod>
 			<istransiting>1</istransiting>
-			<lastupdate>15/01/06</lastupdate>
+			<lastupdate>15/08/15</lastupdate>
 			<discoveryyear>2015</discoveryyear>
 		</planet>
 	</star>

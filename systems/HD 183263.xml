@@ -1,43 +1,52 @@
 <system>
 	<name>HD 183263</name>
-	<rightascension>19 28 24</rightascension>
-	<declination>+08 21 28</declination>
-	<distance>53</distance>
+	<rightascension>19 28 24.6</rightascension>
+	<declination>+08 21 28.9</declination>
+	<distance errorminus="2.8" errorplus="2.8">55.1</distance>
 	<star>
-		<mass>1.17</mass>
-		<radius>1.21</radius>
-		<magV>7.86</magV>
+		<name>HD 183263</name>
+		<name>HIP 95740</name>
+		<name>SAO 124664</name>
+		<name>TYC 1055-3415-1</name>
+		<name>BD+08 4109</name>
+		<name>2MASS J19282457+0821290</name>
+		<mass errorminus="0.052" errorplus="0.052">1.121</mass>
+		<radius errorminus="0.038" errorplus="0.038">1.117</radius>
+		<magV errorminus="0.01" errorplus="0.01">7.86</magV>
 		<magJ errorminus="0.024" errorplus="0.024">6.782</magJ>
 		<magH errorminus="0.036" errorplus="0.036">6.528</magH>
 		<magK errorminus="0.018" errorplus="0.018">6.422</magK>
 		<magB errorminus="0.02" errorplus="0.02">8.51</magB>
-		<metallicity>0.3</metallicity>
+		<metallicity errorminus="0.030" errorplus="0.030">0.302</metallicity>
 		<spectraltype>G2IV</spectraltype>
+		<temperature errorminus="44" errorplus="44">5936</temperature>
 		<planet>
 			<name>HD 183263 b</name>
 			<list>Confirmed planets</list>
-			<mass>3.67</mass>
-			<period>626.5</period>
-			<semimajoraxis>1.51</semimajoraxis>
-			<eccentricity>0.357</eccentricity>
+			<mass errorminus="0.034" errorplus="0.034">3.635</mass>
+			<period errorminus="0.34" errorplus="0.34">625.10</period>
+			<semimajoraxis errorminus="0.023" errorplus="0.023">1.486</semimajoraxis>
+			<eccentricity errorminus="0.0065" errorplus="0.0065">0.3728</eccentricity>
+			<periastrontime errorminus="2.4" errorplus="2.4">2452113.0</periastrontime>
+			<periastron errorminus="1.4" errorplus="1.4">232.9</periastron>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/12/17</lastupdate>
+			<description>HD 183263 b is a giant planet in an elliptical orbit.</description>
+			<lastupdate>15/08/15</lastupdate>
 			<discoveryyear>2004</discoveryyear>
-			<temperature>230.5</temperature>
 		</planet>
 		<planet>
 			<name>HD 183263 c</name>
 			<list>Confirmed planets</list>
-			<mass>3.82</mass>
-			<period>2950</period>
-			<semimajoraxis>4.25</semimajoraxis>
-			<eccentricity>0.253</eccentricity>
+			<mass errorminus="0.12" errorplus="0.12">6.90</mass>
+			<period errorminus="71" errorplus="71">4684</period>
+			<semimajoraxis errorminus="0.11" errorplus="0.11">5.69</semimajoraxis>
+			<eccentricity errorminus="0.010" errorplus="0.010">0.051</eccentricity>
+			<periastrontime errorminus="310" errorplus="310">2450430</periastrontime>
+			<periastron errorminus="22" errorplus="22">299</periastron>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>08/12/10</lastupdate>
+			<description>HD 183263 c is a massive Jupiter-analogue in a system containing an inner giant planet in an eccentric orbit.</description>
+			<lastupdate>15/08/15</lastupdate>
 			<discoveryyear>2008</discoveryyear>
-			<temperature>138.0</temperature>
 		</planet>
-		<name>HD 183263</name>
-		<temperature>5888.0</temperature>
 	</star>
 </system>
