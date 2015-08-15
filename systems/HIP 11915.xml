@@ -1,0 +1,38 @@
+<system>
+	<name>HIP 11915</name>
+	<rightascension>02 33 49.02495</rightascension>
+	<declination>-19 36 42.5032</declination>
+	<distance errorminus="3.5" errorplus="3.5">57.3</distance>
+	<star>
+		<name>HIP 11915</name>
+		<name>HD 16008</name>
+		<name>SAO 148468</name>
+		<name>TYC 5862-2032-1</name>
+		<name>BD-20 481</name>
+		<name>CPD-20 285</name>
+		<name>2MASS J02334900-1936425</name>
+		<magB errorminus="0.02" errorplus="0.02">9.24</magB>
+		<magV errorminus="0.01" errorplus="0.01">8.58</magV>
+		<magJ errorminus="0.035" errorplus="0.035">7.426</magJ>
+		<magH errorminus="0.055" errorplus="0.055">7.137</magH>
+		<magK errorminus="0.020" errorplus="0.020">7.072</magK>
+		<temperature errorminus="4" errorplus="4">5760</temperature>
+		<metallicity errorminus="0.004" errorplus="0.004">-0.059</metallicity>
+		<mass errorminus="0.005" errorplus="0.005">0.993</mass>
+		<age errorminus="0.6" errorplus="0.6">4.0</age>
+		<planet>
+			<name>HIP 11915 b</name>
+			<period errorminus="150" errorplus="150">3830</period>
+			<eccentricity errorminus="0.07" errorplus="0.07">0.10</eccentricity>
+			<mass errorminus="0.06" errorplus="0.06">0.99</mass>
+			<semimajoraxis errorminus="0.1" errorplus="0.1">4.8</semimajoraxis>
+			<periastron>150</periastron>
+			<longitude errorminus="74" errorplus="74">172</longitude>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2015</discoveryyear>
+			<description>HIP 11915 b is a candidate Jupiter-twin planet orbiting a solar-twin star. Although unlikely, the possibility remains that the radial velocity variations may be induced by stellar activity rather than an orbiting planet. No gas giants are present in the system with orbital periods below 1000 days, which leaves room for inner terrestrial planets.</description>
+			<lastupdate>15/08/15</lastupdate>
+			<list>Controversial</list>
+		</planet>
+	</star>
+</system>
