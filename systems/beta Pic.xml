@@ -9,7 +9,12 @@
 		<name>Beta Pictoris</name>
 		<name>HR 2020</name>
 		<name>HD 39060</name>
-		<mass>1.8</mass>
+		<name>HIP 27321</name>
+		<name>SAO 234134</name>
+		<name>TYC 8099-1392-1</name>
+		<name>CD-51 1620</name>
+		<name>2MASS J05471708-5103594</name>
+		<mass errorminus="0.05" errorplus="0.05">1.60</mass>
 		<magV>3.86</magV>
 		<magR>3.74</magR>
 		<magI>3.58</magI>
@@ -17,7 +22,7 @@
 		<magJ errorminus="0.24" errorplus="0.24">3.67</magJ>
 		<magH errorminus="0.20" errorplus="0.20">3.54</magH>
 		<magK errorminus="0.22" errorplus="0.22">3.53</magK>
-		<age errorminus="0.004" errorplus="0.004">0.012</age>
+		<age errorminus="0.003" errorplus="0.003">0.023</age>
 		<spectraltype>A6V</spectraltype>
 		<planet>
 			<name>beta Pic b</name>
@@ -26,18 +31,22 @@
 			<name>HR 2020 b</name>
 			<name>HD 39060 b</name>
 			<list>Confirmed planets</list>
-			<mass errorminus="4" errorplus="3">7</mass>
-			<period errorminus="511.339078" errorplus="1059.20238">7487.46508</period>
-			<semimajoraxis errorminus="0.41" errorplus="0.82">9.04</semimajoraxis>
-			<eccentricity errorminus="0.04" errorplus="0.07">0.06</eccentricity>
-			<inclination errorminus="0.68" errorplus="0.68">90.69</inclination>
+			<mass errorminus="5" errorplus="5">11</mass>
+			<radius errorminus="0.06" errorplus="0.06">1.65</radius>
+			<period errorminus="599" errorplus="1947">8167</period>
+			<semimajoraxis errorminus="0.45" errorplus="1.46">9.25</semimajoraxis>
+			<eccentricity errorminus="0.05" errorplus="0.11">0.07</eccentricity>
+			<inclination errorminus="0.30" errorplus="0.30">89.01</inclination>
+			<periastron errorminus="80.76" errorplus="33.07">155.85</periastron>
+			<ascendingnode errorminus="0.15" errorplus="0.15">31.75</ascendingnode>
+			<periastrontime errorminus="1000" errorplus="1400">2454737</periastrontime>
 			<discoverymethod>imaging</discoverymethod>
-			<description>Beta Pictoris is an A type star, 63 lightyears away from our own Solar System. The star is host to a debris disk and a planet. Using high spectroscopic observations, astronomers were able to measure the length of a day on bet Pic b: 8.1 hours.</description>
-			<lastupdate>14/05/01</lastupdate>
+			<description>Beta Pictoris is an A type star, 63 lightyears away from our own Solar System. The star is host to a debris disk and a planet. Using high spectroscopic observations, astronomers were able to measure the length of a day on bet Pic b: 8.1 hours. The planet or material in orbit around it may have been responsible for a transit-like event observed in November 1981.</description>
+			<lastupdate>15/08/22</lastupdate>
 			<discoveryyear>2008</discoveryyear>
 			<image>beta Pic</image>
 			<imagedescription>This image shows the planet Beta Pictoris b. It has been optained with NACO on VLT. The star has been masked out to enable the viewer to see clearly the planet. Credit: ESO.</imagedescription>
-			<temperature>154.0</temperature>
+			<temperature errorminus="25" errorplus="50">1600</temperature>
 		</planet>
 		<temperature>9790.0</temperature>
 	</star>
