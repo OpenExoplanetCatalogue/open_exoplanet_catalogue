@@ -1,11 +1,19 @@
 <system>
 	<name>tau Boo</name>
-	<rightascension>13 47 17</rightascension>
-	<declination>+17 27 22</declination>
+	<rightascension>13 47 15.74340</rightascension>
+	<declination>+17 27 24.8552</declination>
 	<distance errorminus="0.05" errorplus="0.05">15.62</distance>
 	<binary>
-		<semimajoraxis>245</semimajoraxis>
-		<eccentricity>0.91</eccentricity>
+		<name>tau Boo</name>
+		<name>WDS J13473+1727</name>
+		<name>HIP 67275</name>
+		<semimajoraxis errorminus="110" errorplus="110">120</semimajoraxis>
+		<eccentricity errorminus="0.074" errorplus="0.074">0.836</eccentricity>
+		<ascendingnode errorminus="50.3">171.9</ascendingnode>
+		<inclination errorminus="39.7" errorplus="39.7">37.0</inclination>
+		<period errorminus="482500" errorplus="482500">352100</period>
+		<periastrontime errorminus="1800" errorplus="1800">2462500</periastrontime>
+		<periastron errorminus="28.6" errorplus="28.6">334.2</periastron>
 		<star>
 			<name>tau Boo A</name>
 			<name>Tau Boötis A</name>
@@ -13,8 +21,11 @@
 			<name>HD 120136 A</name>
 			<name>GJ 527 A</name>
 			<name>Gliese 527 A</name>
-			<mass errorminus="0.039" errorplus="0.054">1.341</mass>
-			<radius errorminus="0.027" errorplus="0.027">1.331</radius>
+			<name>HIP 67275 A</name>
+			<name>WDS J13473+1727 A</name>
+			<name>HR 5185</name>
+			<mass errorminus="0.25" errorplus="0.25">1.39</mass>
+			<radius errorminus="0.08" errorplus="0.08">1.42</radius>
 			<magV>4.5</magV>
 			<magB>4.98</magB>
 			<magR>4.2</magR>
@@ -22,9 +33,9 @@
 			<magJ>3.62</magJ>
 			<magH>3.55</magH>
 			<magK errorminus="0.05" errorplus="0.05">3.36</magK>
-			<metallicity>0.25</metallicity>
-			<temperature>6375</temperature>
-			<age errorminus="0.35" errorplus="0.35">1.95</age>
+			<metallicity errorminus="0.03" errorplus="0.03">0.26</metallicity>
+			<temperature errorminus="45" errorplus="45">6399</temperature>
+			<age errorminus="0.5" errorplus="0.5">0.9</age>
 			<spectraltype>F7 V</spectraltype>
 			<planet>
 				<name>tau Boo A b</name>
@@ -33,13 +44,16 @@
 				<name>HD 120136 A b</name>
 				<name>GJ 527 A b</name>
 				<name>Gliese 527 A b</name>
+				<name>HR 5185 b</name>
 				<name>tau Boo b</name>
 				<list>Confirmed planets</list>
-				<mass errorminus="0.2" errorplus="0.35">5.90</mass>
-				<period>3.312</period>
-				<semimajoraxis>0.046</semimajoraxis>
-				<eccentricity>0.023</eccentricity>
-				<inclination errorminus="4" errorplus="3">45</inclination>
+				<mass errorminus="0.17" errorplus="0.17">6.13</mass>
+				<period errorminus="0.0000069" errorplus="0.0000069">3.3124568</period>
+				<semimajoraxis errorminus="0.003" errorplus="0.003">0.049</semimajoraxis>
+				<eccentricity errorminus="0.006" errorplus="0.006">0.011</eccentricity>
+				<inclination errorminus="1.5" errorplus="1.5">44.5</inclination>
+				<periastron errorminus="32.2" errorplus="32.2">113.4</periastron>
+				<periastrontime errorminus="0.30" errorplus="0.30" unit="BJD">2456400.94</periastrontime>
 				<description>The planet Tau Boötis b was one of the first exoplanets to be discovered back in 1996. In 2012, astronomers have detected the faint glow that is emitted from the planet, reliably probing the structure of the atmosphere of Tau Bootis b and deducing its mass accurately for the first time.</description>
 				<temperature>2000</temperature>
 				<discoverymethod>RV</discoverymethod>
@@ -59,7 +73,11 @@
 			<name>HD 120136 B</name>
 			<name>GJ 527 B</name>
 			<name>Gliese 527 B</name>
+			<name>HIP 67275 B</name>
+			<name>WDS J13473+1727 B</name>
 			<mass>0.40</mass>
+			<spectraltype>M2</spectraltype>
+			<magV>11.1</magV>
 		</star>
 	</binary>
 </system>
