@@ -4,6 +4,7 @@
 	<declination>-02 28 24.7749</declination>
 	<distance errorminus="0.3" errorplus="0.3">29.4</distance>
 	<binary>
+		<name>WDS J04376-0228</name>
 		<name>WAL 32</name>
 		<separation unit="arcsec">66.70</separation>
 		<separation unit="AU">1960</separation>
@@ -56,18 +57,20 @@
 			<name>KAS 1</name>
 			<name>2MASS J04373746-0229282</name>
 			<name>WAL 32 B</name>
-			<semimajoraxis>8.5</semimajoraxis>
-			<inclination>93.2</inclination>
-			<eccentricity>0.06</eccentricity>
-			<period>7850</period>
-			<ascendingnode>196</ascendingnode>
+			<semimajoraxis errorminus="0.15" errorplus="0.15">9.80</semimajoraxis>
+			<inclination errorminus="0.2" errorplus="0.2">92.1</inclination>
+			<eccentricity errorminus="0.02" errorplus="0.02">0.19</eccentricity>
+			<period errorminus="237" errorplus="237">10650</period>
+			<periastron errorminus="3" errorplus="3">-69</periastron>
+			<periastrontime errorminus="66" errorplus="66">2451592</periastrontime>
+			<ascendingnode errorminus="0.2">18.8</ascendingnode>
 			<star>
 				<name>GJ 3305 A</name>
 				<name>WDS J04376-0228 Ca</name>
 				<name>KAS 1 A</name>
 				<spectraltype>M0</spectraltype>
 				<magV>7.70</magV>
-				<mass>0.590</mass>
+				<mass errorminus="0.05" errorplus="0.05">0.67</mass>
 			</star>
 			<star>
 				<name>GJ 3305 B</name>
@@ -75,7 +78,7 @@
 				<name>KAS 1 B</name>
 				<spectraltype>M3</spectraltype>
 				<magV>10.90</magV>
-				<mass>0.290</mass>
+				<mass errorminus="0.05" errorplus="0.05">0.44</mass>
 			</star>
 		</binary>
 	</binary>
