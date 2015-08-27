@@ -1,42 +1,61 @@
 <system>
 	<name>KELT-6</name>
-	<rightascension>13 03 56</rightascension>
-	<declination>+30 38 24</declination>
+	<rightascension>13 03 55.648</rightascension>
+	<declination>+30 38 24.18</declination>
 	<distance errorminus="8" errorplus="8">222</distance>
 	<star>
 		<name>KELT-6</name>
 		<name>TYC 2532-556-1</name>
 		<name>BD+31 2447</name>
-		<mass errorminus="0.04" errorplus="0.04">1.09</mass>
-		<radius errorminus="0.09" errorplus="0.16">1.58</radius>
-		<temperature errorminus="43" errorplus="43">6102</temperature>
+		<name>2MASS J13035564+3038241</name>
+		<mass errorminus="0.058" errorplus="0.058">1.126</mass>
+		<radius errorminus="0.137" errorplus="0.143">1.529</radius>
+		<temperature errorminus="61" errorplus="61">6272</temperature>
 		<magV errorminus="0.054" errorplus="0.054">10.337</magV>
 		<magI errorminus="0.061" errorplus="0.061">9.745</magI>
 		<magH errorminus="0.022" errorplus="0.022">9.137</magH>
 		<magB>10.81</magB>
 		<magJ>9.30</magJ>
 		<magK>9.08</magK>
-		<metallicity errorminus="0.04" errorplus="0.04">-0.28</metallicity>
+		<metallicity errorminus="0.06" errorplus="0.06">-0.27</metallicity>
 		<spectraltype>F8</spectraltype>
-		<age errorminus="0.2" errorplus="0.2">6.1</age>
+		<age errorminus="0.46" errorplus="0.66">4.90</age>
 		<planet>
 			<name>KELT-6 b</name>
 			<name>TYC 2532-556-1 b</name>
 			<name>BD+31 2447 b</name>
 			<list>Confirmed planets</list>
-			<mass errorminus="0.046" errorplus="0.045">0.430</mass>
-			<radius errorminus="0.077" errorplus="0.130">1.193</radius>
-			<temperature errorminus="38" errorplus="59">1313</temperature>
-			<period errorminus="0.000046" errorplus="0.000046">7.845631</period>
-			<semimajoraxis errorminus="0.001" errorplus="0.001">0.079</semimajoraxis>
-			<eccentricity errorminus="0.1" errorplus="0.12">0.22</eccentricity>
+			<mass errorminus="0.019" errorplus="0.019">0.442</mass>
+			<radius errorminus="0.11" errorplus="0.11">1.18</radius>
+			<period errorminus="0.000007" errorplus="0.000007">7.845582</period>
+			<semimajoraxis errorminus="0.001" errorplus="0.001">0.080</semimajoraxis>
+			<eccentricity errorminus="0.013" errorplus="0.016">0.029</eccentricity>
 			<inclination errorminus="0.91" errorplus="0.79">88.81</inclination>
-			<transittime errorminus="0.00036" errorplus="0.00036">2456347.79679</transittime>
+			<transittime errorminus="0.00057" errorplus="0.00057" unit="BJD">2457124.50954</transittime>
+			<periastron errorminus="272" errorplus="30">308</periastron>
+			<spinorbitalignment errorminus="11" errorplus="11">-36</spinorbitalignment>
 			<description>KELT-6b is a Saturn-mass planet transiting a metal-poor host star. The planet candidate was originally discovered by the KELT-North survey. Follow up observations confirmed the planetary nature of the candidate using a combination of photometry, high-resolution imaging, high resolution spectroscopy and radial velocity measurements.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>13/08/13</lastupdate>
+			<lastupdate>15/08/27</lastupdate>
 			<discoveryyear>2013</discoveryyear>
 			<istransiting>1</istransiting>
+		</planet>
+		<planet>
+			<name>KELT-6 c</name>
+			<name>TYC 2532-556-1 c</name>
+			<name>BD+31 2447 c</name>
+			<list>Confirmed planets</list>
+			<period errorminus="67" errorplus="81">1276</period>
+			<eccentricity errorminus="0.036" errorplus="0.039">0.21</eccentricity>
+			<periastron errorminus="8.8" errorplus="8.8">268.7</periastron>
+			<transittime errorminus="32" errorplus="39">2457432</transittime>
+			<mass errorminus="0.21" errorplus="0.21">3.71</mass>
+			<semimajoraxis errorminus="0.11" errorplus="0.11">2.39</semimajoraxis>
+			<description>KELT-6c is a long-period giant planet, one of only a small number known where there is an inner transiting planet with a measured Rossiter-McLaughlin effect. Its presence was suspected based on a trend in the radial velocity data for the system and was finally confirmed in 2015 with data from the HARPS-N spectrograph.</description>
+			<discoverymethod>RV</discoverymethod>
+			<lastupdate>15/08/27</lastupdate>
+			<discoveryyear>2015</discoveryyear>
+			<istransiting>0</istransiting>
 		</planet>
 	</star>
 </system>
