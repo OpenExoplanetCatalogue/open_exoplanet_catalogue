@@ -1,0 +1,41 @@
+<system>
+	<name>WASP-120</name>
+	<rightascension>04 10 27.85</rightascension>
+	<declination>-45 53 53.5</declination>
+	<star>
+		<name>WASP-120</name>
+		<name>TYC 8068-01208-1</name>
+		<name>USNO-B 0441-0033568</name>
+		<name>PPM 308371</name>
+		<magB errorminus="0.06" errorplus="0.06">11.48</magB>
+		<magV errorminus="0.06" errorplus="0.06">10.96</magV>
+		<magJ errorminus="0.024" errorplus="0.024">10.148</magJ>
+		<magH errorminus="0.034" errorplus="0.034">9.952</magH>
+		<magK errorminus="0.023" errorplus="0.023">9.877</magK>
+		<mass errorminus="0.11" errorplus="0.11">1.45</mass>
+		<radius errorminus="0.09" errorplus="0.09">1.93</radius>
+		<temperature errorminus="120" errorplus="120">6450</temperature>
+		<metallicity errorminus="0.07" errorplus="0.07">-0.05</metallicity>
+		<spectraltype>F5</spectraltype>
+		<planet>
+			<name>WASP-120 b</name>
+			<name>TYC 8068-01208-1 b</name>
+			<name>USNO-B 0441-0033568 b</name>
+			<name>PPM 308371 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.083" errorplus="0.083">1.515</radius>
+			<mass errorminus="0.26" errorplus="0.26">5.01</mass>
+			<period errorminus="0.0000038" errorplus="0.0000038">3.6112706</period>
+			<transittime errorminus="0.00044" errorplus="0.00044" unit="HJD">2456779.4352</transittime>
+			<semimajoraxis errorminus="0.0013" errorplus="0.0013">0.0522</semimajoraxis>
+			<temperature errorminus="50" errorplus="50">1890</temperature>
+			<inclination errorminus="0.48" errorplus="0.48">82.29</inclination>
+			<eccentricity errorminus="0.018" errorplus="0.025">0.059</eccentricity>
+			<description>WASP-120 b was discovered by the Wide Angle Search for Planets (WASP)-South survey and is a massive (5.0MJup) planet in a 3.6-day orbit around an F5 star.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>15/09/07</lastupdate>
+			<discoveryyear>2015</discoveryyear>
+		</planet>
+	</star>
+</system>
