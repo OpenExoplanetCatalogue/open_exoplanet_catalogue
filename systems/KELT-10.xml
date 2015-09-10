@@ -1,0 +1,39 @@
+<system>
+	<name>KELT-10</name>
+	<rightascension>18 58 11.601</rightascension>
+	<declination>-47 00 11.68</declination>
+	<distance errorminus="14" errorplus="14">183</distance>
+	<star>
+		<name>KELT-10</name>
+		<name>TYC 8378-64-1</name>
+		<name>2MASS J18581160-4700116</name>
+		<magB errorminus="0.08" errorplus="0.08">11.34</magB>
+		<magV errorminus="0.06" errorplus="0.06">10.62</magV>
+		<magJ errorminus="0.019" errorplus="0.019">9.693</magJ>
+		<magH errorminus="0.022" errorplus="0.022">9.388</magH>
+		<magK errorminus="0.021" errorplus="0.021">9.338</magK>
+		<mass errorminus="0.061" errorplus="0.055">1.112</mass>
+		<radius errorminus="0.035" errorplus="0.047">1.209</radius>
+		<temperature errorminus="74" errorplus="74">5948</temperature>
+		<metallicity errorminus="0.1" errorplus="0.11">0.09</metallicity>
+		<planet>
+			<name>KELT-10 b</name>
+			<name>TYC 8378-64-1 b</name>
+			<name>2MASS J18581160-4700116 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.049" errorplus="0.069">1.399</radius>
+			<mass errorminus="0.038" errorplus="0.039">0.679</mass>
+			<period errorminus="0.00057" errorplus="0.00057">4.166286</period>
+			<transittime errorminus="0.0053" errorplus="0.0053" unit="BJD">2457175.0438</transittime>
+			<semimajoraxis errorminus="0.00097" errorplus="0.00086">0.05250</semimajoraxis>
+			<temperature errorminus="23" errorplus="28">1377</temperature>
+			<inclination errorminus="0.72" errorplus="0.85">88.63</inclination>
+			<eccentricity>0</eccentricity>
+			<description>KELT-10 b is the first transiting exoplanet discovered using the Kilodegree Extremely Little Telescope (KELT)-South telescope. KELT-10 b is a highly inflated sub-Jupiter mass planet. This planet joins a group of highly inflated transiting exoplanets with a radius much larger and a mass much less than those of Jupiter. The planet boasts with deep transits of 1.4%.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>15/09/08</lastupdate>
+			<discoveryyear>2015</discoveryyear>
+		</planet>
+	</star>
+</system>
