@@ -1,0 +1,39 @@
+<system>
+	<name>WASP-122</name>
+	<rightascension>07 13 12.34</rightascension>
+	<declination>-42 24 35.1</declination>
+	<star>
+		<name>WASP-122</name>
+		<name>TYC 7638-00981-1</name>
+		<name>USNO-B 0475-0113097</name>
+		<magB errorminus="0.09" errorplus="0.09">11.78</magB>
+		<magV errorminus="0.07" errorplus="0.07">11.00</magV>
+		<magJ errorminus="0.024" errorplus="0.024">9.808</magJ>
+		<magH errorminus="0.024" errorplus="0.024">9.487</magH>
+		<magK errorminus="0.023" errorplus="0.023">9.424</magK>
+		<mass errorminus="0.1" errorplus="0.1">1.4</mass>
+		<radius errorminus="0.051" errorplus="0.051">1.567</radius>
+		<temperature errorminus="130" errorplus="130">5720</temperature>
+		<metallicity errorminus="0.09" errorplus="0.09">0.32</metallicity>
+		<spectraltype>G4</spectraltype>
+		<planet>
+			<name>WASP-122 b</name>
+			<name>TYC 7638-00981-1 b</name>
+			<name>USNO-B 0475-0113097 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.069" errorplus="0.069">1.972</radius>
+			<mass errorminus="0.072" errorplus="0.072">1.372</mass>
+			<period errorminus="0.0000036" errorplus="0.0000036">1.7100567</period>
+			<transittime errorminus="0.00022" errorplus="0.00022" unit="HJD">2456665.22403</transittime>
+			<semimajoraxis errorminus="0.00079" errorplus="0.00079">0.03107</semimajoraxis>
+			<temperature errorminus="50" errorplus="50">1960</temperature>
+			<inclination errorminus="0.31" errorplus="0.31">78.35</inclination>
+			<eccentricity>0</eccentricity>
+			<description>WASP-122 b was discovered by the Wide Angle Search for Planets (WASP)-South survey and is a hot-Jupiter in a 1.7-day orbit about a G4 star.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>15/09/07</lastupdate>
+			<discoveryyear>2015</discoveryyear>
+		</planet>
+	</star>
+</system>
