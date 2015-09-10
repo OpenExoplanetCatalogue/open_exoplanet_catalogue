@@ -1,0 +1,44 @@
+<system>
+	<name>KELT-8</name>
+	<rightascension>18 53 13.322</rightascension>
+	<declination>+24 07 38.6</declination>
+	<distance errorminus="9" errorplus="9">236</distance>
+	<star>
+		<name>KELT-8</name>
+		<name>HD 343246</name>
+		<name>2MASS J18531332+2407385</name>
+		<name>TYC 2109-49-1</name>
+		<name>WDS 18533+2407</name>
+		<magB errorminus="0.065" errorplus="0.065">11.545</magB>
+		<magV errorminus="0.054" errorplus="0.054">10.833</magV>
+		<magJ errorminus="0.026" errorplus="0.026">9.586</magJ>
+		<magH errorminus="0.032" errorplus="0.032">9.269</magH>
+		<magK errorminus="0.021" errorplus="0.021">9.177</magK>
+		<mass errorminus="0.066" errorplus="0.078">1.211</mass>
+		<radius errorminus="0.12" errorplus="0.14">1.67</radius>
+		<temperature errorminus="55" errorplus="54">5754</temperature>
+		<metallicity errorminus="0.038" errorplus="0.038">0.272</metallicity>
+		<spectraltype>G2V</spectraltype>
+		<planet>
+			<name>KELT-8 b</name>
+			<name>HD 343246 b</name>
+			<name>2MASS J18531332+2407385 b</name>
+			<name>TYC 2109-49-1 b</name>
+			<name>WDS 18533+2407 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.16" errorplus="0.18">1.86</radius>
+			<mass errorminus="0.061" errorplus="0.065">0.867</mass>
+			<period errorminus="0.00016" errorplus="0.00016">3.24406</period>
+			<transittime errorminus="0.0007" errorplus="0.0007" unit="BJD">2456883.4803</transittime>
+			<semimajoraxis errorminus="0.00084" errorplus="0.000096">0.04571</semimajoraxis>
+			<temperature errorminus="55" errorplus="61">1675</temperature>
+			<inclination errorminus="1" errorplus="0.81">82.65</inclination>
+			<eccentricity errorminus="0.025" errorplus="0.05">0.035</eccentricity>
+			<description>This highly inflated transiting hot Jupiter was discovered by the Kilodegree Extremely Little Telescope (KELT)-North survey. This planet is one of the most inflated of all known transiting exoplanets, making it one of the few members of a class of extremely low density, highly-irradiated gas giants.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>15/05/25</lastupdate>
+			<discoveryyear>2015</discoveryyear>
+		</planet>
+	</star>
+</system>
