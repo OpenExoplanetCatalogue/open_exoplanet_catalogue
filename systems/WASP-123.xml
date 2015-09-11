@@ -1,0 +1,36 @@
+<system>
+	<name>WASP-123</name>
+	<rightascension>19 17 55.04</rightascension>
+	<declination>-32 51 35.8</declination>
+	<star>
+		<name>WASP-123</name>
+		<name>TYC 7427-00581-1</name>
+		<name>USNO-B 0571-1147509</name>
+		<magB errorminus="0.11" errorplus="0.11">11.49</magB>
+		<magV errorminus="0.12" errorplus="0.12">11.03</magV>
+		<mass errorminus="0.089" errorplus="0.089">1.207</mass>
+		<radius errorminus="0.061" errorplus="0.061">1.296</radius>
+		<temperature errorminus="130" errorplus="130">5740</temperature>
+		<metallicity errorminus="0.08" errorplus="0.08">0.18</metallicity>
+		<spectraltype>G5</spectraltype>
+		<planet>
+			<name>WASP-123 b</name>
+			<name>TYC 7427-00581-1 b</name>
+			<name>USNO-B 0571-1147509 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.074" errorplus="0.074">1.327</radius>
+			<mass errorminus="0.05" errorplus="0.05">0.92</mass>
+			<period errorminus="0.0000024" errorplus="0.0000024">2.9776410</period>
+			<transittime errorminus="0.00041" errorplus="0.00041" unit="HJD">2456845.17081</transittime>
+			<semimajoraxis errorminus="0.0011" errorplus="0.0011">0.0431</semimajoraxis>
+			<temperature errorminus="40" errorplus="40">1510</temperature>
+			<inclination errorminus="0.51" errorplus="0.51">85.79</inclination>
+			<eccentricity>0</eccentricity>
+			<description>WASP-123 b was discovered by the Wide Angle Search for Planets (WASP)-South survey and is a hot-Jupiter (0.92MJup, 1.33RJup) in a 3.0-day orbit around an old (~ 7 Gyr) G5 star.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>15/09/07</lastupdate>
+			<discoveryyear>2015</discoveryyear>
+		</planet>
+	</star>
+</system>
