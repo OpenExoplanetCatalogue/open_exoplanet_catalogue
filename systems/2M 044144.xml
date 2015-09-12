@@ -1,28 +1,78 @@
 <system>
 	<name>2M 044144</name>
-	<name>2MASS J04414489+2301513</name>
-	<rightascension>04 41 45</rightascension>
-	<declination>+23 01 51</declination>
-	<distance>140</distance>
-	<star>
-		<mass>0.02</mass>
-		<spectraltype>M8.5</spectraltype>
-		<planet>
-			<name>2M 044144 b</name>
-			<name>2MASS J04414489+2301513 b</name>
-			<list>Confirmed planets</list>
-			<mass>7.5</mass>
-			<separation errorminus="0.004" errorplus="0.004" unit="arcsec">0.105</separation>
-			<separation unit="AU">15</separation>
-			<positionangle errorminus="2.2" errorplus="2.2">120.4</positionangle>
-			<magH errorminus="0.10" errorplus="0.10">15.62</magH>
-			<magK errorminus="0.10" errorplus="0.10">14.94</magK>
-			<discoverymethod>imaging</discoverymethod>
-			<lastupdate>10/04/06</lastupdate>
-			<discoveryyear>2010</discoveryyear>
-		</planet>
-		<name>2M 044144</name>
-		<name>2MASS J04414489+2301513</name>
-		<temperature>3840.0</temperature>
-	</star>
+	<rightascension>04 41 45.652</rightascension>
+	<declination>+23 01 58.07</declination>
+	<distance errorminus="15" errorplus="15">145</distance>
+	<binary>
+		<name>2M0441+2301</name>
+		<name>2M0441+2301 AabBab</name>
+		<separation unit="arcsec">12.37</separation>
+		<separation unit="AU">1800</separation>
+		<positionangle>237.3</positionangle>
+		<binary>
+			<name>2M 044145</name>
+			<name>2M0441+2301 A</name>
+			<name>2M0441+2301 Aab</name>
+			<name>2MASS J04414565+2301580</name>
+			<separation errorminus="0.0007" errorplus="0.0007" unit="arcsec">0.2323</separation>
+			<separation unit="AU">34</separation>
+			<positionangle errorminus="0.02" errorplus="0.02">79.61</positionangle>
+			<star>
+				<name>2M0441+2301 Aa</name>
+				<name>2M 044145 A</name>
+				<name>2MASS J04414565+2301580 A</name>
+				<magJ errorminus="0.04" errorplus="0.04">10.77</magJ>
+				<magH errorminus="0.03" errorplus="0.03">10.19</magH>
+				<magK errorminus="0.02" errorplus="0.02">9.94</magK>
+				<spectraltype>M4.5</spectraltype>
+				<mass errorminus="0.05" errorplus="1.0">0.2</mass>
+				<radius errorminus="0.2" errorplus="0.2">1.1</radius>
+				<temperature>3400</temperature>
+			</star>
+			<star>
+				<name>2M0441+2301 Ab</name>
+				<name>2M 044145 B</name>
+				<name>2MASS J04414565+2301580 B</name>
+				<magJ errorminus="0.07" errorplus="0.07">13.73</magJ>
+				<magH errorminus="0.07" errorplus="0.07">13.30</magH>
+				<magK errorminus="0.12" errorplus="0.12">12.71</magK>
+				<spectraltype>M7±1</spectraltype>
+				<mass errorminus="0.005" errorplus="0.005">0.033</mass>
+				<temperature>2800</temperature>
+			</star>
+		</binary>
+		<star>
+			<name>2M 044144</name>
+			<name>2M 044144 A</name>
+			<name>2MASS J04414489+2301513</name>
+			<name>2MASS J04414489+2301513 A</name>
+			<name>2M0441+2301 Ba</name>
+			<name>2M0441+2301 B</name>
+			<magH errorminus="0.05" errorplus="0.05">14.03</magH>
+			<magK errorminus="0.03" errorplus="0.03">13.46</magK>
+			<mass errorminus="0.003" errorplus="0.003">0.018</mass>
+			<spectraltype>M7±1</spectraltype>
+			<temperature>2100</temperature>
+			<planet>
+				<name>2M 044144 b</name>
+				<name>2M 044144 B</name>
+				<name>2MASS J04414489+2301513 B</name>
+				<name>2M0441+2301 Bb</name>
+				<list>Confirmed planets</list>
+				<mass errorminus="1.8" errorplus="1.8">9.8</mass>
+				<separation errorminus="0.0008" errorplus="0.0008" unit="arcsec">0.0966</separation>
+				<separation unit="AU">14</separation>
+				<positionangle errorminus="0.3" errorplus="0.3">132.1</positionangle>
+				<magH errorminus="0.10" errorplus="0.10">15.62</magH>
+				<magK errorminus="0.10" errorplus="0.10">14.94</magK>
+				<spectraltype>L1±1</spectraltype>
+				<temperature>1800</temperature>
+				<discoverymethod>imaging</discoverymethod>
+				<lastupdate>15/09/12</lastupdate>
+				<discoveryyear>2010</discoveryyear>
+				<description>2M 044144 b is the lowest-mass member of the quadruple system 2M0441+2301. Despite having a mass below the deuterium-fusion limit, the low mass ratio between 2M 044144 A and B suggests it likely formed by turbulent fragmentation rather than core accretion.</description>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+	</binary>
 </system>
