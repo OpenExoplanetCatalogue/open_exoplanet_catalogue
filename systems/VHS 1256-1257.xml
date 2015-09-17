@@ -16,7 +16,7 @@
 		<age lowerlimit="0.150" upperlimit="0.300" />
 		<temperature errorminus="140" errorplus="140">2620</temperature>
 		<mass errorminus="0.014" errorplus="0.019">0.070</mass>
-		<spectraltype>M7.5 ± 0.5</spectraltype>
+		<spectraltype errorminus="0.5" errorplus="0.5">M7.5</spectraltype>
 		<planet>
 			<name>VHS 1256-1257 b</name>
 			<name>VHS J125602.15-125721.7 b</name>
@@ -30,7 +30,7 @@
 			<magK errorminus="0.121" errorplus="0.121">14.568</magK>
 			<temperature errorminus="110" errorplus="140">880</temperature>
 			<mass errorminus="1.8" errorplus="9.7">11.2</mass>
-			<spectraltype>L7.0 ± 1.5</spectraltype>
+			<spectraltype errorminus="1.5" errorplus="1.5">L7</spectraltype>
 			<discoverymethod>imaging</discoverymethod>
 			<discoveryyear>2015</discoveryyear>
 			<description>VHS 1256-1257 b is a common-proper motion L-dwarf companion of a nearby red dwarf star. It is cooler than expected for a field L-dwarf, and its mass is close to the deuterium-burning limit.</description>
