@@ -6,27 +6,28 @@
 	<binary>
 		<star>
 			<name>WASP-85 A</name>
-			<mass errorminus="0.07" errorplus="0.07">1.04</mass>
-			<radius errorminus="0.13" errorplus="0.13">0.96</radius>
+			<mass errorminus="0.08" errorplus="0.08">1.09</mass>
+			<radius errorminus="0.023" errorplus="0.023">0.935</radius>
 			<magV>11.2</magV>
 			<metallicity errorminus="0.10" errorplus="0.10">0.08</metallicity>
 			<spectraltype>G5</spectraltype>
-			<temperature errorminus="65" errorplus="65">5685</temperature>
+			<temperature errorminus="27" errorplus="27">6112</temperature>
 			<planet>
 				<name>WASP-85 A b</name>
 				<list>Confirmed planets</list>
-				<mass errorminus="0.05" errorplus="0.05">1.22</mass>
-				<radius errorminus="0.03" errorplus="0.03">1.48</radius>
-				<period errorminus="0.0000008" errorplus="0.0000008">2.6556734</period>
-				<semimajoraxis errorminus="0.0006" errorplus="0.0006">0.0382</semimajoraxis>
-				<eccentricity>0.0</eccentricity>
-				<inclination errorminus="0.24" errorplus="0.18">89.72</inclination>
-				<transittime errorminus="0.00010" errorplus="0.00010" unit="BJD">2456311.02659</transittime>
+				<mass errorminus="0.065" errorplus="0.065">1.265</mass>
+				<radius errorminus="0.03" errorplus="0.03">1.24</radius>
+				<period errorminus="0.00000044" errorplus="0.00000044">2.65567770</period>
+				<semimajoraxis errorminus="0.001" errorplus="0.001">0.039</semimajoraxis>
+				<eccentricity>0</eccentricity>
+				<inclination errorminus="0.03" errorplus="0.11">89.69</inclination>
+				<transittime errorminus="0.000014" errorplus="0.000014" unit="BJD">2456847.472856</transittime>
 				<discoverymethod>transit</discoverymethod>
-				<lastupdate>14/12/30</lastupdate>
-				<description>WASP-85 A b is a transiting hot Jupiter. WASP-85 is a binary system that lies in the Kepler K2 Campaign 1.</description>
+				<lastupdate>15/09/15</lastupdate>
+				<description>WASP-85 A b is a transiting hot Jupiter. WASP-85 is a binary system that lies in the Kepler K2 Campaign 1. The star has starspots which are occulted by the planet, indicating that the orbit is misaligned with the stellar equator.</description>
 				<discoveryyear>2014</discoveryyear>
-				<temperature errorminus="13" errorplus="13">1412</temperature>
+				<temperature errorminus="6" errorplus="6">1452</temperature>
+				<spinorbitalignment lowerlimit="10" />
 				<list>Planets in binary systems, S-type</list>
 				<istransiting>1</istransiting>
 			</planet>
