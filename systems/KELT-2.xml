@@ -1,42 +1,78 @@
 <system>
-	<name>KELT-2A</name>
-	<rightascension>06 10 39</rightascension>
-	<declination>+30 57 26</declination>
-	<distance>128.9</distance>
-	<star>
-		<mass>1.31</mass>
-		<radius>1.842</radius>
-		<magV errorminus="0.02" errorplus="0.02">8.77</magV>
-		<magB errorminus="0.02" errorplus="0.02">9.33</magB>
-		<magJ errorminus="0.021" errorplus="0.021">7.669</magJ>
-		<magH errorminus="0.026" errorplus="0.026">7.417</magH>
-		<magK errorminus="0.031" errorplus="0.031">7.346</magK>
-		<metallicity>-0.015</metallicity>
-		<spectraltype>F7V</spectraltype>
-		<planet>
-			<name>KELT-2A b</name>
-			<name>HIP 29301 b</name>
-			<name>WDS J06107+3057A b</name>
-			<name>TYC 2420-00899-1 b</name>
-			<name>HD 42176 b</name>
-			<name>BD+30 1138 b</name>
-			<name>SAO 58830 b</name>
-			<name>2MASS J06103935+3057258 b</name>
-			<list>Confirmed planets</list>
-			<mass>1.486</mass>
-			<radius>1.306</radius>
-			<period>4.1137914</period>
-			<semimajoraxis>0.05498</semimajoraxis>
-			<eccentricity>0.185</eccentricity>
-			<transittime errorminus="0.00085" errorplus="0.00081" unit="BJD">2455974.60361</transittime>
-			<description>This planet is a typical Hot Jupiter. It is the first planet discovered by the Kilodegree Extremely Little Telescope-North (KELT-North) survey. KELT-2A is the third brightest star with a transiting planet identified by ground-based transit surveys, and the ninth brightest star overall with a transiting planet. The planet might have been put on its orbit by the binary companion KELT-2B via the so-called eccentric Kozai mechanism.</description>
-			<discoverymethod>transit</discoverymethod>
-			<lastupdate>12/06/11</lastupdate>
-			<discoveryyear>2012</discoveryyear>
-			<temperature>1565.7</temperature>
-			<istransiting>1</istransiting>
-		</planet>
-		<name>KELT-2A</name>
-		<temperature>6148.0</temperature>
-	</star>
+	<name>KELT-2</name>
+	<rightascension>06 10 39.35</rightascension>
+	<declination>+30 57 25.7</declination>
+	<distance errorminus="4.2" errorplus="5.2">128.6</distance>
+	<binary>
+		<name>KELT-2</name>
+		<name>WDS J06107+3057</name>
+		<name>HIP 29301</name>
+		<name>TYC 2420-899-1</name>ß
+        <name>HD 47126</name>
+		<name>BD+30 1138</name>
+		<name>SAO 58830</name>
+		<name>COU 1102</name>
+		<separation unit="arcsec">2.29</separation>
+		<positionangle>328.6</positionangle>
+		<separation errorminus="10" errorplus="10" unit="AU">295</separation>
+		<star>
+			<name>KELT-2A</name>
+			<name>WDS J06107+3057 A</name>
+			<name>HIP 29301 A</name>
+			<name>TYC 2420-899-1 A</name>
+			<name>HD 47126 A</name>
+			<name>BD+30 1138 A</name>
+			<name>SAO 58830 A</name>
+			<name>COU 1102 A</name>
+			<mass errorminus="0.060" errorplus="0.063">1.314</mass>
+			<radius errorminus="0.046" errorplus="0.066">1.836</radius>
+			<temperature errorminus="48" errorplus="48">6148</temperature>
+			<magV errorminus="0.02" errorplus="0.02">8.77</magV>
+			<magB errorminus="0.02" errorplus="0.02">9.33</magB>
+			<magJ errorminus="0.021" errorplus="0.021">7.669</magJ>
+			<magH errorminus="0.026" errorplus="0.026">7.417</magH>
+			<magK errorminus="0.031" errorplus="0.031">7.346</magK>
+			<metallicity errorminus="0.78" errorplus="0.78">-0.034</metallicity>
+			<spectraltype>F7V</spectraltype>
+			<planet>
+				<name>KELT-2A b</name>
+				<name>HIP 29301 A b</name>
+				<name>WDS J06107+3057 A b</name>
+				<name>TYC 2420-00899-1 A b</name>
+				<name>HD 42176 A b</name>
+				<name>BD+30 1138 A b</name>
+				<name>SAO 58830 A b</name>
+				<name>2MASS J06103935+3057258 b</name>
+				<list>Confirmed planets</list>
+				<mass errorminus="0.088" errorplus="0.088">1.524</mass>
+				<radius errorminus="0.050" errorplus="0.064">1.290</radius>
+				<period errorminus="0.00001" errorplus="0.00001">4.1137913</period>
+				<semimajoraxis errorminus="0.00086" errorplus="0.00086">0.05504</semimajoraxis>
+				<eccentricity>0</eccentricity>
+				<transittime errorminus="0.00083" errorplus="0.00080" unit="BJD">2455974.60338</transittime>
+				<description>This planet is a typical Hot Jupiter. It is the first planet discovered by the Kilodegree Extremely Little Telescope-North (KELT-North) survey. KELT-2A is the third brightest star with a transiting planet identified by ground-based transit surveys, and the ninth brightest star overall with a transiting planet. The planet might have been put on its orbit by the binary companion KELT-2B via the so-called eccentric Kozai mechanism.</description>
+				<discoverymethod>transit</discoverymethod>
+				<lastupdate>15/09/20</lastupdate>
+				<discoveryyear>2012</discoveryyear>
+				<temperature errorminus="20" errorplus="28">1712</temperature>
+				<istransiting>1</istransiting>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+		<star>
+			<name>KELT-2B</name>
+			<name>WDS J06107+3057 B</name>
+			<name>HIP 29301 B</name>
+			<name>TYC 2420-899-1 B</name>
+			<name>HD 47126 B</name>
+			<name>BD+30 1138 B</name>
+			<name>SAO 58830 B</name>
+			<name>COU 1102 B</name>
+			<magV>12.0</magV>
+			<spectraltype>K2V</spectraltype>
+			<temperature errorminus="150" errorplus="150">485</temperature>
+			<mass>0.78</mass>
+			<radius>0.70</radius>
+		</star>
+	</binary>
 </system>
