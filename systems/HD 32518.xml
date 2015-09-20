@@ -1,31 +1,38 @@
 <system>
 	<name>HD 32518</name>
-	<rightascension>05 09 37</rightascension>
-	<declination>+69 38 22</declination>
-	<distance>117.4</distance>
+	<rightascension>05 09 36.71904</rightascension>
+	<declination>+69 38 21.8510</declination>
+	<distance errorminus="8.4" errorplus="8.4">120.6</distance>
 	<star>
-		<mass>1.13</mass>
-		<radius>10.22</radius>
+		<name>HD 32518</name>
+		<name>HIP 24003</name>
+		<name>TYC 4346-320-1</name>
+		<name>SAO 13382</name>
+		<name>HR 1636</name>
+		<name>BD+69 302</name>
+		<name>2MASS J05093674+6938219</name>
+		<mass errorminus="0.18" errorplus="0.18">1.13</mass>
+		<radius errorminus="0.87" errorplus="0.87">10.22</radius>
 		<magV>6.44</magV>
 		<magB errorminus="0.007" errorplus="0.007">7.530</magB>
 		<magJ errorminus="0.222" errorplus="0.222">4.531</magJ>
 		<magH errorminus="0.144" errorplus="0.144">3.992</magH>
 		<magK errorminus="0.036" errorplus="0.036">3.911</magK>
-		<metallicity>-0.15</metallicity>
+		<temperature errorminus="70" errorplus="70">4580</temperature>
+		<metallicity errorminus="0.04" errorplus="0.04">-0.15</metallicity>
 		<spectraltype>K1III</spectraltype>
 		<planet>
 			<name>HD 32518 b</name>
 			<list>Confirmed planets</list>
-			<mass>3.04</mass>
-			<period>157.54</period>
-			<semimajoraxis>0.59</semimajoraxis>
-			<eccentricity>0.01</eccentricity>
+			<mass errorminus="0.68" errorplus="0.68" type="msini">3.04</mass>
+			<period errorminus="0.38" errorplus="0.38">157.54</period>
+			<semimajoraxis errorminus="0.03" errorplus="0.03">0.59</semimajoraxis>
+			<eccentricity errorminus="0.03" errorplus="0.03">0.01</eccentricity>
+			<periastron errorminus="126.71" errorplus="126.71">306.11</periastron>
+			<periastrontime errorminus="13.66" errorplus="13.66">2452950.29</periastrontime>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>09/08/13</lastupdate>
+			<lastupdate>15/09/20</lastupdate>
 			<discoveryyear>2009</discoveryyear>
-			<temperature>840.5</temperature>
 		</planet>
-		<name>HD 32518</name>
-		<temperature>4580.0</temperature>
 	</star>
 </system>
