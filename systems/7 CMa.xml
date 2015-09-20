@@ -1,11 +1,27 @@
 <system>
 	<name>7 CMa</name>
-	<rightascension>06 36 41</rightascension>
-	<declination>-19 15 21</declination>
-	<distance>19.75</distance>
+	<rightascension>06 36 41.038</rightascension>
+	<declination>-19 15 21.17</declination>
+	<distance errorminus="0.09" errorplus="0.09">19.75</distance>
 	<star>
-		<mass>1.52</mass>
-		<radius>2.3</radius>
+		<name>7 CMa</name>
+		<name>7 Canis Majoris</name>
+		<name>nu.02 CMa</name>
+		<name>Nu-2 Canis Majoris</name>
+		<name>ν2 CMa</name>
+		<name>ν2 Canis Majoris</name>
+		<name>HD 47205</name>
+		<name>HIP 31592</name>
+		<name>TYC 5956-2621-1</name>
+		<name>SAO 151702</name>
+		<name>HR 2429</name>
+		<name>BD-19 1502</name>
+		<name>CPD-19 1369</name>
+		<name>Gliese 239.1</name>
+		<name>GJ 9214</name>
+		<name>2MASS J06364103-1915210</name>
+		<mass errorminus="0.30" errorplus="0.30">1.52</mass>
+		<radius errorminus="0.1" errorplus="0.1">2.3</radius>
 		<magV>3.96</magV>
 		<magR>3.13</magR>
 		<magI>2.61</magI>
@@ -13,22 +29,24 @@
 		<magJ errorminus="0.244" errorplus="0.244">2.173</magJ>
 		<magH errorminus="0.234" errorplus="0.234">1.679</magH>
 		<magK errorminus="0.252" errorplus="0.252">1.564</magK>
-		<metallicity>0.21</metallicity>
+		<metallicity errorminus="0.10" errorplus="0.10">0.21</metallicity>
+		<temperature errorminus="100" errorplus="100">4792</temperature>
 		<spectraltype>K1 III</spectraltype>
 		<planet>
 			<name>7 CMa b</name>
+			<name>7 Canis Majoris b</name>
+			<name>HD 47205 b</name>
 			<list>Confirmed planets</list>
-			<mass>2.6</mass>
-			<period>763</period>
-			<semimajoraxis>1.9</semimajoraxis>
-			<eccentricity>0.14</eccentricity>
+			<mass errorminus="0.6" errorplus="0.6" type="msini">2.6</mass>
+			<period errorminus="17" errorplus="17">763</period>
+			<semimajoraxis errorminus="0.1" errorplus="0.1">1.9</semimajoraxis>
+			<eccentricity errorminus="0.06" errorplus="0.06">0.14</eccentricity>
+			<periastron errorminus="41" errorplus="41">12</periastron>
+			<periastrontime errorminus="89" errorplus="89">2455520</periastrontime>
 			<description>This planet is orbiting the star 7 CMa and was discovered by the Pan-Pacific Planet Search (PPPS). It is the first detection from this ongoing survey.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>11/11/07</lastupdate>
+			<lastupdate>15/09/20</lastupdate>
 			<discoveryyear>2011</discoveryyear>
-			<temperature>232.2</temperature>
 		</planet>
-		<name>7 CMa</name>
-		<temperature>4792.0</temperature>
 	</star>
 </system>
