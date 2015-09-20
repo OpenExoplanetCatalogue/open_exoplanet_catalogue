@@ -140,6 +140,7 @@
 				<xs:attribute name="lowerlimit" type="xs:double" use="optional"/>
 				<xs:attribute name="upperlimit" type="xs:double" use="optional"/>
 				<xs:attribute name="unit" type="xs:string" use="optional"/>
+				<xs:attribute name="msini" type="xs:string" use="optional"/>
 			</xs:extension>
 		</xs:simpleContent>
 	</xs:complexType>
@@ -179,6 +180,8 @@
 			<xs:enumeration value="Solar System"/>
 			<xs:enumeration value="Kepler Objects of Interest"/>
 			<xs:enumeration value="Retracted planet candidate"/>
+			<xs:enumeration value="Planets in open clusters"/>
+			<xs:enumeration value="Planets in globular clusters"/>
 		</xs:restriction>
 	</xs:simpleType>
 	<!-- Discoverymethod Definition -->
