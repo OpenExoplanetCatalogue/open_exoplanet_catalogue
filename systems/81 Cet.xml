@@ -1,9 +1,18 @@
 <system>
 	<name>81 Cet</name>
-	<rightascension>02 37 42</rightascension>
-	<declination>-03 23 46</declination>
-	<distance>97.2</distance>
+	<rightascension>02 37 42.80105</rightascension>
+	<declination>-03 23 46.2201</declination>
+	<distance errorminus="3.9" errorplus="3.9">92.5</distance>
 	<star>
+		<name>81 Cet</name>
+		<name>81 Ceti</name>
+		<name>HD 16400</name>
+		<name>HIP 12247</name>
+		<name>TYC 4701-1094-1</name>
+		<name>SAO 130026</name>
+		<name>HR 771</name>
+		<name>BD-04 436</name>
+		<name>2MASS J02374179-0323462</name>
 		<mass>2.4</mass>
 		<radius>11</radius>
 		<magV>5.65</magV>
@@ -11,22 +20,24 @@
 		<magJ errorminus="0.266" errorplus="0.266">3.940</magJ>
 		<magH errorminus="0.234" errorplus="0.234">3.386</magH>
 		<magK errorminus="0.258" errorplus="0.258">3.266</magK>
+		<temperature>4790.0</temperature>
 		<metallicity>-0.06</metallicity>
 		<spectraltype>G5III</spectraltype>
 		<planet>
 			<name>81 Cet b</name>
+			<name>81 Ceti b</name>
+			<name>HD 16400 b</name>
 			<list>Confirmed planets</list>
-			<mass>5.3</mass>
-			<period>952.7</period>
+			<mass type="msini">5.3</mass>
+			<period errorminus="8.8" errorplus="8.8">952.7</period>
 			<semimajoraxis>2.5</semimajoraxis>
-			<eccentricity>0.206</eccentricity>
+			<eccentricity errorminus="0.029" errorplus="0.029">0.206</eccentricity>
+			<periastron errorminus="6.9" errorplus="6.9">175.0</periastron>
+			<periastrontime errorminus="26" errorplus="26">2452486</periastrontime>
 			<description>The star 81 Ceti is a G-type giant in the constellation of Cetus.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>08/07/03</lastupdate>
+			<lastupdate>15/09/20</lastupdate>
 			<discoveryyear>2008</discoveryyear>
-			<temperature>565.2</temperature>
 		</planet>
-		<name>81 Cet</name>
-		<temperature>4790.0</temperature>
 	</star>
 </system>

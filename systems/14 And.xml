@@ -1,11 +1,19 @@
 <system>
 	<name>14 And</name>
-	<rightascension>23 31 17</rightascension>
-	<declination>+39 14 10</declination>
-	<distance>76.4</distance>
+	<rightascension>23 31 17.41346</rightascension>
+	<declination>+39 14 10.3092</declination>
+	<distance errorminus="1.7" errorplus="1.7">79.2</distance>
 	<star>
-		<mass>2.2</mass>
-		<radius>11</radius>
+		<name>14 And</name>
+		<name>14 Andromedae</name>
+		<name>HD 221345</name>
+		<name>HIP 116076</name>
+		<name>TYC 3231-323-1</name>
+		<name>HR 8930</name>
+		<name>BD+38 5023</name>
+		<name>2MASS J23311742+3914102</name>
+		<mass errorminus="0.2" errorplus="0.1">2.2</mass>
+		<radius errorminus="1" errorplus="1">11</radius>
 		<magV>5.22</magV>
 		<magB>6.24</magB>
 		<magR>4.6</magR>
@@ -13,22 +21,24 @@
 		<magJ errorminus="0.180" errorplus="0.180">3.019</magJ>
 		<magH errorminus="0.184" errorplus="0.184">2.608</magH>
 		<magK errorminus="0.240" errorplus="0.240">2.331</magK>
-		<metallicity>-0.24</metallicity>
+		<temperature errorminus="20" errorplus="20">4813</temperature>
+		<metallicity errorminus="0.03" errorplus="0.03">-0.24</metallicity>
 		<spectraltype>K0III</spectraltype>
 		<planet>
 			<name>14 And b</name>
+			<name>14 Andromedae b</name>
+			<name>HD 221345 b</name>
 			<list>Confirmed planets</list>
-			<mass>4.8</mass>
-			<period>185.84</period>
+			<mass type="msini">4.8</mass>
+			<period errorminus="0.23" errorplus="0.23">185.84</period>
 			<semimajoraxis>0.83</semimajoraxis>
-			<eccentricity>0.0</eccentricity>
+			<eccentricity>0</eccentricity>
+			<periastron>0</periastron>
+			<periastrontime errorminus="1.5" errorplus="1.5">2452861.4</periastrontime>
 			<description>14 Andromedae is an evolved star in the constellation of Andromeda. It was formerly an A-type dwarf.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>08/07/11</lastupdate>
+			<lastupdate>15/09/20</lastupdate>
 			<discoveryyear>2008</discoveryyear>
-			<temperature>772.6</temperature>
 		</planet>
-		<name>14 And</name>
-		<temperature>4813.0</temperature>
 	</star>
 </system>
