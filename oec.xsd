@@ -4,7 +4,7 @@
 	<xs:element name="system">
 		<xs:complexType>
 			<xs:choice maxOccurs="unbounded">
-				<xs:element name="name" type="xs:string" minOccurs="1"/>
+				<xs:element name="name" type="nametype" minOccurs="1"/>
 				<xs:element ref="binary"  minOccurs="0" maxOccurs="1"/>
 				<xs:element ref="planet" minOccurs="0" maxOccurs="1"/>
 				<xs:element ref="star" maxOccurs="1"/>
@@ -29,7 +29,7 @@
 	<xs:element name="planet">
 		<xs:complexType>
 			<xs:choice maxOccurs="unbounded">
-				<xs:element name="name" type="xs:string" minOccurs="1"/>
+				<xs:element name="name" type="nametype" minOccurs="1"/>
 				<xs:element name="list" type="listtype" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="semimajoraxis" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="eccentricity" type="number" minOccurs="0" maxOccurs="1"/>
@@ -71,7 +71,7 @@
 	<xs:element name="star">
 		<xs:complexType>
 			<xs:choice maxOccurs="unbounded">
-				<xs:element name="name" type="xs:string" minOccurs="1"/>
+				<xs:element name="name" type="nametype" minOccurs="1"/>
 				<xs:element ref="planet" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="mass" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="radius" type="number" minOccurs="0" maxOccurs="1"/>
@@ -94,7 +94,7 @@
 	<xs:element name="binary">
 		<xs:complexType>
 			<xs:choice maxOccurs="unbounded">
-				<xs:element name="name" type="xs:string"/>
+				<xs:element name="name" type="nametype"/>
 				<xs:element ref="binary" minOccurs="0" maxOccurs="2"/>
 				<xs:element ref="star" minOccurs="0" maxOccurs="2"/>
 				<xs:element ref="planet"/>
@@ -121,6 +121,14 @@
 			</xs:choice>
 		</xs:complexType>
 	</xs:element>
+	<!-- Name Definition -->
+	<xs:complexType name="nametype">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="type" type="xs:string" use="optional"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
 	<!-- Empty String -->
 	<xs:simpleType name="empty-string">
 		<xs:restriction base="xs:string">
@@ -157,13 +165,13 @@
 	<!-- Right Ascension Definition -->
 	<xs:simpleType name="rightascensiondef">
 		<xs:restriction base="xs:string">
-			<xs:pattern value="[0-2]\d [0-5]\d [0-5]\d(\.\d{1,}){0,1}"/>
+			<xs:pattern value="[0-2]\d [0-5]\d [0-5]\d(\.\d+)?"/>
 		</xs:restriction>
 	</xs:simpleType>
 	<!-- Declination Definition -->
 	<xs:simpleType name="declinationdef">
 		<xs:restriction base="xs:string">
-			<xs:pattern value="(\+|\-)(\d{2} [0-5]\d [0-5]\d)(\.\d{1,}){0,1}"/>
+			<xs:pattern value="(\+|\-)(\d{2} [0-5]\d [0-5]\d)(\.\d+)?"/>
 		</xs:restriction>
 	</xs:simpleType>
 	<!-- DateTime -->
@@ -220,7 +228,7 @@
 	<!-- Webreference -->
 	<xs:simpleType name="webreference">
 		<xs:restriction base="xs:string">
-			<xs:pattern value="https{0,1}://.*"/>
+			<xs:pattern value="https?://.*"/>
 		</xs:restriction>
 	</xs:simpleType>
 	<!-- Last Update -->
