@@ -140,16 +140,20 @@
 				<xs:attribute name="lowerlimit" type="xs:double" use="optional"/>
 				<xs:attribute name="upperlimit" type="xs:double" use="optional"/>
 				<xs:attribute name="unit" type="xs:string" use="optional"/>
-				<xs:attribute name="msini" type="xs:string" use="optional"/>
+				<xs:attribute name="type" type="xs:string" use="optional"/>
 			</xs:extension>
 		</xs:simpleContent>
 	</xs:complexType>
 	<!-- Spectraltype Definition -->
-	<xs:simpleType name="spectraltypedef">
-		<xs:restriction base="xs:string">
-			<xs:pattern value="[OBAFGKMLTYRNSsDCW].*"/>
-		</xs:restriction>
-	</xs:simpleType>
+	<xs:complexType name="spectraltypedef">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="errorminus" type="xs:double" use="optional"/>
+				<xs:attribute name="errorplus" type="xs:double" use="optional"/>
+				<xs:attribute name="error" type="xs:double" use="optional"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
 	<!-- Right Ascension Definition -->
 	<xs:simpleType name="rightascensiondef">
 		<xs:restriction base="xs:string">
