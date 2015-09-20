@@ -1,11 +1,19 @@
 <system>
 	<name>HD 167042</name>
-	<rightascension>18 10 32</rightascension>
-	<declination>+54 17 12</declination>
-	<distance>50</distance>
+	<rightascension>18 10 31.64008</rightascension>
+	<declination>+54 17 11.5922</declination>
+	<distance errorminus="0.66" errorplus="0.66">50.23</distance>
 	<star>
-		<mass>1.64</mass>
-		<radius>4.3</radius>
+		<name>HD 167042</name>
+		<name>HIP 89047</name>
+		<name>TYC 3903-2143-1</name>
+		<name>SAO 30784</name>
+		<name>HR 6817</name>
+		<name>BD+54 1950</name>
+		<name>2MASS J18103166+5417114</name>
+		<mass errorminus="0.12" errorplus="0.12">1.72</mass>
+		<radius errorminus="0.07" errorplus="0.07">4.30</radius>
+		<temperature>5020.0</temperature>
 		<magV>5.97</magV>
 		<magB>6.89</magB>
 		<magR>5.4</magR>
@@ -14,20 +22,20 @@
 		<magH errorminus="0.198" errorplus="0.198">3.557</magH>
 		<magK errorminus="0.238" errorplus="0.238">3.550</magK>
 		<metallicity>0.05</metallicity>
-		<spectraltype>K1III</spectraltype>
+		<spectraltype>K1 IV</spectraltype>
 		<planet>
 			<name>HD 167042 b</name>
 			<list>Confirmed planets</list>
-			<mass>1.6</mass>
-			<period>416.1</period>
-			<semimajoraxis>1.3</semimajoraxis>
-			<eccentricity>0.03</eccentricity>
+			<mass errorminus="0.12" errorplus="0.09" type="msini">1.70</mass>
+			<period errorminus="3.11" errorplus="3.48">420.77</period>
+			<semimajoraxis errorminus="0.04" errorplus="0.03">1.32</semimajoraxis>
+			<eccentricity errorminus="0.065" errorplus="0.028">0.089</eccentricity>
+			<periastron errorminus="35.8" errorplus="35.4">85.7</periastron>
+			<periastrontime errorminus="41.6" errorplus="40.6">2454230.1</periastrontime>
+			<description>HD 167042 b is a giant planet orbiting a subgiant star.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>07/10/19</lastupdate>
+			<lastupdate>15/09/20</lastupdate>
 			<discoveryyear>2007</discoveryyear>
-			<temperature>402.5</temperature>
 		</planet>
-		<name>HD 167042</name>
-		<temperature>5020.0</temperature>
 	</star>
 </system>

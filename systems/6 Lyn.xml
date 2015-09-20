@@ -1,11 +1,20 @@
 <system>
 	<name>6 Lyn</name>
-	<rightascension>06 30 47</rightascension>
-	<declination>+58 09 46</declination>
-	<distance>56.9</distance>
+	<rightascension>06 30 47.10797</rightascension>
+	<declination>+58 09 45.4809</declination>
+	<distance errorminus="1.5" errorplus="1.5">55.8</distance>
 	<star>
-		<mass>1.7</mass>
-		<radius>5.2</radius>
+		<name>6 Lyn</name>
+		<name>6 Lyncis</name>
+		<name>HD 45410</name>
+		<name>HIP 31039</name>
+		<name>TYC 3777-2071-1</name>
+		<name>SAO 25771</name>
+		<name>HR 2331</name>
+		<name>BD+58 932</name>
+		<name>2MASS J06304711+5809453</name>
+		<mass errorminus="0.13" errorplus="0.13">1.82</mass>
+		<radius errorminus="0.3" errorplus="0.4">5.2</radius>
 		<magV>5.86</magV>
 		<magB>6.82</magB>
 		<magR>5.3</magR>
@@ -15,21 +24,24 @@
 		<magK errorminus="0.300" errorplus="0.300">3.701</magK>
 		<metallicity>-0.13</metallicity>
 		<spectraltype>K0IV</spectraltype>
+		<temperature>4978.0</temperature>
 		<planet>
 			<name>6 Lyn b</name>
+			<name>6 Lyncis b</name>
+			<name>HD 45410 b</name>
 			<list>Confirmed planets</list>
-			<mass>2.4</mass>
-			<period>899</period>
-			<semimajoraxis>2.2</semimajoraxis>
-			<eccentricity>0.134</eccentricity>
-			<inclination>2</inclination>
-			<description>The star 6 Lyncis is a subgiant and 15 times more luminous than our Sun.</description>
+			<mass errorminus="0.16" errorplus="0.11" type="msini">2.21</mass>
+			<period errorminus="8.47" errorplus="16.27">874.774</period>
+			<semimajoraxis errorminus="0.06" errorplus="0.05">2.18</semimajoraxis>
+			<eccentricity errorminus="0.059" errorplus="0.066">0.059</eccentricity>
+			<periastron errorminus="52.6" errorplus="75.5">314.9</periastron>
+			<periastrontime errorminus="130.9" errorplus="180.2">2454024.5</periastrontime>
+			<inclination errorminus="1.0" errorplus="79.0">2.0</inclination>
+			<ascendingnode errorminus="85.1" errorplus="73.8">75.5</ascendingnode>
+			<description>The star 6 Lyncis is a subgiant and 15 times more luminous than our Sun. The astrometric signature of the planet gives a best-fit inclination of 2 degrees, which would imply the object is a brown dwarf with 64 times the mass of Jupiter. Nevertheless, the error bars are large and allow for masses between 2.2 and 128.7 Jupiter masses, a range that incorporates both planetary and stellar masses.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>11/01/11</lastupdate>
+			<lastupdate>15/09/20</lastupdate>
 			<discoveryyear>2008</discoveryyear>
-			<temperature>337.1</temperature>
 		</planet>
-		<name>6 Lyn</name>
-		<temperature>4978.0</temperature>
 	</star>
 </system>

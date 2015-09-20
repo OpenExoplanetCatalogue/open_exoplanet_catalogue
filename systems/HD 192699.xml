@@ -1,11 +1,18 @@
 <system>
 	<name>HD 192699</name>
-	<rightascension>20 16 06</rightascension>
-	<declination>+04 34 51</declination>
-	<distance>67</distance>
+	<rightascension>20 16 06.00508</rightascension>
+	<declination>+04 34 50.8537</declination>
+	<distance errorminus="2.5" errorplus="2.5">65.6</distance>
 	<star>
-		<mass>1.68</mass>
-		<radius>4.25</radius>
+		<name>HD 192699</name>
+		<name>HIP 99894</name>
+		<name>TYC 504-2358-1</name>
+		<name>SAO 125628</name>
+		<name>BD+04 4395</name>
+		<name>2MASS J20160600+0434509</name>
+		<mass errorminus="0.12" errorplus="0.12">1.69</mass>
+		<radius errorminus="0.06" errorplus="0.06">3.90</radius>
+		<temperature>5220.0</temperature>
 		<magV>6.44</magV>
 		<magB>7.290</magB>
 		<magJ errorminus="0.262" errorplus="0.262">4.903</magJ>
@@ -16,16 +23,15 @@
 		<planet>
 			<name>HD 192699 b</name>
 			<list>Confirmed planets</list>
-			<mass>2.5</mass>
-			<period>351.5</period>
-			<semimajoraxis>1.16</semimajoraxis>
-			<eccentricity>0.149</eccentricity>
+			<mass errorminus="0.21" errorplus="0.15" type="msini">2.40</mass>
+			<period errorminus="1.63" errorplus="1.77">345.53</period>
+			<semimajoraxis errorminus="0.04" errorplus="0.03">1.32</semimajoraxis>
+			<eccentricity errorminus="0.060" errorplus="0.029">0.129</eccentricity>
+			<periastron errorminus="25.9" errorplus="23.3">41.3</periastron>
+			<periastrontime errorminus="22.1" errorplus="21.0">2454036.6</periastrontime>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>07/04/20</lastupdate>
+			<lastupdate>15/09/20</lastupdate>
 			<discoveryyear>2007</discoveryyear>
-			<temperature>439.9</temperature>
 		</planet>
-		<name>HD 192699</name>
-		<temperature>5220.0</temperature>
 	</star>
 </system>
