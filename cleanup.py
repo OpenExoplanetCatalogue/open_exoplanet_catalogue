@@ -103,7 +103,9 @@ validlists = [
     "Planets in binary systems, P-type",
     "Kepler Objects of Interest",
     "Solar System",
-    "Retracted planet candidate"]
+    "Retracted planet candidate",
+    "Planets in open clusters",
+    "Planets in globular clusters"]
 validdiscoverymethods = ["RV", "transit", "timing", "imaging", "microlensing"]
 tagsallowmultiple = ["list", "name", "planet", "star", "binary", "separation"]
 numerictags = ["mass", "radius", "ascnedingnode", "discoveryyear", "semimajoraxis", "period",
