@@ -1,32 +1,45 @@
 <system>
 	<name>11 UMi</name>
-	<rightascension>15 17 06</rightascension>
-	<declination>+71 49 26</declination>
-	<distance>119.5</distance>
+	<rightascension>15 17 05.88899</rightascension>
+	<declination>+71 49 26.0466</declination>
+	<distance errorminus="2.8" errorplus="2.8">122.1</distance>
 	<star>
-		<mass>1.8</mass>
-		<radius>24.08</radius>
+		<name>11 UMi</name>
+		<name>11 Ursae Minoris</name>
+		<name>Pherkard</name>
+		<name>Pherkad Minor</name>
+		<name>HD 136726</name>
+		<name>HIP 74793</name>
+		<name>TYC 4414-2315-1</name>
+		<name>SAO 8207</name>
+		<name>HR 5714</name>
+		<name>BD+72 678</name>
+		<name>2MASS J15170588+7149258</name>
+		<mass errorminus="0.25" errorplus="0.25">1.80</mass>
+		<radius errorminus="1.84" errorplus="1.84">24.08</radius>
 		<magV>5.024</magV>
 		<magB>6.415</magB>
 		<magJ errorminus="0.230" errorplus="0.230">2.876</magJ>
 		<magH errorminus="0.194" errorplus="0.194">2.091</magH>
 		<magK errorminus="0.270" errorplus="0.270">1.939</magK>
-		<metallicity>0.04</metallicity>
+		<temperature errorminus="70" errorplus="70">4340</temperature>
+		<metallicity errorminus="0.04" errorplus="0.04">0.04</metallicity>
 		<spectraltype>K4III</spectraltype>
 		<planet>
 			<name>11 UMi b</name>
+			<name>11 Ursae Minoris b</name>
+			<name>HD 136726 b</name>
 			<list>Confirmed planets</list>
-			<mass>10.5</mass>
-			<period>516.22</period>
-			<semimajoraxis>1.54</semimajoraxis>
-			<eccentricity>0.08</eccentricity>
+			<mass errorminus="0.245" errorplus="0.245" type="msini">11.20</mass>
+			<period errorminus="3.25" errorplus="3.25">516.22</period>
+			<semimajoraxis errorminus="0.07" errorplus="0.07">1.54</semimajoraxis>
+			<eccentricity errorminus="0.03" errorplus="0.03">0.08</eccentricity>
+			<periastron errorminus="21.06" errorplus="21.06">117.63</periastron>
+			<periastrontime errorminus="2.06" errorplus="2.06">2452861.04</periastrontime>
 			<description>11 Ursae Minoris is a star located in the constellation Ursa Minor and also named Pherkard or Pherkad Minor.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>09/08/13</lastupdate>
+			<lastupdate>15/09/20</lastupdate>
 			<discoveryyear>2009</discoveryyear>
-			<temperature>756.4</temperature>
 		</planet>
-		<name>11 UMi</name>
-		<temperature>4340.0</temperature>
 	</star>
 </system>
