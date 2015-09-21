@@ -4,7 +4,16 @@
 	<declination>+43 49 18</declination>
 	<distance>18.1</distance>
 	<star>
-		<mass>0.9</mass>
+		<name>14 Her</name>
+		<name>HD 145675</name>
+		<name>HIP 79248</name>
+		<name>TYC 3067-576-1</name>
+		<name>SAO 45933</name>
+		<name>Gliese 614</name>
+		<name>GJ 614</name>
+		<name>BD+44 2549</name>
+		<name>2MASS J16102432+4349037</name>
+		<mass>1.0</mass>
 		<radius>0.708</radius>
 		<magV>6.67</magV>
 		<magB>7.57</magB>
@@ -13,22 +22,40 @@
 		<magJ errorminus="0.029" errorplus="0.029">5.158</magJ>
 		<magH errorminus="0.016" errorplus="0.016">4.803</magH>
 		<magK errorminus="0.016" errorplus="0.016">4.714</magK>
+		<temperature>5311.0</temperature>
 		<metallicity>0.43</metallicity>
 		<spectraltype>K0 V</spectraltype>
 		<planet>
 			<name>14 Her b</name>
+			<name>HD 145675 b</name>
+			<name>GJ 614 b</name>
 			<list>Confirmed planets</list>
-			<mass>4.64</mass>
-			<period>1773.4</period>
-			<semimajoraxis>2.77</semimajoraxis>
-			<eccentricity>0.369</eccentricity>
+			<mass>4.975</mass>
+			<period>1766</period>
+			<semimajoraxis>2.864</semimajoraxis>
+			<eccentricity>0.359</eccentricity>
+			<periastron>22.230</periastron>
+			<meananomaly>330.421</meananomaly>
 			<description>The star 14 Herculis is only 59 light years away in the constellation Hercules. However, because it is an orange dwarf star it can not be seen with the naked eye. There is only one confirmed planet in the system, but a dynamical analysis suggests that they might be two planets locked in a 4:1 mean motion resonance.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>09/10/07</lastupdate>
+			<lastupdate>15/09/21</lastupdate>
 			<discoveryyear>2002</discoveryyear>
-			<temperature>117.3</temperature>
 		</planet>
-		<name>14 Her</name>
-		<temperature>5311.0</temperature>
+		<planet>
+			<name>14 Her c</name>
+			<name>HD 145675 c</name>
+			<name>GJ 614 c</name>
+			<list>Controversial</list>
+			<mass>7.679</mass>
+			<semimajoraxis>9.037</semimajoraxis>
+			<period>9886</period>
+			<eccentricity>0.184</eccentricity>
+			<periastron>189.076</periastron>
+			<meananomaly>81.976</meananomaly>
+			<description>14 Her c is the second companion in the system. Its properties are not yet well-constrained, though both radial velocity and direct imaging results give some constraints on its properties.</description>
+			<discoverymethod>RV</discoverymethod>
+			<lastupdate>15/09/21</lastupdate>
+			<discoveryyear>2006</discoveryyear>
+		</planet>
 	</star>
 </system>
