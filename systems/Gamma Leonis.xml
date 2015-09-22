@@ -1,38 +1,97 @@
 <system>
 	<name>Gamma Leonis</name>
-	<rightascension>10 19 58</rightascension>
-	<declination>+19 50 29</declination>
-	<distance>38.5</distance>
-	<star>
+	<rightascension>10 19 58.427</rightascension>
+	<declination>+19 50 28.53</declination>
+	<distance errorminus="1.2" errorplus="1.2">38.5</distance>
+	<binary>
 		<name>Gamma Leonis</name>
-		<name>gamma 1 Leo</name>
-		<name>gam 1 Leo</name>
+		<name>gam Leo</name>
+		<name>γ Leonis</name>
+		<name>γ Leo</name>
+		<name>41 Leonis</name>
+		<name>41 Leo</name>
 		<name>Algieba</name>
 		<name>Al Gieba</name>
-		<mass>1.23</mass>
-		<radius>31.88</radius>
-		<magV>2.01</magV>
-		<magB>3.13</magB>
-		<metallicity>-0.51</metallicity>
-		<spectraltype>K0III</spectraltype>
-		<planet>
-			<name>Gamma Leonis b</name>
-			<name>gamma 1 Leo b</name>
-			<name>gam 1 Leo b</name>
-			<name>Algieba b</name>
-			<name>Al Gieba b</name>
-			<list>Confirmed planets</list>
-			<mass>8.78</mass>
-			<period>428.5</period>
-			<semimajoraxis>1.19</semimajoraxis>
-			<eccentricity>0.144</eccentricity>
-			<inclination>172.1</inclination>
-			<discoverymethod>RV</discoverymethod>
-			<lastupdate>11/01/11</lastupdate>
-			<discoveryyear>2009</discoveryyear>
-			<temperature>986.9</temperature>
-		</planet>
-		<temperature>4330.0</temperature>
-	</star>
+		<name>HIP 50583</name>
+		<name>BD+20 2467</name>
+		<name>WDS J10200+1950</name>
+		<name>STF 1424</name>
+		<separation unit="arcsec">4.60</separation>
+		<separation errorminus="6" errorplus="6" unit="AU">177</separation>
+		<positionangle>127</positionangle>
+		<star>
+			<name>Gamma-1 Leonis</name>
+			<name>gamma 1 Leo</name>
+			<name>gam01 Leo</name>
+			<name>γ1 Leo</name>
+			<name>γ1 Leonis</name>
+			<name>γ Leo A</name>
+			<name>Gamma Leonis A</name>
+			<name>gamma Leo A</name>
+			<name>gam Leo A</name>
+			<name>Algieba A</name>
+			<name>Al Gieba A</name>
+			<name>HD 89484</name>
+			<name>HIP 50583 A</name>
+			<name>TYC 1423-1349-1</name>
+			<name>SAO 81298</name>
+			<name>BD+20 2467 A</name>
+			<name>WDS J10200+1950 A</name>
+			<name>STF 1424 A</name>
+			<mass errorminus="0.21" errorplus="0.21">1.23</mass>
+			<radius errorminus="1.61" errorplus="1.61">31.88</radius>
+			<magV>2.01</magV>
+			<magB>3.13</magB>
+			<temperature errorminus="15" errorplus="15">4330</temperature>
+			<metallicity errorminus="0.05" errorplus="0.05">-0.51</metallicity>
+			<spectraltype>K0III</spectraltype>
+			<planet>
+				<name>Gamma Leonis b</name>
+				<name>gamma 1 Leo b</name>
+				<name>gam 1 Leo b</name>
+				<name>Algieba A b</name>
+				<name>Al Gieba A b</name>
+				<list>Confirmed planets</list>
+				<mass errorminus="1.0" errorplus="1.0" type="msini">8.78</mass>
+				<period errorminus="1.25" errorplus="1.25">428.5</period>
+				<semimajoraxis errorminus="0.02" errorplus="0.02">1.19</semimajoraxis>
+				<eccentricity errorminus="0.046" errorplus="0.046">0.144</eccentricity>
+				<periastron errorminus="9.2" errorplus="9.2">206.7</periastron>
+				<periastrontime errorminus="13.5" errorplus="13.5">2451236</periastrontime>
+				<inclination errorminus="98.6" errorplus="3.8">172.1</inclination>
+				<ascendingnode errorminus="82.2" errorplus="73.6">157.4</ascendingnode>
+				<discoverymethod>RV</discoverymethod>
+				<lastupdate>15/09/22</lastupdate>
+				<discoveryyear>2009</discoveryyear>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+		<star>
+			<name>Gamma-2 Leonis</name>
+			<name>gamma 2 Leo</name>
+			<name>gam02 Leo</name>
+			<name>γ2 Leo</name>
+			<name>γ2 Leonis</name>
+			<name>γ Leo B</name>
+			<name>Gamma Leonis B</name>
+			<name>gamma Leo B</name>
+			<name>gam Leo B</name>
+			<name>41 Leonis B</name>
+			<name>41 Leo B</name>
+			<name>Algieba B</name>
+			<name>Al Gieba B</name>
+			<name>HD 89485</name>
+			<name>HIP 50583 B</name>
+			<name>TYC 1423-1349-2</name>
+			<name>SAO 81299</name>
+			<name>BD+20 2467 B</name>
+			<name>WDS J10200+1950 B</name>
+			<name>STF 1424 B</name>
+			<magB>3.4</magB>
+			<magV errorminus="0.011" errorplus="0.011">4.225</magV>
+			<magR>2.2</magR>
+			<spectraltype>G7IIIb</spectraltype>
+		</star>
+	</binary>
 	<videolink>http://youtu.be/SmrgjErcQRc</videolink>
 </system>
