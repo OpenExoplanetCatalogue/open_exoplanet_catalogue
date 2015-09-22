@@ -1,55 +1,99 @@
 <system>
 	<name>16 Cygni</name>
-	<rightascension>19 41 51</rightascension>
-	<declination>+50 31 03</declination>
-	<distance>21.41</distance>
+	<rightascension>19 41 48.95343</rightascension>
+	<declination>+50 31 30.2153</declination>
+	<distance errorminus="0.016" errorplus="0.016">21.146</distance>
 	<binary>
-		<separation unit="arcsec">39.8</separation>
-		<separation unit="AU">852</separation>
-		<positionangle>313</positionangle>
+		<name>16 Cygni</name>
+		<name>16 Cyg</name>
+		<name>WDS J19418+5032</name>
+		<separation unit="arcsec">39.56</separation>
+		<separation errorminus="0.6" errorplus="0.6" unit="AU">836.5</separation>
+		<positionangle>133.30</positionangle>
+		<binary>
+			<name>16 Cygni AC</name>
+			<name>16 Cyg AC</name>
+			<name>WDS J19418+5032 A</name>
+			<separation unit="arcsec">3.4</separation>
+			<separation unit="AU">72</separation>
+			<positionangle>209</positionangle>
+			<star>
+				<name>16 Cygni A</name>
+				<name>16 Cyg A</name>
+				<name>HD 186408</name>
+				<name>HIP 96895</name>
+				<name>TYC 3565-1524-1</name>
+				<name>SAO 31898</name>
+				<name>HR 7503</name>
+				<name>Gliese 765.1 A</name>
+				<name>GJ 765.1 A</name>
+				<name>BD+50 2847</name>
+				<name>2MASS J19414896+5031305</name>
+				<name>KIC 12069424</name>
+				<name>WDS J19418+5032 Aa</name>
+				<magB>6.59</magB>
+				<magV>5.95</magV>
+				<magJ>5.09</magJ>
+				<magH>4.72</magH>
+				<magK>4.43</magK>
+				<spectraltype>G2V</spectraltype>
+				<mass errorminus="0.02" errorplus="0.02">1.11</mass>
+				<radius errorminus="0.008" errorplus="0.008">1.243</radius>
+				<temperature errorminus="50" errorplus="50">5825</temperature>
+				<metallicity errorminus="0.026" errorplus="0.026">0.096</metallicity>
+				<age errorminus="0.4" errorplus="0.4">6.8</age>
+			</star>
+			<star>
+				<name>16 Cygni C</name>
+				<name>16 Cyg C</name>
+				<name>WDS J19418+5032 Ab</name>
+				<mass>0.17</mass>
+				<magV>13</magV>
+				<spectraltype>M</spectraltype>
+			</star>
+		</binary>
 		<star>
 			<name>16 Cygni B</name>
 			<name>16 Cyg B</name>
-			<name>HD 186427 B</name>
-			<mass>1.01</mass>
-			<radius>0.98</radius>
-			<magV>6.2</magV>
-			<metallicity>0.08</metallicity>
-			<spectraltype>G2.5 V</spectraltype>
+			<name>HD 186427</name>
+			<name>HIP 96901</name>
+			<name>TYC 3565-1525-1</name>
+			<name>SAO 31899</name>
+			<name>HR 7504</name>
+			<name>Gliese 765.1 B</name>
+			<name>GJ 765.1 B</name>
+			<name>BD+50 2848</name>
+			<name>2MASS J19415198+5031032</name>
+			<name>KIC 12069449</name>
+			<mass errorminus="0.02" errorplus="0.02">1.07</mass>
+			<radius errorminus="0.007" errorplus="0.007">1.127</radius>
+			<magB>6.86</magB>
+			<magV>6.20</magV>
+			<magJ>4.99</magJ>
+			<magH>4.70</magH>
+			<magK>4.65</magK>
+			<temperature errorminus="50" errorplus="50">5750</temperature>
+			<metallicity errorminus="0.021" errorplus="0.021">0.052</metallicity>
+			<spectraltype>G2V</spectraltype>
+			<age errorminus="0.4" errorplus="0.4">6.8</age>
 			<planet>
 				<name>16 Cygni B b</name>
 				<name>16 Cyg B b</name>
 				<name>HD 186427 B b</name>
 				<list>Confirmed planets</list>
-				<mass>1.68</mass>
-				<period>799.5</period>
-				<semimajoraxis>1.68</semimajoraxis>
-				<eccentricity>0.689</eccentricity>
+				<mass errorminus="0.05" errorplus="0.05" type="msini">1.77</mass>
+				<period errorminus="0.6" errorplus="0.6">799.5</period>
+				<semimajoraxis errorminus="0.01" errorplus="0.01">1.72</semimajoraxis>
+				<eccentricity errorminus="0.011" errorplus="0.011">0.689</eccentricity>
+				<periastron errorminus="2.1" errorplus="2.1">83.4</periastron>
+				<periastrontime errorminus="1.6" errorplus="1.6">2450539.3</periastrontime>
+				<inclination errorminus="1" errorplus="1">45</inclination>
 				<description>16 Cygni is a hierarchical triple system. The star is in the Kepler field of view. In an active search for extra-terrestrial intelligence a radio message has been sent to this system on May 24 1999. It will reach the system in 2069.</description>
 				<discoverymethod>RV</discoverymethod>
-				<lastupdate>12/12/08</lastupdate>
+				<lastupdate>15/09/22</lastupdate>
 				<discoveryyear>1996</discoveryyear>
 				<list>Planets in binary systems, S-type</list>
-				<temperature>187.6</temperature>
 			</planet>
-			<temperature>5766.0</temperature>
 		</star>
-		<binary>
-			<separation unit="arcsec">3.4</separation>
-			<separation unit="AU">73</separation>
-			<positionangle>209</positionangle>
-			<star>
-				<name>16 Cygni A</name>
-				<name>16 Cyg A</name>
-				<name>HD 186427 A</name>
-				<mass>1.02</mass>
-			</star>
-			<star>
-				<name>16 Cygni C</name>
-				<name>16 Cyg C</name>
-				<name>HD 186427 C</name>
-				<mass>0.17</mass>
-			</star>
-		</binary>
 	</binary>
 </system>
