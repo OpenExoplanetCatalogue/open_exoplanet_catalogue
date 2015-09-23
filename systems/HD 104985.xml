@@ -1,33 +1,40 @@
 <system>
 	<name>HD 104985</name>
-	<rightascension>12 05 15</rightascension>
-	<declination>+76 54 20</declination>
-	<distance>102</distance>
+	<rightascension>12 05 15.11890</rightascension>
+	<declination>+76 54 20.6475</declination>
+	<distance errorminus="2.4" errorplus="2.4">97.1</distance>
 	<star>
-		<mass>1.6</mass>
-		<radius>10.87</radius>
-		<magV>5.79</magV>
+		<name>HD 104985</name>
+		<name>HIP 58952</name>
+		<name>TYC 4550-2113-1</name>
+		<name>SAO 7500</name>
+		<name>HR 4609</name>
+		<name>BD+77 461</name>
+		<name>2MASS J12051510+7654205</name>
+		<mass>2.3</mass>
+		<radius>11</radius>
+		<magV>5.797</magV>
 		<magB>6.819</magB>
 		<magR>5.2</magR>
 		<magI>4.7</magI>
 		<magJ>4.11</magJ>
 		<magH>3.55</magH>
 		<magK>3.27</magK>
-		<metallicity>-0.35</metallicity>
+		<temperature>4877</temperature>
+		<metallicity>-0.15</metallicity>
 		<spectraltype>G9 III</spectraltype>
 		<planet>
 			<name>HD 104985 b</name>
 			<list>Confirmed planets</list>
-			<mass>6.3</mass>
-			<period>198.2</period>
-			<semimajoraxis>0.78</semimajoraxis>
-			<eccentricity>0.03</eccentricity>
+			<mass type="msini">8.3</mass>
+			<period errorminus="0.085" errorplus="0.085">199.505</period>
+			<semimajoraxis>0.95</semimajoraxis>
+			<eccentricity errorminus="0.009" errorplus="0.009">0.090</eccentricity>
+			<periastron errorminus="5.7" errorplus="5.7">203.5</periastron>
+			<periastrontime errorminus="3.3" errorplus="3.3">2451927.5</periastrontime>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/12/29</lastupdate>
+			<lastupdate>15/09/23</lastupdate>
 			<discoveryyear>2003</discoveryyear>
-			<temperature>787.7</temperature>
 		</planet>
-		<name>HD 104985</name>
-		<temperature>4786.0</temperature>
 	</star>
 </system>

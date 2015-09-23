@@ -1,32 +1,43 @@
 <system>
 	<name>18 Del</name>
-	<rightascension>20 58 26</rightascension>
-	<declination>+10 50 21</declination>
-	<distance>73.1</distance>
+	<rightascension>20 58 25.93397</rightascension>
+	<declination>+10 50 21.4289</declination>
+	<distance errorminus="1.8" errorplus="1.8">75.3</distance>
 	<star>
+		<name>18 Del</name>
+		<name>18 Delphini</name>
+		<name>HD 199665</name>
+		<name>HIP 103527</name>
+		<name>TYC 1107-2709-1</name>
+		<name>SAO 106712</name>
+		<name>HR 8030</name>
+		<name>BD+10 4425</name>
+		<name>2MASS J20582594+1050214</name>
 		<mass>2.3</mass>
 		<radius>8.5</radius>
-		<magV>5.52</magV>
+		<magV>5.522</magV>
 		<magB>6.440</magB>
 		<magJ errorminus="0.236" errorplus="0.236">4.032</magJ>
 		<magH errorminus="0.186" errorplus="0.186">3.440</magH>
 		<magK errorminus="0.204" errorplus="0.204">3.366</magK>
-		<metallicity>-0.052</metallicity>
+		<temperature errorminus="18" errorplus="18">4979</temperature>
+		<metallicity errorminus="0.023" errorplus="0.023">-0.052</metallicity>
 		<spectraltype>G6III</spectraltype>
 		<planet>
 			<name>18 Del b</name>
+			<name>18 Delphini b</name>
+			<name>HD 199665 b</name>
 			<list>Confirmed planets</list>
-			<mass>10.3</mass>
-			<period>993.3</period>
+			<mass type="msini">10.3</mass>
+			<period errorminus="3.2" errorplus="3.2">993.3</period>
 			<semimajoraxis>2.6</semimajoraxis>
-			<eccentricity>0.08</eccentricity>
+			<eccentricity errorminus="0.01" errorplus="0.01">0.08</eccentricity>
+			<periastron errorminus="6.5" errorplus="6.5">166.1</periastron>
+			<periastrontime errorminus="18" errorplus="18">2451672</periastrontime>
 			<description>18 Delphini is a star in the constellation of Delphinus.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>08/02/20</lastupdate>
+			<lastupdate>15/09/23</lastupdate>
 			<discoveryyear>2008</discoveryyear>
-			<temperature>396.8</temperature>
 		</planet>
-		<name>18 Del</name>
-		<temperature>4979.0</temperature>
 	</star>
 </system>
