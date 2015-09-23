@@ -1,19 +1,29 @@
 <system>
 	<name>xi Aql</name>
-	<rightascension>19 54 14</rightascension>
-	<declination>+08 27 41</declination>
+	<rightascension>19 54 14.88184</rightascension>
+	<declination>+08 27 41.2299</declination>
 	<distance errorminus="4.0" errorplus="4.0">62.7</distance>
 	<star>
 		<name>xi Aql</name>
-		<name>HR7595</name>
-		<name>HD188310</name>
-		<name>HIP97938</name>
+		<name>Xi Aquiliae</name>
+		<name>ksi Aql</name>
+		<name>ξ Aql</name>
+		<name>ξ Aquilae</name>
+		<name>59 Aql</name>
+		<name>59 Aquilae</name>
+		<name>HR 7595</name>
+		<name>HD 188310</name>
+		<name>HIP 97938</name>
+		<name>TYC 1058-3400-1</name>
+		<name>SAO 125210</name>
+		<name>BD+08 4261</name>
+		<name>2MASS J19541489+0827414</name>
 		<mass>2.2</mass>
 		<radius>12</radius>
-		<temperature>4780</temperature>
-		<metallicity>-0.21</metallicity>
+		<temperature errorminus="30" errorplus="30">4780</temperature>
+		<metallicity errorminus="0.039" errorplus="0.039">-0.205</metallicity>
 		<spectraltype>K0 III</spectraltype>
-		<magV>4.72</magV>
+		<magV>4.722</magV>
 		<magB>5.769</magB>
 		<magJ errorminus="0.220" errorplus="0.220">2.852</magJ>
 		<magH errorminus="0.174" errorplus="0.174">2.367</magH>
@@ -22,16 +32,23 @@
 			<name>xi Aql b</name>
 			<name>Xi Aquilae b</name>
 			<name>ksi Aql b</name>
-			<name>HR7595 b</name>
-			<name>HD188310 b</name>
-			<name>HIP97938 b</name>
+			<name>ξ Aql b</name>
+			<name>ξ Aquilae b</name>
+			<name>59 Aql b</name>
+			<name>59 Aquilae b</name>
+			<name>HR 7595 b</name>
+			<name>HD 188310 b</name>
+			<name>HIP 97938 b</name>
 			<list>Confirmed planets</list>
-			<mass lowerlimit="2.8" />
-			<period>136.75</period>
+			<mass type="msini">2.8</mass>
+			<period errorminus="0.25" errorplus="0.25">136.75</period>
 			<semimajoraxis>0.68</semimajoraxis>
+			<eccentricity>0</eccentricity>
+			<periastron>0</periastron>
+			<periastrontime errorminus="1.4" errorplus="1.4">2453001.7</periastrontime>
 			<description>xi Aql is a giant star in the constellation of Aquila.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>14/05/15</lastupdate>
+			<lastupdate>15/09/23</lastupdate>
 			<discoveryyear>2008</discoveryyear>
 		</planet>
 	</star>
