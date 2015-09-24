@@ -5,6 +5,7 @@
 	<distance>41.8</distance>
 	<binary>
 		<name>30 Ari</name>
+		<name>30 Arietis</name>
 		<name>WDS J02370+2439</name>
 		<name>STFA 5</name>
 		<separation unit="arcsec">38.00</separation>
@@ -12,8 +13,15 @@
 		<positionangle>275</positionangle>
 		<binary>
 			<name>30 Ari A</name>
+			<name>30 Arietis A</name>
 			<name>HD 16246</name>
 			<name>HIP 12189</name>
+			<name>TYC 1771-1398-1</name>
+			<name>SAO 75471</name>
+			<name>HR 765</name>
+			<name>BD+24 376</name>
+			<name>2MASS J02370051+2438500</name>
+			<name>WDS J02370+2439 A</name>
 			<period>1.1095</period>
 			<semimajoraxis>0.02</semimajoraxis>
 			<eccentricity>0.06</eccentricity>
@@ -21,6 +29,7 @@
 			<periastrontime unit="JD">2421946.382</periastrontime>
 			<star>
 				<name>30 Ari Aa</name>
+				<name>30 Arietis Aa</name>
 				<spectraltype>F5V</spectraltype>
 				<magB>6.86</magB>
 				<magV>6.48</magV>
@@ -34,6 +43,7 @@
 			</star>
 			<star>
 				<name>30 Ari Ab</name>
+				<name>30 Arietis Ab</name>
 				<mass>0.14</mass>
 			</star>
 		</binary>
@@ -45,8 +55,15 @@
 			<name>RAO 8</name>
 			<star>
 				<name>30 Ari B</name>
+				<name>30 Arietis B</name>
 				<name>HD 16232</name>
 				<name>HIP 12184</name>
+				<name>TYC 1771-1397-1</name>
+				<name>SAO 75470</name>
+				<name>HR 764</name>
+				<name>BD+24 375</name>
+				<name>2MASS J02365772+2438530</name>
+				<name>WDS J02370+2439 B</name>
 				<mass>1.13</mass>
 				<radius>1.13</radius>
 				<magV>7.1</magV>
@@ -59,21 +76,25 @@
 				<age errorminus="0.83" errorplus="0.83">0.91</age>
 				<planet>
 					<name>30 Ari B b</name>
+					<name>30 Arietis B b</name>
 					<list>Confirmed planets</list>
-					<mass>9.88</mass>
-					<period>335.1</period>
-					<semimajoraxis>0.995</semimajoraxis>
-					<eccentricity>0.289</eccentricity>
+					<mass errorminus="0.94" errorplus="0.94" type="msini">9.88</mass>
+					<period errorminus="2.5" errorplus="2.5">335.1</period>
+					<semimajoraxis errorminus="0.012" errorplus="0.012">0.995</semimajoraxis>
+					<eccentricity errorminus="0.092" errorplus="0.092">0.289</eccentricity>
+					<periastron errorminus="18" errorplus="18">307</periastron>
+					<periastrontime errorminus="20" errorplus="20">2454538</periastrontime>
 					<discoverymethod>RV</discoverymethod>
-					<lastupdate>09/11/27</lastupdate>
+					<lastupdate>15/09/23</lastupdate>
 					<discoveryyear>2009</discoveryyear>
-					<temperature>300.2</temperature>
 					<list>Planets in binary systems, S-type</list>
 				</planet>
 				<temperature>6424</temperature>
 			</star>
 			<star>
 				<name>30 Ari C</name>
+				<name>30 Arietis C</name>
+				<name>WDS J02370+2439 C</name>
 				<magJ>9.57</magJ>
 				<magK>8.74</magK>
 				<mass>0.50</mass>

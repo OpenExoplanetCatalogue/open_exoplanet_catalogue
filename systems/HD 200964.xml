@@ -1,43 +1,51 @@
 <system>
 	<name>HD 200964</name>
-	<rightascension>21 06 40</rightascension>
-	<declination>+03 48 11</declination>
-	<distance>68.4</distance>
+	<rightascension>21 06 39.84239</rightascension>
+	<declination>+03 48 11.2280</declination>
+	<distance errorminus="4.8" errorplus="4.8">68.4</distance>
 	<star>
-		<mass>1.44</mass>
-		<radius>4.3</radius>
+		<name>HD 200964</name>
+		<name>HIP 104202</name>
+		<name>TYC 534-2537-1</name>
+		<name>SAO 126546</name>
+		<name>BD+03 4501</name>
+		<name>2MASS J21063983+0348110</name>
+		<mass errorminus="0.09" errorplus="0.09">1.44</mass>
+		<radius errorminus="0.09" errorplus="0.09">4.3</radius>
 		<magV>6.64</magV>
 		<magB errorminus="0.016" errorplus="0.016">7.379</magB>
 		<magJ errorminus="0.021" errorplus="0.021">4.802</magJ>
 		<magH errorminus="0.036" errorplus="0.036">4.459</magH>
 		<magK errorminus="0.015" errorplus="0.015">4.286</magK>
-		<metallicity>-0.15</metallicity>
+		<temperature errorminus="44" errorplus="44">5164</temperature>
+		<metallicity errorminus="0.04" errorplus="0.04">-0.15</metallicity>
 		<spectraltype>K0</spectraltype>
+		<age errorminus="0.6" errorplus="0.6">3.0</age>
 		<planet>
 			<name>HD 200964 b</name>
 			<list>Confirmed planets</list>
-			<mass>1.85</mass>
-			<period>613.8</period>
-			<semimajoraxis>1.601</semimajoraxis>
-			<eccentricity>0.04</eccentricity>
+			<mass errorminus="0.08" errorplus="0.14" type="msini">1.85</mass>
+			<period errorminus="1.4" errorplus="1.3">613.8</period>
+			<semimajoraxis errorminus="0.002" errorplus="0.002">1.601</semimajoraxis>
+			<eccentricity errorminus="0.02" errorplus="0.04">0.04</eccentricity>
+			<periastron errorminus="111.9" errorplus="47.0">288.0</periastron>
+			<periastrontime errorminus="89.3" errorplus="235.5">2454900</periastrontime>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/07/28</lastupdate>
+			<lastupdate>15/09/23</lastupdate>
 			<discoveryyear>2010</discoveryyear>
-			<temperature>373.1</temperature>
 		</planet>
 		<planet>
 			<name>HD 200964 c</name>
 			<list>Confirmed planets</list>
-			<mass>0.9</mass>
-			<period>825</period>
-			<semimajoraxis>1.95</semimajoraxis>
-			<eccentricity>0.181</eccentricity>
+			<mass errorminus="0.063" errorplus="0.123">0.895</mass>
+			<period errorminus="3.1" errorplus="5.1">825.0</period>
+			<semimajoraxis errorminus="0.005" errorplus="0.008">1.950</semimajoraxis>
+			<eccentricity errorminus="0.017" errorplus="0.024">0.181</eccentricity>
+			<periastron errorminus="57.1" errorplus="67.7">182.6</periastron>
+			<periastrontime errorminus="54.6" errorplus="51.1">2455000</periastrontime>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/07/28</lastupdate>
+			<lastupdate>15/09/23</lastupdate>
 			<discoveryyear>2010</discoveryyear>
-			<temperature>337.4</temperature>
 		</planet>
-		<name>HD 200964</name>
-		<temperature>5164.0</temperature>
 	</star>
 </system>
