@@ -1,32 +1,44 @@
 <system>
 	<name>42 Dra</name>
-	<rightascension>18 25 59</rightascension>
-	<declination>+65 33 49</declination>
-	<distance>97.3</distance>
+	<rightascension>18 25 59.13734</rightascension>
+	<declination>+65 33 48.5288</declination>
+	<distance errorminus="1.9" errorplus="1.9">96.5</distance>
 	<star>
-		<mass>0.98</mass>
-		<radius>22.03</radius>
-		<magV>4.83</magV>
+		<name>42 Dra</name>
+		<name>42 Draconis</name>
+		<name>HD 170693</name>
+		<name>HIP 90344</name>
+		<name>TYC 4222-2311-1</name>
+		<name>SAO 17888</name>
+		<name>HR 6945</name>
+		<name>BD+65 1271</name>
+		<name>2MASS J18255915+6533486</name>
+		<mass errorminus="0.05" errorplus="0.05">0.98</mass>
+		<radius errorminus="1.00" errorplus="1.00">22.03</radius>
+		<magV>4.833</magV>
 		<magB>6.020</magB>
 		<magJ errorminus="0.234" errorplus="0.234">2.949</magJ>
 		<magH errorminus="0.196" errorplus="0.196">2.197</magH>
 		<magK errorminus="0.216" errorplus="0.216">2.085</magK>
-		<metallicity>-0.46</metallicity>
+		<temperature errorminus="70" errorplus="70">4200</temperature>
+		<metallicity errorminus="0.05" errorplus="0.05">-0.46</metallicity>
 		<spectraltype>K1.5III</spectraltype>
+		<age errorminus="1.76" errorplus="1.76">9.49</age>
 		<planet>
 			<name>42 Dra b</name>
+			<name>42 Draconis b</name>
+			<name>HD 170693 b</name>
 			<list>Confirmed planets</list>
-			<mass>3.88</mass>
-			<period>479.1</period>
-			<semimajoraxis>1.19</semimajoraxis>
-			<eccentricity>0.38</eccentricity>
+			<mass errorminus="0.85" errorplus="0.85" type="msini">3.88</mass>
+			<period errorminus="6.2" errorplus="6.2">479.1</period>
+			<semimajoraxis errorminus="0.01" errorplus="0.01">1.19</semimajoraxis>
+			<eccentricity errorminus="0.06" errorplus="0.06">0.38</eccentricity>
+			<periastron errorminus="10.6" errorplus="10.6">218.7</periastron>
+			<periastrontime errorminus="3.7" errorplus="3.7">2452757.4</periastrontime>
 			<description>42 Draconis is a metal poor star.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>09/03/23</lastupdate>
+			<lastupdate>15/09/24</lastupdate>
 			<discoveryyear>2009</discoveryyear>
-			<temperature>789.4</temperature>
 		</planet>
-		<name>42 Dra</name>
-		<temperature>4200.0</temperature>
 	</star>
 </system>
