@@ -1,0 +1,36 @@
+<system>
+	<name>V830 Tau</name>
+	<rightascension>04 33 10.033</rightascension>
+	<declination>+24 33 43.38</declination>
+	<distance errorminus="3" errorplus="3">131</distance>
+	<star>
+		<name>V830 Tau</name>
+		<name>V830 Tauri</name>
+		<name>2MASS J04331003+2433433</name>
+		<name>GSC 01833-00843</name>
+		<name>1SWASP J043310.02+243343.7</name>
+		<magB>13.91</magB>
+		<magV>12.08</magV>
+		<magR>11.30</magR>
+		<magJ errorminus="0.021" errorplus="0.021">9.325</magJ>
+		<magH errorminus="0.016" errorplus="0.016">8.613</magH>
+		<magK errorminus="0.021" errorplus="0.021">8.422</magK>
+		<mass errorminus="0.05" errorplus="0.05">1.00</mass>
+		<radius errorminus="0.2" errorplus="0.2">2.0</radius>
+		<age>0.0022</age>
+		<temperature errorminus="50" errorplus="50">4250</temperature>
+		<spectraltype>M0–1</spectraltype>
+		<planet>
+			<name>V830 Tau b</name>
+			<list>Controversial</list>
+			<period errorminus="0.2" errorplus="0.2">6.0</period>
+			<mass>1.4</mass>
+			<semimajoraxis>0.065</semimajoraxis>
+			<inclination errorminus="10" errorplus="10">55</inclination>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2015</discoveryyear>
+			<lastupdate>15/10/02</lastupdate>
+			<description>V830 Tau is a weak-lined T Tauri star. Further observations are needed to determine whether the radial velocity variations are caused by a planet or some other phenomenon.</description>
+		</planet>
+	</star>
+</system>
