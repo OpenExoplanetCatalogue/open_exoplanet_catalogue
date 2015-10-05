@@ -1,0 +1,40 @@
+<system>
+	<name>HD 11755</name>
+	<rightascension>01 58 50.087</rightascension>
+	<declination>+73 09 08.58</declination>
+	<distance errorminus="22.7" errorplus="22.7">231.5</distance>
+	<star>
+		<name>HD 11755</name>
+		<name>HIP 9242</name>
+		<name>TYC 4322-1310-1</name>
+		<name>BD+72 112</name>
+		<name>PPM 4856</name>
+		<magB errorminus="0.01" errorplus="0.01">8.11</magB>
+		<magV errorminus="0.01" errorplus="0.01">6.88</magV>
+		<magJ errorminus="0.186" errorplus="0.186">4.667</magJ>
+		<magH errorminus="0.228" errorplus="0.228">3.931</magH>
+		<magK errorminus="0.28" errorplus="0.28">3.76</magK>
+		<mass errorminus="0.1" errorplus="0.1">0.9</mass>
+		<radius errorminus="1" errorplus="1.0">27.3</radius>
+		<temperature errorminus="5" errorplus="5.0">4312.5</temperature>
+		<metallicity errorminus="0.02" errorplus="0.02">-0.74</metallicity>
+		<spectraltype>G5</spectraltype>
+		<planet>
+			<name>HD 11755 b</name>
+			<name>HIP 9242 b</name>
+			<name>TYC 4322-1310-1 b</name>
+			<name>BD+72 112 b</name>
+			<name>PPM 4856 b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="1.0" errorplus="1.0" type="msini">6.5</mass>
+			<period errorminus="3.2" errorplus="3.2">433.7</period>
+			<periastrontime errorminus="14.0" errorplus="14.0">2457018.2</periastrontime>
+			<semimajoraxis errorminus="0.04" errorplus="0.04">1.08</semimajoraxis>
+			<eccentricity errorminus="0.10" errorplus="0.10">0.19</eccentricity>
+			<description>This planet was detected by the Bohyunsan Optical Astronomy Observatory (BOAO) which searches for exoplanets at northern circumpolar stars.</description>
+			<discoverymethod>RV</discoverymethod>
+			<lastupdate>15/09/30</lastupdate>
+			<discoveryyear>2015</discoveryyear>
+		</planet>
+	</star>
+</system>
