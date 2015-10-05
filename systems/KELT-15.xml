@@ -1,0 +1,38 @@
+<system>
+	<name>KELT-15</name>
+	<rightascension>07 49 39.601</rightascension>
+	<declination>-52 07 13.55</declination>
+	<distance errorminus="30" errorplus="30">291</distance>
+	<star>
+		<name>KELT-15</name>
+		<name>TYC 8146-86-1</name>
+		<name>2MASS J07493960-5207136</name>
+		<magB errorminus="0.05" errorplus="0.05">11.189</magB>
+		<magV errorminus="0.05" errorplus="0.05">11.745</magV>
+		<magJ errorminus="0.024" errorplus="0.024">10.205</magJ>
+		<magH errorminus="0.023" errorplus="0.023">9.919</magH>
+		<magK errorminus="0.025" errorplus="0.025">9.854</magK>
+		<mass errorminus="0.05" errorplus="0.051">1.181</mass>
+		<radius errorminus="0.041" errorplus="0.091">1.481</radius>
+		<temperature errorminus="52" errorplus="56">6003</temperature>
+		<metallicity errorminus="0.032" errorplus="0.032">0.047</metallicity>
+		<spectraltype>G0</spectraltype>
+		<planet>
+			<name>KELT-15 b</name>
+			<name>TYC 8146-86-1 b</name>
+			<name>2MASS J07493960-5207136 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.057" errorplus="0.11">1.443</radius>
+			<mass errorminus="0.22" errorplus="0.21">0.91</mass>
+			<period errorminus="0.000016" errorplus="0.000016">3.329441</period>
+			<transittime errorminus="0.0073" errorplus="0.0078" unit="BJD">2457029.1663</transittime>
+			<semimajoraxis errorminus="0.00065" errorplus="0.00065">0.04613</semimajoraxis>
+			<temperature errorminus="25" errorplus="45">1642</temperature>
+			<description>KELT-15 b was discovered by the KELT-South survey.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>15/09/29</lastupdate>
+			<discoveryyear>2015</discoveryyear>
+		</planet>
+	</star>
+</system>
