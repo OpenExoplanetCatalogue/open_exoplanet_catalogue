@@ -4,7 +4,7 @@
 	<declination>-12 01 07.99</declination>
 	<distance>200</distance>
 	<star>
-		<mass errorminus="0.08" errorplus="0.08">1.04</mass>
+		<mass errorminus="0.076" errorplus="0.076">1.026</mass>
 		<radius errorminus="0.04" errorplus="0.04">1.15</radius>
 		<magV>11.9</magV>
 		<magJ errorminus="0.022" errorplus="0.022">10.613</magJ>
@@ -17,15 +17,15 @@
 			<name>WASP-47 b</name>
 			<name>2MASS J22044873-1201079 b</name>
 			<list>Confirmed planets</list>
-			<mass errorminus="0.17" errorplus="0.23">1.07</mass>
+			<mass errorminus="0.06" errorplus="0.06">1.13</mass>
 			<radius errorminus="0.039" errorplus="0.039">1.139</radius>
-			<period errorminus="0.0000049" errorplus="0.0000049">4.1591287</period>
-			<semimajoraxis>0.052</semimajoraxis>
-			<eccentricity>0.0</eccentricity>
+			<period errorminus="0.0000072" errorplus="0.0000072">4.1591409</period>
+			<semimajoraxis errorminus="0.001" errorplus="0.001">0.051</semimajoraxis>
+			<eccentricity upperlimit="0.026" />
 			<inclination errorminus="0.27" errorplus="0.27">89.03</inclination>
 			<transittime errorminus="0.000023" errorplus="0.000023" unit="BJD">2457007.932131</transittime>
 			<spinorbitalignment errorminus="24" errorplus="24">0</spinorbitalignment>
-			<description>This hot Jupiter planet has been announced at the Extreme Solar Systems II conference in Jackson Hole by the WASP team. The K2 mission discovers two additional transiting planets in 2015.</description>
+			<description>This hot Jupiter planet was announced at the Extreme Solar Systems II conference in Jackson Hole by the WASP team. The K2 mission discovered two additional transiting planets in 2015, and an outer giant planet was discovered by radial velocity measurements.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>15/10/17</lastupdate>
 			<discoveryyear>2011</discoveryyear>
@@ -62,6 +62,22 @@
 			<lastupdate>15/10/17</lastupdate>
 			<discoveryyear>2015</discoveryyear>
 			<istransiting>1</istransiting>
+		</planet>
+		<planet>
+			<name>WASP-47 c</name>
+			<name>2MASS J22044873-1201079 c</name>
+			<list>Confirmed planets</list>
+			<period errorminus="7" errorplus="7">572</period>
+			<transittime errorminus="16" errorplus="16" unit="BJD">2455981</transittime>
+			<istransiting>0</istransiting>
+			<mass errorminus="0.22" errorplus="0.22" type="msini">1.24</mass>
+			<eccentricity errorminus="0.10" errorplus="0.10">0.13</eccentricity>
+			<periastron errorminus="53" errorplus="53">144</periastron>
+			<semimajoraxis errorminus="0.04" errorplus="0.04">1.36</semimajoraxis>
+			<discoverymethod>RV</discoverymethod>
+			<description>WASP-47c was discovered from radial velocity follow-up of the WASP-47 system.</description>
+			<lastupdate>15/10/17</lastupdate>
+			<discoveryyear>2015</discoveryyear>
 		</planet>
 		<name>WASP-47</name>
 		<name>2MASS J22044873-1201079</name>
