@@ -2,8 +2,10 @@
 	<name>WASP-47</name>
 	<rightascension>22 04 48.731</rightascension>
 	<declination>-12 01 07.99</declination>
-	<distance>200</distance>
+	<distance errorminus="30" errorplus="30">200</distance>
 	<star>
+		<name>WASP-47</name>
+		<name>2MASS J22044873-1201079</name>
 		<mass errorminus="0.076" errorplus="0.076">1.026</mass>
 		<radius errorminus="0.04" errorplus="0.04">1.15</radius>
 		<magV>11.9</magV>
@@ -17,9 +19,9 @@
 			<name>WASP-47 b</name>
 			<name>2MASS J22044873-1201079 b</name>
 			<list>Confirmed planets</list>
-			<mass errorminus="0.06" errorplus="0.06">1.13</mass>
+			<mass errorminus="0.091" errorplus="0.091">1.164</mass>
 			<radius errorminus="0.039" errorplus="0.039">1.139</radius>
-			<period errorminus="0.0000072" errorplus="0.0000072">4.1591409</period>
+			<period errorminus="0.0000049" errorplus="0.0000049">4.1591287</period>
 			<semimajoraxis errorminus="0.001" errorplus="0.001">0.051</semimajoraxis>
 			<eccentricity upperlimit="0.026" />
 			<inclination errorminus="0.27" errorplus="0.27">89.03</inclination>
@@ -35,13 +37,13 @@
 			<name>WASP-47 e</name>
 			<name>2MASS J22044873-1201079 e</name>
 			<list>Confirmed planets</list>
-			<mass upperlimit="0.069" />
+			<mass errorminus="0.0116" errorplus="0.0116">0.0384</mass>
 			<radius errorminus="0.0062" errorplus="0.0062">0.1631</radius>
 			<period errorminus="0.000013" errorplus="0.000013">0.789597</period>
 			<semimajoraxis>0.017</semimajoraxis>
 			<inclination errorminus="3.1" errorplus="3.1">87.0</inclination>
 			<transittime errorminus="0.00038" errorplus="0.00038" unit="BJD">2457011.34849</transittime>
-			<description>This super-Earth planet was discovered by the K2 mission which measured transit timing variations at the inner hot Jupiter.</description>
+			<description>This super-Earth planet was discovered by the K2 mission which measured transit timing variations at the inner hot Jupiter. Radial velocity measurements indicate this is a rocky planet.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>15/10/17</lastupdate>
 			<discoveryyear>2015</discoveryyear>
@@ -51,7 +53,7 @@
 			<name>WASP-47 d</name>
 			<name>2MASS J22044873-1201079 d</name>
 			<list>Confirmed planets</list>
-			<mass errorminus="0.022" errorplus="0.022">0.048</mass>
+			<mass errorminus="0.0264" errorplus="0.0264">0.0328</mass>
 			<radius errorminus="0.012" errorplus="0.012">0.324</radius>
 			<period errorminus="0.00019" errorplus="0.00019">9.03081</period>
 			<semimajoraxis>0.088</semimajoraxis>
@@ -79,7 +81,5 @@
 			<lastupdate>15/10/17</lastupdate>
 			<discoveryyear>2015</discoveryyear>
 		</planet>
-		<name>WASP-47</name>
-		<name>2MASS J22044873-1201079</name>
 	</star>
 </system>
