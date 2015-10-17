@@ -17,34 +17,33 @@
 			<name>WASP-47 b</name>
 			<name>2MASS J22044873-1201079 b</name>
 			<list>Confirmed planets</list>
-			<mass errorminus="0.11" errorplus="0.07">1.06</mass>
-			<radius errorminus="0.04" errorplus="0.04">1.17</radius>
-			<period errorminus="0.0000046" errorplus="0.0000046">4.1591282</period>
+			<mass errorminus="0.17" errorplus="0.23">1.07</mass>
+			<radius errorminus="0.039" errorplus="0.039">1.139</radius>
+			<period errorminus="0.0000049" errorplus="0.0000049">4.1591287</period>
 			<semimajoraxis>0.052</semimajoraxis>
 			<eccentricity>0.0</eccentricity>
-			<inclination errorminus="0.23" errorplus="0.23">89.41</inclination>
-			<transittime errorminus="0.000061" errorplus="0.000061" unit="BJD">2457007.932132</transittime>
+			<inclination errorminus="0.27" errorplus="0.27">89.03</inclination>
+			<transittime errorminus="0.000023" errorplus="0.000023" unit="BJD">2457007.932131</transittime>
 			<spinorbitalignment errorminus="24" errorplus="24">0</spinorbitalignment>
 			<description>This hot Jupiter planet has been announced at the Extreme Solar Systems II conference in Jackson Hole by the WASP team. The K2 mission discovers two additional transiting planets in 2015.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>15/09/20</lastupdate>
+			<lastupdate>15/10/17</lastupdate>
 			<discoveryyear>2011</discoveryyear>
-			<temperature>1119.7</temperature>
 			<istransiting>1</istransiting>
 		</planet>
 		<planet>
-			<name>WASP-47 c</name>
-			<name>2MASS J22044873-1201079 c</name>
+			<name>WASP-47 e</name>
+			<name>2MASS J22044873-1201079 e</name>
 			<list>Confirmed planets</list>
-			<mass upperlimit="0.028" />
-			<radius errorminus="0.006" errorplus="0.006">0.167</radius>
-			<period errorminus="0.000012" errorplus="0.000012">0.789593</period>
+			<mass upperlimit="0.069" />
+			<radius errorminus="0.0062" errorplus="0.0062">0.1631</radius>
+			<period errorminus="0.000013" errorplus="0.000013">0.789597</period>
 			<semimajoraxis>0.017</semimajoraxis>
-			<inclination errorminus="0.87" errorplus="0.87">86.66</inclination>
-			<transittime errorminus="0.00031" errorplus="0.00031" unit="BJD">2457011.34859</transittime>
-			<description>This super-Earth planet was discovered by the K2 mission which measured transition timing variations at the inner hot Jupiter.</description>
+			<inclination errorminus="3.1" errorplus="3.1">87.0</inclination>
+			<transittime errorminus="0.00038" errorplus="0.00038" unit="BJD">2457011.34849</transittime>
+			<description>This super-Earth planet was discovered by the K2 mission which measured transit timing variations at the inner hot Jupiter.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>15/08/10</lastupdate>
+			<lastupdate>15/10/17</lastupdate>
 			<discoveryyear>2015</discoveryyear>
 			<istransiting>1</istransiting>
 		</planet>
@@ -52,15 +51,15 @@
 			<name>WASP-47 d</name>
 			<name>2MASS J22044873-1201079 d</name>
 			<list>Confirmed planets</list>
-			<mass errorminus="0.011" errorplus="0.012">0.027</mass>
-			<radius errorminus="0.01" errorplus="0.01">0.33</radius>
-			<period errorminus="0.00017" errorplus="0.00017">9.03079</period>
+			<mass errorminus="0.022" errorplus="0.022">0.048</mass>
+			<radius errorminus="0.012" errorplus="0.012">0.324</radius>
+			<period errorminus="0.00019" errorplus="0.00019">9.03081</period>
 			<semimajoraxis>0.088</semimajoraxis>
-			<inclination errorminus="0.18" errorplus="0.18">89.47</inclination>
-			<transittime errorminus="0.00052" errorplus="0.00052" unit="BJD">2457006.36922</transittime>
-			<description>This Neptune-sized outer planet was discovered by the K2 mission which measured transition timing variations at the inner hot Jupiter.</description>
+			<inclination errorminus="0.67" errorplus="0.67">89.36</inclination>
+			<transittime errorminus="0.00044" errorplus="0.00044" unit="BJD">2457006.36927</transittime>
+			<description>This Neptune-sized outer planet was discovered by the K2 mission which measured transit timing variations at the inner hot Jupiter.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>15/08/10</lastupdate>
+			<lastupdate>15/10/17</lastupdate>
 			<discoveryyear>2015</discoveryyear>
 			<istransiting>1</istransiting>
 		</planet>
