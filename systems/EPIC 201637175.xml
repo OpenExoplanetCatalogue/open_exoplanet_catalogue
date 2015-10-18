@@ -1,15 +1,20 @@
 <system>
 	<name>EPIC 201637175</name>
+	<name>K2-22</name>
 	<rightascension>11 17 55.856</rightascension>
 	<declination>+02 37 06.79</declination>
 	<distance errorminus="50" errorplus="50">225</distance>
 	<binary>
 		<name>EPIC 201637175</name>
+		<name>K2-22</name>
+		<name>2MASS J11175587+0237086</name>
 		<separation unit="arcsec">1.9</separation>
 		<separation unit="AU">430</separation>
 		<positionangle>227</positionangle>
 		<star>
 			<name>EPIC 201637175 A</name>
+			<name>K2-22 A</name>
+			<name>2MASS J11175587+0237086 A</name>
 			<magJ errorminus="0.05" errorplus="0.05">12.74</magJ>
 			<magH errorminus="0.05" errorplus="0.05">12.09</magH>
 			<magK errorminus="0.05" errorplus="0.05">11.91</magK>
@@ -21,6 +26,8 @@
 			<planet>
 				<name>EPIC 201637175 b</name>
 				<name>EPIC 201637175 A b</name>
+				<name>K2-22 b</name>
+				<name>K2-22 A b</name>
 				<period errorminus="0.000001" errorplus="0.000001">0.381071</period>
 				<transittime errorminus="0.0005" errorplus="0.0005" unit="BJD">2456811.1216</transittime>
 				<semimajoraxis errorminus="0.0008" errorplus="0.0008">0.0088</semimajoraxis>
@@ -38,6 +45,8 @@
 		</star>
 		<star>
 			<name>EPIC 201637175 B</name>
+			<name>K2-22 B</name>
+			<name>2MASS J11175587+0237086 B</name>
 			<magJ errorminus="0.05" errorplus="0.05">14.87</magJ>
 			<magH errorminus="0.05" errorplus="0.05">14.27</magH>
 			<magK errorminus="0.05" errorplus="0.05">13.93</magK>
