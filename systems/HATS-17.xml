@@ -1,0 +1,38 @@
+<system>
+	<name>HATS-17</name>
+	<rightascension>12 48 45.72</rightascension>
+	<declination>-47 36 49.3</declination>
+	<distance errorminus="16" errorplus="22">339</distance>
+	<star>
+		<name>HATS-17</name>
+		<name>GSC 08249-00170</name>
+		<name>2MASS J12484555-4736492</name>
+		<magB errorminus="0.090" errorplus="0.090">13.105</magB>
+		<magV errorminus="0.10" errorplus="0.10">12.39</magV>
+		<magJ errorminus="0.023" errorplus="0.023">11.082</magJ>
+		<magH errorminus="0.022" errorplus="0.022">10.837</magH>
+		<magK errorminus="0.021" errorplus="0.021">10.698</magK>
+		<temperature errorminus="78" errorplus="78">5846</temperature>
+		<spectraltype>G</spectraltype>
+		<metallicity errorminus="0.030" errorplus="0.030">0.300</metallicity>
+		<mass errorminus="0.030" errorplus="0.030">1.131</mass>
+		<radius errorminus="0.046" errorplus="0.070">1.091</radius>
+		<age errorminus="1.3" errorplus="1.3">2.1</age>
+		<planet>
+			<name>HATS-17 b</name>
+			<period errorminus="0.000073" errorplus="0.000073">16.254611</period>
+			<transittime errorminus="0.0014" errorplus="0.0014" unit="BJD">2457139.1672</transittime>
+			<inclination errorminus="0.26" errorplus="0.26">89.08</inclination>
+			<eccentricity upperlimit="0.070" />
+			<mass errorminus="0.065" errorplus="0.065">1.338</mass>
+			<radius errorminus="0.056" errorplus="0.056">0.777</radius>
+			<semimajoraxis errorminus="0.0012" errorplus="0.0012">0.1308</semimajoraxis>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2015</discoveryyear>
+			<description>HATS-17 b is the first warm Jupiter discovered by the HATSouth transit survey. It is a compact planet that may have up to 50% of its mass as heavy elements.</description>
+			<lastupdate>15/11/01</lastupdate>
+			<list>Confirmed planets</list>
+			<istransiting>1</istransiting>
+		</planet>
+	</star>
+</system>
