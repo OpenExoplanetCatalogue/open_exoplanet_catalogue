@@ -11,27 +11,27 @@
 		<name>HR 8461</name>
 		<name>BD+15 4592</name>
 		<name>2MASS J22115133+1602260</name>
-		<mass errorminus="0.13" errorplus="0.13">1.85</mass>
-		<radius errorminus="0.07" errorplus="0.07">4.45</radius>
-		<magV>5.93</magV>
+		<mass lowerlimit="1.50" upperlimit="1.84">1.68</mass>
+		<radius lowerlimit="4.8" upperlimit="5.5">5.1</radius>
+		<magV>5.939</magV>
 		<magB>6.885</magB>
 		<magJ errorminus="0.320" errorplus="0.320">4.508</magJ>
 		<magH errorminus="0.226" errorplus="0.226">3.995</magH>
 		<magK errorminus="0.294" errorplus="0.294">3.984</magK>
 		<metallicity>0.12</metallicity>
 		<spectraltype>K1 IV</spectraltype>
-		<temperature>5010.0</temperature>
+		<temperature errorminus="25" errorplus="25">4967</temperature>
 		<planet>
 			<name>HD 210702 b</name>
 			<list>Confirmed planets</list>
-			<mass errorminus="0.18" errorplus="0.11" type="msini">1.97</mass>
-			<period errorminus="2.13" errorplus="2.31">354.29</period>
-			<semimajoraxis errorminus="0.03" errorplus="0.02">1.20</semimajoraxis>
-			<eccentricity errorminus="0.036" errorplus="0.070">0.036</eccentricity>
-			<periastron errorminus="98.0" errorplus="82.3">282.3</periastron>
-			<periastrontime errorminus="100.1" errorplus="78.3">2454142.6</periastrontime>
+			<mass type="msini">1.9</mass>
+			<period errorminus="1.1" errorplus="1.1">354.8</period>
+			<semimajoraxis>1.2</semimajoraxis>
+			<eccentricity errorminus="0.052" errorplus="0.052">0.094</eccentricity>
+			<periastron errorminus="47" errorplus="47">126</periastron>
+			<periastrontime errorminus="45" errorplus="45">2452205</periastrontime>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>15/09/20</lastupdate>
+			<lastupdate>15/11/02</lastupdate>
 			<discoveryyear>2007</discoveryyear>
 		</planet>
 	</star>
