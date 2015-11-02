@@ -2,11 +2,16 @@
 	<name>HD 5608</name>
 	<rightascension>00 58 14.21893</rightascension>
 	<declination>+33 57 03.1843</declination>
-	<distance>58</distance>
+	<distance errorminus="1.3" errorplus="1.3">56.4</distance>
 	<star>
 		<name>HD 5608</name>
 		<name>HIP 4552</name>
-		<magV>5.99</magV>
+		<name>TYC 2285-553-1</name>
+		<name>SAO 54306</name>
+		<name>HR 275</name>
+		<name>BD+33 140</name>
+		<name>2MASS J00581422+3357031</name>
+		<magV>5.999</magV>
 		<magB>6.990</magB>
 		<magJ errorminus="0.256" errorplus="0.256">4.478</magJ>
 		<magH errorminus="0.244" errorplus="0.244">3.880</magH>
@@ -14,16 +19,20 @@
 		<mass lowerlimit="1.32" upperlimit="1.74">1.55</mass>
 		<radius lowerlimit="5.1" upperlimit="5.9">5.5</radius>
 		<temperature errorminus="25" errorplus="25">4854</temperature>
+		<metallicity errorminus="0.04" errorplus="0.04">0.06</metallicity>
 		<spectraltype>K0IV</spectraltype>
 		<planet>
 			<name>HD 5608 b</name>
 			<list>Confirmed planets</list>
-			<mass>3.0</mass>
+			<mass type="msini">1.4</mass>
 			<period errorminus="7.7" errorplus="7.7">792.6</period>
 			<semimajoraxis>1.9</semimajoraxis>
 			<eccentricity errorminus="0.061" errorplus="0.061">0.190</eccentricity>
+			<periastron errorminus="22" errorplus="22">269</periastron>
+			<periastrontime errorminus="61" errorplus="61">2452327</periastrontime>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>12/07/13</lastupdate>
+			<description>Discovered with precise Doppler measurements at Okayama Astrophysical Observatory.</description>
+			<lastupdate>15/11/02</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 		</planet>
 	</star>

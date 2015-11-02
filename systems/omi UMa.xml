@@ -1,15 +1,23 @@
 <system>
 	<name>omi UMa</name>
-	<rightascension>08 30 15</rightascension>
-	<declination>+60 43 05</declination>
-	<distance>56</distance>
+	<rightascension>08 30 15.87064</rightascension>
+	<declination>+60 43 05.4115</declination>
+	<distance errorminus="0.48" errorplus="0.48">54.91</distance>
 	<star>
 		<name>omi UMa</name>
 		<name>Omicron Ursae Majoris</name>
+		<name>ο UMa</name>
+		<name>ο Ursae Majoris</name>
+		<name>1 UMa</name>
+		<name>1 Ursae Majoris</name>
 		<name>Muscida</name>
-		<name>o UMa</name>
 		<name>HD 71369</name>
 		<name>HIP 41704</name>
+		<name>TYC 4127-2431-1</name>
+		<name>SAO 14573</name>
+		<name>HR 3323</name>
+		<name>BD+61 1054</name>
+		<name>2MASS J08301592+6043056</name>
 		<mass errorminus="0.7" errorplus="0.7">3.09</mass>
 		<radius errorminus="0.9" errorplus="1.0">14.1</radius>
 		<temperature errorminus="10" errorplus="10">5242</temperature>
@@ -26,18 +34,19 @@
 			<name>omi UMa b</name>
 			<name>Omicron Ursae Majoris b</name>
 			<name>Muscida b</name>
-			<name>o UMa b</name>
+			<name>ο UMa b</name>
 			<name>HD 71369 b</name>
 			<name>HIP 41704 b</name>
 			<list>Confirmed planets</list>
-			<mass>4.1</mass>
+			<mass type="msini">4.1</mass>
 			<period errorminus="35" errorplus="25">1630</period>
 			<semimajoraxis>3.9</semimajoraxis>
 			<eccentricity errorminus="0.065" errorplus="0.065">0.130</eccentricity>
 			<periastron errorminus="42" errorplus="42">58</periastron>
+			<periastrontime errorminus="170" errorplus="170">2453400</periastrontime>
 			<description>Discovered with precise Doppler measurements at Okayama Astrophysical Observatory.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>14/04/15</lastupdate>
+			<lastupdate>15/11/02</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 		</planet>
 	</star>

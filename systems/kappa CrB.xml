@@ -16,8 +16,8 @@
 		<name>HR 5901</name>
 		<name>BD+36 2652</name>
 		<name>2MASS J15511394+3539264</name>
-		<mass errorminus="0.13" errorplus="0.13">1.84</mass>
-		<radius errorminus="0.08" errorplus="0.08">4.71</radius>
+		<mass lowerlimit="1.32" upperlimit="1.70">1.51</mass>
+		<radius lowerlimit="4.8" upperlimit="5.2">4.71</radius>
 		<magV>4.79</magV>
 		<magB errorminus="0.01" errorplus="0.01">5.81</magB>
 		<magR>4.2</magR>
@@ -25,9 +25,9 @@
 		<magJ errorminus="0.184" errorplus="0.184">3.035</magJ>
 		<magH errorminus="0.180" errorplus="0.180">2.575</magH>
 		<magK errorminus="0.242" errorplus="0.242">2.423</magK>
-		<metallicity>0.14</metallicity>
-		<spectraltype>K1IVa</spectraltype>
-		<temperature>4960.0</temperature>
+		<metallicity errorminus="0.04" errorplus="0.04">0.10</metallicity>
+		<spectraltype>K0III-IV</spectraltype>
+		<temperature errorminus="25" errorplus="25">4877</temperature>
 		<planet>
 			<name>kappa CrB b</name>
 			<name>kap CrB b</name>
@@ -36,14 +36,14 @@
 			<name>κ Coronae Borealis b</name>
 			<name>HD 142091 b</name>
 			<list>Confirmed planets</list>
-			<mass errorminus="0.17" errorplus="0.11" type="msini">2.01</mass>
-			<period errorminus="23.97" errorplus="28.91">1261.94</period>
-			<semimajoraxis errorminus="0.08" errorplus="0.07">2.80</semimajoraxis>
-			<eccentricity errorminus="0.044" errorplus="0.079">0.044</eccentricity>
-			<periastron errorminus="94.2" errorplus="83.2">148.4</periastron>
-			<periastrontime errorminus="260.9" errorplus="332.5">2453909.2</periastrontime>
+			<mass type="msini">1.6</mass>
+			<period errorminus="15" errorplus="15">1251</period>
+			<semimajoraxis>2.6</semimajoraxis>
+			<eccentricity errorminus="0.049" errorplus="0.049">0.073</eccentricity>
+			<periastron errorminus="51" errorplus="51">210</periastron>
+			<periastrontime errorminus="180" errorplus="180">2451860</periastrontime>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>15/09/20</lastupdate>
+			<lastupdate>15/11/02</lastupdate>
 			<discoveryyear>2007</discoveryyear>
 		</planet>
 	</star>
