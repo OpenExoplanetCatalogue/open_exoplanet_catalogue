@@ -1,19 +1,59 @@
 <system>
 	<name>83 Leonis</name>
-	<rightascension>11 26 46</rightascension>
-	<declination>+03 00 22</declination>
-	<distance>18</distance>
+	<rightascension>11 26 45.32180</rightascension>
+	<declination>+03 00 47.1551</declination>
+	<distance errorminus="0.14" errorplus="0.14">17.79</distance>
 	<binary>
+		<name>83 Leonis</name>
+		<name>83 Leo</name>
+		<name>Gliese 429</name>
+		<name>GJ 429</name>
+		<name>WDS J11268+0301</name>
+		<name>STF 1540</name>
 		<separation unit="arcsec">28.6</separation>
 		<separation unit="AU">515</separation>
 		<positionangle>150</positionangle>
 		<star>
+			<name>83 Leonis A</name>
+			<name>83 Leo A</name>
+			<name>HD 99491</name>
+			<name>HIP 55846</name>
+			<name>TYC 267-1191-1</name>
+			<name>SAO 118864</name>
+			<name>HR 4414</name>
+			<name>Gliese 429 A</name>
+			<name>GJ 429 A</name>
+			<name>BD+03 2502</name>
+			<name>2MASS J11264531+0300475</name>
+			<name>WDS J11268+0301 A</name>
+			<name>STF 1540 A</name>
+			<magB>7.29</magB>
+			<magV>6.50</magV>
+			<magR>6.0</magR>
+			<magI>5.6</magI>
+			<magJ errorminus="0.023" errorplus="0.023">5.165</magJ>
+			<magH errorminus="0.065" errorplus="0.065">4.937</magH>
+			<magK errorminus="0.015" errorplus="0.015">4.747</magK>
+			<mass errorminus="0.062" errorplus="0.058">0.995</mass>
+			<radius errorminus="0.04" errorplus="0.03">0.93</radius>
+			<temperature>5509</temperature>
+			<spectraltype>K0IV</spectraltype>
+		</star>
+		<star>
 			<name>83 Leonis B</name>
+			<name>83 Leo B</name>
 			<name>HD 99492</name>
+			<name>HIP 55848</name>
+			<name>TYC 267-1200-1</name>
+			<name>SAO 118865</name>
 			<name>Gliese 429 B</name>
 			<name>GJ 429 B</name>
-			<mass>0.83</mass>
-			<radius>0.96</radius>
+			<name>BD+03 2503</name>
+			<name>2MASS J11264627+0300229</name>
+			<name>WDS J11268+0301 B</name>
+			<name>STF 1540 B</name>
+			<mass errorminus="0.020" errorplus="0.036">0.832</mass>
+			<radius errorminus="0.02" errorplus="0.04">0.76</radius>
 			<magV>7.38</magV>
 			<magB>7.29</magB>
 			<magR>6.0</magR>
@@ -27,43 +67,42 @@
 			<spectraltype>K2V</spectraltype>
 			<planet>
 				<name>83 Leonis B b</name>
+				<name>83 Leo B b</name>
 				<name>HD 99492 b</name>
 				<name>Gliese 429 B b</name>
 				<name>GJ 429 B b</name>
 				<list>Confirmed planets</list>
-				<mass>0.109</mass>
-				<period>17.0431</period>
-				<semimajoraxis>0.1232</semimajoraxis>
-				<eccentricity>0.254</eccentricity>
+				<mass errorminus="0.006" errorplus="0.006" type="msini">0.087</mass>
+				<period errorminus="0.003" errorplus="0.003">17.054</period>
+				<semimajoraxis errorminus="0.00002" errorplus="0.00002">0.12186</semimajoraxis>
+				<eccentricity errorminus="0.07" errorplus="0.07">0.13</eccentricity>
+				<periastron errorminus="32" errorplus="32">196</periastron>
+				<periastrontime errorminus="2" errorplus="2">2450449</periastrontime>
 				<discoverymethod>RV</discoverymethod>
 				<description>The first planet around the star 83 Leonis B (HD 99492) was discovered in 2004. The second planet was found 6 years later.</description>
-				<lastupdate>12/12/08</lastupdate>
+				<lastupdate>15/11/02</lastupdate>
 				<discoveryyear>2004</discoveryyear>
 				<list>Planets in binary systems, S-type</list>
-				<temperature>581.0</temperature>
 			</planet>
 			<planet>
 				<name>83 Leonis B c</name>
+				<name>83 Leo B c</name>
 				<name>HD 99492 c</name>
+				<name>Gliese 429 B c</name>
+				<name>GJ 429 B c</name>
 				<list>Confirmed planets</list>
-				<mass>0.36</mass>
-				<period>4970</period>
-				<semimajoraxis>5.4</semimajoraxis>
-				<eccentricity>0.106</eccentricity>
+				<mass errorminus="0.06" errorplus="0.06" type="msini">0.36</mass>
+				<period errorminus="744" errorplus="744">4970</period>
+				<semimajoraxis errorminus="0.5" errorplus="0.5">5.4</semimajoraxis>
+				<eccentricity errorminus="0.2" errorplus="0.2">0.1</eccentricity>
+				<periastron errorminus="64" errorplus="64">38</periastron>
+				<periastrontime errorminus="2210" errorplus="2210">2449636</periastrontime>
 				<discoverymethod>RV</discoverymethod>
 				<description>The first planet around the star 83 Leonis B (HD 99492) was discovered in 2004. The second planet was found 6 years later.</description>
-				<lastupdate>12/12/08</lastupdate>
+				<lastupdate>15/11/02</lastupdate>
 				<discoveryyear>2010</discoveryyear>
 				<list>Planets in binary systems, S-type</list>
 			</planet>
-		</star>
-		<star>
-			<name>83 Leonis A</name>
-			<name>HD 99491</name>
-			<mass>0.86</mass>
-			<radius>1.9</radius>
-			<temperature>5509</temperature>
-			<spectraltype>K0IV</spectraltype>
 		</star>
 	</binary>
 </system>
