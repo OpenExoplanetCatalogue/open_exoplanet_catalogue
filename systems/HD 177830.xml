@@ -1,17 +1,31 @@
 <system>
 	<name>HD 177830</name>
-	<rightascension>19 05 20</rightascension>
-	<declination>+25 55 14</declination>
-	<distance>59</distance>
+	<rightascension>19 05 20.77341</rightascension>
+	<declination>+25 55 14.3797</declination>
+	<distance errorminus="2.2" errorplus="2.2">59.0</distance>
 	<binary>
+		<name>HD 177830</name>
+		<name>HIP 93746</name>
+		<name>SAO 86791</name>
+		<name>Gliese 743.2</name>
+		<name>GJ 743.2</name>
+		<name>BD+25 3719</name>
+		<name>WDS J19053+2555</name>
 		<separation unit="arcsec">1.645</separation>
 		<separation unit="AU">97.1</separation>
 		<positionangle>84.85</positionangle>
 		<star>
 			<name>HD 177830 A</name>
+			<name>HIP 93746 A</name>
+			<name>TYC 2126-1196-1</name>
+			<name>SAO 86791 A</name>
+			<name>Gliese 743.2 A</name>
+			<name>GJ 743.2 A</name>
+			<name>BD+25 3719 A</name>
+			<name>WDS J19053+2555 A</name>
 			<mass>1.47</mass>
-			<radius>2.99</radius>
-			<magV>7.18</magV>
+			<radius errorminus="0.06" errorplus="0.06">2.99</radius>
+			<magV errorminus="0.010" errorplus="0.010">7.177</magV>
 			<magB errorminus="0.016" errorplus="0.016">8.266</magB>
 			<magJ errorminus="0.018" errorplus="0.018">5.367</magJ>
 			<magH errorminus="0.04" errorplus="0.04">4.95</magH>
@@ -22,12 +36,14 @@
 				<name>HD 177830 A b</name>
 				<name>HD 177830 b</name>
 				<list>Confirmed planets</list>
-				<mass>1.49</mass>
-				<period>406.6</period>
-				<semimajoraxis>1.2218</semimajoraxis>
-				<eccentricity>0.0009</eccentricity>
+				<mass errorminus="0.03" errorplus="0.03" type="msini">1.49</mass>
+				<period errorminus="0.4" errorplus="0.4">406.6</period>
+				<semimajoraxis errorminus="0.0008" errorplus="0.0008">1.2218</semimajoraxis>
+				<eccentricity errorminus="0.004" errorplus="0.004">0.009</eccentricity>
+				<periastron errorminus="31" errorplus="31">85</periastron>
+				<periastrontime errorminus="35" errorplus="35">2450154</periastrontime>
 				<discoverymethod>RV</discoverymethod>
-				<lastupdate>12/12/07</lastupdate>
+				<lastupdate>15/11/03</lastupdate>
 				<discoveryyear>1999</discoveryyear>
 				<description>The star HD 177830 A hosts at least two planets. The planets are close to the 4:1 resonance. The star is four times brighter than our Sun but only visible with binoculars from the Earth.</description>
 				<list>Planets in binary systems, S-type</list>
@@ -36,12 +52,14 @@
 				<name>HD 177830 A c</name>
 				<name>HD 177830 c</name>
 				<list>Confirmed planets</list>
-				<mass>0.15</mass>
-				<period>110.9</period>
-				<semimajoraxis>0.5137</semimajoraxis>
-				<eccentricity>0.3495</eccentricity>
+				<mass errorminus="0.02" errorplus="0.02" type="msini">0.15</mass>
+				<period errorminus="0.1" errorplus="0.1">110.9</period>
+				<semimajoraxis errorminus="0.0003" errorplus="0.0003">0.5137</semimajoraxis>
+				<eccentricity errorminus="0.1" errorplus="0.1">0.3</eccentricity>
+				<periastron errorminus="29" errorplus="29">110</periastron>
+				<periastrontime errorminus="7" errorplus="7">2450179</periastrontime>
 				<discoverymethod>RV</discoverymethod>
-				<lastupdate>12/12/07</lastupdate>
+				<lastupdate>15/11/03</lastupdate>
 				<discoveryyear>2010</discoveryyear>
 				<description>The star HD 177830 A hosts at least two planets. The planets are close to the 4:1 resonance. The star is four times brighter than our Sun but only visible with binoculars from the Earth.</description>
 				<list>Planets in binary systems, S-type</list>
@@ -49,10 +67,16 @@
 		</star>
 		<star>
 			<name>HD 177830 B</name>
-			<mass>0.23</mass>
+			<name>HIP 93746 B</name>
+			<name>SAO 86791 B</name>
+			<name>Gliese 743.2 B</name>
+			<name>GJ 743.2 B</name>
+			<name>BD+25 3719 B</name>
+			<name>WDS J19053+2555 B</name>
+			<mass errorminus="0.01" errorplus="0.01">0.23</mass>
 			<magH>11.6</magH>
 			<magK>11.2</magK>
-			<spectraltype>M2-M5</spectraltype>
+			<spectraltype>M3.5V</spectraltype>
 		</star>
 	</binary>
 </system>
