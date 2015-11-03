@@ -1,34 +1,83 @@
 <system>
 	<name>tau Gem</name>
-	<rightascension>07 11 08</rightascension>
-	<declination>+30 14 43</declination>
+	<rightascension>07 11 08.37042</rightascension>
+	<declination>+30 14 42.5831</declination>
 	<distance errorminus="2.4" errorplus="2.5">98.4</distance>
-	<star>
+	<binary>
+		<separation unit="arcsec">1.90</separation>
+		<separation unit="AU">187</separation>
+		<positionangle>177</positionangle>
 		<name>tau Gem</name>
-		<temperature errorminus="25" errorplus="25">4388</temperature>
-		<magV>4.41</magV>
-		<magR>3.45</magR>
-		<magI>2.82</magI>
-		<magB>5.685</magB>
-		<magJ errorminus="0.312" errorplus="0.312">2.377</magJ>
-		<magH errorminus="0.190" errorplus="0.190">1.821</magH>
-		<magK errorminus="0.254" errorplus="0.254">1.681</magK>
-		<radius errorminus="0.7" errorplus="0.7">26.8</radius>
-		<metallicity errorminus="0.1" errorplus="0.1">0.14</metallicity>
-		<mass errorminus="0.3" errorplus="0.3">2.3</mass>
-		<age errorminus="0.76" errorplus="0.76">1.22</age>
-		<spectraltype>K2III</spectraltype>
-		<planet>
-			<name>tau Gem b</name>
-			<list>Confirmed planets</list>
-			<mass>20.6</mass>
-			<period errorminus="0.1" errorplus="0.1">305.5</period>
-			<eccentricity errorminus="0.009" errorplus="0.009">0.031</eccentricity>
-			<periastron errorminus="0.3" errorplus="0.3">137.4</periastron>
-			<semimajoraxis>1.17</semimajoraxis>
-			<discoverymethod>RV</discoverymethod>
-			<lastupdate>13/05/23</lastupdate>
-			<discoveryyear>2004</discoveryyear>
-		</planet>
-	</star>
+		<name>Tau Geminorum</name>
+		<name>τ Gem</name>
+		<name>τ Geminorum</name>
+		<name>46 Gem</name>
+		<name>46 Geminorum</name>
+		<name>HD 54719</name>
+		<name>HIP 34693</name>
+		<name>SAO 59858</name>
+		<name>HR 2697</name>
+		<name>BD+30 1439</name>
+		<name>WDS J07111+3015</name>
+		<star>
+			<name>tau Gem A</name>
+			<name>Tau Geminorum A</name>
+			<name>τ Gem A</name>
+			<name>τ Geminorum A</name>
+			<name>46 Gem A</name>
+			<name>46 Geminorum A</name>
+			<name>HD 54719 A</name>
+			<name>HIP 34693 A</name>
+			<name>TYC 2438-1059-1</name>
+			<name>SAO 59858 A</name>
+			<name>HR 2697 A</name>
+			<name>BD+30 1439 A</name>
+			<name>2MASS J07110836+3014426</name>
+			<name>WDS J07111+3015 A</name>
+			<temperature errorminus="25" errorplus="25">4388</temperature>
+			<magV>4.41</magV>
+			<magR>3.45</magR>
+			<magI>2.82</magI>
+			<magB>5.685</magB>
+			<magJ errorminus="0.312" errorplus="0.312">2.377</magJ>
+			<magH errorminus="0.190" errorplus="0.190">1.821</magH>
+			<magK errorminus="0.254" errorplus="0.254">1.681</magK>
+			<radius errorminus="0.7" errorplus="0.7">26.8</radius>
+			<metallicity errorminus="0.1" errorplus="0.1">0.14</metallicity>
+			<mass errorminus="0.3" errorplus="0.3">2.3</mass>
+			<age errorminus="0.76" errorplus="0.76">1.22</age>
+			<spectraltype>K2III</spectraltype>
+			<planet>
+				<name>tau Gem b</name>
+				<list>Confirmed planets</list>
+				<mass type="msini">20.6</mass>
+				<period errorminus="0.1" errorplus="0.1">305.5</period>
+				<eccentricity errorminus="0.009" errorplus="0.009">0.031</eccentricity>
+				<periastron errorminus="0.3" errorplus="0.3">137.4</periastron>
+				<periastrontime errorminus="14.8" errorplus="14.8">2453270.7</periastrontime>
+				<semimajoraxis>1.17</semimajoraxis>
+				<discoverymethod>RV</discoverymethod>
+				<lastupdate>15/11/03</lastupdate>
+				<discoveryyear>2004</discoveryyear>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+		<star>
+			<name>tau Gem B</name>
+			<name>Tau Geminorum B</name>
+			<name>τ Gem B</name>
+			<name>τ Geminorum B</name>
+			<name>46 Gem B</name>
+			<name>46 Geminorum B</name>
+			<name>HD 54719 B</name>
+			<name>HIP 34693 B</name>
+			<name>SAO 59858 B</name>
+			<name>HR 2697 B</name>
+			<name>BD+30 1439 B</name>
+			<name>WDS J07111+3015 B</name>
+			<spectraltype>K0V</spectraltype>
+			<magV>11.0</magV>
+			<mass>0.8</mass>
+		</star>
+	</binary>
 </system>
