@@ -1,12 +1,18 @@
 <system>
 	<name>HD 31253</name>
-	<rightascension>04 54 44</rightascension>
-	<declination>+12 21 08</declination>
-	<distance>53.82</distance>
+	<rightascension>04 54 43.65327</rightascension>
+	<declination>+12 21 07.9133</declination>
+	<distance errorminus="1.6" errorplus="1.6">50.3</distance>
 	<star>
-		<mass>1.23</mass>
-		<radius>1.71</radius>
-		<magV>7.13</magV>
+		<name>HD 31253</name>
+		<name>HIP 22826</name>
+		<name>TYC 692-497-1</name>
+		<name>SAO 94193</name>
+		<name>BD+12 673</name>
+		<name>2MASS J04544364+1221079</name>
+		<mass errorminus="0.05" errorplus="0.05">1.23</mass>
+		<radius errorminus="0.17" errorplus="0.17">1.71</radius>
+		<magV errorminus="0.01" errorplus="0.01">7.13</magV>
 		<magB errorminus="0.016" errorplus="0.016">7.712</magB>
 		<magR errorminus="0.33" errorplus="0.33">7.03</magR>
 		<magJ errorminus="0.023" errorplus="0.023">6.060</magJ>
@@ -14,19 +20,20 @@
 		<magK errorminus="0.017" errorplus="0.017">5.792</magK>
 		<metallicity>0.16</metallicity>
 		<spectraltype>F8</spectraltype>
+		<temperature>5960</temperature>
+		<age>3</age>
 		<planet>
 			<name>HD 31253 b</name>
 			<list>Confirmed planets</list>
-			<mass>0.5</mass>
-			<period>466</period>
-			<semimajoraxis>1.26</semimajoraxis>
-			<eccentricity>0.3</eccentricity>
+			<mass errorminus="0.07" errorplus="0.07" type="msini">0.50</mass>
+			<period errorminus="3" errorplus="3">466</period>
+			<semimajoraxis errorminus="0.006" errorplus="0.006">1.260</semimajoraxis>
+			<eccentricity errorminus="0.2" errorplus="0.2">0.3</eccentricity>
+			<periastron errorminus="23" errorplus="23">244</periastron>
+			<periastrontime errorminus="19" errorplus="19">2450660</periastrontime>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/11/19</lastupdate>
+			<lastupdate>15/11/03</lastupdate>
 			<discoveryyear>2010</discoveryyear>
-			<temperature>304.4</temperature>
 		</planet>
-		<name>HD 31253</name>
-		<temperature>5960.0</temperature>
 	</star>
 </system>
