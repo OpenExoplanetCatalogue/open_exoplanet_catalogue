@@ -1,0 +1,51 @@
+<system>
+	<name>HD 175607</name>
+	<rightascension>19 01 05.49</rightascension>
+	<declination>-66 11 33.65</declination>
+	<distance errorminus="2.07" errorplus="2.07">45.27</distance>
+	<star>
+		<name>HD 175607</name>
+		<name>HIP 93373</name>
+		<name>TYC 9082-1542-1</name>
+		<name>CD-66 2264</name>
+		<name>CPD-66 3406</name>
+		<name>2MASS J19010548-6611336</name>
+		<magB>9.31</magB>
+		<magV>8.61</magV>
+		<magJ errorminus="0.020" errorplus="0.020">7.280</magJ>
+		<magH errorminus="0.026" errorplus="0.026">6.928</magH>
+		<magK errorminus="0.057" errorplus="0.057">6.881</magK>
+		<spectraltype>G6V</spectraltype>
+		<temperature errorminus="17" errorplus="17">5392</temperature>
+		<metallicity errorminus="0.01" errorplus="0.01">-0.62</metallicity>
+		<mass errorminus="0.01" errorplus="0.01">0.71</mass>
+		<radius errorminus="0.01" errorplus="0.01">0.70</radius>
+		<age errorminus="1.58" errorplus="1.58">10.32</age>
+		<planet>
+			<name>HD 175607 b</name>
+			<period errorminus="1.10" errorplus="1.10">8.98</period>
+			<mass errorminus="0.0035" errorplus="0.0035" type="msini">0.0283</mass>
+			<eccentricity errorminus="0.07" errorplus="0.09">0.11</eccentricity>
+			<periastron errorminus="52" errorplus="52">142</periastron>
+			<periastrontime errorminus="4.18" errorplus="4.15" unit="BJD">2455532.17</periastrontime>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2015</discoveryyear>
+			<description>HD 175607 b is a sub-Neptune planet orbiting a metal-poor star.</description>
+			<lastupdate>15/11/15</lastupdate>
+			<list>Confirmed planets</list>
+		</planet>
+		<planet>
+			<name>HD 175607 c</name>
+			<period errorminus="45.50" errorplus="103.27">1336.61</period>
+			<mass errorminus="0.0218" errorplus="0.0218" type="msini">0.1100</mass>
+			<eccentricity errorminus="0.14" errorplus="0.15">0.42</eccentricity>
+			<periastron errorminus="16" errorplus="18">14</periastron>
+			<periastrontime errorminus="73.95" errorplus="63.39" unit="BJD">2455244.26</periastrontime>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2015</discoveryyear>
+			<description>The origin of the ~1400 day signal in the radial velocity data for HD 175607 is unclear. It may be due to an outer planet or it may be due to activity.</description>
+			<lastupdate>15/11/15</lastupdate>
+			<list>Controversial</list>
+		</planet>
+	</star>
+</system>
