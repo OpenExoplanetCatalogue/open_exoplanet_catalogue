@@ -1,0 +1,32 @@
+<system>
+	<name>EPIC 204129699</name>
+	<rightascension>16 21 48.801</rightascension>
+	<declination>-23 32 52.32</declination>
+	<star>
+		<name>EPIC 204129699</name>
+		<name>TYC 6794-471-1</name>
+		<name>2MASS J16214578-2332520</name>
+		<magV>10.8</magV>
+		<mass errorminus="0.06" errorplus="0.06">0.91</mass>
+		<radius errorminus="0.07" errorplus="0.07">0.78</radius>
+		<temperature errorminus="70" errorplus="70">5280</temperature>
+		<metallicity errorminus="0.05" errorplus="0.05">0.08</metallicity>
+		<spectraltype>G7 V</spectraltype>
+		<planet>
+			<name>EPIC 204129699 b</name>
+			<period errorminus="0.000002" errorplus="0.000002">1.257850</period>
+			<transittime errorminus="0.00024" errorplus="0.00024" unit="BJD">2457191.70889</transittime>
+			<inclination lowerlimit="79.1" upperlimit="80.7" />
+			<eccentricity>0</eccentricity>
+			<semimajoraxis errorminus="0.0018" errorplus="0.0018">0.0220</semimajoraxis>
+			<mass errorminus="0.079" errorplus="0.079">1.774</mass>
+			<radius lowerlimit="0.71" upperlimit="1.41" />
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2015</discoveryyear>
+			<description>EPIC 204129699 b is the first confirmed transiting hot Jupiter discovered by the K2 mission. The transits are grazing which results in poor constraints on the planetary radius.</description>
+			<lastupdate>15/11/15</lastupdate>
+			<list>Confirmed planets</list>
+		</planet>
+	</star>
+</system>
