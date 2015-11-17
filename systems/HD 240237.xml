@@ -1,33 +1,38 @@
 <system>
 	<name>HD 240237</name>
-	<rightascension>23 15 42</rightascension>
-	<declination>+58 02 36</declination>
-	<distance>1500</distance>
+	<rightascension>23 15 42.22361</rightascension>
+	<declination>+58 02 35.6654</declination>
 	<star>
-		<mass>1.69</mass>
-		<radius>32</radius>
-		<magV>8.19</magV>
+		<name>HD 240237</name>
+		<name>HIP 114840</name>
+		<name>TYC 4006-19-1</name>
+		<name>SAO 35269</name>
+		<name>BD+57 2714</name>
+		<name>2MASS J23154222+5802358</name>
+		<mass errorminus="0.42" errorplus="0.42">1.69</mass>
+		<radius errorminus="1" errorplus="1">32</radius>
+		<magV errorminus="0.01" errorplus="0.01">8.17</magV>
 		<magB errorminus="0.03" errorplus="0.03">9.86</magB>
 		<magR errorminus="0.14" errorplus="0.14">7.53</magR>
 		<magJ errorminus="0.024" errorplus="0.024">5.105</magJ>
 		<magH errorminus="0.065" errorplus="0.065">4.472</magH>
 		<magK errorminus="0.318" errorplus="0.318">4.319</magK>
-		<metallicity>-0.26</metallicity>
+		<metallicity errorminus="0.07" errorplus="0.07">-0.26</metallicity>
 		<spectraltype>K2III</spectraltype>
+		<temperature errorminus="10" errorplus="10">4361</temperature>
 		<planet>
 			<name>HD 240237 b</name>
 			<list>Confirmed planets</list>
-			<mass>5.3</mass>
-			<period>745.7</period>
+			<mass type="msini">5.3</mass>
+			<period errorminus="13.8" errorplus="13.8">745.7</period>
 			<semimajoraxis>1.9</semimajoraxis>
-			<eccentricity>0.4</eccentricity>
+			<eccentricity errorminus="0.1" errorplus="0.1">0.4</eccentricity>
+			<periastron errorminus="21.8" errorplus="21.8">108.1</periastron>
+			<periastrontime errorminus="28.3" errorplus="28.3">2454292.5</periastrontime>
 			<description>This planet was found by the Penn State-Torun Planet Search Team (PTPS) using the Hobby-Eberly Telescope. The star HD 240237 is a K2 giant.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>11/10/11</lastupdate>
+			<lastupdate>15/11/17</lastupdate>
 			<discoveryyear>2010</discoveryyear>
-			<temperature>780.9</temperature>
 		</planet>
-		<name>HD 240237</name>
-		<temperature>4361.0</temperature>
 	</star>
 </system>
