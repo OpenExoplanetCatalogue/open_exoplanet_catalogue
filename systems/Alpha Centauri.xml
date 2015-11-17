@@ -4,39 +4,96 @@
 	<name>Rigil Kent</name>
 	<name>Toliman</name>
 	<name>Bungula</name>
-	<rightascension>14 39 35</rightascension>
-	<declination>-60 50 14</declination>
-	<distance>1.339</distance>
+	<rightascension>14 39 36.204</rightascension>
+	<declination>-60 50 08.23</declination>
+	<distance errorminus="0.0045" errorplus="0.0045">1.3417</distance>
 	<binary>
-		<magB>0.4</magB>
-		<magV>-0.1</magV>
-		<semimajoraxis>17.91</semimajoraxis>
-		<eccentricity>0.5179</eccentricity>
-		<inclination>79.20</inclination>
-		<period>79.01</period>
+		<name>Alpha Centauri</name>
+		<name>alf Cen</name>
+		<name>α Cen</name>
+		<name>α Centauri</name>
+		<name>Rigil Kentaurus</name>
+		<name>Rigil Kent</name>
+		<name>Toliman</name>
+		<name>Bungula</name>
+		<name>CD-60 5293</name>
+		<name>CPD-60 5483</name>
+		<name>WDS J14396-6050</name>
+		<name>RHD 1</name>
+		<semimajoraxis errorminus="0.048" errorplus="0.048">23.518</semimajoraxis>
+		<eccentricity errorminus="0.00076" errorplus="0.00076">0.5179</eccentricity>
+		<inclination errorminus="0.041" errorplus="0.041">79.20</inclination>
+		<period errorminus="4.0" errorplus="4.0">29187.1</period>
+		<periastron errorminus="0.076" errorplus="0.076">231.65</periastron>
+		<ascendingnode errorminus="0.084">204.85</ascendingnode>
+		<periastrontime errorminus="4.4" errorplus="4.4">2406130.3</periastrontime>
 		<star>
 			<name>Alpha Centauri A</name>
+			<name>alf Cen A</name>
+			<name>α Cen A</name>
+			<name>α Centauri A</name>
+			<name>Alpha-1 Centauri</name>
+			<name>alf01 Cen</name>
+			<name>α1 Cen</name>
+			<name>α1 Centauri</name>
+			<name>Rigil Kentaurus A</name>
+			<name>Rigil Kent A</name>
+			<name>Toliman A</name>
+			<name>Bungula A</name>
+			<name>Gliese 559 A</name>
 			<name>GJ 559 A</name>
 			<name>HR 5459</name>
 			<name>HD 128620</name>
 			<name>HIP 71683</name>
-			<name>alf Cen A</name>
+			<name>TYC 9007-5849-1</name>
+			<name>CD-60 5293 A</name>
+			<name>CPD-60 5483 A</name>
+			<name>WDS J14396-6050 A</name>
+			<name>RHD 1 A</name>
+			<magU>0.96</magU>
+			<magB>0.72</magB>
+			<magV>0.01</magV>
+			<magJ>-1.15</magJ>
+			<magH>-1.38</magH>
+			<magK>-1.49</magK>
 			<spectraltype>G2 V</spectraltype>
-			<mass>1.105</mass>
-			<radius>1.227</radius>
-			<temperature>5790</temperature>
+			<mass errorminus="0.006" errorplus="0.006">1.100</mass>
+			<radius errorminus="0.005" errorplus="0.005">1.227</radius>
+			<temperature errorminus="30" errorplus="30">5790</temperature>
+			<metallicity errorminus="0.02" errorplus="0.02">0.20</metallicity>
 		</star>
 		<star>
 			<name>Alpha Centauri B</name>
+			<name>alf Cen B</name>
+			<name>α Cen B</name>
+			<name>α Centauri B</name>
+			<name>Alpha-2 Centauri</name>
+			<name>alf02 Cen</name>
+			<name>α2 Cen</name>
+			<name>α2 Centauri</name>
+			<name>Rigil Kentaurus B</name>
+			<name>Rigil Kent B</name>
+			<name>Toliman B</name>
+			<name>Bungula B</name>
+			<name>Gliese 559 B</name>
 			<name>GJ 559 B</name>
 			<name>HR 5460</name>
 			<name>HD 128621</name>
 			<name>HIP 71681</name>
-			<name>alf Cen B</name>
+			<name>TYC 9007-5848-1</name>
+			<name>WDS J14396-6050 B</name>
+			<name>RHD 1 B</name>
+			<magU>2.89</magU>
+			<magB>2.21</magB>
+			<magV>1.33</magV>
+			<magJ>-0.01</magJ>
+			<magH>-0.49</magH>
+			<magK>-0.60</magK>
 			<spectraltype>K1 V</spectraltype>
-			<mass>0.934</mass>
-			<radius>0.865</radius>
-			<temperature>5260</temperature>
+			<mass errorminus="0.006" errorplus="0.006">0.907</mass>
+			<radius errorminus="0.006" errorplus="0.006">0.865</radius>
+			<temperature errorminus="50" errorplus="50">5260</temperature>
+			<metallicity errorminus="0.03" errorplus="0.03">0.23</metallicity>
 			<planet>
 				<name>Alpha Centauri B b</name>
 				<name>GJ 559 B b</name>
@@ -45,19 +102,39 @@
 				<name>HIP 71681 b</name>
 				<name>Albertus Alauda</name>
 				<name>alf Cen B b</name>
-				<mass>0.0035546417</mass>
-				<period>3.235</period>
+				<mass errorminus="0.00028" errorplus="0.00028" type="msini">0.00356</mass>
+				<period errorminus="0.0008" errorplus="0.0008">3.2357</period>
 				<semimajoraxis>0.04</semimajoraxis>
+				<eccentricity>0.0</eccentricity>
 				<discoverymethod>RV</discoverymethod>
 				<list>Controversial</list>
 				<discoveryyear>2012</discoveryyear>
-				<lastupdate>13/04/24</lastupdate>
-				<description>Alpha Centauri is one of the brightest stars in the southern sky (in fact, it is a triple system). European astronomers have discovered a planet with about the mass of the Earth orbiting Alpha Centauri B. It is the nearest exoplanet to Earth and also the lightest exoplanet ever discovered around a Sun-like star. The planet was detected using the HARPS instrument on the 3.6-metre telescope at ESO's La Silla Observatory in Chile. The planet is currently labelled as controversial as no consensus on its status has been reached in the literature yet.</description>
+				<lastupdate>15/11/17</lastupdate>
+				<description>Alpha Centauri is one of the brightest stars in the southern sky (in fact, it is a triple system). The planet candidate Alpha Centauri Bb was announced as the nearest exoplanet to Earth and also the lightest exoplanet ever discovered around a Sun-like star. The candidate was detected using the HARPS instrument on the 3.6-metre telescope at ESO's La Silla Observatory in Chile. The planet's existence was challenged by Hatzes (2013) and was shown to be likely an artifact caused by the data sampling by Rajpaul et al. (2015).</description>
 				<image>AlphaCentauriB</image>
 				<imagedescription>This artist's impression shows the planet orbiting the star Alpha Centauri B, a member of the triple star system that is the closest to Earth. Alpha Centauri B is the most brilliant object in the sky and the other dazzling object is Alpha Centauri A. Our own Sun is visible to the upper right. The tiny signal of the planet was found with the HARPS spectrograph on the 3.6-metre telescope at ESO's La Silla Observatory in Chile.
 			
 				Credit:	ESO/L. Calcada</imagedescription>
 				<list>Planets in binary systems, S-type</list>
+			</planet>
+			<planet>
+				<name>Alpha Centauri B c</name>
+				<name>GJ 559 B c</name>
+				<name>HR 5460 c</name>
+				<name>HD 128621 c</name>
+				<name>HIP 71681 c</name>
+				<name>alf Cen B c</name>
+				<radius errorminus="0.06" errorplus="0.06">0.92</radius>
+				<period upperlimit="20.4" />
+				<eccentricity upperlimit="0.24" />
+				<transittime unit="BJD">2456482.195</transittime>
+				<discoverymethod>transit</discoverymethod>
+				<discoveryyear>2015</discoveryyear>
+				<description>A possible transit event was detected in Hubble Space Telescope photometry of Alpha Centauri B while searching for transits of the planet candidate Alpha Centauri Bb. This may be due to the presence of a roughly Earth-sized planet in an orbit less than 20 days.</description>
+				<lastupdate>15/11/17</lastupdate>
+				<list>Controversial</list>
+				<list>Planets in binary systems, S-type</list>
+				<istransiting>1</istransiting>
 			</planet>
 		</star>
 	</binary>
