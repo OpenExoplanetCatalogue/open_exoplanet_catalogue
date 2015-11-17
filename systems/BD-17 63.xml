@@ -1,32 +1,38 @@
 <system>
 	<name>BD-17 63</name>
-	<rightascension>00 28 34</rightascension>
-	<declination>-16 13 35</declination>
-	<distance>34.6</distance>
+	<rightascension>00 28 34.30654</rightascension>
+	<declination>-16 13 34.8458</declination>
+	<distance errorminus="1.6" errorplus="1.6">35.7</distance>
 	<star>
-		<mass>0.74</mass>
+		<name>BD-17 63</name>
+		<name>HIP 2247</name>
+		<name>TYC 5840-482-1</name>
+		<name>SAO 147293</name>
+		<name>2MASS J00283433-1613343</name>
+		<mass errorminus="0.03" errorplus="0.03">0.74</mass>
 		<radius>0.69</radius>
 		<magV>9.62</magV>
 		<magB>10.77</magB>
 		<magJ errorminus="0.019" errorplus="0.019">7.574</magJ>
 		<magH errorminus="0.033" errorplus="0.033">7.027</magH>
 		<magK errorminus="0.024" errorplus="0.024">6.914</magK>
-		<metallicity>-0.03</metallicity>
+		<temperature errorminus="93" errorplus="93">4714</temperature>
+		<metallicity errorminus="0.06" errorplus="0.06">-0.03</metallicity>
 		<spectraltype>K5V</spectraltype>
+		<age errorminus="4" errorplus="4">4.3</age>
 		<planet>
 			<name>BD-17 63 b</name>
 			<list>Confirmed planets</list>
-			<mass>5.1</mass>
-			<period>655.6</period>
-			<semimajoraxis>1.34</semimajoraxis>
-			<eccentricity>0.54</eccentricity>
+			<mass errorminus="0.12" errorplus="0.12" type="msini">5.1</mass>
+			<period errorminus="0.6" errorplus="0.6">655.6</period>
+			<semimajoraxis errorminus="0.02" errorplus="0.02">1.34</semimajoraxis>
+			<eccentricity errorminus="0.005" errorplus="0.005">0.54</eccentricity>
+			<periastron errorminus="1.9" errorplus="1.9">112.2</periastron>
+			<periastrontime errorminus="1.5" errorplus="1.5">2454627.1</periastrontime>
 			<description>The star BD-1763 is a K-type star in the constellation Cetus. It is five times less luminous than our Sun.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>08/10/28</lastupdate>
+			<lastupdate>15/11/17</lastupdate>
 			<discoveryyear>2008</discoveryyear>
-			<temperature>146.2</temperature>
 		</planet>
-		<name>BD-17 63</name>
-		<temperature>4714.0</temperature>
 	</star>
 </system>

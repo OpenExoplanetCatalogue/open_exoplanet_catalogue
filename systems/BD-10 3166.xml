@@ -1,35 +1,39 @@
 <system>
 	<name>BD-10 3166</name>
 	<name>BD-10°3166</name>
-	<rightascension>10 58 28</rightascension>
-	<declination>-10 46 13</declination>
-	<distance>66</distance>
+	<rightascension>10 58 28.7798</rightascension>
+	<declination>-10 46 13.386</declination>
+	<distance errorminus="13.64" errorplus="13.64">65.19</distance>
 	<star>
-		<mass>0.99</mass>
-		<radius>1.71</radius>
-		<magV>10.08</magV>
+		<name>BD-10 3166</name>
+		<name>TYC 5503-946-1</name>
+		<name>2MASS J10582880-1046133</name>
+		<mass>0.85</mass>
+		<radius errorminus="0.03" errorplus="0.05">0.81</radius>
+		<magV errorminus="0.04" errorplus="0.04">10.01</magV>
 		<magI>9.19</magI>
 		<magB errorminus="0.07" errorplus="0.07">10.88</magB>
 		<magR>9.85</magR>
 		<magJ errorminus="0.03" errorplus="0.03">8.61</magJ>
 		<magH errorminus="0.04" errorplus="0.04">8.30</magH>
 		<magK errorminus="0.026" errorplus="0.026">8.124</magK>
-		<metallicity>0.382</metallicity>
-		<spectraltype>G4 V</spectraltype>
+		<temperature errorminus="44" errorplus="44">5393</temperature>
+		<metallicity errorminus="0.030" errorplus="0.030">0.382</metallicity>
+		<spectraltype>K3.0 V</spectraltype>
+		<age upperlimit="1.84" />
 		<planet>
 			<name>BD-10 3166 b</name>
 			<list>Confirmed planets</list>
-			<mass>0.48</mass>
-			<period>3.487</period>
-			<semimajoraxis>0.046</semimajoraxis>
-			<eccentricity>0.05</eccentricity>
+			<mass errorminus="0.035" errorplus="0.035" type="msini">0.408</mass>
+			<period errorminus="0.00011" errorplus="0.00011">3.48777</period>
+			<semimajoraxis errorminus="0.0025" errorplus="0.0025">0.0427</semimajoraxis>
+			<eccentricity errorminus="0.0230" errorplus="0.0230">0.0190</eccentricity>
+			<periastron>334</periastron>
+			<periastrontime errorminus="0.69" errorplus="0.69">2451171.22</periastrontime>
 			<description>The star BD-103166 is a K-type main sequence star in the constellation Crater. It is three times as metal-rich as our Sun.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/12/25</lastupdate>
+			<lastupdate>15/11/17</lastupdate>
 			<discoveryyear>2000</discoveryyear>
-			<temperature>1451.5</temperature>
 		</planet>
-		<name>BD-10 3166</name>
-		<temperature>5400.0</temperature>
 	</star>
 </system>
