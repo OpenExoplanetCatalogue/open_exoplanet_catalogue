@@ -1,31 +1,39 @@
 <system>
 	<name>HD 73267</name>
-	<rightascension>08 36 18</rightascension>
-	<declination>-34 27 36</declination>
-	<distance>54.91</distance>
+	<rightascension>08 36 17.77517</rightascension>
+	<declination>-34 27 35.9219</declination>
+	<distance errorminus="2.7" errorplus="2.7">54.2</distance>
 	<star>
-		<mass>0.89</mass>
+		<name>HD 73267</name>
+		<name>HIP 42202</name>
+		<name>TYC 7144-1553-1</name>
+		<name>SAO 199418</name>
+		<name>CD-34 5039</name>
+		<name>CPD-34 2736</name>
+		<name>2MASS J08361779-3427358</name>
+		<mass errorminus="0.03" errorplus="0.03">0.89</mass>
 		<radius>1.04</radius>
-		<magV>8.9</magV>
+		<magV errorminus="0.01" errorplus="0.01">8.87</magV>
 		<magB errorminus="0.02" errorplus="0.02">9.66</magB>
 		<magJ errorminus="0.023" errorplus="0.023">7.493</magJ>
 		<magH errorminus="0.031" errorplus="0.031">7.126</magH>
 		<magK errorminus="0.023" errorplus="0.023">7.062</magK>
-		<metallicity>0.03</metallicity>
+		<temperature errorminus="34" errorplus="34">5317</temperature>
+		<metallicity errorminus="0.02" errorplus="0.02">0.03</metallicity>
 		<spectraltype>G5V</spectraltype>
+		<age errorminus="4.5" errorplus="4.5">7.4</age>
 		<planet>
 			<name>HD 73267 b</name>
 			<list>Confirmed planets</list>
-			<mass>3.06</mass>
-			<period>1260</period>
-			<semimajoraxis>2.198</semimajoraxis>
-			<eccentricity>0.256</eccentricity>
+			<mass errorminus="0.07" errorplus="0.07" type="msini">3.06</mass>
+			<period errorminus="7" errorplus="7">1260</period>
+			<semimajoraxis errorminus="0.025" errorplus="0.025">2.198</semimajoraxis>
+			<eccentricity errorminus="0.009" errorplus="0.009">0.256</eccentricity>
+			<periastron errorminus="1.8" errorplus="1.8">229.1</periastron>
+			<periastrontime errorminus="16" errorplus="16">2451821.7</periastrontime>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>08/10/28</lastupdate>
+			<lastupdate>15/11/17</lastupdate>
 			<discoveryyear>2008</discoveryyear>
-			<temperature>160.6</temperature>
 		</planet>
-		<name>HD 73267</name>
-		<temperature>5317.0</temperature>
 	</star>
 </system>

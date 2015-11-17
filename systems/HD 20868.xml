@@ -1,31 +1,38 @@
 <system>
 	<name>HD 20868</name>
-	<rightascension>03 20 43</rightascension>
-	<declination>-33 43 48</declination>
-	<distance>48.9</distance>
+	<rightascension>03 20 42.69404</rightascension>
+	<declination>-33 43 48.3916</declination>
+	<distance errorminus="2.9" errorplus="2.9">46.2</distance>
 	<star>
-		<mass>0.78</mass>
+		<name>HD 20868</name>
+		<name>HIP 15578</name>
+		<name>TYC 7023-236-1</name>
+		<name>CD-34 1218</name>
+		<name>CPD-34 338</name>
+		<name>2MASS J03204266-33433484</name>
+		<mass errorminus="0.03" errorplus="0.03">0.78</mass>
 		<radius>0.79</radius>
-		<magV>9.92</magV>
+		<magV errorminus="0.03" errorplus="0.03">9.93</magV>
 		<magB errorminus="0.05" errorplus="0.05">11.07</magB>
 		<magJ errorminus="0.032" errorplus="0.032">8.138</magJ>
 		<magH errorminus="0.031" errorplus="0.031">7.641</magH>
 		<magK errorminus="0.015" errorplus="0.015">7.543</magK>
-		<metallicity>0.04</metallicity>
-		<spectraltype>K3/4IV</spectraltype>
+		<temperature errorminus="124" errorplus="124">4795</temperature>
+		<metallicity errorminus="0.1" errorplus="0.1">0.04</metallicity>
+		<spectraltype>K3/4 IV</spectraltype>
+		<age errorminus="4" errorplus="4">4.5</age>
 		<planet>
 			<name>HD 20868 b</name>
 			<list>Confirmed planets</list>
-			<mass>1.99</mass>
-			<period>380.85</period>
-			<semimajoraxis>0.947</semimajoraxis>
-			<eccentricity>0.75</eccentricity>
+			<mass errorminus="0.05" errorplus="0.05" type="msini">1.99</mass>
+			<period errorminus="0.09" errorplus="0.09">380.85</period>
+			<semimajoraxis errorminus="0.012" errorplus="0.012">0.947</semimajoraxis>
+			<eccentricity errorminus="0.002" errorplus="0.002">0.75</eccentricity>
+			<periastron errorminus="0.4" errorplus="0.4">356.2</periastron>
+			<periastrontime errorminus="0.1" errorplus="0.1">2454451.52</periastrontime>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>08/10/28</lastupdate>
+			<lastupdate>15/11/17</lastupdate>
 			<discoveryyear>2008</discoveryyear>
-			<temperature>185.1</temperature>
 		</planet>
-		<name>HD 20868</name>
-		<temperature>4795.0</temperature>
 	</star>
 </system>

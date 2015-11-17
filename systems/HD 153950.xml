@@ -1,31 +1,38 @@
 <system>
 	<name>HD 153950</name>
-	<rightascension>17 04 31</rightascension>
-	<declination>-43 18 35</declination>
-	<distance>49.6</distance>
+	<rightascension>17 04 30.86989</rightascension>
+	<declination>-43 18 35.1765</declination>
+	<distance errorminus="1.7" errorplus="1.7">49.5</distance>
 	<star>
-		<mass>1.12</mass>
+		<name>HD 153950</name>
+		<name>HIP 83547</name>
+		<name>TYC 7881-474-1</name>
+		<name>SAO 227597</name>
+		<name>CD-43 11380</name>
+		<name>CPD-43 7827</name>
+		<name>2MASS J17043086-4318351</name>
+		<mass errorminus="0.03" errorplus="0.03">1.12</mass>
 		<radius>1.34</radius>
 		<magV>7.39</magV>
 		<magB>7.90</magB>
 		<magJ errorminus="0.018" errorplus="0.018">6.313</magJ>
 		<magH errorminus="0.034" errorplus="0.034">6.078</magH>
 		<magK errorminus="0.017" errorplus="0.017">6.006</magK>
-		<metallicity>-0.01</metallicity>
+		<temperature errorminus="13" errorplus="13">6076</temperature>
+		<metallicity errorminus="0.01" errorplus="0.01">-0.01</metallicity>
 		<spectraltype>F8V</spectraltype>
 		<planet>
 			<name>HD 153950 b</name>
 			<list>Confirmed planets</list>
-			<mass>2.73</mass>
-			<period>499.4</period>
-			<semimajoraxis>1.28</semimajoraxis>
-			<eccentricity>0.34</eccentricity>
+			<mass errorminus="0.05" errorplus="0.05" type="msini">2.73</mass>
+			<period errorminus="3.6" errorplus="3.6">499.4</period>
+			<semimajoraxis errorminus="0.01" errorplus="0.01">1.28</semimajoraxis>
+			<eccentricity errorminus="0.021" errorplus="0.021">0.34</eccentricity>
+			<periastron errorminus="2.4" errorplus="2.4">308.2</periastron>
+			<periastrontime errorminus="4.3" errorplus="4.3">2454502</periastrontime>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>08/10/28</lastupdate>
+			<lastupdate>15/11/17</lastupdate>
 			<discoveryyear>2008</discoveryyear>
-			<temperature>272.1</temperature>
 		</planet>
-		<name>HD 153950</name>
-		<temperature>6076.0</temperature>
 	</star>
 </system>
