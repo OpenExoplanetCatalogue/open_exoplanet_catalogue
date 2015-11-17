@@ -1,9 +1,21 @@
 <system>
 	<name>alf Tau</name>
+	<name>Alpha Tauri</name>
+	<name>Aldebaran</name>
 	<rightascension>04 35 55.20</rightascension>
 	<declination>+16 30 35.1</declination>
 	<distance errorminus="0.32" errorplus="0.32">20.43</distance>
 	<binary>
+		<name>alf Tau</name>
+		<name>Aldebaran</name>
+		<name>Alpha Tauri</name>
+		<name>α Tau</name>
+		<name>α Tauri</name>
+		<name>87 Tau</name>
+		<name>87 Tauri</name>
+		<name>Gliese 171.1</name>
+		<name>GJ 171.1</name>
+		<name>GJ 9159</name>
 		<name>WDS J04359+1631</name>
 		<name>BU 550</name>
 		<separation unit="arcsec">31.60</separation>
@@ -13,14 +25,21 @@
 			<name>alf Tau</name>
 			<name>Aldebaran</name>
 			<name>alf Tau A</name>
+			<name>Alpha Tauri A</name>
+			<name>α Tau A</name>
+			<name>α Tauri A</name>
 			<name>Aldebaran A</name>
+			<name>87 Tau A</name>
+			<name>87 Tauri A</name>
 			<name>HR 1457</name>
 			<name>HD 29139</name>
 			<name>HIP 21421</name>
 			<name>TYC 1266-1416-1</name>
-			<name>BD +16 629</name>
+			<name>BD+16 629</name>
 			<name>PPM 120061</name>
 			<name>Gliese 171.1 A</name>
+			<name>GJ 171.1 A</name>
+			<name>GJ 9159 A</name>
 			<name>WDS J04359+1631 A</name>
 			<name>BU 550 A</name>
 			<mass errorminus="0.11" errorplus="0.11">1.13</mass>
@@ -33,29 +52,43 @@
 			<planet>
 				<name>alf Tau b</name>
 				<name>Aldebaran b</name>
+				<name>alf Tau A b</name>
+				<name>Alpha Tauri A b</name>
+				<name>α Tau A b</name>
+				<name>α Tauri A b</name>
+				<name>87 Tau A b</name>
+				<name>87 Tauri A b</name>
 				<name>HR 1457 b</name>
 				<name>HD 29139 b</name>
 				<name>HIP 21421 b</name>
 				<name>TYC 1266-1416-1 b</name>
-				<name>BD +16 629 b</name>
+				<name>BD+16 629 b</name>
 				<name>PPM 120061 b</name>
 				<list>Controversial</list>
-				<mass lowerlimit="6.47" />
+				<mass errorminus="0.53" errorplus="0.53" type="msini">6.47</mass>
 				<period errorminus="0.90" errorplus="0.90">628.96</period>
-				<periastron errorminus="50.0" errorplus="50.0">2451297.0</periastron>
+				<periastron errorminus="29" errorplus="29">287</periastron>
+				<periastrontime errorminus="50.0" errorplus="50.0">2451297.0</periastrontime>
 				<semimajoraxis errorminus="0.27" errorplus="0.27">1.46</semimajoraxis>
 				<eccentricity errorminus="0.05" errorplus="0.05">0.10</eccentricity>
 				<description>Investigations of long-period radial velocity in Aldebaran first reported over 20 years ago and further photometric investigations provide further evidence of a planetary companion to Aldebaran.</description>
 				<discoverymethod>RV</discoverymethod>
-				<lastupdate>15/05/13</lastupdate>
+				<lastupdate>15/11/17</lastupdate>
 				<discoveryyear>2015</discoveryyear>
 				<list>Planets in binary systems, S-type</list>
 			</planet>
 		</star>
 		<star>
 			<name>alf Tau B</name>
+			<name>Alpha Tauri B</name>
 			<name>Aldebaran B</name>
+			<name>α Tau B</name>
+			<name>α Tauri B</name>
+			<name>87 Tau B</name>
+			<name>87 Tauri B</name>
 			<name>Gliese 171.1 B</name>
+			<name>GJ 171.1 B</name>
+			<name>GJ 9159 B</name>
 			<name>BD+16 629 B</name>
 			<name>WDS J04359+1631 B</name>
 			<name>BU 550B</name>
