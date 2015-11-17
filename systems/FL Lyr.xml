@@ -1,0 +1,63 @@
+<system>
+	<name>FL Lyr</name>
+	<rightascension>19 12 04.86170</rightascension>
+	<declination>+46 19 26.8632</declination>
+	<distance errorminus="13" errorplus="13">130</distance>
+	<binary>
+		<name>FL Lyr</name>
+		<name>FL Lyrae</name>
+		<name>HD 179890</name>
+		<name>HIP 94335</name>
+		<name>TYC 3542-1492-1</name>
+		<name>SAO 48190</name>
+		<name>BD+46 2641</name>
+		<name>KIC 9641031</name>
+		<name>2MASS J19120487+4619269</name>
+		<transittime errorminus="0.0003" errorplus="0.0003">2445143.7256</transittime>
+		<period errorminus="0.0000003" errorplus="0.0000003">2.1781542</period>
+		<inclination errorminus="0.6" errorplus="0.6">85.9</inclination>
+		<eccentricity upperlimit="0.0002" />
+		<periastron>0</periastron>
+		<star>
+			<name>FL Lyr A</name>
+			<name>FL Lyrae A</name>
+			<name>HD 179890 A</name>
+			<name>HIP 94335 A</name>
+			<name>SAO 48190 A</name>
+			<name>BD+46 2641 A</name>
+			<name>KIC 9641031 A</name>
+			<magV>9.58</magV>
+			<spectraltype>F8V</spectraltype>
+			<mass errorminus="0.016" errorplus="0.016">1.218</mass>
+			<temperature errorminus="99" errorplus="99">6152</temperature>
+			<radius errorminus="0.011" errorplus="0.092">1.128</radius>
+		</star>
+		<star>
+			<name>FL Lyr B</name>
+			<name>FL Lyrae B</name>
+			<name>HD 179890 B</name>
+			<name>HIP 94335 B</name>
+			<name>SAO 48190 B</name>
+			<name>BD+46 2641 B</name>
+			<name>KIC 9641031 B</name>
+			<magV>11.04</magV>
+			<spectraltype>G8V</spectraltype>
+			<mass errorminus="0.030" errorplus="0.030">0.963</mass>
+			<temperature errorminus="98" errorplus="98">5297</temperature>
+			<radius errorminus="0.046" errorplus="0.028">1.128</radius>
+		</star>
+		<planet>
+			<name>FL Lyr b</name>
+			<name>FL Lyrae b</name>
+			<name>FL Lyrae (AB) b</name>
+			<period lowerlimit="2600" />
+			<mass lowerlimit="2" type="msini" />
+			<discoverymethod>timing</discoverymethod>
+			<discoveryyear>2015</discoveryyear>
+			<description>The presence of a substellar companion in orbit around the binary star FL Lyrae is inferred from eclipse timing variations detected by Kepler. Measurements over a longer term are required to confirm the existence of the planet.</description>
+			<lastupdate>15/11/16</lastupdate>
+			<list>Controversial</list>
+			<list>Planets in binary systems, P-type</list>
+		</planet>
+	</binary>
+</system>
