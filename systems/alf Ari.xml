@@ -1,31 +1,50 @@
 <system>
 	<name>alf Ari</name>
-	<rightascension>02 07 10</rightascension>
-	<declination>+23 27 44</declination>
-	<distance>20.2</distance>
+	<name>Alpha Arietis</name>
+	<name>Hamal</name>
+	<rightascension>02 07 10.40570</rightascension>
+	<declination>+23 27 44.7032</declination>
+	<distance errorminus="0.10" errorplus="0.10">20.18</distance>
 	<star>
-		<mass>1.5</mass>
-		<radius>13.9</radius>
+		<name>alf Ari</name>
+		<name>Alpha Arietis</name>
+		<name>α Ari</name>
+		<name>α Arietis</name>
+		<name>Hamal</name>
+		<name>13 Ari</name>
+		<name>13 Arietis</name>
+		<name>HD 12929</name>
+		<name>HIP 9884</name>
+		<name>TYC 1758-2416-1</name>
+		<name>SAO 75151</name>
+		<name>HR 617</name>
+		<name>Gliese 84.3</name>
+		<name>GJ 84.3</name>
+		<name>GJ 9072</name>
+		<name>BD+22 306</name>
+		<name>2MASS J02071038+2327447</name>
+		<mass errorminus="0.2" errorplus="0.2">1.5</mass>
+		<radius errorminus="0.3" errorplus="0.3">13.9</radius>
 		<magV>2.01</magV>
 		<magJ>0.06</magJ>
 		<magB errorminus="0.01" errorplus="0.01">3.16</magB>
 		<magR>1.3</magR>
 		<magI>0.8</magI>
-		<metallicity>-0.09</metallicity>
+		<temperature errorminus="15" errorplus="15">4553</temperature>
+		<metallicity errorminus="0.03" errorplus="0.03">-0.09</metallicity>
 		<spectraltype>K2III</spectraltype>
 		<planet>
 			<name>alf Ari b</name>
 			<list>Confirmed planets</list>
-			<mass>1.8</mass>
-			<period>380.8</period>
+			<mass errorminus="0.2" errorplus="0.2" type="msini">1.8</mass>
+			<period errorminus="0.3" errorplus="0.3">380.8</period>
 			<semimajoraxis>1.2</semimajoraxis>
-			<eccentricity>0.25</eccentricity>
+			<eccentricity errorminus="0.03" errorplus="0.03">0.25</eccentricity>
+			<periastrontime errorminus="7.36" errorplus="7.36">2451213.52</periastrontime>
+			<periastron errorminus="6.84" errorplus="6.84">89.16</periastron>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>11/04/19</lastupdate>
+			<lastupdate>15/11/17</lastupdate>
 			<discoveryyear>2011</discoveryyear>
-			<temperature>680.5</temperature>
 		</planet>
-		<name>alf Ari</name>
-		<temperature>4553.0</temperature>
 	</star>
 </system>
