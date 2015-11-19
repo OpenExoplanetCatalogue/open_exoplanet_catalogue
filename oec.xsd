@@ -41,6 +41,7 @@
 				<xs:element name="period" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="transittime" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="periastrontime" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="maximumrvtime" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="separation" type="number"/>
 				<xs:element name="mass" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="radius" type="number" minOccurs="0" maxOccurs="1"/>
@@ -108,6 +109,7 @@
 				<xs:element name="period" type="number"/>
 				<xs:element name="transittime" type="number"/>
 				<xs:element name="periastrontime" type="number"/>
+				<xs:element name="maximumrvtime" type="number"/>
 				<xs:element name="separation" type="number"/>
 				<xs:element name="positionangle" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="magB" type="number" minOccurs="0" maxOccurs="1"/>
