@@ -1,17 +1,23 @@
 <system>
 	<name>HD 564</name>
-	<rightascension>00 09 52.82</rightascension>
-	<declination>-50 16 04.16</declination>
-	<distance>53.6</distance>
+	<rightascension>00 09 52.82123</rightascension>
+	<declination>-50 16 04.1606</declination>
+	<distance errorminus="2.5" errorplus="2.5">53.6</distance>
 	<star>
-		<name>HD 564 A</name>
+		<name>HD 564</name>
+		<name>HIP 801</name>
+		<name>TYC 8028-677-1</name>
+		<name>SAO 231952</name>
+		<name>CD-50 22</name>
+		<name>CPD-50 15</name>
+		<name>2MASS J00095283-5016041</name>
 		<mass errorminus="0.05" errorplus="0.05">0.961</mass>
 		<radius errorminus="0.05" errorplus="0.05">1.01</radius>
 		<temperature errorminus="61" errorplus="61">5902</temperature>
 		<age errorminus="3.1" errorplus="3.1">5.5</age>
 		<metallicity errorminus="0.05" errorplus="0.05">-0.2</metallicity>
 		<spectraltype>G2</spectraltype>
-		<magV>8.29</magV>
+		<magV errorminus="0.01" errorplus="0.01">8.29</magV>
 		<magB errorminus="0.02" errorplus="0.02">8.90</magB>
 		<magJ errorminus="0.021" errorplus="0.021">7.218</magJ>
 		<magH errorminus="0.021" errorplus="0.021">6.983</magH>
@@ -21,12 +27,14 @@
 			<semimajoraxis errorminus="0.02" errorplus="0.02">1.2</semimajoraxis>
 			<eccentricity errorminus="0.067" errorplus="0.067">0.096</eccentricity>
 			<period errorminus="2.3" errorplus="2.3">492.3</period>
-			<mass errorminus="0.03" errorplus="0.03">0.33</mass>
+			<mass errorminus="0.03" errorplus="0.03" type="msini">0.33</mass>
+			<periastron errorminus="31" errorplus="31">314</periastron>
+			<maximumrvtime errorminus="9" errorplus="9">2455433</maximumrvtime>
 			<discoverymethod>RV</discoverymethod>
 			<list>Confirmed planets</list>
 			<description>HD 564 is a metal poor star. The planet around this star has been discovered by the HARPS team using radial-velocity data gathered over ten years.</description>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/12/23</lastupdate>
+			<lastupdate>15/11/17</lastupdate>
 		</planet>
 	</star>
 </system>

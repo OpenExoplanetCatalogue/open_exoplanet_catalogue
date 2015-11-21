@@ -1,11 +1,18 @@
 <system>
 	<name>HD 103720</name>
-	<rightascension>11 56 41.18</rightascension>
-	<declination>-02 46 44.24</declination>
-	<distance>41.6</distance>
+	<rightascension>11 56 41.18534</rightascension>
+	<declination>-02 46 44.2430</declination>
+	<distance errorminus="2.07" errorplus="2.07">41.58</distance>
 	<star>
-		<name>HD 103720 A</name>
-		<mass errorminus="0.04" errorplus="0.04">0.794</mass>
+		<name>HD 103720</name>
+		<name>PR Vir</name>
+		<name>PR Virginis</name>
+		<name>HIP 58237</name>
+		<name>TYC 4935-756-1</name>
+		<name>SAO 138494</name>
+		<name>BD-01 2594</name>
+		<name>2MASS J11564119-8246442</name>
+		<mass errorminus="0.040" errorplus="0.040">0.794</mass>
 		<radius errorminus="0.02" errorplus="0.02">0.73</radius>
 		<temperature errorminus="88" errorplus="88">5017</temperature>
 		<age errorminus="3.7" errorplus="3.7">3.8</age>
@@ -21,12 +28,14 @@
 			<semimajoraxis errorminus="0.0008" errorplus="0.0008">0.0498</semimajoraxis>
 			<eccentricity errorminus="0.024" errorplus="0.024">0.086</eccentricity>
 			<period errorminus="0.0001" errorplus="0.0001">4.5557</period>
-			<mass>0.62</mass>
+			<mass errorminus="0.025" errorplus="0.025" type="msini">0.620</mass>
+			<periastron errorminus="15" errorplus="15">262</periastron>
+			<maximumrvtime errorminus="0.04" errorplus="0.04">2455387.46</maximumrvtime>
 			<list>Confirmed planets</list>
 			<discoverymethod>RV</discoverymethod>
 			<description>HD 103720 is a very young star orbited by a giant Jupiter planet.</description>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/12/23</lastupdate>
+			<lastupdate>15/11/21</lastupdate>
 		</planet>
 	</star>
 </system>
