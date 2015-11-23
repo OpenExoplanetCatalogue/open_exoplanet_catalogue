@@ -1,16 +1,23 @@
 <system>
 	<name>BD+15 2940</name>
-	<name>HIC 78407</name>
+	<name>HIP 78407</name>
 	<rightascension>16 00 22.93827</rightascension>
 	<declination>+15 32 48.9291</declination>
-	<distance>585</distance>
+	<distance errorminus="312" errorplus="312">508</distance>
 	<star>
 		<name>BD+15 2940</name>
-		<name>HIC 78407</name>
+		<name>HIP 78407</name>
+		<name>TYC 1503-1050-1</name>
+		<name>SAO 101867</name>
+		<name>2MASS J16002294+1532491</name>
 		<mass errorminus="0.2" errorplus="0.2">1.1</mass>
 		<radius errorminus="2.8" errorplus="2.8">14.7</radius>
 		<temperature errorminus="117" errorplus="117">4796</temperature>
+		<magB errorminus="0.04" errorplus="0.04">10.12</magB>
 		<magV errorminus="0.02" errorplus="0.02">9.05</magV>
+		<magJ errorminus="0.020" errorplus="0.020">7.154</magJ>
+		<magH errorminus="0.018" errorplus="0.018">6.664</magH>
+		<magK errorminus="0.016" errorplus="0.016">6.525</magK>
 		<metallicity errorminus="0.07" errorplus="0.07">0.28</metallicity>
 		<age errorminus="4.2" errorplus="4.2">7.1</age>
 		<spectraltype>K0</spectraltype>
@@ -18,17 +25,16 @@
 			<name>BD+15 2940 b</name>
 			<name>HIC 78407 b</name>
 			<list>Confirmed planets</list>
-			<mass>1.11</mass>
+			<mass type="msini">1.11</mass>
 			<period errorminus="0.34" errorplus="0.34">137.48</period>
-			<transittime errorminus="16" errorplus="16" unit="MJD">2453464</transittime>
+			<periastrontime errorminus="16" errorplus="16" unit="MJD">2453464</periastrontime>
 			<semimajoraxis>0.539</semimajoraxis>
 			<eccentricity errorminus="0.10" errorplus="0.10">0.26</eccentricity>
 			<periastron errorminus="33" errorplus="33">302</periastron>
 			<description>The planet BD+15 2940 b was discovered by the Penn State - Torun Planet Search (PTPS) using ground based spectrometer. It is the closest-in planet around a giant star. It might soon be swallowed by the star as a consequence of stellar evolution.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>13/04/26</lastupdate>
+			<lastupdate>15/11/23</lastupdate>
 			<discoveryyear>2013</discoveryyear>
-			<istransiting>1</istransiting>
 		</planet>
 	</star>
 </system>

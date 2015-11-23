@@ -3,12 +3,16 @@
 	<rightascension>09 09 48.8205</rightascension>
 	<declination>+53 34 05.623</declination>
 	<star>
+		<name>HD 233604</name>
+		<name>TYC 3805-193-1</name>
+		<name>SAO 27142</name>
+		<name>BD+15 2940</name>
+		<name>2MASS J16002294+1532491</name>
 		<magB errorminus="0.09" errorplus="0.09">11.33</magB>
 		<magV errorminus="0.05" errorplus="0.05">10.29</magV>
 		<magJ errorminus="0.046" errorplus="0.046">8.660</magJ>
 		<magH errorminus="0.018" errorplus="0.018">8.131</magH>
 		<magK errorminus="0.021" errorplus="0.021">7.979</magK>
-		<name>HD 233604</name>
 		<mass errorminus="0.30" errorplus="0.30">1.50</mass>
 		<radius errorminus="0.6" errorplus="0.6">10.9</radius>
 		<temperature errorminus="45" errorplus="45">4791</temperature>
@@ -18,16 +22,16 @@
 		<planet>
 			<name>HD 233604 b</name>
 			<list>Confirmed planets</list>
-			<mass>6.575</mass>
+			<mass type="msini">6.575</mass>
 			<period errorminus="0.22" errorplus="0.22">192.00</period>
-			<transittime errorminus="77" errorplus="77">2453022</transittime>
+			<periastrontime errorminus="77" errorplus="77">2453022</periastrontime>
 			<semimajoraxis>0.747</semimajoraxis>
 			<eccentricity errorminus="0.03" errorplus="0.03">0.05</eccentricity>
+			<periastron errorminus="43" errorplus="43">281</periastron>
 			<description>The 6 Jupiter mass planet HD 233604 b is one of the least distant planets to a giant star. The star shows a high 7Li abundance which may be either a sign of its early evolutionary stage or a recent engulfment of another planet in the system. The planet was found by the Penn State - Torun Planet Search (PTPS).</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>13/04/26</lastupdate>
+			<lastupdate>15/11/23</lastupdate>
 			<discoveryyear>2013</discoveryyear>
-			<istransiting>1</istransiting>
 		</planet>
 	</star>
 </system>
