@@ -1,30 +1,35 @@
 <system>
 	<name>HD 240210</name>
-	<rightascension>23 10 29</rightascension>
-	<declination>+57 01 46</declination>
-	<distance>143</distance>
+	<rightascension>23 10 29.2303</rightascension>
+	<declination>+57 01 46.035</declination>
+	<distance errorminus="53" errorplus="53">143</distance>
 	<star>
-		<mass>1.25</mass>
-		<magV>8.33</magV>
+		<name>HD 240210</name>
+		<name>TYC 4006-980-1</name>
+		<name>SAO 35195</name>
+		<name>BD+56 2959</name>
+		<name>2MASS J23102924+5701460</name>
+		<mass errorminus="0.15" errorplus="0.15">0.82</mass>
+		<magB errorminus="0.03" errorplus="0.03">9.88</magB>
+		<magV errorminus="0.01" errorplus="0.01">8.27</magV>
 		<magJ errorminus="0.05" errorplus="0.05">5.306</magJ>
 		<magH errorminus="0.036" errorplus="0.036">4.587</magH>
 		<magK errorminus="0.021" errorplus="0.021">4.388</magK>
-		<magB errorminus="0.03" errorplus="0.03">9.88</magB>
-		<metallicity>-0.18</metallicity>
+		<temperature errorminus="25" errorplus="25">4297</temperature>
+		<metallicity errorminus="0.12" errorplus="0.12">-0.18</metallicity>
 		<spectraltype>K3III</spectraltype>
 		<planet>
 			<name>HD 240210 b</name>
 			<list>Confirmed planets</list>
-			<mass>6.9</mass>
-			<period>501.75</period>
+			<mass type="msini">5.21</mass>
+			<period errorminus="2.33" errorplus="2.33">501.75</period>
 			<semimajoraxis>1.33</semimajoraxis>
-			<eccentricity>0.15</eccentricity>
+			<eccentricity errorminus="0.02" errorplus="0.02">0.15</eccentricity>
+			<periastron errorminus="7.77" errorplus="7.77">277.59</periastron>
+			<periastrontime errorminus="10.93" errorplus="10.93">2454487.38</periastrontime>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>09/06/10</lastupdate>
+			<lastupdate>15/11/26</lastupdate>
 			<discoveryyear>2009</discoveryyear>
-			<temperature>386.6</temperature>
 		</planet>
-		<name>HD 240210</name>
-		<temperature>4290.0</temperature>
 	</star>
 </system>
