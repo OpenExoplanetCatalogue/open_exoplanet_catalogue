@@ -1,15 +1,26 @@
 <system>
 	<name>mu Leo</name>
 	<name>HD 85503</name>
-	<rightascension>09 52 45</rightascension>
-	<declination>+26 00 23</declination>
-	<distance errorminus="1.3" errorplus="1.3">40.9</distance>
+	<rightascension>09 52 45.81654</rightascension>
+	<declination>+26 00 25.0319</declination>
+	<distance errorminus="0.23" errorplus="0.23">38.05</distance>
 	<star>
 		<name>mu Leo</name>
 		<name>HD 85503</name>
 		<name>mu Leonis</name>
+		<name>μ Leo</name>
+		<name>μ Leonis</name>
+		<name>mu. Leo</name>
+		<name>24 Leonis</name>
+		<name>24 Leo</name>
 		<name>Rasalas</name>
 		<name>Alshemali</name>
+		<name>HIP 48455</name>
+		<name>TYC 1964-1473-1</name>
+		<name>SAO 81064</name>
+		<name>HR 3905</name>
+		<name>BD+26 2019</name>
+		<name>2MASS J09524585+2600248</name>
 		<mass errorminus="0.1" errorplus="0.1">1.5</mass>
 		<radius errorminus="0.2" errorplus="0.2">11.4</radius>
 		<temperature errorminus="27.5" errorplus="27.5">4538.2</temperature>
@@ -30,14 +41,15 @@
 			<name>Rasalas b</name>
 			<name>Alshemali b</name>
 			<list>Confirmed planets</list>
-			<mass errorminus="0.4" errorplus="0.4">2.4</mass>
+			<mass errorminus="0.4" errorplus="0.4" type="msini">2.4</mass>
 			<period errorminus="1.2" errorplus="1.2">357.8</period>
 			<semimajoraxis errorminus="0.1" errorplus="0.1">1.1</semimajoraxis>
 			<eccentricity errorminus="0.06" errorplus="0.06">0.09</eccentricity>
 			<periastron errorminus="16" errorplus="16">227.1</periastron>
+			<periastrontime errorminus="17.3" errorplus="17.3">2452921.0</periastrontime>
 			<description>The planet mu Leo b is orbiting the K giant mu Leonis, also known as Rasalas (the northern star of the lion's head). It was found using data from the Bohyunsan Observatory.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>14/05/13</lastupdate>
+			<lastupdate>15/11/26</lastupdate>
 			<discoveryyear>2014</discoveryyear>
 		</planet>
 	</star>
