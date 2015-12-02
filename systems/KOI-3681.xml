@@ -1,0 +1,43 @@
+<system>
+	<name>KOI-3681</name>
+	<rightascension>19 30 30.582</rightascension>
+	<declination>+37 51 36.63</declination>
+	<star>
+		<name>KOI-3681</name>
+		<name>KIC 2581316</name>
+		<name>2MASS J19303059+3751364</name>
+		<name>TYC 3135-497-1</name>
+		<magJ errorminus="0.020" errorplus="0.020">10.953</magJ>
+		<magH errorminus="0.020" errorplus="0.020">10.728</magH>
+		<magK errorminus="0.018" errorplus="0.018">10.688</magK>
+		<mass errorminus="0.25" errorplus="0.20">1.09</mass>
+		<radius errorminus="1.11" errorplus="0.75">2.27</radius>
+		<temperature errorminus="215" errorplus="204">6382</temperature>
+		<metallicity errorminus="0.30" errorplus="0.30">-0.84</metallicity>
+		<planet>
+			<name>KOI-3681.01</name>
+			<name>KOI-3681 b</name>
+			<name>KIC 2581316 b</name>
+			<period errorminus="0.0001058" errorplus="0.0001058">217.8317626</period>
+			<transittime errorminus="0.000309" errorplus="0.000309" unit="BJD">2455071.820188</transittime>
+			<radius errorminus="0.96" errorplus="0.65">1.97</radius>
+			<mass>4.20</mass>
+			<lastupdate>15/12/03</lastupdate>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2015</discoveryyear>
+			<list>Confirmed planets</list>
+		</planet>
+		<planet>
+			<name>KOI-3681.02</name>
+			<period errorminus="0.00005207" errorplus="0.00005207">10.51420148</period>
+			<transittime errorminus="0.00438" errorplus="0.00438" unit="BJD">2454967.00438</transittime>
+			<radius errorminus="0.083" errorplus="0.057">0.171</radius>
+			<lastupdate>15/12/03</lastupdate>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2015</discoveryyear>
+			<list>Controversial</list>
+		</planet>
+	</star>
+</system>
