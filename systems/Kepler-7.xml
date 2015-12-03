@@ -9,9 +9,9 @@
 		<magJ errorminus="0.020" errorplus="0.020">11.833</magJ>
 		<magH errorminus="0.022" errorplus="0.022">11.601</magH>
 		<magK errorminus="0.020" errorplus="0.020">11.535</magK>
-		<mass>1.36</mass>
-		<radius>2.02</radius>
-		<metallicity>0.11</metallicity>
+		<mass errorminus="0.09" errorplus="0.09">1.32</mass>
+		<radius errorminus="0.07" errorplus="0.07">1.96</radius>
+		<metallicity errorminus="0.10" errorplus="0.10">0.10</metallicity>
 		<planet>
 			<name>Kepler-7 b</name>
 			<name>2MASS J19141956+4105233 b</name>
@@ -19,15 +19,15 @@
 			<name>KOI-97.01</name>
 			<name>KOI-97 b</name>
 			<list>Confirmed planets</list>
-			<mass>0.433</mass>
-			<radius>1.614</radius>
+			<mass errorminus="0.04" errorplus="0.04">0.44</mass>
+			<radius errorminus="0.01" errorplus="0.01">1.62</radius>
 			<period>4.885525</period>
 			<semimajoraxis>0.06246</semimajoraxis>
 			<eccentricity>0.1</eccentricity>
 			<inclination>85.18</inclination>
 			<transittime errorminus="0.00020" errorplus="0.00023" unit="BJD">2454967.27674</transittime>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>11/05/27</lastupdate>
+			<lastupdate>15/12/03</lastupdate>
 			<discoveryyear>2010</discoveryyear>
 			<temperature>1486.8</temperature>
 			<istransiting>1</istransiting>
@@ -35,6 +35,6 @@
 		<name>Kepler-7</name>
 		<name>KOI-97</name>
 		<name>KIC 5780885</name>
-		<temperature>5933.0</temperature>
+		<temperature errorminus="75" errorplus="75">6027</temperature>
 	</star>
 </system>

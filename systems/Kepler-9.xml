@@ -7,16 +7,16 @@
 		<name>Kepler-9</name>
 		<name>KOI-377</name>
 		<name>KIC 3323887</name>
-		<temperature>5722.0</temperature>
+		<temperature errorminus="61" errorplus="61">5777</temperature>
 		<spectraltype>G2</spectraltype>
-		<mass errorminus="0.03" errorplus="0.03">1.05</mass>
-		<radius errorminus="0.01" errorplus="0.01">1.23</radius>
+		<mass errorminus="0.05" errorplus="0.05">1.07</mass>
+		<radius errorminus="0.05" errorplus="0.05">1.02</radius>
 		<magV>13.9</magV>
 		<magR errorminus="0.10" errorplus="0.10">14.09</magR>
 		<magJ errorminus="0.021" errorplus="0.021">12.710</magJ>
 		<magH errorminus="0.021" errorplus="0.021">12.391</magH>
 		<magK errorminus="0.021" errorplus="0.021">12.337</magK>
-		<metallicity>0.17</metallicity>
+		<metallicity errorminus="0.04" errorplus="0.04">0.12</metallicity>
 		<planet>
 			<name>Kepler-9 b</name>
 			<name>2MASS J19021775+3824032 b</name>
@@ -24,15 +24,15 @@
 			<name>KOI-377.01</name>
 			<name>KOI-377 b</name>
 			<list>Confirmed planets</list>
-			<mass errorminus="0.00471953186" errorplus="0.00471953186">0.141900591</mass>
-			<radius errorminus="0.009113015" errorplus="0.009113015">1.011544678</radius>
+			<mass errorminus="0.01" errorplus="0.01">0.25</mass>
+			<radius errorminus="0.07" errorplus="0.07">0.84</radius>
 			<period errorminus="0.00007" errorplus="0.00007">19.22418</period>
 			<transittime errorminus="0.00052" errorplus="0.00052" unit="BJD">2455073.43381</transittime>
 			<semimajoraxis errorminus="0.001" errorplus="0.001">0.143</semimajoraxis>
 			<inclination errorminus="0.7" errorplus="0.7">87.1</inclination>
 			<eccentricity errorminus="0.001" errorplus="0.001">0.0626</eccentricity>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>14/03/10</lastupdate>
+			<lastupdate>15/12/03</lastupdate>
 			<discoveryyear>2010</discoveryyear>
 			<temperature>707.2</temperature>
 			<istransiting>1</istransiting>
@@ -44,15 +44,15 @@
 			<name>KOI-377.02</name>
 			<name>KOI-377 c</name>
 			<list>Confirmed planets</list>
-			<mass errorminus="0.00314635457" errorplus="0.00314635457">0.0975369917</mass>
-			<radius errorminus="0.009113015" errorplus="0.009113015">0.9750926178</radius>
+			<mass errorminus="0.01" errorplus="0.01">0.17</mass>
+			<radius errorminus="0.07" errorplus="0.07">0.82</radius>
 			<period errorminus="0.0002" errorplus="0.0002">39.03106</period>
 			<semimajoraxis errorminus="0.002" errorplus="0.002">0.229</semimajoraxis>
 			<inclination errorminus="0.7" errorplus="0.7">87.2</inclination>
 			<eccentricity errorminus="0.0002" errorplus="0.0002">0.0684</eccentricity>
 			<transittime errorminus="0.00074" errorplus="0.00074" unit="BJD">2455164.18301</transittime>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>14/03/10</lastupdate>
+			<lastupdate>15/12/03</lastupdate>
 			<discoveryyear>2010</discoveryyear>
 			<temperature>557.9</temperature>
 			<istransiting>1</istransiting>

@@ -7,14 +7,14 @@
 		<name>Kepler-89</name>
 		<name>KOI-94</name>
 		<name>KIC 6462863</name>
-		<mass>1.277</mass>
-		<radius>1.52</radius>
+		<mass errorminus="0.05" errorplus="0.05">1.28</mass>
+		<radius errorminus="0.14" errorplus="0.14">1.52</radius>
 		<magJ errorminus="0.022" errorplus="0.022">11.218</magJ>
 		<magH errorminus="0.018" errorplus="0.018">10.957</magH>
 		<magK errorminus="0.019" errorplus="0.019">10.926</magK>
-		<temperature>6182</temperature>
+		<temperature errorminus="58" errorplus="58">6182</temperature>
 		<age>3.16</age>
-		<metallicity>0.0228</metallicity>
+		<metallicity>0.02</metallicity>
 		<spectraltype>F</spectraltype>
 		<planet>
 			<name>Kepler-89 b</name>
@@ -65,8 +65,8 @@
 			<name>KIC 6462863 d</name>
 			<name>KIC 6462863.01</name>
 			<list>Confirmed planets</list>
-			<radius>1.0270384</radius>
-			<mass>0.33344427</mass>
+			<radius errorminus="0.10" errorplus="0.10">1.00</radius>
+			<mass errorminus="0.04" errorplus="0.04">0.33</mass>
 			<semimajoraxis>0.1684</semimajoraxis>
 			<period errorminus="0.0000067" errorplus="0.0000067">22.3429890</period>
 			<inclination errorminus="0.123" errorplus="0.123">89.871</inclination>
@@ -74,7 +74,7 @@
 			<transittime errorminus="0.00062" errorplus="0.00062" unit="BJD">2455211.51790</transittime>
 			<description>This planetary system was discovered by the Kepler spacecraft. The planets were confirmed by an analysis of the Rossiter-McLaughlin (RM) effect.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>13/03/15</lastupdate>
+			<lastupdate>15/12/03</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<temperature>806</temperature>
 			<istransiting>1</istransiting>
