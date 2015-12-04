@@ -10,10 +10,10 @@
 		<name>KOI-3663</name>
 		<name>KIC 12735740</name>
 		<name>2MASS 19190326+5157453</name>
-		<metallicity>-0.07</metallicity>
-		<temperature>6529</temperature>
-		<mass>0.94</mass>
-		<radius>1.0</radius>
+		<metallicity errorminus="0.03" errorplus="0.03">-0.08</metallicity>
+		<temperature errorminus="45" errorplus="42">5629</temperature>
+		<mass errorminus="0.02" errorplus="0.02">0.94</mass>
+		<radius errorminus="0.05" errorplus="0.05">1.00</radius>
 		<planet>
 			<name>PH-2 b</name>
 			<name>KOI-3663.01</name>
@@ -28,7 +28,7 @@
 			<periastron>3.43774677</periastron>
 			<inclination>89.83</inclination>
 			<semimajoraxis>0.828</semimajoraxis>
-			<radius>0.922238</radius>
+			<radius errorminus="0.05" errorplus="0.05">0.90</radius>
 			<temperature>281</temperature>
 			<transittime unit="MJD">2455195.570</transittime>
 			<description>The exoplanet PH-2 b was discovered by citizen scientists using an online tool at planethunters.org. The planet is a gas giant and could be located in the star's habitable zone. The system might also have a faint binary companion.</description>
@@ -37,9 +37,10 @@
 			
 Image Credit: H. Giguere, M. Giguere/Yale University</imagedescription>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>14/03/25</lastupdate>
+			<lastupdate>15/12/03</lastupdate>
 			<discoveryyear>2013</discoveryyear>
 			<istransiting>1</istransiting>
+			<mass upperlimit="80.0" />
 		</planet>
 	</star>
 	<videolink>http://youtu.be/qHvb9mewXJo</videolink>

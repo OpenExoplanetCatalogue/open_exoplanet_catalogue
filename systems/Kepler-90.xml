@@ -11,10 +11,10 @@
 		<magJ errorminus="0.029" errorplus="0.029">12.790</magJ>
 		<magH errorminus="0.03" errorplus="0.03">12.53</magH>
 		<magK errorminus="0.024" errorplus="0.024">12.482</magK>
-		<temperature errorminus="320" errorplus="320">5930</temperature>
-		<metallicity errorminus="0.21" errorplus="0.21">-0.17</metallicity>
-		<radius errorminus="0.1" errorplus="0.1">1.2</radius>
-		<mass errorminus="0.1200" errorplus="0.1200">1.1400</mass>
+		<temperature errorminus="170" errorplus="260">6080</temperature>
+		<metallicity errorminus="0.18" errorplus="0.18">-0.12</metallicity>
+		<radius errorminus="0.10" errorplus="0.10">1.20</radius>
+		<mass errorminus="0.10" errorplus="0.10">1.20</mass>
 		<age errorminus="0.8800" errorplus="0.8800">0.5300</age>
 		<planet>
 			<name>Kepler-90 h</name>
@@ -25,13 +25,14 @@
 			<list>Confirmed planets</list>
 			<period errorminus="0.00037" errorplus="0.00037">331.60059</period>
 			<semimajoraxis errorminus="0.11" errorplus="0.11">1.01</semimajoraxis>
-			<radius errorminus="0.091130" errorplus="0.091130">1.029772</radius>
+			<radius errorminus="0.09" errorplus="0.09">1.01</radius>
 			<inclination errorminus="1.3" errorplus="1.3">89.6</inclination>
 			<discoveryyear>2013</discoveryyear>
-			<lastupdate>13/10/24</lastupdate>
+			<lastupdate>15/12/03</lastupdate>
 			<discoverymethod>transit</discoverymethod>
 			<description>KOI-351 is the first seven planet system discovered by Kepler. It is somewhat similar to our own Solar System, but much more compact. Two independent groups have found the transits in the Kepler data, one of them being citizen scientists (PlanetHunters.org).</description>
 			<istransiting>1</istransiting>
+			<mass upperlimit="1.2" />
 		</planet>
 		<planet>
 			<name>Kepler-90 g</name>
@@ -42,13 +43,14 @@
 			<list>Confirmed planets</list>
 			<period errorminus="0.00043" errorplus="0.00043">210.60697</period>
 			<semimajoraxis errorminus="0.08" errorplus="0.08">0.71</semimajoraxis>
-			<radius errorminus="0.072904" errorplus="0.072904">0.738155</radius>
+			<radius errorminus="0.07" errorplus="0.07">0.72</radius>
 			<inclination errorminus="0.06" errorplus="0.06">89.8</inclination>
 			<discoveryyear>2013</discoveryyear>
-			<lastupdate>13/10/24</lastupdate>
+			<lastupdate>15/12/03</lastupdate>
 			<discoverymethod>transit</discoverymethod>
 			<description>KOI-351 is the first seven planet system discovered by Kepler. It is somewhat similar to our own Solar System, but much more compact. Two independent groups have found the transits in the Kepler data, one of them being citizen scientists (PlanetHunters.org).</description>
 			<istransiting>1</istransiting>
+			<mass upperlimit="0.8" />
 		</planet>
 		<planet>
 			<name>Kepler-90 f</name>

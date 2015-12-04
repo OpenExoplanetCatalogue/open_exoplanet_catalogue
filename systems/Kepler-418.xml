@@ -9,25 +9,25 @@
 		<name>Kepler-418</name>
 		<name>KOI-1089</name>
 		<name>KIC 3247268</name>
-		<mass errorminus="0.08" errorplus="0.08">0.98</mass>
-		<radius errorminus="0.14" errorplus="0.14">1.09</radius>
-		<temperature errorminus="100" errorplus="100">5820</temperature>
-		<metallicity errorminus="0.10" errorplus="0.10">-0.05</metallicity>
+		<mass errorminus="0.10" errorplus="0.21">1.29</mass>
+		<radius errorminus="0.36" errorplus="0.68">1.60</radius>
+		<temperature errorminus="169" errorplus="169">6029</temperature>
+		<metallicity errorminus="0.13" errorplus="0.13">0.31</metallicity>
 		<planet>
 			<name>Kepler-418 b</name>
 			<name>KOI-1089.01</name>
 			<name>KOI-1089 b</name>
 			<name>KIC 3247268 b</name>
 			<list>Confirmed planets</list>
-			<mass>1.1</mass>
-			<radius errorminus="0.16" errorplus="0.16">1.2</radius>
+			<mass upperlimit="1.1" />
+			<radius errorminus="0.16" errorplus="0.16">1.20</radius>
 			<period errorminus="0.00007" errorplus="0.00007">86.67856</period>
 			<eccentricity errorminus="0.11" errorplus="0.11">0.20</eccentricity>
 			<inclination errorminus="0.041" errorplus="0.041">89.952</inclination>
 			<description>Kepler-418b is one of two proposed planets in system Kepler-418.</description>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
-			<lastupdate>14/05/27</lastupdate>
+			<lastupdate>15/12/03</lastupdate>
 			<discoveryyear>2014</discoveryyear>
 		</planet>
 	</star>

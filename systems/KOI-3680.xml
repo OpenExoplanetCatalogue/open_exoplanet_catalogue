@@ -1,0 +1,31 @@
+<system>
+	<name>KOI-3680</name>
+	<rightascension>19 33 07.574</rightascension>
+	<declination>+45 18 34.81</declination>
+	<star>
+		<name>KOI-3680</name>
+		<name>KIC 9025971</name>
+		<name>2MASS J19330757+4518348</name>
+		<magJ errorminus="0.021" errorplus="0.021">13.384</magJ>
+		<magH errorminus="0.027" errorplus="0.027">13.041</magH>
+		<magK errorminus="0.039" errorplus="0.039">13.101</magK>
+		<mass errorminus="0.12" errorplus="0.11">1.00</mass>
+		<radius errorminus="0.07" errorplus="0.34">0.91</radius>
+		<temperature errorminus="172" errorplus="161">5926</temperature>
+		<metallicity errorminus="0.28" errorplus="0.24">-0.12</metallicity>
+		<planet>
+			<name>KOI-3680.01</name>
+			<name>KOI-3680 b</name>
+			<name>KIC 9025971 b</name>
+			<period errorminus="0.00009865" errorplus="0.00009865">141.24164672</period>
+			<transittime errorminus="0.000622" errorplus="0.000622" unit="BJD">2455089.204571</transittime>
+			<radius errorminus="0.08" errorplus="0.36">0.95</radius>
+			<mass>2.20</mass>
+			<lastupdate>15/12/03</lastupdate>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2015</discoveryyear>
+			<list>Confirmed planets</list>
+		</planet>
+	</star>
+</system>
