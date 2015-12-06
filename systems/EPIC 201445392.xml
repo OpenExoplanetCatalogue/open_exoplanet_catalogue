@@ -1,43 +1,47 @@
 <system>
 	<name>EPIC 201445392</name>
+	<name>K2-8</name>
 	<rightascension>11 19 10.48</rightascension>
 	<declination>-00 17 03.75</declination>
 	<distance errorminus="16" errorplus="14">405</distance>
 	<star>
 		<name>EPIC 201445392</name>
 		<name>K2-8</name>
-		<mass errorminus="0.04" errorplus="0.03">0.79</mass>
-		<radius errorminus="0.03" errorplus="0.02">0.74</radius>
-		<temperature errorminus="58" errorplus="38">4890</temperature>
+		<name>2MASS J11191047-0017036</name>
+		<mass errorminus="0.04" errorplus="0.04">0.78</mass>
+		<radius errorminus="0.04" errorplus="0.04">0.74</radius>
+		<temperature errorminus="60" errorplus="60">4870</temperature>
+		<magV errorminus="0.03" errorplus="0.03">14.61</magV>
 		<magJ errorminus="0.03" errorplus="0.03">12.83</magJ>
 		<magH errorminus="0.03" errorplus="0.03">12.32</magH>
 		<magK errorminus="0.03" errorplus="0.03">12.24</magK>
-		<metallicity errorminus="0.13" errorplus="0.11">-0.01</metallicity>
+		<metallicity errorminus="0.04" errorplus="0.04">-0.02</metallicity>
 		<planet>
 			<name>EPIC 201445392 b</name>
 			<name>EPIC 201445392.01</name>
 			<name>K2-8 b</name>
 			<list>Confirmed planets</list>
-			<radius errorminus="0.047" errorplus="0.047">0.273</radius>
-			<period errorminus="0.00133" errorplus="0.00133">10.35176</period>
-			<transittime errorminus="0.0053" errorplus="0.0053" unit="BJD">2456813.6119</transittime>
-			<semimajoraxis errorminus="0.0012" errorplus="0.0012">0.0856</semimajoraxis>
-			<temperature errorminus="14" errorplus="14">691</temperature>
+			<radius errorminus="0.063" errorplus="0.063">0.319</radius>
+			<period errorminus="0.00086" errorplus="0.00086">10.35239</period>
+			<transittime errorminus="0.0030" errorplus="0.0030" unit="BJD">2456813.6114</transittime>
+			<semimajoraxis errorminus="0.0014" errorplus="0.0014">0.0856</semimajoraxis>
+			<inclination errorminus="1.37" errorplus="2.56">86.42</inclination>
 			<description>This planet was discovered by the Kepler spacecraft during its extended K2 mission, Campaign 1.</description>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
-			<lastupdate>15/07/07</lastupdate>
+			<lastupdate>15/12/06</lastupdate>
 			<discoveryyear>2015</discoveryyear>
 		</planet>
 		<planet>
 			<name>EPIC 201445392 c</name>
 			<name>EPIC 201445392.02</name>
-			<list>Controversial</list>
-			<radius errorminus="0.030" errorplus="0.030">0.213</radius>
-			<period errorminus="0.00063" errorplus="0.00063">5.06468</period>
-			<transittime errorminus="0.0071" errorplus="0.0071" unit="BJD">2456813.0663</transittime>
-			<semimajoraxis errorminus="0.0008" errorplus="0.0008">0.0531</semimajoraxis>
-			<temperature errorminus="17" errorplus="17">877</temperature>
+			<name>K2-8 c</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.029" errorplus="0.029">0.215</radius>
+			<period errorminus="0.00041" errorplus="0.00041">5.06416</period>
+			<transittime errorminus="0.0033" errorplus="0.0033" unit="BJD">2456813.0707</transittime>
+			<semimajoraxis errorminus="0.0009" errorplus="0.0009">0.0532</semimajoraxis>
+			<inclination errorminus="2.48" errorplus="2.48">86.70</inclination>
 			<description>This planet was discovered by the Kepler spacecraft during its extended K2 mission, Campaign 1.</description>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>

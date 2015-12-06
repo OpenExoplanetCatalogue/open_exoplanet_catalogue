@@ -6,6 +6,7 @@
 	<star>
 		<name>EPIC 203771098</name>
 		<name>2MASS J16101770-2459251</name>
+		<name>TYC 6784-837-1</name>
 		<magB errorminus="0.20" errorplus="0.20">12.22</magB>
 		<magV errorminus="0.10" errorplus="0.10">11.28</magV>
 		<magJ errorminus="0.02" errorplus="0.02">9.63</magJ>
@@ -13,38 +14,38 @@
 		<magK errorminus="0.02" errorplus="0.02">9.18</magK>
 		<temperature errorminus="60" errorplus="60">5743</temperature>
 		<metallicity errorminus="0.04" errorplus="0.04">0.42</metallicity>
-		<mass errorminus="0.05" errorplus="0.05">1.12</mass>
-		<radius errorminus="0.11" errorplus="0.11">1.21</radius>
+		<mass errorminus="0.06" errorplus="0.06">1.12</mass>
+		<radius errorminus="0.12" errorplus="0.12">1.21</radius>
 		<age lowerlimit="3.2" upperlimit="6.9" />
 		<spectraltype>G3V</spectraltype>
 		<planet>
 			<name>EPIC 203771098 b</name>
-			<transittime errorminus="0.0007" errorplus="0.0007" unit="BJD">2456905.7948</transittime>
-			<period errorminus="0.0003" errorplus="0.0003">20.8851</period>
-			<inclination errorminus="0.61" errorplus="0.49">89.25</inclination>
-			<semimajoraxis errorminus="0.002" errorplus="0.002">0.154</semimajoraxis>
-			<radius errorminus="0.050" errorplus="0.050">0.507</radius>
+			<transittime errorminus="0.0007" errorplus="0.0007" unit="BJD">2456905.7950</transittime>
+			<period errorminus="0.00036" errorplus="0.00036">20.88508</period>
+			<inclination errorminus="0.62" errorplus="0.62">88.95</inclination>
+			<semimajoraxis errorminus="0.0026" errorplus="0.0026">0.1542</semimajoraxis>
+			<radius errorminus="0.054" errorplus="0.054">0.520</radius>
 			<mass errorminus="0.017" errorplus="0.017">0.066</mass>
 			<istransiting>1</istransiting>
 			<discoverymethod>transit</discoverymethod>
 			<discoveryyear>2015</discoveryyear>
 			<description>EPIC 203771098 is a metal-rich G3 dwarf hosting two low-density, sub-Saturn planets in orbits close to the 2:1 mean-motion resonance. The system was discovered using K2 photometry and radial velocities were measured with Keck/HIRES, allowing determination of the planetary masses.</description>
-			<lastupdate>15/11/21</lastupdate>
+			<lastupdate>15/12/06</lastupdate>
 			<list>Confirmed planets</list>
 		</planet>
 		<planet>
 			<name>EPIC 203771098 c</name>
-			<transittime errorminus="0.0004" errorplus="0.0004" unit="BJD">2456915.6251</transittime>
-			<period errorminus="0.0006" errorplus="0.0006">42.3633</period>
-			<inclination errorminus="0.21" errorplus="0.18">89.76</inclination>
-			<semimajoraxis errorminus="0.004" errorplus="0.004">0.247</semimajoraxis>
-			<radius errorminus="0.064" errorplus="0.064">0.698</radius>
+			<transittime errorminus="0.0005" errorplus="0.0005" unit="BJD">2456915.6250</transittime>
+			<period errorminus="0.00063" errorplus="0.00063">42.36342</period>
+			<inclination errorminus="0.17" errorplus="0.26">89.43</inclination>
+			<semimajoraxis errorminus="0.0041" errorplus="0.0041">0.2471</semimajoraxis>
+			<radius errorminus="0.073" errorplus="0.073">0.723</radius>
 			<mass errorminus="0.0217" errorplus="0.0217">0.0850</mass>
 			<istransiting>1</istransiting>
 			<discoverymethod>transit</discoverymethod>
 			<discoveryyear>2015</discoveryyear>
 			<description>EPIC 203771098 is a metal-rich G3 dwarf hosting two low-density, sub-Saturn planets in orbits close to the 2:1 mean-motion resonance. The system was discovered using K2 photometry and radial velocities were measured with Keck/HIRES, allowing determination of the planetary masses.</description>
-			<lastupdate>15/11/21</lastupdate>
+			<lastupdate>15/12/06</lastupdate>
 			<list>Confirmed planets</list>
 		</planet>
 	</star>
