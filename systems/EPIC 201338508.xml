@@ -1,57 +1,52 @@
 <system>
 	<name>EPIC 201338508</name>
+	<name>K2-5</name>
 	<rightascension>11 17 12.84</rightascension>
 	<declination>-01 52 40.71</declination>
 	<distance errorminus="7" errorplus="7">181</distance>
-	<binary>
-		<star>
-			<name>EPIC 201338508</name>
-			<name>K2-5</name>
-			<mass errorminus="0.01" errorplus="0.01">0.53</mass>
-			<radius errorminus="0.01" errorplus="0.01">0.52</radius>
-			<temperature errorminus="41" errorplus="45">4102</temperature>
-			<magJ errorminus="0.03" errorplus="0.03">12.45</magJ>
-			<magH errorminus="0.02" errorplus="0.02">11.76</magH>
-			<magK errorminus="0.02" errorplus="0.02">11.6</magK>
-			<metallicity errorminus="0.06" errorplus="0.04">-0.51</metallicity>
-			<planet>
-				<name>EPIC 201338508 c</name>
-				<name>EPIC 201338508.01</name>
-				<name>K2-5 c</name>
-				<list>Confirmed planets</list>
-				<radius errorminus="0.018" errorplus="0.018">0.177</radius>
-				<period errorminus="0.00205" errorplus="0.00205">10.93406</period>
-				<transittime errorminus="0.008" errorplus="0.008" unit="BJD">2456814.5947</transittime>
-				<semimajoraxis errorminus="0.0007" errorplus="0.0007">0.0783</semimajoraxis>
-				<temperature errorminus="9" errorplus="9">511</temperature>
-				<description>This planet was discovered by the Kepler spacecraft during its extended K2 mission, Campaign 1.</description>
-				<discoverymethod>transit</discoverymethod>
-				<istransiting>1</istransiting>
-				<lastupdate>15/07/07</lastupdate>
-				<discoveryyear>2015</discoveryyear>
-				<list>Planets in binary systems, S-type</list>
-			</planet>
-			<planet>
-				<name>EPIC 201338508 b</name>
-				<name>EPIC 201338508.02</name>
-				<name>K2-5 b</name>
-				<list>Confirmed planets</list>
-				<radius errorminus="0.021" errorplus="0.021">0.177</radius>
-				<period errorminus="0.00061" errorplus="0.00061">5.73491</period>
-				<transittime errorminus="0.0063" errorplus="0.0063" unit="BJD">2456808.864</transittime>
-				<semimajoraxis errorminus="0.0004" errorplus="0.0004">0.0509</semimajoraxis>
-				<temperature errorminus="12" errorplus="12">634</temperature>
-				<description>This planet was discovered by the Kepler spacecraft during its extended K2 mission, Campaign 1.</description>
-				<discoverymethod>transit</discoverymethod>
-				<istransiting>1</istransiting>
-				<lastupdate>15/07/07</lastupdate>
-				<discoveryyear>2015</discoveryyear>
-				<list>Planets in binary systems, S-type</list>
-			</planet>
-		</star>
-		<star>
-			<name>EPIC 201338508 B</name>
-		</star>
-		<separation errorminus="0.07" errorplus="0.07" unit="arcsec">22.92</separation>
-	</binary>
+	<star>
+		<name>EPIC 201338508</name>
+		<name>K2-5</name>
+		<name>2MASS J11171284-0152406</name>
+		<mass errorminus="0.13" errorplus="0.13">0.61</mass>
+		<radius errorminus="0.12" errorplus="0.12">0.57</radius>
+		<temperature errorminus="375" errorplus="375">3930</temperature>
+		<magV errorminus="0.03" errorplus="0.03">14.91</magV>
+		<magJ errorminus="0.03" errorplus="0.03">12.45</magJ>
+		<magH errorminus="0.02" errorplus="0.02">11.76</magH>
+		<magK errorminus="0.02" errorplus="0.02">11.6</magK>
+		<metallicity errorminus="0.19" errorplus="0.19">-0.33</metallicity>
+		<planet>
+			<name>EPIC 201338508 c</name>
+			<name>EPIC 201338508.01</name>
+			<name>K2-5 c</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.055" errorplus="0.055">0.202</radius>
+			<period errorminus="0.00134" errorplus="0.00134">10.93241</period>
+			<transittime errorminus="0.0052" errorplus="0.0052" unit="BJD">2456814.6010</transittime>
+			<semimajoraxis errorminus="0.0059" errorplus="0.0059">0.0818</semimajoraxis>
+			<inclination errorminus="2.47" errorplus="2.47">86.95</inclination>
+			<description>This planet was discovered by the Kepler spacecraft during its extended K2 mission, Campaign 1.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>15/12/06</lastupdate>
+			<discoveryyear>2015</discoveryyear>
+		</planet>
+		<planet>
+			<name>EPIC 201338508 b</name>
+			<name>EPIC 201338508.02</name>
+			<name>K2-5 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.039" errorplus="0.039">0.170</radius>
+			<period errorminus="0.00064" errorplus="0.00064">5.73594</period>
+			<transittime errorminus="0.00064" errorplus="0.00064" unit="BJD">2456808.8600</transittime>
+			<semimajoraxis errorminus="0.0038" errorplus="0.0038">0.0532</semimajoraxis>
+			<inclination errorminus="3.37" errorplus="1.88">87.35</inclination>
+			<description>This planet was discovered by the Kepler spacecraft during its extended K2 mission, Campaign 1.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>15/12/06</lastupdate>
+			<discoveryyear>2015</discoveryyear>
+		</planet>
+	</star>
 </system>
