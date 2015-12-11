@@ -1,15 +1,27 @@
 <system>
 	<name>eps Eridani</name>
-	<rightascension>03 32 55</rightascension>
-	<declination>-09 27 29</declination>
-	<distance>3.2</distance>
+	<rightascension>03 32 55.84496</rightascension>
+	<declination>-09 27 29.7312</declination>
+	<distance errorminus="0.0017" errorplus="0.0017">3.2161</distance>
 	<star>
 		<name>eps Eridani</name>
 		<name>eps Eri</name>
+		<name>Epsilon Eridani</name>
+		<name>ε Eri</name>
+		<name>ε Eridani</name>
+		<name>18 Eri</name>
+		<name>18 Eridani</name>
 		<name>HR 1084</name>
 		<name>HD 22049</name>
-		<mass>0.83</mass>
-		<radius>0.895</radius>
+		<name>HIP 16537</name>
+		<name>TYC 5296-1533-1</name>
+		<name>SAO 130564</name>
+		<name>Gliese 144</name>
+		<name>GJ 144</name>
+		<name>BD-09 697</name>
+		<name>2MASS J03325591-0927298</name>
+		<mass>0.82</mass>
+		<radius errorminus="0.010" errorplus="0.010">0.743</radius>
 		<magV>3.73</magV>
 		<magR>3.00</magR>
 		<magI>2.54</magI>
@@ -17,25 +29,32 @@
 		<magJ errorminus="0.298" errorplus="0.298">2.228</magJ>
 		<magH errorminus="0.276" errorplus="0.276">1.880</magH>
 		<magK errorminus="0.286" errorplus="0.286">1.776</magK>
-		<metallicity>-0.13</metallicity>
+		<temperature errorminus="100" errorplus="100">5135</temperature>
+		<metallicity>-0.07</metallicity>
 		<spectraltype>K2 V</spectraltype>
+		<age errorminus="0.2" errorplus="0.2">0.7</age>
 		<planet>
 			<name>eps Eridani b</name>
 			<name>eps Eri b</name>
+			<name>Epsilon Eridani b</name>
+			<name>ε Eri b</name>
+			<name>ε Eridani b</name>
+			<name>18 Eri b</name>
+			<name>18 Eridani b</name>
 			<name>HR 1084 b</name>
 			<name>HD 22049 b</name>
 			<list>Controversial</list>
-			<mass>1.55</mass>
-			<period>2502</period>
-			<semimajoraxis>3.39</semimajoraxis>
-			<eccentricity>0.702</eccentricity>
-			<inclination>30.1</inclination>
+			<mass errorminus="0.058" errorplus="0.058" type="msini">0.645</mass>
+			<period errorminus="36" errorplus="36">2651</period>
+			<semimajoraxis>3.51</semimajoraxis>
+			<eccentricity errorminus="0.11" errorplus="0.11">0.40</eccentricity>
+			<periastron errorminus="9.8" errorplus="9.8">141.4</periastron>
+			<meananomaly errorminus="12" errorplus="12">9</meananomaly>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/10/19</lastupdate>
+			<lastupdate>15/11/12</lastupdate>
 			<discoveryyear>2000</discoveryyear>
-			<temperature>111.8</temperature>
+			<description>The planet eps Eri b has been inferred from radial velocities. The host star is active and recent studies have resulted in either non-detection of the planet (Zechmeister et al. 2013) or orbital parameters incompatible with previous solutions (Anglada-Escudé &amp; Butler 2012). The radial velocity variations may therefore be related to a stellar activity cycle rather than an orbiting planet.</description>
 		</planet>
-		<temperature>5116.0</temperature>
 	</star>
 	<videolink>http://youtu.be/gUwIp4_smcY</videolink>
 </system>
