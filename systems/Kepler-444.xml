@@ -3,7 +3,7 @@
 	<rightascension>19 19 00.54910</rightascension>
 	<declination>+41 38 04.5682</declination>
 	<distance errorminus="1.1" errorplus="1.1">35.7</distance>
-	<star>
+	<binary>
 		<name>Kepler-444</name>
 		<name>HIP 94931</name>
 		<name>KOI-3158</name>
@@ -12,116 +12,171 @@
 		<name>PPM 58152</name>
 		<name>TYC 3129-329-1</name>
 		<name>BD+41 3306</name>
-		<mass errorminus="0.043" errorplus="0.043">0.758</mass>
-		<radius errorminus="0.014" errorplus="0.014">0.752</radius>
-		<temperature errorminus="74" errorplus="74">5046</temperature>
-		<age errorminus="0.99" errorplus="0.91">11.23</age>
-		<magB>6.67</magB>
-		<magV>8.86</magV>
-		<magR>8.18</magR>
-		<magI>7.66</magI>
-		<magJ errorminus="0.026" errorplus="0.026">7.244</magJ>
-		<magH errorminus="0.047" errorplus="0.047">6.772</magH>
-		<magK errorminus="0.020" errorplus="0.020">6.703</magK>
-		<metallicity errorminus="0.07" errorplus="0.07">-0.55</metallicity>
-		<spectraltype>K0V</spectraltype>
-		<planet>
-			<name>Kepler-444 b</name>
-			<name>HIP 94931 b</name>
-			<name>KOI-3158.01</name>
-			<name>KOI-3158 b</name>
-			<name>KIC 6278762 b</name>
-			<name>LHS 3450 b</name>
-			<name>PPM 58152 b</name>
-			<name>TYC 3129-329-1 b</name>
-			<name>BD+41 3306 b</name>
-			<list>Confirmed planets</list>
-			<radius errorminus="0.001276" errorplus="0.001458">0.036726</radius>
-			<period errorminus="0.0000080" errorplus="0.0000083">3.6001053</period>
-			<semimajoraxis errorminus="0.00079" errorplus="0.00079">0.04178</semimajoraxis>
-			<eccentricity errorminus="0.08" errorplus="0.22">0.08</eccentricity>
-			<inclination errorminus="0.6" errorplus="1.2">88.0</inclination>
-			<description>This planet is part of the Kepler-444 system. The planetary system is tightly placked with at least 5 terrestrial planets. The host star formed 11 billion years ago, when the universe was less than 20 percent of its current age. This makes Kepler-444 the oldest known system of terrestrial size planets.</description>
-			<discoverymethod>transit</discoverymethod>
-			<istransiting>1</istransiting>
-			<lastupdate>15/07/28</lastupdate>
-			<discoveryyear>2015</discoveryyear>
-		</planet>
-		<planet>
-			<name>Kepler-444 c</name>
-			<name>HIP 94931 c</name>
-			<name>KOI-3158.02</name>
-			<name>KOI-3158 c</name>
-			<name>KIC 6278762 c</name>
-			<name>LHS 3450 c</name>
-			<list>Confirmed planets</list>
-			<radius errorminus="0.001549" errorplus="0.001914">0.045292</radius>
-			<period errorminus="0.0000071" errorplus="0.0000070">4.5458841</period>
-			<semimajoraxis errorminus="0.00093" errorplus="0.00093">0.04881</semimajoraxis>
-			<eccentricity errorminus="0.12" errorplus="0.17">0.12</eccentricity>
-			<inclination errorminus="1.0" errorplus="1.2">88.2</inclination>
-			<description>This planet is part of the Kepler-444 system. The planetary system is tightly placked with at least 5 terrestrial planets. The host star formed 11 billion years ago, when the universe was less than 21 percent of its current age. This makes Kepler-444 the oldest known system of terrestrial size planets.</description>
-			<discoverymethod>transit</discoverymethod>
-			<istransiting>1</istransiting>
-			<lastupdate>15/07/28</lastupdate>
-			<discoveryyear>2015</discoveryyear>
-		</planet>
-		<planet>
-			<name>Kepler-444 d</name>
-			<name>HIP 94931 d</name>
-			<name>KOI-3158.03</name>
-			<name>KOI-3158 d</name>
-			<name>KIC 6278762 d</name>
-			<name>LHS 3450 d</name>
-			<list>Confirmed planets</list>
-			<radius errorminus="0.001731" errorplus="0.002005">0.048299</radius>
-			<period errorminus="0.000012" errorplus="0.000012">6.189392</period>
-			<semimajoraxis errorminus="0.0011" errorplus="0.0011">0.0600</semimajoraxis>
-			<eccentricity errorminus="0.18" errorplus="0.16">0.18</eccentricity>
-			<inclination errorminus="0.55" errorplus="0.81">88.16</inclination>
-			<description>This planet is part of the Kepler-444 system. The planetary system is tightly placked with at least 5 terrestrial planets. The host star formed 11 billion years ago, when the universe was less than 20 percent of its current age. This makes Kepler-444 the oldest known system of terrestrial size planets.</description>
-			<discoverymethod>transit</discoverymethod>
-			<istransiting>1</istransiting>
-			<lastupdate>15/07/28</lastupdate>
-			<discoveryyear>2015</discoveryyear>
-		</planet>
-		<planet>
-			<name>Kepler-444 e</name>
-			<name>HIP 94931 e</name>
-			<name>KOI-3158.04</name>
-			<name>KOI-3158 e</name>
-			<name>KIC 6278762 e</name>
-			<name>LHS 3450 e</name>
-			<list>Confirmed planets</list>
-			<radius errorminus="0.001367" errorplus="0.001549">0.049757</radius>
-			<period errorminus="0.000016" errorplus="0.000017">7.743493</period>
-			<semimajoraxis errorminus="0.0013" errorplus="0.0013">0.0696</semimajoraxis>
-			<eccentricity errorminus="0.02" errorplus="0.27">0.02</eccentricity>
-			<inclination errorminus="0.52" errorplus="0.54">89.13</inclination>
-			<description>This planet is part of the Kepler-444 system. The planetary system is tightly placked with at least 5 terrestrial planets. The host star formed 11 billion years ago, when the universe was less than 20 percent of its current age. This makes Kepler-444 the oldest known system of terrestrial size planets.</description>
-			<discoverymethod>transit</discoverymethod>
-			<istransiting>1</istransiting>
-			<lastupdate>15/07/28</lastupdate>
-			<discoveryyear>2015</discoveryyear>
-		</planet>
-		<planet>
-			<name>Kepler-444 f</name>
-			<name>HIP 94931 f</name>
-			<name>KOI-3158.05</name>
-			<name>KOI-3158 f</name>
-			<name>KIC 6278762 f</name>
-			<name>LHS 3450 f</name>
-			<list>Confirmed planets</list>
-			<radius errorminus="0.003645" errorplus="0.003736">0.067528</radius>
-			<period errorminus="0.000013" errorplus="0.000013">9.740486</period>
-			<eccentricity errorminus="0.19" errorplus="0.2">0.29</eccentricity>
-			<semimajoraxis errorminus="0.0015" errorplus="0.0015">0.0811</semimajoraxis>
-			<inclination errorminus="0.31" errorplus="0.36">87.96</inclination>
-			<description>This planet is part of the Kepler-444 system. The planetary system is tightly placked with at least 5 terrestrial planets. The host star formed 11 billion years ago, when the universe was less than 20 percent of its current age. This makes Kepler-444 the oldest known system of terrestrial size planets.</description>
-			<discoverymethod>transit</discoverymethod>
-			<istransiting>1</istransiting>
-			<lastupdate>15/02/01</lastupdate>
-			<discoveryyear>2015</discoveryyear>
-		</planet>
-	</star>
+		<semimajoraxis errorminus="0.9" errorplus="0.7">36.7</semimajoraxis>
+		<eccentricity errorminus="0.023" errorplus="0.023">0.864</eccentricity>
+		<inclination errorminus="3.6" errorplus="3.4">90.4</inclination>
+		<ascendingnode errorminus="0.9">73.1</ascendingnode>
+		<periastron errorminus="2.6" errorplus="3.2">342.8</periastron>
+		<period errorminus="3300" errorplus="2900">1584</period>
+		<periastrontime errorminus="900" errorplus="900">2488500</periastrontime>
+		<star>
+			<name>Kepler-444 A</name>
+			<name>HIP 94931 A</name>
+			<name>KOI-3158 A</name>
+			<name>KIC 6278762 A</name>
+			<name>LHS 3450 A</name>
+			<name>PPM 58152 A</name>
+			<name>TYC 3129-329-1</name>
+			<name>BD+41 3306 A</name>
+			<mass errorminus="0.043" errorplus="0.043">0.758</mass>
+			<radius errorminus="0.014" errorplus="0.014">0.752</radius>
+			<temperature errorminus="74" errorplus="74">5046</temperature>
+			<age errorminus="0.99" errorplus="0.91">11.23</age>
+			<magB>6.67</magB>
+			<magV>8.86</magV>
+			<magR>8.18</magR>
+			<magI>7.66</magI>
+			<magJ errorminus="0.026" errorplus="0.026">7.244</magJ>
+			<magH errorminus="0.047" errorplus="0.047">6.772</magH>
+			<magK errorminus="0.020" errorplus="0.020">6.703</magK>
+			<metallicity errorminus="0.07" errorplus="0.07">-0.55</metallicity>
+			<spectraltype>K0V</spectraltype>
+			<planet>
+				<name>Kepler-444 b</name>
+				<name>Kepler-444 A b</name>
+				<name>HIP 94931 A b</name>
+				<name>KOI-3158.01</name>
+				<name>KOI-3158 A b</name>
+				<name>KIC 6278762 A b</name>
+				<name>LHS 3450 A b</name>
+				<name>PPM 58152 A b</name>
+				<name>TYC 3129-329-1 b</name>
+				<name>BD+41 3306 A b</name>
+				<list>Confirmed planets</list>
+				<radius errorminus="0.001276" errorplus="0.001458">0.036726</radius>
+				<period errorminus="0.0000080" errorplus="0.0000083">3.6001053</period>
+				<semimajoraxis errorminus="0.00079" errorplus="0.00079">0.04178</semimajoraxis>
+				<eccentricity errorminus="0.08" errorplus="0.22">0.08</eccentricity>
+				<inclination errorminus="0.6" errorplus="1.2">88.0</inclination>
+				<description>This planet is part of the Kepler-444 system. The planetary system is tightly placked with at least 5 terrestrial planets. The host star formed 11 billion years ago, when the universe was less than 20 percent of its current age. This makes Kepler-444 the oldest known system of terrestrial size planets. The star has a companion binary that gets as close as 5 AU at periastron.</description>
+				<discoverymethod>transit</discoverymethod>
+				<istransiting>1</istransiting>
+				<lastupdate>15/07/28</lastupdate>
+				<discoveryyear>2015</discoveryyear>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+			<planet>
+				<name>Kepler-444 c</name>
+				<name>Kepler-444 A c</name>
+				<name>HIP 94931 A c</name>
+				<name>KOI-3158.02</name>
+				<name>KOI-3158 A c</name>
+				<name>KIC 6278762 A c</name>
+				<name>LHS 3450 A c</name>
+				<list>Confirmed planets</list>
+				<radius errorminus="0.001549" errorplus="0.001914">0.045292</radius>
+				<period errorminus="0.0000071" errorplus="0.0000070">4.5458841</period>
+				<semimajoraxis errorminus="0.00093" errorplus="0.00093">0.04881</semimajoraxis>
+				<eccentricity errorminus="0.12" errorplus="0.17">0.12</eccentricity>
+				<inclination errorminus="1.0" errorplus="1.2">88.2</inclination>
+				<description>This planet is part of the Kepler-444 system. The planetary system is tightly placked with at least 5 terrestrial planets. The host star formed 11 billion years ago, when the universe was less than 21 percent of its current age. This makes Kepler-444 the oldest known system of terrestrial size planets. The star has a companion binary that gets as close as 5 AU at periastron.</description>
+				<discoverymethod>transit</discoverymethod>
+				<istransiting>1</istransiting>
+				<lastupdate>15/07/28</lastupdate>
+				<discoveryyear>2015</discoveryyear>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+			<planet>
+				<name>Kepler-444 d</name>
+				<name>Kepler-444 A d</name>
+				<name>HIP 94931 A d</name>
+				<name>KOI-3158.03</name>
+				<name>KOI-3158 A d</name>
+				<name>KIC 6278762 A d</name>
+				<name>LHS 3450 A d</name>
+				<list>Confirmed planets</list>
+				<radius errorminus="0.001731" errorplus="0.002005">0.048299</radius>
+				<period errorminus="0.000012" errorplus="0.000012">6.189392</period>
+				<semimajoraxis errorminus="0.0011" errorplus="0.0011">0.0600</semimajoraxis>
+				<eccentricity errorminus="0.18" errorplus="0.16">0.18</eccentricity>
+				<inclination errorminus="0.55" errorplus="0.81">88.16</inclination>
+				<description>This planet is part of the Kepler-444 system. The planetary system is tightly placked with at least 5 terrestrial planets. The host star formed 11 billion years ago, when the universe was less than 20 percent of its current age. This makes Kepler-444 the oldest known system of terrestrial size planets. The star has a companion binary that gets as close as 5 AU at periastron.</description>
+				<discoverymethod>transit</discoverymethod>
+				<istransiting>1</istransiting>
+				<lastupdate>15/07/28</lastupdate>
+				<discoveryyear>2015</discoveryyear>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+			<planet>
+				<name>Kepler-444 e</name>
+				<name>Kepler-444 A e</name>
+				<name>HIP 94931 A e</name>
+				<name>KOI-3158.04</name>
+				<name>KOI-3158 A e</name>
+				<name>KIC 6278762 A e</name>
+				<name>LHS 3450 A e</name>
+				<list>Confirmed planets</list>
+				<radius errorminus="0.001367" errorplus="0.001549">0.049757</radius>
+				<period errorminus="0.000016" errorplus="0.000017">7.743493</period>
+				<semimajoraxis errorminus="0.0013" errorplus="0.0013">0.0696</semimajoraxis>
+				<eccentricity errorminus="0.02" errorplus="0.27">0.02</eccentricity>
+				<inclination errorminus="0.52" errorplus="0.54">89.13</inclination>
+				<description>This planet is part of the Kepler-444 system. The planetary system is tightly placked with at least 5 terrestrial planets. The host star formed 11 billion years ago, when the universe was less than 20 percent of its current age. This makes Kepler-444 the oldest known system of terrestrial size planets. The star has a companion binary that gets as close as 5 AU at periastron.</description>
+				<discoverymethod>transit</discoverymethod>
+				<istransiting>1</istransiting>
+				<lastupdate>15/07/28</lastupdate>
+				<discoveryyear>2015</discoveryyear>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+			<planet>
+				<name>Kepler-444 f</name>
+				<name>Kepler-444 A f</name>
+				<name>HIP 94931 A f</name>
+				<name>KOI-3158.05</name>
+				<name>KOI-3158 A f</name>
+				<name>KIC 6278762 A f</name>
+				<name>LHS 3450 A f</name>
+				<list>Confirmed planets</list>
+				<radius errorminus="0.003645" errorplus="0.003736">0.067528</radius>
+				<period errorminus="0.000013" errorplus="0.000013">9.740486</period>
+				<eccentricity errorminus="0.19" errorplus="0.2">0.29</eccentricity>
+				<semimajoraxis errorminus="0.0015" errorplus="0.0015">0.0811</semimajoraxis>
+				<inclination errorminus="0.31" errorplus="0.36">87.96</inclination>
+				<description>This planet is part of the Kepler-444 system. The planetary system is tightly placked with at least 5 terrestrial planets. The host star formed 11 billion years ago, when the universe was less than 20 percent of its current age. This makes Kepler-444 the oldest known system of terrestrial size planets. The star has a companion binary that gets as close as 5 AU at periastron.</description>
+				<discoverymethod>transit</discoverymethod>
+				<istransiting>1</istransiting>
+				<lastupdate>15/02/01</lastupdate>
+				<discoveryyear>2015</discoveryyear>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+		<binary>
+			<semimajoraxis upperlimit="0.3" />
+			<star>
+				<name>Kepler-444 B</name>
+				<name>HIP 94931 B</name>
+				<name>KOI-3158 B</name>
+				<name>KIC 6278762 B</name>
+				<name>LHS 3450 B</name>
+				<name>PPM 58152 B</name>
+				<name>BD+41 3306 B</name>
+				<magK>9.67</magK>
+				<temperature errorminus="200" errorplus="200">3464</temperature>
+				<mass errorminus="0.03" errorplus="0.03">0.29</mass>
+				<spectraltype>M</spectraltype>
+			</star>
+			<star>
+				<name>Kepler-444 C</name>
+				<name>HIP 94931 C</name>
+				<name>KOI-3158 C</name>
+				<name>KIC 6278762 C</name>
+				<name>LHS 3450 C</name>
+				<name>PPM 58152 C</name>
+				<name>BD+41 3306 C</name>
+				<magK>9.97</magK>
+				<mass errorminus="0.03" errorplus="0.03">0.25</mass>
+				<spectraltype>M</spectraltype>
+			</star>
+		</binary>
+	</binary>
 </system>
