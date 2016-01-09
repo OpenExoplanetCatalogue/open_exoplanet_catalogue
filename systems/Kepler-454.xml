@@ -1,0 +1,70 @@
+<system>
+	<name>Kepler-454</name>
+	<name>KOI-273</name>
+	<rightascension>19 09 54.841</rightascension>
+	<declination>+38 13 43.95</declination>
+	<distance>200</distance>
+	<star>
+		<name>Kepler-454</name>
+		<name>KOI-273</name>
+		<name>KIC 3102384</name>
+		<name>2MASS J19095484+3813438</name>
+		<magV>11.57</magV>
+		<magJ errorminus="0.021" errorplus="0.021">10.357</magJ>
+		<magH errorminus="0.022" errorplus="0.022">10.021</magH>
+		<magK errorminus="0.018" errorplus="0.018">9.968</magK>
+		<radius errorminus="0.012" errorplus="0.012">1.066</radius>
+		<mass errorminus="0.03" errorplus="0.04">1.028</mass>
+		<age errorminus="1.39" errorplus="1.41">5.23</age>
+		<temperature errorminus="49" errorplus="49">5687</temperature>
+		<metallicity errorminus="0.04" errorplus="0.04">0.27</metallicity>
+		<planet>
+			<name>Kepler-454 b</name>
+			<name>KOI-273.01</name>
+			<name>KOI-273 b</name>
+			<name>KIC 3102384 b</name>
+			<period errorminus="0.00000777" errorplus="0.00000777">10.57375339</period>
+			<transittime errorminus="0.0007718" errorplus="0.0007718" unit="BJD">2455008.0675855</transittime>
+			<inclination errorminus="0.203" errorplus="0.203">87.090</inclination>
+			<radius errorminus="0.0116" errorplus="0.0116">0.2114</radius>
+			<eccentricity>0</eccentricity>
+			<mass errorminus="0.00441" errorplus="0.00441">0.02152</mass>
+			<semimajoraxis errorminus="0.0012" errorplus="0.0012">0.0954</semimajoraxis>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2015</discoveryyear>
+			<description>Kepler-454 b is a small but non-rocky planet orbiting the star every 10.6 days. Its mass has been determined using radial velocities from HARPS-N.</description>
+			<lastupdate>16/01/09</lastupdate>
+			<list>Confirmed planets</list>
+		</planet>
+		<planet>
+			<name>Kepler-454 c</name>
+			<name>KOI-273 c</name>
+			<name>KIC 3102384 c</name>
+			<period errorminus="0.70" errorplus="0.70">523.90</period>
+			<periastrontime errorminus="26" errorplus="26" unit="BJD">2454892</periastrontime>
+			<eccentricity errorminus="0.0077" errorplus="0.0077">0.0214</eccentricity>
+			<periastron errorminus="17.4" errorplus="17.4">337.4</periastron>
+			<mass errorminus="0.12" errorplus="0.12" type="msini">4.46</mass>
+			<semimajoraxis errorminus="0.0166" errorplus="0.0166">1.286</semimajoraxis>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2015</discoveryyear>
+			<description>Kepler-454 c is a jovian planet orbiting a metal-rich, solar-type star at 1.2 AU. Its presence was detected using radial velocities from HARPS-N.</description>
+			<lastupdate>16/01/09</lastupdate>
+			<list>Confirmed planets</list>
+		</planet>
+		<planet>
+			<name>Kepler-454 d</name>
+			<name>KOI-273 d</name>
+			<name>KIC 3102384 d</name>
+			<period lowerlimit="3650" />
+			<mass lowerlimit="12.1" />
+			<semimajoraxis lowerlimit="4.7" />
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2015</discoveryyear>
+			<description>The presence of a third planet in the Kepler-454 system is inferred from a trend in the HARPS-N radial velocities. The limits are given assuming a circular orbit.</description>
+			<lastupdate>16/01/09</lastupdate>
+			<list>Controversial</list>
+		</planet>
+	</star>
+</system>
