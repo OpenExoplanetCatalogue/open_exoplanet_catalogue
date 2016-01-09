@@ -1,0 +1,46 @@
+<system>
+	<name>KIC 8540376</name>
+	<name>Kepler-457</name>
+	<rightascension>18 49 30.607</rightascension>
+	<declination>+44 41 40.52</declination>
+	<star>
+		<name>KIC 8540376</name>
+		<name>Kepler-457</name>
+		<name>2MASS J18493060+4441405</name>
+		<magJ errorminus="0.023" errorplus="0.023">13.260</magJ>
+		<magH errorminus="0.021" errorplus="0.021">13.014</magH>
+		<magK errorminus="0.023" errorplus="0.023">12.966</magK>
+		<mass errorminus="0.195" errorplus="0.195">1.035</mass>
+		<radius errorminus="0.56" errorplus="0.56">1.26</radius>
+		<temperature errorminus="267" errorplus="178">6474</temperature>
+		<metallicity errorminus="0.32" errorplus="0.23">-0.16</metallicity>
+		<planet>
+			<name>KIC 8540376 b</name>
+			<name>Kepler-457 b</name>
+			<period errorminus="0.00933" errorplus="0.00919">31.80990</period>
+			<inclination errorminus="0.720" errorplus="0.490">89.300</inclination>
+			<radius errorminus="0.170" errorplus="0.196">0.366</radius>
+			<transittime errorminus="0.006" errorplus="0.006" unit="BJD">2456353.292</transittime>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2015</discoveryyear>
+			<description>The planet KIC 8540376 b was discovered and validated by the Planet Hunters project in 2015. Only two transits have been observed for this planet. The planet is validated with a confidence of 0.999.</description>
+			<lastupdate>16/01/09</lastupdate>
+			<list>Confirmed planets</list>
+		</planet>
+		<planet>
+			<name>KIC 8540376 c</name>
+			<name>Kepler-457 c</name>
+			<period errorminus="1.1" errorplus="38.9">75.2</period>
+			<inclination errorminus="0.160" errorplus="0.160">89.701</inclination>
+			<radius errorminus="0.125" errorplus="0.170">0.214</radius>
+			<transittime errorminus="0.020" errorplus="0.020" unit="BJD">2456349.911</transittime>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2015</discoveryyear>
+			<description>The planet KIC 8540376 c was discovered and validated by the Planet Hunters project in 2015. Only one transit has been observed for this planet. The planet is validated with a confidence of 0.999.</description>
+			<lastupdate>16/01/09</lastupdate>
+			<list>Confirmed planets</list>
+		</planet>
+	</star>
+</system>

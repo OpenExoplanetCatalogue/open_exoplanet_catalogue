@@ -1,0 +1,48 @@
+<system>
+	<name>KIC 10525077</name>
+	<name>KOI-5800</name>
+	<name>Kepler-459</name>
+	<rightascension>19 09 30.737</rightascension>
+	<declination>+47 46 16.28</declination>
+	<star>
+		<name>KIC 10525077</name>
+		<name>KOI-5800</name>
+		<name>Kepler-459</name>
+		<name>2MASS J19093073+4746162</name>
+		<magJ errorminus="0.022" errorplus="0.022">14.143</magJ>
+		<magH errorminus="0.031" errorplus="0.031">13.869</magH>
+		<magK errorminus="0.046" errorplus="0.046">13.754</magK>
+		<mass errorminus="0.12" errorplus="0.12">1.01</mass>
+		<radius errorminus="0.10" errorplus="0.10">1.01</radius>
+		<temperature errorminus="213" errorplus="164">6091</temperature>
+		<metallicity errorminus="0.30" errorplus="0.22">-0.04</metallicity>
+		<planet>
+			<name>KIC 10525077 b</name>
+			<name>KOI-5800 b</name>
+			<name>Kepler-459 b</name>
+			<period errorminus="0.01697" errorplus="0.01628">854.08300</period>
+			<inclination errorminus="0.098" errorplus="0.096">89.861</inclination>
+			<radius errorminus="0.071" errorplus="0.080">0.491</radius>
+			<transittime errorminus="0.012" errorplus="0.012" unit="BJD">2455168.236</transittime>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2015</discoveryyear>
+			<description>The planet KIC 10525077 b was discovered and validated by the Planet Hunters project in 2015. Only two transits have been observed for this planet. Because of missing data, the period is uncertain: an alternate value of 427 days is possible. It is validated with a confidence of 0.998.</description>
+			<lastupdate>16/01/09</lastupdate>
+			<list>Confirmed planets</list>
+		</planet>
+		<planet>
+			<name>KOI-5800.01</name>
+			<period errorminus="0.0002" errorplus="0.0002">11.0068817</period>
+			<inclination>89.95</inclination>
+			<transittime errorminus="0.0144" errorplus="0.0144" unit="BJD">2454968.9877</transittime>
+			<radius errorminus="0.0125" errorplus="0.0562">0.1213</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2015</discoveryyear>
+			<description>KOI-5800.01 is an unconfirmed planet candidate observed orbiting KIC 10525077.</description>
+			<lastupdate>16/01/09</lastupdate>
+			<list>Controversial</list>
+		</planet>
+	</star>
+</system>
