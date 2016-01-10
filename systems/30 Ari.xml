@@ -64,11 +64,11 @@
 				<name>BD+24 375</name>
 				<name>2MASS J02365772+2438530</name>
 				<name>WDS J02370+2439 B</name>
-				<mass>1.13</mass>
-				<radius>1.13</radius>
-				<magV>7.1</magV>
+				<mass errorminus="0.04" errorplus="0.04">1.16</mass>
+				<radius errorminus="0.03" errorplus="0.03">1.13</radius>
+				<magV>7.091</magV>
 				<magB>7.59</magB>
-				<magJ>6.13</magJ>
+				<magJ>6.080</magJ>
 				<magH errorminus="0.029" errorplus="0.029">5.908</magH>
 				<magK>5.90</magK>
 				<metallicity>0.07</metallicity>
@@ -78,14 +78,14 @@
 					<name>30 Ari B b</name>
 					<name>30 Arietis B b</name>
 					<list>Confirmed planets</list>
-					<mass errorminus="0.94" errorplus="0.94" type="msini">9.88</mass>
-					<period errorminus="2.5" errorplus="2.5">335.1</period>
-					<semimajoraxis errorminus="0.012" errorplus="0.012">0.995</semimajoraxis>
-					<eccentricity errorminus="0.092" errorplus="0.092">0.289</eccentricity>
-					<periastron errorminus="18" errorplus="18">307</periastron>
-					<periastrontime errorminus="20" errorplus="20">2454538</periastrontime>
+					<mass errorminus="0.9" errorplus="0.9" type="msini">6.6</mass>
+					<period errorminus="3.8" errorplus="3.8">345.4</period>
+					<semimajoraxis errorminus="0.01" errorplus="0.01">1.01</semimajoraxis>
+					<eccentricity errorminus="0.11" errorplus="0.11">0.18</eccentricity>
+					<periastron errorminus="57" errorplus="57">337</periastron>
+					<periastrontime errorminus="42.4" errorplus="42.4">245322.1</periastrontime>
 					<discoverymethod>RV</discoverymethod>
-					<lastupdate>15/09/23</lastupdate>
+					<lastupdate>16/01/10</lastupdate>
 					<discoveryyear>2009</discoveryyear>
 					<list>Planets in binary systems, S-type</list>
 				</planet>
