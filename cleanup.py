@@ -112,7 +112,7 @@ numerictags = ["mass", "radius", "ascnedingnode", "discoveryyear", "semimajoraxi
     "magV", "magJ", "magH", "magR", "magB", "magK", "magI", "magU", "distance", "longitude", "age",
     "metallicity", "inclination", "periastron", "eccentricity", "temperature", "transittime",
     "spinorbitalignment", "separation", "positionangle", "periastrontime", "meananomaly",
-    "maximumrvtime"]
+    "maximumrvtime", "ascendingnode"]
 numericattributes = ["error", "errorplus", "errorminus", "upperlimit", "lowerlimit"]
 nonzeroattributes = ["error", "errorplus", "errorminus"]
 
