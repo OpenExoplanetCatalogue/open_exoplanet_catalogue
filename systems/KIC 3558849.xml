@@ -1,0 +1,48 @@
+<system>
+	<name>KIC 3558849</name>
+	<name>KOI-4307</name>
+	<name>Kepler-455</name>
+	<rightascension>19 39 47.962</rightascension>
+	<declination>+38 36 18.68</declination>
+	<star>
+		<name>KIC 3558849</name>
+		<name>KOI-4307</name>
+		<name>Kepler-455</name>
+		<name>2MASS J19394796+3836186</name>
+		<magJ errorminus="0.023" errorplus="0.023">13.093</magJ>
+		<magH errorminus="0.027" errorplus="0.027">12.819</magH>
+		<magK errorminus="0.027" errorplus="0.027">12.767</magK>
+		<mass errorminus="0.11" errorplus="0.11">0.98</mass>
+		<radius errorminus="0.105" errorplus="0.105">1.005</radius>
+		<temperature errorminus="194" errorplus="168">6175</temperature>
+		<metallicity errorminus="0.30" errorplus="0.28">-0.42</metallicity>
+		<planet>
+			<name>KIC 3558849 b</name>
+			<name>KOI-4307 b</name>
+			<name>Kepler-455 b</name>
+			<period errorminus="11.2" errorplus="386.1">1322.3</period>
+			<inclination errorminus="0.031" errorplus="0.023">89.973</inclination>
+			<radius errorminus="0.080" errorplus="0.089">0.616</radius>
+			<transittime errorminus="0.300" errorplus="0.440" unit="BJD">2455112.920</transittime>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2015</discoveryyear>
+			<description>The planet KIC 3558849 b was discovered and validated by the Planet Hunters project in 2015. Only one transit has been observed for this planet. The planet is validated with a confidence of 0.997.</description>
+			<lastupdate>16/01/09</lastupdate>
+			<list>Confirmed planets</list>
+		</planet>
+		<planet>
+			<name>KOI-4307.01</name>
+			<period errorminus="0.003187" errorplus="0.003187">160.850816</period>
+			<inclination>89.38</inclination>
+			<transittime errorminus="0.0134" errorplus="0.0134" unit="BJD">2454977.5</transittime>
+			<radius errorminus="0.0232" errorplus="0.0803">0.2097</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2014</discoveryyear>
+			<description>KOI-4307.01 is an unconfirmed planet candidate observed orbiting KIC 3558849.</description>
+			<lastupdate>16/01/09</lastupdate>
+			<list>Controversial</list>
+		</planet>
+	</star>
+</system>

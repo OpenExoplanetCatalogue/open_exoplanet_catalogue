@@ -1,0 +1,32 @@
+<system>
+	<name>KIC 5951458</name>
+	<name>Kepler-456</name>
+	<rightascension>19 15 57.979</rightascension>
+	<declination>+41 13 22.91</declination>
+	<star>
+		<name>KIC 5951458</name>
+		<name>Kepler-456</name>
+		<name>2MASS J19155797+4113229</name>
+		<magJ errorminus="0.019" errorplus="0.019">11.640</magJ>
+		<magH errorminus="0.022" errorplus="0.022">11.382</magH>
+		<magK errorminus="0.020" errorplus="0.020">11.324</magK>
+		<mass errorminus="0.21" errorplus="0.21">0.98</mass>
+		<radius errorminus="0.82" errorplus="0.82">1.52</radius>
+		<temperature errorminus="183" errorplus="170">6258</temperature>
+		<metallicity errorminus="0.30" errorplus="0.30">-0.50</metallicity>
+		<planet>
+			<name>KIC 5951458 b</name>
+			<name>Kepler-456 b</name>
+			<period errorminus="152.5" errorplus="12401.8">1320.1</period>
+			<inclination errorminus="0.120" errorplus="0.090">89.799</inclination>
+			<radius errorminus="0.375" errorplus="2.346">0.589</radius>
+			<transittime errorminus="0.013" errorplus="0.010" unit="BJD">2455256.463</transittime>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2015</discoveryyear>
+			<description>The planet KIC 5951458 b was discovered and validated by the Planet Hunters project in 2015 with a confidence of 0.998. Only one transit has been observed for this planet.</description>
+			<lastupdate>16/01/09</lastupdate>
+			<list>Confirmed planets</list>
+		</planet>
+	</star>
+</system>
