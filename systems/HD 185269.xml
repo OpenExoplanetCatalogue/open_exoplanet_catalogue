@@ -1,28 +1,64 @@
 <system>
 	<name>HD 185269</name>
-	<rightascension>19 37 12</rightascension>
-	<declination>+28 30 00</declination>
-	<distance>47</distance>
-	<star>
-		<mass>1.28</mass>
-		<radius>1.88</radius>
-		<magV>6.67</magV>
-		<magB>7.238</magB>
-		<metallicity>0.11</metallicity>
-		<spectraltype>G0IV</spectraltype>
-		<planet>
-			<name>HD 185269 b</name>
-			<list>Confirmed planets</list>
-			<mass>0.94</mass>
-			<period>6.838</period>
-			<semimajoraxis>0.077</semimajoraxis>
-			<eccentricity>0.3</eccentricity>
-			<discoverymethod>RV</discoverymethod>
-			<lastupdate>06/08/16</lastupdate>
-			<discoveryyear>2006</discoveryyear>
-			<temperature>1295.4</temperature>
-		</planet>
+	<rightascension>19 37 11.74092</rightascension>
+	<declination>+28 29 59.5055</declination>
+	<distance errorminus="1.42" errorplus="1.42">50.28</distance>
+	<binary>
 		<name>HD 185269</name>
-		<temperature>5980.0</temperature>
-	</star>
+		<name>BD+28 3412</name>
+		<separation errorminus="0.011" errorplus="0.011" unit="arcsec">4.547</separation>
+		<separation errorminus="6.5" errorplus="6.5" unit="AU">228.6</separation>
+		<positionangle errorminus="0.14" errorplus="0.14">8.15</positionangle>
+		<star>
+			<name>HD 185269 A</name>
+			<name>HIP 96507</name>
+			<name>TYC 2150-5013-1</name>
+			<name>SAO 87464</name>
+			<name>BD+28 3412 A</name>
+			<name>2MASS J19371174+2829597</name>
+			<mass errorminus="0.1" errorplus="0.1">1.28</mass>
+			<radius errorminus="0.1" errorplus="0.1">1.88</radius>
+			<magB>7.238</magB>
+			<magV>6.683</magV>
+			<magJ errorminus="0.027" errorplus="0.027">5.518</magJ>
+			<magH errorminus="0.069" errorplus="0.069">5.400</magH>
+			<magK errorminus="0.018" errorplus="0.018">5.260</magK>
+			<temperature errorminus="50" errorplus="50">5980</temperature>
+			<metallicity errorminus="0.05" errorplus="0.05">0.11</metallicity>
+			<spectraltype>G0IV</spectraltype>
+			<age>4.2</age>
+			<planet>
+				<name>HD 185269 b</name>
+				<name>HD 185269 A b</name>
+				<list>Confirmed planets</list>
+				<mass type="msini">0.94</mass>
+				<period errorminus="0.001" errorplus="0.001">6.838</period>
+				<semimajoraxis>0.077</semimajoraxis>
+				<eccentricity errorminus="0.04" errorplus="0.04">0.30</eccentricity>
+				<periastron errorminus="6.8" errorplus="6.8">173</periastron>
+				<periastrontime errorminus="0.18" errorplus="0.18">2453154.1</periastrontime>
+				<discoverymethod>RV</discoverymethod>
+				<lastupdate>16/01/22</lastupdate>
+				<discoveryyear>2006</discoveryyear>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+		<binary>
+			<separation errorminus="0.0028" errorplus="0.0028" unit="arcsec">0.0956</separation>
+			<separation errorminus="0.20" errorplus="0.20" unit="AU">4.81</separation>
+			<positionangle errorminus="1.3" errorplus="1.3">221.1</positionangle>
+			<star>
+				<name>HD 185269 Ba</name>
+				<name>BD+28 3412 Ba</name>
+				<mass errorminus="0.08" errorplus="0.08">0.165</mass>
+				<magJ errorminus="0.09" errorplus="0.09">12.48</magJ>
+			</star>
+			<star>
+				<name>HD 185269 Bb</name>
+				<name>BD+28 3412 Bb</name>
+				<mass errorminus="0.008" errorplus="0.009">0.154</mass>
+				<magJ errorminus="0.09" errorplus="0.09">12.61</magJ>
+			</star>
+		</binary>
+	</binary>
 </system>
