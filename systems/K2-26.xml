@@ -1,0 +1,39 @@
+<system>
+	<name>K2-26</name>
+	<name>EPIC 202083828</name>
+	<rightascension>06 16 49.579</rightascension>
+	<declination>+24 35 47.08</declination>
+	<distance errorminus="7" errorplus="7">93</distance>
+	<star>
+		<name>K2-26</name>
+		<name>EPIC 202083828</name>
+		<name>2MASS J06164957+2435470</name>
+		<magB errorminus="0.13" errorplus="0.13">15.97</magB>
+		<magV errorminus="0.03" errorplus="0.03">14.53</magV>
+		<magJ errorminus="0.024" errorplus="0.024">11.350</magJ>
+		<magH errorminus="0.022" errorplus="0.022">10.762</magH>
+		<magK errorminus="0.018" errorplus="0.018">10.530</magK>
+		<spectraltype errorminus="0.5">M1.0V</spectraltype>
+		<temperature errorminus="185" errorplus="185">3785</temperature>
+		<metallicity errorminus="0.15" errorplus="0.15">-0.13</metallicity>
+		<radius errorminus="0.08" errorplus="0.08">0.52</radius>
+		<mass errorminus="0.10" errorplus="0.10">0.56</mass>
+		<age lowerlimit="1" />
+		<planet>
+			<name>K2-26 b</name>
+			<name>EPIC 202083828 b</name>
+			<transittime errorminus="0.0021" errorplus="0.0028" unit="BJD">2456775.1659</transittime>
+			<period errorminus="0.0020" errorplus="0.0016">14.5665</period>
+			<inclination errorminus="1.5" errorplus="1.2">88.4</inclination>
+			<semimajoraxis errorminus="0.0061" errorplus="0.0054">0.0962</semimajoraxis>
+			<radius errorminus="0.0375" errorplus="0.0410">0.2382</radius>
+			<eccentricity lowerlimit="0.14" />
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<description>K2-26b is a temperate sub-Neptune orbiting an M1 dwarf star. The orbit is likely to be eccentric, with a lower limit of 0.14 at 95% confidence.</description>
+			<lastupdate>16/01/21</lastupdate>
+			<list>Confirmed planets</list>
+		</planet>
+	</star>
+</system>
