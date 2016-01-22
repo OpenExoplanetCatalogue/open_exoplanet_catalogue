@@ -1,32 +1,53 @@
 <system>
 	<name>HD 217786</name>
-	<rightascension>23 03 08</rightascension>
-	<declination>-00 25 47</declination>
-	<distance>54.8</distance>
-	<star>
-		<mass>1.02</mass>
-		<radius>1.27</radius>
-		<magV>7.8</magV>
-		<magB errorminus="0.016" errorplus="0.016">8.360</magB>
-		<magR>7.60</magR>
-		<magJ errorminus="0.021" errorplus="0.021">6.685</magJ>
-		<magH errorminus="0.038" errorplus="0.038">6.416</magH>
-		<magK errorminus="0.020" errorplus="0.020">6.352</magK>
-		<metallicity>-0.135</metallicity>
-		<spectraltype>F8V</spectraltype>
-		<planet>
-			<name>HD 217786 b</name>
-			<list>Confirmed planets</list>
-			<mass>13</mass>
-			<period>1319</period>
-			<semimajoraxis>2.38</semimajoraxis>
-			<eccentricity>0.4</eccentricity>
-			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/12/20</lastupdate>
-			<discoveryyear>2010</discoveryyear>
-			<temperature>190.2</temperature>
-		</planet>
+	<rightascension>23 03 08.205</rightascension>
+	<declination>-00 25 46.66</declination>
+	<distance errorminus="2.3" errorplus="2.3">54.9</distance>
+	<binary>
 		<name>HD 217786</name>
-		<temperature>5966.0</temperature>
-	</star>
+		<name>BD-01 4382</name>
+		<separation errorminus="0.0069" errorplus="0.0069" unit="arcsec">2.8560</separation>
+		<separation errorminus="6.6" errorplus="6.6" unit="AU">156.8</separation>
+		<positionangle errorminus="0.16" errorplus="0.16">170.34</positionangle>
+		<star>
+			<name>HD 217786 A</name>
+			<name>HIP 113834</name>
+			<name>TYC 5242-591-1</name>
+			<name>SAO 146477</name>
+			<name>BD-01 4382 A</name>
+			<name>2MASS J23030822-0025465</name>
+			<mass errorminus="0.03" errorplus="0.03">1.02</mass>
+			<radius errorminus="0.06" errorplus="0.06">1.27</radius>
+			<magV errorminus="0.012" errorplus="0.012">7.779</magV>
+			<magB errorminus="0.016" errorplus="0.016">8.360</magB>
+			<magR>7.60</magR>
+			<magJ errorminus="0.021" errorplus="0.021">6.685</magJ>
+			<magH errorminus="0.038" errorplus="0.038">6.416</magH>
+			<magK errorminus="0.020" errorplus="0.020">6.352</magK>
+			<temperature errorminus="65" errorplus="65">5966</temperature>
+			<metallicity errorminus="0.043" errorplus="0.043">-0.135</metallicity>
+			<spectraltype>F8V</spectraltype>
+			<age>7.6</age>
+			<planet>
+				<name>HD 217786 b</name>
+				<name>HD 217786 A b</name>
+				<list>Confirmed planets</list>
+				<mass errorminus="0.8" errorplus="0.8" type="msini">13.0</mass>
+				<period errorminus="4" errorplus="4">1319</period>
+				<semimajoraxis errorminus="0.04" errorplus="0.04">2.38</semimajoraxis>
+				<eccentricity errorminus="0.05" errorplus="0.05">0.40</eccentricity>
+				<periastron errorminus="2" errorplus="2">100</periastron>
+				<periastrontime errorminus="7" errorplus="7">2456053</periastrontime>
+				<discoverymethod>RV</discoverymethod>
+				<lastupdate>16/01/22</lastupdate>
+				<discoveryyear>2010</discoveryyear>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+		<star>
+			<name>HD 217786 B</name>
+			<name>BD-01 4382 B</name>
+			<mass errorminus="0.0068" errorplus="0.0071">0.1622</mass>
+		</star>
+	</binary>
 </system>

@@ -1,33 +1,54 @@
 <system>
 	<name>HD 197037</name>
-	<rightascension>20 39 33</rightascension>
-	<declination>+42 14 55</declination>
-	<distance>33</distance>
-	<star>
-		<mass>1.11</mass>
-		<magV>6.81</magV>
-		<magB errorminus="0.01" errorplus="0.01">7.31</magB>
-		<magR>6.61</magR>
-		<magI>6.3</magI>
-		<magJ errorminus="0.024" errorplus="0.024">5.772</magJ>
-		<magH errorminus="0.024" errorplus="0.024">5.568</magH>
-		<magK errorminus="0.018" errorplus="0.018">5.488</magK>
-		<metallicity>-0.2</metallicity>
-		<spectraltype>F7V</spectraltype>
-		<planet>
-			<name>HD 197037 b</name>
-			<list>Confirmed planets</list>
-			<mass>0.79</mass>
-			<period>1035.7</period>
-			<semimajoraxis>2.07</semimajoraxis>
-			<eccentricity>0.22</eccentricity>
-			<description>This planet was found by looking at 113 radial velocity data points which have been obtained over the last 10 years with a 2.7m telescope.</description>
-			<discoverymethod>RV</discoverymethod>
-			<lastupdate>12/02/04</lastupdate>
-			<discoveryyear>2012</discoveryyear>
-			<temperature>200.0</temperature>
-		</planet>
+	<rightascension>20 39 32.96014</rightascension>
+	<declination>+42 14 54.7845</declination>
+	<distance errorminus="0.4" errorplus="0.4">32.3</distance>
+	<binary>
 		<name>HD 197037</name>
-		<temperature>6150.0</temperature>
-	</star>
+		<name>BD+41 3845</name>
+		<separation errorminus="0.011" errorplus="0.011" unit="arcsec">3.676</separation>
+		<separation errorminus="1.5" errorplus="1.5" unit="AU">118.7</separation>
+		<positionangle errorminus="0.17" errorplus="0.17">182.14</positionangle>
+		<star>
+			<name>HD 197037 A</name>
+			<name>HIP 101948</name>
+			<name>TYC 3161-126-1</name>
+			<name>SAO 49900</name>
+			<name>BD+41 3845 A</name>
+			<name>2MASS J20393296+4214549</name>
+			<mass>1.11</mass>
+			<magV errorminus="0.010" errorplus="0.010">6.813</magV>
+			<magB errorminus="0.01" errorplus="0.01">7.31</magB>
+			<magR>6.61</magR>
+			<magI>6.3</magI>
+			<magJ errorminus="0.024" errorplus="0.024">5.772</magJ>
+			<magH errorminus="0.024" errorplus="0.024">5.568</magH>
+			<magK errorminus="0.018" errorplus="0.018">5.488</magK>
+			<temperature errorminus="100" errorplus="100">6150</temperature>
+			<metallicity errorminus="0.06" errorplus="0.06">-0.20</metallicity>
+			<spectraltype>F7V</spectraltype>
+			<age>1.90</age>
+			<planet>
+				<name>HD 197037 b</name>
+				<name>HD 197037 A b</name>
+				<list>Confirmed planets</list>
+				<mass errorminus="0.05" errorplus="0.05" type="msini">0.79</mass>
+				<period errorminus="13" errorplus="13">1035.7</period>
+				<semimajoraxis errorminus="0.05" errorplus="0.05">2.07</semimajoraxis>
+				<eccentricity errorminus="0.07" errorplus="0.07">0.22</eccentricity>
+				<periastron errorminus="26" errorplus="26">298</periastron>
+				<periastrontime errorminus="86" errorplus="86" unit="BJD">2451353.1</periastrontime>
+				<description>This planet was found by looking at 113 radial velocity data points which have been obtained over the last 10 years with a 2.7m telescope.</description>
+				<discoverymethod>RV</discoverymethod>
+				<lastupdate>16/01/22</lastupdate>
+				<discoveryyear>2012</discoveryyear>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+		<star>
+			<name>HD 197037 B</name>
+			<name>BD+41 3845 B</name>
+			<mass errorminus="0.0477" errorplus="0.0098">0.3412</mass>
+		</star>
+	</binary>
 </system>
