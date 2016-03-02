@@ -1,0 +1,62 @@
+<system>
+	<name>KELT-4</name>
+	<rightascension>10 28 15.011</rightascension>
+	<declination>+25 34 23.5</declination>
+	<distance errorminus="10" errorplus="10">210</distance>
+	<binary>
+		<separation unit="arcsec">1.5</separation>
+		<separation errorminus="16" errorplus="16" unit="AU">328</separation>
+		<period errorminus="105923" errorplus="105923">1380645</period>
+		<star>
+			<name>KELT-4A</name>
+			<name>BD+26 2091</name>
+			<name>HIP 51260</name>
+			<name>2MASS J10281500+2534236</name>
+			<name>TYC 1973-954-1</name>
+			<name>WDS 10283+2534</name>
+			<name>CCDM J10283+2534A</name>
+			<magB errorminus="0.03" errorplus="0.03">10.47</magB>
+			<magV errorminus="0.03" errorplus="0.03">9.98</magV>
+			<magJ errorminus="0.021" errorplus="0.021">9.017</magJ>
+			<magH errorminus="0.023" errorplus="0.023">8.790</magH>
+			<magK errorminus="0.020" errorplus="0.020">8.689</magK>
+			<mass errorminus="0.061" errorplus="0.067">1.201</mass>
+			<radius errorminus="0.068" errorplus="0.078">1.610</radius>
+			<temperature errorminus="75" errorplus="75">6206</temperature>
+			<metallicity errorminus="0.069" errorplus="0.065">-0.116</metallicity>
+			<spectraltype>F</spectraltype>
+			<planet>
+				<name>KELT-4A b</name>
+				<name>BD+26 2091 b</name>
+				<name>HIP 51260 b</name>
+				<name>2MASS J10281500+2534236 b</name>
+				<name>TYC 1973-954-1 b</name>
+				<name>WDS 10283+2534 b</name>
+				<name>CCDM J10283+2534A b</name>
+				<radius errorminus="0.045" errorplus="0.046">1.699</radius>
+				<mass errorminus="0.059" errorplus="0.060">0.902</mass>
+				<period errorminus="0.0000048" errorplus="0.0000048">2.9895936</period>
+				<transittime errorminus="0.00021" errorplus="0.00021" unit="BJD">2456193.29157</transittime>
+				<description>KELT-4A b is an inflated, transiting Hot Jupiter orbiting the brightest component of a hierarchical triple stellar system.</description>
+				<discoverymethod>transit</discoverymethod>
+				<istransiting>1</istransiting>
+				<lastupdate>15/09/30</lastupdate>
+				<discoveryyear>2015</discoveryyear>
+				<list>Confirmed planets</list>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+		<binary>
+			<name>KELT-4BC</name>
+			<separation unit="arcsec">0.034</separation>
+			<separation errorminus="0.74" errorplus="0.74" unit="AU">10.3</separation>
+			<period errorminus="1315" errorplus="1315">10738</period>
+			<star>
+				<name>KELT-4B</name>
+			</star>
+			<star>
+				<name>KELT-4C</name>
+			</star>
+		</binary>
+	</binary>
+</system>

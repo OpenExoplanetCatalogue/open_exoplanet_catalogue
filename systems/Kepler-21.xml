@@ -1,49 +1,73 @@
 <system>
 	<name>Kepler-21</name>
-	<rightascension>19 09 27</rightascension>
-	<declination>+38 42 50</declination>
-	<distance>108</distance>
-	<star>
-		<mass>1.34</mass>
-		<radius>1.86</radius>
-		<magV>8.27</magV>
-		<magB errorminus="0.017" errorplus="0.017">8.767</magB>
-		<magR errorminus="0.07" errorplus="0.07">8.00</magR>
-		<magJ errorminus="0.03" errorplus="0.03">7.23</magJ>
-		<magH errorminus="0.023" errorplus="0.023">7.031</magH>
-		<magK errorminus="0.018" errorplus="0.018">6.945</magK>
-		<metallicity>-0.15</metallicity>
-		<spectraltype>F6IV</spectraltype>
-		<planet>
-			<name>Kepler-21 b</name>
-			<name>HIP 94112 b</name>
-			<name>TYC 3120-00963-1 b</name>
-			<name>HD 179070 b</name>
-			<name>BD+38 3455 b</name>
-			<name>SAO 67891 b</name>
-			<name>2MASS J19092683+3842505 b</name>
-			<name>KIC 3632418 b</name>
-			<name>KOI-975.01</name>
-			<name>KOI-975 b</name>
-			<list>Confirmed planets</list>
-			<mass>0.033</mass>
-			<radius>0.1459</radius>
-			<period>2.785755</period>
-			<semimajoraxis>0.042507</semimajoraxis>
-			<eccentricity>0.0</eccentricity>
-			<inclination>82.58</inclination>
-			<description>This planet has been discovered with the Kepler spacecraft. It is orbiting Kepler's brightest host star and is only 1.6 times larger than the Earth.</description>
-			<discoverymethod>transit</discoverymethod>
-			<lastupdate>11/12/12</lastupdate>
-			<discoveryyear>2011</discoveryyear>
-			<temperature>1788.2</temperature>
-			<transittime unit="HJD">2455093.8369</transittime>
-			<istransiting>1</istransiting>
-		</planet>
+	<rightascension>19 09 26.83535</rightascension>
+	<declination>+38 42 50.4593</declination>
+	<distance errorminus="7.4" errorplus="7.4">112.9</distance>
+	<binary>
 		<name>Kepler-21</name>
 		<name>KOI-975</name>
 		<name>KIC 3632418</name>
-		<name>HIP 94112</name>
-		<temperature>6131.0</temperature>
-	</star>
+		<name>HD 179070</name>
+		<name>BD+38 3455</name>
+		<separation errorminus="0.0099" errorplus="0.0099" unit="arcsec">0.7739</separation>
+		<separation errorminus="5.8" errorplus="5.8" unit="AU">87.3</separation>
+		<positionangle errorminus="0.63" errorplus="0.63">129.53</positionangle>
+		<star>
+			<name>Kepler-21 A</name>
+			<name>KOI-975 A</name>
+			<name>KIC 3632418 A</name>
+			<name>HIP 94112</name>
+			<name>TYC 3120-963-1</name>
+			<name>SAO 67891</name>
+			<name>BD+38 3455 A</name>
+			<name>2MASS J19092683+3842505</name>
+			<mass errorminus="0.010" errorplus="0.010">1.340</mass>
+			<radius errorminus="0.020" errorplus="0.020">1.860</radius>
+			<magV errorminus="0.01" errorplus="0.01">8.25</magV>
+			<magB errorminus="0.017" errorplus="0.017">8.767</magB>
+			<magR errorminus="0.07" errorplus="0.07">8.00</magR>
+			<magJ errorminus="0.03" errorplus="0.03">7.23</magJ>
+			<magH errorminus="0.023" errorplus="0.023">7.031</magH>
+			<magK errorminus="0.018" errorplus="0.018">6.945</magK>
+			<temperature errorminus="44" errorplus="44">6131</temperature>
+			<metallicity errorminus="0.06" errorplus="0.06">-0.15</metallicity>
+			<spectraltype>F6IV</spectraltype>
+			<planet>
+				<name>Kepler-21 b</name>
+				<name>Kepler-21 A b</name>
+				<name>HIP 94112 b</name>
+				<name>TYC 3120-00963-1 b</name>
+				<name>HD 179070 b</name>
+				<name>HD 179070 A b</name>
+				<name>BD+38 3455 A b</name>
+				<name>SAO 67891 b</name>
+				<name>2MASS J19092683+3842505 b</name>
+				<name>KIC 3632418 b</name>
+				<name>KOI-975.01</name>
+				<name>KOI-975 b</name>
+				<name>KOI-975 A b</name>
+				<list>Confirmed planets</list>
+				<mass upperlimit="0.0327" />
+				<radius errorminus="0.0038" errorplus="0.0034">0.1456</radius>
+				<period errorminus="0.000034" errorplus="0.000031">2.785755</period>
+				<semimajoraxis errorminus="0.000119" errorplus="0.000098">0.042509</semimajoraxis>
+				<inclination errorminus="0.31" errorplus="0.28">82.59</inclination>
+				<transittime errorminus="0.0016" errorplus="0.0016" unit="BJD">2455093.8368</transittime>
+				<description>This planet has been discovered with the Kepler spacecraft. It is orbiting Kepler's brightest host star and is only 1.6 times larger than the Earth.</description>
+				<discoverymethod>transit</discoverymethod>
+				<lastupdate>16/01/22</lastupdate>
+				<discoveryyear>2011</discoveryyear>
+				<istransiting>1</istransiting>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+		<star>
+			<name>Kepler-21 B</name>
+			<name>KOI-975 B</name>
+			<name>KIC 3632418 A</name>
+			<name>HD 179070 B</name>
+			<name>BD+38 3455 B</name>
+			<mass errorminus="0.32" errorplus="0.14">0.42</mass>
+		</star>
+	</binary>
 </system>

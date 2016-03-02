@@ -1,14 +1,34 @@
 <system>
 	<name>Gliese 86</name>
-	<rightascension>02 10 14</rightascension>
-	<declination>-50 50 00</declination>
-	<distance>10.9</distance>
+	<rightascension>02 10 25.93425</rightascension>
+	<declination>-50 49 25.4179</declination>
+	<distance errorminus="0.037" errorplus="0.037">10.783</distance>
 	<binary>
-		<semimajoraxis>27.8</semimajoraxis>
+		<name>Gliese 86</name>
+		<name>GJ 86</name>
+		<name>HD 13445</name>
+		<name>CD-51 532</name>
+		<name>CPD-51 282</name>
+		<name>WDS J02104-5049</name>
+		<period lowerlimit="43830" upperlimit="57720" />
+		<semimajoraxis lowerlimit="27.8" upperlimit="69.8" />
+		<periastrontime lowerlimit="2427100" upperlimit="2476000" />
+		<eccentricity upperlimit="0.61" />
+		<inclination lowerlimit="114.7" upperlimit="122.6" />
+		<ascendingnode lowerlimit="63.7" upperlimit="76.1" />
+		<periastron lowerlimit="0" upperlimit="358" />
 		<star>
 			<name>Gliese 86 A</name>
+			<name>GJ 86 A</name>
 			<name>HR 637</name>
-			<name>HD 13445</name>
+			<name>HD 13445 A</name>
+			<name>HIP 10138</name>
+			<name>TYC 8048-1022-1</name>
+			<name>SAO 232658</name>
+			<name>CD-51 532 A</name>
+			<name>CPD-51 282 A</name>
+			<name>2MASS J02102587-5049258</name>
+			<name>WDS J02104-5049 A</name>
 			<mass>0.8</mass>
 			<radius>0.855</radius>
 			<magV>6.17</magV>
@@ -17,31 +37,41 @@
 			<magJ errorminus="0.25" errorplus="0.25">4.79</magJ>
 			<magH errorminus="0.28" errorplus="0.28">4.25</magH>
 			<magK>4.125</magK>
+			<temperature errorminus="50" errorplus="50">5188</temperature>
 			<metallicity>-0.24</metallicity>
 			<spectraltype>K1V</spectraltype>
+			<age>2.5</age>
 			<planet>
 				<name>Gliese 86 b</name>
+				<name>Gliese 86 A b</name>
 				<name>GJ 86 b</name>
+				<name>GJ 86 A b</name>
 				<name>Gj 86 b</name>
 				<name>Gl 86 b</name>
+				<name>HD 13445 b</name>
+				<name>HD 13445 A b</name>
 				<list>Confirmed planets</list>
-				<mass>4.01</mass>
-				<period errorminus="0.04" errorplus="0.04">15.766</period>
-				<semimajoraxis>0.11</semimajoraxis>
-				<eccentricity errorminus="0.004" errorplus="0.004">0.046</eccentricity>
+				<mass errorminus="0.32" errorplus="0.32" type="msini">3.91</mass>
+				<period errorminus="0.00039" errorplus="0.00039">15.76491</period>
+				<semimajoraxis errorminus="0.0065" errorplus="0.0065">0.1130</semimajoraxis>
+				<eccentricity errorminus="0.0072" errorplus="0.0072">0.0416</eccentricity>
+				<periastron errorminus="16" errorplus="16">269</periastron>
+				<periastrontime errorminus="0.59" errorplus="0.59">2451903.36</periastrontime>
 				<description>The star Gliese 86 is a K-type dwarf star and a member of a binary system in the constellation Eridanus. A linear trend in the radial velocity data may be associated with the stellar companion or another planetary companion.</description>
 				<discoverymethod>RV</discoverymethod>
-				<lastupdate>09/10/07</lastupdate>
+				<lastupdate>16/02/03</lastupdate>
 				<discoveryyear>2000</discoveryyear>
-				<temperature>657.6</temperature>
 				<list>Planets in binary systems, S-type</list>
 			</planet>
-			<temperature errorminus="50" errorplus="50">5188</temperature>
-			<age>2.5</age>
 		</star>
 		<star>
 			<name>Gliese 86 B</name>
 			<name>WD 0208-510</name>
+			<name>HD 13445 B</name>
+			<name>CD-51 532 B</name>
+			<name>CPD-51 282 B</name>
+			<name>2MASS J02102587-5049258</name>
+			<name>WDS J02104-5049 B</name>
 			<mass errorminus="0.01" errorplus="0.01">0.59</mass>
 			<radius errorminus="0.0015" errorplus="0.0015">0.01245</radius>
 			<magV>13.2</magV>

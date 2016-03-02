@@ -1,37 +1,38 @@
 <system>
 	<name>HATS-14</name>
-	<rightascension>20 52 51.60</rightascension>
-	<declination>-25 41 14.4</declination>
+	<rightascension>20 52 51.715</rightascension>
+	<declination>-25 41 14.40</declination>
 	<distance errorminus="14" errorplus="14">513</distance>
 	<star>
 		<name>HATS-14</name>
 		<name>2MASS J20525171-2541144</name>
-		<name>GSC 6926-00259</name>
-		<mass errorminus="0.024" errorplus="0.024">0.967</mass>
-		<radius errorminus="0.015" errorplus="0.023">0.933</radius>
-		<temperature errorminus="60" errorplus="60">5346</temperature>
+		<name>GSC 06926-00259</name>
+		<mass errorminus="0.02" errorplus="0.02">0.97</mass>
+		<radius errorminus="0.02" errorplus="0.02">0.93</radius>
+		<temperature errorminus="65" errorplus="65">5408</temperature>
 		<magB errorminus="0.10" errorplus="0.10">13.820</magB>
 		<magV errorminus="0.10" errorplus="0.10">13.79</magV>
 		<magJ errorminus="0.026" errorplus="0.026">12.518</magJ>
 		<magH errorminus="0.023" errorplus="0.023">12.129</magH>
 		<magK errorminus="0.019" errorplus="0.019">12.037</magK>
 		<age errorminus="1.7" errorplus="1.7">4.9</age>
-		<metallicity errorminus="0.060" errorplus="0.060">0.330</metallicity>
+		<metallicity errorminus="0.03" errorplus="0.03">0.28</metallicity>
 		<planet>
 			<name>HATS-14 b</name>
 			<name>2MASS J20525171-2541144 b</name>
-			<name>GSC 6926-00259 b</name>
+			<name>GSC 06926-00259 b</name>
 			<list>Confirmed planets</list>
-			<mass errorminus="0.070" errorplus="0.070">1.071</mass>
-			<radius errorminus="0.022" errorplus="0.032">1.039</radius>
+			<mass errorminus="0.07" errorplus="0.07">1.07</mass>
+			<radius errorminus="0.02" errorplus="0.03">1.04</radius>
 			<temperature errorminus="20" errorplus="20">1276</temperature>
-			<transittime errorminus="0.00021" errorplus="0.00021" unit="BJD">2456408.76462</transittime>
-			<period errorminus="0.0000027" errorplus="0.0000027">2.7667641</period>
+			<transittime errorminus="0.0002" errorplus="0.0003" unit="BJD">2456408.7646</transittime>
+			<period errorminus="0.000002" errorplus="0.000003">2.766764</period>
 			<semimajoraxis errorminus="0.00032" errorplus="0.00032">0.03815</semimajoraxis>
-			<inclination errorminus="0.66" errorplus="0.66">88.83</inclination>
-			<description>HATS-14 b is a hot-Jupiter transiting planet that was discovered by the HATSouth survey.</description>
+			<inclination errorminus="0.4" errorplus="0.3">89.0</inclination>
+			<spinorbitalignment errorminus="5" errorplus="4">76</spinorbitalignment>
+			<description>HATS-14 b is a hot-Jupiter transiting planet that was discovered by the HATSouth survey. Unlike many such planets orbiting relatively cool stars, it exhibits a substantial orbital obliquity.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>15/03/11</lastupdate>
+			<lastupdate>15/11/01</lastupdate>
 			<discoveryyear>2015</discoveryyear>
 			<istransiting>1</istransiting>
 		</planet>

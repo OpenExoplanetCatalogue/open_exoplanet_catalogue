@@ -1,0 +1,37 @@
+<system>
+	<name>GJ 1132</name>
+	<rightascension>10 14 51.846</rightascension>
+	<declination>-47 09 24.47</declination>
+	<distance errorminus="0.24" errorplus="0.24">12.04</distance>
+	<star>
+		<name>GJ 1132</name>
+		<name>LHS 281</name>
+		<name>2MASS J10145184-4709244</name>
+		<magV>13.52</magV>
+		<magB>15.25</magB>
+		<magJ errorminus="0.026" errorplus="0.026">9.245</magJ>
+		<magH errorminus="0.03" errorplus="0.03">8.67</magH>
+		<magK errorminus="0.027" errorplus="0.027">8.322</magK>
+		<mass errorminus="0.019" errorplus="0.019">0.181</mass>
+		<radius errorminus="0.016" errorplus="0.016">0.207</radius>
+		<temperature errorminus="140" errorplus="140">3270</temperature>
+		<metallicity errorminus="0.15" errorplus="0.15">-0.12</metallicity>
+		<spectraltype>M3.5</spectraltype>
+		<age lowerlimit="5" />
+		<planet>
+			<name>GJ 1132 b</name>
+			<name>LHS 281 b</name>
+			<name>2MASS J10145184-4709244 b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.001730" errorplus="0.001730">0.005096</mass>
+			<radius errorminus="0.010024" errorplus="0.010024">0.105711</radius>
+			<period errorminus="0.000031" errorplus="0.000031">1.628930</period>
+			<transittime errorminus="0.00032" errorplus="0.00032" unit="BJD">2457184.55786</transittime>
+			<description>GJ 1132b is orbiting a red dwarf star. The planet is three times closer to Earth than any other rocky exoplanet. Although the planet is not habitable, it is expected to be cool enough to hold on to an atmosphere. Because of its proximity to Earth, it might be possible to determine the composition of the atmosphere in the future.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>15/11/12</lastupdate>
+			<discoveryyear>2015</discoveryyear>
+		</planet>
+	</star>
+</system>

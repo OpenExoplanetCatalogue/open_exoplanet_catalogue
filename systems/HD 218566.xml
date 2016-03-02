@@ -1,32 +1,40 @@
 <system>
 	<name>HD 218566</name>
-	<rightascension>23 09 11</rightascension>
-	<declination>-02 15 39</declination>
-	<distance>29.94</distance>
+	<rightascension>23 09 10.72771</rightascension>
+	<declination>-02 15 38.6775</declination>
+	<distance errorminus="0.93" errorplus="0.93">28.55</distance>
 	<star>
-		<mass>0.85</mass>
-		<radius>0.86</radius>
-		<magV>8.63</magV>
+		<name>HD 218566</name>
+		<name>HIP 114322</name>
+		<name>TYC 5242-229-1</name>
+		<name>SAO 146533</name>
+		<name>GJ 4313</name>
+		<name>BD-03 5577</name>
+		<name>2MASS J23091067-0215385</name>
+		<mass errorminus="0.03" errorplus="0.03">0.85</mass>
+		<radius errorminus="0.08" errorplus="0.08">0.86</radius>
+		<magV errorminus="0.016" errorplus="0.016">8.628</magV>
 		<magB errorminus="0.028" errorplus="0.028">9.641</magB>
 		<magI errorminus="0.02" errorplus="0.02">8.73</magI>
 		<magJ errorminus="0.020" errorplus="0.020">6.824</magJ>
 		<magH errorminus="0.033" errorplus="0.033">6.344</magH>
 		<magK errorminus="0.020" errorplus="0.020">6.223</magK>
+		<temperature>4820.0</temperature>
 		<metallicity>0.38</metallicity>
 		<spectraltype>K3V</spectraltype>
+		<age>8.5</age>
 		<planet>
 			<name>HD 218566 b</name>
 			<list>Confirmed planets</list>
-			<mass>0.21</mass>
-			<period>225.7</period>
-			<semimajoraxis>0.6873</semimajoraxis>
-			<eccentricity>0.3</eccentricity>
+			<mass errorminus="0.02" errorplus="0.02" type="msini">0.21</mass>
+			<period errorminus="0.4" errorplus="0.4">225.7</period>
+			<semimajoraxis errorminus="0.0008" errorplus="0.0008">0.6873</semimajoraxis>
+			<eccentricity errorminus="0.1" errorplus="0.1">0.3</eccentricity>
+			<periastrontime errorminus="154" errorplus="154">2450360</periastrontime>
+			<periastron errorminus="24" errorplus="24">36</periastron>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/11/19</lastupdate>
+			<lastupdate>15/11/03</lastupdate>
 			<discoveryyear>2010</discoveryyear>
-			<temperature>236.4</temperature>
 		</planet>
-		<name>HD 218566</name>
-		<temperature>4820.0</temperature>
 	</star>
 </system>

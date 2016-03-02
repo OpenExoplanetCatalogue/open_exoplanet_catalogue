@@ -86,7 +86,7 @@ validtags = [
     "metallicity", "inclination", "spectraltype", "binary", "planet", "periastron", "star",
     "mass", "eccentricity", "radius", "temperature", "videolink", "transittime", 
     "spinorbitalignment", "istransiting", "separation", "positionangle", "periastrontime",
-    "meananomaly"]
+    "meananomaly", "maximumrvtime"]
 validattributes = [
     "error",
     "errorplus",
@@ -111,7 +111,8 @@ tagsallowmultiple = ["list", "name", "planet", "star", "binary", "separation"]
 numerictags = ["mass", "radius", "ascnedingnode", "discoveryyear", "semimajoraxis", "period",
     "magV", "magJ", "magH", "magR", "magB", "magK", "magI", "magU", "distance", "longitude", "age",
     "metallicity", "inclination", "periastron", "eccentricity", "temperature", "transittime",
-    "spinorbitalignment", "separation", "positionangle", "periastrontime", "meananomaly"]
+    "spinorbitalignment", "separation", "positionangle", "periastrontime", "meananomaly",
+    "maximumrvtime", "ascendingnode"]
 numericattributes = ["error", "errorplus", "errorminus", "upperlimit", "lowerlimit"]
 nonzeroattributes = ["error", "errorplus", "errorminus"]
 
@@ -352,7 +353,8 @@ for filename in glob.glob("systems*/*.xml"):
     indent(root)
 
     # Write XML to file.
-    ET.ElementTree(root).write(filename, encoding="UTF-8", xml_declaration=False)
+    with open(filename, 'w') as outfile:
+        ET.ElementTree(root).write(outfile, encoding="UTF-8", xml_declaration=False)
 
     # Check for new md5
     f = open(filename, 'rt')

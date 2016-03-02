@@ -1,16 +1,23 @@
 <system>
 	<name>HD 219415</name>
-	<rightascension>23 14 53.82</rightascension>
-	<declination>+56 43 49.15</declination>
+	<rightascension>23 14 53.8203</rightascension>
+	<declination>+56 43 49.154</declination>
 	<star>
-		<mass>1.0</mass>
-		<radius>2.9</radius>
-		<magV>8.94</magV>
+		<name>HD 219415</name>
+		<name>TYC 4006-629-1</name>
+		<name>SAO 35261</name>
+		<name>BD+55 2926</name>
+		<name>2MASS J23145382+5643491</name>
+		<name>GSC 04006-00629</name>
+		<mass errorminus="0.1" errorplus="0.1">1.0</mass>
+		<radius errorminus="0.4" errorplus="0.4">2.9</radius>
+		<magV errorminus="0.01" errorplus="0.01">8.91</magV>
 		<magB errorminus="0.03" errorplus="0.03">9.90</magB>
 		<magJ errorminus="0.018" errorplus="0.018">7.023</magJ>
 		<magH errorminus="0.029" errorplus="0.029">6.532</magH>
 		<magK errorminus="0.020" errorplus="0.020">6.421</magK>
-		<metallicity>-0.46</metallicity>
+		<temperature errorminus="20" errorplus="20">4820</temperature>
+		<metallicity errorminus="0.09" errorplus="0.09">-0.04</metallicity>
 		<spectraltype>K0 III</spectraltype>
 		<planet>
 			<name>HD 219415 b</name>
@@ -19,17 +26,16 @@
 			<name>2MASS J23145382+5643491 b</name>
 			<name>TYC 4006-629-1 b</name>
 			<list>Confirmed planets</list>
-			<mass>1.0</mass>
-			<period>2093.3</period>
+			<mass type="msini">1.0</mass>
+			<period errorminus="32.7" errorplus="32.7">2093.3</period>
 			<semimajoraxis>3.2</semimajoraxis>
-			<eccentricity>0.40</eccentricity>
+			<eccentricity errorminus="0.09" errorplus="0.09">0.40</eccentricity>
+			<periastron errorminus="12.3" errorplus="12.3">207.0</periastron>
+			<periastrontime errorminus="57.7" errorplus="57.7">2453461.4</periastrontime>
 			<description>This planet was found by the Penn State-Torun Planet Search Team (PTPS) using the Hobby-Eberly Telescope. The planet is in a nearly 6 year orbit.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>12/09/13</lastupdate>
+			<lastupdate>15/11/23</lastupdate>
 			<discoveryyear>2012</discoveryyear>
-			<temperature>202.3</temperature>
 		</planet>
-		<name>HD 219415</name>
-		<temperature>4820.0</temperature>
 	</star>
 </system>

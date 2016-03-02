@@ -1,15 +1,17 @@
 <system>
 	<name>EPIC 201367065</name>
+	<name>K2-3</name>
 	<rightascension>11 29 20.388</rightascension>
 	<declination>-01 27 17.23</declination>
 	<distance errorminus="4" errorplus="3">45</distance>
 	<star>
 		<name>EPIC 201367065</name>
 		<name>K2-3</name>
-		<name>2MASS 11292037-0127173</name>
-		<mass errorminus="0.086" errorplus="0.086">0.612</mass>
-		<radius errorminus="0.041" errorplus="0.041">0.553</radius>
-		<temperature errorminus="190" errorplus="190">3900</temperature>
+		<name>2MASS J11292037-0127173</name>
+		<mass errorminus="0.09" errorplus="0.09">0.60</mass>
+		<radius errorminus="0.07" errorplus="0.07">0.56</radius>
+		<temperature errorminus="189" errorplus="189">3896</temperature>
+		<magV errorminus="0.01" errorplus="0.01">12.17</magV>
 		<magJ errorminus="0.03" errorplus="0.03">9.42</magJ>
 		<magH errorminus="0.04" errorplus="0.04">8.8</magH>
 		<magK errorminus="0.02" errorplus="0.02">8.56</magK>
@@ -20,13 +22,13 @@
 			<name>EPIC 201367065 b</name>
 			<name>EPIC 201367065.01</name>
 			<name>K2-3 b</name>
-			<name>2MASS 11292037-0127173 b</name>
+			<name>2MASS J11292037-0127173 b</name>
 			<list>Confirmed planets</list>
-			<radius errorminus="0.0083" errorplus="0.0161">0.1854</radius>
-			<period errorminus="0.00022" errorplus="0.00022">10.05429</period>
-			<transittime errorminus="0.00082" errorplus="0.00082" unit="BJD">2456813.41817</transittime>
-			<semimajoraxis errorminus="0.0039" errorplus="0.0039">0.0775</semimajoraxis>
-			<inclination errorminus="0.40" errorplus="0.24">89.59</inclination>
+			<radius errorminus="0.027" errorplus="0.027">0.194</radius>
+			<period errorminus="0.00026" errorplus="0.00026">10.05449</period>
+			<transittime errorminus="0.0011" errorplus="0.0011" unit="BJD">2456813.4173</transittime>
+			<semimajoraxis errorminus="0.0039" errorplus="0.0039">0.0769</semimajoraxis>
+			<inclination errorminus="1.12" errorplus="0.84">88.80</inclination>
 			<eccentricity upperlimit="0.29" />
 			<periastron errorminus="70" errorplus="70">180</periastron>
 			<ascendingnode>180</ascendingnode>
@@ -34,46 +36,46 @@
 			<description>This planet was discovered by the Kepler spacecraft during its extended K2 mission, Campaign 1. Its mass has been determined through radial velocity measurements taken with HARPS, indicating it is rocky with up to 50% of the mass in a water envelope.</description>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
-			<lastupdate>15/09/12</lastupdate>
+			<lastupdate>15/12/06</lastupdate>
 			<discoveryyear>2015</discoveryyear>
 		</planet>
 		<planet>
 			<name>EPIC 201367065 c</name>
 			<name>EPIC 201367065.02</name>
 			<name>K2-3 c</name>
-			<name>2MASS 11292037-0127173 c</name>
+			<name>2MASS J11292037-0127173 c</name>
 			<list>Confirmed planets</list>
-			<radius errorminus="0.0058" errorplus="0.0143">0.1467</radius>
-			<period errorminus="0.0033" errorplus="0.0033">24.6491</period>
-			<transittime errorminus="0.0018" errorplus="0.0018" unit="BJD">2456812.2784</transittime>
-			<semimajoraxis errorminus="0.0036" errorplus="0.0036">0.1405</semimajoraxis>
-			<inclination errorminus="0.20" errorplus="0.20">89.70</inclination>
+			<radius errorminus="0.024" errorplus="0.024">0.165</radius>
+			<period errorminus="0.00117" errorplus="0.00117">24.64354</period>
+			<transittime errorminus="0.0022" errorplus="0.0022" unit="BJD">2456812.2812</transittime>
+			<semimajoraxis errorminus="0.0070" errorplus="0.0070">0.1399</semimajoraxis>
+			<inclination errorminus="0.86" errorplus="0.62">89.12</inclination>
 			<eccentricity upperlimit="0.20" />
 			<periastron errorminus="110" errorplus="110">89</periastron>
-			<ascendingnode errorminus="1.8">180.0</ascendingnode>
+			<ascendingnode errorminus="1.8" errorplus="1.8">180</ascendingnode>
 			<description>This planet was discovered by the Kepler spacecraft during its extended K2 mission, Campaign 1. The radial velocity signature of this planet is masked by variations due to stellar activity, preventing an accurate mass determination.</description>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
-			<lastupdate>15/09/12</lastupdate>
+			<lastupdate>15/12/06</lastupdate>
 			<discoveryyear>2015</discoveryyear>
 		</planet>
 		<planet>
 			<name>EPIC 201367065 d</name>
 			<name>K2-3 d</name>
-			<name>2MASS 11292037-0127173 d</name>
+			<name>2MASS J11292037-0127173 d</name>
 			<list>Confirmed planets</list>
-			<radius errorminus="0.0098" errorplus="0.0098">0.1365</radius>
-			<period errorminus="0.00059" errorplus="0.0059">44.5705</period>
-			<semimajoraxis errorminus="0.010" errorplus="0.010">0.2086</semimajoraxis>
-			<inclination errorminus="0.15" errorplus="0.15">89.79</inclination>
+			<radius errorminus="0.021" errorplus="0.021">0.135</radius>
+			<period errorminus="0.00590" errorplus="0.00590">44.55983</period>
+			<semimajoraxis errorminus="0.0104" errorplus="0.0104">0.2076</semimajoraxis>
+			<inclination errorminus="0.64" errorplus="0.43">89.38</inclination>
 			<eccentricity upperlimit="0.19" />
 			<periastron errorminus="66" errorplus="66">351</periastron>
-			<ascendingnode errorminus="1.8">180.0</ascendingnode>
-			<transittime errorminus="0.0027" errorplus="0.0027" unit="BJD">2456826.2272</transittime>
+			<ascendingnode errorminus="1.8" errorplus="1.8">180</ascendingnode>
+			<transittime errorminus="0.0034" errorplus="0.0034" unit="BJD">2456826.2288</transittime>
 			<description>This planet was discovered by the Kepler spacecraft during its extended K2 mission. The planetary system consists of three transiting Super-Earths. The low-mass star is bright and nearby, which makes this system an excellent laboratory to determine the planets' masses via Doppler spectroscopy and to constrain their atmospheric compositions via transit spectroscopy. The radial velocity signature of this planet is masked by variations due to stellar activity, preventing an accurate mass determination.</description>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
-			<lastupdate>15/09/12</lastupdate>
+			<lastupdate>15/12/06</lastupdate>
 			<discoveryyear>2015</discoveryyear>
 		</planet>
 	</star>

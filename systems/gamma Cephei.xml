@@ -7,18 +7,58 @@
 	<name>HR 8974</name>
 	<name>HD 222404</name>
 	<name>HIP 116727</name>
-	<rightascension>23 39 20</rightascension>
-	<declination>+77 37 56</declination>
-	<distance>13.79</distance>
+	<rightascension>23 39 20.85153</rightascension>
+	<declination>+77 37 56.1876</declination>
+	<distance errorminus="0.080" errorplus="0.080">14.102</distance>
 	<binary>
+		<name>gamma Cephei</name>
+		<name>Gamma Cephei</name>
+		<name>gam Cep</name>
+		<name>γ Cep</name>
+		<name>γ Cephei</name>
+		<name>35 Cep</name>
+		<name>35 Cephei</name>
+		<name>Errai</name>
+		<name>Alrai</name>
+		<name>Gliese 903</name>
+		<name>GJ 903</name>
+		<name>HR 8974</name>
+		<name>HD 222404</name>
+		<name>HIP 116727</name>
+		<name>TYC 4606-3584-1</name>
+		<name>BD+76 928</name>
+		<name>2MASS J23392083+7737563</name>
+		<name>WDS J23393+7738</name>
+		<name>NHR 9</name>
 		<semimajoraxis errorminus="0.66" errorplus="0.66">20.18</semimajoraxis>
 		<eccentricity errorminus="0.0063" errorplus="0.0063">0.4112</eccentricity>
-		<period errorminus="1.4" errorplus="1.4">67.5</period>
+		<period errorminus="511" errorplus="511">24654</period>
+		<periastron errorminus="0.40" errorplus="0.40">161.01</periastron>
+		<periastrontime errorminus="11.3" errorplus="11.3">2448478.3</periastrontime>
+		<ascendingnode errorminus="0.98" errorplus="0.98">18.04</ascendingnode>
 		<star>
+			<name>gamma Cephei A</name>
 			<name>Gamma Cephei A</name>
-			<mass errorminus="0.12" errorplus="0.12">1.4</mass>
+			<name>gam Cep A</name>
+			<name>γ Cep A</name>
+			<name>γ Cephei A</name>
+			<name>35 Cep A</name>
+			<name>35 Cephei A</name>
+			<name>Errai A</name>
+			<name>Alrai A</name>
+			<name>Gliese 903 A</name>
+			<name>GJ 903 A</name>
+			<name>HR 8974 A</name>
+			<name>HD 222404 A</name>
+			<name>HIP 116727 A</name>
+			<name>TYC 4606-3584-1 A</name>
+			<name>BD+76 928 A</name>
+			<name>2MASS J23392083+7737563 A</name>
+			<name>WDS J23393+7738 A</name>
+			<name>NHR 9 A</name>
+			<mass errorminus="0.12" errorplus="0.12">1.40</mass>
 			<radius>4.9</radius>
-			<magV>3.22</magV>
+			<magV errorminus="0.009" errorplus="0.009">3.220</magV>
 			<magB errorminus="0.007" errorplus="0.007">4.250</magB>
 			<magR>2.6</magR>
 			<magI>2.1</magI>
@@ -31,24 +71,44 @@
 			<planet>
 				<name>Gamma Cephei b</name>
 				<name>Gamma Cephei A b</name>
-				<name>gam Cep b</name>
-				<name>HD 222404b</name>
+				<name>gam Cep A b</name>
+				<name>HD 222404 A b</name>
 				<list>Confirmed planets</list>
-				<mass errorminus="0.16" errorplus="0.16">1.85</mass>
+				<mass errorminus="0.16" errorplus="0.16" type="msini">1.85</mass>
 				<period errorminus="1.5" errorplus="1.5">903.3</period>
 				<semimajoraxis errorminus="0.06" errorplus="0.06">2.05</semimajoraxis>
 				<eccentricity errorminus="0.034" errorplus="0.034">0.049</eccentricity>
-				<inclination>5.7</inclination>
+				<periastron errorminus="34.6" errorplus="34.6">94.6</periastron>
+				<periastrontime errorminus="87" errorplus="87">2453227</periastrontime>
 				<discoverymethod>RV</discoverymethod>
-				<lastupdate>11/01/14</lastupdate>
+				<lastupdate>15/12/12</lastupdate>
 				<discoveryyear>2003</discoveryyear>
-				<temperature>327.2</temperature>
 				<list>Planets in binary systems, S-type</list>
 			</planet>
 		</star>
 		<star>
+			<name>gamma Cephei B</name>
 			<name>Gamma Cephei B</name>
+			<name>gam Cep B</name>
+			<name>γ Cep B</name>
+			<name>γ Cephei B</name>
+			<name>35 Cep B</name>
+			<name>35 Cephei B</name>
+			<name>Errai B</name>
+			<name>Alrai B</name>
+			<name>Gliese 903 B</name>
+			<name>GJ 903 B</name>
+			<name>HR 8974 B</name>
+			<name>HD 222404 B</name>
+			<name>HIP 116727 B</name>
+			<name>TYC 4606-3584-1 B</name>
+			<name>BD+76 928 B</name>
+			<name>2MASS J23392083+7737563 B</name>
+			<name>WDS J23393+7738 B</name>
+			<name>NHR 9 B</name>
+			<magK errorminus="0.2" errorplus="0.2">7.3</magK>
 			<mass errorminus="0.018" errorplus="0.018">0.409</mass>
+			<spectraltype>M4</spectraltype>
 		</star>
 	</binary>
 	<videolink>http://youtu.be/lJ3HMtDK4ms</videolink>

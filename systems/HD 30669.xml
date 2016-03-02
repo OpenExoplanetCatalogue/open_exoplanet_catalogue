@@ -1,17 +1,23 @@
 <system>
 	<name>HD 30669</name>
-	<rightascension>04 48 28.48</rightascension>
-	<declination>-28 25 09.46</declination>
-	<distance>57.1</distance>
+	<rightascension>04 48 28.48561</rightascension>
+	<declination>-28 25 09.4699</declination>
+	<distance errorminus="3.9" errorplus="3.9">57.1</distance>
 	<star>
-		<name>HD 30669 A</name>
+		<name>HD 30669</name>
+		<name>HIP 22320</name>
+		<name>TYC 6471-465-1</name>
+		<name>SAO 169782</name>
+		<name>CD-28 1759</name>
+		<name>CPD-28 661</name>
+		<name>2MASS J04482846-2825094</name>
 		<mass errorminus="0.03" errorplus="0.03">0.92</mass>
 		<radius errorminus="0.04" errorplus="0.04">0.91</radius>
 		<temperature errorminus="74" errorplus="74">5400</temperature>
 		<age errorminus="4" errorplus="4">4.8</age>
 		<metallicity errorminus="0.06" errorplus="0.06">0.13</metallicity>
 		<spectraltype>G9 V</spectraltype>
-		<magV>9.11</magV>
+		<magV errorminus="0.01" errorplus="0.01">9.11</magV>
 		<magB errorminus="0.02" errorplus="0.02">9.93</magB>
 		<magJ errorminus="0.021" errorplus="0.021">7.754</magJ>
 		<magH errorminus="0.026" errorplus="0.026">7.390</magH>
@@ -21,12 +27,14 @@
 			<semimajoraxis errorminus="0.08" errorplus="0.08">2.69</semimajoraxis>
 			<eccentricity errorminus="0.15" errorplus="0.15">0.18</eccentricity>
 			<period errorminus="61" errorplus="61">1684</period>
-			<mass errorminus="0.06" errorplus="0.06">0.47</mass>
+			<mass errorminus="0.06" errorplus="0.06" type="msini">0.47</mass>
+			<periastron errorminus="36" errorplus="43">82</periastron>
+			<maximumrvtime errorminus="1395" errorplus="101">2457181</maximumrvtime>
 			<list>Confirmed planets</list>
 			<description>This planet has been discovered by the HARPS team using radial-velocity data gathered over ten years.</description>
 			<discoverymethod>RV</discoverymethod>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/12/23</lastupdate>
+			<lastupdate>15/11/21</lastupdate>
 		</planet>
 	</star>
 </system>

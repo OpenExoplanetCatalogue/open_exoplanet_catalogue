@@ -1,32 +1,55 @@
 <system>
 	<name>eps Tau</name>
-	<rightascension>04 28 37</rightascension>
-	<declination>+19 10 50</declination>
-	<distance>45</distance>
+	<rightascension>04 28 36.99882</rightascension>
+	<declination>+19 10 49.5446</declination>
+	<distance errorminus="0.51" errorplus="0.51">44.96</distance>
 	<star>
-		<mass>2.7</mass>
-		<radius>13.7</radius>
-		<magV>3.53</magV>
+		<name>eps Tau</name>
+		<name>eps Tauri</name>
+		<name>Epsilon Tauri</name>
+		<name>ε Tau</name>
+		<name>ε Tauri</name>
+		<name>74 Tau</name>
+		<name>74 Tauri</name>
+		<name>Ain</name>
+		<name>Oculus Borealis</name>
+		<name>HD 28305</name>
+		<name>HIP 20889</name>
+		<name>TYC 1273-1104-1</name>
+		<name>SAO 93954</name>
+		<name>HR 1409</name>
+		<name>BD+18 640</name>
+		<name>2MASS J04283697+1910494</name>
+		<name>Melotte 25 S 3</name>
+		<name>Melotte 25 MMU 70</name>
+		<mass errorminus="0.1" errorplus="0.1">2.7</mass>
+		<radius errorminus="0.6" errorplus="0.6">13.7</radius>
+		<magV errorminus="0.05" errorplus="0.05">3.53</magV>
 		<magB>4.549</magB>
 		<magJ errorminus="0.284" errorplus="0.284">1.748</magJ>
 		<magH errorminus="0.226" errorplus="0.226">1.314</magH>
 		<magK errorminus="0.05" errorplus="0.05">1.31</magK>
-		<metallicity>0.17</metallicity>
 		<spectraltype>K0 III</spectraltype>
+		<temperature errorminus="20" errorplus="20">4901</temperature>
+		<metallicity errorminus="0.04" errorplus="0.04">0.17</metallicity>
 		<planet>
 			<name>eps Tau b</name>
+			<name>eps Tauri b</name>
+			<name>Epsilon Tauri b</name>
+			<name>ε Tau b</name>
+			<name>ε Tauri b</name>
 			<list>Confirmed planets</list>
 			<list>Planets in open clusters</list>
-			<mass>7.6</mass>
-			<period>594.9</period>
-			<semimajoraxis>1.93</semimajoraxis>
-			<eccentricity>0.151</eccentricity>
+			<mass errorminus="0.2" errorplus="0.2" type="msini">7.6</mass>
+			<period errorminus="5.3" errorplus="5.3">594.9</period>
+			<semimajoraxis errorminus="0.03" errorplus="0.03">1.93</semimajoraxis>
+			<eccentricity errorminus="0.023" errorplus="0.023">0.151</eccentricity>
+			<periastron errorminus="7.4" errorplus="7.4">94.4</periastron>
+			<periastrontime errorminus="12" errorplus="12">2452879</periastrontime>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>07/02/07</lastupdate>
+			<description>Epsilon Tauri b orbits a giant star in the Hyades cluster.</description>
+			<lastupdate>15/12/11</lastupdate>
 			<discoveryyear>2007</discoveryyear>
-			<temperature>574.9</temperature>
 		</planet>
-		<name>eps Tau</name>
-		<temperature>4901.0</temperature>
 	</star>
 </system>

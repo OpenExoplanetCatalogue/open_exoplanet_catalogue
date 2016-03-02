@@ -7,10 +7,10 @@
 		<name>Kepler-76</name>
 		<name>KIC 4570949</name>
 		<name>KOI-1658</name>
-		<mass errorminus="0.2" errorplus="0.2">1.2</mass>
+		<mass errorminus="0.20" errorplus="0.20">1.20</mass>
 		<radius errorminus="0.08" errorplus="0.08">1.32</radius>
 		<temperature errorminus="95" errorplus="95">6409</temperature>
-		<metallicity errorminus="0.2" errorplus="0.2">-0.1</metallicity>
+		<metallicity errorminus="0.20" errorplus="0.20">-0.10</metallicity>
 		<magJ errorminus="0.022" errorplus="0.022">12.343</magJ>
 		<magH errorminus="0.021" errorplus="0.021">12.134</magH>
 		<magK errorminus="0.021" errorplus="0.021">12.092</magK>
@@ -22,14 +22,14 @@
 			<name>KIC 4570949 b</name>
 			<name>Einstein's Planet</name>
 			<list>Confirmed planets</list>
-			<mass errorminus="0.26" errorplus="0.26">2.00</mass>
-			<radius errorminus="0.08" errorplus="0.08">1.25</radius>
+			<mass errorminus="0.35" errorplus="0.37">2.01</mass>
+			<radius errorminus="0.12" errorplus="0.12">1.36</radius>
 			<period errorminus="0.00000027" errorplus="0.00000027">1.54492875</period>
 			<inclination errorminus="0.2" errorplus="0.2">78</inclination>
 			<transittime errorminus="0.00007" errorplus="0.00007" unit="BJD">2454966.54811</transittime>
 			<description>This planet was discovered in a Kepler lightcurve using the BEER algorithm (BEaming effect with Ellipsoidal and Reflection modulations). Follow-up observations using spectra from TRES and SOPHIE confirmed the planetary nature of the object. The planet has the nickname "Einstein's Planet" because the confirmation method makes use of special relativity.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>13/05/14</lastupdate>
+			<lastupdate>15/12/03</lastupdate>
 			<discoveryyear>2013</discoveryyear>
 			<istransiting>1</istransiting>
 		</planet>

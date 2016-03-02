@@ -1,0 +1,39 @@
+<system>
+	<name>WASP-129</name>
+	<rightascension>11 45 11.75</rightascension>
+	<declination>-42 03 50.1</declination>
+	<distance errorminus="7" errorplus="7">246</distance>
+	<star>
+		<name>WASP-129</name>
+		<name>TYC 7749-508-1</name>
+		<name>2MASS J11451175-4203501</name>
+		<magB errorminus="0.15" errorplus="0.15">12.32</magB>
+		<magV errorminus="0.16" errorplus="0.16">12.18</magV>
+		<magJ errorminus="0.023" errorplus="0.023">10.725</magJ>
+		<magH errorminus="0.022" errorplus="0.022">10.471</magH>
+		<magK errorminus="0.023" errorplus="0.023">10.412</magK>
+		<mass errorminus="0.03" errorplus="0.03">1.00</mass>
+		<temperature errorminus="100" errorplus="100">5900</temperature>
+		<metallicity errorminus="0.09" errorplus="0.09">0.15</metallicity>
+		<spectraltype>G1</spectraltype>
+		<planet>
+			<name>WASP-129 b</name>
+			<name>TYC 7749-508-1 b</name>
+			<name>2MASS J11451175-4203501 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.03" errorplus="0.03">0.93</radius>
+			<mass errorminus="0.1" errorplus="0.1">1</mass>
+			<period>5.748145</period>
+			<transittime unit="HJD">2547027.4373</transittime>
+			<semimajoraxis errorminus="0.0007" errorplus="0.0007">0.0628</semimajoraxis>
+			<temperature errorminus="25" errorplus="25">1100</temperature>
+			<inclination errorminus="0.2" errorplus="0.2">87.7</inclination>
+			<eccentricity upperlimit="0.096" />
+			<description>This Hot Jupiter was discovered by WASP-South.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>16/02/04</lastupdate>
+			<discoveryyear>2016</discoveryyear>
+		</planet>
+	</star>
+</system>

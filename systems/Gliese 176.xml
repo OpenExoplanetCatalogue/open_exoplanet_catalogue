@@ -1,13 +1,19 @@
 <system>
 	<name>Gliese 176</name>
-	<rightascension>04 42 56</rightascension>
-	<declination>+18 57 29</declination>
-	<distance>9.42</distance>
+	<rightascension>04 42 55.77497</rightascension>
+	<declination>+18 57 29.4043</declination>
+	<distance errorminus="0.22" errorplus="0.22">9.42</distance>
 	<star>
 		<name>Gliese 176</name>
+		<name>GJ 176</name>
 		<name>HD 285968</name>
+		<name>HIP 21932</name>
+		<name>TYC 1275-2034-1</name>
+		<name>BD+18 683</name>
+		<name>2MASS J04425581+1857285</name>
 		<mass>0.49</mass>
 		<radius>0.53</radius>
+		<magU>12.668</magU>
 		<magV>9.97</magV>
 		<magB>11.49</magB>
 		<magR>8.931</magR>
@@ -15,7 +21,7 @@
 		<magJ errorminus="0.024" errorplus="0.024">6.462</magJ>
 		<magH errorminus="0.033" errorplus="0.033">5.824</magH>
 		<magK errorminus="0.034" errorplus="0.034">5.607</magK>
-		<metallicity>-0.1</metallicity>
+		<metallicity errorminus="0.2" errorplus="0.2">-0.1</metallicity>
 		<spectraltype>M2.5V</spectraltype>
 		<planet>
 			<name>Gliese 176 b</name>
@@ -24,16 +30,17 @@
 			<name>Gl 176 b</name>
 			<name>HD 285968 b</name>
 			<list>Confirmed planets</list>
-			<mass>0.0265</mass>
-			<period>8.7836</period>
+			<mass type="msini">0.0264</mass>
+			<period errorminus="0.0054" errorplus="0.0054">8.7836</period>
 			<semimajoraxis>0.066</semimajoraxis>
-			<eccentricity>0.0</eccentricity>
+			<eccentricity>0</eccentricity>
+			<periastron>0</periastron>
+			<periastrontime errorminus="0.33" errorplus="0.33">2454399.79</periastrontime>
 			<description>Gliese 176 is a red dwarf located in the constellation Taurus. It has half the mass of our Sun. The planet consists mainly of rock but probably has a thick gas atmosphere.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/12/17</lastupdate>
+			<lastupdate>16/02/03</lastupdate>
 			<discoveryyear>2007</discoveryyear>
-			<temperature>439.8</temperature>
 		</planet>
-		<temperature>3520.0</temperature>
+		<temperature>3520</temperature>
 	</star>
 </system>

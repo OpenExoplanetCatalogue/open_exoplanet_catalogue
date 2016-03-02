@@ -2,24 +2,41 @@
 	<name>Gliese 15</name>
 	<rightascension>00 18 22.88532</rightascension>
 	<declination>+44 01 22.6282</declination>
-	<distance errorminus="0.01" errorplus="0.01">3.587</distance>
+	<distance errorminus="0.010" errorplus="0.010">3.587</distance>
 	<binary>
-		<period>949650</period>
-		<magV errorminus="0.01" errorplus="0.01">8.13</magV>
-		<magB>9.63</magB>
-		<magI>6.4</magI>
-		<magJ>5.25</magJ>
-		<magH>4.48</magH>
-		<magK>4.02</magK>
-		<separation unit="AU">146</separation>
-		<separation unit="arcsec" />
+		<name>Gliese 15</name>
+		<name>GJ 15</name>
+		<name>Groombridge 34</name>
+		<name>BD+43 44</name>
+		<name>WDS J00184+4401</name>
+		<period errorminus="94600" errorplus="94600">457700</period>
+		<semimajoraxis errorminus="12.7" errorplus="12.7">95.9</semimajoraxis>
+		<inclination errorminus="11" errorplus="11">46</inclination>
+		<ascendingnode errorminus="25" errorplus="25">243</ascendingnode>
+		<periastrontime errorminus="29600" errorplus="29600">2571000</periastrontime>
+		<eccentricity errorminus="0.19" errorplus="0.19">0.59</eccentricity>
+		<periastron errorminus="32" errorplus="32">331</periastron>
 		<star>
 			<name>Gliese 15 A</name>
+			<name>GJ 15 A</name>
 			<name>HD 1326 A</name>
 			<name>HIP 1475</name>
+			<name>TYC 2794-157-1</name>
+			<name>SAO 36248</name>
 			<name>GX Andromedae</name>
 			<name>GX And</name>
 			<name>Groombridge 34</name>
+			<name>BD+43 44 A</name>
+			<name>WDS J00184+4401 A</name>
+			<name>2MASS J00182256+4401222</name>
+			<magU>10.30</magU>
+			<magB>9.63</magB>
+			<magV errorminus="0.01" errorplus="0.01">8.13</magV>
+			<magR>7.3</magR>
+			<magI>6.4</magI>
+			<magJ>5.25</magJ>
+			<magH>4.48</magH>
+			<magK>4.02</magK>
 			<mass errorminus="0.057" errorplus="0.057">0.375</mass>
 			<radius errorminus="0.0021" errorplus="0.0021">0.3863</radius>
 			<temperature errorminus="11" errorplus="11">3567</temperature>
@@ -32,20 +49,35 @@
 				<name>GX Andromedae b</name>
 				<name>Groombridge 34 b</name>
 				<list>Confirmed planets</list>
-				<mass errorminus="0.002359" errorplus="0.002359">0.016829</mass>
+				<mass errorminus="0.00236" errorplus="0.00236" type="msini">0.01683</mass>
 				<period errorminus="0.0016" errorplus="0.0016">11.4433</period>
 				<semimajoraxis errorminus="0.0034" errorplus="0.0034">0.0717</semimajoraxis>
 				<eccentricity>0</eccentricity>
+				<transittime errorminus="0.21" errorplus="0.21">2455874.95</transittime>
+				<istransiting>0</istransiting>
 				<description>Gliese 15 A b, also known as Groombridge 34 b, is a 5 Earth-mass planet in a nearby M-dwarf binary.</description>
 				<discoverymethod>RV</discoverymethod>
-				<lastupdate>14/08/26</lastupdate>
+				<lastupdate>15/12/12</lastupdate>
 				<discoveryyear>2014</discoveryyear>
 				<list>Planets in binary systems, S-type</list>
 			</planet>
 		</star>
 		<star>
 			<name>Gliese 15 B</name>
+			<name>GJ 15 B</name>
 			<name>HD 1326 B</name>
+			<name>GQ And</name>
+			<name>GQ Andromedae</name>
+			<name>Groombridge 34 B</name>
+			<name>BD+43 44 B</name>
+			<name>WDS J00184+4401 B</name>
+			<name>2MASS J00182549+4401376</name>
+			<magB>12.84</magB>
+			<magV>11.04</magV>
+			<magR>10.3</magR>
+			<magJ errorminus="0.024" errorplus="0.024">6.789</magJ>
+			<magH errorminus="0.016" errorplus="0.016">6.191</magH>
+			<magK errorminus="0.024" errorplus="0.024">5.948</magK>
 			<spectraltype>M3.5</spectraltype>
 			<mass>0.163</mass>
 			<radius>0.19</radius>

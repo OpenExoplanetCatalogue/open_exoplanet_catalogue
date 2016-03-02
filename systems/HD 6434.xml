@@ -1,31 +1,40 @@
 <system>
 	<name>HD 6434</name>
-	<rightascension>01 04 40</rightascension>
-	<declination>-39 29 17</declination>
-	<distance>40.32</distance>
+	<rightascension>01 04 40.15077</rightascension>
+	<declination>-39 29 17.5822</declination>
+	<distance errorminus="1.03" errorplus="1.03">41.4</distance>
 	<star>
-		<mass>0.79</mass>
-		<radius>0.57</radius>
-		<magV>7.72</magV>
+		<name>HD 6434</name>
+		<name>HIP 5054</name>
+		<name>TYC 7533-1111-1</name>
+		<name>SAO 192911</name>
+		<name>GJ 9037</name>
+		<name>CD-40 239</name>
+		<name>CPD-40 98</name>
+		<name>2MASS J01044015-3929173</name>
+		<mass errorminus="0.04" errorplus="0.04">0.89</mass>
+		<radius errorminus="0.05" errorplus="0.05">1.14</radius>
+		<magV errorminus="0.12" errorplus="0.12">7.72</magV>
 		<magB>8.32</magB>
 		<magJ errorminus="0.020" errorplus="0.020">6.577</magJ>
 		<magH errorminus="0.03" errorplus="0.03">6.27</magH>
 		<magK errorminus="0.026" errorplus="0.026">6.187</magK>
-		<metallicity>-0.52</metallicity>
+		<temperature errorminus="92" errorplus="92">5690</temperature>
+		<metallicity errorminus="0.05" errorplus="0.05">-0.48</metallicity>
 		<spectraltype>G3 IV</spectraltype>
+		<age errorminus="2.12" errorplus="2.12">11.27</age>
 		<planet>
 			<name>HD 6434 b</name>
 			<list>Confirmed planets</list>
-			<mass>0.39</mass>
-			<period>21.998</period>
-			<semimajoraxis>0.14</semimajoraxis>
-			<eccentricity>0.17</eccentricity>
+			<mass errorminus="0.01" errorplus="0.01" type="msini">0.44</mass>
+			<period errorminus="0.0008" errorplus="0.0008">22.0170</period>
+			<semimajoraxis errorminus="0.002" errorplus="0.002">0.148</semimajoraxis>
+			<eccentricity errorminus="0.025" errorplus="0.025">0.146</eccentricity>
+			<periastron errorminus="10.5" errorplus="10.5">163.2</periastron>
+			<periastrontime errorminus="0.638" errorplus="0.638">2451909.308</periastrontime>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/12/30</lastupdate>
+			<lastupdate>15/10/16</lastupdate>
 			<discoveryyear>2000</discoveryyear>
-			<temperature>518.2</temperature>
 		</planet>
-		<name>HD 6434</name>
-		<temperature>5835.0</temperature>
 	</star>
 </system>

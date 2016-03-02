@@ -1,0 +1,33 @@
+<system>
+	<name>WASP-124</name>
+	<rightascension>22 10 51.43</rightascension>
+	<declination>-30 44 58.8</declination>
+	<distance errorminus="11" errorplus="11">433</distance>
+	<star>
+		<name>WASP-124</name>
+		<name>2MASS J22105143-3044588</name>
+		<magV errorminus="0.4" errorplus="0.4">12.7</magV>
+		<mass errorminus="0.05" errorplus="0.05">1.07</mass>
+		<temperature errorminus="100" errorplus="100">6050</temperature>
+		<metallicity errorminus="0.11" errorplus="0.11">-0.02</metallicity>
+		<spectraltype>F9</spectraltype>
+		<planet>
+			<name>WASP-124 b</name>
+			<name>2MASS J22105143-3044588 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.03" errorplus="0.03">1.24</radius>
+			<mass errorminus="0.07" errorplus="0.07">0.6</mass>
+			<period>3.372650</period>
+			<transittime unit="HJD">2547028.5834</transittime>
+			<semimajoraxis errorminus="0.0007" errorplus="0.0007">0.0449</semimajoraxis>
+			<temperature errorminus="30" errorplus="30">1400</temperature>
+			<inclination errorminus="0.2" errorplus="0.2">86.3</inclination>
+			<eccentricity upperlimit="0.017" />
+			<description>This Hot Jupiter was discovered by WASP-South.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>16/02/04</lastupdate>
+			<discoveryyear>2016</discoveryyear>
+		</planet>
+	</star>
+</system>

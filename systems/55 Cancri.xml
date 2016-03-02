@@ -1,16 +1,44 @@
 <system>
 	<name>55 Cancri</name>
 	<name>55 Cnc</name>
-	<rightascension>08 52 37</rightascension>
-	<declination>+28 20 02</declination>
-	<distance errorminus="0.1" errorplus="0.1">12.3</distance>
+	<rightascension>08 52 35.81093</rightascension>
+	<declination>+28 19 50.9511</declination>
+	<distance errorminus="0.11" errorplus="0.11">12.34</distance>
 	<binary>
+		<name>55 Cancri</name>
+		<name>55 Cnc</name>
+		<name>rho01 Cnc</name>
+		<name>Rho-1 Cancri</name>
+		<name>ρ1 Cnc</name>
+		<name>ρ1 Cancri</name>
+		<name>Gliese 324</name>
+		<name>GJ 324</name>
+		<name>BD+28 1660</name>
+		<name>WDS J08526+2820</name>
+		<name>LDS 6219</name>
 		<separation unit="arcsec">84</separation>
 		<separation unit="AU">1033</separation>
 		<positionangle>130</positionangle>
 		<star>
-			<mass>0.95</mass>
-			<radius errorminus="0.010" errorplus="0.010">0.943</radius>
+			<name>55 Cancri A</name>
+			<name>55 Cnc A</name>
+			<name>rho01 Cnc A</name>
+			<name>Rho-1 Cancri A</name>
+			<name>ρ1 Cnc A</name>
+			<name>ρ1 Cancri A</name>
+			<name>HD 75732</name>
+			<name>HIP 43587</name>
+			<name>TYC 1949-2012-1</name>
+			<name>SAO 80478</name>
+			<name>HR 3522</name>
+			<name>Gliese 324 A</name>
+			<name>GJ 324 A</name>
+			<name>BD+28 1660 A</name>
+			<name>2MASS J08523579+2819509</name>
+			<name>WDS J08526+2820 A</name>
+			<name>LDS 6219 A</name>
+			<mass errorminus="0.067" errorplus="0.067">0.960</mass>
+			<radius errorminus="0.018" errorplus="0.018">0.960</radius>
 			<magV errorminus="0.05" errorplus="0.05">5.95</magV>
 			<magB>6.82</magB>
 			<magR>5.4</magR>
@@ -18,13 +46,20 @@
 			<magJ errorminus="0.244" errorplus="0.244">4.768</magJ>
 			<magH errorminus="0.234" errorplus="0.234">4.265</magH>
 			<magK errorminus="0.036" errorplus="0.036">4.015</magK>
-			<metallicity>0.31</metallicity>
+			<temperature errorminus="26" errorplus="26">5219</temperature>
+			<metallicity errorminus="0.1" errorplus="0.1">0.3</metallicity>
 			<spectraltype>K0V</spectraltype>
 			<planet>
 				<name>55 Cnc b</name>
+				<name>rho01 Cnc b</name>
+				<name>ρ1 Cnc b</name>
+				<name>HR 3522 b</name>
+				<name>55 Cnc A b</name>
+				<name>rho01 Cnc A b</name>
+				<name>ρ1 Cnc A b</name>
 				<list>Confirmed planets</list>
-				<mass errorminus="0.0033" errorplus="0.0033">0.8306</mass>
-				<period errorminus="0.000015" errorplus="0.000015">14.651262</period>
+				<mass errorminus="0.0033" errorplus="0.0033" type="msini">0.8306</mass>
+				<period errorminus="0.00015" errorplus="0.00015">14.65152</period>
 				<semimajoraxis errorminus="0.00000079" errorplus="0.00000079">0.11522725</semimajoraxis>
 				<eccentricity errorminus="0.0032" errorplus="0.0032">0.0034</eccentricity>
 				<periastron errorminus="53" errorplus="53">98</periastron>
@@ -34,10 +69,15 @@
 				<lastupdate>15/01/26</lastupdate>
 				<discoveryyear>1996</discoveryyear>
 				<list>Planets in binary systems, S-type</list>
-				<temperature>660.7</temperature>
 			</planet>
 			<planet>
 				<name>55 Cnc c</name>
+				<name>rho01 Cnc c</name>
+				<name>ρ1 Cnc c</name>
+				<name>HR 3522 c</name>
+				<name>55 Cnc A c</name>
+				<name>rho01 Cnc A c</name>
+				<name>ρ1 Cnc A c</name>
 				<list>Confirmed planets</list>
 				<mass errorminus="0.0055" errorplus="0.0055">0.1714</mass>
 				<period errorminus="0.000073" errorplus="0.000073">44.4175</period>
@@ -50,10 +90,15 @@
 				<lastupdate>15/01/26</lastupdate>
 				<discoveryyear>2002</discoveryyear>
 				<list>Planets in binary systems, S-type</list>
-				<temperature>453.8</temperature>
 			</planet>
 			<planet>
 				<name>55 Cnc d</name>
+				<name>rho01 Cnc d</name>
+				<name>ρ1 Cnc d</name>
+				<name>HR 3522 d</name>
+				<name>55 Cnc A d</name>
+				<name>rho01 Cnc A d</name>
+				<name>ρ1 Cnc A d</name>
 				<list>Confirmed planets</list>
 				<mass errorminus="0.068" errorplus="0.068">3.878</mass>
 				<period errorminus="39" errorplus="39">4825</period>
@@ -69,9 +114,15 @@
 			</planet>
 			<planet>
 				<name>55 Cnc e</name>
+				<name>rho01 Cnc e</name>
+				<name>ρ1 Cnc e</name>
+				<name>HR 3522 e</name>
+				<name>55 Cnc A e</name>
+				<name>rho01 Cnc A e</name>
+				<name>ρ1 Cnc A e</name>
 				<list>Confirmed planets</list>
 				<mass errorminus="0.00098" errorplus="0.00098">0.0254</mass>
-				<radius errorminus="0.007" errorplus="0.007">0.171</radius>
+				<radius errorminus="0.0073" errorplus="0.0073">0.1746</radius>
 				<period errorminus="0.0000015" errorplus="0.0000015">0.7365515</period>
 				<semimajoraxis errorminus="0.000000021" errorplus="0.000000021">0.015690907</semimajoraxis>
 				<eccentricity errorminus="0.027" errorplus="0.027">0.040</eccentricity>
@@ -89,6 +140,12 @@
 			</planet>
 			<planet>
 				<name>55 Cnc f</name>
+				<name>rho01 Cnc f</name>
+				<name>ρ1 Cnc f</name>
+				<name>HR 3522 f</name>
+				<name>55 Cnc A f</name>
+				<name>rho01 Cnc A f</name>
+				<name>ρ1 Cnc A f</name>
 				<list>Confirmed planets</list>
 				<mass errorminus="0.012" errorplus="0.012">0.141</mass>
 				<period errorminus="0.51" errorplus="0.51">262.00</period>
@@ -101,19 +158,27 @@
 				<lastupdate>11/06/07</lastupdate>
 				<discoveryyear>2007</discoveryyear>
 				<list>Planets in binary systems, S-type</list>
-				<temperature>251.7</temperature>
 			</planet>
-			<name>55 Cnc A</name>
-			<temperature>5196.0</temperature>
 		</star>
 		<star>
+			<name>55 Cancri B</name>
+			<name>55 Cnc b</name>
+			<name>rho01 Cnc B</name>
+			<name>Rho-1 Cancri B</name>
+			<name>ρ1 Cnc B</name>
+			<name>ρ1 Cancri B</name>
+			<name>Gliese 324 B</name>
+			<name>GJ 324 B</name>
+			<name>BD+28 1660 B</name>
+			<name>2MASS J08524084+2818589</name>
+			<name>WDS J08526+2820 B</name>
+			<name>LDS 6219 B</name>
 			<mass>0.2</mass>
 			<spectraltype>M4</spectraltype>
 			<magV>13</magV>
 			<magJ errorminus="0.027" errorplus="0.027">8.560</magJ>
 			<magH errorminus="0.040" errorplus="0.040">7.933</magH>
 			<magK errorminus="0.023" errorplus="0.023">7.666</magK>
-			<name>55 Cnc B</name>
 		</star>
 	</binary>
 </system>

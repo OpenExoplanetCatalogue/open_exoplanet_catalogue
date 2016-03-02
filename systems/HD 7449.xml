@@ -1,45 +1,75 @@
 <system>
 	<name>HD 7449</name>
-	<rightascension>01 14 29</rightascension>
-	<declination>-05 02 51</declination>
-	<distance>39</distance>
-	<star>
-		<mass>1.05</mass>
-		<radius>1.01</radius>
-		<magV>7.5</magV>
-		<magB errorminus="0.02" errorplus="0.02">8.08</magB>
-		<magJ errorminus="0.023" errorplus="0.023">6.425</magJ>
-		<magH errorminus="0.042" errorplus="0.042">6.179</magH>
-		<magK errorminus="0.029" errorplus="0.029">6.084</magK>
-		<metallicity>-0.11</metallicity>
-		<spectraltype>F8V</spectraltype>
-		<planet>
-			<name>HD 7449 b</name>
-			<list>Confirmed planets</list>
-			<mass>1.11</mass>
-			<period>1275</period>
-			<semimajoraxis>2.3</semimajoraxis>
-			<eccentricity>0.82</eccentricity>
-			<description>HD 7449 b was found with the European High Accuracy Radial velocity Planet Searcher (HARPS) which can reach sub-meter-per-second precision. The planetary system contains at least one other planet, HD 7449 c. The host star shows signs of short-term activity due to magnetic features on the stellar surface.</description>
-			<discoverymethod>RV</discoverymethod>
-			<lastupdate>11/08/02</lastupdate>
-			<discoveryyear>2011</discoveryyear>
-			<temperature>166.9</temperature>
-		</planet>
-		<planet>
-			<name>HD 7449 c</name>
-			<list>Confirmed planets</list>
-			<mass>2</mass>
-			<period>4046</period>
-			<semimajoraxis>4.96</semimajoraxis>
-			<eccentricity>0.53</eccentricity>
-			<description>HD 7449 c was found with the European High Accuracy Radial velocity Planet Searcher (HARPS) which can reach sub-meter-per-second precision. The planetary system contains at least one other planet, HD 7449 b. The host star shows signs of short-term activity due to magnetic features on the stellar surface.</description>
-			<discoverymethod>RV</discoverymethod>
-			<lastupdate>11/08/02</lastupdate>
-			<discoveryyear>2011</discoveryyear>
-			<temperature>117.6</temperature>
-		</planet>
+	<rightascension>01 14 29.32198</rightascension>
+	<declination>-05 02 50.5942</declination>
+	<distance errorminus="0.71" errorplus="0.74">38.9</distance>
+	<binary>
 		<name>HD 7449</name>
-		<temperature>6024.0</temperature>
-	</star>
+		<name>BD-05 215</name>
+		<semimajoraxis errorminus="12.9" errorplus="32">17.9</semimajoraxis>
+		<inclination errorminus="25.8" errorplus="20.1">59.7</inclination>
+		<period errorminus="20500" errorplus="82900">24000</period>
+		<eccentricity upperlimit="0.5" />
+		<star>
+			<name>HD 7449 A</name>
+			<name>HIP 5806</name>
+			<name>TYC 4683-883-1</name>
+			<name>SAO 129195</name>
+			<name>BD-05 215 A</name>
+			<name>2MASS J01142933-0502504</name>
+			<mass errorminus="0.09" errorplus="0.09">1.05</mass>
+			<radius>1.01</radius>
+			<magV>7.5</magV>
+			<magB errorminus="0.02" errorplus="0.02">8.08</magB>
+			<magJ errorminus="0.023" errorplus="0.023">6.425</magJ>
+			<magH errorminus="0.042" errorplus="0.042">6.179</magH>
+			<magK errorminus="0.029" errorplus="0.029">6.084</magK>
+			<temperature>6024.0</temperature>
+			<metallicity errorminus="0.01" errorplus="0.01">-0.11</metallicity>
+			<spectraltype>F8V</spectraltype>
+			<age errorminus="0.24" errorplus="0.24">2.10</age>
+			<planet>
+				<name>HD 7449 b</name>
+				<name>HD 7449 A b</name>
+				<list>Confirmed planets</list>
+				<mass errorminus="0.19" errorplus="0.52" type="msini">1.09</mass>
+				<period errorminus="12.1" errorplus="5.92">1270.5</period>
+				<semimajoraxis errorminus="0.02" errorplus="0.01">2.33</semimajoraxis>
+				<eccentricity errorminus="0.06" errorplus="0.08">0.80</eccentricity>
+				<periastron errorminus="5.22" errorplus="6.87">-25.2</periastron>
+				<periastrontime errorminus="22" errorplus="31">2455298</periastrontime>
+				<description>HD 7449 b was found with the European High Accuracy Radial velocity Planet Searcher (HARPS) which can reach sub-meter-per-second precision. The host star shows signs of short-term activity due to magnetic features on the stellar surface.</description>
+				<discoverymethod>RV</discoverymethod>
+				<lastupdate>16/02/04</lastupdate>
+				<discoveryyear>2011</discoveryyear>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+			<planet>
+				<name>HD 7449 c</name>
+				<name>HD 7449 A c</name>
+				<list>Controversial</list>
+				<mass errorminus="0.54" errorplus="0.36" type="msini">2.00</mass>
+				<period errorminus="366" errorplus="186">4046</period>
+				<semimajoraxis errorminus="0.30" errorplus="0.20">4.96</semimajoraxis>
+				<eccentricity errorminus="0.08" errorplus="0.08">0.53</eccentricity>
+				<periastron errorminus="8" errorplus="8">11</periastron>
+				<periastrontime errorminus="172" errorplus="85">2455883</periastrontime>
+				<description>HD 7449 c was found with the European High Accuracy Radial velocity Planet Searcher (HARPS) which can reach sub-meter-per-second precision. The host star shows signs of short-term activity due to magnetic features on the stellar surface. Subsequently the long term trend in the system was ascribed to the stellar companion, HD 7449 B.</description>
+				<discoverymethod>RV</discoverymethod>
+				<lastupdate>16/02/04</lastupdate>
+				<discoveryyear>2011</discoveryyear>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+		<star>
+			<name>HD 7449 B</name>
+			<name>BD-05 215 B</name>
+			<magJ errorminus="0.11" errorplus="0.11">12.24</magJ>
+			<magH errorminus="0.12" errorplus="0.12">11.29</magH>
+			<magK errorminus="0.04" errorplus="0.04">10.93</magK>
+			<spectraltype errorminus="0.5">M4.5</spectraltype>
+			<mass errorminus="0.05" errorplus="0.05">0.15</mass>
+			<temperature>3000</temperature>
+		</star>
+	</binary>
 </system>

@@ -1,32 +1,40 @@
 <system>
 	<name>EPIC 201505350</name>
+	<name>K2-19</name>
 	<rightascension>11 39 50.477</rightascension>
 	<declination>+00 36 12.87</declination>
 	<distance errorminus="20" errorplus="33">291</distance>
 	<star>
 		<name>EPIC 201505350</name>
 		<name>K2-19</name>
-		<mass errorminus="0.04" errorplus="0.04">0.84</mass>
-		<radius errorminus="0.05" errorplus="0.09">0.81</radius>
-		<temperature errorminus="82" errorplus="49">5519</temperature>
+		<name>2MASS J11395048+0036129</name>
+		<name>WISE J113950.46+003612.9</name>
+		<mass errorminus="0.05" errorplus="0.05">0.93</mass>
+		<radius errorminus="0.04" errorplus="0.04">0.86</radius>
+		<temperature errorminus="60" errorplus="60">5430</temperature>
 		<magJ errorminus="0.02" errorplus="0.02">11.6</magJ>
 		<magH errorminus="0.02" errorplus="0.02">11.21</magH>
 		<magK errorminus="0.03" errorplus="0.03">11.16</magK>
-		<metallicity errorminus="0.1" errorplus="0.1">-0.27</metallicity>
+		<metallicity errorminus="0.04" errorplus="0.04">0.10</metallicity>
 		<planet>
 			<name>EPIC 201505350 c</name>
 			<name>EPIC 201505350.01</name>
 			<name>K2-19 c</name>
 			<list>Confirmed planets</list>
-			<radius errorminus="0.045" errorplus="0.045">0.397</radius>
-			<period errorminus="0.00037" errorplus="0.00037">11.90691</period>
-			<transittime errorminus="0.0018" errorplus="0.0018" unit="BJD">2456817.2764</transittime>
-			<semimajoraxis errorminus="0.0017" errorplus="0.0017">0.0965</semimajoraxis>
-			<temperature errorminus="42" errorplus="42">797</temperature>
+			<mass errorminus="0.0088" errorplus="0.0242">0.0500</mass>
+			<radius errorminus="0.039" errorplus="0.055">0.434</radius>
+			<period errorminus="0.00150" errorplus="0.00150">11.90715</period>
+			<transittime errorminus="0.0051" errorplus="0.0051" unit="BJD">2456817.2755</transittime>
+			<semimajoraxis errorminus="0.0016" errorplus="0.0016">0.0971</semimajoraxis>
+			<eccentricity errorminus="0.035" errorplus="0.073">0.095</eccentricity>
+			<inclination errorminus="1.99" errorplus="1.42">87.99</inclination>
+			<periastron errorminus="68" errorplus="15">237</periastron>
+			<ascendingnode errorminus="5.6" errorplus="2.9">173.1</ascendingnode>
+			<meananomaly errorminus="34" errorplus="54">110</meananomaly>
 			<description>This planet was discovered by the Kepler spacecraft during its extended K2 mission, Campaign 1.</description>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
-			<lastupdate>15/07/07</lastupdate>
+			<lastupdate>15/12/06</lastupdate>
 			<discoveryyear>2015</discoveryyear>
 		</planet>
 		<planet>
@@ -34,16 +42,35 @@
 			<name>EPIC 201505350.02</name>
 			<name>K2-19 b</name>
 			<list>Confirmed planets</list>
-			<radius errorminus="0.075" errorplus="0.075">0.654</radius>
-			<period errorminus="0.00007" errorplus="0.00007">7.91943</period>
-			<transittime errorminus="0.0005" errorplus="0.0005" unit="BJD">2456813.3836</transittime>
-			<semimajoraxis errorminus="0.0013" errorplus="0.0013">0.0735</semimajoraxis>
-			<temperature errorminus="48" errorplus="48">913</temperature>
+			<mass errorminus="0.038" errorplus="0.038">0.138</mass>
+			<radius errorminus="0.035" errorplus="0.035">0.691</radius>
+			<period errorminus="0.00005" errorplus="0.00005">7.91940</period>
+			<transittime errorminus="0.0003" errorplus="0.0003" unit="BJD">2456813.3837</transittime>
+			<semimajoraxis errorminus="0.0012" errorplus="0.0012">0.0740</semimajoraxis>
+			<eccentricity errorminus="0.035" errorplus="0.082">0.119</eccentricity>
+			<inclination errorminus="0.41" errorplus="0.41">89.47</inclination>
+			<periastron errorminus="52" errorplus="52">179</periastron>
+			<ascendingnode>180</ascendingnode>
+			<meananomaly errorminus="27" errorplus="61">253</meananomaly>
 			<description>This planet was discovered by the Kepler spacecraft during its extended K2 mission, Campaign 1.</description>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
-			<lastupdate>15/07/07</lastupdate>
+			<lastupdate>15/12/06</lastupdate>
 			<discoveryyear>2015</discoveryyear>
+		</planet>
+		<planet>
+			<name>EPIC 201505350 d</name>
+			<name>K2-19 d</name>
+			<list>Confirmed planets</list>
+			<transittime errorminus="0.0086" errorplus="0.0086" unit="BJD">24546808.9207</transittime>
+			<period errorminus="0.00041" errorplus="0.00041">2.50856</period>
+			<inclination errorminus="4.74" errorplus="2.97">85.83</inclination>
+			<radius errorminus="0.012" errorplus="0.012">0.102</radius>
+			<semimajoraxis errorminus="0.0006" errorplus="0.0006">0.0344</semimajoraxis>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2015</discoveryyear>
+			<lastupdate>15/12/06</lastupdate>
 		</planet>
 	</star>
 </system>

@@ -6,8 +6,10 @@
 	<star>
 		<name>BD+20 1790</name>
 		<name>V429 Gem</name>
+		<name>V429 Geminorum</name>
 		<name>2MASS J07234358+2024588</name>
 		<name>TYC 1355-214-1</name>
+		<name>1SWASP J072343.59+202458.6</name>
 		<mass errorminus="0.09" errorplus="0.09">0.63</mass>
 		<temperature>4410</temperature>
 		<magB>11.08</magB>
@@ -19,20 +21,23 @@
 		<magK errorminus="0.018" errorplus="0.018">6.879</magK>
 		<metallicity errorminus="0.20" errorplus="0.20">0.30</metallicity>
 		<spectraltype>K5Ve</spectraltype>
+		<age lowerlimit="0.035" upperlimit="0.080" />
 		<planet>
 			<name>BD+20 1790 b</name>
 			<name>V429 Gem b</name>
+			<name>V429 Geminorum b</name>
 			<name>2MASS J07234358+2024588 b</name>
 			<name>TYC 1355-214-1 b</name>
 			<list>Confirmed planets</list>
-			<mass errorminus="1.35" errorplus="1.35">6.37</mass>
+			<mass errorminus="1.35" errorplus="1.35" type="msini">6.37</mass>
 			<inclination>50.41</inclination>
 			<period errorminus="0.00076" errorplus="0.00077">7.78287</period>
 			<semimajoraxis errorminus="0.06" errorplus="0.05">0.066</semimajoraxis>
 			<eccentricity errorminus="0.09" errorplus="0.07">0.22</eccentricity>
+			<periastron errorminus="28" errorplus="22">262</periastron>
 			<description>The existance of planet BD+20 1790 b was proposed first in 2010. New Bayesian analysis supports the hypothesis of the planetary companion.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>15/02/18</lastupdate>
+			<lastupdate>15/11/23</lastupdate>
 			<discoveryyear>2015</discoveryyear>
 			<istransiting>0</istransiting>
 		</planet>

@@ -1,10 +1,15 @@
 <system>
 	<name>HD 108341</name>
-	<rightascension>12 27 31.38</rightascension>
-	<declination>-71 25 22.70</declination>
-	<distance>49.4</distance>
+	<rightascension>12 27 31.38999</rightascension>
+	<declination>-71 25 22.7053</declination>
+	<distance errorminus="2.3" errorplus="2.3">49.4</distance>
 	<star>
-		<name>HD 108341 A</name>
+		<name>HD 108341</name>
+		<name>HIP 60788</name>
+		<name>TYC 9236-2866-1</name>
+		<name>CD-70 941</name>
+		<name>CPD-70 1484</name>
+		<name>2MASS J12273136-7125225</name>
 		<mass errorminus="0.024" errorplus="0.024">0.843</mass>
 		<radius errorminus="0.03" errorplus="0.03">0.79</radius>
 		<temperature errorminus="79" errorplus="79">5122</temperature>
@@ -21,12 +26,14 @@
 			<semimajoraxis errorminus="0.04" errorplus="0.04">2</semimajoraxis>
 			<eccentricity errorminus="0.08" errorplus="0.09">0.85</eccentricity>
 			<period errorminus="8" errorplus="6">1129</period>
-			<mass errorminus="1.2" errorplus="3.4">3.5</mass>
+			<mass errorminus="1.2" errorplus="3.4" type="msini">3.5</mass>
+			<periastron errorminus="5" errorplus="2">190</periastron>
+			<maximumrvtime errorminus="88" errorplus="33">2456633</maximumrvtime>
 			<list>Confirmed planets</list>
 			<discoverymethod>RV</discoverymethod>
 			<description>Further data to be collected in August 2015 will result in more accurate parameters.</description>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/12/23</lastupdate>
+			<lastupdate>15/11/21</lastupdate>
 		</planet>
 	</star>
 </system>

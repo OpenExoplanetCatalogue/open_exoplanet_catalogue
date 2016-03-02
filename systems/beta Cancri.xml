@@ -1,17 +1,29 @@
 <system>
 	<name>beta Cancri</name>
 	<name>HD 69267</name>
-	<rightascension>08 16 31</rightascension>
-	<declination>+09 11 08</declination>
-	<distance errorminus="7.7" errorplus="7.7">90</distance>
+	<rightascension>08 16 30.92101</rightascension>
+	<declination>+09 11 07.9579</declination>
+	<distance errorminus="1.6" errorplus="1.6">93.0</distance>
 	<star>
 		<name>beta Cancri</name>
+		<name>bet Cnc</name>
+		<name>β Cnc</name>
+		<name>β Cancri</name>
+		<name>17 Cnc</name>
+		<name>17 Cancri</name>
+		<name>Al Tarf</name>
 		<name>HD 69267</name>
+		<name>HIP 40526</name>
+		<name>TYC 794-1622-1</name>
+		<name>SAO 116569</name>
+		<name>HR 3249</name>
+		<name>BD+09 1917</name>
+		<name>2MASS J08163090+0911080</name>
 		<mass errorminus="0.1" errorplus="0.1">1.7</mass>
-		<radius>47.2</radius>
+		<radius errorminus="1.3" errorplus="1.3">47.2</radius>
 		<temperature errorminus="17.5" errorplus="17.5">4092.1</temperature>
 		<age errorminus="0.34" errorplus="0.34">1.85</age>
-		<magV>3.52</magV>
+		<magV errorminus="0.009" errorplus="0.009">3.520</magV>
 		<magB errorminus="0.007" errorplus="0.007">5.000</magB>
 		<magR>2.42</magR>
 		<magI>1.62</magI>
@@ -26,14 +38,15 @@
 			<name>bet Cnc b</name>
 			<name>HD 69267 b</name>
 			<list>Confirmed planets</list>
-			<mass errorminus="0.8" errorplus="0.8">7.8</mass>
+			<mass errorminus="0.8" errorplus="0.8" type="msini">7.8</mass>
 			<period errorminus="4" errorplus="4">605.2</period>
 			<semimajoraxis errorminus="0.1" errorplus="0.1">1.7</semimajoraxis>
 			<eccentricity errorminus="0.02" errorplus="0.02">0.08</eccentricity>
 			<periastron errorminus="5.9" errorplus="5.9">58.9</periastron>
+			<periastrontime errorminus="9.8" errorplus="9.8">2453229.8</periastrontime>
 			<description>The planet beta Cancri b is orbiting the brighest star in the constellation Cancer once every 600 days. It was found using data from 10, collected with the Bohyunsan Observatory.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>14/05/13</lastupdate>
+			<lastupdate>15/11/26</lastupdate>
 			<discoveryyear>2014</discoveryyear>
 		</planet>
 	</star>

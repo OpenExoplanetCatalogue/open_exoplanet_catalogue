@@ -1,14 +1,25 @@
 <system>
 	<name>beta Ursae Minoris</name>
 	<name>HD 131873</name>
-	<rightascension>14 50 42</rightascension>
-	<declination>+74 09 20</declination>
-	<distance errorminus="0.8" errorplus="0.8">38.7</distance>
+	<rightascension>14 50 42.32580</rightascension>
+	<declination>+74 09 19.8142</declination>
+	<distance errorminus="0.19" errorplus="0.19">40.14</distance>
 	<star>
 		<name>beta Ursae Minoris</name>
 		<name>HD 131873</name>
 		<name>beta UMi</name>
+		<name>bet UMi</name>
+		<name>β Ursae Minoris</name>
+		<name>β UMi</name>
+		<name>7 Ursae Minoris</name>
+		<name>7 UMi</name>
 		<name>Kochab</name>
+		<name>HIP 72607</name>
+		<name>TYC 4416-1799-1</name>
+		<name>SAO 8102</name>
+		<name>HR 5563</name>
+		<name>BD+74 595</name>
+		<name>2MASS J14504235+7409199</name>
 		<mass errorminus="0.2" errorplus="0.2">1.4</mass>
 		<radius errorminus="1.1" errorplus="1.1">38.3</radius>
 		<temperature errorminus="25" errorplus="25">4126</temperature>
@@ -26,14 +37,15 @@
 			<name>bet UMi b</name>
 			<name>Kochab b</name>
 			<list>Confirmed planets</list>
-			<mass errorminus="1.0" errorplus="1.0">6.1</mass>
+			<mass errorminus="1.0" errorplus="1.0" type="msini">6.1</mass>
 			<period errorminus="2.7" errorplus="2.7">522.3</period>
 			<semimajoraxis errorminus="0.1" errorplus="0.1">1.4</semimajoraxis>
 			<eccentricity errorminus="0.02" errorplus="0.02">0.19</eccentricity>
 			<periastron errorminus="2.8" errorplus="2.8">307.4</periastron>
+			<periastrontime errorminus="4.6" errorplus="4.6">2453175.3</periastrontime>
 			<description>This planet is orbiting the brighest star in the bowl of the Little Dipper. The star is K giant, 130 times more luminous than the Sun and about 130 light years away. The planet was found using data collected from the Bohyunsan Observatory.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>14/05/13</lastupdate>
+			<lastupdate>15/11/26</lastupdate>
 			<discoveryyear>2014</discoveryyear>
 		</planet>
 	</star>

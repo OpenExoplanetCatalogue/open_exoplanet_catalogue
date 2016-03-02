@@ -1,0 +1,49 @@
+<system>
+	<name>KOI-89</name>
+	<rightascension>19 59 17.084</rightascension>
+	<declination>+43 48 51.43</declination>
+	<star>
+		<name>KOI-89</name>
+		<name>KIC 8056665</name>
+		<name>TYC 3149-1163-1</name>
+		<name>2MASS J19591707+4348513</name>
+		<temperature errorminus="225" errorplus="225">7717</temperature>
+		<mass errorminus="0.256" errorplus="0.256">1.965</mass>
+		<radius errorminus="0.2" errorplus="0.2">2.3</radius>
+		<magB errorminus="0.10" errorplus="0.10">11.95</magB>
+		<magV>11.731</magV>
+		<magJ errorminus="0.027" errorplus="0.027">10.983</magJ>
+		<magH errorminus="0.029" errorplus="0.029">10.876</magH>
+		<magK errorminus="0.020" errorplus="0.020">10.851</magK>
+		<planet>
+			<name>KOI-89.01</name>
+			<period>84.69</period>
+			<radius errorminus="0.03" errorplus="0.03">0.45</radius>
+			<eccentricity lowerlimit="0.056" />
+			<inclination errorminus="0.05" errorplus="0.05">89.340</inclination>
+			<transittime errorminus="0.0046" errorplus="0.0046">2455237.6389</transittime>
+			<spinorbitalignment errorminus="11" errorplus="11">-32</spinorbitalignment>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2011</discoveryyear>
+			<description>KOI-89.01 orbits a rapidly-rotating, oblate star. The planet's orbit has a sky-projected misalignment of -32° with respect to the stellar equator, while the derived true orbital obliquity is 72°.</description>
+			<lastupdate>15/10/30</lastupdate>
+			<list>Confirmed planets</list>
+			<istransiting>1</istransiting>
+		</planet>
+		<planet>
+			<name>KOI-89.02</name>
+			<period>207.58</period>
+			<radius errorminus="0.05" errorplus="0.05">0.43</radius>
+			<eccentricity lowerlimit="0.50" />
+			<inclination errorminus="0.06" errorplus="0.06">90.64</inclination>
+			<transittime errorminus="0.0081" errorplus="0.0081">2455122.8310</transittime>
+			<spinorbitalignment errorminus="40" errorplus="40">-32</spinorbitalignment>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2011</discoveryyear>
+			<description>KOI-89.02 orbits a rapidly-rotating, oblate star. The planet's orbit has a sky-projected misalignment of -32° with respect to the stellar equator, while the derived true orbital obliquity is 73°.</description>
+			<lastupdate>15/10/30</lastupdate>
+			<list>Confirmed planets</list>
+			<istransiting>1</istransiting>
+		</planet>
+	</star>
+</system>

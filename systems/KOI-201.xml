@@ -1,0 +1,31 @@
+<system>
+	<name>KOI-201</name>
+	<rightascension>19 08 31.338</rightascension>
+	<declination>+42 21 00.56</declination>
+	<star>
+		<name>KOI-201</name>
+		<name>KIC 6849046</name>
+		<name>2MASS J19083133+4221005</name>
+		<magJ errorminus="0.021" errorplus="0.021">12.746</magJ>
+		<magH errorminus="0.020" errorplus="0.020">12.426</magH>
+		<magK errorminus="0.019" errorplus="0.019">12.354</magK>
+		<mass errorminus="0.08" errorplus="0.06">1.07</mass>
+		<radius errorminus="0.08" errorplus="0.21">1.05</radius>
+		<temperature errorminus="129" errorplus="98">5649</temperature>
+		<metallicity errorminus="0.20" errorplus="0.08">0.48</metallicity>
+		<planet>
+			<name>KOI-201.01</name>
+			<name>KOI-201 b</name>
+			<name>KIC 6849046 b</name>
+			<period errorminus="0.000000268" errorplus="0.000000268">4.225384512</period>
+			<transittime errorminus="0.0000534" errorplus="0.0000534" unit="BJD">2454970.5606743</transittime>
+			<radius errorminus="0.06" errorplus="0.16">0.82</radius>
+			<mass upperlimit="0.6" />
+			<lastupdate>15/12/03</lastupdate>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2015</discoveryyear>
+			<list>Confirmed planets</list>
+		</planet>
+	</star>
+</system>

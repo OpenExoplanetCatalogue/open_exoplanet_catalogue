@@ -1,18 +1,40 @@
 <system>
 	<name>91 Aquarii</name>
-	<rightascension>23 15 53</rightascension>
-	<declination>-09 05 15</declination>
-	<distance errorminus="0.6" errorplus="0.6">45.9</distance>
+	<rightascension>23 15 53.49482</rightascension>
+	<declination>-09 05 15.8546</declination>
+	<distance errorminus="0.61" errorplus="0.61">45.93</distance>
 	<binary>
+		<name>91 Aquarii</name>
+		<name>91 Aqr</name>
+		<name>psi01 Aqr</name>
+		<name>Psi-1 Aquarii</name>
+		<name>ψ1 Aqr</name>
+		<name>ψ1 Aquarii</name>
+		<name>HD 219449</name>
+		<name>HIP 114855</name>
+		<name>SAO 146598</name>
+		<name>Gliese 893.2</name>
+		<name>GJ 893.2</name>
+		<name>GJ 9815</name>
+		<name>BD-09 6156</name>
+		<name>WDS J23159-0905</name>
 		<separation unit="arcsec">49.4</separation>
 		<separation unit="AU">2267</separation>
 		<positionangle>313</positionangle>
 		<star>
 			<name>91 Aquarii A</name>
 			<name>91 Aqr A</name>
+			<name>psi01 Aqr A</name>
+			<name>Psi-1 Aquarii A</name>
+			<name>ψ1 Aqr A</name>
+			<name>ψ1 Aquarii A</name>
 			<name>HD 219449 A</name>
 			<name>HIP 114855 A</name>
 			<name>Gliese 893.2 A</name>
+			<name>GJ 893.2 A</name>
+			<name>GJ 9815 A</name>
+			<name>BD-09 6156 A</name>
+			<name>WDS J23159-0905 A</name>
 			<magV>4.24</magV>
 			<magR>3.46</magR>
 			<magI>2.90</magI>
@@ -35,37 +57,75 @@
 				<name>91 Aqr b</name>
 				<list>Confirmed planets</list>
 				<list>Planets in binary systems, S-type</list>
-				<mass>3.2</mass>
+				<mass type="msini">3.2</mass>
 				<period errorminus="0.1" errorplus="0.1">181.4</period>
-				<semimajoraxis>0.7</semimajoraxis>
+				<semimajoraxis>0.70</semimajoraxis>
 				<eccentricity errorminus="0.026" errorplus="0.026">0.027</eccentricity>
 				<periastron errorminus="0.8" errorplus="0.8">177.3</periastron>
+				<periastrontime errorminus="24.5" errorplus="24.5">2453472.1</periastrontime>
 				<description>91 Aquarii is a triple star system in the constellation Aquarius. It is visible to the naked eye and is host to at least one extrasolar planet.</description>
 				<discoverymethod>RV</discoverymethod>
-				<lastupdate>13/05/23</lastupdate>
+				<lastupdate>15/11/03</lastupdate>
 				<discoveryyear>2003</discoveryyear>
 			</planet>
 		</star>
 		<binary>
-			<separation unit="arcsec">0.4</separation>
-			<separation unit="AU">18.4</separation>
-			<positionangle>101</positionangle>
+			<name>91 Aquarii BC</name>
+			<name>91 Aqr BC</name>
+			<name>psi01 Aqr BC</name>
+			<name>Psi-1 Aquarii BC</name>
+			<name>ψ1 Aqr BC</name>
+			<name>ψ1 Aquarii BC</name>
+			<name>HD 219449 BC</name>
+			<name>HIP 114855 BC</name>
+			<name>SAO 146598 BC</name>
+			<name>Gliese 893.2 BC</name>
+			<name>GJ 893.2 BC</name>
+			<name>GJ 9815 BC</name>
+			<name>BD-09 6156 BC</name>
+			<name>WDS J23159-0905 BC</name>
+			<period>30540</period>
+			<semimajoraxis>21.5</semimajoraxis>
+			<eccentricity>0.448</eccentricity>
+			<inclination>87.0</inclination>
+			<ascendingnode>104.1</ascendingnode>
+			<periastrontime>2433640</periastrontime>
+			<periastron>145.0</periastron>
 			<star>
 				<name>91 Aquarii B</name>
 				<name>91 Aqr B</name>
+				<name>psi01 Aqr B</name>
+				<name>Psi-1 Aquarii B</name>
+				<name>ψ1 Aqr B</name>
+				<name>ψ1 Aquarii B</name>
 				<name>HD 219449 B</name>
 				<name>HIP 114855 B</name>
 				<name>Gliese 893.2 B</name>
-				<mass>1.</mass>
-				<spectraltype>K</spectraltype>
+				<name>GJ 893.2 B</name>
+				<name>GJ 9815 B</name>
+				<name>BD-09 6156 B</name>
+				<name>WDS J23159-0905 B</name>
+				<magB>10.9</magB>
+				<magV>9.9</magV>
+				<mass>0.78</mass>
+				<spectraltype>K3V</spectraltype>
 			</star>
 			<star>
 				<name>91 Aquarii C</name>
 				<name>91 Aqr C</name>
+				<name>psi01 Aqr C</name>
+				<name>Psi-1 Aquarii C</name>
+				<name>ψ1 Aqr C</name>
+				<name>ψ1 Aquarii C</name>
 				<name>HD 219449 C</name>
 				<name>HIP 114855 C</name>
 				<name>Gliese 893.2 C</name>
-				<mass>1.</mass>
+				<name>GJ 893.2 C</name>
+				<name>GJ 9815 C</name>
+				<name>BD-09 6156 C</name>
+				<name>WDS J23159-0905 C</name>
+				<magV>10.1</magV>
+				<mass>0.73</mass>
 				<spectraltype>K</spectraltype>
 			</star>
 		</binary>

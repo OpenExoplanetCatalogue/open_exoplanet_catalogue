@@ -1,12 +1,22 @@
 <system>
 	<name>BD+20 274</name>
-	<rightascension>01 43 40</rightascension>
-	<declination>+21 00 19</declination>
+	<rightascension>01 43 40.877</rightascension>
+	<declination>+21 00 19.04</declination>
 	<star>
-		<mass>0.8</mass>
-		<radius>17.3</radius>
-		<magV>9.36</magV>
-		<metallicity>-0.46</metallicity>
+		<name>BD+20 274</name>
+		<name>TYC 1211-603-1</name>
+		<name>SAO 74893</name>
+		<name>2MASS J01434087+2100191</name>
+		<name>GSC 01211-00603</name>
+		<magB errorminus="0.07" errorplus="0.07">10.72</magB>
+		<magV errorminus="0.029" errorplus="0.029">9.367</magV>
+		<magJ errorminus="0.019" errorplus="0.019">7.003</magJ>
+		<magH errorminus="0.020" errorplus="0.020">6.337</magH>
+		<magK errorminus="0.027" errorplus="0.027">6.169</magK>
+		<mass errorminus="0.2" errorplus="0.2">0.8</mass>
+		<radius errorminus="0.9" errorplus="0.9">17.3</radius>
+		<temperature errorminus="10" errorplus="10">4296</temperature>
+		<metallicity errorminus="0.07" errorplus="0.07">-0.46</metallicity>
 		<spectraltype>K5 III</spectraltype>
 		<planet>
 			<name>BD+20 274 b</name>
@@ -15,17 +25,16 @@
 			<name>GSC 1211-603 b</name>
 			<name>SAO 74893 b</name>
 			<list>Confirmed planets</list>
-			<mass>4.2</mass>
-			<period>578.2</period>
+			<mass type="msini">4.2</mass>
+			<period errorminus="5.4" errorplus="5.4">578.2</period>
 			<semimajoraxis>1.3</semimajoraxis>
-			<eccentricity>0.21</eccentricity>
+			<eccentricity errorminus="0.06" errorplus="0.06">0.21</eccentricity>
+			<periastron errorminus="38.1" errorplus="38.1">108.5</periastron>
+			<periastrontime errorminus="33.2" errorplus="33.2">2453921.0</periastrontime>
 			<description>This planet was found by the Penn State-Torun Planet Search Team (PTPS) using the Hobby-Eberly Telescope. Most likely, there is another low-mass stellar companion in the system.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>12/09/13</lastupdate>
+			<lastupdate>15/11/23</lastupdate>
 			<discoveryyear>2012</discoveryyear>
-			<temperature>587.2</temperature>
 		</planet>
-		<name>BD+20 274</name>
-		<temperature>4296.0</temperature>
 	</star>
 </system>

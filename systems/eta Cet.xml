@@ -2,14 +2,21 @@
 	<name>eta Cet</name>
 	<rightascension>01 08 35.39148</rightascension>
 	<declination>-10 10 56.1570</declination>
-	<distance errorminus="0.2" errorplus="0.2">37.99</distance>
+	<distance errorminus="0.20" errorplus="0.20">37.99</distance>
 	<star>
 		<name>eta Cet</name>
 		<name>Eta Ceti</name>
+		<name>η Cet</name>
+		<name>η Ceti</name>
 		<name>Deneb Algenubi</name>
 		<name>HIP 5364</name>
 		<name>HD 6805</name>
 		<name>HR 334</name>
+		<name>TYC 5273-2657-1</name>
+		<name>SAO 147632</name>
+		<name>BD-10 240</name>
+		<name>GJ 3075</name>
+		<name>2MASS J01083539-1010560</name>
 		<magV>3.45</magV>
 		<magB>4.61</magB>
 		<magR>2.61</magR>
@@ -20,7 +27,7 @@
 		<radius errorminus="0.2" errorplus="0.2">14.3</radius>
 		<mass errorminus="0.1" errorplus="0.1">1.7</mass>
 		<spectraltype>K1III</spectraltype>
-		<temperature errorminus="19" errorplus="19">4528.0</temperature>
+		<temperature errorminus="19" errorplus="19">4528</temperature>
 		<metallicity errorminus="0.1" errorplus="0.1">0.12</metallicity>
 		<planet>
 			<name>eta Cet b</name>
@@ -31,13 +38,15 @@
 			<name>HR 334 b</name>
 			<list>Confirmed planets</list>
 			<semimajoraxis>1.27</semimajoraxis>
-			<periastron errorminus="20.5" errorplus="20.5">250.6</periastron>
-			<eccentricity errorminus="0.05" errorplus="0.05">0.13</eccentricity>
-			<period errorminus="1.5" errorplus="1.5">403.5</period>
-			<mass errorminus="0.13" errorplus="0.13">2.55</mass>
+			<periastron errorminus="13.5" errorplus="13.5">247.2</periastron>
+			<eccentricity errorminus="0.05" errorplus="0.05">0.17</eccentricity>
+			<period errorminus="2.1" errorplus="2.1">407.3</period>
+			<mass errorminus="0.12" errorplus="0.12">2.46</mass>
+			<meananomaly errorminus="16.1" errorplus="16.1">208.9</meananomaly>
+			<inclination>81.9</inclination>
 			<discoverymethod>RV</discoverymethod>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/07/05</lastupdate>
+			<lastupdate>15/12/11</lastupdate>
 		</planet>
 		<planet>
 			<name>eta Cet c</name>
@@ -48,13 +57,15 @@
 			<name>HR 334 c</name>
 			<list>Confirmed planets</list>
 			<semimajoraxis>1.93</semimajoraxis>
-			<periastron errorminus="5.2" errorplus="5.2">67.54</periastron>
-			<eccentricity errorminus="0.06" errorplus="0.06">0.1</eccentricity>
-			<period errorminus="3.8" errorplus="3.8">751.9</period>
-			<mass errorminus="0.18" errorplus="0.18">3.32</mass>
+			<periastron errorminus="41.1" errorplus="41.1">36.67</periastron>
+			<eccentricity errorminus="0.03" errorplus="0.03">0.02</eccentricity>
+			<period errorminus="4.1" errorplus="4.1">744.3</period>
+			<mass errorminus="0.2" errorplus="0.2">3.16</mass>
+			<meananomaly errorminus="41.2" errorplus="41.2">262.7</meananomaly>
+			<inclination>81.9</inclination>
 			<discoverymethod>RV</discoverymethod>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/07/05</lastupdate>
+			<lastupdate>15/12/11</lastupdate>
 			<description>The planetary system eta Ceti contains at least two planets. The planets are in, or at least close, to a 2:1 mean motion resonance. Such resonances occur naturally as a consequence of convergent planetary migration.</description>
 		</planet>
 	</star>

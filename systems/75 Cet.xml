@@ -3,13 +3,18 @@
 	<name>75 Ceti</name>
 	<rightascension>02 32 09.42200</rightascension>
 	<declination>-01 02 05.6236</declination>
-	<distance>81</distance>
+	<distance errorminus="3.0" errorplus="3.0">81.4</distance>
 	<star>
 		<name>75 Cet</name>
 		<name>75 Ceti</name>
 		<name>HD 15779</name>
 		<name>HIP 11791</name>
-		<magV>5.36</magV>
+		<name>TYC 4698-1302-1</name>
+		<name>SAO 129959</name>
+		<name>HR 739</name>
+		<name>BD-01 353</name>
+		<name>2MASS J02320943-0102055</name>
+		<magV>5.364</magV>
 		<magB>6.373</magB>
 		<magR>10.0</magR>
 		<magJ errorminus="0.01" errorplus="0.01">3.685</magJ>
@@ -18,16 +23,20 @@
 		<mass lowerlimit="2.22" upperlimit="2.51">2.49</mass>
 		<radius lowerlimit="9.5" upperlimit="11.5">10.5</radius>
 		<temperature errorminus="18" errorplus="18">4846</temperature>
+		<metallicity errorminus="0.04" errorplus="0.04">0.00</metallicity>
 		<spectraltype>G3III:</spectraltype>
 		<planet>
 			<name>75 Cet b</name>
 			<list>Confirmed planets</list>
-			<mass>3.0</mass>
+			<mass type="msini">3.0</mass>
 			<period errorminus="3.6" errorplus="3.6">691.9</period>
 			<semimajoraxis>2.1</semimajoraxis>
 			<eccentricity errorminus="0.048" errorplus="0.048">0.117</eccentricity>
+			<periastron errorminus="28" errorplus="28">165</periastron>
+			<periastrontime errorminus="54" errorplus="54">2452213</periastrontime>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>12/07/13</lastupdate>
+			<description>Discovered with precise Doppler measurements at Okayama Astrophysical Observatory.</description>
+			<lastupdate>15/11/02</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 		</planet>
 	</star>

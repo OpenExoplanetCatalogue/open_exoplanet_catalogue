@@ -1,33 +1,36 @@
 <system>
 	<name>Kepler-51</name>
 	<name>KOI-620</name>
-	<rightascension>19 45 55</rightascension>
-	<declination>+49 56 15</declination>
-	<distance>986.91</distance>
+	<rightascension>19 45 55.146</rightascension>
+	<declination>+49 56 15.66</declination>
 	<star>
 		<name>Kepler-51</name>
 		<name>KOI-620</name>
 		<name>KIC 11773022</name>
+		<name>2MASS J19455514+4956156</name>
 		<magJ errorminus="0.023" errorplus="0.023">13.562</magJ>
 		<magH errorminus="0.023" errorplus="0.023">13.219</magH>
 		<magK errorminus="0.037" errorplus="0.037">13.197</magK>
-		<radius errorminus="0.5000" errorplus="0.5000">0.9400</radius>
-		<mass errorminus="0.1200" errorplus="0.1200">1.0400</mass>
-		<age errorminus="2.3000" errorplus="2.3000">0.3000</age>
-		<temperature errorminus="107.00" errorplus="107.00">6018.00</temperature>
+		<radius errorminus="0.04" errorplus="0.04">0.88</radius>
+		<mass errorminus="0.12" errorplus="0.12">1.04</mass>
+		<age errorminus="2.3" errorplus="2.3">0.3</age>
+		<temperature errorminus="107" errorplus="107">6018</temperature>
 		<planet>
 			<name>Kepler-51 b</name>
 			<name>KOI-620.01</name>
 			<name>KOI-620 b</name>
 			<name>KIC 11773022 b</name>
 			<list>Confirmed planets</list>
-			<mass>0.175787</mass>
-			<radius>0.642469</radius>
-			<period errorminus="0.000019" errorplus="0.000019">45.155314</period>
-			<transittime errorminus="0.00062" errorplus="0.00062" unit="BJD">2455092.10435</transittime>
-			<description>This planet candidate was discovered by the Kepler spacecraft. It transits its host star every 45.16 days for 5.7799 hours. Periodic transit timing variations confirm its planetary nature.</description>
+			<mass errorminus="0.0025" errorplus="0.0047">0.0066</mass>
+			<radius errorminus="0.027" errorplus="0.027">0.633</radius>
+			<period errorminus="0.0002" errorplus="0.0002">45.1540</period>
+			<transittime errorminus="0.0004" errorplus="0.0004" unit="BJD">2455714.5977</transittime>
+			<semimajoraxis errorminus="0.0097" errorplus="0.0097">0.2514</semimajoraxis>
+			<eccentricity errorminus="0.01" errorplus="0.01">0.04</eccentricity>
+			<inclination>89.8</inclination>
+			<description>This planet candidate was discovered by the Kepler spacecraft. It transits its host star every 45.16 days for 5.7799 hours. Periodic transit timing variations confirm its planetary nature and indicate that it has a very low density.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>14/03/05</lastupdate>
+			<lastupdate>15/12/12</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<istransiting>1</istransiting>
 		</planet>
@@ -37,13 +40,16 @@
 			<name>KOI-620 c</name>
 			<name>KIC 11773022 c</name>
 			<list>Confirmed planets</list>
-			<mass>0.113864</mass>
-			<radius>0.520354</radius>
-			<period errorminus="0.00022" errorplus="0.00022">85.31644</period>
-			<transittime errorminus="0.0022" errorplus="0.0022" unit="BJD">2455228.32095</transittime>
-			<description>This planet candidate was discovered by the Kepler spacecraft. It transits its host star every 85.31 days for 2.7849 hours. Periodic transit timing variations confirm its planetary nature.</description>
+			<mass errorminus="0.0013" errorplus="0.0013">0.0126</mass>
+			<radius errorminus="0.152" errorplus="0.250">0.803</radius>
+			<period errorminus="0.002" errorplus="0.003">85.312</period>
+			<transittime errorminus="0.003" errorplus="0.003" unit="BJD">2455725.509</transittime>
+			<semimajoraxis errorminus="0.015" errorplus="0.015">0.384</semimajoraxis>
+			<eccentricity errorminus="0.009" errorplus="0.013">0.014</eccentricity>
+			<inclination>89.4</inclination>
+			<description>This planet candidate was discovered by the Kepler spacecraft. It transits its host star every 85.31 days for 2.7849 hours. Periodic transit timing variations confirm its planetary nature and indicate that it has a very low density.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>14/03/05</lastupdate>
+			<lastupdate>15/12/12</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<istransiting>1</istransiting>
 		</planet>
@@ -53,16 +59,16 @@
 			<name>KOI-620.02</name>
 			<name>KIC 11773022 d</name>
 			<name>KIC 11773022.02</name>
-			<radius errorminus="0.48299" errorplus="0.48299">0.91130</radius>
-			<period errorminus="0.000071" errorplus="0.000071">130.178058</period>
-			<transittime errorminus="0.0006200" errorplus="0.0006200">2455045.0234500</transittime>
-			<semimajoraxis errorminus="0.02" errorplus="0.02">0.509</semimajoraxis>
-			<temperature>381.0</temperature>
-			<mass errorminus="0.00346096970078" errorplus="0.00346096970078">0.0239121542963</mass>
+			<radius errorminus="0.045" errorplus="0.045">0.865</radius>
+			<period errorminus="0.002" errorplus="0.005">130.194</period>
+			<transittime errorminus="0.0004" errorplus="0.0004" unit="BJD">2455695.9323</transittime>
+			<semimajoraxis errorminus="0.020" errorplus="0.020">0.509</semimajoraxis>
+			<mass errorminus="0.0035" errorplus="0.0035">0.0239</mass>
+			<inclination>89.9</inclination>
 			<list>Confirmed planets</list>
-			<description>Kepler-51 d has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-51 d are still unknown, the object is highly unlikely to be a false positive.</description>
+			<description>Kepler-51 d has been discovered by the Kepler spacecraft. Its mass has been determined by analysis of transit timing variations, indicating that it is a very low density planet.</description>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/03/05</lastupdate>
+			<lastupdate>15/12/12</lastupdate>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
 		</planet>
