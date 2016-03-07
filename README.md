@@ -68,6 +68,7 @@ The following table shows all the possible tags in the Open Exoplanet Catalogue.
 | `meananomaly`	| `binary`, `planet` | Mean anomaly at a given Epoch (same for all planets in one system) | degree  |
 | `ascendingnode` 	| `binary`, `planet` | Longitude of the ascending node | degree  |
 | `inclination` 	| `binary`, `planet` | Inclination of the orbit | degree  |
+| `impactparameter`	| `planet` | Impact parameter of transit | |
 | `epoch` | `system` | Epoch for the orbital elements | BJD |
 | `period`	 	| `binary`, `planet` | Orbital period   | day  |
 | `transittime` | `binary`, `planet` | Time of the center of a transit | BJD |
