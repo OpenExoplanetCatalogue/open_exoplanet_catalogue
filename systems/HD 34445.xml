@@ -1,28 +1,34 @@
 <system>
 	<name>HD 34445</name>
-	<rightascension>05 17 41</rightascension>
-	<declination>+07 21 12</declination>
-	<distance>46.5</distance>
+	<rightascension>05 17 40.98051</rightascension>
+	<declination>+07 21 12.0508</declination>
+	<distance errorminus="1.4" errorplus="1.4">46.5</distance>
 	<star>
-		<mass>1.07</mass>
-		<radius>1.38</radius>
-		<magV>7.31</magV>
+		<name>HD 34445</name>
+		<name>HIP 24681</name>
+		<name>TYC 112-182-1</name>
+		<name>SAO 112601</name>
+		<name>BD+07 855</name>
+		<mass errorminus="0.02" errorplus="0.02">1.07</mass>
+		<radius errorminus="0.08" errorplus="0.08">1.38</radius>
+		<magV errorminus="0.01" errorplus="0.01">7.33</magV>
 		<magB errorminus="0.02" errorplus="0.02">7.97</magB>
-		<metallicity>0.14</metallicity>
-		<spectraltype>G0</spectraltype>
+		<temperature errorminus="44" errorplus="44">5836</temperature>
+		<metallicity errorminus="0.04" errorplus="0.04">0.14</metallicity>
+		<spectraltype>G0 V</spectraltype>
+		<age errorminus="2.0" errorplus="2.0">8.5</age>
 		<planet>
 			<name>HD 34445 b</name>
 			<list>Confirmed planets</list>
-			<mass>0.79</mass>
-			<period>1049</period>
-			<semimajoraxis>2.07</semimajoraxis>
-			<eccentricity>0.27</eccentricity>
+			<mass errorminus="0.07" errorplus="0.07" type="msini">0.79</mass>
+			<period errorminus="11" errorplus="11">1049</period>
+			<semimajoraxis errorminus="0.02" errorplus="0.02">2.07</semimajoraxis>
+			<eccentricity errorminus="0.07" errorplus="0.07">0.27</eccentricity>
+			<periastron errorminus="19" errorplus="19">104</periastron>
+			<periastrontime errorminus="48" errorplus="48">2453781</periastrontime>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/03/19</lastupdate>
-			<discoveryyear>2004</discoveryyear>
-			<temperature>209.1</temperature>
+			<lastupdate>16/03/09</lastupdate>
+			<discoveryyear>2010</discoveryyear>
 		</planet>
-		<name>HD 34445</name>
-		<temperature>5836.0</temperature>
 	</star>
 </system>
