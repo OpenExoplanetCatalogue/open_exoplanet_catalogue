@@ -1,36 +1,46 @@
 <system>
 	<name>Gliese 179</name>
-	<rightascension>04 52 06</rightascension>
-	<declination>+06 28 36</declination>
-	<distance>12.3</distance>
+	<rightascension>04 52 05.731</rightascension>
+	<declination>+06 28 35.64</declination>
+	<distance errorminus="0.61" errorplus="0.61">12.29</distance>
 	<star>
-		<mass>0.357</mass>
-		<radius>0.38</radius>
-		<magV>11.96</magV>
+		<name>Gliese 179</name>
+		<name>GJ 179</name>
+		<name>Gl 179</name>
+		<name>HIP 22627</name>
+		<name>TYC 96-602-1</name>
+		<name>Ross 401</name>
+		<name>Wolf 1539</name>
+		<name>2MASS J04520573+0628356</name>
+		<mass errorminus="0.03" errorplus="0.03">0.357</mass>
+		<radius errorminus="0.02" errorplus="0.02">0.38</radius>
+		<magU>14.791</magU>
 		<magB>13.568</magB>
+		<magV>12.018</magV>
 		<magR>10.854</magR>
 		<magI>9.334</magI>
 		<magJ errorminus="0.024" errorplus="0.024">7.814</magJ>
 		<magH errorminus="0.05" errorplus="0.05">7.21</magH>
 		<magK errorminus="0.018" errorplus="0.018">6.942</magK>
-		<metallicity>0.3</metallicity>
-		<spectraltype>M3.5</spectraltype>
+		<temperature errorminus="100" errorplus="100">3370</temperature>
+		<metallicity errorminus="0.10" errorplus="0.10">0.30</metallicity>
+		<spectraltype>M3.5 V</spectraltype>
 		<planet>
 			<name>Gliese 179 b</name>
 			<name>GJ 179 b</name>
 			<name>Gj 179 b</name>
 			<name>Gl 179 b</name>
 			<list>Confirmed planets</list>
-			<mass>0.82</mass>
-			<period>2288</period>
-			<semimajoraxis>2.41</semimajoraxis>
-			<eccentricity>0.21</eccentricity>
+			<mass errorminus="0.07" errorplus="0.07" type="msini">0.82</mass>
+			<period errorminus="59" errorplus="59">2288</period>
+			<semimajoraxis errorminus="0.04" errorplus="0.04">2.41</semimajoraxis>
+			<eccentricity errorminus="0.08" errorplus="0.08">0.21</eccentricity>
+			<periastron errorminus="24" errorplus="24">153</periastron>
+			<periastrontime errorminus="104" errorplus="104">2455140</periastrontime>
 			<description>The star Gliese 170 is located in the constellation Orion. The planet was discovered with the Keck Observatory on Mauna Kea in Hawaii.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/03/19</lastupdate>
+			<lastupdate>16/03/09</lastupdate>
 			<discoveryyear>2010</discoveryyear>
 		</planet>
-		<name>Gliese 179</name>
-		<temperature>3370.0</temperature>
 	</star>
 </system>
