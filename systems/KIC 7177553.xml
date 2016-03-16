@@ -1,0 +1,96 @@
+<system>
+	<name>KIC 7177553</name>
+	<rightascension>18 52 02.914</rightascension>
+	<declination>+42 43 16.52</declination>
+	<distance errorminus="10" errorplus="10">406</distance>
+	<binary>
+		<name>KIC 7177553</name>
+		<name>KOI-6837</name>
+		<name>TYC 3127-167-1</name>
+		<name>2MASS J18520290+4243165</name>
+		<separation errorminus="0.0015" errorplus="0.0015" unit="arcsec">0.4104</separation>
+		<separation errorminus="5" errorplus="5" unit="AU">167</separation>
+		<positionangle errorminus="0.2" errorplus="0.2">193.6</positionangle>
+		<binary>
+			<name>KIC 7177553 A</name>
+			<name>KOI-6837 A</name>
+			<name>TYC 3127-167-1 A</name>
+			<period errorminus="0.000017" errorplus="0.000017">17.996467</period>
+			<periastrontime errorminus="0.012" errorplus="0.012" unit="BJD">2455690.213</periastrontime>
+			<semimajoraxis errorminus="0.00070" errorplus="0.00070">0.17090</semimajoraxis>
+			<eccentricity errorminus="0.0010" errorplus="0.0010">0.3915</eccentricity>
+			<periastron errorminus="0.061" errorplus="0.061">3.298</periastron>
+			<inclination errorminus="0.055" errorplus="0.055">87.679</inclination>
+			<star>
+				<name>KIC 7177553 Aa</name>
+				<name>KOI-6837 Aa</name>
+				<name>TYC 3127-167-1 Aa</name>
+				<magV>12.9</magV>
+				<mass errorminus="0.014" errorplus="0.014">1.043</mass>
+				<radius errorminus="0.005" errorplus="0.005">0.940</radius>
+				<temperature errorminus="130" errorplus="130">5800</temperature>
+				<metallicity errorminus="0.11" errorplus="0.11">0.00</metallicity>
+				<spectraltype>G2V</spectraltype>
+			</star>
+			<star>
+				<name>KIC 7177553 Ab</name>
+				<name>KOI-6837 Ab</name>
+				<name>KOI-6837.01</name>
+				<name>TYC 3127-167-1 Ab</name>
+				<magV>13.2</magV>
+				<mass errorminus="0.015" errorplus="0.015">0.986</mass>
+				<radius errorminus="0.005" errorplus="0.005">0.941</radius>
+				<temperature errorminus="140" errorplus="140">5740</temperature>
+				<metallicity errorminus="0.13" errorplus="0.13">-0.10</metallicity>
+				<spectraltype>G2V</spectraltype>
+			</star>
+			<planet>
+				<name>KIC 7177553 A(ab) b</name>
+				<name>KOI-6837 A(ab) b</name>
+				<period errorminus="2" errorplus="2">529</period>
+				<semimajoraxis errorminus="0.232" errorplus="0.232">1.576</semimajoraxis>
+				<eccentricity errorminus="0.02" errorplus="0.02">0.46</eccentricity>
+				<periastron errorminus="5" errorplus="5">201</periastron>
+				<transittime errorminus="9" errorplus="9" unit="BJD">2454701</transittime>
+				<mass errorminus="2" errorplus="2" type="msini">5</mass>
+				<istransiting>0</istransiting>
+				<discoverymethod>timing</discoverymethod>
+				<description>This circumbinary planet candidate is located in an SB4 system comprising an eclipsing binary (the planet host) and a secondary SB2 system. It was discovered by observing the system's eclipse timing variations. Further observations will be needed to confirm the existence.</description>
+				<discoveryyear>2015</discoveryyear>
+				<lastupdate>16/03/16</lastupdate>
+				<list>Controversial</list>
+				<list>Planets in binary systems, P-type</list>
+			</planet>
+		</binary>
+		<binary>
+			<name>KIC 7177553 B</name>
+			<name>KOI-6837 B</name>
+			<name>TYC 3127-167-1 B</name>
+			<period errorminus="0.0038" errorplus="0.0038">16.5490</period>
+			<eccentricity errorminus="0.0012" errorplus="0.0012">0.4421</eccentricity>
+			<periastron errorminus="0.27" errorplus="0.27">331.17</periastron>
+			<periastrontime errorminus="0.013" errorplus="0.013" unit="BJD">2457186.457</periastrontime>
+			<inclination>60</inclination>
+			<star>
+				<name>KIC 7177553 Ba</name>
+				<name>KOI-6837 Ba</name>
+				<name>TYC 3127-167-1 Ba</name>
+				<magV>13.1</magV>
+				<metallicity errorminus="0.13" errorplus="0.13">-0.12</metallicity>
+				<temperature errorminus="150" errorplus="150">5600</temperature>
+				<spectraltype>G2V</spectraltype>
+				<mass errorminus="0.005" errorplus="0.005">1.040</mass>
+			</star>
+			<star>
+				<name>KIC 7177553 Bb</name>
+				<name>KOI-6837 Bb</name>
+				<name>TYC 3127-167-1 Bb</name>
+				<magV>13.2</magV>
+				<metallicity errorminus="0.13" errorplus="0.13">-0.12</metallicity>
+				<temperature errorminus="140" errorplus="140">5600</temperature>
+				<spectraltype>G2V</spectraltype>
+				<mass errorminus="0.004" errorplus="0.004">1.000</mass>
+			</star>
+		</binary>
+	</binary>
+</system>
