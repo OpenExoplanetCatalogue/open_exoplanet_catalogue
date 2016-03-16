@@ -52,8 +52,8 @@
 			<name>2MASS J11264627+0300229</name>
 			<name>WDS J11268+0301 B</name>
 			<name>STF 1540 B</name>
-			<mass errorminus="0.020" errorplus="0.036">0.832</mass>
-			<radius errorminus="0.02" errorplus="0.04">0.76</radius>
+			<mass errorminus="0.02" errorplus="0.02">0.85</mass>
+			<radius errorminus="0.02" errorplus="0.02">0.78</radius>
 			<magV>7.38</magV>
 			<magB>7.29</magB>
 			<magR>6.0</magR>
@@ -61,9 +61,9 @@
 			<magJ errorminus="0.023" errorplus="0.023">5.165</magJ>
 			<magH errorminus="0.065" errorplus="0.065">4.937</magH>
 			<magK errorminus="0.015" errorplus="0.015">4.747</magK>
-			<age>4</age>
-			<metallicity>0.36</metallicity>
-			<temperature>4740</temperature>
+			<age errorminus="4.1" errorplus="4.1">4.8</age>
+			<metallicity errorminus="0.03" errorplus="0.03">0.3</metallicity>
+			<temperature errorminus="44" errorplus="44">4929</temperature>
 			<spectraltype>K2V</spectraltype>
 			<planet>
 				<name>83 Leonis B b</name>
@@ -72,15 +72,16 @@
 				<name>Gliese 429 B b</name>
 				<name>GJ 429 B b</name>
 				<list>Confirmed planets</list>
-				<mass errorminus="0.006" errorplus="0.006" type="msini">0.087</mass>
+				<mass errorminus="0.006" errorplus="0.006" type="msini">0.079</mass>
 				<period errorminus="0.003" errorplus="0.003">17.054</period>
-				<semimajoraxis errorminus="0.00002" errorplus="0.00002">0.12186</semimajoraxis>
-				<eccentricity errorminus="0.07" errorplus="0.07">0.13</eccentricity>
-				<periastron errorminus="32" errorplus="32">196</periastron>
-				<periastrontime errorminus="2" errorplus="2">2450449</periastrontime>
+				<semimajoraxis errorminus="0.001" errorplus="0.001">0.123</semimajoraxis>
+				<eccentricity errorminus="0.06" errorplus="0.06">0.07</eccentricity>
+				<periastron errorminus="75.4" errorplus="75.4">240.7</periastron>
+				<transittime errorminus="0.855" errorplus="0.55">2457367.776</transittime>
+				<istransiting>0</istransiting>
 				<discoverymethod>RV</discoverymethod>
-				<description>The first planet around the star 83 Leonis B (HD 99492) was discovered in 2004. The second planet was found 6 years later.</description>
-				<lastupdate>15/11/02</lastupdate>
+				<description>The first planet around the star 83 Leonis B (HD 99492) was discovered in 2004. A second planet was announced 6 years later but was subsequently shown to be an artifact of the stellar activity cycle.</description>
+				<lastupdate>16/03/16</lastupdate>
 				<discoveryyear>2004</discoveryyear>
 				<list>Planets in binary systems, S-type</list>
 			</planet>
@@ -90,7 +91,7 @@
 				<name>HD 99492 c</name>
 				<name>Gliese 429 B c</name>
 				<name>GJ 429 B c</name>
-				<list>Confirmed planets</list>
+				<list>Controversial</list>
 				<mass errorminus="0.06" errorplus="0.06" type="msini">0.36</mass>
 				<period errorminus="744" errorplus="744">4970</period>
 				<semimajoraxis errorminus="0.5" errorplus="0.5">5.4</semimajoraxis>
@@ -98,8 +99,8 @@
 				<periastron errorminus="64" errorplus="64">38</periastron>
 				<periastrontime errorminus="2210" errorplus="2210">2449636</periastrontime>
 				<discoverymethod>RV</discoverymethod>
-				<description>The first planet around the star 83 Leonis B (HD 99492) was discovered in 2004. The second planet was found 6 years later.</description>
-				<lastupdate>15/11/02</lastupdate>
+				<description>HD 99492 c was announced in 2010. Subsequent observations showed that the radial velocity variations attributed to this planet correlated with the stellar activity cycle, indicating that the planet is an artifact of the activity.</description>
+				<lastupdate>16/03/16</lastupdate>
 				<discoveryyear>2010</discoveryyear>
 				<list>Planets in binary systems, S-type</list>
 			</planet>
