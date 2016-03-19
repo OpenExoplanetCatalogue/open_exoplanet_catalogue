@@ -1,0 +1,54 @@
+<system>
+	<name>HIP 65407</name>
+	<rightascension>13 24 21.04002</rightascension>
+	<declination>+48 53 06.3579</declination>
+	<distance errorminus="4.6" errorplus="4.6">55.5</distance>
+	<star>
+		<name>HIP 65407</name>
+		<name>TYC 3462-1637-1</name>
+		<name>SAO 44598</name>
+		<name>BD+49 2212</name>
+		<name>2MASS J13242103+4853063</name>
+		<magB errorminus="0.03" errorplus="0.03">10.20</magB>
+		<magV errorminus="0.02" errorplus="0.02">9.42</magV>
+		<magJ errorminus="0.02" errorplus="0.02">7.963</magJ>
+		<magH errorminus="0.017" errorplus="0.017">7.648</magH>
+		<magK errorminus="0.017" errorplus="0.017">7.578</magK>
+		<spectraltype>K0</spectraltype>
+		<metallicity errorminus="0.04" errorplus="0.04">0.25</metallicity>
+		<temperature errorminus="50" errorplus="50">5460</temperature>
+		<mass errorminus="0.07" errorplus="0.07">0.93</mass>
+		<planet>
+			<name>HIP 65407 b</name>
+			<period errorminus="0.019" errorplus="0.019">28.125</period>
+			<eccentricity errorminus="0.07" errorplus="0.07">0.14</eccentricity>
+			<periastron errorminus="150" errorplus="150">50</periastron>
+			<transittime errorminus="2.5" errorplus="2.5" unit="BJD">2456990.8</transittime>
+			<mass errorminus="0.032" errorplus="0.032" type="msini">0.428</mass>
+			<semimajoraxis errorminus="0.005" errorplus="0.005">0.177</semimajoraxis>
+			<inclination lowerlimit="10" />
+			<istransiting>0</istransiting>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<description>The HIP 65407 system contains two planets located just outside the 12:5 resonance. Stability analysis of the two-planet system indicates that the maximum mass of this planet is 3.4 Jupiter masses.</description>
+			<lastupdate>16/03/19</lastupdate>
+			<list>Confirmed planets</list>
+		</planet>
+		<planet>
+			<name>HIP 65407 c</name>
+			<period errorminus="0.08" errorplus="0.08">67.30</period>
+			<eccentricity errorminus="0.04" errorplus="0.04">0.12</eccentricity>
+			<periastron errorminus="25" errorplus="25">-19</periastron>
+			<transittime errorminus="25" errorplus="25" unit="BJD">2457047</transittime>
+			<mass errorminus="0.054" errorplus="0.054" type="msini">0.784</mass>
+			<semimajoraxis errorminus="0.008" errorplus="0.008">0.316</semimajoraxis>
+			<inclination lowerlimit="10" />
+			<istransiting>0</istransiting>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<description>The HIP 65407 system contains two planets located just outside the 12:5 resonance. Stability analysis of the two-planet system indicates that the maximum mass of this planet is 6.2 Jupiter masses.</description>
+			<lastupdate>16/03/19</lastupdate>
+			<list>Confirmed planets</list>
+		</planet>
+	</star>
+</system>

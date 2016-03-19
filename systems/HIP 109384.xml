@@ -1,0 +1,37 @@
+<system>
+	<name>HIP 109384</name>
+	<rightascension>22 09 37.39862</rightascension>
+	<declination>+71 18 51.5933</declination>
+	<distance errorminus="2.7" errorplus="2.7">56.2</distance>
+	<star>
+		<name>HIP 109384</name>
+		<name>TYC 4471-327-1</name>
+		<name>BD+70 1218</name>
+		<name>2MASS J22093736+7118514</name>
+		<magB errorminus="0.03" errorplus="0.03">10.42</magB>
+		<magV errorminus="0.02" errorplus="0.02">9.63</magV>
+		<magR>9.1</magR>
+		<magI>8.8</magI>
+		<magJ errorminus="0.020" errorplus="0.020">8.157</magJ>
+		<magH errorminus="0.047" errorplus="0.047">7.787</magH>
+		<magK errorminus="0.016" errorplus="0.016">7.652</magK>
+		<spectraltype>G5</spectraltype>
+		<metallicity errorminus="0.03" errorplus="0.03">-0.26</metallicity>
+		<temperature errorminus="45" errorplus="45">5180</temperature>
+		<mass errorminus="0.06" errorplus="0.06">0.78</mass>
+		<planet>
+			<name>HIP 109384 b</name>
+			<period errorminus="0.32" errorplus="0.32">499.48</period>
+			<eccentricity errorminus="0.003" errorplus="0.003">0.549</eccentricity>
+			<periastron errorminus="0.37" errorplus="0.37">104.49</periastron>
+			<periastrontime errorminus="0.34" errorplus="0.34" unit="BJD">2456337.02</periastrontime>
+			<mass errorminus="0.08" errorplus="0.08" type="msini">1.56</mass>
+			<semimajoraxis errorminus="0.029" errorplus="0.029">1.134</semimajoraxis>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<description>The planet HIP 109384 b was discovered as part of the SOPHIE search for northern extrasolar planets. It is located in the habitable zone of its host star, but the orbit is highly elliptical.</description>
+			<lastupdate>16/03/19</lastupdate>
+			<list>Confirmed planets</list>
+		</planet>
+	</star>
+</system>

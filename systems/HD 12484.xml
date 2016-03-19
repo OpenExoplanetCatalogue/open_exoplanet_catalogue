@@ -1,0 +1,36 @@
+<system>
+	<name>HD 12484</name>
+	<distance errorminus="2.5" errorplus="2.5">51.1</distance>
+	<star>
+		<name>HD 12484</name>
+		<name>HIP 9519</name>
+		<name>TYC 40-236-1</name>
+		<name>SAO 110293</name>
+		<name>BD+02 320</name>
+		<name>2MASS J02022673+0248570</name>
+		<magB errorminus="0.02" errorplus="0.02">8.83</magB>
+		<magV errorminus="0.01" errorplus="0.01">8.17</magV>
+		<magJ errorminus="0.026" errorplus="0.026">7.074</magJ>
+		<magH errorminus="0.031" errorplus="0.031">6.782</magH>
+		<magK errorminus="0.029" errorplus="0.029">6.706</magK>
+		<spectraltype>F8</spectraltype>
+		<metallicity errorminus="0.02" errorplus="0.02">0.05</metallicity>
+		<temperature errorminus="30" errorplus="30">5920</temperature>
+		<mass errorminus="0.03" errorplus="0.03">1.01</mass>
+		<planet>
+			<name>HD 12484 b</name>
+			<period errorminus="0.08" errorplus="0.08">58.83</period>
+			<eccentricity errorminus="0.03" errorplus="0.03">0.07</eccentricity>
+			<periastron errorminus="40" errorplus="40">-35</periastron>
+			<transittime errorminus="5" errorplus="5" unit="BJD">2456699</transittime>
+			<mass errorminus="0.14" errorplus="0.14" type="msini">2.98</mass>
+			<semimajoraxis errorminus="0.005" errorplus="0.005">0.297</semimajoraxis>
+			<istransiting>0</istransiting>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<description>The planet HD 12484 b was discovered as part of the SOPHIE search for northern extrasolar planets.</description>
+			<lastupdate>16/03/19</lastupdate>
+			<list>Confirmed planets</list>
+		</planet>
+	</star>
+</system>

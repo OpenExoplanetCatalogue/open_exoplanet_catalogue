@@ -1,0 +1,38 @@
+<system>
+	<name>HIP 109600</name>
+	<rightascension>22 12 06.25309</rightascension>
+	<declination>+29 03 56.9108</declination>
+	<distance errorminus="3.2" errorplus="3.2">58.6</distance>
+	<star>
+		<name>HIP 109600</name>
+		<name>TYC 2217-18-1</name>
+		<name>SAO 90318</name>
+		<name>BD+28 4312</name>
+		<name>2MASS J22120620+2903565</name>
+		<magB errorminus="0.025" errorplus="0.025">9.903</magB>
+		<magV errorminus="0.017" errorplus="0.017">9.158</magV>
+		<magR>8.7</magR>
+		<magI>8.4</magI>
+		<magJ errorminus="0.019" errorplus="0.019">7.881</magJ>
+		<magH errorminus="0.017" errorplus="0.017">7.511</magH>
+		<magK errorminus="0.021" errorplus="0.021">7.499</magK>
+		<spectraltype>G5</spectraltype>
+		<metallicity errorminus="0.02" errorplus="0.02">-0.12</metallicity>
+		<temperature errorminus="35" errorplus="35">5530</temperature>
+		<mass errorminus="0.06" errorplus="0.06">0.87</mass>
+		<planet>
+			<name>HIP 109600 b</name>
+			<period errorminus="0.15" errorplus="0.15">232.08</period>
+			<eccentricity errorminus="0.006" errorplus="0.006">0.163</eccentricity>
+			<periastron errorminus="1.6" errorplus="1.6">-131.3</periastron>
+			<periastrontime errorminus="1.1" errorplus="1.1" unit="BJD">2456017.1</periastrontime>
+			<mass errorminus="0.12" errorplus="0.12" type="msini">2.68</mass>
+			<semimajoraxis errorminus="0.016" errorplus="0.016">0.706</semimajoraxis>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<description>The planet HIP 109600 b was discovered as part of the SOPHIE search for northern extrasolar planets. It orbits within its star's habitable zone.</description>
+			<lastupdate>16/03/19</lastupdate>
+			<list>Confirmed planets</list>
+		</planet>
+	</star>
+</system>
