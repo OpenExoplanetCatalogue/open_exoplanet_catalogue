@@ -1,33 +1,48 @@
 <system>
 	<name>PSR B1620-26</name>
-	<rightascension>16 23 38</rightascension>
-	<declination>-26 31 53</declination>
-	<distance>3800</distance>
+	<name>B1620-26</name>
+	<rightascension>16 23 38.2218</rightascension>
+	<declination>-26 31 53.769</declination>
+	<distance errorminus="200" errorplus="200">1800</distance>
 	<binary>
-		<period>191.4428</period>
+		<name>B1620-26</name>
+		<period errorminus="0.00002" errorplus="0.00002">191.44281</period>
+		<eccentricity errorminus="0.00000012" errorplus="0.00000012">0.02531545</eccentricity>
+		<periastrontime errorminus="0.00012" errorplus="0.00012">2448728.76242</periastrontime>
+		<periastron errorminus="0.0002" errorplus="0.0002">117.1291</periastron>
+		<inclination errorminus="8" errorplus="14">55</inclination>
 		<star>
+			<name>PSR B1620-26</name>
+			<name>PSR B1620-26 A</name>
+			<name>B1620-26 A</name>
 			<mass>1.35</mass>
 			<magV>24</magV>
-			<name>PSR B1620-26 A</name>
+			<spectraltype>Pulsar</spectraltype>
+			<radius>0.000014</radius>
 		</star>
 		<star>
-			<mass>0.6</mass>
+			<name>WD J1623-266</name>
 			<name>PSR B1620-26 B</name>
+			<name>B1620-26 B</name>
+			<spectraltype>D</spectraltype>
+			<mass errorminus="0.04" errorplus="0.04">0.34</mass>
 		</star>
 		<planet>
 			<name>PSR B1620-26 b</name>
+			<name>B1620-26 b</name>
+			<name>PSR B1620-26 (AB) b</name>
+			<name>B1620-26 (AB) b</name>
 			<list>Confirmed planets</list>
-			<mass>2.5</mass>
-			<period>36525</period>
-			<semimajoraxis>23</semimajoraxis>
+			<mass type="msini">1.7</mass>
+			<period>24837</period>
+			<semimajoraxis>20</semimajoraxis>
+			<eccentricity>0.13</eccentricity>
 			<description>PSR B1620-26 b is a circum-binary planet. It is orbiting a pulsar and a white dwarf in the globular cluster M4. The cluster is estimated to be 12.2 billion years old.</description>
 			<discoverymethod>timing</discoverymethod>
-			<lastupdate>12/11/27</lastupdate>
+			<lastupdate>16/04/12</lastupdate>
 			<discoveryyear>1994</discoveryyear>
-			<name>PSR B1620-26 (AB) b</name>
 			<list>Planets in binary systems, P-type</list>
 			<list>Planets in globular clusters</list>
-			<temperature>103.6</temperature>
 		</planet>
 	</binary>
 </system>
