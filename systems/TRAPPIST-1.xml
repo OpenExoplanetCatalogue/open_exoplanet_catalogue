@@ -1,0 +1,60 @@
+<system>
+	<name>TRAPPIST-1</name>
+	<rightascension>23 06 30.34</rightascension>
+	<declination>05 02 36.44</declination>
+	<distance errorminus="0.4" errorplus="0.4">12.1</distance>
+	<star>
+		<name>TRAPPIST-1</name>
+		<name>2MASS J23062928-0502285</name>
+		<mass errorminus="0.009" errorplus="0.009">0.080</mass>
+		<radius errorminus="0.006" errorplus="0.006">0.114</radius>
+		<temperature errorminus="55" errorplus="55">2550</temperature>
+		<magV>18.8</magV>
+		<metallicity errorminus="0.08" errorplus="0.08">0.04</metallicity>
+		<age lowerlimit="0.5" />
+		<planet>
+			<name>TRAPPIST-1b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.004010" errorplus="0.004010">0.101428</radius>
+			<temperature errorminus="9" errorplus="9">400</temperature>
+			<period errorminus="0.000019" errorplus="0.000019">1.510848</period>
+			<transittime errorminus="0.00025" errorplus="0.00025">2457322.51765</transittime>
+			<semimajoraxis errorminus="0.0004" errorplus="0.0004">0.01111</semimajoraxis>
+			<inclination errorminus="0.41" errorplus="0.41">89.41</inclination>
+			<description>Astronomers using the TRAPPIST telescope at ESO's La Silla Observatory have discovered three planets orbiting an ultracool dwarf star just 40 light-years from Earth. These worlds have sizes and temperatures similar to those of Venus and Earth and are the best targets found so far for the search for life outside the Solar System. They are the first planets ever discovered around such a tiny and dim star.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>16/05/01</lastupdate>
+			<discoveryyear>2016</discoveryyear>
+		</planet>
+		<planet>
+			<name>TRAPPIST-1c</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.004557" errorplus="0.004557">0.095596</radius>
+			<temperature errorminus="8" errorplus="8">342</temperature>
+			<period errorminus="0.000028" errorplus="0.000028">2.421848</period>
+			<transittime errorminus="0.00033" errorplus="0.00033">2457362.80520</transittime>
+			<semimajoraxis errorminus="0.00055" errorplus="0.00055">0.01522</semimajoraxis>
+			<inclination errorminus="0.1" errorplus="0.1">89.5</inclination>
+			<description>Astronomers using the TRAPPIST telescope at ESO's La Silla Observatory have discovered three planets orbiting an ultracool dwarf star just 40 light-years from Earth. These worlds have sizes and temperatures similar to those of Venus and Earth and are the best targets found so far for the search for life outside the Solar System. They are the first planets ever discovered around such a tiny and dim star.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>16/05/01</lastupdate>
+			<discoveryyear>2016</discoveryyear>
+		</planet>
+		<planet>
+			<name>TRAPPIST-1d</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.005923" errorplus="0.005923">0.105985</radius>
+			<temperature>200</temperature>
+			<period>18.202</period>
+			<transittime errorminus="0.0015" errorplus="0.0015">2457294.7744</transittime>
+			<inclination errorminus="0.1" errorplus="0.1">89.90</inclination>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>16/05/01</lastupdate>
+			<discoveryyear>2016</discoveryyear>
+			<description>Astronomers using the TRAPPIST telescope at ESO's La Silla Observatory have discovered three planets orbiting an ultracool dwarf star just 40 light-years from Earth. These worlds have sizes and temperatures similar to those of Venus and Earth and are the best targets found so far for the search for life outside the Solar System. They are the first planets ever discovered around such a tiny and dim star. The orbital periof the outer planet is not well constrained yet due to gaps in the observations.</description>
+		</planet>
+	</star>
+</system>
