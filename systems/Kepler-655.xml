@@ -1,0 +1,24 @@
+<system>
+	<name>Kepler-655</name>
+	<rightascension>19 49 02</rightascension>
+	<declination>+46 50 35</declination>
+	<star>
+		<name>Kepler-655</name>
+		<temperature errorminus="62.6" errorplus="73.0">6170.0</temperature>
+		<mass errorminus="0.05" errorplus="0.06">1.15</mass>
+		<radius errorminus="0.12" errorplus="0.18">1.24</radius>
+		<metallicity errorminus="0.10" errorplus="0.09">0.00</metallicity>
+		<planet>
+			<name>Kepler-655 b</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.000165100" errorplus="0.000165100">46.406335800</period>
+			<radius errorminus="0.024" errorplus="0.037">0.242</radius>
+		</planet>
+	</star>
+</system>

@@ -1,0 +1,36 @@
+<system>
+	<name>Kepler-953</name>
+	<rightascension>19 15 53</rightascension>
+	<declination>+44 37 28</declination>
+	<star>
+		<name>Kepler-953</name>
+		<temperature errorminus="45.6" errorplus="40.8">5416.0</temperature>
+		<mass errorminus="0.03" errorplus="0.03">0.95</mass>
+		<radius errorminus="0.07" errorplus="0.09">0.99</radius>
+		<metallicity errorminus="0.07" errorplus="0.07">0.26</metallicity>
+		<planet>
+			<name>Kepler-953 b</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.000083060" errorplus="0.000083060">88.406552580</period>
+			<radius errorminus="0.029" errorplus="0.033">0.376</radius>
+		</planet>
+		<planet>
+			<name>Kepler-953 c</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.000025280" errorplus="0.000025280">9.109671120</period>
+			<radius errorminus="0.008" errorplus="0.010">0.106</radius>
+		</planet>
+	</star>
+</system>

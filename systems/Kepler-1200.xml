@@ -1,0 +1,24 @@
+<system>
+	<name>Kepler-1200</name>
+	<rightascension>19 46 25</rightascension>
+	<declination>+44 07 45</declination>
+	<star>
+		<name>Kepler-1200</name>
+		<temperature errorminus="140.0" errorplus="101.0">4612.0</temperature>
+		<mass errorminus="0.05" errorplus="0.04">0.74</mass>
+		<radius errorminus="0.04" errorplus="0.03">0.70</radius>
+		<metallicity errorminus="0.20" errorplus="0.16">0.04</metallicity>
+		<planet>
+			<name>Kepler-1200 b</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.000003120" errorplus="0.000003120">1.118549720</period>
+			<radius errorminus="0.007" errorplus="0.005">0.095</radius>
+		</planet>
+	</star>
+</system>

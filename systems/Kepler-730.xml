@@ -1,0 +1,24 @@
+<system>
+	<name>Kepler-730</name>
+	<rightascension>19 02 13</rightascension>
+	<declination>+45 34 44</declination>
+	<star>
+		<name>Kepler-730</name>
+		<temperature errorminus="67.4" errorplus="64.8">5726.0</temperature>
+		<mass errorminus="0.04" errorplus="0.05">1.00</mass>
+		<radius errorminus="0.09" errorplus="0.28">1.01</radius>
+		<metallicity errorminus="0.14" errorplus="0.14">0.07</metallicity>
+		<planet>
+			<name>Kepler-730 b</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.000001650" errorplus="0.000001650">6.491684260</period>
+			<radius errorminus="0.072" errorplus="0.227">0.822</radius>
+		</planet>
+	</star>
+</system>

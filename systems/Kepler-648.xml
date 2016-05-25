@@ -1,0 +1,24 @@
+<system>
+	<name>Kepler-648</name>
+	<rightascension>18 55 36</rightascension>
+	<declination>+45 01 01</declination>
+	<star>
+		<name>Kepler-648</name>
+		<temperature errorminus="51.6" errorplus="55.0">5741.0</temperature>
+		<mass errorminus="0.03" errorplus="0.03">1.05</mass>
+		<radius errorminus="0.03" errorplus="0.03">0.98</radius>
+		<metallicity errorminus="0.08" errorplus="0.07">0.21</metallicity>
+		<planet>
+			<name>Kepler-648 b</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.000020660" errorplus="0.000020660">17.421174900</period>
+			<radius errorminus="0.021" errorplus="0.011">0.287</radius>
+		</planet>
+	</star>
+</system>

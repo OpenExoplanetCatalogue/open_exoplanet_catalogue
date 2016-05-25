@@ -1,0 +1,36 @@
+<system>
+	<name>Kepler-755</name>
+	<rightascension>19 47 27</rightascension>
+	<declination>+41 05 50</declination>
+	<star>
+		<name>Kepler-755</name>
+		<temperature errorminus="83.5" errorplus="89.6">5043.0</temperature>
+		<mass errorminus="0.04" errorplus="0.03">0.82</mass>
+		<radius errorminus="0.02" errorplus="0.02">0.77</radius>
+		<metallicity errorminus="0.11" errorplus="0.10">-0.01</metallicity>
+		<planet>
+			<name>Kepler-755 b</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.000001000" errorplus="0.000001000">1.269090370</period>
+			<radius errorminus="0.028" errorplus="0.005">0.157</radius>
+		</planet>
+		<planet>
+			<name>Kepler-755 c</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.000004120" errorplus="0.000004120">2.853133640</period>
+			<radius errorminus="0.004" errorplus="0.004">0.112</radius>
+		</planet>
+	</star>
+</system>

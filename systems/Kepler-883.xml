@@ -1,0 +1,24 @@
+<system>
+	<name>Kepler-883</name>
+	<rightascension>19 05 44</rightascension>
+	<declination>+50 18 01</declination>
+	<star>
+		<name>Kepler-883</name>
+		<temperature errorminus="61.2" errorplus="64.7">6116.0</temperature>
+		<mass errorminus="0.05" errorplus="0.05">1.06</mass>
+		<radius errorminus="0.08" errorplus="0.10">1.09</radius>
+		<metallicity errorminus="0.11" errorplus="0.10">-0.13</metallicity>
+		<planet>
+			<name>Kepler-883 b</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.000034360" errorplus="0.000034360">12.984955730</period>
+			<radius errorminus="0.012" errorplus="0.015">0.159</radius>
+		</planet>
+	</star>
+</system>

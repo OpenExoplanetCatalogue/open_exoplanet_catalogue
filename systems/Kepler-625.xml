@@ -1,0 +1,36 @@
+<system>
+	<name>Kepler-625</name>
+	<rightascension>19 28 36</rightascension>
+	<declination>+39 38 15</declination>
+	<star>
+		<name>Kepler-625</name>
+		<temperature errorminus="43.9" errorplus="46.8">5789.0</temperature>
+		<mass errorminus="0.02" errorplus="0.02">1.04</mass>
+		<radius errorminus="0.02" errorplus="0.03">0.96</radius>
+		<metallicity errorminus="0.09" errorplus="0.09">0.10</metallicity>
+		<planet>
+			<name>Kepler-625 b</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.000010630" errorplus="0.000010630">7.751924920</period>
+			<radius errorminus="0.004" errorplus="0.005">0.178</radius>
+		</planet>
+		<planet>
+			<name>Kepler-625 c</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.000013040" errorplus="0.000013040">4.165365100</period>
+			<radius errorminus="0.003" errorplus="0.004">0.094</radius>
+		</planet>
+	</star>
+</system>

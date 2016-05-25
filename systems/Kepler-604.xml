@@ -1,0 +1,24 @@
+<system>
+	<name>Kepler-604</name>
+	<rightascension>19 29 16</rightascension>
+	<declination>+42 37 35</declination>
+	<star>
+		<name>Kepler-604</name>
+		<temperature errorminus="159.7" errorplus="174.4">5890.0</temperature>
+		<mass errorminus="0.07" errorplus="0.08">1.02</mass>
+		<radius errorminus="0.11" errorplus="0.19">1.03</radius>
+		<metallicity errorminus="0.18" errorplus="0.14">-0.02</metallicity>
+		<planet>
+			<name>Kepler-604 b</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.000094340" errorplus="0.000094340">25.855017860</period>
+			<radius errorminus="0.024" errorplus="0.044">0.231</radius>
+		</planet>
+	</star>
+</system>

@@ -1,0 +1,24 @@
+<system>
+	<name>Kepler-650</name>
+	<rightascension>19 16 00</rightascension>
+	<declination>+45 09 15</declination>
+	<star>
+		<name>Kepler-650</name>
+		<temperature errorminus="77.6" errorplus="64.9">5849.0</temperature>
+		<mass errorminus="0.05" errorplus="0.08">1.08</mass>
+		<radius errorminus="0.21" errorplus="0.23">1.35</radius>
+		<metallicity errorminus="0.08" errorplus="0.09">0.13</metallicity>
+		<planet>
+			<name>Kepler-650 b</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.000003310" errorplus="0.000003310">3.032145590</period>
+			<radius errorminus="0.040" errorplus="0.045">0.264</radius>
+		</planet>
+	</star>
+</system>

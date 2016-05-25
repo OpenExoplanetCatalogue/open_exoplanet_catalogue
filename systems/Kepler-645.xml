@@ -1,0 +1,24 @@
+<system>
+	<name>Kepler-645</name>
+	<rightascension>19 21 17</rightascension>
+	<declination>+44 02 09</declination>
+	<star>
+		<name>Kepler-645</name>
+		<temperature errorminus="162.1" errorplus="144.2">6170.0</temperature>
+		<mass errorminus="0.09" errorplus="0.14">1.13</mass>
+		<radius errorminus="0.16" errorplus="0.36">1.21</radius>
+		<metallicity errorminus="0.19" errorplus="0.13">-0.01</metallicity>
+		<planet>
+			<name>Kepler-645 b</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.000004770" errorplus="0.000004770">3.275822620</period>
+			<radius errorminus="0.025" errorplus="0.056">0.187</radius>
+		</planet>
+	</star>
+</system>

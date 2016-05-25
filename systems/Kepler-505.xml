@@ -1,0 +1,24 @@
+<system>
+	<name>Kepler-505</name>
+	<rightascension>19 11 26</rightascension>
+	<declination>+42 32 33</declination>
+	<star>
+		<name>Kepler-505</name>
+		<temperature errorminus="40.6" errorplus="48.3">3931.0</temperature>
+		<mass errorminus="0.02" errorplus="0.02">0.55</mass>
+		<radius errorminus="0.02" errorplus="0.02">0.53</radius>
+		<metallicity errorminus="0.08" errorplus="0.09">-0.19</metallicity>
+		<planet>
+			<name>Kepler-505 b</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.000032950" errorplus="0.000032950">27.521979940</period>
+			<radius errorminus="0.008" errorplus="0.010">0.232</radius>
+		</planet>
+	</star>
+</system>
