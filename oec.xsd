@@ -50,6 +50,7 @@
 				<xs:element name="age" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="discoverymethod" type="discoverymethodtype" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="istransiting" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="new" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="description" type="xs:string" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="discoveryyear" type="year" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="lastupdate" type="lastupdatedef" minOccurs="0" maxOccurs="1"/>
