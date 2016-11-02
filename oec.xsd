@@ -170,7 +170,7 @@
 	<!-- Right Ascension Definition -->
 	<xs:simpleType name="rightascensiondef">
 		<xs:restriction base="xs:string">
-			<xs:pattern value="[0-2]\d [0-5]\d [0-5]\d(\.\d+)?"/>
+			<xs:pattern value="[0-2]\d [0-5]\d ([0-5]\d(\.\d+)?|60)"/>
 		</xs:restriction>
 	</xs:simpleType>
 	<!-- Declination Definition -->
