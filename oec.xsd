@@ -176,7 +176,7 @@
 	<!-- Declination Definition -->
 	<xs:simpleType name="declinationdef">
 		<xs:restriction base="xs:string">
-			<xs:pattern value="(\+|\-)(\d{2} [0-5]\d [0-5]\d)(\.\d+)?"/>
+			<xs:pattern value="(\+|\-)\d{2} [0-5]\d ([0-5]\d(\.\d+)?|60)"/>
 		</xs:restriction>
 	</xs:simpleType>
 	<!-- DateTime -->
