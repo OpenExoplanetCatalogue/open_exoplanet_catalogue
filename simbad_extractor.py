@@ -83,7 +83,7 @@ def magnitude(dic, filename, path):
                     elt_index = read_file.index("<star>")
                     elt_len = len("<star>")
             except ValueError: # ie free floating planet (no star or parent)
-                print '{} failed (no parent object tag'.format(filename)
+                print '{} failed (no parent object tag)'.format(filename)
                 return False
 
 
@@ -196,14 +196,13 @@ def spectralType(spectre, filename, path):
 #the list is in correct format and won't bring any troubles.
 #However, as it is a copy/paste of the script, it should work.
 def generateList(path):
-    planet_list = open("list.txt", "w")
-    for filename in glob.glob(path+"/*.xml"):
-        # Open file
-        name = os.path.split(filename)
-        name = name[1]
-        name = name.replace(".xml","")
-        planet_list.write(name+"\n")
-    planet_list.close()
+    with open("list.txt", "w") as planet_list:
+        for filename in glob.glob(path+"/*.xml"):
+            # Open file
+            name = os.path.split(filename)
+            name = name[1]
+            name = name.replace(".xml","")
+            planet_list.write(name+"\n")
 
 
 
@@ -229,13 +228,13 @@ for elt in line:#read all the list of systems and run the parser class and the m
     try:
         code_source = urllib.urlopen('http://simbad.u-strasbg.fr/simbad/sim-basic?Ident='+planet).read()
     except IOError:
-        print('Lookup failed - sleeping for 10 seconds')
+        print 'Lookup failed - sleeping for 10 seconds'
         time.sleep(10)
 
         try:
             code_source = urllib.urlopen('http://simbad.u-strasbg.fr/simbad/sim-basic?Ident='+planet).read()
         except IOError:
-            print('Lookup failed again for {} - skipping'.format(planet))
+            print 'Lookup failed again for {} - skipping'.format(planet)
             log.write('Lookup failed for {}'.format(planet))
 
     #First check its existence on simbad
