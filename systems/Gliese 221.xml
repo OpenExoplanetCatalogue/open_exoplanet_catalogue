@@ -1,11 +1,11 @@
 <system>
 	<name>Gliese 221</name>
 	<name>GJ 221</name>
-	<name>BD-061339</name>
+	<name>BD-06 1339</name>
 	<name>HIP 27803</name>
-	<rightascension>05 53 00</rightascension>
-	<declination>-05 59 41</declination>
-	<distance errorminus="1" errorplus="1">20</distance>
+	<rightascension>05 53 00.28460</rightascension>
+	<declination>-05 59 41.4364</declination>
+	<distance errorminus="0.68" errorplus="0.68">20.31</distance>
 	<star>
 		<magB>11.041</magB>
 		<magV>9.693</magV>
@@ -16,8 +16,10 @@
 		<magK errorminus="0.018" errorplus="0.018">6.305</magK>
 		<name>Gliese 221</name>
 		<name>GJ 221</name>
-		<name>BD-061339</name>
+		<name>BD-06 1339</name>
 		<name>HIP 27803</name>
+		<name>TYC 4781-406-1</name>
+		<name>2MASS J05530028-0559410</name>
 		<mass errorminus="0.032" errorplus="0.032">0.637</mass>
 		<temperature errorminus="50" errorplus="50">4040</temperature>
 		<metallicity errorminus="0.10" errorplus="0.10">-0.07</metallicity>
@@ -26,34 +28,51 @@
 		<planet>
 			<name>Gliese 221 b</name>
 			<name>GJ 221 b</name>
-			<name>BD-061339 b</name>
+			<name>BD-06 1339 b</name>
 			<name>HIP 27803 b</name>
 			<list>Confirmed planets</list>
-			<mass errorminus="0.0118" errorplus="0.0118">0.13</mass>
-			<period errorminus="1.1" errorplus="1.1">125.06</period>
-			<semimajoraxis errorminus="0.0039" errorplus="0.0039">0.448</semimajoraxis>
-			<eccentricity upperlimit="0.24" />
-			<periastron errorminus="44" errorplus="44">118</periastron>
-			<longitude errorminus="17.5" errorplus="17.5">131</longitude>
+			<mass errorminus="0.0079" errorplus="0.0072" type="msini">0.0198</mass>
+			<period errorminus="0.0009" errorplus="0.0010">3.8730</period>
+			<semimajoraxis errorminus="0.0020" errorplus="0.0021">0.0415</semimajoraxis>
+			<eccentricity errorminus="0.03" errorplus="0.24">0.03</eccentricity>
+			<periastron>17</periastron>
+			<meananomaly>344</meananomaly>
 			<description>The planets orbiting the K7 star GJ 221 were discovered using publicly available HARPS data. The dataset was complemented with high precision Doppler measurements from Magellan/PFS. The system hosts at least two planets, one hot Super-Earth and one sub-Saturn mass planet.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>13/05/13</lastupdate>
+			<lastupdate>16/03/10</lastupdate>
 			<discoveryyear>2013</discoveryyear>
 		</planet>
 		<planet>
 			<name>Gliese 221 c</name>
 			<name>GJ 221 c</name>
-			<name>BD-061339 c</name>
+			<name>BD-06 1339 c</name>
 			<name>HIP 27803 c</name>
 			<list>Confirmed planets</list>
-			<mass errorminus="0.00541" errorplus="0.00541">0.0196</mass>
-			<period errorminus="0.00066" errorplus="0.00066">3.8731</period>
-			<semimajoraxis>0.044</semimajoraxis>
-			<eccentricity upperlimit="0.48" />
-			<periastron>94</periastron>
+			<mass errorminus="0.035" errorplus="0.035" type="msini">0.151</mass>
+			<period errorminus="0.7" errorplus="0.5">125.2</period>
+			<semimajoraxis errorminus="0.020" errorplus="0.022">0.421</semimajoraxis>
+			<eccentricity errorminus="0.10" errorplus="0.15">0.10</eccentricity>
+			<periastron>149</periastron>
+			<meananomaly>92</meananomaly>
 			<description>The planets orbiting the K7 star GJ 221 were discovered using publicly available HARPS data. The dataset was complemented with high precision Doppler measurements from Magellan/PFS. The system hosts at least two planets, one hot Super-Earth and one sub-Saturn mass planet.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>13/05/13</lastupdate>
+			<lastupdate>16/03/10</lastupdate>
+			<discoveryyear>2013</discoveryyear>
+		</planet>
+		<planet>
+			<name>Gliese 221 d</name>
+			<name>GJ 221 d</name>
+			<name>BD-06 1339 d</name>
+			<name>HIP 27803 d</name>
+			<list>Confirmed planets</list>
+			<period errorminus="26" errorplus="32">500</period>
+			<eccentricity errorminus="0.04" errorplus="0.25">0.04</eccentricity>
+			<periastron>275</periastron>
+			<meananomaly>321</meananomaly>
+			<mass errorminus="0.0629" errorplus="0.0566" type="msini">0.0912</mass>
+			<description>Gliese 221 d was detected by Bayesian analysis of the published velocities for the star Gliese 221. It is a cold planet with a mass less than that of Saturn.</description>
+			<discoverymethod>RV</discoverymethod>
+			<lastupdate>16/03/10</lastupdate>
 			<discoveryyear>2013</discoveryyear>
 		</planet>
 	</star>
