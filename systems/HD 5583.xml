@@ -1,0 +1,38 @@
+<system>
+	<name>HD 5583</name>
+	<rightascension>00 57 56.7142</rightascension>
+	<declination>+34 59 07.867</declination>
+	<distance errorminus="14" errorplus="14">221</distance>
+	<star>
+		<name>HD 5583</name>
+		<name>TYC 2285-548-1</name>
+		<name>SAO 54296</name>
+		<name>BD+34 154</name>
+		<name>2MASS J00575670+3459080</name>
+		<magB errorminus="0.02" errorplus="0.02">8.54</magB>
+		<magV errorminus="0.01" errorplus="0.01">7.60</magV>
+		<magJ errorminus="0.024" errorplus="0.024">5.813</magJ>
+		<magH errorminus="0.027" errorplus="0.027">5.340</magH>
+		<magK errorminus="0.020" errorplus="0.020">5.221</magK>
+		<temperature errorminus="45" errorplus="45">4830</temperature>
+		<metallicity errorminus="0.18" errorplus="0.18">-0.50</metallicity>
+		<mass errorminus="0.1" errorplus="0.1">1.01</mass>
+		<radius errorminus="1.5" errorplus="1.5">9.09</radius>
+		<age errorminus="2" errorplus="3">7</age>
+		<spectraltype>K0</spectraltype>
+		<planet>
+			<name>HD 5583 b</name>
+			<period errorminus="0.22" errorplus="0.21">139.35</period>
+			<periastrontime errorminus="17" errorplus="18">2456021</periastrontime>
+			<eccentricity errorminus="0.023" errorplus="0.070">0.076</eccentricity>
+			<periastron errorminus="6" errorplus="330">12</periastron>
+			<mass errorminus="0.53" errorplus="0.53" type="msini">5.78</mass>
+			<semimajoraxis errorminus="0.02" errorplus="0.02">0.53</semimajoraxis>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<description>HD 5583 b is a giant planet in a close orbit around a low-metallicity K-giant star.</description>
+			<lastupdate>16/03/18</lastupdate>
+			<list>Confirmed planets</list>
+		</planet>
+	</star>
+</system>
