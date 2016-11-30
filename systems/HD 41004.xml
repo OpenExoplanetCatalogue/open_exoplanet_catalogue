@@ -2,6 +2,10 @@
 	<name>HD 41004</name>
 	<rightascension>05 59 50</rightascension>
 	<declination>-48 14 23</declination>
+	<!--Exoplanet.eu Catalogue-->
+	<declination>-48 14 21.9998</declination>
+	<!--NASA Catalogue-->
+	<declination>-48 14 22.9</declination>
 	<distance>43.03</distance>
 	<binary>
 		<semimajoraxis>21.51</semimajoraxis>
@@ -16,6 +20,8 @@
 			<magK errorminus="0.04" errorplus="0.04">6.43</magK>
 			<metallicity>-0.09</metallicity>
 			<spectraltype>M2</spectraltype>
+			<!--Exoplanet.eu Catalogue-->
+			<spectraltype>K1 V</spectraltype>
 			<planet>
 				<name>HD 41004 A b</name>
 				<list>Confirmed planets</list>

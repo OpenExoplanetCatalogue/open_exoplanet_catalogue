@@ -12,6 +12,8 @@
 		<magK>8.370</magK>
 		<temperature errorminus="75" errorplus="75">5669</temperature>
 		<magV errorminus="0.03" errorplus="0.03">10.00</magV>
+		<!--NASA Catalogue-->
+		<magV>9.931</magV>
 		<magB errorminus="0.04" errorplus="0.04">10.73</magB>
 		<magJ errorminus="0.019" errorplus="0.019">8.771</magJ>
 		<magH errorminus="0.017" errorplus="0.017">8.446</magH>
@@ -30,6 +32,10 @@
 			<eccentricity>0</eccentricity>
 			<semimajoraxis errorminus="0.002" errorplus="0.002">0.053</semimajoraxis>
 			<inclination errorminus="0.044" errorplus="0.044">0.1765</inclination>
+			<!--Exoplanet.eu Catalogue-->
+			<inclination errorminus="0.51" errorplus="1.1">89.49</inclination>
+			<!--NASA Catalogue-->
+			<inclination errorminus="0.044" errorplus="0.044">89.183</inclination>
 			<list>Confirmed planets</list>
 			<description>This planet has been discovered by the Kepler spacecraft. It was confirmed using a combination of high resolution imaging and spectroscopy and Doppler spectroscopy. This analysis pushes the false probability below 1 percent and puts contraints on the planet's size and mass.</description>
 			<discoveryyear>2014</discoveryyear>
@@ -42,13 +48,13 @@
 			<name>KOI-69.10</name>
 			<name>KOI-69 c</name>
 			<name>KIC 3544595 c</name>
-			<period lowerlimit="3700" />
-			<mass lowerlimit="8.5" upperlimit="670" />
-			<semimajoraxis lowerlimit="4.5" />
+			<period lowerlimit="3700"/>
+			<mass lowerlimit="8.5" upperlimit="670"/>
+			<semimajoraxis lowerlimit="4.5"/>
 			<list>Controversial</list>
 			<description>The second companion to Kepler-93 is detected as a linear trend in the system's radial velocity measurements. Constraints from imaging and radial velocity imply that its mass may be between 8.5 Jupiter masses and 0.64 solar masses, leaving the nature of the object unclear.</description>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>15/01/06</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoverymethod>RV</discoverymethod>
 		</planet>
 	</star>

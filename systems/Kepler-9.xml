@@ -2,6 +2,10 @@
 	<name>Kepler-9</name>
 	<rightascension>19 02 17</rightascension>
 	<declination>+38 24 03</declination>
+	<!--Exoplanet.eu Catalogue-->
+	<declination>+38 24 02.9999</declination>
+	<!--NASA Catalogue-->
+	<declination>+38 24 03.2</declination>
 	<distance>650</distance>
 	<star>
 		<name>Kepler-9</name>
@@ -52,7 +56,7 @@
 			<eccentricity errorminus="0.0002" errorplus="0.0002">0.0684</eccentricity>
 			<transittime errorminus="0.00074" errorplus="0.00074" unit="BJD">2455164.18301</transittime>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>15/12/03</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoveryyear>2010</discoveryyear>
 			<temperature>557.9</temperature>
 			<istransiting>1</istransiting>
@@ -65,12 +69,22 @@
 			<name>KOI-377 d</name>
 			<list>Confirmed planets</list>
 			<mass>0.022</mass>
+			<!--Exoplanet.eu Catalogue-->
+			<mass errorminus="0.00550608816034" errorplus="0.00550608816034">0.016518264481</mass>
 			<radius>0.147</radius>
+			<!--Exoplanet.eu Catalogue-->
+			<radius errorplus="0.00446070918139" errorminus="0.00446070918139">0.178428367256</radius>
+			<!--NASA Catalogue-->
+			<radius errorplus="0.017" errorminus="0.012">0.146</radius>
 			<period errorminus="0.000045" errorplus="0.000045">1.592851</period>
 			<semimajoraxis errorminus="0.0001" errorplus="0.0001">0.0271</semimajoraxis>
+			<!--Exoplanet.eu Catalogue-->
+			<semimajoraxis errorminus="0.00043" errorplus="0.00042">0.0273</semimajoraxis>
+			<!--NASA Catalogue-->
+			<semimajoraxis errorminus="0.00043" errorplus="0.00042">0.0273</semimajoraxis>
 			<transittime errorminus="0.0033" errorplus="0.0018" unit="BJD">2455015.0943</transittime>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>14/03/10</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoveryyear>2010</discoveryyear>
 			<temperature>1601.5</temperature>
 			<istransiting>1</istransiting>

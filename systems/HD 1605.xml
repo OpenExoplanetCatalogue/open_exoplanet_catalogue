@@ -1,6 +1,10 @@
 <system>
 	<name>HD 1605</name>
 	<rightascension>00 20 31.51872</rightascension>
+	<!--Exoplanet.eu Catalogue-->
+	<rightascension>00 20 32</rightascension>
+	<!--NASA Catalogue-->
+	<rightascension>00 20 31.52</rightascension>
 	<declination>+30 58 29.2948</declination>
 	<distance>84.6</distance>
 	<star>
@@ -13,6 +17,8 @@
 		<magK errorminus="0.020" errorplus="0.020">5.272</magK>
 		<metallicity errorminus="0.05" errorplus="0.05">0.21</metallicity>
 		<spectraltype>K1IV</spectraltype>
+		<!--Exoplanet.eu Catalogue-->
+		<spectraltype>K1 IV</spectraltype>
 		<age errorminus="1.37" errorplus="1.37">4.59</age>
 		<planet>
 			<name>HD 1605 b</name>
@@ -47,7 +53,7 @@
 			<eccentricity errorminus="0.022" errorplus="0.032">0.098</eccentricity>
 			<description>This planet was detected from a radial velocity (RV) survey of metal-rich FGK stars by using three telescopes.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>15/03/26</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoveryyear>2015</discoveryyear>
 		</planet>
 		<name>HD 1605</name>

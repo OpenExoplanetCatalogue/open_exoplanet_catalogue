@@ -1,7 +1,15 @@
 <system>
 	<name>HD 8673</name>
 	<rightascension>01 26 08</rightascension>
+	<!--Exoplanet.eu Catalogue-->
+	<rightascension>01 26 07</rightascension>
+	<!--NASA Catalogue-->
+	<rightascension>01 26 08.78</rightascension>
 	<declination>+34 34 46</declination>
+	<!--Exoplanet.eu Catalogue-->
+	<declination>+34 34 45.9998</declination>
+	<!--NASA Catalogue-->
+	<declination>+34 34 46.9</declination>
 	<distance errorminus="0.5" errorplus="0.5">36.1</distance>
 	<binary>
 		<name>HD 8673</name>
@@ -38,8 +46,8 @@
 		</star>
 		<star>
 			<name>HD 8673 B</name>
-			<temperature lowerlimit="3520" upperlimit="3690" />
-			<mass lowerlimit="0.33" upperlimit="0.45" />
+			<temperature lowerlimit="3520" upperlimit="3690"/>
+			<mass lowerlimit="0.33" upperlimit="0.45"/>
 			<magJ>10.00</magJ>
 			<magH>9.42</magH>
 			<magK>9.29</magK>

@@ -1,6 +1,8 @@
 <system>
 	<name>XO-5</name>
 	<rightascension>07 46 52</rightascension>
+	<!--NASA Catalogue-->
+	<rightascension>07 46 51.97</rightascension>
 	<declination>+39 05 41</declination>
 	<distance>255</distance>
 	<star>
@@ -24,6 +26,8 @@
 			<eccentricity>0.0</eccentricity>
 			<inclination>86.8</inclination>
 			<transittime errorminus="0.00028" errorplus="0.00028" unit="BJD">2454485.6842</transittime>
+			<!--Exoplanet.eu Catalogue-->
+			<transittime errorminus="0.00028" errorplus="0.00028">2454485.6642</transittime>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>11/03/07</lastupdate>
 			<discoveryyear>2008</discoveryyear>

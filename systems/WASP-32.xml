@@ -1,6 +1,8 @@
 <system>
 	<name>WASP-32</name>
 	<rightascension>00 15 51</rightascension>
+	<!--NASA Catalogue-->
+	<rightascension>00 15 50.80</rightascension>
 	<declination>+01 12 02</declination>
 	<star>
 		<mass errorminus="0.03" errorplus="0.03">1.1</mass>
@@ -28,6 +30,8 @@
 			<spinorbitalignment>10.5</spinorbitalignment>
 			<inclination errorminus="0.5" errorplus="0.5">85.3</inclination>
 			<transittime errorminus="0.0005" errorplus="0.0005" unit="BJD">2455151.0553</transittime>
+			<!--Exoplanet.eu Catalogue-->
+			<transittime errorminus="0.0005" errorplus="0.0005">2455151.054</transittime>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>14/03/20</lastupdate>
 			<discoveryyear>2010</discoveryyear>

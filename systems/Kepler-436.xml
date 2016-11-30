@@ -1,6 +1,8 @@
 <system>
 	<name>Kepler-436</name>
 	<rightascension>20 06 52.98</rightascension>
+	<!--Exoplanet.eu Catalogue-->
+	<rightascension>20 06 53</rightascension>
 	<declination>+44 24 43.4</declination>
 	<distance errorminus="30" errorplus="34">618</distance>
 	<star>
@@ -27,7 +29,7 @@
 			<transittime errorminus="0.0049" errorplus="0.0042" unit="BJD">2455477.6307</transittime>
 			<semimajoraxis errorminus="0.053" errorplus="0.134">0.339</semimajoraxis>
 			<inclination errorminus="0.18" errorplus="0.07">89.93</inclination>
-			<eccentricity lowerlimit="0.19" />
+			<eccentricity lowerlimit="0.19"/>
 			<description>This planet has been discovered by the Kepler spacecraft. The results were announced at the AAS meeting in 2015.</description>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
@@ -40,7 +42,7 @@
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>

@@ -12,6 +12,8 @@
 		<magH errorminus="0.029" errorplus="0.029">6.407</magH>
 		<magK errorminus="0.031" errorplus="0.031">6.326</magK>
 		<mass>1.01</mass>
+		<!--NASA Catalogue-->
+		<mass errorplus="0.03" errorminus="0.03">1.04</mass>
 		<age>3.5</age>
 		<radius>1.07</radius>
 		<metallicity>0.00</metallicity>
@@ -31,5 +33,7 @@
 		</planet>
 		<name>HD 220689</name>
 		<temperature>5940.0</temperature>
+		<!--NASA Catalogue-->
+		<temperature errorminus="26.0" errorplus="26.0">5921.0</temperature>
 	</star>
 </system>

@@ -1,6 +1,10 @@
 <system>
 	<name>KELT-15</name>
 	<rightascension>07 49 39.601</rightascension>
+	<!--Exoplanet.eu Catalogue-->
+	<rightascension>07 49 40</rightascension>
+	<!--NASA Catalogue-->
+	<rightascension>07 49 39.61</rightascension>
 	<declination>-52 07 13.55</declination>
 	<distance errorminus="30" errorplus="30">291</distance>
 	<star>
@@ -26,6 +30,8 @@
 			<mass errorminus="0.22" errorplus="0.21">0.91</mass>
 			<period errorminus="0.000016" errorplus="0.000016">3.329441</period>
 			<transittime errorminus="0.0073" errorplus="0.0078" unit="BJD">2457029.1663</transittime>
+			<!--Exoplanet.eu Catalogue-->
+			<transittime errorminus="0.00047" errorplus="0.00047">2457091.02863</transittime>
 			<semimajoraxis errorminus="0.00065" errorplus="0.00065">0.04613</semimajoraxis>
 			<temperature errorminus="25" errorplus="45">1642</temperature>
 			<description>KELT-15 b was discovered by the KELT-South survey.</description>

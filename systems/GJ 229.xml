@@ -2,6 +2,8 @@
 	<name>GJ 229</name>
 	<rightascension>06 10 34.61533</rightascension>
 	<declination>-21 51 52.7117</declination>
+	<!--Exoplanet.eu Catalogue-->
+	<declination>-20 08 07.2882</declination>
 	<distance errorminus="0.03" errorplus="0.03">5.75</distance>
 	<binary>
 		<name>GJ 229</name>
@@ -33,6 +35,8 @@
 			<magH errorminus="0.254" errorplus="0.254">4.393</magH>
 			<magK errorminus="0.232" errorplus="0.232">4.166</magK>
 			<spectraltype>M1/M2 V</spectraltype>
+			<!--Exoplanet.eu Catalogue-->
+			<spectraltype>M1/M2V</spectraltype>
 			<mass>0.58</mass>
 			<temperature>3564</temperature>
 			<planet>
@@ -62,7 +66,7 @@
 			<magH errorminus="0.05" errorplus="0.05">14.36</magH>
 			<magK errorminus="0.05" errorplus="0.05">14.36</magK>
 			<spectraltype>T6</spectraltype>
-			<mass lowerlimit="0.04" upperlimit="0.055" />
+			<mass lowerlimit="0.04" upperlimit="0.055"/>
 			<temperature>1000</temperature>
 		</star>
 	</binary>

@@ -3,6 +3,10 @@
 	<name>55 Cnc</name>
 	<rightascension>08 52 35.81093</rightascension>
 	<declination>+28 19 50.9511</declination>
+	<!--Exoplanet.eu Catalogue-->
+	<declination>+28 20 02</declination>
+	<!--NASA Catalogue-->
+	<declination>+28 19 50.9</declination>
 	<distance errorminus="0.11" errorplus="0.11">12.34</distance>
 	<binary>
 		<name>55 Cancri</name>
@@ -49,6 +53,8 @@
 			<temperature errorminus="26" errorplus="26">5219</temperature>
 			<metallicity errorminus="0.1" errorplus="0.1">0.3</metallicity>
 			<spectraltype>K0V</spectraltype>
+			<!--Exoplanet.eu Catalogue-->
+			<spectraltype>K0IV-V</spectraltype>
 			<planet>
 				<name>55 Cnc b</name>
 				<name>rho01 Cnc b</name>
@@ -87,7 +93,7 @@
 				<longitude errorminus="2.0" errorplus="2.0">228.4</longitude>
 				<description>55 Cancri is a binary system in the constellation Cancer. 55 Cnc b and c are in a near 1:3 resonance. A dynamical analysis shows that the system has to be almost coplanar in order to be stable for the age the system.</description>
 				<discoverymethod>RV</discoverymethod>
-				<lastupdate>15/01/26</lastupdate>
+				<lastupdate>16/11/30</lastupdate>
 				<discoveryyear>2002</discoveryyear>
 				<list>Planets in binary systems, S-type</list>
 			</planet>
@@ -105,10 +111,12 @@
 				<semimajoraxis errorminus="0.30" errorplus="0.30">5.503</semimajoraxis>
 				<eccentricity errorminus="0.013" errorplus="0.013">0.019</eccentricity>
 				<periastron errorminus="31" errorplus="31">44</periastron>
+				<!--Exoplanet.eu Catalogue-->
+				<periastron errorminus="32.0" errorplus="32.0">181.3</periastron>
 				<longitude errorminus="0.81" errorplus="0.81">291.78</longitude>
 				<description>55 Cancri is a binary system in the constellation Cancer. 55 Cnc b and c are in a near 1:3 resonance. A dynamical analysis shows that the system has to be almost coplanar in order to be stable for the age the system.</description>
 				<discoverymethod>RV</discoverymethod>
-				<lastupdate>15/01/26</lastupdate>
+				<lastupdate>16/11/30</lastupdate>
 				<discoveryyear>2002</discoveryyear>
 				<list>Planets in binary systems, S-type</list>
 			</planet>
@@ -124,17 +132,31 @@
 				<mass errorminus="0.00098" errorplus="0.00098">0.0254</mass>
 				<radius errorminus="0.0073" errorplus="0.0073">0.1746</radius>
 				<period errorminus="0.0000015" errorplus="0.0000015">0.7365515</period>
+				<!--Exoplanet.eu Catalogue-->
+				<period>0.7365417</period>
+				<!--NASA Catalogue-->
+				<period errorminus="7e-06" errorplus="7e-06">0.736539</period>
 				<semimajoraxis errorminus="0.000000021" errorplus="0.000000021">0.015690907</semimajoraxis>
+				<!--Exoplanet.eu Catalogue-->
+				<semimajoraxis errorminus="0.00011" errorplus="0.00011">0.0156</semimajoraxis>
+				<!--NASA Catalogue-->
+				<semimajoraxis errorminus="9e-05" errorplus="9e-05">0.01544</semimajoraxis>
 				<eccentricity errorminus="0.027" errorplus="0.027">0.040</eccentricity>
 				<inclination>90</inclination>
+				<!--Exoplanet.eu Catalogue-->
+				<inclination errorminus="2.8" errorplus="2.1">85.4</inclination>
+				<!--NASA Catalogue-->
+				<inclination errorminus="0.8" errorplus="0.9">83.3</inclination>
 				<periastron errorminus="42" errorplus="42">72</periastron>
+				<!--Exoplanet.eu Catalogue-->
+				<periastron errorminus="130.0" errorplus="130.0">170.0</periastron>
 				<longitude errorminus="1.6" errorplus="1.6">134.3</longitude>
 				<description>55 Cancri e is a super-Earth which appears to exhibit extreme variations in brightness temperature. The cause of these variations is unknown but may be due to large-scale volcanic activity on the planet. The latest estimates of the planetary radius are compatible with a rocky composition, but a thick water envelope or a carbon-rich composition cannot be ruled out.</description>
 				<discoverymethod>transit</discoverymethod>
-				<lastupdate>15/06/08</lastupdate>
+				<lastupdate>16/11/30</lastupdate>
 				<discoveryyear>2004</discoveryyear>
 				<list>Planets in binary systems, S-type</list>
-				<temperature lowerlimit="1328" upperlimit="3016" />
+				<temperature lowerlimit="1328" upperlimit="3016"/>
 				<transittime errorminus="0.0018" errorplus="0.0017" unit="BJD">2455962.0697</transittime>
 				<istransiting>1</istransiting>
 			</planet>
@@ -152,10 +174,12 @@
 				<semimajoraxis errorminus="0.0010" errorplus="0.0010">0.7880</semimajoraxis>
 				<eccentricity errorminus="0.075" errorplus="0.075">0.305</eccentricity>
 				<periastron errorminus="15" errorplus="15">166</periastron>
+				<!--Exoplanet.eu Catalogue-->
+				<periastron errorminus="60.0" errorplus="60.0">205.0</periastron>
 				<longitude errorminus="5.1" errorplus="5.1">185.6</longitude>
 				<description>55 Cancri is a binary system in the constellation Cancer. 55 Cnc b and c are in a near 1:3 resonance. A dynamical analysis shows that the system has to be almost coplanar in order to be stable for the age the system.</description>
 				<discoverymethod>RV</discoverymethod>
-				<lastupdate>11/06/07</lastupdate>
+				<lastupdate>16/11/30</lastupdate>
 				<discoveryyear>2007</discoveryyear>
 				<list>Planets in binary systems, S-type</list>
 			</planet>

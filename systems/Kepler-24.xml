@@ -5,6 +5,8 @@
 	<rightascension>19 21 39</rightascension>
 	<declination>+38 20 37</declination>
 	<distance>1462.04</distance>
+	<!--NASA Catalogue-->
+	<distance>1200.0</distance>
 	<star>
 		<magJ errorminus="0.023" errorplus="0.023">13.763</magJ>
 		<magH errorminus="0.03" errorplus="0.03">13.45</magH>
@@ -21,8 +23,8 @@
 			<name>KOI-1102.01</name>
 			<name>KIC 3231341 c</name>
 			<name>KIC 3231341.01</name>
-			<radius errorminus="0.02461" errorplus="0.48026">0.36179</radius>
-			<period errorminus=".000119" errorplus="0.000119">12.333360</period>
+			<radius errorminus="0.02461" errorplus="0.48026">0.25</radius>
+			<period errorminus=".000119" errorplus="0.000119">12.3335</period>
 			<transittime errorminus="0.0054000" errorplus="0.0054000">2454970.5887800</transittime>
 			<list>Confirmed planets</list>
 			<description>Kepler-24 c has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-24 c are still unknown, the object is highly unlikely to be a false positive.</description>
@@ -38,12 +40,20 @@
 			<name>KIC 3231341 b</name>
 			<name>KIC 3231341.02</name>
 			<radius errorminus="0.07746" errorplus="0.07746">0.31258</radius>
-			<period errorminus=".000059" errorplus="0.000059">8.145207</period>
+			<!--Exoplanet.eu Catalogue-->
+			<radius>0.21</radius>
+			<!--NASA Catalogue-->
+			<radius>0.214</radius>
+			<period errorminus=".000059" errorplus="0.000059">8.1453</period>
 			<transittime errorminus="0.0042500" errorplus="0.0042500">2454973.5633000</transittime>
+			<!--Exoplanet.eu Catalogue-->
+			<transittime>2454973.5689</transittime>
 			<list>Confirmed planets</list>
 			<description>Kepler-24 b has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-24 b are still unknown, the object is highly unlikely to be a false positive.</description>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/02/26</lastupdate>
+			<!--Exoplanet.eu Catalogue-->
+			<discoveryyear>2012</discoveryyear>
+			<lastupdate>16/11/30</lastupdate>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
 		</planet>
@@ -59,7 +69,7 @@
 			<list>Confirmed planets</list>
 			<description>Kepler-24 e has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-24 e are still unknown, the object is highly unlikely to be a false positive.</description>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/02/26</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
 		</planet>
@@ -75,7 +85,7 @@
 			<list>Confirmed planets</list>
 			<description>Kepler-24 d has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-24 d are still unknown, the object is highly unlikely to be a false positive.</description>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/02/26</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
 		</planet>

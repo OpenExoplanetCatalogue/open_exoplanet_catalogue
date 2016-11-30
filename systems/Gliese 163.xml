@@ -2,6 +2,10 @@
 	<name>Gliese 163</name>
 	<rightascension>04 09 15.66350</rightascension>
 	<declination>-53 22 23.3050</declination>
+	<!--Exoplanet.eu Catalogue-->
+	<declination>-53 22 24.96</declination>
+	<!--NASA Catalogue-->
+	<declination>-53 22 25.3</declination>
 	<distance errorminus="0.4" errorplus="0.4">15.0</distance>
 	<star>
 		<name>Gliese 163</name>
@@ -20,6 +24,8 @@
 		<magK errorminus="0.021" errorplus="0.021">7.135</magK>
 		<age errorminus="4.5" errorplus="4.5">5.5</age>
 		<spectraltype>M3.5V</spectraltype>
+		<!--Exoplanet.eu Catalogue-->
+		<spectraltype>M3.5</spectraltype>
 		<planet>
 			<name>Gliese 163 b</name>
 			<name>GJ 163 b</name>
@@ -34,7 +40,7 @@
 			<longitude errorminus="15.699044" errorplus="15.699044">6.359832</longitude>
 			<description>The HARPS team announced the discovery of a planetary system around the star Gliese 163 at this year's IAU conference. The outer planet lies within the habitable zone.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>16/02/03</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 		</planet>
 		<planet>
@@ -52,7 +58,7 @@
 			<longitude errorminus="30.022988" errorplus="30.022988">24.522594</longitude>
 			<description>The HARPS team announced the discovery of a planetary system around the star Gliese 163 at this year's IAU conference. Gliese 163 c lies within the habitable zone for a wide range of albedo values and has an equilibrium temperature of 60C (140F).</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>16/02/03</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<image>Gliese163c</image>
 			<imagedescription>Artist's impression of the exoplanet Gliese 163 showing a thick water vapour atmosphere.
@@ -66,12 +72,16 @@ Credit: Joe Gallagher.</imagedescription>
 			<name>LHS 188 d</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.009123" errorplus="0.009123" type="msini">0.092484</mass>
+			<!--Exoplanet.eu Catalogue-->
+			<mass errorminus="0.0092" errorplus="0.0092">0.06945</mass>
+			<!--NASA Catalogue-->
+			<mass>0.079</mass>
 			<eccentricity errorminus="0.077" errorplus="0.077">0.373</eccentricity>
 			<periastron errorminus="20.454593" errorplus="20.454593">118.258489</periastron>
 			<longitude errorminus="17.246030" errorplus="17.246030">144.958322</longitude>
 			<semimajoraxis errorminus="0.0086" errorplus="0.0086">1.0304</semimajoraxis>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>16/02/03</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoveryyear>2013</discoveryyear>
 			<description>The HARPS team announced the discovery of the third planet arounf the M dwarf GJ 163 in a paper posted on June 4th 2013. The systems contains further periodic signals which could me caused by additional planets. However, more data is required to confirm the planetary nature of the signal.</description>
 		</planet>

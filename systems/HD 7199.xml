@@ -1,6 +1,10 @@
 <system>
 	<name>HD 7199</name>
 	<rightascension>01 10 47</rightascension>
+	<!--Exoplanet.eu Catalogue-->
+	<rightascension>01 10 46</rightascension>
+	<!--NASA Catalogue-->
+	<rightascension>01 10 47.22</rightascension>
 	<declination>-66 11 17</declination>
 	<distance>36</distance>
 	<star>
@@ -13,6 +17,8 @@
 		<magK errorminus="0.018" errorplus="0.018">6.229</magK>
 		<metallicity>0.28</metallicity>
 		<spectraltype>K0IV/V</spectraltype>
+		<!--Exoplanet.eu Catalogue-->
+		<spectraltype>KOIV/V</spectraltype>
 		<planet>
 			<name>HD 7199 b</name>
 			<list>Confirmed planets</list>

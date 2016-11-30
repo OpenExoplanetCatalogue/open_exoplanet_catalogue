@@ -2,6 +2,8 @@
 	<name>KOI-4427</name>
 	<rightascension>19 40 28.13</rightascension>
 	<declination>+39 16 26.7</declination>
+	<!--Exoplanet.eu Catalogue-->
+	<declination>+39 16 27</declination>
 	<distance errorminus="39" errorplus="32">240</distance>
 	<star>
 		<name>KOI-4427</name>
@@ -23,7 +25,7 @@
 			<transittime errorminus="0.0047" errorplus="0.0042" unit="BJD">2455815.2616</transittime>
 			<semimajoraxis errorminus="0.081" errorplus="0.073">0.419</semimajoraxis>
 			<inclination errorminus="0.08" errorplus="0.03">89.97</inclination>
-			<eccentricity lowerlimit="0.02" />
+			<eccentricity lowerlimit="0.02"/>
 			<description>This planet candidate has been verified to 2.6-sigma, not enough to claim a confirmation.</description>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>

@@ -26,7 +26,7 @@
 			<description>The planet Kepler-414 b has been confirmed by transit timing variations.</description>
 			<discoverymethod>transit</discoverymethod>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>15/03/18</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<istransiting>1</istransiting>
 		</planet>
 		<planet>
@@ -41,8 +41,10 @@
 			<transittime errorminus="0.00081" errorplus="0.00081">2455009.664892</transittime>
 			<description>The planet Kepler-414 c has been confirmed by transit timing variations.</description>
 			<discoverymethod>transit</discoverymethod>
+			<!--NASA Catalogue-->
+			<discoverymethod>timing</discoverymethod>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>15/03/18</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<istransiting>1</istransiting>
 		</planet>
 	</star>

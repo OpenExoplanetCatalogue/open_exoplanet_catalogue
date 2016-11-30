@@ -2,6 +2,10 @@
 	<name>WTS-2</name>
 	<rightascension>19 34 56</rightascension>
 	<declination>+36 48 56</declination>
+	<!--Exoplanet.eu Catalogue-->
+	<declination>+36 48 56.0001</declination>
+	<!--NASA Catalogue-->
+	<declination>+36 48 55.8</declination>
 	<distance>1000</distance>
 	<star>
 		<magJ errorminus="0.025" errorplus="0.025">13.928</magJ>
@@ -15,9 +19,11 @@
 		<mass errorminus="0.082" errorplus="0.082">0.82</mass>
 		<radius errorminus="0.032" errorplus="0.032">0.752</radius>
 		<temperature errorminus="250" errorplus="250">5000</temperature>
-		<age lowerlimit="0.6" />
+		<age lowerlimit="0.6"/>
 		<metallicity errorminus="0.2" errorplus="0.3">0.2</metallicity>
 		<spectraltype>K2V</spectraltype>
+		<!--Exoplanet.eu Catalogue-->
+		<spectraltype>K3V</spectraltype>
 		<planet>
 			<name>WTS-2 b</name>
 			<name>2MASS 19345587+3648557 b</name>
@@ -32,10 +38,14 @@
 			<semimajoraxis errorminus="0.00062" errorplus="0.00062">0.01855</semimajoraxis>
 			<inclination errorminus="0.53" errorplus="0.53">83.55</inclination>
 			<transittime errorminus="0.00064" errorplus="0.00064" unit="BJD">2454317.81333</transittime>
+			<!--Exoplanet.eu Catalogue-->
+			<transittime errorminus="0.0007" errorplus="0.0007">2454317.81264</transittime>
 			<description>WTS-2 b is an unusually close hot Jupiter on a 1.02-day orbit around a K2V star. The planet is close to the tidal destruction radius of the star and has a predicted remaining lifetime of only 40 million years.</description>
 			<discoverymethod>RV</discoverymethod>
 			<lastupdate>14/02/25</lastupdate>
 			<discoveryyear>2014</discoveryyear>
+			<!--Exoplanet.eu Catalogue-->
+			<discoveryyear>2013</discoveryyear>
 			<istransiting>1</istransiting>
 		</planet>
 	</star>

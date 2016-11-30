@@ -3,6 +3,8 @@
 	<rightascension>19 51 22</rightascension>
 	<declination>+46 34 27</declination>
 	<distance>399</distance>
+	<!--NASA Catalogue-->
+	<distance>303.0</distance>
 	<star>
 		<name>Kepler-32</name>
 		<name>KOI-952</name>
@@ -21,7 +23,13 @@
 			<name>KIC 9787239.01</name>
 			<radius errorminus="0.00820" errorplus="0.00820">0.19137</radius>
 			<period errorminus=".000012" errorplus="0.000012">5.901263</period>
+			<!--Exoplanet.eu Catalogue-->
+			<period>5.90124</period>
+			<!--NASA Catalogue-->
+			<period errorminus="0.0001" errorplus="0.0001">5.90124</period>
 			<transittime errorminus="0.0010500" errorplus="0.0010500">2455004.4073500</transittime>
+			<!--Exoplanet.eu Catalogue-->
+			<transittime errorminus="0.008" errorplus="0.008">2454974.902</transittime>
 			<list>Confirmed planets</list>
 			<description>This planet candidate was discovered with the Kepler spacecraft. Because there are multiple phenomena that can create a signal that looks similar to a planetary transit, the candidates have to be confirmed with another method. For Kepler-32 the planetary nature of the companions has been confirmed by transit timing variations, caused by other planets in the system, and a stability analysis.</description>
 			<discoveryyear>2012</discoveryyear>
@@ -38,10 +46,12 @@
 			<radius errorminus="0.02461" errorplus="0.02461">0.20231</radius>
 			<period errorminus=".000028" errorplus="0.000028">8.752212</period>
 			<transittime errorminus="0.0016500" errorplus="0.0016500">2455003.6313600</transittime>
+			<!--Exoplanet.eu Catalogue-->
+			<transittime errorminus="0.013" errorplus="0.013">2454977.378</transittime>
 			<list>Confirmed planets</list>
 			<description>This planet candidate was discovered with the Kepler spacecraft. Because there are multiple phenomena that can create a signal that looks similar to a planetary transit, the candidates have to be confirmed with another method. For Kepler-32 the planetary nature of the companions has been confirmed by transit timing variations, caused by other planets in the system, and a stability analysis.</description>
 			<discoveryyear>2012</discoveryyear>
-			<lastupdate>14/02/26</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
 		</planet>
@@ -52,12 +62,16 @@
 			<name>KIC 9787239 d</name>
 			<name>KIC 9787239.03</name>
 			<radius errorminus="0.01002" errorplus="0.01002">0.21780</radius>
+			<!--NASA Catalogue-->
+			<radius errorplus="0.018" errorminus="0.018">0.241</radius>
 			<period errorminus=".000073" errorplus="0.000073">22.780815</period>
+			<!--NASA Catalogue-->
+			<period errorminus="0.0005" errorplus="0.0005">22.7802</period>
 			<transittime errorminus="0.0017900" errorplus="0.0017900">2454988.2023600</transittime>
 			<list>Confirmed planets</list>
 			<description>Kepler-32 d has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-32 d are still unknown, the object is highly unlikely to be a false positive.</description>
 			<discoveryyear>2013</discoveryyear>
-			<lastupdate>14/02/26</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
 		</planet>
@@ -68,12 +82,16 @@
 			<name>KIC 9787239 e</name>
 			<name>KIC 9787239.04</name>
 			<radius errorminus="0.00638" errorplus="0.00638">0.10024</radius>
+			<!--NASA Catalogue-->
+			<radius errorplus="0.009" errorminus="0.009">0.134</radius>
 			<period errorminus=".000015" errorplus="0.000015">2.896027</period>
+			<!--NASA Catalogue-->
+			<period errorminus="0.0003" errorplus="0.0003">2.896</period>
 			<transittime errorminus="0.0028600" errorplus="0.0028600">2454966.6119100</transittime>
 			<list>Confirmed planets</list>
 			<description>Kepler-32 e has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-32 e are still unknown, the object is highly unlikely to be a false positive.</description>
 			<discoveryyear>2013</discoveryyear>
-			<lastupdate>14/02/26</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
 		</planet>
@@ -85,11 +103,13 @@
 			<name>KIC 9787239.05</name>
 			<radius errorminus="0.00547" errorplus="0.00547">0.07290</radius>
 			<period errorminus=".000004" errorplus="0.000004">0.742950</period>
+			<!--NASA Catalogue-->
+			<period errorminus="7e-05" errorplus="7e-05">0.74296</period>
 			<transittime errorminus="0.0030000" errorplus="0.0030000">2454966.2755200</transittime>
 			<list>Confirmed planets</list>
 			<description>Kepler-32 f has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-32 f are still unknown, the object is highly unlikely to be a false positive.</description>
 			<discoveryyear>2013</discoveryyear>
-			<lastupdate>14/02/26</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
 		</planet>

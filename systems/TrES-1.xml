@@ -3,12 +3,18 @@
 	<rightascension>19 04 09</rightascension>
 	<declination>+36 37 57</declination>
 	<distance>157</distance>
+	<!--NASA Catalogue-->
+	<distance>150.0</distance>
 	<star>
 		<name>TrES-1</name>
 		<mass>0.88</mass>
 		<radius>0.85</radius>
+		<!--NASA Catalogue-->
+		<radius errorplus="0.02" errorminus="0.02">0.81</radius>
 		<magB errorminus="0.21" errorplus="0.21">12.35</magB>
 		<magV errorminus="0.10" errorplus="0.10">11.42</magV>
+		<!--NASA Catalogue-->
+		<magV errorminus="0.01" errorplus="0.01">11.76</magV>
 		<magJ errorminus="0.022" errorplus="0.022">10.294</magJ>
 		<magH errorminus="0.021" errorplus="0.021">9.887</magH>
 		<magK errorminus="0.019" errorplus="0.019">9.819</magK>
@@ -22,12 +28,22 @@
 			<name>TrES-1</name>
 			<list>Confirmed planets</list>
 			<mass>0.761</mass>
+			<!--NASA Catalogue-->
+			<mass errorminus="0.046" errorplus="0.047">0.752</mass>
 			<radius>1.099</radius>
+			<!--NASA Catalogue-->
+			<radius errorplus="0.022" errorminus="0.021">1.067</radius>
 			<period>3.0300722</period>
+			<!--NASA Catalogue-->
+			<period>3.030065</period>
 			<semimajoraxis>0.0393</semimajoraxis>
+			<!--NASA Catalogue-->
+			<semimajoraxis errorminus="0.0006" errorplus="0.00056">0.03925</semimajoraxis>
 			<transittime errorminus="0.00014" errorplus="0.00014" unit="BJD">2453898.876696</transittime>
 			<eccentricity>0.0</eccentricity>
 			<inclination>88.4</inclination>
+			<!--NASA Catalogue-->
+			<inclination errorminus="1.1">90.0</inclination>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>11/02/09</lastupdate>
 			<discoveryyear>2004</discoveryyear>

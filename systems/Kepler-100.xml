@@ -4,10 +4,16 @@
 	<name>KIC 6521045</name>
 	<rightascension>19 25 32</rightascension>
 	<declination>+41 59 24</declination>
+	<!--Exoplanet.eu Catalogue-->
+	<declination>+41 59 24.0001</declination>
+	<!--NASA Catalogue-->
+	<declination>+41 59 25.0</declination>
 	<distance>296.6</distance>
 	<star>
 		<magB errorminus="0.11" errorplus="0.11">11.86</magB>
 		<magV errorminus="0.07" errorplus="0.07">11.06</magV>
+		<!--NASA Catalogue-->
+		<magV>11.197</magV>
 		<magJ errorminus="0.021" errorplus="0.021">10.081</magJ>
 		<magH errorminus="0.017" errorplus="0.017">9.804</magH>
 		<magK errorminus="0.014" errorplus="0.014">9.768</magK>
@@ -26,7 +32,7 @@
 			<name>KIC 6521045 c</name>
 			<period>12.8159</period>
 			<radius errorminus="0.004557" errorplus="0.004557">0.200487</radius>
-			<mass upperlimit="0.0222" />
+			<mass upperlimit="0.0222"/>
 			<transittime unit="BJD">2454955.94713</transittime>
 			<semimajoraxis errorminus="0.002" errorplus="0.002">0.110</semimajoraxis>
 			<inclination errorminus="0.1" errorplus="0.1">89.8</inclination>
@@ -53,7 +59,7 @@
 			<list>Confirmed planets</list>
 			<description>This planet has been discovered by the Kepler spacecraft. It was confirmed using a combination of high resolution imaging and spectroscopy and Doppler spectroscopy. This analysis pushes the false probability below 1 percent and puts contraints on the planet's size and mass.</description>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/02/24</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
 		</planet>
@@ -64,14 +70,14 @@
 			<name>KIC 6521045 d</name>
 			<period>35.3331</period>
 			<radius errorminus="0.004557" errorplus="0.004557">0.146720</radius>
-			<mass upperlimit="0.0094" />
+			<mass upperlimit="0.0094"/>
 			<transittime unit="BJD">2454966.17797</transittime>
 			<semimajoraxis errorminus="0.004" errorplus="0.004">0.216</semimajoraxis>
 			<inclination errorminus="0.05" errorplus="0.05">88.62</inclination>
 			<list>Confirmed planets</list>
 			<description>This planet has been discovered by the Kepler spacecraft. It was confirmed using a combination of high resolution imaging and spectroscopy and Doppler spectroscopy. This analysis pushes the false probability below 1 percent and puts contraints on the planet's size and mass.</description>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/02/24</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
 		</planet>

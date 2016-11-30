@@ -24,7 +24,13 @@
 			<name>KIC 7109675.01</name>
 			<radius errorminus="0.00273" errorplus="0.36726">0.65705</radius>
 			<period errorminus=".000030" errorplus="0.000030">33.601528</period>
+			<!--Exoplanet.eu Catalogue-->
+			<period>33.60134</period>
+			<!--NASA Catalogue-->
+			<period errorminus="0.0002" errorplus="0.00021">33.60134</period>
 			<transittime errorminus="0.0004600" errorplus="0.0004600">2455019.6776800</transittime>
+			<!--Exoplanet.eu Catalogue-->
+			<transittime errorminus="0.0014" errorplus="0.0014">2455053.2826</transittime>
 			<list>Confirmed planets</list>
 			<description>Kepler-46 b has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-46 b are still unknown, the object is highly unlikely to be a false positive.</description>
 			<discoveryyear>2012</discoveryyear>
@@ -44,11 +50,15 @@
 			<period errorminus="0.000030" errorplus="0.000030">57.011</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2012</discoveryyear>
-			<lastupdate>14/03/06</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoverymethod>transit</discoverymethod>
 			<temperature>455</temperature>
 			<inclination>87.400</inclination>
 			<eccentricity>0.015</eccentricity>
+			<!--Exoplanet.eu Catalogue-->
+			<eccentricity errorplus="0.0039" errorminus="0.0039">0.0145</eccentricity>
+			<!--NASA Catalogue-->
+			<eccentricity errorplus="0.0034" errorminus="0.0036">0.0146</eccentricity>
 			<semimajoraxis>0.27990</semimajoraxis>
 			<istransiting>1</istransiting>
 		</planet>

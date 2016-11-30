@@ -23,6 +23,8 @@
 			<radius>0.195019</radius>
 			<period>4.7779803</period>
 			<transittime errorminus="0.001" errorplus="0.001" unit="BJD">2455057.06301</transittime>
+			<!--Exoplanet.eu Catalogue-->
+			<transittime errorminus="0.001" errorplus="0.001">2454957.06301</transittime>
 			<description>This planet candidate was discovered by the Kepler spacecraft. It transits its host star every 4.78 days for 2.8412 hours. Periodic transit timing variations confirm its planetary nature.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/08/19</lastupdate>
@@ -36,12 +38,26 @@
 			<name>KIC 5735762 c</name>
 			<list>Confirmed planets</list>
 			<mass>0.033219</mass>
+			<!--Exoplanet.eu Catalogue-->
+			<mass errorminus="0.0072" errorplus="0.0072">0.04597</mass>
+			<!--NASA Catalogue-->
+			<mass errorminus="0.00724" errorplus="0.00724">0.04597</mass>
 			<radius>0.286149</radius>
+			<!--Exoplanet.eu Catalogue-->
+			<radius errorplus="0.012" errorminus="0.012">0.242</radius>
+			<!--NASA Catalogue-->
+			<radius errorplus="0.012" errorminus="0.012">0.242</radius>
 			<period>9.6739283</period>
+			<!--Exoplanet.eu Catalogue-->
+			<period>9.673928</period>
+			<!--NASA Catalogue-->
+			<period>9.67395</period>
 			<transittime errorminus="0.00077" errorplus="0.00077" unit="BJD">2455058.33981</transittime>
+			<!--Exoplanet.eu Catalogue-->
+			<transittime errorminus="0.00077" errorplus="0.00077">2454958.33981</transittime>
 			<description>This planet candidate was discovered by the Kepler spacecraft. It transits its host star every 9.67 days for 3.5027 hours. Periodic transit timing variations confirm its planetary nature.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>12/08/19</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<istransiting>1</istransiting>
 		</planet>
@@ -56,7 +72,7 @@
 			<list>Confirmed planets</list>
 			<description>This planet has been discovered by the Kepler spacecraft. It was confirmed using a combination of high resolution imaging and spectroscopy and Doppler spectroscopy. This analysis pushes the false probability below 1 percent and puts contraints on the planet's size and mass.</description>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/02/24</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
 		</planet>
@@ -70,7 +86,7 @@
 			<list>Confirmed planets</list>
 			<description>This planet has been discovered during a radial velocity follow up of stars observed by Kepler which host planet candidates. Although other planets in this system are transiting, this one is not.</description>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/02/24</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoverymethod>RV</discoverymethod>
 		</planet>
 	</star>

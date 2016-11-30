@@ -2,6 +2,8 @@
 	<name>HAT-P-6</name>
 	<rightascension>23 39 06</rightascension>
 	<declination>+42 27 58</declination>
+	<!--NASA Catalogue-->
+	<declination>+42 27 57.5</declination>
 	<distance>200</distance>
 	<star>
 		<mass>1.29</mass>
@@ -29,6 +31,8 @@
 			<discoveryyear>2007</discoveryyear>
 			<temperature>1529.9</temperature>
 			<transittime errorminus="0.00028" errorplus="0.00028" unit="BJD">2454035.67652</transittime>
+			<!--Exoplanet.eu Catalogue-->
+			<transittime errorminus="0.00025" errorplus="0.00025">2454035.67617</transittime>
 			<istransiting>1</istransiting>
 		</planet>
 		<name>HAT-P-6</name>

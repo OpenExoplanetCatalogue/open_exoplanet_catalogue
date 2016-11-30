@@ -5,7 +5,11 @@
 	<distance>204</distance>
 	<star>
 		<mass>0.92</mass>
+		<!--NASA Catalogue-->
+		<mass errorplus="0.04" errorminus="0.04">0.94</mass>
 		<radius>0.87</radius>
+		<!--NASA Catalogue-->
+		<radius errorplus="0.05" errorminus="0.04">0.9</radius>
 		<magV errorminus="0.13" errorplus="0.13">12.19</magV>
 		<magB errorminus="0.10" errorplus="0.10">13.18</magB>
 		<magR errorminus="0.08" errorplus="0.08">11.98</magR>

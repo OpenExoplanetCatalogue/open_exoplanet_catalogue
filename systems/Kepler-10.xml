@@ -47,6 +47,10 @@
 			<list>Confirmed planets</list>
 			<mass errorminus="0.005977" errorplus="0.005977">0.054106</mass>
 			<radius errorminus="0.003645" errorplus="0.008202">0.214156</radius>
+			<!--Exoplanet.eu Catalogue-->
+			<radius errorplus="0.0025" errorminus="0.0025">0.2072</radius>
+			<!--NASA Catalogue-->
+			<radius errorplus="0.008" errorminus="0.004">0.21</radius>
 			<period errorminus="0.000048" errorplus="0.000048">45.294301</period>
 			<semimajoraxis errorminus="0.0019" errorplus="0.0019">0.2410</semimajoraxis>
 			<inclination errorminus="0.43" errorplus="0.25">89.59</inclination>
@@ -54,7 +58,7 @@
 			<transittime errorminus="0.00081" errorplus="0.00081" unit="BJD">2455062.26648</transittime>
 			<description>This planet was confirmed using infrared observations from Spitzer. It is highly unlikely (0.002%) that Kepler-10 c is a false positive. The planet is so close to its host star that it can not sustain liquid water on its surface. It is therefore most likely not habitable and a scorched, molten Earth.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>14/06/03</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoveryyear>2011</discoveryyear>
 			<temperature errorminus="17" errorplus="50">584</temperature>
 			<istransiting>1</istransiting>

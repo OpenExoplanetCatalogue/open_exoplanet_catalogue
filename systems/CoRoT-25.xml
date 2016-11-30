@@ -2,6 +2,8 @@
 	<name>CoRoT-25</name>
 	<rightascension>18 42 31.13</rightascension>
 	<declination>+06 30 50.04</declination>
+	<!--NASA Catalogue-->
+	<declination>+06 30 49.8</declination>
 	<distance errorminus="25" errorplus="85">1000</distance>
 	<star>
 		<name>CoRoT-25</name>
@@ -18,6 +20,8 @@
 		<temperature errorminus="90" errorplus="90">6040</temperature>
 		<metallicity errorminus="0.13" errorplus="0.13">-0.01</metallicity>
 		<spectraltype>F9V</spectraltype>
+		<!--Exoplanet.eu Catalogue-->
+		<spectraltype>G0V</spectraltype>
 		<planet>
 			<name>CoRoT-25 b</name>
 			<list>Confirmed planets</list>
@@ -29,6 +33,8 @@
 			<inclination errorminus="0.3" errorplus="0.8">84.5</inclination>
 			<discoverymethod>transit</discoverymethod>
 			<discoveryyear>2013</discoveryyear>
+			<!--Exoplanet.eu Catalogue-->
+			<discoveryyear>2012</discoveryyear>
 			<transittime errorminus="0.0008" errorplus="0.0008" unit="HJD">2454576.2156</transittime>
 			<lastupdate>13/05/24</lastupdate>
 			<istransiting>1</istransiting>

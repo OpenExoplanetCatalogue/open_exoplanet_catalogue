@@ -2,6 +2,10 @@
 	<name>WASP-71</name>
 	<rightascension>01 57 03</rightascension>
 	<declination>+00 45 32</declination>
+	<!--Exoplanet.eu Catalogue-->
+	<declination>+00 45 32.04</declination>
+	<!--NASA Catalogue-->
+	<declination>+00 45 31.8</declination>
 	<distance>200</distance>
 	<star>
 		<name>WASP-71</name>
@@ -29,6 +33,8 @@
 			<eccentricity>0</eccentricity>
 			<inclination>84.2</inclination>
 			<transittime errorminus="0.00070" errorplus="0.00070" unit="BJD">2455738.85050</transittime>
+			<!--Exoplanet.eu Catalogue-->
+			<transittime errorminus="0.0007" errorplus="0.0007">2455738.84977</transittime>
 			<description>WASP-71 b is a highly-irradiated planet which transits an  evolved F8-type star every 2.9 days. The planet is larger than Jupiter but less dense.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>14/01/26</lastupdate>

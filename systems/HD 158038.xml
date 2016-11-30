@@ -2,6 +2,10 @@
 	<name>HD 158038</name>
 	<rightascension>17 25 45</rightascension>
 	<declination>+27 18 12</declination>
+	<!--Exoplanet.eu Catalogue-->
+	<declination>+27 18 11.9999</declination>
+	<!--NASA Catalogue-->
+	<declination>+27 18 12.0</declination>
 	<distance>103</distance>
 	<star>
 		<mass>1.65</mass>
@@ -13,6 +17,8 @@
 		<magK errorminus="0.027" errorplus="0.027">5.156</magK>
 		<metallicity>0.28</metallicity>
 		<spectraltype>K0</spectraltype>
+		<!--Exoplanet.eu Catalogue-->
+		<spectraltype>K2III</spectraltype>
 		<planet>
 			<name>HD 158038 b</name>
 			<list>Confirmed planets</list>

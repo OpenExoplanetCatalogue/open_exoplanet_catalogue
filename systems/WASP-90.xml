@@ -2,6 +2,10 @@
 	<name>WASP-90</name>
 	<rightascension>21 02 08</rightascension>
 	<declination>+07 03 24</declination>
+	<!--Exoplanet.eu Catalogue-->
+	<declination>+07 03 24.12</declination>
+	<!--NASA Catalogue-->
+	<declination>+07 03 22.4</declination>
 	<distance errorminus="60" errorplus="60">340</distance>
 	<star>
 		<name>WASP-90</name>
@@ -22,7 +26,7 @@
 			<period errorminus="0.000003" errorplus="0.000003">3.916243</period>
 			<transittime errorminus="0.0005" errorplus="0.0005" unit="HJD">2456235.5639</transittime>
 			<semimajoraxis errorminus="0.0012" errorplus="0.0012">0.0562</semimajoraxis>
-			<eccentricity upperlimit="0.5" />
+			<eccentricity upperlimit="0.5"/>
 			<inclination errorminus="0.4" errorplus="0.4">82.1</inclination>
 			<description>This hot Jupiter has been discovered by the WASP transit survey and confirmed by radial velocity measurements. It is one of the most irradiated planets known. The host star is evolved and has a post main sequence radius.</description>
 			<discoverymethod>transit</discoverymethod>

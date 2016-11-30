@@ -3,6 +3,8 @@
 	<rightascension>17 50 09</rightascension>
 	<declination>-34 40 23</declination>
 	<distance>3300</distance>
+	<!--NASA Catalogue-->
+	<distance>3200.0</distance>
 	<star>
 		<mass>0.46</mass>
 		<planet>
@@ -10,10 +12,12 @@
 			<name>OGLE 2005-BLG-71L b</name>
 			<list>Confirmed planets</list>
 			<mass>3.5</mass>
+			<!--NASA Catalogue-->
+			<mass errorminus="0.4" errorplus="0.4">3.8</mass>
 			<period>3600</period>
 			<semimajoraxis>3.6</semimajoraxis>
 			<discoverymethod>microlensing</discoverymethod>
-			<lastupdate>08/04/10</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoveryyear>2005</discoveryyear>
 		</planet>
 		<name>OGLE-05-071L</name>

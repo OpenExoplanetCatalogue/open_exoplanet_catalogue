@@ -2,6 +2,10 @@
 	<name>KOI-192</name>
 	<rightascension>19 13 01</rightascension>
 	<declination>+43 42 18</declination>
+	<!--Exoplanet.eu Catalogue-->
+	<declination>+43 42 18.0001</declination>
+	<!--NASA Catalogue-->
+	<declination>+43 42 17.5</declination>
 	<distance errorminus="150" errorplus="150">1100</distance>
 	<star>
 		<magB errorminus="0.03" errorplus="0.03">15.13</magB>
@@ -38,7 +42,7 @@
 			<period errorminus="0.0000011" errorplus="0.0000011">10.2909940</period>
 			<semimajoraxis errorminus="0.010" errorplus="0.010">0.091</semimajoraxis>
 			<transittime errorminus="0.00009" errorplus="0.00009" unit="BJD">2454970.02207</transittime>
-			<eccentricity upperlimit="0.57" />
+			<eccentricity upperlimit="0.57"/>
 			<inclination errorminus="0.45" errorplus="0.45">89.5</inclination>
 			<description>This planet had been flagged by the Kepler Team as a planet candidate. Follow-up observations using the HARPS-N spectrograph at the Telescopio Nazionale Galileo have now confirmed its planetary nature.</description>
 			<discoverymethod>transit</discoverymethod>

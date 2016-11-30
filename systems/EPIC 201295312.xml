@@ -1,6 +1,8 @@
 <system>
 	<name>EPIC 201295312</name>
 	<rightascension>11 36 02.791</rightascension>
+	<!--Exoplanet.eu Catalogue-->
+	<rightascension>11 36 03</rightascension>
 	<declination>-02 31 15.17</declination>
 	<distance errorminus="35" errorplus="61">331</distance>
 	<star>
@@ -21,13 +23,15 @@
 			<period errorminus="0.00075" errorplus="0.00075">5.65639</period>
 			<transittime errorminus="0.0049" errorplus="0.0049" unit="BJD">2456811.7191</transittime>
 			<eccentricity errorminus="0.09" errorplus="0.22">0.12</eccentricity>
-			<mass upperlimit="0.03776" />
+			<mass upperlimit="0.03776"/>
 			<impactparameter errorminus="0.26" errorplus="0.25">0.43</impactparameter>
 			<description>This planet was discovered by the Kepler spacecraft during its extended K2 mission, Campaign 1.</description>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
 			<lastupdate>16/03/07</lastupdate>
 			<discoveryyear>2015</discoveryyear>
+			<!--Exoplanet.eu Catalogue-->
+			<discoveryyear>2016</discoveryyear>
 		</planet>
 	</star>
 </system>

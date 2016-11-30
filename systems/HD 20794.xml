@@ -2,6 +2,10 @@
 	<name>HD 20794</name>
 	<rightascension>03 19 55</rightascension>
 	<declination>-43 30 10</declination>
+	<!--Exoplanet.eu Catalogue-->
+	<declination>-43 04 10.9999</declination>
+	<!--NASA Catalogue-->
+	<declination>-43 04 11.2</declination>
 	<distance>6.06</distance>
 	<star>
 		<mass>0.70</mass>
@@ -31,12 +35,16 @@
 			<name>HD 20794 c</name>
 			<list>Confirmed planets</list>
 			<mass>0.00754968</mass>
+			<!--Exoplanet.eu Catalogue-->
+			<mass errorminus="0.0013" errorplus="0.0013">0.0076</mass>
+			<!--NASA Catalogue-->
+			<mass errorminus="0.0013" errorplus="0.0013">0.0076</mass>
 			<period>40.114</period>
 			<semimajoraxis>0.2036</semimajoraxis>
 			<eccentricity>0.0</eccentricity>
 			<description>The planetary system around the star HD 20794 consists of three super-Earths. The planet HD 20794 c is the smallest planet signature detected so far (0.56 m/s) and might need further data to be confirmed.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>11/08/18</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoveryyear>2011</discoveryyear>
 			<temperature>508.9</temperature>
 		</planet>
@@ -44,12 +52,16 @@
 			<name>HD 20794 d</name>
 			<list>Confirmed planets</list>
 			<mass>0.015099</mass>
+			<!--Exoplanet.eu Catalogue-->
+			<mass errorminus="0.0019" errorplus="0.0019">0.015</mass>
+			<!--NASA Catalogue-->
+			<mass errorminus="0.002" errorplus="0.002">0.015</mass>
 			<period>90.309</period>
 			<semimajoraxis>0.3499</semimajoraxis>
 			<eccentricity>0.0</eccentricity>
 			<description>The planetary system around the star HD 20794 consists of three super-Earths.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>11/08/18</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoveryyear>2011</discoveryyear>
 			<temperature>388.2</temperature>
 		</planet>

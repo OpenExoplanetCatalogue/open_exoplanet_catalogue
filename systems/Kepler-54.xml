@@ -4,6 +4,10 @@
 	<name>KIC 7455287</name>
 	<rightascension>19 39 05</rightascension>
 	<declination>+43 03 22</declination>
+	<!--Exoplanet.eu Catalogue-->
+	<declination>+43 03 23.04</declination>
+	<!--NASA Catalogue-->
+	<declination>+43 03 22.7</declination>
 	<distance>499.51</distance>
 	<star>
 		<magJ errorminus="0.023" errorplus="0.023">13.508</magJ>
@@ -27,6 +31,8 @@
 			<list>Confirmed planets</list>
 			<description>Kepler-54 b has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-54 b are still unknown, the object is highly unlikely to be a false positive.</description>
 			<discoveryyear>2014</discoveryyear>
+			<!--Exoplanet.eu Catalogue-->
+			<discoveryyear>2012</discoveryyear>
 			<lastupdate>14/02/26</lastupdate>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
@@ -37,13 +43,19 @@
 			<name>KOI-886.02</name>
 			<name>KIC 7455287 c</name>
 			<name>KIC 7455287.02</name>
-			<radius errorminus="0.01094" errorplus="0.01094">0.15948</radius>
+			<radius errorminus="0.01094" errorplus="0.01094">0.11</radius>
 			<period errorminus=".000100" errorplus="0.000100">12.072389</period>
+			<!--Exoplanet.eu Catalogue-->
+			<period>12.0717249</period>
+			<!--NASA Catalogue-->
+			<period errorminus="0.00029" errorplus="0.00029">12.0717249</period>
 			<transittime errorminus="0.0062300" errorplus="0.0062300">2454976.4332500</transittime>
+			<!--Exoplanet.eu Catalogue-->
+			<transittime errorminus="0.0091" errorplus="0.0091">2454976.44842</transittime>
 			<list>Confirmed planets</list>
 			<description>Kepler-54 c has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-54 c are still unknown, the object is highly unlikely to be a false positive.</description>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/02/26</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
 		</planet>
@@ -59,7 +71,7 @@
 			<list>Confirmed planets</list>
 			<description>Kepler-54 d has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-54 d are still unknown, the object is highly unlikely to be a false positive.</description>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/02/26</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
 		</planet>

@@ -19,6 +19,8 @@
 			<name>KIC 10864656 A</name>
 			<name>2MASS J19330772+4817092 A</name>
 			<spectraltype>K</spectraltype>
+			<!--Exoplanet.eu Catalogue-->
+			<spectraltype>K2III</spectraltype>
 			<magR>12.135</magR>
 			<magK>12.183</magK>
 			<mass errorminus="0.101" errorplus="0.101">1.353</mass>
@@ -36,9 +38,15 @@
 				<name>2MASS J19330772+4817092 A b</name>
 				<list>Confirmed planets</list>
 				<mass errorminus="0.48" errorplus="0.48">4.87</mass>
+				<!--Exoplanet.eu Catalogue-->
+				<mass errorminus="0.301" errorplus="0.192">5.41</mass>
+				<!--NASA Catalogue-->
+				<mass errorminus="0.18" errorplus="0.32">5.41</mass>
 				<radius errorminus="0.036" errorplus="0.036">1.120</radius>
 				<period errorminus="0.00021" errorplus="0.00021">52.50097</period>
 				<transittime errorminus="0.0014" errorplus="0.0014" unit="BJD">2455477.02906</transittime>
+				<!--Exoplanet.eu Catalogue-->
+				<transittime errorminus="0.0018" errorplus="0.0018">2455949.5374</transittime>
 				<description>This massive planet orbits a red giant star in a highly eccentric orbit. Together with Kepler-56 and Kepler-91 this system occupies an almost-desert region of parameter space.</description>
 				<semimajoraxis errorminus="0.0089" errorplus="0.0089">0.3034</semimajoraxis>
 				<eccentricity errorminus="0.030" errorplus="0.030">0.535</eccentricity>
@@ -65,7 +73,7 @@
 				<istransiting>0</istransiting>
 				<discoverymethod>RV</discoverymethod>
 				<discoveryyear>2014</discoveryyear>
-				<lastupdate>15/02/03</lastupdate>
+				<lastupdate>16/11/30</lastupdate>
 				<list>Controversial</list>
 				<list>Planets in binary systems, S-type</list>
 			</planet>

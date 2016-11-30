@@ -1,6 +1,10 @@
 <system>
 	<name>CoRoT-24</name>
 	<rightascension>06 47 41</rightascension>
+	<!--Exoplanet.eu Catalogue-->
+	<rightascension>06 47 42</rightascension>
+	<!--NASA Catalogue-->
+	<rightascension>06 47 41.41</rightascension>
 	<declination>-03 43 10</declination>
 	<distance errorminus="70" errorplus="70">600</distance>
 	<star>
@@ -21,7 +25,7 @@
 			<name>CoRoT-24 b</name>
 			<name>2MASS 06474141-0343094 c</name>
 			<list>Confirmed planets</list>
-			<mass upperlimit="0.018" />
+			<mass upperlimit="0.018"/>
 			<radius errorminus="0.04" errorplus="0.04">0.33</radius>
 			<temperature errorminus="140" errorplus="140">1070</temperature>
 			<period errorminus="0.0006" errorplus="0.0006">5.1134</period>
@@ -50,8 +54,10 @@
 			<transittime errorminus="0.0265" errorplus="0.0265" unit="HJD">2454795.3803</transittime>
 			<description>CoRoT-24 is the first multiplanetary system discovered by the CoRoT mission. The probability that the observations are caused by transiting Neptune-sized planets is 26 times more likely than a blend scenario.</description>
 			<istransiting>1</istransiting>
-			<lastupdate>14/06/08</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoveryyear>2014</discoveryyear>
+			<!--Exoplanet.eu Catalogue-->
+			<discoveryyear>2011</discoveryyear>
 		</planet>
 	</star>
 </system>

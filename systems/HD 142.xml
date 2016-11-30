@@ -10,13 +10,27 @@
 		<star>
 			<name>HD 142 A</name>
 			<mass>1.15</mass>
+			<!--Exoplanet.eu Catalogue-->
+			<mass>1.1</mass>
+			<!--NASA Catalogue-->
+			<mass errorplus="0.22" errorminus="0.16">1.23</mass>
 			<radius>1.43</radius>
+			<!--Exoplanet.eu Catalogue-->
+			<radius errorplus="0.34" errorminus="0.34">0.86</radius>
+			<!--NASA Catalogue-->
+			<radius errorplus="0.04" errorminus="0.04">1.47</radius>
 			<magV>5.7</magV>
 			<magB>6.22</magB>
 			<metallicity>0.04</metallicity>
 			<spectraltype>G1 IV</spectraltype>
 			<age>4.3</age>
+			<!--Exoplanet.eu Catalogue-->
+			<age>5.93</age>
 			<temperature>6249</temperature>
+			<!--Exoplanet.eu Catalogue-->
+			<temperature>6180.0</temperature>
+			<!--NASA Catalogue-->
+			<temperature errorminus="48.0" errorplus="48.0">6245.0</temperature>
 			<planet>
 				<name>HD 142 A b</name>
 				<name>HD 142 b</name>
@@ -27,7 +41,7 @@
 				<eccentricity>0.17</eccentricity>
 				<description>The planet HD 142 A b is orbiting a G type star which is part of a binary. A second planet in the system has been discovered. After the discovery of the second planet, the reported eccentricity of the first planet changed significantly. This system is an example of how multiple-planet systems can masquerade as moderately eccentric single-planet systems.</description>
 				<discoverymethod>RV</discoverymethod>
-				<lastupdate>12/12/04</lastupdate>
+				<lastupdate>16/11/30</lastupdate>
 				<discoveryyear>2001</discoveryyear>
 				<list>Planets in binary systems, S-type</list>
 				<temperature>249.8</temperature>
@@ -42,7 +56,7 @@
 				<eccentricity>0.21</eccentricity>
 				<description>This planet was discovered by the Anglo-Australian Planet Search. It is orbiting a star previously known to host one planet. The star also has a stellar companion. After the discovery of the second planet, the reported eccentricity of the first planet changed significantly. This system is an example of how multiple-planet systems can masquerade as moderately eccentric single-planet systems.</description>
 				<discoverymethod>RV</discoverymethod>
-				<lastupdate>12/12/04</lastupdate>
+				<lastupdate>16/11/30</lastupdate>
 				<discoveryyear>2012</discoveryyear>
 				<list>Planets in binary systems, S-type</list>
 			</planet>

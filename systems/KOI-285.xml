@@ -4,6 +4,8 @@
 	<rightascension>19 16 21</rightascension>
 	<declination>+41 33 47</declination>
 	<distance>367.56</distance>
+	<!--Exoplanet.eu Catalogue-->
+	<distance>448.57</distance>
 	<star>
 		<name>KOI-285</name>
 		<name>Kepler-92</name>
@@ -23,7 +25,7 @@
 			<name>Kepler-92 b</name>
 			<name>KIC 6196457 b</name>
 			<list>Confirmed planets</list>
-			<mass upperlimit="0.162" />
+			<mass upperlimit="0.162"/>
 			<radius errorminus="0.012" errorplus="0.012">0.326</radius>
 			<period errorminus="0.000075" errorplus="0.000075">13.748933</period>
 			<transittime errorminus="0.0130786" errorplus="0.0130786" unit="BJD">2455008.9263306</transittime>
@@ -33,7 +35,7 @@
 			<description>This planet was discovered by the Kepler spacecraft. The planet is part of a multiplanetary system. Its planetary nature has been confirmed using transit timing variations which arise because the planets in one system pull on each other and slightly alter the transit times.</description>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
-			<lastupdate>15/06/09</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoveryyear>2013</discoveryyear>
 		</planet>
 		<planet>
@@ -42,7 +44,7 @@
 			<name>Kepler-92 c</name>
 			<name>KIC 6196457 c</name>
 			<list>Confirmed planets</list>
-			<mass upperlimit="0.0890" />
+			<mass upperlimit="0.0890"/>
 			<radius errorminus="0.0047" errorplus="0.0047">0.2190</radius>
 			<period errorminus="0.00019" errorplus="0.00019">26.72311</period>
 			<transittime errorminus="0.0184593" errorplus="0.0184593" unit="BJD">2454986.4408417</transittime>
@@ -52,7 +54,7 @@
 			<description>This planet was discovered by the Kepler spacecraft. The planet is part of a multiplanetary system. Its planetary nature has been confirmed using transit timing variations which arise because the planets in one system pull on each other and slightly alter the transit times.</description>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
-			<lastupdate>15/06/09</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoveryyear>2013</discoveryyear>
 		</planet>
 		<planet>
@@ -69,8 +71,10 @@
 			<list>Confirmed planets</list>
 			<description>This is a Kepler Object of Interest from the Q1-Q12 dataset. It has been flagged as a possible transit event but has not been confirmed to be a planet yet.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>15/06/09</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoveryyear>2014</discoveryyear>
+			<!--Exoplanet.eu Catalogue-->
+			<discoveryyear>2015</discoveryyear>
 			<istransiting>1</istransiting>
 		</planet>
 	</star>

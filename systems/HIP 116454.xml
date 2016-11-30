@@ -3,6 +3,10 @@
 	<name>K2-2</name>
 	<rightascension>23 35 49.281</rightascension>
 	<declination>+00 26 43.86</declination>
+	<!--Exoplanet.eu Catalogue-->
+	<declination>+00 26 44.0001</declination>
+	<!--NASA Catalogue-->
+	<declination>+00 26 43.9</declination>
 	<distance errorminus="5.4" errorplus="5.4">55.2</distance>
 	<star>
 		<name>HIP 116454</name>
@@ -25,6 +29,8 @@
 		<magK errorminus="0.021" errorplus="0.021">8.029</magK>
 		<metallicity errorminus="0.08" errorplus="0.08">-0.16</metallicity>
 		<spectraltype>K0</spectraltype>
+		<!--Exoplanet.eu Catalogue-->
+		<spectraltype>K2</spectraltype>
 		<planet>
 			<name>HIP 116454 b</name>
 			<name>K2-2 b</name>

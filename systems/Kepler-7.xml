@@ -2,6 +2,10 @@
 	<name>Kepler-7</name>
 	<rightascension>19 14 20</rightascension>
 	<declination>+41 05 23</declination>
+	<!--Exoplanet.eu Catalogue-->
+	<declination>+41 05 22.9999</declination>
+	<!--NASA Catalogue-->
+	<declination>+41 05 23.3</declination>
 	<star>
 		<spectraltype>G0</spectraltype>
 		<magB>13.4</magB>
@@ -26,6 +30,8 @@
 			<eccentricity>0.1</eccentricity>
 			<inclination>85.18</inclination>
 			<transittime errorminus="0.00020" errorplus="0.00023" unit="BJD">2454967.27674</transittime>
+			<!--Exoplanet.eu Catalogue-->
+			<transittime errorminus="0.0002" errorplus="0.0002">2454967.27599</transittime>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>15/12/03</lastupdate>
 			<discoveryyear>2010</discoveryyear>

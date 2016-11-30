@@ -2,6 +2,10 @@
 	<name>Kepler-128</name>
 	<rightascension>18 49 58.128</rightascension>
 	<declination>+43 58 48.64</declination>
+	<!--Exoplanet.eu Catalogue-->
+	<declination>+43 58 49.08</declination>
+	<!--NASA Catalogue-->
+	<declination>+43 58 48.8</declination>
 	<distance>368.14</distance>
 	<star>
 		<name>Kepler-128</name>
@@ -44,12 +48,16 @@
 			<name>TYC 3130-1733-1 c</name>
 			<radius errorminus="0.01458" errorplus="0.01458">0.10298</radius>
 			<mass errorminus="0.00220" errorplus="0.00692">0.00472</mass>
+			<!--Exoplanet.eu Catalogue-->
+			<mass errorminus="0.149" errorplus="0.07">0.104</mass>
+			<!--NASA Catalogue-->
+			<mass errorminus="0.01" errorplus="0.01">0.105</mass>
 			<transittime errorminus="0.0082100" errorplus="0.0082100">2454986.3750900</transittime>
 			<period>22.804</period>
 			<list>Confirmed planets</list>
 			<description>This planet was discovered by the Kepler spacecraft. The planet is part of a multiplanetary system. Its planetary nature has been confirmed using transit timing variations which arise because the planets in one system pull on each other and slightly alter the transit times.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>16/01/13</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoveryyear>2013</discoveryyear>
 			<istransiting>1</istransiting>
 		</planet>

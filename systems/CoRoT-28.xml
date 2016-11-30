@@ -2,6 +2,10 @@
 	<name>CoRoT-28</name>
 	<rightascension>18 34 45.21</rightascension>
 	<declination>+05 34 25.72</declination>
+	<!--Exoplanet.eu Catalogue-->
+	<declination>+05 34 26.04</declination>
+	<!--NASA Catalogue-->
+	<declination>+05 34 25.4</declination>
 	<distance errorminus="70" errorplus="70">560</distance>
 	<star>
 		<magB errorminus="0.033" errorplus="0.033">14.994</magB>
@@ -32,6 +36,8 @@
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>15/04/07</lastupdate>
 			<discoveryyear>2015</discoveryyear>
+			<!--Exoplanet.eu Catalogue-->
+			<discoveryyear>2012</discoveryyear>
 			<istransiting>1</istransiting>
 		</planet>
 	</star>

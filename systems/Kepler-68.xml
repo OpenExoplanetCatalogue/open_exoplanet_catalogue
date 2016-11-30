@@ -20,6 +20,8 @@
 			<radius errorminus="0.019" errorplus="0.019">1.243</radius>
 			<temperature errorminus="74" errorplus="74">5793</temperature>
 			<magV errorminus="0.001" errorplus="0.001">9.997</magV>
+			<!--NASA Catalogue-->
+			<magV errorminus="0.18" errorplus="0.18">9.99</magV>
 			<magB errorminus="0.04" errorplus="0.04">10.73</magB>
 			<magJ errorminus="0.046" errorplus="0.046">8.975</magJ>
 			<magH errorminus="0.029" errorplus="0.029">8.662</magH>
@@ -69,7 +71,7 @@
 				<inclination errorminus="0.41" errorplus="0.41">86.93</inclination>
 				<transittime errorminus="0.0041" errorplus="0.0041" unit="BJD">2454969.3805</transittime>
 				<discoverymethod>transit</discoverymethod>
-				<lastupdate>15/06/09</lastupdate>
+				<lastupdate>16/11/30</lastupdate>
 				<discoveryyear>2013</discoveryyear>
 				<description>The inner two planets in the Kepler-68 system are transiting. The outer planet was discovered by radial velocity follow-up observation. Kepler-68 c is Earth-sized.</description>
 				<istransiting>1</istransiting>
@@ -86,11 +88,19 @@
 				<name>KOI-246 A d</name>
 				<list>Confirmed planets</list>
 				<mass errorminus="0.035" errorplus="0.035" type="msini">0.947</mass>
+				<!--Exoplanet.eu Catalogue-->
+				<mass errorminus="0.05" errorplus="0.05">0.84</mass>
+				<!--NASA Catalogue-->
+				<mass errorminus="0.05034" errorplus="0.05034">0.84007</mass>
 				<period errorminus="15" errorplus="15">580</period>
+				<!--Exoplanet.eu Catalogue-->
+				<period>625.0</period>
+				<!--NASA Catalogue-->
+				<period errorminus="16.0" errorplus="16.0">625.0</period>
 				<semimajoraxis errorminus="0.03" errorplus="0.03">1.40</semimajoraxis>
 				<eccentricity errorminus="0.05" errorplus="0.05">0.18</eccentricity>
 				<discoverymethod>RV</discoverymethod>
-				<lastupdate>15/06/09</lastupdate>
+				<lastupdate>16/11/30</lastupdate>
 				<discoveryyear>2013</discoveryyear>
 				<description>The inner two planets in the Kepler-68 system are transiting. The outer planet, Kepler-68 d, was discovered by radial velocity follow-up observation. The mass is therefore a lower limit.</description>
 				<list>Planets in binary systems, S-type</list>

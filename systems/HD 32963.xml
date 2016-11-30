@@ -2,7 +2,13 @@
 	<name>HD 32963</name>
 	<rightascension>05 07 55.76384</rightascension>
 	<declination>+26 19 40.6623</declination>
+	<!--Exoplanet.eu Catalogue-->
+	<declination>+26 19 41.0001</declination>
+	<!--NASA Catalogue-->
+	<declination>+26 19 40.7</declination>
 	<distance errorminus="0.95" errorplus="0.95">36.39</distance>
+	<!--NASA Catalogue-->
+	<distance>35.24</distance>
 	<star>
 		<name>HD 32963</name>
 		<name>HIP 23884</name>
@@ -16,6 +22,8 @@
 		<magH errorminus="0.018" errorplus="0.018">6.098</magH>
 		<magK errorminus="0.016" errorplus="0.016">6.024</magK>
 		<spectraltype>G3V</spectraltype>
+		<!--Exoplanet.eu Catalogue-->
+		<spectraltype>G5IV</spectraltype>
 		<temperature errorminus="32" errorplus="32">5727</temperature>
 		<metallicity errorminus="0.05" errorplus="0.05">0.11</metallicity>
 		<age errorminus="3.55" errorplus="6.71">4.99</age>

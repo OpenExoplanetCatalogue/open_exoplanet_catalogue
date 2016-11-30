@@ -3,10 +3,16 @@
 	<rightascension>17 52 07</rightascension>
 	<declination>+37 32 46</declination>
 	<distance>400</distance>
+	<!--NASA Catalogue-->
+	<distance>228.0</distance>
 	<star>
 		<name>TrES-3</name>
 		<mass>0.88</mass>
+		<!--NASA Catalogue-->
+		<mass errorplus="0.05">0.93</mass>
 		<radius>0.85</radius>
+		<!--NASA Catalogue-->
+		<radius errorplus="0.02">0.83</radius>
 		<magB errorminus="0.009" errorplus="0.009">13.114</magB>
 		<magV errorminus="0.006" errorplus="0.006">12.402</magV>
 		<magR>12.06</magR>
@@ -24,10 +30,16 @@
 			<list>Confirmed planets</list>
 			<mass>1.91</mass>
 			<radius>1.305</radius>
+			<!--NASA Catalogue-->
+			<radius errorplus="0.031" errorminus="0.037">1.336</radius>
 			<period>1.30618608</period>
+			<!--NASA Catalogue-->
+			<period>1.30618581</period>
 			<semimajoraxis errorminus="0.0013" errorplus="0.0013">0.0226</semimajoraxis>
 			<eccentricity>0.0</eccentricity>
 			<inclination errorminus="0.21" errorplus="0.21">82.15</inclination>
+			<!--NASA Catalogue-->
+			<inclination errorminus="0.16" errorplus="0.16">81.85</inclination>
 			<transittime errorminus="0.00018" errorplus="0.00018" unit="BJD">2455358.86636</transittime>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>10/12/13</lastupdate>

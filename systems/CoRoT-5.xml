@@ -1,7 +1,13 @@
 <system>
 	<name>CoRoT-5</name>
 	<rightascension>06 45 07</rightascension>
+	<!--NASA Catalogue-->
+	<rightascension>06 45 06.54</rightascension>
 	<declination>+00 48 55</declination>
+	<!--Exoplanet.eu Catalogue-->
+	<declination>+00 48 55.0001</declination>
+	<!--NASA Catalogue-->
+	<declination>+00 48 54.9</declination>
 	<distance>400</distance>
 	<star>
 		<mass errorminus="0.02" errorplus="0.02">1.00</mass>
@@ -32,6 +38,8 @@
 			<discoveryyear>2008</discoveryyear>
 			<temperature>1316.3</temperature>
 			<transittime errorminus="0.0002" errorplus="0.0002" unit="BJD">2454400.19963</transittime>
+			<!--Exoplanet.eu Catalogue-->
+			<transittime errorminus="0.0002" errorplus="0.0002">2454400.19885</transittime>
 			<istransiting>1</istransiting>
 		</planet>
 		<name>CoRoT-5</name>

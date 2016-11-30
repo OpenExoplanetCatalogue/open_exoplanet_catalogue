@@ -1,6 +1,10 @@
 <system>
 	<name>HD 200964</name>
 	<rightascension>21 06 39.84239</rightascension>
+	<!--Exoplanet.eu Catalogue-->
+	<rightascension>21 06 40</rightascension>
+	<!--NASA Catalogue-->
+	<rightascension>21 06 39.84</rightascension>
 	<declination>+03 48 11.2280</declination>
 	<distance errorminus="4.8" errorplus="4.8">68.4</distance>
 	<star>
@@ -20,6 +24,8 @@
 		<temperature errorminus="44" errorplus="44">5164</temperature>
 		<metallicity errorminus="0.04" errorplus="0.04">-0.15</metallicity>
 		<spectraltype>K0</spectraltype>
+		<!--Exoplanet.eu Catalogue-->
+		<spectraltype>KO</spectraltype>
 		<age errorminus="0.6" errorplus="0.6">3.0</age>
 		<planet>
 			<name>HD 200964 b</name>
@@ -44,7 +50,7 @@
 			<periastron errorminus="57.1" errorplus="67.7">182.6</periastron>
 			<periastrontime errorminus="54.6" errorplus="51.1">2455000</periastrontime>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>15/09/23</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoveryyear>2010</discoveryyear>
 		</planet>
 	</star>

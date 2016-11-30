@@ -1,7 +1,13 @@
 <system>
 	<name>HD 7449</name>
 	<rightascension>01 14 29.32198</rightascension>
+	<!--NASA Catalogue-->
+	<rightascension>01 14 29.32</rightascension>
+	<!--Exoplanet.eu Catalogue-->
+	<rightascension>01 14 28</rightascension>
 	<declination>-05 02 50.5942</declination>
+	<!--Exoplanet.eu Catalogue-->
+	<declination>-05 02 51</declination>
 	<distance errorminus="0.71" errorplus="0.74">38.9</distance>
 	<binary>
 		<name>HD 7449</name>
@@ -9,7 +15,7 @@
 		<semimajoraxis errorminus="12.9" errorplus="32">17.9</semimajoraxis>
 		<inclination errorminus="25.8" errorplus="20.1">59.7</inclination>
 		<period errorminus="20500" errorplus="82900">24000</period>
-		<eccentricity upperlimit="0.5" />
+		<eccentricity upperlimit="0.5"/>
 		<star>
 			<name>HD 7449 A</name>
 			<name>HIP 5806</name>
@@ -56,7 +62,7 @@
 				<periastrontime errorminus="172" errorplus="85">2455883</periastrontime>
 				<description>HD 7449 c was found with the European High Accuracy Radial velocity Planet Searcher (HARPS) which can reach sub-meter-per-second precision. The host star shows signs of short-term activity due to magnetic features on the stellar surface. Subsequently the long term trend in the system was ascribed to the stellar companion, HD 7449 B.</description>
 				<discoverymethod>RV</discoverymethod>
-				<lastupdate>16/02/04</lastupdate>
+				<lastupdate>16/11/30</lastupdate>
 				<discoveryyear>2011</discoveryyear>
 				<list>Planets in binary systems, S-type</list>
 			</planet>

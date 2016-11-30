@@ -1,6 +1,10 @@
 <system>
 	<name>HD 564</name>
 	<rightascension>00 09 52.82123</rightascension>
+	<!--Exoplanet.eu Catalogue-->
+	<rightascension>00 09 53</rightascension>
+	<!--NASA Catalogue-->
+	<rightascension>00 09 52.82</rightascension>
 	<declination>-50 16 04.1606</declination>
 	<distance errorminus="2.5" errorplus="2.5">53.6</distance>
 	<star>
@@ -17,6 +21,8 @@
 		<age errorminus="3.1" errorplus="3.1">5.5</age>
 		<metallicity errorminus="0.05" errorplus="0.05">-0.2</metallicity>
 		<spectraltype>G2</spectraltype>
+		<!--Exoplanet.eu Catalogue-->
+		<spectraltype>G3V</spectraltype>
 		<magV errorminus="0.01" errorplus="0.01">8.29</magV>
 		<magB errorminus="0.02" errorplus="0.02">8.90</magB>
 		<magJ errorminus="0.021" errorplus="0.021">7.218</magJ>

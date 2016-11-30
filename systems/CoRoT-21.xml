@@ -1,7 +1,11 @@
 <system>
 	<name>CoRoT-21</name>
 	<rightascension>06 44 12.64</rightascension>
+	<!--Exoplanet.eu Catalogue-->
+	<rightascension>06 44 12</rightascension>
 	<declination>-00 17 57.06</declination>
+	<!--Exoplanet.eu Catalogue-->
+	<declination>-00 17 56.868</declination>
 	<star>
 		<mass>1.29</mass>
 		<radius>1.945</radius>
@@ -13,6 +17,8 @@
 		<magH errorminus="0.04" errorplus="0.04">13.98</magH>
 		<magK errorminus="0.05" errorplus="0.05">13.81</magK>
 		<spectraltype>FIV8</spectraltype>
+		<!--Exoplanet.eu Catalogue-->
+		<spectraltype>F8IV</spectraltype>
 		<planet>
 			<name>CoRoT-21 b</name>
 			<list>Confirmed planets</list>

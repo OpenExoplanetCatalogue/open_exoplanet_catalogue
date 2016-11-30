@@ -2,6 +2,10 @@
 	<name>WASP-14</name>
 	<rightascension>14 33 06</rightascension>
 	<declination>+21 53 41</declination>
+	<!--Exoplanet.eu Catalogue-->
+	<declination>+21 53 40.9999</declination>
+	<!--NASA Catalogue-->
+	<declination>+21 53 41.0</declination>
 	<distance errorminus="20" errorplus="20">160</distance>
 	<binary>
 		<name>WASP-14</name>
@@ -34,6 +38,8 @@
 				<eccentricity>0.087</eccentricity>
 				<inclination>84.79</inclination>
 				<transittime errorminus="0.00053" errorplus="0.00053" unit="BJD">2454463.57657</transittime>
+				<!--Exoplanet.eu Catalogue-->
+				<transittime errorminus="0.00025" errorplus="0.00025">2454963.93676</transittime>
 				<discoverymethod>transit</discoverymethod>
 				<lastupdate>12/04/08</lastupdate>
 				<discoveryyear>2008</discoveryyear>

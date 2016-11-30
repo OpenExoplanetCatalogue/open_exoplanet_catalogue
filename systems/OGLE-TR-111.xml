@@ -8,7 +8,11 @@
 		<radius>0.831</radius>
 		<metallicity>0.12</metallicity>
 		<spectraltype>G</spectraltype>
+		<!--Exoplanet.eu Catalogue-->
+		<spectraltype>G or K</spectraltype>
 		<magV>16.96</magV>
+		<!--NASA Catalogue-->
+		<magV>15.55</magV>
 		<magJ>14.7</magJ>
 		<magH>14.22</magH>
 		<magI>15.55</magI>
@@ -23,6 +27,8 @@
 			<eccentricity>0.0</eccentricity>
 			<inclination>88.1</inclination>
 			<transittime errorminus="0.00030" errorplus="0.00030" unit="BJD">2454092.80961</transittime>
+			<!--Exoplanet.eu Catalogue-->
+			<transittime errorminus="0.0005" errorplus="0.0005">2453470.5676</transittime>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>10/12/14</lastupdate>
 			<discoveryyear>2004</discoveryyear>

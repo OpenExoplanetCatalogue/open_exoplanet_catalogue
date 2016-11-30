@@ -1,6 +1,10 @@
 <system>
 	<name>HD 131496</name>
 	<rightascension>14 53 23</rightascension>
+	<!--Exoplanet.eu Catalogue-->
+	<rightascension>14 53 22</rightascension>
+	<!--NASA Catalogue-->
+	<rightascension>14 53 23.03</rightascension>
 	<declination>+18 14 07</declination>
 	<distance>110</distance>
 	<star>
@@ -13,6 +17,8 @@
 		<magK errorminus="0.018" errorplus="0.018">5.437</magK>
 		<metallicity>0.25</metallicity>
 		<spectraltype>K2</spectraltype>
+		<!--Exoplanet.eu Catalogue-->
+		<spectraltype>K0</spectraltype>
 		<planet>
 			<name>HD 131496 b</name>
 			<list>Confirmed planets</list>

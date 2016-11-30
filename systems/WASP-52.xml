@@ -2,6 +2,10 @@
 	<name>WASP-52</name>
 	<rightascension>23 13 59</rightascension>
 	<declination>+08 45 41</declination>
+	<!--Exoplanet.eu Catalogue-->
+	<declination>+08 45 41.04</declination>
+	<!--NASA Catalogue-->
+	<declination>+08 45 40.5</declination>
 	<distance errorminus="20" errorplus="20">140</distance>
 	<star>
 		<mass errorminus="0.03" errorplus="0.03">0.87</mass>
@@ -17,6 +21,8 @@
 			<radius errorminus="0.03" errorplus="0.03">1.27</radius>
 			<period errorminus="0.0000012" errorplus="0.0000012">1.7497798</period>
 			<transittime errorminus="0.00009" errorplus="0.00009" unit="BJD">2455793.68218</transittime>
+			<!--Exoplanet.eu Catalogue-->
+			<transittime errorminus="9e-05" errorplus="9e-05">2455793.68143</transittime>
 			<inclination errorminus="0.20" errorplus="0.20">85.35</inclination>
 			<eccentricity>0</eccentricity>
 			<description>This planet has been announced at the Extreme Solar Systems II conference in Jackson Hole by the WASP team.</description>

@@ -3,6 +3,8 @@
 	<rightascension>19 25 33</rightascension>
 	<declination>+44 31 44</declination>
 	<distance>589.92</distance>
+	<!--Exoplanet.eu Catalogue-->
+	<distance>584.1</distance>
 	<star>
 		<name>KOI-370</name>
 		<name>Kepler-145</name>
@@ -12,7 +14,13 @@
 		<magK errorminus="0.016" errorplus="0.016">10.628</magK>
 		<temperature errorminus="54.00" errorplus="54.00">6022.00</temperature>
 		<age errorminus="0.9700" errorplus="0.9700">4.2100</age>
+		<!--Exoplanet.eu Catalogue-->
+		<age errorplus="0.26" errorminus="0.24">2.62</age>
 		<radius errorminus="0.014" errorplus="0.012">1.98</radius>
+		<!--Exoplanet.eu Catalogue-->
+		<radius errorplus="0.012" errorminus="0.012">1.887</radius>
+		<!--NASA Catalogue-->
+		<radius errorplus="0.05" errorminus="0.05">1.85</radius>
 		<mass errorminus="0.030" errorplus="0.030">1.419</mass>
 		<planet>
 			<name>KOI-370.02</name>
@@ -27,7 +35,7 @@
 			<list>Confirmed planets</list>
 			<description>This planet was discovered by the Kepler spacecraft. The planet is part of a multiplanetary system. Its planetary nature has been confirmed using transit timing variations which arise because the planets in one system pull on each other and slightly alter the transit times.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>13/09/13</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoveryyear>2013</discoveryyear>
 			<istransiting>1</istransiting>
 		</planet>
@@ -45,7 +53,7 @@
 			<list>Confirmed planets</list>
 			<description>This planet was discovered by the Kepler spacecraft. The planet is part of a multiplanetary system. Its planetary nature has been confirmed using transit timing variations which arise because the planets in one system pull on each other and slightly alter the transit times.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>13/09/13</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoveryyear>2013</discoveryyear>
 			<istransiting>1</istransiting>
 		</planet>

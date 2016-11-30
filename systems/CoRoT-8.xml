@@ -2,6 +2,10 @@
 	<name>CoRoT-8</name>
 	<rightascension>19 26 21</rightascension>
 	<declination>+01 25 36</declination>
+	<!--Exoplanet.eu Catalogue-->
+	<declination>+01 25 36.0001</declination>
+	<!--NASA Catalogue-->
+	<declination>+01 25 35.2</declination>
 	<distance>380</distance>
 	<star>
 		<mass>0.88</mass>
@@ -28,6 +32,8 @@
 			<eccentricity>0.0</eccentricity>
 			<inclination>88.4</inclination>
 			<transittime errorminus="0.0004" errorplus="0.0004" unit="BJD">2454238.9750</transittime>
+			<!--Exoplanet.eu Catalogue-->
+			<transittime errorminus="0.0004" errorplus="0.0004">2454238.9743</transittime>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>10/06/14</lastupdate>
 			<discoveryyear>2010</discoveryyear>

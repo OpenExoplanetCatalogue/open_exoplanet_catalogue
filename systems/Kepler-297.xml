@@ -39,12 +39,16 @@
 			<name>KIC 11122894 c</name>
 			<name>KIC 11122894.02</name>
 			<radius errorminus="0.07" errorplus="0.30">0.66</radius>
+			<!--Exoplanet.eu Catalogue-->
+			<radius errorplus="0.105" errorminus="0.105">0.583</radius>
+			<!--NASA Catalogue-->
+			<radius errorplus="0.105" errorminus="0.105">0.583</radius>
 			<period errorminus=".000120" errorplus="0.000120">74.920137</period>
 			<transittime errorminus="0.0009800" errorplus="0.0009800">2454958.0377000</transittime>
 			<list>Confirmed planets</list>
 			<description>Kepler-297 c has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-297 c are still unknown, the object is highly unlikely to be a false positive.</description>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>15/12/03</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
 			<mass errorminus="0.03" errorplus="0.04">0.13</mass>

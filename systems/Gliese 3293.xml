@@ -1,7 +1,13 @@
 <system>
 	<name>Gliese 3293</name>
 	<rightascension>04 28 35.72</rightascension>
-	<declination>-25 10 08.9</declination>
+	<!--Exoplanet.eu Catalogue-->
+	<rightascension>04 28 36</rightascension>
+	<declination>-25 10 09</declination>
+	<!--Exoplanet.eu Catalogue-->
+	<declination>-25 10 09</declination>
+	<!--NASA Catalogue-->
+	<declination>-25 10 09.5</declination>
 	<distance errorminus="2.6" errorplus="2.6">18.2</distance>
 	<star>
 		<name>Gliese 3293</name>
@@ -13,6 +19,8 @@
 		<mass>0.42</mass>
 		<radius errorminus="0.027" errorplus="0.027">0.404</radius>
 		<magV>11.962</magV>
+		<!--Exoplanet.eu Catalogue-->
+		<magV>11.96</magV>
 		<magB>13.6</magB>
 		<magJ errorminus="0.024" errorplus="0.024">8.362</magJ>
 		<magH errorminus="0.038" errorplus="0.038">7.749</magH>
@@ -36,7 +44,7 @@
 			<eccentricity errorminus="0.04" errorplus="0.04">0.09</eccentricity>
 			<istransiting>0</istransiting>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>14/11/25</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoveryyear>2014</discoveryyear>
 		</planet>
 		<planet>
@@ -55,7 +63,7 @@
 			<eccentricity errorminus="0.06" errorplus="0.06">0.37</eccentricity>
 			<istransiting>0</istransiting>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>14/11/25</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoveryyear>2014</discoveryyear>
 		</planet>
 		<planet>
@@ -67,14 +75,22 @@
 			<name>RAVE J042835.7-251009 c</name>
 			<list>Controversial</list>
 			<mass errorminus="0.005" errorplus="0.005">0.027</mass>
+			<!--NASA Catalogue-->
+			<mass errorminus="0.005" errorplus="0.005">0.081</mass>
 			<period errorminus="0.12" errorplus="0.12">48.14</period>
+			<!--NASA Catalogue-->
+			<period errorminus="0.3" errorplus="0.3">123.75</period>
 			<transittime errorminus="6.0" errorplus="6.0">2455643.3</transittime>
 			<description>Two Neptune-mass planets orbit Gliese 3293, possibly together with a super-Earth planet. Gliese 3293 is a star with high proper motion.</description>
 			<semimajoraxis>0.1939</semimajoraxis>
+			<!--NASA Catalogue-->
+			<semimajoraxis>0.364</semimajoraxis>
 			<eccentricity errorminus="0.16" errorplus="0.16">0.13</eccentricity>
+			<!--NASA Catalogue-->
+			<eccentricity errorplus="0.06" errorminus="0.06">0.33</eccentricity>
 			<istransiting>0</istransiting>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>14/11/25</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoveryyear>2014</discoveryyear>
 		</planet>
 	</star>

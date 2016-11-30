@@ -1,6 +1,8 @@
 <system>
 	<name>HATS-7</name>
 	<rightascension>13 55 25.68</rightascension>
+	<!--Exoplanet.eu Catalogue-->
+	<rightascension>13 55 25</rightascension>
 	<declination>-21 12 27.7</declination>
 	<distance errorminus="12" errorplus="15">257</distance>
 	<star>
@@ -29,7 +31,7 @@
 			<period errorminus="0.0000054" errorplus="0.0000054">3.1853150</period>
 			<transittime errorminus="0.00058" errorplus="0.00058">2456528.29697</transittime>
 			<inclination errorminus="0.75" errorplus="0.75">87.92</inclination>
-			<eccentricity upperlimit="0.170" />
+			<eccentricity upperlimit="0.170"/>
 			<mass errorminus="0.012" errorplus="0.012">0.120</mass>
 			<radius errorminus="0.034" errorplus="0.046">0.563</radius>
 			<semimajoraxis errorminus="0.00043" errorplus="0.00043">0.04012</semimajoraxis>

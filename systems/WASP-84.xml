@@ -3,6 +3,10 @@
 	<name>2MASS 08442570+0151361</name>
 	<rightascension>08 44 26</rightascension>
 	<declination>+01 51 36</declination>
+	<!--Exoplanet.eu Catalogue-->
+	<declination>+01 50 35.88</declination>
+	<!--NASA Catalogue-->
+	<declination>+01 51 36.1</declination>
 	<distance errorminus="20" errorplus="20">125</distance>
 	<star>
 		<name>WASP-84</name>
@@ -14,6 +18,8 @@
 		<spectraltype>K0</spectraltype>
 		<age>1</age>
 		<magV errorminus="0.10" errorplus="0.10">11.64</magV>
+		<!--NASA Catalogue-->
+		<magV errorminus="0.08" errorplus="0.08">10.83</magV>
 		<magB errorminus="0.08" errorplus="0.08">10.83</magB>
 		<magJ errorminus="0.03" errorplus="0.03">9.35</magJ>
 		<magH errorminus="0.02" errorplus="0.02">8.96</magH>

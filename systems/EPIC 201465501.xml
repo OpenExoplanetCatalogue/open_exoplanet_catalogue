@@ -17,7 +17,9 @@
 		<magH errorminus="0.022" errorplus="0.022">11.710</magH>
 		<magK errorminus="0.023" errorplus="0.023">11.495</magK>
 		<metallicity errorminus="0.20" errorplus="0.20">-0.25</metallicity>
-		<age lowerlimit="1" />
+		<!--Exoplanet.eu Catalogue-->
+		<metallicity errorminus="0.1" errorplus="0.12">-0.46</metallicity>
+		<age lowerlimit="1"/>
 		<planet>
 			<name>EPIC 201465501 b</name>
 			<name>EPIC 201465501.01</name>
@@ -31,7 +33,7 @@
 			<description>K2-9b was discovered by the Kepler spacecraft during its extended K2 mission, Campaign 1. It receives approximately Earth-like insolation and has a radius intermediate between that of Earth and Neptune. The orbit most likely has a low eccentricity.</description>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
-			<lastupdate>16/01/21</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoveryyear>2015</discoveryyear>
 		</planet>
 	</star>

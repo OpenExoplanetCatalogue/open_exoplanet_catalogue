@@ -2,6 +2,10 @@
 	<name>CoRoT-26</name>
 	<rightascension>18 39 00.13</rightascension>
 	<declination>+06 58 11.71</declination>
+	<!--Exoplanet.eu Catalogue-->
+	<declination>+06 58 12</declination>
+	<!--NASA Catalogue-->
+	<declination>+06 58 11.2</declination>
 	<distance errorminus="110" errorplus="205">1670</distance>
 	<star>
 		<name>CoRoT-26</name>
@@ -17,6 +21,8 @@
 		<temperature errorminus="100" errorplus="100">5590</temperature>
 		<metallicity errorminus="0.13" errorplus="0.13">0.01</metallicity>
 		<spectraltype>G5</spectraltype>
+		<!--Exoplanet.eu Catalogue-->
+		<spectraltype>G8IV</spectraltype>
 		<planet>
 			<name>CoRoT-26 b</name>
 			<list>Confirmed planets</list>
@@ -28,6 +34,8 @@
 			<inclination errorminus="1.0" errorplus="2.2">86.8</inclination>
 			<discoverymethod>transit</discoverymethod>
 			<discoveryyear>2013</discoveryyear>
+			<!--Exoplanet.eu Catalogue-->
+			<discoveryyear>2012</discoveryyear>
 			<transittime errorminus="0.0008" errorplus="0.0008" unit="HJD">2454573.6299</transittime>
 			<lastupdate>13/05/24</lastupdate>
 			<istransiting>1</istransiting>

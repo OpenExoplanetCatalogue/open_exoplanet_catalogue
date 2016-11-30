@@ -1,6 +1,10 @@
 <system>
 	<name>WASP-55</name>
 	<rightascension>13 55 02</rightascension>
+	<!--Exoplanet.eu Catalogue-->
+	<rightascension>13 35 02</rightascension>
+	<!--NASA Catalogue-->
+	<rightascension>13 35 01.95</rightascension>
 	<declination>-17 30 13</declination>
 	<distance>330</distance>
 	<star>
@@ -23,6 +27,8 @@
 			<eccentricity>0.0</eccentricity>
 			<inclination>89.2</inclination>
 			<transittime errorminus="0.0003" errorplus="0.0003" unit="BJD">2455737.94039</transittime>
+			<!--Exoplanet.eu Catalogue-->
+			<transittime errorminus="0.0003" errorplus="0.0003">2455737.9396</transittime>
 			<description>This planet has been announced at the Extreme Solar Systems II conference in Jackson Hole by the WASP team.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>12/04/24</lastupdate>

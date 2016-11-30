@@ -2,6 +2,10 @@
 	<name>Kepler-445</name>
 	<rightascension>19 54 56.668</rightascension>
 	<declination>+46 29 55.08</declination>
+	<!--Exoplanet.eu Catalogue-->
+	<declination>+46 29 55.0001</declination>
+	<!--NASA Catalogue-->
+	<declination>+46 29 54.8</declination>
 	<distance>90</distance>
 	<star>
 		<name>Kepler-445</name>
@@ -22,12 +26,14 @@
 			<name>KIC 9730163 b</name>
 			<name>KIC 9730163.02</name>
 			<list>Confirmed planets</list>
-			<mass lowerlimit="0.012583" upperlimit="0.018874" />
+			<mass lowerlimit="0.012583" upperlimit="0.018874"/>
 			<radius errorminus="0.020960" errorplus="0.020960">0.143986</radius>
 			<period errorminus="0.000011" errorplus="0.000011">2.984151</period>
 			<inclination errorminus="0.28" errorplus="0.18">89.74</inclination>
 			<semimajoraxis errorminus="0.001" errorplus="0.001">0.102</semimajoraxis>
 			<transittime errorminus="0.0033" errorplus="0.0033" unit="BJD">2454966.1194</transittime>
+			<!--Exoplanet.eu Catalogue-->
+			<transittime errorminus="0.0033" errorplus="0.0033">2454699.8806</transittime>
 			<description>Kepler-445 is an M-dwarf with transit signals of three short-period planets.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>15/01/06</lastupdate>
@@ -41,15 +47,17 @@
 			<name>KIC 9730163 c</name>
 			<name>KIC 9730163.01</name>
 			<list>Confirmed planets</list>
-			<mass lowerlimit="0.025166" upperlimit="0.028311" />
+			<mass lowerlimit="0.025166" upperlimit="0.028311"/>
 			<radius errorminus="0.032807" errorplus="0.032807">0.228737</radius>
 			<period errorminus="0.000011" errorplus="0.000011">4.871229</period>
 			<inclination errorminus="0.10" errorplus="0.07">89.91</inclination>
 			<semimajoraxis errorminus="0.002" errorplus="0.002">0.141</semimajoraxis>
 			<transittime errorminus="0.0019" errorplus="0.0019" unit="BJD">2454966.6408</transittime>
+			<!--Exoplanet.eu Catalogue-->
+			<transittime errorminus="0.0019" errorplus="0.0019">2454132.3692</transittime>
 			<description>Kepler-445 is an M-dwarf with transit signals of three short-period planets.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>15/01/06</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoveryyear>2015</discoveryyear>
 			<istransiting>1</istransiting>
 		</planet>
@@ -58,15 +66,17 @@
 			<name>KOI-2704 d</name>
 			<name>KIC 9730163 d</name>
 			<list>Confirmed planets</list>
-			<mass lowerlimit="0.009437" upperlimit="0.012583" />
+			<mass lowerlimit="0.009437" upperlimit="0.012583"/>
 			<radius errorminus="0.017315" errorplus="0.017315">0.113913</radius>
 			<period errorminus="0.00040" errorplus="0.00040">8.15275</period>
 			<inclination errorminus="0.25" errorplus="0.27">89.61</inclination>
 			<semimajoraxis errorminus="0.003" errorplus="0.003">0.200</semimajoraxis>
 			<transittime errorminus="0.05" errorplus="0.05" unit="BJD">2454836.7512226</transittime>
+			<!--Exoplanet.eu Catalogue-->
+			<transittime errorminus="0.05" errorplus="0.05">2454829.24878</transittime>
 			<description>Kepler-445 is an M-dwarf with transit signals of three short-period planets.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>15/01/06</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoveryyear>2015</discoveryyear>
 			<istransiting>1</istransiting>
 		</planet>

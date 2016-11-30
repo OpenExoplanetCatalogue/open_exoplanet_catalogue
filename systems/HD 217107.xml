@@ -39,14 +39,32 @@
 			<name>HD 217107 c</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.072" errorplus="0.072">4.513</mass>
+			<!--Exoplanet.eu Catalogue-->
+			<mass errorminus="0.25" errorplus="0.25">2.49</mass>
+			<!--NASA Catalogue-->
+			<mass errorminus="0.15" errorplus="0.15">2.6</mass>
 			<period errorminus="21" errorplus="21">5189</period>
+			<!--Exoplanet.eu Catalogue-->
+			<period>4210.0</period>
+			<!--NASA Catalogue-->
+			<period errorminus="220.0" errorplus="220.0">4270.0</period>
 			<semimajoraxis errorminus="0.080" errorplus="0.080">6.074</semimajoraxis>
+			<!--Exoplanet.eu Catalogue-->
+			<semimajoraxis errorminus="0.36" errorplus="0.36">5.27</semimajoraxis>
+			<!--NASA Catalogue-->
+			<semimajoraxis errorminus="0.38" errorplus="0.38">5.32</semimajoraxis>
 			<eccentricity errorminus="0.0086" errorplus="0.0086">0.3848</eccentricity>
+			<!--Exoplanet.eu Catalogue-->
+			<eccentricity errorplus="0.033" errorminus="0.033">0.517</eccentricity>
+			<!--NASA Catalogue-->
+			<eccentricity errorplus="0.033" errorminus="0.033">0.517</eccentricity>
 			<periastrontime errorminus="16" errorplus="16" unit="BJD">2450770</periastrontime>
 			<periastron errorminus="1.7" errorplus="1.7">206.3</periastron>
+			<!--Exoplanet.eu Catalogue-->
+			<periastron errorminus="6.0" errorplus="6.0">198.6</periastron>
 			<discoverymethod>RV</discoverymethod>
 			<description>HD 217107 c is a giant planet in a long-period, eccentric orbit. It is a member of a hierarchical two-planet system.</description>
-			<lastupdate>15/08/15</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoveryyear>2005</discoveryyear>
 		</planet>
 	</star>

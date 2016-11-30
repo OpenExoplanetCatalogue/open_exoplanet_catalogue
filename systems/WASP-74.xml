@@ -1,6 +1,8 @@
 <system>
 	<name>WASP-74</name>
 	<rightascension>20 18 09.32</rightascension>
+	<!--Exoplanet.eu Catalogue-->
+	<rightascension>20 18 10</rightascension>
 	<declination>-01 04 32.6</declination>
 	<distance errorminus="20" errorplus="20">120</distance>
 	<star>
@@ -35,7 +37,7 @@
 			<period errorminus="0.000001" errorplus="0.000001">2.137750</period>
 			<transittime errorminus="0.0002" errorplus="0.0002" unit="HJD">2456506.8918</transittime>
 			<inclination errorminus="0.24" errorplus="0.24">79.81</inclination>
-			<eccentricity upperlimit="0.07" />
+			<eccentricity upperlimit="0.07"/>
 			<temperature errorminus="40" errorplus="40">1910</temperature>
 			<description>This planet has been announced in 2014 by the WASP team. The scientific paper describing the discovery was published on the arXiv in 2014. The planet was discovered via the transit method and confirmed using radial velocity measurements.</description>
 			<discoverymethod>transit</discoverymethod>

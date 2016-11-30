@@ -4,12 +4,20 @@
 	<rightascension>07 59 06</rightascension>
 	<declination>+15 23 30</declination>
 	<distance>30.7</distance>
+	<!--Exoplanet.eu Catalogue-->
+	<distance>29.28</distance>
+	<!--NASA Catalogue-->
+	<distance>25.2</distance>
 	<star>
 		<name>Gliese 3470</name>
 		<name>GJ 3470</name>
 		<mass errorminus="0.06" errorplus="0.06">0.51</mass>
 		<radius errorminus="0.04" errorplus="0.04">0.48</radius>
 		<magV>12.3</magV>
+		<!--Exoplanet.eu Catalogue-->
+		<magV>12.27</magV>
+		<!--NASA Catalogue-->
+		<magV errorminus="0.012" errorplus="0.012">12.33</magV>
 		<magB>13.5</magB>
 		<magR>11.2</magR>
 		<magI>9.8</magI>
@@ -19,7 +27,7 @@
 		<metallicity errorminus="0.06" errorplus="0.06">0.17</metallicity>
 		<spectraltype>M1.5</spectraltype>
 		<temperature errorminus="50" errorplus="50">3652</temperature>
-		<age lowerlimit="1" upperlimit="4" />
+		<age lowerlimit="1" upperlimit="4"/>
 		<planet>
 			<name>Gliese 3470 b</name>
 			<name>GJ 3470 b</name>
@@ -34,11 +42,13 @@
 			<eccentricity errorminus="0.012" errorplus="0.016">0.017</eccentricity>
 			<periastron errorminus="1.20" errorplus="0.96">1.70</periastron>
 			<transittime errorminus="0.00021" errorplus="0.00021" unit="BJD">2455983.70472</transittime>
+			<!--Exoplanet.eu Catalogue-->
+			<transittime errorminus="0.00015" errorplus="0.00015">2456090.4769</transittime>
 			<description>The planet Gliese 3470 b is a transiting Hot Uranus orbiting a nearby M-dwarf. The planet was originally seen in HARPS radial velocity data and then confirmed to be a transiting planet. Spitzer observations show that it has a very low density.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>15/04/29</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoveryyear>2012</discoveryyear>
-			<temperature lowerlimit="506" upperlimit="702" />
+			<temperature lowerlimit="506" upperlimit="702"/>
 			<istransiting>1</istransiting>
 		</planet>
 	</star>

@@ -1,6 +1,10 @@
 <system>
 	<name>HD 69830</name>
 	<rightascension>08 18 23</rightascension>
+	<!--Exoplanet.eu Catalogue-->
+	<rightascension>08 18 22</rightascension>
+	<!--NASA Catalogue-->
+	<rightascension>08 18 23.95</rightascension>
 	<declination>-12 37 55</declination>
 	<distance>12.6</distance>
 	<star>
@@ -30,12 +34,16 @@
 			<name>HD 69830 c</name>
 			<list>Confirmed planets</list>
 			<mass>0.038</mass>
+			<!--Exoplanet.eu Catalogue-->
+			<mass errorminus="0.082" errorplus="inf">0.17</mass>
+			<!--NASA Catalogue-->
+			<mass>0.0371</mass>
 			<period>31.56</period>
 			<semimajoraxis>0.186</semimajoraxis>
 			<eccentricity>0.13</eccentricity>
 			<inclination>13</inclination>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/10/19</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoveryyear>2006</discoveryyear>
 			<temperature>520.3</temperature>
 		</planet>
@@ -43,12 +51,16 @@
 			<name>HD 69830 d</name>
 			<list>Confirmed planets</list>
 			<mass>0.058</mass>
+			<!--Exoplanet.eu Catalogue-->
+			<mass errorminus="0.13" errorplus="inf">0.26</mass>
+			<!--NASA Catalogue-->
+			<mass>0.057</mass>
 			<period>197</period>
 			<semimajoraxis>0.63</semimajoraxis>
 			<eccentricity>0.07</eccentricity>
 			<inclination>13</inclination>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/10/19</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoveryyear>2006</discoveryyear>
 			<temperature>282.9</temperature>
 		</planet>

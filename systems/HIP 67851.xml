@@ -17,6 +17,8 @@
 		<magH errorminus="0.246" errorplus="0.246">3.810</magH>
 		<magK errorminus="0.236" errorplus="0.236">3.751</magK>
 		<spectraltype>K0III</spectraltype>
+		<!--Exoplanet.eu Catalogue-->
+		<spectraltype>KOIII</spectraltype>
 		<temperature errorminus="100" errorplus="100">4805</temperature>
 		<mass errorminus="0.18" errorplus="0.18">1.30</mass>
 		<radius errorminus="0.29" errorplus="0.29">5.87</radius>
@@ -41,13 +43,17 @@
 			<period errorminus="88.3" errorplus="88.3">2131.8</period>
 			<eccentricity errorminus="0.06" errorplus="0.06">0.17</eccentricity>
 			<periastron errorminus="17" errorplus="17">205</periastron>
+			<!--Exoplanet.eu Catalogue-->
+			<periastron errorminus="20.5" errorplus="20.5">166.5</periastron>
 			<mass errorminus="0.76" errorplus="0.76">5.98</mass>
 			<semimajoraxis errorminus="0.23" errorplus="0.23">3.82</semimajoraxis>
 			<discoveryyear>2014</discoveryyear>
+			<!--Exoplanet.eu Catalogue-->
+			<discoveryyear>2015</discoveryyear>
 			<discoverymethod>RV</discoverymethod>
 			<list>Confirmed planets</list>
 			<description>HIP 67851 c orbits a red giant star. Currently the parameters are sufficiently uncertain that it is not clear whether or not it will be engulfed during the further expansion of its parent star.</description>
-			<lastupdate>15/05/25</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 		</planet>
 	</star>
 </system>

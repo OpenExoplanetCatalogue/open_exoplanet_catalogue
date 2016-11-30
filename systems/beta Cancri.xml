@@ -2,7 +2,7 @@
 	<name>beta Cancri</name>
 	<name>HD 69267</name>
 	<rightascension>08 16 30.92101</rightascension>
-	<declination>+09 11 07.9579</declination>
+	<declination>+09 11 08</declination>
 	<distance errorminus="1.6" errorplus="1.6">93.0</distance>
 	<star>
 		<name>beta Cancri</name>
@@ -24,6 +24,10 @@
 		<temperature errorminus="17.5" errorplus="17.5">4092.1</temperature>
 		<age errorminus="0.34" errorplus="0.34">1.85</age>
 		<magV errorminus="0.009" errorplus="0.009">3.520</magV>
+		<!--Exoplanet.eu Catalogue-->
+		<magV>3.5</magV>
+		<!--NASA Catalogue-->
+		<magV>3.53</magV>
 		<magB errorminus="0.007" errorplus="0.007">5.000</magB>
 		<magR>2.42</magR>
 		<magI>1.62</magI>
@@ -46,7 +50,7 @@
 			<periastrontime errorminus="9.8" errorplus="9.8">2453229.8</periastrontime>
 			<description>The planet beta Cancri b is orbiting the brighest star in the constellation Cancer once every 600 days. It was found using data from 10, collected with the Bohyunsan Observatory.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>15/11/26</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoveryyear>2014</discoveryyear>
 		</planet>
 	</star>

@@ -1,6 +1,10 @@
 <system>
 	<name>HD 65216</name>
 	<rightascension>07 53 41</rightascension>
+	<!--Exoplanet.eu Catalogue-->
+	<rightascension>07 53 40</rightascension>
+	<!--NASA Catalogue-->
+	<rightascension>07 53 41.32</rightascension>
 	<declination>-63 38 50</declination>
 	<distance>34.3</distance>
 	<star>
@@ -25,10 +29,22 @@
 			<name>HD 65216 c</name>
 			<list>Confirmed planets</list>
 			<mass>2.24</mass>
+			<!--Exoplanet.eu Catalogue-->
+			<mass errorminus="0.03" errorplus="0.03">0.17</mass>
+			<!--NASA Catalogue-->
+			<mass errorminus="0.03" errorplus="0.03">0.17</mass>
 			<period>5542</period>
+			<!--Exoplanet.eu Catalogue-->
+			<period>152.6</period>
+			<!--NASA Catalogue-->
+			<period errorminus="0.6" errorplus="0.6">152.6</period>
 			<eccentricity>0.15</eccentricity>
+			<!--Exoplanet.eu Catalogue-->
+			<eccentricity errorplus="0.1" errorminus="0.1">0.02</eccentricity>
+			<!--NASA Catalogue-->
+			<eccentricity errorplus="0.1" errorminus="0.1">0.02</eccentricity>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>11/09/13</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoveryyear>2011</discoveryyear>
 		</planet>
 		<name>HD 65216</name>

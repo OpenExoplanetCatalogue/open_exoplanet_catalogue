@@ -2,6 +2,10 @@
 	<name>HD 183263</name>
 	<rightascension>19 28 24.6</rightascension>
 	<declination>+08 21 28.9</declination>
+	<!--Exoplanet.eu Catalogue-->
+	<declination>+08 21 28.0001</declination>
+	<!--NASA Catalogue-->
+	<declination>+08 21 29.0</declination>
 	<distance errorminus="2.8" errorplus="2.8">55.1</distance>
 	<star>
 		<name>HD 183263</name>
@@ -38,14 +42,32 @@
 			<name>HD 183263 c</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.12" errorplus="0.12">6.90</mass>
+			<!--Exoplanet.eu Catalogue-->
+			<mass errorminus="0.59" errorplus="0.59">3.82</mass>
+			<!--NASA Catalogue-->
+			<mass errorminus="0.55" errorplus="0.55">3.57</mass>
 			<period errorminus="71" errorplus="71">4684</period>
+			<!--Exoplanet.eu Catalogue-->
+			<period>2950.0</period>
+			<!--NASA Catalogue-->
+			<period errorminus="110.0" errorplus="110.0">3070.0</period>
 			<semimajoraxis errorminus="0.11" errorplus="0.11">5.69</semimajoraxis>
+			<!--Exoplanet.eu Catalogue-->
+			<semimajoraxis errorminus="0.47" errorplus="0.47">4.25</semimajoraxis>
+			<!--NASA Catalogue-->
+			<semimajoraxis errorminus="0.28" errorplus="0.28">4.35</semimajoraxis>
 			<eccentricity errorminus="0.010" errorplus="0.010">0.051</eccentricity>
+			<!--Exoplanet.eu Catalogue-->
+			<eccentricity errorplus="0.076" errorminus="0.076">0.253</eccentricity>
+			<!--NASA Catalogue-->
+			<eccentricity errorplus="0.064" errorminus="0.064">0.239</eccentricity>
 			<periastrontime errorminus="310" errorplus="310">2450430</periastrontime>
 			<periastron errorminus="22" errorplus="22">299</periastron>
+			<!--Exoplanet.eu Catalogue-->
+			<periastron errorminus="9.1" errorplus="9.1">339.6</periastron>
 			<discoverymethod>RV</discoverymethod>
 			<description>HD 183263 c is a massive Jupiter-analogue in a system containing an inner giant planet in an eccentric orbit.</description>
-			<lastupdate>15/08/15</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoveryyear>2008</discoveryyear>
 		</planet>
 	</star>

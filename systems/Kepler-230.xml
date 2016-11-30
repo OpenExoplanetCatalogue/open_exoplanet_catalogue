@@ -38,12 +38,16 @@
 			<name>KIC 11018648 c</name>
 			<name>KIC 11018648.02</name>
 			<radius errorminus="0.00365" errorplus="0.09478">0.18591</radius>
+			<!--Exoplanet.eu Catalogue-->
+			<radius errorplus="0.093" errorminus="0.093">0.182</radius>
+			<!--NASA Catalogue-->
+			<radius errorplus="0.093" errorminus="0.093">0.182</radius>
 			<period errorminus=".001618" errorplus="0.001618">91.773242</period>
 			<transittime errorminus="0.0094100" errorplus="0.0094100">2455026.8307300</transittime>
 			<list>Confirmed planets</list>
 			<description>Kepler-230 c has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-230 c are still unknown, the object is highly unlikely to be a false positive.</description>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/02/26</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
 		</planet>

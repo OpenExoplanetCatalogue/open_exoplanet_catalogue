@@ -2,7 +2,7 @@
 	<name>KOI-135</name>
 	<name>Kepler-43</name>
 	<rightascension>19 00 58</rightascension>
-	<declination>+46 40 06</declination>
+	<declination>+46 40 05.9999</declination>
 	<distance errorminus="250" errorplus="250">1950</distance>
 	<star>
 		<name>KOI-135</name>
@@ -18,9 +18,15 @@
 		<temperature errorminus="100" errorplus="100">6050</temperature>
 		<radius errorminus="0.03" errorplus="0.05">1.38</radius>
 		<mass errorminus="0.04" errorplus="0.04">1.27</mass>
+		<!--Exoplanet.eu Catalogue-->
+		<mass errorplus="0.09" errorminus="0.09">1.32</mass>
+		<!--NASA Catalogue-->
+		<mass errorplus="0.09" errorminus="0.09">1.32</mass>
 		<age errorminus="0.7" errorplus="0.8">2.3</age>
 		<metallicity errorminus="0.10" errorplus="0.10">0.40</metallicity>
 		<spectraltype>F8V</spectraltype>
+		<!--Exoplanet.eu Catalogue-->
+		<spectraltype>G0V/G0IV</spectraltype>
 		<planet>
 			<name>KOI-135 b</name>
 			<name>Kepler-43 b</name>
@@ -31,14 +37,20 @@
 			<mass errorminus="0.26" errorplus="0.26">3.23</mass>
 			<radius errorminus="0.06" errorplus="0.07">1.22</radius>
 			<period errorminus="0.00000020" errorplus="0.00000020">3.02409309</period>
+			<!--Exoplanet.eu Catalogue-->
+			<period>3.024095</period>
+			<!--NASA Catalogue-->
+			<period errorminus="6e-07" errorplus="6e-07">3.0240949</period>
 			<transittime errorminus="0.00005" errorplus="0.00005" unit="BJD">2455095.45227</transittime>
+			<!--Exoplanet.eu Catalogue-->
+			<transittime errorminus="0.0006" errorplus="0.0006">2454965.4159</transittime>
 			<inclination errorminus="0.37" errorplus="0.18">84.57</inclination>
 			<eccentricity errorminus="0.017" errorplus="0.027">0.017</eccentricity>
 			<periastron errorminus="81" errorplus="27">52</periastron>
 			<semimajoraxis errorminus="0.0005" errorplus="0.0005">0.0444</semimajoraxis>
 			<list>Confirmed planets</list>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>15/12/03</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoveryyear>2011</discoveryyear>
 			<istransiting>1</istransiting>
 		</planet>

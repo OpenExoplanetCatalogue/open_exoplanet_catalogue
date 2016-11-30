@@ -13,7 +13,11 @@
 		<magH errorminus="0.266" errorplus="0.266">3.582</magH>
 		<magK errorminus="0.232" errorplus="0.232">3.501</magK>
 		<metallicity>-0.04</metallicity>
+		<!--Exoplanet.eu Catalogue-->
+		<metallicity errorminus="0.03" errorplus="0.03">0.08</metallicity>
 		<spectraltype>K3V</spectraltype>
+		<!--Exoplanet.eu Catalogue-->
+		<spectraltype>K1V</spectraltype>
 		<planet>
 			<name>Gliese 785 b</name>
 			<name>GJ 785 b</name>
@@ -31,14 +35,20 @@
 			<name>LHS 488 b</name>
 			<list>Confirmed planets</list>
 			<mass>0.05316</mass>
+			<!--Exoplanet.eu Catalogue-->
+			<mass errorminus="0.003" errorplus="0.003">0.0532</mass>
+			<!--NASA Catalogue-->
+			<mass errorminus="0.0028" errorplus="0.0028">0.0532</mass>
 			<period>74.72</period>
 			<semimajoraxis>0.32</semimajoraxis>
 			<eccentricity>0.13</eccentricity>
 			<description>The planetary system around the star HD 192310 consists of two Neptune-mass planets and is located in the constellation of Capricornus.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>11/08/18</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoveryyear>2010</discoveryyear>
 			<temperature>331.7</temperature>
+			<!--Exoplanet.eu Catalogue-->
+			<temperature>355.0</temperature>
 		</planet>
 		<planet>
 			<name>Gliese 785 c</name>
@@ -57,14 +67,20 @@
 			<name>LHS 488 c</name>
 			<list>Confirmed planets</list>
 			<mass>0.0754</mass>
+			<!--Exoplanet.eu Catalogue-->
+			<mass errorminus="0.02" errorplus="0.02">0.076</mass>
+			<!--NASA Catalogue-->
+			<mass errorminus="0.016" errorplus="0.016">0.076</mass>
 			<period>525.8</period>
 			<semimajoraxis>1.18</semimajoraxis>
 			<eccentricity>0.32</eccentricity>
 			<description>The planetary system around the star HD 192310 consists of two Neptune-mass planets and is located in the constellation of Capricornus. The outer planet Gliese 785 c is at the outer edge of the habitable zone.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>11/08/18</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoveryyear>2011</discoveryyear>
 			<temperature>171.8</temperature>
+			<!--Exoplanet.eu Catalogue-->
+			<temperature>185.0</temperature>
 		</planet>
 		<name>Gliese 785</name>
 		<temperature>5166.0</temperature>

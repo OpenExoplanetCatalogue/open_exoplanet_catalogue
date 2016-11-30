@@ -1,6 +1,8 @@
 <system>
 	<name>WASP-46</name>
 	<rightascension>21 14 57</rightascension>
+	<!--NASA Catalogue-->
+	<rightascension>21 14 56.88</rightascension>
 	<declination>-55 52 18</declination>
 	<star>
 		<mass>0.956</mass>
@@ -25,6 +27,8 @@
 			<eccentricity>0.0</eccentricity>
 			<inclination>82.63</inclination>
 			<transittime errorminus="0.00020" errorplus="0.00020" unit="BJD">2455392.31627</transittime>
+			<!--Exoplanet.eu Catalogue-->
+			<transittime errorminus="0.0002" errorplus="0.0002">2455392.31553</transittime>
 			<description>WASP-46 b has about twice the mass of Jupiter and orbits a G6V star which shows evidence of being photospherically and chromospherically active.</description>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>11/05/17</lastupdate>

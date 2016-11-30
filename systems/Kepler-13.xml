@@ -2,6 +2,10 @@
 	<name>Kepler-13</name>
 	<rightascension>19 07 53.1072</rightascension>
 	<declination>+46 52 05.953</declination>
+	<!--Exoplanet.eu Catalogue-->
+	<declination>+46 52 05.9999</declination>
+	<!--NASA Catalogue-->
+	<declination>+46 52 06.1</declination>
 	<distance errorminus="106" errorplus="106">530</distance>
 	<binary>
 		<name>Kepler-13</name>
@@ -42,6 +46,8 @@
 				<period errorminus="0.00000037" errorplus="0.00000037">1.76358799</period>
 				<transittime errorminus="0.0000100" errorplus="0.0000100">2454953.5651260</transittime>
 				<semimajoraxis errorminus="0.00066" errorplus="0.00066">0.03423</semimajoraxis>
+				<!--NASA Catalogue-->
+				<semimajoraxis errorminus="0.00087" errorplus="0.00087">0.03641</semimajoraxis>
 				<inclination>86.6</inclination>
 				<temperature errorminus="160" errorplus="160">2750</temperature>
 				<spinorbitalignment errorminus="2.0" errorplus="2.0">58.6</spinorbitalignment>
@@ -82,7 +88,7 @@
 				<name>KOI-13 C</name>
 				<name>KIC 9941662 C</name>
 				<name>BD+46 2629 C</name>
-				<temperature upperlimit="4700" />
+				<temperature upperlimit="4700"/>
 				<mass errorminus="0.175" errorplus="0.175">0.575</mass>
 			</star>
 		</binary>
