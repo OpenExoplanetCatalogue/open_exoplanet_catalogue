@@ -3,8 +3,6 @@
 	<name>KOI-1442</name>
 	<name>KIC 11600889</name>
 	<rightascension>19 04 09</rightascension>
-	<!--NASA Catalogue-->
-	<rightascension>19 04 08.72</rightascension>
 	<declination>+49 36 52</declination>
 	<distance>326.4</distance>
 	<star>
@@ -26,9 +24,7 @@
 			<name>KIC 11600889 b</name>
 			<period>0.669310</period>
 			<radius errorminus="0.001823" errorplus="0.001823">0.097509</radius>
-			<!--NASA Catalogue-->
-			<radius errorplus="0.002" errorminus="0.002">0.095</radius>
-			<mass upperlimit="0.010066"/>
+			<mass upperlimit="0.010066" />
 			<list>Confirmed planets</list>
 			<description>This planet has been discovered by the Kepler spacecraft. It was confirmed using a combination of high resolution imaging and spectroscopy and Doppler spectroscopy. This analysis pushes the false probability below 1 percent and puts contraints on the planet's size and mass.</description>
 			<discoveryyear>2014</discoveryyear>
@@ -46,7 +42,7 @@
 			<list>Confirmed planets</list>
 			<description>This planet has been discovered during a radial velocity follow up of stars observed by Kepler which host planet candidates. Although other planets in this system are transiting, this one is not.</description>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>16/11/30</lastupdate>
+			<lastupdate>14/02/24</lastupdate>
 			<discoverymethod>RV</discoverymethod>
 		</planet>
 	</star>

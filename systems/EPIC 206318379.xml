@@ -15,8 +15,6 @@
 		<radius errorminus="0.030" errorplus="0.030">0.293</radius>
 		<mass errorminus="0.050" errorplus="0.050">0.264</mass>
 		<spectraltype>M4V</spectraltype>
-		<!--Exoplanet.eu Catalogue-->
-		<spectraltype>M4</spectraltype>
 		<planet>
 			<name>EPIC 206318379 b</name>
 			<name>K2-28 b</name>
@@ -24,19 +22,13 @@
 			<inclination errorminus="0.88" errorplus="0.57">89.14</inclination>
 			<radius errorminus="0.022" errorplus="0.022">0.212</radius>
 			<period errorminus="0.000018" errorplus="0.000018">2.260410</period>
-			<!--Exoplanet.eu Catalogue-->
-			<period>2.260455</period>
-			<!--NASA Catalogue-->
-			<period errorminus="4.1e-05" errorplus="4.1e-05">2.260455</period>
 			<semimajoraxis errorminus="0.0014" errorplus="0.0014">0.0216</semimajoraxis>
 			<transittime errorminus="0.00058" errorplus="0.00058">2457242.46140</transittime>
-			<!--Exoplanet.eu Catalogue-->
-			<transittime errorminus="0.00074" errorplus="0.00075">2456977.99012</transittime>
 			<istransiting>1</istransiting>
 			<discoverymethod>transit</discoverymethod>
 			<discoveryyear>2015</discoveryyear>
 			<description>EPIC 206318379 b is a validated super-Earth candidate in the K2 Campaign 3 field. The planet has a similar radius and insolation to GJ 1214 b.</description>
-			<lastupdate>16/11/30</lastupdate>
+			<lastupdate>16/03/07</lastupdate>
 			<list>Confirmed planets</list>
 		</planet>
 	</star>

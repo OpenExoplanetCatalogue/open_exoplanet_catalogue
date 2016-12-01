@@ -3,10 +3,6 @@
 	<rightascension>17 30 11</rightascension>
 	<declination>-51 38 13</declination>
 	<distance>16.5</distance>
-	<!--Exoplanet.eu Catalogue-->
-	<distance>16.45</distance>
-	<!--NASA Catalogue-->
-	<distance>16.9</distance>
 	<binary>
 		<separation unit="arcsec">50.0</separation>
 		<separation unit="AU">825</separation>
@@ -17,10 +13,6 @@
 			<metallicity>0.23</metallicity>
 			<magB>11.028</magB>
 			<magV>9.585</magV>
-			<!--Exoplanet.eu Catalogue-->
-			<magV>9.59</magV>
-			<!--NASA Catalogue-->
-			<magV errorminus="0.009" errorplus="0.009">9.58</magV>
 			<magR>8.675</magR>
 			<magI>8.60</magI>
 			<magJ>6.711</magJ>
@@ -37,7 +29,7 @@
 				<eccentricity errorminus="0.09" errorplus="0.09">0.15</eccentricity>
 				<description>The star system Gliese 676 is located in the constellation Ara. This  planet was confirmed using a Bayesian probability analysis. It is a small Super-Earth.</description>
 				<discoverymethod>RV</discoverymethod>
-				<lastupdate>16/11/30</lastupdate>
+				<lastupdate>12/12/05</lastupdate>
 				<discoveryyear>2012</discoveryyear>
 				<list>Planets in binary systems, S-type</list>
 			</planet>
@@ -51,7 +43,7 @@
 				<eccentricity errorminus="0.12" errorplus="0.12">0.24</eccentricity>
 				<description>The star system Gliese 676 is located in the constellation Ara. This  planet was confirmed using a Bayesian probability analysis. It has a false alarme probability of less than one percent.</description>
 				<discoverymethod>RV</discoverymethod>
-				<lastupdate>16/11/30</lastupdate>
+				<lastupdate>12/12/05</lastupdate>
 				<discoveryyear>2012</discoveryyear>
 				<list>Planets in binary systems, S-type</list>
 			</planet>
@@ -60,23 +52,13 @@
 				<name>GJ 676 A b</name>
 				<list>Confirmed planets</list>
 				<mass errorminus="0.31" errorplus="0.31">4.95</mass>
-				<!--Exoplanet.eu Catalogue-->
-				<mass errorminus="1.5" errorplus="1.8">6.7</mass>
-				<!--NASA Catalogue-->
-				<mass errorminus="1.5" errorplus="1.8">6.7</mass>
 				<period errorminus="1.2" errorplus="1.2">1050.3</period>
 				<semimajoraxis errorminus="0.07" errorplus="0.07">1.80</semimajoraxis>
 				<eccentricity errorminus="0.004" errorplus="0.004">0.328</eccentricity>
-				<!--Exoplanet.eu Catalogue-->
-				<eccentricity errorplus="0.002" errorminus="0.002">0.323</eccentricity>
-				<!--NASA Catalogue-->
-				<eccentricity errorplus="0.002" errorminus="0.002">0.323</eccentricity>
 				<description>This gas giant was found in 2009 and announced in 2011. At that time there were strong indications for more planets but more data was needed to confirm them.</description>
 				<discoverymethod>RV</discoverymethod>
-				<lastupdate>16/11/30</lastupdate>
+				<lastupdate>12/12/05</lastupdate>
 				<discoveryyear>2011</discoveryyear>
-				<!--Exoplanet.eu Catalogue-->
-				<discoveryyear>2009</discoveryyear>
 				<list>Planets in binary systems, S-type</list>
 			</planet>
 			<planet>
@@ -84,20 +66,8 @@
 				<name>GJ 676 A c</name>
 				<list>Controversial</list>
 				<mass>3.0</mass>
-				<!--Exoplanet.eu Catalogue-->
-				<mass errorplus="32.2">6.8</mass>
-				<!--NASA Catalogue-->
-				<mass errorminus="0.1" errorplus="0.1">6.8</mass>
 				<period>4400</period>
-				<!--Exoplanet.eu Catalogue-->
-				<period>7337.0</period>
-				<!--NASA Catalogue-->
-				<period errorminus="92.0" errorplus="95.0">7337.0</period>
 				<semimajoraxis>5.2</semimajoraxis>
-				<!--Exoplanet.eu Catalogue-->
-				<semimajoraxis errorminus="0.1" errorplus="0.1">6.6</semimajoraxis>
-				<!--NASA Catalogue-->
-				<semimajoraxis errorminus="0.1" errorplus="0.1">6.6</semimajoraxis>
 				<eccentricity>0.2</eccentricity>
 				<description>This companion is inferred from a curvature in the radial velocity residuals. Its nature is currently unclear.</description>
 				<discoverymethod>RV</discoverymethod>

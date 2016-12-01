@@ -2,8 +2,6 @@
 	<name>Kepler-440</name>
 	<rightascension>19 01 23.99</rightascension>
 	<declination>+41 27 07.9</declination>
-	<!--Exoplanet.eu Catalogue-->
-	<declination>+41 27 08</declination>
 	<distance errorminus="46" errorplus="16">261</distance>
 	<star>
 		<name>Kepler-440</name>
@@ -29,7 +27,7 @@
 			<transittime errorminus="0.0027" errorplus="0.0028" unit="BJD">2455756.2986</transittime>
 			<semimajoraxis errorminus="0.041" errorplus="0.066">0.242</semimajoraxis>
 			<inclination errorminus="0.18" errorplus="0.07">89.93</inclination>
-			<eccentricity lowerlimit="0.34"/>
+			<eccentricity lowerlimit="0.34" />
 			<description>This planet has been discovered by the Kepler spacecraft. The results were announced at the AAS meeting in 2015.</description>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>

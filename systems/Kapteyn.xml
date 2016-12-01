@@ -1,8 +1,6 @@
 <system>
 	<name>Kapteyn</name>
 	<rightascension>05 11 40.58112</rightascension>
-	<!--Exoplanet.eu Catalogue-->
-	<rightascension>05 11 41</rightascension>
 	<declination>-45 01 06.2899</declination>
 	<distance>3.91</distance>
 	<star>
@@ -14,13 +12,7 @@
 		<radius errorminus="0.025" errorplus="0.025">0.291</radius>
 		<mass errorminus="0.014" errorplus="0.014">0.281</mass>
 		<magV>8.853</magV>
-		<!--NASA Catalogue-->
-		<magV>8.845</magV>
-		<!--Exoplanet.eu Catalogue-->
-		<magV>8.8</magV>
 		<spectraltype>M1.0</spectraltype>
-		<!--Exoplanet.eu Catalogue-->
-		<spectraltype>dM1</spectraltype>
 		<temperature errorminus="50" errorplus="50">3550.0</temperature>
 		<metallicity>-0.86</metallicity>
 		<planet>
@@ -52,7 +44,7 @@
 			<mass errorminus="0.003146" errorplus="0.003775">0.022020</mass>
 			<discoverymethod>RV</discoverymethod>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>16/11/30</lastupdate>
+			<lastupdate>14/06/06</lastupdate>
 			<list>Confirmed planets</list>
 			<description>Kapteyn's star is named in honor of its discoverer, the Dutch astronomer Jacobus Kapteyn. The planetary system is roughly 11 billion years old and contains at least one other planet, Kapteyn b, which is close to a 5:2 period commensurability.</description>
 		</planet>

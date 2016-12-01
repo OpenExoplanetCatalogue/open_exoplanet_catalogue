@@ -2,10 +2,6 @@
 	<name>HAT-P-56</name>
 	<name>K2-20</name>
 	<rightascension>06 43 23.52950</rightascension>
-	<!--Exoplanet.eu Catalogue-->
-	<rightascension>06 45 24</rightascension>
-	<!--NASA Catalogue-->
-	<rightascension>06 43 23.53</rightascension>
 	<declination>+27 15 08.2182</declination>
 	<distance errorminus="7.1" errorplus="7.1">310.5</distance>
 	<star>
@@ -39,7 +35,7 @@
 			<period errorminus="0.0000047" errorplus="0.0000047">2.7908327</period>
 			<transittime errorminus="0.00042" errorplus="0.00042" unit="BJD">2456553.61645</transittime>
 			<semimajoraxis errorminus="0.00039" errorplus="0.00039">0.04230</semimajoraxis>
-			<eccentricity upperlimit="0.246"/>
+			<eccentricity upperlimit="0.246" />
 			<inclination errorminus="0.18" errorplus="0.18">82.13</inclination>
 			<description>This planet was discovered by the HATNet transit survey. The star is located in field 0 of the NASA's K2 mission. The planet is a inflated hot Jupiter and transits its host star on a near-grazing orbit. The radius is among the largest known for a planet with a mass grater two Jupiter masses.</description>
 			<discoverymethod>transit</discoverymethod>

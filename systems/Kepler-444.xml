@@ -2,10 +2,6 @@
 	<name>Kepler-444</name>
 	<rightascension>19 19 00.54910</rightascension>
 	<declination>+41 38 04.5682</declination>
-	<!--Exoplanet.eu Catalogue-->
-	<declination>+41 38 05</declination>
-	<!--NASA Catalogue-->
-	<declination>+41 38 04.6</declination>
 	<distance errorminus="1.1" errorplus="1.1">35.7</distance>
 	<binary>
 		<name>Kepler-444</name>
@@ -86,7 +82,7 @@
 				<description>This planet is part of the Kepler-444 system. The planetary system is tightly placked with at least 5 terrestrial planets. The host star formed 11 billion years ago, when the universe was less than 21 percent of its current age. This makes Kepler-444 the oldest known system of terrestrial size planets. The star has a companion binary that gets as close as 5 AU at periastron.</description>
 				<discoverymethod>transit</discoverymethod>
 				<istransiting>1</istransiting>
-				<lastupdate>16/11/30</lastupdate>
+				<lastupdate>15/07/28</lastupdate>
 				<discoveryyear>2015</discoveryyear>
 				<list>Planets in binary systems, S-type</list>
 			</planet>
@@ -107,7 +103,7 @@
 				<description>This planet is part of the Kepler-444 system. The planetary system is tightly placked with at least 5 terrestrial planets. The host star formed 11 billion years ago, when the universe was less than 20 percent of its current age. This makes Kepler-444 the oldest known system of terrestrial size planets. The star has a companion binary that gets as close as 5 AU at periastron.</description>
 				<discoverymethod>transit</discoverymethod>
 				<istransiting>1</istransiting>
-				<lastupdate>16/11/30</lastupdate>
+				<lastupdate>15/07/28</lastupdate>
 				<discoveryyear>2015</discoveryyear>
 				<list>Planets in binary systems, S-type</list>
 			</planet>
@@ -128,7 +124,7 @@
 				<description>This planet is part of the Kepler-444 system. The planetary system is tightly placked with at least 5 terrestrial planets. The host star formed 11 billion years ago, when the universe was less than 20 percent of its current age. This makes Kepler-444 the oldest known system of terrestrial size planets. The star has a companion binary that gets as close as 5 AU at periastron.</description>
 				<discoverymethod>transit</discoverymethod>
 				<istransiting>1</istransiting>
-				<lastupdate>16/11/30</lastupdate>
+				<lastupdate>15/07/28</lastupdate>
 				<discoveryyear>2015</discoveryyear>
 				<list>Planets in binary systems, S-type</list>
 			</planet>
@@ -149,13 +145,13 @@
 				<description>This planet is part of the Kepler-444 system. The planetary system is tightly placked with at least 5 terrestrial planets. The host star formed 11 billion years ago, when the universe was less than 20 percent of its current age. This makes Kepler-444 the oldest known system of terrestrial size planets. The star has a companion binary that gets as close as 5 AU at periastron.</description>
 				<discoverymethod>transit</discoverymethod>
 				<istransiting>1</istransiting>
-				<lastupdate>16/11/30</lastupdate>
+				<lastupdate>15/02/01</lastupdate>
 				<discoveryyear>2015</discoveryyear>
 				<list>Planets in binary systems, S-type</list>
 			</planet>
 		</star>
 		<binary>
-			<semimajoraxis upperlimit="0.3"/>
+			<semimajoraxis upperlimit="0.3" />
 			<star>
 				<name>Kepler-444 B</name>
 				<name>HIP 94931 B</name>

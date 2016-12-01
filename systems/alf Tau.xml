@@ -44,11 +44,9 @@
 			<name>BU 550 A</name>
 			<mass errorminus="0.11" errorplus="0.11">1.13</mass>
 			<radius errorminus="0.1" errorplus="0.1">45.1</radius>
-			<magV>0.85</magV>
+			<magV>0.99</magV>
 			<metallicity errorminus="0.05" errorplus="0.05">-0.27</metallicity>
 			<spectraltype>K5 III</spectraltype>
-			<!--Exoplanet.eu Catalogue-->
-			<spectraltype>K5III</spectraltype>
 			<age errorminus="2.4" errorplus="2.4">6.6</age>
 			<temperature errorminus="70" errorplus="70">4055</temperature>
 			<planet>
@@ -77,8 +75,6 @@
 				<discoverymethod>RV</discoverymethod>
 				<lastupdate>15/11/17</lastupdate>
 				<discoveryyear>2015</discoveryyear>
-				<!--Exoplanet.eu Catalogue-->
-				<discoveryyear>1998</discoveryyear>
 				<list>Planets in binary systems, S-type</list>
 			</planet>
 		</star>

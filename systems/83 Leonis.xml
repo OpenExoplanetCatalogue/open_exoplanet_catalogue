@@ -1,12 +1,8 @@
 <system>
 	<name>83 Leonis</name>
-	<rightascension>11 26 46</rightascension>
-	<declination>+03 00 22</declination>
+	<rightascension>11 26 45.32180</rightascension>
+	<declination>+03 00 47.1551</declination>
 	<distance errorminus="0.14" errorplus="0.14">17.79</distance>
-	<!--Exoplanet.eu Catalogue-->
-	<distance>18.0</distance>
-	<!--NASA Catalogue-->
-	<distance>55.7</distance>
 	<binary>
 		<name>83 Leonis</name>
 		<name>83 Leo</name>
@@ -77,24 +73,14 @@
 				<name>GJ 429 B b</name>
 				<list>Confirmed planets</list>
 				<mass errorminus="0.006" errorplus="0.006" type="msini">0.087</mass>
-				<!--Exoplanet.eu Catalogue-->
-				<mass errorminus="0.006" errorplus="0.006">0.079</mass>
-				<!--NASA Catalogue-->
-				<mass errorminus="0.006" errorplus="0.006">0.079</mass>
 				<period errorminus="0.003" errorplus="0.003">17.054</period>
 				<semimajoraxis errorminus="0.00002" errorplus="0.00002">0.12186</semimajoraxis>
-				<!--Exoplanet.eu Catalogue-->
-				<semimajoraxis errorminus="0.001" errorplus="0.001">0.123</semimajoraxis>
-				<!--NASA Catalogue-->
-				<semimajoraxis errorminus="0.001" errorplus="0.001">0.123</semimajoraxis>
 				<eccentricity errorminus="0.07" errorplus="0.07">0.13</eccentricity>
 				<periastron errorminus="32" errorplus="32">196</periastron>
-				<!--Exoplanet.eu Catalogue-->
-				<periastron errorminus="75.4" errorplus="75.4">240.7</periastron>
 				<periastrontime errorminus="2" errorplus="2">2450449</periastrontime>
 				<discoverymethod>RV</discoverymethod>
 				<description>The first planet around the star 83 Leonis B (HD 99492) was discovered in 2004. The second planet was found 6 years later.</description>
-				<lastupdate>16/11/30</lastupdate>
+				<lastupdate>15/11/02</lastupdate>
 				<discoveryyear>2004</discoveryyear>
 				<list>Planets in binary systems, S-type</list>
 			</planet>

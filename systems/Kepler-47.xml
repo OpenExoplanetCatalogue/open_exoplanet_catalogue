@@ -2,13 +2,7 @@
 	<name>Kepler-47</name>
 	<rightascension>19 41 11</rightascension>
 	<declination>+46 55 13</declination>
-	<!--Exoplanet.eu Catalogue-->
-	<declination>+46 55 12</declination>
-	<!--NASA Catalogue-->
-	<declination>+46 55 13.7</declination>
 	<distance>1189</distance>
-	<!--NASA Catalogue-->
-	<distance>1500.0</distance>
 	<binary>
 		<name>Kepler-47</name>
 		<name>2MASS J19411149+4655136</name>
@@ -50,7 +44,7 @@
 			<radius errorminus="0.010935635" errorplus="0.010935635">0.27156828</radius>
 			<period errorminus="0.040" errorplus="0.040">49.514</period>
 			<semimajoraxis errorminus="0.0047" errorplus="0.0047">0.2956</semimajoraxis>
-			<eccentricity upperlimit="0.035"/>
+			<eccentricity upperlimit="0.035" />
 			<inclination errorminus="0.50" errorplus="0.50">89.59</inclination>
 			<transittime errorminus="0.010" errorplus="0.010">2454968.633</transittime>
 			<description>Kepler-47(AB) is a multiplanetary system orbiting a binary star. This is the first system of its kind. One of the binary stars is a Sun-like star, the other one is roughly one-third the size of the Sun. The orbital period of the binary is 7.45 days.</description>
@@ -75,12 +69,12 @@ Credit: NASA/JPL-Caltech/T. Pyle</imagedescription>
 			<radius errorminus="0.018226059" errorplus="0.018226059">0.42011066</radius>
 			<period errorminus="0.072" errorplus="0.072">303.158</period>
 			<semimajoraxis errorminus="0.016" errorplus="0.016">0.989</semimajoraxis>
-			<eccentricity upperlimit="0.411"/>
+			<eccentricity upperlimit="0.411" />
 			<inclination errorminus="0.010" errorplus="0.010">89.826</inclination>
 			<transittime errorminus="0.012" errorplus="0.012">2454753.015</transittime>
 			<description>Kepler-47(AB) is a multiplanetary system orbiting a binary star. This is the first system of its kind. One of the binary stars is a Sun-like star, the other one is roughly one-third the size of the Sun. The orbital period of the binary is 7.45 days. The outer planet Kepler-47(AB) c is located in the habitable zone where liquid water could exist.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>16/11/30</lastupdate>
+			<lastupdate>12/08/28</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<image>Kepler47</image>
 			<imagedescription>An artists depiction of the Kepler-47 system. 

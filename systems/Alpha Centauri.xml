@@ -5,11 +5,7 @@
 	<name>Toliman</name>
 	<name>Bungula</name>
 	<rightascension>14 39 36.204</rightascension>
-	<!--Exoplanet.eu Catalogue-->
-	<rightascension>14 39 34</rightascension>
 	<declination>-60 50 08.23</declination>
-	<!--Exoplanet.eu Catalogue-->
-	<declination>-60 50 15</declination>
 	<distance errorminus="0.0045" errorplus="0.0045">1.295</distance>
 	<binary>
 		<semimajoraxis>15000</semimajoraxis>
@@ -23,8 +19,6 @@
 			<radius errorminus="0.019" errorplus="0.022">0.141</radius>
 			<mass errorminus="0.015" errorplus="0.014">0.120</mass>
 			<spectraltype>M5.5V</spectraltype>
-			<!--Exoplanet.eu Catalogue-->
-			<spectraltype>K1V</spectraltype>
 			<planet>
 				<name>Proxima Centauri b</name>
 				<name>α Centauri C b</name>
@@ -34,7 +28,7 @@
 				<period errorminus="0.002" errorplus="0.001">11.186</period>
 				<mass>0.004089</mass>
 				<semimajoraxis errorminus="0.0051" errorplus="0.0041">0.0485</semimajoraxis>
-				<eccentricity upperlimit="0.35"/>
+				<eccentricity upperlimit="0.35" />
 				<longitude errorminus="8" errorplus="8">110</longitude>
 				<temperature errorminus="14" errorplus="6">234</temperature>
 				<description>Astronomers using ESO telescopes and other facilities have found clear evidence of a planet orbiting the closest star to Earth, Proxima Centauri. The long-sought world, designated Proxima b, orbits its cool red parent star every 11 days and has a temperature suitable for liquid water to exist on its surface. This rocky world is a little more massive than the Earth and is the closest exoplanet to us — and it may also be the closest possible abode for life outside the Solar System.</description>
@@ -147,7 +141,7 @@
 					<discoverymethod>RV</discoverymethod>
 					<list>Controversial</list>
 					<discoveryyear>2012</discoveryyear>
-					<lastupdate>16/11/30</lastupdate>
+					<lastupdate>15/11/17</lastupdate>
 					<description>Alpha Centauri is one of the brightest stars in the southern sky (in fact, it is a triple system). The planet candidate Alpha Centauri Bb was announced as the nearest exoplanet to Earth and also the lightest exoplanet ever discovered around a Sun-like star. The candidate was detected using the HARPS instrument on the 3.6-metre telescope at ESO's La Silla Observatory in Chile. The planet's existence was challenged by Hatzes (2013) and was shown to be likely an artifact caused by the data sampling by Rajpaul et al. (2015).</description>
 					<image>AlphaCentauriB</image>
 					<imagedescription>This artist's impression shows the planet orbiting the star Alpha Centauri B, a member of the triple star system that is the closest to Earth. Alpha Centauri B is the most brilliant object in the sky and the other dazzling object is Alpha Centauri A. Our own Sun is visible to the upper right. The tiny signal of the planet was found with the HARPS spectrograph on the 3.6-metre telescope at ESO's La Silla Observatory in Chile.
@@ -163,8 +157,8 @@
 					<name>HIP 71681 c</name>
 					<name>alf Cen B c</name>
 					<radius errorminus="0.005468" errorplus="0.005468">0.083840</radius>
-					<period upperlimit="20.4"/>
-					<eccentricity upperlimit="0.24"/>
+					<period upperlimit="20.4" />
+					<eccentricity upperlimit="0.24" />
 					<transittime unit="BJD">2456482.195</transittime>
 					<discoverymethod>transit</discoverymethod>
 					<discoveryyear>2015</discoveryyear>

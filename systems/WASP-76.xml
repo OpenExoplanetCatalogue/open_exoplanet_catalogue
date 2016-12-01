@@ -2,10 +2,6 @@
 	<name>WASP-76</name>
 	<rightascension>01 46 31.86</rightascension>
 	<declination>+02 42 02</declination>
-	<!--Exoplanet.eu Catalogue-->
-	<declination>+02 42 02.16</declination>
-	<!--NASA Catalogue-->
-	<declination>+02 42 01.9</declination>
 	<distance errorminus="20" errorplus="20">120</distance>
 	<star>
 		<name>WASP-76</name>
@@ -34,7 +30,7 @@
 			<period errorminus="0.000001" errorplus="0.000001">1.809886</period>
 			<transittime errorminus="0.00034" errorplus="0.00034" unit="HJD">2456107.85507</transittime>
 			<semimajoraxis errorminus="0.0005" errorplus="0.0005">0.0330</semimajoraxis>
-			<eccentricity upperlimit="0.05"/>
+			<eccentricity upperlimit="0.05" />
 			<inclination errorminus="1.6" errorplus="1.3">88.0</inclination>
 			<description>This hot Jupiter has been discovered by the WASP transit survey and confirmed by radial velocity measurements. It is one of the most irradiated planets known. The host star is evolved and has a post main sequence radius.</description>
 			<discoverymethod>transit</discoverymethod>

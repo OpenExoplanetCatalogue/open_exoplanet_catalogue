@@ -2,11 +2,7 @@
 	<name>WASP-11</name>
 	<name>HAT-P-10</name>
 	<rightascension>03 09 29</rightascension>
-	<!--NASA Catalogue-->
-	<rightascension>03 09 28.55</rightascension>
 	<declination>+30 40 25</declination>
-	<!--NASA Catalogue-->
-	<declination>+30 40 24.9</declination>
 	<distance errorminus="4.2" errorplus="4.2">121.7</distance>
 	<binary>
 		<name>WASP-11</name>
@@ -18,14 +14,8 @@
 			<name>WASP-11 A</name>
 			<name>HAT-P-10 A</name>
 			<mass>0.82</mass>
-			<!--NASA Catalogue-->
-			<mass errorplus="0.03">0.83</mass>
 			<radius>0.81</radius>
-			<!--NASA Catalogue-->
-			<radius errorplus="0.02">0.79</radius>
 			<magV>11.89</magV>
-			<!--NASA Catalogue-->
-			<magV>11.6</magV>
 			<magR>11.42</magR>
 			<magB errorminus="0.30" errorplus="0.30">12.58</magB>
 			<magJ errorminus="0.020" errorplus="0.020">10.015</magJ>
@@ -42,21 +32,11 @@
 				<name>2MASS J03092855+3040249 b</name>
 				<list>Confirmed planets</list>
 				<mass>0.46</mass>
-				<!--NASA Catalogue-->
-				<mass errorminus="0.018" errorplus="0.018">0.487</mass>
 				<radius>1.045</radius>
-				<!--NASA Catalogue-->
-				<radius errorplus="0.032" errorminus="0.027">1.005</radius>
 				<period>3.722469</period>
-				<!--NASA Catalogue-->
-				<period errorminus="6.5e-06" errorplus="6.5e-06">3.7224747</period>
 				<semimajoraxis>0.0439</semimajoraxis>
-				<!--NASA Catalogue-->
-				<semimajoraxis errorminus="0.0006" errorplus="0.0006">0.0435</semimajoraxis>
 				<eccentricity>0.0</eccentricity>
 				<inclination>88.5</inclination>
-				<!--NASA Catalogue-->
-				<inclination errorminus="0.4" errorplus="0.5">88.6</inclination>
 				<transittime errorminus="0.00016" errorplus="0.00016" unit="BJD">2454759.68683</transittime>
 				<discoverymethod>transit</discoverymethod>
 				<lastupdate>08/11/27</lastupdate>

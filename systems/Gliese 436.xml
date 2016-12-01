@@ -6,7 +6,7 @@
 	<star>
 		<mass errorminus="0.012" errorplus="0.014">0.452</mass>
 		<radius errorminus="0.012" errorplus="0.014">0.464</radius>
-		<magV errorminus="0.011" errorplus="0.009">10.68</magV>
+		<magV errorminus="0.011" errorplus="0.009">10.59</magV>
 		<magR>9.58</magR>
 		<magI>8.24</magI>
 		<magB errorminus="0.28" errorplus="0.28">12.06</magB>
@@ -15,8 +15,6 @@
 		<magK errorminus="0.016" errorplus="0.016">6.073</magK>
 		<metallicity>-0.32</metallicity>
 		<spectraltype>M2V</spectraltype>
-		<!--Exoplanet.eu Catalogue-->
-		<spectraltype>M2.5</spectraltype>
 		<planet>
 			<name>Gliese 436 b</name>
 			<name>GJ 436 b</name>
@@ -30,11 +28,9 @@
 			<eccentricity errorminus="0.012" errorplus="0.012">0.15</eccentricity>
 			<inclination errorminus="0.25" errorplus="0.25">85.8</inclination>
 			<transittime errorminus="0.0001" errorplus="0.0001" unit="BJD">2454222.6172</transittime>
-			<!--Exoplanet.eu Catalogue-->
-			<transittime errorminus="0.00012" errorplus="0.00012">2454221.61588</transittime>
 			<description>The star Gliese 436 is located in the constellation Leo. Due to tidal forces the planet Gliese 436b is expected to circularise on short timescales. It might be perturbed by an additional planet in the system.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>16/11/30</lastupdate>
+			<lastupdate>14/03/31</lastupdate>
 			<discoveryyear>2004</discoveryyear>
 			<temperature>650.3</temperature>
 			<istransiting>1</istransiting>

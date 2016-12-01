@@ -7,8 +7,6 @@
 	<distance>1366.95</distance>
 	<star>
 		<magV>15</magV>
-		<!--NASA Catalogue-->
-		<magV>15.344</magV>
 		<magR errorminus="0.23" errorplus="0.23">15.78</magR>
 		<magJ errorminus="0.03" errorplus="0.03">14.10</magJ>
 		<magH errorminus="0.03" errorplus="0.03">13.73</magH>
@@ -19,8 +17,6 @@
 		<temperature errorminus="200" errorplus="200">5829</temperature>
 		<radius errorminus=".438" errorplus="0.438">1.017</radius>
 		<mass errorminus="0.1100" errorplus="0.1100">0.9500</mass>
-		<!--NASA Catalogue-->
-		<mass errorplus="0.09" errorminus="0.07">1.12</mass>
 		<planet>
 			<name>Kepler-223 d</name>
 			<name>KOI-730 d</name>
@@ -49,7 +45,7 @@
 			<list>Confirmed planets</list>
 			<description>Kepler-223 c has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-223 c are still unknown, the object is highly unlikely to be a false positive.</description>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>16/11/30</lastupdate>
+			<lastupdate>14/02/26</lastupdate>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
 		</planet>
@@ -60,16 +56,12 @@
 			<name>KIC 10227020 e</name>
 			<name>KIC 10227020.03</name>
 			<radius errorminus="0.00365" errorplus="0.09478">0.21871</radius>
-			<!--Exoplanet.eu Catalogue-->
-			<radius errorplus="0.093" errorminus="0.093">0.214</radius>
-			<!--NASA Catalogue-->
-			<radius errorplus="0.024" errorminus="0.037">0.41</radius>
 			<period errorminus=".000228" errorplus="0.000228">19.721734</period>
 			<transittime errorminus="0.0059300" errorplus="0.0059300">2454968.1036900</transittime>
 			<list>Confirmed planets</list>
 			<description>Kepler-223 e has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-223 e are still unknown, the object is highly unlikely to be a false positive.</description>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>16/11/30</lastupdate>
+			<lastupdate>14/02/26</lastupdate>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
 		</planet>
@@ -85,7 +77,7 @@
 			<list>Confirmed planets</list>
 			<description>Kepler-223 b has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-223 b are still unknown, the object is highly unlikely to be a false positive.</description>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>16/11/30</lastupdate>
+			<lastupdate>14/02/26</lastupdate>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
 		</planet>

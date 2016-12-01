@@ -2,10 +2,6 @@
 	<name>Kepler-27</name>
 	<rightascension>19 28 56</rightascension>
 	<declination>+41 05 09</declination>
-	<!--Exoplanet.eu Catalogue-->
-	<declination>+41 05 08.9999</declination>
-	<!--NASA Catalogue-->
-	<declination>+41 05 09.2</declination>
 	<distance>991.22</distance>
 	<star>
 		<name>Kepler-27</name>
@@ -42,16 +38,12 @@
 			<name>KIC 5792202 c</name>
 			<list>Confirmed planets</list>
 			<radius>0.44653</radius>
-			<!--Exoplanet.eu Catalogue-->
-			<radius>0.44</radius>
-			<!--NASA Catalogue-->
-			<radius>0.437</radius>
-			<period>31.3309</period>
+			<period>31.33</period>
 			<semimajoraxis>0.191</semimajoraxis>
 			<transittime errorminus="0.0032" errorplus="0.0032" unit="BJD">2454986.4274</transittime>
 			<description>This planet candidate was discovered with the Kepler spacecraft. Its host star gets periodically fainter whenever the planet is in front of the star. Because there are multiple phenomena that can create a signal that looks similar to a planetary transit, the candidates have to be confirmed with another method. For Kepler-27 the planetary nature of the companions has been confirmed by transit timing variations, caused by other planets in the system, and a stability analysis. However, the mass of the planets is not well constrained yet.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>16/11/30</lastupdate>
+			<lastupdate>12/08/06</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<temperature>418.5</temperature>
 			<istransiting>1</istransiting>

@@ -16,8 +16,6 @@
 		<radius>0.52</radius>
 		<magB>11.868</magB>
 		<magV>10.366</magV>
-		<!--Exoplanet.eu Catalogue-->
-		<magV>10.37</magV>
 		<magR>9.279</magR>
 		<magI>7.877</magI>
 		<magJ errorminus="0.024" errorplus="0.024">6.510</magJ>
@@ -37,11 +35,9 @@
 			<eccentricity errorminus="0.019" errorplus="0.019">0.038</eccentricity>
 			<periastrontime errorminus="150" errorplus="150" unit="BJD">2453770</periastrontime>
 			<periastron errorminus="28" errorplus="28">66</periastron>
-			<!--Exoplanet.eu Catalogue-->
-			<periastron errorminus="60.0" errorplus="60.0">351.0</periastron>
 			<description>The star Gliese 849 is a red dwarf in the constellation of Aquarius. Gliese 849 b is the inner of the system's two known planets.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>16/11/30</lastupdate>
+			<lastupdate>15/08/15</lastupdate>
 			<discoveryyear>2006</discoveryyear>
 		</planet>
 		<planet>
@@ -49,21 +45,15 @@
 			<name>GJ 849 c</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.070" errorplus="0.070">0.944</mass>
-			<!--Exoplanet.eu Catalogue-->
-			<mass>0.77</mass>
 			<period errorminus="390" errorplus="390">5520</period>
-			<!--Exoplanet.eu Catalogue-->
-			<period>7049.0</period>
 			<semimajoraxis errorminus="0.21" errorplus="0.21">4.82</semimajoraxis>
 			<eccentricity errorminus="0.056" errorplus="0.056">0.087</eccentricity>
-			<!--Exoplanet.eu Catalogue-->
-			<eccentricity>0.218</eccentricity>
 			<periastrontime errorminus="690" errorplus="690" unit="BJD">2454320</periastrontime>
 			<periastron errorminus="50" errorplus="50">172</periastron>
 			<description>The radial velocity date for Gliese 849 has poor phase coverage for the orbit of Gliese 849 c, however its parameters can be better constrained by considering the dynamical stability of the two-planet system.</description>
 			<discoverymethod>RV</discoverymethod>
 			<discoveryyear>2013</discoveryyear>
-			<lastupdate>16/11/30</lastupdate>
+			<lastupdate>15/08/15</lastupdate>
 		</planet>
 	</star>
 </system>

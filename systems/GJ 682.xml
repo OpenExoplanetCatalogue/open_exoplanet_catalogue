@@ -2,8 +2,6 @@
 	<name>GJ 682</name>
 	<rightascension>17 37 03.66242</rightascension>
 	<declination>-44 19 09.1697</declination>
-	<!--Exoplanet.eu Catalogue-->
-	<declination>-43 40 50.8303</declination>
 	<distance errorminus="0.054" errorplus="0.056">5.079</distance>
 	<star>
 		<name>GJ 682</name>
@@ -22,8 +20,6 @@
 		<magH errorminus="0.038" errorplus="0.038">5.917</magH>
 		<magK errorminus="0.020" errorplus="0.020">5.606</magK>
 		<spectraltype>M3.5 V</spectraltype>
-		<!--Exoplanet.eu Catalogue-->
-		<spectraltype>M3.5V</spectraltype>
 		<mass>0.27</mass>
 		<temperature>3028</temperature>
 		<planet>
@@ -47,8 +43,6 @@
 			<period errorminus="0.48" errorplus="0.45">57.32</period>
 			<eccentricity errorminus="0.10" errorplus="0.19">0.10</eccentricity>
 			<periastron>320</periastron>
-			<!--Exoplanet.eu Catalogue-->
-			<periastron>320.85</periastron>
 			<meananomaly>240</meananomaly>
 			<mass errorminus="0.014" errorplus="0.018" type="msini">0.027</mass>
 			<semimajoraxis errorminus="0.009" errorplus="0.030">0.176</semimajoraxis>
@@ -56,7 +50,7 @@
 			<discoveryyear>2014</discoveryyear>
 			<description>The planet candidates orbiting GJ 682 were identified by Bayesian analysis of 49 UVES and 12 HARPS radial velocity measurements.</description>
 			<list>Controversial</list>
-			<lastupdate>16/11/30</lastupdate>
+			<lastupdate>15/04/21</lastupdate>
 		</planet>
 	</star>
 </system>

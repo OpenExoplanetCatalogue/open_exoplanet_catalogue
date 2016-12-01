@@ -3,8 +3,6 @@
 	<rightascension>17 53 13</rightascension>
 	<declination>+37 12 42</declination>
 	<distance>485</distance>
-	<!--NASA Catalogue-->
-	<distance>492.0</distance>
 	<binary>
 		<name>TrES-4</name>
 		<separation errorminus="0.005" errorplus="0.005" unit="arcsec">1.555</separation>
@@ -37,11 +35,11 @@
 				<radius errorminus="0.090" errorplus="0.081">1.838</radius>
 				<period errorminus="0.00000047" errorplus="0.00000047">3.55392771</period>
 				<semimajoraxis errorminus="0.0005" errorplus="0.0005">0.0516</semimajoraxis>
-				<eccentricity upperlimit="0.016"/>
+				<eccentricity upperlimit="0.016" />
 				<inclination errorminus="0.44" errorplus="0.51">83.07</inclination>
 				<transittime errorminus="0.00030" errorplus="0.00030" unit="BJD">2454230.90560</transittime>
 				<discoverymethod>transit</discoverymethod>
-				<lastupdate>16/11/30</lastupdate>
+				<lastupdate>15/06/08</lastupdate>
 				<discoveryyear>2007</discoveryyear>
 				<temperature errorminus="39" errorplus="35">1795</temperature>
 				<description>The planet TrES-4 b was discovered by the Trans-Atlantic Exoplanet Survey and is located in the constellation Hercules. The host star is a member of a binary system.</description>

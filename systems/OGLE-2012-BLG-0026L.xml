@@ -1,11 +1,7 @@
 <system>
 	<name>OGLE-2012-BLG-0026L</name>
 	<rightascension>17 34 18.70</rightascension>
-	<!--Exoplanet.eu Catalogue-->
-	<rightascension>17 34 19</rightascension>
 	<declination>-27 08 33.9</declination>
-	<!--Exoplanet.eu Catalogue-->
-	<declination>-27 08 34.08</declination>
 	<distance errorminus="380" errorplus="380">4019</distance>
 	<star>
 		<name>OGLE-2012-BLG-0026L</name>
@@ -14,7 +10,7 @@
 		<magH errorminus="0.13" errorplus="0.13">16.36</magH>
 		<magI errorminus="0.23" errorplus="0.23">19.00</magI>
 		<magV errorminus="0.15" errorplus="0.15">20.66</magV>
-		<age lowerlimit="4" upperlimit="9"/>
+		<age lowerlimit="4" upperlimit="9" />
 		<planet>
 			<name>OGLE-2012-BLG-0026L b</name>
 			<name>OGLE 2012-BLG-026L b</name>
@@ -31,12 +27,10 @@
 			<name>OGLE 2012-BLG-026L c</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.06" errorplus="0.06">0.86</mass>
-			<!--Exoplanet.eu Catalogue-->
-			<mass errorminus="0.1" errorplus="0.1">0.68</mass>
 			<separation errorminus="0.7" errorplus="0.7" unit="AU">4.8</separation>
 			<description>This multi-planetary system was discovered during a high-magnification gravitational microlensing event. Both planets are located beyond the snow-line, an important clue for planet formation models. Adaptive optics imaging was used to detect the flux from the host star.</description>
 			<discoverymethod>microlensing</discoverymethod>
-			<lastupdate>16/11/30</lastupdate>
+			<lastupdate>16/01/21</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 		</planet>
 	</star>

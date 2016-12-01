@@ -1,13 +1,7 @@
 <system>
 	<name>HAT-P-51</name>
 	<rightascension>01 24 15.66</rightascension>
-	<!--Exoplanet.eu Catalogue-->
-	<rightascension>01 24 16</rightascension>
-	<!--NASA Catalogue-->
-	<rightascension>01 24 15.65</rightascension>
 	<declination>+32 48 38.8</declination>
-	<!--Exoplanet.eu Catalogue-->
-	<declination>+32 48 39.0001</declination>
 	<distance errorminus="16" errorplus="15">470</distance>
 	<star>
 		<name>HAT-P-51</name>
@@ -34,7 +28,7 @@
 			<period errorminus="0.0000059" errorplus="0.0000059">4.2180278</period>
 			<transittime errorminus="0.00040" errorplus="0.00040">2456196.23106</transittime>
 			<semimajoraxis errorminus="0.00049" errorplus="0.00049">0.05069</semimajoraxis>
-			<eccentricity upperlimit="0.123"/>
+			<eccentricity upperlimit="0.123" />
 			<inclination errorminus="0.57" errorplus="0.57">88.48</inclination>
 			<description>This planet was discovered by the HATNet transit survey. The low stellar jitter and fovorable radii ratio make it a promising target for measuring the Rossiter-McLaughlin effect for a Saturn-mass planet.</description>
 			<discoverymethod>transit</discoverymethod>

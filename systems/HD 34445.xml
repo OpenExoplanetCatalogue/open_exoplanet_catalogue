@@ -2,10 +2,6 @@
 	<name>HD 34445</name>
 	<rightascension>05 17 40.98051</rightascension>
 	<declination>+07 21 12.0508</declination>
-	<!--Exoplanet.eu Catalogue-->
-	<declination>+07 21 11.9999</declination>
-	<!--NASA Catalogue-->
-	<declination>+07 21 12.0</declination>
 	<distance errorminus="1.4" errorplus="1.4">46.5</distance>
 	<star>
 		<name>HD 34445</name>
@@ -20,8 +16,6 @@
 		<temperature errorminus="44" errorplus="44">5836</temperature>
 		<metallicity errorminus="0.04" errorplus="0.04">0.14</metallicity>
 		<spectraltype>G0 V</spectraltype>
-		<!--Exoplanet.eu Catalogue-->
-		<spectraltype>G0</spectraltype>
 		<age errorminus="2.0" errorplus="2.0">8.5</age>
 		<planet>
 			<name>HD 34445 b</name>
@@ -35,8 +29,6 @@
 			<discoverymethod>RV</discoverymethod>
 			<lastupdate>16/03/09</lastupdate>
 			<discoveryyear>2010</discoveryyear>
-			<!--Exoplanet.eu Catalogue-->
-			<discoveryyear>2004</discoveryyear>
 		</planet>
 	</star>
 </system>

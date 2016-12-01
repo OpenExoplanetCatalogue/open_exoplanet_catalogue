@@ -4,10 +4,6 @@
 	<name>KIC 7603200</name>
 	<rightascension>19 21 31</rightascension>
 	<declination>+43 17 34</declination>
-	<!--Exoplanet.eu Catalogue-->
-	<declination>+43 17 35</declination>
-	<!--NASA Catalogue-->
-	<declination>+43 17 34.7</declination>
 	<distance>114.07</distance>
 	<star>
 		<name>KOI-314</name>
@@ -53,11 +49,9 @@
 			<transittime errorminus="0.0013" errorplus="0.0013" unit="BJD">24556996.6689</transittime>
 			<semimajoraxis errorminus="0.004" errorplus="0.004">0.128</semimajoraxis>
 			<temperature>376.0</temperature>
-			<!--Exoplanet.eu Catalogue-->
-			<temperature>431.0</temperature>
 			<list>Confirmed planets</list>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>16/11/30</lastupdate>
+			<lastupdate>15/07/14</lastupdate>
 			<discoveryyear>2014</discoveryyear>
 			<description>This planet has been confirmed by researchers trying to find extrasolar moons. Although no exo-moon was detected, they were able to confirm the planetary nature of the transit signal by using transit timing variations (TTV). These variations are due to planets pulling on each other gravitationally, therefore extending or shrinking the time between transits. There is another planet candidate in the system which has not been confirmed yet.</description>
 			<istransiting>1</istransiting>
@@ -71,13 +65,11 @@
 			<mass errorminus="0.000116" errorplus="0.000186">0.000208</mass>
 			<period errorminus="0.0006" errorplus="0.0004">10.3126</period>
 			<transittime errorminus="0.0027" errorplus="0.0027" unit="BJD">2455688.4142</transittime>
-			<!--Exoplanet.eu Catalogue-->
-			<transittime errorminus="0.00208" errorplus="0.00208">2454966.51557</transittime>
 			<semimajoraxis errorminus="0.003" errorplus="0.003">0.075</semimajoraxis>
 			<list>Confirmed planets</list>
 			<description>Kepler-138 b has been discovered by the Kepler spacecraft and was first announced in 2014. In June 2015, a team of astronomers has measured the mass and size of Kepler-138 b to find that it is in fact the smallest exoplanet yet. Kepler-138 b is a Mars-sized object orbiting a red dwarf star about 200 light years from our solar system. Current measurements are consistent with a variety of compositions, and favor compositions that are mostly rock. All three planets orbiting Kepler-138 are close to their star and are most likely are too hot to be habitable.</description>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>16/11/30</lastupdate>
+			<lastupdate>15/07/14</lastupdate>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
 		</planet>

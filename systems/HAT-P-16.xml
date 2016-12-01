@@ -1,8 +1,6 @@
 <system>
 	<name>HAT-P-16</name>
 	<rightascension>00 38 18</rightascension>
-	<!--NASA Catalogue-->
-	<rightascension>00 38 17.56</rightascension>
 	<declination>+42 27 47</declination>
 	<distance>235</distance>
 	<binary>
@@ -37,8 +35,6 @@
 				<discoveryyear>2010</discoveryyear>
 				<temperature errorminus="22" errorplus="22">1567</temperature>
 				<transittime errorminus="0.00040" errorplus="0.00040" unit="BJD">2455027.59821</transittime>
-				<!--Exoplanet.eu Catalogue-->
-				<transittime errorminus="0.00031" errorplus="0.00031">2455027.59293</transittime>
 				<istransiting>1</istransiting>
 				<list>Planets in binary systems, S-type</list>
 			</planet>

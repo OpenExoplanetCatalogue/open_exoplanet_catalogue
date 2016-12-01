@@ -2,8 +2,6 @@
 	<name>HD 187123</name>
 	<rightascension>19 46 58.1</rightascension>
 	<declination>+34 25 10.3</declination>
-	<!--Exoplanet.eu Catalogue-->
-	<declination>+34 25 14.9999</declination>
 	<distance errorminus="1.2" errorplus="1.2">48.3</distance>
 	<star>
 		<name>HD 187123</name>
@@ -23,8 +21,6 @@
 		<magK>6.34</magK>
 		<metallicity errorminus="0.030" errorplus="0.030">0.121</metallicity>
 		<spectraltype>G5V</spectraltype>
-		<!--Exoplanet.eu Catalogue-->
-		<spectraltype>G5</spectraltype>
 		<temperature errorminus="44" errorplus="44">5815</temperature>
 		<planet>
 			<name>HD 187123 b</name>
@@ -44,32 +40,14 @@
 			<name>HD 187123 c</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.035" errorplus="0.035">1.818</mass>
-			<!--Exoplanet.eu Catalogue-->
-			<mass errorminus="0.25" errorplus="0.25">1.99</mass>
-			<!--NASA Catalogue-->
-			<mass errorminus="0.25" errorplus="0.25">1.99</mass>
 			<period errorminus="46" errorplus="46">3324</period>
-			<!--Exoplanet.eu Catalogue-->
-			<period>3810.0</period>
-			<!--NASA Catalogue-->
-			<period errorminus="420.0" errorplus="420.0">3810.0</period>
 			<semimajoraxis errorminus="0.054" errorplus="0.054">4.417</semimajoraxis>
-			<!--Exoplanet.eu Catalogue-->
-			<semimajoraxis errorminus="0.53" errorplus="0.53">4.89</semimajoraxis>
-			<!--NASA Catalogue-->
-			<semimajoraxis errorminus="0.53" errorplus="0.53">4.89</semimajoraxis>
 			<eccentricity errorminus="0.022" errorplus="0.022">0.280</eccentricity>
-			<!--Exoplanet.eu Catalogue-->
-			<eccentricity errorplus="0.033" errorminus="0.033">0.252</eccentricity>
-			<!--NASA Catalogue-->
-			<eccentricity errorplus="0.033" errorminus="0.033">0.252</eccentricity>
 			<periastrontime errorminus="40" errorplus="40" unit="BJD">2453625</periastrontime>
 			<periastron errorminus="3.9" errorplus="3.9">258.5</periastron>
-			<!--Exoplanet.eu Catalogue-->
-			<periastron errorminus="170.0" errorplus="170.0">250.0</periastron>
 			<description>HD 187123 c is a long-period giant planet on an eccentric orbit. It is a member of a hierarchical 2-planet system.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>16/11/30</lastupdate>
+			<lastupdate>15/08/15</lastupdate>
 			<discoveryyear>2007</discoveryyear>
 		</planet>
 	</star>

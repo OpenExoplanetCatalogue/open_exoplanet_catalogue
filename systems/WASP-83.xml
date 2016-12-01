@@ -1,10 +1,6 @@
 <system>
 	<name>WASP-83</name>
 	<rightascension>14 40 36.51</rightascension>
-	<!--Exoplanet.eu Catalogue-->
-	<rightascension>12 40 37</rightascension>
-	<!--NASA Catalogue-->
-	<rightascension>12 40 36.50</rightascension>
 	<declination>-19 17 03.4</declination>
 	<distance errorminus="50" errorplus="50">300</distance>
 	<star>
@@ -29,7 +25,7 @@
 			<period errorminus="0.000015" errorplus="0.000015">4.971252</period>
 			<transittime errorminus="0.0004" errorplus="0.0004" unit="HJD">2455928.8853</transittime>
 			<inclination errorminus="0.7" errorplus="0.7">88.9</inclination>
-			<eccentricity upperlimit="0.3"/>
+			<eccentricity upperlimit="0.3" />
 			<temperature errorminus="30" errorplus="30">1120</temperature>
 			<description>This planet has been announced in 2014 by the WASP team. The scientific paper describing the discovery was published on the arXiv in 2014. The planet was discovered via the transit method and confirmed using radial velocity measurements.</description>
 			<discoverymethod>transit</discoverymethod>

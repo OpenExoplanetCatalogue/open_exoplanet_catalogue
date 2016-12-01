@@ -28,11 +28,9 @@
 			<radius errorminus="0.039" errorplus="0.039">1.139</radius>
 			<period errorminus="0.0000049" errorplus="0.0000049">4.1591287</period>
 			<semimajoraxis errorminus="0.001" errorplus="0.001">0.051</semimajoraxis>
-			<eccentricity upperlimit="0.026"/>
+			<eccentricity upperlimit="0.026" />
 			<inclination errorminus="0.27" errorplus="0.27">89.03</inclination>
 			<transittime errorminus="0.000023" errorplus="0.000023" unit="BJD">2457007.932131</transittime>
-			<!--Exoplanet.eu Catalogue-->
-			<transittime errorminus="0.00032" errorplus="0.00032">2456982.97823</transittime>
 			<spinorbitalignment errorminus="24" errorplus="24">0</spinorbitalignment>
 			<description>This hot Jupiter planet was announced at the Extreme Solar Systems II conference in Jackson Hole by the WASP team. The K2 mission discovered two additional transiting planets in 2015, and an outer giant planet was discovered by radial velocity measurements.</description>
 			<discoverymethod>transit</discoverymethod>
@@ -50,15 +48,11 @@
 			<radius errorminus="0.0062" errorplus="0.0062">0.1631</radius>
 			<period errorminus="0.000013" errorplus="0.000013">0.789597</period>
 			<semimajoraxis>0.017</semimajoraxis>
-			<!--Exoplanet.eu Catalogue-->
-			<semimajoraxis errorminus="0.0038" errorplus="0.0038">0.0173</semimajoraxis>
 			<inclination errorminus="3.1" errorplus="3.1">87.0</inclination>
 			<transittime errorminus="0.00038" errorplus="0.00038" unit="BJD">2457011.34849</transittime>
-			<!--Exoplanet.eu Catalogue-->
-			<transittime errorminus="0.00094" errorplus="0.00094">2456979.76455</transittime>
 			<description>This super-Earth planet was discovered by the K2 mission which measured transit timing variations at the inner hot Jupiter. Radial velocity measurements indicate this is a rocky planet.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>16/11/30</lastupdate>
+			<lastupdate>15/10/17</lastupdate>
 			<discoveryyear>2015</discoveryyear>
 			<istransiting>1</istransiting>
 		</planet>
@@ -74,11 +68,9 @@
 			<semimajoraxis>0.088</semimajoraxis>
 			<inclination errorminus="0.67" errorplus="0.67">89.36</inclination>
 			<transittime errorminus="0.00044" errorplus="0.00044" unit="BJD">2457006.36927</transittime>
-			<!--Exoplanet.eu Catalogue-->
-			<transittime errorminus="0.014" errorplus="0.014">2456988.375</transittime>
 			<description>This Neptune-sized outer planet was discovered by the K2 mission which measured transit timing variations at the inner hot Jupiter.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>16/11/30</lastupdate>
+			<lastupdate>15/10/17</lastupdate>
 			<discoveryyear>2015</discoveryyear>
 			<istransiting>1</istransiting>
 		</planet>
@@ -97,7 +89,7 @@
 			<semimajoraxis errorminus="0.04" errorplus="0.04">1.36</semimajoraxis>
 			<discoverymethod>RV</discoverymethod>
 			<description>WASP-47c was discovered from radial velocity follow-up of the WASP-47 system.</description>
-			<lastupdate>16/11/30</lastupdate>
+			<lastupdate>15/10/17</lastupdate>
 			<discoveryyear>2015</discoveryyear>
 		</planet>
 	</star>

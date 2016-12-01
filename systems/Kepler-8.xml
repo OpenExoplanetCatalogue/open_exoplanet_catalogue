@@ -2,8 +2,6 @@
 	<name>Kepler-8</name>
 	<rightascension>18 45 09</rightascension>
 	<declination>+42 27 04</declination>
-	<!--NASA Catalogue-->
-	<declination>+42 27 03.9</declination>
 	<distance errorminus="180" errorplus="180">1330</distance>
 	<star>
 		<mass errorminus="0.10" errorplus="0.09">1.13</mass>
@@ -30,8 +28,6 @@
 			<eccentricity>0.0</eccentricity>
 			<inclination errorminus="0.33" errorplus="0.33">84.07</inclination>
 			<transittime errorminus="0.0004" errorplus="0.0003" unit="BJD">2454954.1190</transittime>
-			<!--Exoplanet.eu Catalogue-->
-			<transittime errorminus="0.0004" errorplus="0.0004">2454954.1182</transittime>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>15/12/03</lastupdate>
 			<discoveryyear>2010</discoveryyear>

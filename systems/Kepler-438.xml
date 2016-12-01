@@ -2,8 +2,6 @@
 	<name>Kepler-438</name>
 	<rightascension>18 46 35.00</rightascension>
 	<declination>+41 57 03.9</declination>
-	<!--Exoplanet.eu Catalogue-->
-	<declination>+41 57 04.0001</declination>
 	<distance errorminus="23" errorplus="20">145</distance>
 	<star>
 		<name>Kepler-438</name>
@@ -29,7 +27,7 @@
 			<transittime errorminus="0.0032" errorplus="0.0044" unit="BJD">2455673.0307</transittime>
 			<semimajoraxis errorminus="0.042" errorplus="0.051">0.166</semimajoraxis>
 			<inclination errorminus="0.32" errorplus="0.14">89.86</inclination>
-			<eccentricity lowerlimit="0.03"/>
+			<eccentricity lowerlimit="0.03" />
 			<description>This planet has been discovered by the Kepler spacecraft. The results were announced at the AAS meeting in 2015. This planet is one of the most Earth-like planets discovered to date.</description>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>

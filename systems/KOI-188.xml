@@ -2,8 +2,6 @@
 	<name>KOI-188</name>
 	<rightascension>19 21 26</rightascension>
 	<declination>+40 34 04</declination>
-	<!--NASA Catalogue-->
-	<declination>+40 34 03.9</declination>
 	<distance errorminus="20" errorplus="20">650</distance>
 	<star>
 		<magB errorminus="0.016" errorplus="0.016">16.047</magB>
@@ -40,7 +38,7 @@
 			<period errorminus="0.00000019" errorplus="0.00000019">3.79701816</period>
 			<transittime errorminus="0.000039" errorplus="0.000039" unit="BJD">2454966.508785</transittime>
 			<semimajoraxis errorminus="0.0008" errorplus="0.0008">0.0464</semimajoraxis>
-			<eccentricity upperlimit="0.33"/>
+			<eccentricity upperlimit="0.33" />
 			<inclination errorminus="0.08" errorplus="0.08">87.02</inclination>
 			<description>This planet had been flagged by the Kepler Team as a planet candidate. Follow-up observations using the HARPS-N spectrograph at the Telescopio Nazionale Galileo have now confirmed its planetary nature.</description>
 			<discoverymethod>transit</discoverymethod>

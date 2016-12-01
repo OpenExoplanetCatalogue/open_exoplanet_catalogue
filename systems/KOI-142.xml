@@ -23,28 +23,14 @@
 			<name>KIC 5446285 b</name>
 			<list>Confirmed planets</list>
 			<radius errorminus="0.026" errorplus="0.0347">0.37647</radius>
-			<!--Exoplanet.eu Catalogue-->
-			<radius errorplus="0.0347935316148" errorminus="0.032117106106">0.337229614113</radius>
-			<!--NASA Catalogue-->
-			<radius errorplus="0.035" errorminus="0.032">0.337</radius>
 			<period errorminus="6.4e-05" errorplus="0.00143">10.9542</period>
 			<transittime errorminus="0.0004700" errorplus="0.0004700">2454966.0190500</transittime>
 			<mass errorminus="0.0055264" errorplus="0.0055264">0.0055264</mass>
-			<!--Exoplanet.eu Catalogue-->
-			<mass errorminus="0.00786584022905" errorplus="0.00786584022905">0.0273731239971</mass>
-			<!--NASA Catalogue-->
-			<mass errorminus="0.008" errorplus="0.008">0.027</mass>
 			<semimajoraxis>0.098</semimajoraxis>
 			<inclination errorminus="0.079" errorplus="0.088">0.931</inclination>
-			<!--Exoplanet.eu Catalogue-->
-			<inclination errorminus="0.074" errorplus="0.07">89.055</inclination>
-			<!--NASA Catalogue-->
-			<inclination errorminus="0.07" errorplus="0.074">89.055</inclination>
 			<eccentricity errorminus="0.00121" errorplus="0.00052">0.0561</eccentricity>
 			<temperature>791.0</temperature>
 			<periastron>90.7</periastron>
-			<!--Exoplanet.eu Catalogue-->
-			<periastron errorminus="0.81" errorplus="1.45">90.59</periastron>
 			<longitude>6.425</longitude>
 			<ascendingnode>270</ascendingnode>
 			<description>The planets in the KOI-142 have been confirmed using transit timing (TTV) and transit duration variations (TDV). The planets are just wide of the 2:1 mean motion resonance. It is often assumed that convergent migration locks planets in resonances. Then, multiple effects such as stochastic migration can move the planets slightly out of resonance. This is an important clue that might help scientists understand the formation of planetary systems. Note that the mass of the inner planet KOI-142 b is an upper limit.</description>
@@ -62,19 +48,13 @@
 			<mass errorminus="0.32" errorplus="0.16">0.76</mass>
 			<semimajoraxis errorminus="0.0021" errorplus="0.0021">0.1529</semimajoraxis>
 			<inclination errorminus="2.7" errorplus="2.1">3.7</inclination>
-			<!--Exoplanet.eu Catalogue-->
-			<inclination errorminus="1.3" errorplus="1.6">86.2</inclination>
-			<!--NASA Catalogue-->
-			<inclination errorminus="1.6" errorplus="1.3">86.2</inclination>
 			<eccentricity errorminus="0.0028" errorplus="0.0014">0.05628</eccentricity>
 			<periastron>271.1</periastron>
-			<!--Exoplanet.eu Catalogue-->
-			<periastron errorminus="0.99" errorplus="1.82">270.76</periastron>
 			<longitude>253.0</longitude>
 			<ascendingnode>259</ascendingnode>
 			<description>The planets in the KOI-142 have been confirmed using transit timing (TTV) and transit duration variations (TDV). The planets are just wide of the 2:1 mean motion resonance. It is often assumed that convergent migration locks planets in resonances. Then, multiple effects such as stochastic migration can move the planets slightly out of resonance. This is an important clue that might help scientists understand the formation of planetary systems.</description>
 			<discoverymethod>timing</discoverymethod>
-			<lastupdate>16/11/30</lastupdate>
+			<lastupdate>13/04/17</lastupdate>
 			<discoveryyear>2013</discoveryyear>
 		</planet>
 	</star>

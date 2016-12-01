@@ -2,8 +2,6 @@
 	<name>WASP-109</name>
 	<rightascension>15 28 13.23</rightascension>
 	<declination>-16 24 38.8</declination>
-	<!--Exoplanet.eu Catalogue-->
-	<declination>-16 24 39.0001</declination>
 	<distance errorminus="30" errorplus="30">330</distance>
 	<star>
 		<name>WASP-109</name>
@@ -24,7 +22,7 @@
 			<period errorminus="0.0000042" errorplus="0.0000042">3.3190233</period>
 			<transittime errorminus="0.00023" errorplus="0.00023" unit="HJD">2456361.19263</transittime>
 			<inclination errorminus="0.19" errorplus="0.19">84.28</inclination>
-			<eccentricity upperlimit="0.32"/>
+			<eccentricity upperlimit="0.32" />
 			<temperature errorminus="40" errorplus="40">1695</temperature>
 			<description>This planet has been announced in 2014 by the WASP team. The scientific paper describing the discovery was published on the arXiv in 2014. The planet was discovered via the transit method and confirmed using radial velocity measurements.</description>
 			<discoverymethod>transit</discoverymethod>

@@ -1,8 +1,6 @@
 <system>
 	<name>Gliese 317</name>
 	<rightascension>08 40 59</rightascension>
-	<!--Exoplanet.eu Catalogue-->
-	<rightascension>08 40 58</rightascension>
 	<declination>-23 27 23</declination>
 	<distance>15.1</distance>
 	<star>
@@ -12,14 +10,8 @@
 		<magI>9.37</magI>
 		<magB>13.2</magB>
 		<magJ errorminus="0.027" errorplus="0.027">7.934</magJ>
-		<!--Exoplanet.eu Catalogue-->
-		<magJ>6.41</magJ>
 		<magH errorminus="0.071" errorplus="0.071">7.321</magH>
-		<!--Exoplanet.eu Catalogue-->
-		<magH>5.9</magH>
 		<magK errorminus="0.020" errorplus="0.020">7.028</magK>
-		<!--Exoplanet.eu Catalogue-->
-		<magK>5.59</magK>
 		<metallicity>0.36</metallicity>
 		<spectraltype>M3.5</spectraltype>
 		<planet>
@@ -29,21 +21,13 @@
 			<name>Gl 317 b</name>
 			<list>Confirmed planets</list>
 			<mass>1.8</mass>
-			<!--Exoplanet.eu Catalogue-->
-			<mass errorminus="0.411" errorplus="0.683">2.56</mass>
-			<!--NASA Catalogue-->
-			<mass errorminus="0.4" errorplus="0.7">2.5</mass>
 			<period>691.78</period>
-			<!--Exoplanet.eu Catalogue-->
-			<period>692.0</period>
-			<!--NASA Catalogue-->
-			<period errorminus="2.0" errorplus="2.0">692.0</period>
 			<semimajoraxis>1.15</semimajoraxis>
 			<eccentricity>0.11</eccentricity>
 			<inclination>45</inclination>
 			<description>The star Gliese 317 is a red dwarf in the constellation Pyxis. So far only one planet is confirmed. There might be a second planet in the system, locked in a 4:1 mean motion resonance.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>16/11/30</lastupdate>
+			<lastupdate>11/11/14</lastupdate>
 			<discoveryyear>2007</discoveryyear>
 		</planet>
 		<planet>
@@ -54,12 +38,10 @@
 			<list>Confirmed planets</list>
 			<mass>2</mass>
 			<period>10000</period>
-			<!--Exoplanet.eu Catalogue-->
-			<period>7300.0</period>
 			<semimajoraxis>30</semimajoraxis>
 			<eccentricity>0.81</eccentricity>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>16/11/30</lastupdate>
+			<lastupdate>11/11/14</lastupdate>
 			<discoveryyear>2007</discoveryyear>
 		</planet>
 		<name>Gliese 317</name>

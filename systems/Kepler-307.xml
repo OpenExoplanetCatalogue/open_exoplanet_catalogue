@@ -2,10 +2,6 @@
 	<name>Kepler-307</name>
 	<rightascension>19 51 10</rightascension>
 	<declination>+40 25 03</declination>
-	<!--Exoplanet.eu Catalogue-->
-	<declination>+40 25 04.08</declination>
-	<!--NASA Catalogue-->
-	<declination>+40 25 03.7</declination>
 	<distance>705.48</distance>
 	<star>
 		<name>Kepler-307</name>
@@ -42,17 +38,13 @@
 			<name>KIC 5299459 c</name>
 			<name>KIC 5299459.02</name>
 			<radius errorminus="0.01276" errorplus="0.10389">0.25516</radius>
-			<!--Exoplanet.eu Catalogue-->
-			<radius errorplus="0.006" errorminus="0.006">0.196</radius>
-			<!--NASA Catalogue-->
-			<radius errorplus="0.006" errorminus="0.006">0.196</radius>
 			<mass errorminus="0.001825" errorplus="0.002055">0.011468</mass>
 			<transittime errorminus="0.0013400" errorplus="0.0013400">2454965.6317400</transittime>
 			<period>13.084</period>
 			<list>Confirmed planets</list>
 			<description>This planet was discovered by the Kepler spacecraft. The planet is part of a multiplanetary system. Its planetary nature has been confirmed using transit timing variations which arise because the planets in one system pull on each other and slightly alter the transit times.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>16/11/30</lastupdate>
+			<lastupdate>16/01/13</lastupdate>
 			<discoveryyear>2013</discoveryyear>
 			<istransiting>1</istransiting>
 		</planet>

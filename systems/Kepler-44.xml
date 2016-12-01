@@ -1,8 +1,6 @@
 <system>
 	<name>Kepler-44</name>
 	<rightascension>20 00 25</rightascension>
-	<!--NASA Catalogue-->
-	<rightascension>20 00 24.56</rightascension>
 	<declination>+45 45 44</declination>
 	<distance errorminus="300" errorplus="300">2250</distance>
 	<star>
@@ -33,7 +31,7 @@
 			<transittime errorminus="0.00021" errorplus="0.00021">2455187.15640</transittime>
 			<semimajoraxis errorminus="0.0011" errorplus="0.0011">0.0446</semimajoraxis>
 			<inclination errorminus="0.62" errorplus="0.50">84.96</inclination>
-			<eccentricity upperlimit="0.066"/>
+			<eccentricity upperlimit="0.066" />
 			<list>Confirmed planets</list>
 			<discoverymethod>transit</discoverymethod>
 			<lastupdate>15/12/03</lastupdate>

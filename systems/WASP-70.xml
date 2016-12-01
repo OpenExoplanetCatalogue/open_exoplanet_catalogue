@@ -5,8 +5,6 @@
 	<name>TYC 5782-970-1</name>
 	<rightascension>21 01 54</rightascension>
 	<declination>-13 26 00</declination>
-	<!--NASA Catalogue-->
-	<declination>-13 25 59.6</declination>
 	<distance errorminus="20" errorplus="20">245</distance>
 	<binary>
 		<name>WASP-70</name>
@@ -37,7 +35,7 @@
 				<period errorminus="0.0000047" errorplus="0.0000047">3.7130203</period>
 				<transittime errorminus="0.00027" errorplus="0.00027" unit="BJD">2455736.50348</transittime>
 				<inclination errorminus="0.65" errorplus="1.24">87.12</inclination>
-				<eccentricity upperlimit="0.067"/>
+				<eccentricity upperlimit="0.067" />
 				<description>WASP-70A b is part of a binary system. The planet has been announced at the Extreme Solar Systems II conference in Jackson Hole by the WASP team. It was published in a paper in October 2013.</description>
 				<discoverymethod>transit</discoverymethod>
 				<lastupdate>13/10/22</lastupdate>

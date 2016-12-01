@@ -2,10 +2,6 @@
 	<name>WASP-12</name>
 	<rightascension>06 30 33</rightascension>
 	<declination>+29 40 20</declination>
-	<!--Exoplanet.eu Catalogue-->
-	<declination>+29 40 19.9999</declination>
-	<!--NASA Catalogue-->
-	<declination>+29 40 20.2</declination>
 	<distance errorminus="30" errorplus="30">250</distance>
 	<binary>
 		<separation errorminus="0.019" errorplus="0.019" unit="arcsec">1.064</separation>
@@ -38,8 +34,6 @@
 				<inclination>86</inclination>
 				<spinorbitalignment errorminus="20" errorplus="15">59</spinorbitalignment>
 				<transittime errorminus="0.00028" errorplus="0.00028" unit="BJD">2454508.98074</transittime>
-				<!--Exoplanet.eu Catalogue-->
-				<transittime errorminus="0.00028" errorplus="0.00028">2454508.97605</transittime>
 				<discoverymethod>transit</discoverymethod>
 				<lastupdate>13/07/31</lastupdate>
 				<description>The host star of WASP-12 b is the primary of a hierarchical triple system. The distant binary consists of two M dwarfs.</description>

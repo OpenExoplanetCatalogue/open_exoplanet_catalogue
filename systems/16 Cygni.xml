@@ -1,8 +1,8 @@
 <system>
 	<name>16 Cygni</name>
-	<rightascension>19 41 51</rightascension>
-	<declination>+50 31 03</declination>
-	<distance errorminus="0.016" errorplus="0.016">21.41</distance>
+	<rightascension>19 41 48.95343</rightascension>
+	<declination>+50 31 30.2153</declination>
+	<distance errorminus="0.016" errorplus="0.016">21.146</distance>
 	<binary>
 		<name>16 Cygni</name>
 		<name>16 Cyg</name>
@@ -37,23 +37,11 @@
 				<magH>4.72</magH>
 				<magK>4.43</magK>
 				<spectraltype>G2V</spectraltype>
-				<!--Exoplanet.eu Catalogue-->
-				<spectraltype>G2.5 V</spectraltype>
 				<mass errorminus="0.02" errorplus="0.02">1.11</mass>
-				<!--Exoplanet.eu Catalogue-->
-				<mass errorplus="0.04" errorminus="0.04">1.01</mass>
-				<!--NASA Catalogue-->
-				<mass>0.99</mass>
 				<radius errorminus="0.008" errorplus="0.008">1.243</radius>
-				<!--Exoplanet.eu Catalogue-->
-				<radius errorplus="0.13" errorminus="0.13">0.98</radius>
 				<temperature errorminus="50" errorplus="50">5825</temperature>
 				<metallicity errorminus="0.026" errorplus="0.026">0.096</metallicity>
-				<!--Exoplanet.eu Catalogue-->
-				<metallicity errorminus="0.04" errorplus="0.04">0.08</metallicity>
 				<age errorminus="0.4" errorplus="0.4">6.8</age>
-				<!--Exoplanet.eu Catalogue-->
-				<age errorplus="1.8" errorminus="1.8">8.0</age>
 			</star>
 			<star>
 				<name>16 Cygni C</name>
@@ -94,23 +82,15 @@
 				<name>HD 186427 B b</name>
 				<list>Confirmed planets</list>
 				<mass errorminus="0.05" errorplus="0.05" type="msini">1.77</mass>
-				<!--Exoplanet.eu Catalogue-->
-				<mass errorminus="0.07" errorplus="0.07">1.68</mass>
-				<!--NASA Catalogue-->
-				<mass errorminus="0.15" errorplus="0.15">1.68</mass>
 				<period errorminus="0.6" errorplus="0.6">799.5</period>
 				<semimajoraxis errorminus="0.01" errorplus="0.01">1.72</semimajoraxis>
-				<!--Exoplanet.eu Catalogue-->
-				<semimajoraxis errorminus="0.03" errorplus="0.03">1.68</semimajoraxis>
-				<!--NASA Catalogue-->
-				<semimajoraxis errorminus="0.097" errorplus="0.097">1.681</semimajoraxis>
 				<eccentricity errorminus="0.011" errorplus="0.011">0.689</eccentricity>
 				<periastron errorminus="2.1" errorplus="2.1">83.4</periastron>
 				<periastrontime errorminus="1.6" errorplus="1.6">2450539.3</periastrontime>
 				<inclination errorminus="1" errorplus="1">45</inclination>
 				<description>16 Cygni is a hierarchical triple system. The star is in the Kepler field of view. In an active search for extra-terrestrial intelligence a radio message has been sent to this system on May 24 1999. It will reach the system in 2069.</description>
 				<discoverymethod>RV</discoverymethod>
-				<lastupdate>16/11/30</lastupdate>
+				<lastupdate>15/09/22</lastupdate>
 				<discoveryyear>1996</discoveryyear>
 				<list>Planets in binary systems, S-type</list>
 			</planet>

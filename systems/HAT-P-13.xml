@@ -2,10 +2,6 @@
 	<name>HAT-P-13</name>
 	<rightascension>08 39 32</rightascension>
 	<declination>+47 21 07</declination>
-	<!--Exoplanet.eu Catalogue-->
-	<declination>+47 21 06.9998</declination>
-	<!--NASA Catalogue-->
-	<declination>+47 21 07.4</declination>
 	<distance>214</distance>
 	<star>
 		<mass>1.22</mass>
@@ -35,8 +31,6 @@
 			<discoveryyear>2009</discoveryyear>
 			<temperature>1504.3</temperature>
 			<transittime errorminus="0.00038" errorplus="0.00038" unit="BJD">2454779.92979</transittime>
-			<!--Exoplanet.eu Catalogue-->
-			<transittime errorminus="0.00034" errorplus="0.00034">2455176.5388</transittime>
 			<istransiting>1</istransiting>
 		</planet>
 		<planet>
@@ -45,25 +39,13 @@
 			<name>2MASS J08393180+4721073 c</name>
 			<list>Confirmed planets</list>
 			<mass>14.5</mass>
-			<!--Exoplanet.eu Catalogue-->
-			<mass errorminus="0.28" errorplus="0.28">14.28</mass>
-			<!--NASA Catalogue-->
-			<mass errorminus="0.28" errorplus="0.28">14.28</mass>
 			<period>448.2</period>
-			<!--Exoplanet.eu Catalogue-->
-			<period>446.27</period>
-			<!--NASA Catalogue-->
-			<period errorminus="0.22" errorplus="0.22">446.27</period>
 			<semimajoraxis>1.186</semimajoraxis>
 			<eccentricity>0.666</eccentricity>
-			<!--Exoplanet.eu Catalogue-->
-			<eccentricity errorplus="0.0054" errorminus="0.0054">0.6616</eccentricity>
-			<!--NASA Catalogue-->
-			<eccentricity errorplus="0.0054" errorminus="0.0054">0.6616</eccentricity>
 			<transittime errorminus="1.8" errorplus="1.8" unit="BJD">2454870.4</transittime>
 			<description>The star HAT-P-13 is located in the constalltion Ursa Major and hosts at least two extrasolar planets. Only the inner planet is transiting. There might be an unconfirmed third planet in the system.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>16/11/30</lastupdate>
+			<lastupdate>14/02/02</lastupdate>
 			<discoveryyear>2009</discoveryyear>
 			<temperature>276.2</temperature>
 			<istransiting>1</istransiting>
