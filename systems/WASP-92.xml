@@ -1,0 +1,29 @@
+<system>
+	<name>WASP-92</name>
+	<rightascension>16 26 46</rightascension>
+	<declination>+51 02 28</declination>
+	<distance>530.0</distance>
+	<star>
+		<name>WASP-92</name>
+		<radius>1.341</radius>
+		<mass>1.19</mass>
+		<spectraltype>F7</spectraltype>
+		<temperature>6280.0</temperature>
+		<metallicity>0.0</metallicity>
+		<planet>
+			<name>wasp-92 b</name>
+			<semimajoraxis errorminus="0.00036" errorplus="0.00036">0.0348</semimajoraxis>
+			<eccentricity>0.0</eccentricity>
+			<inclination errorminus="0.69" errorplus="0.69">83.75</inclination>
+			<period errorminus="0.000002" errorplus="0.000002">2.1746742</period>
+			<mass errorminus="0.068" errorplus="0.068">0.805</mass>
+			<radius errorminus="0.077" errorplus="0.077">1.461</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/08/19</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

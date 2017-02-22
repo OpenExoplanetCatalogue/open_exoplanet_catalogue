@@ -1,0 +1,30 @@
+<system>
+	<name>HATS-26</name>
+	<rightascension>09 39 42</rightascension>
+	<declination>-28 24 52</declination>
+	<distance>907.0</distance>
+	<star>
+		<name>HATS-26</name>
+		<age>4.04</age>
+		<radius>2.04</radius>
+		<mass>1.299</mass>
+		<spectraltype>F</spectraltype>
+		<temperature>6071.0</temperature>
+		<metallicity>-0.02</metallicity>
+		<planet>
+			<name>HATS-26 b</name>
+			<semimajoraxis errorminus="0.00068" errorplus="0.00133">0.04735</semimajoraxis>
+			<eccentricity errorminus="0.122" errorplus="0.122">0.122</eccentricity>
+			<inclination errorminus="1.9" errorplus="1.9">86.2</inclination>
+			<period errorminus="0.000008" errorplus="0.000008">3.3023881</period>
+			<mass errorminus="0.076" errorplus="0.076">0.65</mass>
+			<radius errorminus="0.21" errorplus="0.21">1.75</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/07/28</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

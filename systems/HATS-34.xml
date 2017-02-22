@@ -1,0 +1,29 @@
+<system>
+	<name>HATS-34</name>
+	<rightascension>00 03 06</rightascension>
+	<declination>-62 31 50</declination>
+	<distance>532.0</distance>
+	<star>
+		<name>HATS-34</name>
+		<age>7.7</age>
+		<radius>0.98</radius>
+		<mass>0.955</mass>
+		<temperature>5380.0</temperature>
+		<metallicity>0.25</metallicity>
+		<planet>
+			<name>HATS-34 b</name>
+			<semimajoraxis errorminus="0.00034" errorplus="0.00034">0.03166</semimajoraxis>
+			<eccentricity>0.0</eccentricity>
+			<inclination errorminus="0.59" errorplus="0.43">82.28</inclination>
+			<period errorminus="0.000005" errorplus="0.000005">2.1061607</period>
+			<mass errorminus="0.072" errorplus="0.072">0.941</mass>
+			<radius errorminus="0.19" errorplus="0.19">1.43</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/07/11</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

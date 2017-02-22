@@ -1,0 +1,27 @@
+<system>
+	<name>WASP-138</name>
+	<rightascension>02 46 33</rightascension>
+	<declination>+00 32 10</declination>
+	<distance>308.0</distance>
+	<star>
+		<name>WASP-138</name>
+		<radius>1.36</radius>
+		<mass>1.22</mass>
+		<spectraltype>F9</spectraltype>
+		<temperature>6272.0</temperature>
+		<metallicity>-0.09</metallicity>
+		<planet>
+			<name>WASP-138 b</name>
+			<semimajoraxis errorminus="0.0007" errorplus="0.0007">0.0494</semimajoraxis>
+			<inclination errorminus="1.2" errorplus="0.9">88.5</inclination>
+			<period errorminus="0.000005" errorplus="0.000005">3.634433</period>
+			<mass errorminus="0.08" errorplus="0.08">1.22</mass>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/07/27</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+			<istransiting>1</istransiting>
+		</planet>
+	</star>
+</system>

@@ -1,0 +1,30 @@
+<system>
+	<name>HATS-28</name>
+	<rightascension>18 57 36</rightascension>
+	<declination>-49 51 41</declination>
+	<distance>521.0</distance>
+	<star>
+		<name>HATS-28</name>
+		<age>6.2</age>
+		<radius>0.922</radius>
+		<mass>0.929</mass>
+		<spectraltype>G</spectraltype>
+		<temperature>5498.0</temperature>
+		<metallicity>0.01</metallicity>
+		<planet>
+			<name>HATS-28 b</name>
+			<semimajoraxis errorminus="0.00053" errorplus="0.00053">0.04131</semimajoraxis>
+			<eccentricity errorminus="0.101" errorplus="0.101">0.101</eccentricity>
+			<inclination errorminus="0.42" errorplus="0.42">86.17</inclination>
+			<period errorminus="0.000004" errorplus="0.000004">3.1810781</period>
+			<mass errorminus="0.087" errorplus="0.087">0.672</mass>
+			<radius errorminus="0.07" errorplus="0.07">1.194</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/07/28</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

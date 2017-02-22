@@ -1,0 +1,27 @@
+<system>
+	<name>WASP-136</name>
+	<rightascension>00 01 18</rightascension>
+	<declination>-08 04 25</declination>
+	<distance>164.0</distance>
+	<star>
+		<name>WASP-136</name>
+		<age>3.62</age>
+		<radius>1.38</radius>
+		<mass>1.51</mass>
+		<temperature>6260.0</temperature>
+		<planet>
+			<name>WASP-136 b</name>
+			<semimajoraxis errorminus="0.0012" errorplus="0.0012">0.0661</semimajoraxis>
+			<inclination errorminus="1.3" errorplus="1.6">84.7</inclination>
+			<period errorminus="0.000006" errorplus="0.000006">5.215357</period>
+			<mass errorminus="0.08" errorplus="0.08">1.51</mass>
+			<radius errorminus="0.16" errorplus="0.16">1.38</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/07/27</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

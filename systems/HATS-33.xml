@@ -1,0 +1,29 @@
+<system>
+	<name>HATS-33</name>
+	<rightascension>19 38 32</rightascension>
+	<declination>-55 40 12</declination>
+	<distance>355.0</distance>
+	<star>
+		<name>HATS-33</name>
+		<age>3.0</age>
+		<radius>1.022</radius>
+		<mass>1.062</mass>
+		<temperature>5659.0</temperature>
+		<metallicity>0.29</metallicity>
+		<planet>
+			<name>HATS-33 b</name>
+			<semimajoraxis errorminus="0.00037" errorplus="0.00037">0.03727</semimajoraxis>
+			<eccentricity errorminus="0.08" errorplus="0.08">0.08</eccentricity>
+			<inclination errorminus="0.92" errorplus="0.92">87.62</inclination>
+			<period errorminus="0.000006" errorplus="0.000006">2.5495551</period>
+			<mass errorminus="0.053" errorplus="0.053">1.192</mass>
+			<radius errorminus="0.08" errorplus="0.11">1.23</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/07/11</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

@@ -1,0 +1,28 @@
+<system>
+	<name>WASP-118</name>
+	<rightascension>01 18 12</rightascension>
+	<declination>+02 42 10</declination>
+	<distance>250.0</distance>
+	<star>
+		<name>WASP-118</name>
+		<radius>1.696</radius>
+		<mass>1.32</mass>
+		<spectraltype>F6</spectraltype>
+		<temperature>6410.0</temperature>
+		<metallicity>0.16</metallicity>
+		<planet>
+			<name>WASP-118 b</name>
+			<semimajoraxis errorminus="0.00048" errorplus="0.00048">0.05453</semimajoraxis>
+			<inclination errorminus="0.9" errorplus="0.9">88.7</inclination>
+			<period errorminus="0.000004" errorplus="0.000004">4.0460435</period>
+			<mass errorminus="0.02" errorplus="0.02">0.514</mass>
+			<radius errorminus="0.036" errorplus="0.036">1.44</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/08/10</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

@@ -1,0 +1,30 @@
+<system>
+	<name>HATS-29</name>
+	<rightascension>09 00 23</rightascension>
+	<declination>-54 06 24</declination>
+	<distance>351.0</distance>
+	<star>
+		<name>HATS-29</name>
+		<age>5.5</age>
+		<radius>1.073</radius>
+		<mass>1.032</mass>
+		<spectraltype>G</spectraltype>
+		<temperature>5670.0</temperature>
+		<metallicity>0.16</metallicity>
+		<planet>
+			<name>HATS-29 b</name>
+			<semimajoraxis errorminus="0.00088" errorplus="0.00088">0.05475</semimajoraxis>
+			<eccentricity errorminus="0.079" errorplus="0.079">0.079</eccentricity>
+			<inclination errorminus="0.34" errorplus="0.34">87.37</inclination>
+			<period errorminus="0.000006" errorplus="0.000006">4.6058749</period>
+			<mass errorminus="0.063" errorplus="0.063">0.653</mass>
+			<radius errorminus="0.061" errorplus="0.061">1.251</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/07/28</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

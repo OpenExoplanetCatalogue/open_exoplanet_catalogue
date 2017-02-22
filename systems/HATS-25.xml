@@ -1,0 +1,30 @@
+<system>
+	<name>HATS-25</name>
+	<rightascension>13 51 38</rightascension>
+	<declination>-23 13 08</declination>
+	<distance>466.0</distance>
+	<star>
+		<name>HATS-25</name>
+		<age>7.5</age>
+		<radius>1.107</radius>
+		<mass>0.994</mass>
+		<spectraltype>G</spectraltype>
+		<temperature>5715.0</temperature>
+		<metallicity>0.02</metallicity>
+		<planet>
+			<name>HATS-25 b</name>
+			<semimajoraxis errorminus="0.0006" errorplus="0.0006">0.05163</semimajoraxis>
+			<eccentricity errorminus="0.088" errorplus="0.088">0.088</eccentricity>
+			<inclination errorminus="0.71" errorplus="0.71">86.93</inclination>
+			<period errorminus="0.000005" errorplus="0.000005">4.2986432</period>
+			<mass errorminus="0.042" errorplus="0.042">0.613</mass>
+			<radius errorminus="0.1" errorplus="0.1">1.26</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/07/28</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

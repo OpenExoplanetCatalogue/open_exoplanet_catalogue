@@ -1,0 +1,28 @@
+<system>
+	<name>KELT-12</name>
+	<rightascension>17 50 34</rightascension>
+	<declination>+36 34 13</declination>
+	<distance>360.0</distance>
+	<star>
+		<name>KELT-12</name>
+		<age>2.2</age>
+		<radius>2.37</radius>
+		<mass>1.592</mass>
+		<temperature>6278.0</temperature>
+		<metallicity>0.19</metallicity>
+		<planet>
+			<name>KELT-12 b</name>
+			<semimajoraxis errorminus="0.0013" errorplus="0.00099">0.0671</semimajoraxis>
+			<inclination errorminus="0.98" errorplus="1.1">84.46</inclination>
+			<period errorminus="0.000045" errorplus="0.000045">5.03145</period>
+			<mass errorminus="0.14" errorplus="0.14">0.95</mass>
+			<radius errorminus="0.17" errorplus="0.18">1.79</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/08/17</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>
