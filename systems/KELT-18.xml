@@ -1,0 +1,29 @@
+<system>
+	<name>KELT-18</name>
+	<rightascension>14 26 06</rightascension>
+	<declination>+59 26 39</declination>
+	<distance>311.0</distance>
+	<star>
+		<name>KELT-18</name>
+		<age>1.9</age>
+		<radius>1.908</radius>
+		<mass>1.524</mass>
+		<spectraltype>F4V</spectraltype>
+		<temperature>6670.0</temperature>
+		<metallicity>0.09</metallicity>
+		<planet>
+			<name>KELT-18 b</name>
+			<semimajoraxis errorminus="0.00069" errorplus="0.00069">0.0455</semimajoraxis>
+			<eccentricity>0.0</eccentricity>
+			<inclination errorminus="1.2" errorplus="0.79">88.86</inclination>
+			<period errorminus="0.000003" errorplus="0.000003">2.8717518</period>
+			<mass errorminus="0.11" errorplus="0.11">1.18</mass>
+			<radius errorminus="0.036" errorplus="0.042">1.57</radius>
+			<istransiting>1</istransiting>
+			<discoveryyear>2017</discoveryyear>
+			<lastupdate>17/02/07</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>
