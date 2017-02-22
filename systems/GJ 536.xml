@@ -1,0 +1,27 @@
+<system>
+	<name>GJ 536</name>
+	<rightascension>14 01 03</rightascension>
+	<declination>-02 20 42</declination>
+	<distance>10.03</distance>
+	<star>
+		<name>GJ 536</name>
+		<radius>0.5</radius>
+		<mass>0.52</mass>
+		<spectraltype>M1</spectraltype>
+		<temperature>3685.0</temperature>
+		<metallicity>-0.08</metallicity>
+		<planet>
+			<name>GJ 536</name>
+			<semimajoraxis errorminus="1.3e-05" errorplus="1e-05">0.06661</semimajoraxis>
+			<periastron errorminus="50.6" errorplus="42.5">288.7</periastron>
+			<eccentricity errorminus="0.06" errorplus="0.09">0.08</eccentricity>
+			<period errorminus="0.002500" errorplus="0.002200">8.7076</period>
+			<mass errorminus="0.002" errorplus="0.0022">0.0169</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/11/08</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

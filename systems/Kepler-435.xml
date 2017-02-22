@@ -1,0 +1,29 @@
+<system>
+	<name>Kepler-435</name>
+	<rightascension>19 29 09</rightascension>
+	<declination>+43 11 50</declination>
+	<distance>2070.0</distance>
+	<star>
+		<name>Kepler-435</name>
+		<age>2.25</age>
+		<radius>3.21</radius>
+		<mass>1.538</mass>
+		<temperature>6161.0</temperature>
+		<metallicity>-0.18</metallicity>
+		<planet>
+			<name>Kepler-435 b</name>
+			<semimajoraxis errorminus="0.0018" errorplus="0.0018">0.0948</semimajoraxis>
+			<eccentricity errorminus="0.077" errorplus="0.077">0.114</eccentricity>
+			<inclination errorminus="0.52" errorplus="0.52">85.51</inclination>
+			<period errorminus="0.000002" errorplus="0.000002">8.6001536</period>
+			<mass errorminus="0.15" errorplus="0.15">0.84</mass>
+			<radius errorminus="0.18" errorplus="0.18">1.99</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2012</discoveryyear>
+			<lastupdate>16/12/26</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>
