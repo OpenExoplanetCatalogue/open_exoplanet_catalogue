@@ -1,0 +1,29 @@
+<system>
+	<name>HAT-48</name>
+	<rightascension>02 57 53</rightascension>
+	<declination>+30 37 33</declination>
+	<distance>305.0</distance>
+	<star>
+		<name>HAT-48</name>
+		<age>4.7</age>
+		<radius>1.223</radius>
+		<mass>1.099</mass>
+		<temperature>5946.0</temperature>
+		<metallicity>0.02</metallicity>
+		<planet>
+			<name>HAT-48 b</name>
+			<semimajoraxis errorminus="0.0007" errorplus="0.0007">0.0543</semimajoraxis>
+			<eccentricity>0.0</eccentricity>
+			<inclination errorminus="0.3" errorplus="0.5">86.8</inclination>
+			<period errorminus="0.000008" errorplus="0.000008">4.40865</period>
+			<mass errorminus="0.024" errorplus="0.024">0.168</mass>
+			<radius errorminus="0.054" errorplus="0.054">1.131</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/06/16</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

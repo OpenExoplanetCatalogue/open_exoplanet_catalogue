@@ -1,0 +1,31 @@
+<system>
+	<name>WASP-140</name>
+	<rightascension>04 01 33</rightascension>
+	<declination>-20 32 56</declination>
+	<distance>180.0</distance>
+	<star>
+		<name>WASP-140</name>
+		<age>1.6</age>
+		<radius>0.87</radius>
+		<mass>0.9</mass>
+		<spectraltype>K0</spectraltype>
+		<temperature>5260.0</temperature>
+		<metallicity>0.12</metallicity>
+		<planet>
+			<name>WASP-140 b</name>
+			<semimajoraxis errorminus="0.0005" errorplus="0.0005">0.0323</semimajoraxis>
+			<periastron errorminus="8.0" errorplus="8.0">356.0</periastron>
+			<eccentricity errorminus="0.0035" errorplus="0.0035">0.047</eccentricity>
+			<inclination errorminus="0.8" errorplus="0.5">83.3</inclination>
+			<period errorminus="0.000008" errorplus="0.000008">2.2359835</period>
+			<mass errorminus="0.07" errorplus="0.07">2.44</mass>
+			<radius errorminus="0.18" errorplus="0.42">1.44</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/07/11</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

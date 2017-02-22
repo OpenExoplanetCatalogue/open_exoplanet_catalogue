@@ -1,0 +1,27 @@
+<system>
+	<name>HD 42618</name>
+	<rightascension>06 12 01</rightascension>
+	<declination>+06 46 59</declination>
+	<distance>23.5</distance>
+	<star>
+		<name>HD 42618</name>
+		<radius>0.999</radius>
+		<mass>1.015</mass>
+		<spectraltype>G4V</spectraltype>
+		<temperature>5727.0</temperature>
+		<metallicity>-0.09</metallicity>
+		<planet>
+			<name>HD 42618 b</name>
+			<semimajoraxis errorminus="0.011" errorplus="0.011">0.554</semimajoraxis>
+			<periastron errorminus="39.0" errorplus="69.0">101.0</periastron>
+			<eccentricity errorminus="0.12" errorplus="0.15">0.19</eccentricity>
+			<period errorminus="0.340000" errorplus="0.370000">149.61</period>
+			<mass errorminus="0.0079" errorplus="0.0079">0.0453</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/07/11</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

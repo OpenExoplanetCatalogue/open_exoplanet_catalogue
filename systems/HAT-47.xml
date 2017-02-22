@@ -1,0 +1,29 @@
+<system>
+	<name>HAT-47</name>
+	<rightascension>02 33 14</rightascension>
+	<declination>+30 21 38</declination>
+	<distance>268.0</distance>
+	<star>
+		<name>HAT-47</name>
+		<age>1.5</age>
+		<radius>1.515</radius>
+		<mass>1.387</mass>
+		<temperature>6703.0</temperature>
+		<metallicity>0.0</metallicity>
+		<planet>
+			<name>HAT-47 b</name>
+			<semimajoraxis errorminus="0.0006" errorplus="0.0006">0.0615</semimajoraxis>
+			<eccentricity>0.0</eccentricity>
+			<inclination errorminus="0.2" errorplus="0.2">84.8</inclination>
+			<period errorminus="0.000013" errorplus="0.000013">4.732182</period>
+			<mass errorminus="0.039" errorplus="0.039">0.206</mass>
+			<radius errorminus="0.045" errorplus="0.045">1.313</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/06/16</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

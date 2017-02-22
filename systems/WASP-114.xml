@@ -1,0 +1,30 @@
+<system>
+	<name>WASP-114</name>
+	<rightascension>21 50 40</rightascension>
+	<declination>+10 27 47</declination>
+	<distance>460.0</distance>
+	<star>
+		<name>WASP-114</name>
+		<radius>1.43</radius>
+		<mass>1.289</mass>
+		<spectraltype>G0</spectraltype>
+		<temperature>5940.0</temperature>
+		<metallicity>0.14</metallicity>
+		<planet>
+			<name>WASP-114 b</name>
+			<semimajoraxis errorminus="0.00039" errorplus="0.00039">0.02851</semimajoraxis>
+			<periastron errorminus="35.0" errorplus="150.0">289.0</periastron>
+			<eccentricity errorminus="0.009" errorplus="0.022">0.012</eccentricity>
+			<inclination errorminus="0.9" errorplus="0.9">83.96</inclination>
+			<period errorminus="0.000001" errorplus="0.000001">1.5487743</period>
+			<mass errorminus="0.064" errorplus="0.064">1.769</mass>
+			<radius errorminus="0.064" errorplus="0.064">1.339</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/07/11</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

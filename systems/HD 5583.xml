@@ -1,0 +1,28 @@
+<system>
+	<name>HD 5583</name>
+	<rightascension>00 57 57</rightascension>
+	<declination>+34 59 08</declination>
+	<distance>221.0</distance>
+	<star>
+		<name>HD 5583</name>
+		<age>7.4</age>
+		<radius>9.09</radius>
+		<mass>1.01</mass>
+		<spectraltype>K0</spectraltype>
+		<temperature>4830.0</temperature>
+		<metallicity>-0.5</metallicity>
+		<planet>
+			<name>HD 5583 b</name>
+			<semimajoraxis errorminus="0.02" errorplus="0.02">0.53</semimajoraxis>
+			<periastron errorminus="6.0" errorplus="330.0">12.0</periastron>
+			<eccentricity errorminus="0.023" errorplus="0.07">0.076</eccentricity>
+			<period errorminus="0.220000" errorplus="0.220000">139.35</period>
+			<mass errorminus="0.53" errorplus="0.53">5.78</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/03/21</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

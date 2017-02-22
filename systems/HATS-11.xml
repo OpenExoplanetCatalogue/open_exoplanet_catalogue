@@ -1,0 +1,30 @@
+<system>
+	<name>HATS-11</name>
+	<rightascension>19 17 36</rightascension>
+	<declination>-22 36 36</declination>
+	<distance>906.0</distance>
+	<star>
+		<name>HATS-11</name>
+		<age>7.7</age>
+		<radius>1.44</radius>
+		<mass>1.0</mass>
+		<spectraltype>G0</spectraltype>
+		<temperature>6060.0</temperature>
+		<metallicity>-0.39</metallicity>
+		<planet>
+			<name>HATS-11 b</name>
+			<semimajoraxis errorminus="0.00093" errorplus="0.00093">0.04614</semimajoraxis>
+			<eccentricity errorminus="0.34" errorplus="0.34">0.34</eccentricity>
+			<inclination errorminus="0.86" errorplus="0.86">88.31</inclination>
+			<period errorminus="0.000010" errorplus="0.000010">3.6191613</period>
+			<mass errorminus="0.12" errorplus="0.12">0.85</mass>
+			<radius errorminus="0.078" errorplus="0.078">1.51</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/01</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

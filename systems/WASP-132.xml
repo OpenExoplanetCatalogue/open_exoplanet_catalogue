@@ -1,0 +1,30 @@
+<system>
+	<name>WASP-132</name>
+	<rightascension>14 30 26</rightascension>
+	<declination>-46 50 27</declination>
+	<distance>120.0</distance>
+	<star>
+		<name>WASP-132</name>
+		<age>0.5</age>
+		<radius>0.74</radius>
+		<mass>0.8</mass>
+		<spectraltype>K4</spectraltype>
+		<temperature>4775.0</temperature>
+		<metallicity>0.22</metallicity>
+		<planet>
+			<name>WASP-132 b</name>
+			<semimajoraxis errorminus="0.001" errorplus="0.001">0.067</semimajoraxis>
+			<eccentricity>0.0</eccentricity>
+			<inclination errorminus="0.3" errorplus="0.3">89.6</inclination>
+			<period errorminus="0.000009" errorplus="0.000009">7.133521</period>
+			<mass errorminus="0.03" errorplus="0.03">0.41</mass>
+			<radius errorminus="0.03" errorplus="0.03">0.87</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/07/11</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

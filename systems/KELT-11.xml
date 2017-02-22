@@ -1,0 +1,29 @@
+<system>
+	<name>KELT-11</name>
+	<rightascension>10 46 50</rightascension>
+	<declination>-09 36 03</declination>
+	<distance>98.0</distance>
+	<star>
+		<name>KELT-11</name>
+		<radius>2.72</radius>
+		<mass>1.438</mass>
+		<spectraltype>G8</spectraltype>
+		<temperature>5370.0</temperature>
+		<metallicity>0.18</metallicity>
+		<planet>
+			<name>KELT-11 b</name>
+			<semimajoraxis errorminus="0.00076" errorplus="0.00088">0.06229</semimajoraxis>
+			<eccentricity>0.0</eccentricity>
+			<inclination errorminus="1.8" errorplus="2.4">85.8</inclination>
+			<period errorminus="0.000059" errorplus="0.000068">4.736529</period>
+			<mass errorminus="0.019" errorplus="0.019">0.195</mass>
+			<radius errorminus="0.12" errorplus="0.18">1.37</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/07/11</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

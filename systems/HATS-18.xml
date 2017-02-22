@@ -1,0 +1,30 @@
+<system>
+	<name>HATS-18</name>
+	<rightascension>11 35 50</rightascension>
+	<declination>-29 50 38</declination>
+	<distance>645.0</distance>
+	<star>
+		<name>HATS-18</name>
+		<age>4.2</age>
+		<radius>1.02</radius>
+		<mass>1.037</mass>
+		<spectraltype>G</spectraltype>
+		<temperature>5600.0</temperature>
+		<metallicity>0.28</metallicity>
+		<planet>
+			<name>HATS-18 b</name>
+			<semimajoraxis errorminus="0.00027" errorplus="0.00027">0.01761</semimajoraxis>
+			<eccentricity errorminus="0.166" errorplus="0.166">0.166</eccentricity>
+			<inclination errorminus="2.8" errorplus="1.9">85.5</inclination>
+			<period>0.8378434</period>
+			<mass errorminus="0.077" errorplus="0.077">1.98</mass>
+			<radius errorminus="0.049" errorplus="0.1">1.337</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/06/06</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

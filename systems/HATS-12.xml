@@ -1,0 +1,30 @@
+<system>
+	<name>HATS-12</name>
+	<rightascension>19 16 49</rightascension>
+	<declination>-19 38 39</declination>
+	<distance>981.0</distance>
+	<star>
+		<name>HATS-12</name>
+		<age>2.36</age>
+		<radius>2.21</radius>
+		<mass>1.49</mass>
+		<spectraltype>F</spectraltype>
+		<temperature>6408.0</temperature>
+		<metallicity>-0.1</metallicity>
+		<planet>
+			<name>HATS-12 b</name>
+			<semimajoraxis errorminus="0.00077" errorplus="0.00077">0.04795</semimajoraxis>
+			<eccentricity errorminus="0.085" errorplus="0.085">0.085</eccentricity>
+			<inclination errorminus="1.9" errorplus="1.9">82.7</inclination>
+			<period errorminus="0.000011" errorplus="0.000011">3.142833</period>
+			<mass errorminus="0.119" errorplus="0.123">2.4</mass>
+			<radius errorminus="0.17" errorplus="0.17">1.35</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/01</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

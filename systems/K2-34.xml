@@ -1,0 +1,29 @@
+<system>
+	<name>K2-34</name>
+	<rightascension>08 30 19</rightascension>
+	<declination>+22 14 09</declination>
+	<distance>377.0</distance>
+	<star>
+		<name>K2-34</name>
+		<radius>1.526</radius>
+		<mass>1.281</mass>
+		<spectraltype>F9</spectraltype>
+		<temperature>6132.0</temperature>
+		<metallicity>0.24</metallicity>
+		<planet>
+			<name>K2-34 b</name>
+			<semimajoraxis errorminus="0.0011" errorplus="0.00063">0.04419</semimajoraxis>
+			<eccentricity>0.0</eccentricity>
+			<inclination errorminus="0.51" errorplus="0.51">82.06</inclination>
+			<period errorminus="0.000017" errorplus="0.000017">2.995607</period>
+			<mass errorminus="0.133" errorplus="0.134">1.78</mass>
+			<radius errorminus="0.067" errorplus="0.067">1.35</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/06/07</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

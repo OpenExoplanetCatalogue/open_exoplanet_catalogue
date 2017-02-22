@@ -1,0 +1,36 @@
+<system>
+	<name>KIC 8552719</name>
+	<rightascension>19 15 53</rightascension>
+	<declination>+44 37 28</declination>
+	<star>
+		<name>KIC 8552719</name>
+		<radius>0.822</radius>
+		<mass>0.94</mass>
+		<temperature>5114.0</temperature>
+		<metallicity>0.015</metallicity>
+		<planet>
+			<name>Kepler-953 b</name>
+			<semimajoraxis>0.19757</semimajoraxis>
+			<inclination>89.53</inclination>
+			<period>88.4075</period>
+			<radius>0.315</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2012</discoveryyear>
+			<lastupdate>16/05/24</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+		<planet>
+			<name>Kepler-953 c</name>
+			<period errorminus="0.000025" errorplus="0.000025">9.10967112</period>
+			<radius errorminus="0.008" errorplus="0.01">0.106</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/24</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

@@ -1,0 +1,30 @@
+<system>
+	<name>WASP-130</name>
+	<rightascension>13 32 25</rightascension>
+	<declination>-42 31 29</declination>
+	<distance>180.0</distance>
+	<star>
+		<name>WASP-130</name>
+		<age>2.0</age>
+		<radius>0.96</radius>
+		<mass>1.04</mass>
+		<spectraltype>G6</spectraltype>
+		<temperature>5625.0</temperature>
+		<metallicity>0.26</metallicity>
+		<planet>
+			<name>WASP-130 b</name>
+			<semimajoraxis errorminus="0.0014" errorplus="0.0014">0.1012</semimajoraxis>
+			<eccentricity>0.0</eccentricity>
+			<inclination errorminus="0.12" errorplus="0.12">88.66</inclination>
+			<period errorminus="0.000010" errorplus="0.000010">11.55098</period>
+			<mass errorminus="0.04" errorplus="0.04">1.23</mass>
+			<radius errorminus="0.03" errorplus="0.03">0.89</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/07/11</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>
