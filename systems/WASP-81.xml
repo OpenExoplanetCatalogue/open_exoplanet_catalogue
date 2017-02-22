@@ -1,0 +1,40 @@
+<system>
+	<name>WASP-81</name>
+	<rightascension>20 16 50</rightascension>
+	<declination>+03 17 39</declination>
+	<distance>410.0</distance>
+	<star>
+		<name>WASP-81</name>
+		<radius>1.283</radius>
+		<mass>1.08</mass>
+		<spectraltype>G1</spectraltype>
+		<temperature>5870.0</temperature>
+		<metallicity>-0.36</metallicity>
+		<planet>
+			<name>WASP-81 b</name>
+			<semimajoraxis errorminus="0.00072" errorplus="0.0007">0.03908</semimajoraxis>
+			<eccentricity errorminus="0.066" errorplus="0.066">0.0</eccentricity>
+			<inclination errorminus="0.092" errorplus="0.088">88.69</inclination>
+			<period errorminus="0.000002" errorplus="0.000002">2.7164762</period>
+			<mass errorminus="0.035" errorplus="0.036">0.729</mass>
+			<radius errorminus="0.046" errorplus="0.051">1.429</radius>
+			<istransiting>1</istransiting>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/12/27</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+		<planet>
+			<name>WASP-81 c</name>
+			<semimajoraxis errorminus="0.045" errorplus="0.044">2.426</semimajoraxis>
+			<periastron errorminus="0.0051" errorplus="0.052">321.86</periastron>
+			<eccentricity errorminus="0.0044" errorplus="0.0044">0.557</eccentricity>
+			<period errorminus="7.800000" errorplus="8.100000">1297.0</period>
+			<mass errorminus="0.2" errorplus="0.2">56.6</mass>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/12/27</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

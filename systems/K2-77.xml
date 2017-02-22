@@ -1,0 +1,29 @@
+<system>
+	<name>K2-77</name>
+	<rightascension>03 40 55</rightascension>
+	<declination>+12 34 21</declination>
+	<distance>125.0</distance>
+	<star>
+		<name>K2-77</name>
+		<age>0.7</age>
+		<radius>0.76</radius>
+		<mass>0.8</mass>
+		<spectraltype>K</spectraltype>
+		<temperature>4970.0</temperature>
+		<metallicity>0.29</metallicity>
+		<planet>
+			<name>K2-77 b</name>
+			<periastron errorminus="44.0" errorplus="44.0">89.0</periastron>
+			<eccentricity errorminus="0.09" errorplus="0.22">0.14</eccentricity>
+			<inclination errorminus="0.8" errorplus="0.8">88.7</inclination>
+			<period errorminus="0.000719" errorplus="0.000683">8.199796</period>
+			<mass errorminus="0.00042" errorplus="0.00079">1.9</mass>
+			<radius errorminus="0.014" errorplus="0.014">0.205</radius>
+			<istransiting>1</istransiting>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>17/01/25</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>
