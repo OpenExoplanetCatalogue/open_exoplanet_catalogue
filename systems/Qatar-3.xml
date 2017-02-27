@@ -4,9 +4,9 @@
 	<declination>+36 12 47</declination>
 	<star>
 		<name>Qatar-3</name>
-		<age>4.079</age>
-		<radius>1.272</radius>
-		<mass>1.145</mass>
+		<age errorminus="0.001" errorplus="0.001">0.310</age>
+		<radius errorminus="0.14" errorplus="0.14">1.272</radius>
+		<mass errorminus="0.065" errorplus="0.065">1.145</mass>
 		<temperature>6007.0</temperature>
 		<metallicity>-0.041</metallicity>
 		<planet>
@@ -17,7 +17,7 @@
 			<mass errorminus="0.47" errorplus="0.47">4.31</mass>
 			<radius errorminus="0.14" errorplus="0.14">1.096</radius>
 			<istransiting>1</istransiting>
-			<temperature>84.0</temperature>
+			<temperature errorminus="52" errorplus="52">6007.0</temperature>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/09/18</lastupdate>
 			<list>Confirmed planets</list>
