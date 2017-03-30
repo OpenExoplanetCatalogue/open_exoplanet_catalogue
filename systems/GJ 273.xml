@@ -1,0 +1,38 @@
+<system>
+	<name>GJ 273</name>
+	<rightascension>07 27 24</rightascension>
+	<declination>+05 13 33</declination>
+	<distance>3.8</distance>
+	<star>
+		<name>GJ 273</name>
+		<radius>0.293</radius>
+		<mass>0.29</mass>
+		<spectraltype>M3.5</spectraltype>
+		<temperature>3382.0</temperature>
+		<metallicity>0.09</metallicity>
+		<planet>
+			<name>GJ 273 b</name>
+			<semimajoraxis errorminus="1.7e-05" errorplus="1.9e-05">0.091101</semimajoraxis>
+			<eccentricity errorminus="0.07" errorplus="0.09">0.1</eccentricity>
+			<period errorminus="0.005200" errorplus="0.005900">18.6498</period>
+			<mass errorminus="0.00082" errorplus="0.00085">0.00909</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2017</discoveryyear>
+			<lastupdate>17/03/21</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+		<planet>
+			<name>GJ 273 c</name>
+			<semimajoraxis errorminus="2e-06" errorplus="2e-06">0.036467</semimajoraxis>
+			<eccentricity errorminus="0.12" errorplus="0.13">0.17</eccentricity>
+			<period errorminus="0.000400" errorplus="0.000400">4.7234</period>
+			<mass errorminus="0.0005" errorplus="0.0005">0.00371</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2017</discoveryyear>
+			<lastupdate>17/03/21</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

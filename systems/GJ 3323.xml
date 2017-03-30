@@ -1,0 +1,37 @@
+<system>
+	<name>GJ 3323</name>
+	<rightascension>05 01 58</rightascension>
+	<declination>-06 03 14</declination>
+	<star>
+		<name>GJ 3323</name>
+		<radius>0.119</radius>
+		<mass>0.164</mass>
+		<spectraltype>M4</spectraltype>
+		<temperature>3159.0</temperature>
+		<metallicity>-0.27</metallicity>
+		<planet>
+			<name>GJ 3323 b</name>
+			<semimajoraxis errorminus="0.00056" errorplus="0.00054">0.03282</semimajoraxis>
+			<eccentricity errorminus="0.11" errorplus="0.11">0.23</eccentricity>
+			<period errorminus="0.000700" errorplus="0.000700">5.3636</period>
+			<mass errorminus="0.00079" errorplus="0.00082">0.00636</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2017</discoveryyear>
+			<lastupdate>17/03/21</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+		<planet>
+			<name>GJ 3323 c</name>
+			<semimajoraxis errorminus="0.0022" errorplus="0.0021">0.1264</semimajoraxis>
+			<eccentricity errorminus="0.12" errorplus="0.21">0.17</eccentricity>
+			<period errorminus="0.190000" errorplus="0.210000">40.54</period>
+			<mass errorminus="0.0015" errorplus="0.0016">0.00727</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2017</discoveryyear>
+			<lastupdate>17/03/21</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>
