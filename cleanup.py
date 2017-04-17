@@ -94,7 +94,8 @@ validattributes = [
     "unit",
     "upperlimit",
     "lowerlimit",
-    "type"]
+    "type",
+    "component"]
 validlists = [
     "Confirmed planets",
     "Planets in binary systems, S-type",
