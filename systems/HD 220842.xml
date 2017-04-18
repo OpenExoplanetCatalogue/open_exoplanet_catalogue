@@ -1,0 +1,39 @@
+<system>
+	<name>HD 220842</name>
+	<rightascension>23 26 36.98694</rightascension>
+	<declination>+56 53 11.5161</declination>
+	<distance errorminus="2.8" errorplus="2.8">62.5</distance>
+	<star>
+		<name>HD 220842</name>
+		<name>HIP 115714</name>
+		<name>TYC 4007-1108-1</name>
+		<name>SAO 35419</name>
+		<name>BD+56 3009</name>
+		<name>2MASS J23263697+5653115</name>
+		<magB errorminus="0.016" errorplus="0.016">8.572</magB>
+		<magV errorminus="0.01" errorplus="0.01">7.99</magV>
+		<magR>7.6</magR>
+		<magI>7.4</magI>
+		<magJ errorminus="0.020" errorplus="0.020">6.847</magJ>
+		<magH errorminus="0.020" errorplus="0.020">6.627</magH>
+		<magK errorminus="0.023" errorplus="0.023">6.555</magK>
+		<spectraltype>F8</spectraltype>
+		<metallicity errorminus="0.02" errorplus="0.02">-0.17</metallicity>
+		<temperature errorminus="20" errorplus="20">5960</temperature>
+		<mass errorminus="0.06" errorplus="0.06">1.13</mass>
+		<planet>
+			<name>HD 220842 b</name>
+			<period errorminus="0.19" errorplus="0.19">218.47</period>
+			<eccentricity errorminus="0.009" errorplus="0.009">0.404</eccentricity>
+			<periastron errorminus="1.7" errorplus="1.7">-134.9</periastron>
+			<periastrontime errorminus="0.8" errorplus="0.8" unit="BJD">2456624.8</periastrontime>
+			<mass errorminus="0.15" errorplus="0.15" type="msini">3.18</mass>
+			<semimajoraxis errorminus="0.018" errorplus="0.018">0.740</semimajoraxis>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<description>The planet HD 220842 b was discovered as part of the SOPHIE search for northern extrasolar planets.</description>
+			<lastupdate>16/03/19</lastupdate>
+			<list>Confirmed planets</list>
+		</planet>
+	</star>
+</system>

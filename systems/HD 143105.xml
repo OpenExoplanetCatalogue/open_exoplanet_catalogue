@@ -1,0 +1,37 @@
+<system>
+	<name>HD 143105</name>
+	<rightascension>15 53 36.55774</rightascension>
+	<declination>+68 43 12.4077</declination>
+	<distance errorminus="0.8" errorplus="0.8">48.7</distance>
+	<star>
+		<name>HD 143105</name>
+		<name>HIP 77838</name>
+		<name>TYC 4412-1654-1</name>
+		<name>SAO 16890</name>
+		<name>BD+69 825</name>
+		<name>2MASS J15533654+6843125</name>
+		<magB errorminus="0.01" errorplus="0.01">7.27</magB>
+		<magV errorminus="0.01" errorplus="0.01">6.75</magV>
+		<magJ errorminus="0.026" errorplus="0.026">5.795</magJ>
+		<magH errorminus="0.029" errorplus="0.029">5.628</magH>
+		<magK errorminus="0.020" errorplus="0.020">5.519</magK>
+		<spectraltype>F5</spectraltype>
+		<metallicity errorminus="0.04" errorplus="0.04">0.15</metallicity>
+		<temperature errorminus="60" errorplus="60">6380</temperature>
+		<mass errorminus="0.11" errorplus="0.11">1.51</mass>
+		<planet>
+			<name>HD 143105 b</name>
+			<period errorminus="0.0003" errorplus="0.0003">2.1974</period>
+			<eccentricity upperlimit="0.07" />
+			<transittime errorminus="0.007" errorplus="0.007" unit="BJD">2456531.344</transittime>
+			<mass errorminus="0.06" errorplus="0.06" type="msini">1.21</mass>
+			<semimajoraxis errorminus="0.0009" errorplus="0.0009">0.0379</semimajoraxis>
+			<istransiting>0</istransiting>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<description>HD 143105 is one of the brightest stars known to host a hot Jupiter.</description>
+			<lastupdate>16/03/19</lastupdate>
+			<list>Confirmed planets</list>
+		</planet>
+	</star>
+</system>

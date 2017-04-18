@@ -1,0 +1,37 @@
+<system>
+	<name>HD 35759</name>
+	<rightascension>05 31 33.35131</rightascension>
+	<declination>+64 19 07.5857</declination>
+	<distance errorminus="4.0" errorplus="4.0">72.5</distance>
+	<star>
+		<name>HD 35759</name>
+		<name>HIP 25883</name>
+		<name>TYC 4089-1222-1</name>
+		<name>SAO 13524</name>
+		<name>BD+64 532</name>
+		<name>2MASS J05313334+6419075</name>
+		<magB errorminus="0.02" errorplus="0.02">8.33</magB>
+		<magV errorminus="0.01" errorplus="0.01">7.74</magV>
+		<magJ errorminus="0.023" errorplus="0.023">6.606</magJ>
+		<magH errorminus="0.040" errorplus="0.040">6.388</magH>
+		<magK errorminus="0.020" errorplus="0.020">6.319</magK>
+		<spectraltype>G0</spectraltype>
+		<metallicity errorminus="0.02" errorplus="0.02">0.04</metallicity>
+		<temperature errorminus="30" errorplus="30">6060</temperature>
+		<mass errorminus="0.08" errorplus="0.08">1.15</mass>
+		<planet>
+			<name>HD 35759 b</name>
+			<period errorminus="0.019" errorplus="0.019">82.467</period>
+			<eccentricity errorminus="0.006" errorplus="0.006">0.389</eccentricity>
+			<periastron errorminus="1.3" errorplus="1.3">-104.0</periastron>
+			<periastrontime errorminus="0.24" errorplus="0.24" unit="BJD">2456469.72</periastrontime>
+			<mass errorminus="0.17" errorplus="0.17" type="msini">3.76</mass>
+			<semimajoraxis errorminus="0.009" errorplus="0.009">0.389</semimajoraxis>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<description>The planet HD 35759 b was discovered as part of the SOPHIE search for northern extrasolar planets.</description>
+			<lastupdate>16/03/19</lastupdate>
+			<list>Confirmed planets</list>
+		</planet>
+	</star>
+</system>
