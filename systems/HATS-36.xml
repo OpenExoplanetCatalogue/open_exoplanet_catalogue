@@ -1,0 +1,30 @@
+<system>
+	<name>HATS-36</name>
+	<rightascension>19 25 55</rightascension>
+	<declination>-23 47 50</declination>
+	<distance>977.0</distance>
+	<star>
+		<name>HATS-36</name>
+		<age>3.4</age>
+		<radius>1.186</radius>
+		<mass>1.135</mass>
+		<spectraltype>G0V</spectraltype>
+		<temperature>5970.0</temperature>
+		<metallicity>0.13</metallicity>
+		<planet>
+			<name>HAT-36 b</name>
+			<semimajoraxis errorminus="0.0011" errorplus="0.0011">0.0529</semimajoraxis>
+			<eccentricity errorminus="0.294" errorplus="0.0">0.294</eccentricity>
+			<inclination errorminus="0.36" errorplus="0.36">87.57</inclination>
+			<period errorminus="0.000002" errorplus="0.000002">4.1752379</period>
+			<mass errorminus="0.4" errorplus="0.4">2.79</mass>
+			<radius errorminus="0.045" errorplus="0.045">1.263</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2017</discoveryyear>
+			<lastupdate>17/06/29</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>
