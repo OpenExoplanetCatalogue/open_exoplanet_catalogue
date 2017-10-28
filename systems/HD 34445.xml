@@ -1,8 +1,8 @@
 <system>
 	<name>HD 34445</name>
-	<rightascension>05 17 40.98051</rightascension>
-	<declination>+07 21 12.0508</declination>
-	<distance errorminus="1.4" errorplus="1.4">46.5</distance>
+	<rightascension>05 17 40.9804</rightascension>
+	<declination>+07 21 12.053</declination>
+	<distance errorminus="0.60" errorplus="0.60">45.37</distance>
 	<star>
 		<name>HD 34445</name>
 		<name>HIP 24681</name>
@@ -20,15 +20,75 @@
 		<planet>
 			<name>HD 34445 b</name>
 			<list>Confirmed planets</list>
-			<mass errorminus="0.07" errorplus="0.07" type="msini">0.79</mass>
-			<period errorminus="11" errorplus="11">1049</period>
-			<semimajoraxis errorminus="0.02" errorplus="0.02">2.07</semimajoraxis>
-			<eccentricity errorminus="0.07" errorplus="0.07">0.27</eccentricity>
-			<periastron errorminus="19" errorplus="19">104</periastron>
-			<periastrontime errorminus="48" errorplus="48">2453781</periastrontime>
+			<mass errorminus="0.028" errorplus="0.028" type="msini">0.629</mass>
+			<period errorminus="4.7" errorplus="4.7">1056.7</period>
+			<semimajoraxis errorminus="0.016" errorplus="0.016">2.075</semimajoraxis>
+			<eccentricity errorminus="0.035" errorplus="0.035">0.014</eccentricity>
+			<periastron errorminus="92" errorplus="92">115</periastron>
+			<meananomaly errorminus="92" errorplus="92">223</meananomaly>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>16/03/09</lastupdate>
+			<lastupdate>17/10/28</lastupdate>
 			<discoveryyear>2010</discoveryyear>
+		</planet>
+		<planet>
+			<name>HD 34445 c</name>
+			<list>Confirmed planets</list>
+			<period errorminus="0.45" errorplus="0.45">214.67</period>
+			<eccentricity errorminus="0.071" errorplus="0.071">0.036</eccentricity>
+			<periastron errorminus="74" errorplus="74">149</periastron>
+			<meananomaly errorminus="80" errorplus="80">235</meananomaly>
+			<mass errorminus="0.016" errorplus="0.016" type="msini">0.168</mass>
+			<discoverymethod>RV</discoverymethod>
+			<lastupdate>17/10/20</lastupdate>
+			<discoveryyear>2017</discoveryyear>
+		</planet>
+		<planet>
+			<name>HD 34445 d</name>
+			<list>Confirmed planets</list>
+			<period errorminus="0.18" errorplus="0.18">117.87</period>
+			<eccentricity errorminus="0.051" errorplus="0.051">0.027</eccentricity>
+			<periastron errorminus="97" errorplus="97">246</periastron>
+			<meananomaly errorminus="92" errorplus="92">126</meananomaly>
+			<mass errorminus="0.013" errorplus="0.013" type="msini">0.097</mass>
+			<discoverymethod>RV</discoverymethod>
+			<lastupdate>17/10/20</lastupdate>
+			<discoveryyear>2017</discoveryyear>
+		</planet>
+		<planet>
+			<name>HD 34445 e</name>
+			<list>Confirmed planets</list>
+			<period errorminus="0.045" errorplus="0.045">49.175</period>
+			<eccentricity errorminus="0.062" errorplus="0.062">0.090</eccentricity>
+			<periastron errorminus="120" errorplus="120">304</periastron>
+			<meananomaly errorminus="103" errorplus="103">40</meananomaly>
+			<mass errorminus="0.0089" errorplus="0.0089" type="msini">0.0529</mass>
+			<discoverymethod>RV</discoverymethod>
+			<lastupdate>17/10/20</lastupdate>
+			<discoveryyear>2017</discoveryyear>
+		</planet>
+		<planet>
+			<name>HD 34445 f</name>
+			<list>Confirmed planets</list>
+			<period errorminus="7.9" errorplus="7.9">676.8</period>
+			<eccentricity errorminus="0.057" errorplus="0.057">0.031</eccentricity>
+			<periastron errorminus="86" errorplus="86">212</periastron>
+			<meananomaly errorminus="103" errorplus="103">80</meananomaly>
+			<mass errorminus="0.021" errorplus="0.021" type="msini">0.119</mass>
+			<discoverymethod>RV</discoverymethod>
+			<lastupdate>17/10/20</lastupdate>
+			<discoveryyear>2017</discoveryyear>
+		</planet>
+		<planet>
+			<name>HD 34445 g</name>
+			<list>Confirmed planets</list>
+			<period errorminus="1500" errorplus="1500">5700</period>
+			<eccentricity errorminus="0.080" errorplus="0.080">0.032</eccentricity>
+			<periastron errorminus="92" errorplus="92">235</periastron>
+			<meananomaly errorminus="92" errorplus="92">172</meananomaly>
+			<mass errorminus="0.13" errorplus="0.13" type="msini">0.38</mass>
+			<discoverymethod>RV</discoverymethod>
+			<lastupdate>17/10/20</lastupdate>
+			<discoveryyear>2017</discoveryyear>
 		</planet>
 	</star>
 </system>
