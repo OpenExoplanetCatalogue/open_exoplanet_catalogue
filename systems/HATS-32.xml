@@ -1,7 +1,7 @@
 <system>
 	<name>HATS-32</name>
-	<rightascension>23 04 18</rightascension>
-	<declination>-21 43 41</declination>
+	<rightascension>23 04 18.02</rightascension>
+	<declination>-21 16 19.0</declination>
 	<distance>839.0</distance>
 	<star>
 		<name>HATS-32</name>
@@ -9,6 +9,9 @@
 		<radius>1.097</radius>
 		<mass>1.099</mass>
 		<temperature>5700.0</temperature>
+		<magV errorminus="0.01" errorplus="0.01">14.38</magV>
+		<magB errorminus="0.03" errorplus="0.03">15.11</magB>
+		<magR errorminus="0.10" errorplus="0.10">14.38</magR>
 		<metallicity>0.39</metallicity>
 		<planet>
 			<name>HATS-32 b</name>
