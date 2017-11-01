@@ -1,7 +1,7 @@
 <system>
 	<name>WASP-140</name>
-	<rightascension>04 01 33</rightascension>
-	<declination>-20 32 56</declination>
+	<rightascension>04 01 32.55</rightascension>
+	<declination>-20 27 03.9</declination>
 	<distance>180.0</distance>
 	<star>
 		<name>WASP-140</name>
@@ -9,6 +9,8 @@
 		<radius>0.87</radius>
 		<mass>0.9</mass>
 		<spectraltype>K0</spectraltype>
+		<magV errorminus="0.10" errorplus="0.10">11.12</magV>
+		<magB errorminus="0.14" errorplus="0.14">11.86</magB>
 		<temperature>5260.0</temperature>
 		<metallicity>0.12</metallicity>
 		<planet>
