@@ -1,0 +1,35 @@
+<system>
+	<name>NGTS-1</name>
+	<rightascension>05 30 51.45</rightascension>
+	<declination>-36 37 50.83</declination>
+	<distance errorminus="44" errorplus="37">224</distance>
+	<star>
+		<name>NGTS-1</name>
+		<name>2MASS J05305145-3637508</name>
+		<magB errorminus="0.077" errorplus="0.077">16.912</magB>
+		<magV errorminus="0.083" errorplus="0.083">15.524</magV>
+		<magJ errorminus="0.024" errorplus="0.024">12.702</magJ>
+		<magH errorminus="0.022" errorplus="0.022">12.058</magH>
+		<magK errorminus="0.027" errorplus="0.027">11.936</magK>
+		<mass errorminus="0.062" errorplus="0.023">0.617</mass>
+		<radius errorminus="0.077" errorplus="0.077">0.573</radius>
+		<temperature errorminus="63" errorplus="71">3916</temperature>
+		<planet>
+			<name>NGTS-1 b</name>
+			<name>2MASS J05305145-3637508 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.33" errorplus="0.61">1.33</radius>
+			<mass errorminus="0.075" errorplus="0.066">0.812</mass>
+			<period errorminus="0.000020" errorplus="0.000020">2.647298</period>
+			<transittime errorminus="0.00062" errorplus="0.00062" unit="HJD">2457720.6593965</transittime>
+			<semimajoraxis errorminus="0.0045" errorplus="0.0047">0.0326</semimajoraxis>
+			<temperature errorminus="20" errorplus="20">790</temperature>
+			<eccentricity errorminus="0.012" errorplus="0.023">0.016</eccentricity>
+			<description>This Hot Jupiter transiting an early M-dwarf was the first discovery of Next Generation Transit Survey (NGTS).</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>17/10/30</lastupdate>
+			<discoveryyear>2017</discoveryyear>
+		</planet>
+	</star>
+</system>
