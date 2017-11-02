@@ -1,7 +1,7 @@
 <system>
 	<name>WASP-131</name>
-	<rightascension>14 00 46</rightascension>
-	<declination>-30 24 59</declination>
+	<rightascension>14 00 46.44</rightascension>
+	<declination>-30 35 00.9</declination>
 	<distance>250.0</distance>
 	<star>
 		<name>WASP-131</name>
@@ -9,6 +9,8 @@
 		<radius>1.53</radius>
 		<mass>1.06</mass>
 		<spectraltype>G0</spectraltype>
+		<magV errorminus="0.04" errorplus="0.04">10.07</magV>
+		<magB errorminus="0.04" errorplus="0.04">10.62</magB>
 		<temperature>6030.0</temperature>
 		<metallicity>0.18</metallicity>
 		<planet>
