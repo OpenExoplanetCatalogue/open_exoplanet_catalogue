@@ -1,0 +1,24 @@
+<system>
+	<name>Kepler-660</name>
+	<rightascension>19 12 33</rightascension>
+	<declination>+47 43 28</declination>
+	<star>
+		<name>Kepler-660</name>
+		<temperature errorminus="49.2" errorplus="44.7">4779.0</temperature>
+		<mass errorminus="0.05" errorplus="0.04">0.75</mass>
+		<radius errorminus="0.04" errorplus="0.03">0.71</radius>
+		<metallicity errorminus="0.18" errorplus="0.15">-0.07</metallicity>
+		<planet>
+			<name>Kepler-660 b</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.000011780" errorplus="0.000011780">9.273581940</period>
+			<radius errorminus="0.015" errorplus="0.010">0.229</radius>
+		</planet>
+	</star>
+</system>

@@ -1,0 +1,28 @@
+<system>
+	<name>WASP-107</name>
+	<rightascension>12 33 33</rightascension>
+	<declination>-10 51 14</declination>
+	<star>
+		<name>WASP-107</name>
+		<radius>0.66</radius>
+		<mass>0.69</mass>
+		<spectraltype>K6</spectraltype>
+		<temperature>4430.0</temperature>
+		<metallicity>0.02</metallicity>
+		<planet>
+			<name>WASP-107 b</name>
+			<semimajoraxis errorminus="0.001" errorplus="0.001">0.055</semimajoraxis>
+			<eccentricity>0.0</eccentricity>
+			<longitude errorminus="50.0" errorplus="50.0">90.0</longitude>
+			<inclination errorminus="0.2" errorplus="0.2">89.7</inclination>
+			<period errorminus="0.000002" errorplus="0.000002">5.72149</period>
+			<mass errorminus="0.01" errorplus="0.01">0.12</mass>
+			<radius errorminus="0.02" errorplus="0.02">0.94</radius>
+			<istransiting>1</istransiting>
+			<discoveryyear>2017</discoveryyear>
+			<lastupdate>17/02/17</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

@@ -1,0 +1,24 @@
+<system>
+	<name>Kepler-508</name>
+	<rightascension>19 41 37</rightascension>
+	<declination>+42 58 53</declination>
+	<star>
+		<name>Kepler-508</name>
+		<temperature errorminus="99.9" errorplus="95.0">6025.0</temperature>
+		<mass errorminus="0.05" errorplus="0.06">1.16</mass>
+		<radius errorminus="0.12" errorplus="0.20">1.25</radius>
+		<metallicity errorminus="0.09" errorplus="0.09">0.18</metallicity>
+		<planet>
+			<name>Kepler-508 b</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.000057470" errorplus="0.000057470">25.308897480</period>
+			<radius errorminus="0.017" errorplus="0.023">0.146</radius>
+		</planet>
+	</star>
+</system>

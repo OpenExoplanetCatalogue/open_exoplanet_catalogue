@@ -1,0 +1,29 @@
+<system>
+	<name>Kepler-433</name>
+	<rightascension>19 50 22</rightascension>
+	<declination>+40 58 38</declination>
+	<distance>1870.0</distance>
+	<star>
+		<name>Kepler-433</name>
+		<age>2.67</age>
+		<radius>1.45</radius>
+		<mass>2.82</mass>
+		<temperature>6360.0</temperature>
+		<metallicity>-0.01</metallicity>
+		<planet>
+			<name>Kepler-433 b</name>
+			<semimajoraxis>0.059</semimajoraxis>
+			<eccentricity errorminus="0.079" errorplus="0.079">0.119</eccentricity>
+			<inclination errorminus="0.9" errorplus="0.52">89.21</inclination>
+			<period errorminus="0.000001" errorplus="0.000001">5.33408384</period>
+			<mass errorminus="0.52" errorplus="0.52">2.82</mass>
+			<radius errorminus="0.16" errorplus="0.16">1.45</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2012</discoveryyear>
+			<lastupdate>16/12/26</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

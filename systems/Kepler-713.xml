@@ -1,0 +1,24 @@
+<system>
+	<name>Kepler-713</name>
+	<rightascension>19 42 36</rightascension>
+	<declination>+43 01 47</declination>
+	<star>
+		<name>Kepler-713</name>
+		<temperature errorminus="234.0" errorplus="265.5">5785.0</temperature>
+		<mass errorminus="0.08" errorplus="0.11">0.98</mass>
+		<radius errorminus="0.12" errorplus="0.20">0.99</radius>
+		<metallicity errorminus="0.18" errorplus="0.15">-0.03</metallicity>
+		<planet>
+			<name>Kepler-713 b</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.000013440" errorplus="0.000013440">7.411141000</period>
+			<radius errorminus="0.026" errorplus="0.045">0.221</radius>
+		</planet>
+	</star>
+</system>

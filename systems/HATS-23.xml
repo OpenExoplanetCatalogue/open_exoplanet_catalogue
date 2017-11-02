@@ -1,0 +1,29 @@
+<system>
+	<name>HATS-23</name>
+	<rightascension>19 05 28</rightascension>
+	<declination>-50 55 57</declination>
+	<distance>747.0</distance>
+	<star>
+		<name>HATS-23</name>
+		<age>4.2</age>
+		<radius>1.199</radius>
+		<mass>1.121</mass>
+		<temperature>5780.0</temperature>
+		<metallicity>0.28</metallicity>
+		<planet>
+			<name>HATS-23 b</name>
+			<semimajoraxis errorminus="0.00047" errorplus="0.00047">0.03397</semimajoraxis>
+			<eccentricity errorminus="0.114" errorplus="0.114">0.114</eccentricity>
+			<inclination errorminus="0.62" errorplus="0.93">81.02</inclination>
+			<period errorminus="0.000005" errorplus="0.000005">2.1605156</period>
+			<mass errorminus="0.072" errorplus="0.072">1.47</mass>
+			<radius errorminus="0.4" errorplus="0.3">1.86</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2015</discoveryyear>
+			<lastupdate>16/07/11</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

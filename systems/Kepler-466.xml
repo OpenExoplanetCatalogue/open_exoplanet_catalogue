@@ -1,0 +1,36 @@
+<system>
+	<name>Kepler-466</name>
+	<rightascension>19 42 36</rightascension>
+	<declination>+48 29 44</declination>
+	<star>
+		<name>Kepler-466</name>
+		<temperature errorminus="68.5" errorplus="77.3">5927.0</temperature>
+		<mass errorminus="0.04" errorplus="0.04">1.04</mass>
+		<radius errorminus="0.06" errorplus="0.08">1.05</radius>
+		<metallicity errorminus="0.09" errorplus="0.09">-0.01</metallicity>
+		<planet>
+			<name>Kepler-466 b</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.000063450" errorplus="0.000063450">51.079263070</period>
+			<radius errorminus="0.015" errorplus="0.020">0.254</radius>
+		</planet>
+		<planet>
+			<name>Kepler-466 c</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.000006320" errorplus="0.000006320">3.709213850</period>
+			<radius errorminus="0.006" errorplus="0.009">0.112</radius>
+		</planet>
+	</star>
+</system>

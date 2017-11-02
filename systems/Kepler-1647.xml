@@ -1,0 +1,42 @@
+<system>
+	<name>Kepler-1647</name>
+	<name>Kepler-1647 (AB)</name>
+	<rightascension>19 52 36</rightascension>
+	<declination>+40 39 22</declination>
+	<binary>
+		<period>11.25882</period>
+		<eccentricity>0.1602</eccentricity>
+		<semimajoraxis>0.1276</semimajoraxis>
+		<star>
+			<name>Kepler-1647 A</name>
+			<radius>1.79</radius>
+			<mass>1.210</mass>
+			<temperature>6210.0</temperature>
+			<age>4.4</age>
+		</star>
+		<star>
+			<name>Kepler-1647 B</name>
+			<radius>1.79</radius>
+			<mass>0.975</mass>
+			<temperature>5770</temperature>
+		</star>
+		<planet>
+			<name>Kepler-1647 b</name>
+			<name>Kepler-1647 (AB) b</name>
+			<semimajoraxis errorminus="0.007" errorplus="0.007">2.7205</semimajoraxis>
+			<periastron errorminus="146.5723" errorplus="146.5723">155.0464</periastron>
+			<eccentricity errorminus="0.0689" errorplus="0.0689">0.0581</eccentricity>
+			<inclination errorminus="0.0035" errorplus="0.0035">90.0972</inclination>
+			<period errorminus="0.022700" errorplus="0.022700">1107.5923</period>
+			<mass errorminus="0.65" errorplus="0.65">1.52</mass>
+			<radius errorminus="0.01" errorplus="0.01">1.06</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2015</discoveryyear>
+			<lastupdate>16/10/14</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+			<list>Planets in binary systems, P-type</list>
+		</planet>
+	</binary>
+</system>

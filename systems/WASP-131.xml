@@ -1,0 +1,30 @@
+<system>
+	<name>WASP-131</name>
+	<rightascension>14 00 46</rightascension>
+	<declination>-30 24 59</declination>
+	<distance>250.0</distance>
+	<star>
+		<name>WASP-131</name>
+		<age>4.5</age>
+		<radius>1.53</radius>
+		<mass>1.06</mass>
+		<spectraltype>G0</spectraltype>
+		<temperature>6030.0</temperature>
+		<metallicity>0.18</metallicity>
+		<planet>
+			<name>WASP-131 b</name>
+			<semimajoraxis errorminus="0.0009" errorplus="0.0009">0.0607</semimajoraxis>
+			<eccentricity>0.0</eccentricity>
+			<inclination errorminus="0.3" errorplus="0.3">85.0</inclination>
+			<period errorminus="0.000005" errorplus="0.000005">5.322023</period>
+			<mass errorminus="0.02" errorplus="0.02">0.27</mass>
+			<radius errorminus="0.05" errorplus="0.05">1.22</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/07/11</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

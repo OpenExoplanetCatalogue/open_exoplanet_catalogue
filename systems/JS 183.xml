@@ -1,0 +1,28 @@
+<system>
+	<name>JS 183</name>
+	<rightascension>08 37 27</rightascension>
+	<declination>+18 58 36</declination>
+	<star>
+		<name>JS 183</name>
+		<radius>0.44</radius>
+		<mass>0.44</mass>
+		<spectraltype>M3.5</spectraltype>
+		<temperature>3325.0</temperature>
+		<metallicity>0.2</metallicity>
+		<planet>
+			<name>JS 183 b</name>
+			<periastron errorminus="53.0" errorplus="69.0">283.0</periastron>
+			<eccentricity errorminus="0.18" errorplus="0.27">0.24</eccentricity>
+			<inclination errorminus="0.6" errorplus="0.6">89.25</inclination>
+			<period errorminus="0.000084" errorplus="0.000084">10.134588</period>
+			<mass>1.67</mass>
+			<radius errorminus="0.02" errorplus="0.02">0.32</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2017</discoveryyear>
+			<lastupdate>17/03/28</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

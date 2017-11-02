@@ -1,0 +1,27 @@
+<system>
+	<name>K2-60</name>
+	<rightascension>22 34 25</rightascension>
+	<declination>-13 16 06</declination>
+	<star>
+		<name>K2-60</name>
+		<age>10.0</age>
+		<radius>1.12</radius>
+		<mass>0.97</mass>
+		<spectraltype>G4V</spectraltype>
+		<temperature>5500.0</temperature>
+		<metallicity>0.01</metallicity>
+		<planet>
+			<name>K2-60 b</name>
+			<semimajoraxis errorminus="0.003" errorplus="0.003">0.045</semimajoraxis>
+			<inclination errorminus="0.96" errorplus="0.96">88.49</inclination>
+			<period errorminus="0.000040" errorplus="0.000040">3.00265</period>
+			<mass errorminus="0.037" errorplus="0.037">0.426</mass>
+			<radius errorminus="0.037" errorplus="0.037">0.683</radius>
+			<istransiting>1</istransiting>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>17/01/24</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

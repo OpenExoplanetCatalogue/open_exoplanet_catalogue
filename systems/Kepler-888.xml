@@ -1,0 +1,24 @@
+<system>
+	<name>Kepler-888</name>
+	<rightascension>19 42 05</rightascension>
+	<declination>+49 44 19</declination>
+	<star>
+		<name>Kepler-888</name>
+		<temperature errorminus="56.7" errorplus="66.4">5875.0</temperature>
+		<mass errorminus="0.03" errorplus="0.03">0.97</mass>
+		<radius errorminus="0.03" errorplus="0.03">0.90</radius>
+		<metallicity errorminus="0.10" errorplus="0.10">-0.21</metallicity>
+		<planet>
+			<name>Kepler-888 b</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.000308600" errorplus="0.000308600">70.697906100</period>
+			<radius errorminus="0.005" errorplus="0.007">0.157</radius>
+		</planet>
+	</star>
+</system>

@@ -1,0 +1,36 @@
+<system>
+	<name>Kepler-887</name>
+	<rightascension>19 20 22</rightascension>
+	<declination>+39 49 01</declination>
+	<star>
+		<name>Kepler-887</name>
+		<temperature errorminus="49.7" errorplus="62.1">6194.0</temperature>
+		<mass errorminus="0.04" errorplus="0.05">1.19</mass>
+		<radius errorminus="0.12" errorplus="0.19">1.29</radius>
+		<metallicity errorminus="0.08" errorplus="0.08">0.08</metallicity>
+		<planet>
+			<name>Kepler-887 b</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.000092250" errorplus="0.000092250">20.422287980</period>
+			<radius errorminus="0.015" errorplus="0.024">0.164</radius>
+		</planet>
+		<planet>
+			<name>Kepler-887 c</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.000049570" errorplus="0.000049570">7.638460230</period>
+			<radius errorminus="0.010" errorplus="0.015">0.101</radius>
+		</planet>
+	</star>
+</system>

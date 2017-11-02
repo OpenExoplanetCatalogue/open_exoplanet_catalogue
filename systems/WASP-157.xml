@@ -1,0 +1,29 @@
+<system>
+	<name>WASP-157</name>
+	<rightascension>13 26 37</rightascension>
+	<declination>-08 40 57</declination>
+	<star>
+		<name>WASP-157</name>
+		<age>1.0</age>
+		<radius>1.11</radius>
+		<mass>1.26</mass>
+		<spectraltype>G2V</spectraltype>
+		<temperature>5840.0</temperature>
+		<metallicity>0.34</metallicity>
+		<planet>
+			<name>WASP-157 b</name>
+			<semimajoraxis errorminus="0.0017" errorplus="0.0017">0.0529</semimajoraxis>
+			<eccentricity>0.0</eccentricity>
+			<inclination errorminus="0.32" errorplus="0.5">85.19</inclination>
+			<period errorminus="0.000004" errorplus="0.000004">3.9516205</period>
+			<mass errorminus="0.0937" errorplus="0.0937">0.576</mass>
+			<radius errorminus="0.044" errorplus="0.044">1.045</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/03/18</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

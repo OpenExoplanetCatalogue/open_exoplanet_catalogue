@@ -1,0 +1,27 @@
+<system>
+	<name>WASP-127</name>
+	<rightascension>10 42 14</rightascension>
+	<declination>-03 09 54</declination>
+	<star>
+		<name>WASP-127</name>
+		<age>11.41</age>
+		<radius>1.39</radius>
+		<mass>1.08</mass>
+		<spectraltype>G5</spectraltype>
+		<temperature>5620.0</temperature>
+		<planet>
+			<name>WASP-127 b</name>
+			<semimajoraxis errorminus="0.0005" errorplus="0.0005">0.052</semimajoraxis>
+			<inclination errorminus="0.6" errorplus="0.8">88.7</inclination>
+			<period errorminus="0.000002" errorplus="0.000002">4.178062</period>
+			<mass errorminus="0.02" errorplus="0.02">0.18</mass>
+			<radius errorminus="0.04" errorplus="0.04">1.37</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/07/27</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

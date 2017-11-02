@@ -1,0 +1,36 @@
+<system>
+	<name>Kepler-969</name>
+	<rightascension>19 13 29</rightascension>
+	<declination>+47 56 01</declination>
+	<star>
+		<name>Kepler-969</name>
+		<temperature errorminus="40.7" errorplus="44.6">5214.0</temperature>
+		<mass errorminus="0.02" errorplus="0.02">0.92</mass>
+		<radius errorminus="0.01" errorplus="0.01">0.82</radius>
+		<metallicity errorminus="0.05" errorplus="0.05">0.22</metallicity>
+		<planet>
+			<name>Kepler-969 b</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.000073580" errorplus="0.000073580">34.173171400</period>
+			<radius errorminus="0.004" errorplus="0.004">0.185</radius>
+		</planet>
+		<planet>
+			<name>Kepler-969 c</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.000002930" errorplus="0.000002930">1.682934600</period>
+			<radius errorminus="0.004" errorplus="0.002">0.088</radius>
+		</planet>
+	</star>
+</system>

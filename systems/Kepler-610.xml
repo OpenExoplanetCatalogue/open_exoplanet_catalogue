@@ -1,0 +1,36 @@
+<system>
+	<name>Kepler-610</name>
+	<rightascension>19 32 41</rightascension>
+	<declination>+45 03 56</declination>
+	<star>
+		<name>Kepler-610</name>
+		<temperature errorminus="127.3" errorplus="92.0">5943.0</temperature>
+		<mass errorminus="0.07" errorplus="0.09">1.10</mass>
+		<radius errorminus="0.12" errorplus="0.31">1.13</radius>
+		<metallicity errorminus="0.14" errorplus="0.15">0.12</metallicity>
+		<planet>
+			<name>Kepler-610 b</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.000005590" errorplus="0.000005590">6.996926550</period>
+			<radius errorminus="0.040" errorplus="0.103">0.374</radius>
+		</planet>
+		<planet>
+			<name>Kepler-610 c</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.001118000" errorplus="0.001118000">151.863920000</period>
+			<radius errorminus="0.033" errorplus="0.075">0.294</radius>
+		</planet>
+	</star>
+</system>

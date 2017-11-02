@@ -1,0 +1,31 @@
+<system>
+	<name>CoRoT-31</name>
+	<rightascension>06 19 17</rightascension>
+	<declination>-04 34 40</declination>
+	<distance>220.0</distance>
+	<star>
+		<name>CoRoT-31</name>
+		<age>4.2</age>
+		<radius>2.2</radius>
+		<mass>1.26</mass>
+		<spectraltype>G2IV</spectraltype>
+		<temperature>5700.0</temperature>
+		<metallicity>0.0</metallicity>
+		<planet>
+			<name>CoRoT-31 b</name>
+			<semimajoraxis>0.059</semimajoraxis>
+			<periastron errorminus="108.0" errorplus="108.0">306.0</periastron>
+			<eccentricity errorminus="0.02" errorplus="0.16">0.02</eccentricity>
+			<inclination errorminus="2.3" errorplus="2.3">83.2</inclination>
+			<period errorminus="0.000750" errorplus="0.000750">4.62941</period>
+			<mass>0.85</mass>
+			<radius>1.5</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2017</discoveryyear>
+			<lastupdate>17/08/01</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

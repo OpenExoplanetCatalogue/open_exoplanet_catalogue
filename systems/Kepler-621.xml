@@ -1,0 +1,24 @@
+<system>
+	<name>Kepler-621</name>
+	<rightascension>19 23 43</rightascension>
+	<declination>+39 54 51</declination>
+	<star>
+		<name>Kepler-621</name>
+		<temperature errorminus="51.5" errorplus="73.9">4521.0</temperature>
+		<mass errorminus="0.03" errorplus="0.02">0.72</mass>
+		<radius errorminus="0.02" errorplus="0.02">0.68</radius>
+		<metallicity errorminus="0.10" errorplus="0.11">-0.02</metallicity>
+		<planet>
+			<name>Kepler-621 b</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.000001770" errorplus="0.000001770">2.628113750</period>
+			<radius errorminus="0.017" errorplus="0.006">0.205</radius>
+		</planet>
+	</star>
+</system>

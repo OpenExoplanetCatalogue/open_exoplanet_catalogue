@@ -37,6 +37,7 @@
 				<xs:element name="longitude" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="ascendingnode" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="inclination" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="impactparameter" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="meananomaly" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="period" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="transittime" type="number" minOccurs="0" maxOccurs="1"/>
@@ -49,6 +50,7 @@
 				<xs:element name="age" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="discoverymethod" type="discoverymethodtype" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="istransiting" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="new" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="description" type="xs:string" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="discoveryyear" type="year" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="lastupdate" type="lastupdatedef" minOccurs="0" maxOccurs="1"/>
@@ -56,6 +58,7 @@
 				<xs:element name="imagedescription" type="xs:string" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="spinorbitalignment" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="positionangle" type="number" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="metallicity" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="spectraltype" type="spectraltypedef" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="magB" type="number" minOccurs="0" maxOccurs="1"/>
 				<xs:element name="magH" type="number" minOccurs="0" maxOccurs="1"/>
@@ -173,7 +176,7 @@
 	<!-- Declination Definition -->
 	<xs:simpleType name="declinationdef">
 		<xs:restriction base="xs:string">
-			<xs:pattern value="(\+|\-)(\d{2} [0-5]\d [0-5]\d)(\.\d+)?"/>
+			<xs:pattern value="(\+|\-)\d{2} [0-5]\d [0-5]\d(\.\d+)?"/>
 		</xs:restriction>
 	</xs:simpleType>
 	<!-- DateTime -->

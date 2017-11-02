@@ -1,0 +1,29 @@
+<system>
+	<name>HATS-30</name>
+	<rightascension>00 22 28</rightascension>
+	<declination>-59 03 27</declination>
+	<distance>339.0</distance>
+	<star>
+		<name>HATS-30</name>
+		<age>2.3</age>
+		<radius>1.061</radius>
+		<mass>1.093</mass>
+		<temperature>5943.0</temperature>
+		<metallicity>0.06</metallicity>
+		<planet>
+			<name>HATS-30 b</name>
+			<semimajoraxis errorminus="0.00042" errorplus="0.00042">0.04354</semimajoraxis>
+			<eccentricity errorminus="0.048" errorplus="0.048">0.048</eccentricity>
+			<inclination errorminus="0.48" errorplus="0.48">86.84</inclination>
+			<period errorminus="0.000003" errorplus="0.000003">3.1743516</period>
+			<mass errorminus="0.039" errorplus="0.039">0.706</mass>
+			<radius errorminus="0.052" errorplus="0.052">1.175</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/07/28</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

@@ -1,0 +1,24 @@
+<system>
+	<name>Kepler-503</name>
+	<rightascension>19 22 33</rightascension>
+	<declination>+38 42 28</declination>
+	<star>
+		<name>Kepler-503</name>
+		<temperature errorminus="137.9" errorplus="89.0">5754.0</temperature>
+		<mass errorminus="0.06" errorplus="0.06">1.01</mass>
+		<radius errorminus="0.09" errorplus="0.23">1.01</radius>
+		<metallicity errorminus="0.16" errorplus="0.14">0.09</metallicity>
+		<planet>
+			<name>Kepler-503 b</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.000002820" errorplus="0.000002820">7.258447210</period>
+			<radius errorminus="0.051" errorplus="0.128">0.559</radius>
+		</planet>
+	</star>
+</system>

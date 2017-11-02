@@ -1,0 +1,24 @@
+<system>
+	<name>Kepler-988</name>
+	<rightascension>19 22 50</rightascension>
+	<declination>+42 14 14</declination>
+	<star>
+		<name>Kepler-988</name>
+		<temperature errorminus="41.9" errorplus="43.6">4005.0</temperature>
+		<mass errorminus="0.02" errorplus="0.02">0.55</mass>
+		<radius errorminus="0.02" errorplus="0.02">0.53</radius>
+		<metallicity errorminus="0.10" errorplus="0.10">-0.32</metallicity>
+		<planet>
+			<name>Kepler-988 b</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.000027280" errorplus="0.000027280">17.760800530</period>
+			<radius errorminus="0.014" errorplus="0.042">0.185</radius>
+		</planet>
+	</star>
+</system>

@@ -1,0 +1,36 @@
+<system>
+	<name>Kepler-825</name>
+	<rightascension>19 39 05</rightascension>
+	<declination>+39 23 55</declination>
+	<star>
+		<name>Kepler-825</name>
+		<temperature errorminus="202.4" errorplus="247.6">5976.0</temperature>
+		<mass errorminus="0.08" errorplus="0.12">1.03</mass>
+		<radius errorminus="0.15" errorplus="0.28">1.08</radius>
+		<metallicity errorminus="0.19" errorplus="0.15">-0.08</metallicity>
+		<planet>
+			<name>Kepler-825 b</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.000012420" errorplus="0.000012420">3.773600590</period>
+			<radius errorminus="0.020" errorplus="0.035">0.136</radius>
+		</planet>
+		<planet>
+			<name>Kepler-825 c</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.000022650" errorplus="0.000022650">8.181824600</period>
+			<radius errorminus="0.021" errorplus="0.036">0.164</radius>
+		</planet>
+	</star>
+</system>

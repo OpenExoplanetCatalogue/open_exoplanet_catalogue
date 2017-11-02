@@ -1,0 +1,31 @@
+<system>
+	<name>HATS-19</name>
+	<rightascension>09 49 38</rightascension>
+	<declination>-33 46 53</declination>
+	<distance>780.0</distance>
+	<star>
+		<name>HATS-19</name>
+		<age>3.94</age>
+		<radius>1.74</radius>
+		<mass>1.303</mass>
+		<spectraltype>G0</spectraltype>
+		<temperature>5896.0</temperature>
+		<metallicity>0.24</metallicity>
+		<planet>
+			<name>HATS-19 b</name>
+			<semimajoraxis errorminus="0.0013" errorplus="0.0013">0.0589</semimajoraxis>
+			<periastron errorminus="50.0" errorplus="50.0">44.0</periastron>
+			<eccentricity errorminus="0.1" errorplus="0.1">0.3</eccentricity>
+			<inclination errorminus="1.7" errorplus="1.7">86.6</inclination>
+			<period errorminus="0.000010" errorplus="0.000010">4.569673</period>
+			<mass errorminus="0.071" errorplus="0.071">0.427</mass>
+			<radius errorminus="0.21" errorplus="0.27">1.66</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/07/11</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

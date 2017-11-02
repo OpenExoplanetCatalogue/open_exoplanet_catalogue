@@ -1,0 +1,24 @@
+<system>
+	<name>Kepler-913</name>
+	<rightascension>19 50 20</rightascension>
+	<declination>+41 57 09</declination>
+	<star>
+		<name>Kepler-913</name>
+		<temperature errorminus="30.7" errorplus="34.1">4687.0</temperature>
+		<mass errorminus="0.01" errorplus="0.01">0.63</mass>
+		<radius errorminus="0.01" errorplus="0.01">0.61</radius>
+		<metallicity errorminus="0.06" errorplus="0.03">-0.52</metallicity>
+		<planet>
+			<name>Kepler-913 b</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.000034260" errorplus="0.000034260">10.296725210</period>
+			<radius errorminus="0.005" errorplus="0.007">0.184</radius>
+		</planet>
+	</star>
+</system>

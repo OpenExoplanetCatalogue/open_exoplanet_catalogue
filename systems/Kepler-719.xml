@@ -1,0 +1,24 @@
+<system>
+	<name>Kepler-719</name>
+	<rightascension>19 42 09</rightascension>
+	<declination>+43 53 04</declination>
+	<star>
+		<name>Kepler-719</name>
+		<temperature errorminus="220.8" errorplus="199.4">5777.0</temperature>
+		<mass errorminus="0.07" errorplus="0.08">0.99</mass>
+		<radius errorminus="0.10" errorplus="0.21">0.98</radius>
+		<metallicity errorminus="0.18" errorplus="0.14">-0.02</metallicity>
+		<planet>
+			<name>Kepler-719 b</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.000001250" errorplus="0.000001250">5.007317780</period>
+			<radius errorminus="0.080" errorplus="0.163">0.760</radius>
+		</planet>
+	</star>
+</system>

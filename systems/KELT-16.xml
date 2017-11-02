@@ -1,0 +1,28 @@
+<system>
+	<name>KELT-16</name>
+	<rightascension>20 57 04</rightascension>
+	<declination>+31 39 40</declination>
+	<distance>365.0</distance>
+	<star>
+		<name>KELT-16</name>
+		<age>2.9</age>
+		<radius>1.36</radius>
+		<mass>1.211</mass>
+		<spectraltype>F7V</spectraltype>
+		<temperature>6236.0</temperature>
+		<metallicity>-0.002</metallicity>
+		<planet>
+			<name>KELT-16 b</name>
+			<semimajoraxis errorminus="0.00026" errorplus="0.00024">0.02044</semimajoraxis>
+			<period errorminus="0.000002" errorplus="0.000002">0.9689951</period>
+			<mass errorminus="0.15" errorplus="0.16">2.75</mass>
+			<radius errorminus="0.067" errorplus="0.084">1.415</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/08/03</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

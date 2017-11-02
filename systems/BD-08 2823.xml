@@ -1,0 +1,59 @@
+<system>
+	<name>BD-08 2823</name>
+	<rightascension>10 00 47.72035</rightascension>
+	<declination>-09 31 00.0340</declination>
+	<distance errorminus="2.8" errorplus="2.8">42.5</distance>
+	<star>
+		<name>BD-08 2823</name>
+		<name>HIP 49067</name>
+		<name>TYC 5480-20-1</name>
+		<name>SAO 137286</name>
+		<name>2MASS J10004775-0931001</name>
+		<mass errorminus="0.07" errorplus="0.07">0.74</mass>
+		<magV>9.86</magV>
+		<magB>10.94</magB>
+		<magJ errorminus="0.020" errorplus="0.020">7.960</magJ>
+		<magH errorminus="0.047" errorplus="0.047">7.498</magH>
+		<magK errorminus="0.021" errorplus="0.021">7.323</magK>
+		<temperature errorminus="63" errorplus="63">4746</temperature>
+		<metallicity errorminus="0.03" errorplus="0.03">-0.07</metallicity>
+		<spectraltype>K3V</spectraltype>
+		<age errorminus="4.0" errorplus="4.0">4.5</age>
+		<planet>
+			<name>BD-08 2823 b</name>
+			<name>HIP 49067 b</name>
+			<name>TYC 5480-00020-1 b</name>
+			<name>BD-08 2823 b</name>
+			<name>2MASS J10004775-0931001 b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.007" errorplus="0.007" type="msini">0.045</mass>
+			<period errorminus="0.02" errorplus="0.02">5.60</period>
+			<semimajoraxis errorminus="0.002" errorplus="0.002">0.056</semimajoraxis>
+			<eccentricity errorminus="0.15" errorplus="0.15">0.15</eccentricity>
+			<periastron errorminus="100" errorplus="100">30</periastron>
+			<periastrontime errorminus="1.6" errorplus="1.6" unit="BJD">2454637.7</periastrontime>
+			<description>The star BD-82823 is a K-type main sequence star in the constellation Sextans. It has only one fifth of our Sun's luminosity.</description>
+			<discoverymethod>RV</discoverymethod>
+			<lastupdate>15/11/17</lastupdate>
+			<discoveryyear>2009</discoveryyear>
+		</planet>
+		<planet>
+			<name>BD-08 2823 c</name>
+			<name>HIP 49067 c</name>
+			<name>TYC 5480-00020-1 c</name>
+			<name>BD-08 2823 c</name>
+			<name>2MASS J10004775-0931001 c</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.03" errorplus="0.03" type="msini">0.33</mass>
+			<period errorminus="1.5" errorplus="1.5">237.6</period>
+			<semimajoraxis errorminus="0.02" errorplus="0.02">0.68</semimajoraxis>
+			<eccentricity errorminus="0.09" errorplus="0.09">0.19</eccentricity>
+			<periastron errorminus="21" errorplus="21">-233</periastron>
+			<periastrontime errorminus="13" errorplus="13" unit="BJD">2454193</periastrontime>
+			<description>The star BD-82823 is a K-type main sequence star in the constellation Sextans. It has only one fifth of our Sun's luminosity.</description>
+			<discoverymethod>RV</discoverymethod>
+			<lastupdate>15/11/17</lastupdate>
+			<discoveryyear>2009</discoveryyear>
+		</planet>
+	</star>
+</system>

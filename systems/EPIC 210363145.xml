@@ -1,0 +1,30 @@
+<system>
+	<name>EPIC 210363145</name>
+	<rightascension>03 40 54.82</rightascension>
+	<declination>+12 34 21.4</declination>
+	<distance errorminus="7" errorplus="7">125</distance>
+	<star>
+		<name>EPIC 210363145</name>
+		<mass errorminus="0.12" errorplus="0.12">0.8</mass>
+		<radius errorminus="0.03" errorplus="0.03">0.76</radius>
+		<temperature errorminus="45" errorplus="45">4970</temperature>
+		<magV errorminus="0.093" errorplus="0.093">12.158</magV>
+		<metallicity errorminus="0.06" errorplus="0.06">0.29</metallicity>
+		<spectraltype>K</spectraltype>
+		<age errorminus="0.3" errorplus="0.3">0.7</age>
+		<planet>
+			<name>EPIC 210363145 b</name>
+			<list>Confirmed planets</list>
+			<mass upperlimit="1.9" />
+			<radius errorminus="0.014581" errorplus="0.014581">0.209600</radius>
+			<period errorminus="0.0007" errorplus="0.0007">8.1998</period>
+			<eccentricity errorminus="0.09" errorplus="0.22">0.14</eccentricity>
+			<inclination errorminus="0.8" errorplus="0.8">88.7</inclination>
+			<description>This planet is a Super-Earth with a radius roughly 2 times that of Earth. The host star EPIC 210363145 was identified as a member of the approximately 120-Myr-old Pleiades cluster based on its kinematics and photometric distance.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>16/06/21</lastupdate>
+			<discoveryyear>2016</discoveryyear>
+		</planet>
+	</star>
+</system>

@@ -1,0 +1,30 @@
+<system>
+	<name>WASP-142</name>
+	<rightascension>09 22 02</rightascension>
+	<declination>-23 03 14</declination>
+	<distance>840.0</distance>
+	<star>
+		<name>WASP-142</name>
+		<age>2.0</age>
+		<radius>1.64</radius>
+		<mass>1.33</mass>
+		<spectraltype>F8</spectraltype>
+		<temperature>6010.0</temperature>
+		<metallicity>0.26</metallicity>
+		<planet>
+			<name>WASP-142 b</name>
+			<semimajoraxis errorminus="0.0007" errorplus="0.0007">0.0347</semimajoraxis>
+			<eccentricity>0.0</eccentricity>
+			<inclination errorminus="0.6" errorplus="0.6">80.2</inclination>
+			<period errorminus="0.000002" errorplus="0.000002">2.052868</period>
+			<mass errorminus="0.09" errorplus="0.09">0.84</mass>
+			<radius errorminus="0.08" errorplus="0.08">1.53</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/07/11</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

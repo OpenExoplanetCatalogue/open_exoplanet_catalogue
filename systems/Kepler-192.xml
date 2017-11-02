@@ -47,5 +47,17 @@
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
 		</planet>
+		<planet>
+			<name>Kepler-192 d</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.000043200" errorplus="0.000043200">6.470275790</period>
+			<radius errorminus="0.006" errorplus="0.009">0.091</radius>
+		</planet>
 	</star>
 </system>

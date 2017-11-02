@@ -1,0 +1,30 @@
+<system>
+	<name>HATS-46</name>
+	<rightascension>00 26 49</rightascension>
+	<declination>-56 41 02</declination>
+	<distance>448.0</distance>
+	<star>
+		<name>HATS-46</name>
+		<age>3.0</age>
+		<radius>0.853</radius>
+		<mass>0.917</mass>
+		<spectraltype>G</spectraltype>
+		<temperature>5495.0</temperature>
+		<metallicity>-0.06</metallicity>
+		<planet>
+			<name>HATS-46 b</name>
+			<semimajoraxis errorminus="0.00053" errorplus="0.00053">0.05367</semimajoraxis>
+			<eccentricity>0.559</eccentricity>
+			<inclination errorminus="0.31" errorplus="0.22">87.32</inclination>
+			<period errorminus="0.000005" errorplus="0.000005">4.7423729</period>
+			<mass errorminus="0.062" errorplus="0.062">0.173</mass>
+			<radius errorminus="0.045" errorplus="0.058">0.903</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2017</discoveryyear>
+			<lastupdate>17/07/26</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

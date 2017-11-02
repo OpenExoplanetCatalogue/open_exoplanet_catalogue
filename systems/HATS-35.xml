@@ -1,0 +1,29 @@
+<system>
+	<name>HATS-35</name>
+	<rightascension>19 46 45</rightascension>
+	<declination>-63 26 04</declination>
+	<distance>557.0</distance>
+	<star>
+		<name>HATS-35</name>
+		<age>2.13</age>
+		<radius>1.433</radius>
+		<mass>1.317</mass>
+		<temperature>6300.0</temperature>
+		<metallicity>0.21</metallicity>
+		<planet>
+			<name>HATS-35 b</name>
+			<semimajoraxis errorminus="0.00033" errorplus="0.00033">0.03199</semimajoraxis>
+			<eccentricity>0.0</eccentricity>
+			<inclination errorminus="1.3" errorplus="1.3">86.9</inclination>
+			<period errorminus="0.000002" errorplus="0.000002">1.8209933</period>
+			<mass errorminus="0.078" errorplus="0.078">1.222</mass>
+			<radius errorminus="0.044" errorplus="0.069">1.464</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/07/11</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

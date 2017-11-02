@@ -1,0 +1,24 @@
+<system>
+	<name>Kepler-654</name>
+	<rightascension>19 48 16</rightascension>
+	<declination>+46 50 03</declination>
+	<star>
+		<name>Kepler-654</name>
+		<temperature errorminus="89.5" errorplus="93.8">5865.0</temperature>
+		<mass errorminus="0.04" errorplus="0.05">1.04</mass>
+		<radius errorminus="0.11" errorplus="0.17">1.11</radius>
+		<metallicity errorminus="0.09" errorplus="0.09">0.04</metallicity>
+		<planet>
+			<name>Kepler-654 b</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.000050060" errorplus="0.000050060">13.724651290</period>
+			<radius errorminus="0.023" errorplus="0.033">0.185</radius>
+		</planet>
+	</star>
+</system>

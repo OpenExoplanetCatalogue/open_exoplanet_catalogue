@@ -1,0 +1,24 @@
+<system>
+	<name>Kepler-463</name>
+	<rightascension>19 55 45</rightascension>
+	<declination>+44 51 28</declination>
+	<star>
+		<name>Kepler-463</name>
+		<temperature errorminus="99.2" errorplus="105.0">5661.0</temperature>
+		<mass errorminus="0.05" errorplus="0.05">0.87</mass>
+		<radius errorminus="0.08" errorplus="0.13">0.90</radius>
+		<metallicity errorminus="0.12" errorplus="0.12">-0.28</metallicity>
+		<planet>
+			<name>Kepler-463 b</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.000003160" errorplus="0.000003160">8.981016830</period>
+			<radius errorminus="0.027" errorplus="0.038">0.272</radius>
+		</planet>
+	</star>
+</system>

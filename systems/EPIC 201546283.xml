@@ -1,38 +1,36 @@
 <system>
 	<name>EPIC 201546283</name>
+	<name>K2-27</name>
 	<rightascension>11 26 03.639</rightascension>
 	<declination>+01 13 50.66</declination>
 	<distance errorminus="29" errorplus="2138">251</distance>
-	<binary>
-		<star>
-			<name>EPIC 201546283</name>
-			<mass errorminus="0.07" errorplus="1.15">0.89</mass>
-			<radius errorminus="0.1" errorplus="7.37">0.88</radius>
-			<temperature errorminus="93" errorplus="194">5422</temperature>
-			<magJ errorminus="0.02" errorplus="0.02">11.16</magJ>
-			<magH errorminus="0.03" errorplus="0.03">10.79</magH>
-			<magK errorminus="0.02" errorplus="0.02">10.7</magK>
-			<metallicity errorminus="0.15" errorplus="0.31">-0.09</metallicity>
-			<planet>
-				<name>EPIC 201546283 b</name>
-				<name>EPIC 201546283.01</name>
-				<list>Controversial</list>
-				<radius errorminus="0.298" errorplus="0.298">0.531</radius>
-				<period errorminus="0.00012" errorplus="0.00012">6.77131</period>
-				<transittime errorminus="0.0022" errorplus="0.0022" unit="BJD">2456812.844</transittime>
-				<semimajoraxis errorminus="0.0029" errorplus="0.0029">0.0668</semimajoraxis>
-				<temperature errorminus="239" errorplus="239">991</temperature>
-				<description>This planet was discovered by the Kepler spacecraft during its extended K2 mission, Campaign 1.</description>
-				<discoverymethod>transit</discoverymethod>
-				<istransiting>1</istransiting>
-				<lastupdate>15/07/07</lastupdate>
-				<discoveryyear>2015</discoveryyear>
-				<list>Planets in binary systems, S-type</list>
-			</planet>
-		</star>
-		<star>
-			<name>EPIC 201546283 B</name>
-		</star>
-		<separation errorminus="0.05" errorplus="0.05" unit="arcsec">2.98</separation>
-	</binary>
+	<star>
+		<name>EPIC 201546283</name>
+		<name>K2-27</name>
+		<name>2MASS J11260363+0113505</name>
+		<mass errorminus="0.05" errorplus="0.05">0.89</mass>
+		<radius errorminus="0.06" errorplus="0.06">0.85</radius>
+		<temperature errorminus="70" errorplus="70">5320</temperature>
+		<magJ errorminus="0.02" errorplus="0.02">11.16</magJ>
+		<magH errorminus="0.03" errorplus="0.03">10.79</magH>
+		<magK errorminus="0.02" errorplus="0.02">10.7</magK>
+		<metallicity errorminus="0.07" errorplus="0.07">0.14</metallicity>
+		<planet>
+			<name>EPIC 201546283 b</name>
+			<name>EPIC 201546283.01</name>
+			<name>K2-27 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.0294" errorplus="0.0294">0.3970</radius>
+			<period errorminus="0.00013" errorplus="0.00013">6.77145</period>
+			<transittime errorminus="0.0010" errorplus="0.0010" unit="BJD">2456812.8451</transittime>
+			<eccentricity errorminus="0.09" errorplus="0.10">0.16</eccentricity>
+			<impactparameter errorminus="0.20" errorplus="0.21">0.30</impactparameter>
+			<mass errorminus="0.02328" errorplus="0.02360">0.09156</mass>
+			<description>This planet was discovered by the Kepler spacecraft during its extended K2 mission, Campaign 1.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>16/03/07</lastupdate>
+			<discoveryyear>2015</discoveryyear>
+		</planet>
+	</star>
 </system>

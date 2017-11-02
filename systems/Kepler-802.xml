@@ -1,0 +1,24 @@
+<system>
+	<name>Kepler-802</name>
+	<rightascension>19 04 04</rightascension>
+	<declination>+45 00 28</declination>
+	<star>
+		<name>Kepler-802</name>
+		<temperature errorminus="67.2" errorplus="61.6">5507.0</temperature>
+		<mass errorminus="0.05" errorplus="0.04">0.93</mass>
+		<radius errorminus="0.05" errorplus="0.12">0.90</radius>
+		<metallicity errorminus="0.18" errorplus="0.16">0.06</metallicity>
+		<planet>
+			<name>Kepler-802 b</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.000109200" errorplus="0.000109200">40.058747300</period>
+			<radius errorminus="0.036" errorplus="0.042">0.316</radius>
+		</planet>
+	</star>
+</system>

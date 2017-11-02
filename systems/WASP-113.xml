@@ -1,0 +1,29 @@
+<system>
+	<name>WASP-113</name>
+	<rightascension>14 59 29</rightascension>
+	<declination>+46 57 36</declination>
+	<distance>360.0</distance>
+	<star>
+		<name>WASP-113</name>
+		<radius>1.608</radius>
+		<mass>1.318</mass>
+		<spectraltype>G1</spectraltype>
+		<temperature>5890.0</temperature>
+		<metallicity>0.1</metallicity>
+		<planet>
+			<name>WASP-113 b</name>
+			<semimajoraxis errorminus="0.0001" errorplus="0.0001">0.05885</semimajoraxis>
+			<eccentricity>0.0</eccentricity>
+			<inclination errorminus="0.64" errorplus="1.2">86.46</inclination>
+			<period errorminus="0.000004" errorplus="0.000004">4.54216874538</period>
+			<mass errorminus="0.054" errorplus="0.054">0.475</mass>
+			<radius errorminus="0.14" errorplus="0.095">1.409</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/07/11</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

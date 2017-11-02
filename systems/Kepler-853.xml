@@ -1,0 +1,24 @@
+<system>
+	<name>Kepler-853</name>
+	<rightascension>18 55 45</rightascension>
+	<declination>+49 06 37</declination>
+	<star>
+		<name>Kepler-853</name>
+		<temperature errorminus="55.2" errorplus="60.5">6350.0</temperature>
+		<mass errorminus="0.08" errorplus="0.14">1.30</mass>
+		<radius errorminus="0.24" errorplus="0.44">1.55</radius>
+		<metallicity errorminus="0.08" errorplus="0.09">0.07</metallicity>
+		<planet>
+			<name>Kepler-853 b</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.000023020" errorplus="0.000023020">7.168924630</period>
+			<radius errorminus="0.025" errorplus="0.043">0.151</radius>
+		</planet>
+	</star>
+</system>

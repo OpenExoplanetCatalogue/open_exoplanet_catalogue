@@ -1,0 +1,68 @@
+<system>
+	<name>HD 133131</name>
+	<name>HD 133131 A</name>
+	<name>HD 133131A</name>
+	<name>HD 133131 B</name>
+	<rightascension>15 03 35.44</rightascension>
+	<declination>-27 50 33.18</declination>
+	<distance>47.0</distance>
+	<binary>
+		<semimajoraxis>360</semimajoraxis>
+		<star>
+			<name>HD 133131 A</name>
+			<age>9.7</age>
+			<mass>0.95</mass>
+			<magV errorminus="0.02" errorplus="0.02">8.46</magV>
+			<spectraltype>G2V</spectraltype>
+			<temperature>5799.0</temperature>
+			<metallicity>-0.306</metallicity>
+			<planet>
+				<name>HD 133131 A b</name>
+				<semimajoraxis errorminus="0.005" errorplus="0.005">1.44</semimajoraxis>
+				<eccentricity errorminus="0.03" errorplus="0.03">0.32</eccentricity>
+				<period errorminus="3.000000" errorplus="3.000000">649.0</period>
+				<mass errorminus="0.04" errorplus="0.04">1.43</mass>
+				<discoverymethod>RV</discoverymethod>
+				<discoveryyear>2016</discoveryyear>
+				<lastupdate>16/08/24</lastupdate>
+				<list>Confirmed planets</list>
+				<description>Data for this planet was imported from the exoplanet.eu database.</description>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+			<planet>
+				<name>HD 133131 A c</name>
+				<semimajoraxis errorminus="0.82" errorplus="0.82">4.36</semimajoraxis>
+				<eccentricity errorminus="0.22" errorplus="0.22">0.47</eccentricity>
+				<period errorminus="970.000000" errorplus="970.000000">3407.0</period>
+				<mass errorminus="0.14" errorplus="0.14">0.48</mass>
+				<discoverymethod>RV</discoverymethod>
+				<discoveryyear>2016</discoveryyear>
+				<lastupdate>16/08/24</lastupdate>
+				<list>Confirmed planets</list>
+				<description>Data for this planet was imported from the exoplanet.eu database.</description>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+		<star>
+			<name>HD 133131 B</name>
+			<age>9.7</age>
+			<mass>0.93</mass>
+			<magV errorminus="0.016" errorplus="0.016">8.413</magV>
+			<spectraltype>G2</spectraltype>
+			<temperature>5805.0</temperature>
+			<metallicity>-0.281</metallicity>
+			<planet>
+				<name>HD 133131 B b</name>
+				<eccentricity errorminus="0.04" errorplus="0.04">0.62</eccentricity>
+				<period errorminus="831.000000" errorplus="831.000000">6119.0</period>
+				<mass errorminus="0.05" errorplus="0.05">2.5</mass>
+				<discoverymethod>RV</discoverymethod>
+				<discoveryyear>2016</discoveryyear>
+				<lastupdate>16/08/24</lastupdate>
+				<list>Confirmed planets</list>
+				<description>Data for this planet was imported from the exoplanet.eu database.</description>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+	</binary>
+</system>

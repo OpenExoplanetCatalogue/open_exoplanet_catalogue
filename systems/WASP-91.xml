@@ -1,0 +1,27 @@
+<system>
+	<name>WASP-91</name>
+	<rightascension>23 51 23</rightascension>
+	<declination>-70 50 50</declination>
+	<star>
+		<name>WASP-91</name>
+		<radius>0.86</radius>
+		<mass>0.84</mass>
+		<spectraltype>K3</spectraltype>
+		<temperature>4920.0</temperature>
+		<metallicity>0.19</metallicity>
+		<planet>
+			<name>WASP-91 b</name>
+			<semimajoraxis errorminus="0.001" errorplus="0.001">0.037</semimajoraxis>
+			<eccentricity>0.0</eccentricity>
+			<inclination errorminus="0.4" errorplus="0.4">86.8</inclination>
+			<period errorminus="0.000003" errorplus="0.000003">1.798581</period>
+			<mass errorminus="0.08" errorplus="0.08">1.34</mass>
+			<radius errorminus="0.04" errorplus="0.04">1.03</radius>
+			<istransiting>1</istransiting>
+			<discoveryyear>2017</discoveryyear>
+			<lastupdate>17/01/17</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

@@ -1,0 +1,31 @@
+<system>
+	<name>PSR J1719-1438</name>
+	<name>PSR 1719-14</name>
+	<rightascension>17 19 10.0730</rightascension>
+	<declination>-14 38 00.96</declination>
+	<distance errorminus="300" errorplus="300">1200</distance>
+	<star>
+		<name>PSR J1719-1438</name>
+		<name>PSR J1719-14</name>
+		<spectraltype>Pulsar</spectraltype>
+		<mass>1.4</mass>
+		<radius>0.000014</radius>
+		<age lowerlimit="12.5" />
+		<planet>
+			<name>PSR J1719-1438 b</name>
+			<name>PSR J1719-14 b</name>
+			<list>Confirmed planets</list>
+			<mass type="msini">1.21</mass>
+			<radius upperlimit="0.59" />
+			<period errorminus="0.000000002" errorplus="0.000000002">0.090706293</period>
+			<semimajoraxis>0.00442</semimajoraxis>
+			<eccentricity upperlimit="0.06" />
+			<periastrontime>2455236.01652439</periastrontime>
+			<description>The 5.7ms pulsar PSR J1719-14 shows timing variations on a 2.17 hour timescale. These can be explained with a Jovian planet. However, because of the planet's short distance to the star, its density has to be more then 20 times that of Jupiter. The planet is most likely a remnant of a binary star which avoided complete destruction. The chemical composition, pressure and dimensions of the planet indicate that it is crystallized, or in other words, a very big diamond (Bailes et al 2011).</description>
+			<discoverymethod>timing</discoverymethod>
+			<lastupdate>16/04/12</lastupdate>
+			<discoveryyear>2011</discoveryyear>
+			<temperature upperlimit="4500" />
+		</planet>
+	</star>
+</system>

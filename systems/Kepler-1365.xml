@@ -1,0 +1,36 @@
+<system>
+	<name>Kepler-1365</name>
+	<rightascension>19 28 48</rightascension>
+	<declination>+42 02 46</declination>
+	<star>
+		<name>Kepler-1365</name>
+		<temperature errorminus="88.4" errorplus="86.4">5770.0</temperature>
+		<mass errorminus="0.04" errorplus="0.04">1.00</mass>
+		<radius errorminus="0.10" errorplus="0.15">1.05</radius>
+		<metallicity errorminus="0.10" errorplus="0.09">0.03</metallicity>
+		<planet>
+			<name>Kepler-1365 b</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.000047260" errorplus="0.000047260">7.699934850</period>
+			<radius errorminus="0.009" errorplus="0.012">0.082</radius>
+		</planet>
+		<planet>
+			<name>Kepler-1365 c</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.000040140" errorplus="0.000040140">4.774680050</period>
+			<radius errorminus="0.007" errorplus="0.011">0.071</radius>
+		</planet>
+	</star>
+</system>

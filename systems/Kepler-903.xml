@@ -1,0 +1,36 @@
+<system>
+	<name>Kepler-903</name>
+	<rightascension>19 15 05</rightascension>
+	<declination>+40 39 51</declination>
+	<star>
+		<name>Kepler-903</name>
+		<temperature errorminus="110.7" errorplus="77.9">5682.0</temperature>
+		<mass errorminus="0.05" errorplus="0.05">0.98</mass>
+		<radius errorminus="0.08" errorplus="0.17">0.97</radius>
+		<metallicity errorminus="0.16" errorplus="0.14">0.05</metallicity>
+		<planet>
+			<name>Kepler-903 b</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.000051280" errorplus="0.000051280">10.350772100</period>
+			<radius errorminus="0.032" errorplus="0.031">0.179</radius>
+		</planet>
+		<planet>
+			<name>Kepler-903 c</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.000735300" errorplus="0.000735300">62.922855700</period>
+			<radius errorminus="0.040" errorplus="0.036">0.226</radius>
+		</planet>
+	</star>
+</system>

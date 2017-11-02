@@ -1,0 +1,24 @@
+<system>
+	<name>Kepler-1260</name>
+	<rightascension>19 42 22</rightascension>
+	<declination>+42 33 19</declination>
+	<star>
+		<name>Kepler-1260</name>
+		<temperature errorminus="192.5" errorplus="131.6">5961.0</temperature>
+		<mass errorminus="0.08" errorplus="0.09">1.06</mass>
+		<radius errorminus="0.14" errorplus="0.30">1.08</radius>
+		<metallicity errorminus="0.18" errorplus="0.14">0.01</metallicity>
+		<planet>
+			<name>Kepler-1260 b</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.000168700" errorplus="0.000168700">19.118775300</period>
+			<radius errorminus="0.025" errorplus="0.045">0.158</radius>
+		</planet>
+	</star>
+</system>

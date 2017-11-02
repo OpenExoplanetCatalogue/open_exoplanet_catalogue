@@ -35,17 +35,17 @@
 			<discoveryyear>2015</discoveryyear>
 		</planet>
 		<planet>
+			<name>Kepler-436 c</name>
 			<name>KOI-2529.01</name>
-			<list>Controversial</list>
-			<radius errorminus="0.015" errorplus="0.012">0.152</radius>
-			<period errorminus="0.0008561" errorplus="0.0008561">16.79713874</period>
-			<transittime errorminus="0.00404" errorplus="0.00404">2454967.04221</transittime>
-			<description>KOI-2529.01 is an unconfirmed exoplanet candidate that was identified in the Q1-Q6 Kepler KOI list.</description>
-			<inclination>89.95</inclination>
 			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<lastupdate>15/01/28</lastupdate>
-			<discoveryyear>2014</discoveryyear>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.000085610" errorplus="0.000085610">16.797138740</period>
+			<radius errorminus="0.012" errorplus="0.017">0.208</radius>
 		</planet>
 	</star>
 </system>

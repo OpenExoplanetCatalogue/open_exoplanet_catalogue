@@ -1,0 +1,30 @@
+<system>
+	<name>HATS-20</name>
+	<rightascension>13 12 32</rightascension>
+	<declination>-45 24 34</declination>
+	<distance>454.0</distance>
+	<star>
+		<name>HATS-20</name>
+		<age>6.4</age>
+		<radius>0.892</radius>
+		<mass>0.91</mass>
+		<spectraltype>G9V</spectraltype>
+		<temperature>5406.0</temperature>
+		<metallicity>0.03</metallicity>
+		<planet>
+			<name>HATS-20 b</name>
+			<semimajoraxis errorminus="0.00044" errorplus="0.00044">0.04619</semimajoraxis>
+			<eccentricity errorminus="0.5" errorplus="0.5">0.5</eccentricity>
+			<inclination errorminus="0.54" errorplus="0.54">87.16</inclination>
+			<period errorminus="0.000008" errorplus="0.000008">3.7992969</period>
+			<mass errorminus="0.035" errorplus="0.035">0.273</mass>
+			<radius errorminus="0.055" errorplus="0.055">0.776</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/07/11</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

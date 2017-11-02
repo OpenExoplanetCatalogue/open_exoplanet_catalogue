@@ -1,0 +1,29 @@
+<system>
+	<name>HATS-24</name>
+	<rightascension>17 55 34</rightascension>
+	<declination>-61 15 10</declination>
+	<distance>510.0</distance>
+	<star>
+		<name>HATS-24</name>
+		<age>0.88</age>
+		<radius>1.172</radius>
+		<mass>1.212</mass>
+		<temperature>6346.0</temperature>
+		<metallicity>0.0</metallicity>
+		<planet>
+			<name>HATS-24 b</name>
+			<semimajoraxis errorminus="0.00023" errorplus="0.00023">0.02547</semimajoraxis>
+			<eccentricity errorminus="0.24" errorplus="0.24">0.24</eccentricity>
+			<inclination errorminus="1.2" errorplus="1.2">86.6</inclination>
+			<period errorminus="0.000001" errorplus="0.000001">1.3484954</period>
+			<mass errorminus="0.18" errorplus="0.18">2.44</mass>
+			<radius errorminus="0.054" errorplus="0.078">1.487</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/07/11</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

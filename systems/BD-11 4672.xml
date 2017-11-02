@@ -1,0 +1,43 @@
+<system>
+	<name>BD-11 4672</name>
+	<rightascension>18 33 28.83271</rightascension>
+	<declination>-11 38 09.7315</declination>
+	<distance errorminus="1.3" errorplus="1.3">27.3</distance>
+	<star>
+		<name>BD-11 4672</name>
+		<name>BD-114672</name>
+		<name>HIP 90979</name>
+		<name>TYC 5699-2129-1</name>
+		<name>SAO 161603</name>
+		<name>Gliese 717</name>
+		<name>GJ 717</name>
+		<name>2MASS J18332885-1138097</name>
+		<mass errorminus="0.014" errorplus="0.014">0.571</mass>
+		<radius errorminus="0.02" errorplus="0.02">0.52</radius>
+		<temperature errorminus="100" errorplus="100">4475</temperature>
+		<age errorminus="4" errorplus="4">4.4</age>
+		<metallicity errorminus="0.05" errorplus="0.05">-0.48</metallicity>
+		<spectraltype>K7 V</spectraltype>
+		<magV errorminus="0.05" errorplus="0.05">9.99</magV>
+		<magB errorminus="0.10" errorplus="0.10">11.21</magB>
+		<magR>9.60</magR>
+		<magI errorminus="0.05" errorplus="0.05">9.02</magI>
+		<magJ errorminus="0.023" errorplus="0.023">7.651</magJ>
+		<magH errorminus="0.031" errorplus="0.031">7.031</magH>
+		<magK errorminus="0.024" errorplus="0.024">6.867</magK>
+		<planet>
+			<name>BD-11 4672 b</name>
+			<semimajoraxis errorminus="0.07" errorplus="0.07">2.28</semimajoraxis>
+			<eccentricity errorminus="0.04" errorplus="0.06">0.05</eccentricity>
+			<period errorminus="31" errorplus="33">1667</period>
+			<mass errorminus="0.05" errorplus="0.05" type="msini">0.53</mass>
+			<periastron errorminus="143" errorplus="77">231</periastron>
+			<maximumrvtime errorminus="46" errorplus="38">2455899</maximumrvtime>
+			<list>Confirmed planets</list>
+			<description>This planet has been discovered by the HARPS team using radial-velocity data gathered over ten years.</description>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2014</discoveryyear>
+			<lastupdate>15/11/17</lastupdate>
+		</planet>
+	</star>
+</system>

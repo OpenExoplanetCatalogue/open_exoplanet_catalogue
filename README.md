@@ -1,6 +1,14 @@
 Open Exoplanet Catalogue
 ==============
 
+Status update
+--------------
+As you might have noticed the Open Exoplanet Catalogue has been in a a dormant state for a few months, recieving only a few updates. This is mainly due to a lack of contributors. In the fall, we plan to have about 100 undegraduates in computer science work on the OEC. Their main goal will be to implement an automated way to gather data from various sources on the internet. We will keep the data fully referenced so that it is easy to find out where the data is coming from. We will also allow for manual edits of the accumulated data (as it has been in the past). All of these things together should make the OEC the most complete and most up-to-date exoplanet catalogue out there. In the meantime, please keep your pull request coming! -- Hanno Rein -- June 2016. 
+
+
+About the Open Exoplanet Catalogue
+--------------
+
 [![Travis](http://img.shields.io/travis/OpenExoplanetCatalogue/open_exoplanet_catalogue/master.svg?style=flat)](https://travis-ci.org/OpenExoplanetCatalogue/open_exoplanet_catalogue/)
 [![MIT](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](http://opensource.org/licenses/MIT)
 [![arXiv](http://img.shields.io/badge/arXiv-1211.7121-orange.svg?style=flat)](http://arxiv.org/abs/1211.7121)
@@ -68,6 +76,7 @@ The following table shows all the possible tags in the Open Exoplanet Catalogue.
 | `meananomaly`	| `binary`, `planet` | Mean anomaly at a given Epoch (same for all planets in one system) | degree  |
 | `ascendingnode` 	| `binary`, `planet` | Longitude of the ascending node | degree  |
 | `inclination` 	| `binary`, `planet` | Inclination of the orbit | degree  |
+| `impactparameter`	| `planet` | Impact parameter of transit | |
 | `epoch` | `system` | Epoch for the orbital elements | BJD |
 | `period`	 	| `binary`, `planet` | Orbital period   | day  |
 | `transittime` | `binary`, `planet` | Time of the center of a transit | BJD |
@@ -104,7 +113,7 @@ The syntax for upper/lower limits is: `<mass upperlimit="1.0" />`
 
 Constants
 -------------
-There are several constant used in defining the units in the Open Exoplanet Catalogue. The following table can be used to convert them into SI units.
+There are several constants used in defining the units in the Open Exoplanet Catalogue. The following table can be used to convert them into SI units.
 
 | Constant used in catalogue | Definition in SI units |
 | -------- | --------------- |

@@ -3,36 +3,31 @@
 	<rightascension>11 36 02.791</rightascension>
 	<declination>-02 31 15.17</declination>
 	<distance errorminus="35" errorplus="61">331</distance>
-	<binary>
-		<star>
-			<name>EPIC 201295312</name>
-			<mass errorminus="0.07" errorplus="0.07">1.07</mass>
-			<radius errorminus="0.11" errorplus="0.2">1.09</radius>
-			<temperature errorminus="81" errorplus="100">5989</temperature>
-			<magJ errorminus="0.03" errorplus="0.03">11.02</magJ>
-			<magH errorminus="0.02" errorplus="0.02">10.7</magH>
-			<magK errorminus="0.02" errorplus="0.02">10.69</magK>
-			<metallicity errorminus="0.18" errorplus="0.15">-0.02</metallicity>
-			<planet>
-				<name>EPIC 201295312 b</name>
-				<name>EPIC 201295312.01</name>
-				<list>Controversial</list>
-				<radius errorminus="0.052" errorplus="0.052">0.199</radius>
-				<period errorminus="0.00079" errorplus="0.00079">5.65706</period>
-				<transittime errorminus="0.0082" errorplus="0.0082" unit="BJD">2456811.7187</transittime>
-				<semimajoraxis errorminus="0.0019" errorplus="0.0019">0.0633</semimajoraxis>
-				<temperature errorminus="154" errorplus="154">1211</temperature>
-				<description>This planet was discovered by the Kepler spacecraft during its extended K2 mission, Campaign 1.</description>
-				<discoverymethod>transit</discoverymethod>
-				<istransiting>1</istransiting>
-				<lastupdate>15/07/07</lastupdate>
-				<discoveryyear>2015</discoveryyear>
-				<list>Planets in binary systems, S-type</list>
-			</planet>
-		</star>
-		<star>
-			<name>EPIC 201295312 B</name>
-		</star>
-		<separation errorminus="0.069" errorplus="0.069" unit="arcsec">8.12</separation>
-	</binary>
+	<star>
+		<name>EPIC 201295312</name>
+		<name>2MASS J11360278-0231150</name>
+		<mass errorminus="0.07" errorplus="0.07">1.13</mass>
+		<radius errorminus="0.10" errorplus="0.10">1.52</radius>
+		<temperature errorminus="70" errorplus="70">5830</temperature>
+		<magJ errorminus="0.03" errorplus="0.03">11.02</magJ>
+		<magH errorminus="0.02" errorplus="0.02">10.7</magH>
+		<magK errorminus="0.02" errorplus="0.02">10.69</magK>
+		<metallicity errorminus="0.07" errorplus="0.07">0.13</metallicity>
+		<planet>
+			<name>EPIC 201295312 b</name>
+			<name>EPIC 201295312.01</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.0196" errorplus="0.0214">0.2453</radius>
+			<period errorminus="0.00075" errorplus="0.00075">5.65639</period>
+			<transittime errorminus="0.0049" errorplus="0.0049" unit="BJD">2456811.7191</transittime>
+			<eccentricity errorminus="0.09" errorplus="0.22">0.12</eccentricity>
+			<mass upperlimit="0.03776" />
+			<impactparameter errorminus="0.26" errorplus="0.25">0.43</impactparameter>
+			<description>This planet was discovered by the Kepler spacecraft during its extended K2 mission, Campaign 1.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>16/03/07</lastupdate>
+			<discoveryyear>2015</discoveryyear>
+		</planet>
+	</star>
 </system>

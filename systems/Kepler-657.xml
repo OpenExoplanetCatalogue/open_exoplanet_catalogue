@@ -1,0 +1,24 @@
+<system>
+	<name>Kepler-657</name>
+	<rightascension>19 24 47</rightascension>
+	<declination>+47 18 28</declination>
+	<star>
+		<name>Kepler-657</name>
+		<temperature errorminus="121.5" errorplus="88.7">5808.0</temperature>
+		<mass errorminus="0.06" errorplus="0.06">1.01</mass>
+		<radius errorminus="0.09" errorplus="0.20">1.01</radius>
+		<metallicity errorminus="0.16" errorplus="0.14">0.03</metallicity>
+		<planet>
+			<name>Kepler-657 b</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/05/10</lastupdate>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<period errorminus="0.000064350" errorplus="0.000064350">24.543504180</period>
+			<radius errorminus="0.029" errorplus="0.062">0.314</radius>
+		</planet>
+	</star>
+</system>

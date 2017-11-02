@@ -1,0 +1,27 @@
+<system>
+	<name>HIP 8541</name>
+	<rightascension>01 50 06</rightascension>
+	<declination>-54 32 06</declination>
+	<distance>169.0</distance>
+	<star>
+		<name>HIP 8541</name>
+		<radius>7.83</radius>
+		<mass>1.17</mass>
+		<spectraltype>K2III</spectraltype>
+		<temperature>4670.0</temperature>
+		<metallicity>-0.15</metallicity>
+		<planet>
+			<name>HIP 8541 b</name>
+			<semimajoraxis errorminus="0.25" errorplus="0.25">2.8</semimajoraxis>
+			<periastron errorminus="15.2" errorplus="15.2">294.0</periastron>
+			<eccentricity errorminus="0.06" errorplus="0.06">0.16</eccentricity>
+			<period errorminus="54.000000" errorplus="54.000000">1560.0</period>
+			<mass errorminus="1.0" errorplus="1.0">5.59</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/03/17</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

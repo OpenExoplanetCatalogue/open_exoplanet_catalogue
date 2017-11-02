@@ -1,0 +1,30 @@
+<system>
+	<name>HATS-21</name>
+	<rightascension>18 40 44</rightascension>
+	<declination>-58 32 27</declination>
+	<distance>286.0</distance>
+	<star>
+		<name>HATS-21</name>
+		<age>2.3</age>
+		<radius>1.021</radius>
+		<mass>1.08</mass>
+		<spectraltype>G4V</spectraltype>
+		<temperature>5695.0</temperature>
+		<metallicity>0.3</metallicity>
+		<planet>
+			<name>HATS-21 b</name>
+			<semimajoraxis errorminus="0.00038" errorplus="0.00038">0.04676</semimajoraxis>
+			<eccentricity>0.0</eccentricity>
+			<inclination errorminus="0.65" errorplus="0.23">85.04</inclination>
+			<period errorminus="0.000006" errorplus="0.000006">3.5543973</period>
+			<mass errorminus="0.03" errorplus="0.04">0.332</mass>
+			<radius errorminus="0.054" errorplus="0.147">1.123</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/07/28</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

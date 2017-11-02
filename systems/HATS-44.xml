@@ -1,0 +1,30 @@
+<system>
+	<name>HATS-44</name>
+	<rightascension>05 37 18</rightascension>
+	<declination>-27 01 39</declination>
+	<distance>463.0</distance>
+	<star>
+		<name>HATS-44</name>
+		<age>9.7</age>
+		<radius>0.847</radius>
+		<mass>0.86</mass>
+		<spectraltype>K</spectraltype>
+		<temperature>5080.0</temperature>
+		<metallicity>0.32</metallicity>
+		<planet>
+			<name>HATS-44 b</name>
+			<semimajoraxis errorminus="0.0003" errorplus="0.0003">0.03649</semimajoraxis>
+			<eccentricity>0.279</eccentricity>
+			<inclination errorminus="0.38" errorplus="0.38">84.65</inclination>
+			<period errorminus="0.000003" errorplus="0.000003">2.7439004</period>
+			<mass errorminus="0.11" errorplus="0.11">0.56</mass>
+			<radius errorminus="0.071" errorplus="0.125">1.067</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2017</discoveryyear>
+			<lastupdate>17/07/26</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

@@ -1,0 +1,28 @@
+<system>
+	<name>WASP-93</name>
+	<rightascension>00 37 50</rightascension>
+	<declination>+51 17 20</declination>
+	<distance>250.0</distance>
+	<star>
+		<name>WASP-93</name>
+		<radius>1.06</radius>
+		<mass>1.3</mass>
+		<spectraltype>F4</spectraltype>
+		<temperature>6700.0</temperature>
+		<metallicity>0.07</metallicity>
+		<planet>
+			<name>WASP-93 b</name>
+			<semimajoraxis errorminus="0.00035" errorplus="0.00035">0.04211</semimajoraxis>
+			<inclination errorminus="0.29" errorplus="0.29">81.18</inclination>
+			<period errorminus="0.000002" errorplus="0.000002">2.7325321</period>
+			<mass errorminus="0.029" errorplus="0.029">1.47</mass>
+			<radius errorminus="0.077" errorplus="0.077">1.597</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/08/07</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+		</planet>
+	</star>
+</system>

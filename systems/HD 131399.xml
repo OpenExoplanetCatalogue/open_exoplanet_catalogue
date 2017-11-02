@@ -1,0 +1,48 @@
+<system>
+	<name>HD 131399</name>
+	<name>HD 131399 A</name>
+	<rightascension>14 54 25.30919</rightascension>
+	<declination>-34 08 34.0412</declination>
+	<binary>
+		<star>
+			<name>HD 131399 A</name>
+			<mass>1.82</mass>
+			<temperature>9300</temperature>
+			<spectraltype>A1V</spectraltype>
+			<planet>
+				<name>HD 131399 Ab</name>
+				<list>Confirmed planets</list>
+				<mass errorminus="1" errorplus="1">4</mass>
+				<temperature errorminus="50" errorplus="50">850</temperature>
+				<period errorminus="54786.33" errorplus="54786.33">200883.21</period>
+				<semimajoraxis errorminus="25" errorplus="25">80</semimajoraxis>
+				<eccentricity errorminus="0.25" errorplus="0.25">0.35</eccentricity>
+				<inclination errorminus="20" errorplus="80">40</inclination>
+				<description>The semi-major axis of this planet is closer relative to that of its hierarchical triple star system than for any known exoplanet within a stellar binary or triple, making HD 131399 dynamically unlike any other known system.</description>
+				<discoverymethod>imaging</discoverymethod>
+				<lastupdate>16/07/06</lastupdate>
+				<discoveryyear>2016</discoveryyear>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+		<binary>
+			<star>
+				<name>HD 131399 B</name>
+				<mass>0.96</mass>
+				<temperature>5700</temperature>
+				<spectraltype>G</spectraltype>
+			</star>
+			<star>
+				<name>HD 131399 C</name>
+				<mass>0.6</mass>
+				<temperature>4400</temperature>
+				<spectraltype>K</spectraltype>
+			</star>
+			<semimajoraxis>7.5</semimajoraxis>
+		</binary>
+		<semimajoraxis errorminus="28" errorplus="28">349</semimajoraxis>
+		<period errorminus="13148.719" errorplus="13148.719">1298801.3</period>
+		<eccentricity errorminus="0.05" errorplus="0.05">0.13</eccentricity>
+		<inclination errorminus="10" errorplus="10">55</inclination>
+	</binary>
+</system>
