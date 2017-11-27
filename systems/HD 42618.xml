@@ -1,26 +1,39 @@
 <system>
 	<name>HD 42618</name>
-	<rightascension>06 12 00.57</rightascension>
-	<declination>+06 46 59.1</declination>
-	<distance>23.5</distance>
+	<rightascension>06 12 00.5669</rightascension>
+	<declination>+06 46 59.057</declination>
+	<distance errorminus="0.15" errorplus="0.15">24.36</distance>
 	<star>
 		<name>HD 42618</name>
-		<radius>0.999</radius>
-		<mass>1.015</mass>
+		<name>HIP 29432</name>
+		<name>TYC 143-1867-1</name>
+		<name>GJ 3387</name>
+		<name>BD+06 1155</name>
+		<name>2MASS J06120056+0646592</name>
+		<name>SAO 113580</name>
+		<radius errorminus="0.087" errorplus="0.087">0.999</radius>
+		<mass errorminus="0.061" errorplus="0.061">1.015</mass>
+		<magU>7.632</magU>
+		<magB>7.496</magB>
 		<magV>6.839</magV>
+		<magJ errorminus="0.023" errorplus="0.023">5.701</magJ>
+		<magH errorminus="0.024" errorplus="0.024">5.385</magH>
+		<magK errorminus="0.020" errorplus="0.020">5.301</magK>
 		<spectraltype>G4V</spectraltype>
-		<temperature>5727.0</temperature>
-		<metallicity>-0.09</metallicity>
+		<temperature errorminus="60" errorplus="60">5727</temperature>
+		<metallicity errorminus="0.04" errorplus="0.04">-0.09</metallicity>
 		<planet>
 			<name>HD 42618 b</name>
 			<semimajoraxis errorminus="0.011" errorplus="0.011">0.554</semimajoraxis>
-			<periastron errorminus="39.0" errorplus="69.0">101.0</periastron>
+			<periastron errorminus="39" errorplus="69">101</periastron>
 			<eccentricity errorminus="0.12" errorplus="0.15">0.19</eccentricity>
-			<period errorminus="0.340000" errorplus="0.370000">149.61</period>
-			<mass errorminus="0.0079" errorplus="0.0079">0.0453</mass>
+			<period errorminus="0.34" errorplus="0.37">149.61</period>
+			<mass errorminus="0.00755" errorplus="0.00787" type="msini">0.04531</mass>
+			<transittime errorminus="5.6" errorplus="6.1" unit="BJD">2456670.2</transittime>
+			<istransiting>0</istransiting>
 			<discoverymethod>RV</discoverymethod>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/07/11</lastupdate>
+			<lastupdate>17/11/27</lastupdate>
 			<list>Confirmed planets</list>
 			<description>Data for this planet was imported from the exoplanet.eu database.</description>
 		</planet>
