@@ -1,22 +1,36 @@
 <system>
 	<name>HD 191806</name>
-	<rightascension>20 09 28</rightascension>
-	<declination>+52 16 35</declination>
+	<rightascension>20 09 28.3096</rightascension>
+	<declination>+52 16 34.802</declination>
+	<distance errorminus="0.91" errorplus="0.91">65.70</distance>
 	<star>
 		<name>HD 191806</name>
-		<age>2.9</age>
-		<mass>1.14</mass>
-		<temperature>6010.0</temperature>
-		<metallicity>0.3</metallicity>
+		<name>HIP 99306</name>
+		<name>TYC 3571-1270-1</name>
+		<name>BD+51 2782</name>
+		<name>SAO 32320</name>
+		<name>2MASS J20092831+5216347</name>
+		<magB errorminus="0.02" errorplus="0.02">8.71</magB>
+		<magV errorminus="0.01" errorplus="0.01">8.08</magV>
+		<magJ errorminus="0.021" errorplus="0.021">6.966</magJ>
+		<magH errorminus="0.059" errorplus="0.059">6.713</magH>
+		<magK errorminus="0.016" errorplus="0.016">6.639</magK>
+		<age errorminus="0.4" errorplus="0.4">2.9</age>
+		<mass errorminus="0.12" errorplus="0.12">1.14</mass>
+		<temperature errorminus="30" errorplus="30">6010</temperature>
+		<metallicity errorminus="0.02" errorplus="0.02">0.30</metallicity>
 		<planet>
 			<name>HD 191806 b</name>
-			<semimajoraxis errorminus="0.1" errorplus="0.1">2.8</semimajoraxis>
+			<semimajoraxis errorminus="0.10" errorplus="0.10">2.80</semimajoraxis>
 			<eccentricity errorminus="0.017" errorplus="0.017">0.259</eccentricity>
-			<period errorminus="7.200000" errorplus="7.200000">1606.3</period>
-			<mass errorminus="0.63" errorplus="0.63">8.52</mass>
+			<period errorminus="7.2" errorplus="7.2">1606.3</period>
+			<mass errorminus="0.63" errorplus="0.63" type="msini">8.52</mass>
+			<periastron errorminus="4.2" errorplus="4.2">4.0</periastron>
+			<transittime errorminus="13" errorplus="13" unit="BJD">2455269</transittime>
+			<istransiting>0</istransiting>
 			<discoverymethod>RV</discoverymethod>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/04/29</lastupdate>
+			<lastupdate>17/11/27</lastupdate>
 			<list>Confirmed planets</list>
 			<description>Data for this planet was imported from the exoplanet.eu database.</description>
 		</planet>
