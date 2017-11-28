@@ -1,5 +1,6 @@
 <system>
 	<name>PTFO 8-8695</name>
+	<name>CVSO 30</name>
 	<rightascension>05 25 07.55</rightascension>
 	<declination>+01 34 24.3</declination>
 	<distance>330</distance>
@@ -29,9 +30,25 @@
 			<istransiting>1</istransiting>
 			<discoverymethod>transit</discoverymethod>
 			<discoveryyear>2012</discoveryyear>
-			<lastupdate>15/07/29</lastupdate>
+			<lastupdate>17/11/28</lastupdate>
 			<list>Controversial</list>
-			<description>PTFO 8-8695 b is a Jupiter-sized candidate planet orbiting a T Tauri star. The orbit is rapidly precessing, causing it to stop transiting during part of its orbital evolution.</description>
+			<description>PTFO 8-8695 b is a Jupiter-sized candidate planet orbiting a T Tauri star. The orbit is rapidly precessing, causing it to stop transiting during part of its orbital evolution. According to Onitsuka et al. (2017), the observations are better explained by a circumstellar dust clump or the occultation of an accretion hotspot.</description>
+		</planet>
+		<planet>
+			<name>CVSO 30 c</name>
+			<name>PTFO 8-8695 c</name>
+			<separation unit="arcsec">1.85</separation>
+			<separation errorminus="96" errorplus="96" unit="AU">662</separation>
+			<positionangle>70</positionangle>
+			<temperature errorminus="300" errorplus="120">1600</temperature>
+			<radius errorminus="0.34" errorplus="0.87">1.63</radius>
+			<mass errorminus="2.0" errorplus="3.6">4.7</mass>
+			<spectraltype>L-T</spectraltype>
+			<discoverymethod>imaging</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>17/11/28</lastupdate>
+			<list>Controversial</list>
+			<description>CVSO 30 c is a directly imaged candidate companion to the star PTFO 8-8695. It is not yet confirmed whether it is co-moving with the star.</description>
 		</planet>
 	</star>
 </system>
