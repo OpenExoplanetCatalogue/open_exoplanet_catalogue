@@ -1,9 +1,11 @@
 <system>
 	<name>KOI-201</name>
+	<name>Kepler-491</name>
 	<rightascension>19 08 31.338</rightascension>
 	<declination>+42 21 00.56</declination>
 	<star>
 		<name>KOI-201</name>
+		<name>Kepler-491</name>
 		<name>KIC 6849046</name>
 		<name>2MASS J19083133+4221005</name>
 		<magJ errorminus="0.021" errorplus="0.021">12.746</magJ>
@@ -14,14 +16,15 @@
 		<temperature errorminus="129" errorplus="98">5649</temperature>
 		<metallicity errorminus="0.20" errorplus="0.08">0.48</metallicity>
 		<planet>
-			<name>KOI-201.01</name>
 			<name>KOI-201 b</name>
+			<name>Kepler-491 b</name>
+			<name>KOI-201.01</name>
 			<name>KIC 6849046 b</name>
-			<period errorminus="0.000000268" errorplus="0.000000268">4.225384512</period>
+			<period errorminus="0.000000270" errorplus="0.000000270">4.225384510</period>
+			<radius errorminus="0.045" errorplus="0.071">0.796</radius>
 			<transittime errorminus="0.0000534" errorplus="0.0000534" unit="BJD">2454970.5606743</transittime>
-			<radius errorminus="0.06" errorplus="0.16">0.82</radius>
 			<mass upperlimit="0.6" />
-			<lastupdate>15/12/03</lastupdate>
+			<lastupdate>17/11/28</lastupdate>
 			<istransiting>1</istransiting>
 			<discoverymethod>transit</discoverymethod>
 			<discoveryyear>2015</discoveryyear>

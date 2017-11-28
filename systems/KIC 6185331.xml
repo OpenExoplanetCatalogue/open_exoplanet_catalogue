@@ -1,34 +1,39 @@
 <system>
 	<name>KIC 6185331</name>
+	<name>Kepler-943</name>
 	<rightascension>18 57 06</rightascension>
 	<declination>+41 32 06</declination>
 	<star>
-		<mass errorminus="0.042" errorplus="0.042">1.027</mass>
-		<radius errorminus="0.17" errorplus="0.17">1.27</radius>
+		<name>KIC 6185331</name>
+		<name>Kepler-943</name>
+		<name>KOI-1727</name>
 		<magV errorminus="0.25" errorplus="0.25">15.64</magV>
 		<magB>17.0</magB>
 		<magR errorminus="0.17" errorplus="0.17">15.93</magR>
 		<magJ errorminus="0.029" errorplus="0.029">14.467</magJ>
 		<magH errorminus="0.04" errorplus="0.04">14.10</magH>
 		<magK errorminus="0.05" errorplus="0.05">13.97</magK>
-		<metallicity>0.11</metallicity>
+		<temperature errorminus="101.3" errorplus="121.6">5612.0</temperature>
+		<mass errorminus="0.06" errorplus="0.05">0.93</mass>
+		<radius errorminus="0.07" errorplus="0.11">0.91</radius>
+		<metallicity errorminus="0.20" errorplus="0.16">-0.07</metallicity>
 		<planet>
 			<name>KIC 6185331 b</name>
+			<name>Kepler-943 b</name>
 			<name>KOI-1727.01</name>
 			<name>KOI-1727 b</name>
 			<list>Confirmed planets</list>
-			<radius>0.72</radius>
-			<period>49.76971</period>
+			<period errorminus="0.000117200" errorplus="0.000117200">49.770143800</period>
+			<radius errorminus="0.047" errorplus="0.070">0.529</radius>
 			<semimajoraxis>0.2672</semimajoraxis>
 			<inclination>89.2</inclination>
 			<transittime errorminus="0.0028" errorplus="0.0028" unit="BJD">2454992.9877</transittime>
-			<description>This planet was not flagged as a potential planet candidate by the Kepler data pipeline. Citizen scientists discovered the transit simply by looking at many light curves by eye using the online tool at planethunters.org.</description>
+			<description>This planet was not flagged as a potential planet candidate by the Kepler data pipeline. Citizen scientists discovered the transit simply by looking at many light curves by eye using the online tool at planethunters.org. It was included in the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>11/09/22</lastupdate>
+			<lastupdate>17/11/28</lastupdate>
 			<discoveryyear>2011</discoveryyear>
 			<istransiting>1</istransiting>
+			<new>1</new>
 		</planet>
-		<name>KIC 6185331</name>
-		<name>KOI-1727</name>
 	</star>
 </system>

@@ -1,16 +1,18 @@
 <system>
 	<name>KOI-1843</name>
+	<name>Kepler-974</name>
 	<rightascension>19 00 03.14</rightascension>
 	<declination>+40 13 14.7</declination>
 	<star>
+		<name>KOI-1843</name>
+		<name>Kepler-974</name>
+		<name>KIC 5080636</name>
 		<magH errorminus="0.022" errorplus="0.022">11.279</magH>
 		<magK errorminus="0.017" errorplus="0.017">11.056</magK>
-		<name>KOI-1843</name>
-		<name>KIC 5080636</name>
-		<mass errorminus="0.08" errorplus="0.05">0.46</mass>
-		<radius errorminus="0.05" errorplus="0.05">0.45</radius>
-		<temperature errorminus="65" errorplus="65">3584</temperature>
-		<metallicity errorminus="0.1" errorplus="0.1">0.0</metallicity>
+		<temperature errorminus="37.0" errorplus="38.8">3687.0</temperature>
+		<mass errorminus="0.02" errorplus="0.02">0.52</mass>
+		<radius errorminus="0.02" errorplus="0.02">0.50</radius>
+		<metallicity errorminus="0.08" errorplus="0.08">0.07</metallicity>
 		<magJ>12.0</magJ>
 		<planet>
 			<name>KOI-1843.03</name>
@@ -27,15 +29,20 @@
 			<istransiting>1</istransiting>
 		</planet>
 		<planet>
+			<name>Kepler-974 b</name>
 			<name>KOI-1843.01</name>
-			<list>Controversial</list>
-			<radius errorminus="0.024" errorplus="0.024">0.114</radius>
-			<period errorminus="0.000016" errorplus="0.000016">4.194525</period>
+			<name>KOI-1843 b</name>
+			<list>Confirmed planets</list>
+			<period errorminus="0.000005030" errorplus="0.000005030">4.194496510</period>
+			<radius errorminus="0.026" errorplus="0.005">0.140</radius>
 			<inclination>89.38</inclination>
 			<transittime errorminus="0.0013" errorplus="0.0013" unit="BJD">2454967.1323</transittime>
 			<semimajoraxis>0.039</semimajoraxis>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
+			<new>1</new>
+			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
+			<lastupdate>17/11/28</lastupdate>
 		</planet>
 		<planet>
 			<name>KOI-1843.02</name>
