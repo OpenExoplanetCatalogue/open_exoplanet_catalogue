@@ -1,9 +1,18 @@
 <system>
 	<name>HD 40307</name>
-	<rightascension>05 54 04</rightascension>
-	<declination>-60 01 24</declination>
-	<distance>12.8</distance>
+	<rightascension>05 54 04.23991</rightascension>
+	<declination>-60 01 24.4977</declination>
+	<distance errorminus="0.062" errorplus="0.062">12.995</distance>
 	<star>
+		<name>HD 40307</name>
+		<name>HIP 27887</name>
+		<name>TYC 8892-1247-1</name>
+		<name>GJ 2046</name>
+		<name>CD-60 1303</name>
+		<name>CPD-60 508</name>
+		<name>SAO 249388</name>
+		<name>2MASS J05540421-6001245</name>
+		<temperature errorminus="59" errorplus="59">4977</temperature>
 		<mass>0.77</mass>
 		<magV>7.17</magV>
 		<magB>8.097</magB>
@@ -12,88 +21,88 @@
 		<magJ errorminus="0.019" errorplus="0.019">5.412</magJ>
 		<magH errorminus="0.040" errorplus="0.040">4.968</magH>
 		<magK errorminus="0.016" errorplus="0.016">4.793</magK>
-		<metallicity>-0.31</metallicity>
+		<metallicity errorminus="0.03" errorplus="0.03">-0.31</metallicity>
 		<spectraltype>K2.5V</spectraltype>
 		<planet>
 			<name>HD 40307 b</name>
-			<mass>0.01258</mass>
-			<period>4.3123</period>
-			<semimajoraxis>0.0468</semimajoraxis>
-			<eccentricity>0.2</eccentricity>
-			<description>The HD 40307 system hosts at least 5 planets, most likely 6. The first three planets were discovered in 2008, the other ones were reported in 2012.</description>
 			<list>Confirmed planets</list>
+			<mass errorminus="0.00094" errorplus="0.00094" type="msini">0.01199</mass>
+			<period errorminus="0.00027" errorplus="0.00027">4.31150</period>
+			<semimajoraxis errorminus="0.0011" errorplus="0.0011">0.0475</semimajoraxis>
+			<eccentricity upperlimit="0.168" />
+			<longitude errorminus="4.0" errorplus="4.0">163.5</longitude>
+			<description>The HD 40307 system hosts four confirmed planets. The first three planets were discovered in 2008, planet f was discovered in 2012.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>12/11/08</lastupdate>
+			<lastupdate>17/11/27</lastupdate>
 			<discoveryyear>2008</discoveryyear>
-			<temperature>804.5</temperature>
 		</planet>
 		<planet>
 			<name>HD 40307 c</name>
 			<list>Confirmed planets</list>
-			<mass>0.020761624</mass>
-			<period>9.6184</period>
-			<semimajoraxis>0.0799</semimajoraxis>
-			<eccentricity>0.06</eccentricity>
-			<description>The HD 40307 system hosts at least 5 planets, most likely 6. The first three planets were discovered in 2008, the other ones were reported in 2012.</description>
+			<mass errorminus="0.0013" errorplus="0.0013" type="msini">0.02023</mass>
+			<period errorminus="0.0012" errorplus="0.0012">9.62070</period>
+			<semimajoraxis errorminus="0.0018" errorplus="0.0018">0.0812</semimajoraxis>
+			<eccentricity upperlimit="0.103" />
+			<longitude errorminus="3.2" errorplus="3.2">321.5</longitude>
+			<description>The HD 40307 system hosts four confirmed planets. The first three planets were discovered in 2008, planet f was discovered in 2012.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>12/11/08</lastupdate>
+			<lastupdate>17/11/27</lastupdate>
 			<discoveryyear>2008</discoveryyear>
-			<temperature>617.1</temperature>
 		</planet>
 		<planet>
 			<name>HD 40307 d</name>
 			<list>Confirmed planets</list>
-			<mass>0.029884156</mass>
-			<period>20.432</period>
-			<semimajoraxis>0.1321</semimajoraxis>
-			<eccentricity>0.07</eccentricity>
-			<description>The HD 40307 system hosts at least 5 planets, most likely 6. The first three planets were discovered in 2008, the other ones were reported in 2012.</description>
+			<mass errorminus="0.0018" errorplus="0.0018" type="msini">0.02750</mass>
+			<period errorminus="0.0052" errorplus="0.0052">20.4185</period>
+			<semimajoraxis errorminus="0.0029" errorplus="0.0029">0.1340</semimajoraxis>
+			<eccentricity upperlimit="0.122" />
+			<longitude errorminus="3.1" errorplus="3.1">185.4</longitude>
+			<description>The HD 40307 system hosts four confirmed planets. The first three planets were discovered in 2008, planet f was discovered in 2012.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>12/11/08</lastupdate>
+			<lastupdate>17/11/27</lastupdate>
 			<discoveryyear>2008</discoveryyear>
-			<temperature>479.9</temperature>
 		</planet>
 		<planet>
 			<name>HD 40307 e</name>
-			<list>Confirmed planets</list>
-			<mass>0.0110099</mass>
-			<period>34.62</period>
-			<semimajoraxis>0.1886</semimajoraxis>
-			<eccentricity>0.15</eccentricity>
-			<description>The HD 40307 system hosts at least 5 planets, most likely 6. The first three planets were discovered in 2008, the other ones were reported in 2012.</description>
+			<list>Controversial</list>
+			<mass errorminus="0.0044" errorplus="0.0044" type="msini">0.0110</mass>
+			<period errorminus="0.20" errorplus="0.21">34.62</period>
+			<semimajoraxis errorminus="0.0104" errorplus="0.0083">0.1886</semimajoraxis>
+			<eccentricity errorminus="0.15" errorplus="0.13">0.15</eccentricity>
+			<meananomaly>355</meananomaly>
+			<periastron>304</periastron>
+			<description>The planet candidate HD 40307 e was announced in 2012 but was not confirmed in a follow-up analysis.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>12/11/08</lastupdate>
-			<discoveryyear>2008</discoveryyear>
-			<temperature>401.2</temperature>
+			<lastupdate>17/11/27</lastupdate>
+			<discoveryyear>2012</discoveryyear>
 		</planet>
 		<planet>
 			<name>HD 40307 f</name>
-			<mass>0.01635764</mass>
-			<period>51.76</period>
-			<semimajoraxis>0.247</semimajoraxis>
-			<eccentricity>0.02</eccentricity>
-			<description>The HD 40307 system hosts at least 5 planets, most likely 6. The first three planets were discovered in 2008, the other ones were reported in 2012.</description>
 			<list>Confirmed planets</list>
+			<mass errorminus="0.0019" errorplus="0.0019" type="msini">0.01142</mass>
+			<period errorminus="0.14" errorplus="0.14">51.56</period>
+			<semimajoraxis errorminus="0.0054" errorplus="0.0054">0.2485</semimajoraxis>
+			<eccentricity upperlimit="0.352" />
+			<longitude errorminus="11" errorplus="11">142</longitude>
+			<description>The HD 40307 system hosts four confirmed planets. The first three planets were discovered in 2008, planet f was discovered in 2012.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>12/11/08</lastupdate>
-			<discoveryyear>2008</discoveryyear>
-			<temperature>351.1</temperature>
+			<lastupdate>17/11/27</lastupdate>
+			<discoveryyear>2012</discoveryyear>
 		</planet>
 		<planet>
 			<name>HD 40307 g</name>
-			<list>Confirmed planets</list>
-			<mass>0.02233447</mass>
-			<period>197.8</period>
-			<semimajoraxis>0.60</semimajoraxis>
-			<eccentricity>0.29</eccentricity>
-			<description>The HD 40307 system hosts at least 5 planets. A signal of a sixth planet has also been reported but should be taken with a grain of salt as it might correlate with chromospheric emission from the star. If the signal is a genuine signal of planetary origin, then this super-Earth might be habitable as it could support liquid water on its surface.</description>
+			<list>Controversial</list>
+			<mass errorminus="0.0082" errorplus="0.0082" type="msini">0.0223</mass>
+			<period errorminus="9.0" errorplus="5.7">197.8</period>
+			<semimajoraxis errorminus="0.033" errorplus="0.034">0.600</semimajoraxis>
+			<eccentricity errorminus="0.29" errorplus="0.31">0.29</eccentricity>
+			<meananomaly>321</meananomaly>
+			<periastron>92</periastron>
+			<description>The planet candidate HD 40307 g would be a sub-Neptune planet located in the habitable zone of the star. Follow-up analysis of the HARPS data for the system did not confirm this planet candidate. The spectral window function has peaks near this period, and there is also the possibility that it is an alias of the star's activity cycle.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>12/11/08</lastupdate>
-			<discoveryyear>2008</discoveryyear>
-			<temperature>224.0</temperature>
+			<lastupdate>17/11/27</lastupdate>
+			<discoveryyear>2012</discoveryyear>
 		</planet>
-		<name>HD 40307</name>
-		<temperature>4977.0</temperature>
 	</star>
 	<videolink>http://youtu.be/MNIllUKtjfI</videolink>
 </system>
