@@ -1,30 +1,35 @@
 <system>
 	<name>KOI-1894</name>
+	<name>Kepler-1004</name>
 	<name>KIC 11673802</name>
 	<rightascension>19 49 26.232</rightascension>
 	<declination>+49 47 51.18</declination>
 	<star>
 		<name>KOI-1894</name>
+		<name>Kepler-1004</name>
 		<name>KIC 11673802</name>
 		<magJ errorminus="0.024" errorplus="0.024">11.700</magJ>
 		<magH errorminus="0.017" errorplus="0.017">11.155</magH>
 		<magK errorminus="0.014" errorplus="0.014">11.060</magK>
-		<mass errorminus="0.214" errorplus="0.214">1.410</mass>
-		<radius errorminus="0.190" errorplus="0.190">3.790</radius>
-		<temperature errorminus="75" errorplus="75">4992</temperature>
+		<temperature errorminus="39.5" errorplus="52.3">4972.0</temperature>
+		<mass errorminus="0.12" errorplus="0.18">1.11</mass>
+		<radius errorminus="0.22" errorplus="0.28">3.39</radius>
+		<metallicity errorminus="0.03" errorplus="0.02">-0.04</metallicity>
 		<planet>
+			<name>Kepler-1004 b</name>
 			<name>KOI-1894.01</name>
-			<list>Controversial</list>
+			<name>KOI-1894 b</name>
+			<list>Confirmed planets</list>
 			<mass errorminus="0.07" errorplus="0.07">0.18</mass>
-			<radius errorminus="0.04" errorplus="0.04">0.66</radius>
-			<period errorminus="0.00001198" errorplus="0.00001198">5.28789787</period>
+			<period errorminus="0.000011980" errorplus="0.000011980">5.287897870</period>
+			<radius errorminus="0.039" errorplus="0.070">0.560</radius>
 			<transittime errorminus="0.00189" errorplus="0.00189" unit="BJD">2454968.36353</transittime>
 			<semimajoraxis>0.067</semimajoraxis>
 			<eccentricity>0</eccentricity>
 			<inclination errorminus="1.8" errorplus="1.6">80.4</inclination>
-			<description>The detection of KOI-1894.01 in radial velocity measurements is still marginal. This planet candidate thus remains unconfirmed.</description>
+			<description>The detection of KOI-1894.01 in radial velocity measurements is still marginal. This planet candidate thus remains unconfirmed. It was part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>15/01/27</lastupdate>
+			<lastupdate>17/11/28</lastupdate>
 			<discoveryyear>2015</discoveryyear>
 			<istransiting>1</istransiting>
 		</planet>
