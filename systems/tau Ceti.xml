@@ -1,10 +1,29 @@
 <system>
 	<name>tau Ceti</name>
 	<name>HD 10700</name>
-	<rightascension>01 44 04</rightascension>
-	<declination>-15 56 15</declination>
-	<distance>3.65</distance>
+	<rightascension>01 44 04.08338</rightascension>
+	<declination>-15 56 14.9262</declination>
+	<distance errorminus="0.0023" errorplus="0.0023">3.6502</distance>
 	<star>
+		<name>tau Ceti</name>
+		<name>tau Cet</name>
+		<name>τ Cet</name>
+		<name>HD 10700</name>
+		<name>52 Cet</name>
+		<name>52 Ceti</name>
+		<name>HIP 8102</name>
+		<name>TYC 5855-2292-1</name>
+		<name>Gliese 71</name>
+		<name>Gliese 71.0</name>
+		<name>Gl 71</name>
+		<name>Gl 71.0</name>
+		<name>GJ 71</name>
+		<name>GJ 71.0</name>
+		<name>HR 509</name>
+		<name>BD-16 205</name>
+		<name>SAO 147986</name>
+		<name>2MASS J01440402-1556141</name>
+		<name>LHS 146</name>
 		<magB>4.22</magB>
 		<magV>3.50</magV>
 		<magR>2.88</magR>
@@ -12,23 +31,24 @@
 		<magJ errorminus="0.31" errorplus="0.31">2.15</magJ>
 		<magH errorminus="0.234" errorplus="0.234">1.800</magH>
 		<magK errorminus="0.274" errorplus="0.274">1.794</magK>
-		<name>tau Ceti</name>
-		<name>HD 10700</name>
-		<mass>0.783</mass>
-		<radius>0.798</radius>
-		<metallicity>-0.55</metallicity>
+		<mass errorminus="0.012" errorplus="0.012">0.783</mass>
+		<radius errorminus="0.004" errorplus="0.004">0.793</radius>
+		<temperature errorminus="50" errorplus="50">5344</temperature>
+		<metallicity errorminus="0.05" errorplus="0.05">-0.55</metallicity>
 		<age>5.8</age>
 		<spectraltype>G8.5 V</spectraltype>
 		<planet>
 			<name>tau Ceti b</name>
 			<name>HD 10700 b</name>
-			<list>Controversial</list>
-			<mass>0.0062914013</mass>
-			<period>13.965</period>
-			<semimajoraxis>0.105</semimajoraxis>
-			<eccentricity>0.16</eccentricity>
+			<list>Retracted planet candidate</list>
+			<mass errorminus="0.00252" errorplus="0.00252" type="msini">0.00629</mass>
+			<period errorminus="0.023" errorplus="0.017">13.965</period>
+			<semimajoraxis errorminus="0.006" errorplus="0.005">0.105</semimajoraxis>
+			<eccentricity errorminus="0.16" errorplus="0.22">0.16</eccentricity>
+			<periastron>86</periastron>
+			<periastrontime>2450004.17</periastrontime>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>12/12/19</lastupdate>
+			<lastupdate>17/11/28</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<description>Multiple periodic signals were found by Tuomi et al. in 2012 in the radial velocity data from HARPS, AAPS and HIRES. The planetary nature of the signals has yet to be confirmed.</description>
 			<image>tau_ceti</image>
@@ -39,13 +59,15 @@ Picture credit: J. Pinfield for the RoPACS network at the University of Hertford
 		<planet>
 			<name>tau Ceti c</name>
 			<name>HD 10700 c</name>
-			<list>Controversial</list>
-			<mass>0.009751672</mass>
-			<period>35.362</period>
-			<semimajoraxis>0.195</semimajoraxis>
-			<eccentricity>0.03</eccentricity>
+			<list>Retracted planet candidate</list>
+			<mass errorminus="0.00346" errorplus="0.00440" type="msini">0.00975</mass>
+			<period errorminus="0.106" errorplus="0.088">35.362</period>
+			<semimajoraxis errorminus="0.011" errorplus="0.009">0.195</semimajoraxis>
+			<eccentricity errorminus="0.03" errorplus="0.28">0.03</eccentricity>
+			<periastron>172</periastron>
+			<periastrontime>2450020.62</periastrontime>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>12/12/19</lastupdate>
+			<lastupdate>17/11/28</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<description>Multiple periodic signals were found by Tuomi et al. in 2012 in the radial velocity data from HARPS, AAPS and HIRES. The planetary nature of the signals has yet to be confirmed.</description>
 			<image>tau_ceti</image>
@@ -56,13 +78,15 @@ Picture credit: J. Pinfield for the RoPACS network at the University of Hertford
 		<planet>
 			<name>tau Ceti d</name>
 			<name>HD 10700 d</name>
-			<list>Controversial</list>
-			<mass>0.011324522</mass>
-			<period>94.11</period>
-			<semimajoraxis>0.374</semimajoraxis>
-			<eccentricity>0.08</eccentricity>
+			<list>Retracted planet candidate</list>
+			<mass errorminus="0.0053" errorplus="0.0053" type="msini">0.0113</mass>
+			<period errorminus="0.63" errorplus="0.70">94.11</period>
+			<semimajoraxis errorminus="0.020" errorplus="0.017">0.374</semimajoraxis>
+			<eccentricity errorminus="0.08" errorplus="0.26">0.08</eccentricity>
+			<periastron>229</periastron>
+			<periastrontime>2450002.31</periastrontime>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>12/12/19</lastupdate>
+			<lastupdate>17/11/28</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<description>Multiple periodic signals were found by Tuomi et al. in 2012 in the radial velocity data from HARPS, AAPS and HIRES. The planetary nature of the signals has yet to be confirmed.</description>
 			<image>tau_ceti</image>
@@ -73,13 +97,15 @@ Picture credit: J. Pinfield for the RoPACS network at the University of Hertford
 		<planet>
 			<name>tau Ceti e</name>
 			<name>HD 10700 e</name>
-			<list>Controversial</list>
-			<mass>0.013526513</mass>
-			<period>168.12</period>
-			<semimajoraxis>0.552</semimajoraxis>
-			<eccentricity>0.085</eccentricity>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.0020" errorplus="0.0026" type="msini">0.0124</mass>
+			<period errorminus="0.46" errorplus="1.08">162.87</period>
+			<semimajoraxis errorminus="0.006" errorplus="0.006">0.538</semimajoraxis>
+			<eccentricity errorminus="0.14" errorplus="0.18">0.18</eccentricity>
+			<periastron errorminus="45.8" errorplus="73.9">22.3</periastron>
+			<meananomaly errorminus="53.9" errorplus="66.5">355.8</meananomaly>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>12/12/19</lastupdate>
+			<lastupdate>17/11/28</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<description>Multiple periodic signals were found by Tuomi et al. in 2012 in the radial velocity data from HARPS, AAPS and HIRES. The planetary nature of the signals has yet to be confirmed.</description>
 			<image>tau_ceti</image>
@@ -90,19 +116,50 @@ Picture credit: J. Pinfield for the RoPACS network at the University of Hertford
 		<planet>
 			<name>tau Ceti f</name>
 			<name>HD 10700 f</name>
-			<list>Controversial</list>
-			<mass>0.020761624</mass>
-			<period>642</period>
-			<semimajoraxis>1.35</semimajoraxis>
-			<eccentricity>0.03</eccentricity>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.0043" errorplus="0.0033" type="msini">0.0124</mass>
+			<period errorminus="47.69" errorplus="11.70">636.13</period>
+			<semimajoraxis errorminus="0.044" errorplus="0.017">1.334</semimajoraxis>
+			<eccentricity errorminus="0.16" errorplus="0.07">0.16</eccentricity>
+			<periastron errorminus="70.5" errorplus="41.3">119.7</periastron>
+			<meananomaly errorminus="36.7" errorplus="56.1">-39.0</meananomaly>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>12/12/19</lastupdate>
+			<lastupdate>17/11/28</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<description>Multiple periodic signals were found by Tuomi et al. in 2012 in the radial velocity data from HARPS, AAPS and HIRES. The planetary nature of the signals has yet to be confirmed.</description>
 			<image>tau_ceti</image>
 			<imagedescription>Artist's impression of the Tau Ceti system
 
 Picture credit: J. Pinfield for the RoPACS network at the University of Hertfordshire, 2012.</imagedescription>
+		</planet>
+		<planet>
+			<name>tau Ceti g</name>
+			<name>HD 10700 g</name>
+			<list>Confirmed planets</list>
+			<period errorminus="0.01" errorplus="0.02">20.00</period>
+			<eccentricity errorminus="0.06" errorplus="0.13">0.06</eccentricity>
+			<periastron errorminus="84.8" errorplus="36.1">395.3</periastron>
+			<meananomaly errorminus="21.2" errorplus="92.2">43.4</meananomaly>
+			<mass errorminus="0.00126" errorplus="0.00079" type="msini">0.00551</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2017</discoveryyear>
+			<description>Analysis of the Tau Ceti RV data taking into account wavelength-dependent noise indicated a four planet system around the star. Two of the previously-detected planets (e and f) were confirmed, while two new planets were found, designated g and h to avoid confusion with the previous candidates.</description>
+			<lastupdate>17/11/28</lastupdate>
+		</planet>
+		<planet>
+			<name>tau Ceti h</name>
+			<name>HD 10700 h</name>
+			<list>Confirmed planets</list>
+			<period errorminus="0.10" errorplus="0.08">49.41</period>
+			<eccentricity errorminus="0.15" errorplus="0.16">0.23</eccentricity>
+			<periastron errorminus="48.1" errorplus="37.2">7.4</periastron>
+			<meananomaly errorminus="32.7" errorplus="43.0">-72.8</meananomaly>
+			<mass errorminus="0.00082" errorplus="0.00213" type="msini">0.00576</mass>
+			<semimajoraxis errorminus="0.003" errorplus="0.003">0.243</semimajoraxis>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2017</discoveryyear>
+			<description>Analysis of the Tau Ceti RV data taking into account wavelength-dependent noise indicated a four planet system around the star. Two of the previously-detected planets (e and f) were confirmed, while two new planets were found, designated g and h to avoid confusion with the previous candidates.</description>
+			<lastupdate>17/11/28</lastupdate>
 		</planet>
 	</star>
 </system>
