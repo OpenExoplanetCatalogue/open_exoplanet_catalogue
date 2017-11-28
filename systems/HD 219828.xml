@@ -1,31 +1,52 @@
 <system>
 	<name>HD 219828</name>
-	<rightascension>23 18 47</rightascension>
-	<declination>+18 38 45</declination>
-	<distance>81.1</distance>
+	<rightascension>23 18 46.7340</rightascension>
+	<declination>+18 38 44.617</declination>
+	<distance errorminus="1.6" errorplus="1.6">71.4</distance>
 	<star>
-		<mass>1.24</mass>
+		<name>HD 219828</name>
+		<name>HIP 115100</name>
+		<name>TYC 1716-1182-1</name>
+		<name>BD+17 4896</name>
+		<name>SAO 108536</name>
+		<name>2MASS J23184673+1838445</name>
+		<mass errorminus="0.10" errorplus="0.10">1.23</mass>
 		<radius>1.7</radius>
-		<magV>8.04</magV>
+		<magV errorminus="0.01" errorplus="0.01">8.01</magV>
 		<magB errorminus="0.02" errorplus="0.02">8.68</magB>
 		<magJ errorminus="0.021" errorplus="0.021">6.871</magJ>
 		<magH errorminus="0.024" errorplus="0.024">6.614</magH>
 		<magK errorminus="0.018" errorplus="0.018">6.530</magK>
-		<metallicity>0.19</metallicity>
+		<temperature errorminus="18" errorplus="18">5891</temperature>
+		<metallicity errorminus="0.03" errorplus="0.03">0.19</metallicity>
 		<spectraltype>G0IV</spectraltype>
 		<planet>
 			<name>HD 219828 b</name>
 			<list>Confirmed planets</list>
-			<mass>0.066</mass>
-			<period>3.8335</period>
-			<semimajoraxis>0.052</semimajoraxis>
-			<eccentricity>0.0</eccentricity>
+			<mass errorminus="0.00440" errorplus="0.00440" type="msini">0.06607</mass>
+			<period errorminus="0.000096" errorplus="0.000096">3.834887</period>
+			<periastrontime errorminus="0.35" errorplus="0.35" unit="BJD">2455998.78</periastrontime>
+			<semimajoraxis>0.045</semimajoraxis>
+			<eccentricity errorminus="0.036" errorplus="0.036">0.059</eccentricity>
+			<periastron errorminus="38" errorplus="38">225</periastron>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/12/21</lastupdate>
+			<lastupdate>17/11/27</lastupdate>
 			<discoveryyear>2007</discoveryyear>
-			<temperature>1485.2</temperature>
+			<description>The HD 219828 system has a close-in hot Neptune planet on a near circular orbit and a massive super-Jupiter or brown dwarf on a highly-elliptical outer orbit.</description>
 		</planet>
-		<name>HD 219828</name>
-		<temperature>5891.0</temperature>
+		<planet>
+			<name>HD 219828 c</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.85" errorplus="0.85" type="msini">15.1</mass>
+			<period errorminus="75" errorplus="75">4791</period>
+			<periastrontime errorminus="1.2" errorplus="1.2" unit="BJD">2454180.7</periastrontime>
+			<semimajoraxis>5.96</semimajoraxis>
+			<eccentricity errorminus="0.0032" errorplus="0.0032">0.8115</eccentricity>
+			<periastron errorminus="0.28" errorplus="0.28">145.77</periastron>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>17/11/27</lastupdate>
+			<description>HD 219828 c is a massive planet or brown dwarf orbiting external to the hot Neptune HD 219828 b. It should be detectable with the Gaia mission, which will enable determination of the true mass and full orbital orientation.</description>
+		</planet>
 	</star>
 </system>

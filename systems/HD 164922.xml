@@ -1,33 +1,59 @@
 <system>
 	<name>HD 164922</name>
-	<rightascension>18 02 30</rightascension>
-	<declination>+26 18 46</declination>
-	<distance>21.93</distance>
+	<rightascension>18 02 30.8624</rightascension>
+	<declination>+26 18 46.805</declination>
+	<distance errorminus="0.14" errorplus="0.14">22.04</distance>
 	<star>
-		<mass>0.94</mass>
-		<radius>0.9</radius>
-		<magV>7.01</magV>
+		<name>HD 164922</name>
+		<name>HIP 88348</name>
+		<name>TYC 2099-2717-1</name>
+		<name>Gliese 700.2</name>
+		<name>GJ 700.2</name>
+		<name>GJ 9613</name>
+		<name>BD+26 3151</name>
+		<name>SAO 85678</name>
+		<name>2MASS J18023085+2618471</name>
+		<mass errorminus="0.012" errorplus="0.012">0.874</mass>
+		<radius errorminus="0.017" errorplus="0.017">0.999</radius>
+		<magV>6.99</magV>
 		<magB>7.79</magB>
 		<magR>6.5</magR>
 		<magI>6.1</magI>
 		<magJ errorminus="0.026" errorplus="0.026">5.553</magJ>
 		<magH errorminus="0.017" errorplus="0.017">5.203</magH>
 		<magK errorminus="0.020" errorplus="0.020">5.113</magK>
-		<metallicity>0.17</metallicity>
-		<spectraltype>K0V</spectraltype>
+		<temperature errorminus="32" errorplus="32">5293</temperature>
+		<metallicity errorminus="0.05" errorplus="0.05">0.16</metallicity>
+		<spectraltype>G9V</spectraltype>
 		<planet>
 			<name>HD 164922 b</name>
 			<list>Confirmed planets</list>
-			<mass>0.36</mass>
-			<period>1155</period>
-			<semimajoraxis>2.11</semimajoraxis>
-			<eccentricity>0.05</eccentricity>
+			<mass errorminus="0.0151" errorplus="0.0154" type="msini">0.33855</mass>
+			<period errorminus="5.5" errorplus="5.6">1201.1</period>
+			<semimajoraxis errorminus="0.012" errorplus="0.012">2.115</semimajoraxis>
+			<eccentricity errorminus="0.050" errorplus="0.049">0.126</eccentricity>
+			<periastron errorminus="20" errorplus="24">129</periastron>
+			<transittime errorminus="19" errorplus="18" unit="BJD">2456778</transittime>
+			<istransiting>0</istransiting>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>06/07/15</lastupdate>
+			<lastupdate>17/11/27</lastupdate>
 			<discoveryyear>2006</discoveryyear>
-			<temperature>155.0</temperature>
+			<description>HD 164922 b is a Saturn-mass planet orbiting a late G-type star.</description>
 		</planet>
-		<name>HD 164922</name>
-		<temperature>5385.0</temperature>
+		<planet>
+			<name>HD 164922 c</name>
+			<list>Confirmed planets</list>
+			<period errorminus="0.056" errorplus="0.058">75.765</period>
+			<transittime errorminus="2.7" errorplus="2.7" unit="BJD">2456277.6</transittime>
+			<eccentricity errorminus="0.13" errorplus="0.13">0.22</eccentricity>
+			<periastron errorminus="49" errorplus="45">81</periastron>
+			<semimajoraxis errorminus="0.0015" errorplus="0.0015">0.3351</semimajoraxis>
+			<mass errorminus="0.00503" errorplus="0.00503" type="msini">0.04059</mass>
+			<istransiting>0</istransiting>
+			<discoverymethod>RV</discoverymethod>
+			<lastupdate>17/11/27</lastupdate>
+			<discoveryyear>2016</discoveryyear>
+			<description>HD 164922 c is a temperate Neptune planet discovered in a system already known to host an outer Saturn-mass planet.</description>
+		</planet>
 	</star>
 </system>

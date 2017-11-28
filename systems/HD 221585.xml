@@ -1,23 +1,39 @@
 <system>
 	<name>HD 221585</name>
-	<rightascension>23 32 54</rightascension>
-	<declination>+63 09 20</declination>
+	<rightascension>23 32 54.0465</rightascension>
+	<declination>+63 09 19.734</declination>
+	<distance errorminus="0.77" errorplus="0.77">55.55</distance>
 	<star>
 		<name>HD 221585</name>
-		<age>6.2</age>
-		<mass>1.19</mass>
+		<name>HIP 116221</name>
+		<name>TYC 4284-1402-1</name>
+		<name>BD+62 2244</name>
+		<name>2MASS J23325401+6309198</name>
+		<name>SAO 20692</name>
+		<magB>8.18</magB>
+		<magV>7.44</magV>
+		<magR>7.0</magR>
+		<magI>6.6</magI>
+		<magJ errorminus="0.030" errorplus="0.030">6.157</magJ>
+		<magH errorminus="0.034" errorplus="0.034">5.841</magH>
+		<magK errorminus="0.029" errorplus="0.029">5.781</magK>
+		<age errorminus="0.5" errorplus="0.5">6.2</age>
+		<mass errorminus="0.12" errorplus="0.12">1.19</mass>
 		<spectraltype>G8IV</spectraltype>
-		<temperature>5620.0</temperature>
-		<metallicity>0.29</metallicity>
+		<temperature errorminus="27" errorplus="27">5620</temperature>
+		<metallicity errorminus="0.02" errorplus="0.02">0.29</metallicity>
 		<planet>
 			<name>HD 221585 b</name>
 			<semimajoraxis errorminus="0.081" errorplus="0.081">2.306</semimajoraxis>
 			<eccentricity errorminus="0.069" errorplus="0.069">0.123</eccentricity>
-			<period errorminus="16.000000" errorplus="16.000000">1173.0</period>
-			<mass errorminus="0.14" errorplus="0.14">1.61</mass>
+			<period errorminus="16" errorplus="16">1173</period>
+			<mass errorminus="0.14" errorplus="0.14" type="msini">1.61</mass>
+			<periastron errorminus="28" errorplus="28">-6.8</periastron>
+			<transittime errorminus="28" errorplus="28" unit="BJD">2455328</transittime>
+			<istransiting>0</istransiting>
 			<discoverymethod>RV</discoverymethod>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/04/29</lastupdate>
+			<lastupdate>17/11/27</lastupdate>
 			<list>Confirmed planets</list>
 			<description>Data for this planet was imported from the exoplanet.eu database.</description>
 		</planet>

@@ -23,25 +23,48 @@
 		<magJ>4.09</magJ>
 		<magH>3.99</magH>
 		<magK errorminus="0.05" errorplus="0.05">3.89</magK>
-		<mass>1.00</mass>
-		<temperature>5823</temperature>
+		<mass errorminus="0.030" errorplus="0.030">0.889</mass>
+		<radius errorminus="0.0262" errorplus="0.0262">1.3617</radius>
+		<temperature errorminus="54" errorplus="54">5627</temperature>
+		<metallicity errorminus="0.05" errorplus="0.05">-0.31</metallicity>
+		<spectraltype>G0V</spectraltype>
 		<planet>
 			<name>Rho Coronae Borealis b</name>
 			<name>rho CrB b</name>
 			<name>ρ CrB b</name>
-			<period errorminus="0.0063" errorplus="0.0063">39.8449</period>
-			<eccentricity errorminus="0.028" errorplus="0.028">0.057</eccentricity>
-			<periastron>303</periastron>
-			<periastrontime errorminus="4.1" errorplus="4.1">2450563.2</periastrontime>
-			<semimajoraxis>0.24</semimajoraxis>
-			<inclination lowerlimit="0.4" upperlimit="0.7">0.4</inclination>
-			<ascendingnode lowerlimit="242.3" upperlimit="290.6">266.4</ascendingnode>
-			<mass lowerlimit="100.1" upperlimit="199.6">169.7</mass>
+			<name>HD 143761 b</name>
+			<period errorminus="0.0014" errorplus="0.0015">39.8458</period>
+			<eccentricity errorminus="0.0039" errorplus="0.0040">0.0373</eccentricity>
+			<periastron errorminus="5.8" errorplus="5.9">270.6</periastron>
+			<transittime errorminus="0.056" errorplus="0.056" unit="BJD">2455759.091</transittime>
+			<semimajoraxis errorminus="0.0025" errorplus="0.0024">0.2196</semimajoraxis>
+			<mass errorminus="0.0239" errorplus="0.0236" type="msini">1.0449</mass>
+			<inclination lowerlimit="4" />
+			<istransiting>0</istransiting>
 			<discoveryyear>1997</discoveryyear>
 			<discoverymethod>RV</discoverymethod>
-			<list>Controversial</list>
-			<description>The planet candidate orbiting Rho Coronae Borealis was one of the first exoplanet discoveries, with a radial velocity minimum mass of 1.093 Jupiter masses. Subsequent analysis of the Hipparcos astrometric data indicates that the companion is actually a low-mass star in a nearly face-on orbit.</description>
-			<lastupdate>15/04/20</lastupdate>
+			<list>Confirmed planets</list>
+			<description>The planet candidate orbiting Rho Coronae Borealis was one of the first exoplanet discoveries, with a radial velocity minimum mass of 1.093 Jupiter masses. Subsequent analysis of the Hipparcos astrometric data indicates that the companion is actually a low-mass star in a nearly face-on orbit, however this would make the system unstable.</description>
+			<lastupdate>17/11/27</lastupdate>
+		</planet>
+		<planet>
+			<name>Rho Coronae Borealis c</name>
+			<name>rho CrB c</name>
+			<name>ρ CrB c</name>
+			<name>HD 143761 c</name>
+			<period errorminus="0.17" errorplus="0.17">102.54</period>
+			<transittime errorminus="2" errorplus="2" unit="BJD">2455822</transittime>
+			<eccentricity errorminus="0.037" errorplus="0.061">0.052</eccentricity>
+			<periastron errorminus="140" errorplus="110">190</periastron>
+			<semimajoraxis errorminus="0.0047" errorplus="0.0046">0.4123</semimajoraxis>
+			<mass errorminus="0.0063" errorplus="0.0063" type="msini">0.0787</mass>
+			<inclination lowerlimit="4" />
+			<istransiting>0</istransiting>
+			<discoveryyear>2016</discoveryyear>
+			<discoverymethod>RV</discoverymethod>
+			<list>Confirmed planets</list>
+			<description>HD 143761 c is a warm Neptune-class planet orbiting external to the previously-known giant planet. For the system to be stable, the inclination cannot be below 4°.</description>
+			<lastupdate>17/11/27</lastupdate>
 		</planet>
 	</star>
 </system>
