@@ -4,13 +4,13 @@
 	<declination>+06 28 46.99</declination>
 	<distance errorminus="50" errorplus="50">765</distance>
 	<star>
+		<name>CoRoT-29</name>
+		<name>2MASS J18353650+0628467</name>
 		<magB errorminus="0.105" errorplus="0.105">16.705</magB>
 		<magV errorminus="0.069" errorplus="0.069">15.560</magV>
 		<magJ errorminus="0.021" errorplus="0.021">13.565</magJ>
 		<magH errorminus="0.021" errorplus="0.021">13.120</magH>
 		<magK errorminus="0.031" errorplus="0.031">13.048</magK>
-		<name>CoRoT-29</name>
-		<name>2MASS J18353650+0628467</name>
 		<mass errorminus="0.14" errorplus="0.14">0.97</mass>
 		<radius errorminus="0.12" errorplus="0.12">0.90</radius>
 		<temperature errorminus="100" errorplus="100">5260</temperature>
@@ -22,15 +22,14 @@
 			<name>2MASS J18353650+0628467 b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.20" errorplus="0.20">0.85</mass>
-			<radius errorminus="0.16" errorplus="0.16">0.90</radius>
-			<period errorminus="0.000006" errorplus="0.000006">2.850570</period>
-			<transittime errorminus="0.001" errorplus="0.001" unit="HJD">2455753.115</transittime>
-			<semimajoraxis errorminus="0.0020" errorplus="0.0020">0.0390</semimajoraxis>
-			<eccentricity errorminus="0.081" errorplus="0.081">0.082</eccentricity>
-			<inclination errorminus="2.7" errorplus="2.7">87.3</inclination>
-			<description>CoRoT-29 b is a Jupiter-sized planet orbiting an oblate star. The transit dircovered is significantly asymmetric, a signature that the host star could have a non-spherical shape. It was discovered by the European space mission CoRoT.</description>
+			<radius errorminus="0.13" errorplus="0.13">0.97</radius>
+			<period errorminus="0.0000072" errorplus="0.0000072">2.8505615</period>
+			<transittime errorminus="0.00075" errorplus="0.00075" unit="BJD">2456870.53809</transittime>
+			<semimajoraxis errorminus="0.005" errorplus="0.005">0.0357</semimajoraxis>
+			<inclination errorminus="0.30" errorplus="0.32">85.80</inclination>
+			<description>CoRoT-29 b is a Jupiter-sized planet orbiting an oblate star. It was discovered by the European space mission CoRoT. The transits were originally announced by Cabrera et al. (2015) to be asymmetric but this was not confirmed by the follow-up study of Pallé et al. (2016)</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>15/04/07</lastupdate>
+			<lastupdate>17/11/29</lastupdate>
 			<discoveryyear>2015</discoveryyear>
 			<istransiting>1</istransiting>
 		</planet>
