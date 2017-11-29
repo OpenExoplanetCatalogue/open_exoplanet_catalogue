@@ -25,7 +25,7 @@
 			<name>KIC 11904151 b</name>
 			<name>2MASS J19024305+5014286 b</name>
 			<list>Confirmed planets</list>
-			<mass errorminus="0.001541" errorplus="0.001541">0.010475</mass>
+			<mass errorminus="0.00088" errorplus="0.00088">0.01019</mass>
 			<radius errorminus="0.001823" errorplus="0.002734">0.133962</radius>
 			<period errorminus="0.0000002" errorplus="0.0000002">0.8374907</period>
 			<semimajoraxis errorminus="0.00013" errorplus="0.00013">0.01685</semimajoraxis>
@@ -33,10 +33,11 @@
 			<transittime errorminus="0.00018" errorplus="0.00018" unit="BJD">2455034.08687</transittime>
 			<eccentricity>0</eccentricity>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>14/06/03</lastupdate>
+			<lastupdate>17/11/29</lastupdate>
 			<discoveryyear>2011</discoveryyear>
 			<temperature errorminus="44" errorplus="96">2169</temperature>
 			<istransiting>1</istransiting>
+			<description>Kepler-10b was the first rocky planet discovered by the Kepler mission. It orbits extremely close to the star and may have a magma ocean on its day side.</description>
 		</planet>
 		<planet>
 			<name>Kepler-10 c</name>
@@ -45,19 +46,29 @@
 			<name>KIC 11904151 c</name>
 			<name>2MASS J19024305+5014286 c</name>
 			<list>Confirmed planets</list>
-			<mass errorminus="0.005977" errorplus="0.005977">0.054106</mass>
+			<mass errorminus="0.00374" errorplus="0.00415">0.02319</mass>
 			<radius errorminus="0.003645" errorplus="0.008202">0.214156</radius>
 			<period errorminus="0.000048" errorplus="0.000048">45.294301</period>
 			<semimajoraxis errorminus="0.0019" errorplus="0.0019">0.2410</semimajoraxis>
 			<inclination errorminus="0.43" errorplus="0.25">89.59</inclination>
 			<eccentricity>0</eccentricity>
 			<transittime errorminus="0.00081" errorplus="0.00081" unit="BJD">2455062.26648</transittime>
-			<description>This planet was confirmed using infrared observations from Spitzer. It is highly unlikely (0.002%) that Kepler-10 c is a false positive. The planet is so close to its host star that it can not sustain liquid water on its surface. It is therefore most likely not habitable and a scorched, molten Earth.</description>
+			<description>Kepler-10c is a transiting sub-Neptune planet. Initial mass measurements suggested the planet had a largely rocky composition but subsequent measurements decreased the inferred density, indicating the planet is volatile-rich like other planets of similar radius.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>14/06/03</lastupdate>
+			<lastupdate>17/11/29</lastupdate>
 			<discoveryyear>2011</discoveryyear>
 			<temperature errorminus="17" errorplus="50">584</temperature>
 			<istransiting>1</istransiting>
+		</planet>
+		<planet>
+			<name>KOI-72.X</name>
+			<list>Controversial</list>
+			<period errorminus="1" errorplus="1">102</period>
+			<mass errorminus="0.00318" errorplus="0.00535">0.01856</mass>
+			<discoverymethod>timing</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<description>KOI-72.X is an unconfirmed third planet in the Kepler-10 system inferred from transit timing variations of Kepler-10c.</description>
+			<lastupdate>17/11/29</lastupdate>
 		</planet>
 	</star>
 </system>
