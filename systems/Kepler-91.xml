@@ -35,5 +35,20 @@
 			<discoveryyear>2013</discoveryyear>
 			<istransiting>1</istransiting>
 		</planet>
+		<planet>
+			<name>Kepler-91 b Trojan</name>
+			<list>Controversial</list>
+			<mass errorminus="0.019" errorplus="0.019">0.025</mass>
+			<radius errorminus="0.06" errorplus="0.06">0.26</radius>
+			<period>6.24668005</period>
+			<semimajoraxis>0.0726</semimajoraxis>
+			<inclination>67.37</inclination>
+			<transittime unit="BJD">2454968.3</transittime>
+			<description>A possible Trojan companion to Kepler-91b was identified by Placek et al. (2015). This companion was rejected based on unphysically high brightness temperatures inferred by the model, but Knuth et al. (2017) indicated that the analysis was not taking reflected light fully into account.</description>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2015</discoveryyear>
+			<lastupdate>17/11/29</lastupdate>
+			<istransiting>1</istransiting>
+		</planet>
 	</star>
 </system>
