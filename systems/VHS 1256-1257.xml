@@ -4,19 +4,35 @@
 	<rightascension>12 56 01.922</rightascension>
 	<declination>-12 57 23.990</declination>
 	<distance errorminus="1.0" errorplus="1.0">12.7</distance>
-	<star>
+	<binary>
 		<name>VHS 1256-1257</name>
 		<name>VHS J125602.15-125721.7</name>
 		<name>2MASS J125602.15-125721.7</name>
-		<magV errorminus="0.059" errorplus="0.059">17.759</magV>
-		<magI errorminus="0.039" errorplus="0.039">13.318</magI>
-		<magJ errorminus="0.023" errorplus="0.023">11.018</magJ>
-		<magH errorminus="0.023" errorplus="0.023">10.473</magH>
-		<magK errorminus="0.021" errorplus="0.021">10.044</magK>
-		<age lowerlimit="0.150" upperlimit="0.300" />
-		<temperature errorminus="140" errorplus="140">2620</temperature>
-		<mass errorminus="0.014" errorplus="0.019">0.070</mass>
-		<spectraltype errorminus="0.5" errorplus="0.5">M7.5</spectraltype>
+		<separation errorminus="0.0009" errorplus="0.0009" unit="arcsec">0.1094</separation>
+		<separation unit="AU">1.4</separation>
+		<positionangle errorminus="0.9" errorplus="0.9">173.3</positionangle>
+		<star>
+			<name>VHS 1256-1257 A</name>
+			<name>VHS J125602.15-125721.7 A</name>
+			<name>2MASS J125602.15-125721.7 A</name>
+			<magJ errorminus="0.05" errorplus="0.05">11.76</magJ>
+			<magH errorminus="0.05" errorplus="0.05">11.21</magH>
+			<magK errorminus="0.04" errorplus="0.04">10.79</magK>
+			<spectraltype>M7.5</spectraltype>
+			<mass lowerlimit="0.0616" />
+			<age lowerlimit="0.280" />
+		</star>
+		<star>
+			<name>VHS 1256-1257 B</name>
+			<name>VHS J125602.15-125721.7 B</name>
+			<name>2MASS J125602.15-125721.7 B</name>
+			<magJ errorminus="0.05" errorplus="0.05">11.78</magJ>
+			<magH errorminus="0.05" errorplus="0.05">11.24</magH>
+			<magK errorminus="0.04" errorplus="0.04">10.81</magK>
+			<spectraltype>M7.5</spectraltype>
+			<mass lowerlimit="0.0616" />
+			<age lowerlimit="0.280" />
+		</star>
 		<planet>
 			<name>VHS 1256-1257 b</name>
 			<name>VHS J125602.15-125721.7 b</name>
@@ -33,8 +49,9 @@
 			<spectraltype errorminus="1.5" errorplus="1.5">L7</spectraltype>
 			<discoverymethod>imaging</discoverymethod>
 			<discoveryyear>2015</discoveryyear>
-			<description>VHS 1256-1257 b is a common-proper motion L-dwarf companion of a nearby red dwarf star. It is cooler than expected for a field L-dwarf, and its mass is close to the deuterium-burning limit.</description>
-			<lastupdate>15/07/23</lastupdate>
+			<description>VHS 1256-1257 b is a common-proper motion L-dwarf companion of a nearby red dwarf star. It is cooler than expected for a field L-dwarf, and its mass is close to the deuterium-burning limit. The primary was discovered to be a binary of near-equal mass brown dwarfs, there exists a discrepancy between the parallax distance and the spectrophotometric distance to the system.</description>
+			<lastupdate>17/11/30</lastupdate>
+			<list>Planets in binary systems, P-type</list>
 		</planet>
-	</star>
+	</binary>
 </system>
