@@ -1,0 +1,33 @@
+<system>
+	<name>FN Lyr</name>
+	<rightascension>19 10 22.253</rightascension>
+	<declination>+42 27 31.63</declination>
+	<distance>3000</distance>
+	<star>
+		<name>FN Lyr</name>
+		<name>FN Lyrae</name>
+		<name>KIC 6936115</name>
+		<name>2MASS J19102224+4227315</name>
+		<magB>11.50</magB>
+		<magV>12.731</magV>
+		<magR errorminus="0.12" errorplus="0.12">12.86</magR>
+		<magI>12.095</magI>
+		<magJ errorminus="0.021" errorplus="0.021">11.965</magJ>
+		<magH errorminus="0.021" errorplus="0.021">11.743</magH>
+		<magK errorminus="0.016" errorplus="0.016">11.692</magK>
+		<mass>0.595</mass>
+		<temperature>6457</temperature>
+		<planet>
+			<name>FN Lyr b</name>
+			<list>Controversial</list>
+			<eccentricity errorminus="0.12" errorplus="0.12">0.28</eccentricity>
+			<periastron errorminus="24" errorplus="24">351</periastron>
+			<period errorminus="15.4" errorplus="15.4">794.8</period>
+			<periastrontime errorminus="52.7" errorplus="52.7">2454437.2</periastrontime>
+			<mass type="msini">13.9</mass>
+			<semimajoraxis>0.50</semimajoraxis>
+			<discoverymethod>timing</discoverymethod>
+			<description>This planet was inferred from the timing of the pulsations of the RR Lyrae star FN Lyrae.</description>
+		</planet>
+	</star>
+</system>
