@@ -1,0 +1,82 @@
+<system>
+	<name>GJ 725</name>
+	<name>Gliese 725</name>
+	<rightascension>18 42 46.69</rightascension>
+	<declination>+59 37 49.4</declination>
+	<distance errorminus="0.002" errorplus="0.002">3.520</distance>
+	<binary>
+		<name>GJ 725</name>
+		<name>Gliese 725</name>
+		<name>BD+59 1915</name>
+		<name>WDS J18428+5938</name>
+		<name>STF 2398</name>
+		<name>Σ 2398</name>
+		<period>149000</period>
+		<semimajoraxis>48.86</semimajoraxis>
+		<inclination>66.0</inclination>
+		<ascendingnode>136.9</ascendingnode>
+		<periastrontime>2369400</periastrontime>
+		<eccentricity>0.53</eccentricity>
+		<periastron>234.6</periastron>
+		<star>
+			<name>GJ 725 A</name>
+			<name>Gliese 725 A</name>
+			<name>HD 173739</name>
+			<name>HIP 91768</name>
+			<name>TYC 3930-1791-1</name>
+			<name>SAO 31128</name>
+			<name>BD+59 1915 A</name>
+			<name>2MASS J18424666+5937499</name>
+			<name>WDS J18428+5938 A</name>
+			<name>STF 2398 A</name>
+			<name>Σ 2398 A</name>
+			<magB>10.782</magB>
+			<magV>8.91</magV>
+			<magR>8.1</magR>
+			<magI>7.2</magI>
+			<magJ errorminus="0.017" errorplus="0.017">5.189</magJ>
+			<magH errorminus="0.036" errorplus="0.036">4.741</magH>
+			<magK errorminus="0.020" errorplus="0.020">4.432</magK>
+			<spectraltype>M3V</spectraltype>
+			<temperature errorminus="60" errorplus="60">3441</temperature>
+			<radius errorminus="0.013" errorplus="0.013">0.351</radius>
+			<mass errorminus="0.033" errorplus="0.033">0.334</mass>
+			<metallicity errorminus="0.08" errorplus="0.08">-0.23</metallicity>
+		</star>
+		<star>
+			<name>GJ 725 B</name>
+			<name>Gliese 725 B</name>
+			<name>HD 173740</name>
+			<name>HIP 91772</name>
+			<name>TYC 3930-1791-2</name>
+			<name>SAO 31129</name>
+			<name>BD+59 1915 B</name>
+			<name>WDS J18428+5938 B</name>
+			<name>STF 2398 B</name>
+			<name>Σ 2398 B</name>
+			<magB>11.705</magB>
+			<magV>9.69</magV>
+			<magR>8.9</magR>
+			<magI>8.1</magI>
+			<magJ errorminus="0.020" errorplus="0.020">5.721</magJ>
+			<magH errorminus="0.024" errorplus="0.024">5.197</magH>
+			<magK errorminus="0.023" errorplus="0.023">5.000</magK>
+			<spectraltype>M3.5V</spectraltype>
+			<temperature errorminus="60" errorplus="60">3345</temperature>
+			<radius errorminus="0.011" errorplus="0.011">0.273</radius>
+			<mass errorminus="0.025" errorplus="0.025">0.248</mass>
+			<metallicity errorminus="0.08" errorplus="0.08">-0.30</metallicity>
+			<planet>
+				<name>GJ 725 B b</name>
+				<list>Controversial</list>
+				<period errorminus="0.3" errorplus="0.3">2.7</period>
+				<mass type="msini">0.00378</mass>
+				<discoverymethod>RV</discoverymethod>
+				<discoveryyear>2016</discoveryyear>
+				<description>A possible planet candidate around GJ 725 B was identified by Berdiñas et al. (2016). Further observations are necessary to verify that the RV variations are periodic.</description>
+				<lastupdate>17/12/01</lastupdate>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+	</binary>
+</system>

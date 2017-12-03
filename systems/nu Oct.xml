@@ -1,0 +1,64 @@
+<system>
+	<name>nu Oct</name>
+	<rightascension>21 41 28.64977</rightascension>
+	<declination>-77 23 24.1563</declination>
+	<distance errorminus="0.12" errorplus="0.12">22.10</distance>
+	<binary>
+		<name>nu Oct</name>
+		<name>Nu Octantis</name>
+		<name>ν Oct</name>
+		<name>HD 205478</name>
+		<name>HR 8254</name>
+		<name>HIP 107089</name>
+		<name>Gliese 835.1</name>
+		<name>Gl 835.1</name>
+		<name>GJ 835.1</name>
+		<name>GJ 9744</name>
+		<name>CD-77 1079</name>
+		<name>CPD-77 1510</name>
+		<name>2MASS J21412863-7723243</name>
+		<name>SAO 257948</name>
+		<semimajoraxis>2.62959</semimajoraxis>
+		<eccentricity>0.2368</eccentricity>
+		<inclination>70.8</inclination>
+		<periastron>75.0</periastron>
+		<ascendingnode>87.0</ascendingnode>
+		<meananomaly>339.3</meananomaly>
+		<star>
+			<name>nu Oct A</name>
+			<name>Nu Octantis A</name>
+			<name>ν Oct A</name>
+			<magV errorminus="0.015" errorplus="0.015">3.743</magV>
+			<spectraltype>K0III</spectraltype>
+			<mass>1.61</mass>
+			<radius errorminus="0.12" errorplus="0.12">5.81</radius>
+			<temperature errorminus="40" errorplus="40">4860</temperature>
+			<metallicity errorminus="0.04" errorplus="0.04">0.18</metallicity>
+			<age lowerlimit="2.5" upperlimit="3" />
+			<planet>
+				<name>Nu Oct A b</name>
+				<name>Nu Octantis A b</name>
+				<name>ν Oct A b</name>
+				<list>Controversial</list>
+				<semimajoraxis>1.27261</semimajoraxis>
+				<eccentricity>0.12</eccentricity>
+				<inclination>115.0</inclination>
+				<periastron>355.0</periastron>
+				<ascendingnode>237.8</ascendingnode>
+				<meananomaly>315.0</meananomaly>
+				<mass>2.1</mass>
+				<discoverymethod>RV</discoverymethod>
+				<discoveryyear>2009</discoveryyear>
+				<description>Periodic radial velocity variations in the giant star Nu Octantis indicate the possible presence of a planet. In order to remain stable within the Nu Octantis binary system, the planet must be on a retrograde orbit.</description>
+				<lastupdate>17/12/01</lastupdate>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+		<star>
+			<name>nu Oct B</name>
+			<name>Nu Octantis B</name>
+			<name>ν Oct B</name>
+			<mass>0.58522</mass>
+		</star>
+	</binary>
+</system>

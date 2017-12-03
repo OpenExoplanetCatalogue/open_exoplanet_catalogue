@@ -1,0 +1,33 @@
+<system>
+	<name>CI Tau</name>
+	<rightascension>04 33 52.005</rightascension>
+	<declination>+22 50 30.18</declination>
+	<star>
+		<name>CI Tau</name>
+		<name>CI Tauri</name>
+		<name>2MASS J04335200+2250301</name>
+		<name>EPIC 247584113</name>
+		<magU>14.97</magU>
+		<magB>15.09</magB>
+		<magV>13.80</magV>
+		<magR>12.300</magR>
+		<magJ errorminus="0.020" errorplus="0.020">9.480</magJ>
+		<magH errorminus="0.04" errorplus="0.04">8.43</magH>
+		<magK errorminus="0.020" errorplus="0.020">7.793</magK>
+		<spectraltype>K4IVe</spectraltype>
+		<mass errorminus="0.02" errorplus="0.02">0.80</mass>
+		<age>0.002</age>
+		<planet>
+			<name>CI Tau b</name>
+			<list>Confirmed planets</list>
+			<period errorminus="0.0202" errorplus="0.0202">8.9891</period>
+			<eccentricity errorminus="0.16" errorplus="0.16">0.28</eccentricity>
+			<mass errorminus="2.39" errorplus="2.39">12.31</mass>
+			<inclination errorminus="1.1" errorplus="1.1">45.7</inclination>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<description>CI Tau b is a massive planet candidate orbiting a classical T Tauri star.</description>
+			<lastupdate>17/12/01</lastupdate>
+		</planet>
+	</star>
+</system>
