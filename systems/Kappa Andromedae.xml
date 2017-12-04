@@ -1,27 +1,40 @@
 <system>
 	<name>Kappa Andromedae</name>
 	<name>Kappa And</name>
-	<rightascension>23 40 25</rightascension>
-	<declination>+44 20 02</declination>
+	<rightascension>23 40 24.50763</rightascension>
+	<declination>+44 20 02.1566</declination>
 	<distance errorminus="0.5" errorplus="0.5">51.6</distance>
 	<star>
-		<mass errorminus="0.2" errorplus="0.1">2.8</mass>
-		<radius errorminus="0.06" errorplus="0.06">2.29</radius>
-		<temperature errorminus="66" errorplus="66">11361</temperature>
-		<magV>4.1</magV>
+		<name>Kappa Andromedae</name>
+		<name>Kappa And</name>
+		<name>kap And</name>
+		<name>κ And</name>
+		<name>19 Andromedae</name>
+		<name>19 And</name>
+		<name>HD 222439</name>
+		<name>HIP 116805</name>
+		<name>TYC 3244-1530-1</name>
+		<name>HR 8976</name>
+		<name>BD+43 4522</name>
+		<name>2MASS J23402449+4420021</name>
+		<name>SAO 53264</name>
+		<mass errorminus="0.109" errorplus="0.100">2.768</mass>
+		<radius errorminus="0.018" errorplus="0.032">2.109</radius>
+		<temperature errorminus="44" errorplus="421">11327</temperature>
+		<magV>4.14</magV>
 		<magR>4.15</magR>
 		<magI>4.22</magI>
 		<magB>4.076</magB>
 		<magJ errorminus="0.264" errorplus="0.264">4.624</magJ>
 		<magH errorminus="0.218" errorplus="0.218">4.595</magH>
 		<magK errorminus="0.354" errorplus="0.354">4.571</magK>
-		<metallicity>-0.36</metallicity>
-		<spectraltype>B9IV</spectraltype>
-		<age errorminus="0.100" errorplus="0.100">0.220</age>
+		<metallicity>0.00</metallicity>
+		<spectraltype>B9IVn</spectraltype>
+		<age errorminus="0.040" errorplus="0.027">0.047</age>
 		<planet>
 			<name>Kappa And b</name>
-			<list>Controversial</list>
-			<mass errorminus="13" errorplus="16">50</mass>
+			<list>Confirmed planets</list>
+			<mass errorminus="9" errorplus="8">22</mass>
 			<temperature errorminus="60" errorplus="60">2040</temperature>
 			<spectraltype>L1</spectraltype>
 			<separation errorminus="0.005" errorplus="0.005" unit="arcsec">1.029</separation>
@@ -29,7 +42,7 @@
 			<positionangle errorminus="0.3" errorplus="0.3">55.3</positionangle>
 			<description>Kappa Andromedae b is an extrasolar planet or possibly low-mass brown dwarf. Astronomers have directly imaged it using the Subaru telescope on Hawaii.</description>
 			<discoverymethod>imaging</discoverymethod>
-			<lastupdate>12/11/19</lastupdate>
+			<lastupdate>17/12/04</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<image>KappaAndromedae</image>
 			<imagedescription>Image of the star Kappa Andromedae and the planet or brown dwarf Kappa Andromedae (top left). 
@@ -37,6 +50,5 @@
 Credit: J. Carson et al 2012.</imagedescription>
 			<name>Kappa Andromedae b</name>
 		</planet>
-		<name>Kappa Andromedae</name>
 	</star>
 </system>
