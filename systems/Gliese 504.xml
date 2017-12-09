@@ -1,9 +1,20 @@
 <system>
 	<name>Gliese 504</name>
-	<rightascension>13 16 47</rightascension>
-	<declination>+09 25 27</declination>
+	<rightascension>13 16 46.51596</rightascension>
+	<declination>+09 25 26.9590</declination>
 	<distance errorminus="0.08" errorplus="0.08">17.56</distance>
 	<star>
+		<name>Gliese 504</name>
+		<name>GJ 504</name>
+		<name>59 Virginis</name>
+		<name>59 Vir</name>
+		<name>HIP 64792</name>
+		<name>HD 115383</name>
+		<name>TYC 891-624-1</name>
+		<name>HR 5011</name>
+		<name>BD+10 2531</name>
+		<name>2MASS J13164653+0925269</name>
+		<name>SAO 119847</name>
 		<magB>5.81</magB>
 		<magV>5.22</magV>
 		<magR>4.8</magR>
@@ -11,23 +22,22 @@
 		<magJ errorminus="0.284" errorplus="0.284">4.392</magJ>
 		<magH errorminus="0.208" errorplus="0.208">4.107</magH>
 		<magK errorminus="0.238" errorplus="0.238">4.033</magK>
-		<name>Gliese 504</name>
-		<name>GJ 504</name>
-		<name>HIP 64792</name>
-		<name>HD 115383</name>
-		<mass errorminus="0.08" errorplus="0.08">1.22</mass>
-		<temperature errorminus="25" errorplus="25">6234</temperature>
-		<metallicity errorminus="0.03" errorplus="0.03">0.28</metallicity>
+		<mass errorminus="0.05" errorplus="0.05">1.16</mass>
+		<radius errorminus="0.04" errorplus="0.04">1.36</radius>
+		<temperature errorminus="60" errorplus="60">5978</temperature>
+		<metallicity errorminus="0.06" errorplus="0.06">0.13</metallicity>
 		<spectraltype>G0V</spectraltype>
-		<age errorminus="0.06" errorplus="0.35">0.16</age>
+		<age errorminus="1.5" errorplus="2.0">4.5</age>
 		<planet>
 			<name>Gliese 504 b</name>
 			<name>GJ 504 b</name>
 			<name>HIP 64792 b</name>
 			<name>HD 115383 b</name>
 			<list>Confirmed planets</list>
-			<mass errorminus="1.0" errorplus="4.5">4</mass>
-			<temperature errorminus="20" errorplus="30">510</temperature>
+			<mass lowerlimit="19" upperlimit="30" />
+			<radius errorminus="0.07" errorplus="0.07">0.96</radius>
+			<temperature errorminus="10" errorplus="10">544</temperature>
+			<metallicity errorminus="0.12" errorplus="0.12">0.60</metallicity>
 			<separation errorminus="0.008" errorplus="0.008" unit="arcsec">2.483</separation>
 			<separation unit="AU">43.5</separation>
 			<spectraltype>T-Y</spectraltype>
@@ -35,9 +45,9 @@
 			<magH errorminus="0.14" errorplus="0.14">20.14</magH>
 			<magK errorminus="0.28" errorplus="0.28">19.19</magK>
 			<positionangle errorminus="0.19" errorplus="0.19">327.45</positionangle>
-			<description>Gliese 504 b is the first directly imaged planet on a wide orbit around a G-type main-sequence star with a mass similar to that of our Sun. The planet is a gas giant, about 4 times more massive than Jupiter. It was discovered by the SEEDS survey.</description>
+			<description>Gliese 504 b is a massive planet or brown dwarf orbiting a G-type star. Initial estimates of the system's age based on the rotation of the star suggested the object was around 4 Jupiter masses. Other properties of the star indicate that it is likely several billions of years old, resulting in higher mass estimates for the companion. The rapid rotation may have been caused by the star engulfing a hot Jupiter.</description>
 			<discoverymethod>imaging</discoverymethod>
-			<lastupdate>13/07/22</lastupdate>
+			<lastupdate>17/12/04</lastupdate>
 			<discoveryyear>2013</discoveryyear>
 			<image>Gliese504</image>
 			<imagedescription>This is an actual image of the exoplanet Gliese 504 b and its host star. It was taken by the SEEDS survey. 
