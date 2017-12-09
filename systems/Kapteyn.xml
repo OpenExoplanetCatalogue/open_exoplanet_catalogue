@@ -1,18 +1,34 @@
 <system>
 	<name>Kapteyn</name>
+	<name>Kapteyn's Star</name>
 	<rightascension>05 11 40.58112</rightascension>
 	<declination>-45 01 06.2899</declination>
-	<distance>3.91</distance>
+	<distance errorminus="0.014" errorplus="0.014">3.911</distance>
 	<star>
 		<name>Kapteyn</name>
 		<name>Kapteyn's Star</name>
 		<name>HD 33793</name>
 		<name>Gliese 191</name>
+		<name>Gl 191</name>
+		<name>GJ 191</name>
+		<name>HIP 24186</name>
+		<name>TYC 8078-1749-1</name>
+		<name>CD-45 1841</name>
+		<name>CPD-44 612</name>
+		<name>2MASS J05114046-4501051</name>
+		<name>LHS 29</name>
 		<age errorminus="10.6" errorplus="4">11.0</age>
 		<radius errorminus="0.025" errorplus="0.025">0.291</radius>
 		<mass errorminus="0.014" errorplus="0.014">0.281</mass>
+		<magU>11.624</magU>
+		<magB>10.433</magB>
 		<magV>8.853</magV>
-		<spectraltype>M1.0</spectraltype>
+		<magR>7.9</magR>
+		<magI>6.899</magI>
+		<magJ errorminus="0.026" errorplus="0.026">5.821</magJ>
+		<magH errorminus="0.027" errorplus="0.027">5.316</magH>
+		<magK errorminus="0.021" errorplus="0.021">5.049</magK>
+		<spectraltype>M1VIp</spectraltype>
 		<temperature errorminus="50" errorplus="50">3550.0</temperature>
 		<metallicity>-0.86</metallicity>
 		<planet>
@@ -25,12 +41,13 @@
 			<periastron errorminus="28.9" errorplus="30.7">80.4</periastron>
 			<eccentricity errorminus="0.10" errorplus="0.11">0.21</eccentricity>
 			<period errorminus="0.032" errorplus="0.036">48.616</period>
-			<mass errorminus="0.003146" errorplus="0.002831">0.015099</mass>
+			<mass errorminus="0.003146" errorplus="0.002831" type="msini">0.015099</mass>
+			<meananomaly errorminus="32.2" errorplus="38.3">269.6</meananomaly>
 			<discoverymethod>RV</discoverymethod>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>15/05/24</lastupdate>
-			<list>Controversial</list>
-			<description>Kapteyn's star is named in honor of its discoverer, the Dutch astronomer Jacobus Kapteyn. It is visible through binoculars or a small telescope. The planet Kapteyn b is one of the oldest known potentially habitable planets. It's roughly 11 billion years old. The system contains at least one other planet, Kapteyn c, which is close to a 5:2 period commensurability. Analysis by Robertson et al. (2015) indicates that the radial velocity signature attributed to this planet is an artifact of stellar activity.</description>
+			<lastupdate>17/12/09</lastupdate>
+			<list>Confirmed planets</list>
+			<description>Kapteyn's star is named in honor of its discoverer, the Dutch astronomer Jacobus Kapteyn. It is visible through binoculars or a small telescope. The planet Kapteyn b is one of the oldest known potentially habitable planets. It's roughly 11 billion years old. The system contains at least one other planet, Kapteyn c, which is close to a 5:2 period commensurability.</description>
 		</planet>
 		<planet>
 			<name>Kapteyn c</name>
@@ -41,10 +58,11 @@
 			<semimajoraxis errorminus="0.014" errorplus="0.038">0.311</semimajoraxis>
 			<eccentricity errorminus="0.12" errorplus="0.10">0.23</eccentricity>
 			<period errorminus="0.25" errorplus="0.25">121.54</period>
-			<mass errorminus="0.003146" errorplus="0.003775">0.022020</mass>
+			<mass errorminus="0.003146" errorplus="0.003775" type="msini">0.022020</mass>
+			<meananomaly errorminus="27.9" errorplus="32.3">357.6</meananomaly>
 			<discoverymethod>RV</discoverymethod>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/06/06</lastupdate>
+			<lastupdate>17/12/09</lastupdate>
 			<list>Confirmed planets</list>
 			<description>Kapteyn's star is named in honor of its discoverer, the Dutch astronomer Jacobus Kapteyn. The planetary system is roughly 11 billion years old and contains at least one other planet, Kapteyn b, which is close to a 5:2 period commensurability.</description>
 		</planet>
