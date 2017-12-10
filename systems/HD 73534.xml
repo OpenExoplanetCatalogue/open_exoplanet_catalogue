@@ -1,31 +1,38 @@
 <system>
 	<name>HD 73534</name>
-	<rightascension>08 39 16</rightascension>
-	<declination>+12 57 37</declination>
-	<distance>96.99</distance>
+	<rightascension>08 39 15.8032</rightascension>
+	<declination>+12 57 37.346</declination>
+	<distance errorminus="2.1" errorplus="2.1">85.8</distance>
 	<star>
-		<mass>1.29</mass>
-		<radius>2.65</radius>
-		<magV>8.24</magV>
+		<name>HD 73534</name>
+		<name>HIP 42446</name>
+		<name>TYC 805-24-1</name>
+		<name>BD+13 1956</name>
+		<name>2MASS J08391580+1257373</name>
+		<name>SAO 98004</name>
+		<name>EPIC 211487634</name>
 		<magB errorminus="0.02" errorplus="0.02">9.21</magB>
+		<magV errorminus="0.01" errorplus="0.01">8.24</magV>
 		<magJ errorminus="0.018" errorplus="0.018">6.524</magJ>
 		<magH errorminus="0.020" errorplus="0.020">6.072</magH>
 		<magK errorminus="0.026" errorplus="0.026">5.962</magK>
+		<mass errorminus="0.070" errorplus="0.070">1.170</mass>
+		<radius>2.65</radius>
+		<temperature>4952</temperature>
 		<metallicity>0.16</metallicity>
 		<spectraltype>G5IV</spectraltype>
 		<planet>
 			<name>HD 73534 b</name>
 			<list>Confirmed planets</list>
-			<mass>1.15</mass>
-			<period>1800</period>
-			<semimajoraxis>3.15</semimajoraxis>
-			<eccentricity>0.046</eccentricity>
+			<mass errorminus="0.07" errorplus="0.07" type="msini">1.02</mass>
+			<period errorminus="35" errorplus="37">1707</period>
+			<semimajoraxis>2.95</semimajoraxis>
+			<eccentricity errorminus="0.037" errorplus="0.058">0.022</eccentricity>
+			<periastrontime errorminus="280" errorplus="808">2454981</periastrontime>
+			<periastron errorminus="60" errorplus="171">83</periastron>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>09/08/13</lastupdate>
+			<lastupdate>17/12/10</lastupdate>
 			<discoveryyear>2009</discoveryyear>
-			<temperature>200.2</temperature>
 		</planet>
-		<name>HD 73534</name>
-		<temperature>4952.0</temperature>
 	</star>
 </system>
