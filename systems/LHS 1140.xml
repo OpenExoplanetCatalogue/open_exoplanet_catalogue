@@ -1,0 +1,39 @@
+<system>
+	<name>LHS 1140</name>
+	<rightascension>00 44 59.31</rightascension>
+	<declination>-15 16 16.7</declination>
+	<distance errorminus="0.42" errorplus="0.42">12.47</distance>
+	<star>
+		<name>LHS 1140</name>
+		<name>GJ 3053</name>
+		<name>2MASS J00445930-1516166</name>
+		<magB>15.881</magB>
+		<magV errorminus="0.06" errorplus="0.06">14.150</magV>
+		<magR errorminus="0.07" errorplus="0.07">13.801</magR>
+		<magJ errorminus="0.023" errorplus="0.023">9.612</magJ>
+		<magH errorminus="0.026" errorplus="0.026">9.092</magH>
+		<magK errorminus="0.024" errorplus="0.024">8.821</magK>
+		<spectraltype>M4.5</spectraltype>
+		<mass errorminus="0.019" errorplus="0.019">0.146</mass>
+		<radius errorminus="0.013" errorplus="0.013">0.186</radius>
+		<temperature errorminus="100" errorplus="100">3131</temperature>
+		<metallicity errorminus="0.14" errorplus="0.14">-0.24</metallicity>
+		<age lowerlimit="5" />
+		<planet>
+			<name>LHS 1140 b</name>
+			<list>Confirmed planets</list>
+			<inclination errorminus="0.071" errorplus="0.071">89.912</inclination>
+			<eccentricity upperlimit="0.29" />
+			<period errorminus="0.00025" errorplus="0.00025">24.73712</period>
+			<transittime errorminus="0.0054" errorplus="0.0054" unit="HJD">2456915.6997</transittime>
+			<mass errorminus="00573" errorplus="00573">0.02092</mass>
+			<radius errorminus="0.0089" errorplus="0.0089">0.1276</radius>
+			<semimajoraxis errorminus="0.0041" errorplus="0.0041">0.0875</semimajoraxis>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2017</discoveryyear>
+			<description>LHS 1140 b is a rocky super-Earth located in the potential liquid water zone of its star.</description>
+			<lastupdate>17/12/10</lastupdate>
+		</planet>
+	</star>
+</system>
