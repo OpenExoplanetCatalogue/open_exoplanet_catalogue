@@ -1,32 +1,38 @@
 <system>
 	<name>HD 106270</name>
-	<rightascension>12 13 37</rightascension>
-	<declination>-09 30 47</declination>
-	<distance>84.9</distance>
+	<rightascension>12 13 37.28529</rightascension>
+	<declination>-09 30 48.1691</declination>
+	<distance errorminus="5.7" errorplus="5.7">84.9</distance>
 	<star>
-		<mass>1.32</mass>
-		<radius>2.5</radius>
-		<magV>7.73</magV>
+		<name>HD 106270</name>
+		<name>HIP 59625</name>
+		<name>TYC 5519-1520-1</name>
+		<name>BD-08 3303</name>
+		<name>2MASS J12133728-0930482</name>
+		<name>SAO 138655</name>
 		<magB errorminus="0.016" errorplus="0.016">8.319</magB>
+		<magV errorminus="0.01" errorplus="0.01">7.58</magV>
 		<magJ errorminus="0.026" errorplus="0.026">6.249</magJ>
 		<magH errorminus="0.040" errorplus="0.040">5.964</magH>
 		<magK errorminus="0.024" errorplus="0.024">5.862</magK>
+		<mass errorminus="0.050" errorplus="0.050">1.330</mass>
+		<radius>2.5</radius>
+		<temperature>5638</temperature>
 		<metallicity>0.08</metallicity>
 		<spectraltype>G5</spectraltype>
 		<planet>
 			<name>HD 106270 b</name>
 			<list>Confirmed planets</list>
-			<mass>11.0</mass>
-			<period>2890</period>
-			<semimajoraxis>4.3</semimajoraxis>
-			<eccentricity>0.402</eccentricity>
+			<mass errorminus="0.28" errorplus="0.28" type="msini">9.78</mass>
+			<period errorminus="19" errorplus="20">1872</period>
+			<semimajoraxis>3.27</semimajoraxis>
+			<eccentricity errorminus="0.035" errorplus="0.035">0.197</eccentricity>
+			<periastrontime errorminus="28" errorplus="32">2454774</periastrontime>
+			<periastron errorminus="5.2" errorplus="6.1">7.5</periastron>
 			<description>The star HD 106270 hosts a Jupiter-like planet. It was discovered as part of a Doppler survey at the Keck Observatory.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>12/07/24</lastupdate>
+			<lastupdate>17/12/10</lastupdate>
 			<discoveryyear>2011</discoveryyear>
-			<temperature>187.6</temperature>
 		</planet>
-		<name>HD 106270</name>
-		<temperature>5638.0</temperature>
 	</star>
 </system>
