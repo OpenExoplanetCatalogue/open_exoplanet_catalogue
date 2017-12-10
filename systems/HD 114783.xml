@@ -1,34 +1,56 @@
 <system>
 	<name>HD 114783</name>
-	<rightascension>13 12 43</rightascension>
-	<declination>-02 15 54</declination>
-	<distance>20.4</distance>
+	<rightascension>13 12 43.78556</rightascension>
+	<declination>-02 15 54.1335</declination>
+	<distance errorminus="0.25" errorplus="0.25">20.50</distance>
 	<star>
-		<mass>0.92</mass>
+		<name>HD 114783</name>
+		<name>HIP 64457</name>
+		<name>TYC 4958-894-1</name>
+		<name>GJ 3769</name>
+		<name>BD-01 2784</name>
+		<name>2MASS J13124377-0215540</name>
+		<name>SAO 139218</name>
+		<mass errorminus="0.038" errorplus="0.034">0.853</mass>
 		<radius>0.78</radius>
-		<magV>7.57</magV>
+		<magU>9.137</magU>
 		<magB>8.469</magB>
+		<magV>7.57</magV>
 		<magR>7.053</magR>
 		<magI>6.627</magI>
 		<magJ errorminus="0.019" errorplus="0.019">6.025</magJ>
 		<magH errorminus="0.05" errorplus="0.05">5.62</magH>
 		<magK errorminus="0.017" errorplus="0.017">5.475</magK>
+		<temperature>5105.0</temperature>
 		<metallicity>0.33</metallicity>
 		<spectraltype>K0</spectraltype>
 		<planet>
 			<name>HD 114783 b</name>
 			<list>Confirmed planets</list>
-			<mass>1</mass>
-			<period>501</period>
-			<semimajoraxis>1.2</semimajoraxis>
-			<eccentricity>0.1</eccentricity>
+			<mass errorminus="0.06" errorplus="0.06" type="msini">1.10</mass>
+			<period errorminus="1.8" errorplus="1.8">493.7</period>
+			<semimajoraxis errorminus="0.019" errorplus="0.019">1.160</semimajoraxis>
+			<eccentricity errorminus="0.032" errorplus="0.032">0.144</eccentricity>
+			<periastron errorminus="11" errorplus="11">86</periastron>
+			<periastrontime errorminus="14" errorplus="14">2453806</periastrontime>
 			<inclination>10</inclination>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>11/01/11</lastupdate>
+			<lastupdate>17/12/10</lastupdate>
 			<discoveryyear>2001</discoveryyear>
-			<temperature>181.4</temperature>
 		</planet>
-		<name>HD 114783</name>
-		<temperature>5105.0</temperature>
+		<planet>
+			<name>HD 114783 c</name>
+			<list>Confirmed planets</list>
+			<period errorminus="130" errorplus="151">4319</period>
+			<periastrontime errorminus="537" errorplus="422">2458112</periastrontime>
+			<eccentricity errorminus="0.085" errorplus="0.091">0</eccentricity>
+			<periastron errorminus="44.4" errorplus="37.9">6.5</periastron>
+			<mass errorminus="0.053" errorplus="0.056" type="msini">0.611</mass>
+			<semimajoraxis>4.92</semimajoraxis>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<description>The planet HD 114783 c was discovered in a survey of long-period giant planets by Bryan et al. (2016)</description>
+			<lastupdate>17/12/10</lastupdate>
+		</planet>
 	</star>
 </system>
