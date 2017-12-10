@@ -1,17 +1,28 @@
 <system>
 	<name>HD 11964</name>
-	<rightascension>01 57 09</rightascension>
-	<declination>-10 14 32</declination>
-	<distance>33.98</distance>
+	<rightascension>01 57 09.60763</rightascension>
+	<declination>-10 14 32.7336</declination>
+	<distance errorminus="0.65" errorplus="0.65">32.85</distance>
 	<binary>
+		<name>HD 11964</name>
+		<name>Gliese 81.1</name>
+		<name>GJ 81.1</name>
+		<name>GJ 9063</name>
+		<name>BD-10 403</name>
+		<name>WDS J01572-1015</name>
 		<separation unit="arcsec">29.7</separation>
-		<separation unit="AU">1010</separation>
+		<separation unit="AU">976</separation>
 		<positionangle>133</positionangle>
 		<star>
 			<name>HD 11964 A</name>
 			<name>Gliese 81.1 A</name>
 			<name>GJ 81.1 A</name>
-			<mass>1.125</mass>
+			<name>HIP 904</name>
+			<name>TYC 5278-2314-1</name>
+			<name>GJ 9063 A</name>
+			<name>BD-10 403 A</name>
+			<name>WDS J01572-1015 A</name>
+			<mass errorminus="0.012" errorplus="0.028">1.080</mass>
 			<radius>2.18</radius>
 			<magV>6.42</magV>
 			<magB>7.25</magB>
@@ -26,13 +37,15 @@
 				<name>HD 11964 b</name>
 				<list>Confirmed planets</list>
 				<list>Planets in binary systems, S-type</list>
-				<mass>0.622</mass>
-				<period>1945</period>
-				<semimajoraxis>3.16</semimajoraxis>
-				<eccentricity>0.041</eccentricity>
+				<mass errorminus="0.029" errorplus="0.029" type="msini">0.583</mass>
+				<period errorminus="25" errorplus="26">1956</period>
+				<semimajoraxis>3.14</semimajoraxis>
+				<eccentricity errorminus="0.037" errorplus="0.051">0.073</eccentricity>
+				<periastron errorminus="64" errorplus="125">158</periastron>
+				<periastrontime errorminus="341" errorplus="682">2454189</periastrontime>
 				<description>The planet hosting star HD 11964 A is a yellow subgiant in the constellation Cetus. It is a member of a wide binary.</description>
 				<discoverymethod>RV</discoverymethod>
-				<lastupdate>12/12/08</lastupdate>
+				<lastupdate>17/12/10</lastupdate>
 				<discoveryyear>2005</discoveryyear>
 			</planet>
 			<planet>
@@ -42,13 +55,15 @@
 				<name>HD 11964 c</name>
 				<list>Confirmed planets</list>
 				<list>Planets in binary systems, S-type</list>
-				<mass>0.079</mass>
-				<period>37.91</period>
-				<semimajoraxis>0.229</semimajoraxis>
-				<eccentricity>0.3</eccentricity>
+				<mass errorminus="0.0097" errorplus="0.0097" type="msini">0.0788</mass>
+				<period errorminus="0.041" errorplus="0.041">37.910</period>
+				<semimajoraxis errorminus="0.013" errorplus="0.013">0.229</semimajoraxis>
+				<eccentricity errorminus="0.17" errorplus="0.17">0.30</eccentricity>
+				<periastron>102</periastron>
+				<periastrontime errorminus="380" errorplus="380">2454370</periastrontime>
 				<description>The planet hosting star HD 11964 A is a yellow subgiant in the constellation Cetus. It is a member of a wide binary.</description>
 				<discoverymethod>RV</discoverymethod>
-				<lastupdate>12/12/08</lastupdate>
+				<lastupdate>17/12/10</lastupdate>
 				<discoveryyear>2005</discoveryyear>
 			</planet>
 		</star>
@@ -56,6 +71,18 @@
 			<name>HD 11964 B</name>
 			<name>Gliese 81.1 B</name>
 			<name>GJ 81.1 B</name>
+			<name>BD-10 403 B</name>
+			<name>GJ 9063 B</name>
+			<name>2MASS J01571110-1014528</name>
+			<name>WDS J01572-1015 B</name>
+			<magB>12.59</magB>
+			<magV errorminus="0.03" errorplus="0.03">11.112</magV>
+			<magR errorminus="0.05" errorplus="0.05">10.758</magR>
+			<magI>9.41</magI>
+			<magJ errorminus="0.023" errorplus="0.023">8.413</magJ>
+			<magH errorminus="0.021" errorplus="0.021">7.763</magH>
+			<magK errorminus="0.027" errorplus="0.027">7.597</magK>
+			<spectraltype>M0.0Ve</spectraltype>
 			<mass>0.67</mass>
 		</star>
 	</binary>
