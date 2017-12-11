@@ -1,28 +1,34 @@
 <system>
 	<name>HD 50499</name>
-	<rightascension>06 52 02</rightascension>
-	<declination>-33 54 56</declination>
-	<distance>47.26</distance>
+	<rightascension>06 52 02.0242</rightascension>
+	<declination>-33 54 56.019</declination>
+	<distance errorminus="0.93" errorplus="0.93">46.02</distance>
 	<star>
-		<mass>1.27</mass>
+		<name>HD 50499</name>
+		<name>HIP 32970</name>
+		<name>TYC 7096-565-1</name>
+		<name>CD-33 3304</name>
+		<name>CPD-33 1302</name>
+		<name>SAO 197294</name>
+		<mass errorminus="0.080" errorplus="0.034">1.280</mass>
 		<radius>1.38</radius>
-		<magV>7.22</magV>
 		<magB errorminus="0.02" errorplus="0.02">7.82</magB>
+		<magV errorminus="0.01" errorplus="0.01">7.22</magV>
+		<temperature>5902</temperature>
 		<metallicity>0.23</metallicity>
-		<spectraltype>G IV</spectraltype>
+		<spectraltype>G0/2V</spectraltype>
 		<planet>
 			<name>HD 50499 b</name>
 			<list>Confirmed planets</list>
-			<mass>1.71</mass>
-			<period>2482.7</period>
-			<semimajoraxis>3.86</semimajoraxis>
-			<eccentricity>0.23</eccentricity>
+			<mass errorminus="0.10" errorplus="0.12" type="msini">1.36</mass>
+			<period errorminus="27" errorplus="27">2453</period>
+			<semimajoraxis>3.87</semimajoraxis>
+			<eccentricity errorminus="0.059" errorplus="0.059">0.334</eccentricity>
+			<periastrontime errorminus="67" errorplus="65">2453612</periastrontime>
+			<periastron errorminus="14" errorplus="15">241</periastron>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/12/29</lastupdate>
+			<lastupdate>17/12/10</lastupdate>
 			<discoveryyear>2005</discoveryyear>
-			<temperature>155.1</temperature>
 		</planet>
-		<name>HD 50499</name>
-		<temperature>5902.0</temperature>
 	</star>
 </system>

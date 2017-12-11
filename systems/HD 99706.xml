@@ -1,33 +1,53 @@
 <system>
 	<name>HD 99706</name>
-	<rightascension>11 28 30</rightascension>
-	<declination>+43 58 00</declination>
-	<distance>129</distance>
+	<rightascension>11 28 30.2136</rightascension>
+	<declination>+43 57 59.685</declination>
+	<distance errorminus="4.9" errorplus="4.9">148.6</distance>
 	<star>
-		<mass>1.72</mass>
-		<radius>5.4</radius>
-		<magV>7.81</magV>
+		<name>HD 99706</name>
+		<name>HIP 55994</name>
+		<name>TYC 3015-1137-1</name>
+		<name>BD+44 2896</name>
+		<name>2MASS J11283020+4357597</name>
+		<name>SAO 43758</name>
 		<magB errorminus="0.018" errorplus="0.018">8.646</magB>
+		<magV errorminus="0.01" errorplus="0.01">7.81</magV>
 		<magR>11.7</magR>
 		<magJ errorminus="0.026" errorplus="0.026">5.918</magJ>
 		<magH errorminus="0.027" errorplus="0.027">5.472</magH>
 		<magK errorminus="0.016" errorplus="0.016">5.335</magK>
+		<temperature>4932.0</temperature>
+		<mass errorminus="0.12" errorplus="0.12">1.72</mass>
+		<radius>5.4</radius>
 		<metallicity>0.14</metallicity>
 		<spectraltype>K0</spectraltype>
 		<planet>
 			<name>HD 99706 b</name>
 			<list>Confirmed planets</list>
-			<mass>1.4</mass>
-			<period>868</period>
-			<semimajoraxis>2.14</semimajoraxis>
-			<eccentricity>0.365</eccentricity>
+			<mass errorminus="0.1" errorplus="0.1" type="msini">1.4</mass>
+			<period errorminus="31" errorplus="31">868</period>
+			<semimajoraxis errorminus="0.08" errorplus="0.08">2.14</semimajoraxis>
+			<eccentricity errorminus="0.10" errorplus="0.10">0.365</eccentricity>
+			<periastron errorminus="20" errorplus="20">4</periastron>
+			<periastrontime errorminus="30" errorplus="30" unit="HJD">2455096</periastrontime>
 			<description>The star HD 99706 hosts a Jupiter-like planet. It was discovered as part of a Doppler survey at the Keck Observatory.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>12/07/24</lastupdate>
+			<lastupdate>17/12/10</lastupdate>
 			<discoveryyear>2011</discoveryyear>
-			<temperature>342.5</temperature>
 		</planet>
-		<name>HD 99706</name>
-		<temperature>4932.0</temperature>
+		<planet>
+			<name>HD 99706 c</name>
+			<list>Confirmed planets</list>
+			<period errorminus="198" errorplus="151">1278</period>
+			<periastrontime errorminus="140" errorplus="249">2455383</periastrontime>
+			<eccentricity errorminus="0.178" errorplus="0.231">0.411</eccentricity>
+			<periastron errorminus="64" errorplus="64">136</periastron>
+			<mass errorminus="0.96" errorplus="1.43" type="msini">5.69</mass>
+			<semimajoraxis>2.76</semimajoraxis>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<description>The planet HD 99706 c was discovered in a survey of long-period giant planets by Bryan et al. (2016)</description>
+			<lastupdate>17/12/10</lastupdate>
+		</planet>
 	</star>
 </system>

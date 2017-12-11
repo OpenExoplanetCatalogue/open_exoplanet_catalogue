@@ -1,31 +1,51 @@
 <system>
 	<name>HD 95089</name>
-	<rightascension>10 58 48</rightascension>
-	<declination>+01 43 45</declination>
-	<distance>139</distance>
+	<rightascension>10 58 47.73629</rightascension>
+	<declination>+01 43 45.1758</declination>
+	<distance errorminus="16" errorplus="16">139</distance>
 	<star>
-		<mass>1.58</mass>
-		<radius>4.9</radius>
-		<magV>7.92</magV>
+		<name>HD 95089</name>
+		<name>HIP 53666</name>
+		<name>TYC 255-946-1</name>
+		<name>BD+02 2373</name>
+		<name>2MASS J10584773+0143452</name>
+		<name>SAO 118598</name>
 		<magB errorminus="0.020" errorplus="0.020">8.897</magB>
+		<magV errorminus="0.01" errorplus="0.01">7.95</magV>
 		<magJ errorminus="0.018" errorplus="0.018">6.240</magJ>
 		<magH errorminus="0.042" errorplus="0.042">5.775</magH>
 		<magK errorminus="0.018" errorplus="0.018">5.626</magK>
+		<temperature>5002</temperature>
+		<mass errorminus="0.12" errorplus="0.12">1.38</mass>
+		<radius>4.9</radius>
 		<metallicity>0.05</metallicity>
 		<spectraltype>K0 IV</spectraltype>
 		<planet>
 			<name>HD 95089 b</name>
 			<list>Confirmed planets</list>
-			<mass>1.2</mass>
-			<period>507</period>
-			<semimajoraxis>1.51</semimajoraxis>
-			<eccentricity>0.157</eccentricity>
+			<mass errorminus="0.1" errorplus="0.1" type="msini">1.2</mass>
+			<period errorminus="16" errorplus="16">507</period>
+			<semimajoraxis errorminus="0.05" errorplus="0.05">1.51</semimajoraxis>
+			<eccentricity errorminus="0.086" errorplus="0.086">0.157</eccentricity>
+			<periastron errorminus="60" errorplus="60">317</periastron>
+			<periastrontime errorminus="90" errorplus="90">2454983</periastrontime>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/03/19</lastupdate>
+			<lastupdate>17/12/10</lastupdate>
 			<discoveryyear>2010</discoveryyear>
-			<temperature>396.7</temperature>
 		</planet>
-		<name>HD 95089</name>
-		<temperature>5002.0</temperature>
+		<planet>
+			<name>HD 95089 c</name>
+			<list>Confirmed planets</list>
+			<period errorminus="570" errorplus="370">1860</period>
+			<periastrontime errorminus="50" errorplus="43">2455492</periastrontime>
+			<eccentricity errorminus="0.067" errorplus="0.070">0.294</eccentricity>
+			<periastron errorminus="9.8" errorplus="8.1">74.6</periastron>
+			<mass errorminus="0.59" errorplus="0.33" type="msini">3.97</mass>
+			<semimajoraxis>3.30</semimajoraxis>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<description>The planet HD 95089 c was discovered in a survey of long-period giant planets by Bryan et al. (2016)</description>
+			<lastupdate>17/12/10</lastupdate>
+		</planet>
 	</star>
 </system>

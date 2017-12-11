@@ -1,33 +1,43 @@
 <system>
 	<name>HD 154345</name>
-	<rightascension>17 02 36</rightascension>
-	<declination>+47 04 55</declination>
-	<distance>18.06</distance>
+	<rightascension>17 02 36.4037</rightascension>
+	<declination>+47 04 54.764</declination>
+	<distance errorminus="0.073" errorplus="0.073">18.262</distance>
 	<star>
-		<mass>0.88</mass>
-		<magV>6.74</magV>
+		<name>HD 154345</name>
+		<name>HIP 83389</name>
+		<name>TYC 3501-1373-1</name>
+		<name>Gliese 651</name>
+		<name>Gl 651</name>
+		<name>GJ 651</name>
+		<name>BD+47 2420</name>
+		<name>LHS 3260</name>
+		<name>2MASS J17023639+4704540</name>
+		<name>SAO 46452</name>
+		<mass errorminus="0.038" errorplus="0.038">0.893</mass>
 		<magB>7.50</magB>
+		<magV>6.74</magV>
 		<magR>6.3</magR>
 		<magI>6.0</magI>
 		<magJ errorminus="0.041" errorplus="0.041">5.411</magJ>
 		<magH errorminus="0.020" errorplus="0.020">5.098</magH>
 		<magK errorminus="0.017" errorplus="0.017">5.003</magK>
+		<temperature>5468</temperature>
 		<metallicity>-0.105</metallicity>
 		<spectraltype>G8V</spectraltype>
 		<planet>
 			<name>HD 154345 b</name>
 			<list>Confirmed planets</list>
-			<mass>1</mass>
-			<period>3538</period>
-			<semimajoraxis>4.3</semimajoraxis>
-			<eccentricity>0.26</eccentricity>
+			<mass errorminus="0.03" errorplus="0.03" type="msini">1.15</mass>
+			<period errorminus="33" errorplus="33">3267</period>
+			<semimajoraxis>4.15</semimajoraxis>
+			<eccentricity errorminus="0.021" errorplus="0.027">0.038</eccentricity>
 			<inclination>50</inclination>
+			<periastrontime errorminus="359" errorplus="197">2455278</periastrontime>
+			<periastron errorminus="40" errorplus="22">341</periastron>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>12/05/25</lastupdate>
+			<lastupdate>17/12/10</lastupdate>
 			<discoveryyear>2006</discoveryyear>
-			<temperature>106.4</temperature>
 		</planet>
-		<name>HD 154345</name>
-		<temperature>5468.0</temperature>
 	</star>
 </system>
