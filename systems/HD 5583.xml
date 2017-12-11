@@ -1,26 +1,36 @@
 <system>
 	<name>HD 5583</name>
-	<rightascension>00 57 57</rightascension>
-	<declination>+34 59 08</declination>
-	<distance>221.0</distance>
+	<rightascension>00 57 56.7154</rightascension>
+	<declination>+34 59 07.901</declination>
+	<distance errorminus="14" errorplus="14">222</distance>
 	<star>
 		<name>HD 5583</name>
-		<age>7.4</age>
-		<radius>9.09</radius>
+		<name>TYC 2285-548-1</name>
+		<name>BD+34 154</name>
+		<name>2MASS J00575670+3459080</name>
+		<name>SAO 54296</name>
+		<magB errorminus="0.02" errorplus="0.02">8.54</magB>
+		<magV errorminus="0.01" errorplus="0.01">7.60</magV>
+		<magJ errorminus="0.024" errorplus="0.024">5.813</magJ>
+		<magH errorminus="0.027" errorplus="0.027">5.340</magH>
+		<magK errorminus="0.020" errorplus="0.020">5.221</magK>
+		<age errorminus="2.6" errorplus="2.6">7.4</age>
+		<radius errorminus="1.50" errorplus="1.50">9.09</radius>
 		<mass>1.01</mass>
 		<spectraltype>K0</spectraltype>
-		<temperature>4830.0</temperature>
-		<metallicity>-0.5</metallicity>
+		<temperature errorminus="45" errorplus="45">4830</temperature>
+		<metallicity errorminus="0.18" errorplus="0.18">-0.50</metallicity>
 		<planet>
 			<name>HD 5583 b</name>
 			<semimajoraxis errorminus="0.02" errorplus="0.02">0.53</semimajoraxis>
-			<periastron errorminus="6.0" errorplus="330.0">12.0</periastron>
+			<periastron errorminus="6" errorplus="330">12</periastron>
 			<eccentricity errorminus="0.023" errorplus="0.07">0.076</eccentricity>
 			<period errorminus="0.220000" errorplus="0.220000">139.35</period>
-			<mass errorminus="0.53" errorplus="0.53">5.78</mass>
+			<mass errorminus="0.53" errorplus="0.53" type="msini">5.78</mass>
+			<periastrontime errorminus="17" errorplus="18">2456021</periastrontime>
 			<discoverymethod>RV</discoverymethod>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/03/21</lastupdate>
+			<lastupdate>17/12/09</lastupdate>
 			<list>Confirmed planets</list>
 			<description>Data for this planet was imported from the exoplanet.eu database.</description>
 		</planet>
