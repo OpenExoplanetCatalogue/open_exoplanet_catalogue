@@ -3,9 +3,9 @@
 	<name>HIP 53524</name>
 	<name>2MASS J10570301-6840023</name>
 	<name>TYC 9212-4675-1</name>
-	<rightascension>10 57 03</rightascension>
-	<declination>-68 40 02</declination>
-	<distance>90.27</distance>
+	<rightascension>10 57 03.0215</rightascension>
+	<declination>-68 40 02.450</declination>
+	<distance errorminus="1.9" errorplus="1.9">83.8</distance>
 	<star>
 		<magB errorminus="0.01" errorplus="0.01">7.60</magB>
 		<magV errorminus="0.01" errorplus="0.01">7.36</magV>
@@ -16,8 +16,13 @@
 		<name>HIP 53524</name>
 		<name>2MASS J10570301-6840023</name>
 		<name>TYC 9212-4675-1</name>
-		<mass>1.6</mass>
-		<spectraltype>A8III</spectraltype>
+		<name>CD-68 847</name>
+		<name>CPD-68 1373</name>
+		<name>2MASS J10570301-6840023</name>
+		<name>SAO 251193</name>
+		<mass>1.7</mass>
+		<spectraltype errorminus="1">A8</spectraltype>
+		<temperature errorminus="128" errorplus="128">7609</temperature>
 		<age errorminus="0.004" errorplus="0.0035">0.017</age>
 		<planet>
 			<name>HD 95086 b</name>
@@ -25,8 +30,12 @@
 			<name>2MASS J10570301-6840023 b</name>
 			<name>TYC 9212-4675-1 b</name>
 			<list>Confirmed planets</list>
-			<mass errorminus="2" errorplus="2">5</mass>
-			<temperature errorminus="200" errorplus="200">1000</temperature>
+			<magH errorminus="0.25" errorplus="0.25">20.51</magH>
+			<magK errorminus="0.20" errorplus="0.20">18.99</magK>
+			<spectraltype>L1-T3</spectraltype>
+			<mass errorminus="0.8" errorplus="0.8">4.4</mass>
+			<radius>1.32</radius>
+			<temperature lowerlimit="800" upperlimit="1300" />
 			<separation errorminus="0.0074" errorplus="0.0074" unit="arcsec">0.6239</separation>
 			<separation errorminus="0.7" errorplus="0.7" unit="AU">56.4</separation>
 			<positionangle errorminus="0.8" errorplus="0.8">151.8</positionangle>
@@ -40,7 +49,7 @@ The star HD 95086 has similar properties to Beta Pictoris and HR 8799 around whi
 			
 Credit: ESO/J. Rameau</imagedescription>
 			<discoverymethod>imaging</discoverymethod>
-			<lastupdate>13/10/28</lastupdate>
+			<lastupdate>17/12/04</lastupdate>
 			<discoveryyear>2013</discoveryyear>
 		</planet>
 	</star>

@@ -1,28 +1,36 @@
 <system>
 	<name>HD 39392</name>
-	<rightascension>05 53 19</rightascension>
-	<declination>+22 04 20</declination>
+	<rightascension>05 53 18.9952</rightascension>
+	<declination>+22 04 19.749</declination>
+	<distance errorminus="2.7" errorplus="2.7">105.2</distance>
 	<star>
-		<mass errorminus="0.08" errorplus="0.08">1.08</mass>
-		<magV>8.38</magV>
+		<name>HD 39392</name>
+		<name>HIP 27828</name>
+		<name>TYC 1324-2545-1</name>
+		<name>BD+22 1080</name>
+		<name>2MASS J05531899+2204197</name>
+		<name>SAO 77679</name>
+		<magB errorminus="0.02" errorplus="0.02">8.94</magB>
+		<magV errorminus="0.01" errorplus="0.01">8.38</magV>
 		<magJ errorminus="0.023" errorplus="0.023">7.280</magJ>
 		<magH errorminus="0.033" errorplus="0.033">7.012</magH>
 		<magK errorminus="0.021" errorplus="0.021">6.946</magK>
-		<magB errorminus="0.02" errorplus="0.02">8.94</magB>
+		<mass errorminus="0.08" errorplus="0.08">1.08</mass>
+		<temperature errorminus="42" errorplus="42">5951</temperature>
 		<metallicity errorminus="0.03" errorplus="0.03">-0.32</metallicity>
 		<spectraltype>F8</spectraltype>
 		<planet>
 			<name>HD 39392 b</name>
-			<mass errorminus="0.08" errorplus="0.08">13.2</mass>
+			<mass errorminus="0.08" errorplus="0.08" type="msini">13.2</mass>
 			<period errorminus="1.2" errorplus="1.4">394.3</period>
 			<eccentricity errorminus="0.008" errorplus="0.008">0.394</eccentricity>
 			<semimajoraxis errorminus="0.03" errorplus="0.03">0.11</semimajoraxis>
-			<list>Controversial</list>
+			<periastron errorminus="1.3" errorplus="1.3">-31.9</periastron>
+			<periastrontime errorminus="1" errorplus="1" unit="BJD">2456322</periastrontime>
+			<list>Confirmed planets</list>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>16/03/02</lastupdate>
+			<lastupdate>17/12/09</lastupdate>
 			<discoveryyear>2016</discoveryyear>
 		</planet>
-		<name>HD 39392</name>
-		<temperature errorminus="42" errorplus="42">5951</temperature>
 	</star>
 </system>

@@ -1,32 +1,53 @@
 <system>
 	<name>HD 102329</name>
-	<rightascension>11 46 46</rightascension>
-	<declination>+03 28 27</declination>
-	<distance>158</distance>
+	<rightascension>11 46 46.6450</rightascension>
+	<declination>+03 28 27.457</declination>
+	<distance errorminus="16" errorplus="16">229</distance>
 	<star>
-		<mass>1.95</mass>
-		<radius>6.3</radius>
-		<magV>8.04</magV>
+		<name>HD 102329</name>
+		<name>HIP 57467</name>
+		<name>TYC 275-243-1</name>
+		<name>BD+04 2526</name>
+		<name>2MASS J11464664+0328273</name>
+		<name>SAO 119043</name>
+		<name>EPIC 201690230</name>
 		<magB errorminus="0.02" errorplus="0.02">8.93</magB>
+		<magV errorminus="0.01" errorplus="0.01">7.89</magV>
 		<magJ errorminus="0.020" errorplus="0.020">6.049</magJ>
 		<magH errorminus="0.027" errorplus="0.027">5.526</magH>
 		<magK errorminus="0.018" errorplus="0.018">5.402</magK>
+		<temperature>4830.0</temperature>
+		<mass errorminus="0.15" errorplus="0.15">1.30</mass>
+		<radius>6.3</radius>
 		<metallicity errorminus="0.03" errorplus="0.03">0.3</metallicity>
 		<spectraltype>K0</spectraltype>
 		<planet>
 			<name>HD 102329 b</name>
 			<list>Confirmed planets</list>
-			<mass>5.9</mass>
-			<period>778.1</period>
-			<semimajoraxis>2.01</semimajoraxis>
-			<eccentricity>0.211</eccentricity>
+			<mass errorminus="0.3" errorplus="0.3" type="msini">5.9</mass>
+			<period errorminus="7.5" errorplus="7.5">778.1</period>
+			<semimajoraxis errorminus="0.05" errorplus="0.05">2.03</semimajoraxis>
+			<eccentricity errorminus="0.042" errorplus="0.042">0.211</eccentricity>
+			<periastron errorminus="10" errorplus="10">182</periastron>
+			<periastrontime errorminus="390" errorplus="390" unit="HJD">2454830</periastrontime>
 			<description>The star HD 102329 hosts a Jupiter-like planet. It was discovered as part of a Doppler survey at the Keck Observatory.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>12/07/24</lastupdate>
+			<lastupdate>17/12/10</lastupdate>
 			<discoveryyear>2011</discoveryyear>
-			<temperature>376.0</temperature>
 		</planet>
-		<name>HD 102329</name>
-		<temperature>4830.0</temperature>
+		<planet>
+			<name>HD 102329 c</name>
+			<list>Confirmed planets</list>
+			<period errorminus="53" errorplus="79">1123</period>
+			<periastrontime errorminus="200" errorplus="569">2454736</periastrontime>
+			<eccentricity errorminus="0.202" errorplus="0.231">0.209</eccentricity>
+			<periastron errorminus="74" errorplus="165">21</periastron>
+			<mass errorminus="0.25" errorplus="0.30" type="msini">1.52</mass>
+			<semimajoraxis>2.31</semimajoraxis>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<description>The planet HD 102329 c was discovered in a survey of long-period giant planets by Bryan et al. (2016)</description>
+			<lastupdate>17/12/10</lastupdate>
+		</planet>
 	</star>
 </system>

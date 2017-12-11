@@ -1,54 +1,62 @@
 <system>
 	<name>HD 4203</name>
-	<rightascension>00 44 41</rightascension>
-	<declination>+20 26 56</declination>
-	<distance errorminus="8.53" errorplus="7">77.82</distance>
+	<rightascension>00 44 41.2002</rightascension>
+	<declination>+20 26 56.137</declination>
+	<distance errorminus="2.7" errorplus="2.7">78.92</distance>
 	<star>
-		<mass>1.13</mass>
+		<name>HD 4203</name>
+		<name>HIP 3502</name>
+		<name>TYC 1194-26-1</name>
+		<name>BD+19 117</name>
+		<name>2MASS J00444118+2026563</name>
+		<name>SAO 74235</name>
+		<mass errorminus="0.100" errorplus="0.028">1.130</mass>
 		<radius>1.33</radius>
-		<magV>8.68</magV>
 		<magB errorminus="0.026" errorplus="0.026">9.444</magB>
+		<magV errorminus="0.017" errorplus="0.017">8.687</magV>
 		<magR>8.2</magR>
 		<magI>7.9</magI>
 		<magJ>7.39</magJ>
 		<magH>7.11</magH>
 		<magK>7.05</magK>
+		<temperature>5702</temperature>
 		<metallicity>0.453</metallicity>
 		<spectraltype>G5</spectraltype>
 		<planet>
 			<name>HD 4203 b</name>
 			<name>SAO 74235 b</name>
-			<name>TYC 1194-00026-1 b</name>
+			<name>TYC 1194-26-1 b</name>
 			<name>BD+19 117 b</name>
 			<name>HIP 3502 b</name>
 			<name>2MASS J00444118+2026563 b</name>
 			<list>Confirmed planets</list>
-			<mass errorminus="0.05" errorplus="0.05">1.82</mass>
+			<mass errorminus="0.05" errorplus="0.05" type="msini">1.82</mass>
 			<period errorminus="0.27" errorplus="0.27">437.05</period>
 			<semimajoraxis errorminus="0.0222" errorplus="0.0222">1.1735</semimajoraxis>
 			<eccentricity errorminus="0.02" errorplus="0.02">0.52</eccentricity>
+			<periastron errorminus="2.9" errorplus="2.9">328.03</periastron>
+			<periastrontime errorminus="2.38" errorplus="2.38">2451911.52</periastrontime>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>14/03/11</lastupdate>
+			<lastupdate>17/12/10</lastupdate>
 			<discoveryyear>2001</discoveryyear>
-			<temperature>263.9</temperature>
 		</planet>
 		<planet>
 			<name>HD 4203 c</name>
 			<name>SAO 74235 c</name>
-			<name>TYC 1194-00026-1 c</name>
+			<name>TYC 1194-26-1 c</name>
 			<name>BD+19 117 c</name>
 			<name>HIP 3502 c</name>
 			<name>2MASS J00444118+2026563 c</name>
 			<list>Confirmed planets</list>
-			<mass errorminus="0.52" errorplus="0.52">2.17</mass>
-			<period errorminus="4500" errorplus="4500">6700</period>
-			<semimajoraxis errorminus="0.56" errorplus="1.93">6.95</semimajoraxis>
-			<eccentricity errorminus="0.13" errorplus="0.13">0.24</eccentricity>
+			<mass errorminus="0.57" errorplus="0.98" type="msini">1.51</mass>
+			<period errorminus="2324" errorplus="1624">7053</period>
+			<semimajoraxis>7.50</semimajoraxis>
+			<eccentricity errorminus="0.172" errorplus="0.124">0.182</eccentricity>
+			<periastrontime errorminus="1733" errorplus="1365">2456179</periastrontime>
+			<periastron errorminus="32.5" errorplus="30.7">232.2</periastron>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>14/03/11</lastupdate>
+			<lastupdate>17/12/10</lastupdate>
 			<discoveryyear>2014</discoveryyear>
 		</planet>
-		<name>HD 4203</name>
-		<temperature>5702.0</temperature>
 	</star>
 </system>

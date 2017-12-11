@@ -1,0 +1,46 @@
+<system>
+	<name>Ross 128</name>
+	<rightascension>11 47 44.3974</rightascension>
+	<declination>+00 48 16.395</declination>
+	<distance errorminus="0.0062" errorplus="0.0062">3.3807</distance>
+	<star>
+		<name>Ross 128</name>
+		<name>FI Vir</name>
+		<name>FI Virginis</name>
+		<name>HIP 57548</name>
+		<name>Gliese 447</name>
+		<name>Gl 447</name>
+		<name>GJ 447</name>
+		<name>TYC 272-1051-1</name>
+		<name>2MASS J11474440+0048164</name>
+		<name>LHS 315</name>
+		<name>EPIC 201518346</name>
+		<magU errorminus="0.0078" errorplus="0.0078">14.223</magU>
+		<magB errorminus="0.002" errorplus="0.002">12.905</magB>
+		<magV errorminus="0.002" errorplus="0.002">11.153</magV>
+		<magR errorminus="0.0028" errorplus="0.0028">9.859</magR>
+		<magI errorminus="0.0028" errorplus="0.0028">8.184</magI>
+		<magJ errorminus="0.023" errorplus="0.023">6.505</magJ>
+		<magH errorminus="0.024" errorplus="0.024">5.945</magH>
+		<magK errorminus="0.024" errorplus="0.024">5.654</magK>
+		<spectraltype>M4V</spectraltype>
+		<temperature errorminus="60" errorplus="60">3192</temperature>
+		<mass errorminus="0.017" errorplus="0.017">0.168</mass>
+		<radius errorminus="0.0077" errorplus="0.0077">0.1967</radius>
+		<age lowerlimit="5" />
+		<planet>
+			<name>Ross 128 b</name>
+			<list>Confirmed planets</list>
+			<period errorminus="0.0070" errorplus="0.0070">9.8658</period>
+			<eccentricity errorminus="0.097" errorplus="0.097">0.116</eccentricity>
+			<mass errorminus="0.000661" errorplus="0.000661" type="msini">0.004405</mass>
+			<semimajoraxis errorminus="0.0017" errorplus="0.0017">0.0496</semimajoraxis>
+			<transittime errorminus="0.39" errorplus="0.39" unit="BJD">2456740.07</transittime>
+			<istransiting>0</istransiting>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2017</discoveryyear>
+			<description>Ross 128 b is a planet with a similar mass to the Earth located near the temperate zone of a nearby red dwarf star. It may be a candidate for being a habitable planet.</description>
+			<lastupdate>17/12/09</lastupdate>
+		</planet>
+	</star>
+</system>

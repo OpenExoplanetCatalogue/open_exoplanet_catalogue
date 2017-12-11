@@ -1,32 +1,52 @@
 <system>
 	<name>HD 33142</name>
-	<rightascension>05 07 35.54</rightascension>
-	<declination>-13 59 11.3</declination>
-	<distance>126</distance>
+	<rightascension>05 07 35.5414</rightascension>
+	<declination>-13 59 11.337</declination>
+	<distance errorminus="4.0" errorplus="4.0">116.0</distance>
 	<star>
-		<mass>1.48</mass>
+		<name>HD 33142</name>
+		<name>HIP 23844</name>
+		<name>TYC 5342-891-1</name>
+		<name>BD-14 1051</name>
+		<name>2MASS J05073553-1359113</name>
+		<name>SAO 150161</name>
+		<mass errorminus="0.090" errorplus="0.090">1.620</mass>
 		<radius>4.2</radius>
 		<magV>8.13</magV>
 		<magB errorminus="0.018" errorplus="0.018">8.905</magB>
 		<magJ errorminus="0.018" errorplus="0.018">6.345</magJ>
 		<magH errorminus="0.034" errorplus="0.034">5.903</magH>
 		<magK errorminus="0.018" errorplus="0.018">5.792</magK>
+		<temperature>5052</temperature>
 		<metallicity>0.05</metallicity>
-		<spectraltype>K0</spectraltype>
+		<spectraltype>K0 III</spectraltype>
 		<planet>
 			<name>HD 33142 b</name>
 			<list>Confirmed planets</list>
-			<mass>1.3</mass>
-			<period>326.6</period>
-			<semimajoraxis>1.06</semimajoraxis>
-			<eccentricity>0</eccentricity>
+			<mass errorminus="0.1" errorplus="0.1" type="msini">1.3</mass>
+			<period errorminus="3.9" errorplus="3.9">326.6</period>
+			<semimajoraxis errorminus="0.03" errorplus="0.03">1.06</semimajoraxis>
+			<eccentricity errorminus="0.120" errorplus="0.100">0.120</eccentricity>
+			<periastron errorminus="60" errorplus="60">143</periastron>
+			<periastrontime errorminus="60" errorplus="60" unit="HJD">2455324</periastrontime>
 			<description>The star HD 33142 hosts a Jupiter-like planet. It was discovered as part of a Doppler survey at the Keck Observatory.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>12/07/24</lastupdate>
+			<lastupdate>17/12/10</lastupdate>
 			<discoveryyear>2011</discoveryyear>
-			<temperature>442.1</temperature>
 		</planet>
-		<name>HD 33142</name>
-		<temperature>5052.0</temperature>
+		<planet>
+			<name>HD 33142 c</name>
+			<list>Confirmed planets</list>
+			<period errorminus="24" errorplus="29">834</period>
+			<periastrontime errorminus="117" errorplus="326">2455664</periastrontime>
+			<eccentricity errorminus="0.114" errorplus="0.172">0.05</eccentricity>
+			<periastron errorminus="53" errorplus="139">322</periastron>
+			<mass errorminus="0.80" errorplus="1.04" type="msini">5.97</mass>
+			<semimajoraxis>2.04</semimajoraxis>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<description>The planet HD 33142 c was discovered in a survey of long-period giant planets by Bryan et al. (2016)</description>
+			<lastupdate>17/12/10</lastupdate>
+		</planet>
 	</star>
 </system>

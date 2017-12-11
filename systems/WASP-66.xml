@@ -1,36 +1,38 @@
 <system>
 	<name>WASP-66</name>
-	<rightascension>10 32 54</rightascension>
-	<declination>-34 59 23</declination>
-	<distance>380</distance>
+	<rightascension>10 32 53.9926</rightascension>
+	<declination>-34 59 23.452</declination>
+	<distance errorminus="98" errorplus="98">500</distance>
 	<star>
-		<mass>1.3</mass>
-		<radius>1.75</radius>
+		<name>WASP-66</name>
+		<name>TYC 7193-1804-1</name>
+		<name>2MASS J10325399-3459234</name>
+		<mass errorminus="0.07" errorplus="0.07">1.30</mass>
+		<radius errorminus="0.09" errorplus="0.09">1.75</radius>
 		<magV>11.6</magV>
 		<magB errorminus="0.10" errorplus="0.10">12.00</magB>
 		<magJ errorminus="0.018" errorplus="0.018">10.719</magJ>
 		<magH errorminus="0.022" errorplus="0.022">10.496</magH>
 		<magK errorminus="0.021" errorplus="0.021">10.452</magK>
+		<temperature errorminus="150" errorplus="150">6600.0</temperature>
 		<metallicity>-0.31</metallicity>
 		<spectraltype>F4</spectraltype>
 		<planet>
 			<name>WASP-66 b</name>
 			<list>Confirmed planets</list>
-			<mass>2.32</mass>
-			<radius>1.39</radius>
-			<period>4.086052</period>
-			<semimajoraxis>0.0546</semimajoraxis>
-			<eccentricity>0.0</eccentricity>
-			<inclination>85.9</inclination>
-			<transittime errorminus="0.00035" errorplus="0.00035" unit="BJD">2455929.09693</transittime>
+			<mass errorminus="0.13" errorplus="0.13">2.32</mass>
+			<radius errorminus="0.09" errorplus="0.09">1.39</radius>
+			<period errorminus="0.000007" errorplus="0.000007">4.086052</period>
+			<semimajoraxis errorminus="0.0009" errorplus="0.0009">0.0546</semimajoraxis>
+			<eccentricity>0</eccentricity>
+			<inclination errorminus="0.9" errorplus="0.9">85.9</inclination>
+			<transittime errorminus="0.00035" errorplus="0.00035" unit="HJD">2456738.13445</transittime>
+			<spinorbitalignment errorminus="22" errorplus="22">-4</spinorbitalignment>
 			<description>This planet has been announced at the Extreme Solar Systems II conference in Jackson Hole by the WASP team.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>12/04/24</lastupdate>
+			<lastupdate>17/12/04</lastupdate>
 			<discoveryyear>2011</discoveryyear>
-			<temperature>1647.5</temperature>
 			<istransiting>1</istransiting>
 		</planet>
-		<name>WASP-66</name>
-		<temperature errorminus="150" errorplus="150">6600.0</temperature>
 	</star>
 </system>

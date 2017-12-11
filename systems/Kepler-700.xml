@@ -1,24 +1,49 @@
 <system>
 	<name>Kepler-700</name>
-	<rightascension>19 08 37</rightascension>
-	<declination>+41 33 57</declination>
+	<name>KOI-847</name>
+	<rightascension>19 08 37.032</rightascension>
+	<declination>+41 33 56.84</declination>
+	<distance errorminus="86.230" errorplus="161.824">1061.000</distance>
 	<star>
 		<name>Kepler-700</name>
+		<name>KOI-847</name>
+		<name>KIC 6191521</name>
+		<name>2MASS J19083703+4133568</name>
+		<magJ errorminus="0.028" errorplus="0.028">13.935</magJ>
+		<magH errorminus="0.036" errorplus="0.036">13.585</magH>
+		<magK errorminus="0.038" errorplus="0.038">13.569</magK>
 		<temperature errorminus="115.6" errorplus="77.7">5692.0</temperature>
 		<mass errorminus="0.05" errorplus="0.04">0.98</mass>
 		<radius errorminus="0.07" errorplus="0.15">0.96</radius>
 		<metallicity errorminus="0.15" errorplus="0.14">0.04</metallicity>
 		<planet>
 			<name>Kepler-700 b</name>
+			<name>KOI-847.01</name>
+			<name>KOI-847 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
+			<lastupdate>17/12/09</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000172700" errorplus="0.000172700">80.872063900</period>
+			<period errorminus="0.0001727" errorplus="0.0001727">80.8720639</period>
 			<radius errorminus="0.045" errorplus="0.081">0.534</radius>
+			<transittime errorminus="0.00146" errorplus="0.00146" unit="BJD">2455036.89696</transittime>
+		</planet>
+		<planet>
+			<name>KOI-847 c</name>
+			<name>Kepler-700 c</name>
+			<list>Controversial</list>
+			<period errorminus="0.007" errorplus="0.007">1106.243</period>
+			<transittime errorminus="0.0046" errorplus="0.0046" unit="BJD">2456322.1858</transittime>
+			<impactparameter errorminus="0.082" errorplus="0.048">0.776</impactparameter>
+			<radius>0.50</radius>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<description>A possible second planet has been identified by Uehara et al. (2016) orbiting KOI-847 (Kepler-700) from two transits.</description>
+			<lastupdate>17/12/09</lastupdate>
+			<istransiting>1</istransiting>
 		</planet>
 	</star>
 </system>

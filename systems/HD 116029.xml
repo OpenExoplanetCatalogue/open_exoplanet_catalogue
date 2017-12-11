@@ -1,32 +1,52 @@
 <system>
 	<name>HD 116029</name>
-	<rightascension>13 20 39</rightascension>
-	<declination>+24 38 55</declination>
-	<distance>123</distance>
+	<rightascension>13 20 39.5420</rightascension>
+	<declination>+24 38 55.310</declination>
+	<distance errorminus="4.3" errorplus="4.3">122.4</distance>
 	<star>
-		<mass>1.58</mass>
-		<radius>4.6</radius>
-		<magV>8.04</magV>
+		<name>HD 116029</name>
+		<name>HIP 65117</name>
+		<name>TYC 1994-2335-1</name>
+		<name>BD+25 2623</name>
+		<name>2MASS J13203954+2438555</name>
+		<name>SAO 82792</name>
 		<magB errorminus="0.02" errorplus="0.02">8.89</magB>
+		<magV errorminus="0.02" errorplus="0.02">7.89</magV>
 		<magJ errorminus="0.037" errorplus="0.037">6.144</magJ>
 		<magH errorminus="0.016" errorplus="0.016">5.650</magH>
 		<magK errorminus="0.016" errorplus="0.016">5.534</magK>
+		<mass errorminus="0.11" errorplus="0.11">1.33</mass>
+		<radius>4.6</radius>
+		<temperature>4951</temperature>
 		<metallicity>0.18</metallicity>
-		<spectraltype>K1</spectraltype>
+		<spectraltype>K1IV</spectraltype>
 		<planet>
 			<name>HD 116029 b</name>
 			<list>Confirmed planets</list>
-			<mass>2.1</mass>
-			<period>670.2</period>
-			<semimajoraxis>1.73</semimajoraxis>
-			<eccentricity>0</eccentricity>
+			<mass errorminus="0.2" errorplus="0.2" type="msini">2.1</mass>
+			<period errorminus="11" errorplus="11">670</period>
+			<semimajoraxis errorminus="0.05" errorplus="0.05">1.78</semimajoraxis>
+			<eccentricity errorminus="0.054" errorplus="0.156">0.054</eccentricity>
+			<periastron errorminus="80" errorplus="80">40</periastron>
+			<periastrontime errorminus="160" errorplus="160" unit="HJD">2455220</periastrontime>
 			<description>The star HD 116029 hosts a Jupiter-like planet. It was discovered as part of a Doppler survey at the Keck Observatory.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>12/07/24</lastupdate>
+			<lastupdate>17/12/10</lastupdate>
 			<discoveryyear>2011</discoveryyear>
-			<temperature>355.0</temperature>
 		</planet>
-		<name>HD 116029</name>
-		<temperature>4951.0</temperature>
+		<planet>
+			<name>HD 116029 c</name>
+			<list>Confirmed planets</list>
+			<period errorminus="29" errorplus="30">907</period>
+			<periastrontime errorminus="86" errorplus="134">2455291</periastrontime>
+			<eccentricity errorminus="0.075" errorplus="0.127">0.038</eccentricity>
+			<periastron errorminus="49.7" errorplus="167.0">17.3</periastron>
+			<mass errorminus="0.15" errorplus="0.15" type="msini">1.27</mass>
+			<semimajoraxis>2.02</semimajoraxis>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<description>The planet HD 116029 c was discovered in a survey of long-period giant planets by Bryan et al. (2016)</description>
+			<lastupdate>17/12/10</lastupdate>
+		</planet>
 	</star>
 </system>

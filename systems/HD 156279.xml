@@ -1,32 +1,52 @@
 <system>
 	<name>HD 156279</name>
-	<rightascension>17 12 23</rightascension>
-	<declination>+63 21 08</declination>
-	<distance>36.6</distance>
+	<rightascension>17 12 23.2036</rightascension>
+	<declination>+63 21 07.532</declination>
+	<distance errorminus="0.31" errorplus="0.31">36.52</distance>
 	<star>
-		<mass>0.93</mass>
-		<magV>8.08</magV>
+		<name>HD 156279</name>
+		<name>HIP 84171</name>
+		<name>TYC 4282-656-1</name>
+		<name>BD+63 1335</name>
+		<name>2MASS J17122319+6321074</name>
+		<name>SAO 17390</name>
 		<magB errorminus="0.018" errorplus="0.018">8.879</magB>
+		<magV errorminus="0.01" errorplus="0.01">8.08</magV>
 		<magR>7.6</magR>
 		<magI>7.2</magI>
 		<magJ errorminus="0.018" errorplus="0.018">6.677</magJ>
 		<magH errorminus="0.026" errorplus="0.026">6.346</magH>
 		<magK errorminus="0.023" errorplus="0.023">6.269</magK>
+		<temperature>5453.0</temperature>
+		<mass errorminus="0.040" errorplus="0.040">0.930</mass>
 		<metallicity>0.14</metallicity>
 		<spectraltype>K0</spectraltype>
 		<planet>
 			<name>HD 156279 b</name>
 			<list>Confirmed planets</list>
-			<mass>9.71</mass>
-			<period>131.05</period>
-			<semimajoraxis>0.495</semimajoraxis>
-			<eccentricity>0.708</eccentricity>
+			<mass errorminus="0.66" errorplus="0.66" type="msini">9.71</mass>
+			<period errorminus="0.54" errorplus="0.54">131.05</period>
+			<semimajoraxis errorminus="0.017" errorplus="0.017">0.495</semimajoraxis>
+			<eccentricity errorminus="0.018" errorplus="0.018">0.708</eccentricity>
+			<periastron errorminus="1.7" errorplus="1.7">-95.8</periastron>
+			<periastrontime errorminus="0.18" errorplus="0.18" unit="BJD">2455525.59</periastrontime>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>11/11/04</lastupdate>
+			<lastupdate>17/12/10</lastupdate>
 			<discoveryyear>2011</discoveryyear>
-			<temperature>327.8</temperature>
 		</planet>
-		<name>HD 156279</name>
-		<temperature>5453.0</temperature>
+		<planet>
+			<name>HD 156279 c</name>
+			<list>Confirmed planets</list>
+			<period errorminus="310" errorplus="270">4191</period>
+			<periastrontime errorminus="17" errorplus="17">2455912</periastrontime>
+			<eccentricity errorminus="0.021" errorplus="0.018">0.231</eccentricity>
+			<periastron errorminus="1.9" errorplus="2.3">101.0</periastron>
+			<mass errorminus="0.55" errorplus="0.50" type="msini">8.60</mass>
+			<semimajoraxis>4.97</semimajoraxis>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<description>The planet HD 156279 c was discovered in a survey of long-period giant planets by Bryan et al. (2016)</description>
+			<lastupdate>17/12/10</lastupdate>
+		</planet>
 	</star>
 </system>

@@ -1,12 +1,13 @@
 <system>
 	<name>WASP-103</name>
-	<rightascension>16 37 15</rightascension>
-	<declination>+07 11 00</declination>
+	<rightascension>16 37 15.568</rightascension>
+	<declination>+07 11 00.07</declination>
 	<distance errorminus="35" errorplus="35">470</distance>
 	<star>
 		<name>WASP-103</name>
-		<mass errorminus="0.089" errorplus="0.089">1.204</mass>
-		<radius errorminus="0.039" errorplus="0.039">1.419</radius>
+		<name>2MASS J16371556+0711000</name>
+		<mass errorminus="0.036" errorplus="0.039">1.220</mass>
+		<radius errorminus="0.031" errorplus="0.052">1.436</radius>
 		<temperature errorminus="160" errorplus="160">6110</temperature>
 		<magV errorminus="0.01" errorplus="0.01">12.1</magV>
 		<magJ errorminus="0.026" errorplus="0.026">11.100</magJ>
@@ -17,16 +18,18 @@
 		<planet>
 			<name>WASP-103 b</name>
 			<list>Confirmed planets</list>
-			<mass errorminus="0.11" errorplus="0.11">1.47</mass>
-			<radius errorminus="0.052" errorplus="0.052">1.603</radius>
-			<temperature errorminus="70" errorplus="75">2508</temperature>
+			<mass errorminus="0.088" errorplus="0.088">1.490</mass>
+			<radius errorminus="0.047" errorplus="0.073">1.528</radius>
 			<period errorminus="0.000019" errorplus="0.000019">0.925542</period>
-			<semimajoraxis errorminus="0.00049" errorplus="0.00049">0.01978</semimajoraxis>
+			<semimajoraxis errorminus="0.00021" errorplus="0.00021">0.01985</semimajoraxis>
 			<inclination errorminus="2.7" errorplus="2.7">86.3</inclination>
+			<eccentricity>0</eccentricity>
+			<transittime errorminus="0.00075" errorplus="0.00075" unit="HJD">2456800.19903</transittime>
+			<spinorbitalignment errorminus="33" errorplus="33">3</spinorbitalignment>
 			<description>WASP-103 b is an ultra-short period jupiter sized planet at the edge of disruption.</description>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
-			<lastupdate>14/11/11</lastupdate>
+			<lastupdate>17/12/04</lastupdate>
 			<discoveryyear>2014</discoveryyear>
 		</planet>
 	</star>

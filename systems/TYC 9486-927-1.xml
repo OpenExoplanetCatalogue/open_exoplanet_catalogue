@@ -1,0 +1,39 @@
+<system>
+	<name>TYC 9486-927-1</name>
+	<rightascension>21 25 27.4899</rightascension>
+	<declination>-81 38 27.673</declination>
+	<distance errorminus="4.7" errorplus="5.7">26.7</distance>
+	<star>
+		<name>TYC 9486-927-1</name>
+		<name>2MASS J21252752-8138278</name>
+		<magB errorminus="0.32" errorplus="0.32">13.31</magB>
+		<magV errorminus="0.050" errorplus="0.050">11.821</magV>
+		<magR errorminus="0.050" errorplus="0.050">11.517</magR>
+		<magI errorminus="0.03" errorplus="0.03">9.64</magI>
+		<magJ errorminus="0.030" errorplus="0.030">8.240</magJ>
+		<magH errorminus="0.027" errorplus="0.027">7.563</magH>
+		<magK errorminus="0.040" errorplus="0.040">7.340</magK>
+		<mass>0.4</mass>
+		<spectraltype errorminus="0.5">M2.0</spectraltype>
+		<age lowerlimit="0.010" upperlimit="0.045" />
+		<planet>
+			<name>2MASS J21265040-8140293</name>
+			<name>2MASS J2126-8140</name>
+			<name>TYC 9486-927-1 b</name>
+			<list>Confirmed planets</list>
+			<separation unit="arcsec">217.4</separation>
+			<separation unit="AU">5800</separation>
+			<positionangle>124.1</positionangle>
+			<magJ errorminus="0.06" errorplus="0.06">15.54</magJ>
+			<magH errorminus="0.05" errorplus="0.05">14.40</magH>
+			<magK errorminus="0.04" errorplus="0.04">13.55</magK>
+			<mass lowerlimit="11.6" upperlimit="15.0" />
+			<spectraltype>L3γ</spectraltype>
+			<temperature errorminus="100" errorplus="100">1800</temperature>
+			<discoverymethod>imaging</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<description>2MASS J2126-8140 is a widely-separated common proper motion companion to the M-dwarf TYC 9486-927-1. The possible mass range spans the threshold for deuterium fusion.</description>
+			<lastupdate>17/12/09</lastupdate>
+		</planet>
+	</star>
+</system>

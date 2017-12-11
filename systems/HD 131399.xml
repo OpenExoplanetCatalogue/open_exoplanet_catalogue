@@ -1,48 +1,77 @@
 <system>
 	<name>HD 131399</name>
-	<name>HD 131399 A</name>
 	<rightascension>14 54 25.30919</rightascension>
 	<declination>-34 08 34.0412</declination>
+	<distance errorminus="6.7" errorplus="6.7">98.0</distance>
 	<binary>
-		<star>
+		<name>HD 131399</name>
+		<name>HIP 72940</name>
+		<name>CD-33 10153</name>
+		<name>WDS J14544-3409</name>
+		<semimajoraxis errorminus="28" errorplus="28">349</semimajoraxis>
+		<period errorminus="13148.719" errorplus="13148.719">1298801.3</period>
+		<eccentricity errorminus="0.05" errorplus="0.05">0.13</eccentricity>
+		<inclination errorminus="10" errorplus="10">55</inclination>
+		<periastron errorminus="15" errorplus="15">145.3</periastron>
+		<ascendingnode errorminus="20" errorplus="20">265</ascendingnode>
+		<periastrontime errorminus="12100" errorplus="12100">1904400</periastrontime>
+		<binary>
 			<name>HD 131399 A</name>
-			<mass>1.82</mass>
-			<temperature>9300</temperature>
-			<spectraltype>A1V</spectraltype>
+			<name>TYC 7306-2615-1</name>
+			<name>WDS J14544-3409 A</name>
+			<period errorminus="0.00004" errorplus="0.00004">9.92860</period>
+			<eccentricity errorminus="0.00010" errorplus="0.00010">0.48916</eccentricity>
+			<periastron errorminus="0.02158" errorplus="0.02158">-133.50291</periastron>
+			<periastrontime errorminus="0.00051" errorplus="0.00051" unit="BJD">2454753.37543</periastrontime>
+			<semimajoraxis>0.1199</semimajoraxis>
+			<star>
+				<name>HD 131399 Aa1</name>
+				<mass>1.82</mass>
+				<temperature>9300</temperature>
+				<spectraltype>A1V</spectraltype>
+			</star>
+			<star>
+				<name>HD 131399 Aa2</name>
+				<mass type="msini">0.51</mass>
+			</star>
 			<planet>
 				<name>HD 131399 Ab</name>
-				<list>Confirmed planets</list>
+				<list>Controversial</list>
 				<mass errorminus="1" errorplus="1">4</mass>
 				<temperature errorminus="50" errorplus="50">850</temperature>
 				<period errorminus="54786.33" errorplus="54786.33">200883.21</period>
 				<semimajoraxis errorminus="25" errorplus="25">80</semimajoraxis>
 				<eccentricity errorminus="0.25" errorplus="0.25">0.35</eccentricity>
 				<inclination errorminus="20" errorplus="80">40</inclination>
-				<description>The semi-major axis of this planet is closer relative to that of its hierarchical triple star system than for any known exoplanet within a stellar binary or triple, making HD 131399 dynamically unlike any other known system.</description>
+				<description>The semi-major axis of this planet is closer relative to that of the outer binary of the hierarchical star system than for any known exoplanet within a stellar multiple, making HD 131399 dynamically unlike any other known system. Subsequent analysis by Nielsen et al. (2017) indicates that this object is a background star.</description>
 				<discoverymethod>imaging</discoverymethod>
-				<lastupdate>16/07/06</lastupdate>
+				<lastupdate>17/12/09</lastupdate>
 				<discoveryyear>2016</discoveryyear>
-				<list>Planets in binary systems, S-type</list>
+				<list>Planets in binary systems, P-type</list>
 			</planet>
-		</star>
+		</binary>
 		<binary>
+			<name>WDS J14544-3409 B</name>
+			<name>TYC 7306-2615-2</name>
+			<separation unit="arcsec">0.10</separation>
+			<separation unit="AU">9.8</separation>
+			<positionangle>235</positionangle>
 			<star>
 				<name>HD 131399 B</name>
+				<name>WDS J14544-3409 Ba</name>
 				<mass>0.96</mass>
 				<temperature>5700</temperature>
 				<spectraltype>G</spectraltype>
+				<magK errorminus="0.1" errorplus="0.1">8.5</magK>
 			</star>
 			<star>
 				<name>HD 131399 C</name>
+				<name>WDS J14544-3409 Bb</name>
 				<mass>0.6</mass>
 				<temperature>4400</temperature>
 				<spectraltype>K</spectraltype>
+				<magK errorminus="0.1" errorplus="0.1">10.5</magK>
 			</star>
-			<semimajoraxis>7.5</semimajoraxis>
 		</binary>
-		<semimajoraxis errorminus="28" errorplus="28">349</semimajoraxis>
-		<period errorminus="13148.719" errorplus="13148.719">1298801.3</period>
-		<eccentricity errorminus="0.05" errorplus="0.05">0.13</eccentricity>
-		<inclination errorminus="10" errorplus="10">55</inclination>
 	</binary>
 </system>

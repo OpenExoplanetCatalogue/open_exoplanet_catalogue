@@ -1,31 +1,37 @@
 <system>
 	<name>HD 72659</name>
-	<rightascension>08 34 03</rightascension>
-	<declination>-01 34 05</declination>
-	<distance>49.8</distance>
+	<rightascension>08 34 03.1902</rightascension>
+	<declination>-01 34 05.572</declination>
+	<distance errorminus="0.70" errorplus="0.70">51.84</distance>
 	<star>
-		<mass>0.95</mass>
-		<radius>1.36</radius>
-		<magV>7.46</magV>
+		<name>HD 72659</name>
+		<name>HIP 42030</name>
+		<name>TYC 4862-360-1</name>
+		<name>BD-01 2075</name>
+		<name>2MASS J08340320-0134056</name>
+		<name>SAO 136045</name>
+		<magB errorminus="0.02" errorplus="0.02">8.08</magB>
+		<magV errorminus="0.01" errorplus="0.01">7.47</magV>
 		<magJ errorminus="0.019" errorplus="0.019">6.358</magJ>
 		<magH errorminus="0.027" errorplus="0.027">6.089</magH>
 		<magK errorminus="0.024" errorplus="0.024">5.982</magK>
-		<magB errorminus="0.02" errorplus="0.02">8.08</magB>
+		<temperature>5926</temperature>
+		<mass errorminus="0.022" errorplus="0.022">1.068</mass>
+		<radius>1.36</radius>
 		<metallicity>-0.02</metallicity>
 		<spectraltype>G2 V</spectraltype>
 		<planet>
 			<name>HD 72659 b</name>
 			<list>Confirmed planets</list>
-			<mass>3.15</mass>
-			<period>3658</period>
-			<semimajoraxis>4.74</semimajoraxis>
-			<eccentricity>0.22</eccentricity>
+			<mass errorminus="0.17" errorplus="0.19" type="msini">2.99</mass>
+			<period errorminus="38" errorplus="40">3506</period>
+			<semimajoraxis>4.62</semimajoraxis>
+			<eccentricity errorminus="0.027" errorplus="0.028">0.249</eccentricity>
+			<periastrontime errorminus="59" errorplus="54">2455301</periastrontime>
+			<periastron errorminus="6.9" errorplus="8.4">272.7</periastron>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/12/20</lastupdate>
+			<lastupdate>17/12/10</lastupdate>
 			<discoveryyear>2002</discoveryyear>
-			<temperature>139.5</temperature>
 		</planet>
-		<name>HD 72659</name>
-		<temperature>5926.0</temperature>
 	</star>
 </system>
