@@ -1,0 +1,33 @@
+<system>
+	<name>EPIC 203311200</name>
+	<rightascension>16 03 54.334</rightascension>
+	<declination>-26 33 13.51</declination>
+	<distance errorminus="50" errorplus="50">437</distance>
+	<star>
+		<name>EPIC 203311200</name>
+		<name>TYC 6788-215-1</name>
+		<name>2MASS J16035433-2633133</name>
+		<magB errorminus="0.18" errorplus="0.18">12.08</magB>
+		<magV errorminus="0.23" errorplus="0.23">11.88</magV>
+		<magJ errorminus="0.023" errorplus="0.023">10.644</magJ>
+		<magH errorminus="0.024" errorplus="0.024">10.420</magH>
+		<magK errorminus="0.022" errorplus="0.022">10.324</magK>
+		<mass errorminus="0.09" errorplus="0.09">0.91</mass>
+		<radius errorminus="0.09" errorplus="0.09">0.94</radius>
+		<temperature errorminus="200" errorplus="200">5200</temperature>
+		<planet>
+			<name>EPIC 203311200 b</name>
+			<list>Controversial</list>
+			<transittime errorminus="0.002" errorplus="0.003" unit="BJD">2456954.021</transittime>
+			<impactparameter errorminus="0.3" errorplus="0.13">0.61</impactparameter>
+			<radius errorminus="0.05" errorplus="0.05">0.51</radius>
+			<period errorminus="230" errorplus="410">540</period>
+			<semimajoraxis errorminus="0.39" errorplus="0.59">1.25</semimajoraxis>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2015</discoveryyear>
+			<description>A possible planet has been identified orbiting EPIC 203311200 based on a single transit observed by the K2 mission. Confirmation of this planet will require additional observations.</description>
+			<lastupdate>17/12/09</lastupdate>
+		</planet>
+	</star>
+</system>
