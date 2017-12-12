@@ -113,14 +113,25 @@ The syntax for upper/lower limits is: `<mass upperlimit="1.0" />`
 
 Constants
 -------------
-There are several constants used in defining the units in the Open Exoplanet Catalogue. The following table can be used to convert them into SI units.
+The Open Exoplanet Catalogue stores information using a few basis units. For stars, mass and radius units are derived from our star, Sol (the Sun). For exoplanets, mass and radius units are derived from the planet Jupiter. 
 
-| Constant used in catalogue | Definition in SI units |
-| -------- | --------------- |
-| Jupiter mass | 1.8991766e+27 kg |
-| Solarmass | 1.9891e+30 kg |
-| Jupiter radius | 69911000 m |
-| Solarradius | 6.96e+08 m |
+The mass of Jupiter, the Sun, and even Earth are so huge that it is more meaningful to simply reference their mass in relation to each other, rather than common SI units. These values are approximate.
+
+Ratio | Value
+--- | ---
+Sol/Jupiter mass | 1047.566
+Jupiter/Earth mass | 317.8284
+Sol/Earth mass | 332,946.1
+
+In many publications, radius measurements are quoted based on Earth’s or Jupiter’s equatorial radius, so we list here the relevant IAU recommended nominal constants.
+
+Constant Name | Value
+--- | ---
+Solar radius | 695,700 km
+Jupiter equatorial radius | 71,492 km
+Earth equatorial radius | 6378.1 km
+
+There are a few more units and standards used: degrees, days, billions of years (gigayears or Gyr), AU, parsecs, sexagesimal degrees (declination), and sexagesimal hour angle (Right Ascension). These are all much more well defined than the mass and radius units above, so we will not produce them here. Please note that the Open Exoplanet Catalogue makes no accommodation for different celestial reference frames.
 
 
 Plots
