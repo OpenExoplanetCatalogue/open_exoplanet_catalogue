@@ -1,30 +1,90 @@
 <system>
 	<name>HD 4113</name>
-	<rightascension>00 43 13</rightascension>
-	<declination>-37 58 57</declination>
-	<distance>44</distance>
-	<star>
-		<mass>0.99</mass>
-		<magV>7.88</magV>
-		<magB errorminus="0.02" errorplus="0.02">8.61</magB>
-		<magJ errorminus="0.023" errorplus="0.023">6.672</magJ>
-		<magH errorminus="0.021" errorplus="0.021">6.345</magH>
-		<magK errorminus="0.021" errorplus="0.021">6.289</magK>
-		<metallicity>0.2</metallicity>
-		<spectraltype>G5V</spectraltype>
-		<planet>
-			<name>HD 4113 b</name>
-			<list>Confirmed planets</list>
-			<mass>1.56</mass>
-			<period>526.62</period>
-			<semimajoraxis>1.28</semimajoraxis>
-			<eccentricity>0.903</eccentricity>
-			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/12/17</lastupdate>
-			<discoveryyear>2007</discoveryyear>
-			<temperature>218.9</temperature>
-		</planet>
+	<rightascension>00 43 12.5958</rightascension>
+	<declination>-37 58 57.473</declination>
+	<distance errorminus="0.86" errorplus="0.86">41.70</distance>
+	<binary>
 		<name>HD 4113</name>
-		<temperature>5688.0</temperature>
-	</star>
+		<name>CD-38 223</name>
+		<name>CPD-38 54</name>
+		<name>WDS J00432-3759</name>
+		<separation errorminus="0.034" errorplus="0.034" unit="arcsec">49.000</separation>
+		<separation unit="AU">2043</separation>
+		<positionangle errorminus="0.04" errorplus="0.04">350.30</positionangle>
+		<binary>
+			<name>HD 4113 AC</name>
+			<period errorminus="6538" errorplus="10592">38205</period>
+			<eccentricity errorminus="0.062" errorplus="0.081">0.377</eccentricity>
+			<periastron errorminus="12.2" errorplus="10.3">200.3</periastron>
+			<periastrontime errorminus="800" errorplus="690" unit="BJD">2503627</periastrontime>
+			<ascendingnode errorminus="7.2" errorplus="7.2">41.8</ascendingnode>
+			<inclination errorminus="12.0" errorplus="12.3">89.1</inclination>
+			<semimajoraxis errorminus="2.7" errorplus="4.0">23.0</semimajoraxis>
+			<star>
+				<name>HD 4113 A</name>
+				<name>HIP 3391</name>
+				<name>TYC 7532-852-1</name>
+				<name>CD-38 223 A</name>
+				<name>CPD-38 54 A</name>
+				<name>2MASS J00431259-3758574</name>
+				<name>SAO 192693</name>
+				<name>WDS J00432-3759 A</name>
+				<mass errorminus="0.07" errorplus="0.04">1.05</mass>
+				<magB errorminus="0.02" errorplus="0.02">8.61</magB>
+				<magV errorminus="0.013" errorplus="0.013">7.880</magV>
+				<magJ errorminus="0.023" errorplus="0.023">6.672</magJ>
+				<magH errorminus="0.021" errorplus="0.021">6.345</magH>
+				<magK errorminus="0.021" errorplus="0.021">6.289</magK>
+				<spectraltype>G5V</spectraltype>
+				<temperature errorminus="56" errorplus="56">5688</temperature>
+				<metallicity errorminus="0.04" errorplus="0.04">0.2</metallicity>
+				<age errorminus="1.7" errorplus="1.3">5.0</age>
+				<planet>
+					<name>HD 4113 b</name>
+					<name>HD 4113 A b</name>
+					<list>Confirmed planets</list>
+					<mass errorminus="0.075" errorplus="0.076" type="msini">1.602</mass>
+					<period errorminus="0.016" errorplus="0.013">526.686</period>
+					<semimajoraxis errorminus="0.030" errorplus="0.030">1.298</semimajoraxis>
+					<eccentricity errorminus="0.0016" errorplus="0.0020">0.8999</eccentricity>
+					<periastron errorminus="0.77" errorplus="0.87">-48.45</periastron>
+					<periastrontime errorminus="0.083" errorplus="0.090" unit="BJD">2511142.738</periastrontime>
+					<discoverymethod>RV</discoverymethod>
+					<lastupdate>17/12/15</lastupdate>
+					<description>HD 4113 b is a planet in an extremely eccentric orbit. There is a brown dwarf (possibly a binary) in a 23 AU orbit that may be responsible for the high eccentricity.</description>
+					<discoveryyear>2007</discoveryyear>
+					<list>Planets in binary systems, S-type</list>
+				</planet>
+			</star>
+			<star>
+				<name>HD 4113 C</name>
+				<name>CD-38 223 C</name>
+				<name>CPD-38 54 C</name>
+				<magH errorminus="0.1" errorplus="0.1">19.7</magH>
+				<magJ errorminus="0.2" errorplus="0.2">21.6</magJ>
+				<spectraltype>T9</spectraltype>
+				<temperature lowerlimit="500" upperlimit="600" />
+				<radius lowerlimit="0.144" upperlimit="0.154" />
+				<mass errorminus="0.00420" errorplus="0.00477">0.06279</mass>
+			</star>
+		</binary>
+		<star>
+			<name>HD 4113 B</name>
+			<name>CD-38 223 B</name>
+			<name>CPD-38 54 B</name>
+			<name>2MASS J00431189-3758092</name>
+			<name>WDS J00432-3759 B</name>
+			<spectraltype>M0-1V</spectraltype>
+			<magB errorminus="0.02" errorplus="0.02">14.19</magB>
+			<magV errorminus="0.02" errorplus="0.02">12.70</magV>
+			<magR errorminus="0.05" errorplus="0.05">12.54</magR>
+			<magI errorminus="0.03" errorplus="0.03">10.57</magI>
+			<magJ errorminus="0.024" errorplus="0.024">9.447</magJ>
+			<magH errorminus="0.02" errorplus="0.02">8.74</magH>
+			<magK errorminus="0.021" errorplus="0.021">8.539</magK>
+			<temperature>3833</temperature>
+			<mass>0.55</mass>
+			<age>5</age>
+		</star>
+	</binary>
 </system>
