@@ -1,38 +1,39 @@
 <system>
 	<name>WASP-46</name>
-	<rightascension>21 14 57</rightascension>
-	<declination>-55 52 18</declination>
+	<rightascension>21 14 56.981</rightascension>
+	<declination>-55 52 18.45</declination>
 	<star>
-		<mass>0.956</mass>
-		<radius>0.917</radius>
-		<magV>12.9</magV>
+		<name>WASP-46</name>
+		<name>GSC 08797-00758</name>
+		<name>2MASS J21145687-5552184</name>
 		<magB>13.0</magB>
+		<magV>12.9</magV>
 		<magR errorminus="0.08" errorplus="0.08">13.06</magR>
 		<magI errorminus="0.04" errorplus="0.04">12.29</magI>
 		<magJ errorminus="0.023" errorplus="0.023">11.753</magJ>
 		<magH errorminus="0.025" errorplus="0.025">11.465</magH>
 		<magK errorminus="0.026" errorplus="0.026">11.401</magK>
-		<metallicity>-0.37</metallicity>
 		<spectraltype>G6V</spectraltype>
+		<mass errorminus="0.076" errorplus="0.076">0.828</mass>
+		<radius errorminus="0.027" errorplus="0.027">0.858</radius>
+		<temperature>5600</temperature>
+		<metallicity>-0.3</metallicity>
+		<age errorminus="5.5" errorplus="3.7">9.6</age>
 		<planet>
 			<name>WASP-46 b</name>
 			<name>2MASS J21145687-5552184 b</name>
 			<list>Confirmed planets</list>
-			<mass>2.101</mass>
-			<radius>1.31</radius>
-			<period>1.43037</period>
-			<semimajoraxis>0.02448</semimajoraxis>
-			<eccentricity>0.0</eccentricity>
-			<inclination>82.63</inclination>
-			<transittime errorminus="0.00020" errorplus="0.00020" unit="BJD">2455392.31627</transittime>
+			<mass errorminus="0.13" errorplus="0.13">1.91</mass>
+			<radius errorminus="0.037" errorplus="0.037">1.174</radius>
+			<period errorminus="0.00000093" errorplus="0.00000093">1.43036763</period>
+			<semimajoraxis errorminus="0.00072" errorplus="0.00072">0.02335</semimajoraxis>
+			<inclination errorminus="0.17" errorplus="0.17">82.80</inclination>
+			<transittime errorminus="0.00058" errorplus="0.00058" unit="BJD">2455392.31659</transittime>
 			<description>WASP-46 b has about twice the mass of Jupiter and orbits a G6V star which shows evidence of being photospherically and chromospherically active.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>11/05/17</lastupdate>
+			<lastupdate>17/12/15</lastupdate>
 			<discoveryyear>2011</discoveryyear>
-			<temperature>1516.6</temperature>
 			<istransiting>1</istransiting>
 		</planet>
-		<name>WASP-46</name>
-		<temperature>5620.0</temperature>
 	</star>
 </system>
