@@ -1,28 +1,37 @@
 <system>
 	<name>V391 Peg</name>
-	<rightascension>22 04 12</rightascension>
-	<declination>+26 25 08</declination>
-	<distance>1400</distance>
+	<rightascension>22 04 12.109</rightascension>
+	<declination>+26 25 07.77</declination>
+	<distance errorminus="180" errorplus="180">1400</distance>
 	<star>
-		<mass>0.5</mass>
-		<radius>0.23</radius>
-		<magV>14.57</magV>
-		<magB>13.6</magB>
-		<spectraltype>sdB</spectraltype>
+		<name>V391 Peg</name>
+		<name>V391 Pegasi</name>
+		<name>HS 2201+2610</name>
+		<name>GSC 02212-01369</name>
+		<name>2MASS J22041211+2625078</name>
+		<magB errorminus="0.03" errorplus="0.03">14.41</magB>
+		<magV errorminus="0.05" errorplus="0.05">14.61</magV>
+		<magR errorminus="0.20" errorplus="0.20">15.00</magR>
+		<magJ errorminus="0.05" errorplus="0.05">15.17</magJ>
+		<magH errorminus="0.10" errorplus="0.10">15.16</magH>
+		<magK errorminus="0.20" errorplus="0.20">15.38</magK>
+		<spectraltype>sdBV</spectraltype>
+		<mass errorminus="0.05" errorplus="0.05">0.5</mass>
+		<radius errorminus="0.03" errorplus="0.03">0.23</radius>
+		<temperature errorminus="500" errorplus="500">29300</temperature>
 		<planet>
 			<name>V391 Peg b</name>
 			<name>V0391 Peg b</name>
-			<list>Confirmed planets</list>
-			<mass>3.2</mass>
-			<period>1170</period>
-			<semimajoraxis>1.7</semimajoraxis>
+			<name>HS 2201+2610 b</name>
+			<list>Controversial</list>
+			<mass errorminus="0.7" errorplus="0.7" type="msini">3.2</mass>
+			<period errorminus="44" errorplus="44">1170</period>
+			<semimajoraxis errorminus="0.1" errorplus="0.1">1.7</semimajoraxis>
 			<eccentricity>0.0</eccentricity>
 			<discoverymethod>timing</discoverymethod>
-			<lastupdate>07/09/14</lastupdate>
+			<description>Analysis of 13 years of photometric data for the pulsating sdB star V391 Peg indicated that the pulsation modes agree less well than before, making the presence of a planet orbiting the star more uncertain.</description>
+			<lastupdate>17/12/15</lastupdate>
 			<discoveryyear>2007</discoveryyear>
-			<temperature>475.2</temperature>
 		</planet>
-		<name>V391 Peg</name>
-		<temperature>29300.0</temperature>
 	</star>
 </system>
