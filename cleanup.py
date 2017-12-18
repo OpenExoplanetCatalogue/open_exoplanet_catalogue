@@ -7,7 +7,7 @@ import sys
 import datetime
 import re
 
-num_format = re.compile(r'^\-?[0-9]*\.?[0-9]*e?[\-\+]?[0-9]?[0-9]?$')
+num_format = re.compile(r'^-?[0-9]+(\.[0-9]+)?([eE][-+]?[0-9]+)?$')
 
 
 # Variables to keep track of progress
@@ -108,7 +108,7 @@ validlists = [
     "Planets in globular clusters"]
 validdiscoverymethods = ["RV", "transit", "timing", "imaging", "microlensing"]
 tagsallowmultiple = ["list", "name", "planet", "star", "binary", "separation"]
-numerictags = ["mass", "radius", "ascnedingnode", "discoveryyear", "semimajoraxis", "period",
+numerictags = ["mass", "radius", "ascendingnode", "discoveryyear", "semimajoraxis", "period",
     "magV", "magJ", "magH", "magR", "magB", "magK", "magI", "magU", "distance", "longitude", "age",
     "metallicity", "inclination", "periastron", "eccentricity", "temperature", "transittime",
     "spinorbitalignment", "separation", "positionangle", "periastrontime", "meananomaly",
@@ -271,9 +271,9 @@ for filename in glob.glob("systems*/*.xml"):
 
         # Convert units to default units
     for mass in root.findall(".//planet/mass[@unit='me']"):
-        convertunit(mass, 0.0031457007)
+        convertunit(mass, 0.0031463518)
     for radius in root.findall(".//planet/radius[@unit='re']"):
-        convertunit(radius, 0.091130294)
+        convertunit(radius, 0.089214178)
     for angle in root.findall(".//*[@unit='rad']"):
         convertunit(angle, 57.2957795130823)
 
