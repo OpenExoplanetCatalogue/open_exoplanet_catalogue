@@ -113,7 +113,7 @@ validlists = [
     "Planets in globular clusters"]
 validdiscoverymethods = ["RV", "transit", "timing", "imaging", "microlensing"]
 tagsallowmultiple = ["list", "name", "planet", "star", "binary", "separation"]
-numerictags = ["mass", "radius", "ascendingnode", "discoveryyear", "semimajoraxis", "period",
+numerictags = ["mass", "radius", "discoveryyear", "semimajoraxis", "period",
     "magV", "magJ", "magH", "magR", "magB", "magK", "magI", "magU", "distance", "longitude", "age",
     "metallicity", "inclination", "periastron", "eccentricity", "temperature", "transittime",
     "spinorbitalignment", "separation", "positionangle", "periastrontime", "meananomaly",
