@@ -7,7 +7,7 @@ import sys
 import datetime
 import re
 
-num_format = re.compile(r'^-?[0-9]+(\.[0-9]+)?([eE][-+]?[0-9]+)?$')
+num_format = re.compile(r'^\-?[0-9]*\.?[0-9]*e?[\-\+]?[0-9]?[0-9]?$')
 
 
 # Variables to keep track of progress
