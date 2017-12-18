@@ -7,7 +7,12 @@ import sys
 import datetime
 import re
 
-num_format = re.compile(r'^\-?[0-9]*\.?[0-9]*e?[\-\+]?[0-9]?[0-9]?$')
+# Regex for valid numbers
+num_format = re.compile(r'''^(?![eE])           # match cannot start with [eE]
+                            (-(?=[0-9.]))?      # - (if present) must be followed by digits or dot
+                            [0-9]*(\.[0-9]+)?   # int/floating point digits
+                            ([eE][-+]?[0-9]+)?  # exponent notation
+                            $''', re.VERBOSE)   # match must end string, and multi-line format flag
 
 
 # Variables to keep track of progress
