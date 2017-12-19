@@ -1,38 +1,70 @@
 <system>
 	<name>EPIC 201549860</name>
+	<name>K2-35</name>
 	<rightascension>11 20 24.739</rightascension>
 	<declination>+01 17 09.44</declination>
 	<distance errorminus="9" errorplus="9">249</distance>
 	<binary>
+		<name>EPIC 201549860</name>
+		<name>K2-35</name>
+		<separation errorminus="0.05" errorplus="0.05" unit="arcsec">21.21</separation>
 		<star>
-			<name>EPIC 201549860</name>
-			<mass errorminus="0.03" errorplus="0.03">0.73</mass>
-			<radius errorminus="0.02" errorplus="0.02">0.69</radius>
-			<temperature errorminus="47" errorplus="43">4523</temperature>
-			<magJ errorminus="0.02" errorplus="0.02">12.14</magJ>
-			<magH errorminus="0.02" errorplus="0.02">11.56</magH>
-			<magK errorminus="0.02" errorplus="0.02">11.42</magK>
+			<name>EPIC 201549860 A</name>
+			<name>K2-35 A</name>
+			<name>2MASS J11202473+0117094</name>
+			<mass errorminus="0.070197" errorplus="0.070197">0.701968</mass>
+			<radius errorminus="0.028268" errorplus="0.028977">0.619575</radius>
+			<temperature errorminus="93.269379" errorplus="95.550148">4402.713379</temperature>
+			<magB errorminus="0.06" errorplus="0.06">15.56</magB>
+			<magV errorminus="0.05" errorplus="0.05">14.37</magV>
+			<magR errorminus="0.15" errorplus="0.15">13.95</magR>
+			<magJ errorminus="0.024" errorplus="0.02">12.144</magJ>
+			<magH errorminus="0.024" errorplus="0.02">11.564</magH>
+			<magK errorminus="0.021" errorplus="0.02">11.423</magK>
 			<metallicity errorminus="0.14" errorplus="0.15">0.05</metallicity>
 			<planet>
 				<name>EPIC 201549860 b</name>
+				<name>EPIC 201549860 A b</name>
+				<name>K2-35 b</name>
+				<name>K2-35 A b</name>
 				<name>EPIC 201549860.01</name>
-				<list>Controversial</list>
-				<radius errorminus="0.037" errorplus="0.037">0.203</radius>
-				<period errorminus="0.00055" errorplus="0.00055">5.6084</period>
-				<transittime errorminus="0.0047" errorplus="0.0047" unit="BJD">2456812.1181</transittime>
-				<semimajoraxis errorminus="0.0008" errorplus="0.0008">0.0555</semimajoraxis>
-				<temperature errorminus="14" errorplus="14">766</temperature>
+				<list>Confirmed planets</list>
+				<radius errorminus="0.010" errorplus="0.012">0.172</radius>
+				<period errorminus="0.000338" errorplus="0.000335">5.608352</period>
+				<transittime errorminus="0.002" errorplus="0.002" unit="BJD">2456812.119</transittime>
+				<semimajoraxis errorminus="0.002" errorplus="0.002">0.055</semimajoraxis>
+				<eccentricity errorminus="0.0961214" errorplus="0.156754">0.120000</eccentricity>
+				<periastron errorminus="143.8158660" errorplus="94.4386660">41.1600000</periastron>
 				<description>This planet was discovered by the Kepler spacecraft during its extended K2 mission, Campaign 1.</description>
 				<discoverymethod>transit</discoverymethod>
 				<istransiting>1</istransiting>
-				<lastupdate>15/07/07</lastupdate>
+				<lastupdate>17/12/19</lastupdate>
 				<discoveryyear>2015</discoveryyear>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+			<planet>
+				<name>EPIC 201549860 c</name>
+				<name>EPIC 201549860 A c</name>
+				<name>K2-35 c</name>
+				<name>K2-35 A c</name>
+				<name>EPIC 201549860.02</name>
+				<list>Confirmed planets</list>
+				<period errorminus="0.000204" errorplus="0.000198">2.399964</period>
+				<semimajoraxis errorminus="0.001" errorplus="0.001">0.031</semimajoraxis>
+				<inclination errorminus="0.98" errorplus="0.71">88.98</inclination>
+				<eccentricity errorminus="0.105654" errorplus="0.173535">0.130000</eccentricity>
+				<periastron errorminus="66.1072710" errorplus="65.8804250">-74.5500000</periastron>
+				<radius errorminus="0.007" errorplus="0.007">0.118</radius>
+				<transittime errorminus="0.004" errorplus="0.004" unit="BJD">2456810.584</transittime>
+				<discoverymethod>transit</discoverymethod>
+				<discoveryyear>2016</discoveryyear>
+				<istransiting>1</istransiting>
+				<lastupdate>17/12/19</lastupdate>
 				<list>Planets in binary systems, S-type</list>
 			</planet>
 		</star>
 		<star>
 			<name>EPIC 201549860 B</name>
 		</star>
-		<separation errorminus="0.05" errorplus="0.05" unit="arcsec">21.21</separation>
 	</binary>
 </system>
