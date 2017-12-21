@@ -1,0 +1,32 @@
+<system>
+	<name>KOI-2700</name>
+	<name>KIC 8639908</name>
+	<rightascension>19 48 00.852</rightascension>
+	<declination>44 46 30.32</declination>
+	<star>
+		<name>KOI-2700</name>
+		<name>KIC 8639908</name>
+		<name>2MASS J19480085+4446303</name>
+		<magJ errorminus="0.026" errorplus="0.026">13.578</magJ>
+		<magH errorminus="0.024" errorplus="0.024">12.993</magH>
+		<magK errorminus="0.028" errorplus="0.028">12.840</magK>
+		<temperature errorminus="66" errorplus="66">4433</temperature>
+		<mass errorminus="0.063" errorplus="0.063">0.632</mass>
+		<radius errorminus="0.057" errorplus="0.057">0.574</radius>
+		<metallicity>-0.2</metallicity>
+		<planet>
+			<name>KOI-2700 b</name>
+			<name>KIC 8639908 b</name>
+			<list>Confirmed planets</list>
+			<period errorminus="0.0000015" errorplus="0.0000015">0.9100259</period>
+			<inclination errorminus="1.96" errorplus="1.54">87.06</inclination>
+			<radius upperlimit="0.871" />
+			<transittime errorminus="0.004" errorplus="0.004" unit="BJD">2454900.358</transittime>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2014</discoveryyear>
+			<description>KOI-2700 b is an evaporating planet with an orbital period less than one day.</description>
+			<lastupdate>17/12/21</lastupdate>
+			<istransiting>1</istransiting>
+		</planet>
+	</star>
+</system>
