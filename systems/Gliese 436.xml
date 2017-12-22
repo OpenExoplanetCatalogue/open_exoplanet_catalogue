@@ -1,68 +1,80 @@
 <system>
 	<name>Gliese 436</name>
+	<name>Gl 436</name>
 	<name>GJ 436</name>
-	<rightascension>11 42 11</rightascension>
-	<declination>+26 42 23</declination>
-	<distance errorminus="0.23" errorplus="0.25">10.14</distance>
+	<rightascension>11 42 11.0932</rightascension>
+	<declination>+26 42 23.653</declination>
+	<distance errorminus="0.029" errorplus="0.029">9.748</distance>
 	<star>
-		<mass errorminus="0.012" errorplus="0.014">0.452</mass>
-		<radius errorminus="0.012" errorplus="0.014">0.464</radius>
+		<name>Gliese 436</name>
+		<name>Gl 436</name>
+		<name>GJ 436</name>
+		<name>HIP 57087</name>
+		<name>TYC 1984-2613-1</name>
+		<name>Ross 905</name>
+		<name>LHS 310</name>
+		<name>2MASS J11421096+2642251</name>
+		<magB errorminus="0.28" errorplus="0.28">12.06</magB>
 		<magV errorminus="0.011" errorplus="0.009">10.59</magV>
 		<magR>9.58</magR>
 		<magI>8.24</magI>
-		<magB errorminus="0.28" errorplus="0.28">12.06</magB>
 		<magJ errorminus="0.024" errorplus="0.024">6.900</magJ>
 		<magH errorminus="0.023" errorplus="0.023">6.319</magH>
 		<magK errorminus="0.016" errorplus="0.016">6.073</magK>
+		<spectraltype>M3V</spectraltype>
+		<temperature errorminus="60" errorplus="60">3479</temperature>
+		<mass errorminus="0.044" errorplus="0.044">0.445</mass>
+		<radius errorminus="0.019" errorplus="0.019">0.449</radius>
 		<metallicity>-0.32</metallicity>
-		<spectraltype>M2V</spectraltype>
+		<age lowerlimit="4" upperlimit="8" />
 		<planet>
 			<name>Gliese 436 b</name>
 			<name>GJ 436 b</name>
-			<name>Gj 436 b</name>
 			<name>Gl 436 b</name>
 			<list>Confirmed planets</list>
-			<mass errorminus="0.0032" errorplus="0.0032">0.0727</mass>
-			<radius errorminus="0.0092" errorplus="0.0082">0.3767</radius>
-			<period errorminus="0.00009" errorplus="0.00009">2.643850</period>
-			<semimajoraxis errorminus="0.0048" errorplus="0.0048">0.02872</semimajoraxis>
-			<eccentricity errorminus="0.012" errorplus="0.012">0.15</eccentricity>
-			<inclination errorminus="0.25" errorplus="0.25">85.8</inclination>
-			<transittime errorminus="0.0001" errorplus="0.0001" unit="BJD">2454222.6172</transittime>
+			<mass errorminus="0.00629" errorplus="0.00661">0.07992</mass>
+			<radius errorminus="0.015" errorplus="0.015">0.361</radius>
+			<period errorminus="0.00000026" errorplus="0.00000026">2.64389803</period>
+			<semimajoraxis errorminus="0.0053" errorplus="0.0053">0.0286</semimajoraxis>
+			<eccentricity errorminus="0.004" errorplus="0.004">0.1616</eccentricity>
+			<inclination errorminus="0.052" errorplus="0.049">86.858</inclination>
+			<transittime errorminus="0.000035" errorplus="0.000035" unit="BJD">2454865.084034</transittime>
+			<periastron errorminus="2.2" errorplus="1.8">327.2</periastron>
+			<spinorbitalignment errorminus="18" errorplus="21" type="3D">80</spinorbitalignment>
 			<description>The star Gliese 436 is located in the constellation Leo. Due to tidal forces the planet Gliese 436b is expected to circularise on short timescales. It might be perturbed by an additional planet in the system.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>14/03/31</lastupdate>
+			<lastupdate>17/12/22</lastupdate>
 			<discoveryyear>2004</discoveryyear>
-			<temperature>650.3</temperature>
 			<istransiting>1</istransiting>
 		</planet>
 		<planet>
-			<name>Gliese 436 c</name>
-			<name>GJ 436 c</name>
-			<name>Gj 436 c</name>
-			<name>Gl 436 c</name>
 			<name>UCF-1.01</name>
 			<list>Controversial</list>
-			<mass>0.0008807961</mass>
-			<radius>0.06014599</radius>
-			<period>1.3658</period>
-			<semimajoraxis>0.0185</semimajoraxis>
-			<eccentricity>0</eccentricity>
-			<inclination>85.1</inclination>
-			<transittime errorminus="0.0018" errorplus="0.0018" unit="HJD">2454600.69795</transittime>
-			<description>The star Gliese 436 is located in the constellation Leo. While observing the already known planet Gliese 436 b with the Spitzer Space Telescope, astronomers have discovered an additional transiting planet Gliese 436 c. The planet is also known as UCF-1.01. There might be even more planets in the system.</description>
+			<radius errorminus="0.0036" errorplus="0.0036">0.0589</radius>
+			<period errorminus="0.000008" errorplus="0.000008">1.365862</period>
+			<inclination errorminus="0.16" errorplus="0.8">85.17</inclination>
+			<transittime errorminus="0.0016" errorplus="0.0016" unit="BJD">2455772.8086</transittime>
+			<description>The star Gliese 436 is located in the constellation Leo. While observing the already known planet Gliese 436 b with the Spitzer Space Telescope, astronomers identified two sub-Earth sized candidates, UCF-1.01 and UCF-1.02. Follow-up observations by Stevenson et al. (2014) failed to find the planet.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>12/07/20</lastupdate>
+			<lastupdate>17/12/22</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<image>ucf101</image>
-			<imagedescription>This artist's concept shows what astronomers believe is an alien world just two-thirds the size of Earth. It was identified by NASA's Spitzer Space Telescope. UCF-1.01 might be the nearest world to our solar system that is smaller than our home planet. 
-	
+			<imagedescription>This artist's concept shows what astronomers believe is an alien world just two-thirds the size of Earth. It was identified by NASA's Spitzer Space Telescope. UCF-1.01 might be the nearest world to our solar system that is smaller than our home planet.
+
 	Credit: NASA/JPL-Caltech</imagedescription>
-			<temperature>813.5</temperature>
 			<istransiting>1</istransiting>
 		</planet>
-		<name>Gliese 436</name>
-		<temperature>3684.0</temperature>
+		<planet>
+			<name>UCF-1.02</name>
+			<list>Controversial</list>
+			<radius errorminus="0.0054" errorplus="0.0054">0.0580</radius>
+			<transittime errorminus="0.003" errorplus="0.003" unit="BJD">2455225.026</transittime>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2012</discoveryyear>
+			<description>The planet candidate UCF-1.02 was identified based on the detection of two possible transits separated by 151 days. This is insufficient to determine an orbital period, and the candidate has not been confirmed.</description>
+			<lastupdate>17/12/22</lastupdate>
+			<istransiting>1</istransiting>
+		</planet>
 	</star>
 	<videolink>http://youtu.be/csx-hif97mw</videolink>
 </system>
