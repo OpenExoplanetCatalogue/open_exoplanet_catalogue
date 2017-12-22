@@ -1,0 +1,35 @@
+<system>
+	<name>KIC 12557548</name>
+	<name>KOI-3794</name>
+	<name>Kepler-1520</name>
+	<rightascension>19 23 51.891</rightascension>
+	<declination>+51 30 17.00</declination>
+	<star>
+		<name>KIC 12557548</name>
+		<name>KOI-3794</name>
+		<name>Kepler-1520</name>
+		<magJ errorminus="0.035" errorplus="0.035">14.021</magJ>
+		<magH errorminus="0.035" errorplus="0.035">13.433</magH>
+		<magK errorminus="0.035" errorplus="0.035">13.319</magK>
+		<temperature errorminus="131" errorplus="140">4550</temperature>
+		<mass errorminus="0.059" errorplus="0.067">0.666</mass>
+		<radius errorminus="0.059" errorplus="0.060">0.660</radius>
+		<metallicity errorminus="0.320" errorplus="0.320">-0.180</metallicity>
+		<planet>
+			<name>KIC 12557548 b</name>
+			<name>KOI-3794 b</name>
+			<name>KOI-3794.01</name>
+			<name>Kepler-1520 b</name>
+			<discoverymethod>transit</discoverymethod>
+			<list>Confirmed planets</list>
+			<discoveryyear>2012</discoveryyear>
+			<lastupdate>17/12/21</lastupdate>
+			<istransiting>1</istransiting>
+			<description>KIC 12557548 is a small planet in a short-period orbit. The transits are asymmetric due to a tail of dust evaporating from the planet.</description>
+			<period errorminus="0.0000001" errorplus="0.0000001">0.6535538</period>
+			<radius upperlimit="0.72" />
+			<impactparameter upperlimit="0.80" />
+			<transittime errorminus="0.002" errorplus="0.002">2455399.824</transittime>
+		</planet>
+	</star>
+</system>
