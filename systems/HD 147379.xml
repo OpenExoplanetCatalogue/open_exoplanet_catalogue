@@ -1,0 +1,81 @@
+<system>
+	<name>HD 147379</name>
+	<name>Gliese 617</name>
+	<name>Gl 617</name>
+	<name>GJ 617</name>
+	<rightascension>16 16 42.7462</rightascension>
+	<declination>+67 14 19.832</declination>
+	<distance errorminus="0.027" errorplus="0.027">10.735</distance>
+	<binary>
+		<name>Gliese 617</name>
+		<name>Gl 617</name>
+		<name>GJ 617</name>
+		<name>WDS J16167+6714</name>
+		<separation unit="arcsec">64.40</separation>
+		<separation unit="AU">690</separation>
+		<positionangle>14</positionangle>
+		<star>
+			<name>HD 147379</name>
+			<name>Gliese 617 A</name>
+			<name>Gl 617 A</name>
+			<name>GJ 617 A</name>
+			<name>HIP 79755</name>
+			<name>TYC 4195-721-1</name>
+			<name>BD+67 935</name>
+			<name>2MASS J16164280+6714196</name>
+			<name>SAO 17026</name>
+			<name>WDS J16167+6714 A</name>
+			<magB>10.01</magB>
+			<magV errorminus="0.08" errorplus="0.08">8.896</magV>
+			<magR errorminus="0.06" errorplus="0.06">8.730</magR>
+			<magI>7.1</magI>
+			<magJ errorminus="0.019" errorplus="0.019">5.779</magJ>
+			<magH errorminus="0.034" errorplus="0.034">5.136</magH>
+			<magK errorminus="0.018" errorplus="0.018">4.953</magK>
+			<spectraltype>M0.0V</spectraltype>
+			<mass errorminus="0.08" errorplus="0.08">0.58</mass>
+			<radius errorminus="0.06" errorplus="0.06">0.57</radius>
+			<temperature errorminus="50" errorplus="50">4090</temperature>
+			<metallicity errorminus="0.16" errorplus="0.16">0.16</metallicity>
+			<planet>
+				<name>HD 147379 b</name>
+				<list>Confirmed planets</list>
+				<period errorminus="0.06" errorplus="0.07">86.54</period>
+				<eccentricity errorminus="0.01" errorplus="0.12">0.01</eccentricity>
+				<periastron errorminus="122" errorplus="111">93</periastron>
+				<transittime errorminus="4.1" errorplus="4.9">2451665.1</transittime>
+				<semimajoraxis errorminus="0.0002" errorplus="0.0002">0.3193</semimajoraxis>
+				<mass errorminus="0.00755" errorplus="0.00566" type="msini">0.07771</mass>
+				<istransiting>0</istransiting>
+				<discoverymethod>RV</discoverymethod>
+				<discoveryyear>2017</discoveryyear>
+				<description>HD 147379 b is a Neptune-sized planet orbiting in the temperate zone of an early-M dwarf.</description>
+				<lastupdate>17/12/22</lastupdate>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+		<star>
+			<name>EW Draconis</name>
+			<name>EW Dra</name>
+			<name>Gliese 617 B</name>
+			<name>Gl 617 B</name>
+			<name>GJ 617 B</name>
+			<name>HIP 79762</name>
+			<name>TYC 4195-1167-1</name>
+			<name>2MASS J16164537+6715224</name>
+			<name>WDS J16167+6714 B</name>
+			<magB>12.20</magB>
+			<magV errorminus="0.04" errorplus="0.04">10.615</magV>
+			<magR errorminus="0.01" errorplus="0.01">10.310</magR>
+			<magI>9.0</magI>
+			<magJ errorminus="0.021" errorplus="0.021">6.908</magJ>
+			<magH errorminus="0.021" errorplus="0.021">6.300</magH>
+			<magK errorminus="0.020" errorplus="0.020">6.066</magK>
+			<spectraltype>M3.0Ve</spectraltype>
+			<metallicity errorminus="0.08" errorplus="0.08">0.10</metallicity>
+			<temperature errorminus="73" errorplus="73">3516</temperature>
+			<radius errorminus="0.05" errorplus="0.05">0.39</radius>
+			<mass errorminus="0.07" errorplus="0.07">0.40</mass>
+		</star>
+	</binary>
+</system>
