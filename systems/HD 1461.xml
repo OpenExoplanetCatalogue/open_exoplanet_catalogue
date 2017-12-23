@@ -1,44 +1,79 @@
 <system>
 	<name>HD 1461</name>
-	<rightascension>00 18 42</rightascension>
-	<declination>-08 03 11</declination>
-	<distance>23.4</distance>
+	<rightascension>00 18 41.86724</rightascension>
+	<declination>-08 03 10.8024</declination>
+	<distance errorminus="0.28" errorplus="0.28">23.25</distance>
 	<star>
-		<mass>1.08</mass>
-		<radius>1.095</radius>
-		<magV>6.64</magV>
+		<name>HD 1461</name>
+		<name>HIP 1499</name>
+		<name>TYC 5261-789-1</name>
+		<name>BD-08 38</name>
+		<name>Gliese 16.1</name>
+		<name>Gl 16.1</name>
+		<name>GJ 16.1</name>
+		<name>GJ 9009</name>
+		<name>2MASS J00184182-0803105</name>
+		<name>SAO 128690</name>
 		<magB>7.14</magB>
+		<magV>6.46</magV>
 		<magJ errorminus="0.018" errorplus="0.018">5.329</magJ>
 		<magH errorminus="0.047" errorplus="0.047">5.041</magH>
 		<magK errorminus="0.023" errorplus="0.023">4.897</magK>
-		<metallicity>0.19</metallicity>
+		<temperature errorminus="18" errorplus="18">5765</temperature>
+		<metallicity errorminus="0.01" errorplus="0.01">0.19</metallicity>
+		<mass>1.02</mass>
+		<radius>1.095</radius>
 		<spectraltype>G0V</spectraltype>
 		<planet>
 			<name>HD 1461 b</name>
 			<list>Confirmed planets</list>
-			<mass>0.0239</mass>
-			<period>5.7727</period>
-			<semimajoraxis>0.063438</semimajoraxis>
-			<eccentricity>0.14</eccentricity>
+			<mass errorminus="0.00192" errorplus="0.00192" type="msini">0.02026</mass>
+			<period errorminus="0.00045" errorplus="0.00045">5.77152</period>
+			<semimajoraxis errorminus="0.0022" errorplus="0.0022">0.0634</semimajoraxis>
+			<eccentricity upperlimit="0.172" />
+			<longitude errorminus="4.1" errorplus="4.1">271.6</longitude>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>09/12/15</lastupdate>
+			<lastupdate>17/12/23</lastupdate>
 			<discoveryyear>2009</discoveryyear>
-			<temperature>1054.8</temperature>
 		</planet>
 		<planet>
 			<name>HD 1461 c</name>
 			<list>Confirmed planets</list>
-			<mass>0.0186</mass>
-			<period>13.505</period>
-			<semimajoraxis>0.1117</semimajoraxis>
-			<eccentricity>0.0</eccentricity>
+			<mass errorminus="0.00230" errorplus="0.00230" type="msini">0.01759</mass>
+			<period errorminus="0.0029" errorplus="0.0029">13.5052</period>
+			<semimajoraxis errorminus="0.0039" errorplus="0.0039">0.1117</semimajoraxis>
+			<eccentricity upperlimit="0.305" />
+			<longitude errorminus="6.6" errorplus="6.6">317.9</longitude>
 			<description>This planet is part of a large data release by the Euopean HARP team.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>11/09/12</lastupdate>
-			<discoveryyear>2011</discoveryyear>
-			<temperature>795.9</temperature>
+			<lastupdate>17/12/23</lastupdate>
+			<discoveryyear>2016</discoveryyear>
 		</planet>
-		<name>HD 1461</name>
-		<temperature>5765.0</temperature>
+		<planet>
+			<name>HD 1461 d</name>
+			<list>Controversial</list>
+			<period errorminus="9" errorplus="9">446</period>
+			<eccentricity>0</eccentricity>
+			<meananomaly errorminus="52" errorplus="52">82</meananomaly>
+			<mass errorminus="0.01541" errorplus="0.01541" type="msini">0.08778</mass>
+			<semimajoraxis errorminus="0.016" errorplus="0.016">1.151</semimajoraxis>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2009</discoveryyear>
+			<description>A planet candidate in a ~450-day orbit was announced by Rivera et al. (2010). This planet was not confirmed by follow-up studies, and according to Díaz et al. (2016) the signal may be due to incomplete sampling of the stellar activity cycle. This planet candidate was originally designated HD 1461 c, however this designation was subsequently used for the 13.5-day planet. The Extrasolar Planets Encyclopaedia uses the designation HD 1461 d to refer to this planet.</description>
+			<lastupdate>17/12/23</lastupdate>
+		</planet>
+		<planet>
+			<name>HD 1461 e</name>
+			<list>Controversial</list>
+			<period errorminus="1171" errorplus="1171">5017</period>
+			<eccentricity>0</eccentricity>
+			<meananomaly errorminus="36" errorplus="36">319</meananomaly>
+			<mass errorminus="0.1630" errorplus="0.1630" type="msini">0.2740</mass>
+			<semimajoraxis errorminus="0.82" errorplus="0.82">5.78</semimajoraxis>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2009</discoveryyear>
+			<description>A planet candidate in a ~5000-day orbit was announced by Rivera et al. (2010). This planet was not confirmed by follow-up studies, and according to Díaz et al. (2016) the signal may be due to incomplete sampling of the stellar activity cycle. This planet candidate was originally designated HD 1461 d, however due to the use of HD 1461 c for the 13.5-day planet, the Extrasolar Planets Encyclopaedia uses the designation HD 1461 e to refer to this planet.</description>
+			<lastupdate>17/12/23</lastupdate>
+		</planet>
 	</star>
 </system>
