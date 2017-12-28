@@ -1,56 +1,67 @@
 <system>
 	<name>HD 204313</name>
-	<rightascension>21 28 12</rightascension>
-	<declination>-21 43 35</declination>
-	<distance>47.37</distance>
+	<rightascension>21 28 12.20709</rightascension>
+	<declination>-21 43 34.5199</declination>
+	<distance errorminus="1.4" errorplus="1.4">47.4</distance>
 	<star>
-		<mass>1.045</mass>
-		<magV>7.99</magV>
+		<name>HD 204313</name>
+		<name>HIP 106006</name>
+		<name>TYC 6373-682-1</name>
+		<name>BD-22 5691</name>
+		<name>CD-22 15401</name>
+		<name>CPD-22 8028</name>
+		<name>2MASS J21281220-2143340</name>
+		<name>SAO 190362</name>
 		<magB errorminus="0.018" errorplus="0.018">8.696</magB>
+		<magV errorminus="0.01" errorplus="0.01">8.02</magV>
 		<magR>7.76</magR>
 		<magJ errorminus="0.024" errorplus="0.024">6.812</magJ>
 		<magH errorminus="0.040" errorplus="0.040">6.539</magH>
 		<magK errorminus="0.018" errorplus="0.018">6.459</magK>
-		<metallicity>0.18</metallicity>
 		<spectraltype>G5V</spectraltype>
+		<mass>1.02</mass>
+		<temperature errorminus="22" errorplus="22">5776</temperature>
+		<metallicity errorminus="0.02" errorplus="0.02">0.18</metallicity>
 		<planet>
 			<name>HD 204313 b</name>
 			<list>Confirmed planets</list>
-			<mass>3.55</mass>
-			<period>1920.1</period>
+			<mass errorminus="0.30" errorplus="0.30" type="msini">4.28</mass>
+			<period errorminus="3.1" errorplus="3.1">2024.1</period>
 			<semimajoraxis>3.04</semimajoraxis>
-			<eccentricity>0.23</eccentricity>
+			<eccentricity errorminus="0.0032" errorplus="0.0032">0.0946</eccentricity>
+			<periastron errorminus="2.7" errorplus="2.7">292.5</periastron>
+			<longitude errorminus="0.24" errorplus="0.24">107.55</longitude>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>12/05/22</lastupdate>
+			<lastupdate>17/12/23</lastupdate>
 			<discoveryyear>2009</discoveryyear>
-			<temperature>153.8</temperature>
 		</planet>
 		<planet>
 			<name>HD 204313 c</name>
 			<list>Confirmed planets</list>
-			<mass>0.054</mass>
-			<period>34.873</period>
-			<semimajoraxis>0.2103</semimajoraxis>
-			<eccentricity>0.17</eccentricity>
-			<description>This planet is part of a large data release by the Euopean HARP team.</description>
+			<mass errorminus="0.0053" errorplus="0.0053" type="msini">0.0553</mass>
+			<period errorminus="0.012" errorplus="0.012">34.905</period>
+			<semimajoraxis errorminus="0.0071" errorplus="0.0071">0.2099</semimajoraxis>
+			<eccentricity errorminus="0.071" errorplus="0.071">0.155</eccentricity>
+			<periastron errorminus="22" errorplus="22">238</periastron>
+			<longitude errorminus="3.5" errorplus="3.5">46.5</longitude>
+			<description>This planet is part of a large data release by the European HARPS team.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>11/09/12</lastupdate>
+			<lastupdate>17/12/23</lastupdate>
 			<discoveryyear>2011</discoveryyear>
-			<temperature>585.7</temperature>
 		</planet>
 		<planet>
 			<name>HD 204313 d</name>
-			<list>Confirmed planets</list>
-			<mass>1.68</mass>
-			<period>2831.6</period>
-			<semimajoraxis>3.93</semimajoraxis>
-			<eccentricity>0.28</eccentricity>
+			<list>Controversial</list>
+			<mass errorminus="0.3" errorplus="0.3" type="msini">1.68</mass>
+			<period errorminus="150" errorplus="150">2831.6</period>
+			<semimajoraxis errorminus="0.14" errorplus="0.14">3.93</semimajoraxis>
+			<eccentricity errorminus="0.09" errorplus="0.09">0.28</eccentricity>
+			<periastron errorminus="16" errorplus="16">247</periastron>
+			<periastrontime errorminus="176" errorplus="176" unit="BJD">2456376.9</periastrontime>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>12/05/22</lastupdate>
+			<description>The planet candidate HD 204313 d was announced by Robertson et al. (2012) to be in a 3:2 resonance with the giant planet HD 204313 b. The follow-up study by Díaz et al. (2016) failed to confirm this planet candidate.</description>
+			<lastupdate>17/12/23</lastupdate>
 			<discoveryyear>2012</discoveryyear>
-			<temperature>135.1</temperature>
 		</planet>
-		<name>HD 204313</name>
-		<temperature>5767.0</temperature>
 	</star>
 </system>
