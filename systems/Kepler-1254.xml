@@ -1,15 +1,23 @@
 <system>
 	<name>Kepler-1254</name>
+	<name>KOI-2485</name>
+	<name>KIC 11125613</name>
 	<rightascension>19 00 42</rightascension>
 	<declination>+48 46 12</declination>
 	<star>
 		<name>Kepler-1254</name>
+		<name>KOI-2485</name>
+		<name>KIC 11125613</name>
+		<name>2MASS J19004159+4846121</name>
 		<temperature errorminus="45.0" errorplus="53.0">4985.0</temperature>
 		<mass errorminus="0.05" errorplus="0.04">0.78</mass>
 		<radius errorminus="0.05" errorplus="0.03">0.75</radius>
 		<metallicity errorminus="0.20" errorplus="0.15">-0.10</metallicity>
 		<planet>
 			<name>Kepler-1254 b</name>
+			<name>KOI-2485 b</name>
+			<name>KOI-2485.01</name>
+			<name>KIC 11125613 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
@@ -22,6 +30,9 @@
 		</planet>
 		<planet>
 			<name>Kepler-1254 c</name>
+			<name>KOI-2485 c</name>
+			<name>KOI-2485.02</name>
+			<name>KIC 11125613 c</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
@@ -34,6 +45,9 @@
 		</planet>
 		<planet>
 			<name>Kepler-1254 d</name>
+			<name>KOI-2485 d</name>
+			<name>KOI-2485.03</name>
+			<name>KIC 11125613 d</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

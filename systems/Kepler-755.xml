@@ -1,15 +1,23 @@
 <system>
 	<name>Kepler-755</name>
+	<name>KOI-1050</name>
+	<name>KIC 5809890</name>
 	<rightascension>19 47 27</rightascension>
 	<declination>+41 05 50</declination>
 	<star>
 		<name>Kepler-755</name>
+		<name>KOI-1050</name>
+		<name>KIC 5809890</name>
+		<name>2MASS J19472664+4105504</name>
 		<temperature errorminus="83.5" errorplus="89.6">5043.0</temperature>
 		<mass errorminus="0.04" errorplus="0.03">0.82</mass>
 		<radius errorminus="0.02" errorplus="0.02">0.77</radius>
 		<metallicity errorminus="0.11" errorplus="0.10">-0.01</metallicity>
 		<planet>
 			<name>Kepler-755 b</name>
+			<name>KOI-1050 b</name>
+			<name>KOI-1050.01</name>
+			<name>KIC 5809890 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
@@ -22,6 +30,9 @@
 		</planet>
 		<planet>
 			<name>Kepler-755 c</name>
+			<name>KOI-1050 c</name>
+			<name>KOI-1050.02</name>
+			<name>KIC 5809890 c</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

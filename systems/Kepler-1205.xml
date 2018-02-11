@@ -1,15 +1,23 @@
 <system>
 	<name>Kepler-1205</name>
+	<name>KOI-2350</name>
+	<name>KIC 6200235</name>
 	<rightascension>19 21 07</rightascension>
 	<declination>+41 30 54</declination>
 	<star>
 		<name>Kepler-1205</name>
+		<name>KOI-2350</name>
+		<name>KIC 6200235</name>
+		<name>2MASS J19210712+4130541</name>
 		<temperature errorminus="71.3" errorplus="84.8">5226.0</temperature>
 		<mass errorminus="0.05" errorplus="0.04">0.84</mass>
 		<radius errorminus="0.05" errorplus="0.05">0.81</radius>
 		<metallicity errorminus="0.17" errorplus="0.16">-0.04</metallicity>
 		<planet>
 			<name>Kepler-1205 b</name>
+			<name>KOI-2350 b</name>
+			<name>KOI-2350.01</name>
+			<name>KIC 6200235 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

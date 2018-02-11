@@ -1,15 +1,23 @@
 <system>
 	<name>Kepler-1350</name>
+	<name>KOI-2793</name>
+	<name>KIC 9823519</name>
 	<rightascension>19 13 00</rightascension>
 	<declination>+46 40 47</declination>
 	<star>
 		<name>Kepler-1350</name>
+		<name>KOI-2793</name>
+		<name>KIC 9823519</name>
+		<name>2MASS J19130013+4640465</name>
 		<temperature errorminus="59.6" errorplus="45.4">3827.0</temperature>
 		<mass errorminus="0.05" errorplus="0.03">0.55</mass>
 		<radius errorminus="0.05" errorplus="0.03">0.53</radius>
 		<metallicity errorminus="0.16" errorplus="0.12">-0.06</metallicity>
 		<planet>
 			<name>Kepler-1350 b</name>
+			<name>KOI-2793 b</name>
+			<name>KOI-2793.01</name>
+			<name>KIC 9823519 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
@@ -22,6 +30,9 @@
 		</planet>
 		<planet>
 			<name>Kepler-1350 c</name>
+			<name>KOI-2793 c</name>
+			<name>KOI-2793.02</name>
+			<name>KIC 9823519 c</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

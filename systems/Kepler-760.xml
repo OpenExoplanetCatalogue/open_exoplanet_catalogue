@@ -1,15 +1,23 @@
 <system>
 	<name>Kepler-760</name>
+	<name>KOI-1069</name>
+	<name>KIC 8222813</name>
 	<rightascension>19 10 22</rightascension>
 	<declination>+44 10 46</declination>
 	<star>
 		<name>Kepler-760</name>
+		<name>KOI-1069</name>
+		<name>KIC 8222813</name>
+		<name>2MASS J19102237+4410459</name>
 		<temperature errorminus="81.7" errorplus="65.7">5322.0</temperature>
 		<mass errorminus="0.04" errorplus="0.04">0.89</mass>
 		<radius errorminus="0.04" errorplus="0.07">0.85</radius>
 		<metallicity errorminus="0.17" errorplus="0.15">0.08</metallicity>
 		<planet>
 			<name>Kepler-760 b</name>
+			<name>KOI-1069 b</name>
+			<name>KOI-1069.01</name>
+			<name>KIC 8222813 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
@@ -22,6 +30,9 @@
 		</planet>
 		<planet>
 			<name>Kepler-760 c</name>
+			<name>KOI-1069 c</name>
+			<name>KOI-1069.02</name>
+			<name>KIC 8222813 c</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

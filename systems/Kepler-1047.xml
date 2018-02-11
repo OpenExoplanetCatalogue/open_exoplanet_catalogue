@@ -1,15 +1,23 @@
 <system>
 	<name>Kepler-1047</name>
+	<name>KOI-2004</name>
+	<name>KIC 12154526</name>
 	<rightascension>19 14 35</rightascension>
 	<declination>+50 47 20</declination>
 	<star>
 		<name>Kepler-1047</name>
+		<name>KOI-2004</name>
+		<name>KIC 12154526</name>
+		<name>2MASS J19143510+5047203</name>
 		<temperature errorminus="75.6" errorplus="83.6">5754.0</temperature>
 		<mass errorminus="0.04" errorplus="0.05">1.08</mass>
 		<radius errorminus="0.09" errorplus="0.14">1.13</radius>
 		<metallicity errorminus="0.06" errorplus="0.07">0.29</metallicity>
 		<planet>
 			<name>Kepler-1047 b</name>
+			<name>KOI-2004 b</name>
+			<name>KOI-2004.01</name>
+			<name>KIC 12154526 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
@@ -22,6 +30,9 @@
 		</planet>
 		<planet>
 			<name>Kepler-1047 c</name>
+			<name>KOI-2004 c</name>
+			<name>KOI-2004.02</name>
+			<name>KIC 12154526 c</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

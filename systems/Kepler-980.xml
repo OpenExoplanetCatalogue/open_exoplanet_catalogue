@@ -1,15 +1,23 @@
 <system>
 	<name>Kepler-980</name>
+	<name>KOI-1850</name>
+	<name>KIC 8826168</name>
 	<rightascension>19 38 27</rightascension>
 	<declination>+45 03 37</declination>
 	<star>
 		<name>Kepler-980</name>
+		<name>KOI-1850</name>
+		<name>KIC 8826168</name>
+		<name>2MASS J19382712+4503366</name>
 		<temperature errorminus="92.6" errorplus="98.9">5935.0</temperature>
 		<mass errorminus="0.04" errorplus="0.05">1.05</mass>
 		<radius errorminus="0.07" errorplus="0.09">1.06</radius>
 		<metallicity errorminus="0.09" errorplus="0.09">0.01</metallicity>
 		<planet>
 			<name>Kepler-980 b</name>
+			<name>KOI-1850 b</name>
+			<name>KOI-1850.01</name>
+			<name>KIC 8826168 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

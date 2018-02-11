@@ -1,15 +1,23 @@
 <system>
 	<name>Kepler-1641</name>
+	<name>KOI-6145</name>
+	<name>KIC 6221385</name>
 	<rightascension>19 45 26</rightascension>
 	<declination>+41 34 28</declination>
 	<star>
 		<name>Kepler-1641</name>
+		<name>KOI-6145</name>
+		<name>KIC 6221385</name>
+		<name>2MASS J19452626+4134283</name>
 		<temperature errorminus="233.6" errorplus="174.0">6152.0</temperature>
 		<mass errorminus="0.12" errorplus="0.16">1.12</mass>
 		<radius errorminus="0.19" errorplus="0.40">1.19</radius>
 		<metallicity errorminus="0.21" errorplus="0.14">-0.02</metallicity>
 		<planet>
 			<name>Kepler-1641 b</name>
+			<name>KOI-6145 b</name>
+			<name>KOI-6145.01</name>
+			<name>KIC 6221385 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
@@ -22,6 +30,9 @@
 		</planet>
 		<planet>
 			<name>Kepler-1641 c</name>
+			<name>KOI-6145 c</name>
+			<name>KOI-6145.02</name>
+			<name>KIC 6221385 c</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

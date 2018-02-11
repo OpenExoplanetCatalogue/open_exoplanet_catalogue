@@ -1,15 +1,23 @@
 <system>
 	<name>Kepler-1225</name>
+	<name>KOI-2406</name>
+	<name>KIC 5007345</name>
 	<rightascension>19 22 32</rightascension>
 	<declination>+40 08 13</declination>
 	<star>
 		<name>Kepler-1225</name>
+		<name>KOI-2406</name>
+		<name>KIC 5007345</name>
+		<name>2MASS J19223199+4008131</name>
 		<temperature errorminus="147.7" errorplus="133.4">6140.0</temperature>
 		<mass errorminus="0.09" errorplus="0.14">1.13</mass>
 		<radius errorminus="0.15" errorplus="0.40">1.19</radius>
 		<metallicity errorminus="0.18" errorplus="0.14">0.01</metallicity>
 		<planet>
 			<name>Kepler-1225 b</name>
+			<name>KOI-2406 b</name>
+			<name>KOI-2406.01</name>
+			<name>KIC 5007345 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

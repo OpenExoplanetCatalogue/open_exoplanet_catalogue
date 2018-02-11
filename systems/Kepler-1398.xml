@@ -1,15 +1,23 @@
 <system>
 	<name>Kepler-1398</name>
+	<name>KOI-2977</name>
+	<name>KIC 11090556</name>
 	<rightascension>19 39 28</rightascension>
 	<declination>+48 38 20</declination>
 	<star>
 		<name>Kepler-1398</name>
+		<name>KOI-2977</name>
+		<name>KIC 11090556</name>
+		<name>2MASS J19392788+4838203</name>
 		<temperature errorminus="125.4" errorplus="115.4">6126.0</temperature>
 		<mass errorminus="0.08" errorplus="0.12">1.13</mass>
 		<radius errorminus="0.14" errorplus="0.37">1.18</radius>
 		<metallicity errorminus="0.17" errorplus="0.14">0.01</metallicity>
 		<planet>
 			<name>Kepler-1398 b</name>
+			<name>KOI-2977 b</name>
+			<name>KOI-2977.01</name>
+			<name>KIC 11090556 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
@@ -22,6 +30,9 @@
 		</planet>
 		<planet>
 			<name>Kepler-1398 c</name>
+			<name>KOI-2977 c</name>
+			<name>KOI-2977.02</name>
+			<name>KIC 11090556 c</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

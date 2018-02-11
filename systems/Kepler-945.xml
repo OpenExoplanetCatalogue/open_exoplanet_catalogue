@@ -1,15 +1,23 @@
 <system>
 	<name>Kepler-945</name>
+	<name>KOI-1736</name>
+	<name>KIC 6604328</name>
 	<rightascension>19 25 05</rightascension>
 	<declination>+42 05 46</declination>
 	<star>
 		<name>Kepler-945</name>
+		<name>KOI-1736</name>
+		<name>KIC 6604328</name>
+		<name>2MASS J19250473+4205457</name>
 		<temperature errorminus="104.4" errorplus="119.3">5718.0</temperature>
 		<mass errorminus="0.06" errorplus="0.05">0.97</mass>
 		<radius errorminus="0.09" errorplus="0.17">0.97</radius>
 		<metallicity errorminus="0.19" errorplus="0.13">-0.01</metallicity>
 		<planet>
 			<name>Kepler-945 b</name>
+			<name>KOI-1736 b</name>
+			<name>KOI-1736.01</name>
+			<name>KIC 6604328 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

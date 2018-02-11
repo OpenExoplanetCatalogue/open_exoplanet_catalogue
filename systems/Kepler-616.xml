@@ -1,15 +1,23 @@
 <system>
 	<name>Kepler-616</name>
+	<name>KOI-593</name>
+	<name>KIC 9958962</name>
 	<rightascension>19 39 57</rightascension>
 	<declination>+46 50 18</declination>
 	<star>
 		<name>Kepler-616</name>
+		<name>KOI-593</name>
+		<name>KIC 9958962</name>
+		<name>2MASS J19395739+4650179</name>
 		<temperature errorminus="101.5" errorplus="133.2">5753.0</temperature>
 		<mass errorminus="0.05" errorplus="0.06">0.98</mass>
 		<radius errorminus="0.08" errorplus="0.13">0.97</radius>
 		<metallicity errorminus="0.16" errorplus="0.14">-0.02</metallicity>
 		<planet>
 			<name>Kepler-616 b</name>
+			<name>KOI-593 b</name>
+			<name>KOI-593.01</name>
+			<name>KIC 9958962 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
@@ -22,6 +30,9 @@
 		</planet>
 		<planet>
 			<name>Kepler-616 c</name>
+			<name>KOI-593 c</name>
+			<name>KOI-593.02</name>
+			<name>KIC 9958962 c</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

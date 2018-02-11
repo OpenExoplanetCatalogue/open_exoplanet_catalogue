@@ -1,15 +1,23 @@
 <system>
 	<name>Kepler-920</name>
+	<name>KOI-1650</name>
+	<name>KIC 11337372</name>
 	<rightascension>18 57 11</rightascension>
 	<declination>+49 09 31</declination>
 	<star>
 		<name>Kepler-920</name>
+		<name>KOI-1650</name>
+		<name>KIC 11337372</name>
+		<name>2MASS J18571126+4909312</name>
 		<temperature errorminus="59.4" errorplus="62.2">5403.0</temperature>
 		<mass errorminus="0.05" errorplus="0.04">0.89</mass>
 		<radius errorminus="0.05" errorplus="0.07">0.85</radius>
 		<metallicity errorminus="0.19" errorplus="0.15">0.00</metallicity>
 		<planet>
 			<name>Kepler-920 b</name>
+			<name>KOI-1650 b</name>
+			<name>KOI-1650.01</name>
+			<name>KIC 11337372 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
@@ -22,6 +30,9 @@
 		</planet>
 		<planet>
 			<name>Kepler-920 c</name>
+			<name>KOI-1650 c</name>
+			<name>KOI-1650.02</name>
+			<name>KIC 11337372 c</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

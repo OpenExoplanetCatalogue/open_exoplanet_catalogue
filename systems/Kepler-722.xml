@@ -1,15 +1,23 @@
 <system>
 	<name>Kepler-722</name>
+	<name>KOI-911</name>
+	<name>KIC 8490993</name>
 	<rightascension>19 21 03</rightascension>
 	<declination>+44 33 23</declination>
 	<star>
 		<name>Kepler-722</name>
+		<name>KOI-911</name>
+		<name>KIC 8490993</name>
+		<name>2MASS J19210318+4433232</name>
 		<temperature errorminus="131.9" errorplus="103.5">5863.0</temperature>
 		<mass errorminus="0.07" errorplus="0.07">1.03</mass>
 		<radius errorminus="0.11" errorplus="0.28">1.05</radius>
 		<metallicity errorminus="0.17" errorplus="0.14">0.02</metallicity>
 		<planet>
 			<name>Kepler-722 b</name>
+			<name>KOI-911 b</name>
+			<name>KOI-911.01</name>
+			<name>KIC 8490993 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
@@ -22,6 +30,9 @@
 		</planet>
 		<planet>
 			<name>Kepler-722 c</name>
+			<name>KOI-911 c</name>
+			<name>KOI-911.02</name>
+			<name>KIC 8490993 c</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

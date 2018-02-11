@@ -1,15 +1,23 @@
 <system>
 	<name>Kepler-1245</name>
+	<name>KOI-2458</name>
+	<name>KIC 7604328</name>
 	<rightascension>19 22 59</rightascension>
 	<declination>+43 15 39</declination>
 	<star>
 		<name>Kepler-1245</name>
+		<name>KOI-2458</name>
+		<name>KIC 7604328</name>
+		<name>2MASS J19225863+4315387</name>
 		<temperature errorminus="102.0" errorplus="77.5">5306.0</temperature>
 		<mass errorminus="0.04" errorplus="0.04">0.86</mass>
 		<radius errorminus="0.05" errorplus="0.06">0.83</radius>
 		<metallicity errorminus="0.16" errorplus="0.14">-0.01</metallicity>
 		<planet>
 			<name>Kepler-1245 b</name>
+			<name>KOI-2458 b</name>
+			<name>KOI-2458.01</name>
+			<name>KIC 7604328 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
@@ -22,6 +30,9 @@
 		</planet>
 		<planet>
 			<name>Kepler-1245 c</name>
+			<name>KOI-2458 c</name>
+			<name>KOI-2458.02</name>
+			<name>KIC 7604328 c</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

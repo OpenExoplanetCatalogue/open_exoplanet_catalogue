@@ -1,15 +1,23 @@
 <system>
 	<name>Kepler-619</name>
+	<name>KOI-601</name>
+	<name>KIC 10973664</name>
 	<rightascension>19 23 24</rightascension>
 	<declination>+48 24 58</declination>
 	<star>
 		<name>Kepler-619</name>
+		<name>KOI-601</name>
+		<name>KIC 10973664</name>
+		<name>2MASS J19232377+4824576</name>
 		<temperature errorminus="113.1" errorplus="106.4">5980.0</temperature>
 		<mass errorminus="0.06" errorplus="0.07">1.09</mass>
 		<radius errorminus="0.11" errorplus="0.23">1.11</radius>
 		<metallicity errorminus="0.15" errorplus="0.14">0.05</metallicity>
 		<planet>
 			<name>Kepler-619 b</name>
+			<name>KOI-601 b</name>
+			<name>KOI-601.01</name>
+			<name>KIC 10973664 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
@@ -22,6 +30,9 @@
 		</planet>
 		<planet>
 			<name>Kepler-619 c</name>
+			<name>KOI-601 c</name>
+			<name>KOI-601.03</name>
+			<name>KIC 10973664 c</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

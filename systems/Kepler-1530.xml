@@ -1,15 +1,23 @@
 <system>
 	<name>Kepler-1530</name>
+	<name>KOI-3925</name>
+	<name>KIC 10788461</name>
 	<rightascension>19 12 39</rightascension>
 	<declination>+48 09 55</declination>
 	<star>
 		<name>Kepler-1530</name>
+		<name>KOI-3925</name>
+		<name>KIC 10788461</name>
+		<name>2MASS J19123900+4809545</name>
 		<temperature errorminus="65.1" errorplus="62.9">5477.0</temperature>
 		<mass errorminus="0.04" errorplus="0.04">0.92</mass>
 		<radius errorminus="0.05" errorplus="0.09">0.88</radius>
 		<metallicity errorminus="0.17" errorplus="0.14">0.03</metallicity>
 		<planet>
 			<name>Kepler-1530 b</name>
+			<name>KOI-3925 b</name>
+			<name>KOI-3925.02</name>
+			<name>KIC 10788461 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
@@ -22,6 +30,9 @@
 		</planet>
 		<planet>
 			<name>Kepler-1530 c</name>
+			<name>KOI-3925 c</name>
+			<name>KOI-3925.03</name>
+			<name>KIC 10788461 c</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

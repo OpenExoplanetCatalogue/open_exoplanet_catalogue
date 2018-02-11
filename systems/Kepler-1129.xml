@@ -1,15 +1,23 @@
 <system>
 	<name>Kepler-1129</name>
+	<name>KOI-2167</name>
+	<name>KIC 6041734</name>
 	<rightascension>19 26 25</rightascension>
 	<declination>+41 18 34</declination>
 	<star>
 		<name>Kepler-1129</name>
+		<name>KOI-2167</name>
+		<name>KIC 6041734</name>
+		<name>2MASS J19262507+4118336</name>
 		<temperature errorminus="114.3" errorplus="135.0">5831.0</temperature>
 		<mass errorminus="0.06" errorplus="0.06">1.00</mass>
 		<radius errorminus="0.10" errorplus="0.17">1.00</radius>
 		<metallicity errorminus="0.19" errorplus="0.15">-0.04</metallicity>
 		<planet>
 			<name>Kepler-1129 b</name>
+			<name>KOI-2167 b</name>
+			<name>KOI-2167.01</name>
+			<name>KIC 6041734 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
@@ -22,6 +30,9 @@
 		</planet>
 		<planet>
 			<name>Kepler-1129 c</name>
+			<name>KOI-2167 c</name>
+			<name>KOI-2167.03</name>
+			<name>KIC 6041734 c</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

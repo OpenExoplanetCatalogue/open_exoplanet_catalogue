@@ -1,15 +1,23 @@
 <system>
 	<name>Kepler-968</name>
+	<name>KOI-1833</name>
+	<name>KIC 11853878</name>
 	<rightascension>19 02 25</rightascension>
 	<declination>+50 06 43</declination>
 	<star>
 		<name>Kepler-968</name>
+		<name>KOI-1833</name>
+		<name>KIC 11853878</name>
+		<name>2MASS J19022460+5006433</name>
 		<temperature errorminus="38.9" errorplus="37.1">4598.0</temperature>
 		<mass errorminus="0.04" errorplus="0.03">0.76</mass>
 		<radius errorminus="0.03" errorplus="0.02">0.70</radius>
 		<metallicity errorminus="0.21" errorplus="0.13">0.13</metallicity>
 		<planet>
 			<name>Kepler-968 b</name>
+			<name>KOI-1833 b</name>
+			<name>KOI-1833.01</name>
+			<name>KIC 11853878 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
@@ -22,6 +30,9 @@
 		</planet>
 		<planet>
 			<name>Kepler-968 c</name>
+			<name>KOI-1833 c</name>
+			<name>KOI-1833.03</name>
+			<name>KIC 11853878 c</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

@@ -1,15 +1,23 @@
 <system>
 	<name>Kepler-850</name>
+	<name>KOI-1440</name>
+	<name>KIC 11032227</name>
 	<rightascension>19 32 20</rightascension>
 	<declination>+48 34 31</declination>
 	<star>
 		<name>Kepler-850</name>
+		<name>KOI-1440</name>
+		<name>KIC 11032227</name>
+		<name>2MASS J19322027+4834314</name>
 		<temperature errorminus="95.5" errorplus="89.3">5932.0</temperature>
 		<mass errorminus="0.06" errorplus="0.07">1.06</mass>
 		<radius errorminus="0.12" errorplus="0.29">1.09</radius>
 		<metallicity errorminus="0.16" errorplus="0.14">0.03</metallicity>
 		<planet>
 			<name>Kepler-850 b</name>
+			<name>KOI-1440 b</name>
+			<name>KOI-1440.01</name>
+			<name>KIC 11032227 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

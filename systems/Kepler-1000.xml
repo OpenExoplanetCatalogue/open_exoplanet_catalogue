@@ -1,15 +1,23 @@
 <system>
 	<name>Kepler-1000</name>
+	<name>KOI-1888</name>
+	<name>KIC 10063802</name>
 	<rightascension>19 06 45</rightascension>
 	<declination>+47 05 54</declination>
 	<star>
 		<name>Kepler-1000</name>
+		<name>KOI-1888</name>
+		<name>KIC 10063802</name>
+		<name>2MASS J19064452+4705535</name>
 		<temperature errorminus="73.4" errorplus="74.2">6453.0</temperature>
 		<mass errorminus="0.04" errorplus="0.04">1.40</mass>
 		<radius errorminus="0.07" errorplus="0.08">1.51</radius>
 		<metallicity errorminus="0.05" errorplus="0.06">0.35</metallicity>
 		<planet>
 			<name>Kepler-1000 b</name>
+			<name>KOI-1888 b</name>
+			<name>KOI-1888.01</name>
+			<name>KIC 10063802 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

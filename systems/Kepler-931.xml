@@ -1,15 +1,23 @@
 <system>
 	<name>Kepler-931</name>
+	<name>KOI-1700</name>
+	<name>KIC 7220429</name>
 	<rightascension>19 48 32</rightascension>
 	<declination>+42 46 06</declination>
 	<star>
 		<name>Kepler-931</name>
+		<name>KOI-1700</name>
+		<name>KIC 7220429</name>
+		<name>2MASS J19483183+4246057</name>
 		<temperature errorminus="198.9" errorplus="223.6">5241.0</temperature>
 		<mass errorminus="0.05" errorplus="0.06">0.86</mass>
 		<radius errorminus="0.05" errorplus="0.08">0.81</radius>
 		<metallicity errorminus="0.15" errorplus="0.15">-0.01</metallicity>
 		<planet>
 			<name>Kepler-931 b</name>
+			<name>KOI-1700 b</name>
+			<name>KOI-1700.01</name>
+			<name>KIC 7220429 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

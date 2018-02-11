@@ -1,15 +1,23 @@
 <system>
 	<name>Kepler-1143</name>
+	<name>KOI-2210</name>
+	<name>KIC 4142847</name>
 	<rightascension>19 09 13</rightascension>
 	<declination>+39 17 23</declination>
 	<star>
 		<name>Kepler-1143</name>
+		<name>KOI-2210</name>
+		<name>KIC 4142847</name>
+		<name>2MASS J19091267+3917228</name>
 		<temperature errorminus="130.2" errorplus="192.9">5053.0</temperature>
 		<mass errorminus="0.05" errorplus="0.05">0.81</mass>
 		<radius errorminus="0.04" errorplus="0.05">0.77</radius>
 		<metallicity errorminus="0.17" errorplus="0.15">-0.06</metallicity>
 		<planet>
 			<name>Kepler-1143 b</name>
+			<name>KOI-2210 b</name>
+			<name>KOI-2210.01</name>
+			<name>KIC 4142847 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
@@ -22,6 +30,9 @@
 		</planet>
 		<planet>
 			<name>Kepler-1143 c</name>
+			<name>KOI-2210 c</name>
+			<name>KOI-2210.02</name>
+			<name>KIC 4142847 c</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

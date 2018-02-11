@@ -1,15 +1,23 @@
 <system>
 	<name>Kepler-769</name>
+	<name>KOI-1106</name>
+	<name>KIC 3240158</name>
 	<rightascension>19 30 51</rightascension>
 	<declination>+38 21 30</declination>
 	<star>
 		<name>Kepler-769</name>
+		<name>KOI-1106</name>
+		<name>KIC 3240158</name>
+		<name>2MASS J19305114+3821295</name>
 		<temperature errorminus="184.1" errorplus="127.2">6186.0</temperature>
 		<mass errorminus="0.11" errorplus="0.17">1.19</mass>
 		<radius errorminus="0.19" errorplus="0.55">1.28</radius>
 		<metallicity errorminus="0.14" errorplus="0.13">0.06</metallicity>
 		<planet>
 			<name>Kepler-769 b</name>
+			<name>KOI-1106 b</name>
+			<name>KOI-1106.01</name>
+			<name>KIC 3240158 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
@@ -22,6 +30,9 @@
 		</planet>
 		<planet>
 			<name>Kepler-769 c</name>
+			<name>KOI-1106 c</name>
+			<name>KOI-1106.02</name>
+			<name>KIC 3240158 c</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

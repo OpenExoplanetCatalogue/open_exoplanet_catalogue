@@ -1,15 +1,23 @@
 <system>
 	<name>Kepler-1024</name>
+	<name>KOI-1950</name>
+	<name>KIC 3118797</name>
 	<rightascension>19 27 48</rightascension>
 	<declination>+38 15 06</declination>
 	<star>
 		<name>Kepler-1024</name>
+		<name>KOI-1950</name>
+		<name>KIC 3118797</name>
+		<name>2MASS J19274823+3815061</name>
 		<temperature errorminus="76.4" errorplus="126.7">5143.0</temperature>
 		<mass errorminus="0.05" errorplus="0.04">0.81</mass>
 		<radius errorminus="0.05" errorplus="0.04">0.78</radius>
 		<metallicity errorminus="0.18" errorplus="0.14">-0.10</metallicity>
 		<planet>
 			<name>Kepler-1024 b</name>
+			<name>KOI-1950 b</name>
+			<name>KOI-1950.01</name>
+			<name>KIC 3118797 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

@@ -1,15 +1,23 @@
 <system>
 	<name>Kepler-653</name>
+	<name>KOI-717</name>
+	<name>KIC 9873254</name>
 	<rightascension>18 48 51</rightascension>
 	<declination>+46 43 04</declination>
 	<star>
 		<name>Kepler-653</name>
+		<name>KOI-717</name>
+		<name>KIC 9873254</name>
+		<name>2MASS J18485110+4643041</name>
 		<temperature errorminus="60.9" errorplus="55.0">5665.0</temperature>
 		<mass errorminus="0.04" errorplus="0.05">1.02</mass>
 		<radius errorminus="0.16" errorplus="0.17">1.19</radius>
 		<metallicity errorminus="0.08" errorplus="0.08">0.23</metallicity>
 		<planet>
 			<name>Kepler-653 b</name>
+			<name>KOI-717 b</name>
+			<name>KOI-717.01</name>
+			<name>KIC 9873254 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
@@ -22,6 +30,9 @@
 		</planet>
 		<planet>
 			<name>Kepler-653 c</name>
+			<name>KOI-717 c</name>
+			<name>KOI-717.02</name>
+			<name>KIC 9873254 c</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

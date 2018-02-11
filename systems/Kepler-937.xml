@@ -1,15 +1,23 @@
 <system>
 	<name>Kepler-937</name>
+	<name>KOI-1718</name>
+	<name>KIC 9896558</name>
 	<rightascension>19 36 41</rightascension>
 	<declination>+46 42 53</declination>
 	<star>
 		<name>Kepler-937</name>
+		<name>KOI-1718</name>
+		<name>KIC 9896558</name>
+		<name>2MASS J19364051+4642525</name>
 		<temperature errorminus="127.3" errorplus="81.7">6095.0</temperature>
 		<mass errorminus="0.08" errorplus="0.12">1.15</mass>
 		<radius errorminus="0.15" errorplus="0.42">1.22</radius>
 		<metallicity errorminus="0.14" errorplus="0.14">0.08</metallicity>
 		<planet>
 			<name>Kepler-937 b</name>
+			<name>KOI-1718 b</name>
+			<name>KOI-1718.01</name>
+			<name>KIC 9896558 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
@@ -22,6 +30,9 @@
 		</planet>
 		<planet>
 			<name>Kepler-937 c</name>
+			<name>KOI-1718 c</name>
+			<name>KOI-1718.02</name>
+			<name>KIC 9896558 c</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
