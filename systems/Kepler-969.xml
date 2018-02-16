@@ -1,15 +1,23 @@
 <system>
 	<name>Kepler-969</name>
+	<name>KOI-1837</name>
+	<name>KIC 10657406</name>
 	<rightascension>19 13 29</rightascension>
 	<declination>+47 56 01</declination>
 	<star>
 		<name>Kepler-969</name>
+		<name>KOI-1837</name>
+		<name>KIC 10657406</name>
+		<name>2MASS J19132940+4756008</name>
 		<temperature errorminus="40.7" errorplus="44.6">5214.0</temperature>
 		<mass errorminus="0.02" errorplus="0.02">0.92</mass>
 		<radius errorminus="0.01" errorplus="0.01">0.82</radius>
 		<metallicity errorminus="0.05" errorplus="0.05">0.22</metallicity>
 		<planet>
 			<name>Kepler-969 b</name>
+			<name>KOI-1837 b</name>
+			<name>KOI-1837.01</name>
+			<name>KIC 10657406 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
@@ -22,6 +30,9 @@
 		</planet>
 		<planet>
 			<name>Kepler-969 c</name>
+			<name>KOI-1837 c</name>
+			<name>KOI-1837.02</name>
+			<name>KIC 10657406 c</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

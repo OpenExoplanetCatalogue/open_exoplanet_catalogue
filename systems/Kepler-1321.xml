@@ -1,15 +1,23 @@
 <system>
 	<name>Kepler-1321</name>
+	<name>KOI-2715</name>
+	<name>KIC 9837661</name>
 	<rightascension>19 38 07</rightascension>
 	<declination>+46 38 27</declination>
 	<star>
 		<name>Kepler-1321</name>
+		<name>KOI-2715</name>
+		<name>KIC 9837661</name>
+		<name>2MASS J19380686+4638274</name>
 		<temperature errorminus="86.1" errorplus="91.2">4094.0</temperature>
 		<mass errorminus="0.04" errorplus="0.07">0.54</mass>
 		<radius errorminus="0.04" errorplus="0.06">0.53</radius>
 		<metallicity errorminus="0.18" errorplus="0.28">-0.45</metallicity>
 		<planet>
 			<name>Kepler-1321 b</name>
+			<name>KOI-2715 b</name>
+			<name>KOI-2715.01</name>
+			<name>KIC 9837661 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
@@ -22,6 +30,9 @@
 		</planet>
 		<planet>
 			<name>Kepler-1321 c</name>
+			<name>KOI-2715 c</name>
+			<name>KOI-2715.02</name>
+			<name>KIC 9837661 c</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

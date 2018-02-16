@@ -1,15 +1,23 @@
 <system>
 	<name>Kepler-625</name>
+	<name>KOI-627</name>
+	<name>KIC 4563268</name>
 	<rightascension>19 28 36</rightascension>
 	<declination>+39 38 15</declination>
 	<star>
 		<name>Kepler-625</name>
+		<name>KOI-627</name>
+		<name>KIC 4563268</name>
+		<name>2MASS J19283611+3938152</name>
 		<temperature errorminus="43.9" errorplus="46.8">5789.0</temperature>
 		<mass errorminus="0.02" errorplus="0.02">1.04</mass>
 		<radius errorminus="0.02" errorplus="0.03">0.96</radius>
 		<metallicity errorminus="0.09" errorplus="0.09">0.10</metallicity>
 		<planet>
 			<name>Kepler-625 b</name>
+			<name>KOI-627 b</name>
+			<name>KOI-627.01</name>
+			<name>KIC 4563268 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
@@ -22,6 +30,9 @@
 		</planet>
 		<planet>
 			<name>Kepler-625 c</name>
+			<name>KOI-627 c</name>
+			<name>KOI-627.02</name>
+			<name>KIC 4563268 c</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

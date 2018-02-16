@@ -1,15 +1,23 @@
 <system>
 	<name>Kepler-1642</name>
+	<name>KOI-6166</name>
+	<name>KIC 7908367</name>
 	<rightascension>19 48 51</rightascension>
 	<declination>+43 38 37</declination>
 	<star>
 		<name>Kepler-1642</name>
+		<name>KOI-6166</name>
+		<name>KIC 7908367</name>
+		<name>2MASS J19485091+4338373</name>
 		<temperature errorminus="191.9" errorplus="178.9">5355.0</temperature>
 		<mass errorminus="0.05" errorplus="0.06">0.88</mass>
 		<radius errorminus="0.06" errorplus="0.09">0.84</radius>
 		<metallicity errorminus="0.17" errorplus="0.14">-0.01</metallicity>
 		<planet>
 			<name>Kepler-1642 b</name>
+			<name>KOI-6166 b</name>
+			<name>KOI-6166.01</name>
+			<name>KIC 7908367 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
@@ -22,6 +30,9 @@
 		</planet>
 		<planet>
 			<name>Kepler-1642 c</name>
+			<name>KOI-6166 c</name>
+			<name>KOI-6166.02</name>
+			<name>KIC 7908367 c</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

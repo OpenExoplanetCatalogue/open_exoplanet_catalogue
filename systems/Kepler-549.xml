@@ -1,15 +1,23 @@
 <system>
 	<name>Kepler-549</name>
+	<name>KOI-427</name>
+	<name>KIC 10189546</name>
 	<rightascension>18 52 05</rightascension>
 	<declination>+47 15 40</declination>
 	<star>
 		<name>Kepler-549</name>
+		<name>KOI-427</name>
+		<name>KIC 10189546</name>
+		<name>2MASS J18520546+4715400</name>
 		<temperature errorminus="72.9" errorplus="66.9">5360.0</temperature>
 		<mass errorminus="0.05" errorplus="0.04">0.88</mass>
 		<radius errorminus="0.05" errorplus="0.07">0.84</radius>
 		<metallicity errorminus="0.17" errorplus="0.15">-0.03</metallicity>
 		<planet>
 			<name>Kepler-549 b</name>
+			<name>KOI-427 b</name>
+			<name>KOI-427.02</name>
+			<name>KIC 10189546 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
@@ -22,6 +30,9 @@
 		</planet>
 		<planet>
 			<name>Kepler-549 c</name>
+			<name>KOI-427 c</name>
+			<name>KOI-427.03</name>
+			<name>KIC 10189546 c</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

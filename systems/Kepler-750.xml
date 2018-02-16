@@ -1,15 +1,23 @@
 <system>
 	<name>Kepler-750</name>
+	<name>KOI-1015</name>
+	<name>KIC 8158127</name>
 	<rightascension>19 16 23</rightascension>
 	<declination>+44 00 16</declination>
 	<star>
 		<name>Kepler-750</name>
+		<name>KOI-1015</name>
+		<name>KIC 8158127</name>
+		<name>2MASS J19162324+4400157</name>
 		<temperature errorminus="121.5" errorplus="91.0">6160.0</temperature>
 		<mass errorminus="0.08" errorplus="0.14">1.15</mass>
 		<radius errorminus="0.16" errorplus="0.42">1.23</radius>
 		<metallicity errorminus="0.16" errorplus="0.13">0.03</metallicity>
 		<planet>
 			<name>Kepler-750 b</name>
+			<name>KOI-1015 b</name>
+			<name>KOI-1015.01</name>
+			<name>KIC 8158127 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
@@ -22,6 +30,9 @@
 		</planet>
 		<planet>
 			<name>Kepler-750 c</name>
+			<name>KOI-1015 c</name>
+			<name>KOI-1015.02</name>
+			<name>KIC 8158127 c</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

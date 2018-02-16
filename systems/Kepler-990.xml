@@ -1,15 +1,23 @@
 <system>
 	<name>Kepler-990</name>
+	<name>KOI-1875</name>
+	<name>KIC 9967771</name>
 	<rightascension>19 51 45</rightascension>
 	<declination>+46 52 53</declination>
 	<star>
 		<name>Kepler-990</name>
+		<name>KOI-1875</name>
+		<name>KIC 9967771</name>
+		<name>2MASS J19514517+4652530</name>
 		<temperature errorminus="213.6" errorplus="211.1">5948.0</temperature>
 		<mass errorminus="0.09" errorplus="0.12">1.05</mass>
 		<radius errorminus="0.14" errorplus="0.27">1.08</radius>
 		<metallicity errorminus="0.17" errorplus="0.13">0.01</metallicity>
 		<planet>
 			<name>Kepler-990 b</name>
+			<name>KOI-1875 b</name>
+			<name>KOI-1875.01</name>
+			<name>KIC 9967771 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
@@ -22,6 +30,9 @@
 		</planet>
 		<planet>
 			<name>Kepler-990 c</name>
+			<name>KOI-1875 c</name>
+			<name>KOI-1875.02</name>
+			<name>KIC 9967771 c</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

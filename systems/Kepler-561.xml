@@ -1,15 +1,23 @@
 <system>
 	<name>Kepler-561</name>
+	<name>KOI-464</name>
+	<name>KIC 8890783</name>
 	<rightascension>19 34 59</rightascension>
 	<declination>+45 06 26</declination>
 	<star>
 		<name>Kepler-561</name>
+		<name>KOI-464</name>
+		<name>KIC 8890783</name>
+		<name>2MASS J19345930+4506259</name>
 		<temperature errorminus="189.7" errorplus="175.4">5646.0</temperature>
 		<mass errorminus="0.06" errorplus="0.07">0.96</mass>
 		<radius errorminus="0.08" errorplus="0.16">0.94</radius>
 		<metallicity errorminus="0.17" errorplus="0.14">0.02</metallicity>
 		<planet>
 			<name>Kepler-561 b</name>
+			<name>KOI-464 b</name>
+			<name>KOI-464.01</name>
+			<name>KIC 8890783 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
@@ -22,6 +30,9 @@
 		</planet>
 		<planet>
 			<name>Kepler-561 c</name>
+			<name>KOI-464 c</name>
+			<name>KOI-464.02</name>
+			<name>KIC 8890783 c</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

@@ -1,15 +1,23 @@
 <system>
 	<name>Kepler-603</name>
+	<name>KOI-564</name>
+	<name>KIC 6786037</name>
 	<rightascension>19 37 07</rightascension>
 	<declination>+42 17 27</declination>
 	<star>
 		<name>Kepler-603</name>
+		<name>KOI-564</name>
+		<name>KIC 6786037</name>
+		<name>2MASS J19370743+4217274</name>
 		<temperature errorminus="142.6" errorplus="90.0">5808.0</temperature>
 		<mass errorminus="0.06" errorplus="0.06">1.01</mass>
 		<radius errorminus="0.10" errorplus="0.23">1.01</radius>
 		<metallicity errorminus="0.17" errorplus="0.13">0.03</metallicity>
 		<planet>
 			<name>Kepler-603 b</name>
+			<name>KOI-564 b</name>
+			<name>KOI-564.01</name>
+			<name>KIC 6786037 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
@@ -22,6 +30,9 @@
 		</planet>
 		<planet>
 			<name>Kepler-603 c</name>
+			<name>KOI-564 c</name>
+			<name>KOI-564.02</name>
+			<name>KIC 6786037 c</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
@@ -34,6 +45,9 @@
 		</planet>
 		<planet>
 			<name>Kepler-603 d</name>
+			<name>KOI-564 d</name>
+			<name>KOI-564.03</name>
+			<name>KIC 6786037 d</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

@@ -1,15 +1,23 @@
 <system>
 	<name>Kepler-702</name>
+	<name>KOI-850</name>
+	<name>KIC 6291653</name>
 	<rightascension>19 35 31</rightascension>
 	<declination>+41 39 42</declination>
 	<star>
 		<name>Kepler-702</name>
+		<name>KOI-850</name>
+		<name>KIC 6291653</name>
+		<name>2MASS J19353074+4139423</name>
 		<temperature errorminus="143.8" errorplus="122.2">5419.0</temperature>
 		<mass errorminus="0.05" errorplus="0.05">0.90</mass>
 		<radius errorminus="0.05" errorplus="0.08">0.86</radius>
 		<metallicity errorminus="0.16" errorplus="0.14">0.00</metallicity>
 		<planet>
 			<name>Kepler-702 b</name>
+			<name>KOI-850 b</name>
+			<name>KOI-850.01</name>
+			<name>KIC 6291653 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

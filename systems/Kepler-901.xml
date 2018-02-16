@@ -1,15 +1,23 @@
 <system>
 	<name>Kepler-901</name>
+	<name>KOI-1588</name>
+	<name>KIC 5617854</name>
 	<rightascension>19 24 37</rightascension>
 	<declination>+40 53 15</declination>
 	<star>
 		<name>Kepler-901</name>
+		<name>KOI-1588</name>
+		<name>KIC 5617854</name>
+		<name>2MASS J19243670+4053149</name>
 		<temperature errorminus="49.2" errorplus="52.6">4184.0</temperature>
 		<mass errorminus="0.04" errorplus="0.04">0.59</mass>
 		<radius errorminus="0.02" errorplus="0.03">0.57</radius>
 		<metallicity errorminus="0.14" errorplus="0.14">-0.30</metallicity>
 		<planet>
 			<name>Kepler-901 b</name>
+			<name>KOI-1588 b</name>
+			<name>KOI-1588.01</name>
+			<name>KIC 5617854 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

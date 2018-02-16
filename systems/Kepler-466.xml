@@ -1,15 +1,23 @@
 <system>
 	<name>Kepler-466</name>
+	<name>KOI-112</name>
+	<name>KIC 10984090</name>
 	<rightascension>19 42 36</rightascension>
 	<declination>+48 29 44</declination>
 	<star>
 		<name>Kepler-466</name>
+		<name>KOI-112</name>
+		<name>KIC 10984090</name>
+		<name>2MASS J19423569+4829440</name>
 		<temperature errorminus="68.5" errorplus="77.3">5927.0</temperature>
 		<mass errorminus="0.04" errorplus="0.04">1.04</mass>
 		<radius errorminus="0.06" errorplus="0.08">1.05</radius>
 		<metallicity errorminus="0.09" errorplus="0.09">-0.01</metallicity>
 		<planet>
 			<name>Kepler-466 b</name>
+			<name>KOI-112 b</name>
+			<name>KOI-112.01</name>
+			<name>KIC 10984090 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
@@ -22,6 +30,9 @@
 		</planet>
 		<planet>
 			<name>Kepler-466 c</name>
+			<name>KOI-112 c</name>
+			<name>KOI-112.02</name>
+			<name>KIC 10984090 c</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

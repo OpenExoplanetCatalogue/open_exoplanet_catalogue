@@ -1,15 +1,23 @@
 <system>
 	<name>Kepler-1093</name>
+	<name>KOI-2098</name>
+	<name>KIC 6105462</name>
 	<rightascension>18 59 55</rightascension>
 	<declination>+41 25 13</declination>
 	<star>
 		<name>Kepler-1093</name>
+		<name>KOI-2098</name>
+		<name>KIC 6105462</name>
+		<name>2MASS J18595472+4125125</name>
 		<temperature errorminus="138.4" errorplus="147.6">6166.0</temperature>
 		<mass errorminus="0.09" errorplus="0.14">1.13</mass>
 		<radius errorminus="0.15" errorplus="0.38">1.20</radius>
 		<metallicity errorminus="0.20" errorplus="0.13">-0.01</metallicity>
 		<planet>
 			<name>Kepler-1093 b</name>
+			<name>KOI-2098 b</name>
+			<name>KOI-2098.01</name>
+			<name>KIC 6105462 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
@@ -22,6 +30,9 @@
 		</planet>
 		<planet>
 			<name>Kepler-1093 c</name>
+			<name>KOI-2098 c</name>
+			<name>KOI-2098.02</name>
+			<name>KIC 6105462 c</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

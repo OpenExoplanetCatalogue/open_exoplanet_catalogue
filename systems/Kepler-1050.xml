@@ -1,15 +1,23 @@
 <system>
 	<name>Kepler-1050</name>
+	<name>KOI-2007</name>
+	<name>KIC 11069176</name>
 	<rightascension>18 51 42</rightascension>
 	<declination>+48 37 35</declination>
 	<star>
 		<name>Kepler-1050</name>
+		<name>KOI-2007</name>
+		<name>KIC 11069176</name>
+		<name>2MASS J18514199+4837350</name>
 		<temperature errorminus="99.7" errorplus="90.7">6010.0</temperature>
 		<mass errorminus="0.07" errorplus="0.08">1.09</mass>
 		<radius errorminus="0.12" errorplus="0.29">1.13</radius>
 		<metallicity errorminus="0.17" errorplus="0.14">0.03</metallicity>
 		<planet>
 			<name>Kepler-1050 b</name>
+			<name>KOI-2007 b</name>
+			<name>KOI-2007.01</name>
+			<name>KIC 11069176 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
@@ -22,6 +30,9 @@
 		</planet>
 		<planet>
 			<name>Kepler-1050 c</name>
+			<name>KOI-2007 c</name>
+			<name>KOI-2007.02</name>
+			<name>KIC 11069176 c</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

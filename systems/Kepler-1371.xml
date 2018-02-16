@@ -1,15 +1,23 @@
 <system>
 	<name>Kepler-1371</name>
+	<name>KOI-2859</name>
+	<name>KIC 10397751</name>
 	<rightascension>19 15 20</rightascension>
 	<declination>+47 33 07</declination>
 	<star>
 		<name>Kepler-1371</name>
+		<name>KOI-2859</name>
+		<name>KIC 10397751</name>
+		<name>2MASS J19151953+4733071</name>
 		<temperature errorminus="74.1" errorplus="70.8">5361.0</temperature>
 		<mass errorminus="0.05" errorplus="0.04">0.87</mass>
 		<radius errorminus="0.06" errorplus="0.07">0.83</radius>
 		<metallicity errorminus="0.16" errorplus="0.16">-0.07</metallicity>
 		<planet>
 			<name>Kepler-1371 b</name>
+			<name>KOI-2859 b</name>
+			<name>KOI-2859.01</name>
+			<name>KIC 10397751 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
@@ -22,6 +30,9 @@
 		</planet>
 		<planet>
 			<name>Kepler-1371 c</name>
+			<name>KOI-2859 c</name>
+			<name>KOI-2859.02</name>
+			<name>KIC 10397751 c</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
