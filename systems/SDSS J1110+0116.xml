@@ -3,21 +3,17 @@
 	<rightascension>11 10 10</rightascension>
 	<declination>+01 16 13</declination>
 	<distance>19.19</distance>
-	<star>
+	<planet>
 		<name>SDSS J1110+0116</name>
+		<mass errorminus="1.0" errorplus="1.0">11.0</mass>
+		<radius errorminus="0.02" errorplus="0.02">1.18</radius>
 		<age>0.12</age>
 		<spectraltype>T5.5</spectraltype>
 		<temperature>940.0</temperature>
-		<planet>
-			<name>SDSS J1110+0116</name>
-			<mass errorminus="1.0" errorplus="1.0">11.0</mass>
-			<radius errorminus="0.02" errorplus="0.02">1.18</radius>
-			<istransiting>1</istransiting>
-			<discoverymethod>imaging</discoverymethod>
-			<discoveryyear>2015</discoveryyear>
-			<lastupdate>17/07/02</lastupdate>
-			<list>Confirmed planets</list>
-			<description>Data for this planet was imported from the exoplanet.eu database.</description>
-		</planet>
-	</star>
+		<discoverymethod>imaging</discoverymethod>
+		<discoveryyear>2015</discoveryyear>
+		<lastupdate>17/07/02</lastupdate>
+		<list>Confirmed planets</list>
+		<description>Data for this planet was imported from the exoplanet.eu database.</description>
+	</planet>
 </system>

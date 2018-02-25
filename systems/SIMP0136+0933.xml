@@ -3,19 +3,16 @@
 	<rightascension>01 36 57</rightascension>
 	<declination>+09 33 47</declination>
 	<distance>6.0</distance>
-	<star>
+	<planet>
 		<name>SIMP0136+0933</name>
+		<mass errorminus="1.0" errorplus="1.0">12.7</mass>
 		<age>0.2</age>
 		<spectraltype>T2.5</spectraltype>
 		<temperature>1098.0</temperature>
-		<planet>
-			<name>SIMP0136+0933</name>
-			<mass errorminus="1.0" errorplus="1.0">12.7</mass>
-			<discoverymethod>imaging</discoverymethod>
-			<discoveryyear>2017</discoveryyear>
-			<lastupdate>17/07/02</lastupdate>
-			<list>Confirmed planets</list>
-			<description>Data for this planet was imported from the exoplanet.eu database.</description>
-		</planet>
-	</star>
+		<discoverymethod>imaging</discoverymethod>
+		<discoveryyear>2017</discoveryyear>
+		<lastupdate>17/07/02</lastupdate>
+		<list>Confirmed planets</list>
+		<description>Data for this planet was imported from the exoplanet.eu database.</description>
+	</planet>
 </system>
