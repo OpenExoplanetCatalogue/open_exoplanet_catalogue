@@ -2,25 +2,26 @@
 	<name>KOI-206</name>
 	<name>Kepler-433</name>
 	<name>KIC 5728139</name>
-	<rightascension>19 50 22.476</rightascension>
-	<declination>+40 58 38.17</declination>
+	<rightascension>19 50 22.473</rightascension>
+	<declination>+40 58 38.18</declination>
 	<distance errorminus="210" errorplus="210">1870</distance>
 	<star>
 		<name>KOI-206</name>
 		<name>Kepler-433</name>
 		<name>KIC 5728139</name>
 		<name>2MASS J19502247+4058381</name>
-		<mass errorminus="0.17" errorplus="0.17">1.46</mass>
-		<radius errorminus="0.25" errorplus="0.25">2.26</radius>
-		<magV errorminus="0.34" errorplus="0.34">14.35</magV>
 		<magB errorminus="0.37" errorplus="0.37">15.08</magB>
+		<magV errorminus="0.34" errorplus="0.34">14.35</magV>
 		<magR errorminus="0.12" errorplus="0.12">14.81</magR>
 		<magI errorminus="0.46" errorplus="0.46">14.10</magI>
 		<magJ errorminus="0.020" errorplus="0.020">13.201</magJ>
 		<magH errorminus="0.024" errorplus="0.024">12.948</magH>
 		<magK errorminus="0.026" errorplus="0.026">12.826</magK>
-		<metallicity errorminus="0.19" errorplus="0.19">0.06</metallicity>
-		<temperature errorminus="140" errorplus="140">6340</temperature>
+		<mass errorminus="0.17" errorplus="0.17">1.46</mass>
+		<radius errorminus="0.25" errorplus="0.25">2.26</radius>
+		<metallicity errorminus="0.20" errorplus="0.20">-0.01</metallicity>
+		<temperature errorminus="140" errorplus="140">6360</temperature>
+		<age errorminus="0.91" errorplus="0.91">2.67</age>
 		<planet>
 			<name>KOI-206 b</name>
 			<name>KOI-206.01</name>
@@ -33,11 +34,13 @@
 			<period errorminus="0.0000011" errorplus="0.0000011">5.33408384</period>
 			<semimajoraxis errorminus="0.0027" errorplus="0.0027">0.0679</semimajoraxis>
 			<transittime errorminus="0.00015" errorplus="0.00015" unit="BJD">2454964.98152</transittime>
+			<eccentricity errorminus="0.079" errorplus="0.079">0.119</eccentricity>
+			<periastron errorminus="36" errorplus="67">68</periastron>
+			<inclination errorminus="0.90" errorplus="0.52">89.21</inclination>
 			<description>This planet was discovered with the Kepler telescope and confirmed with the SOPHIE spectrograph in France.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>15/01/07</lastupdate>
+			<lastupdate>18/02/17</lastupdate>
 			<discoveryyear>2012</discoveryyear>
-			<temperature errorminus="87" errorplus="87">1776</temperature>
 			<istransiting>1</istransiting>
 		</planet>
 	</star>

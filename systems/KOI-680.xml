@@ -10,17 +10,18 @@
 		<name>Kepler-435</name>
 		<name>KIC 7529266</name>
 		<name>2MASS J19290895+4311502</name>
-		<mass errorminus="0.088" errorplus="0.088">1.538</mass>
-		<radius errorminus="0.30" errorplus="0.30">3.21</radius>
-		<magV errorminus="0.26" errorplus="0.26">13.91</magV>
 		<magB errorminus="0.11" errorplus="0.11">14.00</magB>
+		<magV errorminus="0.26" errorplus="0.26">13.91</magV>
 		<magR errorminus="0.11" errorplus="0.11">13.94</magR>
 		<magI errorminus="0.18" errorplus="0.18">12.92</magI>
 		<magJ errorminus="0.020" errorplus="0.020">12.593</magJ>
 		<magH errorminus="0.019" errorplus="0.019">12.345</magH>
 		<magK errorminus="0.022" errorplus="0.022">12.291</magK>
-		<metallicity errorminus="0.10" errorplus="0.10">-0.17</metallicity>
-		<temperature errorminus="110" errorplus="110">6090</temperature>
+		<mass errorminus="0.088" errorplus="0.088">1.538</mass>
+		<radius errorminus="0.30" errorplus="0.30">3.21</radius>
+		<metallicity errorminus="0.11" errorplus="0.11">-0.18</metallicity>
+		<temperature errorminus="94" errorplus="94">6161</temperature>
+		<age errorminus="0.42" errorplus="0.42">2.25</age>
 		<planet>
 			<name>KOI-680 b</name>
 			<name>KOI-680.01</name>
@@ -33,12 +34,14 @@
 			<period errorminus="0.0000018" errorplus="0.0000018">8.6001536</period>
 			<semimajoraxis errorminus="0.0018" errorplus="0.0018">0.0948</semimajoraxis>
 			<transittime errorminus="0.0004" errorplus="0.0004" unit="BJD">2455010.64241</transittime>
+			<eccentricity errorminus="0.077" errorplus="0.077">0.114</eccentricity>
+			<periastron errorminus="36" errorplus="36">104</periastron>
+			<inclination errorminus="0.52" errorplus="0.52">85.51</inclination>
+			<istransiting>1</istransiting>
 			<description>This planet was discovered with the Kepler telescope and confirmed with the SOPHIE spectrograph in France.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>15/01/07</lastupdate>
+			<lastupdate>18/02/17</lastupdate>
 			<discoveryyear>2012</discoveryyear>
-			<temperature errorminus="70" errorplus="70">1729</temperature>
-			<istransiting>1</istransiting>
 		</planet>
 	</star>
 </system>
