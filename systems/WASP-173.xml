@@ -1,0 +1,44 @@
+<system>
+	<name>WASP-173</name>
+	<rightascension>23 36 40.38</rightascension>
+	<declination>-34 36 40.6</declination>
+	<distance errorminus="32" errorplus="32">230</distance>
+	<binary>
+		<star>
+			<name>WASP-173 A</name>
+			<name>1SWASP J233640.32-343640.4</name>
+			<name>2MASS J23364036-3436404</name>
+			<name>WDS23366-3437</name>
+			<magV>11.3</magV>
+			<mass errorminus="0.08" errorplus="0.08">1.05</mass>
+			<radius errorminus="0.05" errorplus="0.05">1.11</radius>
+			<temperature errorminus="150" errorplus="150">5700</temperature>
+			<age errorminus="3" errorplus="3">7</age>
+			<metallicity errorminus="0.14" errorplus="0.14">0.16</metallicity>
+			<spectraltype>G3</spectraltype>
+			<planet>
+				<name>WASP-173 A b</name>
+				<name>1SWASP J233640.32-343640.4 b</name>
+				<name>2MASS J23364036-3436404 b</name>
+				<name>WDS23366-3437 b</name>
+				<list>Confirmed planets</list>
+				<radius errorminus="0.06" errorplus="0.06">1.2</radius>
+				<mass errorminus="0.18" errorplus="0.18">3.69</mass>
+				<period errorminus="0.00000027" errorplus="0.00000027">1.38665318</period>
+				<transittime errorminus="0.0002" errorplus="0.0002" unit="HJD">2457288.8585</transittime>
+				<semimajoraxis errorminus="0.0006" errorplus="0.0006">0.0248</semimajoraxis>
+				<temperature errorminus="55" errorplus="55">1880</temperature>
+				<inclination errorminus="1.1" errorplus="1.1">85.2</inclination>
+				<description>WASP-173Ab is a massive planet in a circular orbit. The host is a G3 star, being the brighter component of the double-star system WDS23366-3437, with a companion 6 arcsecs away and 0.8
+mags fainter. One of the two stars shows a rotational modulation. This Hot Jupiter was discovered by WASP-South.</description>
+				<discoverymethod>transit</discoverymethod>
+				<istransiting>1</istransiting>
+				<lastupdate>18/03/06</lastupdate>
+				<discoveryyear>2018</discoveryyear>
+			</planet>
+		</star>
+		<star>
+			<name>WASP-173 B</name>
+		</star>
+	</binary>
+</system>
