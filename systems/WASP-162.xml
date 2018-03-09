@@ -1,0 +1,34 @@
+<system>
+	<name>WASP-162</name>
+	<rightascension>11 13 10.30</rightascension>
+	<declination>-17 39 28.0</declination>
+	<star>
+		<name>WASP-162</name>
+		<name>1SWASP J111310.29-173928.1</name>
+		<name>2MASS J11131028-1739280</name>
+		<magV>12.2</magV>
+		<mass errorminus="0.04" errorplus="0.04">0.95</mass>
+		<radius errorminus="0.05" errorplus="0.05">1.11</radius>
+		<temperature errorminus="100" errorplus="100">5300</temperature>
+		<metallicity errorminus="0.13" errorplus="0.13">0.28</metallicity>
+		<spectraltype>K0</spectraltype>
+		<planet>
+			<name>WASP-162 b</name>
+			<name>1SWASP J111310.29-173928.1 b</name>
+			<name>2MASS J11131028-1739280 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.05" errorplus="0.05">1</radius>
+			<mass errorminus="0.2" errorplus="0.2">5.2</mass>
+			<period errorminus="0.0001" errorplus="0.0001">9.62468</period>
+			<transittime errorminus="0.0006" errorplus="0.0006" unit="HJD">2457701.3816</transittime>
+			<semimajoraxis errorminus="0.0013" errorplus="0.0013">0.0871</semimajoraxis>
+			<temperature errorminus="20" errorplus="20">910</temperature>
+			<inclination errorminus="0.5" errorplus="0.5">89.3</inclination>
+			<description>WASP-162b is a massive planet in a relatively long and highly eccentric orbit. This Hot Jupiter was discovered by WASP-South.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>18/03/06</lastupdate>
+			<discoveryyear>2018</discoveryyear>
+		</planet>
+	</star>
+</system>

@@ -1,0 +1,42 @@
+<system>
+	<name>WASP-159</name>
+	<rightascension>04 32 32.76</rightascension>
+	<declination>-38 58 06.0</declination>
+	<distance errorminus="205" errorplus="205">926</distance>
+	<star>
+		<name>WASP-159</name>
+		<name>1SWASP J043232.73-385805.8</name>
+		<name>2MASS J04323274-3858060</name>
+		<name>TYC 7579-251-1</name>
+		<magB errorminus="0.19" errorplus="0.19">12.63</magB>
+		<magV errorminus="0.24" errorplus="0.24">12.84</magV>
+		<magJ errorminus="0.024" errorplus="0.024">11.309</magJ>
+		<magH errorminus="0.024" errorplus="0.024">11.020</magH>
+		<magK errorminus="0.019" errorplus="0.019">11.017</magK>
+		<mass errorminus="0.12" errorplus="0.12">1.41</mass>
+		<radius errorminus="0.1" errorplus="0.10">2.11</radius>
+		<temperature errorminus="150" errorplus="150">6000</temperature>
+		<age errorminus="1" errorplus="1">3.4</age>
+		<metallicity errorminus="0.12" errorplus="0.12">0.22</metallicity>
+		<spectraltype>F9</spectraltype>
+		<planet>
+			<name>WASP-159 b</name>
+			<name>1SWASP J043232.73-385805.8 b</name>
+			<name>2MASS J04323274-3858060 b</name>
+			<name>TYC 7579-251-1 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.09" errorplus="0.09">1.38</radius>
+			<mass errorminus="0.08" errorplus="0.08">0.55</mass>
+			<period errorminus="0.000007" errorplus="0.000007">3.840401</period>
+			<transittime errorminus="0.0009" errorplus="0.0009" unit="HJD">2457668.0849</transittime>
+			<semimajoraxis errorminus="0.0015" errorplus="0.0015">0.0538</semimajoraxis>
+			<temperature errorminus="50" errorplus="50">1850</temperature>
+			<inclination errorminus="1.4" errorplus="1.4">88.1</inclination>
+			<description>WASP-159b is a bloated Hot Jupiter. This planet was discovered by WASP-South.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>18/03/06</lastupdate>
+			<discoveryyear>2018</discoveryyear>
+		</planet>
+	</star>
+</system>

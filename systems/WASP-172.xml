@@ -1,0 +1,42 @@
+<system>
+	<name>WASP-172</name>
+	<rightascension>13 17 44.12</rightascension>
+	<declination>-47 14 15.3</declination>
+	<distance errorminus="82" errorplus="82">562</distance>
+	<star>
+		<name>WASP-172</name>
+		<name>1SWASP J131744.13-471415.3</name>
+		<name>2MASS J13174412-4714152</name>
+		<name>TYC 8251-515-1</name>
+		<magB errorminus="0.07" errorplus="0.07">11.47</magB>
+		<magV errorminus="0.07" errorplus="0.07">10.99</magV>
+		<magJ errorminus="0.023" errorplus="0.023">10.312</magJ>
+		<magH errorminus="0.022" errorplus="0.022">10.169</magH>
+		<magK errorminus="0.019" errorplus="0.019">10.130</magK>
+		<mass errorminus="0.07" errorplus="0.07">1.49</mass>
+		<radius errorminus="0.1" errorplus="0.10">1.91</radius>
+		<temperature errorminus="150" errorplus="150">6900</temperature>
+		<age errorminus="0.3" errorplus="0.3">1.8</age>
+		<metallicity errorminus="0.08" errorplus="0.08">-0.1</metallicity>
+		<spectraltype>F1V</spectraltype>
+		<planet>
+			<name>WASP-172 b</name>
+			<name>1SWASP J131744.13-471415.3 b</name>
+			<name>2MASS J13174412-4714152 b</name>
+			<name>TYC 8251-515-1 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.10" errorplus="0.10">1.57</radius>
+			<mass errorminus="0.10" errorplus="0.10">0.47</mass>
+			<period errorminus="0.000007" errorplus="0.000007">5.477433</period>
+			<transittime errorminus="0.0005" errorplus="0.0005" unit="HJD">2457032.2617</transittime>
+			<semimajoraxis errorminus="0.0011" errorplus="0.0011">0.0694</semimajoraxis>
+			<temperature errorminus="60" errorplus="60">1740</temperature>
+			<inclination errorminus="1.1" errorplus="1.1">86.7</inclination>
+			<description>WASP-172b is a bloated Hot Jupiter. This planet was discovered by WASP-South.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>18/03/06</lastupdate>
+			<discoveryyear>2018</discoveryyear>
+		</planet>
+	</star>
+</system>

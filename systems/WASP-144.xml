@@ -1,0 +1,35 @@
+<system>
+	<name>WASP-144</name>
+	<rightascension>21 23 03.09</rightascension>
+	<declination>-40 02 54.04</declination>
+	<star>
+		<name>WASP-144</name>
+		<name>1SWASP J212303.08-400253.6</name>
+		<name>2MASS J21230309-4002537</name>
+		<magV>12.9</magV>
+		<mass errorminus="0.04" errorplus="0.04">0.81</mass>
+		<radius errorminus="0.04" errorplus="0.04">0.81</radius>
+		<temperature errorminus="150" errorplus="150">4950</temperature>
+		<age errorminus="4" errorplus="4">8</age>
+		<metallicity errorminus="0.14" errorplus="0.14">0.18</metallicity>
+		<spectraltype>K2V</spectraltype>
+		<planet>
+			<name>WASP-144 b</name>
+			<name>1SWASP J212303.08-400253.6 b</name>
+			<name>2MASS J21230309-4002537 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.05" errorplus="0.05">0.85</radius>
+			<mass errorminus="0.06" errorplus="0.06">0.44</mass>
+			<period errorminus="0.0000013" errorplus="0.0000013">2.2783152</period>
+			<transittime errorminus="0.00015" errorplus="0.00015" unit="HJD">2457157.27493</transittime>
+			<semimajoraxis errorminus="0.0005" errorplus="0.0005">0.0316</semimajoraxis>
+			<temperature errorminus="40" errorplus="40">1260</temperature>
+			<inclination errorminus="0.5" errorplus="0.5">86.9</inclination>
+			<description>This Hot Jupiter was discovered by WASP-South.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>18/03/06</lastupdate>
+			<discoveryyear>2018</discoveryyear>
+		</planet>
+	</star>
+</system>
