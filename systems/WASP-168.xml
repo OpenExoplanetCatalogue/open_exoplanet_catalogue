@@ -1,0 +1,42 @@
+<system>
+	<name>WASP-168</name>
+	<rightascension>06 26 58.71</rightascension>
+	<declination>-46 49 17.2</declination>
+	<distance errorminus="13" errorplus="13">319</distance>
+	<star>
+		<name>WASP-168</name>
+		<name>1SWASP J062658.70-464917.1</name>
+		<name>2MASS J06265871-4649171</name>
+		<name>TYC 8103-143-1</name>
+		<magB errorminus="0.15" errorplus="0.15">12.30</magB>
+		<magV errorminus="0.17" errorplus="0.17">12.12</magV>
+		<magJ errorminus="0.023" errorplus="0.023">10.778</magJ>
+		<magH errorminus="0.025" errorplus="0.025">10.493</magH>
+		<magK errorminus="0.026" errorplus="0.026">10.443</magK>
+		<mass errorminus="0.05" errorplus="0.05">1.08</mass>
+		<radius errorminus="0.06" errorplus="0.06">1.12</radius>
+		<temperature errorminus="100" errorplus="100">6000</temperature>
+		<age errorminus="2" errorplus="2">4</age>
+		<metallicity errorminus="0.09" errorplus="0.09">-0.01</metallicity>
+		<spectraltype>F9V</spectraltype>
+		<planet>
+			<name>WASP-168 b</name>
+			<name>1SWASP J062658.70-464917.1 b</name>
+			<name>2MASS J06265871-4649171 b</name>
+			<name>TYC 8103-143-1 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.3" errorplus="0.5">1.5</radius>
+			<mass errorminus="0.04" errorplus="0.04">0.42</mass>
+			<period errorminus="0.000003" errorplus="0.000003">4.153658</period>
+			<transittime errorminus="0.0004" errorplus="0.0004" unit="HJD">2457424.5278</transittime>
+			<semimajoraxis errorminus="0.0008" errorplus="0.0008">0.0519</semimajoraxis>
+			<temperature errorminus="40" errorplus="40">1340</temperature>
+			<inclination errorminus="0.6" errorplus="0.6">84.4</inclination>
+			<description>WASP-168b is a bloated Hot Jupiter in a orbit with a grazing transit. This planet was discovered by WASP-South.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>18/03/06</lastupdate>
+			<discoveryyear>2018</discoveryyear>
+		</planet>
+	</star>
+</system>
