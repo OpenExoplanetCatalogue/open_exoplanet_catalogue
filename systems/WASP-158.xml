@@ -1,0 +1,42 @@
+<system>
+	<name>WASP-158</name>
+	<rightascension>00 16 35.12</rightascension>
+	<declination>-10 58 35.1</declination>
+	<distance>1136</distance>
+	<star>
+		<name>WASP-158</name>
+		<name>1SWASP J001635.09-105834.9</name>
+		<name>2MASS J001635.09-105834.9</name>
+		<name>TYC 5264-1048-1</name>
+		<magB errorminus="0.24" errorplus="0.24">12.75</magB>
+		<magV errorminus="0.18" errorplus="0.18">12.04</magV>
+		<magJ errorminus="0.026" errorplus="0.026">11.178</magJ>
+		<magH errorminus="0.023" errorplus="0.023">10.957</magH>
+		<magK errorminus="0.025" errorplus="0.025">10.881</magK>
+		<mass errorminus="0.14" errorplus="0.14">1.38</mass>
+		<radius errorminus="0.18" errorplus="0.18">1.39</radius>
+		<temperature errorminus="150" errorplus="150">6350</temperature>
+		<age errorminus="0.9" errorplus="0.9">1.9</age>
+		<metallicity errorminus="0.15" errorplus="0.15">0.24</metallicity>
+		<spectraltype>F6V</spectraltype>
+		<planet>
+			<name>WASP-158 b</name>
+			<name>1SWASP J001635.09-105834.9 b</name>
+			<name>2MASS J001635.09-105834.9 b</name>
+			<name>TYC 5264-1048-1 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.15" errorplus="0.15">1.07</radius>
+			<mass errorminus="0.23" errorplus="0.23">2.79</mass>
+			<period errorminus="0.000004" errorplus="0.000004">3.656333</period>
+			<transittime errorminus="0.0010" errorplus="0.0010" unit="HJD">2457619.9195</transittime>
+			<semimajoraxis errorminus="0.0018" errorplus="0.0018">0.0517</semimajoraxis>
+			<temperature errorminus="80" errorplus="80">1590</temperature>
+			<inclination errorminus="1.5" errorplus="1.5">87.7</inclination>
+			<description>This Hot Jupiter was discovered by WASP-South.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>18/03/06</lastupdate>
+			<discoveryyear>2018</discoveryyear>
+		</planet>
+	</star>
+</system>
