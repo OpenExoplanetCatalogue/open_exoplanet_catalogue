@@ -1,24 +1,25 @@
 <system>
 	<name>HD 285507</name>
-	<rightascension>04 07 01</rightascension>
-	<declination>+15 20 06</declination>
-	<distance>41.339</distance>
+	<rightascension>04 07 01.2257</rightascension>
+	<declination>+15 20 06.107</declination>
+	<distance errorminus="0.56" errorplus="0.56">44.70</distance>
 	<star>
-		<magB>11.8</magB>
-		<magV>10.5</magV>
+		<name>HD 285507</name>
+		<name>HIP 19207</name>
+		<name>TYC 1250-4-1</name>
+		<name>BD+14 653</name>
+		<name>2MASS J04070122+1520062</name>
+		<magB errorminus="0.010" errorplus="0.010">11.670</magB>
+		<magV errorminus="0.012" errorplus="0.012">10.473</magV>
 		<magJ errorminus="0.026" errorplus="0.026">8.365</magJ>
 		<magH errorminus="0.049" errorplus="0.049">7.811</magH>
 		<magK errorminus="0.026" errorplus="0.026">7.665</magK>
-		<name>HD 285507</name>
-		<name>HIP 19207</name>
-		<name>2MASS J04070122+1520062</name>
-		<name>BD+14 653</name>
 		<mass errorminus="0.034" errorplus="0.034">0.734</mass>
 		<radius errorminus="0.054" errorplus="0.054">0.656</radius>
 		<temperature errorminus="61" errorplus="85">4503</temperature>
 		<metallicity errorminus="0.01" errorplus="0.01">0.13</metallicity>
 		<age errorminus="0.05" errorplus="0.05">0.625</age>
-		<spectraltype>K5 D</spectraltype>
+		<spectraltype>K4</spectraltype>
 		<planet>
 			<name>HD 285507 b</name>
 			<name>HIP 19207 b</name>
@@ -26,13 +27,15 @@
 			<name>BD+14 653 b</name>
 			<list>Confirmed planets</list>
 			<list>Planets in open clusters</list>
-			<mass errorminus="0.033" errorplus="0.033">0.917</mass>
+			<mass errorminus="0.033" errorplus="0.033" type="msini">0.917</mass>
 			<period errorminus="0.0018" errorplus="0.0018">6.0881</period>
 			<eccentricity errorminus="0.019" errorplus="0.019">0.086</eccentricity>
 			<periastron errorminus="11" errorplus="11">182</periastron>
+			<transittime errorminus="0.029" errorplus="0.029" unit="BJD">2456263.121</transittime>
+			<istransiting>0</istransiting>
 			<description>HD 285507b is a Hot Jupiter that joins the small but growing list of planets in open clusters. HD 285507b orbits a star in the Hyades cluster.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>13/10/29</lastupdate>
+			<lastupdate>18/03/23</lastupdate>
 			<discoveryyear>2013</discoveryyear>
 		</planet>
 	</star>
