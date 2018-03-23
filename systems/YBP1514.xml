@@ -3,13 +3,18 @@
 	<name>NGC 2682 YBP 1514</name>
 	<rightascension>08 51 00.766</rightascension>
 	<declination>+11 53 11.51</declination>
-	<distance errorminus="50" errorplus="50">750</distance>
+	<distance errorminus="20" errorplus="20">843</distance>
 	<star>
 		<name>YBP1514</name>
 		<name>NGC 2682 YBP 1514</name>
+		<name>NGC 2682 SAND 802</name>
+		<name>EPIC 211416296</name>
+		<name>2MASS J08510076+1153115</name>
+		<magU>15.766</magU>
 		<magB>15.50</magB>
-		<magV>14.78</magV>
+		<magV errorminus="0.091" errorplus="0.091">14.798</magV>
 		<magR>14.300</magR>
+		<magI>14.008</magI>
 		<magJ errorminus="0.024" errorplus="0.024">13.474</magJ>
 		<magH errorminus="0.023" errorplus="0.023">13.157</magH>
 		<magK errorminus="0.028" errorplus="0.028">13.105</magK>
@@ -18,18 +23,20 @@
 		<temperature errorminus="45" errorplus="45">5725</temperature>
 		<metallicity errorminus="0.05" errorplus="0.05">0.03</metallicity>
 		<spectraltype>G5V</spectraltype>
+		<age>4</age>
 		<planet>
 			<name>YBP1514 b</name>
 			<name>NGC 2682 YBP 1514 b</name>
 			<list>Confirmed planets</list>
 			<list>Planets in open clusters</list>
-			<mass errorminus="0.11" errorplus="0.11">0.4</mass>
+			<mass errorminus="0.35" errorplus="0.35" type="msini">0.40</mass>
 			<period errorminus="0.001" errorplus="0.001">5.118</period>
-			<eccentricity errorminus="0.17" errorplus="0.17">0.39</eccentricity>
-			<periastron errorminus="16.05" errorplus="16.05">327.49</periastron>
+			<eccentricity errorminus="0.09" errorplus="0.09">0.27</eccentricity>
+			<periastron errorminus="17.78" errorplus="17.78">328.58</periastron>
+			<periastrontime errorminus="0.3" errorplus="0.3">2455986.3</periastrontime>
 			<description>YBP1514 is a main sequence star in the open star cluster M67. It hosts a 0.4 Jupiter mass planet. The star cluster is between 3.2 and 5 billion years old and contains many stars with ages and compositions similar to that of our own Sun.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>14/01/14</lastupdate>
+			<lastupdate>18/03/23</lastupdate>
 			<discoveryyear>2014</discoveryyear>
 		</planet>
 	</star>

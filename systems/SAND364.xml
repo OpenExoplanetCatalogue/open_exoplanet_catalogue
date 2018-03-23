@@ -3,13 +3,16 @@
 	<name>NGC 2682 SAND 364</name>
 	<rightascension>08 49 56.5208</rightascension>
 	<declination>+11 41 32.989</declination>
-	<distance errorminus="50" errorplus="50">750</distance>
+	<distance errorminus="20" errorplus="20">843</distance>
 	<star>
 		<name>SAND364</name>
 		<name>NGC 2682 SAND 364</name>
 		<name>BD+12 1917</name>
-		<magB>11.22</magB>
-		<magV>9.77</magV>
+		<name>TYC 813-2344-1</name>
+		<name>EPIC 211403356</name>
+		<magB>11.2</magB>
+		<magV errorminus="0.056" errorplus="0.056">9.782</magV>
+		<magI>8.540</magI>
 		<magJ errorminus="0.027" errorplus="0.027">7.542</magJ>
 		<magH errorminus="0.018" errorplus="0.018">6.915</magH>
 		<magK>6.69</magK>
@@ -18,16 +21,18 @@
 		<temperature errorminus="9" errorplus="9">4284</temperature>
 		<metallicity errorminus="0.04" errorplus="0.04">-0.02</metallicity>
 		<spectraltype>K3III</spectraltype>
+		<age>4</age>
 		<planet>
 			<name>SAND364 b</name>
 			<name>NGC 2682 SAND 364 b</name>
 			<name>BD+12 1917 b</name>
 			<list>Confirmed planets</list>
 			<list>Planets in open clusters</list>
-			<mass errorminus="0.24" errorplus="0.24">1.54</mass>
-			<period errorminus="0.305" errorplus="0.305">121.710</period>
-			<eccentricity errorminus="0.08" errorplus="0.08">0.35</eccentricity>
-			<periastron errorminus="12.81" errorplus="12.81">273.51</periastron>
+			<mass errorminus="0.11" errorplus="0.11" type="msini">1.57</mass>
+			<period errorminus="0.453" errorplus="0.453">120.951</period>
+			<eccentricity errorminus="0.10" errorplus="0.10">0.35</eccentricity>
+			<periastron errorminus="15.91" errorplus="15.91">254.62</periastron>
+			<periastrontime errorminus="4.26" errorplus="4.26">2456231.22</periastrontime>
 			<description>The host star of SAND364 b is located in the old open star cluster Messier 67 (M67). There are few galactic clusters which are older and none of those are as close as M67. The survey was conducted by European astronomers. They found that massive planets around stars of open clusters are as frequent as those around field stars.</description>
 			<discoverymethod>RV</discoverymethod>
 			<lastupdate>14/01/14</lastupdate>
