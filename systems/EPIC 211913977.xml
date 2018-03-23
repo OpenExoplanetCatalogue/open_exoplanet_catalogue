@@ -1,28 +1,39 @@
 <system>
 	<name>EPIC 211913977</name>
 	<name>K2-101</name>
-	<rightascension>08 41 23</rightascension>
-	<declination>+18 56 02</declination>
+	<rightascension>08 41 22.581</rightascension>
+	<declination>+18 56 02.08</declination>
+	<distance errorminus="6.0" errorplus="6.0">181.5</distance>
 	<star>
 		<name>EPIC 211913977</name>
 		<name>K2-101</name>
 		<name>2MASS J08412258+1856020</name>
-		<age>0.8</age>
-		<radius>0.73</radius>
-		<mass>0.8</mass>
-		<temperature>4819.0</temperature>
+		<magB>14.00</magB>
+		<magV>12.96</magV>
+		<magJ errorminus="0.023" errorplus="0.023">11.162</magJ>
+		<magH errorminus="0.022" errorplus="0.022">10.678</magH>
+		<magK errorminus="0.019" errorplus="0.019">10.536</magK>
+		<spectraltype>K3V</spectraltype>
+		<mass errorminus="0.06" errorplus="0.06">0.80</mass>
+		<radius errorminus="0.03" errorplus="0.03">0.73</radius>
+		<temperature errorminus="45" errorplus="45">4819</temperature>
+		<metallicity errorminus="0.04" errorplus="0.04">0.14</metallicity>
+		<age errorminus="0.030" errorplus="0.030">0.790</age>
 		<planet>
 			<name>EPIC 211913977 b</name>
 			<name>K2-101 b</name>
-			<eccentricity errorminus="0.08" errorplus="0.18">0.1</eccentricity>
+			<eccentricity errorminus="0.08" errorplus="0.18">0.10</eccentricity>
 			<inclination errorminus="0.5" errorplus="0.4">89.4</inclination>
 			<period errorminus="0.000804" errorplus="0.000828">14.677286</period>
-			<radius errorminus="0.0089" errorplus="0.0089">0.18</radius>
+			<radius errorminus="0.0089" errorplus="0.0089">0.178</radius>
+			<periastron errorminus="118" errorplus="152">0</periastron>
+			<transittime errorminus="0.00230" errorplus="0.00223" unit="BJD">2457152.68135</transittime>
 			<istransiting>1</istransiting>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/09/07</lastupdate>
+			<lastupdate>18/03/23</lastupdate>
 			<list>Confirmed planets</list>
-			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+			<list>Planets in open clusters</list>
+			<description>K2-101 b is a sub-Neptune exoplanet located in the Praesepe cluster.</description>
 		</planet>
 	</star>
 </system>
