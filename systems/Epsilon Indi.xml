@@ -1,0 +1,133 @@
+<system>
+	<name>Epsilon Indi</name>
+	<name>eps Ind</name>
+	<rightascension>22 03 21.65809</rightascension>
+	<declination>-56 47 09.5169</declination>
+	<distance errorminus="0.0037" errorplus="0.0037">3.6224</distance>
+	<binary>
+		<name>Epsilon Indi</name>
+		<name>eps Ind</name>
+		<name>eps Indi</name>
+		<name>ε Ind</name>
+		<name>ε Indi</name>
+		<name>GJ 845</name>
+		<name>Gliese 845</name>
+		<name>WDS J22034-5647</name>
+		<separation unit="arcsec">403.10</separation>
+		<separation unit="AU">1460</separation>
+		<positionangle>88</positionangle>
+		<star>
+			<name>Epsilon Indi A</name>
+			<name>eps Ind A</name>
+			<name>eps Indi A</name>
+			<name>ε Ind A</name>
+			<name>ε Indi A</name>
+			<name>HR 8387</name>
+			<name>HD 209100</name>
+			<name>HIP 108870</name>
+			<name>TYC 8817-984-1</name>
+			<name>CD-57 8464</name>
+			<name>CPD-57 10015</name>
+			<name>GJ 845 A</name>
+			<name>Gliese 845 A</name>
+			<name>SAO 247287</name>
+			<name>LHS 67</name>
+			<name>2MASS J22032156-5647093</name>
+			<name>WDS J22034-5647 A</name>
+			<magB>5.75</magB>
+			<magV>4.69</magV>
+			<magJ errorminus="0.292" errorplus="0.292">2.894</magJ>
+			<magH errorminus="0.214" errorplus="0.214">2.349</magH>
+			<magK errorminus="0.240" errorplus="0.240">2.237</magK>
+			<spectraltype>K5V</spectraltype>
+			<temperature errorminus="59" errorplus="59">4568</temperature>
+			<metallicity>-0.06</metallicity>
+			<mass errorminus="0.038" errorplus="0.038">0.762</mass>
+			<radius errorminus="0.006" errorplus="0.006">0.732</radius>
+			<planet>
+				<name>Epsilon Indi A b</name>
+				<name>eps Ind A b</name>
+				<name>ε Ind A b</name>
+				<name>ε Indi A b</name>
+				<period errorminus="1502.23" errorplus="10111.37">19205.51</period>
+				<mass errorminus="0.44" errorplus="2.19" type="msini">2.71</mass>
+				<semimajoraxis errorminus="0.71" errorplus="4.18">12.82</semimajoraxis>
+				<eccentricity errorminus="0.01" errorplus="0.12">0.01</eccentricity>
+				<periastron errorminus="185.33" errorplus="23.28">88.56</periastron>
+				<meananomaly errorminus="49.41" errorplus="182.14">117.80</meananomaly>
+				<discoverymethod>RV</discoverymethod>
+				<discoveryyear>2018</discoveryyear>
+				<description>Epsilon Indi Ab is a giant planet in a wide orbit around the nearby star Epsilon Indi A. The orbit has a low eccentricity.</description>
+				<lastupdate>18/03/24</lastupdate>
+				<list>Confirmed planets</list>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+		<binary>
+			<name>Epsilon Indi B</name>
+			<name>eps Ind B</name>
+			<name>eps Indi B</name>
+			<name>ε Ind B</name>
+			<name>ε Indi B</name>
+			<name>GJ 845 B</name>
+			<name>Gliese 845 B</name>
+			<name>CI Indi</name>
+			<name>CI Ind</name>
+			<name>2MASS J22041052-5646577</name>
+			<name>WDS J22034-5647 B</name>
+			<period errorminus="180" errorplus="180">4090</period>
+			<semimajoraxis errorminus="0.11" errorplus="0.11">2.43</semimajoraxis>
+			<periastrontime errorminus="220" errorplus="220">2455230</periastrontime>
+			<eccentricity errorminus="0.03" errorplus="0.03">0.53</eccentricity>
+			<inclination errorminus="0.7" errorplus="0.7">-77.2</inclination>
+			<star>
+				<name>Epsilon Indi Ba</name>
+				<name>eps Ind Ba</name>
+				<name>eps Indi Ba</name>
+				<name>ε Ind Ba</name>
+				<name>ε Indi Ba</name>
+				<name>GJ 845 Ba</name>
+				<name>GJ 845 Bb</name>
+				<name>CI Indi A</name>
+				<name>CI Ind A</name>
+				<name>WDS J22034-5647 Ba</name>
+				<magV errorminus="0.03" errorplus="0.03">24.12</magV>
+				<magR errorminus="0.01" errorplus="0.01">20.65</magR>
+				<magI errorminus="0.02" errorplus="0.02">17.15</magI>
+				<magJ errorminus="0.03" errorplus="0.03">12.20</magJ>
+				<magH errorminus="0.02" errorplus="0.02">11.60</magH>
+				<magK errorminus="0.02" errorplus="0.02">11.42</magK>
+				<spectraltype>T1V</spectraltype>
+				<temperature lowerlimit="1300" upperlimit="1340" />
+				<metallicity>-0.2</metallicity>
+				<radius lowerlimit="0.080" upperlimit="0.081" />
+				<mass lowerlimit="0.0573" upperlimit="0.0697" />
+				<age lowerlimit="3.7" upperlimit="4.3" />
+			</star>
+			<star>
+				<name>Epsilon Indi Bb</name>
+				<name>eps Ind Bb</name>
+				<name>eps Indi Bb</name>
+				<name>ε Ind Bb</name>
+				<name>ε Indi Bb</name>
+				<name>GJ 845 Bb</name>
+				<name>Gliese 845 Bb</name>
+				<name>CI Indi B</name>
+				<name>CI Ind B</name>
+				<name>WDS J22034-5647 Bb</name>
+				<magV lowerlimit="26.60" />
+				<magR errorminus="0.02" errorplus="0.02">22.35</magR>
+				<magI errorminus="0.02" errorplus="0.02">18.91</magI>
+				<magJ errorminus="0.03" errorplus="0.03">12.96</magJ>
+				<magH errorminus="0.03" errorplus="0.03">13.40</magH>
+				<magK errorminus="0.02" errorplus="0.02">13.64</magK>
+				<spectraltype>T6V</spectraltype>
+				<temperature lowerlimit="880" upperlimit="940" />
+				<metallicity>-0.2</metallicity>
+				<radius lowerlimit="0.082" upperlimit="0.083" />
+				<mass lowerlimit="0.0449" upperlimit="0.0573" />
+				<age lowerlimit="3.7" upperlimit="4.3" />
+			</star>
+		</binary>
+	</binary>
+</system>
