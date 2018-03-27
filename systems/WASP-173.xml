@@ -1,17 +1,31 @@
 <system>
 	<name>WASP-173</name>
+	<name>KELT-22</name>
 	<rightascension>23 36 40.38</rightascension>
 	<declination>-34 36 40.6</declination>
 	<distance errorminus="32" errorplus="32">230</distance>
 	<binary>
+		<name>WASP-173</name>
+		<name>KELT-22</name>
+		<name>WDS J23366-3437</name>
+		<name>CCDM J23367-3437</name>
+		<separation errorminus="0.01" errorplus="0.01" unit="arcsec">6.1</separation>
+		<separation unit="AU">1400</separation>
+		<positionangle errorminus="0.5" errorplus="0.5">110.1</positionangle>
 		<star>
 			<name>WASP-173 A</name>
+			<name>KELT-22 A</name>
+			<name>CD-35 15858</name>
 			<name>1SWASP J233640.32-343640.4</name>
 			<name>2MASS J23364036-3436404</name>
-			<name>WDS23366-3437</name>
+			<name>WDS J23366-3437 A</name>
 			<name>TYC 7518-468-1</name>
+			<name>CCDM J23367-3437 A</name>
 			<magB errorminus="0.29" errorplus="0.29">12.56</magB>
 			<magV errorminus="0.10" errorplus="0.10">11.15</magV>
+			<magJ errorminus="0.050" errorplus="0.050">10.374</magJ>
+			<magH errorminus="0.070" errorplus="0.070">10.084</magH>
+			<magK errorminus="0.050" errorplus="0.050">10.002</magK>
 			<mass errorminus="0.08" errorplus="0.08">1.05</mass>
 			<radius errorminus="0.05" errorplus="0.05">1.11</radius>
 			<temperature errorminus="150" errorplus="150">5700</temperature>
@@ -20,12 +34,13 @@
 			<spectraltype>G3</spectraltype>
 			<planet>
 				<name>WASP-173 A b</name>
+				<name>KELT-22 A b</name>
 				<name>1SWASP J233640.32-343640.4 b</name>
 				<name>2MASS J23364036-3436404 b</name>
-				<name>WDS23366-3437 b</name>
+				<name>WDS J23366-3437 b</name>
 				<name>TYC 7518-468-1 b</name>
 				<list>Confirmed planets</list>
-				<radius errorminus="0.06" errorplus="0.06">1.2</radius>
+				<radius errorminus="0.06" errorplus="0.06">1.20</radius>
 				<mass errorminus="0.18" errorplus="0.18">3.69</mass>
 				<period errorminus="0.00000027" errorplus="0.00000027">1.38665318</period>
 				<transittime errorminus="0.0002" errorplus="0.0002" unit="HJD">2457288.8585</transittime>
@@ -33,16 +48,21 @@
 				<temperature errorminus="55" errorplus="55">1880</temperature>
 				<inclination errorminus="1.1" errorplus="1.1">85.2</inclination>
 				<description>WASP-173Ab is a massive planet in a circular orbit. The host is a G3 star, being the brighter component of the double-star system WDS23366-3437, with a companion 6 arcsecs away and 0.8
-mags fainter. One of the two stars shows a rotational modulation. This Hot Jupiter was discovered by WASP-South.</description>
+mags fainter. One of the two stars shows a rotational modulation. This Hot Jupiter was discovered by WASP-South. It was independently discovered as KELT-22Ab, with hints of a RV trend that may indicate a second companion.</description>
 				<discoverymethod>transit</discoverymethod>
 				<istransiting>1</istransiting>
 				<list>Planets in binary systems, S-type</list>
-				<lastupdate>18/03/06</lastupdate>
+				<lastupdate>18/03/27</lastupdate>
 				<discoveryyear>2018</discoveryyear>
 			</planet>
 		</star>
 		<star>
 			<name>WASP-173 B</name>
+			<name>KELT-22 B</name>
+			<name>WDS J23366-3437 B</name>
+			<name>CCDM J23367-3437 B</name>
+			<magV>12.1</magV>
+			<spectraltype>G/K</spectraltype>
 		</star>
 	</binary>
 </system>
