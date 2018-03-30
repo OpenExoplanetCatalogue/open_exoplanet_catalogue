@@ -3,26 +3,38 @@
 	<name>K2-100</name>
 	<rightascension>08 38 24</rightascension>
 	<declination>+20 06 22</declination>
+	<distance errorminus="6.0" errorplus="6.0">181.5</distance>
 	<star>
 		<name>EPIC 211990866</name>
 		<name>K2-100</name>
+		<name>TYC 1398-142-1</name>
 		<name>2MASS J08382429+2006217</name>
-		<age>0.8</age>
-		<radius>1.19</radius>
-		<mass>1.18</mass>
-		<temperature>6120.0</temperature>
+		<magB>11.13</magB>
+		<magV>10.55</magV>
+		<magJ errorminus="0.026" errorplus="0.026">9.463</magJ>
+		<magH errorminus="0.030" errorplus="0.030">9.242</magH>
+		<magK errorminus="0.018" errorplus="0.018">9.182</magK>
+		<spectraltype>G0V</spectraltype>
+		<mass errorminus="0.09" errorplus="0.09">1.18</mass>
+		<radius errorminus="0.05" errorplus="0.05">1.19</radius>
+		<temperature errorminus="90" errorplus="90">6120</temperature>
+		<metallicity errorminus="0.04" errorplus="0.04">0.14</metallicity>
+		<age errorminus="0.030" errorplus="0.030">0.790</age>
 		<planet>
 			<name>EPIC 211990866 b</name>
 			<name>K2-100 b</name>
 			<eccentricity errorminus="0.12" errorplus="0.19">0.24</eccentricity>
 			<inclination errorminus="3.1" errorplus="3.3">85.1</inclination>
 			<period errorminus="0.000013" errorplus="0.000012">1.673916</period>
-			<radius errorminus="0.018" errorplus="0.018">0.31</radius>
+			<radius errorminus="0.018" errorplus="0.018">0.312</radius>
+			<periastron errorminus="33" errorplus="41">29</periastron>
+			<transittime errorminus="0.00037" errorplus="0.00055" unit="BJD">2457144.06723</transittime>
 			<istransiting>1</istransiting>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/09/07</lastupdate>
+			<lastupdate>18/03/23</lastupdate>
 			<list>Confirmed planets</list>
-			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+			<list>Planets in open clusters</list>
+			<description>K2-100 b is a sub-Neptune exoplanet located in the Praesepe cluster.</description>
 		</planet>
 	</star>
 </system>

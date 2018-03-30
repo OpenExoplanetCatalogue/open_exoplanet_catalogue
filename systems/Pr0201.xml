@@ -1,37 +1,45 @@
 <system>
 	<name>Pr0201</name>
-	<rightascension>08 41 43</rightascension>
-	<declination>+20 13 36</declination>
-	<distance>177</distance>
+	<rightascension>08 41 43.8157</rightascension>
+	<declination>+20 13 36.755</declination>
+	<distance errorminus="18" errorplus="18">178</distance>
 	<star>
-		<magB>11.1</magB>
-		<magV>10.33</magV>
+		<name>Pr0201</name>
+		<name>BD+20 2184</name>
+		<name>TYC 1398-321-1</name>
+		<name>EPIC 211998346</name>
+		<name>2MASS J08414382+2013368</name>
+		<magB errorminus="0.075" errorplus="0.075">11.109</magB>
+		<magV errorminus="0.053" errorplus="0.053">10.445</magV>
 		<magJ errorminus="0.023" errorplus="0.023">9.463</magJ>
 		<magH errorminus="0.020" errorplus="0.020">9.227</magH>
 		<magK errorminus="0.018" errorplus="0.018">9.142</magK>
-		<mass>1.234</mass>
-		<radius>1.167</radius>
-		<temperature>6174</temperature>
-		<metallicity>0.187</metallicity>
+		<mass errorminus="0.034" errorplus="0.034">1.234</mass>
+		<radius errorminus="0.121" errorplus="0.121">1.167</radius>
+		<temperature errorminus="50" errorplus="50">6174</temperature>
+		<metallicity errorminus="0.038" errorplus="0.038">0.187</metallicity>
 		<spectraltype>F7.5</spectraltype>
+		<age errorminus="0.049" errorplus="0.049">0.578</age>
 		<planet>
 			<name>Pr0201 b</name>
 			<name>BD+20 2184</name>
+			<name>EPIC 211998346 b</name>
 			<name>2MASS J08414382+2013368</name>
 			<list>Confirmed planets</list>
 			<list>Planets in open clusters</list>
-			<mass>0.54</mass>
-			<period>4.4264</period>
+			<mass errorminus="0.039" errorplus="0.039" type="msini">0.540</mass>
+			<period errorminus="0.0070" errorplus="0.0070">4.4264</period>
 			<eccentricity>0</eccentricity>
+			<transittime errorminus="0.053" errorplus="0.053" unit="BJD">2455992.861</transittime>
+			<istransiting>0</istransiting>
 			<description>This planet is a so-called Hot Jupiter which orbits tightly around its parent star in the Beehive Cluster, a collection of roughly 1,000 stars that appear to be swarming around a common center. The planet is not habitable but its sky would be starrier than what we see from Earth.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>12/09/14</lastupdate>
+			<lastupdate>18/03/23</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<image>beehive</image>
 			<imagedescription>Artist's impression of a planet in the Beehive cluster.
 
 Image credit: NASA/JPL-Caltech</imagedescription>
 		</planet>
-		<name>Pr0201</name>
 	</star>
 </system>

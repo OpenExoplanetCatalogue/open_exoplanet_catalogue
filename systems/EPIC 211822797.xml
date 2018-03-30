@@ -1,28 +1,37 @@
 <system>
 	<name>EPIC 211822797</name>
 	<name>K2-103</name>
-	<rightascension>08 41 38</rightascension>
-	<declination>+17 38 24</declination>
+	<rightascension>08 41 38.483</rightascension>
+	<declination>+17 38 24.05</declination>
+	<distance errorminus="6.0" errorplus="6.0">181.5</distance>
 	<star>
 		<name>EPIC 211822797</name>
 		<name>K2-103</name>
 		<name>2MASS J08413848+1738240</name>
-		<age>0.8</age>
-		<radius>0.59</radius>
-		<mass>0.61</mass>
-		<temperature>3880.0</temperature>
+		<magJ errorminus="0.001" errorplus="0.001">12.264</magJ>
+		<magH errorminus="0.001" errorplus="0.001">11.699</magH>
+		<magK errorminus="0.001" errorplus="0.001">11.432</magK>
+		<spectraltype>M0.4</spectraltype>
+		<radius errorminus="0.03" errorplus="0.03">0.59</radius>
+		<mass errorminus="0.02" errorplus="0.02">0.61</mass>
+		<temperature errorminus="67" errorplus="67">3880</temperature>
+		<metallicity errorminus="0.04" errorplus="0.04">0.14</metallicity>
+		<age errorminus="0.030" errorplus="0.030">0.790</age>
 		<planet>
 			<name>EPIC 211822797 b</name>
 			<name>K2-103 b</name>
 			<eccentricity errorminus="0.15" errorplus="0.27">0.18</eccentricity>
 			<inclination errorminus="0.4" errorplus="0.3">89.5</inclination>
 			<period errorminus="0.001729" errorplus="0.001665">21.169619</period>
-			<radius errorminus="0.0089" errorplus="0.018">0.2</radius>
+			<radius errorminus="0.0089" errorplus="0.018">0.196</radius>
+			<periastron errorminus="67" errorplus="156">0</periastron>
+			<transittime errorminus="0.00430" errorplus="0.00443" unit="BJD">2457123.23803</transittime>
 			<istransiting>1</istransiting>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/09/07</lastupdate>
+			<lastupdate>18/03/23</lastupdate>
 			<list>Confirmed planets</list>
-			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+			<list>Planets in open clusters</list>
+			<description>K2-103b is a sub-Neptune exoplanet in the Praesepe cluster.</description>
 		</planet>
 	</star>
 </system>

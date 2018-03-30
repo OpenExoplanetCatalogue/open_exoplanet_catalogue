@@ -1,26 +1,39 @@
 <system>
 	<name>YBP401</name>
-	<rightascension>08 51 19</rightascension>
-	<declination>+11 40 16</declination>
-	<distance>843.0</distance>
+	<name>NGC 2682 YBP 401</name>
+	<rightascension>08 51 19.046</rightascension>
+	<declination>+11 40 15.67</declination>
+	<distance errorminus="20" errorplus="20">843</distance>
 	<star>
 		<name>YBP401</name>
-		<age>4.0</age>
-		<mass>1.14</mass>
+		<name>NGC 2682 YBP 401</name>
+		<name>NGC 2682 SAND 954</name>
+		<name>2MASS J08511904+1140156</name>
+		<magU>14.333</magU>
+		<magB>14.304</magB>
+		<magV errorminus="0.063" errorplus="0.063">13.723</magV>
+		<magI errorminus="0.003" errorplus="0.003">13.009</magI>
+		<magJ errorminus="0.022" errorplus="0.022">12.638</magJ>
+		<magH errorminus="0.022" errorplus="0.022">12.376</magH>
+		<magK errorminus="0.024" errorplus="0.024">12.337</magK>
 		<spectraltype>F9V</spectraltype>
-		<temperature>6165.0</temperature>
+		<temperature errorminus="64" errorplus="64">6165</temperature>
+		<mass errorminus="0.02" errorplus="0.02">1.14</mass>
+		<age>4</age>
+		<metallicity>0</metallicity>
 		<planet>
 			<name>YBP401 b</name>
-			<periastron errorminus="26.0" errorplus="26.0">330.17</periastron>
-			<eccentricity errorminus="0.08" errorplus="0.08">0.15</eccentricity>
-			<period errorminus="0.070000" errorplus="0.070000">4.087</period>
-			<mass errorminus="0.05" errorplus="0.05">0.46</mass>
+			<periastron errorminus="62.12" errorplus="62.12">343.33</periastron>
+			<eccentricity errorminus="0.08" errorplus="0.08">0.16</eccentricity>
+			<period errorminus="0.003" errorplus="0.003">4.087</period>
+			<mass errorminus="0.05" errorplus="0.05" type="msini">0.42</mass>
+			<periastrontime errorminus="0.6" errorplus="0.6">2456072.4</periastrontime>
 			<discoverymethod>RV</discoverymethod>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/06/18</lastupdate>
+			<lastupdate>18/03/23</lastupdate>
 			<list>Confirmed planets</list>
 			<list>Planets in open clusters</list>
-			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+			<description>YBP401 b is a hot Jupiter in an eccentric orbit around an F-type star in the open cluster M67.</description>
 		</planet>
 	</star>
 </system>

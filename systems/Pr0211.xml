@@ -5,6 +5,7 @@
 	<distance>177</distance>
 	<star>
 		<name>Pr0211</name>
+		<name>EPIC 211936827</name>
 		<name>2MASS J08421149+1916373</name>
 		<magB>13.02</magB>
 		<magV>12.15</magV>
@@ -22,15 +23,15 @@
 			<name>2MASS J08421149+1916373 b</name>
 			<list>Confirmed planets</list>
 			<list>Planets in open clusters</list>
-			<mass errorminus="0.02" errorplus="0.02" type="msini">1.88</mass>
-			<period errorminus="0.00002" errorplus="0.00002">2.14609</period>
-			<eccentricity errorminus="0.010" errorplus="0.010">0.017</eccentricity>
-			<periastron errorminus="35" errorplus="35">329</periastron>
-			<semimajoraxis errorminus="0.00015" errorplus="0.00015">0.03184</semimajoraxis>
-			<periastrontime errorminus="0.2" errorplus="0.2">2456678.6</periastrontime>
+			<mass errorminus="0.03" errorplus="0.03" type="msini">1.88</mass>
+			<period errorminus="0.00003" errorplus="0.00003">2.14610</period>
+			<eccentricity errorminus="0.008" errorplus="0.012">0.011</eccentricity>
+			<periastron errorminus="111" errorplus="87">17</periastron>
+			<semimajoraxis errorminus="0.00015" errorplus="0.00015">0.03176</semimajoraxis>
+			<periastrontime errorminus="0.5" errorplus="0.5">2456678.8</periastrontime>
 			<description>This planet is a so-called Hot Jupiter which orbits tightly around its parent star in the Beehive Cluster, a collection of roughly 1,000 stars that appear to be swarming around a common center. The planet is not habitable but its sky would be starrier than what we see from Earth.</description>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>16/03/03</lastupdate>
+			<lastupdate>18/03/23</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 			<image>beehive</image>
 			<imagedescription>Artist's impression of a planet in the Beehive cluster.
@@ -42,16 +43,16 @@ Image credit: NASA/JPL-Caltech</imagedescription>
 			<name>2MASS J08421149+1916373 c</name>
 			<list>Confirmed planets</list>
 			<list>Planets in open clusters</list>
-			<period errorminus="1800" errorplus="4450">5300</period>
-			<eccentricity errorminus="0.10" errorplus="0.10">0.70</eccentricity>
-			<periastron errorminus="6" errorplus="6">103</periastron>
-			<mass errorminus="0.25" errorplus="0.25" type="msini">7.95</mass>
-			<semimajoraxis errorminus="1.4" errorplus="2.9">5.8</semimajoraxis>
-			<periastrontime errorminus="16" errorplus="16">2456709</periastrontime>
+			<period errorminus="1750" errorplus="4560">4850</period>
+			<eccentricity errorminus="0.09" errorplus="0.09">0.78</eccentricity>
+			<periastron errorminus="9" errorplus="9">111</periastron>
+			<mass errorminus="0.33" errorplus="0.33" type="msini">7.79</mass>
+			<semimajoraxis errorminus="1.4" errorplus="3.0">5.5</semimajoraxis>
+			<periastrontime errorminus="22" errorplus="22">2456736</periastrontime>
 			<description>Pr0211 c is a super-Jovian planet in a highly-elliptical orbit. The discovery of this planet was the first time a multiplanet system had been observed in an open cluster.</description>
 			<discoverymethod>RV</discoverymethod>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/03/03</lastupdate>
+			<lastupdate>18/03/23</lastupdate>
 		</planet>
 	</star>
 </system>

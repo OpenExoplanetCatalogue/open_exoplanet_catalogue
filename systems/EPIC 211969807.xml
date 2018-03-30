@@ -1,28 +1,39 @@
 <system>
 	<name>EPIC 211969807</name>
 	<name>K2-104</name>
-	<rightascension>08 38 33</rightascension>
-	<declination>+19 46 26</declination>
+	<rightascension>08 38 32.834</rightascension>
+	<declination>+19 46 25.67</declination>
+	<distance errorminus="6.0" errorplus="6.0">181.5</distance>
 	<star>
 		<name>EPIC 211969807</name>
 		<name>K2-104</name>
 		<name>2MASS J08383283+1946256</name>
-		<age>0.8</age>
-		<radius>0.48</radius>
-		<mass>0.51</mass>
-		<temperature>3660.0</temperature>
+		<magB>18.46</magB>
+		<magV>16.26</magV>
+		<magJ errorminus="0.002" errorplus="0.002">12.800</magJ>
+		<magH errorminus="0.001" errorplus="0.001">12.246</magH>
+		<magK errorminus="0.001" errorplus="0.001">12.021</magK>
+		<spectraltype>M1.2</spectraltype>
+		<radius errorminus="0.02" errorplus="0.02">0.48</radius>
+		<mass errorminus="0.02" errorplus="0.02">0.51</mass>
+		<temperature errorminus="67" errorplus="67">3660</temperature>
+		<metallicity errorminus="0.04" errorplus="0.04">0.14</metallicity>
+		<age errorminus="0.030" errorplus="0.030">0.790</age>
 		<planet>
 			<name>EPIC 211969807 b</name>
 			<name>K2-104 b</name>
 			<eccentricity errorminus="0.14" errorplus="0.29">0.18</eccentricity>
 			<inclination errorminus="1.9" errorplus="1.4">88.0</inclination>
 			<period errorminus="0.000110" errorplus="0.000110">1.97419</period>
-			<radius errorminus="0.018" errorplus="0.0089">0.17</radius>
+			<radius errorminus="0.018" errorplus="0.0089">0.170</radius>
+			<periastron errorminus="63" errorplus="155">0</periastron>
+			<transittime errorminus="0.00261" errorplus="0.00268" unit="BJD">2457140.38117</transittime>
 			<istransiting>1</istransiting>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/09/07</lastupdate>
+			<lastupdate>18/03/23</lastupdate>
 			<list>Confirmed planets</list>
-			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+			<list>Planets in open clusters</list>
+			<description>K2-104b is a sub-Neptune exoplanet in the Praesepe cluster.</description>
 		</planet>
 	</star>
 </system>

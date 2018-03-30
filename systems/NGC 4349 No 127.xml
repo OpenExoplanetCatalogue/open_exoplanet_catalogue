@@ -1,29 +1,34 @@
 <system>
 	<name>NGC 4349 No 127</name>
 	<name>NGC 4349 MMU 127</name>
-	<rightascension>12 24 08</rightascension>
-	<declination>-61 52 18</declination>
-	<distance>2176</distance>
+	<rightascension>12 24 35.4685</rightascension>
+	<declination>-61 49 11.888</declination>
+	<distance>2200</distance>
 	<star>
 		<name>NGC 4349 No 127</name>
 		<name>NGC 4349 MMU 127</name>
-		<mass>3.9</mass>
-		<magV>7.4</magV>
+		<name>TYC 8975-2606-1</name>
+		<magB errorminus="0.44" errorplus="0.44">12.85</magB>
+		<magV errorminus="0.08" errorplus="0.08">10.82</magV>
+		<metallicity errorminus="0.04" errorplus="0.04">-0.12</metallicity>
+		<mass errorminus="0.3" errorplus="0.3">3.9</mass>
+		<age errorminus="0.05" errorplus="0.05">0.20</age>
 		<planet>
 			<name>NGC 4349 No 127 b</name>
 			<name>NGC 4349 127 b</name>
 			<name>NGC 4349 MMU 127 b</name>
 			<list>Confirmed planets</list>
 			<list>Planets in open clusters</list>
-			<mass>19.8</mass>
-			<period>677.8</period>
+			<mass type="msini">19.8</mass>
+			<period errorminus="6.2" errorplus="6.2">677.8</period>
 			<semimajoraxis>2.38</semimajoraxis>
-			<eccentricity>0.19</eccentricity>
+			<eccentricity errorminus="0.07" errorplus="0.07">0.19</eccentricity>
+			<periastron errorminus="19" errorplus="19">61</periastron>
+			<periastrontime errorminus="34" errorplus="34">2454114</periastrontime>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>07/11/27</lastupdate>
+			<lastupdate>18/03/23</lastupdate>
 			<discoveryyear>2007</discoveryyear>
-			<temperature>599.9</temperature>
+			<description>NGC 4349 MMU 127 b is a super-Jovian or brown dwarf orbiting a giant star in the open cluster NGC 4349.</description>
 		</planet>
-		<temperature>5700.0</temperature>
 	</star>
 </system>

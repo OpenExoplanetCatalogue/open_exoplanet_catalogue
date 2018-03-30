@@ -1,33 +1,40 @@
 <system>
 	<name>NGC 2423 3</name>
-	<rightascension>07 37 09</rightascension>
-	<declination>-13 54 24</declination>
+	<name>NGC 2423 MMU 3</name>
+	<rightascension>07 37 09.2328</rightascension>
+	<declination>-13 54 23.952</declination>
 	<distance>766</distance>
 	<star>
 		<name>NGC 2423 3</name>
+		<name>NGC 2423 MMU 3</name>
 		<name>BD-13 2130</name>
-		<spectraltype>GIV/V</spectraltype>
-		<mass>2.4</mass>
-		<magV>9.45</magV>
+		<name>TYC 5409-2156-1</name>
+		<name>2MASS J07370922-1354239</name>
+		<spectraltype>G5IV-V/K2III</spectraltype>
 		<magB errorminus="0.08" errorplus="0.08">11.31</magB>
+		<magV errorminus="0.04" errorplus="0.04">10.04</magV>
 		<magJ errorminus="0.026" errorplus="0.026">7.940</magJ>
 		<magH errorminus="0.05" errorplus="0.05">7.37</magH>
 		<magK errorminus="0.023" errorplus="0.023">7.151</magK>
-		<metallicity>0.14</metallicity>
+		<metallicity errorminus="0.09" errorplus="0.09">0.14</metallicity>
+		<mass errorminus="0.2" errorplus="0.2">2.4</mass>
+		<age errorminus="0.20" errorplus="0.20">0.74</age>
 		<planet>
 			<name>NGC 2423 3 b</name>
+			<name>NGC 2423 MMU 3 b</name>
 			<name>BD-13 2130 b</name>
 			<list>Confirmed planets</list>
 			<list>Planets in open clusters</list>
-			<mass>10.6</mass>
-			<period>714.3</period>
-			<semimajoraxis>2.1</semimajoraxis>
-			<eccentricity>0.21</eccentricity>
+			<mass type="msini">10.6</mass>
+			<period errorminus="5.3" errorplus="5.3">714.3</period>
+			<semimajoraxis>2.10</semimajoraxis>
+			<eccentricity errorminus="0.07" errorplus="0.07">0.21</eccentricity>
+			<periastron errorminus="10" errorplus="10">18</periastron>
+			<periastrontime errorminus="21" errorplus="21">2453213</periastrontime>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>07/11/27</lastupdate>
+			<lastupdate>18/03/23</lastupdate>
 			<discoveryyear>2007</discoveryyear>
-			<temperature>417.4</temperature>
+			<description>NGC 2423 MMU 3 b is a massive giant planet or brown dwarf orbiting a giant star in the open cluster NGC 2423.</description>
 		</planet>
-		<temperature>5700.0</temperature>
 	</star>
 </system>

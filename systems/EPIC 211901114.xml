@@ -1,0 +1,36 @@
+<system>
+	<name>EPIC 211901114</name>
+	<rightascension>08 41 35.694</rightascension>
+	<declination>18 44 35.01</declination>
+	<distance errorminus="6.0" errorplus="6.0">181.5</distance>
+	<star>
+		<name>EPIC 211901114</name>
+		<name>2MASS J08413569+1844350</name>
+		<magB>19.59</magB>
+		<magV>17.14</magV>
+		<magJ errorminus="0.002" errorplus="0.002">13.129</magJ>
+		<magH errorminus="0.001" errorplus="0.001">12.549</magH>
+		<magK errorminus="0.001" errorplus="0.001">12.290</magK>
+		<spectraltype>M2.7</spectraltype>
+		<mass errorminus="0.02" errorplus="0.02">0.46</mass>
+		<radius errorminus="0.02" errorplus="0.02">0.46</radius>
+		<temperature errorminus="65" errorplus="65">3440</temperature>
+		<metallicity errorminus="0.04" errorplus="0.04">0.14</metallicity>
+		<age errorminus="0.030" errorplus="0.030">0.790</age>
+		<planet>
+			<name>EPIC 211901114 b</name>
+			<list>Controversial</list>
+			<list>Planets in open clusters</list>
+			<period errorminus="0.000069" errorplus="0.000071">1.648932</period>
+			<transittime errorminus="0.00200" errorplus="0.00191" unit="BJD">2457140.83259</transittime>
+			<inclination errorminus="0.7" errorplus="0.7">83.5</inclination>
+			<radius errorminus="0.428" errorplus="0.473">0.856</radius>
+			<mass type="msini" upperlimit="5" />
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<description>EPIC 211901114 b is a candidate exoplanet in the Praesepe cluster. If confirmed, it would be one of the few known examples of a hot Jupiter orbiting a red dwarf star.</description>
+			<lastupdate>18/03/23</lastupdate>
+		</planet>
+	</star>
+</system>

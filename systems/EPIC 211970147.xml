@@ -1,28 +1,39 @@
 <system>
 	<name>EPIC 211970147</name>
 	<name>K2-102</name>
-	<rightascension>08 40 13</rightascension>
-	<declination>+19 46 44</declination>
+	<rightascension>08 40 13.453</rightascension>
+	<declination>+19 46 43.65</declination>
+	<distance errorminus="6.0" errorplus="6.0">181.5</distance>
 	<star>
 		<name>EPIC 211970147</name>
 		<name>K2-102</name>
 		<name>2MASS J08401345+1946436</name>
-		<age>0.8</age>
-		<radius>0.71</radius>
-		<mass>0.77</mass>
-		<temperature>4695.0</temperature>
+		<magB>14.30</magB>
+		<magV>13.19</magV>
+		<magJ errorminus="0.022" errorplus="0.022">11.282</magJ>
+		<magH errorminus="0.020" errorplus="0.020">10.739</magH>
+		<magK errorminus="0.020" errorplus="0.020">10.640</magK>
+		<spectraltype>K3.6</spectraltype>
+		<radius errorminus="0.03" errorplus="0.03">0.71</radius>
+		<mass errorminus="0.06" errorplus="0.06">0.77</mass>
+		<temperature errorminus="50" errorplus="50">4695</temperature>
+		<metallicity errorminus="0.04" errorplus="0.04">0.14</metallicity>
+		<age errorminus="0.030" errorplus="0.030">0.790</age>
 		<planet>
 			<name>EPIC 211970147 b</name>
 			<name>K2-102 b</name>
-			<eccentricity errorminus="0.07" errorplus="0.16">0.1</eccentricity>
+			<eccentricity errorminus="0.07" errorplus="0.16">0.10</eccentricity>
 			<inclination errorminus="0.6" errorplus="0.6">89.0</inclination>
 			<period errorminus="0.001195" errorplus="0.001209">9.915615</period>
-			<radius errorminus="0.0089" errorplus="0.0089">0.12</radius>
+			<radius errorminus="0.0089" errorplus="0.0089">0.116</radius>
+			<periastron errorminus="132" errorplus="136">-1</periastron>
+			<transittime errorminus="0.00552" errorplus="0.00552" unit="BJD">2457139.65518</transittime>
 			<istransiting>1</istransiting>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/09/07</lastupdate>
 			<list>Confirmed planets</list>
-			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+			<list>Planets in open clusters</list>
+			<description>K2-102 b is a super-Earth located in the Praesepe cluster.</description>
 		</planet>
 	</star>
 </system>
