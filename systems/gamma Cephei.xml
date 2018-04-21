@@ -9,7 +9,7 @@
 	<name>HIP 116727</name>
 	<rightascension>23 39 20.85153</rightascension>
 	<declination>+77 37 56.1876</declination>
-	<distance errorminus="0.080" errorplus="0.080">14.102</distance>
+	<distance errorminus="0.026" errorplus="0.026">13.523</distance>
 	<binary>
 		<name>gamma Cephei</name>
 		<name>Gamma Cephei</name>
@@ -31,11 +31,12 @@
 		<name>WDS J23393+7738</name>
 		<name>NHR 9</name>
 		<semimajoraxis errorminus="0.66" errorplus="0.66">20.18</semimajoraxis>
-		<eccentricity errorminus="0.0063" errorplus="0.0063">0.4112</eccentricity>
-		<period errorminus="511" errorplus="511">24654</period>
-		<periastron errorminus="0.40" errorplus="0.40">161.01</periastron>
-		<periastrontime errorminus="11.3" errorplus="11.3">2448478.3</periastrontime>
-		<ascendingnode errorminus="0.98" errorplus="0.98">18.04</ascendingnode>
+		<eccentricity errorminus="0.007" errorplus="0.007">0.401</eccentricity>
+		<period errorminus="341" errorplus="341">27041</period>
+		<periastron errorminus="0.2" errorplus="0.2">161.9</periastron>
+		<periastrontime errorminus="8" errorplus="8">2448502</periastrontime>
+		<ascendingnode errorminus="0.8" errorplus="0.8">14.2</ascendingnode>
+		<inclination errorminus="1.5" errorplus="1.5">101.1</inclination>
 		<star>
 			<name>gamma Cephei A</name>
 			<name>Gamma Cephei A</name>
@@ -56,7 +57,7 @@
 			<name>2MASS J23392083+7737563 A</name>
 			<name>WDS J23393+7738 A</name>
 			<name>NHR 9 A</name>
-			<mass errorminus="0.12" errorplus="0.12">1.40</mass>
+			<mass>1.18</mass>
 			<radius>4.9</radius>
 			<magV errorminus="0.009" errorplus="0.009">3.220</magV>
 			<magB errorminus="0.007" errorplus="0.007">4.250</magB>
@@ -74,14 +75,16 @@
 				<name>gam Cep A b</name>
 				<name>HD 222404 A b</name>
 				<list>Confirmed planets</list>
-				<mass errorminus="0.16" errorplus="0.16" type="msini">1.85</mass>
-				<period errorminus="1.5" errorplus="1.5">903.3</period>
-				<semimajoraxis errorminus="0.06" errorplus="0.06">2.05</semimajoraxis>
-				<eccentricity errorminus="0.034" errorplus="0.034">0.049</eccentricity>
-				<periastron errorminus="34.6" errorplus="34.6">94.6</periastron>
-				<periastrontime errorminus="87" errorplus="87">2453227</periastrontime>
+				<mass errorminus="1.1" errorplus="0.7">9.4</mass>
+				<period>905.0</period>
+				<semimajoraxis>1.94</semimajoraxis>
+				<eccentricity>0.08</eccentricity>
+				<periastron>86</periastron>
+				<periastrontime>24532481</periastrontime>
+				<inclination errorminus="1.1" errorplus="1.1">169.5</inclination>
+				<ascendingnode errorminus="6" errorplus="6">47</ascendingnode>
 				<discoverymethod>RV</discoverymethod>
-				<lastupdate>15/12/12</lastupdate>
+				<lastupdate>18/04/20</lastupdate>
 				<discoveryyear>2003</discoveryyear>
 				<list>Planets in binary systems, S-type</list>
 			</planet>
@@ -107,7 +110,7 @@
 			<name>WDS J23393+7738 B</name>
 			<name>NHR 9 B</name>
 			<magK errorminus="0.2" errorplus="0.2">7.3</magK>
-			<mass errorminus="0.018" errorplus="0.018">0.409</mass>
+			<mass>0.32</mass>
 			<spectraltype>M4</spectraltype>
 		</star>
 	</binary>
