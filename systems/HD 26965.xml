@@ -50,24 +50,26 @@
 			<magJ>2.93</magJ>
 			<magH>2.48</magH>
 			<magK>2.41</magK>
-			<spectraltype>K0.5V</spectraltype>
-			<mass errorminus="0.03" errorplus="0.03">0.76</mass>
-			<age errorminus="4.84" errorplus="4.84">9.23</age>
-			<temperature errorminus="55" errorplus="55">5151</temperature>
-			<metallicity errorminus="0.12" errorplus="0.12">-0.29</metallicity>
+			<spectraltype>K0V</spectraltype>
+			<mass errorminus="0.08" errorplus="0.08">0.78</mass>
+			<radius errorminus="0.017" errorplus="0.017">0.812</radius>
+			<age errorminus="4.7" errorplus="4.7">6.9</age>
+			<temperature errorminus="53" errorplus="53">5072</temperature>
+			<metallicity errorminus="0.04" errorplus="0.04">-0.42</metallicity>
 			<planet>
 				<name>HD 26965 b</name>
-				<list>Controversial</list>
-				<period errorminus="0.015" errorplus="0.015">42.364</period>
-				<eccentricity errorminus="0.046" errorplus="0.046">0.017</eccentricity>
-				<periastron errorminus="110.6" errorplus="110.6">17.8</periastron>
-				<meananomaly errorminus="110.0" errorplus="110.0">281.9</meananomaly>
-				<semimajoraxis errorminus="0.008" errorplus="0.008">0.215</semimajoraxis>
-				<mass errorminus="0.00249" errorplus="0.00249" type="msini">0.02174</mass>
+				<name>40 Eridani A b</name>
+				<list>Confirmed planets</list>
+				<period errorminus="0.01" errorplus="0.01">42.378</period>
+				<eccentricity errorminus="0.03" errorplus="0.05">0.04</eccentricity>
+				<periastron errorminus="80" errorplus="126">149</periastron>
+				<mass errorminus="0.00148" errorplus="0.00148" type="msini">0.02665</mass>
+				<transittime errorminus="0.58" errorplus="0.62" unit="JD">2455886.76</transittime>
+				<istransiting>0</istransiting>
 				<discoverymethod>RV</discoverymethod>
 				<discoveryyear>2018</discoveryyear>
-				<description>HD 26965 b is a candidate sub-Neptune planet orbiting the nearby star 40 Eridani A. It is not yet clear whether the radial velocity variations are due to an orbiting planet or stellar activity. The star system also contains a distant binary containing the white dwarf star 40 Eridani B and the flare star 40 Eridani C.</description>
-				<lastupdate>18/01/24</lastupdate>
+				<description>HD 26965 b is a low-mass exoplanet orbiting the star 40 Eridani A. It was originally discovered by Díaz et al. (2018) and confirmed by the Dharma Planet Search (Ma et al., 2018). The star system also contains a distant binary containing the white dwarf star 40 Eridani B and the flare star 40 Eridani C.</description>
+				<lastupdate>18/07/20</lastupdate>
 				<list>Planets in binary systems, S-type</list>
 			</planet>
 		</star>
