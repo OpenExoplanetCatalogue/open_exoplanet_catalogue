@@ -1,8 +1,8 @@
 <system>
 	<name>K2-34</name>
 	<name>EPIC 212110888</name>
-	<rightascension>08 30 19</rightascension>
-	<declination>+22 14 09</declination>
+	<rightascension>08 30 18.905</rightascension>
+	<declination>+22 14 09.27</declination>
 	<distance>377.0</distance>
 	<star>
 		<name>K2-34</name>
@@ -13,6 +13,11 @@
 		<spectraltype>F9</spectraltype>
 		<temperature>6132.0</temperature>
 		<metallicity>0.24</metallicity>
+		<magB errorminus="0.150" errorplus="0.150">12.018</magB>
+		<magV errorminus="0.122" errorplus="0.122">11.447</magV>
+		<magJ errorminus="0.025" errorplus="0.025">10.528</magJ>
+		<magH errorminus="0.022" errorplus="0.022">10.258</magH>
+		<magK errorminus="0.017" errorplus="0.017">10.193</magK>
 		<planet>
 			<name>K2-34 b</name>
 			<name>EPIC 212110888 b</name>
@@ -25,9 +30,10 @@
 			<istransiting>1</istransiting>
 			<discoverymethod>transit</discoverymethod>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/06/07</lastupdate>
+			<lastupdate>18/07/24</lastupdate>
 			<list>Confirmed planets</list>
 			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+			<transittime errorminus="0.000088" errorplus="0.000090" unit="BJD">2457141.351088</transittime>
 		</planet>
 	</star>
 </system>
