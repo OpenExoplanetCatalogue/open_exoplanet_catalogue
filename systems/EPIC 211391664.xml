@@ -1,8 +1,8 @@
 <system>
 	<name>EPIC 211391664</name>
 	<name>K2-98</name>
-	<rightascension>08 25 57.19</rightascension>
-	<declination>+11 30 40.1</declination>
+	<rightascension>08 25 57.189</rightascension>
+	<declination>+11 30 40.12</declination>
 	<distance>435.0</distance>
 	<star>
 		<name>EPIC 211391664</name>
@@ -14,6 +14,9 @@
 		<magV errorminus="0.03" errorplus="0.03">12.17</magV>
 		<magB errorminus="0.03" errorplus="0.03">12.65</magB>
 		<magR errorminus="0.05" errorplus="0.05">12.13</magR>
+		<magJ errorminus="0.022" errorplus="0.022">11.124</magJ>
+		<magH errorminus="0.025" errorplus="0.025">10.905</magH>
+		<magK errorminus="0.028" errorplus="0.028">10.869</magK>
 		<spectraltype>F8V</spectraltype>
 		<temperature>6120.0</temperature>
 		<metallicity>-0.2</metallicity>
@@ -28,9 +31,10 @@
 			<istransiting>1</istransiting>
 			<discoverymethod>transit</discoverymethod>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/08/04</lastupdate>
+			<lastupdate>18/07/24</lastupdate>
 			<list>Confirmed planets</list>
 			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+			<transittime errorminus="0.0016" errorplus="0.0015" unit="BJD">2457145.9800</transittime>
 		</planet>
 	</star>
 </system>

@@ -1,8 +1,9 @@
 <system>
 	<name>EPIC 220674823</name>
 	<name>K2-106</name>
-	<rightascension>00 52 19</rightascension>
-	<declination>+10 47 41</declination>
+	<rightascension>00 52 19.147</rightascension>
+	<declination>+10 47 40.92</declination>
+	<distance errorminus="39.290" errorplus="89.440">257.200</distance>
 	<star>
 		<name>EPIC 220674823</name>
 		<name>K2-106</name>
@@ -11,6 +12,11 @@
 		<mass>0.93</mass>
 		<temperature>5814.0</temperature>
 		<metallicity>-0.28</metallicity>
+		<magB errorminus="0.258" errorplus="0.258">12.577</magB>
+		<magV errorminus="0.212" errorplus="0.212">12.102</magV>
+		<magJ errorminus="0.023" errorplus="0.023">10.770</magJ>
+		<magH errorminus="0.026" errorplus="0.026">10.454</magH>
+		<magK errorminus="0.021" errorplus="0.021">10.344</magK>
 		<planet>
 			<name>EPIC 220674823 b</name>
 			<name>K2-106 b</name>
@@ -21,9 +27,11 @@
 			<radius errorminus="0.012" errorplus="0.012">0.13</radius>
 			<istransiting>1</istransiting>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/11/03</lastupdate>
+			<lastupdate>18/07/24</lastupdate>
 			<list>Confirmed planets</list>
 			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+			<transittime errorminus="0.0012" errorplus="0.0012" unit="BJD">2457394.0108</transittime>
+			<discoverymethod>transit</discoverymethod>
 		</planet>
 		<planet>
 			<name>EPIC 220674823 c</name>
@@ -35,9 +43,11 @@
 			<radius errorminus="0.012" errorplus="0.012">0.226</radius>
 			<istransiting>1</istransiting>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/11/03</lastupdate>
+			<lastupdate>18/07/24</lastupdate>
 			<list>Confirmed planets</list>
 			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+			<transittime errorminus="0.0027" errorplus="0.0029" unit="BJD">2457405.7341</transittime>
+			<discoverymethod>transit</discoverymethod>
 		</planet>
 	</star>
 </system>
