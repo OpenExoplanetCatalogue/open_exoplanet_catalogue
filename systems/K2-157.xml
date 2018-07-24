@@ -1,0 +1,35 @@
+<system>
+	<name>K2-157</name>
+	<name>EPIC 201130233</name>
+	<rightascension>12 15 00.321</rightascension>
+	<declination>-05 46 55.17</declination>
+	<distance errorminus="43.280" errorplus="211.000">294.600</distance>
+	<star>
+		<name>K2-157</name>
+		<name>EPIC 201130233</name>
+		<name>2MASS J12150031-0546550</name>
+		<magB errorminus="0.010" errorplus="0.010">13.609</magB>
+		<magV errorminus="0.020" errorplus="0.020">12.823</magV>
+		<magJ errorminus="0.022" errorplus="0.022">11.398</magJ>
+		<magH errorminus="0.022" errorplus="0.022">11.023</magH>
+		<magK errorminus="0.023" errorplus="0.023">10.980</magK>
+		<metallicity errorminus="0.08" errorplus="0.08">0.13</metallicity>
+		<mass errorminus="0.027" errorplus="0.023">0.940</mass>
+		<radius errorminus="0.025" errorplus="0.045">0.876</radius>
+		<planet>
+			<name>K2-157 b</name>
+			<name>EPIC 201130233 b</name>
+			<name>EPIC 201130233.01</name>
+			<period errorminus="0.000029" errorplus="0.000029">0.365257</period>
+			<transittime errorminus="0.0033" errorplus="0.0032" unit="BJD">2457582.8239</transittime>
+			<inclination errorminus="18.0" errorplus="10.0">77.0</inclination>
+			<radius errorminus="0.0089" errorplus="0.0134">0.0946</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2018</discoveryyear>
+			<description>This planet was announced as part of a batch of 149 validated planets from the K2 mission.</description>
+			<lastupdate>18/07/24</lastupdate>
+			<list>Confirmed planets</list>
+		</planet>
+	</star>
+</system>

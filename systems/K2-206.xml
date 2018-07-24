@@ -1,0 +1,35 @@
+<system>
+	<name>K2-206</name>
+	<name>EPIC 220216730</name>
+	<rightascension>00 45 01.515</rightascension>
+	<declination>+00 35 35.73</declination>
+	<distance errorminus="34.160" errorplus="610.500">255.300</distance>
+	<star>
+		<name>K2-206</name>
+		<name>EPIC 220216730</name>
+		<name>2MASS J00450151+0035357</name>
+		<magB errorminus="0.040" errorplus="0.040">13.957</magB>
+		<magV errorminus="0.050" errorplus="0.050">13.100</magV>
+		<magJ errorminus="0.026" errorplus="0.026">11.439</magJ>
+		<magH errorminus="0.027" errorplus="0.027">10.991</magH>
+		<magK errorminus="0.021" errorplus="0.021">10.918</magK>
+		<metallicity errorminus="0.08" errorplus="0.08">-0.14</metallicity>
+		<mass errorminus="0.028" errorplus="0.030">0.789</mass>
+		<radius errorminus="0.027" errorplus="0.032">0.758</radius>
+		<planet>
+			<name>K2-206 b</name>
+			<name>EPIC 220216730 b</name>
+			<name>EPIC 220216730.01</name>
+			<period errorminus="0.0016" errorplus="0.0017">18.2945</period>
+			<transittime errorminus="0.0043" errorplus="0.0039" unit="BJD">2457396.5766</transittime>
+			<inclination errorminus="1.2" errorplus="0.6">89.1</inclination>
+			<radius errorminus="0.0134" errorplus="0.0196">0.2498</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2018</discoveryyear>
+			<description>This planet was announced as part of a batch of 149 validated planets from the K2 mission.</description>
+			<lastupdate>18/07/24</lastupdate>
+			<list>Confirmed planets</list>
+		</planet>
+	</star>
+</system>

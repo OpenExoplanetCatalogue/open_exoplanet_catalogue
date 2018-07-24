@@ -1,0 +1,35 @@
+<system>
+	<name>K2-156</name>
+	<name>EPIC 201110617</name>
+	<rightascension>12 10 48.045</rightascension>
+	<declination>-06 17 39.14</declination>
+	<distance errorminus="11.010" errorplus="28.030">74.950</distance>
+	<star>
+		<name>K2-156</name>
+		<name>EPIC 201110617</name>
+		<name>2MASS J12104805-0617391</name>
+		<magB errorminus="0.030" errorplus="0.030">14.637</magB>
+		<magV errorminus="0.010" errorplus="0.010">13.424</magV>
+		<magJ errorminus="0.030" errorplus="0.030">11.139</magJ>
+		<magH errorminus="0.026" errorplus="0.026">10.572</magH>
+		<magK errorminus="0.023" errorplus="0.023">10.391</magK>
+		<metallicity errorminus="0.08" errorplus="0.08">-0.33</metallicity>
+		<mass errorminus="0.019" errorplus="0.022">0.642</mass>
+		<radius errorminus="0.016" errorplus="0.019">0.616</radius>
+		<planet>
+			<name>K2-156 b</name>
+			<name>EPIC 201110617 b</name>
+			<name>EPIC 201110617.01</name>
+			<period errorminus="0.000049" errorplus="0.000050">0.813149</period>
+			<transittime errorminus="0.0028" errorplus="0.0028" unit="BJD">2457583.1409</transittime>
+			<inclination errorminus="7.6" errorplus="4.3">84.0</inclination>
+			<radius errorminus="0.0071" errorplus="0.0089">0.1017</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2018</discoveryyear>
+			<description>This planet was announced as part of a batch of 149 validated planets from the K2 mission.</description>
+			<lastupdate>18/07/24</lastupdate>
+			<list>Confirmed planets</list>
+		</planet>
+	</star>
+</system>

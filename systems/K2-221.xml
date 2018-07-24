@@ -1,0 +1,35 @@
+<system>
+	<name>K2-221</name>
+	<name>EPIC 220650439</name>
+	<rightascension>01 06 37.196</rightascension>
+	<declination>+10 11 22.87</declination>
+	<distance errorminus="61.160" errorplus="185.200">344.100</distance>
+	<star>
+		<name>K2-221</name>
+		<name>EPIC 220650439</name>
+		<name>2MASS J01063719+1011231</name>
+		<magB errorminus="0.040" errorplus="0.040">13.343</magB>
+		<magV errorminus="0.170" errorplus="0.170">12.703</magV>
+		<magJ errorminus="0.023" errorplus="0.023">11.229</magJ>
+		<magH errorminus="0.023" errorplus="0.023">10.884</magH>
+		<magK errorminus="0.023" errorplus="0.023">10.852</magK>
+		<metallicity errorminus="0.08" errorplus="0.08">0.13</metallicity>
+		<mass errorminus="0.025" errorplus="0.024">1.011</mass>
+		<radius errorminus="0.029" errorplus="0.045">0.948</radius>
+		<planet>
+			<name>K2-221 b</name>
+			<name>EPIC 220650439 b</name>
+			<name>EPIC 220650439.01</name>
+			<period errorminus="0.00012" errorplus="0.00013">2.39909</period>
+			<transittime errorminus="0.0022" errorplus="0.0023" unit="BJD">2457395.3558</transittime>
+			<inclination errorminus="5.8" errorplus="3.2">85.4</inclination>
+			<radius errorminus="0.0089" errorplus="0.0152">0.1499</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2018</discoveryyear>
+			<description>This planet was announced as part of a batch of 149 validated planets from the K2 mission.</description>
+			<lastupdate>18/07/24</lastupdate>
+			<list>Confirmed planets</list>
+		</planet>
+	</star>
+</system>

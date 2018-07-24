@@ -1,0 +1,35 @@
+<system>
+	<name>K2-162</name>
+	<name>EPIC 201390048</name>
+	<rightascension>12 24 09.281</rightascension>
+	<declination>-01 06 40.86</declination>
+	<distance errorminus="13.040" errorplus="10.260">122.200</distance>
+	<star>
+		<name>K2-162</name>
+		<name>EPIC 201390048</name>
+		<name>2MASS J12240928-0106408</name>
+		<magB errorminus="0.050" errorplus="0.050">13.310</magB>
+		<magV errorminus="0.040" errorplus="0.040">12.300</magV>
+		<magJ errorminus="0.030" errorplus="0.030">10.517</magJ>
+		<magH errorminus="0.025" errorplus="0.025">9.904</magH>
+		<magK errorminus="0.024" errorplus="0.024">9.898</magK>
+		<metallicity errorminus="0.08" errorplus="0.08">-0.09</metallicity>
+		<mass errorminus="0.026" errorplus="0.025">0.777</mass>
+		<radius errorminus="0.020" errorplus="0.020">0.726</radius>
+		<planet>
+			<name>K2-162 b</name>
+			<name>EPIC 201390048 b</name>
+			<name>EPIC 201390048.01</name>
+			<period errorminus="0.0014" errorplus="0.0014">9.4577</period>
+			<transittime errorminus="0.0054" errorplus="0.0064" unit="BJD">2457583.9089</transittime>
+			<inclination errorminus="1.8" errorplus="0.9">88.8</inclination>
+			<radius errorminus="0.0107" errorplus="0.0152">0.1329</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2018</discoveryyear>
+			<description>This planet was announced as part of a batch of 149 validated planets from the K2 mission.</description>
+			<lastupdate>18/07/24</lastupdate>
+			<list>Confirmed planets</list>
+		</planet>
+	</star>
+</system>

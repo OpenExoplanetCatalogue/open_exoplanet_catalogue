@@ -1,0 +1,36 @@
+<system>
+	<name>K2-210</name>
+	<name>EPIC 220250254</name>
+	<rightascension>01 10 33.825</rightascension>
+	<declination>+01 34 41.76</declination>
+	<distance errorminus="21.680" errorplus="35.460">179.200</distance>
+	<star>
+		<name>K2-210</name>
+		<name>EPIC 220250254</name>
+		<name>TYC 20-536-1</name>
+		<name>2MASS J01103382+0134416</name>
+		<magB errorminus="0.368" errorplus="0.368">12.882</magB>
+		<magV errorminus="0.137" errorplus="0.137">11.535</magV>
+		<magJ errorminus="0.023" errorplus="0.023">10.354</magJ>
+		<magH errorminus="0.032" errorplus="0.032">9.995</magH>
+		<magK errorminus="0.019" errorplus="0.019">9.915</magK>
+		<metallicity errorminus="0.08" errorplus="0.08">0.05</metallicity>
+		<mass errorminus="0.028" errorplus="0.023">0.912</mass>
+		<radius errorminus="0.025" errorplus="0.042">0.852</radius>
+		<planet>
+			<name>K2-210 b</name>
+			<name>EPIC 220250254 b</name>
+			<name>EPIC 220250254.01</name>
+			<period errorminus="0.000028" errorplus="0.000028">0.570233</period>
+			<transittime errorminus="0.0021" errorplus="0.0021" unit="BJD">2457393.9580</transittime>
+			<inclination errorminus="9.0" errorplus="4.2">84.1</inclination>
+			<radius errorminus="0.006" errorplus="0.009">0.073</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2018</discoveryyear>
+			<description>This planet was announced as part of a batch of 149 validated planets from the K2 mission.</description>
+			<lastupdate>18/07/24</lastupdate>
+			<list>Confirmed planets</list>
+		</planet>
+	</star>
+</system>

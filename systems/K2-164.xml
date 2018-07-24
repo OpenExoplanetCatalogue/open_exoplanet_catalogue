@@ -1,0 +1,35 @@
+<system>
+	<name>K2-164</name>
+	<name>EPIC 201460826</name>
+	<rightascension>11 27 44.080</rightascension>
+	<declination>+00 03 46.22</declination>
+	<distance errorminus="44.500" errorplus="66.100">253.000</distance>
+	<star>
+		<name>K2-164</name>
+		<name>EPIC 201460826</name>
+		<name>2MASS J11274407-0003462</name>
+		<magB errorminus="0.020" errorplus="0.020">11.802</magB>
+		<magV errorminus="0.020" errorplus="0.020">11.235</magV>
+		<magJ errorminus="0.024" errorplus="0.024">10.153</magJ>
+		<magH errorminus="0.024" errorplus="0.024">9.865</magH>
+		<magK errorminus="0.019" errorplus="0.019">9.775</magK>
+		<metallicity errorminus="0.08" errorplus="0.08">-0.23</metallicity>
+		<mass errorminus="0.061" errorplus="0.093">1.181</mass>
+		<radius errorminus="0.25" errorplus="0.31">2.20</radius>
+		<planet>
+			<name>K2-164 b</name>
+			<name>EPIC 201460826 b</name>
+			<name>EPIC 201460826.01</name>
+			<period errorminus="0.0038" errorplus="0.0041">17.3551</period>
+			<transittime errorminus="0.0091" errorplus="0.0084" unit="BJD">2456816.7370</transittime>
+			<inclination errorminus="3.7" errorplus="1.5">87.9</inclination>
+			<radius errorminus="0.0366" errorplus="0.0464">0.2899</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2018</discoveryyear>
+			<description>This planet was announced as part of a batch of 149 validated planets from the K2 mission.</description>
+			<lastupdate>18/07/24</lastupdate>
+			<list>Confirmed planets</list>
+		</planet>
+	</star>
+</system>
