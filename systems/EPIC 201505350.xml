@@ -12,6 +12,8 @@
 		<mass errorminus="0.05" errorplus="0.05">0.93</mass>
 		<radius errorminus="0.04" errorplus="0.04">0.86</radius>
 		<temperature errorminus="60" errorplus="60">5430</temperature>
+		<magB errorminus="0.020" errorplus="0.020">13.798</magB>
+		<magV errorminus="0.010" errorplus="0.010">13.002</magV>
 		<magJ errorminus="0.02" errorplus="0.02">11.6</magJ>
 		<magH errorminus="0.02" errorplus="0.02">11.21</magH>
 		<magK errorminus="0.03" errorplus="0.03">11.16</magK>
@@ -70,7 +72,8 @@
 			<istransiting>1</istransiting>
 			<discoverymethod>transit</discoverymethod>
 			<discoveryyear>2015</discoveryyear>
-			<lastupdate>15/12/06</lastupdate>
+			<lastupdate>18/07/24</lastupdate>
+			<description>This planet was announced as part of a batch of 149 validated planets from the K2 mission.</description>
 		</planet>
 	</star>
 </system>
