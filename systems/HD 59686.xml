@@ -1,30 +1,55 @@
 <system>
 	<name>HD 59686</name>
 	<name>HD 59686 A</name>
-	<rightascension>07 31 48</rightascension>
-	<declination>+17 05 09</declination>
-	<distance>92</distance>
-	<star>
+	<rightascension>07 31 48.39602</rightascension>
+	<declination>+17 05 09.7702</declination>
+	<distance errorminus="2.6" errorplus="2.6">96.9</distance>
+	<binary>
 		<name>HD 59686</name>
-		<name>HD 59686 A</name>
-		<temperature>5150.0</temperature>
-		<radius>11.62</radius>
-		<magV>5.45</magV>
-		<magB>6.585</magB>
-		<magJ errorminus="0.252" errorplus="0.252">3.630</magJ>
-		<magH errorminus="0.206" errorplus="0.206">3.065</magH>
-		<magK errorminus="0.300" errorplus="0.300">2.922</magK>
-		<spectraltype>K2 III</spectraltype>
-		<planet>
-			<name>HD 59686 b</name>
-			<list>Confirmed planets</list>
-			<mass>5.25</mass>
-			<period>303</period>
-			<semimajoraxis>0.911</semimajoraxis>
-			<discoverymethod>RV</discoverymethod>
-			<lastupdate>11/01/03</lastupdate>
-			<discoveryyear>2003</discoveryyear>
-			<temperature>728.2</temperature>
-		</planet>
-	</star>
+		<name>HIP 36616</name>
+		<name>TYC 1364-1582-1</name>
+		<name>HR 2877</name>
+		<name>SAO 96985</name>
+		<name>BD+17 1596</name>
+		<name>2MASS J07314838+1705099</name>
+		<period errorminus="173" errorplus="234">11680</period>
+		<meananomaly errorminus="1" errorplus="3">259</meananomaly>
+		<eccentricity errorminus="0.003" errorplus="0.004">0.729</eccentricity>
+		<periastron errorminus="0.2" errorplus="0.2">149.4</periastron>
+		<semimajoraxis errorminus="0.14" errorplus="0.18">13.56</semimajoraxis>
+		<star>
+			<name>HD 59686 A</name>
+			<magB>6.585</magB>
+			<magV>5.45</magV>
+			<magJ errorminus="0.252" errorplus="0.252">3.630</magJ>
+			<magH errorminus="0.206" errorplus="0.206">3.065</magH>
+			<magK errorminus="0.300" errorplus="0.300">2.922</magK>
+			<spectraltype>K2 III</spectraltype>
+			<temperature errorminus="24" errorplus="24">4658</temperature>
+			<metallicity errorminus="0.1" errorplus="0.1">0.15</metallicity>
+			<mass errorminus="0.2" errorplus="0.2">1.9</mass>
+			<radius errorminus="0.3" errorplus="0.3">13.2</radius>
+			<age errorminus="0.47" errorplus="0.47">1.73</age>
+			<planet>
+				<name>HD 59686 b</name>
+				<name>HD 59686 A b</name>
+				<list>Confirmed planets</list>
+				<mass errorminus="0.24" errorplus="0.18" type="msini">6.92</mass>
+				<period errorminus="0.31" errorplus="0.26">299.36</period>
+				<semimajoraxis errorminus="0.0007" errorplus="0.0006">1.0860</semimajoraxis>
+				<eccentricity errorminus="0.02" errorplus="0.03">0.05</eccentricity>
+				<periastron errorminus="24" errorplus="28">121</periastron>
+				<meananomaly errorminus="85" errorplus="26">301</meananomaly>
+				<discoverymethod>RV</discoverymethod>
+				<lastupdate>18/07/25</lastupdate>
+				<discoveryyear>2003</discoveryyear>
+				<description>HD 59686 b is a giant planet orbiting a giant star in a close, highly-eccentric binary system. The secondary star has not been directly detected and may be either a main sequence star or a white dwarf. If it is a white dwarf, HD 59686 b may be a second-generation planet.</description>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+		<star>
+			<name>HD 59686 B</name>
+			<mass errorminus="0.0008" errorplus="0.0011" type="msini">0.5296</mass>
+		</star>
+	</binary>
 </system>
