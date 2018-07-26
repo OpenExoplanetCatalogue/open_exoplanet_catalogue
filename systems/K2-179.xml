@@ -1,0 +1,35 @@
+<system>
+	<name>K2-179</name>
+	<name>EPIC 211048999</name>
+	<rightascension>03 55 11.256</rightascension>
+	<declination>+23 45 24.51</declination>
+	<distance errorminus="25.880" errorplus="475.200">210.400</distance>
+	<star>
+		<name>K2-179</name>
+		<name>EPIC 211048999</name>
+		<name>2MASS J03551125+2345245</name>
+		<magB errorminus="0.010" errorplus="0.010">13.984</magB>
+		<magV errorminus="0.031" errorplus="0.031">12.956</magV>
+		<magJ errorminus="0.023" errorplus="0.023">11.138</magJ>
+		<magH errorminus="0.025" errorplus="0.025">10.633</magH>
+		<magK errorminus="0.019" errorplus="0.019">10.555</magK>
+		<metallicity errorminus="0.08" errorplus="0.08">0.03</metallicity>
+		<mass errorminus="0.027" errorplus="0.022">0.824</mass>
+		<radius errorminus="0.018" errorplus="0.022">0.768</radius>
+		<planet>
+			<name>K2-179 b</name>
+			<name>EPIC 211048999 b</name>
+			<name>EPIC 211048999.01</name>
+			<period errorminus="0.00020" errorplus="0.00020">5.17219</period>
+			<transittime errorminus="0.0015" errorplus="0.0014" unit="BJD">2457066.5803</transittime>
+			<inclination errorminus="1.6" errorplus="0.9">88.8</inclination>
+			<radius errorminus="0.0107" errorplus="0.0143">0.2239</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2018</discoveryyear>
+			<description>This planet was announced as part of a batch of 149 validated planets from the K2 mission.</description>
+			<lastupdate>18/07/24</lastupdate>
+			<list>Confirmed planets</list>
+		</planet>
+	</star>
+</system>

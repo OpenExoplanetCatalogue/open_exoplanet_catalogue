@@ -1,0 +1,35 @@
+<system>
+	<name>K2-178</name>
+	<name>EPIC 210965800</name>
+	<rightascension>03 31 33.332</rightascension>
+	<declination>+22 26 05.53</declination>
+	<distance errorminus="113.900" errorplus="163.900">373.500</distance>
+	<star>
+		<name>K2-178</name>
+		<name>EPIC 210965800</name>
+		<name>2MASS J03313333+2226055</name>
+		<magB errorminus="0.030" errorplus="0.030">13.276</magB>
+		<magV errorminus="0.040" errorplus="0.040">12.403</magV>
+		<magJ errorminus="0.020" errorplus="0.020">10.786</magJ>
+		<magH errorminus="0.023" errorplus="0.023">10.426</magH>
+		<magK errorminus="0.017" errorplus="0.017">10.292</magK>
+		<metallicity errorminus="0.08" errorplus="0.08">0.09</metallicity>
+		<mass errorminus="0.028" errorplus="0.023">0.951</mass>
+		<radius errorminus="0.026" errorplus="0.044">0.887</radius>
+		<planet>
+			<name>K2-178 b</name>
+			<name>EPIC 210965800 b</name>
+			<name>EPIC 210965800.01</name>
+			<period errorminus="0.00036" errorplus="0.00036">8.74782</period>
+			<transittime errorminus="0.0015" errorplus="0.0015" unit="BJD">2457070.3366</transittime>
+			<inclination errorminus="1.6" errorplus="1.0">88.6</inclination>
+			<radius errorminus="0.0125" errorplus="0.0178">0.3176</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2018</discoveryyear>
+			<description>This planet was announced as part of a batch of 149 validated planets from the K2 mission.</description>
+			<lastupdate>18/07/24</lastupdate>
+			<list>Confirmed planets</list>
+		</planet>
+	</star>
+</system>

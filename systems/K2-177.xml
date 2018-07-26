@@ -1,0 +1,35 @@
+<system>
+	<name>K2-177</name>
+	<name>EPIC 210857328</name>
+	<rightascension>03 40 55.095</rightascension>
+	<declination>+20 44 09.88</declination>
+	<distance errorminus="143.200" errorplus="173.500">459.100</distance>
+	<star>
+		<name>K2-177</name>
+		<name>EPIC 210857328</name>
+		<name>2MASS J03405510+2044100</name>
+		<magB errorminus="0.040" errorplus="0.040">13.541</magB>
+		<magV errorminus="0.040" errorplus="0.040">12.645</magV>
+		<magJ errorminus="0.022" errorplus="0.022">11.009</magJ>
+		<magH errorminus="0.023" errorplus="0.023">10.675</magH>
+		<magK errorminus="0.020" errorplus="0.020">10.593</magK>
+		<metallicity errorminus="0.08" errorplus="0.08">0.41</metallicity>
+		<mass errorminus="0.038" errorplus="0.032">1.211</mass>
+		<radius errorminus="0.061" errorplus="0.087">1.214</radius>
+		<planet>
+			<name>K2-177 b</name>
+			<name>EPIC 210857328 b</name>
+			<name>EPIC 210857328.01</name>
+			<period errorminus="0.0030" errorplus="0.0032">14.1552</period>
+			<transittime errorminus="0.0069" errorplus="0.0071" unit="BJD">2457070.0802</transittime>
+			<inclination errorminus="3.7" errorplus="2.0">87.2</inclination>
+			<radius errorminus="0.0143" errorplus="0.0250">0.1891</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2018</discoveryyear>
+			<description>This planet was announced as part of a batch of 149 validated planets from the K2 mission.</description>
+			<lastupdate>18/07/24</lastupdate>
+			<list>Confirmed planets</list>
+		</planet>
+	</star>
+</system>

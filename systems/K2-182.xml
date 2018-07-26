@@ -1,0 +1,35 @@
+<system>
+	<name>K2-182</name>
+	<name>EPIC 211359660</name>
+	<rightascension>08 40 43.278</rightascension>
+	<declination>+10 58 58.59</declination>
+	<distance errorminus="12.130" errorplus="21.560">156.600</distance>
+	<star>
+		<name>K2-182</name>
+		<name>EPIC 211359660</name>
+		<name>2MASS J08404327+1058585</name>
+		<magB errorminus="0.110" errorplus="0.110">12.868</magB>
+		<magV errorminus="0.060" errorplus="0.060">11.997</magV>
+		<magJ errorminus="0.021" errorplus="0.021">10.408</magJ>
+		<magH errorminus="0.022" errorplus="0.022">9.994</magH>
+		<magK errorminus="0.023" errorplus="0.023">9.913</magK>
+		<metallicity errorminus="0.08" errorplus="0.08">-0.01</metallicity>
+		<mass errorminus="0.031" errorplus="0.024">0.847</mass>
+		<radius errorminus="0.021" errorplus="0.032">0.790</radius>
+		<planet>
+			<name>K2-182 b</name>
+			<name>EPIC 211359660 b</name>
+			<name>EPIC 211359660.01</name>
+			<period errorminus="0.000075" errorplus="0.000071">4.736884</period>
+			<transittime errorminus="0.00065" errorplus="0.00064" unit="BJD">2457141.20586</transittime>
+			<inclination errorminus="1.7" errorplus="1.2">88.3</inclination>
+			<radius errorminus="0.0089" errorplus="0.0152">0.2471</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2018</discoveryyear>
+			<description>This planet was announced as part of a batch of 149 validated planets from the K2 mission.</description>
+			<lastupdate>18/07/24</lastupdate>
+			<list>Confirmed planets</list>
+		</planet>
+	</star>
+</system>

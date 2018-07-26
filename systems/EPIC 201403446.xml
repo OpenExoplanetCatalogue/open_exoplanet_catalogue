@@ -12,6 +12,8 @@
 			<mass errorminus="0.06" errorplus="0.08">1.01</mass>
 			<radius errorminus="0.14" errorplus="0.26">1.12</radius>
 			<temperature errorminus="111" errorplus="81">6445</temperature>
+			<magB errorminus="0.020" errorplus="0.020">12.485</magB>
+			<magV errorminus="0.020" errorplus="0.020">12.029</magV>
 			<magJ errorminus="0.03" errorplus="0.03">11.05</magJ>
 			<magH errorminus="0.02" errorplus="0.02">10.76</magH>
 			<magK errorminus="0.02" errorplus="0.02">10.78</magK>
@@ -29,9 +31,10 @@
 				<description>This planet was discovered by the Kepler spacecraft during its extended K2 mission, Campaign 1.</description>
 				<discoverymethod>transit</discoverymethod>
 				<istransiting>1</istransiting>
-				<lastupdate>15/07/07</lastupdate>
+				<lastupdate>18/07/24</lastupdate>
 				<discoveryyear>2015</discoveryyear>
 				<list>Planets in binary systems, S-type</list>
+				<inclination errorminus="1.7" errorplus="1.0">88.6</inclination>
 			</planet>
 		</star>
 		<star>

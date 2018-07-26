@@ -1,0 +1,35 @@
+<system>
+	<name>K2-203</name>
+	<name>EPIC 220170303</name>
+	<rightascension>00 51 05.698</rightascension>
+	<declination>-01 11 45.21</declination>
+	<distance errorminus="226.800" errorplus="977.500">803.700</distance>
+	<star>
+		<name>K2-203</name>
+		<name>EPIC 220170303</name>
+		<name>2MASS J00510570-0111452</name>
+		<magB errorminus="0.040" errorplus="0.040">13.272</magB>
+		<magV errorminus="0.030" errorplus="0.030">12.353</magV>
+		<magJ errorminus="0.024" errorplus="0.024">10.773</magJ>
+		<magH errorminus="0.026" errorplus="0.026">10.281</magH>
+		<magK errorminus="0.023" errorplus="0.023">10.206</magK>
+		<metallicity errorminus="0.08" errorplus="0.08">-0.07</metallicity>
+		<mass errorminus="0.028" errorplus="0.033">0.794</mass>
+		<radius errorminus="0.024" errorplus="0.030">0.763</radius>
+		<planet>
+			<name>K2-203 b</name>
+			<name>EPIC 220170303 b</name>
+			<name>EPIC 220170303.01</name>
+			<period errorminus="0.0013" errorplus="0.0013">9.6951</period>
+			<transittime errorminus="0.0058" errorplus="0.0058" unit="BJD">2457396.6388</transittime>
+			<inclination errorminus="3.3" errorplus="1.2">88.4</inclination>
+			<radius errorminus="0.0107" errorplus="0.0250">0.1222</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2018</discoveryyear>
+			<description>This planet was announced as part of a batch of 149 validated planets from the K2 mission.</description>
+			<lastupdate>18/07/24</lastupdate>
+			<list>Confirmed planets</list>
+		</planet>
+	</star>
+</system>

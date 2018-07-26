@@ -1,0 +1,35 @@
+<system>
+	<name>K2-79</name>
+	<name>EPIC 210402237</name>
+	<rightascension>03 41 01.417</rightascension>
+	<declination>+13 31 09.74</declination>
+	<distance errorminus="33.260" errorplus="86.210">212.300</distance>
+	<star>
+		<name>K2-79</name>
+		<name>EPIC 210402237</name>
+		<name>2MASS J03410141+1331098</name>
+		<magB errorminus="0.020" errorplus="0.020">12.893</magB>
+		<magV errorminus="0.060" errorplus="0.060">12.075</magV>
+		<magJ errorminus="0.022" errorplus="0.022">10.358</magJ>
+		<magH errorminus="0.019" errorplus="0.019">9.998</magH>
+		<magK errorminus="0.018" errorplus="0.018">9.907</magK>
+		<metallicity errorminus="0.08" errorplus="0.08">0.2</metallicity>
+		<mass errorminus="0.026" errorplus="0.029">1.062</mass>
+		<radius errorminus="0.050" errorplus="0.092">1.038</radius>
+		<planet>
+			<name>K2-79 b</name>
+			<name>EPIC 210402237 b</name>
+			<name>EPIC 210402237.01</name>
+			<period errorminus="0.00063" errorplus="0.00060">10.99395</period>
+			<transittime errorminus="0.0020" errorplus="0.0020" unit="BJD">2457070.2465</transittime>
+			<inclination errorminus="1.7" errorplus="1.0">88.6</inclination>
+			<radius errorminus="0.0161" errorplus="0.0294">0.2810</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2018</discoveryyear>
+			<description>This planet was announced as part of a batch of 149 validated planets from the K2 mission.</description>
+			<lastupdate>18/07/24</lastupdate>
+			<list>Confirmed planets</list>
+		</planet>
+	</star>
+</system>

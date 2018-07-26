@@ -1,0 +1,35 @@
+<system>
+	<name>K2-216</name>
+	<name>EPIC 220481411</name>
+	<rightascension>00 45 55.260</rightascension>
+	<declination>+06 20 49.10</declination>
+	<distance errorminus="434.400" errorplus="555.200">1159.000</distance>
+	<star>
+		<name>K2-216</name>
+		<name>EPIC 220481411</name>
+		<name>2MASS J00455526+0620490</name>
+		<magB errorminus="0.020" errorplus="0.020">13.563</magB>
+		<magV errorminus="0.050" errorplus="0.050">12.476</magV>
+		<magJ errorminus="0.023" errorplus="0.023">10.394</magJ>
+		<magH errorminus="0.032" errorplus="0.032">9.856</magH>
+		<magK errorminus="0.018" errorplus="0.018">9.721</magK>
+		<metallicity errorminus="0.08" errorplus="0.08">-0.18</metallicity>
+		<mass errorminus="0.023" errorplus="0.023">0.699</mass>
+		<radius errorminus="0.019" errorplus="0.022">0.666</radius>
+		<planet>
+			<name>K2-216 b</name>
+			<name>EPIC 220481411 b</name>
+			<name>EPIC 220481411.01</name>
+			<period errorminus="0.000038" errorplus="0.000039">2.174789</period>
+			<transittime errorminus="0.00081" errorplus="0.00075" unit="BJD">2457394.04171</transittime>
+			<inclination errorminus="3.5" errorplus="2.1">87.0</inclination>
+			<radius errorminus="0.0071" errorplus="0.0089">0.1499</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2018</discoveryyear>
+			<description>This planet was announced as part of a batch of 149 validated planets from the K2 mission.</description>
+			<lastupdate>18/07/24</lastupdate>
+			<list>Confirmed planets</list>
+		</planet>
+	</star>
+</system>

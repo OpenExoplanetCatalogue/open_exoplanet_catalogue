@@ -1,0 +1,35 @@
+<system>
+	<name>K2-207</name>
+	<name>EPIC 220218012</name>
+	<rightascension>00 46 47.929</rightascension>
+	<declination>+00 38 26.87</declination>
+	<distance errorminus="41.920" errorplus="82.560">358.500</distance>
+	<star>
+		<name>K2-207</name>
+		<name>EPIC 220218012</name>
+		<name>2MASS J00464793+0038268</name>
+		<magB errorminus="0.040" errorplus="0.040">13.906</magB>
+		<magV errorminus="0.050" errorplus="0.050">13.166</magV>
+		<magJ errorminus="0.022" errorplus="0.022">11.780</magJ>
+		<magH errorminus="0.023" errorplus="0.023">11.456</magH>
+		<magK errorminus="0.020" errorplus="0.020">11.383</magK>
+		<metallicity errorminus="0.08" errorplus="0.08">0.11</metallicity>
+		<mass errorminus="0.028" errorplus="0.028">0.942</mass>
+		<radius errorminus="0.051" errorplus="0.092">0.928</radius>
+		<planet>
+			<name>K2-207 b</name>
+			<name>EPIC 220218012 b</name>
+			<name>EPIC 220218012.01</name>
+			<period errorminus="0.0012" errorplus="0.0012">12.4875</period>
+			<transittime errorminus="0.0039" errorplus="0.0036" unit="BJD">2457403.6446</transittime>
+			<inclination errorminus="1.6" errorplus="1.0">88.6</inclination>
+			<radius errorminus="0.0187" errorplus="0.0330">0.2328</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2018</discoveryyear>
+			<description>This planet was announced as part of a batch of 149 validated planets from the K2 mission.</description>
+			<lastupdate>18/07/24</lastupdate>
+			<list>Confirmed planets</list>
+		</planet>
+	</star>
+</system>

@@ -1,0 +1,35 @@
+<system>
+	<name>K2-217</name>
+	<name>EPIC 220487418</name>
+	<rightascension>00 45 11.614</rightascension>
+	<declination>+06 28 53.62</declination>
+	<distance errorminus="110.300" errorplus="147.100">441.100</distance>
+	<star>
+		<name>K2-217</name>
+		<name>EPIC 220487418</name>
+		<name>2MASS J00451161+0628536</name>
+		<magB errorminus="0.030" errorplus="0.030">12.813</magB>
+		<magV errorminus="0.030" errorplus="0.030">12.187</magV>
+		<magJ errorminus="0.022" errorplus="0.022">11.009</magJ>
+		<magH errorminus="0.030" errorplus="0.030">10.747</magH>
+		<magK errorminus="0.020" errorplus="0.020">10.679</magK>
+		<metallicity errorminus="0.08" errorplus="0.08">0.04</metallicity>
+		<mass errorminus="0.037" errorplus="0.046">1.103</mass>
+		<radius errorminus="0.17" errorplus="0.20">1.33</radius>
+		<planet>
+			<name>K2-217 b</name>
+			<name>EPIC 220487418 b</name>
+			<name>EPIC 220487418.01</name>
+			<period errorminus="0.00094" errorplus="0.00099">14.07452</period>
+			<transittime errorminus="0.0029" errorplus="0.0030" unit="BJD">2457395.0045</transittime>
+			<inclination errorminus="3.0" errorplus="1.4">88.0</inclination>
+			<radius errorminus="0.0437" errorplus="0.0624">0.3194</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2018</discoveryyear>
+			<description>This planet was announced as part of a batch of 149 validated planets from the K2 mission.</description>
+			<lastupdate>18/07/24</lastupdate>
+			<list>Confirmed planets</list>
+		</planet>
+	</star>
+</system>

@@ -1,0 +1,35 @@
+<system>
+	<name>K2-161</name>
+	<name>EPIC 201231064</name>
+	<rightascension>12 15 10.522</rightascension>
+	<declination>-03 29 44.20</declination>
+	<distance errorminus="99.370" errorplus="114.900">735.900</distance>
+	<star>
+		<name>K2-161</name>
+		<name>EPIC 201231064</name>
+		<name>2MASS J12151051-0329442</name>
+		<magB errorminus="0.010" errorplus="0.010">13.582</magB>
+		<magV errorminus="0.020" errorplus="0.020">12.631</magV>
+		<magJ errorminus="0.026" errorplus="0.026">10.852</magJ>
+		<magH errorminus="0.024" errorplus="0.024">10.352</magH>
+		<magK errorminus="0.024" errorplus="0.024">10.261</magK>
+		<metallicity errorminus="0.08" errorplus="0.08">-0.03</metallicity>
+		<mass errorminus="0.060" errorplus="0.082">0.987</mass>
+		<radius errorminus="0.25" errorplus="0.31">2.57</radius>
+		<planet>
+			<name>K2-161 b</name>
+			<name>EPIC 201231064 b</name>
+			<name>EPIC 201231064.01</name>
+			<period errorminus="0.0023" errorplus="0.0021">9.2832</period>
+			<transittime errorminus="0.0073" errorplus="0.0077" unit="BJD">2457587.8476</transittime>
+			<inclination errorminus="5.6" errorplus="2.0">87.3</inclination>
+			<radius errorminus="0.071" errorplus="0.143">0.544</radius>
+			<istransiting>1</istransiting>
+			<discoverymethod>transit</discoverymethod>
+			<discoveryyear>2018</discoveryyear>
+			<description>This planet was announced as part of a batch of 149 validated planets from the K2 mission.</description>
+			<lastupdate>18/07/24</lastupdate>
+			<list>Confirmed planets</list>
+		</planet>
+	</star>
+</system>
