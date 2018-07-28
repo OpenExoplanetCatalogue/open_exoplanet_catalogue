@@ -1,0 +1,49 @@
+<system>
+	<name>2MASS J02495639-0557352</name>
+	<name>2MASS J0249-0557</name>
+	<rightascension>02 49 56.3884942122</rightascension>
+	<declination>-05 57 35.410808361</declination>
+	<distance errorminus="5.4" errorplus="4.4">48.9</distance>
+	<binary>
+		<name>2MASS J02495639-0557352</name>
+		<name>2MASS J0249-0557</name>
+		<name>Gaia DR2 5183875103632956032</name>
+		<separation errorminus="0.22" errorplus="0.22" unit="AU">2.17</separation>
+		<separation errorminus="0.0002" errorplus="0.0002" unit="arcsec">0.0444</separation>
+		<positionangle errorminus="0.3" errorplus="0.3">233.1</positionangle>
+		<star>
+			<name>2MASS J02495639-0557352 A</name>
+			<name>2MASS J0249-0557 A</name>
+			<magK errorminus="0.03" errorplus="0.03">11.73</magK>
+			<spectraltype>M6</spectraltype>
+			<age errorminus="0.006" errorplus="0.006">0.022</age>
+			<mass errorminus="0.0115" errorplus="0.0124">0.0458</mass>
+		</star>
+		<star>
+			<name>2MASS J02495639-0557352 B</name>
+			<name>2MASS J0249-0557 B</name>
+			<spectraltype>M6</spectraltype>
+			<magK errorminus="0.03" errorplus="0.03">11.85</magK>
+			<age errorminus="0.006" errorplus="0.006">0.022</age>
+			<mass errorminus="0.0105" errorplus="0.0134">0.0420</mass>
+		</star>
+		<planet>
+			<name>2MASS J02495639-0557352 c</name>
+			<name>2MASS J0249-0557 c</name>
+			<list>Confirmed planets</list>
+			<magJ errorminus="0.06" errorplus="0.06">16.64</magJ>
+			<magH errorminus="0.06" errorplus="0.06">15.61</magH>
+			<magK errorminus="0.03" errorplus="0.03">14.78</magK>
+			<spectraltype>L2</spectraltype>
+			<separation errorminus="200" errorplus="200" unit="AU">1950</separation>
+			<separation errorminus="0.005" errorplus="0.005" unit="arcsec">39.959</separation>
+			<positionangle errorminus="0.013" errorplus="0.013">228.649</positionangle>
+			<mass errorminus="1.0" errorplus="1.3">11.6</mass>
+			<discoverymethod>imaging</discoverymethod>
+			<discoveryyear>2018</discoveryyear>
+			<description>2MASS J0249-0557 c is a wide-separation, planetary-mass companion to a low-mass binary system of brown dwarfs in the Beta Pictoris Moving Group. The object appears to be a near-twin of the planet Beta Pictoris b.</description>
+			<lastupdate>18/07/28</lastupdate>
+			<list>Planets in binary systems, P-type</list>
+		</planet>
+	</binary>
+</system>
