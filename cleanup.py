@@ -89,7 +89,7 @@ validtags = [
     "magH", "magR", "magB", "magK", "magI", "magU", "distance",
     "longitude", "imagedescription", "image", "age", "declination", "rightascension",
     "metallicity", "inclination", "spectraltype", "binary", "planet", "periastron", "star",
-    "mass", "eccentricity", "radius", "temperature", "videolink", "transittime", 
+    "mass", "eccentricity", "radius", "temperature", "videolink", "transittime",
     "spinorbitalignment", "istransiting", "separation", "positionangle", "periastrontime",
     "meananomaly", "maximumrvtime", "impactparameter"]
 validattributes = [
@@ -111,7 +111,7 @@ validlists = [
     "Retracted planet candidate",
     "Planets in open clusters",
     "Planets in globular clusters"]
-validdiscoverymethods = ["RV", "transit", "timing", "imaging", "microlensing"]
+validdiscoverymethods = ["RV", "transit", "timing", "imaging", "microlensing", "astrometry"]
 tagsallowmultiple = ["list", "name", "planet", "star", "binary", "separation"]
 numerictags = ["mass", "radius", "discoveryyear", "semimajoraxis", "period",
     "magV", "magJ", "magH", "magR", "magB", "magK", "magI", "magU", "distance", "longitude", "age",
@@ -326,11 +326,11 @@ for filename in glob.glob("systems*/*.xml"):
                     issues += 1
                 else:
                     uniquetags.append(child.tag)
-    
+
     # Check binary planet lists
     checkForBinaryPlanet(root, ".//binary/planet", "Planets in binary systems, P-type")
     checkForBinaryPlanet(root, ".//binary/star/planet", "Planets in binary systems, S-type")
-    
+
     # Check for valid list names
     lists = root.findall(".//list")
     for l in lists:
