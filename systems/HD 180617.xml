@@ -1,0 +1,96 @@
+<system>
+	<name>HD 180617</name>
+	<name>GJ 752</name>
+	<name>Gl 752</name>
+	<name>Gliese 752</name>
+	<name>LDS 6334</name>
+	<name>VB 10</name>
+	<rightascension>19 16 55.2565250393</rightascension>
+	<declination>+05 10 08.038856129</declination>
+	<distance errorminus="0.018" errorplus="0.018">5.9116</distance>
+	<binary>
+		<name>LDS 6334</name>
+		<name>GJ 752</name>
+		<name>Gl 752</name>
+		<name>Gliese 752</name>
+		<name>WDS J19169+0510 AB</name>
+		<separation unit="arcsec">75.80</separation>
+		<separation unit="AU">448</separation>
+		<positionangle>152</positionangle>
+		<star>
+			<name>HD 180617</name>
+			<name>V1428 Aql</name>
+			<name>V1428 Aquilae</name>
+			<name>HIP 94761</name>
+			<name>TYC 472-1252-1</name>
+			<name>Gaia DR2 4293318823182081408</name>
+			<name>BD+04 4048</name>
+			<name>GJ 752 A</name>
+			<name>Gl 752 A</name>
+			<name>Gliese 752 A</name>
+			<name>LDS 6334 A</name>
+			<name>WDS J19169+0510 A</name>
+			<magU>11.768</magU>
+			<magB>10.63</magB>
+			<magV>9.115</magV>
+			<magR>8.076</magR>
+			<magI>6.782</magI>
+			<magJ errorminus="0.030" errorplus="0.030">5.583</magJ>
+			<magH errorminus="0.027" errorplus="0.027">4.929</magH>
+			<magK errorminus="0.020" errorplus="0.020">4.673</magK>
+			<spectraltype>M2.5V</spectraltype>
+			<temperature errorminus="51" errorplus="51">3557</temperature>
+			<metallicity errorminus="0.16" errorplus="0.16">0.00</metallicity>
+			<radius errorminus="0.019" errorplus="0.019">0.453</radius>
+			<mass errorminus="0.04" errorplus="0.04">0.45</mass>
+			<planet>
+				<name>HD 180617 b</name>
+				<list>Confirmed planets</list>
+				<period errorminus="0.10" errorplus="0.09">105.90</period>
+				<eccentricity errorminus="0.10" errorplus="0.05">0.16</eccentricity>
+				<periastron errorminus="45" errorplus="30">269</periastron>
+				<transittime errorminus="4.1" errorplus="4.5" unit="BJD">2451974.5</transittime>
+				<mass errorminus="0.00440" errorplus="0.00315" type="msini">0.03839</mass>
+				<semimajoraxis errorminus="0.0100" errorplus="0.0099">0.3357</semimajoraxis>
+				<istransiting>0</istransiting>
+				<discoverymethod>RV</discoverymethod>
+				<discoveryyear>2018</discoveryyear>
+				<description>HD 180617 b is a Neptune-mass planet in an eccentric orbit near the liquid water zone of the M-dwarf primary of the LDS 6334 binary system. The secondary star is the ultracool dwarf VB 10.</description>
+				<lastupdate>18/08/14</lastupdate>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+		<star>
+			<name>VB 10</name>
+			<name>V1298 Aql</name>
+			<name>V1298 Aquilae</name>
+			<name>Gaia DR2 4293315765165489536</name>
+			<name>GJ 752 B</name>
+			<name>Gl 752 B</name>
+			<name>Gliese 752 B</name>
+			<name>LDS 6334 B</name>
+			<name>WDS J19169+0510 B</name>
+			<magB>19.42</magB>
+			<magV>17.30</magV>
+			<magJ errorminus="0.025" errorplus="0.025">9.908</magJ>
+			<magH errorminus="0.026" errorplus="0.026">9.226</magH>
+			<magK errorminus="0.022" errorplus="0.022">8.765</magK>
+			<spectraltype>M8V</spectraltype>
+			<mass>0.0779</mass>
+			<planet>
+				<name>VB 10 b</name>
+				<list>Retracted planet candidate</list>
+				<period errorminus="2.9" errorplus="6.9">271.7</period>
+				<mass errorminus="3.1" errorplus="2.6">6.4</mass>
+				<semimajoraxis errorminus="0.016" errorplus="0.006">0.360</semimajoraxis>
+				<eccentricity upperlimit="0.98" />
+				<inclination errorminus="1.8" errorplus="7.4">96.9</inclination>
+				<ascendingnode errorminus="3.3" errorplus="4.8">38.7</ascendingnode>
+				<discoverymethod>astrometry</discoverymethod>
+				<discoveryyear>2009</discoveryyear>
+				<description>The planet candidate VB 10 b was claimed on the basis of astrometric measurements made as part of the Stellar Planet Survey (STEPS) program. Subsequent radial velocity and astrometric measurements failed to confirm the planet's existence.</description>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+	</binary>
+</system>
