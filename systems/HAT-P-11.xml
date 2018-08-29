@@ -3,17 +3,22 @@
 	<name>Kepler-3</name>
 	<name>KOI-3</name>
 	<name>KIC 10748390</name>
-	<rightascension>19 50 50</rightascension>
-	<declination>+48 04 51</declination>
-	<distance>38</distance>
+	<rightascension>19 50 50.2474562793</rightascension>
+	<declination>+48 04 51.097364378</declination>
+	<distance errorminus="0.33" errorplus="0.33">37.89</distance>
 	<star>
 		<name>HAT-P-11</name>
 		<name>Kepler-3</name>
 		<name>KOI-3</name>
 		<name>KIC 10748390</name>
+		<name>HIP 97657</name>
+		<name>BD+47 2936</name>
+		<name>TYC 3561-2092-1</name>
 		<name>2MASS J19505021+4804508</name>
-		<mass>0.81</mass>
-		<radius>0.75</radius>
+		<name>Gaia DR1 2086512223550151936</name>
+		<name>Gaia DR2 2086512227851023872</name>
+		<mass errorminus="0.03" errorplus="0.02">0.809</mass>
+		<radius errorminus="0.009" errorplus="0.009">0.683</radius>
 		<magV errorminus="0.02" errorplus="0.02">9.47</magV>
 		<magR>8.8</magR>
 		<magI>8.2</magI>
@@ -21,8 +26,10 @@
 		<magJ errorminus="0.029" errorplus="0.029">7.608</magJ>
 		<magH errorminus="0.021" errorplus="0.021">7.131</magH>
 		<magK errorminus="0.020" errorplus="0.020">7.009</magK>
-		<metallicity>0.31</metallicity>
-		<spectraltype>K4</spectraltype>
+		<temperature errorminus="50" errorplus="50">4780</temperature>
+		<metallicity errorminus="0.05" errorplus="0.05">0.31</metallicity>
+		<spectraltype>K4V</spectraltype>
+		<age errorminus="4.1" errorplus="5.9">6.5</age>
 		<planet>
 			<name>HAT-P-11 b</name>
 			<name>HIP 97657 b</name>
@@ -34,20 +41,42 @@
 			<name>KOI-3.01</name>
 			<name>KOI-3 b</name>
 			<list>Confirmed planets</list>
-			<mass>0.081</mass>
-			<radius>0.452</radius>
-			<period>4.887804</period>
-			<semimajoraxis>0.053</semimajoraxis>
-			<eccentricity>0.198</eccentricity>
-			<inclination>88.5</inclination>
+			<mass errorminus="0.00472" errorplus="0.00472">0.07362</mass>
+			<radius errorminus="0.0054" errorplus="0.0054">0.3890</radius>
+			<period errorminus="0.000000030" errorplus="0.000000034">4.887802443</period>
+			<transittime errorminus="0.0000052" errorplus="0.0000053" unit="BJD">2454957.8132067</transittime>
+			<semimajoraxis errorminus="0.00066" errorplus="0.00064">0.05254</semimajoraxis>
+			<eccentricity errorminus="0.031" errorplus="0.034">0.218</eccentricity>
+			<periastron errorminus="16" errorplus="14">19</periastron>
+			<inclination errorminus="0.09" errorplus="0.15">89.05</inclination>
+			<spinorbitalignment errorminus="19" errorplus="23">103</spinorbitalignment>
+			<temperature lowerlimit="630" upperlimit="950" />
 			<description>The star HAT-P-11b is located in the constellation Cygnus. The planetary companion HAT-P-11b is in the field of view of the Kepler spacecraft. The expected temperature is 878K. The planets orbit is highly inclined.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>13/05/29</lastupdate>
+			<lastupdate>18/08/29</lastupdate>
 			<discoveryyear>2009</discoveryyear>
-			<temperature>790.9</temperature>
-			<transittime errorminus="0.00032" errorplus="0.00032" unit="BJD">2454605.89132</transittime>
 			<istransiting>1</istransiting>
 		</planet>
-		<temperature>4780.0</temperature>
+		<planet>
+			<name>HAT-P-11 c</name>
+			<name>HIP 97657 c</name>
+			<name>TYC 3561-02092-1 c</name>
+			<name>BD+47 2936 c</name>
+			<name>2MASS J19505021+4804508 c</name>
+			<name>Kepler-3 c</name>
+			<name>KIC 10748390 c</name>
+			<name>KOI-3 c</name>
+			<list>Confirmed planets</list>
+			<period errorminus="190" errorplus="360">3407</period>
+			<eccentricity errorminus="0.031" errorplus="0.032">0.601</eccentricity>
+			<periastron errorminus="4.9" errorplus="4.8">143.7</periastron>
+			<mass errorminus="0.085" errorplus="0.094" type="msini">1.595</mass>
+			<semimajoraxis errorminus="0.16" errorplus="0.29">4.13</semimajoraxis>
+			<periastrontime errorminus="26" errorplus="20">2456862</periastrontime>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2018</discoveryyear>
+			<lastupdate>18/08/29</lastupdate>
+			<description>HAT-P-11 c is a jovian planet on a highly eccentric orbit around the star HAT-P-11. The planet may be responsible for the misalignment of the orbit of the inner super-Neptune HAT-P-11 b via nodal precession.</description>
+		</planet>
 	</star>
 </system>
