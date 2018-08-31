@@ -1,18 +1,23 @@
 <system>
 	<name>CoRoT-20</name>
-	<rightascension>06 30 53</rightascension>
-	<declination>+00 13 37</declination>
-	<distance errorminus="120" errorplus="120">1230</distance>
+	<rightascension>06 30 52.9022405280</rightascension>
+	<declination>+00 13 36.858471822</declination>
+	<distance errorminus="24" errorplus="24">864</distance>
 	<star>
+		<name>CoRoT-20</name>
+		<name>2MASS J06305289+0013369</name>
+		<name>USNO-A2.0 0900-03054387</name>
+		<name>Gaia DR2 3120122805143587328</name>
 		<mass errorminus="0.14" errorplus="0.14">1.14</mass>
 		<radius errorminus="0.05" errorplus="0.05">1.02</radius>
-		<magV>14.66</magV>
 		<magB errorminus="0.42" errorplus="0.42">15.41</magB>
+		<magV>14.66</magV>
 		<magR errorminus="0.12" errorplus="0.12">14.60</magR>
 		<magI errorminus="0.43" errorplus="0.43">13.69</magI>
 		<magJ errorminus="0.026" errorplus="0.026">12.991</magJ>
 		<magH errorminus="0.027" errorplus="0.027">12.652</magH>
 		<magK errorminus="0.029" errorplus="0.029">12.513</magK>
+		<temperature errorminus="90" errorplus="90">5880</temperature>
 		<metallicity errorminus="0.12" errorplus="0.12">0.14</metallicity>
 		<age errorminus="0.04" errorplus="0.8">0.1</age>
 		<spectraltype>G2V</spectraltype>
@@ -22,20 +27,33 @@
 			<name>2MASS J06305289+0013369 b</name>
 			<name>USNO-A2.0 0900-03054387 b</name>
 			<list>Confirmed planets</list>
-			<mass errorminus="0.23" errorplus="0.23">4.24</mass>
+			<mass errorminus="0.2" errorplus="0.2">4.3</mass>
 			<radius errorminus="0.04" errorplus="0.04">0.84</radius>
-			<period>9.2</period>
-			<semimajoraxis errorminus="0.0021" errorplus="0.0021">0.0902</semimajoraxis>
-			<eccentricity errorminus="0.013" errorplus="0.013">0.562</eccentricity>
+			<period errorminus="0.00030" errorplus="0.00030">9.24285</period>
+			<semimajoraxis errorminus="0.002" errorplus="0.002">0.090</semimajoraxis>
+			<eccentricity errorminus="0.02" errorplus="0.02">0.59</eccentricity>
+			<periastron errorminus="2.3" errorplus="2.5">60.1</periastron>
 			<inclination errorminus="0.53" errorplus="0.53">88.21</inclination>
 			<transittime errorminus="0.0014" errorplus="0.0014" unit="BJD">2455266.0001</transittime>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>11/06/14</lastupdate>
+			<lastupdate>18/08/31</lastupdate>
 			<discoveryyear>2011</discoveryyear>
 			<temperature errorminus="24" errorplus="24">1002</temperature>
 			<istransiting>1</istransiting>
 		</planet>
-		<name>CoRoT-20</name>
-		<temperature errorminus="90" errorplus="90">5880.0</temperature>
+		<planet>
+			<name>CoRoT-20 c</name>
+			<list>Confirmed planets</list>
+			<period errorminus="17" errorplus="19">1675</period>
+			<eccentricity errorminus="0.03" errorplus="0.03">0.60</eccentricity>
+			<periastron errorminus="5.7" errorplus="5.5">65.0</periastron>
+			<semimajoraxis errorminus="0.07" errorplus="0.07">2.90</semimajoraxis>
+			<mass errorminus="1" errorplus="1" type="msini">17</mass>
+			<periastrontime errorminus="35" errorplus="31" unit="BJD">2454136</periastrontime>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2018</discoveryyear>
+			<lastupdate>18/08/31</lastupdate>
+			<description>CoRoT-20 c is a massive radial velocity-detected companion to the exoplanet host star CoRoT-20. It may have excited the eccentricity of the transiting hot Jupiter via the Lidov-Kozai mechanism.</description>
+		</planet>
 	</star>
 </system>
