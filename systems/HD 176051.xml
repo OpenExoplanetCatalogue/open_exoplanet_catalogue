@@ -1,29 +1,79 @@
 <system>
 	<name>HD 176051</name>
-	<rightascension>18 57 02</rightascension>
-	<declination>+32 54 05</declination>
-	<distance>14.99</distance>
-	<star>
-		<spectraltype>G0V</spectraltype>
-		<magV>5.22</magV>
-		<magB>5.25</magB>
-		<magR>4.9</magR>
-		<magI>4.7</magI>
-		<magJ>3.85</magJ>
-		<magH>3.61</magH>
-		<magK>3.65</magK>
-		<planet>
-			<name>HD 176051 b</name>
-			<list>Confirmed planets</list>
-			<mass>1.5</mass>
-			<period>1016</period>
-			<semimajoraxis>1.76</semimajoraxis>
-			<eccentricity>0.0</eccentricity>
-			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/10/22</lastupdate>
-			<discoveryyear>2010</discoveryyear>
-		</planet>
+	<name>Inrakluk</name>
+	<rightascension>18 57 01.60985</rightascension>
+	<declination>+32 54 04.5723</declination>
+	<distance errorminus="0.082" errorplus="0.082">14.872</distance>
+	<binary>
 		<name>HD 176051</name>
-		<temperature>5700.0</temperature>
-	</star>
+		<name>HIP 93017</name>
+		<name>GJ 738</name>
+		<name>Gliese 738</name>
+		<name>Gl 738</name>
+		<name>HR 7162</name>
+		<name>BD+32 3267</name>
+		<name>SAO 67612</name>
+		<name>WDS J18570+3254 AB</name>
+		<name>Inrakluk</name>
+		<period errorminus="15" errorplus="15">22430</period>
+		<periastrontime errorminus="23" errorplus="23">2441384</periastrontime>
+		<eccentricity errorminus="0.0022" errorplus="0.0022">0.2667</eccentricity>
+		<semimajoraxis errorminus="0.03" errorplus="0.03">18.97</semimajoraxis>
+		<inclination errorminus="0.078" errorplus="0.078">114.159</inclination>
+		<periastron errorminus="0.26" errorplus="0.26">281.71</periastron>
+		<ascendingnode errorminus="0.093" errorplus="0.093">48.846</ascendingnode>
+		<star>
+			<name>HD 176051 A</name>
+			<name>HIP 93017 A</name>
+			<name>GJ 738 A</name>
+			<name>Gliese 738 A</name>
+			<name>Gl 738 A</name>
+			<name>HR 7162 A</name>
+			<name>BD+32 3267 A</name>
+			<name>SAO 67612 A</name>
+			<name>TYC 2643-3345-1</name>
+			<name>WDS J18570+3254 A</name>
+			<name>Gaia DR2 2043885295912608512</name>
+			<name>Inrakluk A</name>
+			<magB errorminus="0.01" errorplus="0.01">5.83</magB>
+			<magV errorminus="0.009" errorplus="0.009">5.277</magV>
+			<spectraltype>F9V</spectraltype>
+			<mass>1.07</mass>
+		</star>
+		<star>
+			<name>HD 176051 B</name>
+			<name>HIP 93017 B</name>
+			<name>GJ 738 B</name>
+			<name>Gliese 738 B</name>
+			<name>Gl 738 B</name>
+			<name>HR 7162 B</name>
+			<name>BD+32 3267 B</name>
+			<name>SAO 67612 B</name>
+			<name>TYC 2643-3345-2</name>
+			<name>WDS J18570+3254B</name>
+			<name>Gaia DR2 2043885295908064128</name>
+			<name>Inrakluk B</name>
+			<magB errorminus="0.018" errorplus="0.018">8.894</magB>
+			<magV errorminus="0.01" errorplus="0.01">7.84</magV>
+			<spectraltype>K1V</spectraltype>
+			<mass>0.71</mass>
+			<planet>
+				<name>HD 176051 b</name>
+				<name>Inrakluk b</name>
+				<list>Confirmed planets</list>
+				<mass errorminus="0.3" errorplus="0.3">1.5</mass>
+				<period errorminus="40" errorplus="40">1016</period>
+				<semimajoraxis>1.76</semimajoraxis>
+				<eccentricity>0</eccentricity>
+				<periastron>0</periastron>
+				<inclination errorminus="8.2" errorplus="8.2">115.8</inclination>
+				<ascendingnode errorminus="11" errorplus="11">69</ascendingnode>
+				<discoverymethod>astrometry</discoverymethod>
+				<lastupdate>18/08/31</lastupdate>
+				<discoveryyear>2010</discoveryyear>
+				<description>A planet orbiting one of the stars of the binary system HD 176051 was identified with PHASES differential astrometry. It is unknown which of the two stars the planet orbits.</description>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+	</binary>
 </system>
