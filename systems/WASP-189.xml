@@ -1,0 +1,43 @@
+<system>
+	<name>WASP-189</name>
+	<rightascension>15 02 44.868</rightascension>
+	<declination>-03 01 52.99</declination>
+	<distance errorminus="0.742" errorplus="0.742">100.01</distance>
+	<star>
+		<name>WASP-189 </name>
+		<name>HD 133112</name>
+		<name>BD-02 3933</name>
+		<name>HIP 73608</name>
+		<name>PPM 198170</name>
+		<name>2MASS J15024486-0301530</name>
+		<magB errorminus="0.015" errorplus="0.015">6.788</magB>
+		<magV errorminus="0.011" errorplus="0.011">6.618</magV>
+		<mass errorminus="0.057" errorplus="0.057">1.887</mass>
+		<radius errorminus="0.12" errorplus="0.12">2.33</radius>
+		<temperature errorminus="100" errorplus="100">8000</temperature>
+		<age errorminus="0.08" errorplus="0.080">0.855</age>
+		<metallicity errorminus="0" errorplus="">0</metallicity>
+		<spectraltype>A4</spectraltype>
+		<planet>
+			<name>WASP-189 b</name>
+			<name>HD 133112 b</name>
+			<name>BD-02 3933 b</name>
+			<name>HIP 73608 b</name>
+			<name>PPM 198170 b</name>
+			<name>2MASS J15024486-0301530 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.10" errorplus="0.10">1.38</radius>
+			<mass errorminus="0.66" errorplus="0.66">1.86</mass>
+			<period errorminus="0.0000067" errorplus="0.0000067">2.7240338</period>
+			<transittime errorminus="0.0023" errorplus="0.0023" unit="HJD">2456706.4558</transittime>
+			<semimajoraxis errorminus="0.0089" errorplus="0.0089">0.04770</semimajoraxis>
+			<temperature errorminus="260" errorplus="260">2690</temperature>
+			<inclination errorminus="4.7" errorplus="4.7">83.4</inclination>
+			<description>This ultra-hot Jupiter was discovered by WASP-South. The planet orbits the bright A star in a polar orbit.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>18/09/13</lastupdate>
+			<discoveryyear>2018</discoveryyear>
+		</planet>
+	</star>
+</system>
