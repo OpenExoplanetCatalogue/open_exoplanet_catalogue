@@ -1,19 +1,20 @@
 <system>
-	<name>OGLE-BLG-1195L</name>
-	<rightascension>17 55 24</rightascension>
-	<declination>-30 47 34</declination>
-	<distance>7200.0</distance>
+	<name>OGLE-2016-BLG-1195L</name>
+	<rightascension>17 55 23.50</rightascension>
+	<declination>-30 12 26.1</declination>
+	<distance errorminus="460" errorplus="420">3910</distance>
 	<star>
-		<name>OGLE-BLG-1195L</name>
-		<mass>0.37</mass>
+		<name>OGLE-2016-BLG-1195L</name>
+		<mass errorminus="0.012" errorplus="0.016">0.078</mass>
 		<planet>
-			<name>OGLE-BLG-1195L b</name>
-			<semimajoraxis errorminus="0.4" errorplus="1.3">2.0</semimajoraxis>
-			<mass errorminus="0.00897" errorplus="0.017">0.016</mass>
+			<name>OGLE-2016-BLG-1195L b</name>
+			<separation errorminus="0.13" errorplus="0.16" unit="AU">1.16</separation>
+			<mass errorminus="0.00101" errorplus="0.00141">0.00450</mass>
 			<discoveryyear>2017</discoveryyear>
-			<lastupdate>17/03/28</lastupdate>
+			<discoverymethod>microlensing</discoverymethod>
+			<lastupdate>18/09/18</lastupdate>
 			<list>Confirmed planets</list>
-			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+			<description>OGLE-2016-BLG-1195L b is an Earth-mass planet orbiting an ultracool dwarf star.</description>
 		</planet>
 	</star>
 </system>
