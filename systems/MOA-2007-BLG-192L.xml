@@ -1,26 +1,26 @@
 <system>
-	<name>MOA-2007-BLG-192-L</name>
-	<rightascension>18 08 04</rightascension>
-	<declination>-27 09 00</declination>
-	<distance>700</distance>
+	<name>MOA-2007-BLG-192L</name>
+	<rightascension>18 08 03.798</rightascension>
+	<declination>-27 09 00.27</declination>
+	<distance errorminus="70" errorplus="100">660</distance>
 	<star>
-		<name>MOA-2007-BLG-192-L</name>
-		<mass>0.06</mass>
+		<name>MOA-2007-BLG-192L</name>
+		<mass errorminus="0.012" errorplus="0.015">0.084</mass>
 		<spectraltype>M</spectraltype>
-		<temperature>3840.0</temperature>
+		<magJ errorminus="0.32" errorplus="0.32">20.73</magJ>
+		<magH errorminus="0.35" errorplus="0.35">19.94</magH>
+		<magK errorminus="0.20" errorplus="0.20">19.16</magK>
 		<planet>
-			<name>MOA-2007-BLG-192-L b</name>
-			<name>MOA 2007-BLG-192L b</name>
-			<name>MOA-192 b</name>
+			<name>MOA-2007-BLG-192L b</name>
 			<list>Confirmed planets</list>
-			<mass>0.01</mass>
-			<semimajoraxis>0.66</semimajoraxis>
+			<mass errorminus="0.0057" errorplus="0.0164">0.0101</mass>
+			<separation errorminus="0.22" errorplus="0.51" unit="AU">0.66</separation>
 			<discoverymethod>microlensing</discoverymethod>
-			<lastupdate>13/04/06</lastupdate>
+			<lastupdate>18/09/18</lastupdate>
 			<discoveryyear>2008</discoveryyear>
-			<description>The exoplanet MOA-2007-BLG-192-L b is orbiting a low mass brown dwarf, roughly 6% the mass of our Sun. This makes the primary too small to sustain fusion.</description>
+			<description>The exoplanet MOA-2007-BLG-192L b is a super-Earth or sub-Neptune orbiting a low-mass red dwarf star.</description>
 			<image>MOA192</image>
-			<imagedescription>Artist's impression of the extrasolar planet MOA-2007-BLG-192-L b. 
+			<imagedescription>Artist's impression of the extrasolar planet MOA-2007-BLG-192L b. 
 			
 Credit: Joe Gallagher.</imagedescription>
 		</planet>
