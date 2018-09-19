@@ -1,9 +1,9 @@
 <system>
 	<name>Epsilon Indi</name>
 	<name>eps Ind</name>
-	<rightascension>22 03 21.65809</rightascension>
-	<declination>-56 47 09.5169</declination>
-	<distance errorminus="0.0037" errorplus="0.0037">3.6224</distance>
+	<rightascension>22 03 21.6542294981</rightascension>
+	<declination>-56 47 09.537018193</declination>
+	<distance errorminus="0.0033" errorplus="0.0033">3.6389</distance>
 	<binary>
 		<name>Epsilon Indi</name>
 		<name>eps Ind</name>
@@ -26,6 +26,7 @@
 			<name>HD 209100</name>
 			<name>HIP 108870</name>
 			<name>TYC 8817-984-1</name>
+			<name>Gaia DR2 6412595290592307840</name>
 			<name>CD-57 8464</name>
 			<name>CPD-57 10015</name>
 			<name>GJ 845 A</name>
@@ -75,11 +76,13 @@
 			<name>CI Ind</name>
 			<name>2MASS J22041052-5646577</name>
 			<name>WDS J22034-5647 B</name>
-			<period errorminus="180" errorplus="180">4090</period>
-			<semimajoraxis errorminus="0.11" errorplus="0.11">2.43</semimajoraxis>
-			<periastrontime errorminus="220" errorplus="220">2455230</periastrontime>
-			<eccentricity errorminus="0.03" errorplus="0.03">0.53</eccentricity>
-			<inclination errorminus="0.7" errorplus="0.7">-77.2</inclination>
+			<period errorminus="43.7" errorplus="43.7">4165.09</period>
+			<semimajoraxis errorminus="0.03" errorplus="0.03">2.61</semimajoraxis>
+			<periastrontime errorminus="40.4" errorplus="40.4">2450967.7</periastrontime>
+			<eccentricity errorminus="0.02" errorplus="0.02">0.47</eccentricity>
+			<periastron errorminus="1.46" errorplus="1.46">316.99</periastron>
+			<inclination errorminus="0.38" errorplus="0.38">75.90</inclination>
+			<ascendingnode errorminus="0.28" errorplus="0.28">148.58</ascendingnode>
 			<star>
 				<name>Epsilon Indi Ba</name>
 				<name>eps Ind Ba</name>
@@ -100,7 +103,7 @@
 				<temperature lowerlimit="1300" upperlimit="1340" />
 				<metallicity>-0.2</metallicity>
 				<radius lowerlimit="0.080" upperlimit="0.081" />
-				<mass lowerlimit="0.0573" upperlimit="0.0697" />
+				<mass errorminus="0.0008" errorplus="0.0008">0.0716</mass>
 				<age lowerlimit="3.7" upperlimit="4.3" />
 			</star>
 			<star>
@@ -124,7 +127,7 @@
 				<temperature lowerlimit="880" upperlimit="940" />
 				<metallicity>-0.2</metallicity>
 				<radius lowerlimit="0.082" upperlimit="0.083" />
-				<mass lowerlimit="0.0449" upperlimit="0.0573" />
+				<mass errorminus="0.00064" errorplus="0.00064">0.0669</mass>
 				<age lowerlimit="3.7" upperlimit="4.3" />
 			</star>
 		</binary>
