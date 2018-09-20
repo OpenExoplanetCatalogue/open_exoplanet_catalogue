@@ -1,20 +1,21 @@
 <system>
 	<name>OGLE-2013-BLG-1761L</name>
-	<rightascension>17 53 38</rightascension>
-	<declination>-28 06 17</declination>
-	<distance>6900.0</distance>
+	<rightascension>17 53 38.28</rightascension>
+	<declination>-28 53 42.98</declination>
+	<distance errorminus="1200" errorplus="1000">6900</distance>
 	<star>
 		<name>OGLE-2013-BLG-1761L</name>
-		<mass>0.33</mass>
+		<mass errorminus="0.18" errorplus="0.32">0.33</mass>
 		<spectraltype>M/K</spectraltype>
 		<planet>
 			<name>OGLE-2013-BLG-1761L b</name>
-			<semimajoraxis errorminus="0.5" errorplus="0.5">1.8</semimajoraxis>
+			<separation errorminus="0.5" errorplus="0.5" unit="AU">1.8</separation>
 			<mass errorminus="1.5" errorplus="2.5">2.8</mass>
+			<discoverymethod>microlensing</discoverymethod>
 			<discoveryyear>2017</discoveryyear>
-			<lastupdate>17/03/23</lastupdate>
+			<lastupdate>18/09/20</lastupdate>
 			<list>Confirmed planets</list>
-			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+			<description>OGLE-2013-BLG-1761Lb is a jovian planet orbiting an M or K dwarf star which is likely to be located in the Galactic bulge.</description>
 		</planet>
 	</star>
 </system>
