@@ -1,0 +1,28 @@
+<system>
+	<name>OGLE-2016-BLG-0613L</name>
+	<rightascension>17 57 02.50</rightascension>
+	<declination>-28 06 58.2</declination>
+	<distance errorminus="1420" errorplus="1340">3410</distance>
+	<binary>
+		<separation errorminus="1.23" errorplus="1.16" unit="AU">2.96</separation>
+		<star>
+			<name>OGLE-2016-BLG-0613L A</name>
+			<mass errorminus="0.42" errorplus="0.55">0.72</mass>
+		</star>
+		<star>
+			<name>OGLE-2016-BLG-0613L B</name>
+			<mass errorminus="0.16" errorplus="0.21">0.28</mass>
+		</star>
+		<planet>
+			<name>OGLE-2016-BLG-0613L AB b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="2.43" errorplus="3.19">4.18</mass>
+			<separation errorminus="2.63" errorplus="2.51" unit="AU">6.40</separation>
+			<discoverymethod>microlensing</discoverymethod>
+			<discoveryyear>2017</discoveryyear>
+			<description>Several possible models exist for the OGLE-2016-BLG-0613L system, including the possibility that the secondary star is a brown dwarf and where the planet is in an S-type orbit around the primary star.</description>
+			<lastupdate>18/09/20</lastupdate>
+			<list>Planets in binary systems, P-type</list>
+		</planet>
+	</binary>
+</system>
