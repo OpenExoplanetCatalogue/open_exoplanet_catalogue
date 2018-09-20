@@ -1,20 +1,19 @@
 <system>
 	<name>OGLE-2007-BLG-368L</name>
-	<rightascension>17 56 26</rightascension>
-	<declination>-32 14 15</declination>
-	<distance>5900</distance>
+	<rightascension>17 56 25.96</rightascension>
+	<declination>-32 14 14.7</declination>
+	<distance errorminus="1400" errorplus="900">5900</distance>
 	<star>
-		<mass>0.64</mass>
+		<name>OGLE-2007-BLG-368L</name>
+		<mass errorminus="0.26" errorplus="0.21">0.64</mass>
 		<planet>
 			<name>OGLE-2007-BLG-368L b</name>
 			<list>Confirmed planets</list>
-			<mass>0.0694</mass>
-			<semimajoraxis>3.3</semimajoraxis>
+			<mass errorminus="0.0252" errorplus="0.0220">0.0629</mass>
+			<separation errorminus="0.6" errorplus="0.5" unit="AU">2.8</separation>
 			<discoverymethod>microlensing</discoverymethod>
-			<lastupdate>09/12/08</lastupdate>
-			<discoveryyear>2008</discoveryyear>
+			<lastupdate>18/09/20</lastupdate>
+			<discoveryyear>2009</discoveryyear>
 		</planet>
-		<name>OGLE-2007-BLG-368L</name>
-		<temperature>5700.0</temperature>
 	</star>
 </system>
