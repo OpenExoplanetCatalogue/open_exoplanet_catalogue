@@ -1,27 +1,22 @@
 <system>
 	<name>MOA-2010-BLG-073L</name>
-	<rightascension>18 10 11</rightascension>
-	<declination>-26 31 22</declination>
-	<distance>2800</distance>
+	<rightascension>18 10 11.342</rightascension>
+	<declination>-26 31 22.544</declination>
+	<distance errorminus="400" errorplus="400">2800</distance>
 	<star>
-		<magJ errorminus="0.05" errorplus="0.05">13.69</magJ>
-		<magH errorminus="0.06" errorplus="0.06">12.93</magH>
-		<magK errorminus="0.05" errorplus="0.05">12.64</magK>
 		<name>MOA-2010-BLG-073L</name>
-		<name>2MASS J18101138-2631226</name>
-		<mass>0.16</mass>
+		<mass errorminus="0.03" errorplus="0.03">0.16</mass>
 		<spectraltype>M</spectraltype>
 		<planet>
 			<name>MOA-2010-BLG-073L b</name>
 			<name>2MASS J18101138-2631226  b</name>
 			<list>Confirmed planets</list>
-			<mass>11</mass>
-			<semimajoraxis>1.21</semimajoraxis>
+			<mass errorminus="2.0" errorplus="2.0">11.0</mass>
+			<separation errorminus="0.16" errorplus="0.16" unit="AU">1.21</separation>
 			<description>The planet MOA-2010-BLG-073L b was discovered by the Microlensing Observations in Astrophysics (MOA) survey. In a microlensing event like this, the light from a source star is bent and magnified by a foreground star and a planet. In this case the source star was previously known to be photometrically variable.</description>
 			<discoverymethod>microlensing</discoverymethod>
 			<lastupdate>12/11/19</lastupdate>
 			<discoveryyear>2012</discoveryyear>
 		</planet>
-		<temperature>3840.0</temperature>
 	</star>
 </system>

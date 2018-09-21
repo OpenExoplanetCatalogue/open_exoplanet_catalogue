@@ -1,21 +1,21 @@
 <system>
 	<name>OGLE-2012-BLG-0950L</name>
-	<rightascension>18 08 05</rightascension>
-	<declination>-29 16 06</declination>
-	<distance>3000.0</distance>
+	<rightascension>18 08 04.62</rightascension>
+	<declination>-29 43 53.7</declination>
+	<distance errorminus="1100" errorplus="800">3000</distance>
 	<star>
 		<name>OGLE-2012-BLG-0950L</name>
-		<mass>0.56</mass>
-		<spectraltype>M</spectraltype>
-		<temperature>5500.0</temperature>
+		<mass errorminus="0.16" errorplus="0.12">0.56</mass>
+		<magH errorminus="0.10" errorplus="0.10">17.52</magH>
 		<planet>
 			<name>OGLE-2012-BLG-0950L b</name>
-			<semimajoraxis errorminus="0.7" errorplus="0.6">2.7</semimajoraxis>
+			<separation errorminus="0.7" errorplus="0.6">2.7</separation>
 			<mass errorminus="0.028" errorplus="0.053">0.11</mass>
+			<discoverymethod>microlensing</discoverymethod>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>17/01/31</lastupdate>
+			<lastupdate>18/09/20</lastupdate>
 			<list>Confirmed planets</list>
-			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+			<description>OGLE-2012-BLG-0950Lb was the first planet with a mass measurement from only microlens parallax and lens flux.</description>
 		</planet>
 	</star>
 </system>

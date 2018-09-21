@@ -1,0 +1,29 @@
+<system>
+	<name>OGLE-2007-BLG-349L</name>
+	<rightascension>18 05 24.43</rightascension>
+	<declination>-26 25 19.0</declination>
+	<distance errorminus="380" errorplus="380">2760</distance>
+	<binary>
+		<semimajoraxis errorminus="0.015" errorplus="0.027">0.080</semimajoraxis>
+		<period errorminus="2.5" errorplus="5.4">9.7</period>
+		<star>
+			<name>OGLE-2007-BLG-349L A</name>
+			<mass errorminus="0.07" errorplus="0.07">0.41</mass>
+		</star>
+		<star>
+			<name>OGLE-2007-BLG-349L B</name>
+			<mass errorminus="0.07" errorplus="0.07">0.30</mass>
+		</star>
+		<planet>
+			<name>OGLE-2007-BLG-349L (AB) c</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.041" errorplus="0.041">0.252</mass>
+			<separation errorminus="0.34" errorplus="0.43" unit="AU">2.59</separation>
+			<discoverymethod>microlensing</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<description>The Saturn-mass planet OGLE-2007-BLG-349L(AB)c is the first circumbinary planet detected by microlensing.</description>
+			<lastupdate>18/09/20</lastupdate>
+			<list>Planets in binary systems, P-type</list>
+		</planet>
+	</binary>
+</system>

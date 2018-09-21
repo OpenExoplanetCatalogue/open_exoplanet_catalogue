@@ -1,19 +1,20 @@
 <system>
 	<name>OGLE-2013-BLG-1721L</name>
-	<rightascension>17 52 30</rightascension>
-	<declination>-30 42 26</declination>
-	<distance>6300.0</distance>
+	<rightascension>17 52 30.37</rightascension>
+	<declination>-30 17 33.7</declination>
+	<distance errorminus="1600" errorplus="1100">6300</distance>
 	<star>
 		<name>OGLE-2013-BLG-1721L</name>
-		<mass>0.46</mass>
+		<mass errorminus="0.23" errorplus="0.26">0.46</mass>
 		<planet>
-			<name>OGLE-2013-BLG-1721 b</name>
-			<semimajoraxis errorminus="0.7" errorplus="0.5">2.6</semimajoraxis>
+			<name>OGLE-2013-BLG-1721L b</name>
+			<separation errorminus="0.7" errorplus="0.5" unit="AU">2.6</separation>
 			<mass errorminus="0.31" errorplus="0.35">0.64</mass>
+			<discoverymethod>microlensing</discoverymethod>
 			<discoveryyear>2017</discoveryyear>
-			<lastupdate>17/07/04</lastupdate>
+			<lastupdate>18/09/20</lastupdate>
 			<list>Confirmed planets</list>
-			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+			<description>OGLE-2013-BLG-1721Lb is a Saturn-mass planet orbiting a low-mass star.</description>
 		</planet>
 	</star>
 </system>
