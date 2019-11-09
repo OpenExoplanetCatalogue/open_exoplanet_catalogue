@@ -1,0 +1,35 @@
+<system>
+	<name>WASP-177</name>
+	<rightascension>22 19 11.337</rightascension>
+	<declination>-01 50 03.08</declination>
+	<distance errorminus="2.4" errorplus="2.4">177.7</distance>
+	<star>
+		<name>WASP-177</name>
+		<name>1SWASP J221911.19-015004.7</name>
+		<magV>12.58</magV>
+		<mass errorminus="0.038" errorplus="0.038">0.876</mass>
+		<radius errorminus="0.046" errorplus="0.046">0.885</radius>
+		<temperature errorminus="70" errorplus="70">5017</temperature>
+		<age errorminus="3.9" errorplus="3.9">9.7</age>
+		<metallicity errorminus="0.04" errorplus="0.04">0.25</metallicity>
+		<spectraltype>K2</spectraltype>
+		<planet>
+			<name>WASP-177 b</name>
+			<name>1SWASP J221911.19-015004.7 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.36" errorplus="0.66">1.58</radius>
+			<mass errorminus="0.038" errorplus="0.038">0.508</mass>
+			<period errorminus="0.000001" errorplus="0.000001">3.071722</period>
+			<transittime errorminus="0.00028" errorplus="0.00028">2457994.3714</transittime>
+			<semimajoraxis errorminus="0.00058" errorplus="0.00058">0.03957</semimajoraxis>
+			<temperature errorminus="32" errorplus="32">1142</temperature>
+			<inclination errorminus="0.83" errorplus="0.66">84.14</inclination>
+			<eccentricity>0</eccentricity>
+			<description>This is a hot Jupiter.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>19/03/15</lastupdate>
+			<discoveryyear>2019</discoveryyear>
+		</planet>
+	</star>
+</system>
