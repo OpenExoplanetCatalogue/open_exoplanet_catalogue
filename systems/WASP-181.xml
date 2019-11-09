@@ -1,0 +1,35 @@
+<system>
+	<name>WASP-181</name>
+	<rightascension>01 47 10.38</rightascension>
+	<declination>+03 07 58.9</declination>
+	<distance errorminus="7.8" errorplus="7.8">443</distance>
+	<star>
+		<name>WASP-181</name>
+		<name>1SWASP J014710.37+030759.0</name>
+		<magV>12.91</magV>
+		<mass errorminus="0.04" errorplus="0.04">1.04</mass>
+		<radius errorminus="0.043" errorplus="0.043">0.965</radius>
+		<temperature errorminus="70" errorplus="70">5839</temperature>
+		<age errorminus="1.7" errorplus="1.7">2.5</age>
+		<metallicity errorminus="0.04" errorplus="0.04">0.09</metallicity>
+		<spectraltype>G2</spectraltype>
+		<planet>
+			<name>WASP-181 b</name>
+			<name>1SWASP J014710.37+030759.0 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.059" errorplus="0.071">1.184</radius>
+			<mass errorminus="0.034" errorplus="0.034">0.299</mass>
+			<period errorminus="0.0000034" errorplus="0.0000034">4.5195064</period>
+			<transittime errorminus="0.00035" errorplus="0.00035">2457747.66681</transittime>
+			<semimajoraxis errorminus="0.00069" errorplus="0.00069">0.05427</semimajoraxis>
+			<temperature errorminus="26" errorplus="32">1186</temperature>
+			<inclination errorminus="0.59" errorplus="0.76">88.38</inclination>
+			<eccentricity>0</eccentricity>
+			<description>This is a hot-Saturn planet.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>19/03/15</lastupdate>
+			<discoveryyear>2019</discoveryyear>
+		</planet>
+	</star>
+</system>
