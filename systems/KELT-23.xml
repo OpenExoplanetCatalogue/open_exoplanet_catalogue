@@ -1,0 +1,49 @@
+<system>
+	<name>KELT-23</name>
+	<rightascension>15 28 35.193</rightascension>
+	<declination>+66 21 31.54</declination>
+	<distance errorminus="0.35" errorplus="0.35">126.7</distance>
+	<binary>
+		<star>
+			<name>KELT-23 A</name>
+			<name>BD+66 911</name>
+			<name>2MASS J15283520+6621314</name>
+			<name>TYC 4187-996-1</name>
+			<name>UCAC4 782-024743</name>
+			<magB errorminus="0.021" errorplus="0.021">10.973</magB>
+			<magV errorminus="0.024" errorplus="0.024">10.253</magV>
+			<magJ errorminus="0.032" errorplus="0.032">9.208</magJ>
+			<mass errorminus="0.054" errorplus="0.060">0.944</mass>
+			<radius errorminus="0.015" errorplus="0.015">0.996</radius>
+			<temperature errorminus="49" errorplus="49">5899</temperature>
+			<age errorminus="3.2" errorplus="3.5">6.4</age>
+			<metallicity errorminus="0.077" errorplus="0.078">-0.105</metallicity>
+			<spectraltype>G2 V</spectraltype>
+			<planet>
+				<name>KELT-23 A b</name>
+				<name>BD+66 911 A b</name>
+				<name>2MASS J15283520+6621314 A b</name>
+				<name>TYC 4187-996-1 A b</name>
+				<name>UCAC4 782-024743 A b</name>
+				<list>Confirmed planets</list>
+				<radius errorminus="0.025" errorplus="0.025">1.323</radius>
+				<mass errorminus="0.044" errorplus="0.048">0.938</mass>
+				<period errorminus="0.000011" errorplus="0.000011">2.255251</period>
+				<transittime errorminus="0.0028" errorplus="0.0027" unit="BJD">2458007.3194</transittime>
+				<semimajoraxis errorminus="0.00064" errorplus="0.00068">0.03302</semimajoraxis>
+				<temperature errorminus="20" errorplus="20">1561</temperature>
+				<inclination errorminus="0.30" errorplus="0.31">85.37</inclination>
+				<eccentricity>0</eccentricity>
+				<description>This is a hot Jupiter orbiting a Near-Solar twin system.</description>
+				<discoverymethod>transit</discoverymethod>
+				<istransiting>1</istransiting>
+				<lastupdate>19/05/23</lastupdate>
+				<discoveryyear>2019</discoveryyear>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+		<star>
+			<name>KELT-23 B</name>
+		</star>
+	</binary>
+</system>
