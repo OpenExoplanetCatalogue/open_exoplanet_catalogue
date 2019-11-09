@@ -1,0 +1,38 @@
+<system>
+	<name>NGTS-6</name>
+	<rightascension>05 03 10.9</rightascension>
+	<declination>-30 23 57.64</declination>
+	<distance errorminus="1.432" errorplus="1.432">311.042</distance>
+	<star>
+		<name>NGTS-6</name>
+		<name>2MASS J05031090-3023576</name>
+		<magB errorminus="0.014" errorplus="0.014">15.171</magB>
+		<magV errorminus="0.021" errorplus="0.021">14.087</magV>
+		<magJ errorminus="0.033" errorplus="0.033">12.222</magJ>
+		<magH errorminus="0.038" errorplus="0.038">11.767</magH>
+		<magK errorminus="0.032" errorplus="0.032">11.650</magK>
+		<mass errorminus="0.025" errorplus="0.025">0.767</mass>
+		<radius errorminus="0.013" errorplus="0.013">0.754</radius>
+		<temperature errorminus="40" errorplus="44">4730</temperature>
+		<age errorminus="0.54" errorplus="0.25">9.77</age>
+		<metallicity errorminus="0.09" errorplus="0.09">0.11</metallicity>
+		<planet>
+			<name>NGTS-6 b</name>
+			<name>2MASS J05031090-3023576 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.112" errorplus="0.097">1.326</radius>
+			<mass errorminus="0.028" errorplus="0.028">1.339</mass>
+			<period errorminus="0.0000008" errorplus="0.0000008">0.882059</period>
+			<transittime errorminus="0.0003" errorplus="0.0003" unit="BJD">2547982.3784</transittime>
+			<semimajoraxis errorminus="0.00032" errorplus="0.00032">0.01677</semimajoraxis>
+			<temperature errorminus="12.14" errorplus="12.49">1283.9</temperature>
+			<inclination errorminus="0.210" errorplus="0.262">78.231</inclination>
+			<eccentricity>0</eccentricity>
+			<description>This planet is an ultra-short period hot Jupiter discovered by the Next Generation Transit Survey.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>19/09/09</lastupdate>
+			<discoveryyear>2019</discoveryyear>
+		</planet>
+	</star>
+</system>
