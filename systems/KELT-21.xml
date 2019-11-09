@@ -1,0 +1,42 @@
+<system>
+	<name>KELT-21</name>
+	<rightascension>20 19 12.004</rightascension>
+	<declination>+32 34 51.77</declination>
+	<distance errorminus="49" errorplus="49">415</distance>
+	<star>
+		<name>KELT-21</name>
+		<name>HD 332124</name>
+		<name>2MASS J20191200+3234517</name>
+		<name>TYC 2676-1274-1</name>
+		<magB errorminus="0.04" errorplus="0.04">10.76</magB>
+		<magV errorminus="0.04" errorplus="0.04">10.48</magV>
+		<magJ errorminus="0.022" errorplus="0.022">10.149</magJ>
+		<magH errorminus="0.021" errorplus="0.021">10.121</magH>
+		<magK errorminus="0.014" errorplus="0.014">10.090</magK>
+		<mass errorminus="0.028" errorplus="0.029">1.458</mass>
+		<radius errorminus="0.034" errorplus="0.034">1.638</radius>
+		<temperature errorminus="84" errorplus="81">7598</temperature>
+		<age errorminus="0.1" errorplus="0.1">1.6</age>
+		<metallicity errorminus="0.033" errorplus="0.032">-0.405</metallicity>
+		<spectraltype>A8 V</spectraltype>
+		<planet>
+			<name>KELT-21 b</name>
+			<name>HD 332124 b</name>
+			<name>2MASS J20191200+3234517 b</name>
+			<name>TYC 2676-1274-1 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.040" errorplus="0.039">1.586</radius>
+			<mass type="msini">3.91</mass>
+			<period errorminus="0.0000038" errorplus="0.0000038">3.6127628</period>
+			<transittime errorminus="0.00041" errorplus="0.00041" unit="BJD">4997382.640727</transittime>
+			<semimajoraxis errorminus="0.00034" errorplus="0.00035">0.05224</semimajoraxis>
+			<temperature errorminus="30" errorplus="29">2051</temperature>
+			<eccentricity>0</eccentricity>
+			<description>This is a hot Jupiter.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>18/01/17</lastupdate>
+			<discoveryyear>2018</discoveryyear>
+		</planet>
+	</star>
+</system>
