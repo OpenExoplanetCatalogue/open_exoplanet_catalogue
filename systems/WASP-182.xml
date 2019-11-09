@@ -1,0 +1,35 @@
+<system>
+	<name>WASP-182</name>
+	<rightascension>20 46 41.58</rightascension>
+	<declination>-41 49 15.2</declination>
+	<distance errorminus="4.6" errorplus="4.6">331</distance>
+	<star>
+		<name>WASP-182</name>
+		<name>2MASS J20464156-4149151</name>
+		<magV>11.98</magV>
+		<mass errorminus="0.064" errorplus="0.064">1.076</mass>
+		<radius errorminus="0.03" errorplus="0.03">1.34</radius>
+		<temperature errorminus="100" errorplus="100">5638</temperature>
+		<age errorminus="2.684" errorplus="2.684">5.952</age>
+		<metallicity errorminus="0.11" errorplus="0.11">0.27</metallicity>
+		<spectraltype>G5</spectraltype>
+		<planet>
+			<name>WASP-182 b</name>
+			<name>2MASS J20464156-4149151 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.030" errorplus="0.030">0.850</radius>
+			<mass errorminus="0.011" errorplus="0.011">0.148</mass>
+			<period errorminus="0.0000024" errorplus="0.0000024">3.3769848</period>
+			<transittime errorminus="0.00067" errorplus="0.00067" unit="BJD">2458018.66018</transittime>
+			<semimajoraxis errorminus="0.0009" errorplus="0.0009">0.0451</semimajoraxis>
+			<temperature errorminus="34" errorplus="34">1479</temperature>
+			<inclination errorminus="0.33" errorplus="0.33">83.88</inclination>
+			<eccentricity>0</eccentricity>
+			<description>This is a bloated sub-Saturn mass planet.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>19/08/27</lastupdate>
+			<discoveryyear>2019</discoveryyear>
+		</planet>
+	</star>
+</system>
