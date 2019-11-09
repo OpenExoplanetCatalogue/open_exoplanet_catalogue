@@ -1,0 +1,38 @@
+<system>
+	<name>WASP-180</name>
+	<rightascension>08 13 34.1</rightascension>
+	<declination>-01 04 58.0</declination>
+	<distance errorminus="3.3" errorplus="3.3">255.8</distance>
+	<binary>
+		<star>
+			<name>WASP-180 A</name>
+			<magV>10.68</magV>
+			<magK>9.81</magK>
+			<mass errorminus="0.1" errorplus="0.1">1.3</mass>
+			<radius errorminus="0.06" errorplus="0.06">1.19</radius>
+			<metallicity errorminus="0.2" errorplus="0.2">0.1</metallicity>
+			<spectraltype>F7 V</spectraltype>
+			<planet>
+				<name>WASP-180 A b</name>
+				<list>Confirmed planets</list>
+				<radius errorminus="0.04" errorplus="0.04">1.24</radius>
+				<mass errorminus="0.1" errorplus="0.1">0.9</mass>
+				<period errorminus="0.000001" errorplus="0.000001">3.409265</period>
+				<transittime errorminus="0.0003" errorplus="0.0003">2457763.3147</transittime>
+				<semimajoraxis errorminus="0.001" errorplus="0.001">0.048</semimajoraxis>
+				<temperature errorminus="50" errorplus="50">1570</temperature>
+				<inclination errorminus="0.6" errorplus="0.6">87.4</inclination>
+				<eccentricity>0</eccentricity>
+				<description>This is a hot Jupiter, discovered by the HATSouth project.</description>
+				<discoverymethod>transit</discoverymethod>
+				<istransiting>1</istransiting>
+				<lastupdate>19/06/26</lastupdate>
+				<discoveryyear>2019</discoveryyear>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+		<star>
+			<name>WASP-180 B</name>
+		</star>
+	</binary>
+</system>
