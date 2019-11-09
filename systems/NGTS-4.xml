@@ -1,0 +1,37 @@
+<system>
+	<name>NGTS-4</name>
+	<rightascension>05 58 23.76</rightascension>
+	<declination>-30 48 42.49</declination>
+	<distance errorminus="1.8" errorplus="1.8">282.6</distance>
+	<star>
+		<name>NGTS-4</name>
+		<name>2MASS J05582375-3048424</name>
+		<magB errorminus="0.05" errorplus="0.05">13.95</magB>
+		<magV errorminus="0.03" errorplus="0.03">13.14</magV>
+		<magJ errorminus="0.02" errorplus="0.02">11.58</magJ>
+		<magH errorminus="0.02" errorplus="0.02">11.14</magH>
+		<magK errorminus="0.02" errorplus="0.02">11.07</magK>
+		<mass errorminus="0.02" errorplus="0.02">0.75</mass>
+		<radius errorminus="0.01" errorplus="0.01">0.84</radius>
+		<temperature errorminus="100" errorplus="100">5143</temperature>
+		<metallicity errorminus="0.1" errorplus="0.1">-0.28</metallicity>
+		<planet>
+			<name>NGTS-4 b</name>
+			<name>2MASS J05582375-3048424 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.023195822" errorplus="0.023195822">0.283702746</radius>
+			<mass errorminus="9.43672206022516E-03" errorplus="9.43672206022516E-03">6.47988248135461E-02</mass>
+			<period errorminus="0.000008" errorplus="0.000008">1.3373508</period>
+			<transittime errorminus="0.0034" errorplus="0.0034" unit="HJD">2457607.9975</transittime>
+			<semimajoraxis errorminus="0.005" errorplus="0.005">0.019</semimajoraxis>
+			<temperature errorminus="400" errorplus="400">1650</temperature>
+			<inclination errorminus="5.8" errorplus="5.8">82.5</inclination>
+			<eccentricity>0</eccentricity>
+			<description>This planet is a sub-Neptune-sized planet transiting a 13th magnitude K-dwarf in a 1.34d orbit.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>18/09/03</lastupdate>
+			<discoveryyear>2018</discoveryyear>
+		</planet>
+	</star>
+</system>
