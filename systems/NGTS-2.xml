@@ -1,0 +1,39 @@
+<system>
+	<name>NGTS-2</name>
+	<rightascension>14 20 29.5</rightascension>
+	<declination>-31 12 06.68</declination>
+	<distance errorminus="7.8" errorplus="8.3">360.3</distance>
+	<star>
+		<name>NGTS-2</name>
+		<name>2MASS J14202949-3112074</name>
+		<magB errorminus="0.02" errorplus="0.02">11.410</magB>
+		<magV errorminus="0.011" errorplus="0.011">10.961</magV>
+		<magJ errorminus="0.023" errorplus="0.023">10.055</magJ>
+		<magH errorminus="0.024" errorplus="0.024">9.858</magH>
+		<magK errorminus="0.021" errorplus="0.021">9.799</magK>
+		<mass errorminus="0.047" errorplus="0.19">1.64</mass>
+		<radius errorminus="0.044" errorplus="0.047">1.702</radius>
+		<temperature errorminus="89" errorplus="94">6478</temperature>
+		<age errorminus="0.37" errorplus="0.37">2.17</age>
+		<metallicity errorminus="0.22" errorplus="0.19">-0.06</metallicity>
+		<spectraltype>F5 V</spectraltype>
+		<planet>
+			<name>NGTS-2 b</name>
+			<name>2MASS J14202949-3112074 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.045" errorplus="0.047">1.595</radius>
+			<mass errorminus="0.12" errorplus="0.13">0.74</mass>
+			<period errorminus="0.000061" errorplus="0.000061">4.511164</period>
+			<transittime errorminus="0.0013" errorplus="0.0014" unit="BJD">2457759.1261</transittime>
+			<semimajoraxis errorminus="0.003" errorplus="0.024">0.0630</semimajoraxis>
+			<temperature errorminus="42" errorplus="45">1468</temperature>
+			<inclination errorminus="1.5" errorplus="1">88.5</inclination>
+			<eccentricity>0</eccentricity>
+			<description>This is an inflated hot-Jupiter transiting a bright F5V star.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>18/09/20</lastupdate>
+			<discoveryyear>2018</discoveryyear>
+		</planet>
+	</star>
+</system>
