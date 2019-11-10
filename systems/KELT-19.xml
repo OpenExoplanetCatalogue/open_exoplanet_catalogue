@@ -1,0 +1,48 @@
+<system>
+	<name>KELT-19</name>
+	<rightascension>07 26 02.289</rightascension>
+	<declination>+07 36 56.83</declination>
+	<distance errorminus="47" errorplus="69">278</distance>
+	<binary>
+		<star>
+			<name>KELT-19 A</name>
+			<name>BD+07 1721</name>
+			<name>TYC 764-1494-1</name>
+			<name>2MASS J07260228+0736569</name>
+			<magB errorminus="0.030" errorplus="0.030">10.201</magB>
+			<magV errorminus="0.040" errorplus="0.040">9.885</magV>
+			<magJ errorminus="0.030" errorplus="0.030">9.343</magJ>
+			<magH errorminus="0.020" errorplus="0.020">9.237</magH>
+			<magK errorminus="0.020" errorplus="0.020">9.196</magK>
+			<mass errorminus="0.2" errorplus="0.25">1.62</mass>
+			<radius errorminus="0.099" errorplus="0.099">1.830</radius>
+			<temperature errorminus="110" errorplus="110">7500</temperature>
+			<age errorminus="0.1" errorplus="0.1">1.1</age>
+			<metallicity errorminus="0.51" errorplus="0.51">-0.12</metallicity>
+			<spectraltype>A8 V</spectraltype>
+			<planet>
+				<name>KELT-19 A b</name>
+				<name>BD+07 1721 A b</name>
+				<name>TYC 764-1494-1 A b</name>
+				<name>2MASS J07260228+0736569 A b</name>
+				<list>Confirmed planets</list>
+				<radius errorminus="0.11" errorplus="0.11">1.91</radius>
+				<mass type="msini">4.07</mass>
+				<period errorminus="0.0000088" errorplus="0.0000088">4.6117093</period>
+				<transittime errorminus="0.00036" errorplus="0.00036" unit="BJD">2457278.94367</transittime>
+				<semimajoraxis errorminus="0.0027" errorplus="0.0031">0.0637</semimajoraxis>
+				<inclination errorminus="0.31" errorplus="0.34">85.41</inclination>
+				<eccentricity>0</eccentricity>
+				<description>This is a giant planet orbiting a binary star system.</description>
+				<discoverymethod>transit</discoverymethod>
+				<istransiting>1</istransiting>
+				<lastupdate>17/12/22</lastupdate>
+				<discoveryyear>2017</discoveryyear>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+		<star>
+			<name>KELT-19 B</name>
+		</star>
+	</binary>
+</system>
