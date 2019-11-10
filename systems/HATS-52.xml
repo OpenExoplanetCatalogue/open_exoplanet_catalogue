@@ -1,0 +1,39 @@
+<system>
+	<name>HATS-52</name>
+	<rightascension>09 20 21.046</rightascension>
+	<declination>-31 16 09.49</declination>
+	<distance errorminus="6.14" errorplus="6.14">564.1</distance>
+	<star>
+		<name>HATS-52</name>
+		<name>2MASS J09202105-3116095</name>
+		<magB errorminus="0.030" errorplus="0.030">14.316</magB>
+		<magV errorminus="0.040" errorplus="0.040">13.669</magV>
+		<magJ errorminus="0.03" errorplus="0.03">12.52</magJ>
+		<magH errorminus="0.04" errorplus="0.04">12.22</magH>
+		<magK errorminus="0.03" errorplus="0.03">12.11</magK>
+		<mass errorminus="0.054" errorplus="0.054">1.111</mass>
+		<radius errorminus="0.058" errorplus="0.058">1.046</radius>
+		<temperature errorminus="150" errorplus="150">6010</temperature>
+		<age errorminus="1.1" errorplus="1.5">1.2</age>
+		<metallicity errorminus="0.1" errorplus="0.10">0.22</metallicity>
+		<spectraltype>G</spectraltype>
+		<planet>
+			<name>HATS-52 b</name>
+			<name>2MASS J09202105-3116095 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.086" errorplus="0.086">1.382</radius>
+			<mass errorminus="0.15" errorplus="0.15">2.24</mass>
+			<period errorminus="0.00000094" errorplus="0.00000094">1.36665436</period>
+			<transittime errorminus="0.00033" errorplus="0.00033" unit="BJD">2456929.03039</transittime>
+			<semimajoraxis errorminus="0.00040" errorplus="0.00040">0.02498</semimajoraxis>
+			<temperature errorminus="73" errorplus="73">1834</temperature>
+			<inclination errorminus="1.1" errorplus="1.1">84.7</inclination>
+			<eccentricity>0</eccentricity>
+			<description>This is a close-in transiting hot-Jupiter around a G-type dwarf.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>17/12/12</lastupdate>
+			<discoveryyear>2017</discoveryyear>
+		</planet>
+	</star>
+</system>
