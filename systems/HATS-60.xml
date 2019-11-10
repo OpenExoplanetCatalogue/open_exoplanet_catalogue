@@ -1,0 +1,37 @@
+<system>
+	<name>HATS-60</name>
+	<rightascension>22 45 27.364</rightascension>
+	<declination>-14 59 30.35</declination>
+	<distance errorminus="8.47" errorplus="8.47">493.3</distance>
+	<star>
+		<name>HATS-60</name>
+		<name>2MASS J22452736-1459303</name>
+		<magB errorminus="0.023" errorplus="0.023">13.394</magB>
+		<magV errorminus="0.028" errorplus="0.028">12.641</magV>
+		<magJ errorminus="0.023" errorplus="0.023">11.377</magJ>
+		<magH errorminus="0.022" errorplus="0.022">11.070</magH>
+		<magK errorminus="0.023" errorplus="0.023">10.988</magK>
+		<mass errorminus="0.016" errorplus="0.010">1.097</mass>
+		<radius errorminus="0.024" errorplus="0.024">1.460</radius>
+		<temperature errorminus="20" errorplus="20">5688</temperature>
+		<metallicity errorminus="0.028" errorplus="0.028">0.335</metallicity>
+		<planet>
+			<name>HATS-60 b</name>
+			<name>2MASS J22452736-1459303 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.053" errorplus="0.053">1.153</radius>
+			<mass errorminus="0.055" errorplus="0.055">0.662</mass>
+			<period errorminus="0.000032" errorplus="0.000032">3.560829</period>
+			<transittime errorminus="0.00085" errorplus="0.00085" unit="BJD">2458015.72358</transittime>
+			<semimajoraxis errorminus="0.00023" errorplus="0.00015">0.04708</semimajoraxis>
+			<temperature errorminus="11" errorplus="11">1528</temperature>
+			<inclination errorminus="0.35" errorplus="0.35">86.28</inclination>
+			<eccentricity>0</eccentricity>
+			<description>This planet was discovered by the HATSouth project.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>18/12/13</lastupdate>
+			<discoveryyear>2018</discoveryyear>
+		</planet>
+	</star>
+</system>
