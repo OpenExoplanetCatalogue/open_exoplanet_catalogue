@@ -1,0 +1,40 @@
+<system>
+	<name>HATS-55</name>
+	<rightascension>07 37 08.019</rightascension>
+	<declination>-32 45 19.52</declination>
+	<distance errorminus="6.14" errorplus="6.14">620.7</distance>
+	<star>
+		<name>HATS-55</name>
+		<name>2MASS J07370802-3245195</name>
+		<name>GSC 07109-00596</name>
+		<magB errorminus="0.020" errorplus="0.020">14.111</magB>
+		<magV errorminus="0.040" errorplus="0.040">13.470</magV>
+		<magJ errorminus="0.026" errorplus="0.026">12.338</magJ>
+		<magH errorminus="0.040" errorplus="0.040">12.048</magH>
+		<magK errorminus="0.041" errorplus="0.041">12.020</magK>
+		<mass errorminus="0.0119" errorplus="0.0091">1.1955</mass>
+		<radius errorminus="0.011" errorplus="0.011">1.126</radius>
+		<temperature errorminus="36" errorplus="36">6214</temperature>
+		<age errorminus="0.13" errorplus="0.29">0.40</age>
+		<metallicity errorminus="0.03" errorplus="0.046">0.108</metallicity>
+		<planet>
+			<name>HATS-55 b</name>
+			<name>2MASS J07370802-3245195 b</name>
+			<name>GSC 07109-00596 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.026" errorplus="0.026">1.251</radius>
+			<mass errorminus="0.076" errorplus="0.076">0.921</mass>
+			<period errorminus="0.0000033" errorplus="0.0000033">4.2042001</period>
+			<transittime errorminus="0.00051" errorplus="0.00051" unit="BJD">2457413.13042</transittime>
+			<semimajoraxis errorminus="0.00018" errorplus="0.00014">0.05412</semimajoraxis>
+			<temperature errorminus="10" errorplus="10">1367</temperature>
+			<inclination errorminus="0.084" errorplus="0.084">86.320</inclination>
+			<eccentricity>0</eccentricity>
+			<description>This is a short period hot Jupiter.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>18/12/18</lastupdate>
+			<discoveryyear>2018</discoveryyear>
+		</planet>
+	</star>
+</system>
