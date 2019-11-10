@@ -1,0 +1,37 @@
+<system>
+	<name>HATS-65</name>
+	<rightascension>19 31 45.552</rightascension>
+	<declination>-26 44 24.72</declination>
+	<distance errorminus="12.2" errorplus="12.2">500</distance>
+	<star>
+		<name>HATS-65</name>
+		<name>2MASS J19314555-2644246</name>
+		<magB errorminus="0.020" errorplus="0.020">13.067</magB>
+		<magV errorminus="0.020" errorplus="0.020">12.497</magV>
+		<magJ errorminus="0.023" errorplus="0.023">11.405</magJ>
+		<magH errorminus="0.025" errorplus="0.025">11.145</magH>
+		<magK errorminus="0.023" errorplus="0.023">11.095</magK>
+		<mass errorminus="0.028" errorplus="0.028">1.257</mass>
+		<radius errorminus="0.027" errorplus="0.027">1.310</radius>
+		<temperature errorminus="30" errorplus="30">6277</temperature>
+		<metallicity errorminus="0.055" errorplus="0.055">0.199</metallicity>
+		<planet>
+			<name>HATS-65 b</name>
+			<name>2MASS J19314555-2644246 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.05" errorplus="0.05">1.501</radius>
+			<mass errorminus="0.083" errorplus="0.083">0.821</mass>
+			<period errorminus="0.0000016" errorplus="0.0000016">3.1051610</period>
+			<transittime errorminus="0.00041" errorplus="0.00041" unit="BJD">2457520.96130</transittime>
+			<semimajoraxis errorminus="0.00033" errorplus="0.00033">0.04497</semimajoraxis>
+			<temperature errorminus="18" errorplus="18">1634</temperature>
+			<inclination errorminus="0.26" errorplus="0.26">84.82</inclination>
+			<eccentricity>0</eccentricity>
+			<description>The host system is possibly a binary star system.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>18/12/13</lastupdate>
+			<discoveryyear>2018</discoveryyear>
+		</planet>
+	</star>
+</system>
