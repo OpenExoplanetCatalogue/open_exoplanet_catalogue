@@ -1,0 +1,37 @@
+<system>
+	<name>HATS-63</name>
+	<rightascension>04 29 40.453</rightascension>
+	<declination>-28 11 50.23</declination>
+	<distance errorminus="6.14" errorplus="6.14">634.7</distance>
+	<star>
+		<name>HATS-63</name>
+		<name>2MASS J04294044-2811501</name>
+		<magB errorminus="0.049" errorplus="0.049">14.595</magB>
+		<magV errorminus="0.0090" errorplus="0.0090">13.8920</magV>
+		<magJ errorminus="0.024" errorplus="0.024">12.631</magJ>
+		<magH errorminus="0.025" errorplus="0.025">12.290</magH>
+		<magK errorminus="0.024" errorplus="0.024">12.216</magK>
+		<mass errorminus="0.019" errorplus="0.019">0.931</mass>
+		<radius errorminus="0.012" errorplus="0.012">1.070</radius>
+		<temperature errorminus="18" errorplus="18">5627</temperature>
+		<metallicity errorminus="0.038" errorplus="0.038">0.081</metallicity>
+		<planet>
+			<name>HATS-63 b</name>
+			<name>2MASS J04294044-2811501 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.039" errorplus="0.039">1.207</radius>
+			<mass errorminus="0.12" errorplus="0.12">0.96</mass>
+			<period errorminus="0.0000049" errorplus="0.0000049">3.0566527</period>
+			<transittime errorminus="0.00089" errorplus="0.00089" unit="BJD">2457659.93755</transittime>
+			<semimajoraxis errorminus="0.00028" errorplus="0.00028">0.04026</semimajoraxis>
+			<temperature errorminus="9.0" errorplus="9.0">1398</temperature>
+			<inclination errorminus="0.19" errorplus="0.19">84.86</inclination>
+			<eccentricity>0</eccentricity>
+			<description>This planet was discovered by the HATSouth project.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>18/12/13</lastupdate>
+			<discoveryyear>2018</discoveryyear>
+		</planet>
+	</star>
+</system>
