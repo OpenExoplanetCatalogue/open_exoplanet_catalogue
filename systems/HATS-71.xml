@@ -1,0 +1,36 @@
+<system>
+	<name>HATS-71</name>
+	<rightascension>01 02 12.281</rightascension>
+	<declination>-61 45 21.66</declination>
+	<distance errorminus="0.86" errorplus="0.86">140.8</distance>
+	<star>
+		<name>HATS-71</name>
+		<name>2MASS J01021226-6145216</name>
+		<magB errorminus="0.0434" errorplus="0.0434">16.94</magB>
+		<magJ errorminus="0.026" errorplus="0.026">12.605</magJ>
+		<magH errorminus="0.032" errorplus="0.032">11.972</magH>
+		<magK errorminus="0.025" errorplus="0.025">11.727</magK>
+		<mass errorminus="0.069" errorplus="0.042">0.569</mass>
+		<radius errorminus="0.099" errorplus="0.053">0.5161</radius>
+		<temperature errorminus="22" errorplus="22">3254</temperature>
+		<metallicity errorminus="0.13" errorplus="0.063">0.237</metallicity>
+		<planet>
+			<name>HATS-71 b</name>
+			<name>2MASS J01021226-6145216 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.016" errorplus="0.016">1.08</radius>
+			<mass errorminus="0.24" errorplus="0.24">0.45</mass>
+			<period errorminus="0.0000011" errorplus="0.0000011">3.7955213</period>
+			<transittime errorminus="0.00020" errorplus="0.00020" unit="BJD">2457699.38939</transittime>
+			<semimajoraxis errorminus="0.00168" errorplus="0.00095">0.03946</semimajoraxis>
+			<temperature errorminus="6.6" errorplus="12.6">567.9</temperature>
+			<inclination errorminus="0.18" errorplus="0.18">88.85</inclination>
+			<eccentricity>0</eccentricity>
+			<description>This planet is a transiting gas giant.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>18/12/21</lastupdate>
+			<discoveryyear>2018</discoveryyear>
+		</planet>
+	</star>
+</system>

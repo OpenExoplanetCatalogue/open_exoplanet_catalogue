@@ -1,0 +1,55 @@
+<system>
+	<name>HATS-59</name>
+	<rightascension>11 21 17.865</rightascension>
+	<declination>-22 23 17.45</declination>
+	<distance errorminus="13.8" errorplus="13.8">654.9</distance>
+	<star>
+		<name>HATS-59</name>
+		<name>2MASS J11211786-2223174</name>
+		<name>GSC 06090-00133</name>
+		<magB errorminus="0.020" errorplus="0.020">14.727</magB>
+		<magV errorminus="0.030" errorplus="0.030">13.951</magV>
+		<magJ errorminus="0.024" errorplus="0.024">12.590</magJ>
+		<magH errorminus="0.030" errorplus="0.030">12.299</magH>
+		<magK errorminus="0.030" errorplus="0.030">12.238</magK>
+		<mass errorminus="0.039" errorplus="0.039">1.038</mass>
+		<radius errorminus="0.067" errorplus="0.067">1.036</radius>
+		<temperature errorminus="91" errorplus="91">5670</temperature>
+		<age errorminus="2.3" errorplus="2.3">4.3</age>
+		<metallicity errorminus="0.064" errorplus="0.064">0.180</metallicity>
+		<planet>
+			<name>HATS-59 b</name>
+			<name>2MASS J11211786-2223174 b</name>
+			<name>GSC 06090-00133 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.077" errorplus="0.077">1.126</radius>
+			<mass errorminus="0.069" errorplus="0.069">0.806</mass>
+			<period errorminus="0.000016" errorplus="0.000016">5.416081</period>
+			<transittime errorminus="0.00052" errorplus="0.00052" unit="BJD">2456620.66527</transittime>
+			<semimajoraxis errorminus="0.00076" errorplus="0.00076">0.06112</semimajoraxis>
+			<temperature errorminus="40" errorplus="40">1128</temperature>
+			<inclination errorminus="0.33" errorplus="0.33">88.10</inclination>
+			<eccentricity>0</eccentricity>
+			<description>This is a transiting Hot-Jupiter around a Sun-Like star.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>18/05/15</lastupdate>
+			<discoveryyear>2018</discoveryyear>
+		</planet>
+		<planet>
+			<name>HATS-59 c</name>
+			<name>2MASS J11211786-2223174 c</name>
+			<name>GSC 06090-00133 c</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.87" errorplus="0.87" type="msini">12.7</mass>
+			<period errorminus="14" errorplus="14">1422</period>
+			<periastrontime errorminus="11" errorplus="11" unit="BJD">2456521</periastrontime>
+			<semimajoraxis errorminus="0.035" errorplus="0.035">2.504</semimajoraxis>
+			<temperature errorminus="6.4" errorplus="6.4">175.9</temperature>
+			<description>This is a cold massive giant planet around a Sun-Like star.</description>
+			<discoverymethod>RV</discoverymethod>
+			<lastupdate>18/05/15</lastupdate>
+			<discoveryyear>2018</discoveryyear>
+		</planet>
+	</star>
+</system>

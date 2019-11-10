@@ -1,0 +1,40 @@
+<system>
+	<name>HATS-57</name>
+	<rightascension>04 03 47.601</rightascension>
+	<declination>-19 03 24.33</declination>
+	<distance errorminus="3.02" errorplus="3.02">281.7</distance>
+	<star>
+		<name>HATS-57</name>
+		<name>2MASS J04034760-1903242</name>
+		<name>TYC 5885-663-1</name>
+		<magB errorminus="0.35" errorplus="0.35">12.97</magB>
+		<magV errorminus="0.14" errorplus="0.14">11.59</magV>
+		<magJ errorminus="0.026" errorplus="0.026">11.071</magJ>
+		<magH errorminus="0.023" errorplus="0.023">10.738</magH>
+		<magK errorminus="0.027" errorplus="0.027">10.707</magK>
+		<mass errorminus="0.026" errorplus="0.019">1.026</mass>
+		<radius errorminus="0.011" errorplus="0.011">0.960</radius>
+		<temperature errorminus="19" errorplus="19">5587</temperature>
+		<age errorminus="1.1" errorplus="1.5">2.5</age>
+		<metallicity errorminus="0.043" errorplus="0.043">0.268</metallicity>
+		<planet>
+			<name>HATS-57 b</name>
+			<name>2MASS J04034760-1903242 b</name>
+			<name>TYC 5885-663-1 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.028" errorplus="0.028">1.139</radius>
+			<mass errorminus="0.073" errorplus="0.073">3.147</mass>
+			<period errorminus="0.0000013" errorplus="0.0000013">2.3506210</period>
+			<transittime errorminus="0.00025" errorplus="0.00025" unit="BJD">2457778.49589</transittime>
+			<semimajoraxis errorminus="0.00030" errorplus="0.00021">0.03493</semimajoraxis>
+			<temperature errorminus="9.7" errorplus="9.7">1413</temperature>
+			<inclination errorminus="0.40" errorplus="0.40">87.88</inclination>
+			<eccentricity>0</eccentricity>
+			<description>This is a short period hot Jupiter.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>18/12/18</lastupdate>
+			<discoveryyear>2018</discoveryyear>
+		</planet>
+	</star>
+</system>

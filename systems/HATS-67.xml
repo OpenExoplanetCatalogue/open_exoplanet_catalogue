@@ -1,0 +1,37 @@
+<system>
+	<name>HATS-67</name>
+	<rightascension>12 00 50.118</rightascension>
+	<declination>-46 08 11.12</declination>
+	<distance errorminus="24.0" errorplus="24.0">987.1</distance>
+	<star>
+		<name>HATS-67</name>
+		<name>2MASS J12005011-4608110</name>
+		<magB errorminus="0.030" errorplus="0.030">14.207</magB>
+		<magV errorminus="0.010" errorplus="0.010">13.095</magV>
+		<magJ errorminus="0.026" errorplus="0.026">12.638</magJ>
+		<magH errorminus="0.024" errorplus="0.024">12.346</magH>
+		<magK errorminus="0.026" errorplus="0.026">12.327</magK>
+		<mass errorminus="0.021" errorplus="0.021">1.435</mass>
+		<radius errorminus="0.026" errorplus="0.026">1.441</radius>
+		<temperature errorminus="33" errorplus="33">6594</temperature>
+		<metallicity errorminus="0.052" errorplus="0.052">0.332</metallicity>
+		<planet>
+			<name>HATS-67 b</name>
+			<name>2MASS J12005011-4608110 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.047" errorplus="0.047">1.685</radius>
+			<mass errorminus="0.12" errorplus="0.12">1.45</mass>
+			<period errorminus="0.0000040" errorplus="0.0000040">1.6091788</period>
+			<transittime errorminus="0.00043" errorplus="0.00043" unit="BJD">2457796.88127</transittime>
+			<semimajoraxis errorminus="0.00015" errorplus="0.00015">0.03032</semimajoraxis>
+			<temperature errorminus="22" errorplus="22">2193</temperature>
+			<inclination errorminus="0.26" errorplus="0.26">79.03</inclination>
+			<eccentricity>0</eccentricity>
+			<description>This is an inflated Jupiter.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>18/12/13</lastupdate>
+			<discoveryyear>2018</discoveryyear>
+		</planet>
+	</star>
+</system>

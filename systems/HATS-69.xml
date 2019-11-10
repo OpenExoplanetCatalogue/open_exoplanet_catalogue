@@ -1,0 +1,37 @@
+<system>
+	<name>HATS-69</name>
+	<rightascension>19 17 11.364</rightascension>
+	<declination>-60 53 30.06</declination>
+	<distance errorminus="3.5" errorplus="3.5">419.5</distance>
+	<star>
+		<name>HATS-69</name>
+		<name>2MASS J19171138-6053301</name>
+		<magB errorminus="0.020" errorplus="0.020">14.916</magB>
+		<magV errorminus="0.010" errorplus="0.010">13.945</magV>
+		<magJ errorminus="0.024" errorplus="0.024">12.413</magJ>
+		<magH errorminus="0.025" errorplus="0.025">11.968</magH>
+		<magK errorminus="0.023" errorplus="0.023">11.875</magK>
+		<mass errorminus="0.016" errorplus="0.011">0.892</mass>
+		<radius errorminus="0.016" errorplus="0.011">0.8785</radius>
+		<temperature errorminus="16" errorplus="16">5137</temperature>
+		<metallicity errorminus="0.034" errorplus="0.034">0.377</metallicity>
+		<planet>
+			<name>HATS-69 b</name>
+			<name>2MASS J19171138-6053301 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.022" errorplus="0.022">0.945</radius>
+			<mass type="msini">0.577</mass>
+			<period errorminus="0.0000019" errorplus="0.0000019">2.2252577</period>
+			<transittime errorminus="0.00091" errorplus="0.00091" unit="BJD">2457755.39390</transittime>
+			<semimajoraxis errorminus="0.00019" errorplus="0.00014">0.03211</semimajoraxis>
+			<temperature errorminus="6.9" errorplus="6.9">1295.7</temperature>
+			<inclination errorminus="0.55" errorplus="0.55">88.49</inclination>
+			<eccentricity>0</eccentricity>
+			<description>This planet has the size of Saturn.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>18/12/13</lastupdate>
+			<discoveryyear>2018</discoveryyear>
+		</planet>
+	</star>
+</system>

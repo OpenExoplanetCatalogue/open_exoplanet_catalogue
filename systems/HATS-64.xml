@@ -1,0 +1,37 @@
+<system>
+	<name>HATS-64</name>
+	<rightascension>09 37 09.03</rightascension>
+	<declination>-29 48 01.57</declination>
+	<distance errorminus="41.4" errorplus="41.4">1114</distance>
+	<star>
+		<name>HATS-64</name>
+		<name>2MASS J09370902-2948015</name>
+		<magB errorminus="0.030" errorplus="0.030">13.416</magB>
+		<magV errorminus="0.030" errorplus="0.030">12.924</magV>
+		<magJ errorminus="0.024" errorplus="0.024">11.968</magJ>
+		<magH errorminus="0.026" errorplus="0.026">11.780</magH>
+		<magK errorminus="0.021" errorplus="0.021">11.705</magK>
+		<mass errorminus="0.028" errorplus="0.028">1.564</mass>
+		<radius errorminus="0.071" errorplus="0.071">2.113</radius>
+		<temperature errorminus="27" errorplus="27">6554</temperature>
+		<metallicity errorminus="0.039" errorplus="0.039">0.220</metallicity>
+		<planet>
+			<name>HATS-64 b</name>
+			<name>2MASS J09370902-2948015 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.081" errorplus="0.081">1.679</radius>
+			<mass errorminus="0.20" errorplus="0.20">0.96</mass>
+			<period errorminus="0.000013" errorplus="0.000013">4.908897</period>
+			<transittime errorminus="0.00082" errorplus="0.00082" unit="BJD">2457769.82287</transittime>
+			<semimajoraxis errorminus="0.00039" errorplus="0.00039">0.06562</semimajoraxis>
+			<temperature errorminus="27" errorplus="27">1793</temperature>
+			<inclination errorminus="0.85" errorplus="0.85">87.24</inclination>
+			<eccentricity>0</eccentricity>
+			<description>The host system is possibly a binary star system.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>18/12/13</lastupdate>
+			<discoveryyear>2018</discoveryyear>
+		</planet>
+	</star>
+</system>

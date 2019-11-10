@@ -1,0 +1,40 @@
+<system>
+	<name>HATS-54</name>
+	<rightascension>13 22 32.372</rightascension>
+	<declination>-44 41 19.7</declination>
+	<distance errorminus="22.1" errorplus="22.1">764.4</distance>
+	<star>
+		<name>HATS-54</name>
+		<name>2MASS J13223237-4441196</name>
+		<name>GSC 07799-01184</name>
+		<magB errorminus="0.030" errorplus="0.030">14.729</magB>
+		<magV errorminus="0.040" errorplus="0.040">13.913</magV>
+		<magJ errorminus="0.024" errorplus="0.024">12.611</magJ>
+		<magH errorminus="0.025" errorplus="0.025">12.273</magH>
+		<magK errorminus="0.019" errorplus="0.019">12.170</magK>
+		<mass errorminus="0.022" errorplus="0.022">1.097</mass>
+		<radius errorminus="0.036" errorplus="0.036">1.317</radius>
+		<temperature errorminus="26" errorplus="26">5702</temperature>
+		<age errorminus="0.76" errorplus="0.76">6.60</age>
+		<metallicity errorminus="0.031" errorplus="0.031">0.396</metallicity>
+		<planet>
+			<name>HATS-54 b</name>
+			<name>2MASS J13223237-4441196 b</name>
+			<name>GSC 07799-01184 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.052" errorplus="0.052">1.067</radius>
+			<mass errorminus="0.10" errorplus="0.10">0.76</mass>
+			<period errorminus="0.0000043" errorplus="0.0000043">2.5441828</period>
+			<transittime errorminus="0.00089" errorplus="0.00089" unit="BJD">2457780.01102</transittime>
+			<semimajoraxis errorminus="0.00024" errorplus="0.00024">0.03763</semimajoraxis>
+			<temperature errorminus="22" errorplus="22">1625</temperature>
+			<inclination errorminus="0.36" errorplus="0.36">83.08</inclination>
+			<eccentricity>0</eccentricity>
+			<description>This is a short period hot Jupiter.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>18/12/18</lastupdate>
+			<discoveryyear>2018</discoveryyear>
+		</planet>
+	</star>
+</system>

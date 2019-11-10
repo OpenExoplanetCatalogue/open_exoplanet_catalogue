@@ -1,0 +1,40 @@
+<system>
+	<name>HATS-56</name>
+	<rightascension>12 00 39.63</rightascension>
+	<declination>-45 47 58.0</declination>
+	<distance errorminus="11.3" errorplus="11.3">573.5</distance>
+	<star>
+		<name>HATS-56</name>
+		<name>2MASS J12003962-4547579</name>
+		<name>TYC 8229-2228-1</name>
+		<magB errorminus="0.10" errorplus="0.10">12.05</magB>
+		<magV errorminus="0.07" errorplus="0.07">11.48</magV>
+		<magJ errorminus="0.023" errorplus="0.023">10.514</magJ>
+		<magH errorminus="0.029" errorplus="0.029">10.325</magH>
+		<magK errorminus="0.019" errorplus="0.019">10.251</magK>
+		<mass errorminus="0.017" errorplus="0.017">1.573</mass>
+		<radius errorminus="0.036" errorplus="0.036">2.201</radius>
+		<temperature errorminus="31" errorplus="31">6536</temperature>
+		<age errorminus="0.077" errorplus="0.077">1.894</age>
+		<metallicity errorminus="0.024" errorplus="0.024">0.19</metallicity>
+		<planet>
+			<name>HATS-56 b</name>
+			<name>2MASS J12003962-4547579 b</name>
+			<name>TYC 8229-2228-1 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.055" errorplus="0.039">1.688</radius>
+			<mass errorminus="0.035" errorplus="0.035">0.902</mass>
+			<period errorminus="0.000027" errorplus="0.000027">4.324799</period>
+			<transittime errorminus="0.0012" errorplus="0.0012" unit="BJD">2457788.0029</transittime>
+			<semimajoraxis errorminus="0.00022" errorplus="0.00022">0.06043</semimajoraxis>
+			<temperature errorminus="16" errorplus="16">1902</temperature>
+			<inclination errorminus="0.21" errorplus="0.21">83.29</inclination>
+			<eccentricity>0</eccentricity>
+			<description>This is an highly inflated hot-Jupiter.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>18/12/18</lastupdate>
+			<discoveryyear>2018</discoveryyear>
+		</planet>
+	</star>
+</system>

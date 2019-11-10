@@ -1,0 +1,39 @@
+<system>
+	<name>HATS-53</name>
+	<rightascension>11 46 30.841</rightascension>
+	<declination>-33 51 36.2</declination>
+	<distance errorminus="8.47" errorplus="8.47">595.8</distance>
+	<star>
+		<name>HATS-53</name>
+		<name>2MASS J11463084-3351361</name>
+		<magB errorminus="0.040" errorplus="0.040">14.548</magB>
+		<magV errorminus="0.030" errorplus="0.030">13.790</magV>
+		<magJ errorminus="0.025" errorplus="0.025">12.458</magJ>
+		<magH errorminus="0.027" errorplus="0.027">12.088</magH>
+		<magK errorminus="0.027" errorplus="0.027">12.046</magK>
+		<mass errorminus="0.04" errorplus="0.040">0.964</mass>
+		<radius errorminus="0.024" errorplus="0.031">1.101</radius>
+		<temperature errorminus="94" errorplus="94">5644</temperature>
+		<age errorminus="1.9" errorplus="1.9">9</age>
+		<metallicity errorminus="0.066" errorplus="0.066">0.010</metallicity>
+		<spectraltype>G</spectraltype>
+		<planet>
+			<name>HATS-53 b</name>
+			<name>2MASS J11463084-3351361 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.056" errorplus="0.056">1.340</radius>
+			<mass errorminus="0.089" errorplus="0.089">0.595</mass>
+			<period errorminus="0.0000038" errorplus="0.0000038">3.8537768</period>
+			<transittime errorminus="0.00049" errorplus="0.00049" unit="BJD">2457236.75653</transittime>
+			<semimajoraxis errorminus="0.00066" errorplus="0.00066">0.04753</semimajoraxis>
+			<temperature errorminus="25" errorplus="25">1312</temperature>
+			<inclination errorminus="0.55" errorplus="0.55">88.78</inclination>
+			<eccentricity>0</eccentricity>
+			<description>This is a close-in transiting hot-Jupiter around a G-type dwarf.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>17/12/12</lastupdate>
+			<discoveryyear>2017</discoveryyear>
+		</planet>
+	</star>
+</system>

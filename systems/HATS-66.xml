@@ -1,0 +1,37 @@
+<system>
+	<name>HATS-66</name>
+	<rightascension>06 45 34.757</rightascension>
+	<declination>-33 52 54.13</declination>
+	<distance errorminus="37.7" errorplus="37.7">1544</distance>
+	<star>
+		<name>HATS-66</name>
+		<name>2MASS J06453475-3352540</name>
+		<magB errorminus="0.030" errorplus="0.030">14.630</magB>
+		<magV errorminus="0.030" errorplus="0.030">14.095</magV>
+		<magJ errorminus="0.023" errorplus="0.023">13.083</magJ>
+		<magH errorminus="0.023" errorplus="0.023">12.827</magH>
+		<magK errorminus="0.026" errorplus="0.026">12.761</magK>
+		<mass errorminus="0.022" errorplus="0.022">1.411</mass>
+		<radius errorminus="0.041" errorplus="0.041">1.841</radius>
+		<temperature errorminus="35" errorplus="35">6626</temperature>
+		<metallicity errorminus="0.043" errorplus="0.043">-0.017</metallicity>
+		<planet>
+			<name>HATS-66 b</name>
+			<name>2MASS J06453475-3352540 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.084" errorplus="0.084">1.411</radius>
+			<mass errorminus="0.68" errorplus="0.68">5.33</mass>
+			<period errorminus="0.0000074" errorplus="0.0000074">3.1414391</period>
+			<transittime errorminus="0.0014" errorplus="0.0014" unit="BJD">2457603.0514</transittime>
+			<semimajoraxis errorminus="0.00025" errorplus="0.00025">0.04714</semimajoraxis>
+			<temperature errorminus="21" errorplus="21">1998</temperature>
+			<inclination errorminus="0.92" errorplus="0.92">87.06</inclination>
+			<eccentricity>0</eccentricity>
+			<description>This is a super-Jupiter.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>18/12/13</lastupdate>
+			<discoveryyear>2018</discoveryyear>
+		</planet>
+	</star>
+</system>

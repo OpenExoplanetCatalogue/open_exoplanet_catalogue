@@ -1,0 +1,45 @@
+<system>
+	<name>HATS-58</name>
+	<rightascension>12 27 08.988</rightascension>
+	<declination>-48 58 42.39</declination>
+	<distance errorminus="36.4" errorplus="36.4">425.5</distance>
+	<binary>
+		<star>
+			<name>HATS-58 A</name>
+			<name>2MASS J12270898-4858423</name>
+			<name>GSC 08239-00065</name>
+			<magB errorminus="0.0090" errorplus="0.0090">12.0510</magB>
+			<magV errorminus="0.019" errorplus="0.019">11.552</magV>
+			<magJ errorminus="0.024" errorplus="0.024">10.584</magJ>
+			<magH errorminus="0.026" errorplus="0.026">10.358</magH>
+			<magK errorminus="0.023" errorplus="0.023">10.289</magK>
+			<mass errorminus="0.043" errorplus="0.043">1.461</mass>
+			<radius errorminus="0.059" errorplus="0.059">1.433</radius>
+			<temperature errorminus="54" errorplus="54">7175</temperature>
+			<age errorminus="0.2" errorplus="0.33">0.31</age>
+			<planet>
+				<name>HATS-58 A b</name>
+				<name>2MASS J12270898-4858423 A b</name>
+				<name>GSC 08239-00065 A b</name>
+				<list>Confirmed planets</list>
+				<radius errorminus="0.028" errorplus="0.028">1.095</radius>
+				<mass errorminus="0.23" errorplus="0.23">1.03</mass>
+				<period errorminus="0.0000089" errorplus="0.0000089">4.2180896</period>
+				<transittime errorminus="0.0017" errorplus="0.0017" unit="BJD">2457463.2999</transittime>
+				<semimajoraxis errorminus="0.00057" errorplus="0.00057">0.05798</semimajoraxis>
+				<temperature errorminus="34" errorplus="34">1721</temperature>
+				<inclination errorminus="0.33" errorplus="0.33">85.69</inclination>
+				<eccentricity>0</eccentricity>
+				<description>This hot-Jupiter orbits the brighter HATS-58A star.</description>
+				<discoverymethod>transit</discoverymethod>
+				<istransiting>1</istransiting>
+				<lastupdate>18/12/18</lastupdate>
+				<discoveryyear>2018</discoveryyear>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+		<star>
+			<name>HATS-58 B</name>
+		</star>
+	</binary>
+</system>

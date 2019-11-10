@@ -1,0 +1,37 @@
+<system>
+	<name>HATS-62</name>
+	<rightascension>20 49 47.833</rightascension>
+	<declination>-24 18 12.5</declination>
+	<distance errorminus="10.3" errorplus="10.3">530.8</distance>
+	<star>
+		<name>HATS-62</name>
+		<name>2MASS J20494783-2418124</name>
+		<magB errorminus="0.027" errorplus="0.027">14.862</magB>
+		<magV errorminus="0.037" errorplus="0.037">14.015</magV>
+		<magJ errorminus="0.021" errorplus="0.021">12.573</magJ>
+		<magH errorminus="0.027" errorplus="0.027">12.196</magH>
+		<magK errorminus="0.026" errorplus="0.026">12.109</magK>
+		<mass errorminus="0.01" errorplus="0.015">0.896</mass>
+		<radius errorminus="0.013" errorplus="0.019">0.933</radius>
+		<temperature errorminus="13" errorplus="19">5416</temperature>
+		<metallicity errorminus="0.023" errorplus="0.023">0.133</metallicity>
+		<planet>
+			<name>HATS-62 b</name>
+			<name>2MASS J20494783-2418124 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.025" errorplus="0.025">1.055</radius>
+			<mass type="msini">0.179</mass>
+			<period errorminus="0.0000033" errorplus="0.0000033">3.2768837</period>
+			<transittime errorminus="0.00043" errorplus="0.00043" unit="BJD">2455808.05158</transittime>
+			<semimajoraxis errorminus="0.00016" errorplus="0.00024">0.04163</semimajoraxis>
+			<temperature errorminus="12" errorplus="12">1237</temperature>
+			<inclination errorminus="0.35" errorplus="0.35">87.92</inclination>
+			<eccentricity>0</eccentricity>
+			<description>This is a super-Neptune planet. The host system is possibly a binary star system.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>18/12/13</lastupdate>
+			<discoveryyear>2018</discoveryyear>
+		</planet>
+	</star>
+</system>
