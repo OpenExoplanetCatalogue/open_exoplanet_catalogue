@@ -1,0 +1,54 @@
+<system>
+	<name>GAT 1370</name>
+	<rightascension>02 53 00.891</rightascension>
+	<declination>+16 52 52.64</declination>
+	<distance errorminus="0.004" errorplus="0.004">3.83</distance>
+	<star>
+		<name>GAT 1370</name>
+		<name>2MASS J02530084+1652532</name>
+		<name>Teegarden's Star</name>
+		<name>SO J025300.5+165258</name>
+		<magB>17.21</magB>
+		<magV errorminus="0.12" errorplus="0.12">15.08</magV>
+		<magJ errorminus="0.027" errorplus="0.027">8.394</magJ>
+		<magH errorminus="0.040" errorplus="0.040">7.883</magH>
+		<magK errorminus="0.046" errorplus="0.046">7.585</magK>
+		<mass errorminus="0.009" errorplus="0.009">0.089</mass>
+		<radius errorminus="0.004" errorplus="0.004">0.107</radius>
+		<temperature errorminus="51" errorplus="51">2904</temperature>
+		<metallicity errorminus="0.16" errorplus="0.16">-0.19</metallicity>
+		<spectraltype>M7.0 V</spectraltype>
+		<planet>
+			<name>GAT 1370 b</name>
+			<name>2MASS J02530084+1652532 b</name>
+			<name>Teegarden's Star b</name>
+			<name>SO J025300.5+165258 b</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.12" errorplus="0.13" type="msini">1.05</mass>
+			<period errorminus="0.0014" errorplus="0.0014">4.9100</period>
+			<periastrontime errorminus="1.1" errorplus="0.7">2458052.3</periastrontime>
+			<semimajoraxis errorminus="0.0009" errorplus="0.0008">0.0252</semimajoraxis>
+			<eccentricity>0</eccentricity>
+			<description>This planet was discovered by the CARMENES search for exoplanets around M dwarfs</description>
+			<discoverymethod>RV</discoverymethod>
+			<lastupdate>19/09/13</lastupdate>
+			<discoveryyear>2019</discoveryyear>
+		</planet>
+		<planet>
+			<name>GAT 1370 c</name>
+			<name>2MASS J02530084+1652532 c</name>
+			<name>Teegarden's Star c</name>
+			<name>SO J025300.5+165258 c</name>
+			<list>Confirmed planets</list>
+			<mass errorminus="0.15" errorplus="0.16" type="msini">1.11</mass>
+			<period errorminus="0.009" errorplus="0.009">11.409</period>
+			<periastrontime errorminus="2.3" errorplus="3.2">2458053.2</periastrontime>
+			<semimajoraxis errorminus="0.0015" errorplus="0.0014">0.0443</semimajoraxis>
+			<eccentricity>0</eccentricity>
+			<description>This planet was discovered by the CARMENES search for exoplanets around M dwarfs</description>
+			<discoverymethod>RV</discoverymethod>
+			<lastupdate>19/09/13</lastupdate>
+			<discoveryyear>2019</discoveryyear>
+		</planet>
+	</star>
+</system>

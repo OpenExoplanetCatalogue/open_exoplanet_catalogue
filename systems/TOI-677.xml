@@ -1,0 +1,45 @@
+<system>
+	<name>TOI-677</name>
+	<rightascension>15 32 17.84</rightascension>
+	<declination>-22 21 29.74</declination>
+	<distance errorminus="0.6" errorplus="0.6">142.5</distance>
+	<star>
+		<name>TOI-677</name>
+		<name>HD 297549</name>
+		<name>2MASS J09362869-5027478</name>
+		<name>TYC 8176-02431-1</name>
+		<name>PPM 768795</name>
+		<magB errorminus="0.04" errorplus="0.04">10.35</magB>
+		<magV errorminus="0.03" errorplus="0.03">9.82</magV>
+		<magJ errorminus="0.020" errorplus="0.020">8.722</magJ>
+		<magH errorminus="0.038" errorplus="0.038">8.470</magH>
+		<magK errorminus="0.023" errorplus="0.023">8.429</magK>
+		<mass errorminus="0.058" errorplus="0.058">1.181</mass>
+		<radius errorminus="0.03" errorplus="0.03">1.28</radius>
+		<temperature errorminus="77" errorplus="77">6295</temperature>
+		<age errorminus="0.73" errorplus="0.8">2.92</age>
+		<metallicity errorminus="0.05" errorplus="0.05">0.00</metallicity>
+		<spectraltype>F8</spectraltype>
+		<planet>
+			<name>TOI-677 b</name>
+			<name>HD 297549 b</name>
+			<name>2MASS J09362869-5027478 b</name>
+			<name>TYC 8176-02431-1 b</name>
+			<name>PPM 768795 b</name>
+			<list>Confirmed planets</list>
+			<radius errorminus="0.03" errorplus="0.03">1.170</radius>
+			<mass errorminus="0.067" errorplus="0.069">1.236</mass>
+			<period errorminus="0.00011" errorplus="0.00011">11.23660</period>
+			<transittime errorminus="0.00029" errorplus="0.00028" unit="BJD">2458547.47448</transittime>
+			<semimajoraxis errorminus="0.0017" errorplus="0.0017">0.1038</semimajoraxis>
+			<temperature errorminus="21" errorplus="21">1252</temperature>
+			<inclination errorminus="0.1" errorplus="0.11">87.63</inclination>
+			<eccentricity errorminus="0.024" errorplus="0.024">0.435</eccentricity>
+			<description>A warm Jupiter on an eccentric orbit transiting a late F-type star.</description>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<lastupdate>19/11/13</lastupdate>
+			<discoveryyear>2019</discoveryyear>
+		</planet>
+	</star>
+</system>
