@@ -91,7 +91,7 @@ validtags = [
     "metallicity", "inclination", "spectraltype", "binary", "planet", "periastron", "star",
     "mass", "eccentricity", "radius", "temperature", "videolink", "transittime",
     "spinorbitalignment", "istransiting", "separation", "positionangle", "periastrontime",
-    "meananomaly", "maximumrvtime", "impactparameter"]
+    "meananomaly", "maximumrvtime", "impactparameter", "asteroid", "satellite", "tilt"]
 validattributes = [
     "error",
     "errorplus",
@@ -112,12 +112,12 @@ validlists = [
     "Planets in open clusters",
     "Planets in globular clusters"]
 validdiscoverymethods = ["RV", "transit", "timing", "imaging", "microlensing", "astrometry"]
-tagsallowmultiple = ["list", "name", "planet", "star", "binary", "separation"]
+tagsallowmultiple = ["list", "name", "planet", "star", "binary", "separation", "satellite"]
 numerictags = ["mass", "radius", "discoveryyear", "semimajoraxis", "period",
     "magV", "magJ", "magH", "magR", "magB", "magK", "magI", "magU", "distance", "longitude", "age",
     "metallicity", "inclination", "periastron", "eccentricity", "temperature", "transittime",
     "spinorbitalignment", "separation", "positionangle", "periastrontime", "meananomaly",
-    "maximumrvtime", "ascendingnode", "impactparameter"]
+    "maximumrvtime", "ascendingnode", "impactparameter", "tilt"]
 numericattributes = ["error", "errorplus", "errorminus", "upperlimit", "lowerlimit"]
 nonzeroattributes = ["error", "errorplus", "errorminus"]
 
