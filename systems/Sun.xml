@@ -37,6 +37,7 @@
 			<periastron>131.76755713</periastron>
 			<ascendingnode>76.67261496</ascendingnode>
 			<longitude>181.97970850</longitude>
+			<tilt>177.36</tilt>
 			<description>Venus is the second planet from the Sun.</description>
 			<lastupdate>12/01/01</lastupdate>
 		</planet>
@@ -52,9 +53,23 @@
 			<inclination>-0.00054346</inclination>
 			<periastron>102.93005885</periastron>
 			<ascendingnode>-5.11260389</ascendingnode>
+			<tilt>23.4</tilt>
 			<longitude>100.46691572</longitude>
 			<description>Earth is the only known planet able to sustain life.</description>
 			<lastupdate>12/01/01</lastupdate>
+			<satellite>
+				<name>Moon</name>
+				<mass>0.000039</mass>
+				<radius>0.024847</radius>
+				<semimajoraxis>0.002570</semimajoraxis>
+				<eccentricity>0.0554</eccentricity>
+				<periastron>318.15</periastron>
+				<longitude>135.27</longitude>
+				<inclination>5.16</inclination>
+				<ascendingnode>125.08</ascendingnode>
+				<period>27.322</period>
+				<tilt>6.68</tilt>
+			</satellite>
 		</planet>
 		<planet>
 			<name>Mars</name>
@@ -69,6 +84,7 @@
 			<periastron>-23.91744784</periastron>
 			<ascendingnode>49.71320984</ascendingnode>
 			<longitude>-4.56813164</longitude>
+			<tilt>25.19</tilt>
 			<description>Mars is named after the Roman god of war and often called the red planet.</description>
 			<lastupdate>12/01/01</lastupdate>
 		</planet>
@@ -85,8 +101,61 @@
 			<periastron>14.27495244</periastron>
 			<ascendingnode>100.29282654</ascendingnode>
 			<longitude>34.33479152</longitude>
+			<tilt>3.13</tilt>
 			<description>Jupiter is two and a half times the mass of all the other planets in the Solar System.</description>
 			<lastupdate>12/01/01</lastupdate>
+			<satellite>
+				<name>Callisto</name>
+				<mass>0.000057</mass>
+				<radius>0.034477</radius>
+				<semimajoraxis>0.012585</semimajoraxis>
+				<eccentricity>0.0074</eccentricity>
+				<periastron>52.643</periastron>
+				<longitude>181.408</longitude>
+				<inclination>0.192</inclination>
+				<ascendingnode>298.848</ascendingnode>
+				<period>16.69</period>
+				<tilt>0.356</tilt>
+			</satellite>
+			<satellite>
+				<name>Europa</name>
+				<mass>0.000025</mass>
+				<radius>0.022328</radius>
+				<semimajoraxis>0.004486</semimajoraxis>
+				<eccentricity>0.0094</eccentricity>
+				<periastron>88.970</periastron>
+				<longitude>171.016</longitude>
+				<inclination>0.466</inclination>
+				<ascendingnode>219.106</ascendingnode>
+				<period>3.551</period>
+				<tilt>0.016</tilt>
+			</satellite>
+			<satellite>
+				<name>Ganymede</name>
+				<mass>0.000078</mass>
+				<radius>0.037636</radius>
+				<semimajoraxis>0.007155</semimajoraxis>
+				<eccentricity>0.0013</eccentricity>
+				<periastron>192.417</periastron>
+				<longitude>317.540</longitude>
+				<inclination>0.177</inclination>
+				<ascendingnode>63.552</ascendingnode>
+				<period>7.155</period>
+				<tilt>0.068</tilt>
+			</satellite>
+			<satellite>
+				<name>Io</name>
+				<mass>0.000047</mass>
+				<radius>0.026055</radius>
+				<semimajoraxis>0.002820</semimajoraxis>
+				<eccentricity>0.0041</eccentricity>
+				<periastron>84.129</periastron>
+				<longitude>342.021</longitude>
+				<inclination>0.036</inclination>
+				<ascendingnode>43.977</ascendingnode>
+				<period>1.769</period>
+				<tilt>0.0</tilt>
+			</satellite>
 		</planet>
 		<planet>
 			<name>Saturn</name>
@@ -101,8 +170,87 @@
 			<periastron>92.86136063</periastron>
 			<ascendingnode>113.63998702</ascendingnode>
 			<longitude>50.07571329</longitude>
+			<tilt>26.73</tilt>
 			<description>Saturn is best known for its extensive ring system.</description>
 			<lastupdate>12/01/01</lastupdate>
+			<satellite>
+				<name>Dione</name>
+				<mass>5.7566322e-07</mass>
+				<radius>0.008033</radius>
+				<semimajoraxis>0.002523</semimajoraxis>
+				<eccentricity>0.0022</eccentricity>
+				<periastron>284.315</periastron>
+				<longitude>322.232</longitude>
+				<inclination>26.758000</inclination>
+				<ascendingnode>290.415</ascendingnode>
+				<period>2.737</period>
+				<tilt>0.005</tilt>
+			</satellite>
+			<satellite>
+				<name>Enceladus</name>
+				<mass>5.6937182e-08</mass>
+				<radius>0.003606</radius>
+				<semimajoraxis>0.001591</semimajoraxis>
+				<eccentricity>0.0</eccentricity>
+				<periastron>0.076</periastron>
+				<longitude>199.686</longitude>
+				<inclination>26.733000</inclination>
+				<ascendingnode>342.507</ascendingnode>
+				<period>1.370</period>
+				<tilt>0.002</tilt>
+			</satellite>
+			<satellite>
+				<name>Iapetus</name>
+				<mass>1.0380812e-06</mass>
+				<radius>0.010522</radius>
+				<semimajoraxis>0.023803</semimajoraxis>
+				<eccentricity>0.0293</eccentricity>
+				<periastron>271.606</periastron>
+				<longitude>201.789</longitude>
+				<inclination>35.028000</inclination>
+				<ascendingnode>81.105</ascendingnode>
+				<period>79.33</period>
+				<tilt>15.210</tilt>
+			</satellite>
+			<satellite>
+				<name>Rhea</name>
+				<mass>1.2268233e-06</mass>
+				<radius>0.010930</radius>
+				<semimajoraxis>0.003523</semimajoraxis>
+				<eccentricity>0.0002</eccentricity>
+				<periastron>241.619</periastron>
+				<longitude>179.781</longitude>
+				<inclination>27.063000</inclination>
+				<ascendingnode>351.042</ascendingnode>
+				<period>4.518</period>
+				<tilt>0.036</tilt>
+			</satellite>
+			<satellite>
+				<name>Tethys</name>
+				<mass>3.2400717e-07</mass>
+				<radius>0.007624</radius>
+				<semimajoraxis>0.001970</semimajoraxis>
+				<eccentricity>0.0001</eccentricity>
+				<periastron>45.202</periastron>
+				<longitude>243.367</longitude>
+				<inclination>27.821000</inclination>
+				<ascendingnode>259.842</ascendingnode>
+				<period>1.888</period>
+				<tilt>0.001</tilt>
+			</satellite>
+			<satellite>
+				<name>Titan</name>
+				<mass>0.000071</mass>
+				<radius>0.036847</radius>
+				<semimajoraxis>0.008168</semimajoraxis>
+				<eccentricity>0.0288</eccentricity>
+				<periastron>180.532</periastron>
+				<longitude>163.310</longitude>
+				<inclination>27.036000</inclination>
+				<ascendingnode>28.060</ascendingnode>
+				<period>15.95</period>
+				<tilt>0.629</tilt>
+			</satellite>
 		</planet>
 		<planet>
 			<name>Uranus</name>
@@ -117,9 +265,71 @@
 			<periastron>172.43404441</periastron>
 			<ascendingnode>73.96250215</ascendingnode>
 			<longitude>314.20276625</longitude>
+			<tilt>97.77</tilt>
 			<description>Uranus is visible with the naked eye but has never been recognized as a planet by ancient observers.</description>
 			<lastupdate>12/01/01</lastupdate>
 			<discoveryyear>1781</discoveryyear>
+			<satellite>
+				<name>Ariel</name>
+				<mass>6.9205414e-07</mass>
+				<radius>0.008281</radius>
+				<semimajoraxis>0.001276</semimajoraxis>
+				<eccentricity>0.0012</eccentricity>
+				<periastron>115.349</periastron>
+				<longitude>39.481</longitude>
+				<inclination>0.041</inclination>
+				<ascendingnode>22.394</ascendingnode>
+				<period>2.520</period>
+			</satellite>
+			<satellite>
+				<name>Miranda</name>
+				<mass>3.4602707e-08</mass>
+				<radius>0.003373</radius>
+				<semimajoraxis>0.000868</semimajoraxis>
+				<eccentricity>0.0013</eccentricity>
+				<periastron>68.312</periastron>
+				<longitude>311.330</longitude>
+				<inclination>4.338</inclination>
+				<ascendingnode>326.438</ascendingnode>
+				<period>1.413</period>
+			</satellite>
+			<satellite>
+				<name>Oberon</name>
+				<mass>1.5728503e-06</mass>
+				<radius>0.010891</radius>
+				<semimajoraxis>0.003900</semimajoraxis>
+				<eccentricity>0.0014</eccentricity>
+				<periastron>104.400</periastron>
+				<longitude>283.088</longitude>
+				<inclination>0.068</inclination>
+				<ascendingnode>279.771</ascendingnode>
+				<period>13.46</period>
+			</satellite>
+			<satellite>
+				<name>Titania</name>
+				<mass>1.8559634e-06</mass>
+				<radius>0.011284</radius>
+				<semimajoraxis>0.002916</semimajoraxis>
+				<eccentricity>0.0011</eccentricity>
+				<periastron>284.400</periastron>
+				<longitude>24.614</longitude>
+				<inclination>0.079</inclination>
+				<ascendingnode>99.771</ascendingnode>
+				<period>8.706</period>
+				<tilt>195.369</tilt>
+			</satellite>
+			<satellite>
+				<name>Umbriel</name>
+				<mass>6.2914013e-07</mass>
+				<radius>0.008363</radius>
+				<semimajoraxis>0.001778</semimajoraxis>
+				<eccentricity>0.0039</eccentricity>
+				<periastron>84.709</periastron>
+				<longitude>12.469</longitude>
+				<inclination>0.128</inclination>
+				<ascendingnode>33.485</ascendingnode>
+				<period>4.144</period>
+			</satellite>
 		</planet>
 		<planet>
 			<name>Neptune</name>
@@ -134,9 +344,23 @@
 			<periastron>46.68158724</periastron>
 			<ascendingnode>131.78635853</ascendingnode>
 			<longitude>304.22289287</longitude>
+			<tilt>28.32</tilt>
 			<description>Neptune is the fourth largest planet in the Solar System.</description>
 			<lastupdate>12/01/01</lastupdate>
 			<discoveryyear>1846</discoveryyear>
+			<satellite>
+				<name>Triton</name>
+				<mass>0.000011</mass>
+				<radius>0.019359</radius>
+				<semimajoraxis>0.002371</semimajoraxis>
+				<eccentricity>0.0</eccentricity>
+				<periastron>66.142</periastron>
+				<longitude>352.257</longitude>
+				<inclination>156.865</inclination>
+				<ascendingnode>177.608</ascendingnode>
+				<tilt>0.010</tilt>
+				<period>5.877</period>
+			</satellite>
 		</planet>
 		<planet>
 			<name>Pluto</name>
@@ -151,9 +375,41 @@
 			<periastron>224.09702598</periastron>
 			<ascendingnode>110.30167986</ascendingnode>
 			<longitude>238.96535011</longitude>
+			<tilt>122.53</tilt>
 			<description>Pluto is officially categorized as a minor planet by the International Astronomical Union.</description>
 			<lastupdate>12/01/01</lastupdate>
 			<discoveryyear>1930</discoveryyear>
+			<satellite>
+				<name>Charon</name>
+				<mass>7.8642516e-07</mass>
+				<radius>0.008632</radius>
+				<semimajoraxis>0.000117</semimajoraxis>
+				<eccentricity>0.0022</eccentricity>
+				<periastron>71.255</periastron>
+				<longitude>147.848</longitude>
+				<inclination>0.001</inclination>
+				<ascendingnode>85.187</ascendingnode>
+				<period>6.387</period>
+			</satellite>
 		</planet>
+		<asteroid>
+			<name>Churyumov-Gerasimenko</name>
+			<name>67P/Churyumov-Gerasimenko</name>
+			<name>67P/C-G</name>
+			<period>2357.241260335487</period>
+			<semimajoraxis>3.467879376006644</semimajoraxis>
+			<eccentricity>0.6404687481601674</eccentricity>
+			<longitude>257.904906</longitude>
+			<inclination>7.035818491239302</inclination>
+			<ascendingnode>50.13381812685230</ascendingnode>
+			<periastron>62.8596450674794</periastron>
+			<mass>5.2654396e-15</mass>
+			<radius>6.2221968e-05</radius>
+			<description>Churyumov-Gerasimenko is a comet with an orbital period of 6.45 years. The comet will have its next closest approach to the Sun on 13 August 2015. It is named after its discoverers, Klim Ivanovych Churyumov and Svetlana Ivanovna Gerasimenko, who first observed it on photographic plates in 1969.
+			
+Churyumov-Gerasimenko is the destination of the European Space Agency's Rosetta mission. The Rosetta spacecraft rendezvoused with the comet on 6 August 2014. A lander, Philae, is scheduled to land on the comet's surface on 12 November 2014. 
+
+You can view Rosetta's complex orbit in the Exoplanet App. Tap the settings button to adjust the visualization speed.</description>
+		</asteroid>
 	</star>
 </system>
