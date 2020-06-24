@@ -29,7 +29,10 @@ def md5_for_file(f, block_size=2 ** 20):
         data = f.read(block_size)
         if not data:
             break
-        md5.update(data)
+        if sys.version_info >= (3, 0):
+            md5.update(data.encode('utf-8'))
+        else:
+            md5.update(data)
     return md5.digest()
 
 
@@ -154,18 +157,18 @@ def checkforvaliderrors(elem):
                     if len(elem.attrib[a])==0 or float(elem.attrib[a])==0.:
                         deleteattribs.append(a)
                 except:
-                    print "Warning: problem reading error bars in tag "+elem.tag
+                    print("Warning: problem reading error bars in tag "+elem.tag)
                     return 1
         for a in deleteattribs:
-            print "Warning: deleting error bars with value 0 in tag "+elem.tag
+            print("Warning: deleting error bars with value 0 in tag "+elem.tag)
             del elem.attrib[a]
         if "errorplus" in elem.attrib:
             if not "errorminus" in elem.attrib:
-                print "Warning: one sided error found in tag "+elem.tag+". Fixing it."
+                print("Warning: one sided error found in tag "+elem.tag+". Fixing it.")
                 elem.attrib["errorminus"] = elem.attrib["errorplus"]
         if "errorminus" in elem.attrib:
             if not "errorplus" in elem.attrib:
-                print "Warning: one sided error found in tag "+elem.tag+". Fixing it."
+                print("Warning: one sided error found in tag "+elem.tag+". Fixing it.")
                 elem.attrib["errorplus"] = elem.attrib["errorminus"]
     for child in elem:
         if checkforvaliderrors(child):
@@ -180,7 +183,7 @@ def convertunitattrib(elem, attribname, factor):
 
 
 def convertunit(elem, factor):
-    print "Converting unit of tag \"" + elem.tag + "\"."
+    print("Converting unit of tag \"" + elem.tag + "\".")
     del elem.attrib['unit']
     if elem.text:
         elem.text = "%f" % (float(elem.text) * factor)
@@ -203,7 +206,7 @@ def checkForBinaryPlanet(root, criteria, liststring):
         plists = planet.findall(".//list")
         if liststring not in [plist.text for plist in plists]:
             ET.SubElement(planet, "list").text = liststring
-            print "Added '" + filename + "' to list '" + liststring + "'."
+            print("Added '" + filename + "' to list '" + liststring + "'.")
             fileschanged += 1
 
 
@@ -231,19 +234,21 @@ def checkForTransitingPlanets(root):
                     )
                     if planetName not in excludeList:
                         if not discoveryMethod == 'imaging':
-                            print '{} in {} has a radius but is is missing a istransiting tag'.format(planetName, filename)
+                            print('{} has a radius but is is missing a istransiting tag'.format(planetName))
                             issues += 1
 
             if addtag:
                 ET.SubElement(planet, "istransiting").text = '1'
-                print 'Added istransiting tag to {}'.format(filename)
+                planetName = planet.findtext(".//name")
+                print('Added istransiting tag to {}'.format(planetName))
                 fileschanged += 1
 
 
-# Loop over all files and  create new data
-for filename in glob.glob("systems*/*.xml"):
-    fileschecked += 1
 
+def checkonefile(filename):
+    global issues
+    global xmlerrors
+    global fileschanged
     # Save md5 for later
     f = open(filename, 'rt')
     md5_orig = md5_for_file(f)
@@ -258,10 +263,10 @@ for filename in glob.glob("systems*/*.xml"):
         stars = root.findall(".//star")
         binaries = root.findall(".//binary")
     except ET.ParseError as error:
-        print '{}, {}'.format(filename, error)
+        print('{}, {}'.format(filename, error))
         xmlerrors += 1
         issues += 1
-        continue
+        return
     finally:
         f.close()
 
@@ -272,7 +277,7 @@ for filename in glob.glob("systems*/*.xml"):
         elem.attrib["errorminus"] = "%f" % (float(fragments[0]) - float(fragments[1]))
         elem.attrib["errorplus"] = "%f" % (float(fragments[2]) - float(fragments[0]))
         del elem.attrib["range"]
-        print "Converted range to errorbars in tag '" + elem.tag + "'."
+        print("Converted range to errorbars in tag '" + elem.tag + "'.")
 
         # Convert units to default units
     for mass in root.findall(".//planet/mass[@unit='me']"):
@@ -286,34 +291,34 @@ for filename in glob.glob("systems*/*.xml"):
     for lastupdate in root.findall(".//planet/lastupdate"):
         la = lastupdate.text.split("/")
         if len(la) != 3 or len(lastupdate.text) != 8:
-            print "Date format not following 'yy/mm/dd' convention: " + filename
+            print("Date format not following 'yy/mm/dd' convention: " + filename)
             issues += 1
         if int(la[0]) + 2000 - datetime.date.today().year > 0 or int(la[1]) > 12 or int(la[2]) > 31:
-            print "Date not valid: " + filename
+            print("Date not valid: " + filename)
             issues += 1
 
     # Check that names follow conventions
     if not root.findtext("./name") + ".xml" == os.path.basename(filename):
-        print "Name of system not the same as filename: " + filename
+        print("Name of system not the same as filename: " + filename)
         issues += 1
     for obj in planets + stars:
         name = obj.findtext("./name")
         if not name:
-            print "Didn't find name tag for object \"" + obj.tag + "\" in file \"" + filename + "\"."
+            print("Didn't find name tag for object \"" + obj.tag + "\" in file \"" + filename + "\".")
             issues += 1
 
     # Check if tags are valid and have valid attributes
     if checkforvaliderrors(root):
-        print "Problematic errorbar in in file \"" + filename + "\"."
+        print("Problematic errorbar in in file \"" + filename + "\".")
 
     problematictag = checkforvalidtags(root)
     if problematictag:
-        print "Problematic tag/attribute '" + problematictag + "' found in file \"" + filename + "\"."
+        print("Problematic tag/attribute '" + problematictag + "' found in file \"" + filename + "\".")
         issues += 1
     discoverymethods = root.findall(".//discoverymethod")
     for dm in discoverymethods:
         if not (dm.text in validdiscoverymethods):
-            print "Problematic discoverymethod '" + dm.text + "' found in file \"" + filename + "\"."
+            print("Problematic discoverymethod '" + dm.text + "' found in file \"" + filename + "\".")
             issues += 1
 
     # Check if there are duplicate tags
@@ -322,7 +327,7 @@ for filename in glob.glob("systems*/*.xml"):
         for child in obj:
             if not child.tag in tagsallowmultiple:
                 if child.tag in uniquetags:
-                    print "Error: Found duplicate tag \"" + child.tag + "\" in file \"" + filename + "\"."
+                    print("Error: Found duplicate tag \"" + child.tag + "\" in file \"" + filename + "\".")
                     issues += 1
                 else:
                     uniquetags.append(child.tag)
@@ -335,7 +340,7 @@ for filename in glob.glob("systems*/*.xml"):
     lists = root.findall(".//list")
     for l in lists:
         if l.text not in validlists:
-                print "Error: Invalid list \"" + l.text + "\" in file \"" + filename + "\"."
+                print("Error: Invalid list \"" + l.text + "\" in file \"" + filename + "\".")
                 issues += 1
 
     # Check if each planet is in at least one list
@@ -346,7 +351,7 @@ for filename in glob.glob("systems*/*.xml"):
             if l.text in oneListOf:
                 isInList += 1
         if isInList!=1:
-            print "Error: Planet needs to be in exactly one of the following lists: '" +"', '".join(oneListOf)+"'. Check planets in file \"" + filename + "\"."
+            print("Error: Planet needs to be in exactly one of the following lists: '" +"', '".join(oneListOf)+"'. Check planets in file \"" + filename + "\".")
             issues += 1
 
 
@@ -358,7 +363,7 @@ for filename in glob.glob("systems*/*.xml"):
     indent(root)
 
     # Write XML to file.
-    with open(filename, 'w') as outfile:
+    with open(filename, 'wb') as outfile:
         ET.ElementTree(root).write(outfile, encoding="UTF-8", xml_declaration=False)
 
     # Check for new md5
@@ -367,21 +372,29 @@ for filename in glob.glob("systems*/*.xml"):
     if md5_orig != md5_new:
         fileschanged += 1
 
-errorcode = 0
-print "Cleanup script finished. %d files checked." % fileschecked
-if fileschanged > 0:
-    print "%d file(s) modified." % fileschanged
-    errorcode = 1
 
-if xmlerrors > 0:
-    print "%d XML errors found." % xmlerrors
-    errorcode = 2
 
-if issues > 0:
-    print "Number of issues: %d (see above)." % issues
-    errorcode = 3
-else:
-    print "No issues found."
+if __name__=="__main__":
+    # Loop over all files and  create new data
+    for filename in glob.glob("systems*/*.xml"):
+        fileschecked += 1
+        checkonefile(filename)
 
-sys.exit(errorcode)
+    errorcode = 0
+    print("Cleanup script finished. %d files checked." % fileschecked)
+    if fileschanged > 0:
+        print("%d file(s) modified." % fileschanged)
+        errorcode = 1
+
+    if xmlerrors > 0:
+        print("%d XML errors found." % xmlerrors)
+        errorcode = 2
+
+    if issues > 0:
+        print("Number of issues: %d (see above)." % issues)
+        errorcode = 3
+    else:
+        print("No issues found.")
+
+    sys.exit(errorcode)
 
