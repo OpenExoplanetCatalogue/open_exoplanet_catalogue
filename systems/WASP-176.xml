@@ -1,0 +1,35 @@
+<system>
+	<name>WASP-176</name>
+	<rightascension>20 54 45</rightascension>
+	<declination>+09 10 44</declination>
+	<distance errorminus="11.98" errorplus="11.98">577.62</distance>
+	<star>
+		<name>WASP-176</name>
+		<radius errorminus="0.04" errorplus="0.05">1.93</radius>
+		<magV>12.010</magV>
+		<magJ errorminus="0.018" errorplus="0.018">10.991</magJ>
+		<magH errorminus="0.026" errorplus="0.026">10.689</magH>
+		<magK errorminus="0.018" errorplus="0.018">10.648</magK>
+		<mass errorminus="0.13" errorplus="0.08">1.34</mass>
+		<temperature errorminus="79.00" errorplus="77.00">5941.00</temperature>
+		<metallicity errorminus="0.082" errorplus="0.081">0.164</metallicity>
+		<spectraltype>F9</spectraltype>
+		<planet>
+			<name>WASP-176 b</name>
+			<semimajoraxis errorminus="0.001900" errorplus="0.001000">0.053500</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination errorminus="1.100" errorplus="1.300">86.700</inclination>
+			<period errorminus="0.00000500" errorplus="0.00000500">3.89905200</period>
+			<description>This planet was discovered by Cooke et al. 2020. This was a ground based discovery. The parameters listed here are those reported by Cooke et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.06900" errorplus="0.07200">0.85500</mass>
+			<radius errorminus="0.045" errorplus="0.050">1.505</radius>
+			<temperature errorminus="21" errorplus="28">1721</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/05/21</lastupdate>
+			<transittime errorminus="0.000700" errorplus="0.000700">2458234.177100</transittime>
+		</planet>
+	</star>
+</system>

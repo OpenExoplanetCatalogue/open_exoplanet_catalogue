@@ -1,0 +1,35 @@
+<system>
+	<name>Qatar-7</name>
+	<rightascension>23 54 04</rightascension>
+	<declination>+37 01 19</declination>
+	<distance errorminus="10.00" errorplus="10.00">725.00</distance>
+	<star>
+		<name>Qatar-7</name>
+		<radius errorminus="0.02" errorplus="0.02">1.56</radius>
+		<magV errorminus="0.060" errorplus="0.060">13.030</magV>
+		<magJ errorminus="0.020" errorplus="0.020">11.859</magJ>
+		<magH errorminus="0.019" errorplus="0.019">11.599</magH>
+		<magK errorminus="0.018" errorplus="0.018">11.561</magK>
+		<mass errorminus="0.03" errorplus="0.03">1.41</mass>
+		<temperature errorminus="38.00" errorplus="38.00">6387.00</temperature>
+		<metallicity errorminus="0.071" errorplus="0.071">0.276</metallicity>
+		<spectraltype>F4V</spectraltype>
+		<planet>
+			<name>Qatar-7 b</name>
+			<semimajoraxis errorminus="0.000200" errorplus="0.000200">0.035200</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination errorminus="1.000" errorplus="1.000">89.000</inclination>
+			<period errorminus="0.00001400" errorplus="0.00000970">2.03204600</period>
+			<description>This planet was discovered by Alsubai et al. 2019. This was a ground based discovery. The parameters listed here are those reported by Alsubai et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.25000" errorplus="0.25000">1.88000</mass>
+			<radius errorminus="0.030" errorplus="0.030">1.700</radius>
+			<temperature errorminus="15" errorplus="15">2053</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/05/07</lastupdate>
+			<transittime errorminus="0.000160" errorplus="0.000160">2458043.320750</transittime>
+		</planet>
+	</star>
+</system>

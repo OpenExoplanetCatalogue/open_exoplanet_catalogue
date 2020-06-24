@@ -1,0 +1,35 @@
+<system>
+	<name>WASP-150</name>
+	<rightascension>17 37 03</rightascension>
+	<declination>+53 01 16</declination>
+	<distance errorminus="5.89" errorplus="5.89">536.14</distance>
+	<star>
+		<name>WASP-150</name>
+		<radius errorminus="0.03" errorplus="0.02">1.65</radius>
+		<magV>12.030</magV>
+		<magJ errorminus="0.025" errorplus="0.025">11.058</magJ>
+		<magH errorminus="0.028" errorplus="0.028">10.789</magH>
+		<magK errorminus="0.019" errorplus="0.019">10.747</magK>
+		<mass errorminus="0.05" errorplus="0.07">1.39</mass>
+		<temperature errorminus="45.00" errorplus="49.00">6218.00</temperature>
+		<metallicity errorminus="0.089" errorplus="0.100">0.156</metallicity>
+		<spectraltype>F8</spectraltype>
+		<planet>
+			<name>WASP-150 b</name>
+			<semimajoraxis errorminus="0.000800" errorplus="0.001100">0.069400</semimajoraxis>
+			<eccentricity errorminus="0.002900" errorplus="0.003800">0.377500</eccentricity>
+			<inclination errorminus="0.200" errorplus="0.250">84.010</inclination>
+			<period errorminus="0.00000400" errorplus="0.00000300">5.64420700</period>
+			<description>This planet was discovered by Cooke et al. 2020. This was a ground based discovery. The parameters listed here are those reported by Cooke et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.20000" errorplus="0.28000">8.46000</mass>
+			<radius errorminus="0.025" errorplus="0.024">1.070</radius>
+			<temperature errorminus="11" errorplus="11">1460</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/05/21</lastupdate>
+			<transittime errorminus="0.000400" errorplus="0.000400">2457217.261400</transittime>
+		</planet>
+	</star>
+</system>
