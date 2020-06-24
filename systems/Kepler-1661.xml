@@ -1,0 +1,35 @@
+<system>
+	<name>Kepler-1661</name>
+	<rightascension>19 00 40</rightascension>
+	<declination>+41 58 02</declination>
+	<distance errorminus="2.93" errorplus="2.93">415.52</distance>
+	<star>
+		<name>Kepler-1661</name>
+		<radius errorminus="0.01" errorplus="0.01">0.76</radius>
+		<magJ errorminus="0.022" errorplus="0.022">12.729</magJ>
+		<magH errorminus="0.021" errorplus="0.021">12.223</magH>
+		<magK errorminus="0.020" errorplus="0.020">12.162</magK>
+		<mass errorminus="0.02" errorplus="0.02">0.84</mass>
+		<temperature errorminus="100.00" errorplus="100.00">5100.00</temperature>
+		<metallicity errorminus="0.100" errorplus="0.100">-0.120</metallicity>
+		<spectraltype>K</spectraltype>
+		<planet>
+			<name>Kepler-1661 b</name>
+			<semimajoraxis errorminus="0.005000" errorplus="0.005000">0.633000</semimajoraxis>
+			<eccentricity errorminus="0.005000" errorplus="0.005000">0.057000</eccentricity>
+			<periastron errorminus="5.0000" errorplus="5.0000">67.1000</periastron>
+			<inclination errorminus="0.020" errorplus="0.020">89.460</inclination>
+			<period errorminus="0.06000000" errorplus="0.06000000">175.06000000</period>
+			<description>This planet was discovered by Socia et al. 2020. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Socia et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.03776" errorplus="0.03776">0.05349</mass>
+			<radius errorminus="0.005" errorplus="0.005">0.345</radius>
+			<temperature>243</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/02/27</lastupdate>
+			<transittime errorminus="0.400000" errorplus="0.400000">2456007.100000</transittime>
+		</planet>
+	</star>
+</system>

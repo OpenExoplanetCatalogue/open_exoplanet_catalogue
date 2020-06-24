@@ -1,0 +1,38 @@
+<system>
+	<name>MASCARA-4</name>
+	<name>HD 85628</name>
+	<rightascension>09 50 19</rightascension>
+	<declination>-66 06 50</declination>
+	<distance errorminus="0.94" errorplus="0.94">171.54</distance>
+	<star>
+		<name>MASCARA-4</name>
+		<name>HD 85628</name>
+		<radius errorminus="0.11" errorplus="0.11">1.92</radius>
+		<magV errorminus="0.010" errorplus="0.010">8.190</magV>
+		<magJ errorminus="0.013" errorplus="0.013">7.837</magJ>
+		<magH errorminus="0.051" errorplus="0.051">7.785</magH>
+		<magK errorminus="0.017" errorplus="0.017">7.750</magK>
+		<mass errorminus="0.05" errorplus="0.05">1.75</mass>
+		<temperature errorminus="200.00" errorplus="200.00">7800.00</temperature>
+		<metallicity>0.000</metallicity>
+		<spectraltype>A7V</spectraltype>
+		<planet>
+			<name>MASCARA-4 b</name>
+			<name>HD 85628 b</name>
+			<semimajoraxis errorminus="0.004000" errorplus="0.004000">0.047000</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination errorminus="0.010" errorplus="0.010">88.500</inclination>
+			<period errorminus="0.00003000" errorplus="0.00003000">2.82406000</period>
+			<description>This planet was discovered by Dorval et al. 2019. This was a ground based discovery. The parameters listed here are those reported by Dorval et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.90000" errorplus="0.90000">3.10000</mass>
+			<radius errorminus="0.040" errorplus="0.070">1.530</radius>
+			<temperature errorminus="100" errorplus="100">2100</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/03/19</lastupdate>
+			<transittime errorminus="0.003000" errorplus="0.003000">2458505.817000</transittime>
+		</planet>
+	</star>
+</system>
