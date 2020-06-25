@@ -1,21 +1,20 @@
 <system>
 	<name>MOA-2011-BLG-262L</name>
-	<rightascension>18 00 23.48</rightascension>
-	<declination>-31 14 42.93</declination>
-	<distance errorminus="1000" errorplus="900">7000</distance>
+	<rightascension>18 00 23</rightascension>
+	<declination>-31 14 43</declination>
+	<distance errorminus="1000.00" errorplus="900.00">7000.00</distance>
 	<star>
 		<name>MOA-2011-BLG-262L</name>
-		<name>EWS 2011-BLG-703L</name>
 		<mass errorminus="0.06" errorplus="0.19">0.12</mass>
 		<planet>
-			<name>MOA-2011-BLG-262Lb</name>
-			<mass errorminus="0.031" errorplus="0.088">0.057</mass>
-			<separation errorminus="0.14" errorplus="0.25">0.84</separation>
-			<list>Confirmed planets</list>
+			<name>MOA-2011-BLG-262L b</name>
+			<semimajoraxis errorminus="0.190000" errorplus="0.530000">0.950000</semimajoraxis>
+			<description>This planet was discovered by Bennett et al. 2014. This was a ground based discovery. The parameters listed here are those reported by Bennett et al. 2014 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.03146" errorplus="0.08810">0.05349</mass>
 			<discoverymethod>microlensing</discoverymethod>
-			<discoveryyear>2013</discoveryyear>
-			<description>The microlensing event MOA-2011-BLG-262 allows for two possible interpretations of the lens system: either it is a relatively nearby free-floating 3.6 Jupiter masses object with a 0.54 Earth mass satellite, or it is a low-mass star in the galactic bulge with a Neptune-class planet. The values given here are for the latter scenario.</description>
-			<lastupdate>15/04/20</lastupdate>
+			<discoveryyear>2014</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/03/19</lastupdate>
 		</planet>
 	</star>
 </system>

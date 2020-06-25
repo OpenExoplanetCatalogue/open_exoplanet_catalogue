@@ -1,0 +1,52 @@
+<system>
+	<name>TOI-1130</name>
+	<rightascension>19 05 30</rightascension>
+	<declination>-41 26 15</declination>
+	<distance errorminus="0.17" errorplus="0.17">58.36</distance>
+	<star>
+		<name>TOI-1130</name>
+		<radius errorminus="0.01" errorplus="0.01">0.69</radius>
+		<magV>11.368</magV>
+		<magJ errorminus="0.015" errorplus="0.015">9.055</magJ>
+		<magH errorminus="0.057" errorplus="0.057">8.493</magH>
+		<magK errorminus="0.029" errorplus="0.029">8.351</magK>
+		<mass errorminus="0.02" errorplus="0.02">0.68</mass>
+		<temperature errorminus="67.00" errorplus="67.00">4250.00</temperature>
+		<metallicity>0.200</metallicity>
+		<spectraltype>K7</spectraltype>
+		<planet>
+			<name>TOI-1130 b</name>
+			<semimajoraxis errorminus="0.000380" errorplus="0.000350">0.043940</semimajoraxis>
+			<eccentricity errorminus="0.110000" errorplus="0.110000">0.220000</eccentricity>
+			<inclination errorminus="0.460" errorplus="0.860">87.980</inclination>
+			<period errorminus="0.00004500" errorplus="0.00004600">4.06649900</period>
+			<description>This planet was discovered by Huang et al. 2020. This was a ground based discovery. The parameters listed here are those reported by Huang et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.009" errorplus="0.009">0.326</radius>
+			<temperature errorminus="15" errorplus="15">810</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/04/02</lastupdate>
+			<transittime errorminus="0.000680" errorplus="0.000720">2458658.746270</transittime>
+		</planet>
+		<planet>
+			<name>TOI-1130 c</name>
+			<semimajoraxis errorminus="0.000600" errorplus="0.000560">0.070980</semimajoraxis>
+			<eccentricity errorminus="0.027000" errorplus="0.040000">0.047000</eccentricity>
+			<periastron errorminus="55.0000" errorplus="24.0000">-28.0000</periastron>
+			<inclination errorminus="0.160" errorplus="0.160">87.430</inclination>
+			<period errorminus="0.00003300" errorplus="0.00003200">8.35038100</period>
+			<description>This planet was discovered by Huang et al. 2020. This was a ground based discovery. The parameters listed here are those reported by Huang et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.04400" errorplus="0.04300">0.97400</mass>
+			<radius errorminus="0.220" errorplus="0.270">1.500</radius>
+			<temperature errorminus="12" errorplus="12">637</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/04/02</lastupdate>
+			<transittime errorminus="0.000220" errorplus="0.000210">2458657.904610</transittime>
+		</planet>
+	</star>
+</system>

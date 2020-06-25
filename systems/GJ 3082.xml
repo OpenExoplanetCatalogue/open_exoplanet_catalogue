@@ -1,0 +1,32 @@
+<system>
+	<name>GJ 3082</name>
+	<name>HIP 5812</name>
+	<rightascension>01 14 34</rightascension>
+	<declination>-53 56 32</declination>
+	<distance errorminus="0.01" errorplus="0.01">16.63</distance>
+	<star>
+		<name>GJ 3082</name>
+		<name>HIP 5812</name>
+		<magV errorminus="0.015" errorplus="0.015">11.077</magV>
+		<magI errorminus="0.021" errorplus="0.021">8.980</magI>
+		<magJ errorminus="0.023" errorplus="0.023">7.805</magJ>
+		<magH errorminus="0.026" errorplus="0.026">7.242</magH>
+		<magK errorminus="0.022" errorplus="0.022">6.966</magK>
+		<mass>0.47</mass>
+		<spectraltype>M0.0</spectraltype>
+		<planet>
+			<name>GJ 3082 b</name>
+			<name>HIP 5812 b</name>
+			<semimajoraxis errorminus="0.003000" errorplus="0.003000">0.079000</semimajoraxis>
+			<eccentricity errorminus="0.110000" errorplus="0.110000">0.220000</eccentricity>
+			<periastron errorminus="54.0000" errorplus="54.0000">121.0000</periastron>
+			<period errorminus="0.02200000" errorplus="0.02200000">11.94900000</period>
+			<description>This planet was discovered by Feng et al. 2020. This was a ground based discovery. The parameters listed here are those reported by Feng et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00535" errorplus="0.00535">0.02580</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/02/13</lastupdate>
+		</planet>
+	</star>
+</system>

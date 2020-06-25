@@ -1,0 +1,40 @@
+<system>
+	<name>LHS 1815</name>
+	<name>HIP 28754</name>
+	<rightascension>06 04 20</rightascension>
+	<declination>-55 18 47</declination>
+	<distance errorminus="0.02" errorplus="0.02">29.87</distance>
+	<star>
+		<name>LHS 1815</name>
+		<name>HIP 28754</name>
+		<radius errorminus="0.03" errorplus="0.03">0.50</radius>
+		<magV errorminus="0.025" errorplus="0.025">12.150</magV>
+		<magI errorminus="0.010" errorplus="0.010">9.950</magI>
+		<magJ errorminus="0.024" errorplus="0.024">8.801</magJ>
+		<magH errorminus="0.047" errorplus="0.047">8.209</magH>
+		<magK errorminus="0.020" errorplus="0.020">7.993</magK>
+		<mass errorminus="0.01" errorplus="0.01">0.50</mass>
+		<temperature errorminus="142.00" errorplus="142.00">3643.00</temperature>
+		<metallicity errorminus="0.090" errorplus="0.090">-0.120</metallicity>
+		<spectraltype>M1</spectraltype>
+		<planet>
+			<name>LHS 1815 b</name>
+			<name>HIP 28754 b</name>
+			<semimajoraxis errorminus="0.009400" errorplus="0.009400">0.040400</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<periastron>90.0000</periastron>
+			<inclination errorminus="1.113" errorplus="1.113">88.125</inclination>
+			<period errorminus="0.00003000" errorplus="0.00003000">3.81433000</period>
+			<description>This planet was discovered by Gan et al. 2020. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here are those reported by Gan et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.02737</mass>
+			<radius errorminus="0.006" errorplus="0.006">0.097</radius>
+			<temperature errorminus="84" errorplus="84">617</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/03/19</lastupdate>
+			<transittime errorminus="0.001600" errorplus="0.001600">2458327.416100</transittime>
+		</planet>
+	</star>
+</system>

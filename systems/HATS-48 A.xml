@@ -1,0 +1,34 @@
+<system>
+	<name>HATS-48 A</name>
+	<rightascension>19 14 41</rightascension>
+	<declination>-59 34 46</declination>
+	<distance errorminus="1.70" errorplus="1.70">265.40</distance>
+	<star>
+		<name>HATS-48 A</name>
+		<radius>0.72</radius>
+		<magV errorminus="0.110" errorplus="0.110">14.350</magV>
+		<magJ errorminus="0.021" errorplus="0.021">12.160</magJ>
+		<magH errorminus="0.025" errorplus="0.025">11.591</magH>
+		<magK errorminus="0.019" errorplus="0.019">11.427</magK>
+		<mass errorminus="0.01" errorplus="0.01">0.73</mass>
+		<temperature errorminus="18.00" errorplus="23.00">4546.00</temperature>
+		<metallicity errorminus="0.051" errorplus="0.051">0.186</metallicity>
+		<planet>
+			<name>HATS-48 A b</name>
+			<semimajoraxis errorminus="0.000110" errorplus="0.000110">0.037690</semimajoraxis>
+			<eccentricity>0.162000</eccentricity>
+			<inclination errorminus="0.180" errorplus="0.180">89.580</inclination>
+			<period errorminus="0.00000370" errorplus="0.00000370">3.13166660</period>
+			<description>This planet was discovered by Hartman et al. 2020. This was a ground based discovery. The parameters listed here are those reported by Hartman et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.03000" errorplus="0.02200">0.24300</mass>
+			<radius errorminus="0.015" errorplus="0.015">0.800</radius>
+			<temperature errorminus="5" errorplus="5">955</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/02/27</lastupdate>
+			<transittime errorminus="0.000450" errorplus="0.000450">2457100.550220</transittime>
+		</planet>
+	</star>
+</system>

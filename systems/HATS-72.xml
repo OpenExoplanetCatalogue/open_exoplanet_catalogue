@@ -1,0 +1,34 @@
+<system>
+	<name>HATS-72</name>
+	<rightascension>22 36 06</rightascension>
+	<declination>-16 59 60</declination>
+	<distance errorminus="0.52" errorplus="0.52">127.66</distance>
+	<star>
+		<name>HATS-72</name>
+		<radius>0.72</radius>
+		<magV errorminus="0.010" errorplus="0.010">12.469</magV>
+		<magJ errorminus="0.019" errorplus="0.019">10.424</magJ>
+		<magH errorminus="0.024" errorplus="0.024">9.907</magH>
+		<magK errorminus="0.019" errorplus="0.019">9.764</magK>
+		<mass>0.73</mass>
+		<temperature errorminus="8.90" errorplus="8.90">4656.10</temperature>
+		<metallicity errorminus="0.014" errorplus="0.014">0.099</metallicity>
+		<planet>
+			<name>HATS-72 b</name>
+			<semimajoraxis errorminus="0.000085" errorplus="0.000085">0.066517</semimajoraxis>
+			<eccentricity>0.013000</eccentricity>
+			<inclination errorminus="0.050" errorplus="0.070">89.560</inclination>
+			<period errorminus="0.00000160" errorplus="0.00000160">7.32794740</period>
+			<description>This planet was discovered by Hartman et al. 2020. This was a ground based discovery. The parameters listed here are those reported by Hartman et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00390" errorplus="0.00390">0.12540</mass>
+			<radius errorminus="0.003" errorplus="0.003">0.722</radius>
+			<temperature errorminus="2" errorplus="2">739</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/02/27</lastupdate>
+			<transittime errorminus="0.000075" errorplus="0.000075">2458087.647820</transittime>
+		</planet>
+	</star>
+</system>

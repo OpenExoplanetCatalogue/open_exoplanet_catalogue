@@ -1,0 +1,31 @@
+<system>
+	<name>HD 80653</name>
+	<rightascension>09 21 21</rightascension>
+	<declination>+14 22 04</declination>
+	<distance errorminus="0.81" errorplus="0.81">109.86</distance>
+	<star>
+		<name>HD 80653</name>
+		<radius errorminus="0.01" errorplus="0.01">1.22</radius>
+		<magV errorminus="0.023" errorplus="0.023">9.452</magV>
+		<magJ errorminus="0.023" errorplus="0.023">8.315</magJ>
+		<magH errorminus="0.029" errorplus="0.029">8.079</magH>
+		<magK errorminus="0.021" errorplus="0.021">8.018</magK>
+		<mass errorminus="0.04" errorplus="0.04">1.18</mass>
+		<spectraltype>G2</spectraltype>
+		<planet>
+			<name>HD 80653 b</name>
+			<semimajoraxis errorminus="0.000300" errorplus="0.000300">0.016600</semimajoraxis>
+			<inclination errorminus="2.400" errorplus="2.400">82.100</inclination>
+			<period errorminus="0.00002100" errorplus="0.00002100">0.71957300</period>
+			<description>This planet was discovered by Frustagli et al. 2020. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Frustagli et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00135" errorplus="0.00135">0.01762</mass>
+			<radius errorminus="0.006" errorplus="0.006">0.144</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/01/30</lastupdate>
+			<transittime errorminus="0.000700" errorplus="0.000700">2458134.424400</transittime>
+		</planet>
+	</star>
+</system>
