@@ -1,0 +1,38 @@
+<system>
+	<name>DMPP-3 A</name>
+	<name>HD 42936</name>
+	<name>HIP 28941</name>
+	<rightascension>06 06 30</rightascension>
+	<declination>-72 30 46</declination>
+	<distance errorminus="0.60" errorplus="0.60">48.90</distance>
+	<star>
+		<name>DMPP-3 A</name>
+		<name>HD 42936</name>
+		<name>HIP 28941</name>
+		<radius errorminus="0.02" errorplus="0.02">0.91</radius>
+		<magV errorminus="0.019" errorplus="0.019">9.066</magV>
+		<magJ errorminus="0.021" errorplus="0.021">7.588</magJ>
+		<magH errorminus="0.020" errorplus="0.020">7.193</magH>
+		<magK errorminus="0.020" errorplus="0.020">7.061</magK>
+		<mass errorminus="0.05" errorplus="0.05">0.87</mass>
+		<temperature errorminus="99.00" errorplus="99.00">5138.00</temperature>
+		<metallicity errorminus="0.090" errorplus="0.090">0.180</metallicity>
+		<spectraltype>K0V</spectraltype>
+		<planet>
+			<name>DMPP-3 A b</name>
+			<name>HD 42936 b</name>
+			<name>HIP 28941 b</name>
+			<semimajoraxis errorminus="0.001300" errorplus="0.001300">0.066200</semimajoraxis>
+			<eccentricity errorminus="0.053000" errorplus="0.091000">0.140000</eccentricity>
+			<periastron errorminus="21.6400" errorplus="72.8400">80.5700</periastron>
+			<period errorminus="0.00030000" errorplus="0.00110000">6.67320000</period>
+			<description>This planet was discovered by Barnes et al. 2019. This was a ground based discovery. The parameters listed here are those reported by Barnes et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00182" errorplus="0.00110">0.00812</mass>
+			<temperature>854</temperature>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/01/30</lastupdate>
+		</planet>
+	</star>
+</system>

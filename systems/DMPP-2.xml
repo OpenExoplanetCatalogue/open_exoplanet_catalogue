@@ -1,0 +1,36 @@
+<system>
+	<name>DMPP-2</name>
+	<name>HD 11231</name>
+	<name>HIP 8501</name>
+	<rightascension>01 49 38</rightascension>
+	<declination>-34 27 33</declination>
+	<distance errorminus="4.00" errorplus="4.00">134.00</distance>
+	<star>
+		<name>DMPP-2</name>
+		<name>HD 11231</name>
+		<name>HIP 8501</name>
+		<radius errorminus="0.09" errorplus="0.09">1.78</radius>
+		<magV errorminus="0.014" errorplus="0.014">8.567</magV>
+		<magJ errorminus="0.027" errorplus="0.027">7.703</magJ>
+		<magH errorminus="0.045" errorplus="0.045">7.482</magH>
+		<magK errorminus="0.026" errorplus="0.026">7.437</magK>
+		<mass errorminus="0.03" errorplus="0.03">1.44</mass>
+		<temperature errorminus="100.00" errorplus="100.00">6500.00</temperature>
+		<spectraltype>F5V</spectraltype>
+		<planet>
+			<name>DMPP-2 b</name>
+			<name>HD 11231 b</name>
+			<name>HIP 8501 b</name>
+			<semimajoraxis errorminus="0.000500" errorplus="0.000500">0.066400</semimajoraxis>
+			<eccentricity>0.078000</eccentricity>
+			<period errorminus="0.00550000" errorplus="0.00020000">5.20720000</period>
+			<description>This planet was discovered by Haswell et al. 2019. This was a ground based discovery. The parameters listed here are those reported by Haswell et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.05900" errorplus="0.03000">0.43700</mass>
+			<temperature>1000</temperature>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/01/30</lastupdate>
+		</planet>
+	</star>
+</system>
