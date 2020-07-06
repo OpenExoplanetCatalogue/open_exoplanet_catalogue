@@ -1,0 +1,35 @@
+<system>
+	<name>Qatar-6</name>
+	<rightascension>14 48 50</rightascension>
+	<declination>+22 09 09</declination>
+	<distance errorminus="0.46" errorplus="0.46">101.14</distance>
+	<star>
+		<name>Qatar-6</name>
+		<radius errorminus="0.02" errorplus="0.02">0.72</radius>
+		<magV errorminus="0.080" errorplus="0.080">11.438</magV>
+		<magJ errorminus="0.025" errorplus="0.025">9.712</magJ>
+		<magH>9.307</magH>
+		<magK>9.226</magK>
+		<mass errorminus="0.02" errorplus="0.02">0.82</mass>
+		<temperature errorminus="66.00" errorplus="66.00">5052.00</temperature>
+		<metallicity errorminus="0.093" errorplus="0.093">-0.025</metallicity>
+		<spectraltype>K2V</spectraltype>
+		<planet>
+			<name>Qatar-6 b</name>
+			<semimajoraxis errorminus="0.000400" errorplus="0.000400">0.042300</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination errorminus="0.140" errorplus="0.140">86.010</inclination>
+			<period errorminus="0.00001800" errorplus="0.00001800">3.50619500</period>
+			<description>This planet was discovered by Alsubai et al. 2018. This was a ground based discovery. The parameters listed here are those reported by Alsubai et al. 2018 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.06600" errorplus="0.06600">0.66800</mass>
+			<radius errorminus="0.071" errorplus="0.071">1.062</radius>
+			<temperature errorminus="18" errorplus="18">1006</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2017</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/11/21</lastupdate>
+			<transittime errorminus="0.000490" errorplus="0.000490">2457784.032700</transittime>
+		</planet>
+	</star>
+</system>

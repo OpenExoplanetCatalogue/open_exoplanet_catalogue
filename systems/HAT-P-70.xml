@@ -1,0 +1,36 @@
+<system>
+	<name>HAT-P-70</name>
+	<name>HD 287325</name>
+	<rightascension>04 58 13</rightascension>
+	<declination>+09 59 53</declination>
+	<distance errorminus="6.50" errorplus="6.50">329.00</distance>
+	<star>
+		<name>HAT-P-70</name>
+		<name>HD 287325</name>
+		<radius errorminus="0.09" errorplus="0.12">1.86</radius>
+		<magJ errorminus="0.018" errorplus="0.018">9.068</magJ>
+		<magH errorminus="0.027" errorplus="0.027">9.023</magH>
+		<magK errorminus="0.022" errorplus="0.022">8.963</magK>
+		<mass errorminus="0.01" errorplus="0.01">1.89</mass>
+		<temperature errorminus="690.00" errorplus="540.00">8450.00</temperature>
+		<metallicity errorminus="0.088" errorplus="0.075">-0.059</metallicity>
+		<planet>
+			<name>HAT-P-70 b</name>
+			<name>HD 287325 b</name>
+			<semimajoraxis errorminus="0.001060" errorplus="0.000310">0.047390</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination errorminus="0.910" errorplus="1.420">96.500</inclination>
+			<period errorminus="0.00000068" errorplus="0.00000079">2.74432452</period>
+			<description>This planet was discovered by Zhou et al. 2019. This was a ground based discovery. The parameters listed here are those reported by Zhou et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>6.78000</mass>
+			<radius errorminus="0.100" errorplus="0.150">1.870</radius>
+			<temperature errorminus="52" errorplus="43">2562</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/08/15</lastupdate>
+			<transittime errorminus="0.000370" errorplus="0.000450">2458439.575190</transittime>
+		</planet>
+	</star>
+</system>

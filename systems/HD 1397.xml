@@ -1,0 +1,39 @@
+<system>
+	<name>HD 1397</name>
+	<name>HIP 1419</name>
+	<rightascension>00 17 47</rightascension>
+	<declination>-66 21 32</declination>
+	<distance errorminus="0.17" errorplus="0.17">79.75</distance>
+	<star>
+		<name>HD 1397</name>
+		<name>HIP 1419</name>
+		<radius errorminus="0.06" errorplus="0.05">2.34</radius>
+		<magV errorminus="0.011" errorplus="0.011">7.781</magV>
+		<magJ errorminus="0.020" errorplus="0.020">6.442</magJ>
+		<magH errorminus="0.049" errorplus="0.049">6.090</magH>
+		<magK errorminus="0.018" errorplus="0.018">5.988</magK>
+		<mass errorminus="0.05" errorplus="0.04">1.32</mass>
+		<temperature errorminus="60.00" errorplus="60.00">5521.00</temperature>
+		<metallicity errorminus="0.090" errorplus="0.090">0.290</metallicity>
+		<spectraltype>G5III/IV</spectraltype>
+		<planet>
+			<name>HD 1397 b</name>
+			<name>HIP 1419 b</name>
+			<semimajoraxis errorminus="0.001300" errorplus="0.001100">0.109700</semimajoraxis>
+			<eccentricity errorminus="0.019000" errorplus="0.020000">0.251000</eccentricity>
+			<periastron errorminus="7.0000" errorplus="6.1000">2.1000</periastron>
+			<inclination errorminus="0.730" errorplus="0.670">88.990</inclination>
+			<period errorminus="0.00080000" errorplus="0.00079000">11.53533000</period>
+			<description>This planet was discovered by Nielsen et al. 2019. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here are those reported by Nielsen et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.02000" errorplus="0.02000">0.41500</mass>
+			<radius errorminus="0.027" errorplus="0.025">1.026</radius>
+			<temperature errorminus="10" errorplus="10">1228</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2018</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/07/25</lastupdate>
+			<transittime errorminus="0.000600" errorplus="0.000600">2458332.082610</transittime>
+		</planet>
+	</star>
+</system>
