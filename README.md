@@ -3,8 +3,7 @@ Open Exoplanet Catalogue
 
 Status update
 --------------
-As you might have noticed the Open Exoplanet Catalogue has been in a a dormant state for a few months, recieving only a few updates. This is mainly due to a lack of contributors. In the fall, we plan to have about 100 undegraduates in computer science work on the OEC. Their main goal will be to implement an automated way to gather data from various sources on the internet. We will keep the data fully referenced so that it is easy to find out where the data is coming from. We will also allow for manual edits of the accumulated data (as it has been in the past). All of these things together should make the OEC the most complete and most up-to-date exoplanet catalogue out there. In the meantime, please keep your pull request coming! -- Hanno Rein -- June 2016. 
-
+Since June 2020, I have started maintaining the Open Exoplanet Catalogue more actively again. I plan to manually enter data for time sensitive and high profile discoveries. But due to the large number of planets that get discovered these days, I will import data from the NASA Exoplanet Archive for all other planets. See the `oec_continuity` repository for details. Please continue to watch out for errors and submit pull requests!  -- Hanno Rein
 
 About the Open Exoplanet Catalogue
 --------------
