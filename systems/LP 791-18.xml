@@ -1,0 +1,50 @@
+<system>
+	<name>LP 791-18</name>
+	<rightascension>11 02 46</rightascension>
+	<declination>-16 24 22</declination>
+	<distance errorminus="0.06" errorplus="0.06">26.49</distance>
+	<star>
+		<name>LP 791-18</name>
+		<radius errorminus="0.02" errorplus="0.02">0.17</radius>
+		<magV errorminus="0.200" errorplus="0.200">16.900</magV>
+		<magJ errorminus="0.021" errorplus="0.021">11.559</magJ>
+		<magH errorminus="0.020" errorplus="0.020">10.993</magH>
+		<magK errorminus="0.021" errorplus="0.021">10.644</magK>
+		<mass errorminus="0.01" errorplus="0.01">0.14</mass>
+		<temperature errorminus="55.00" errorplus="55.00">2960.00</temperature>
+		<metallicity errorminus="0.190" errorplus="0.190">-0.090</metallicity>
+		<spectraltype>M(6.1+/-0.7)V</spectraltype>
+		<planet>
+			<name>LP 791-18 b</name>
+			<semimajoraxis errorminus="0.000350" errorplus="0.000320">0.009690</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination errorminus="4.900" errorplus="2.000">87.300</inclination>
+			<period errorminus="0.00000580" errorplus="0.00000580">0.94800500</period>
+			<description>This planet was discovered by Crossfield et al. 2019. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here are those reported by Crossfield et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.012" errorplus="0.012">0.100</radius>
+			<temperature errorminus="120" errorplus="120">650</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/11/07</lastupdate>
+			<transittime errorminus="0.000660" errorplus="0.000660">2458645.944050</transittime>
+		</planet>
+		<planet>
+			<name>LP 791-18 c</name>
+			<semimajoraxis errorminus="0.001050" errorplus="0.000980">0.029392</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination errorminus="0.500" errorplus="0.320">89.550</inclination>
+			<period errorminus="0.00005000" errorplus="0.00005000">4.98996300</period>
+			<description>This planet was discovered by Crossfield et al. 2019. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here are those reported by Crossfield et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.022" errorplus="0.022">0.206</radius>
+			<temperature errorminus="30" errorplus="30">370</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/11/07</lastupdate>
+			<transittime errorminus="0.000410" errorplus="0.000410">2458651.298070</transittime>
+		</planet>
+	</star>
+</system>

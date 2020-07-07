@@ -1,0 +1,35 @@
+<system>
+	<name>XO-7</name>
+	<rightascension>18 29 55</rightascension>
+	<declination>+85 13 60</declination>
+	<distance errorminus="1.20" errorplus="1.20">234.10</distance>
+	<star>
+		<name>XO-7</name>
+		<radius errorminus="0.02" errorplus="0.02">1.48</radius>
+		<magV errorminus="0.040" errorplus="0.040">10.520</magV>
+		<magJ errorminus="0.021" errorplus="0.021">9.557</magJ>
+		<magH errorminus="0.028" errorplus="0.028">9.308</magH>
+		<magK errorminus="0.022" errorplus="0.022">9.241</magK>
+		<mass errorminus="0.06" errorplus="0.06">1.41</mass>
+		<temperature errorminus="100.00" errorplus="100.00">6250.00</temperature>
+		<metallicity errorminus="0.057" errorplus="0.057">0.432</metallicity>
+		<spectraltype>G0V</spectraltype>
+		<planet>
+			<name>XO-7 b</name>
+			<semimajoraxis errorminus="0.000620" errorplus="0.000620">0.044210</semimajoraxis>
+			<eccentricity errorminus="0.033000" errorplus="0.033000">0.038000</eccentricity>
+			<inclination errorminus="0.290" errorplus="0.290">83.450</inclination>
+			<period errorminus="0.00000430" errorplus="0.00000430">2.86414240</period>
+			<description>This planet was discovered by Crouzet et al. 2019. This was a ground based discovery. The parameters listed here are those reported by Crouzet et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.03400" errorplus="0.03400">0.70900</mass>
+			<radius errorminus="0.026" errorplus="0.026">1.373</radius>
+			<temperature errorminus="23" errorplus="23">1743</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/01/16</lastupdate>
+			<transittime errorminus="0.000450" errorplus="0.000450">2457917.475030</transittime>
+		</planet>
+	</star>
+</system>

@@ -1,0 +1,35 @@
+<system>
+	<name>NGTS-8</name>
+	<rightascension>21 55 54</rightascension>
+	<declination>-14 04 06</declination>
+	<distance errorminus="5.65" errorplus="5.65">434.28</distance>
+	<star>
+		<name>NGTS-8</name>
+		<radius errorminus="0.02" errorplus="0.02">0.98</radius>
+		<magV errorminus="0.060" errorplus="0.060">13.680</magV>
+		<magJ errorminus="0.019" errorplus="0.019">12.140</magJ>
+		<magH errorminus="0.023" errorplus="0.023">11.751</magH>
+		<magK errorminus="0.019" errorplus="0.019">11.642</magK>
+		<mass errorminus="0.04" errorplus="0.05">0.89</mass>
+		<temperature errorminus="50.00" errorplus="50.00">5241.00</temperature>
+		<metallicity errorminus="0.090" errorplus="0.090">0.240</metallicity>
+		<spectraltype>K0V</spectraltype>
+		<planet>
+			<name>NGTS-8 b</name>
+			<semimajoraxis errorminus="0.001000" errorplus="0.001000">0.035000</semimajoraxis>
+			<eccentricity errorminus="0.010000" errorplus="0.014000">0.010000</eccentricity>
+			<inclination errorminus="0.500" errorplus="0.500">86.900</inclination>
+			<period errorminus="0.00001000" errorplus="0.00001000">2.49970000</period>
+			<description>This planet was discovered by Costes et al. 2019. This was a ground based discovery. The parameters listed here are those reported by Costes et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.03000" errorplus="0.04000">0.93000</mass>
+			<radius errorminus="0.030" errorplus="0.030">1.090</radius>
+			<temperature errorminus="19" errorplus="19">1345</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/11/21</lastupdate>
+			<transittime errorminus="0.000720" errorplus="0.000720">2457500.178300</transittime>
+		</planet>
+	</star>
+</system>

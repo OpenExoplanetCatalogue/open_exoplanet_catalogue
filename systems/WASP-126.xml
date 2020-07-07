@@ -1,39 +1,42 @@
 <system>
 	<name>WASP-126</name>
-	<rightascension>04 13 29.72</rightascension>
-	<declination>-69 13 36.5</declination>
-	<distance errorminus="15" errorplus="15">234</distance>
+	<rightascension>04 13 30</rightascension>
+	<declination>-69 13 36</declination>
+	<distance errorminus="15.00" errorplus="15.00">234.00</distance>
 	<star>
 		<name>WASP-126</name>
-		<name>TYC 9153-833-1</name>
-		<name>2MASS J04132972-6913365</name>
-		<magB errorminus="0.022" errorplus="0.022">11.904</magB>
-		<magV errorminus="0.5" errorplus="0.5">10.8</magV>
-		<magJ errorminus="0.021" errorplus="0.021">9.962</magJ>
-		<magH errorminus="0.023" errorplus="0.023">9.659</magH>
-		<magK errorminus="0.021" errorplus="0.021">9.598</magK>
-		<mass errorminus="0.06" errorplus="0.06">1.12</mass>
-		<temperature errorminus="100" errorplus="100">5800</temperature>
-		<metallicity errorminus="0.08" errorplus="0.08">0.17</metallicity>
+		<radius>1.27</radius>
+		<magV errorminus="0.500" errorplus="0.500">10.800</magV>
+		<magJ errorminus="0.017" errorplus="0.017">9.962</magJ>
+		<magH errorminus="0.021" errorplus="0.021">9.659</magH>
+		<magK errorminus="0.019" errorplus="0.019">9.598</magK>
+		<mass>1.12</mass>
+		<temperature>5800.00</temperature>
 		<spectraltype>G2</spectraltype>
 		<planet>
 			<name>WASP-126 b</name>
-			<name>TYC 9153-833-1 b</name>
-			<name>2MASS J04132972-6913365 b</name>
-			<list>Confirmed planets</list>
-			<radius errorminus="0.05" errorplus="0.10">0.96</radius>
-			<mass errorminus="0.04" errorplus="0.04">0.28</mass>
-			<period>3.28880</period>
-			<transittime unit="HJD">2546890.3191</transittime>
-			<semimajoraxis errorminus="0.0008" errorplus="0.0008">0.0449</semimajoraxis>
-			<temperature errorminus="60" errorplus="60">1480</temperature>
-			<inclination errorminus="1.5" errorplus="1.5">87.9</inclination>
-			<eccentricity upperlimit="0.18" />
-			<description>This Hot Jupiter was discovered by WASP-South. This low mass planet with a large radius is a good target for transmission spectroscopy.</description>
+			<inclination errorminus="0.435" errorplus="0.435">89.510</inclination>
+			<period errorminus="0.00003710" errorplus="0.00003710">3.28883000</period>
+			<description>This planet was discovered by Maxted et al. 2016. This was a ground based discovery. The parameters listed here are those reported by Pearson 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.28411</mass>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
-			<lastupdate>16/02/04</lastupdate>
 			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/12/05</lastupdate>
+		</planet>
+		<planet>
+			<name>WASP-126 c</name>
+			<eccentricity>0.050000</eccentricity>
+			<periastron errorminus="33.8000" errorplus="33.8000">183.2000</periastron>
+			<inclination>85.500</inclination>
+			<period errorminus="0.17000000" errorplus="0.17000000">7.63000000</period>
+			<description>This planet was discovered by Pearson 2019. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here are those reported by Pearson 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.07740" errorplus="0.07740">0.20199</mass>
+			<discoverymethod>timing</discoverymethod>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/12/05</lastupdate>
 		</planet>
 	</star>
 </system>

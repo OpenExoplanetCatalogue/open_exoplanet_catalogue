@@ -1,41 +1,51 @@
 <system>
 	<name>WASP-18</name>
+	<name>HD 10069</name>
+	<name>HIP 7562</name>
 	<rightascension>01 37 25</rightascension>
 	<declination>-45 40 40</declination>
-	<distance>100</distance>
+	<distance errorminus="0.37" errorplus="0.37">123.92</distance>
 	<star>
-		<mass>1.24</mass>
+		<name>WASP-18</name>
+		<name>HD 10069</name>
+		<name>HIP 7562</name>
 		<radius>1.23</radius>
-		<magV>9.3</magV>
-		<magB>9.74</magB>
+		<magV errorminus="0.018" errorplus="0.018">9.303</magV>
 		<magJ errorminus="0.018" errorplus="0.018">8.409</magJ>
 		<magH errorminus="0.055" errorplus="0.055">8.231</magH>
 		<magK errorminus="0.027" errorplus="0.027">8.131</magK>
-		<spectraltype>F6</spectraltype>
+		<mass>1.22</mass>
+		<temperature>6400.00</temperature>
+		<spectraltype>F6IV/V</spectraltype>
 		<planet>
 			<name>WASP-18 b</name>
-			<name>HIP 7562 b</name>
-			<name>TYC 8040-00072-1 b</name>
 			<name>HD 10069 b</name>
-			<name>CD-46 449 b</name>
-			<name>CPD-46 168 b</name>
-			<name>SAO 215585 b</name>
-			<name>2MASS J01372503-4540404 b</name>
-			<list>Confirmed planets</list>
-			<mass>10.43</mass>
-			<radius>1.165</radius>
-			<period>0.9414518</period>
-			<semimajoraxis>0.02047</semimajoraxis>
-			<eccentricity>0.0088</eccentricity>
-			<inclination>86</inclination>
-			<transittime errorminus="0.000080" errorplus="0.000080" unit="BJD">2455084.792931</transittime>
+			<name>HIP 7562 b</name>
+			<semimajoraxis>0.020000</semimajoraxis>
+			<inclination errorminus="0.279" errorplus="0.279">85.680</inclination>
+			<period errorminus="0.00000234" errorplus="0.00000234">0.94124000</period>
+			<description>This planet was discovered by Hellier et al. 2009. This was a ground based discovery. The parameters listed here are those reported by Pearson 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>10.42954</mass>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>12/07/05</lastupdate>
-			<discoveryyear>2009</discoveryyear>
-			<temperature>2187.5</temperature>
 			<istransiting>1</istransiting>
+			<discoveryyear>2009</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/12/05</lastupdate>
 		</planet>
-		<name>WASP-18</name>
-		<temperature>6400.0</temperature>
+		<planet>
+			<name>WASP-18 c</name>
+			<name>HD 10069 c</name>
+			<name>HIP 7562 c</name>
+			<semimajoraxis>0.035000</semimajoraxis>
+			<eccentricity>0.015000</eccentricity>
+			<periastron errorminus="13.0000" errorplus="13.0000">272.0000</periastron>
+			<period errorminus="0.00640000" errorplus="0.00640000">2.15580000</period>
+			<description>This planet was discovered by Pearson 2019. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here are those reported by Pearson 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.03870" errorplus="0.03870">0.17368</mass>
+			<discoverymethod>timing</discoverymethod>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/12/05</lastupdate>
+		</planet>
 	</star>
 </system>

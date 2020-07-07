@@ -1,0 +1,52 @@
+<system>
+	<name>HD 213885</name>
+	<name>HIP 111553</name>
+	<rightascension>22 35 56</rightascension>
+	<declination>-59 51 52</declination>
+	<distance errorminus="0.14" errorplus="0.14">47.97</distance>
+	<star>
+		<name>HD 213885</name>
+		<name>HIP 111553</name>
+		<radius errorminus="0.01" errorplus="0.01">1.10</radius>
+		<magV errorminus="0.002" errorplus="0.002">7.996</magV>
+		<magJ errorminus="0.023" errorplus="0.023">6.806</magJ>
+		<magH errorminus="0.034" errorplus="0.034">6.501</magH>
+		<magK errorminus="0.024" errorplus="0.024">6.419</magK>
+		<mass errorminus="0.02" errorplus="0.02">1.07</mass>
+		<temperature errorminus="50.00" errorplus="50.00">5978.00</temperature>
+		<metallicity errorminus="0.030" errorplus="0.030">-0.040</metallicity>
+		<spectraltype>G</spectraltype>
+		<planet>
+			<name>HD 213885 b</name>
+			<name>HIP 111553 b</name>
+			<semimajoraxis errorminus="0.000120" errorplus="0.000150">0.020120</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination errorminus="0.500" errorplus="0.620">80.090</inclination>
+			<period errorminus="0.00002000" errorplus="0.00002100">1.00803500</period>
+			<description>This planet was discovered by Espinoza et al. 2019. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here are those reported by Espinoza et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00205" errorplus="0.00208">0.02778</mass>
+			<radius errorminus="0.005" errorplus="0.005">0.156</radius>
+			<temperature errorminus="14" errorplus="13">2128</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/12/05</lastupdate>
+			<transittime errorminus="0.001200" errorplus="0.001200">2458379.970430</transittime>
+		</planet>
+		<planet>
+			<name>HD 213885 c</name>
+			<name>HIP 111553 c</name>
+			<semimajoraxis errorminus="0.000320" errorplus="0.000440">0.056798</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<period errorminus="0.00051000" errorplus="0.00056000">4.78503000</period>
+			<description>This planet was discovered by Espinoza et al. 2019. This was a ground based discovery. The parameters listed here are those reported by Espinoza et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00428" errorplus="0.00434">0.06277</mass>
+			<temperature errorminus="8" errorplus="7">1265</temperature>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/12/05</lastupdate>
+		</planet>
+	</star>
+</system>

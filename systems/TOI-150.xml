@@ -1,0 +1,34 @@
+<system>
+	<name>TOI-150</name>
+	<rightascension>07 31 52</rightascension>
+	<declination>-73 36 22</declination>
+	<distance errorminus="2.00" errorplus="2.00">336.00</distance>
+	<star>
+		<name>TOI-150</name>
+		<radius errorminus="0.01" errorplus="0.01">1.53</radius>
+		<magJ errorminus="0.025" errorplus="0.025">10.324</magJ>
+		<magH errorminus="0.020" errorplus="0.020">10.045</magH>
+		<magK errorminus="0.017" errorplus="0.017">9.940</magK>
+		<mass errorminus="0.03" errorplus="0.04">1.35</mass>
+		<temperature errorminus="90.00" errorplus="90.00">6255.00</temperature>
+		<metallicity errorminus="0.036" errorplus="0.036">0.280</metallicity>
+		<spectraltype>F</spectraltype>
+		<planet>
+			<name>TOI-150 b</name>
+			<semimajoraxis errorminus="0.000880" errorplus="0.000870">0.070370</semimajoraxis>
+			<eccentricity errorminus="0.037000" errorplus="0.045000">0.262000</eccentricity>
+			<inclination errorminus="0.680" errorplus="0.980">88.090</inclination>
+			<period errorminus="0.00009700" errorplus="0.00008900">5.85748700</period>
+			<description>This planet was discovered by Cañas et al. 2019. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here are those reported by Kossakowski et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.12000" errorplus="0.12000">2.51000</mass>
+			<radius errorminus="0.019" errorplus="0.021">1.255</radius>
+			<temperature errorminus="7" errorplus="7">1405</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/11/07</lastupdate>
+			<transittime errorminus="0.000890" errorplus="0.000860">2458326.277300</transittime>
+		</planet>
+	</star>
+</system>

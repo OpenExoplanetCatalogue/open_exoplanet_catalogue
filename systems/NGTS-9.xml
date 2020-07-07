@@ -1,0 +1,35 @@
+<system>
+	<name>NGTS-9</name>
+	<rightascension>09 27 41</rightascension>
+	<declination>-19 20 50</declination>
+	<distance errorminus="15.98" errorplus="15.98">619.74</distance>
+	<star>
+		<name>NGTS-9</name>
+		<radius errorminus="0.04" errorplus="0.04">1.38</radius>
+		<magV errorminus="0.020" errorplus="0.020">12.800</magV>
+		<magJ errorminus="0.026" errorplus="0.026">11.712</magJ>
+		<magH errorminus="0.020" errorplus="0.020">11.488</magH>
+		<magK errorminus="0.022" errorplus="0.022">11.452</magK>
+		<mass errorminus="0.05" errorplus="0.05">1.34</mass>
+		<temperature errorminus="130.00" errorplus="130.00">6330.00</temperature>
+		<metallicity errorminus="0.150" errorplus="0.150">0.310</metallicity>
+		<spectraltype>F8V</spectraltype>
+		<planet>
+			<name>NGTS-9 b</name>
+			<semimajoraxis errorminus="0.002000" errorplus="0.003000">0.058000</semimajoraxis>
+			<eccentricity errorminus="0.052000" errorplus="0.076000">0.060000</eccentricity>
+			<inclination errorminus="0.400" errorplus="0.400">84.100</inclination>
+			<period errorminus="0.00002000" errorplus="0.00002000">4.43527000</period>
+			<description>This planet was discovered by Costes et al. 2019. This was a ground based discovery. The parameters listed here are those reported by Costes et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.17000" errorplus="0.17000">2.90000</mass>
+			<radius errorminus="0.060" errorplus="0.060">1.070</radius>
+			<temperature errorminus="36" errorplus="36">1448</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/11/21</lastupdate>
+			<transittime errorminus="0.002650" errorplus="0.002650">2457671.810860</transittime>
+		</planet>
+	</star>
+</system>

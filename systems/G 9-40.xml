@@ -1,0 +1,35 @@
+<system>
+	<name>G 9-40</name>
+	<rightascension>08 58 52</rightascension>
+	<declination>+21 04 34</declination>
+	<distance errorminus="0.04" errorplus="0.04">27.93</distance>
+	<star>
+		<name>G 9-40</name>
+		<radius errorminus="0.01" errorplus="0.01">0.31</radius>
+		<magV errorminus="0.040" errorplus="0.040">13.823</magV>
+		<magJ errorminus="0.022" errorplus="0.022">10.058</magJ>
+		<magH errorminus="0.023" errorplus="0.023">9.433</magH>
+		<magK errorminus="0.018" errorplus="0.018">9.190</magK>
+		<mass errorminus="0.02" errorplus="0.02">0.29</mass>
+		<temperature errorminus="32.00" errorplus="32.00">3348.00</temperature>
+		<metallicity errorminus="0.110" errorplus="0.100">0.040</metallicity>
+		<spectraltype>M2.5V</spectraltype>
+		<planet>
+			<name>G 9-40 b</name>
+			<semimajoraxis errorminus="0.005300" errorplus="0.007800">0.038500</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<periastron>0.0000</periastron>
+			<inclination errorminus="0.470" errorplus="0.630">88.570</inclination>
+			<period errorminus="0.00000600" errorplus="0.00000600">5.74600700</period>
+			<description>This planet was discovered by Stefansson et al. 2019. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Stefansson et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.009" errorplus="0.009">0.181</radius>
+			<temperature errorminus="40" errorplus="35">456</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/01/16</lastupdate>
+			<transittime errorminus="0.000330" errorplus="0.000320">2458497.777470</transittime>
+		</planet>
+	</star>
+</system>
