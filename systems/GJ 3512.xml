@@ -1,0 +1,32 @@
+<system>
+	<name>GJ 3512</name>
+	<rightascension>08 41 20</rightascension>
+	<declination>+59 29 51</declination>
+	<distance errorminus="0.01" errorplus="0.01">9.49</distance>
+	<star>
+		<name>GJ 3512</name>
+		<radius errorminus="0.01" errorplus="0.01">0.14</radius>
+		<magV errorminus="0.020" errorplus="0.020">15.050</magV>
+		<magI errorminus="0.025" errorplus="0.025">11.470</magI>
+		<magJ errorminus="0.022" errorplus="0.022">9.615</magJ>
+		<magH errorminus="0.028" errorplus="0.028">8.996</magH>
+		<magK errorminus="0.021" errorplus="0.021">8.668</magK>
+		<mass errorminus="0.01" errorplus="0.01">0.12</mass>
+		<temperature errorminus="51.00" errorplus="51.00">3081.00</temperature>
+		<metallicity errorminus="0.160" errorplus="0.160">-0.070</metallicity>
+		<spectraltype>M5.5V</spectraltype>
+		<planet>
+			<name>GJ 3512 b</name>
+			<semimajoraxis errorminus="0.008400" errorplus="0.008000">0.338000</semimajoraxis>
+			<eccentricity errorminus="0.004200" errorplus="0.004200">0.435600</eccentricity>
+			<periastron errorminus="0.7300" errorplus="0.7100">125.4900</periastron>
+			<period errorminus="0.14000000" errorplus="0.14000000">203.59000000</period>
+			<description>This planet was discovered by Morales et al. 2019. This was a ground based discovery. The parameters listed here are those reported by Morales et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.02300" errorplus="0.02200">0.46300</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/10/10</lastupdate>
+		</planet>
+	</star>
+</system>

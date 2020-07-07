@@ -1,0 +1,34 @@
+<system>
+	<name>WASP-169</name>
+	<rightascension>08 29 33</rightascension>
+	<declination>-12 56 41</declination>
+	<distance errorminus="14.25" errorplus="14.25">638.38</distance>
+	<star>
+		<name>WASP-169</name>
+		<radius errorminus="0.09" errorplus="0.19">2.01</radius>
+		<magJ errorminus="0.023" errorplus="0.023">10.800</magJ>
+		<magH errorminus="0.020" errorplus="0.020">10.552</magH>
+		<magK errorminus="0.023" errorplus="0.023">10.483</magK>
+		<mass errorminus="0.08" errorplus="0.08">1.34</mass>
+		<temperature errorminus="101.00" errorplus="101.00">6110.00</temperature>
+		<metallicity errorminus="0.070" errorplus="0.070">0.060</metallicity>
+		<spectraltype>F8</spectraltype>
+		<planet>
+			<name>WASP-169 b</name>
+			<semimajoraxis errorminus="0.001400" errorplus="0.001400">0.068100</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination errorminus="2.000" errorplus="1.400">87.900</inclination>
+			<period errorminus="0.00000920" errorplus="0.00000920">5.61141180</period>
+			<description>This planet was discovered by Nielsen et al. 2019. This was a ground based discovery. The parameters listed here are those reported by Nielsen et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.06100" errorplus="0.06100">0.56100</mass>
+			<radius errorminus="0.073" errorplus="0.150">1.304</radius>
+			<temperature errorminus="42" errorplus="74">1604</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/09/12</lastupdate>
+			<transittime errorminus="0.001400" errorplus="0.001400">2457697.017600</transittime>
+		</planet>
+	</star>
+</system>

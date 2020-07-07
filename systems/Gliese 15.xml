@@ -43,22 +43,35 @@
 			<metallicity errorminus="0.17" errorplus="0.17">-0.32</metallicity>
 			<spectraltype>M2V</spectraltype>
 			<planet>
-				<name>Gliese 15 A b</name>
+				<name>GJ 15 A b</name>
 				<name>HD 1326 A b</name>
 				<name>HIP 1475 b</name>
-				<name>GX Andromedae b</name>
-				<name>Groombridge 34 b</name>
-				<list>Confirmed planets</list>
-				<mass errorminus="0.00236" errorplus="0.00236" type="msini">0.01683</mass>
-				<period errorminus="0.0016" errorplus="0.0016">11.4433</period>
-				<semimajoraxis errorminus="0.0034" errorplus="0.0034">0.0717</semimajoraxis>
-				<eccentricity>0</eccentricity>
-				<transittime errorminus="0.21" errorplus="0.21">2455874.95</transittime>
-				<istransiting>0</istransiting>
-				<description>Gliese 15 A b, also known as Groombridge 34 b, is a 5 Earth-mass planet in a nearby M-dwarf binary.</description>
+				<semimajoraxis errorminus="0.004000" errorplus="0.003000">0.072000</semimajoraxis>
+				<eccentricity errorminus="0.065000" errorplus="0.091000">0.094000</eccentricity>
+				<periastron errorminus="74.0000" errorplus="49.0000">55.0000</periastron>
+				<period errorminus="0.00160000" errorplus="0.00170000">11.44070000</period>
+				<description>This planet was discovered by Howard et al. 2014. This was a ground based discovery. The parameters listed here are those reported by Pinamonti et al. 2018 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+				<mass errorminus="0.00138" errorplus="0.00145">0.00953</mass>
 				<discoverymethod>RV</discoverymethod>
-				<lastupdate>15/12/12</lastupdate>
 				<discoveryyear>2014</discoveryyear>
+				<list>Confirmed planets</list>
+				<lastupdate>19/10/10</lastupdate>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+			<planet>
+				<name>GJ 15 A c</name>
+				<name>HD 1326 A c</name>
+				<name>HIP 1475 c</name>
+				<semimajoraxis errorminus="0.900000" errorplus="1.000000">5.400000</semimajoraxis>
+				<eccentricity errorminus="0.190000" errorplus="0.280000">0.270000</eccentricity>
+				<periastron errorminus="53.3000" errorplus="100.8000">-58.4000</periastron>
+				<period errorminus="1700.00000000" errorplus="2200.00000000">7600.00000000</period>
+				<description>This planet was discovered by Pinamonti et al. 2018. This was a ground based discovery. The parameters listed here are those reported by Pinamonti et al. 2018 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+				<mass errorminus="0.05663" errorplus="0.07866">0.11327</mass>
+				<discoverymethod>RV</discoverymethod>
+				<discoveryyear>2018</discoveryyear>
+				<list>Confirmed planets</list>
+				<lastupdate>19/10/10</lastupdate>
 				<list>Planets in binary systems, S-type</list>
 			</planet>
 		</star>

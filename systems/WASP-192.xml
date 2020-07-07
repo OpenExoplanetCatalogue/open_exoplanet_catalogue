@@ -1,0 +1,34 @@
+<system>
+	<name>WASP-192</name>
+	<rightascension>14 54 38</rightascension>
+	<declination>-38 44 40</declination>
+	<distance errorminus="22.00" errorplus="22.00">495.00</distance>
+	<star>
+		<name>WASP-192</name>
+		<radius errorminus="0.07" errorplus="0.07">1.32</radius>
+		<magJ errorminus="0.019" errorplus="0.019">11.493</magJ>
+		<magH errorminus="0.022" errorplus="0.022">11.193</magH>
+		<magK errorminus="0.021" errorplus="0.021">11.137</magK>
+		<mass errorminus="0.06" errorplus="0.06">1.09</mass>
+		<temperature errorminus="145.00" errorplus="145.00">5910.00</temperature>
+		<metallicity errorminus="0.080" errorplus="0.080">0.140</metallicity>
+		<spectraltype>G0V</spectraltype>
+		<planet>
+			<name>WASP-192 b</name>
+			<semimajoraxis errorminus="0.000800" errorplus="0.000800">0.040800</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination errorminus="0.600" errorplus="0.600">82.700</inclination>
+			<period errorminus="0.00000280" errorplus="0.00000280">2.87867650</period>
+			<description>This planet was discovered by Hellier et al. 2019. This was a ground based discovery. The parameters listed here are those reported by Hellier et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.16000" errorplus="0.16000">2.30000</mass>
+			<radius errorminus="0.080" errorplus="0.080">1.230</radius>
+			<temperature errorminus="60" errorplus="60">1620</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/10/10</lastupdate>
+			<transittime errorminus="0.001700" errorplus="0.001700">2457271.333100</transittime>
+		</planet>
+	</star>
+</system>

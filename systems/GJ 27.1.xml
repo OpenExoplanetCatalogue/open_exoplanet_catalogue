@@ -1,41 +1,33 @@
 <system>
 	<name>GJ 27.1</name>
-	<rightascension>00 39 58.82591</rightascension>
-	<declination>-44 15 11.5985</declination>
-	<distance errorminus="1.5" errorplus="1.7">24.0</distance>
+	<name>HIP 3143</name>
+	<rightascension>00 39 59</rightascension>
+	<declination>-44 15 12</declination>
+	<distance errorminus="0.03" errorplus="0.03">23.62</distance>
 	<star>
 		<name>GJ 27.1</name>
-		<name>Gliese 27.1</name>
-		<name>GJ 9018</name>
 		<name>HIP 3143</name>
-		<name>CD-44 170</name>
-		<name>LHS 1122</name>
-		<name>TYC 7531-1014-1</name>
-		<magU>14.079</magU>
-		<magB>12.888</magB>
-		<magV>11.401</magV>
-		<magR>10.433</magR>
-		<magI>9.371</magI>
+		<magV errorminus="0.014" errorplus="0.014">11.420</magV>
+		<magI errorminus="0.010" errorplus="0.010">9.370</magI>
 		<magJ errorminus="0.027" errorplus="0.027">8.225</magJ>
 		<magH errorminus="0.038" errorplus="0.038">7.609</magH>
 		<magK errorminus="0.029" errorplus="0.029">7.394</magK>
-		<spectraltype>M0.5 V</spectraltype>
 		<mass>0.53</mass>
-		<temperature>3542</temperature>
+		<temperature>3542.00</temperature>
+		<spectraltype>M0.5V</spectraltype>
 		<planet>
 			<name>GJ 27.1 b</name>
-			<name>Gliese 27.1 b</name>
-			<period errorminus="0.026" errorplus="0.023">15.819</period>
-			<eccentricity errorminus="0.08" errorplus="0.18">0.08</eccentricity>
-			<periastron>150</periastron>
-			<meananomaly>330</meananomaly>
-			<mass errorminus="0.0208" errorplus="0.0129" type="msini">0.0409</mass>
-			<semimajoraxis errorminus="0.013" errorplus="0.009">0.101</semimajoraxis>
+			<name>HIP 3143 b</name>
+			<semimajoraxis errorminus="0.013000" errorplus="0.009000">0.101000</semimajoraxis>
+			<eccentricity errorminus="0.080000" errorplus="0.180000">0.080000</eccentricity>
+			<periastron>150.0000</periastron>
+			<period errorminus="0.02600000" errorplus="0.02300000">15.81900000</period>
+			<description>This planet was discovered by Tuomi et al. 2014. This was a ground based discovery. The parameters listed here are those reported by Tuomi et al. 2014 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.02077" errorplus="0.01290">0.04090</mass>
 			<discoverymethod>RV</discoverymethod>
 			<discoveryyear>2014</discoveryyear>
-			<description>The planet candidate orbiting GJ 27.1 was identified by Bayesian analysis of 62 UVES and 50 HARPS radial velocity measurements.</description>
-			<list>Controversial</list>
-			<lastupdate>15/04/21</lastupdate>
+			<list>Confirmed planets</list>
+			<lastupdate>19/10/10</lastupdate>
 		</planet>
 	</star>
 </system>

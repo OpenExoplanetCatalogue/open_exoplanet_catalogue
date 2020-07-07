@@ -1,0 +1,37 @@
+<system>
+	<name>WASP-178</name>
+	<name>HD 134004</name>
+	<rightascension>15 09 05</rightascension>
+	<declination>-42 42 18</declination>
+	<distance errorminus="16.00" errorplus="16.00">418.00</distance>
+	<star>
+		<name>WASP-178</name>
+		<name>HD 134004</name>
+		<radius errorminus="0.07" errorplus="0.07">1.67</radius>
+		<magJ errorminus="0.029" errorplus="0.029">9.775</magJ>
+		<magH errorminus="0.020" errorplus="0.020">9.735</magH>
+		<magK errorminus="0.019" errorplus="0.019">9.703</magK>
+		<mass errorminus="0.11" errorplus="0.11">2.07</mass>
+		<temperature errorminus="150.00" errorplus="150.00">9360.00</temperature>
+		<metallicity errorminus="0.160" errorplus="0.160">0.210</metallicity>
+		<spectraltype>A1IV-V</spectraltype>
+		<planet>
+			<name>WASP-178 b</name>
+			<name>HD 134004 b</name>
+			<semimajoraxis errorminus="0.001000" errorplus="0.001000">0.055800</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination errorminus="0.600" errorplus="0.600">85.700</inclination>
+			<period errorminus="0.00000120" errorplus="0.00000120">3.34482850</period>
+			<description>This planet was discovered by Hellier et al. 2019. This was a ground based discovery. The parameters listed here are those reported by Hellier et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.12000" errorplus="0.12000">1.66000</mass>
+			<radius errorminus="0.090" errorplus="0.090">1.810</radius>
+			<temperature errorminus="60" errorplus="60">2470</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/10/10</lastupdate>
+			<transittime errorminus="0.000470" errorplus="0.000470">2456927.068390</transittime>
+		</planet>
+	</star>
+</system>

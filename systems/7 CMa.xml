@@ -20,33 +20,47 @@
 		<name>Gliese 239.1</name>
 		<name>GJ 9214</name>
 		<name>2MASS J06364103-1915210</name>
-		<mass errorminus="0.30" errorplus="0.30">1.52</mass>
-		<radius errorminus="0.1" errorplus="0.1">2.3</radius>
-		<magV>3.96</magV>
-		<magR>3.13</magR>
-		<magI>2.61</magI>
-		<magB errorminus="0.014" errorplus="0.014">5.011</magB>
+		<radius errorminus="0.14" errorplus="0.17">4.87</radius>
+		<magV>3.920</magV>
+		<magI>2.935</magI>
 		<magJ errorminus="0.244" errorplus="0.244">2.173</magJ>
 		<magH errorminus="0.234" errorplus="0.234">1.679</magH>
 		<magK errorminus="0.252" errorplus="0.252">1.564</magK>
-		<metallicity errorminus="0.10" errorplus="0.10">0.21</metallicity>
-		<temperature errorminus="100" errorplus="100">4792</temperature>
-		<spectraltype>K1 III</spectraltype>
+		<mass errorminus="0.12" errorplus="0.11">1.34</mass>
+		<temperature errorminus="55.00" errorplus="45.00">4826.00</temperature>
+		<metallicity errorminus="0.100" errorplus="0.100">0.210</metallicity>
+		<spectraltype>K1III</spectraltype>
 		<planet>
 			<name>7 CMa b</name>
-			<name>7 Canis Majoris b</name>
 			<name>HD 47205 b</name>
-			<list>Confirmed planets</list>
-			<mass errorminus="0.14" errorplus="0.14" type="msini">2.46</mass>
-			<period errorminus="7.4" errorplus="7.4">796.0</period>
-			<semimajoraxis errorminus="0.01" errorplus="0.01">1.93</semimajoraxis>
-			<eccentricity errorminus="0.07" errorplus="0.07">0.22</eccentricity>
-			<periastron errorminus="14" errorplus="14">77</periastron>
-			<periastrontime errorminus="34" errorplus="34" unit="BJD">2454093</periastrontime>
-			<description>This planet is orbiting the star 7 CMa and was discovered by the Pan-Pacific Planet Search (PPPS). It is the first detection from this ongoing survey.</description>
+			<name>HIP 31592 b</name>
+			<semimajoraxis errorminus="0.001000" errorplus="0.024000">1.758000</semimajoraxis>
+			<eccentricity errorminus="0.030000" errorplus="0.030000">0.060000</eccentricity>
+			<periastron errorminus="70.8000" errorplus="5.1000">165.3000</periastron>
+			<inclination>90.000</inclination>
+			<period errorminus="1.00000000" errorplus="14.80000000">735.10000000</period>
+			<description>This planet was discovered by Wittenmyer et al. 2011. This was a ground based discovery. The parameters listed here are those reported by Luque et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.04000" errorplus="0.06000">1.85000</mass>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>15/10/25</lastupdate>
 			<discoveryyear>2011</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/10/24</lastupdate>
+		</planet>
+		<planet>
+			<name>7 CMa c</name>
+			<name>HD 47205 c</name>
+			<name>HIP 31592 c</name>
+			<semimajoraxis errorminus="0.080000" errorplus="0.003000">2.153000</semimajoraxis>
+			<eccentricity errorminus="0.040000" errorplus="0.050000">0.080000</eccentricity>
+			<periastron errorminus="40.2000" errorplus="7.7000">233.5000</periastron>
+			<inclination>90.000</inclination>
+			<period errorminus="52.40000000" errorplus="1.50000000">996.00000000</period>
+			<description>This planet was discovered by Luque et al. 2019. This was a ground based discovery. The parameters listed here are those reported by Luque et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.06000" errorplus="0.06000">0.87000</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/10/24</lastupdate>
 		</planet>
 	</star>
 </system>

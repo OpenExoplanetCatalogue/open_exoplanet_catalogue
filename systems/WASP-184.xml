@@ -1,0 +1,34 @@
+<system>
+	<name>WASP-184</name>
+	<rightascension>13 58 04</rightascension>
+	<declination>-30 20 53</declination>
+	<distance errorminus="28.00" errorplus="28.00">640.00</distance>
+	<star>
+		<name>WASP-184</name>
+		<radius errorminus="0.09" errorplus="0.09">1.65</radius>
+		<magJ errorminus="0.021" errorplus="0.021">11.590</magJ>
+		<magH errorminus="0.025" errorplus="0.025">11.319</magH>
+		<magK errorminus="0.023" errorplus="0.023">11.262</magK>
+		<mass errorminus="0.07" errorplus="0.07">1.23</mass>
+		<temperature errorminus="100.00" errorplus="100.00">6000.00</temperature>
+		<metallicity errorminus="0.080" errorplus="0.080">0.120</metallicity>
+		<spectraltype>G0V</spectraltype>
+		<planet>
+			<name>WASP-184 b</name>
+			<semimajoraxis errorminus="0.001200" errorplus="0.001200">0.062700</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination errorminus="1.100" errorplus="1.100">86.900</inclination>
+			<period errorminus="0.00001000" errorplus="0.00001000">5.18170000</period>
+			<description>This planet was discovered by Hellier et al. 2019. This was a ground based discovery. The parameters listed here are those reported by Hellier et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.10000" errorplus="0.10000">0.57000</mass>
+			<radius errorminus="0.090" errorplus="0.090">1.330</radius>
+			<temperature errorminus="50" errorplus="50">1480</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/10/10</lastupdate>
+			<transittime errorminus="0.001000" errorplus="0.001000">2457630.008000</transittime>
+		</planet>
+	</star>
+</system>
