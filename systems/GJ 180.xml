@@ -1,55 +1,60 @@
 <system>
 	<name>GJ 180</name>
-	<rightascension>04 53 49.97976</rightascension>
-	<declination>-17 46 24.2944</declination>
-	<distance errorminus="0.3" errorplus="0.4">12.1</distance>
+	<name>HIP 22762</name>
+	<rightascension>04 53 50</rightascension>
+	<declination>-17 46 24</declination>
+	<distance>11.94</distance>
 	<star>
 		<name>GJ 180</name>
-		<name>Gliese 180</name>
 		<name>HIP 22762</name>
-		<name>LHS 1712</name>
-		<name>2MASS J04534995-1746235</name>
-		<name>TYC 5903-680-1</name>
-		<magU>13.598</magU>
-		<magB>12.443</magB>
-		<magV>10.894</magV>
-		<magR>9.876</magR>
-		<magI>8.671</magI>
+		<magV errorminus="0.011" errorplus="0.011">10.910</magV>
+		<magI errorminus="0.008" errorplus="0.008">8.680</magI>
 		<magJ errorminus="0.020" errorplus="0.020">7.413</magJ>
 		<magH errorminus="0.038" errorplus="0.038">6.860</magH>
 		<magK errorminus="0.021" errorplus="0.021">6.598</magK>
-		<spectraltype>M2 V</spectraltype>
 		<mass>0.43</mass>
-		<temperature>3371</temperature>
+		<spectraltype>M2V</spectraltype>
 		<planet>
 			<name>GJ 180 b</name>
-			<name>Gliese 180 b</name>
-			<period errorminus="0.020" errorplus="0.018">17.380</period>
-			<eccentricity errorminus="0.11" errorplus="0.14">0.11</eccentricity>
-			<periastron>10</periastron>
-			<meananomaly>290</meananomaly>
-			<mass errorminus="0.017" errorplus="0.011" type="msini">0.026</mass>
-			<semimajoraxis errorminus="0.014" errorplus="0.006">0.103</semimajoraxis>
+			<name>HIP 22762 b</name>
+			<semimajoraxis errorminus="0.003000" errorplus="0.003000">0.092000</semimajoraxis>
+			<eccentricity errorminus="0.040000" errorplus="0.040000">0.070000</eccentricity>
+			<periastron errorminus="26.0000" errorplus="26.0000">276.0000</periastron>
+			<period errorminus="0.00300000" errorplus="0.00300000">17.13300000</period>
+			<description>This planet was discovered by Tuomi et al. 2014. This was a ground based discovery. The parameters listed here are those reported by Feng et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00214" errorplus="0.00214">0.02042</mass>
 			<discoverymethod>RV</discoverymethod>
 			<discoveryyear>2014</discoveryyear>
-			<description>The planet candidates orbiting GJ 180 were identified by Bayesian analysis of 56 UVES and 31 HARPS radial velocity measurements.</description>
-			<list>Controversial</list>
-			<lastupdate>15/04/21</lastupdate>
+			<list>Confirmed planets</list>
+			<lastupdate>20/02/13</lastupdate>
 		</planet>
 		<planet>
 			<name>GJ 180 c</name>
-			<name>Gliese 180 c</name>
-			<period errorminus="0.066" errorplus="0.052">24.329</period>
-			<eccentricity errorminus="0.09" errorplus="0.20">0.09</eccentricity>
-			<periastron>230</periastron>
-			<meananomaly>120</meananomaly>
-			<mass errorminus="0.013" errorplus="0.012">0.020</mass>
-			<semimajoraxis errorminus="0.017" errorplus="0.007">0.129</semimajoraxis>
+			<name>HIP 22762 c</name>
+			<semimajoraxis errorminus="0.017000" errorplus="0.007000">0.129000</semimajoraxis>
+			<eccentricity errorminus="0.090000" errorplus="0.200000">0.090000</eccentricity>
+			<periastron>230.0000</periastron>
+			<period errorminus="0.06600000" errorplus="0.05200000">24.32900000</period>
+			<description>This planet was discovered by Tuomi et al. 2014. This was a ground based discovery. The parameters listed here are those reported by Tuomi et al. 2014 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.01290" errorplus="0.01164">0.02014</mass>
 			<discoverymethod>RV</discoverymethod>
 			<discoveryyear>2014</discoveryyear>
-			<description>The planet candidates orbiting GJ 180 were identified by Bayesian analysis of 56 UVES and 31 HARPS radial velocity measurements.</description>
-			<list>Controversial</list>
-			<lastupdate>15/04/21</lastupdate>
+			<list>Confirmed planets</list>
+			<lastupdate>19/10/10</lastupdate>
+		</planet>
+		<planet>
+			<name>GJ 180 d</name>
+			<name>HIP 22762 d</name>
+			<semimajoraxis errorminus="0.010000" errorplus="0.010000">0.309000</semimajoraxis>
+			<eccentricity errorminus="0.040000" errorplus="0.040000">0.140000</eccentricity>
+			<periastron errorminus="127.0000" errorplus="127.0000">155.0000</periastron>
+			<period errorminus="0.12900000" errorplus="0.12900000">106.30000000</period>
+			<description>This planet was discovered by Feng et al. 2020. This was a ground based discovery. The parameters listed here are those reported by Feng et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00337" errorplus="0.00337">0.02379</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/02/13</lastupdate>
 		</planet>
 	</star>
 </system>

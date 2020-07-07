@@ -2,30 +2,35 @@
 	<name>CoRoT-30</name>
 	<rightascension>18 30 24</rightascension>
 	<declination>+06 50 09</declination>
-	<distance>960.0</distance>
+	<distance errorminus="40.00" errorplus="68.00">960.00</distance>
 	<star>
 		<name>CoRoT-30</name>
-		<age>1.5</age>
-		<radius>0.92</radius>
-		<mass>0.97</mass>
+		<radius errorminus="0.03" errorplus="0.09">0.91</radius>
+		<magV>15.650</magV>
+		<magI>14.750</magI>
+		<magJ errorminus="0.026" errorplus="0.026">14.019</magJ>
+		<magH errorminus="0.036" errorplus="0.036">13.551</magH>
+		<magK errorminus="0.044" errorplus="0.044">13.562</magK>
+		<mass errorminus="0.05" errorplus="0.03">0.98</mass>
+		<temperature errorminus="100.00" errorplus="100.00">5650.00</temperature>
+		<metallicity errorminus="0.100" errorplus="0.100">0.020</metallicity>
 		<spectraltype>G3V</spectraltype>
-		<temperature>5650.0</temperature>
-		<metallicity>0.02</metallicity>
 		<planet>
 			<name>CoRoT-30 b</name>
-			<semimajoraxis errorminus="0.001" errorplus="0.001">0.084</semimajoraxis>
-			<periastron errorminus="100.0" errorplus="100.0">178.1</periastron>
-			<eccentricity errorminus="0.007" errorplus="0.031">0.007</eccentricity>
-			<inclination errorminus="0.56" errorplus="0.56">90.0</inclination>
-			<period errorminus="0.000240" errorplus="0.000240">9.06005</period>
-			<mass errorminus="0.22" errorplus="0.22">2.84</mass>
-			<radius errorminus="0.08" errorplus="0.08">1.02</radius>
-			<istransiting>1</istransiting>
+			<semimajoraxis errorminus="0.001200" errorplus="0.001200">0.084400</semimajoraxis>
+			<eccentricity errorminus="0.031000" errorplus="0.031000">0.007000</eccentricity>
+			<periastron errorminus="100.2000" errorplus="100.2000">178.1000</periastron>
+			<inclination errorminus="0.560" errorplus="0.560">90.000</inclination>
+			<period errorminus="0.00024000" errorplus="0.00024000">9.06005000</period>
+			<description>This planet was discovered by Bordé et al. 2020. The discovery was made with a space based telescope (0.27 m CoRoT Telescope). The parameters listed here are those reported by Bordé et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.22000" errorplus="0.22000">2.90000</mass>
+			<radius errorminus="0.076" errorplus="0.076">1.009</radius>
 			<discoverymethod>transit</discoverymethod>
-			<discoveryyear>2017</discoveryyear>
-			<lastupdate>17/08/01</lastupdate>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
 			<list>Confirmed planets</list>
-			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+			<lastupdate>20/04/16</lastupdate>
+			<transittime errorminus="0.001200" errorplus="0.001200">2455665.514600</transittime>
 		</planet>
 	</star>
 </system>

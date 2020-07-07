@@ -12,44 +12,46 @@
 		<separation unit="AU">39.1</separation>
 		<positionangle>168</positionangle>
 		<star>
-			<name>GJ 229 A</name>
-			<name>Gliese 229 A</name>
-			<name>WDS J06106-2152 A</name>
-			<name>NAJ 1 A</name>
+			<name>GJ 229</name>
 			<name>HD 42581</name>
 			<name>HIP 29295</name>
-			<name>BD-21 1377</name>
-			<name>CPD-21 1138</name>
-			<name>LHS 1827</name>
-			<name>SAO 171334</name>
-			<name>TYC 5945-765-1</name>
-			<name>2MASS J06103462-2151521</name>
-			<magU>10.801</magU>
-			<magB>9.607</magB>
-			<magV>8.125</magV>
-			<magR>7.164</magR>
-			<magI>6.121</magI>
+			<magV>8.140</magV>
+			<magI>6.135</magI>
 			<magJ errorminus="0.037" errorplus="0.037">5.104</magJ>
 			<magH errorminus="0.254" errorplus="0.254">4.393</magH>
 			<magK errorminus="0.232" errorplus="0.232">4.166</magK>
-			<spectraltype>M1/M2 V</spectraltype>
 			<mass>0.58</mass>
-			<temperature>3564</temperature>
+			<spectraltype>M1/M2V</spectraltype>
 			<planet>
 				<name>GJ 229 b</name>
-				<name>GJ 229 A b</name>
-				<name>Gliese 229 A b</name>
-				<period errorminus="12" errorplus="22">471</period>
-				<eccentricity errorminus="0.10" errorplus="0.22">0.10</eccentricity>
-				<periastron>150</periastron>
-				<meananomaly>230</meananomaly>
-				<mass errorminus="0.050" errorplus="0.053" type="msini">0.101</mass>
-				<semimajoraxis errorminus="0.09" errorplus="0.12">0.97</semimajoraxis>
+				<name>HD 42581 b</name>
+				<name>HIP 29295 b</name>
+				<semimajoraxis errorminus="0.031000" errorplus="0.031000">0.898000</semimajoraxis>
+				<eccentricity errorminus="0.060000" errorplus="0.060000">0.100000</eccentricity>
+				<periastron errorminus="71.0000" errorplus="71.0000">199.0000</periastron>
+				<period errorminus="4.30000000" errorplus="4.30000000">526.11500000</period>
+				<description>This planet was discovered by Tuomi et al. 2014. This was a ground based discovery. The parameters listed here are those reported by Feng et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+				<mass errorminus="0.00640" errorplus="0.00640">0.02667</mass>
 				<discoverymethod>RV</discoverymethod>
 				<discoveryyear>2014</discoveryyear>
-				<description>This planet is in a binary system comprising the red dwarf star GJ 229 A and the brown dwarf GJ 229 B, which was the first identified methane brown dwarf. The planet candidate orbiting GJ 229 A was identified by Bayesian analysis of 73 UVES and 17 HARPS radial velocity measurements.</description>
-				<list>Controversial</list>
-				<lastupdate>15/04/21</lastupdate>
+				<list>Confirmed planets</list>
+				<lastupdate>20/02/13</lastupdate>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+			<planet>
+				<name>GJ 229 c</name>
+				<name>HD 42581 c</name>
+				<name>HIP 29295 c</name>
+				<semimajoraxis errorminus="0.011000" errorplus="0.011000">0.339000</semimajoraxis>
+				<eccentricity errorminus="0.080000" errorplus="0.080000">0.190000</eccentricity>
+				<periastron errorminus="33.0000" errorplus="33.0000">121.0000</periastron>
+				<period errorminus="0.16100000" errorplus="0.16100000">121.99500000</period>
+				<description>This planet was discovered by Feng et al. 2020. This was a ground based discovery. The parameters listed here are those reported by Feng et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+				<mass errorminus="0.00395" errorplus="0.00395">0.02287</mass>
+				<discoverymethod>RV</discoverymethod>
+				<discoveryyear>2020</discoveryyear>
+				<list>Confirmed planets</list>
+				<lastupdate>20/02/13</lastupdate>
 				<list>Planets in binary systems, S-type</list>
 			</planet>
 		</star>

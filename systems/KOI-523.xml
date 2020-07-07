@@ -10,46 +10,45 @@
 		<name>Kepler-177</name>
 		<name>KIC 8806123</name>
 		<name>2MASS J19041131+4503115</name>
+		<radius errorminus="0.05" errorplus="0.05">1.32</radius>
 		<magJ errorminus="0.025" errorplus="0.025">13.858</magJ>
-		<magH errorminus="0.03" errorplus="0.03">13.57</magH>
-		<magK errorminus="0.04" errorplus="0.04">13.42</magK>
-		<temperature errorminus="105.00" errorplus="105.00">6197.00</temperature>
-		<age errorminus="1.2000" errorplus="1.2000">1.8000</age>
-		<radius errorminus=".05" errorplus="0.05">0.98</radius>
-		<mass errorminus="0.28" errorplus="0.40">0.93</mass>
+		<magH errorminus="0.033" errorplus="0.033">13.570</magH>
+		<magK errorminus="0.040" errorplus="0.040">13.421</magK>
+		<mass errorminus="0.02" errorplus="0.03">0.92</mass>
+		<temperature errorminus="60.00" errorplus="60.00">5732.00</temperature>
+		<metallicity errorminus="0.040" errorplus="0.040">-0.110</metallicity>
 		<planet>
-			<name>KOI-523.02</name>
 			<name>KOI-523 b</name>
 			<name>Kepler-177 b</name>
 			<name>KIC 8806123 b</name>
-			<name>KIC 8806123.02</name>
-			<radius errorminus="0.01367" errorplus="0.01367">0.26428</radius>
-			<mass errorminus="0.00063" errorplus="0.00786">0.00535</mass>
-			<transittime errorminus="0.0038000" errorplus="0.0038000">2454971.9160800</transittime>
-			<period>36.855</period>
-			<list>Confirmed planets</list>
-			<description>This planet was discovered by the Kepler spacecraft. The planet is part of a multiplanetary system. Its planetary nature has been confirmed using transit timing variations which arise because the planets in one system pull on each other and slightly alter the transit times.</description>
+			<name>2MASS J19041131+4503115 b</name>
+			<eccentricity>0.000000</eccentricity>
+			<period errorminus="0.00140000" errorplus="0.00150000">35.86010000</period>
+			<description>This planet was discovered by Xie 2014. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Vissapragada et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00258" errorplus="0.00271">0.01837</mass>
+			<radius errorminus="0.013" errorplus="0.017">0.312</radius>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>13/09/13</lastupdate>
-			<discoveryyear>2013</discoveryyear>
 			<istransiting>1</istransiting>
+			<discoveryyear>2013</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/05/07</lastupdate>
 		</planet>
 		<planet>
-			<name>KOI-523.01</name>
 			<name>KOI-523 c</name>
 			<name>Kepler-177 c</name>
 			<name>KIC 8806123 c</name>
-			<name>KIC 8806123.01</name>
-			<radius errorminus="0.03372" errorplus="0.03372">0.64703</radius>
-			<mass errorminus="0.00094" errorplus="0.03334">0.01982</mass>
-			<transittime errorminus="0.0010000" errorplus="0.0010000">2455031.2347700</transittime>
-			<period>49.412</period>
-			<list>Confirmed planets</list>
-			<description>This planet was discovered by the Kepler spacecraft. The planet is part of a multiplanetary system. Its planetary nature has been confirmed using transit timing variations which arise because the planets in one system pull on each other and slightly alter the transit times.</description>
+			<name>2MASS J19041131+4503115 c</name>
+			<eccentricity>0.000000</eccentricity>
+			<inclination errorminus="0.035" errorplus="0.037">88.795</inclination>
+			<period errorminus="0.00077000" errorplus="0.00078000">49.40926000</period>
+			<description>This planet was discovered by Xie 2014. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Vissapragada et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00787" errorplus="0.00850">0.04625</mass>
+			<radius errorminus="0.030" errorplus="0.032">0.779</radius>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>13/09/13</lastupdate>
-			<discoveryyear>2013</discoveryyear>
 			<istransiting>1</istransiting>
+			<discoveryyear>2013</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/05/07</lastupdate>
 		</planet>
 	</star>
 </system>
