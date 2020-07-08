@@ -2,39 +2,33 @@
 	<name>WASP-44</name>
 	<rightascension>00 15 37</rightascension>
 	<declination>-11 56 17</declination>
-	<distance errorminus="5.6" errorplus="5.6">368.3</distance>
+	<distance errorminus="5.65" errorplus="5.65">368.31</distance>
 	<star>
-		<mass>0.917</mass>
-		<radius>0.865</radius>
-		<magV>12.9</magV>
-		<magB>13.7</magB>
-		<magR errorminus="0.07" errorplus="0.07">13.17</magR>
-		<magI errorminus="0.04" errorplus="0.04">12.19</magI>
+		<name>WASP-44</name>
+		<radius errorminus="0.05" errorplus="0.05">0.91</radius>
+		<magV>12.900</magV>
 		<magJ errorminus="0.023" errorplus="0.023">11.702</magJ>
 		<magH errorminus="0.025" errorplus="0.025">11.408</magH>
 		<magK errorminus="0.026" errorplus="0.026">11.341</magK>
-		<metallicity>0.06</metallicity>
+		<mass errorminus="0.05" errorplus="0.05">0.94</mass>
+		<temperature errorminus="100.00" errorplus="100.00">5420.00</temperature>
+		<metallicity errorminus="0.100" errorplus="0.100">-0.003</metallicity>
 		<spectraltype>G8V</spectraltype>
-		<age>4.1</age>
 		<planet>
 			<name>WASP-44 b</name>
-			<name>2MASS J00153675-1156172 b</name>
-			<list>Confirmed planets</list>
-			<mass>0.869</mass>
-			<radius>1.002</radius>
-			<temperature>1304</temperature>
-			<period>2.4238133</period>
-			<semimajoraxis>0.03445</semimajoraxis>
-			<eccentricity>0.0</eccentricity>
-			<inclination>86.02</inclination>
-			<transittime errorminus="0.00040" errorplus="0.00040" unit="BJD">2455434.37674</transittime>
-			<description>WASP-44 b is a sub-Jupiter mass planet in a 2.42 day orbit around a G8V star. It was discovered by the WASP collaboration and published in a paper by Anderson et al. (2012).</description>
+			<semimajoraxis errorminus="0.000650" errorplus="0.000650">0.034530</semimajoraxis>
+			<inclination errorminus="0.640" errorplus="0.680">86.210</inclination>
+			<period errorminus="0.00000800" errorplus="0.00000800">2.42380400</period>
+			<description>This planet was discovered by Anderson et al. 2011. This was a ground based discovery. The parameters listed here are those reported by Addison et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.06200" errorplus="0.06300">0.87000</mass>
+			<radius errorminus="0.076" errorplus="0.081">1.100</radius>
+			<temperature errorminus="42" errorplus="43">1337</temperature>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>13/01/14</lastupdate>
-			<discoveryyear>2011</discoveryyear>
 			<istransiting>1</istransiting>
+			<discoveryyear>2011</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/09/26</lastupdate>
+			<transittime errorminus="0.000374" errorplus="0.000364">2458338.102384</transittime>
 		</planet>
-		<name>WASP-44</name>
-		<temperature>5410.0</temperature>
 	</star>
 </system>

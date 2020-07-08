@@ -1,0 +1,64 @@
+<system>
+	<name>GJ 357</name>
+	<name>HIP 47103</name>
+	<rightascension>09 36 02</rightascension>
+	<declination>-21 39 39</declination>
+	<distance errorminus="0.01" errorplus="0.01">9.44</distance>
+	<star>
+		<name>GJ 357</name>
+		<name>HIP 47103</name>
+		<radius errorminus="0.01" errorplus="0.01">0.34</radius>
+		<magV errorminus="0.030" errorplus="0.030">10.920</magV>
+		<magI errorminus="0.008" errorplus="0.008">8.560</magI>
+		<magJ errorminus="0.034" errorplus="0.034">7.337</magJ>
+		<magH errorminus="0.033" errorplus="0.033">6.740</magH>
+		<magK errorminus="0.017" errorplus="0.017">6.475</magK>
+		<mass errorminus="0.01" errorplus="0.01">0.34</mass>
+		<temperature errorminus="51.00" errorplus="51.00">3505.00</temperature>
+		<metallicity errorminus="0.160" errorplus="0.160">-0.120</metallicity>
+		<spectraltype>M2.5V</spectraltype>
+		<planet>
+			<name>GJ 357 b</name>
+			<name>HIP 47103 b</name>
+			<semimajoraxis errorminus="0.002000" errorplus="0.002000">0.035000</semimajoraxis>
+			<inclination errorminus="0.310" errorplus="0.370">89.120</inclination>
+			<period errorminus="0.00006000" errorplus="0.00008000">3.93072000</period>
+			<description>This planet was discovered by Luque et al. 2019. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here are those reported by Luque et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00098" errorplus="0.00098">0.00579</mass>
+			<radius errorminus="0.007" errorplus="0.007">0.109</radius>
+			<temperature errorminus="9" errorplus="11">525</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/08/15</lastupdate>
+			<transittime errorminus="0.000380" errorplus="0.000390">2458517.998620</transittime>
+		</planet>
+		<planet>
+			<name>GJ 357 c</name>
+			<name>HIP 47103 c</name>
+			<semimajoraxis errorminus="0.004000" errorplus="0.004000">0.061000</semimajoraxis>
+			<period errorminus="0.00100000" errorplus="0.00110000">9.12470000</period>
+			<description>This planet was discovered by Luque et al. 2019. The parameters listed here are those reported by Luque et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00145" errorplus="0.00145">0.01070</mass>
+			<temperature errorminus="11" errorplus="11">401</temperature>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/08/01</lastupdate>
+		</planet>
+		<planet>
+			<name>GJ 357 d</name>
+			<name>HIP 47103 d</name>
+			<semimajoraxis errorminus="0.015000" errorplus="0.015000">0.204000</semimajoraxis>
+			<period errorminus="0.05500000" errorplus="0.05500000">55.66100000</period>
+			<description>This planet was discovered by Luque et al. 2019. The parameters listed here are those reported by Luque et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00315" errorplus="0.00315">0.01919</mass>
+			<temperature errorminus="6" errorplus="6">220</temperature>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/08/01</lastupdate>
+		</planet>
+	</star>
+</system>

@@ -14,20 +14,20 @@
 			<spectraltype>F7 V</spectraltype>
 			<planet>
 				<name>WASP-180 A b</name>
-				<list>Confirmed planets</list>
-				<radius errorminus="0.04" errorplus="0.04">1.24</radius>
-				<mass errorminus="0.1" errorplus="0.1">0.9</mass>
-				<period errorminus="0.000001" errorplus="0.000001">3.409265</period>
-				<transittime errorminus="0.0003" errorplus="0.0003">2457763.3147</transittime>
-				<semimajoraxis errorminus="0.001" errorplus="0.001">0.048</semimajoraxis>
-				<temperature errorminus="50" errorplus="50">1570</temperature>
-				<inclination errorminus="0.6" errorplus="0.6">87.4</inclination>
-				<eccentricity>0</eccentricity>
-				<description>This is a hot Jupiter, discovered by the HATSouth project.</description>
+				<semimajoraxis errorminus="0.001000" errorplus="0.001000">0.048000</semimajoraxis>
+				<eccentricity>0.000000</eccentricity>
+				<inclination errorminus="0.100" errorplus="0.100">88.100</inclination>
+				<period errorminus="0.00000100" errorplus="0.00000100">3.40926400</period>
+				<description>This planet was discovered by Temple et al. 2019. This was a ground based discovery. The parameters listed here are those reported by Temple et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+				<mass errorminus="0.10000" errorplus="0.10000">0.90000</mass>
+				<radius errorminus="0.040" errorplus="0.040">1.240</radius>
+				<temperature errorminus="40" errorplus="40">1540</temperature>
 				<discoverymethod>transit</discoverymethod>
 				<istransiting>1</istransiting>
-				<lastupdate>19/06/26</lastupdate>
 				<discoveryyear>2019</discoveryyear>
+				<list>Confirmed planets</list>
+				<lastupdate>19/09/26</lastupdate>
+				<transittime errorminus="0.000100" errorplus="0.000100">2457763.315000</transittime>
 				<list>Planets in binary systems, S-type</list>
 			</planet>
 		</star>

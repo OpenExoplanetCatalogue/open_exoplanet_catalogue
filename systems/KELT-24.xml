@@ -1,0 +1,42 @@
+<system>
+	<name>KELT-24</name>
+	<name>HD 93148</name>
+	<name>HIP 52796</name>
+	<rightascension>10 47 38</rightascension>
+	<declination>+71 39 21</declination>
+	<distance errorminus="0.31" errorplus="0.31">96.03</distance>
+	<star>
+		<name>KELT-24</name>
+		<name>HD 93148</name>
+		<name>HIP 52796</name>
+		<radius errorminus="0.02" errorplus="0.02">1.51</radius>
+		<magV errorminus="0.012" errorplus="0.012">8.332</magV>
+		<magJ errorminus="0.024" errorplus="0.024">7.408</magJ>
+		<magH errorminus="0.044" errorplus="0.044">7.200</magH>
+		<magK errorminus="0.021" errorplus="0.021">7.154</magK>
+		<mass errorminus="0.06" errorplus="0.06">1.46</mass>
+		<temperature errorminus="49.00" errorplus="50.00">6509.00</temperature>
+		<metallicity errorminus="0.076" errorplus="0.077">0.186</metallicity>
+		<spectraltype>F5</spectraltype>
+		<planet>
+			<name>KELT-24 b</name>
+			<name>HD 93148 b</name>
+			<name>HIP 52796 b</name>
+			<semimajoraxis errorminus="0.000960" errorplus="0.000870">0.069690</semimajoraxis>
+			<eccentricity errorminus="0.025000" errorplus="0.024000">0.077000</eccentricity>
+			<periastron errorminus="15.0000" errorplus="13.0000">55.0000</periastron>
+			<inclination errorminus="0.750" errorplus="0.590">89.170</inclination>
+			<period errorminus="0.00000800" errorplus="0.00000810">5.55149260</period>
+			<description>This planet was discovered by Rodriguez et al. 2019. This was a ground based discovery. The parameters listed here are those reported by Rodriguez et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.22000" errorplus="0.21000">5.18000</mass>
+			<radius errorminus="0.021" errorplus="0.021">1.272</radius>
+			<temperature errorminus="16" errorplus="16">1459</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/09/12</lastupdate>
+			<transittime errorminus="0.000350" errorplus="0.000360">2458540.477590</transittime>
+		</planet>
+	</star>
+</system>

@@ -1,0 +1,34 @@
+<system>
+	<name>WASP-171</name>
+	<rightascension>11 27 23</rightascension>
+	<declination>-44 05 19</declination>
+	<distance errorminus="19.96" errorplus="19.96">774.33</distance>
+	<star>
+		<name>WASP-171</name>
+		<radius errorminus="0.05" errorplus="0.09">1.64</radius>
+		<magJ errorminus="0.019" errorplus="0.019">11.422</magJ>
+		<magH errorminus="0.023" errorplus="0.023">11.158</magH>
+		<magK errorminus="0.019" errorplus="0.019">11.104</magK>
+		<mass errorminus="0.06" errorplus="0.06">1.17</mass>
+		<temperature errorminus="100.00" errorplus="100.00">5965.00</temperature>
+		<metallicity errorminus="0.070" errorplus="0.070">0.040</metallicity>
+		<spectraltype>G0</spectraltype>
+		<planet>
+			<name>WASP-171 b</name>
+			<semimajoraxis errorminus="0.000830" errorplus="0.000830">0.050400</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination errorminus="1.900" errorplus="1.100">88.300</inclination>
+			<period errorminus="0.00000380" errorplus="0.00000380">3.81862440</period>
+			<description>This planet was discovered by Nielsen et al. 2019. This was a ground based discovery. The parameters listed here are those reported by Nielsen et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.09400" errorplus="0.09400">1.08400</mass>
+			<radius errorminus="0.040" errorplus="0.070">0.980</radius>
+			<temperature errorminus="35" errorplus="51">1642</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/09/12</lastupdate>
+			<transittime errorminus="0.001100" errorplus="0.001100">2458059.829500</transittime>
+		</planet>
+	</star>
+</system>

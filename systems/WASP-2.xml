@@ -9,36 +9,32 @@
 		<separation unit="AU">125</separation>
 		<positionangle errorminus="0.3" errorplus="0.3">104.7</positionangle>
 		<star>
-			<name>WASP-2 A</name>
-			<mass errorminus="0.12" errorplus="0.12">0.89</mass>
-			<radius errorminus="0.065" errorplus="0.065">0.840</radius>
-			<magV>11.98</magV>
-			<magB>13</magB>
+			<name>WASP-2</name>
+			<radius errorminus="0.03" errorplus="0.03">0.87</radius>
+			<magV errorminus="0.100" errorplus="0.100">11.880</magV>
 			<magJ errorminus="0.027" errorplus="0.027">10.166</magJ>
 			<magH errorminus="0.026" errorplus="0.026">9.752</magH>
 			<magK errorminus="0.024" errorplus="0.024">9.632</magK>
-			<temperature errorminus="71" errorplus="71">5255</temperature>
-			<metallicity>-0.08</metallicity>
+			<mass errorminus="0.07" errorplus="0.08">0.90</mass>
+			<temperature errorminus="190.00" errorplus="190.00">5180.00</temperature>
+			<metallicity errorminus="0.190" errorplus="0.210">0.120</metallicity>
 			<spectraltype>K1V</spectraltype>
 			<planet>
-				<name>WASP-2 A b</name>
 				<name>WASP-2 b</name>
-				<name>2MASS J20305413+0625463 b</name>
-				<list>Confirmed planets</list>
-				<list>Planets in binary systems, S-type</list>
-				<mass errorminus="0.092" errorplus="0.092">0.914</mass>
-				<radius errorminus="0.082" errorplus="0.082">1.117</radius>
-				<period>2.15222144</period>
-				<semimajoraxis>0.03138</semimajoraxis>
-				<eccentricity>0.0</eccentricity>
-				<inclination>84.73</inclination>
-				<transittime errorminus="0.00017" errorplus="0.00017" unit="BJD">2455147.25721</transittime>
+				<semimajoraxis errorminus="0.000870" errorplus="0.000880">0.031440</semimajoraxis>
+				<inclination errorminus="0.180" errorplus="0.170">84.490</inclination>
+				<period errorminus="0.00001100" errorplus="0.00001200">2.15217500</period>
+				<description>This planet was discovered by Collier Cameron et al. 2007. This was a ground based discovery. The parameters listed here are those reported by Addison et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+				<mass errorminus="0.05800" errorplus="0.06000">0.93100</mass>
+				<radius errorminus="0.040" errorplus="0.041">1.081</radius>
+				<temperature errorminus="50" errorplus="52">1311</temperature>
 				<discoverymethod>transit</discoverymethod>
-				<lastupdate>13/01/27</lastupdate>
-				<discoveryyear>2006</discoveryyear>
-				<description>WASP-2 is an orange dwarf star that hosts the exoplanet WASP-2 b. It was discovered with the SuperWASP survey in 2006.</description>
-				<temperature>1170.7</temperature>
 				<istransiting>1</istransiting>
+				<discoveryyear>2007</discoveryyear>
+				<list>Confirmed planets</list>
+				<lastupdate>19/09/26</lastupdate>
+				<transittime errorminus="0.000270" errorplus="0.000280">2458339.003420</transittime>
+				<list>Planets in binary systems, S-type</list>
 			</planet>
 		</star>
 		<star>

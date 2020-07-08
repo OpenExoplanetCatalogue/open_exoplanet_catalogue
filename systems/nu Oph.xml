@@ -1,62 +1,55 @@
 <system>
 	<name>nu Oph</name>
-	<rightascension>17 59 01.59191</rightascension>
-	<declination>-09 46 25.0798</declination>
-	<distance errorminus="0.56" errorplus="0.56">46.21</distance>
+	<name>HD 163917</name>
+	<name>HIP 88048</name>
+	<rightascension>17 59 02</rightascension>
+	<declination>-09 46 25</declination>
+	<distance errorminus="0.60" errorplus="0.60">46.20</distance>
 	<star>
 		<name>nu Oph</name>
-		<name>nu. Oph</name>
-		<name>Nu Ophiuchi</name>
-		<name>ν Oph</name>
-		<name>ν Ophiuchi</name>
-		<name>64 Oph</name>
-		<name>64 Ophiuchi</name>
 		<name>HD 163917</name>
 		<name>HIP 88048</name>
-		<name>TYC 5678-956-1</name>
-		<name>SAO 142004</name>
-		<name>HR 6698</name>
-		<name>BD-09 6432</name>
-		<name>2MASS J17590160-0946249</name>
-		<magV>3.33</magV>
-		<magR>2.64</magR>
-		<magI>2.16</magI>
-		<magB errorminus="0.01" errorplus="0.01">4.31</magB>
+		<radius errorminus="0.30" errorplus="0.30">14.60</radius>
+		<magV>3.340</magV>
+		<magI>2.387</magI>
 		<magJ errorminus="0.290" errorplus="0.290">1.732</magJ>
 		<magH errorminus="0.284" errorplus="0.284">1.289</magH>
 		<magK errorminus="0.306" errorplus="0.306">1.225</magK>
+		<mass errorminus="0.20" errorplus="0.20">2.70</mass>
+		<temperature errorminus="42.00" errorplus="42.00">4886.00</temperature>
+		<metallicity errorminus="0.100" errorplus="0.100">0.060</metallicity>
 		<spectraltype>K0III</spectraltype>
-		<mass lowerlimit="2.98" upperlimit="3.10">3.04</mass>
-		<radius lowerlimit="14.1" upperlimit="16.2">15.1</radius>
-		<temperature errorminus="25" errorplus="25">4928</temperature>
-		<metallicity errorminus="0.05" errorplus="0.05">0.13</metallicity>
 		<planet>
 			<name>nu Oph b</name>
-			<list>Confirmed planets</list>
-			<mass type="msini">24</mass>
-			<period errorminus="0.35" errorplus="0.35">530.32</period>
-			<semimajoraxis>1.9</semimajoraxis>
-			<eccentricity errorminus="0.0065" errorplus="0.0065">0.1256</eccentricity>
-			<periastron errorminus="3.8" errorplus="3.8">9.6</periastron>
-			<periastrontime errorminus="6.6" errorplus="6.6">2452034.2</periastrontime>
+			<name>HD 163917 b</name>
+			<name>HIP 88048 b</name>
+			<semimajoraxis>1.790000</semimajoraxis>
+			<eccentricity errorminus="0.003000" errorplus="0.003000">0.124000</eccentricity>
+			<periastron errorminus="1.4900" errorplus="1.4900">9.9300</periastron>
+			<inclination>90.000</inclination>
+			<period errorminus="0.10000000" errorplus="0.10000000">530.21000000</period>
+			<description>This planet was discovered by Sato et al. 2012. This was a ground based discovery. The parameters listed here are those reported by Quirrenbach et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>22.20600</mass>
 			<discoverymethod>RV</discoverymethod>
-			<description>The Nu Ophiuchi system contains a pair of massive planets or brown dwarfs close to a 6:1 resonance.</description>
-			<lastupdate>15/11/02</lastupdate>
-			<discoveryyear>2004</discoveryyear>
+			<discoveryyear>2012</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/09/26</lastupdate>
 		</planet>
 		<planet>
 			<name>nu Oph c</name>
-			<list>Confirmed planets</list>
-			<mass type="msini">27</mass>
-			<period errorminus="14" errorplus="14">3186</period>
-			<semimajoraxis>6.1</semimajoraxis>
-			<eccentricity errorminus="0.013" errorplus="0.013">0.165</eccentricity>
-			<periastron errorminus="4.5" errorplus="4.5">4.6</periastron>
-			<periastrontime errorminus="38" errorplus="38">2453038</periastrontime>
-			<description>The Nu Ophiuchi system contains a pair of massive planets or brown dwarfs close to a 6:1 resonance.</description>
+			<name>HD 163917 c</name>
+			<name>HIP 88048 c</name>
+			<semimajoraxis>5.931000</semimajoraxis>
+			<eccentricity errorminus="0.006000" errorplus="0.006000">0.180000</eccentricity>
+			<periastron errorminus="1.9800" errorplus="1.9800">8.2700</periastron>
+			<inclination>90.000</inclination>
+			<period errorminus="5.93000000" errorplus="5.93000000">3184.83000000</period>
+			<description>This planet was discovered by Sato et al. 2012. This was a ground based discovery. The parameters listed here are those reported by Quirrenbach et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>24.66200</mass>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>15/11/02</lastupdate>
-			<discoveryyear>2010</discoveryyear>
+			<discoveryyear>2012</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/09/26</lastupdate>
 		</planet>
 	</star>
 </system>

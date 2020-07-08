@@ -1,54 +1,56 @@
 <system>
 	<name>beta Pic</name>
+	<name>bet Pic</name>
+	<name>HD 39060</name>
+	<name>HIP 27321</name>
 	<rightascension>05 47 17</rightascension>
 	<declination>-51 03 59</declination>
-	<distance errorminus="0.2" errorplus="0.2">19.3</distance>
+	<distance errorminus="0.13" errorplus="0.13">19.75</distance>
 	<star>
 		<name>beta Pic</name>
 		<name>bet Pic</name>
-		<name>Beta Pictoris</name>
-		<name>HR 2020</name>
 		<name>HD 39060</name>
 		<name>HIP 27321</name>
-		<name>SAO 234134</name>
-		<name>TYC 8099-1392-1</name>
-		<name>CD-51 1620</name>
-		<name>2MASS J05471708-5103594</name>
-		<mass errorminus="0.05" errorplus="0.05">1.60</mass>
-		<magV>3.86</magV>
-		<magR>3.74</magR>
-		<magI>3.58</magI>
-		<magB>4.029</magB>
-		<magJ errorminus="0.24" errorplus="0.24">3.67</magJ>
-		<magH errorminus="0.20" errorplus="0.20">3.54</magH>
-		<magK errorminus="0.22" errorplus="0.22">3.53</magK>
-		<age errorminus="0.003" errorplus="0.003">0.023</age>
-		<spectraltype>A6V</spectraltype>
+		<magV>3.850</magV>
+		<magI>3.675</magI>
+		<magJ errorminus="0.236" errorplus="0.236">3.669</magJ>
+		<magH errorminus="0.200" errorplus="0.200">3.544</magH>
+		<magK errorminus="0.222" errorplus="0.222">3.526</magK>
+		<mass errorminus="0.17" errorplus="0.18">1.76</mass>
+		<spectraltype>A5V</spectraltype>
 		<planet>
 			<name>beta Pic b</name>
 			<name>bet Pic b</name>
-			<name>Beta Pictoris b</name>
-			<name>HR 2020 b</name>
 			<name>HD 39060 b</name>
-			<list>Confirmed planets</list>
-			<mass errorminus="5" errorplus="5">11</mass>
-			<radius errorminus="0.06" errorplus="0.06">1.65</radius>
-			<period errorminus="599" errorplus="1947">8167</period>
-			<semimajoraxis errorminus="0.45" errorplus="1.46">9.25</semimajoraxis>
-			<eccentricity errorminus="0.05" errorplus="0.11">0.07</eccentricity>
-			<inclination errorminus="0.30" errorplus="0.30">89.01</inclination>
-			<periastron errorminus="80.76" errorplus="33.07">155.85</periastron>
-			<ascendingnode errorminus="0.15" errorplus="0.15">31.75</ascendingnode>
-			<periastrontime errorminus="1000" errorplus="1400">2454737</periastrontime>
-			<discoverymethod>imaging</discoverymethod>
+			<name>HIP 27321 b</name>
+			<semimajoraxis errorminus="0.500000" errorplus="5.300000">9.100000</semimajoraxis>
+			<eccentricity errorminus="0.060000" errorplus="0.320000">0.080000</eccentricity>
+			<periastron errorminus="94.0000" errorplus="93.0000">-8.0000</periastron>
+			<inclination errorminus="0.700" errorplus="0.700">88.900</inclination>
+			<period errorminus="730.00000000" errorplus="7300.00000000">7665.00000000</period>
 			<description>Beta Pictoris is an A type star, 63 lightyears away from our own Solar System. The star is host to a debris disk and a planet. Using high spectroscopic observations, astronomers were able to measure the length of a day on bet Pic b: 8.1 hours. The planet or material in orbit around it may have been responsible for a transit-like event observed in November 1981.</description>
 			<lastupdate>15/08/22</lastupdate>
-			<discoveryyear>2008</discoveryyear>
 			<image>beta Pic</image>
 			<imagedescription>This image shows the planet Beta Pictoris b. It has been optained with NACO on VLT. The star has been masked out to enable the viewer to see clearly the planet. Credit: ESO.</imagedescription>
-			<temperature errorminus="25" errorplus="50">1600</temperature>
+			<discoverymethod>imaging</discoverymethod>
+			<discoveryyear>2008</discoveryyear>
+			<list>Confirmed planets</list>
 		</planet>
-		<temperature>9790.0</temperature>
+		<planet>
+			<name>beta Pic c</name>
+			<name>bet Pic c</name>
+			<name>HD 39060 c</name>
+			<name>HIP 27321 c</name>
+			<semimajoraxis>2.700000</semimajoraxis>
+			<eccentricity>0.240000</eccentricity>
+			<inclination>90.000</inclination>
+			<period>1200.00000000</period>
+			<description>This planet was discovered by Lagrange et al. 2019. This was a ground based discovery. The parameters listed here are those reported by Lagrange et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>9.00000</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/08/29</lastupdate>
+		</planet>
 	</star>
-	<videolink>http://youtu.be/rlGZhdXlBAM</videolink>
 </system>

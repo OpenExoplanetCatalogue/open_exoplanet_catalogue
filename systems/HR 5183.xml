@@ -1,0 +1,38 @@
+<system>
+	<name>HR 5183</name>
+	<name>HD 120066</name>
+	<name>HIP 67246</name>
+	<rightascension>13 46 57</rightascension>
+	<declination>+06 21 01</declination>
+	<distance errorminus="0.04" errorplus="0.04">31.49</distance>
+	<star>
+		<name>HR 5183</name>
+		<name>HD 120066</name>
+		<name>HIP 67246</name>
+		<radius errorminus="0.05" errorplus="0.06">1.53</radius>
+		<magV>6.300</magV>
+		<magJ errorminus="0.024" errorplus="0.024">5.212</magJ>
+		<magH errorminus="0.061" errorplus="0.061">4.997</magH>
+		<magK errorminus="0.021" errorplus="0.021">4.851</magK>
+		<mass errorminus="0.04" errorplus="0.04">1.07</mass>
+		<temperature errorminus="100.00" errorplus="100.00">5794.00</temperature>
+		<metallicity errorminus="0.060" errorplus="0.060">0.100</metallicity>
+		<spectraltype>G0V</spectraltype>
+		<planet>
+			<name>HR 5183 b</name>
+			<name>HD 120066 b</name>
+			<name>HIP 67246 b</name>
+			<semimajoraxis errorminus="4.000000" errorplus="6.000000">18.000000</semimajoraxis>
+			<eccentricity errorminus="0.040000" errorplus="0.040000">0.840000</eccentricity>
+			<periastron errorminus="2.0000" errorplus="2.0000">-20.0000</periastron>
+			<period errorminus="8000.00000000" errorplus="16000.00000000">27000.00000000</period>
+			<description>This planet was discovered by Blunt et al. 2019. This was a ground based discovery. The parameters listed here are those reported by Blunt et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.14000" errorplus="0.15000">3.23000</mass>
+			<temperature errorminus="5" errorplus="5">171</temperature>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/09/26</lastupdate>
+		</planet>
+	</star>
+</system>

@@ -1,0 +1,33 @@
+<system>
+	<name>K2-66</name>
+	<rightascension>22 06 06</rightascension>
+	<declination>-10 42 42</declination>
+	<distance errorminus="23.47" errorplus="23.47">520.43</distance>
+	<star>
+		<name>K2-66</name>
+		<radius errorminus="0.12" errorplus="0.12">1.67</radius>
+		<magV errorminus="0.186" errorplus="0.186">11.710</magV>
+		<magJ errorminus="0.023" errorplus="0.023">10.948</magJ>
+		<magH errorminus="0.026" errorplus="0.026">10.664</magH>
+		<magK errorminus="0.021" errorplus="0.021">10.609</magK>
+		<mass errorminus="0.04" errorplus="0.04">1.11</mass>
+		<temperature errorminus="46.00" errorplus="46.00">5887.00</temperature>
+		<metallicity errorminus="0.020" errorplus="0.020">-0.047</metallicity>
+		<planet>
+			<name>K2-66 b</name>
+			<semimajoraxis errorminus="0.000720" errorplus="0.000720">0.059830</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination errorminus="4.400" errorplus="2.400">86.600</inclination>
+			<period errorminus="0.00081000" errorplus="0.00081000">5.06963000</period>
+			<description>This planet was discovered by Crossfield et al. 2016. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Sinukoff et al. 2017 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.01133" errorplus="0.01133">0.06702</mass>
+			<radius errorminus="0.021" errorplus="0.030">0.222</radius>
+			<temperature errorminus="51" errorplus="51">1372</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/07/25</lastupdate>
+		</planet>
+	</star>
+</system>
