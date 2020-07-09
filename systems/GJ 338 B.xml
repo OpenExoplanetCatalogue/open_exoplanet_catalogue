@@ -1,0 +1,38 @@
+<system>
+	<name>GJ 338 B</name>
+	<name>HD 79211</name>
+	<name>HIP 120005</name>
+	<rightascension>09 14 25</rightascension>
+	<declination>+52 41 11</declination>
+	<distance>6.33</distance>
+	<star>
+		<name>GJ 338 B</name>
+		<name>HD 79211</name>
+		<name>HIP 120005</name>
+		<radius errorminus="0.03" errorplus="0.03">0.58</radius>
+		<magV errorminus="0.010" errorplus="0.010">7.700</magV>
+		<magJ errorminus="0.174" errorplus="0.174">4.779</magJ>
+		<magH errorminus="0.206" errorplus="0.206">4.043</magH>
+		<magK errorminus="0.020" errorplus="0.020">4.136</magK>
+		<mass errorminus="0.07" errorplus="0.07">0.64</mass>
+		<temperature errorminus="51.00" errorplus="51.00">4005.00</temperature>
+		<metallicity errorminus="0.160" errorplus="0.160">-0.030</metallicity>
+		<spectraltype>M0.0V</spectraltype>
+		<planet>
+			<name>GJ 338 B b</name>
+			<name>HD 79211 b</name>
+			<name>HIP 120005 b</name>
+			<semimajoraxis errorminus="0.005000" errorplus="0.005000">0.141000</semimajoraxis>
+			<eccentricity errorminus="0.080000" errorplus="0.110000">0.110000</eccentricity>
+			<periastron errorminus="70.0000" errorplus="94.4000">204.3000</periastron>
+			<period errorminus="0.02000000" errorplus="0.02000000">24.45000000</period>
+			<description>This planet was discovered by González-Álvarez et al. 2020. This was a ground based discovery. The parameters listed here are those reported by González-Álvarez et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00434" errorplus="0.00463">0.03231</mass>
+			<temperature errorminus="20" errorplus="20">391</temperature>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/07/09</lastupdate>
+		</planet>
+	</star>
+</system>

@@ -1,0 +1,45 @@
+<system>
+	<name>PDS 70</name>
+	<rightascension>14 08 10</rightascension>
+	<declination>-41 23 53</declination>
+	<distance errorminus="0.51" errorplus="0.51">113.39</distance>
+	<star>
+		<name>PDS 70</name>
+		<magV errorminus="0.123" errorplus="0.123">12.233</magV>
+		<magJ errorminus="0.021" errorplus="0.021">9.553</magJ>
+		<magH errorminus="0.037" errorplus="0.037">8.823</magH>
+		<magK errorminus="0.021" errorplus="0.021">8.542</magK>
+		<temperature errorminus="36.00" errorplus="36.00">3972.00</temperature>
+		<spectraltype>K7</spectraltype>
+		<planet>
+			<name>PDS 70 c</name>
+			<semimajoraxis errorminus="3.000000" errorplus="6.000000">34.000000</semimajoraxis>
+			<eccentricity errorminus="0.060000" errorplus="0.120000">0.110000</eccentricity>
+			<periastron errorminus="58.0000" errorplus="50.0000">136.0000</periastron>
+			<inclination errorminus="7.000" errorplus="7.000">132.000</inclination>
+			<description>This planet was discovered by Haffert et al. 2019. This was a ground based discovery. The parameters listed here are those reported by Wang et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="1.00000" errorplus="1.00000">2.00000</mass>
+			<radius errorminus="0.450" errorplus="0.610">2.040</radius>
+			<temperature errorminus="49" errorplus="71">995</temperature>
+			<discoverymethod>imaging</discoverymethod>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/07/09</lastupdate>
+		</planet>
+		<planet>
+			<name>PDS 70 b</name>
+			<semimajoraxis errorminus="2.000000" errorplus="2.000000">20.000000</semimajoraxis>
+			<eccentricity errorminus="0.090000" errorplus="0.150000">0.190000</eccentricity>
+			<periastron errorminus="31.0000" errorplus="31.0000">148.0000</periastron>
+			<inclination errorminus="6.000" errorplus="7.000">140.000</inclination>
+			<description>This planet was discovered by Keppler et al. 2018. This was a ground based discovery. The parameters listed here are those reported by Wang et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="1.00000" errorplus="1.00000">3.00000</mass>
+			<radius errorminus="0.170" errorplus="0.200">2.720</radius>
+			<temperature errorminus="27" errorplus="26">1204</temperature>
+			<discoverymethod>imaging</discoverymethod>
+			<discoveryyear>2018</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/07/09</lastupdate>
+		</planet>
+	</star>
+</system>

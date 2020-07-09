@@ -1,0 +1,52 @@
+<system>
+	<name>WASP-148</name>
+	<rightascension>16 56 31</rightascension>
+	<declination>+44 18 10</declination>
+	<distance errorminus="1.58" errorplus="1.58">248.11</distance>
+	<star>
+		<name>WASP-148</name>
+		<radius errorminus="0.20" errorplus="0.20">1.03</radius>
+		<magV errorminus="0.021" errorplus="0.021">12.247</magV>
+		<magJ errorminus="0.020" errorplus="0.020">10.938</magJ>
+		<magH errorminus="0.016" errorplus="0.016">10.585</magH>
+		<magK errorminus="0.015" errorplus="0.015">10.506</magK>
+		<mass errorminus="0.08" errorplus="0.08">1.00</mass>
+		<temperature errorminus="130.00" errorplus="130.00">5460.00</temperature>
+		<metallicity errorminus="0.080" errorplus="0.080">0.110</metallicity>
+		<spectraltype>G</spectraltype>
+		<planet>
+			<name>WASP-148 b</name>
+			<semimajoraxis errorminus="0.002200" errorplus="0.002200">0.084500</semimajoraxis>
+			<eccentricity errorminus="0.063000" errorplus="0.063000">0.220000</eccentricity>
+			<periastron errorminus="20.0000" errorplus="20.0000">59.0000</periastron>
+			<inclination errorminus="0.270" errorplus="0.270">89.800</inclination>
+			<period errorminus="0.00004300" errorplus="0.00004300">8.80381000</period>
+			<description>This planet was discovered by Hebrard et al. 2020. This was a ground based discovery. The parameters listed here are those reported by Hebrard et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.02500" errorplus="0.02500">0.29100</mass>
+			<radius errorminus="0.055" errorplus="0.055">0.722</radius>
+			<temperature errorminus="80" errorplus="80">940</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/07/09</lastupdate>
+			<transittime errorminus="0.005900" errorplus="0.005900">2457957.487700</transittime>
+		</planet>
+		<planet>
+			<name>WASP-148 c</name>
+			<semimajoraxis errorminus="0.005500" errorplus="0.005500">0.210100</semimajoraxis>
+			<eccentricity errorminus="0.086000" errorplus="0.086000">0.359000</eccentricity>
+			<periastron errorminus="17.0000" errorplus="17.0000">14.0000</periastron>
+			<period errorminus="0.02900000" errorplus="0.02900000">34.51600000</period>
+			<description>This planet was discovered by Hebrard et al. 2020. This was a ground based discovery. The parameters listed here are those reported by Hebrard et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.05000" errorplus="0.05000">0.40000</mass>
+			<temperature errorminus="50" errorplus="50">590</temperature>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/07/09</lastupdate>
+			<transittime errorminus="1.100000" errorplus="1.100000">2457935.200000</transittime>
+			<istransiting>1</istransiting>
+		</planet>
+	</star>
+</system>

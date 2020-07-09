@@ -1,0 +1,33 @@
+<system>
+	<name>Wendelstein-1</name>
+	<rightascension>19 56 12</rightascension>
+	<declination>+17 34 12</declination>
+	<distance errorminus="3.00" errorplus="3.00">307.98</distance>
+	<star>
+		<name>Wendelstein-1</name>
+		<radius errorminus="0.09" errorplus="0.09">0.61</radius>
+		<magJ errorminus="0.015" errorplus="0.015">12.971</magJ>
+		<magH errorminus="0.015" errorplus="0.015">12.331</magH>
+		<magK errorminus="0.018" errorplus="0.018">12.198</magK>
+		<mass errorminus="0.10" errorplus="0.10">0.65</mass>
+		<temperature errorminus="175.00" errorplus="175.00">4251.00</temperature>
+		<spectraltype>K7V</spectraltype>
+		<planet>
+			<name>Wendelstein-1 b</name>
+			<semimajoraxis errorminus="0.001500" errorplus="0.001500">0.028200</semimajoraxis>
+			<eccentricity>0.012000</eccentricity>
+			<inclination errorminus="0.390" errorplus="0.430">86.120</inclination>
+			<period errorminus="0.00000100" errorplus="0.00000100">2.66341600</period>
+			<description>This planet was discovered by Obermeier et al. 2020. This was a ground based discovery. The parameters listed here are those reported by Obermeier et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.12900" errorplus="0.16500">0.59200</mass>
+			<radius errorminus="0.006" errorplus="0.006">1.031</radius>
+			<temperature>2198</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/07/09</lastupdate>
+			<transittime errorminus="0.000014" errorplus="0.000014">2455367.738464</transittime>
+		</planet>
+	</star>
+</system>

@@ -1,0 +1,52 @@
+<system>
+	<name>GJ 887</name>
+	<name>HD 217987</name>
+	<name>HIP 114046</name>
+	<rightascension>23 05 52</rightascension>
+	<declination>-35 51 11</declination>
+	<distance>3.29</distance>
+	<star>
+		<name>GJ 887</name>
+		<name>HD 217987</name>
+		<name>HIP 114046</name>
+		<radius errorminus="0.09" errorplus="0.09">0.47</radius>
+		<magV>7.335</magV>
+		<magI>5.315</magI>
+		<magJ errorminus="0.258" errorplus="0.258">4.338</magJ>
+		<magH errorminus="0.230" errorplus="0.230">3.608</magH>
+		<magK errorminus="0.200" errorplus="0.200">3.465</magK>
+		<mass errorminus="0.05" errorplus="0.05">0.49</mass>
+		<temperature errorminus="86.00" errorplus="86.00">3688.00</temperature>
+		<metallicity errorminus="0.080" errorplus="0.080">-0.060</metallicity>
+		<spectraltype>M1V</spectraltype>
+		<planet>
+			<name>GJ 887 b</name>
+			<name>HD 217987 b</name>
+			<name>HIP 114046 b</name>
+			<semimajoraxis errorminus="0.002000" errorplus="0.002000">0.068000</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<period errorminus="0.00100000" errorplus="0.00100000">9.26200000</period>
+			<description>This planet was discovered by Jeffers et al. 2020. This was a ground based discovery. The parameters listed here are those reported by Jeffers et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00189" errorplus="0.00189">0.01321</mass>
+			<temperature>468</temperature>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/07/09</lastupdate>
+		</planet>
+		<planet>
+			<name>GJ 887 c</name>
+			<name>HD 217987 c</name>
+			<name>HIP 114046 c</name>
+			<semimajoraxis errorminus="0.004000" errorplus="0.004000">0.120000</semimajoraxis>
+			<period errorminus="0.00500000" errorplus="0.00400000">21.78900000</period>
+			<description>This planet was discovered by Jeffers et al. 2020. This was a ground based discovery. The parameters listed here are those reported by Jeffers et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00378" errorplus="0.00378">0.02391</mass>
+			<temperature>352</temperature>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/07/09</lastupdate>
+		</planet>
+	</star>
+</system>

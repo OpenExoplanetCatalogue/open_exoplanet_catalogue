@@ -1,0 +1,35 @@
+<system>
+	<name>TOI-849</name>
+	<rightascension>01 54 52</rightascension>
+	<declination>-29 25 18</declination>
+	<distance errorminus="5.50" errorplus="5.90">224.90</distance>
+	<star>
+		<name>TOI-849</name>
+		<radius errorminus="0.02" errorplus="0.03">0.92</radius>
+		<magV>11.980</magV>
+		<magJ errorminus="0.021" errorplus="0.021">10.832</magJ>
+		<magH errorminus="0.022" errorplus="0.022">10.481</magH>
+		<magK errorminus="0.021" errorplus="0.021">10.418</magK>
+		<mass errorminus="0.02" errorplus="0.02">0.93</mass>
+		<temperature errorminus="41.20" errorplus="42.50">5373.80</temperature>
+		<metallicity errorminus="0.030" errorplus="0.030">0.190</metallicity>
+		<spectraltype>G</spectraltype>
+		<planet>
+			<name>TOI-849 b</name>
+			<semimajoraxis errorminus="0.000140" errorplus="0.000130">0.015980</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<periastron>0.0000</periastron>
+			<inclination errorminus="2.400" errorplus="2.100">86.800</inclination>
+			<period errorminus="0.00000279" errorplus="0.00000262">0.76552414</period>
+			<description>This planet was discovered by Armstrong et al. 2020. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here are those reported by Armstrong et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00802" errorplus="0.00837">0.12299</mass>
+			<radius errorminus="0.010" errorplus="0.014">0.307</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/07/09</lastupdate>
+			<transittime errorminus="0.000990" errorplus="0.000910">2458394.737680</transittime>
+		</planet>
+	</star>
+</system>

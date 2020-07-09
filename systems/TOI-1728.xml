@@ -1,0 +1,36 @@
+<system>
+	<name>TOI-1728</name>
+	<rightascension>08 02 27</rightascension>
+	<declination>+64 47 49</declination>
+	<distance errorminus="0.13" errorplus="0.14">60.80</distance>
+	<star>
+		<name>TOI-1728</name>
+		<radius errorminus="0.01" errorplus="0.01">0.62</radius>
+		<magV errorminus="0.035" errorplus="0.035">12.400</magV>
+		<magJ errorminus="0.015" errorplus="0.015">9.642</magJ>
+		<magH errorminus="0.026" errorplus="0.026">8.953</magH>
+		<magK errorminus="0.018" errorplus="0.018">8.803</magK>
+		<mass errorminus="0.02" errorplus="0.02">0.65</mass>
+		<temperature errorminus="32.00" errorplus="31.00">3980.00</temperature>
+		<metallicity errorminus="0.100" errorplus="0.100">0.250</metallicity>
+		<spectraltype>M0</spectraltype>
+		<planet>
+			<name>TOI-1728 b</name>
+			<semimajoraxis errorminus="0.000900" errorplus="0.000900">0.039100</semimajoraxis>
+			<eccentricity errorminus="0.039000" errorplus="0.054000">0.057000</eccentricity>
+			<periastron errorminus="187.0000" errorplus="104.0000">45.0000</periastron>
+			<inclination errorminus="0.400" errorplus="0.580">88.310</inclination>
+			<period errorminus="0.00005700" errorplus="0.00006200">3.49151000</period>
+			<description>This planet was discovered by Kanodia et al. 2020. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here are those reported by Kanodia et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.01614" errorplus="0.01708">0.08426</mass>
+			<radius errorminus="0.015" errorplus="0.014">0.451</radius>
+			<temperature errorminus="8" errorplus="8">767</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/07/09</lastupdate>
+			<transittime errorminus="0.000430" errorplus="0.000430">2458843.274270</transittime>
+		</planet>
+	</star>
+</system>
