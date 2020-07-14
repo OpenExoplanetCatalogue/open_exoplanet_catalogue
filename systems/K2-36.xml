@@ -1,0 +1,52 @@
+<system>
+	<name>K2-36</name>
+	<rightascension>11 17 48</rightascension>
+	<declination>+03 51 59</declination>
+	<distance errorminus="0.61" errorplus="0.61">110.09</distance>
+	<star>
+		<name>K2-36</name>
+		<radius errorminus="0.01" errorplus="0.01">0.72</radius>
+		<magV errorminus="0.030" errorplus="0.030">11.800</magV>
+		<magJ errorminus="0.022" errorplus="0.022">10.034</magJ>
+		<magH errorminus="0.021" errorplus="0.021">9.549</magH>
+		<magK errorminus="0.025" errorplus="0.025">9.454</magK>
+		<mass errorminus="0.01" errorplus="0.01">0.79</mass>
+		<temperature errorminus="37.00" errorplus="35.00">4916.00</temperature>
+		<metallicity errorminus="0.040" errorplus="0.060">-0.090</metallicity>
+		<spectraltype>K2V</spectraltype>
+		<planet>
+			<name>K2-36 b</name>
+			<semimajoraxis errorminus="0.000400" errorplus="0.000400">0.022300</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination errorminus="0.480" errorplus="0.780">84.450</inclination>
+			<period errorminus="0.00003800" errorplus="0.00003800">1.42261400</period>
+			<description>This planet was discovered by Sinukoff et al. 2016. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Damasso et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00346" errorplus="0.00346">0.01227</mass>
+			<radius errorminus="0.007" errorplus="0.007">0.128</radius>
+			<temperature errorminus="13" errorplus="13">1224</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/08/15</lastupdate>
+			<transittime errorminus="0.001300" errorplus="0.001300">2456810.891600</transittime>
+		</planet>
+		<planet>
+			<name>K2-36 c</name>
+			<semimajoraxis errorminus="0.001000" errorplus="0.001000">0.054000</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination errorminus="0.056" errorplus="0.066">86.917</inclination>
+			<period errorminus="0.00008600" errorplus="0.00008600">5.34088800</period>
+			<description>This planet was discovered by Sinukoff et al. 2016. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Damasso et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00724" errorplus="0.00724">0.02454</mass>
+			<radius errorminus="0.027" errorplus="0.027">0.285</radius>
+			<temperature errorminus="9" errorplus="9">788</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/08/15</lastupdate>
+			<transittime errorminus="0.000710" errorplus="0.000710">2456812.840010</transittime>
+		</planet>
+	</star>
+</system>

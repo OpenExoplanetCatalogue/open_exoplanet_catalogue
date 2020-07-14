@@ -1,0 +1,33 @@
+<system>
+	<name>HAT-P-69</name>
+	<rightascension>08 42 01</rightascension>
+	<declination>+03 42 38</declination>
+	<distance errorminus="4.30" errorplus="4.80">343.90</distance>
+	<star>
+		<name>HAT-P-69</name>
+		<radius errorminus="0.03" errorplus="0.06">1.93</radius>
+		<magJ errorminus="0.021" errorplus="0.021">9.373</magJ>
+		<magH errorminus="0.020" errorplus="0.020">9.293</magH>
+		<magK errorminus="0.021" errorplus="0.021">9.280</magK>
+		<mass errorminus="0.03" errorplus="0.06">1.65</mass>
+		<temperature errorminus="600.00" errorplus="360.00">7394.00</temperature>
+		<metallicity errorminus="0.075" errorplus="0.058">-0.069</metallicity>
+		<planet>
+			<name>HAT-P-69 b</name>
+			<semimajoraxis errorminus="0.000350" errorplus="0.000700">0.065550</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination errorminus="0.720" errorplus="0.520">87.190</inclination>
+			<period errorminus="0.00000210" errorplus="0.00000180">4.78694910</period>
+			<description>This planet was discovered by Zhou et al. 2019. This was a ground based discovery. The parameters listed here are those reported by Zhou et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.58000" errorplus="0.58000">3.58000</mass>
+			<radius errorminus="0.033" errorplus="0.051">1.676</radius>
+			<temperature errorminus="230" errorplus="80">1930</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/08/15</lastupdate>
+			<transittime errorminus="0.000730" errorplus="0.000720">2458495.788610</transittime>
+		</planet>
+	</star>
+</system>

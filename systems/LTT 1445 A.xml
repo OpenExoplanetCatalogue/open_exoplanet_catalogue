@@ -1,0 +1,40 @@
+<system>
+	<name>LTT 1445 A</name>
+	<name>HIP 14101</name>
+	<rightascension>03 01 51</rightascension>
+	<declination>-16 35 36</declination>
+	<distance>6.87</distance>
+	<star>
+		<name>LTT 1445 A</name>
+		<name>HIP 14101</name>
+		<radius errorminus="0.02" errorplus="0.02">0.28</radius>
+		<magV errorminus="0.020" errorplus="0.020">11.220</magV>
+		<magI errorminus="0.020" errorplus="0.020">8.660</magI>
+		<magJ errorminus="0.024" errorplus="0.024">7.294</magJ>
+		<magH errorminus="0.038" errorplus="0.038">6.774</magH>
+		<magK errorminus="0.021" errorplus="0.021">6.496</magK>
+		<mass errorminus="0.01" errorplus="0.01">0.26</mass>
+		<temperature errorminus="150.00" errorplus="150.00">3337.00</temperature>
+		<metallicity errorminus="0.080" errorplus="0.080">-0.340</metallicity>
+		<spectraltype>M3</spectraltype>
+		<planet>
+			<name>LTT 1445 A b</name>
+			<name>HIP 14101 b</name>
+			<semimajoraxis errorminus="0.000710" errorplus="0.000680">0.038070</semimajoraxis>
+			<eccentricity errorminus="0.140000" errorplus="0.350000">0.190000</eccentricity>
+			<periastron errorminus="76.0000" errorplus="120.0000">-139.0000</periastron>
+			<inclination errorminus="0.460" errorplus="0.410">89.400</inclination>
+			<period errorminus="0.00031000" errorplus="0.00030000">5.35882000</period>
+			<description>This planet was discovered by Winters et al. 2019. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here are those reported by Winters et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00661" errorplus="0.00535">0.00692</mass>
+			<radius errorminus="0.011" errorplus="0.012">0.123</radius>
+			<temperature errorminus="27" errorplus="28">433</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/08/15</lastupdate>
+			<transittime errorminus="0.000450" errorplus="0.000440">2458423.426290</transittime>
+		</planet>
+	</star>
+</system>
