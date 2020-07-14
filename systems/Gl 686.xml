@@ -1,0 +1,36 @@
+<system>
+	<name>Gl 686</name>
+	<name>HIP 86287</name>
+	<rightascension>17 37 53</rightascension>
+	<declination>+18 35 30</declination>
+	<distance>8.16</distance>
+	<star>
+		<name>Gl 686</name>
+		<name>HIP 86287</name>
+		<radius errorminus="0.05" errorplus="0.05">0.42</radius>
+		<magV>9.577</magV>
+		<magI errorminus="0.025" errorplus="0.025">7.550</magI>
+		<magJ errorminus="0.023" errorplus="0.023">6.360</magJ>
+		<magH errorminus="0.020" errorplus="0.020">5.790</magH>
+		<magK errorminus="0.020" errorplus="0.020">5.572</magK>
+		<mass errorminus="0.05" errorplus="0.05">0.42</mass>
+		<temperature errorminus="68.00" errorplus="68.00">3663.00</temperature>
+		<metallicity errorminus="0.090" errorplus="0.090">-0.300</metallicity>
+		<spectraltype>M1</spectraltype>
+		<planet>
+			<name>Gl 686 b</name>
+			<name>HIP 86287 b</name>
+			<semimajoraxis errorminus="0.002300" errorplus="0.002400">0.091700</semimajoraxis>
+			<eccentricity errorminus="0.058000" errorplus="0.056000">0.077000</eccentricity>
+			<period errorminus="0.00140000" errorplus="0.00150000">15.53140000</period>
+			<description>This planet was discovered by Affer et al. 2019. This was a ground based discovery. The parameters listed here are those reported by Lalitha et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00170" errorplus="0.00167">0.02089</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2018</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/06/13</lastupdate>
+			<transittime errorminus="2.300000" errorplus="1.800000">2450606.800000</transittime>
+			<istransiting>1</istransiting>
+		</planet>
+	</star>
+</system>
