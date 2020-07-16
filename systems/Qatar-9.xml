@@ -1,0 +1,35 @@
+<system>
+	<name>Qatar-9</name>
+	<rightascension>10 42 60</rightascension>
+	<declination>+60 57 51</declination>
+	<distance errorminus="1.60" errorplus="1.60">211.40</distance>
+	<star>
+		<name>Qatar-9</name>
+		<radius errorminus="0.01" errorplus="0.01">0.70</radius>
+		<magV errorminus="0.048" errorplus="0.048">14.133</magV>
+		<magJ errorminus="0.015" errorplus="0.015">11.835</magJ>
+		<magH errorminus="0.014" errorplus="0.014">11.235</magH>
+		<magK errorminus="0.022" errorplus="0.022">11.104</magK>
+		<mass errorminus="0.02" errorplus="0.02">0.72</mass>
+		<temperature errorminus="31.00" errorplus="31.00">4309.00</temperature>
+		<metallicity errorminus="0.076" errorplus="0.076">0.252</metallicity>
+		<spectraltype>K5V</spectraltype>
+		<planet>
+			<name>Qatar-9 b</name>
+			<semimajoraxis errorminus="0.000300" errorplus="0.000300">0.023400</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination errorminus="0.640" errorplus="0.640">89.230</inclination>
+			<period errorminus="0.00003800" errorplus="0.00003800">1.54073100</period>
+			<description>This planet was discovered by Alsubai et al. 2019. This was a ground based discovery. The parameters listed here are those reported by Alsubai et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.16000" errorplus="0.16000">1.19000</mass>
+			<radius errorminus="0.014" errorplus="0.014">1.009</radius>
+			<temperature errorminus="9" errorplus="9">1134</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/05/02</lastupdate>
+			<transittime errorminus="0.000270" errorplus="0.000270">2458227.756430</transittime>
+		</planet>
+	</star>
+</system>

@@ -1,0 +1,35 @@
+<system>
+	<name>Qatar-8</name>
+	<rightascension>10 29 39</rightascension>
+	<declination>+70 31 38</declination>
+	<distance errorminus="3.40" errorplus="3.40">276.70</distance>
+	<star>
+		<name>Qatar-8</name>
+		<radius errorminus="0.02" errorplus="0.02">1.31</radius>
+		<magV errorminus="0.046" errorplus="0.046">11.526</magV>
+		<magJ errorminus="0.019" errorplus="0.019">10.296</magJ>
+		<magH errorminus="0.023" errorplus="0.023">10.005</magH>
+		<magK errorminus="0.013" errorplus="0.013">9.937</magK>
+		<mass errorminus="0.05" errorplus="0.05">1.03</mass>
+		<temperature errorminus="51.00" errorplus="51.00">5738.00</temperature>
+		<metallicity errorminus="0.071" errorplus="0.071">0.025</metallicity>
+		<spectraltype>G0V</spectraltype>
+		<planet>
+			<name>Qatar-8 b</name>
+			<semimajoraxis errorminus="0.000800" errorplus="0.000800">0.047400</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination errorminus="0.700" errorplus="0.700">89.290</inclination>
+			<period errorminus="0.00100000" errorplus="0.00100000">3.71495000</period>
+			<description>This planet was discovered by Alsubai et al. 2019. This was a ground based discovery. The parameters listed here are those reported by Alsubai et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.06200" errorplus="0.06200">0.37100</mass>
+			<radius errorminus="0.022" errorplus="0.022">1.285</radius>
+			<temperature errorminus="14" errorplus="14">1457</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/05/02</lastupdate>
+			<transittime errorminus="0.000850" errorplus="0.000850">2458210.839800</transittime>
+		</planet>
+	</star>
+</system>
