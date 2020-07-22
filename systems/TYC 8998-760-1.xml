@@ -1,26 +1,56 @@
 <system>
 	<name>TYC 8998-760-1</name>
-	<rightascension>13 25 12</rightascension>
-	<declination>-64 56 21</declination>
-	<distance errorminus="0.30" errorplus="0.30">94.60</distance>
+	<name>2MASSJ13251211–6456207</name>
+	<rightascension>13 25 12.13</rightascension>
+	<declination>-64 56 20.69</declination>
+	<distance errorminus="0.3" errorplus="0.3">94.6</distance>
 	<star>
 		<name>TYC 8998-760-1</name>
-		<magV>11.130</magV>
-		<magJ errorminus="0.019" errorplus="0.019">9.072</magJ>
-		<magH errorminus="0.039" errorplus="0.039">8.562</magH>
-		<magK errorminus="0.023" errorplus="0.023">8.392</magK>
-		<mass errorminus="0.02" errorplus="0.02">1.00</mass>
-		<temperature errorminus="10.00" errorplus="10.00">4573.00</temperature>
+		<name>2MASSJ13251211–6456207</name>
+		<age errorminus="0.0014" errorplus="0.0014">0.0167</age>
+		<mass errorminus="0.02" errorplus="0.02">1.0</mass>
+		<temperature errorminus="10" errorplus="10">4573</temperature>
+		<magV>11.13</magV>
 		<spectraltype>K3IV</spectraltype>
 		<planet>
 			<name>TYC 8998-760-1 b</name>
-			<semimajoraxis>162.000000</semimajoraxis>
-			<description>This planet was discovered by Bohn et al. 2020. This was a ground based discovery. The parameters listed here are those reported by Bohn et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
-			<mass errorminus="3.00000" errorplus="3.00000">14.00000</mass>
+			<name>2MASSJ13251211–6456207 b</name>
+			<list>Controversial</list>
+			<mass errorminus="3" errorplus="3">14</mass>
+			<radius errorminus="0.7" errorplus="0.2">3</radius>
+			<temperature errorminus="127" errorplus="172">1727</temperature>
+			<semimajoraxis>162</semimajoraxis>
 			<discoverymethod>imaging</discoverymethod>
+			<lastupdate>20/07/22</lastupdate>
 			<discoveryyear>2020</discoveryyear>
+			<image>eso2011b</image>
+			<imagedescription>This image, captured by the SPHERE instrument on ESO’s Very Large Telescope, shows the star TYC 8998-760-1 accompanied by two giant exoplanets, TYC 8998-760-1b and TYC 8998-760-1c. This is the first time astronomers have directly observed more than one planet orbiting a star similar to the Sun.
+
+The two planets are visible as two bright dots in the centre (TYC 8998-760-1b) and bottom right (TYC 8998-760-1c) of the frame, noted by arrows. Other bright dots, which are background stars, are visible in the image as well. By taking different images at different times, the team were able to distinguish the planets from the background stars.   
+
+The image was captured by blocking the light from the young, Sun-like star (top-left of centre) using a coronagraph, which allows for the fainter planets to be detected. The bright and dark rings we see on the star’s image are optical artefacts. 
+
+Credit: ESO/Bohn et al.</imagedescription>
+		</planet>
+		<planet>
+			<name>TYC 8998-760-1 c</name>
+			<name>2MASSJ13251211–6456207 c</name>
 			<list>Confirmed planets</list>
-			<lastupdate>20/04/02</lastupdate>
+			<mass errorminus="1" errorplus="1">6</mass>
+			<radius errorminus="0.3" errorplus="0.6">1.1</radius>
+			<temperature errorminus="170" errorplus="160">1240</temperature>
+			<semimajoraxis>320</semimajoraxis>
+			<discoverymethod>imaging</discoverymethod>
+			<lastupdate>20/07/20</lastupdate>
+			<discoveryyear>2020</discoveryyear>
+			<image>eso2011b</image>
+			<imagedescription>This image, captured by the SPHERE instrument on ESO’s Very Large Telescope, shows the star TYC 8998-760-1 accompanied by two giant exoplanets, TYC 8998-760-1b and TYC 8998-760-1c. This is the first time astronomers have directly observed more than one planet orbiting a star similar to the Sun.
+
+The two planets are visible as two bright dots in the centre (TYC 8998-760-1b) and bottom right (TYC 8998-760-1c) of the frame, noted by arrows. Other bright dots, which are background stars, are visible in the image as well. By taking different images at different times, the team were able to distinguish the planets from the background stars.   
+
+The image was captured by blocking the light from the young, Sun-like star (top-left of centre) using a coronagraph, which allows for the fainter planets to be detected. The bright and dark rings we see on the star’s image are optical artefacts. 
+
+Credit: ESO/Bohn et al.</imagedescription>
 		</planet>
 	</star>
 </system>
