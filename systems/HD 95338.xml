@@ -1,0 +1,39 @@
+<system>
+	<name>HD 95338</name>
+	<name>HIP 53719</name>
+	<rightascension>10 59 26</rightascension>
+	<declination>-56 37 23</declination>
+	<distance errorminus="0.03" errorplus="0.02">36.97</distance>
+	<star>
+		<name>HD 95338</name>
+		<name>HIP 53719</name>
+		<radius errorminus="0.04" errorplus="0.04">0.87</radius>
+		<magV errorminus="0.013" errorplus="0.013">8.611</magV>
+		<magJ errorminus="0.024" errorplus="0.024">7.099</magJ>
+		<magH errorminus="0.038" errorplus="0.038">6.729</magH>
+		<magK errorminus="0.018" errorplus="0.018">6.591</magK>
+		<mass errorminus="0.02" errorplus="0.02">0.83</mass>
+		<temperature errorminus="11.00" errorplus="16.00">5212.00</temperature>
+		<metallicity errorminus="0.100" errorplus="0.100">0.040</metallicity>
+		<spectraltype>K0.5V</spectraltype>
+		<planet>
+			<name>HD 95338 b</name>
+			<name>HIP 53719 b</name>
+			<semimajoraxis errorminus="0.002000" errorplus="0.002000">0.262000</semimajoraxis>
+			<eccentricity errorminus="0.024000" errorplus="0.029000">0.197000</eccentricity>
+			<periastron errorminus="11.9900" errorplus="11.5300">23.4200</periastron>
+			<inclination errorminus="0.050" errorplus="0.090">89.570</inclination>
+			<period errorminus="0.02000000" errorplus="0.02000000">55.08700000</period>
+			<description>This planet was discovered by Díaz et al. 2020. This was a ground based discovery. The parameters listed here are those reported by Díaz et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00654" errorplus="0.00698">0.13353</mass>
+			<radius errorminus="0.018" errorplus="0.017">0.347</radius>
+			<temperature errorminus="17" errorplus="17">385</temperature>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/07/23</lastupdate>
+			<transittime errorminus="0.000600" errorplus="0.000600">2458585.279500</transittime>
+			<istransiting>1</istransiting>
+		</planet>
+	</star>
+</system>

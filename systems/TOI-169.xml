@@ -1,0 +1,35 @@
+<system>
+	<name>TOI-169</name>
+	<rightascension>01 07 07</rightascension>
+	<declination>-75 11 56</declination>
+	<distance errorminus="4.20" errorplus="4.30">412.50</distance>
+	<star>
+		<name>TOI-169</name>
+		<radius errorminus="0.02" errorplus="0.02">1.29</radius>
+		<magV errorminus="0.050" errorplus="0.050">12.360</magV>
+		<magJ errorminus="0.021" errorplus="0.021">11.181</magJ>
+		<magH errorminus="0.020" errorplus="0.020">10.896</magH>
+		<magK errorminus="0.023" errorplus="0.023">10.815</magK>
+		<mass errorminus="0.07" errorplus="0.07">1.15</mass>
+		<temperature errorminus="49.00" errorplus="54.00">5880.00</temperature>
+		<metallicity errorminus="0.090" errorplus="0.090">0.240</metallicity>
+		<spectraltype>G1V</spectraltype>
+		<planet>
+			<name>TOI-169 b</name>
+			<semimajoraxis errorminus="0.000790" errorplus="0.000690">0.035240</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination errorminus="0.380" errorplus="0.310">80.980</inclination>
+			<period errorminus="0.00000630" errorplus="0.00000630">2.25544770</period>
+			<description>This planet was discovered by Nielsen et al. 2020. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here are those reported by Nielsen et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.06000" errorplus="0.06400">0.79100</mass>
+			<radius errorminus="0.048" errorplus="0.081">1.086</radius>
+			<temperature errorminus="20" errorplus="22">1715</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/07/23</lastupdate>
+			<transittime errorminus="0.000660" errorplus="0.000650">2458327.441740</transittime>
+		</planet>
+	</star>
+</system>
