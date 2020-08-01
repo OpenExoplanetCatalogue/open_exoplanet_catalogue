@@ -4,6 +4,7 @@
 	<declination>-01 58 57.9</declination>
 	<distance errorminus="3.3" errorplus="3.3">255.8</distance>
 	<binary>
+		<semimajoraxis>1200</semimajoraxis>
 		<star>
 			<name>WASP-180 A</name>
 			<magV>10.68</magV>
@@ -33,6 +34,9 @@
 		</star>
 		<star>
 			<name>WASP-180 B</name>
+			<temperature errorminus="130" errorplus="130">5450</temperature>
+			<radius errorminus="0.06" errorplus="0.06">1.07</radius>
+			<mass>1</mass>
 		</star>
 	</binary>
 </system>
