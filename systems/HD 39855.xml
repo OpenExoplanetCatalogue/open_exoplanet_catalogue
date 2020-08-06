@@ -1,0 +1,32 @@
+<system>
+	<name>HD 39855</name>
+	<name>HIP 27922 A</name>
+	<rightascension>05 54 30</rightascension>
+	<declination>-19 42 16</declination>
+	<distance>23.28</distance>
+	<star>
+		<name>HD 39855</name>
+		<name>HIP 27922 A</name>
+		<magV errorminus="0.010" errorplus="0.010">7.470</magV>
+		<magJ errorminus="0.039" errorplus="0.039">6.207</magJ>
+		<magH errorminus="0.018" errorplus="0.018">5.836</magH>
+		<magK errorminus="0.026" errorplus="0.026">5.756</magK>
+		<mass errorminus="0.05" errorplus="0.05">0.87</mass>
+		<temperature errorminus="46.00" errorplus="50.00">5576.00</temperature>
+		<spectraltype>G8V</spectraltype>
+		<planet>
+			<name>HD 39855 b</name>
+			<name>HIP 27922 A b</name>
+			<semimajoraxis errorminus="0.001000" errorplus="0.001000">0.041000</semimajoraxis>
+			<eccentricity errorminus="0.110000" errorplus="0.110000">0.140000</eccentricity>
+			<periastron errorminus="79.7700" errorplus="79.7700">102.9700</periastron>
+			<period errorminus="0.00040000" errorplus="0.00040000">3.24980000</period>
+			<description>This planet was discovered by Feng et al. 2019. This was a ground based discovery. The parameters listed here are those reported by Feng et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00472" errorplus="0.00472">0.02674</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/05/23</lastupdate>
+		</planet>
+	</star>
+</system>

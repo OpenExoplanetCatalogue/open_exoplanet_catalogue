@@ -1,0 +1,29 @@
+<system>
+	<name>HIP 35173</name>
+	<rightascension>07 16 11</rightascension>
+	<declination>-03 39 57</declination>
+	<distance>33.19</distance>
+	<star>
+		<name>HIP 35173</name>
+		<magV errorminus="0.020" errorplus="0.020">9.010</magV>
+		<magJ errorminus="0.021" errorplus="0.021">7.263</magJ>
+		<magH errorminus="0.042" errorplus="0.042">6.803</magH>
+		<magK errorminus="0.026" errorplus="0.026">6.674</magK>
+		<mass errorminus="0.05" errorplus="0.05">0.79</mass>
+		<temperature errorminus="81.00" errorplus="55.00">4881.00</temperature>
+		<spectraltype>K2V</spectraltype>
+		<planet>
+			<name>HIP 35173 b</name>
+			<semimajoraxis errorminus="0.004000" errorplus="0.004000">0.217000</semimajoraxis>
+			<eccentricity errorminus="0.110000" errorplus="0.110000">0.160000</eccentricity>
+			<periastron errorminus="96.4000" errorplus="96.4000">10.7300</periastron>
+			<period errorminus="0.07700000" errorplus="0.07700000">41.51600000</period>
+			<description>This planet was discovered by Feng et al. 2019. This was a ground based discovery. The parameters listed here are those reported by Feng et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00850" errorplus="0.00850">0.03996</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/05/23</lastupdate>
+		</planet>
+	</star>
+</system>

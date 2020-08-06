@@ -1,0 +1,38 @@
+<system>
+	<name>HD 221416</name>
+	<name>HIP 116158</name>
+	<rightascension>23 32 08</rightascension>
+	<declination>-21 48 05</declination>
+	<distance errorminus="0.72" errorplus="0.72">95.08</distance>
+	<star>
+		<name>HD 221416</name>
+		<name>HIP 116158</name>
+		<radius errorminus="0.06" errorplus="0.06">2.94</radius>
+		<magV errorminus="0.014" errorplus="0.014">8.146</magV>
+		<magJ errorminus="0.020" errorplus="0.020">6.568</magJ>
+		<magH errorminus="0.045" errorplus="0.045">6.149</magH>
+		<magK errorminus="0.022" errorplus="0.022">6.043</magK>
+		<mass errorminus="0.07" errorplus="0.07">1.21</mass>
+		<temperature errorminus="90.00" errorplus="90.00">5080.00</temperature>
+		<metallicity errorminus="0.080" errorplus="0.080">-0.080</metallicity>
+		<spectraltype>K0IV/V</spectraltype>
+		<planet>
+			<name>HD 221416 b</name>
+			<name>HIP 116158 b</name>
+			<semimajoraxis errorminus="0.002600" errorplus="0.002500">0.122800</semimajoraxis>
+			<eccentricity errorminus="0.030000" errorplus="0.034000">0.115000</eccentricity>
+			<periastron errorminus="31.1000" errorplus="34.7000">-106.0000</periastron>
+			<inclination errorminus="0.350" errorplus="0.360">85.750</inclination>
+			<period errorminus="0.00370000" errorplus="0.00370000">14.27670000</period>
+			<description>This planet was discovered by Huber et al. 2019. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here are those reported by Huber et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.01800" errorplus="0.01800">0.19000</mass>
+			<radius errorminus="0.028" errorplus="0.031">0.836</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/04/18</lastupdate>
+			<transittime errorminus="0.002600" errorplus="0.002500">2458357.014900</transittime>
+		</planet>
+	</star>
+</system>

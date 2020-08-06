@@ -1,0 +1,29 @@
+<system>
+	<name>HIP 71135</name>
+	<rightascension>14 32 52</rightascension>
+	<declination>-52 38 47</declination>
+	<distance>32.36</distance>
+	<star>
+		<name>HIP 71135</name>
+		<magV errorminus="0.052" errorplus="0.052">10.542</magV>
+		<magJ errorminus="0.037" errorplus="0.037">8.039</magJ>
+		<magH errorminus="0.047" errorplus="0.047">7.397</magH>
+		<magK errorminus="0.021" errorplus="0.021">7.242</magK>
+		<mass errorminus="0.04" errorplus="0.04">0.66</mass>
+		<temperature errorminus="110.00" errorplus="107.00">4146.00</temperature>
+		<spectraltype>M1</spectraltype>
+		<planet>
+			<name>HIP 71135 b</name>
+			<semimajoraxis errorminus="0.007000" errorplus="0.007000">0.335000</semimajoraxis>
+			<eccentricity errorminus="0.130000" errorplus="0.130000">0.210000</eccentricity>
+			<periastron errorminus="71.7200" errorplus="71.7200">115.6000</periastron>
+			<period errorminus="0.38100000" errorplus="0.38100000">87.19000000</period>
+			<description>This planet was discovered by Feng et al. 2019. This was a ground based discovery. The parameters listed here are those reported by Feng et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.01290" errorplus="0.01290">0.05915</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/05/23</lastupdate>
+		</planet>
+	</star>
+</system>

@@ -1,0 +1,32 @@
+<system>
+	<name>HD 211970</name>
+	<name>HIP 110443</name>
+	<rightascension>22 22 16</rightascension>
+	<declination>-54 33 38</declination>
+	<distance>13.00</distance>
+	<star>
+		<name>HD 211970</name>
+		<name>HIP 110443</name>
+		<magV errorminus="0.010" errorplus="0.010">8.990</magV>
+		<magJ errorminus="0.029" errorplus="0.029">6.462</magJ>
+		<magH errorminus="0.040" errorplus="0.040">5.842</magH>
+		<magK errorminus="0.021" errorplus="0.021">5.663</magK>
+		<mass errorminus="0.04" errorplus="0.04">0.61</mass>
+		<temperature errorminus="94.00" errorplus="149.00">4127.00</temperature>
+		<spectraltype>K7V</spectraltype>
+		<planet>
+			<name>HD 211970 b</name>
+			<name>HIP 110443 b</name>
+			<semimajoraxis errorminus="0.003000" errorplus="0.003000">0.143000</semimajoraxis>
+			<eccentricity errorminus="0.100000" errorplus="0.100000">0.150000</eccentricity>
+			<periastron errorminus="51.7300" errorplus="51.7300">97.8300</periastron>
+			<period errorminus="0.02500000" errorplus="0.02500000">25.20100000</period>
+			<description>This planet was discovered by Feng et al. 2019. This was a ground based discovery. The parameters listed here are those reported by Feng et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00787" errorplus="0.00787">0.04090</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/05/23</lastupdate>
+		</planet>
+	</star>
+</system>

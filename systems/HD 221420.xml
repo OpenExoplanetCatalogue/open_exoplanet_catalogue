@@ -1,0 +1,33 @@
+<system>
+	<name>HD 221420</name>
+	<name>HIP 116250</name>
+	<rightascension>23 33 20</rightascension>
+	<declination>-77 23 07</declination>
+	<distance errorminus="0.04" errorplus="0.04">31.17</distance>
+	<star>
+		<name>HD 221420</name>
+		<name>HIP 116250</name>
+		<magV>5.810</magV>
+		<magJ errorminus="0.252" errorplus="0.252">4.997</magJ>
+		<magH errorminus="0.238" errorplus="0.238">4.527</magH>
+		<magK errorminus="0.036" errorplus="0.036">4.306</magK>
+		<mass errorminus="0.11" errorplus="0.11">1.67</mass>
+		<temperature errorminus="44.00" errorplus="44.00">5830.00</temperature>
+		<metallicity errorminus="0.030" errorplus="0.030">0.290</metallicity>
+		<spectraltype>G2V</spectraltype>
+		<planet>
+			<name>HD 221420 b</name>
+			<name>HIP 116250 b</name>
+			<semimajoraxis errorminus="2.300000" errorplus="2.300000">18.500000</semimajoraxis>
+			<eccentricity errorminus="0.070000" errorplus="0.050000">0.420000</eccentricity>
+			<periastron errorminus="6.3000" errorplus="6.9000">164.4000</periastron>
+			<period errorminus="4100.00000000" errorplus="4200.00000000">22482.00000000</period>
+			<description>This planet was discovered by Kane et al. 2019. This was a ground based discovery. The parameters listed here are those reported by Kane et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="1.00000" errorplus="1.10000">9.70000</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/05/09</lastupdate>
+		</planet>
+	</star>
+</system>

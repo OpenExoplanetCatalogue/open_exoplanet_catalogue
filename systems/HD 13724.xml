@@ -1,0 +1,34 @@
+<system>
+	<name>HD 13724</name>
+	<name>HIP 10278</name>
+	<rightascension>02 12 21</rightascension>
+	<declination>-46 48 59</declination>
+	<distance errorminus="0.05" errorplus="0.05">43.52</distance>
+	<star>
+		<name>HD 13724</name>
+		<name>HIP 10278</name>
+		<radius errorminus="0.02" errorplus="0.02">1.07</radius>
+		<magV>7.890</magV>
+		<magJ errorminus="0.023" errorplus="0.023">6.728</magJ>
+		<magH errorminus="0.026" errorplus="0.026">6.482</magH>
+		<magK errorminus="0.021" errorplus="0.021">6.378</magK>
+		<mass errorminus="0.06" errorplus="0.06">1.14</mass>
+		<temperature errorminus="27.00" errorplus="27.00">5868.00</temperature>
+		<metallicity errorminus="0.020" errorplus="0.020">0.230</metallicity>
+		<spectraltype>G3/G5V</spectraltype>
+		<planet>
+			<name>HD 13724 b</name>
+			<name>HIP 10278 b</name>
+			<semimajoraxis errorminus="0.900000" errorplus="2.600000">12.400000</semimajoraxis>
+			<eccentricity errorminus="0.050000" errorplus="0.090000">0.340000</eccentricity>
+			<periastron errorminus="1.7000" errorplus="2.9000">187.5000</periastron>
+			<period errorminus="1599.79500000" errorplus="4901.65500000">14763.40500000</period>
+			<description>This planet was discovered by Rickman et al. 2019. This was a ground based discovery. The parameters listed here are those reported by Rickman et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="2.20000" errorplus="4.40000">26.77000</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/04/11</lastupdate>
+		</planet>
+	</star>
+</system>
