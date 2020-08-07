@@ -1,41 +1,38 @@
 <system>
 	<name>WASP-33</name>
+	<name>HD 15082</name>
+	<name>HIP 11397</name>
 	<rightascension>02 26 51</rightascension>
 	<declination>+37 33 02</declination>
-	<distance>116</distance>
+	<distance errorminus="0.99" errorplus="0.99">122.36</distance>
 	<star>
-		<mass>1.495</mass>
-		<radius>1.444</radius>
-		<magV>8.3</magV>
-		<magB errorminus="0.01" errorplus="0.01">8.41</magB>
+		<name>WASP-33</name>
+		<name>HD 15082</name>
+		<name>HIP 11397</name>
+		<radius errorminus="0.03" errorplus="0.03">1.44</radius>
+		<magV errorminus="0.012" errorplus="0.012">8.142</magV>
 		<magJ errorminus="0.021" errorplus="0.021">7.581</magJ>
 		<magH errorminus="0.024" errorplus="0.024">7.516</magH>
 		<magK errorminus="0.024" errorplus="0.024">7.468</magK>
-		<metallicity>0.1</metallicity>
+		<mass errorminus="0.03" errorplus="0.03">1.50</mass>
+		<temperature errorminus="100.00" errorplus="100.00">7430.00</temperature>
 		<spectraltype>A5</spectraltype>
 		<planet>
 			<name>WASP-33 b</name>
-			<name>HIP 11397 b</name>
-			<name>TYC 2831-00594-1 b</name>
 			<name>HD 15082 b</name>
-			<name>BD+36 489 b</name>
-			<name>SAO 55561 b</name>
-			<name>2MASS J02265106+3733017 b</name>
-			<list>Confirmed planets</list>
-			<mass>4.59</mass>
-			<radius>1.438</radius>
-			<period>1.21986967</period>
-			<semimajoraxis>0.02558</semimajoraxis>
-			<eccentricity>0.0</eccentricity>
-			<inclination>87.67</inclination>
-			<transittime errorminus="0.00028" errorplus="0.00028" unit="BJD">2454590.18025</transittime>
+			<name>HIP 11397 b</name>
+			<semimajoraxis errorminus="0.000630" errorplus="0.000630">0.023900</semimajoraxis>
+			<inclination errorminus="0.030" errorplus="0.030">86.630</inclination>
+			<period errorminus="0.00000100" errorplus="0.00000100">1.21987000</period>
+			<description>This planet was discovered by Collier Cameron et al. 2010. This was a ground based discovery. The parameters listed here are those reported by Chakrabarty &amp; Sengupta 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.13900" errorplus="0.13900">2.09300</mass>
+			<radius errorminus="0.074" errorplus="0.074">1.593</radius>
+			<temperature errorminus="41" errorplus="41">2782</temperature>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>12/04/08</lastupdate>
-			<discoveryyear>2010</discoveryyear>
-			<temperature>2451.5</temperature>
 			<istransiting>1</istransiting>
+			<discoveryyear>2010</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/07/11</lastupdate>
 		</planet>
-		<name>WASP-33</name>
-		<temperature>7400.0</temperature>
 	</star>
 </system>

@@ -1,0 +1,31 @@
+<system>
+	<name>WASP-190</name>
+	<rightascension>00 30 50</rightascension>
+	<declination>-40 34 24</declination>
+	<distance errorminus="10.19" errorplus="10.19">550.76</distance>
+	<star>
+		<name>WASP-190</name>
+		<radius errorminus="0.10" errorplus="0.10">1.60</radius>
+		<mass errorminus="0.05" errorplus="0.05">1.35</mass>
+		<temperature errorminus="100.00" errorplus="100.00">6400.00</temperature>
+		<metallicity errorminus="0.050" errorplus="0.050">-0.020</metallicity>
+		<spectraltype>F6IV-V</spectraltype>
+		<planet>
+			<name>WASP-190 b</name>
+			<semimajoraxis errorminus="0.000800" errorplus="0.000800">0.066300</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination errorminus="0.700" errorplus="0.700">87.100</inclination>
+			<period errorminus="0.00000400" errorplus="0.00000400">5.36775300</period>
+			<description>This planet was discovered by Temple et al. 2018. This was a ground based discovery. The parameters listed here are those reported by Temple et al. 2018 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.10000" errorplus="0.10000">1.00000</mass>
+			<radius errorminus="0.090" errorplus="0.090">1.150</radius>
+			<temperature errorminus="50" errorplus="50">1500</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/03/05</lastupdate>
+			<transittime errorminus="0.000700" errorplus="0.000700">2457799.125600</transittime>
+		</planet>
+	</star>
+</system>

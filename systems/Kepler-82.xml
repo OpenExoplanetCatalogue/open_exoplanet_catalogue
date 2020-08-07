@@ -1,84 +1,86 @@
 <system>
 	<name>Kepler-82</name>
-	<name>KOI-880</name>
-	<name>KIC 7366258</name>
-	<rightascension>19 31 29</rightascension>
+	<rightascension>19 31 30</rightascension>
 	<declination>+42 57 58</declination>
-	<distance>1011.01</distance>
+	<distance errorminus="23.07" errorplus="23.07">927.97</distance>
 	<star>
+		<name>Kepler-82</name>
+		<radius errorminus="0.02" errorplus="0.04">0.90</radius>
 		<magJ errorminus="0.024" errorplus="0.024">13.879</magJ>
 		<magH errorminus="0.028" errorplus="0.028">13.527</magH>
 		<magK errorminus="0.048" errorplus="0.048">13.518</magK>
-		<name>Kepler-82</name>
-		<name>KOI-880</name>
-		<name>KIC 7366258</name>
-		<name>2MASS J19312961+4257580</name>
-		<temperature errorminus="100" errorplus="100">5428</temperature>
-		<radius errorminus=".140" errorplus="0.140">0.945</radius>
-		<mass errorminus="0.0830" errorplus="0.0830">0.9220</mass>
+		<mass errorminus="0.03" errorplus="0.03">0.91</mass>
 		<planet>
 			<name>Kepler-82 b</name>
-			<name>KOI-880 b</name>
-			<name>KOI-880.01</name>
-			<name>KIC 7366258 b</name>
-			<name>KIC 7366258.01</name>
-			<radius errorminus="0.05650" errorplus="0.05650">0.37455</radius>
-			<period errorminus=".000065" errorplus="0.000065">26.443794</period>
-			<transittime errorminus="0.0013800" errorplus="0.0013800">2455027.1250200</transittime>
-			<list>Confirmed planets</list>
-			<description>Kepler-82 b has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-82 b are still unknown, the object is highly unlikely to be a false positive.</description>
-			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/02/26</lastupdate>
+			<semimajoraxis errorminus="0.002000" errorplus="0.002000">0.168300</semimajoraxis>
+			<eccentricity errorminus="0.000170" errorplus="0.001900">0.003300</eccentricity>
+			<periastron errorminus="26.0000" errorplus="23.0000">236.0000</periastron>
+			<inclination errorminus="0.096" errorplus="0.049">89.052</inclination>
+			<period errorminus="0.48000000" errorplus="0.48000000">26.44000000</period>
+			<description>This planet was discovered by Xie 2013. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Freudenthal et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00274" errorplus="0.00302">0.03823</mass>
+			<radius errorminus="0.009" errorplus="0.021">0.363</radius>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
+			<discoveryyear>2012</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/07/25</lastupdate>
 		</planet>
 		<planet>
 			<name>Kepler-82 c</name>
-			<name>KOI-880 c</name>
-			<name>KOI-880.02</name>
-			<name>KIC 7366258 c</name>
-			<name>KIC 7366258.02</name>
-			<radius errorminus="0.07655" errorplus="0.07655">0.51397</radius>
-			<period errorminus=".000099" errorplus="0.000099">51.531855</period>
-			<transittime errorminus="0.0009900" errorplus="0.0009900">2455007.1137800</transittime>
-			<list>Confirmed planets</list>
-			<description>Kepler-82 c has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-82 c are still unknown, the object is highly unlikely to be a false positive.</description>
-			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/02/26</lastupdate>
+			<semimajoraxis errorminus="0.003200" errorplus="0.003200">0.262600</semimajoraxis>
+			<eccentricity errorminus="0.001800" errorplus="0.001600">0.007000</eccentricity>
+			<periastron errorminus="20.0000" errorplus="12.0000">162.0000</periastron>
+			<inclination errorminus="0.220" errorplus="0.180">90.150</inclination>
+			<period errorminus="0.94000000" errorplus="0.94000000">51.54000000</period>
+			<description>This planet was discovered by Xie 2013. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Freudenthal et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00378" errorplus="0.00409">0.04373</mass>
+			<radius errorminus="0.012" errorplus="0.029">0.476</radius>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
-		</planet>
-		<planet>
-			<name>Kepler-82 e</name>
-			<name>KOI-880 e</name>
-			<name>KOI-880.03</name>
-			<name>KIC 7366258 e</name>
-			<name>KIC 7366258.03</name>
-			<radius errorminus="0.03372" errorplus="0.03372">0.22509</radius>
-			<period errorminus=".000012" errorplus="0.000012">5.902206</period>
-			<transittime errorminus="0.0011500" errorplus="0.0011500">2454969.7844300</transittime>
+			<discoveryyear>2012</discoveryyear>
 			<list>Confirmed planets</list>
-			<description>Kepler-82 e has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-82 e are still unknown, the object is highly unlikely to be a false positive.</description>
-			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/02/26</lastupdate>
-			<discoverymethod>transit</discoverymethod>
-			<istransiting>1</istransiting>
+			<lastupdate>19/07/25</lastupdate>
 		</planet>
 		<planet>
 			<name>Kepler-82 d</name>
-			<name>KOI-880 d</name>
-			<name>KOI-880.04</name>
-			<name>KIC 7366258 d</name>
-			<name>KIC 7366258.04</name>
-			<radius errorminus="0.02461" errorplus="0.02461">0.16130</radius>
-			<period errorminus=".000005" errorplus="0.000005">2.382961</period>
-			<transittime errorminus="0.0013200" errorplus="0.0013200">2454968.0818600</transittime>
-			<list>Confirmed planets</list>
-			<description>Kepler-82 d has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-82 d are still unknown, the object is highly unlikely to be a false positive.</description>
-			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/02/26</lastupdate>
+			<semimajoraxis>0.034000</semimajoraxis>
+			<period errorminus="0.00000500" errorplus="0.00000500">2.38296100</period>
+			<description>This planet was discovered by Rowe et al. 2014. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Rowe et al. 2014 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.024" errorplus="0.024">0.158</radius>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
+			<discoveryyear>2014</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>14/05/14</lastupdate>
+			<transittime errorminus="0.001320" errorplus="0.001320">2454968.081860</transittime>
+		</planet>
+		<planet>
+			<name>Kepler-82 e</name>
+			<semimajoraxis>0.063000</semimajoraxis>
+			<period errorminus="0.00001200" errorplus="0.00001200">5.90220600</period>
+			<description>This planet was discovered by Rowe et al. 2014. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Rowe et al. 2014 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.033" errorplus="0.033">0.220</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2014</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>14/05/14</lastupdate>
+			<transittime errorminus="0.001150" errorplus="0.001150">2454969.784430</transittime>
+		</planet>
+		<planet>
+			<name>Kepler-82 f</name>
+			<semimajoraxis errorminus="0.004100" errorplus="0.004100">0.339500</semimajoraxis>
+			<eccentricity errorminus="0.001000" errorplus="0.001800">0.001400</eccentricity>
+			<periastron errorminus="47.0000" errorplus="70.0000">62.0000</periastron>
+			<inclination errorminus="0.560" errorplus="0.560">86.300</inclination>
+			<period errorminus="0.01200000" errorplus="0.01200000">75.73200000</period>
+			<description>This planet was discovered by Freudenthal et al. 2019. The parameters listed here are those reported by Freudenthal et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00315" errorplus="0.00315">0.06576</mass>
+			<discoverymethod>timing</discoverymethod>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/07/25</lastupdate>
 		</planet>
 	</star>
 </system>

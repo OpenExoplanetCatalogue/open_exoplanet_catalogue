@@ -1,0 +1,34 @@
+<system>
+	<name>HD 92987</name>
+	<name>HIP 52472</name>
+	<rightascension>10 43 36</rightascension>
+	<declination>-39 03 30</declination>
+	<distance errorminus="0.07" errorplus="0.07">43.59</distance>
+	<star>
+		<name>HD 92987</name>
+		<name>HIP 52472</name>
+		<radius errorminus="0.04" errorplus="0.04">1.58</radius>
+		<magV>7.030</magV>
+		<magJ errorminus="0.027" errorplus="0.027">5.904</magJ>
+		<magH errorminus="0.022" errorplus="0.022">5.613</magH>
+		<magK errorminus="0.018" errorplus="0.018">5.517</magK>
+		<mass errorminus="0.06" errorplus="0.06">1.08</mass>
+		<temperature errorminus="36.00" errorplus="36.00">5770.00</temperature>
+		<metallicity errorminus="0.080" errorplus="0.080">-0.080</metallicity>
+		<spectraltype>G2/G3V</spectraltype>
+		<planet>
+			<name>HD 92987 b</name>
+			<name>HIP 52472 b</name>
+			<semimajoraxis errorminus="0.260000" errorplus="0.360000">9.620000</semimajoraxis>
+			<eccentricity errorminus="0.010000" errorplus="0.020000">0.210000</eccentricity>
+			<periastron errorminus="8.4000" errorplus="6.7000">195.1000</periastron>
+			<period errorminus="270.28500000" errorplus="551.52750000">10354.83750000</period>
+			<description>This planet was discovered by Rickman et al. 2019. This was a ground based discovery. The parameters listed here are those reported by Rickman et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.65000" errorplus="0.69000">16.88000</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/04/11</lastupdate>
+		</planet>
+	</star>
+</system>

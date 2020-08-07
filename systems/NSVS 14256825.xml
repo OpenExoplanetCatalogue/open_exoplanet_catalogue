@@ -22,29 +22,17 @@
 			<name>NSVS 14256825 B</name>
 		</star>
 		<planet>
-			<name>NSVS 14256825 c</name>
-			<list>Controversial</list>
-			<mass>2.8</mass>
-			<period>1276</period>
-			<semimajoraxis>1.9</semimajoraxis>
-			<eccentricity>0.0</eccentricity>
-			<description>NSVS 14256825 is an HW Vir type binary which consists of a hot subdwarf and a main-sequence low-mass star in a close orbit.</description>
+			<name>NSVS 14256825 b</name>
+			<semimajoraxis errorminus="0.070000" errorplus="0.070000">3.120000</semimajoraxis>
+			<eccentricity errorminus="0.020000" errorplus="0.020000">0.120000</eccentricity>
+			<periastron errorminus="10.3000" errorplus="10.3000">133.3000</periastron>
+			<period errorminus="22.00000000" errorplus="22.00000000">3225.00000000</period>
+			<description>This planet was discovered by Zhu et al. 2019. This was a ground based discovery. The parameters listed here are those reported by Zhu et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.16000" errorplus="0.16000">14.15000</mass>
 			<discoverymethod>timing</discoverymethod>
-			<lastupdate>12/11/12</lastupdate>
-			<discoveryyear>2012</discoveryyear>
-			<list>Planets in binary systems, P-type</list>
-		</planet>
-		<planet>
-			<name>NSVS 14256825 d</name>
-			<list>Controversial</list>
-			<mass>8</mass>
-			<period>2506</period>
-			<semimajoraxis>2.9</semimajoraxis>
-			<eccentricity>0.52</eccentricity>
-			<description>NSVS 14256825 is an HW Vir type binary which consists of a hot subdwarf and a main-sequence low-mass star in a close orbit.</description>
-			<discoverymethod>timing</discoverymethod>
-			<lastupdate>12/11/12</lastupdate>
-			<discoveryyear>2012</discoveryyear>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/06/13</lastupdate>
 			<list>Planets in binary systems, P-type</list>
 		</planet>
 	</binary>

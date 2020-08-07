@@ -1,0 +1,33 @@
+<system>
+	<name>Kepler-1658</name>
+	<rightascension>19 37 26</rightascension>
+	<declination>+38 56 51</declination>
+	<distance errorminus="17.71" errorplus="17.71">806.07</distance>
+	<star>
+		<name>Kepler-1658</name>
+		<radius errorminus="0.11" errorplus="0.13">2.89</radius>
+		<magJ errorminus="0.025" errorplus="0.025">10.475</magJ>
+		<magH errorminus="0.029" errorplus="0.029">10.266</magH>
+		<magK errorminus="0.023" errorplus="0.023">10.195</magK>
+		<mass errorminus="0.06" errorplus="0.06">1.45</mass>
+		<temperature errorminus="78.00" errorplus="78.00">6216.00</temperature>
+		<metallicity errorminus="0.100" errorplus="0.100">-0.180</metallicity>
+		<planet>
+			<name>Kepler-1658 b</name>
+			<semimajoraxis errorminus="0.000700" errorplus="0.000700">0.054400</semimajoraxis>
+			<eccentricity errorminus="0.018500" errorplus="0.019700">0.062800</eccentricity>
+			<periastron errorminus="3.3700" errorplus="1.9300">-7.7300</periastron>
+			<inclination errorminus="0.590" errorplus="0.580">76.520</inclination>
+			<period errorminus="0.00000080" errorplus="0.00000080">3.84937278</period>
+			<description>This planet was discovered by Chontos et al. 2019. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Chontos et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.46000" errorplus="0.47000">5.88000</mass>
+			<radius errorminus="0.050" errorplus="0.050">1.070</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/03/14</lastupdate>
+			<transittime errorminus="0.000167" errorplus="0.000169">2455005.924100</transittime>
+		</planet>
+	</star>
+</system>

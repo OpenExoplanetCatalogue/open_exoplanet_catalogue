@@ -1,35 +1,44 @@
 <system>
 	<name>K2-168</name>
-	<name>EPIC 205950854</name>
-	<rightascension>22 12 26.373</rightascension>
-	<declination>-16 20 30.32</declination>
-	<distance errorminus="50.660" errorplus="46.130">549.600</distance>
+	<rightascension>22 12 26</rightascension>
+	<declination>-16 20 30</declination>
+	<distance errorminus="4.19" errorplus="4.19">245.56</distance>
 	<star>
 		<name>K2-168</name>
-		<name>EPIC 205950854</name>
-		<name>2MASS J22122638-1620301</name>
-		<magB errorminus="0.020" errorplus="0.020">12.998</magB>
+		<radius errorminus="0.04" errorplus="0.09">0.83</radius>
 		<magV errorminus="0.010" errorplus="0.010">12.291</magV>
 		<magJ errorminus="0.026" errorplus="0.026">10.957</magJ>
 		<magH errorminus="0.023" errorplus="0.023">10.589</magH>
 		<magK errorminus="0.024" errorplus="0.024">10.549</magK>
-		<metallicity errorminus="0.08" errorplus="0.08">-0.13</metallicity>
-		<mass errorminus="0.032" errorplus="0.029">0.907</mass>
-		<radius errorminus="0.039" errorplus="0.068">0.874</radius>
+		<mass errorminus="0.03" errorplus="0.06">0.88</mass>
+		<temperature errorminus="50.50" errorplus="101.00">5502.70</temperature>
+		<planet>
+			<name>K2-168 c</name>
+			<inclination errorminus="0.430" errorplus="0.980">89.810</inclination>
+			<period errorminus="0.00003800" errorplus="0.00007500">8.05072200</period>
+			<description>This planet was discovered by Heller et al. 2019. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Hedges et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.006" errorplus="0.013">0.117</radius>
+			<temperature errorminus="10" errorplus="21">961</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/08/15</lastupdate>
+			<transittime errorminus="0.009900" errorplus="0.010000">2456973.764800</transittime>
+		</planet>
 		<planet>
 			<name>K2-168 b</name>
-			<name>EPIC 205950854 b</name>
-			<name>EPIC 205950854.01</name>
-			<period errorminus="0.0014" errorplus="0.0014">15.8540</period>
-			<transittime errorminus="0.0026" errorplus="0.0027" unit="BJD">2456990.8877</transittime>
-			<inclination errorminus="1.3" errorplus="0.7">88.9</inclination>
-			<radius errorminus="0.0125" errorplus="0.0187">0.1909</radius>
-			<istransiting>1</istransiting>
+			<inclination errorminus="0.250" errorplus="0.460">89.400</inclination>
+			<period errorminus="0.00120000" errorplus="0.00250000">15.85230000</period>
+			<description>This planet was discovered by Mayo et al. 2018. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Hedges et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.010" errorplus="0.021">0.166</radius>
+			<temperature errorminus="8" errorplus="16">766</temperature>
 			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
 			<discoveryyear>2018</discoveryyear>
-			<description>This planet was announced as part of a batch of 149 validated planets from the K2 mission.</description>
-			<lastupdate>18/07/24</lastupdate>
 			<list>Confirmed planets</list>
+			<lastupdate>19/08/15</lastupdate>
+			<transittime errorminus="0.002300" errorplus="0.002300">2456975.037740</transittime>
 		</planet>
 	</star>
 </system>
