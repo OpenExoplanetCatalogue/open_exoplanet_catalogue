@@ -1,0 +1,35 @@
+<system>
+	<name>HIP 79098</name>
+	<name>HD 144844</name>
+	<rightascension>16 08 44</rightascension>
+	<declination>-23 41 08</declination>
+	<distance errorminus="2.50" errorplus="2.50">146.30</distance>
+	<binary>
+		<eccentricity>0.88</eccentricity>
+		<period>558.5</period>
+		<star>
+			<name>HIP 79098 A</name>
+			<spectraltype>B9V</spectraltype>
+			<mass>2.5</mass>
+		</star>
+		<star>
+			<mass>2.5</mass>
+			<name>HIP 79098 B</name>
+			<spectraltype>B9V</spectraltype>
+		</star>
+		<planet>
+			<name>HIP 79098 AB b</name>
+			<name>HD 144844 b</name>
+			<name>HIP 79098 A b</name>
+			<semimajoraxis errorminus="6.000000" errorplus="6.000000">345.000000</semimajoraxis>
+			<description>This planet was discovered by Janson et al. 2019. This was a ground based discovery. The parameters listed here are those reported by Janson et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="4.50000" errorplus="4.50000">20.50000</mass>
+			<temperature errorminus="150" errorplus="150">2450</temperature>
+			<discoverymethod>imaging</discoverymethod>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/07/11</lastupdate>
+			<list>Planets in binary systems, P-type</list>
+		</planet>
+	</binary>
+</system>
