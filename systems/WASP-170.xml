@@ -1,0 +1,29 @@
+<system>
+	<name>WASP-170</name>
+	<rightascension>09 01 40</rightascension>
+	<declination>-20 43 14</declination>
+	<distance errorminus="3.70" errorplus="3.70">308.27</distance>
+	<star>
+		<name>WASP-170</name>
+		<radius errorminus="0.06" errorplus="0.06">0.94</radius>
+		<mass errorminus="0.15" errorplus="0.15">0.93</mass>
+		<temperature errorminus="150.00" errorplus="150.00">5600.00</temperature>
+		<metallicity errorminus="0.090" errorplus="0.090">0.220</metallicity>
+		<planet>
+			<name>WASP-170 b</name>
+			<semimajoraxis errorminus="0.001800" errorplus="0.001800">0.033700</semimajoraxis>
+			<inclination errorminus="0.280" errorplus="0.280">84.870</inclination>
+			<period errorminus="0.00000360" errorplus="0.00000360">2.34478022</period>
+			<description>This planet was discovered by Barkaoui et al. 2019. This was a ground based discovery. The parameters listed here are those reported by Barkaoui et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.20000" errorplus="0.20000">1.60000</mass>
+			<radius errorminus="0.085" errorplus="0.085">1.096</radius>
+			<temperature errorminus="42" errorplus="42">1422</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2018</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>18/12/13</lastupdate>
+			<transittime errorminus="0.000200" errorplus="0.000200">2457802.391500</transittime>
+		</planet>
+	</star>
+</system>

@@ -1,0 +1,34 @@
+<system>
+	<name>HATS-70</name>
+	<rightascension>07 16 25</rightascension>
+	<declination>-31 14 40</declination>
+	<distance errorminus="62.00" errorplus="60.00">1307.00</distance>
+	<star>
+		<name>HATS-70</name>
+		<radius errorminus="0.07" errorplus="0.06">1.88</radius>
+		<magV errorminus="0.028" errorplus="0.028">12.574</magV>
+		<magJ errorminus="0.019" errorplus="0.019">12.139</magJ>
+		<magH errorminus="0.023" errorplus="0.023">12.106</magH>
+		<magK errorminus="0.024" errorplus="0.024">12.040</magK>
+		<mass errorminus="0.12" errorplus="0.12">1.78</mass>
+		<temperature errorminus="820.00" errorplus="630.00">7930.00</temperature>
+		<metallicity errorminus="0.107" errorplus="0.095">0.041</metallicity>
+		<planet>
+			<name>HATS-70 b</name>
+			<semimajoraxis errorminus="0.000870" errorplus="0.000740">0.036320</semimajoraxis>
+			<eccentricity>0.180000</eccentricity>
+			<inclination errorminus="1.900" errorplus="1.600">86.700</inclination>
+			<period errorminus="0.00000150" errorplus="0.00000150">1.88823780</period>
+			<description>This planet was discovered by Zhou et al. 2019. This was a ground based discovery. The parameters listed here are those reported by Zhou et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="1.60000" errorplus="1.80000">12.90000</mass>
+			<radius errorminus="0.074" errorplus="0.079">1.384</radius>
+			<temperature errorminus="160" errorplus="140">2730</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/02/14</lastupdate>
+			<transittime errorminus="0.000880" errorplus="0.000800">2456911.874860</transittime>
+		</planet>
+	</star>
+</system>

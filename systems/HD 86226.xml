@@ -1,34 +1,54 @@
 <system>
 	<name>HD 86226</name>
+	<name>HIP 48739</name>
 	<rightascension>09 56 30</rightascension>
 	<declination>-24 05 58</declination>
-	<distance>42.48</distance>
+	<distance errorminus="0.12" errorplus="0.12">45.57</distance>
 	<star>
 		<name>HD 86226</name>
-		<age>1.5</age>
-		<mass>1.06</mass>
-		<magV>7.93</magV>
-		<magB errorminus="0.019" errorplus="0.019">8.563</magB>
-		<magR errorminus="0.11" errorplus="0.11">7.71</magR>
+		<name>HIP 48739</name>
+		<radius errorminus="0.03" errorplus="0.03">1.05</radius>
+		<magV errorminus="0.013" errorplus="0.013">7.932</magV>
 		<magJ errorminus="0.019" errorplus="0.019">6.839</magJ>
 		<magH errorminus="0.034" errorplus="0.034">6.577</magH>
-		<magK errorminus="0.023" errorplus="0.023">6.463</magK>
-		<metallicity>0.05</metallicity>
-		<radius>1.02</radius>
-		<spectraltype>G2V</spectraltype>
+		<magK errorminus="0.022" errorplus="0.022">6.463</magK>
+		<mass errorminus="0.07" errorplus="0.06">1.02</mass>
+		<temperature errorminus="88.00" errorplus="88.00">5863.00</temperature>
+		<metallicity errorminus="0.043" errorplus="0.057">0.018</metallicity>
+		<spectraltype>G1V</spectraltype>
 		<planet>
 			<name>HD 86226 b</name>
-			<list>Confirmed planets</list>
-			<mass>0.92</mass>
-			<period>1695</period>
-			<semimajoraxis>2.84</semimajoraxis>
-			<eccentricity>0.15</eccentricity>
-			<periastron>193</periastron>
+			<name>HIP 48739 b</name>
+			<semimajoraxis errorminus="0.060000" errorplus="0.060000">2.730000</semimajoraxis>
+			<eccentricity errorminus="0.039000" errorplus="0.062000">0.059000</eccentricity>
+			<periastron errorminus="153.0000" errorplus="84.0000">225.0000</periastron>
+			<period errorminus="21.00000000" errorplus="22.00000000">1628.00000000</period>
+			<description>This planet was discovered by Arriagada et al. 2010. This was a ground based discovery. The parameters listed here are those reported by Teske et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.05000" errorplus="0.04000">0.45000</mass>
+			<temperature errorminus="4" errorplus="4">176</temperature>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>12/11/29</lastupdate>
-			<discoveryyear>2010</discoveryyear>
-			<temperature>154.0</temperature>
+			<discoveryyear>2009</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/08/13</lastupdate>
 		</planet>
-		<temperature>5940.0</temperature>
+		<planet>
+			<name>HD 86226 c</name>
+			<name>HIP 48739 c</name>
+			<semimajoraxis errorminus="0.001000" errorplus="0.001000">0.049000</semimajoraxis>
+			<eccentricity errorminus="0.048000" errorplus="0.065000">0.075000</eccentricity>
+			<periastron errorminus="90.0000" errorplus="60.0000">196.0000</periastron>
+			<inclination errorminus="0.160" errorplus="0.260">86.450</inclination>
+			<period errorminus="0.00018000" errorplus="0.00018000">3.98442000</period>
+			<description>This planet was discovered by Teske et al. 2020. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here are those reported by Teske et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00352" errorplus="0.00374">0.02281</mass>
+			<radius errorminus="0.007" errorplus="0.007">0.193</radius>
+			<temperature errorminus="28" errorplus="28">1311</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/08/13</lastupdate>
+			<transittime errorminus="0.000700" errorplus="0.000700">2458543.253900</transittime>
+		</planet>
 	</star>
 </system>

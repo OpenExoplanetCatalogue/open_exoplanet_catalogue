@@ -1,0 +1,29 @@
+<system>
+	<name>WASP-161</name>
+	<rightascension>08 25 21</rightascension>
+	<declination>-11 30 04</declination>
+	<distance errorminus="4.14" errorplus="4.14">346.46</distance>
+	<star>
+		<name>WASP-161</name>
+		<radius errorminus="0.07" errorplus="0.08">1.71</radius>
+		<mass errorminus="0.14" errorplus="0.14">1.39</mass>
+		<temperature errorminus="100.00" errorplus="100.00">6400.00</temperature>
+		<metallicity errorminus="0.090" errorplus="0.090">0.160</metallicity>
+		<planet>
+			<name>WASP-161 b</name>
+			<semimajoraxis errorminus="0.002300" errorplus="0.002300">0.067300</semimajoraxis>
+			<inclination errorminus="1.000" errorplus="0.690">89.010</inclination>
+			<period errorminus="0.00000480" errorplus="0.00000480">5.40604250</period>
+			<description>This planet was discovered by Barkaoui et al. 2019. This was a ground based discovery. The parameters listed here are those reported by Barkaoui et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.21000" errorplus="0.21000">2.49000</mass>
+			<radius errorminus="0.058" errorplus="0.065">1.143</radius>
+			<temperature errorminus="29" errorplus="34">1557</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2018</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>18/12/13</lastupdate>
+			<transittime errorminus="0.001100" errorplus="0.001100">2457416.528900</transittime>
+		</planet>
+	</star>
+</system>
