@@ -1,0 +1,35 @@
+<system>
+	<name>Kepler-1656</name>
+	<rightascension>18 57 53</rightascension>
+	<declination>+39 54 43</declination>
+	<distance errorminus="0.83" errorplus="0.83">186.88</distance>
+	<star>
+		<name>Kepler-1656</name>
+		<radius errorminus="0.13" errorplus="0.13">1.10</radius>
+		<magV errorminus="0.130" errorplus="0.130">11.640</magV>
+		<magJ errorminus="0.020" errorplus="0.020">10.046</magJ>
+		<magH errorminus="0.020" errorplus="0.020">9.715</magH>
+		<magK errorminus="0.017" errorplus="0.017">9.640</magK>
+		<mass errorminus="0.04" errorplus="0.04">1.03</mass>
+		<temperature errorminus="60.00" errorplus="60.00">5731.00</temperature>
+		<metallicity errorminus="0.040" errorplus="0.040">0.190</metallicity>
+		<planet>
+			<name>Kepler-1656 b</name>
+			<semimajoraxis errorminus="0.021000" errorplus="0.021000">0.197000</semimajoraxis>
+			<eccentricity errorminus="0.012000" errorplus="0.013000">0.836000</eccentricity>
+			<periastron errorminus="6.4000" errorplus="6.7000">53.9000</periastron>
+			<inclination errorminus="0.510" errorplus="0.470">89.310</inclination>
+			<period>31.57865900</period>
+			<description>This planet was discovered by Brady et al. 2018. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Brady et al. 2018 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.01196" errorplus="0.01321">0.15291</mass>
+			<radius errorminus="0.047" errorplus="0.047">0.448</radius>
+			<temperature errorminus="47" errorplus="51">651</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2018</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>18/10/04</lastupdate>
+			<transittime errorminus="0.000810" errorplus="0.000830">2455010.206100</transittime>
+		</planet>
+	</star>
+</system>

@@ -1,0 +1,34 @@
+<system>
+	<name>WASP-147</name>
+	<rightascension>23 56 46</rightascension>
+	<declination>-22 09 11</declination>
+	<distance errorminus="14.00" errorplus="14.00">426.00</distance>
+	<star>
+		<name>WASP-147</name>
+		<radius errorminus="0.08" errorplus="0.14">1.43</radius>
+		<magJ errorminus="0.020" errorplus="0.020">11.174</magJ>
+		<magH errorminus="0.023" errorplus="0.023">10.907</magH>
+		<magK errorminus="0.023" errorplus="0.023">10.857</magK>
+		<mass errorminus="0.07" errorplus="0.07">1.04</mass>
+		<temperature errorminus="100.00" errorplus="100.00">5702.00</temperature>
+		<metallicity errorminus="0.071" errorplus="0.069">0.092</metallicity>
+		<spectraltype>G4</spectraltype>
+		<planet>
+			<name>WASP-147 b</name>
+			<semimajoraxis errorminus="0.001300" errorplus="0.001200">0.054900</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination errorminus="1.600" errorplus="1.500">87.900</inclination>
+			<period errorminus="0.00002700" errorplus="0.00002700">4.60273000</period>
+			<description>This planet was discovered by Lendl et al. 2019. This was a ground based discovery. The parameters listed here are those reported by Lendl et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.02700" errorplus="0.02800">0.27500</mass>
+			<radius errorminus="0.093" errorplus="0.140">1.115</radius>
+			<temperature errorminus="43" errorplus="69">1404</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2018</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>18/11/01</lastupdate>
+			<transittime errorminus="0.001300" errorplus="0.001300">2456562.595000</transittime>
+		</planet>
+	</star>
+</system>
