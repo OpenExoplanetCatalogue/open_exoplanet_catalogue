@@ -1,0 +1,33 @@
+<system>
+	<name>K2-122</name>
+	<rightascension>08 25 54</rightascension>
+	<declination>+20 21 34</declination>
+	<distance errorminus="0.25" errorplus="0.25">72.19</distance>
+	<star>
+		<name>K2-122</name>
+		<radius errorminus="0.01" errorplus="0.01">0.60</radius>
+		<magV errorminus="0.032" errorplus="0.032">13.150</magV>
+		<magJ errorminus="0.022" errorplus="0.022">10.104</magJ>
+		<magH errorminus="0.022" errorplus="0.022">9.457</magH>
+		<magK errorminus="0.018" errorplus="0.018">9.275</magK>
+		<mass errorminus="0.01" errorplus="0.01">0.62</mass>
+		<temperature errorminus="45.00" errorplus="45.00">4027.00</temperature>
+		<metallicity errorminus="0.110" errorplus="0.110">0.060</metallicity>
+		<spectraltype>M0</spectraltype>
+		<planet>
+			<name>K2-122 b</name>
+			<semimajoraxis errorminus="0.000200" errorplus="0.000200">0.028500</semimajoraxis>
+			<period errorminus="0.00013000" errorplus="0.00012800">2.21928200</period>
+			<description>This planet was discovered by Dressing et al. 2017. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Livingston et al. 2018 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.007" errorplus="0.007">0.108</radius>
+			<temperature errorminus="10" errorplus="10">814</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2017</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>18/10/26</lastupdate>
+			<transittime errorminus="0.002360" errorplus="0.002350">2457144.050090</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

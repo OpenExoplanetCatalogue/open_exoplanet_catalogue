@@ -1,0 +1,32 @@
+<system>
+	<name>K2-53</name>
+	<rightascension>16 16 34</rightascension>
+	<declination>-20 24 02</declination>
+	<distance errorminus="2.00" errorplus="2.20">139.10</distance>
+	<star>
+		<name>K2-53</name>
+		<radius errorminus="0.01" errorplus="0.02">0.81</radius>
+		<magJ errorminus="0.024" errorplus="0.024">10.306</magJ>
+		<magH errorminus="0.024" errorplus="0.024">9.826</magH>
+		<magK errorminus="0.021" errorplus="0.021">9.664</magK>
+		<mass errorminus="0.04" errorplus="0.03">0.85</mass>
+		<temperature errorminus="86.00" errorplus="88.00">5263.00</temperature>
+		<metallicity errorminus="0.053" errorplus="0.052">-0.037</metallicity>
+		<planet>
+			<name>K2-53 b</name>
+			<semimajoraxis errorminus="0.001000" errorplus="0.001000">0.098000</semimajoraxis>
+			<inclination errorminus="0.160" errorplus="0.220">89.320</inclination>
+			<period errorminus="0.00011300" errorplus="0.00012300">12.20772000</period>
+			<description>This planet was discovered by Crossfield et al. 2016. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Livingston et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.009" errorplus="0.009">0.232</radius>
+			<temperature errorminus="13" errorplus="13">665</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/01/31</lastupdate>
+			<transittime errorminus="0.001860" errorplus="0.001890">2456896.385820</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

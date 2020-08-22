@@ -1,0 +1,32 @@
+<system>
+	<name>K2-52</name>
+	<rightascension>16 26 27</rightascension>
+	<declination>-24 58 12</declination>
+	<distance errorminus="104.10" errorplus="132.70">1041.70</distance>
+	<star>
+		<name>K2-52</name>
+		<radius errorminus="0.23" errorplus="0.28">2.19</radius>
+		<magJ errorminus="0.026" errorplus="0.026">12.729</magJ>
+		<magH errorminus="0.021" errorplus="0.021">12.126</magH>
+		<magK errorminus="0.019" errorplus="0.019">11.853</magK>
+		<mass errorminus="0.14" errorplus="0.16">1.69</mass>
+		<temperature errorminus="506.00" errorplus="483.00">7147.00</temperature>
+		<metallicity errorminus="0.139" errorplus="0.154">0.055</metallicity>
+		<planet>
+			<name>K2-52 b</name>
+			<semimajoraxis errorminus="0.002000" errorplus="0.002000">0.054000</semimajoraxis>
+			<inclination errorminus="1.910" errorplus="2.040">86.460</inclination>
+			<period errorminus="0.00001600" errorplus="0.00001700">3.53505500</period>
+			<description>This planet was discovered by Crossfield et al. 2016. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Livingston et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.196" errorplus="0.196">1.606</radius>
+			<temperature errorminus="184" errorplus="184">2004</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/01/31</lastupdate>
+			<transittime errorminus="0.001110" errorplus="0.001080">2456896.026180</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

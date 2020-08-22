@@ -1,0 +1,48 @@
+<system>
+	<name>K2-117</name>
+	<rightascension>08 55 25</rightascension>
+	<declination>+10 28 09</declination>
+	<distance errorminus="0.37" errorplus="0.37">101.95</distance>
+	<star>
+		<name>K2-117</name>
+		<radius errorminus="0.01" errorplus="0.01">0.51</radius>
+		<magV errorminus="0.060" errorplus="0.060">14.655</magV>
+		<magJ errorminus="0.023" errorplus="0.023">11.447</magJ>
+		<magH errorminus="0.029" errorplus="0.029">10.801</magH>
+		<magK errorminus="0.025" errorplus="0.025">10.589</magK>
+		<mass errorminus="0.01" errorplus="0.01">0.54</mass>
+		<temperature errorminus="53.00" errorplus="53.00">3778.00</temperature>
+		<metallicity errorminus="0.130" errorplus="0.130">-0.050</metallicity>
+		<spectraltype>M1.0V</spectraltype>
+		<planet>
+			<name>K2-117 c</name>
+			<semimajoraxis errorminus="0.000300" errorplus="0.000300">0.049200</semimajoraxis>
+			<period errorminus="0.00045500" errorplus="0.00046200">5.44401700</period>
+			<description>This planet was discovered by Dressing et al. 2017. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Livingston et al. 2018 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.011" errorplus="0.011">0.184</radius>
+			<temperature errorminus="9" errorplus="9">537</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2017</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>18/10/26</lastupdate>
+			<transittime errorminus="0.003520" errorplus="0.003580">2457143.566300</transittime>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>K2-117 b</name>
+			<semimajoraxis errorminus="0.000100" errorplus="0.000100">0.018900</semimajoraxis>
+			<period errorminus="0.00005100" errorplus="0.00004900">1.29160000</period>
+			<description>This planet was discovered by Dressing et al. 2017. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Livingston et al. 2018 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.009" errorplus="0.009">0.181</radius>
+			<temperature errorminus="14" errorplus="14">868</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2017</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>18/10/26</lastupdate>
+			<transittime errorminus="0.001580" errorplus="0.001620">2457142.774520</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

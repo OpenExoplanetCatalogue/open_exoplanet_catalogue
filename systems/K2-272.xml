@@ -1,0 +1,32 @@
+<system>
+	<name>K2-272</name>
+	<rightascension>08 50 29</rightascension>
+	<declination>+17 32 33</declination>
+	<distance errorminus="5.30" errorplus="5.30">426.57</distance>
+	<star>
+		<name>K2-272</name>
+		<radius errorminus="0.01" errorplus="0.01">0.81</radius>
+		<magV errorminus="0.020" errorplus="0.020">13.841</magV>
+		<magJ errorminus="0.022" errorplus="0.022">12.486</magJ>
+		<magH errorminus="0.020" errorplus="0.020">12.076</magH>
+		<magK errorminus="0.018" errorplus="0.018">12.000</magK>
+		<mass errorminus="0.04" errorplus="0.04">0.81</mass>
+		<temperature errorminus="79.00" errorplus="79.00">5419.00</temperature>
+		<metallicity errorminus="0.060" errorplus="0.060">-0.280</metallicity>
+		<planet>
+			<name>K2-272 b</name>
+			<semimajoraxis errorminus="0.001700" errorplus="0.001600">0.108100</semimajoraxis>
+			<period errorminus="0.00136000" errorplus="0.00132800">14.45353300</period>
+			<description>This planet was discovered by Livingston et al. 2018. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Livingston et al. 2018 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.013" errorplus="0.013">0.260</radius>
+			<temperature errorminus="12" errorplus="12">655</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2018</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>18/10/26</lastupdate>
+			<transittime errorminus="0.002960" errorplus="0.002880">2457144.858640</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

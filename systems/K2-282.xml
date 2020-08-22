@@ -1,0 +1,42 @@
+<system>
+	<name>K2-282</name>
+	<rightascension>00 53 44</rightascension>
+	<declination>+07 59 43</declination>
+	<distance errorminus="7.77" errorplus="7.77">502.28</distance>
+	<star>
+		<name>K2-282</name>
+		<magV errorminus="0.036" errorplus="0.036">14.042</magV>
+		<magJ errorminus="0.024" errorplus="0.024">12.437</magJ>
+		<magH errorminus="0.021" errorplus="0.021">12.084</magH>
+		<magK errorminus="0.021" errorplus="0.021">12.002</magK>
+		<mass errorminus="0.04" errorplus="0.04">0.94</mass>
+		<planet>
+			<name>K2-282 c</name>
+			<period errorminus="0.00005000" errorplus="0.00005000">0.70531000</period>
+			<description>This planet was discovered by Heller et al. 2019. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Heller et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.009" errorplus="0.012">0.132</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/06/13</lastupdate>
+			<transittime errorminus="0.001700" errorplus="0.001700">2457430.141100</transittime>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>K2-282 b</name>
+			<semimajoraxis errorminus="0.000700" errorplus="0.000600">0.049900</semimajoraxis>
+			<period errorminus="0.00030000" errorplus="0.00027900">4.16983600</period>
+			<description>This planet was discovered by Livingston et al. 2018. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Livingston et al. 2018 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.012" errorplus="0.012">0.252</radius>
+			<temperature errorminus="20" errorplus="20">1057</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2018</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>18/10/26</lastupdate>
+			<transittime errorminus="0.003230" errorplus="0.003470">2457394.999300</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

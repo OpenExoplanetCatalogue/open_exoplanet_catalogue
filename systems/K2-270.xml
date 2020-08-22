@@ -1,0 +1,47 @@
+<system>
+	<name>K2-270</name>
+	<rightascension>08 45 04</rightascension>
+	<declination>+13 32 59</declination>
+	<distance errorminus="2.33" errorplus="2.33">283.53</distance>
+	<star>
+		<name>K2-270</name>
+		<radius errorminus="0.01" errorplus="0.01">0.77</radius>
+		<magV errorminus="0.020" errorplus="0.020">13.782</magV>
+		<magJ errorminus="0.023" errorplus="0.023">11.968</magJ>
+		<magH errorminus="0.019" errorplus="0.019">11.462</magH>
+		<magK errorminus="0.021" errorplus="0.021">11.368</magK>
+		<mass errorminus="0.02" errorplus="0.02">0.85</mass>
+		<temperature errorminus="58.00" errorplus="58.00">4877.00</temperature>
+		<metallicity errorminus="0.060" errorplus="0.060">0.260</metallicity>
+		<planet>
+			<name>K2-270 b</name>
+			<semimajoraxis errorminus="0.000200" errorplus="0.000200">0.024700</semimajoraxis>
+			<period errorminus="0.00018500" errorplus="0.00018900">1.54306900</period>
+			<description>This planet was discovered by Livingston et al. 2018. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Livingston et al. 2018 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.010" errorplus="0.010">0.123</radius>
+			<temperature errorminus="17" errorplus="17">1203</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2018</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>18/10/26</lastupdate>
+			<transittime errorminus="0.004650" errorplus="0.004460">2457142.419980</transittime>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>K2-270 c</name>
+			<semimajoraxis errorminus="0.000400" errorplus="0.000400">0.049700</semimajoraxis>
+			<period errorminus="0.00017800" errorplus="0.00016900">4.40002800</period>
+			<description>This planet was discovered by Livingston et al. 2018. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Livingston et al. 2018 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.014" errorplus="0.014">0.263</radius>
+			<temperature errorminus="12" errorplus="12">848</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2018</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>18/10/26</lastupdate>
+			<transittime errorminus="0.001670" errorplus="0.001660">2457142.975100</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

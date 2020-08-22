@@ -1,0 +1,32 @@
+<system>
+	<name>K2-124</name>
+	<rightascension>08 54 34</rightascension>
+	<declination>+23 07 58</declination>
+	<distance errorminus="2.30" errorplus="2.30">140.40</distance>
+	<star>
+		<name>K2-124</name>
+		<radius errorminus="0.01" errorplus="0.02">0.39</radius>
+		<magJ errorminus="0.023" errorplus="0.023">12.838</magJ>
+		<magH errorminus="0.022" errorplus="0.022">12.227</magH>
+		<magK errorminus="0.018" errorplus="0.018">11.975</magK>
+		<mass errorminus="0.04" errorplus="0.01">0.39</mass>
+		<temperature errorminus="70.00" errorplus="63.00">3570.00</temperature>
+		<metallicity errorminus="0.106" errorplus="0.061">0.023</metallicity>
+		<planet>
+			<name>K2-124 b</name>
+			<semimajoraxis errorminus="0.002000" errorplus="0.002000">0.049000</semimajoraxis>
+			<inclination errorminus="0.270" errorplus="0.320">89.030</inclination>
+			<period errorminus="0.00003100" errorplus="0.00003600">6.41365100</period>
+			<description>This planet was discovered by Dressing et al. 2017. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Livingston et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.009" errorplus="0.009">0.259</radius>
+			<temperature errorminus="17" errorplus="17">442</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2017</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/01/31</lastupdate>
+			<transittime errorminus="0.001070" errorplus="0.001050">2457142.181060</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

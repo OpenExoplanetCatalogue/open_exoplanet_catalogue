@@ -1,0 +1,33 @@
+<system>
+	<name>K2-151</name>
+	<rightascension>01 17 13</rightascension>
+	<declination>+09 30 05</declination>
+	<distance errorminus="0.15" errorplus="0.15">69.61</distance>
+	<star>
+		<name>K2-151</name>
+		<radius errorminus="0.01" errorplus="0.01">0.45</radius>
+		<magV errorminus="0.040" errorplus="0.040">14.140</magV>
+		<magJ errorminus="0.027" errorplus="0.027">10.930</magJ>
+		<magH errorminus="0.021" errorplus="0.021">10.335</magH>
+		<magK errorminus="0.021" errorplus="0.021">10.117</magK>
+		<mass errorminus="0.01" errorplus="0.01">0.47</mass>
+		<temperature errorminus="32.00" errorplus="32.00">3695.00</temperature>
+		<metallicity errorminus="0.070" errorplus="0.070">-0.190</metallicity>
+		<spectraltype>M1.5V</spectraltype>
+		<planet>
+			<name>K2-151 b</name>
+			<semimajoraxis errorminus="0.000200" errorplus="0.000200">0.037300</semimajoraxis>
+			<period errorminus="0.00025600" errorplus="0.00026600">3.83547600</period>
+			<description>This planet was discovered by Hirano et al. 2018. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Livingston et al. 2018 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.007" errorplus="0.007">0.133</radius>
+			<temperature errorminus="6" errorplus="6">566</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2018</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>18/10/26</lastupdate>
+			<transittime errorminus="0.003060" errorplus="0.002770">2457395.237350</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

@@ -1,0 +1,32 @@
+<system>
+	<name>K2-278</name>
+	<rightascension>13 33 12</rightascension>
+	<declination>-14 30 15</declination>
+	<distance errorminus="16.46" errorplus="16.46">804.13</distance>
+	<star>
+		<name>K2-278</name>
+		<radius errorminus="0.05" errorplus="0.05">1.61</radius>
+		<magV errorminus="0.030" errorplus="0.030">13.412</magV>
+		<magJ errorminus="0.023" errorplus="0.023">12.097</magJ>
+		<magH errorminus="0.027" errorplus="0.027">11.809</magH>
+		<magK errorminus="0.026" errorplus="0.026">11.701</magK>
+		<mass errorminus="0.08" errorplus="0.08">1.40</mass>
+		<temperature errorminus="383.00" errorplus="383.00">6747.00</temperature>
+		<metallicity errorminus="0.170" errorplus="0.170">0.000</metallicity>
+		<planet>
+			<name>K2-278 b</name>
+			<semimajoraxis errorminus="0.000900" errorplus="0.000900">0.048800</semimajoraxis>
+			<period errorminus="0.00085900" errorplus="0.00070100">3.33496600</period>
+			<description>This planet was discovered by Livingston et al. 2018. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Livingston et al. 2018 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.021" errorplus="0.021">0.266</radius>
+			<temperature errorminus="101" errorplus="101">1711</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2018</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>18/10/26</lastupdate>
+			<transittime errorminus="0.009000" errorplus="0.011190">2457219.822940</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

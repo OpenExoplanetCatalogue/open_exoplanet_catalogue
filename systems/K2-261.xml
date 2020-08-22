@@ -1,0 +1,37 @@
+<system>
+	<name>K2-261</name>
+	<rightascension>10 52 08</rightascension>
+	<declination>+00 29 36</declination>
+	<distance errorminus="1.97" errorplus="1.97">214.58</distance>
+	<star>
+		<name>K2-261</name>
+		<radius errorminus="0.04" errorplus="0.04">1.65</radius>
+		<magV errorminus="0.059" errorplus="0.059">10.612</magV>
+		<magJ errorminus="0.030" errorplus="0.030">9.337</magJ>
+		<magH errorminus="0.042" errorplus="0.042">8.920</magH>
+		<magK errorminus="0.022" errorplus="0.022">8.890</magK>
+		<mass errorminus="0.02" errorplus="0.01">1.10</mass>
+		<temperature errorminus="71.00" errorplus="71.00">5537.00</temperature>
+		<metallicity errorminus="0.060" errorplus="0.060">0.360</metallicity>
+		<spectraltype>G7IV/V</spectraltype>
+		<planet>
+			<name>K2-261 b</name>
+			<semimajoraxis errorminus="0.020000" errorplus="0.019000">0.102000</semimajoraxis>
+			<eccentricity errorminus="0.150000" errorplus="0.150000">0.390000</eccentricity>
+			<periastron errorminus="18.0000" errorplus="18.0000">143.0000</periastron>
+			<inclination errorminus="1.900" errorplus="1.100">88.400</inclination>
+			<period errorminus="0.00012000" errorplus="0.00012000">11.63344000</period>
+			<description>This planet was discovered by Johnson et al. 2018. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Johnson et al. 2018 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.03100" errorplus="0.03100">0.22300</mass>
+			<radius errorminus="0.022" errorplus="0.026">0.850</radius>
+			<temperature errorminus="100" errorplus="110">1080</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2018</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>18/08/16</lastupdate>
+			<transittime errorminus="0.000670" errorplus="0.000540">2457906.840840</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

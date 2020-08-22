@@ -1,0 +1,33 @@
+<system>
+	<name>K2-87</name>
+	<rightascension>04 24 57</rightascension>
+	<declination>+18 49 39</declination>
+	<distance errorminus="21.90" errorplus="29.90">503.60</distance>
+	<star>
+		<name>K2-87</name>
+		<radius errorminus="0.06" errorplus="0.08">1.40</radius>
+		<magV errorminus="0.040" errorplus="0.040">14.134</magV>
+		<magJ errorminus="0.020" errorplus="0.020">11.811</magJ>
+		<magH errorminus="0.022" errorplus="0.022">11.359</magH>
+		<magK errorminus="0.019" errorplus="0.019">11.197</magK>
+		<mass errorminus="0.04" errorplus="0.04">1.16</mass>
+		<temperature errorminus="49.00" errorplus="58.00">5747.00</temperature>
+		<metallicity errorminus="0.045" errorplus="0.051">0.328</metallicity>
+		<planet>
+			<name>K2-87 b</name>
+			<semimajoraxis errorminus="0.001000" errorplus="0.001000">0.094000</semimajoraxis>
+			<inclination errorminus="0.170" errorplus="0.170">87.740</inclination>
+			<period errorminus="0.00005500" errorplus="0.00005500">9.72661800</period>
+			<description>This planet was discovered by Crossfield et al. 2016. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Livingston et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.036" errorplus="0.036">0.678</radius>
+			<temperature errorminus="28" errorplus="28">979</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/01/31</lastupdate>
+			<transittime errorminus="0.001710" errorplus="0.001710">2457072.302320</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>
