@@ -1,29 +1,37 @@
 <system>
 	<name>HATS-24</name>
 	<rightascension>17 55 34</rightascension>
-	<declination>-61 15 10</declination>
-	<distance>510.0</distance>
+	<declination>-61 44 50</declination>
+	<distance errorminus="15.00" errorplus="15.00">510.00</distance>
 	<star>
 		<name>HATS-24</name>
-		<age>0.88</age>
-		<radius>1.172</radius>
-		<mass>1.212</mass>
-		<temperature>6346.0</temperature>
-		<metallicity>0.0</metallicity>
+		<radius errorminus="0.05" errorplus="0.04">1.12</radius>
+		<magV errorminus="0.010" errorplus="0.010">12.830</magV>
+		<magJ errorminus="0.019" errorplus="0.019">11.678</magJ>
+		<magH errorminus="0.024" errorplus="0.024">11.447</magH>
+		<magK errorminus="0.021" errorplus="0.021">11.382</magK>
+		<mass errorminus="0.05" errorplus="0.03">1.07</mass>
+		<temperature errorminus="94.00" errorplus="94.00">6125.00</temperature>
+		<metallicity errorminus="0.058" errorplus="0.058">-0.229</metallicity>
+		<spectraltype>FV</spectraltype>
 		<planet>
 			<name>HATS-24 b</name>
-			<semimajoraxis errorminus="0.00023" errorplus="0.00023">0.02547</semimajoraxis>
-			<eccentricity errorminus="0.24" errorplus="0.24">0.24</eccentricity>
-			<inclination errorminus="1.2" errorplus="1.2">86.6</inclination>
-			<period errorminus="0.000001" errorplus="0.000001">1.3484954</period>
-			<mass errorminus="0.18" errorplus="0.18">2.44</mass>
-			<radius errorminus="0.054" errorplus="0.078">1.487</radius>
-			<istransiting>1</istransiting>
+			<semimajoraxis errorminus="0.001000" errorplus="0.001000">0.023800</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<periastron>90.0000</periastron>
+			<inclination errorminus="0.280" errorplus="0.230">85.970</inclination>
+			<period errorminus="0.00000090" errorplus="0.00000090">1.34849780</period>
+			<description>This planet was discovered by Bento et al. 2017. This was a ground based discovery. The parameters listed here are those reported by Oliveira et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.17000" errorplus="0.17000">2.26000</mass>
+			<radius errorminus="0.057" errorplus="0.057">1.395</radius>
+			<temperature errorminus="53" errorplus="53">2166</temperature>
 			<discoverymethod>transit</discoverymethod>
-			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/07/11</lastupdate>
+			<istransiting>1</istransiting>
+			<discoveryyear>2017</discoveryyear>
 			<list>Confirmed planets</list>
-			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+			<lastupdate>19/07/11</lastupdate>
+			<transittime errorminus="0.000039" errorplus="0.000039">2457948.709321</transittime>
+			<new>1</new>
 		</planet>
 	</star>
 </system>

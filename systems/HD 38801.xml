@@ -1,31 +1,35 @@
 <system>
 	<name>HD 38801</name>
+	<name>HIP 27384</name>
 	<rightascension>05 47 59</rightascension>
 	<declination>-08 19 40</declination>
-	<distance>99.4</distance>
+	<distance errorminus="0.35" errorplus="0.35">91.68</distance>
 	<star>
-		<mass>1.36</mass>
-		<radius>2.53</radius>
-		<magV>8.26</magV>
-		<magB errorminus="0.02" errorplus="0.02">9.14</magB>
+		<name>HD 38801</name>
+		<name>HIP 27384</name>
+		<radius errorminus="0.29" errorplus="0.29">2.03</radius>
+		<magV>8.224</magV>
 		<magJ errorminus="0.023" errorplus="0.023">6.800</magJ>
 		<magH errorminus="0.038" errorplus="0.038">6.372</magH>
 		<magK errorminus="0.020" errorplus="0.020">6.279</magK>
-		<metallicity>0.26</metallicity>
-		<spectraltype>K0IV</spectraltype>
+		<mass errorminus="0.11" errorplus="0.11">1.21</mass>
+		<temperature errorminus="59.00" errorplus="59.00">5338.00</temperature>
+		<metallicity errorminus="0.030" errorplus="0.030">0.250</metallicity>
+		<spectraltype>K0</spectraltype>
 		<planet>
 			<name>HD 38801 b</name>
-			<list>Confirmed planets</list>
-			<mass>10.7</mass>
-			<period>696.3</period>
-			<semimajoraxis>1.7</semimajoraxis>
-			<eccentricity>0.0</eccentricity>
+			<name>HIP 27384 b</name>
+			<semimajoraxis errorminus="0.049000" errorplus="0.047000">1.623000</semimajoraxis>
+			<eccentricity errorminus="0.011000" errorplus="0.013000">0.017000</eccentricity>
+			<periastron errorminus="71.9000" errorplus="238.6140">97.1150</periastron>
+			<period errorminus="0.85000000" errorplus="0.85000000">685.25000000</period>
+			<description>This planet was discovered by Harakawa et al. 2010. This was a ground based discovery. The parameters listed here are those reported by Barbato et al. 2018 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.58700" errorplus="0.57300">9.69800</mass>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/12/15</lastupdate>
-			<discoveryyear>2010</discoveryyear>
-			<temperature>280.9</temperature>
+			<discoveryyear>2009</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/06/27</lastupdate>
+			<new>1</new>
 		</planet>
-		<name>HD 38801</name>
-		<temperature>5222.0</temperature>
 	</star>
 </system>

@@ -1,38 +1,33 @@
 <system>
 	<name>HAT-P-36</name>
-	<rightascension>12 33 03.909</rightascension>
-	<declination>+44 54 55.18</declination>
-	<distance>317</distance>
+	<rightascension>12 33 04</rightascension>
+	<declination>+44 54 55</declination>
+	<distance errorminus="2.27" errorplus="2.27">296.93</distance>
 	<star>
-		<mass>1.022</mass>
-		<radius>1.096</radius>
-		<magV>12.262</magV>
-		<magB errorminus="0.25" errorplus="0.25">12.97</magB>
-		<magR errorminus="0.05" errorplus="0.05">12.27</magR>
-		<magJ errorminus="0.16" errorplus="0.16">12.15</magJ>
-		<magH errorminus="0.03" errorplus="0.03">10.72</magH>
+		<name>HAT-P-36</name>
+		<radius errorminus="0.01" errorplus="0.01">1.04</radius>
+		<magV errorminus="0.068" errorplus="0.068">12.262</magV>
+		<magJ errorminus="0.027" errorplus="0.027">11.046</magJ>
+		<magH errorminus="0.029" errorplus="0.029">10.723</magH>
 		<magK errorminus="0.021" errorplus="0.021">10.603</magK>
-		<metallicity>0.26</metallicity>
-		<spectraltype>G</spectraltype>
+		<mass errorminus="0.03" errorplus="0.03">1.03</mass>
+		<temperature errorminus="40.00" errorplus="40.00">5620.00</temperature>
+		<spectraltype>G5V</spectraltype>
 		<planet>
 			<name>HAT-P-36 b</name>
-			<name>2MASS 12330390+4454552</name>
-			<list>Confirmed planets</list>
-			<mass>1.832</mass>
-			<radius>1.264</radius>
-			<period>1.327</period>
-			<semimajoraxis>0.0238</semimajoraxis>
-			<eccentricity>0.063</eccentricity>
-			<inclination>86.0</inclination>
-			<description>HAT-P-36 b is a transiting planet that has been discovered by the HATNet collaboration. HATNet is a ground-based survey using standard telephoto lenses such as the Canon 11cm diameter f/1.8L.</description>
+			<semimajoraxis errorminus="0.000470" errorplus="0.000470">0.024100</semimajoraxis>
+			<inclination errorminus="0.130" errorplus="0.004">87.130</inclination>
+			<period errorminus="0.00000048" errorplus="0.00000048">1.32734683</period>
+			<description>This planet was discovered by Bakos et al. 2012. This was a ground based discovery. The parameters listed here are those reported by Chakrabarty &amp; Sengupta 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.08700" errorplus="0.08700">1.84820</mass>
+			<radius errorminus="0.020" errorplus="0.020">1.277</radius>
+			<temperature errorminus="19" errorplus="19">1781</temperature>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>13/05/29</lastupdate>
-			<discoveryyear>2012</discoveryyear>
-			<temperature>1669.2</temperature>
-			<transittime errorminus="0.00020" errorplus="0.00020" unit="BJD">2455565.18144</transittime>
 			<istransiting>1</istransiting>
+			<discoveryyear>2011</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/07/11</lastupdate>
+			<new>1</new>
 		</planet>
-		<name>HAT-P-36</name>
-		<temperature>5580.0</temperature>
 	</star>
 </system>
