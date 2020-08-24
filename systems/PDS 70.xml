@@ -5,14 +5,19 @@
 	<distance errorminus="0.51" errorplus="0.51">113.39</distance>
 	<star>
 		<name>PDS 70</name>
+		<name>Gaia DR2 6110141563309613056</name>
 		<magV errorminus="0.123" errorplus="0.123">12.233</magV>
 		<magJ errorminus="0.021" errorplus="0.021">9.553</magJ>
 		<magH errorminus="0.037" errorplus="0.037">8.823</magH>
 		<magK errorminus="0.021" errorplus="0.021">8.542</magK>
+		<magB errorminus="0.05" errorplus="0.05">13.42</magB>
+		<magI errorminus="0.03" errorplus="0.03">10.506</magI>
+		<magR errorminus="0.07" errorplus="0.07">11.71</magR>
 		<temperature errorminus="36.00" errorplus="36.00">3972.00</temperature>
 		<spectraltype>K7</spectraltype>
 		<planet>
 			<name>PDS 70 c</name>
+			<name>Gaia DR2 6110141563309613056 c</name>
 			<semimajoraxis errorminus="3.000000" errorplus="6.000000">34.000000</semimajoraxis>
 			<eccentricity errorminus="0.060000" errorplus="0.120000">0.110000</eccentricity>
 			<periastron errorminus="58.0000" errorplus="50.0000">136.0000</periastron>
@@ -28,6 +33,7 @@
 		</planet>
 		<planet>
 			<name>PDS 70 b</name>
+			<name>Gaia DR2 6110141563309613056 b</name>
 			<semimajoraxis errorminus="2.000000" errorplus="2.000000">20.000000</semimajoraxis>
 			<eccentricity errorminus="0.090000" errorplus="0.150000">0.190000</eccentricity>
 			<periastron errorminus="31.0000" errorplus="31.0000">148.0000</periastron>
