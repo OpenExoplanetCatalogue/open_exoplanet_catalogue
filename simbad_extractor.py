@@ -90,7 +90,7 @@ class MyHTMLParser(HTMLParser):#HTML parser to get the information from the webp
         pass
 
     def handle_data(self, data):
-        global data2, boolean, spectre, section, inname
+        global data2, boolean, spectre, section, inname, dictio_distance, dictio_coord
         if section=="mag" and re.findall("[A-Z] +\d*\.?\d*? *\[+.+\]", data):#Search magnitude
             data2 = data
             data2 = data2.replace("\n", "").replace(" ","")
@@ -104,9 +104,23 @@ class MyHTMLParser(HTMLParser):#HTML parser to get the information from the webp
             data2 = ""
         if re.findall("Plots and Images", data):
             section = "plotsandimages"
+        if re.findall("ICRS", data):
+            section = "ICRS"
+        if section=="ICRS" and re.findall("coord.",data):
+            section = "ICRScoord"
+        if section=="ICRScoord":
+            res = re.search(r"\s+(\d\d \d\d \d\d\.\d{4})\d+ ([\+\-]\d\d \d\d \d\d\.\d{4})\d+",data)
+            if res:
+                dictio_coord = [res.group(1), res.group(2)]
+                section = "coords done"
+        if re.findall("distance Q unit", data):
+            section = "distance"
+            res = re.search(r"\s+\|\s*(\d+\.\d+)\s+pc\s+\|\s+\-(\d+\.\d+)\s+\+(\d+\.\d+)\s+\|",data)
+            if res:
+                dictio_distance = [res.group(1), res.group(2), res.group(3)]
 
 def updateXML(filename):
-    global dictio, dictio_ident
+    global dictio, dictio_ident, dictio_coord
     dic2 = dictio
     dic2.sort()
 
@@ -119,6 +133,54 @@ def updateXML(filename):
     if len(binaries):
         print("binary system. skipping")
         return False
+    ## System Distance
+    systemnames = root.findall("./name")
+    lastnameindex = -1
+    for ind, child in enumerate(root):
+        if child.text == systemnames[-1].text:
+            lastnameindex = ind
+    if not root.findtext("./distance") and len(dictio_distance):
+        nmag = ET.Element("distance")
+        nmag.text = dictio_distance[0]
+        nmag.attrib['errorminus'] = dictio_distance[1]
+        nmag.attrib['errorplus'] = dictio_distance[2]
+        print("New distance added: ", dictio_distance)
+        root.insert(lastnameindex+1,nmag)
+    if len(dictio_coord):
+        coord = root.findtext("./declination")
+        if coord:
+            if coord[:6] in dictio_coord[1] and len(coord)<len(dictio_coord[1]):
+                for ind, child in enumerate(root):
+                    if child.tag == "declination":
+                        lastnameindex = ind-1
+                        print("Old declination removed: ", coord)
+                        root.remove(child)
+                        coord = None
+                        break
+        if not coord:
+            nmag = ET.Element("declination")
+            nmag.text = dictio_coord[1]
+            print("New declination added: ", dictio_coord[1])
+            root.insert(lastnameindex+1,nmag)
+        coord = root.findtext("./rightascension")
+        if coord:
+            if coord[:5] in dictio_coord[0] and len(coord)<len(dictio_coord[0]):
+                for ind, child in enumerate(root):
+                    if child.tag == "rightascension":
+                        lastnameindex = ind-1
+                        print("Old rightascension removed: ", coord)
+                        root.remove(child)
+                        coord = None
+                        break
+        if not coord:
+            nmag = ET.Element("rightascension")
+            nmag.text = dictio_coord[0]
+            print("New rightascension added: ", dictio_coord[0])
+            root.insert(lastnameindex+1,nmag)
+
+
+
+        
 
     ## Planet Names
     for planet in planets:
@@ -259,12 +321,16 @@ try:
 except:
     willskip = []
 
+nummax = 1000
+
 for elt in line:#read all the list of systems and run the parser class and the magnitude function for each one
     if elt in willskip:
         print("skipping ",elt)
         continue
     dictio = []
     dictio_ident = []
+    dictio_distance = []
+    dictio_coord = []
     section = "mag"
     boolean = 0
     data2 = ""
@@ -301,3 +367,7 @@ for elt in line:#read all the list of systems and run the parser class and the m
     with open("simbad_skip.txt", "a+") as skip_list:
         skip_list.write(elt+"\n")
     print("")
+    time.sleep(1)
+    nummax-=1
+    if nummax==0:
+        break
