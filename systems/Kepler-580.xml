@@ -2,13 +2,15 @@
 	<name>Kepler-580</name>
 	<name>KOI-503</name>
 	<name>KIC 5340644</name>
-	<rightascension>18 53 59.9</rightascension>
-	<declination>+40 33 10</declination>
+	<distance errorminus="2.5866" errorplus="2.5866">326.936</distance>
+	<rightascension>18 53 59.9488</rightascension>
+	<declination>+40 33 09.8548</declination>
 	<star>
 		<name>Kepler-580</name>
 		<name>KOI-503</name>
 		<name>KIC 5340644</name>
 		<name>2MASS J18535995+4033100</name>
+		<name>Gaia DR2 2103578400656053632</name>
 		<temperature errorminus="38.1" errorplus="49.1">4298.0</temperature>
 		<mass errorminus="0.03" errorplus="0.03">0.67</mass>
 		<radius errorminus="0.02" errorplus="0.02">0.64</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-503 b</name>
 			<name>KOI-503.01</name>
 			<name>KIC 5340644 b</name>
+			<name>Gaia DR2 2103578400656053632 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

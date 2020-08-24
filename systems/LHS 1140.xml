@@ -1,12 +1,13 @@
 <system>
 	<name>LHS 1140</name>
-	<rightascension>00 44 59.31</rightascension>
-	<declination>-15 16 16.7</declination>
+	<rightascension>00 44 59.3314</rightascension>
+	<declination>-15 16 17.5431</declination>
 	<distance errorminus="0.42" errorplus="0.42">12.47</distance>
 	<star>
 		<name>LHS 1140</name>
 		<name>GJ 3053</name>
 		<name>2MASS J00445930-1516166</name>
+		<name>Gaia DR2 2371032916186181760</name>
 		<magB>15.881</magB>
 		<magV errorminus="0.06" errorplus="0.06">14.150</magV>
 		<magR errorminus="0.07" errorplus="0.07">13.801</magR>
@@ -21,6 +22,8 @@
 		<age lowerlimit="5" />
 		<planet>
 			<name>LHS 1140 b</name>
+			<name>Gaia DR2 2371032916186181760 b</name>
+			<name>GJ 3053 b</name>
 			<list>Confirmed planets</list>
 			<inclination errorminus="0.071" errorplus="0.071">89.912</inclination>
 			<eccentricity upperlimit="0.29" />

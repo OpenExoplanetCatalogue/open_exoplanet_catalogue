@@ -1,7 +1,7 @@
 <system>
 	<name>AB Pic</name>
-	<rightascension>06 19 12</rightascension>
-	<declination>-58 03 15</declination>
+	<rightascension>06 19 12.9129</rightascension>
+	<declination>-58 03 15.5248</declination>
 	<distance errorminus="1.7" errorplus="1.8">45.5</distance>
 	<star>
 		<magV>9.16</magV>
@@ -15,6 +15,10 @@
 		<spectraltype>K2 V</spectraltype>
 		<planet>
 			<name>AB Pic b</name>
+			<name>HIP 30034 b</name>
+			<name>Gaia DR2 5495052596695570816 b</name>
+			<name>TYC 8542-384-1 b</name>
+			<name>HD 44627 b</name>
 			<list>Confirmed planets</list>
 			<mass lowerlimit="10" upperlimit="14">12</mass>
 			<temperature errorminus="100" errorplus="100">1750</temperature>
@@ -31,6 +35,10 @@
 			<imagedescription>This is a coronagraphic image of AB Pictoris. A planetary companion is visible on the lower left. It was obtained with NACO on the VLT with an occulting mask on top of AB Pictoris. Credit: ESO.</imagedescription>
 		</planet>
 		<name>AB Pic</name>
+		<name>HIP 30034</name>
+		<name>Gaia DR2 5495052596695570816</name>
+		<name>TYC 8542-384-1</name>
+		<name>HD 44627</name>
 		<temperature>4875.0</temperature>
 	</star>
 </system>

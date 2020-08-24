@@ -2,13 +2,15 @@
 	<name>Kepler-583</name>
 	<name>KOI-512</name>
 	<name>KIC 6838050</name>
-	<rightascension>18 48 27</rightascension>
-	<declination>+42 21 16</declination>
+	<distance errorminus="13.7653" errorplus="13.7653">889.442</distance>
+	<rightascension>18 48 26.7181</rightascension>
+	<declination>+42 21 16.1730</declination>
 	<star>
 		<name>Kepler-583</name>
 		<name>KOI-512</name>
 		<name>KIC 6838050</name>
 		<name>2MASS J18482671+4221162</name>
+		<name>Gaia DR2 2104755256054840192</name>
 		<temperature errorminus="106.1" errorplus="76.3">5523.0</temperature>
 		<mass errorminus="0.04" errorplus="0.04">0.94</mass>
 		<radius errorminus="0.06" errorplus="0.11">0.91</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-512 b</name>
 			<name>KOI-512.01</name>
 			<name>KIC 6838050 b</name>
+			<name>Gaia DR2 2104755256054840192 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

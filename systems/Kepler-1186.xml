@@ -2,13 +2,15 @@
 	<name>Kepler-1186</name>
 	<name>KOI-2313</name>
 	<name>KIC 10132832</name>
-	<rightascension>19 13 55</rightascension>
-	<declination>+47 06 06</declination>
+	<distance errorminus="41.771" errorplus="41.771">1390.63</distance>
+	<rightascension>19 13 55.1159</rightascension>
+	<declination>+47 06 06.3190</declination>
 	<star>
 		<name>Kepler-1186</name>
 		<name>KOI-2313</name>
 		<name>KIC 10132832</name>
 		<name>2MASS J19135511+4706063</name>
+		<name>Gaia DR2 2130782895307640192</name>
 		<temperature errorminus="72.3" errorplus="68.4">5635.0</temperature>
 		<mass errorminus="0.05" errorplus="0.04">0.95</mass>
 		<radius errorminus="0.06" errorplus="0.15">0.93</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-2313 b</name>
 			<name>KOI-2313.01</name>
 			<name>KIC 10132832 b</name>
+			<name>Gaia DR2 2130782895307640192 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

@@ -2,13 +2,15 @@
 	<name>Kepler-483</name>
 	<name>KOI-176</name>
 	<name>KIC 6442377</name>
-	<rightascension>19 26 35</rightascension>
-	<declination>+41 53 05</declination>
+	<distance errorminus="10.663" errorplus="10.663">882.223</distance>
+	<rightascension>19 26 35.2170</rightascension>
+	<declination>+41 53 04.7829</declination>
 	<star>
 		<name>Kepler-483</name>
 		<name>KOI-176</name>
 		<name>KIC 6442377</name>
 		<name>2MASS J19263522+4153047</name>
+		<name>Gaia DR2 2101719263935952768</name>
 		<temperature errorminus="73.4" errorplus="79.7">6346.0</temperature>
 		<mass errorminus="0.07" errorplus="0.10">1.28</mass>
 		<radius errorminus="0.19" errorplus="0.31">1.47</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-176 b</name>
 			<name>KOI-176.01</name>
 			<name>KIC 6442377 b</name>
+			<name>Gaia DR2 2101719263935952768 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

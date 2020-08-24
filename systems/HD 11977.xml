@@ -1,7 +1,7 @@
 <system>
 	<name>HD 11977</name>
-	<rightascension>01 54 56</rightascension>
-	<declination>-67 38 50</declination>
+	<rightascension>01 54 56.1320</rightascension>
+	<declination>-67 38 50.2946</declination>
 	<distance>66.5</distance>
 	<star>
 		<mass>2.31</mass>
@@ -15,6 +15,9 @@
 		<spectraltype>G5 III</spectraltype>
 		<planet>
 			<name>HD 11977 b</name>
+			<name>TYC 9143-238-1 b</name>
+			<name>Gaia DR2 4697508196671120000 b</name>
+			<name>HIP 8928 b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.2" errorplus="0.2">6.5</mass>
 			<period errorminus="2.4" errorplus="2.4">621.6</period>
@@ -28,6 +31,9 @@
 			<description>HD 11977 b was the first planet confirmed to be orbiting an intermediate-mass star.</description>
 		</planet>
 		<name>HD 11977</name>
+		<name>TYC 9143-238-1</name>
+		<name>Gaia DR2 4697508196671120000</name>
+		<name>HIP 8928</name>
 		<temperature>4975.0</temperature>
 	</star>
 </system>

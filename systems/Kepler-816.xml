@@ -2,13 +2,15 @@
 	<name>Kepler-816</name>
 	<name>KOI-1320</name>
 	<name>KIC 4164994</name>
-	<rightascension>19 33 27</rightascension>
-	<declination>+39 12 45</declination>
+	<distance errorminus="37.9937" errorplus="37.9937">1010.61</distance>
+	<rightascension>19 33 27.0765</rightascension>
+	<declination>+39 12 44.7703</declination>
 	<star>
 		<name>Kepler-816</name>
 		<name>KOI-1320</name>
 		<name>KIC 4164994</name>
 		<name>2MASS J19332708+3912448</name>
+		<name>Gaia DR2 2052356964290178048</name>
 		<temperature errorminus="88.4" errorplus="54.6">5286.0</temperature>
 		<mass errorminus="0.04" errorplus="0.04">0.90</mass>
 		<radius errorminus="0.04" errorplus="0.06">0.85</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-1320 b</name>
 			<name>KOI-1320.01</name>
 			<name>KIC 4164994 b</name>
+			<name>Gaia DR2 2052356964290178048 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

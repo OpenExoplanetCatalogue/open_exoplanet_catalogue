@@ -2,13 +2,15 @@
 	<name>Kepler-1156</name>
 	<name>KOI-2246</name>
 	<name>KIC 9458343</name>
-	<rightascension>19 15 42</rightascension>
-	<declination>+46 03 27</declination>
+	<distance errorminus="7.4631" errorplus="7.4631">705.368</distance>
+	<rightascension>19 15 41.7727</rightascension>
+	<declination>+46 03 27.4450</declination>
 	<star>
 		<name>Kepler-1156</name>
 		<name>KOI-2246</name>
 		<name>KIC 9458343</name>
 		<name>2MASS J19154176+4603274</name>
+		<name>Gaia DR2 2127359737653864832</name>
 		<temperature errorminus="59.0" errorplus="67.4">5778.0</temperature>
 		<mass errorminus="0.04" errorplus="0.03">1.00</mass>
 		<radius errorminus="0.06" errorplus="0.09">1.00</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-2246 b</name>
 			<name>KOI-2246.01</name>
 			<name>KIC 9458343 b</name>
+			<name>Gaia DR2 2127359737653864832 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

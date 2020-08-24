@@ -2,13 +2,15 @@
 	<name>Kepler-1457</name>
 	<name>KOI-3287</name>
 	<name>KIC 6584273</name>
-	<rightascension>18 55 05</rightascension>
-	<declination>+42 01 38</declination>
+	<distance errorminus="12.1788" errorplus="12.1788">913.325</distance>
+	<rightascension>18 55 04.9407</rightascension>
+	<declination>+42 01 37.9769</declination>
 	<star>
 		<name>Kepler-1457</name>
 		<name>KOI-3287</name>
 		<name>KIC 6584273</name>
 		<name>2MASS J18550494+4201380</name>
+		<name>Gaia DR2 2104875755656860032</name>
 		<temperature errorminus="119.8" errorplus="137.3">5866.0</temperature>
 		<mass errorminus="0.07" errorplus="0.07">1.01</mass>
 		<radius errorminus="0.10" errorplus="0.15">1.01</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-3287 b</name>
 			<name>KOI-3287.01</name>
 			<name>KIC 6584273 b</name>
+			<name>Gaia DR2 2104875755656860032 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

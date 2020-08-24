@@ -2,13 +2,15 @@
 	<name>KOI-372</name>
 	<name>Kepler-539</name>
 	<name>KIC 6471021</name>
-	<rightascension>19 56 29.39</rightascension>
-	<declination>+41 52 00.3</declination>
+	<distance errorminus="3.5655" errorplus="3.5655">310.01</distance>
+	<rightascension>19 56 29.3872</rightascension>
+	<declination>+41 52 00.3179</declination>
 	<star>
 		<name>KOI-372</name>
 		<name>Kepler-539</name>
 		<name>KIC 6471021</name>
 		<name>2MASS J19562938+4152003</name>
+		<name>Gaia DR2 2075377679763353984</name>
 		<magJ errorminus="0.021" errorplus="0.021">11.294</magJ>
 		<magH errorminus="0.022" errorplus="0.022">10.964</magH>
 		<magK errorminus="0.018" errorplus="0.018">10.915</magK>
@@ -23,6 +25,7 @@
 			<name>Kepler-539 b</name>
 			<name>KOI-372.01</name>
 			<name>KIC 6471021 b</name>
+			<name>Gaia DR2 2075377679763353984 b</name>
 			<mass errorminus="0.20" errorplus="0.20">3.25</mass>
 			<radius errorminus="0.017" errorplus="0.017">0.747</radius>
 			<transittime errorminus="0.0030" errorplus="0.0030" unit="BJD">2455588.8710</transittime>
@@ -42,6 +45,7 @@
 			<name>KOI-372 c</name>
 			<name>Kepler-539 c</name>
 			<name>KIC 6471021 c</name>
+			<name>Gaia DR2 2075377679763353984 c</name>
 			<mass lowerlimit="1.2" upperlimit="3.6" />
 			<period lowerlimit="1000" />
 			<eccentricity lowerlimit="0.43" upperlimit="0.61" />

@@ -1,12 +1,13 @@
 <system>
 	<name>EPIC 203311200</name>
-	<rightascension>16 03 54.334</rightascension>
-	<declination>-26 33 13.51</declination>
+	<rightascension>16 03 54.3405</rightascension>
+	<declination>-26 33 13.4138</declination>
 	<distance errorminus="50" errorplus="50">437</distance>
 	<star>
 		<name>EPIC 203311200</name>
 		<name>TYC 6788-215-1</name>
 		<name>2MASS J16035433-2633133</name>
+		<name>Gaia DR2 6043177972287365632</name>
 		<magB errorminus="0.18" errorplus="0.18">12.08</magB>
 		<magV errorminus="0.23" errorplus="0.23">11.88</magV>
 		<magJ errorminus="0.023" errorplus="0.023">10.644</magJ>
@@ -17,6 +18,8 @@
 		<temperature errorminus="200" errorplus="200">5200</temperature>
 		<planet>
 			<name>EPIC 203311200 b</name>
+			<name>Gaia DR2 6043177972287365632 b</name>
+			<name>TYC 6788-215-1 b</name>
 			<list>Controversial</list>
 			<transittime errorminus="0.002" errorplus="0.003" unit="BJD">2456954.021</transittime>
 			<impactparameter errorminus="0.3" errorplus="0.13">0.61</impactparameter>

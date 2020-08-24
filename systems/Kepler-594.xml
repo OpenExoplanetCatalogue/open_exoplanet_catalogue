@@ -2,13 +2,15 @@
 	<name>Kepler-594</name>
 	<name>KOI-541</name>
 	<name>KIC 11656721</name>
-	<rightascension>19 15 41</rightascension>
-	<declination>+49 45 43</declination>
+	<distance errorminus="13.979" errorplus="13.979">786.473</distance>
+	<rightascension>19 15 41.1872</rightascension>
+	<declination>+49 45 43.3523</declination>
 	<star>
 		<name>Kepler-594</name>
 		<name>KOI-541</name>
 		<name>KIC 11656721</name>
 		<name>2MASS J19154118+4945433</name>
+		<name>Gaia DR2 2132681339572129536</name>
 		<temperature errorminus="94.0" errorplus="80.5">5485.0</temperature>
 		<mass errorminus="0.05" errorplus="0.04">0.91</mass>
 		<radius errorminus="0.06" errorplus="0.08">0.87</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-541 b</name>
 			<name>KOI-541.01</name>
 			<name>KIC 11656721 b</name>
+			<name>Gaia DR2 2132681339572129536 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

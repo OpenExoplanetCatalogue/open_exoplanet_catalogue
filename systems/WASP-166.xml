@@ -1,10 +1,12 @@
 <system>
 	<name>WASP-166</name>
-	<rightascension>09 39 30</rightascension>
-	<declination>-20 58 57</declination>
+	<rightascension>09 39 30.0860</rightascension>
+	<declination>-20 58 56.8779</declination>
 	<distance errorminus="1.00" errorplus="1.00">113.00</distance>
 	<star>
 		<name>WASP-166</name>
+		<name>TYC 6055-537-1</name>
+		<name>Gaia DR2 5664957444179338240</name>
 		<radius errorminus="0.06" errorplus="0.06">1.22</radius>
 		<magJ errorminus="0.013" errorplus="0.013">8.350</magJ>
 		<magH errorminus="0.029" errorplus="0.029">8.135</magH>
@@ -15,6 +17,8 @@
 		<spectraltype>F9V</spectraltype>
 		<planet>
 			<name>WASP-166 b</name>
+			<name>TYC 6055-537-1 b</name>
+			<name>Gaia DR2 5664957444179338240 b</name>
 			<semimajoraxis errorminus="0.001100" errorplus="0.001100">0.064100</semimajoraxis>
 			<eccentricity>0.000000</eccentricity>
 			<inclination errorminus="0.700" errorplus="0.700">88.000</inclination>

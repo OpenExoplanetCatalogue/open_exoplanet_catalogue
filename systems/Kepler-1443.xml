@@ -2,13 +2,16 @@
 	<name>Kepler-1443</name>
 	<name>KOI-3234</name>
 	<name>KIC 10057494</name>
-	<rightascension>18 53 45</rightascension>
-	<declination>+47 04 01</declination>
+	<distance errorminus="21.6757" errorplus="21.6757">603.064</distance>
+	<rightascension>18 53 44.5820</rightascension>
+	<declination>+47 04 00.6385</declination>
 	<star>
 		<name>Kepler-1443</name>
 		<name>KOI-3234</name>
 		<name>KIC 10057494</name>
 		<name>2MASS J18534458+4704006</name>
+		<name>Gaia DR2 2107568970730102272</name>
+		<name>TYC 3544-138-1</name>
 		<temperature errorminus="68.3" errorplus="83.4">6289.0</temperature>
 		<mass errorminus="0.05" errorplus="0.05">1.19</mass>
 		<radius errorminus="0.09" errorplus="0.12">1.27</radius>
@@ -18,6 +21,8 @@
 			<name>KOI-3234 b</name>
 			<name>KOI-3234.01</name>
 			<name>KIC 10057494 b</name>
+			<name>Gaia DR2 2107568970730102272 b</name>
+			<name>TYC 3544-138-1 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

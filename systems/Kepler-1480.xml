@@ -2,13 +2,15 @@
 	<name>Kepler-1480</name>
 	<name>KOI-3365</name>
 	<name>KIC 11455428</name>
-	<rightascension>19 27 59.9</rightascension>
-	<declination>+49 18 07</declination>
+	<distance errorminus="5.0363" errorplus="5.0363">508.208</distance>
+	<rightascension>19 27 59.9479</rightascension>
+	<declination>+49 18 06.5961</declination>
 	<star>
 		<name>Kepler-1480</name>
 		<name>KOI-3365</name>
 		<name>KIC 11455428</name>
 		<name>2MASS J19275994+4918065</name>
+		<name>Gaia DR2 2129758940745727488</name>
 		<temperature errorminus="70.7" errorplus="61.4">5156.0</temperature>
 		<mass errorminus="0.04" errorplus="0.04">0.85</mass>
 		<radius errorminus="0.03" errorplus="0.04">0.81</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-3365 b</name>
 			<name>KOI-3365.01</name>
 			<name>KIC 11455428 b</name>
+			<name>Gaia DR2 2129758940745727488 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

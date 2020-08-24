@@ -2,13 +2,15 @@
 	<name>Kepler-973</name>
 	<name>KOI-1841</name>
 	<name>KIC 11760231</name>
-	<rightascension>19 20 40</rightascension>
-	<declination>+49 55 26</declination>
+	<distance errorminus="4.7055" errorplus="4.7055">331.576</distance>
+	<rightascension>19 20 39.6681</rightascension>
+	<declination>+49 55 25.9596</declination>
 	<star>
 		<name>Kepler-973</name>
 		<name>KOI-1841</name>
 		<name>KIC 11760231</name>
 		<name>2MASS J19203966+4955259</name>
+		<name>Gaia DR2 2130024026126714880</name>
 		<temperature errorminus="62.8" errorplus="65.9">5213.0</temperature>
 		<mass errorminus="0.03" errorplus="0.03">0.86</mass>
 		<radius errorminus="0.02" errorplus="0.02">0.78</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-1841 b</name>
 			<name>KOI-1841.01</name>
 			<name>KIC 11760231 b</name>
+			<name>Gaia DR2 2130024026126714880 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

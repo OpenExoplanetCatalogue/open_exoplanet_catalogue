@@ -1,7 +1,7 @@
 <system>
 	<name>HD 110014</name>
-	<rightascension>12 39 14</rightascension>
-	<declination>-07 59 44</declination>
+	<rightascension>12 39 14.7669</rightascension>
+	<declination>-07 59 44.0410</declination>
 	<distance>90</distance>
 	<star>
 		<mass>2.09</mass>
@@ -12,6 +12,9 @@
 		<spectraltype>K2III</spectraltype>
 		<planet>
 			<name>HD 110014 b</name>
+			<name>TYC 5528-1471-1 b</name>
+			<name>Gaia DR2 3676091134604409728 b</name>
+			<name>HIP 61740 b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="1.0" errorplus="1.0">10.7</mass>
 			<period errorminus="21.5" errorplus="21.5">882.6</period>
@@ -26,6 +29,9 @@
 		</planet>
 		<planet>
 			<name>HD 110014 c</name>
+			<name>TYC 5528-1471-1 c</name>
+			<name>Gaia DR2 3676091134604409728 c</name>
+			<name>HIP 61740 c</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.4" errorplus="0.4">3.1</mass>
 			<period errorminus="0.9" errorplus="0.9">130.0</period>
@@ -39,6 +45,9 @@
 			<description>The planet HD 110014 c was discovered by the Reanalysis of Archival FEROS specTra (RAFT) program. The outer planet HD 110014 b was already known.</description>
 		</planet>
 		<name>HD 110014</name>
+		<name>TYC 5528-1471-1</name>
+		<name>Gaia DR2 3676091134604409728</name>
+		<name>HIP 61740</name>
 		<temperature>4445.0</temperature>
 	</star>
 </system>

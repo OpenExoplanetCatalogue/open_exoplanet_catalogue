@@ -1,10 +1,13 @@
 <system>
 	<name>KOI-1783</name>
-	<rightascension>19 17 22</rightascension>
-	<declination>+46 59 18</declination>
+	<rightascension>19 17 21.9470</rightascension>
+	<declination>+46 59 17.6343</declination>
 	<distance errorminus="14.12" errorplus="14.12">887.81</distance>
 	<star>
 		<name>KOI-1783</name>
+		<name>Gaia DR2 2127790368255394048</name>
+		<name>Kepler-1662</name>
+		<name>KIC 10005758</name>
 		<radius errorminus="0.03" errorplus="0.03">1.14</radius>
 		<magJ errorminus="0.022" errorplus="0.022">12.917</magJ>
 		<magH errorminus="0.017" errorplus="0.017">12.654</magH>
@@ -14,6 +17,9 @@
 		<metallicity errorminus="0.040" errorplus="0.040">0.110</metallicity>
 		<planet>
 			<name>KOI-1783 c</name>
+			<name>Gaia DR2 2127790368255394048 c</name>
+			<name>Kepler-1662 c</name>
+			<name>KIC 10005758 c</name>
 			<eccentricity>0.000000</eccentricity>
 			<period errorminus="0.02100000" errorplus="0.02600000">284.21500000</period>
 			<description>This planet was discovered by Vissapragada et al. 2020. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Vissapragada et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
@@ -27,6 +33,9 @@
 		</planet>
 		<planet>
 			<name>KOI-1783 b</name>
+			<name>Gaia DR2 2127790368255394048 b</name>
+			<name>Kepler-1662 b</name>
+			<name>KIC 10005758 b</name>
 			<eccentricity>0.000000</eccentricity>
 			<inclination errorminus="0.008" errorplus="0.008">89.441</inclination>
 			<period errorminus="0.00350000" errorplus="0.00330000">134.46280000</period>

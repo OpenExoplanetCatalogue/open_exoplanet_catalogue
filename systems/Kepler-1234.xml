@@ -2,13 +2,15 @@
 	<name>Kepler-1234</name>
 	<name>KOI-2424</name>
 	<name>KIC 12453581</name>
-	<rightascension>19 10 05</rightascension>
-	<declination>+51 22 33</declination>
+	<distance errorminus="32.3964" errorplus="32.3964">940.822</distance>
+	<rightascension>19 10 05.2927</rightascension>
+	<declination>+51 22 33.1776</declination>
 	<star>
 		<name>Kepler-1234</name>
 		<name>KOI-2424</name>
 		<name>KIC 12453581</name>
 		<name>2MASS J19100528+5122331</name>
+		<name>Gaia DR2 2133394407221680256</name>
 		<temperature errorminus="63.0" errorplus="56.4">4967.0</temperature>
 		<mass errorminus="0.04" errorplus="0.03">0.80</mass>
 		<radius errorminus="0.03" errorplus="0.03">0.76</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-2424 b</name>
 			<name>KOI-2424.01</name>
 			<name>KIC 12453581 b</name>
+			<name>Gaia DR2 2133394407221680256 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

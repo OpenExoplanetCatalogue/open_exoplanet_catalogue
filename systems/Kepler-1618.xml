@@ -2,13 +2,15 @@
 	<name>Kepler-1618</name>
 	<name>KOI-4640</name>
 	<name>KIC 9412623</name>
-	<rightascension>19 40 42</rightascension>
-	<declination>+45 55 51</declination>
+	<distance errorminus="29.3799" errorplus="29.3799">1274.05</distance>
+	<rightascension>19 40 42.0887</rightascension>
+	<declination>+45 55 51.2088</declination>
 	<star>
 		<name>Kepler-1618</name>
 		<name>KOI-4640</name>
 		<name>KIC 9412623</name>
 		<name>2MASS J19404209+4555512</name>
+		<name>Gaia DR2 2080067440443554176</name>
 		<temperature errorminus="143.9" errorplus="213.8">6620.0</temperature>
 		<mass errorminus="0.15" errorplus="0.22">1.41</mass>
 		<radius errorminus="0.29" errorplus="0.68">1.65</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-4640 b</name>
 			<name>KOI-4640.01</name>
 			<name>KIC 9412623 b</name>
+			<name>Gaia DR2 2080067440443554176 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

@@ -1,7 +1,7 @@
 <system>
 	<name>HAT-P-40</name>
-	<rightascension>22 22 03</rightascension>
-	<declination>+45 27 27</declination>
+	<rightascension>22 22 03.0875</rightascension>
+	<declination>+45 27 26.5159</declination>
 	<distance>501</distance>
 	<star>
 		<mass>1.512</mass>
@@ -16,6 +16,9 @@
 		<planet>
 			<name>HAT-P-40 b</name>
 			<name>2MASS 22220308+4527265</name>
+			<name>Gaia DR2 1962153854973972096 b</name>
+			<name>Taika b</name>
+			<name>TYC 3607-1028-1 b</name>
 			<list>Confirmed planets</list>
 			<mass>0.615</mass>
 			<radius>1.730</radius>
@@ -32,6 +35,9 @@
 			<istransiting>1</istransiting>
 		</planet>
 		<name>HAT-P-40</name>
+		<name>Gaia DR2 1962153854973972096</name>
+		<name>Taika</name>
+		<name>TYC 3607-1028-1</name>
 		<temperature>6080.0</temperature>
 	</star>
 </system>

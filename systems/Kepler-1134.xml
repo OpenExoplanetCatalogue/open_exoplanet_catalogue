@@ -2,13 +2,15 @@
 	<name>Kepler-1134</name>
 	<name>KOI-2182</name>
 	<name>KIC 6962109</name>
-	<rightascension>19 42 16</rightascension>
-	<declination>+42 28 42</declination>
+	<distance errorminus="32.2433" errorplus="32.2433">969.556</distance>
+	<rightascension>19 42 16.3194</rightascension>
+	<declination>+42 28 41.7838</declination>
 	<star>
 		<name>Kepler-1134</name>
 		<name>KOI-2182</name>
 		<name>KIC 6962109</name>
 		<name>2MASS J19421631+4228418</name>
+		<name>Gaia DR2 2077892640805120128</name>
 		<temperature errorminus="135.5" errorplus="169.7">5281.0</temperature>
 		<mass errorminus="0.05" errorplus="0.05">0.84</mass>
 		<radius errorminus="0.06" errorplus="0.06">0.81</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-2182 b</name>
 			<name>KOI-2182.01</name>
 			<name>KIC 6962109 b</name>
+			<name>Gaia DR2 2077892640805120128 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

@@ -2,13 +2,15 @@
 	<name>Kepler-1157</name>
 	<name>KOI-2247</name>
 	<name>KIC 7802719</name>
-	<rightascension>18 52 29</rightascension>
-	<declination>+43 31 32</declination>
+	<distance errorminus="2.4238" errorplus="2.4238">345.543</distance>
+	<rightascension>18 52 29.0519</rightascension>
+	<declination>+43 31 32.3035</declination>
 	<star>
 		<name>Kepler-1157</name>
 		<name>KOI-2247</name>
 		<name>KIC 7802719</name>
 		<name>2MASS J18522905+4331323</name>
+		<name>Gaia DR2 2105106687459103488</name>
 		<temperature errorminus="58.0" errorplus="54.7">4679.0</temperature>
 		<mass errorminus="0.04" errorplus="0.03">0.76</mass>
 		<radius errorminus="0.03" errorplus="0.03">0.71</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-2247 b</name>
 			<name>KOI-2247.01</name>
 			<name>KIC 7802719 b</name>
+			<name>Gaia DR2 2105106687459103488 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

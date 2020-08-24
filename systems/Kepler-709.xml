@@ -2,13 +2,15 @@
 	<name>Kepler-709</name>
 	<name>KOI-867</name>
 	<name>KIC 6863998</name>
-	<rightascension>19 28 25</rightascension>
-	<declination>+42 22 49</declination>
+	<distance errorminus="12.0754" errorplus="12.0754">677.599</distance>
+	<rightascension>19 28 25.2559</rightascension>
+	<declination>+42 22 49.0355</declination>
 	<star>
 		<name>Kepler-709</name>
 		<name>KOI-867</name>
 		<name>KIC 6863998</name>
 		<name>2MASS J19282524+4222491</name>
+		<name>Gaia DR2 2125730982977974016</name>
 		<temperature errorminus="83.4" errorplus="83.6">5071.0</temperature>
 		<mass errorminus="0.05" errorplus="0.04">0.80</mass>
 		<radius errorminus="0.05" errorplus="0.04">0.77</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-867 b</name>
 			<name>KOI-867.01</name>
 			<name>KIC 6863998 b</name>
+			<name>Gaia DR2 2125730982977974016 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

@@ -2,13 +2,15 @@
 	<name>Kepler-720</name>
 	<name>KOI-908</name>
 	<name>KIC 8255887</name>
-	<rightascension>19 54 33</rightascension>
-	<declination>+44 10 15</declination>
+	<distance errorminus="38.3001" errorplus="38.3001">1097.45</distance>
+	<rightascension>19 54 32.5578</rightascension>
+	<declination>+44 10 15.3909</declination>
 	<star>
 		<name>Kepler-720</name>
 		<name>KOI-908</name>
 		<name>KIC 8255887</name>
 		<name>2MASS J19543255+4410153</name>
+		<name>Gaia DR2 2079056714383865856</name>
 		<temperature errorminus="250.5" errorplus="328.5">5618.0</temperature>
 		<mass errorminus="0.07" errorplus="0.11">0.95</mass>
 		<radius errorminus="0.09" errorplus="0.18">0.92</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-908 b</name>
 			<name>KOI-908.01</name>
 			<name>KIC 8255887 b</name>
+			<name>Gaia DR2 2079056714383865856 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

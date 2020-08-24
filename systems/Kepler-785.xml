@@ -2,13 +2,15 @@
 	<name>Kepler-785</name>
 	<name>KOI-1176</name>
 	<name>KIC 3749365</name>
-	<rightascension>19 28 16</rightascension>
-	<declination>+38 50 32</declination>
+	<distance errorminus="16.6603" errorplus="16.6603">653.595</distance>
+	<rightascension>19 28 16.3970</rightascension>
+	<declination>+38 50 32.1440</declination>
 	<star>
 		<name>Kepler-785</name>
 		<name>KOI-1176</name>
 		<name>KIC 3749365</name>
 		<name>2MASS J19281639+3850321</name>
+		<name>Gaia DR2 2052722689341030656</name>
 		<temperature errorminus="70.0" errorplus="115.5">4739.0</temperature>
 		<mass errorminus="0.04" errorplus="0.03">0.77</mass>
 		<radius errorminus="0.03" errorplus="0.02">0.71</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-1176 b</name>
 			<name>KOI-1176.01</name>
 			<name>KIC 3749365 b</name>
+			<name>Gaia DR2 2052722689341030656 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

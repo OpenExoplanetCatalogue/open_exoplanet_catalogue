@@ -2,13 +2,15 @@
 	<name>Kepler-807</name>
 	<name>KOI-1288</name>
 	<name>KIC 10790387</name>
-	<rightascension>19 16 05</rightascension>
-	<declination>+48 07 11</declination>
+	<distance errorminus="57.4376" errorplus="57.4376">1560.06</distance>
+	<rightascension>19 16 04.8354</rightascension>
+	<declination>+48 07 11.3084</declination>
 	<star>
 		<name>Kepler-807</name>
 		<name>KOI-1288</name>
 		<name>KIC 10790387</name>
 		<name>2MASS J19160484+4807113</name>
+		<name>Gaia DR2 2130955518633883008</name>
 		<temperature errorminus="92.1" errorplus="92.3">5965.0</temperature>
 		<mass errorminus="0.07" errorplus="0.07">1.04</mass>
 		<radius errorminus="0.11" errorplus="0.20">1.06</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-1288 b</name>
 			<name>KOI-1288.01</name>
 			<name>KIC 10790387 b</name>
+			<name>Gaia DR2 2130955518633883008 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

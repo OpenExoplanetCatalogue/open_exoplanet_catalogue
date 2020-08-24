@@ -1,7 +1,7 @@
 <system>
 	<name>WASP-7</name>
-	<rightascension>20 44 10</rightascension>
-	<declination>-39 13 31</declination>
+	<rightascension>20 44 10.2207</rightascension>
+	<declination>-39 13 30.8593</declination>
 	<distance>140</distance>
 	<star>
 		<mass>1.276</mass>
@@ -17,6 +17,8 @@
 			<name>HD 197286 b</name>
 			<name>TYC 7963-01570-1 b</name>
 			<name>2MASS J20441022-3913309 b</name>
+			<name>Gaia DR2 6681720724498802176 b</name>
+			<name>TYC 7963-1570-1 b</name>
 			<list>Confirmed planets</list>
 			<mass>0.96</mass>
 			<radius>1.33</radius>
@@ -32,6 +34,9 @@
 			<istransiting>1</istransiting>
 		</planet>
 		<name>WASP-7</name>
+		<name>Gaia DR2 6681720724498802176</name>
+		<name>TYC 7963-1570-1</name>
+		<name>HD 197286</name>
 		<temperature>6400.0</temperature>
 	</star>
 </system>

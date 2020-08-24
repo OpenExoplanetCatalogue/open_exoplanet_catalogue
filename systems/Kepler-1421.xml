@@ -2,13 +2,15 @@
 	<name>Kepler-1421</name>
 	<name>KOI-3060</name>
 	<name>KIC 11019987</name>
-	<rightascension>19 06 19</rightascension>
-	<declination>+48 32 39</declination>
+	<distance errorminus="13.6137" errorplus="13.6137">801.346</distance>
+	<rightascension>19 06 19.3464</rightascension>
+	<declination>+48 32 39.0463</declination>
 	<star>
 		<name>Kepler-1421</name>
 		<name>KOI-3060</name>
 		<name>KIC 11019987</name>
 		<name>2MASS J19061934+4832391</name>
+		<name>Gaia DR2 2131173187575866496</name>
 		<temperature errorminus="69.4" errorplus="73.2">6335.0</temperature>
 		<mass errorminus="0.06" errorplus="0.09">1.25</mass>
 		<radius errorminus="0.16" errorplus="0.29">1.42</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-3060 b</name>
 			<name>KOI-3060.01</name>
 			<name>KIC 11019987 b</name>
+			<name>Gaia DR2 2131173187575866496 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

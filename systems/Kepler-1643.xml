@@ -2,13 +2,15 @@
 	<name>Kepler-1643</name>
 	<name>KOI-6186</name>
 	<name>KIC 8653134</name>
-	<rightascension>20 01 43</rightascension>
-	<declination>+44 45 04</declination>
+	<distance errorminus="2.6090" errorplus="2.6090">345.161</distance>
+	<rightascension>20 01 43.4372</rightascension>
+	<declination>+44 45 03.6240</declination>
 	<star>
 		<name>Kepler-1643</name>
 		<name>KOI-6186</name>
 		<name>KIC 8653134</name>
 		<name>2MASS J20014344+4445036</name>
+		<name>Gaia DR2 2082142734285082368</name>
 		<temperature errorminus="48.8" errorplus="58.7">5508.0</temperature>
 		<mass errorminus="0.05" errorplus="0.04">0.92</mass>
 		<radius errorminus="0.05" errorplus="0.09">0.88</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-6186 b</name>
 			<name>KOI-6186.01</name>
 			<name>KIC 8653134 b</name>
+			<name>Gaia DR2 2082142734285082368 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

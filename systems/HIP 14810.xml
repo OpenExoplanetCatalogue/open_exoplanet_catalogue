@@ -1,7 +1,7 @@
 <system>
 	<name>HIP 14810</name>
-	<rightascension>03 11 14</rightascension>
-	<declination>+21 05 50</declination>
+	<rightascension>03 11 14.2302</rightascension>
+	<declination>+21 05 50.4926</declination>
 	<distance errorminus="0.11" errorplus="0.11">50.55</distance>
 	<star>
 		<mass>0.99</mass>
@@ -15,6 +15,8 @@
 		<spectraltype>G5</spectraltype>
 		<planet>
 			<name>HIP 14810 b</name>
+			<name>TYC 1231-1727-1 b</name>
+			<name>Gaia DR2 60684353135617792 b</name>
 			<list>Confirmed planets</list>
 			<mass>3.88</mass>
 			<period>6.673855</period>
@@ -27,6 +29,8 @@
 		</planet>
 		<planet>
 			<name>HIP 14810 c</name>
+			<name>TYC 1231-1727-1 c</name>
+			<name>Gaia DR2 60684353135617792 c</name>
 			<list>Confirmed planets</list>
 			<mass>1.28</mass>
 			<period>147.73</period>
@@ -39,6 +43,8 @@
 		</planet>
 		<planet>
 			<name>HIP 14810 d</name>
+			<name>TYC 1231-1727-1 d</name>
+			<name>Gaia DR2 60684353135617792 d</name>
 			<list>Confirmed planets</list>
 			<mass>0.57</mass>
 			<period>962</period>
@@ -50,6 +56,8 @@
 			<temperature>175.6</temperature>
 		</planet>
 		<name>HIP 14810</name>
+		<name>TYC 1231-1727-1</name>
+		<name>Gaia DR2 60684353135617792</name>
 		<temperature>5485.0</temperature>
 	</star>
 </system>

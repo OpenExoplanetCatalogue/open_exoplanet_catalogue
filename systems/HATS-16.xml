@@ -1,12 +1,13 @@
 <system>
 	<name>HATS-16</name>
-	<rightascension>23 54 14.04</rightascension>
-	<declination>-30 00 46.8</declination>
+	<rightascension>23 54 14.0982</rightascension>
+	<declination>-30 00 46.9064</declination>
 	<distance errorminus="74" errorplus="74">774</distance>
 	<star>
 		<name>HATS-16</name>
 		<name>2MASS J23541409-3000467</name>
 		<name>GSC 07516-00867</name>
+		<name>Gaia DR2 2327000400367097984</name>
 		<magB errorminus="0.060" errorplus="0.060">14.477</magB>
 		<magV errorminus="0.020" errorplus="0.020">13.834</magV>
 		<magJ errorminus="0.024" errorplus="0.024">12.652</magJ>
@@ -20,6 +21,7 @@
 		<spectraltype>G3V</spectraltype>
 		<planet>
 			<name>HATS-16 b</name>
+			<name>Gaia DR2 2327000400367097984 b</name>
 			<period errorminus="0.000011" errorplus="0.000011">2.686502</period>
 			<transittime errorminus="0.00076" errorplus="0.00076" unit="BJD">2456824.79069</transittime>
 			<inclination errorminus="0.86" errorplus="1.37">83.53</inclination>

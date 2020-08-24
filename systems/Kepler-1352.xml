@@ -2,13 +2,15 @@
 	<name>Kepler-1352</name>
 	<name>KOI-2805</name>
 	<name>KIC 11135308</name>
-	<rightascension>19 22 46</rightascension>
-	<declination>+48 42 05</declination>
+	<distance errorminus="5.6625" errorplus="5.6625">684.088</distance>
+	<rightascension>19 22 46.4951</rightascension>
+	<declination>+48 42 05.3228</declination>
 	<star>
 		<name>Kepler-1352</name>
 		<name>KOI-2805</name>
 		<name>KIC 11135308</name>
 		<name>2MASS J19224649+4842053</name>
+		<name>Gaia DR2 2129527974583414400</name>
 		<temperature errorminus="116.3" errorplus="107.5">6118.0</temperature>
 		<mass errorminus="0.08" errorplus="0.11">1.11</mass>
 		<radius errorminus="0.14" errorplus="0.33">1.16</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-2805 b</name>
 			<name>KOI-2805.01</name>
 			<name>KIC 11135308 b</name>
+			<name>Gaia DR2 2129527974583414400 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

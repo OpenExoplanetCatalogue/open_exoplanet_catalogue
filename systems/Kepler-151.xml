@@ -2,8 +2,8 @@
 	<name>Kepler-151</name>
 	<name>KOI-413</name>
 	<name>KIC 5791986</name>
-	<rightascension>19 28 39</rightascension>
-	<declination>+41 01 23</declination>
+	<rightascension>19 28 39.0693</rightascension>
+	<declination>+41 01 23.6546</declination>
 	<distance>751.12</distance>
 	<star>
 		<magJ errorminus="0.023" errorplus="0.023">13.383</magJ>
@@ -13,6 +13,7 @@
 		<name>KOI-413</name>
 		<name>KIC 5791986</name>
 		<name>2MASS J19283906+4101236</name>
+		<name>Gaia DR2 2053585732948605952</name>
 		<temperature errorminus="200" errorplus="200">5460</temperature>
 		<radius errorminus=".411" errorplus="0.411">0.830</radius>
 		<mass errorminus="0.1100" errorplus="0.1100">0.8600</mass>
@@ -22,6 +23,7 @@
 			<name>KOI-413.01</name>
 			<name>KIC 5791986 b</name>
 			<name>KIC 5791986.01</name>
+			<name>Gaia DR2 2053585732948605952 b</name>
 			<radius errorminus="0.04830" errorplus="0.13943">0.27886</radius>
 			<period errorminus=".000030" errorplus="0.000030">15.228958</period>
 			<transittime errorminus="0.0011000" errorplus="0.0011000">2455009.5597900</transittime>
@@ -38,6 +40,7 @@
 			<name>KOI-413.02</name>
 			<name>KIC 5791986 c</name>
 			<name>KIC 5791986.02</name>
+			<name>Gaia DR2 2053585732948605952 c</name>
 			<radius errorminus="0.00365" errorplus="0.09478">0.19046</radius>
 			<period errorminus=".000106" errorplus="0.000106">24.674612</period>
 			<transittime errorminus="0.0026000" errorplus="0.0026000">2454979.7707300</transittime>

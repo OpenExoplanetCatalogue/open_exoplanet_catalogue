@@ -1,10 +1,12 @@
 <system>
 	<name>K2-249</name>
-	<rightascension>12 13 28</rightascension>
-	<declination>-08 59 42</declination>
+	<rightascension>12 13 28.0066</rightascension>
+	<declination>-08 59 42.7247</declination>
 	<distance errorminus="14.70" errorplus="16.90">528.30</distance>
 	<star>
 		<name>K2-249</name>
+		<name>Gaia DR2 3582098107498270208</name>
+		<name>TYC 5519-433-1</name>
 		<radius errorminus="0.06" errorplus="0.06">1.57</radius>
 		<magV errorminus="0.211" errorplus="0.211">11.827</magV>
 		<magJ errorminus="0.022" errorplus="0.022">11.270</magJ>
@@ -15,6 +17,8 @@
 		<metallicity errorminus="0.160" errorplus="0.140">0.040</metallicity>
 		<planet>
 			<name>K2-249 b</name>
+			<name>Gaia DR2 3582098107498270208 b</name>
+			<name>TYC 5519-433-1 b</name>
 			<semimajoraxis errorminus="0.003100" errorplus="0.003000">0.115100</semimajoraxis>
 			<period errorminus="0.00284000" errorplus="0.00337000">12.40900000</period>
 			<description>This planet was discovered by Livingston et al. 2018. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Livingston et al. 2018 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>

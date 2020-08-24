@@ -2,13 +2,15 @@
 	<name>Kepler-596</name>
 	<name>KOI-548</name>
 	<name>KIC 12600735</name>
-	<rightascension>19 18 00</rightascension>
-	<declination>+51 41 09</declination>
+	<distance errorminus="24.252" errorplus="24.252">1054.74</distance>
+	<rightascension>19 18 00.1647</rightascension>
+	<declination>+51 41 08.6222</declination>
 	<star>
 		<name>Kepler-596</name>
 		<name>KOI-548</name>
 		<name>KIC 12600735</name>
 		<name>2MASS J19180016+5141086</name>
+		<name>Gaia DR2 2133285383772329344</name>
 		<temperature errorminus="108.7" errorplus="109.7">6267.0</temperature>
 		<mass errorminus="0.10" errorplus="0.19">1.21</mass>
 		<radius errorminus="0.18" errorplus="0.62">1.32</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-548 b</name>
 			<name>KOI-548.01</name>
 			<name>KIC 12600735 b</name>
+			<name>Gaia DR2 2133285383772329344 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

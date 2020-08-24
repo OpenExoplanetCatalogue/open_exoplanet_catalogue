@@ -1,12 +1,15 @@
 <system>
 	<name>KIC 8540376</name>
 	<name>Kepler-457</name>
-	<rightascension>18 49 30.607</rightascension>
-	<declination>+44 41 40.52</declination>
+	<distance errorminus="23.2548" errorplus="23.2548">1106.32</distance>
+	<rightascension>18 49 30.6054</rightascension>
+	<declination>+44 41 40.4949</declination>
 	<star>
 		<name>KIC 8540376</name>
 		<name>Kepler-457</name>
 		<name>2MASS J18493060+4441405</name>
+		<name>Gaia DR2 2105414310196331264</name>
+		<name>KOI-7892</name>
 		<magJ errorminus="0.023" errorplus="0.023">13.260</magJ>
 		<magH errorminus="0.021" errorplus="0.021">13.014</magH>
 		<magK errorminus="0.023" errorplus="0.023">12.966</magK>
@@ -17,6 +20,8 @@
 		<planet>
 			<name>KIC 8540376 b</name>
 			<name>Kepler-457 b</name>
+			<name>Gaia DR2 2105414310196331264 b</name>
+			<name>KOI-7892 b</name>
 			<period errorminus="0.00933" errorplus="0.00919">31.80990</period>
 			<inclination errorminus="0.720" errorplus="0.490">89.300</inclination>
 			<radius errorminus="0.170" errorplus="0.196">0.366</radius>
@@ -31,6 +36,8 @@
 		<planet>
 			<name>KIC 8540376 c</name>
 			<name>Kepler-457 c</name>
+			<name>Gaia DR2 2105414310196331264 c</name>
+			<name>KOI-7892 c</name>
 			<period errorminus="1.1" errorplus="38.9">75.2</period>
 			<inclination errorminus="0.160" errorplus="0.160">89.701</inclination>
 			<radius errorminus="0.125" errorplus="0.170">0.214</radius>

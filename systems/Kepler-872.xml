@@ -2,13 +2,15 @@
 	<name>Kepler-872</name>
 	<name>KOI-1511</name>
 	<name>KIC 7901948</name>
-	<rightascension>19 41 40</rightascension>
-	<declination>+43 36 20</declination>
+	<distance errorminus="24.153" errorplus="24.153">901.795</distance>
+	<rightascension>19 41 40.1849</rightascension>
+	<declination>+43 36 20.2576</declination>
 	<star>
 		<name>Kepler-872</name>
 		<name>KOI-1511</name>
 		<name>KIC 7901948</name>
 		<name>2MASS J19414019+4336203</name>
+		<name>Gaia DR2 2078097665364576384</name>
 		<temperature errorminus="185.0" errorplus="123.6">5902.0</temperature>
 		<mass errorminus="0.08" errorplus="0.06">1.05</mass>
 		<radius errorminus="0.13" errorplus="0.27">1.08</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-1511 b</name>
 			<name>KOI-1511.01</name>
 			<name>KIC 7901948 b</name>
+			<name>Gaia DR2 2078097665364576384 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

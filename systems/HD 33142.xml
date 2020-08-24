@@ -1,7 +1,7 @@
 <system>
 	<name>HD 33142</name>
 	<rightascension>05 07 35.5414</rightascension>
-	<declination>-13 59 11.337</declination>
+	<declination>-13 59 11.3362</declination>
 	<distance errorminus="4.0" errorplus="4.0">116.0</distance>
 	<star>
 		<name>HD 33142</name>
@@ -10,6 +10,7 @@
 		<name>BD-14 1051</name>
 		<name>2MASS J05073553-1359113</name>
 		<name>SAO 150161</name>
+		<name>Gaia DR2 2986948238799721216</name>
 		<mass errorminus="0.090" errorplus="0.090">1.620</mass>
 		<radius>4.2</radius>
 		<magV>8.13</magV>
@@ -22,6 +23,9 @@
 		<spectraltype>K0 III</spectraltype>
 		<planet>
 			<name>HD 33142 b</name>
+			<name>TYC 5342-891-1 b</name>
+			<name>Gaia DR2 2986948238799721216 b</name>
+			<name>HIP 23844 b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.1" errorplus="0.1" type="msini">1.3</mass>
 			<period errorminus="3.9" errorplus="3.9">326.6</period>
@@ -36,6 +40,9 @@
 		</planet>
 		<planet>
 			<name>HD 33142 c</name>
+			<name>TYC 5342-891-1 c</name>
+			<name>Gaia DR2 2986948238799721216 c</name>
+			<name>HIP 23844 c</name>
 			<list>Confirmed planets</list>
 			<period errorminus="24" errorplus="29">834</period>
 			<periastrontime errorminus="117" errorplus="326">2455664</periastrontime>

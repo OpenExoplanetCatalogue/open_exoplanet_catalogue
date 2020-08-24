@@ -1,7 +1,7 @@
 <system>
 	<name>WASP-49</name>
-	<rightascension>06 04 21</rightascension>
-	<declination>-16 57 55</declination>
+	<rightascension>06 04 21.4734</rightascension>
+	<declination>-16 57 55.1088</declination>
 	<distance errorminus="20" errorplus="20">170</distance>
 	<star>
 		<mass errorminus="0.076" errorplus="0.080">0.938</mass>
@@ -14,6 +14,8 @@
 		<metallicity errorminus="0.07" errorplus="0.07">-0.23</metallicity>
 		<planet>
 			<name>WASP-49 b</name>
+			<name>Gaia DR2 2991284369063612928 b</name>
+			<name>TYC 5936-2086-1 b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.027" errorplus="0.027">0.378</mass>
 			<radius errorminus="0.047" errorplus="0.047">1.115</radius>
@@ -30,6 +32,8 @@
 			<istransiting>1</istransiting>
 		</planet>
 		<name>WASP-49</name>
+		<name>Gaia DR2 2991284369063612928</name>
+		<name>TYC 5936-2086-1</name>
 		<temperature errorminus="150" errorplus="150">5600</temperature>
 	</star>
 </system>

@@ -1,7 +1,7 @@
 <system>
 	<name>HAT-P-18</name>
-	<rightascension>17 05 24</rightascension>
-	<declination>+33 00 45</declination>
+	<rightascension>17 05 23.1475</rightascension>
+	<declination>+33 00 44.9391</declination>
 	<distance errorminus="9" errorplus="9">166</distance>
 	<star>
 		<mass errorminus="0.027" errorplus="0.027">0.770</mass>
@@ -17,6 +17,7 @@
 		<planet>
 			<name>HAT-P-18 b</name>
 			<name>2MASS J17052315+3300450 b</name>
+			<name>Gaia DR2 1334573817793362560 b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.008" errorplus="0.008">0.196</mass>
 			<radius errorminus="0.044" errorplus="0.044">0.947</radius>
@@ -32,6 +33,7 @@
 			<istransiting>1</istransiting>
 		</planet>
 		<name>HAT-P-18</name>
+		<name>Gaia DR2 1334573817793362560</name>
 		<temperature errorminus="50" errorplus="50">4870</temperature>
 	</star>
 </system>

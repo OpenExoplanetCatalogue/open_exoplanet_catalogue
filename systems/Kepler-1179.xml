@@ -2,13 +2,15 @@
 	<name>Kepler-1179</name>
 	<name>KOI-2300</name>
 	<name>KIC 10583761</name>
-	<rightascension>18 56 23</rightascension>
-	<declination>+47 48 38</declination>
+	<distance errorminus="2.5783" errorplus="2.5783">420.239</distance>
+	<rightascension>18 56 23.4252</rightascension>
+	<declination>+47 48 38.1390</declination>
 	<star>
 		<name>Kepler-1179</name>
 		<name>KOI-2300</name>
 		<name>KIC 10583761</name>
 		<name>2MASS J18562343+4748382</name>
+		<name>Gaia DR2 2131625808407771520</name>
 		<temperature errorminus="65.7" errorplus="65.5">5212.0</temperature>
 		<mass errorminus="0.05" errorplus="0.04">0.84</mass>
 		<radius errorminus="0.04" errorplus="0.05">0.81</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-2300 b</name>
 			<name>KOI-2300.01</name>
 			<name>KIC 10583761 b</name>
+			<name>Gaia DR2 2131625808407771520 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

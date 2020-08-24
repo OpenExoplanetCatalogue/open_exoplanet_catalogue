@@ -2,8 +2,8 @@
 	<name>Kepler-340</name>
 	<name>KOI-1932</name>
 	<name>KIC 5202905</name>
-	<rightascension>19 43 44</rightascension>
-	<declination>+40 18 02</declination>
+	<rightascension>19 43 44.0329</rightascension>
+	<declination>+40 18 02.0048</declination>
 	<distance>806.00</distance>
 	<star>
 		<magJ errorminus="0.021" errorplus="0.021">11.725</magJ>
@@ -13,6 +13,7 @@
 		<name>KOI-1932</name>
 		<name>KIC 5202905</name>
 		<name>2MASS J19434403+4018020</name>
+		<name>Gaia DR2 2076383625510685824</name>
 		<temperature errorminus="76" errorplus="376">6620</temperature>
 		<radius errorminus=".416" errorplus="0.416">1.850</radius>
 		<planet>
@@ -21,6 +22,7 @@
 			<name>KOI-1932.01</name>
 			<name>KIC 5202905 c</name>
 			<name>KIC 5202905.01</name>
+			<name>Gaia DR2 2076383625510685824 c</name>
 			<radius errorminus="0.07017" errorplus="0.07017">0.30711</radius>
 			<period errorminus=".000481" errorplus="0.000481">22.824669</period>
 			<transittime errorminus="0.0094500" errorplus="0.0094500">2454977.4661600</transittime>
@@ -37,6 +39,7 @@
 			<name>KOI-1932.02</name>
 			<name>KIC 5202905 b</name>
 			<name>KIC 5202905.02</name>
+			<name>Gaia DR2 2076383625510685824 b</name>
 			<radius errorminus="0.05468" errorplus="0.05468">0.23056</radius>
 			<period errorminus=".000473" errorplus="0.000473">14.844387</period>
 			<transittime errorminus="0.0159500" errorplus="0.0159500">2454976.5828900</transittime>

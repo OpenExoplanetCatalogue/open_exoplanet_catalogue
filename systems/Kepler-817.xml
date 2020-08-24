@@ -2,13 +2,15 @@
 	<name>Kepler-817</name>
 	<name>KOI-1323</name>
 	<name>KIC 4076098</name>
-	<rightascension>19 44 20</rightascension>
-	<declination>+39 09 42</declination>
+	<distance errorminus="74.864" errorplus="74.864">1546.55</distance>
+	<rightascension>19 44 19.6487</rightascension>
+	<declination>+39 09 41.8504</declination>
 	<star>
 		<name>Kepler-817</name>
 		<name>KOI-1323</name>
 		<name>KIC 4076098</name>
 		<name>2MASS J19441964+3909418</name>
+		<name>Gaia DR2 2073195870740245504</name>
 		<temperature errorminus="241.2" errorplus="259.9">5861.0</temperature>
 		<mass errorminus="0.08" errorplus="0.12">1.03</mass>
 		<radius errorminus="0.12" errorplus="0.23">1.03</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-1323 b</name>
 			<name>KOI-1323.01</name>
 			<name>KIC 4076098 b</name>
+			<name>Gaia DR2 2073195870740245504 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

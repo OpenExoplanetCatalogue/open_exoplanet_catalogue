@@ -1,7 +1,7 @@
 <system>
 	<name>HAT-P-25</name>
-	<rightascension>03 13 45</rightascension>
-	<declination>+25 11 51</declination>
+	<rightascension>03 13 44.4981</rightascension>
+	<declination>+25 11 50.6878</declination>
 	<distance errorminus="4.2" errorplus="4.2">302.9</distance>
 	<star>
 		<mass>1.01</mass>
@@ -18,6 +18,7 @@
 		<planet>
 			<name>HAT-P-25 b</name>
 			<name>2MASS J03134450+2511506 b</name>
+			<name>Gaia DR2 111322601672419712 b</name>
 			<list>Confirmed planets</list>
 			<mass>0.567</mass>
 			<radius>1.19</radius>
@@ -33,6 +34,7 @@
 			<istransiting>1</istransiting>
 		</planet>
 		<name>HAT-P-25</name>
+		<name>Gaia DR2 111322601672419712</name>
 		<temperature>5500.0</temperature>
 	</star>
 </system>

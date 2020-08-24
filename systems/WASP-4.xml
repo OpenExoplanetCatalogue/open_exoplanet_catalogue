@@ -1,10 +1,12 @@
 <system>
 	<name>WASP-4</name>
-	<rightascension>23 34 15</rightascension>
-	<declination>-42 03 41</declination>
+	<rightascension>23 34 15.0858</rightascension>
+	<declination>-42 03 41.0494</declination>
 	<distance errorminus="3.75" errorplus="3.75">269.21</distance>
 	<star>
 		<name>WASP-4</name>
+		<name>Gaia DR2 6535499658122055552</name>
+		<name>TYC 8017-108-1</name>
 		<radius errorminus="0.03" errorplus="0.03">0.89</radius>
 		<magV>12.500</magV>
 		<magJ errorminus="0.025" errorplus="0.025">11.179</magJ>
@@ -16,6 +18,8 @@
 		<spectraltype>G7V</spectraltype>
 		<planet>
 			<name>WASP-4 b</name>
+			<name>Gaia DR2 6535499658122055552 b</name>
+			<name>TYC 8017-108-1 b</name>
 			<semimajoraxis errorminus="0.000800" errorplus="0.000700">0.022600</semimajoraxis>
 			<eccentricity>0.000000</eccentricity>
 			<inclination errorminus="0.840" errorplus="0.650">89.060</inclination>

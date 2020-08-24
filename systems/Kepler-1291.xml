@@ -2,13 +2,15 @@
 	<name>Kepler-1291</name>
 	<name>KOI-2617</name>
 	<name>KIC 4915638</name>
-	<rightascension>19 17 30</rightascension>
-	<declination>+40 00 04</declination>
+	<distance errorminus="27.7005" errorplus="27.7005">920.387</distance>
+	<rightascension>19 17 30.4874</rightascension>
+	<declination>+40 00 04.1503</declination>
 	<star>
 		<name>Kepler-1291</name>
 		<name>KOI-2617</name>
 		<name>KIC 4915638</name>
 		<name>2MASS J19173048+4000041</name>
+		<name>Gaia DR2 2101249188353780480</name>
 		<temperature errorminus="108.1" errorplus="81.4">5216.0</temperature>
 		<mass errorminus="0.05" errorplus="0.04">0.84</mass>
 		<radius errorminus="0.05" errorplus="0.05">0.80</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-2617 b</name>
 			<name>KOI-2617.01</name>
 			<name>KIC 4915638 b</name>
+			<name>Gaia DR2 2101249188353780480 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

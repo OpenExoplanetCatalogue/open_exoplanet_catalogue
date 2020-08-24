@@ -2,13 +2,16 @@
 	<name>Kepler-910</name>
 	<name>KOI-1618</name>
 	<name>KIC 7215603</name>
-	<rightascension>19 44 11</rightascension>
-	<declination>+42 44 35</declination>
+	<distance errorminus="4.9672" errorplus="4.9672">404.891</distance>
+	<rightascension>19 44 11.3667</rightascension>
+	<declination>+42 44 34.7640</declination>
 	<star>
 		<name>Kepler-910</name>
 		<name>KOI-1618</name>
 		<name>KIC 7215603</name>
 		<name>2MASS J19441136+4244348</name>
+		<name>Gaia DR2 2077243138673356928</name>
+		<name>TYC 3144-1130-1</name>
 		<temperature errorminus="71.7" errorplus="78.4">6230.0</temperature>
 		<mass errorminus="0.03" errorplus="0.03">1.26</mass>
 		<radius errorminus="0.03" errorplus="0.03">1.50</radius>
@@ -18,6 +21,8 @@
 			<name>KOI-1618 b</name>
 			<name>KOI-1618.01</name>
 			<name>KIC 7215603 b</name>
+			<name>Gaia DR2 2077243138673356928 b</name>
+			<name>TYC 3144-1130-1 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

@@ -2,13 +2,15 @@
 	<name>Kepler-634</name>
 	<name>KOI-647</name>
 	<name>KIC 5531694</name>
-	<rightascension>19 24 47</rightascension>
-	<declination>+40 42 10</declination>
+	<distance errorminus="12.5408" errorplus="12.5408">911.328</distance>
+	<rightascension>19 24 46.8163</rightascension>
+	<declination>+40 42 09.7232</declination>
 	<star>
 		<name>Kepler-634</name>
 		<name>KOI-647</name>
 		<name>KIC 5531694</name>
 		<name>2MASS J19244681+4042097</name>
+		<name>Gaia DR2 2101507470508342016</name>
 		<temperature errorminus="77.5" errorplus="86.2">6075.0</temperature>
 		<mass errorminus="0.07" errorplus="0.09">1.03</mass>
 		<radius errorminus="0.16" errorplus="0.19">1.24</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-647 b</name>
 			<name>KOI-647.01</name>
 			<name>KIC 5531694 b</name>
+			<name>Gaia DR2 2101507470508342016 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

@@ -1,13 +1,15 @@
 <system>
 	<name>WASP-71</name>
-	<rightascension>01 57 03</rightascension>
-	<declination>+00 45 32</declination>
+	<rightascension>01 57 03.2040</rightascension>
+	<declination>+00 45 31.8788</declination>
 	<distance>200</distance>
 	<star>
 		<name>WASP-71</name>
 		<name>TYC 30-116-1</name>
 		<name>2MASS J01570320+0045318</name>
 		<name>PPM 700097</name>
+		<name>Gaia DR2 2507901914613005056</name>
+		<name>Mpingo</name>
 		<mass errorminus="0.07" errorplus="0.07">1.559</mass>
 		<radius errorminus="0.17" errorplus="0.17">2.26</radius>
 		<temperature>6050</temperature>
@@ -20,6 +22,8 @@
 		<planet>
 			<name>WASP-71 b</name>
 			<name>TYC 30-116-1 b</name>
+			<name>Gaia DR2 2507901914613005056 b</name>
+			<name>Mpingo b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.08" errorplus="0.08">2.242</mass>
 			<radius errorminus="0.13" errorplus="0.13">1.46</radius>

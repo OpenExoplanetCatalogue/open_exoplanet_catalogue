@@ -2,13 +2,15 @@
 	<name>Kepler-1046</name>
 	<name>KOI-2002</name>
 	<name>KIC 10024701</name>
-	<rightascension>19 47 01</rightascension>
-	<declination>+46 59 54</declination>
+	<distance errorminus="28.8542" errorplus="28.8542">558.815</distance>
+	<rightascension>19 47 01.3857</rightascension>
+	<declination>+46 59 53.8141</declination>
 	<star>
 		<name>Kepler-1046</name>
 		<name>KOI-2002</name>
 		<name>KIC 10024701</name>
 		<name>2MASS J19470138+4659538</name>
+		<name>Gaia DR2 2080369355161370240</name>
 		<temperature errorminus="81.9" errorplus="72.8">5913.0</temperature>
 		<mass errorminus="0.04" errorplus="0.04">1.04</mass>
 		<radius errorminus="0.06" errorplus="0.07">1.04</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-2002 b</name>
 			<name>KOI-2002.01</name>
 			<name>KIC 10024701 b</name>
+			<name>Gaia DR2 2080369355161370240 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

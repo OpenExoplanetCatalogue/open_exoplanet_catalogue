@@ -2,13 +2,15 @@
 	<name>Kepler-1430</name>
 	<name>KOI-3113</name>
 	<name>KIC 7676423</name>
-	<rightascension>19 18 47</rightascension>
-	<declination>+43 22 20</declination>
+	<distance errorminus="40.5067" errorplus="40.5067">483.185</distance>
+	<rightascension>19 18 47.3970</rightascension>
+	<declination>+43 22 19.3776</declination>
 	<star>
 		<name>Kepler-1430</name>
 		<name>KOI-3113</name>
 		<name>KIC 7676423</name>
 		<name>2MASS J19184739+4322195</name>
+		<name>Gaia DR2 2102816404740404224</name>
 		<temperature errorminus="59.9" errorplus="46.7">4796.0</temperature>
 		<mass errorminus="0.05" errorplus="0.04">0.77</mass>
 		<radius errorminus="0.04" errorplus="0.02">0.72</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-3113 b</name>
 			<name>KOI-3113.01</name>
 			<name>KIC 7676423 b</name>
+			<name>Gaia DR2 2102816404740404224 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

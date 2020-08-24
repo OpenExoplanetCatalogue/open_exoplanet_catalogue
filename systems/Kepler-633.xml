@@ -2,13 +2,15 @@
 	<name>Kepler-633</name>
 	<name>KOI-645</name>
 	<name>KIC 5374854</name>
-	<rightascension>19 40 52</rightascension>
-	<declination>+40 35 32</declination>
+	<distance errorminus="15.0814" errorplus="15.0814">958.957</distance>
+	<rightascension>19 40 52.1542</rightascension>
+	<declination>+40 35 31.9542</declination>
 	<star>
 		<name>Kepler-633</name>
 		<name>KOI-645</name>
 		<name>KIC 5374854</name>
 		<name>2MASS J19405218+4035321</name>
+		<name>Gaia DR2 2076601917234347520</name>
 		<temperature errorminus="91.6" errorplus="86.2">5899.0</temperature>
 		<mass errorminus="0.06" errorplus="0.06">1.02</mass>
 		<radius errorminus="0.14" errorplus="0.21">1.15</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-645 b</name>
 			<name>KOI-645.01</name>
 			<name>KIC 5374854 b</name>
+			<name>Gaia DR2 2076601917234347520 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

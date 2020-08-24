@@ -2,13 +2,15 @@
 	<name>Kepler-1435</name>
 	<name>KOI-3125</name>
 	<name>KIC 8751796</name>
-	<rightascension>19 24 42</rightascension>
-	<declination>+44 55 16</declination>
+	<distance errorminus="9.6088" errorplus="9.6088">718.752</distance>
+	<rightascension>19 24 41.5890</rightascension>
+	<declination>+44 55 16.0603</declination>
 	<star>
 		<name>Kepler-1435</name>
 		<name>KOI-3125</name>
 		<name>KIC 8751796</name>
 		<name>2MASS J19244159+4455160</name>
+		<name>Gaia DR2 2126632994828732032</name>
 		<temperature errorminus="65.5" errorplus="74.8">6356.0</temperature>
 		<mass errorminus="0.06" errorplus="0.06">1.21</mass>
 		<radius errorminus="0.11" errorplus="0.18">1.32</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-3125 b</name>
 			<name>KOI-3125.01</name>
 			<name>KIC 8751796 b</name>
+			<name>Gaia DR2 2126632994828732032 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

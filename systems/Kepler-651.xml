@@ -2,13 +2,15 @@
 	<name>Kepler-651</name>
 	<name>KOI-709</name>
 	<name>KIC 9578686</name>
-	<rightascension>19 09 20</rightascension>
-	<declination>+46 12 13</declination>
+	<distance errorminus="3.6085" errorplus="3.6085">517.01</distance>
+	<rightascension>19 09 19.8676</rightascension>
+	<declination>+46 12 12.6783</declination>
 	<star>
 		<name>Kepler-651</name>
 		<name>KOI-709</name>
 		<name>KIC 9578686</name>
 		<name>2MASS J19091987+4612126</name>
+		<name>Gaia DR2 2130322955850385280</name>
 		<temperature errorminus="54.3" errorplus="64.2">5522.0</temperature>
 		<mass errorminus="0.04" errorplus="0.03">0.92</mass>
 		<radius errorminus="0.03" errorplus="0.04">0.87</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-709 b</name>
 			<name>KOI-709.01</name>
 			<name>KIC 9578686 b</name>
+			<name>Gaia DR2 2130322955850385280 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

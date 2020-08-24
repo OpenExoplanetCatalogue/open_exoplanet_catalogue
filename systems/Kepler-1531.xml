@@ -2,13 +2,15 @@
 	<name>Kepler-1531</name>
 	<name>KOI-3928</name>
 	<name>KIC 4242692</name>
-	<rightascension>19 00 35</rightascension>
-	<declination>+39 22 15</declination>
+	<distance errorminus="5.7235" errorplus="5.7235">679.394</distance>
+	<rightascension>19 00 35.1842</rightascension>
+	<declination>+39 22 14.8687</declination>
 	<star>
 		<name>Kepler-1531</name>
 		<name>KOI-3928</name>
 		<name>KIC 4242692</name>
 		<name>2MASS J19003517+3922148</name>
+		<name>Gaia DR2 2100303539632796032</name>
 		<temperature errorminus="182.9" errorplus="161.6">6260.0</temperature>
 		<mass errorminus="0.12" errorplus="0.20">1.16</mass>
 		<radius errorminus="0.21" errorplus="0.55">1.27</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-3928 b</name>
 			<name>KOI-3928.01</name>
 			<name>KIC 4242692 b</name>
+			<name>Gaia DR2 2100303539632796032 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

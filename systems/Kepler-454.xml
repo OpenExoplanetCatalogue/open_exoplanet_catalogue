@@ -2,14 +2,16 @@
 	<name>Kepler-454</name>
 	<name>KOI-273</name>
 	<name>KIC 3102384</name>
-	<rightascension>19 09 54.841</rightascension>
-	<declination>+38 13 43.95</declination>
+	<rightascension>19 09 54.8466</rightascension>
+	<declination>+38 13 43.9218</declination>
 	<distance>200</distance>
 	<star>
 		<name>Kepler-454</name>
 		<name>KOI-273</name>
 		<name>KIC 3102384</name>
 		<name>2MASS J19095484+3813438</name>
+		<name>Gaia DR2 2099541715513813504</name>
+		<name>TYC 3120-1368-1</name>
 		<magV>11.57</magV>
 		<magJ errorminus="0.021" errorplus="0.021">10.357</magJ>
 		<magH errorminus="0.022" errorplus="0.022">10.021</magH>
@@ -24,6 +26,8 @@
 			<name>KOI-273.01</name>
 			<name>KOI-273 b</name>
 			<name>KIC 3102384 b</name>
+			<name>Gaia DR2 2099541715513813504 b</name>
+			<name>TYC 3120-1368-1 b</name>
 			<period errorminus="0.00000777" errorplus="0.00000777">10.57375339</period>
 			<transittime errorminus="0.0007718" errorplus="0.0007718" unit="BJD">2455008.0675855</transittime>
 			<inclination errorminus="0.203" errorplus="0.203">87.090</inclination>
@@ -42,6 +46,8 @@
 			<name>Kepler-454 c</name>
 			<name>KOI-273 c</name>
 			<name>KIC 3102384 c</name>
+			<name>Gaia DR2 2099541715513813504 c</name>
+			<name>TYC 3120-1368-1 c</name>
 			<period errorminus="0.70" errorplus="0.70">523.90</period>
 			<periastrontime errorminus="26" errorplus="26" unit="BJD">2454892</periastrontime>
 			<eccentricity errorminus="0.0077" errorplus="0.0077">0.0214</eccentricity>
@@ -58,6 +64,8 @@
 			<name>Kepler-454 d</name>
 			<name>KOI-273 d</name>
 			<name>KIC 3102384 d</name>
+			<name>Gaia DR2 2099541715513813504 d</name>
+			<name>TYC 3120-1368-1 d</name>
 			<period lowerlimit="3650" />
 			<mass lowerlimit="12.1" />
 			<semimajoraxis lowerlimit="4.7" />

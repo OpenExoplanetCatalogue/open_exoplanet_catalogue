@@ -1,11 +1,13 @@
 <system>
 	<name>WASP-60</name>
-	<rightascension>23 46 39.98</rightascension>
-	<declination>+31 09 21.44</declination>
+	<rightascension>23 46 39.9747</rightascension>
+	<declination>+31 09 21.3720</declination>
 	<distance errorminus="60" errorplus="60">400</distance>
 	<star>
 		<name>WASP-60</name>
 		<name>TYC 2767-1746-1</name>
+		<name>Gaia DR2 2868528637464028160</name>
+		<name>Morava</name>
 		<spectraltype>G1V</spectraltype>
 		<magB>12.86</magB>
 		<magV>12.18</magV>
@@ -18,6 +20,8 @@
 		<planet>
 			<name>WASP-60 b</name>
 			<name>TYC 2767-1746-1 b</name>
+			<name>Gaia DR2 2868528637464028160 b</name>
+			<name>Morava b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.034" errorplus="0.034">0.514</mass>
 			<radius errorminus="0.12" errorplus="0.12">0.86</radius>

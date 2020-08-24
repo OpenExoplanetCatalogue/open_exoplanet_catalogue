@@ -2,13 +2,15 @@
 	<name>Kepler-787</name>
 	<name>KOI-1202</name>
 	<name>KIC 3444588</name>
-	<rightascension>19 26 46</rightascension>
-	<declination>+38 34 22</declination>
+	<distance errorminus="9.4433" errorplus="9.4433">510.751</distance>
+	<rightascension>19 26 46.1917</rightascension>
+	<declination>+38 34 22.3938</declination>
 	<star>
 		<name>Kepler-787</name>
 		<name>KOI-1202</name>
 		<name>KIC 3444588</name>
 		<name>2MASS J19264619+3834224</name>
+		<name>Gaia DR2 2052736123999181824</name>
 		<temperature errorminus="33.6" errorplus="40.9">4248.0</temperature>
 		<mass errorminus="0.02" errorplus="0.03">0.65</mass>
 		<radius errorminus="0.02" errorplus="0.02">0.62</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-1202 b</name>
 			<name>KOI-1202.01</name>
 			<name>KIC 3444588 b</name>
+			<name>Gaia DR2 2052736123999181824 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

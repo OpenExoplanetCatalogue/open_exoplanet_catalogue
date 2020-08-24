@@ -2,13 +2,15 @@
 	<name>Kepler-1009</name>
 	<name>KOI-1907</name>
 	<name>KIC 7094486</name>
-	<rightascension>18 51 26</rightascension>
-	<declination>+42 39 57</declination>
+	<distance errorminus="8.2598" errorplus="8.2598">358.41</distance>
+	<rightascension>18 51 26.3744</rightascension>
+	<declination>+42 39 56.7407</declination>
 	<star>
 		<name>Kepler-1009</name>
 		<name>KOI-1907</name>
 		<name>KIC 7094486</name>
 		<name>2MASS J18512638+4239567</name>
+		<name>Gaia DR2 2105151526917259520</name>
 		<temperature errorminus="36.5" errorplus="41.1">4027.0</temperature>
 		<mass errorminus="0.03" errorplus="0.02">0.59</mass>
 		<radius errorminus="0.02" errorplus="0.02">0.57</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-1907 b</name>
 			<name>KOI-1907.01</name>
 			<name>KIC 7094486 b</name>
+			<name>Gaia DR2 2105151526917259520 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

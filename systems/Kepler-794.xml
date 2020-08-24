@@ -2,13 +2,15 @@
 	<name>Kepler-794</name>
 	<name>KOI-1216</name>
 	<name>KIC 3839488</name>
-	<rightascension>19 12 32</rightascension>
-	<declination>+38 59 49</declination>
+	<distance errorminus="15.2868" errorplus="15.2868">956.755</distance>
+	<rightascension>19 12 32.0884</rightascension>
+	<declination>+38 59 48.7085</declination>
 	<star>
 		<name>Kepler-794</name>
 		<name>KOI-1216</name>
 		<name>KIC 3839488</name>
 		<name>2MASS J19123208+3859487</name>
+		<name>Gaia DR2 2099681216051775616</name>
 		<temperature errorminus="65.0" errorplus="74.4">5839.0</temperature>
 		<mass errorminus="0.07" errorplus="0.11">1.19</mass>
 		<radius errorminus="0.22" errorplus="0.34">1.38</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-1216 b</name>
 			<name>KOI-1216.01</name>
 			<name>KIC 3839488 b</name>
+			<name>Gaia DR2 2099681216051775616 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

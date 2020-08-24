@@ -1,7 +1,7 @@
 <system>
 	<name>WASP-13</name>
-	<rightascension>09 20 25</rightascension>
-	<declination>+33 52 57</declination>
+	<rightascension>09 20 24.7143</rightascension>
+	<declination>+33 52 56.6997</declination>
 	<distance errorminus="18" errorplus="18">155</distance>
 	<star>
 		<magV>10.42</magV>
@@ -16,6 +16,9 @@
 		<planet>
 			<name>WASP-13 b</name>
 			<name>2MASS J09202471+3352567 b</name>
+			<name>Gaia DR2 702295464353437952 b</name>
+			<name>TYC 2496-1114-1 b</name>
+			<name>Gloas b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.037" errorplus="0.037">0.500</mass>
 			<radius errorminus="0.052" errorplus="0.052">1.407</radius>
@@ -31,6 +34,9 @@
 			<istransiting>1</istransiting>
 		</planet>
 		<name>WASP-13</name>
+		<name>Gaia DR2 702295464353437952</name>
+		<name>TYC 2496-1114-1</name>
+		<name>Gloas</name>
 		<temperature errorminus="48" errorplus="48">5989</temperature>
 	</star>
 </system>

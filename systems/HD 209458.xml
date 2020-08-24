@@ -1,7 +1,7 @@
 <system>
 	<name>HD 209458</name>
-	<rightascension>22 03 10</rightascension>
-	<declination>+18 53 04</declination>
+	<rightascension>22 03 10.7729</rightascension>
+	<declination>+18 53 03.5482</declination>
 	<distance>47</distance>
 	<star>
 		<mass errorminus="0.022" errorplus="0.022">1.148</mass>
@@ -17,6 +17,9 @@
 		<spectraltype>G0V</spectraltype>
 		<planet>
 			<name>HD 209458 b</name>
+			<name>TYC 1688-1821-1 b</name>
+			<name>Gaia DR2 1779546757669063552 b</name>
+			<name>HIP 108859 b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.017" errorplus="0.017">0.714</mass>
 			<radius errorminus="0.018" errorplus="0.018">1.38</radius>
@@ -41,5 +44,8 @@
 			<istransiting>1</istransiting>
 		</planet>
 		<name>HD 209458</name>
+		<name>TYC 1688-1821-1</name>
+		<name>Gaia DR2 1779546757669063552</name>
+		<name>HIP 108859</name>
 	</star>
 </system>

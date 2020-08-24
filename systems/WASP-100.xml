@@ -1,11 +1,14 @@
 <system>
 	<name>WASP-100</name>
-	<rightascension>04 35 50</rightascension>
-	<declination>-64 01 37</declination>
+	<distance errorminus="2.7669" errorplus="2.7669">368.283</distance>
+	<rightascension>04 35 50.3302</rightascension>
+	<declination>-64 01 37.3327</declination>
 	<star>
 		<name>WASP-100</name>
 		<name>1SWASP J043550.32-640137.3</name>
 		<name>2MASS 04355033-6401373</name>
+		<name>Gaia DR2 4675352109658261376</name>
+		<name>TYC 8884-719-1</name>
 		<mass errorminus="0.1" errorplus="0.1">1.57</mass>
 		<radius errorminus="0.3" errorplus="0.3">2</radius>
 		<temperature errorminus="120" errorplus="120">6900</temperature>
@@ -20,6 +23,8 @@
 			<name>WASP-100 b</name>
 			<name>1SWASP J043550.32-640137.3 b</name>
 			<name>2MASS 04355033-6401373 b</name>
+			<name>Gaia DR2 4675352109658261376 b</name>
+			<name>TYC 8884-719-1 b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.12" errorplus="0.12">2.03</mass>
 			<radius errorminus="0.29" errorplus="0.29">1.69</radius>

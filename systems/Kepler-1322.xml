@@ -2,13 +2,15 @@
 	<name>Kepler-1322</name>
 	<name>KOI-2716</name>
 	<name>KIC 9092504</name>
-	<rightascension>19 32 49</rightascension>
-	<declination>+45 26 07</declination>
+	<distance errorminus="70.6378" errorplus="70.6378">1402.72</distance>
+	<rightascension>19 32 49.0810</rightascension>
+	<declination>+45 26 07.4686</declination>
 	<star>
 		<name>Kepler-1322</name>
 		<name>KOI-2716</name>
 		<name>KIC 9092504</name>
 		<name>2MASS J19324908+4526074</name>
+		<name>Gaia DR2 2126524001437900928</name>
 		<temperature errorminus="103.4" errorplus="151.6">5488.0</temperature>
 		<mass errorminus="0.06" errorplus="0.05">0.90</mass>
 		<radius errorminus="0.07" errorplus="0.11">0.87</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-2716 b</name>
 			<name>KOI-2716.01</name>
 			<name>KIC 9092504 b</name>
+			<name>Gaia DR2 2126524001437900928 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

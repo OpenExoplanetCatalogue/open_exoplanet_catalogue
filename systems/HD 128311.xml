@@ -1,7 +1,7 @@
 <system>
 	<name>HD 128311</name>
-	<rightascension>14 36 00</rightascension>
-	<declination>+09 44 47</declination>
+	<rightascension>14 36 00.5607</rightascension>
+	<declination>+09 44 47.4536</declination>
 	<distance>16.6</distance>
 	<star>
 		<mass>0.828</mass>
@@ -17,6 +17,10 @@
 		<spectraltype>K0V</spectraltype>
 		<planet>
 			<name>HD 128311 b</name>
+			<name>TYC 910-165-1 b</name>
+			<name>Gaia DR2 1176209886733406592 b</name>
+			<name>HIP 71395 b</name>
+			<name>GJ 3860 b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.18" errorplus="0.15">1.83</mass>
 			<period errorminus="3.6" errorplus="4.2">460.1</period>
@@ -32,6 +36,10 @@
 		</planet>
 		<planet>
 			<name>HD 128311 c</name>
+			<name>TYC 910-165-1 c</name>
+			<name>Gaia DR2 1176209886733406592 c</name>
+			<name>HIP 71395 c</name>
+			<name>GJ 3860 c</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.08" errorplus="0.08">3.20</mass>
 			<period errorminus="6.0" errorplus="7.6">910.7</period>
@@ -46,6 +54,10 @@
 			<temperature>140.7</temperature>
 		</planet>
 		<name>HD 128311</name>
+		<name>TYC 910-165-1</name>
+		<name>Gaia DR2 1176209886733406592</name>
+		<name>HIP 71395</name>
+		<name>GJ 3860</name>
 		<temperature>4965.0</temperature>
 	</star>
 </system>

@@ -1,7 +1,7 @@
 <system>
 	<name>WASP-39</name>
-	<rightascension>14 29 18</rightascension>
-	<declination>-03 26 40</declination>
+	<rightascension>14 29 18.4151</rightascension>
+	<declination>-03 26 40.2030</declination>
 	<distance>230</distance>
 	<star>
 		<mass>0.93</mass>
@@ -18,6 +18,8 @@
 		<planet>
 			<name>WASP-39 b</name>
 			<name>2MASS J14291840-0326403 b</name>
+			<name>Gaia DR2 3643098875168270592 b</name>
+			<name>Malmok b</name>
 			<list>Confirmed planets</list>
 			<mass>0.28</mass>
 			<radius>1.27</radius>
@@ -33,6 +35,8 @@
 			<istransiting>1</istransiting>
 		</planet>
 		<name>WASP-39</name>
+		<name>Gaia DR2 3643098875168270592</name>
+		<name>Malmok</name>
 		<temperature>5400.0</temperature>
 	</star>
 </system>

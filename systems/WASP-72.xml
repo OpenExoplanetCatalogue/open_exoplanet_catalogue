@@ -1,7 +1,7 @@
 <system>
 	<name>WASP-72</name>
-	<rightascension>02 44 09</rightascension>
-	<declination>-30 10 08</declination>
+	<rightascension>02 44 09.6097</rightascension>
+	<declination>-30 10 08.5614</declination>
 	<distance errorminus="60" errorplus="60">340</distance>
 	<star>
 		<mass>1.23</mass>
@@ -19,6 +19,9 @@
 		<planet>
 			<name>WASP-72 b</name>
 			<name>1SWASPJ024409.60-301008.5 b</name>
+			<name>Gaia DR2 5065640460769428224 b</name>
+			<name>TYC 7011-487-1 b</name>
+			<name>Diya b</name>
 			<list>Confirmed planets</list>
 			<mass>1.410</mass>
 			<radius>1.01</radius>
@@ -35,5 +38,8 @@
 			<istransiting>1</istransiting>
 		</planet>
 		<name>WASP-72</name>
+		<name>Gaia DR2 5065640460769428224</name>
+		<name>TYC 7011-487-1</name>
+		<name>Diya</name>
 	</star>
 </system>

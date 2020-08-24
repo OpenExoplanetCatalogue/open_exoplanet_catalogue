@@ -2,13 +2,15 @@
 	<name>Kepler-495</name>
 	<name>KOI-221</name>
 	<name>KIC 3937519</name>
-	<rightascension>19 03 43</rightascension>
-	<declination>+39 05 53</declination>
+	<distance errorminus="9.0658" errorplus="9.0658">671.592</distance>
+	<rightascension>19 03 43.3699</rightascension>
+	<declination>+39 05 53.2812</declination>
 	<star>
 		<name>Kepler-495</name>
 		<name>KOI-221</name>
 		<name>KIC 3937519</name>
 		<name>2MASS J19034336+3905532</name>
+		<name>Gaia DR2 2100073393808483328</name>
 		<temperature errorminus="91.2" errorplus="128.2">5346.0</temperature>
 		<mass errorminus="0.05" errorplus="0.04">0.86</mass>
 		<radius errorminus="0.05" errorplus="0.07">0.83</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-221 b</name>
 			<name>KOI-221.01</name>
 			<name>KIC 3937519 b</name>
+			<name>Gaia DR2 2100073393808483328 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

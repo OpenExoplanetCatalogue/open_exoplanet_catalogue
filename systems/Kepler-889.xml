@@ -2,13 +2,15 @@
 	<name>Kepler-889</name>
 	<name>KOI-1536</name>
 	<name>KIC 12159249</name>
-	<rightascension>19 25 52</rightascension>
-	<declination>+50 45 34</declination>
+	<distance errorminus="7.7822" errorplus="7.7822">608.754</distance>
+	<rightascension>19 25 52.1613</rightascension>
+	<declination>+50 45 34.1263</declination>
 	<star>
 		<name>Kepler-889</name>
 		<name>KOI-1536</name>
 		<name>KIC 12159249</name>
 		<name>2MASS J19255215+5045341</name>
+		<name>Gaia DR2 2130131297229656832</name>
 		<temperature errorminus="60.0" errorplus="75.2">5961.0</temperature>
 		<mass errorminus="0.05" errorplus="0.07">1.14</mass>
 		<radius errorminus="0.14" errorplus="0.22">1.25</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-1536 b</name>
 			<name>KOI-1536.01</name>
 			<name>KIC 12159249 b</name>
+			<name>Gaia DR2 2130131297229656832 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

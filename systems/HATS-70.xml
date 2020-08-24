@@ -1,10 +1,12 @@
 <system>
 	<name>HATS-70</name>
-	<rightascension>07 16 25</rightascension>
-	<declination>-31 14 40</declination>
+	<rightascension>07 16 25.0880</rightascension>
+	<declination>-31 14 39.8585</declination>
 	<distance errorminus="62.00" errorplus="60.00">1307.00</distance>
 	<star>
 		<name>HATS-70</name>
+		<name>Gaia DR2 5605119586158973440</name>
+		<name>TYC 7103-114-1</name>
 		<radius errorminus="0.07" errorplus="0.06">1.88</radius>
 		<magV errorminus="0.028" errorplus="0.028">12.574</magV>
 		<magJ errorminus="0.019" errorplus="0.019">12.139</magJ>
@@ -15,6 +17,8 @@
 		<metallicity errorminus="0.107" errorplus="0.095">0.041</metallicity>
 		<planet>
 			<name>HATS-70 b</name>
+			<name>Gaia DR2 5605119586158973440 b</name>
+			<name>TYC 7103-114-1 b</name>
 			<semimajoraxis errorminus="0.000870" errorplus="0.000740">0.036320</semimajoraxis>
 			<eccentricity>0.180000</eccentricity>
 			<inclination errorminus="1.900" errorplus="1.600">86.700</inclination>

@@ -2,13 +2,15 @@
 	<name>Kepler-735</name>
 	<name>KOI-942</name>
 	<name>KIC 9512687</name>
-	<rightascension>18 58 45</rightascension>
-	<declination>+46 10 20</declination>
+	<distance errorminus="14.6288" errorplus="14.6288">709.019</distance>
+	<rightascension>18 58 45.3366</rightascension>
+	<declination>+46 10 20.0501</declination>
 	<star>
 		<name>Kepler-735</name>
 		<name>KOI-942</name>
 		<name>KIC 9512687</name>
 		<name>2MASS J18584533+4610200</name>
+		<name>Gaia DR2 2107285644626768640</name>
 		<temperature errorminus="45.5" errorplus="42.9">5107.0</temperature>
 		<mass errorminus="0.04" errorplus="0.03">0.85</mass>
 		<radius errorminus="0.03" errorplus="0.04">0.80</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-942 b</name>
 			<name>KOI-942.01</name>
 			<name>KIC 9512687 b</name>
+			<name>Gaia DR2 2107285644626768640 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

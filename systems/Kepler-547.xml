@@ -2,13 +2,15 @@
 	<name>Kepler-547</name>
 	<name>KOI-420</name>
 	<name>KIC 8352537</name>
-	<rightascension>19 04 28</rightascension>
-	<declination>+44 20 43</declination>
+	<distance errorminus="3.9925" errorplus="3.9925">383.127</distance>
+	<rightascension>19 04 28.4826</rightascension>
+	<declination>+44 20 42.9365</declination>
 	<star>
 		<name>Kepler-547</name>
 		<name>KOI-420</name>
 		<name>KIC 8352537</name>
 		<name>2MASS J19042848+4420430</name>
+		<name>Gaia DR2 2106279179170588288</name>
 		<temperature errorminus="46.8" errorplus="40.1">4828.0</temperature>
 		<mass errorminus="0.04" errorplus="0.03">0.78</mass>
 		<radius errorminus="0.04" errorplus="0.02">0.73</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-420 b</name>
 			<name>KOI-420.01</name>
 			<name>KIC 8352537 b</name>
+			<name>Gaia DR2 2106279179170588288 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

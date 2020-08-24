@@ -1,7 +1,8 @@
 <system>
 	<name>CHXR 73</name>
-	<rightascension>11 06 29</rightascension>
-	<declination>-77 37 33</declination>
+	<distance errorminus="6.4202" errorplus="6.4202">191.048</distance>
+	<rightascension>11 06 28.7626</rightascension>
+	<declination>-77 37 33.1444</declination>
 	<star>
 		<magI>15.78</magI>
 		<magJ errorminus="0.028" errorplus="0.028">12.674</magJ>
@@ -11,6 +12,7 @@
 		<spectraltype>M3.25</spectraltype>
 		<planet>
 			<name>CHXR 73 b</name>
+			<name>Gaia DR2 5201175987817179136 b</name>
 			<list>Confirmed planets</list>
 			<mass>12</mass>
 			<separation errorminus="0.03" errorplus="0.03" unit="arcsec">1.30</separation>
@@ -27,6 +29,7 @@
 			<imagedescription>This image shows the red dwarf CHXR 73 A and its companion CHXR 73 b on the lower right. The image was obtained with the Hubble Space Telescope. Credit: NASA, ESA, and K. Luhman (Pennsylvania State University).</imagedescription>
 		</planet>
 		<name>CHXR 73</name>
+		<name>Gaia DR2 5201175987817179136</name>
 		<temperature>3840.0</temperature>
 	</star>
 </system>

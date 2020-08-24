@@ -1,10 +1,12 @@
 <system>
 	<name>XO-7</name>
-	<rightascension>18 29 55</rightascension>
-	<declination>+85 13 60</declination>
+	<rightascension>18 29 54.9290</rightascension>
+	<declination>+85 13 59.5756</declination>
 	<distance errorminus="1.20" errorplus="1.20">234.10</distance>
 	<star>
 		<name>XO-7</name>
+		<name>Gaia DR2 2303332931542914048</name>
+		<name>TYC 4652-1593-1</name>
 		<radius errorminus="0.02" errorplus="0.02">1.48</radius>
 		<magV errorminus="0.040" errorplus="0.040">10.520</magV>
 		<magJ errorminus="0.021" errorplus="0.021">9.557</magJ>
@@ -16,6 +18,8 @@
 		<spectraltype>G0V</spectraltype>
 		<planet>
 			<name>XO-7 b</name>
+			<name>Gaia DR2 2303332931542914048 b</name>
+			<name>TYC 4652-1593-1 b</name>
 			<semimajoraxis errorminus="0.000620" errorplus="0.000620">0.044210</semimajoraxis>
 			<eccentricity errorminus="0.033000" errorplus="0.033000">0.038000</eccentricity>
 			<inclination errorminus="0.290" errorplus="0.290">83.450</inclination>

@@ -2,13 +2,15 @@
 	<name>Kepler-1241</name>
 	<name>KOI-2444</name>
 	<name>KIC 3354846</name>
-	<rightascension>19 38 18</rightascension>
-	<declination>+38 27 25</declination>
+	<distance errorminus="31.8931" errorplus="31.8931">995.223</distance>
+	<rightascension>19 38 18.2967</rightascension>
+	<declination>+38 27 25.1875</declination>
 	<star>
 		<name>Kepler-1241</name>
 		<name>KOI-2444</name>
 		<name>KIC 3354846</name>
 		<name>2MASS J19381829+3827251</name>
+		<name>Gaia DR2 2052124692458750976</name>
 		<temperature errorminus="119.8" errorplus="180.7">5261.0</temperature>
 		<mass errorminus="0.06" errorplus="0.05">0.84</mass>
 		<radius errorminus="0.05" errorplus="0.06">0.80</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-2444 b</name>
 			<name>KOI-2444.01</name>
 			<name>KIC 3354846 b</name>
+			<name>Gaia DR2 2052124692458750976 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

@@ -1,10 +1,12 @@
 <system>
 	<name>KELT-16</name>
-	<rightascension>20 57 04</rightascension>
-	<declination>+31 39 40</declination>
+	<rightascension>20 57 04.4386</rightascension>
+	<declination>+31 39 39.6296</declination>
 	<distance>365.0</distance>
 	<star>
 		<name>KELT-16</name>
+		<name>Gaia DR2 1864885215233116032</name>
+		<name>TYC 2688-1839-1</name>
 		<magV errorminus="0.12" errorplus="0.12">11.72</magV>
 		<age>2.9</age>
 		<radius>1.36</radius>
@@ -14,6 +16,8 @@
 		<metallicity>-0.002</metallicity>
 		<planet>
 			<name>KELT-16 b</name>
+			<name>Gaia DR2 1864885215233116032 b</name>
+			<name>TYC 2688-1839-1 b</name>
 			<semimajoraxis errorminus="0.00026" errorplus="0.00024">0.02044</semimajoraxis>
 			<period errorminus="0.000002" errorplus="0.000002">0.9689951</period>
 			<mass errorminus="0.15" errorplus="0.16">2.75</mass>

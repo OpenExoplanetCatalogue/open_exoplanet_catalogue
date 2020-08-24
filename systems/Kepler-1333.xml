@@ -2,13 +2,15 @@
 	<name>Kepler-1333</name>
 	<name>KOI-2744</name>
 	<name>KIC 5881813</name>
-	<rightascension>19 34 07</rightascension>
-	<declination>+41 06 41</declination>
+	<distance errorminus="31.7758" errorplus="31.7758">956.938</distance>
+	<rightascension>19 34 06.6284</rightascension>
+	<declination>+41 06 41.1655</declination>
 	<star>
 		<name>Kepler-1333</name>
 		<name>KOI-2744</name>
 		<name>KIC 5881813</name>
 		<name>2MASS J19340661+4106411</name>
+		<name>Gaia DR2 2077383395124052096</name>
 		<temperature errorminus="162.2" errorplus="142.8">5628.0</temperature>
 		<mass errorminus="0.06" errorplus="0.06">0.94</mass>
 		<radius errorminus="0.08" errorplus="0.13">0.92</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-2744 b</name>
 			<name>KOI-2744.01</name>
 			<name>KIC 5881813 b</name>
+			<name>Gaia DR2 2077383395124052096 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

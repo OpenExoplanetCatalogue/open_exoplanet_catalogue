@@ -2,13 +2,15 @@
 	<name>Kepler-802</name>
 	<name>KOI-1273</name>
 	<name>KIC 8806072</name>
-	<rightascension>19 04 04</rightascension>
-	<declination>+45 00 28</declination>
+	<distance errorminus="11.8584" errorplus="11.8584">798.467</distance>
+	<rightascension>19 04 03.8048</rightascension>
+	<declination>+45 00 27.9588</declination>
 	<star>
 		<name>Kepler-802</name>
 		<name>KOI-1273</name>
 		<name>KIC 8806072</name>
 		<name>2MASS J19040380+4500279</name>
+		<name>Gaia DR2 2106333879874204288</name>
 		<temperature errorminus="67.2" errorplus="61.6">5507.0</temperature>
 		<mass errorminus="0.05" errorplus="0.04">0.93</mass>
 		<radius errorminus="0.05" errorplus="0.12">0.90</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-1273 b</name>
 			<name>KOI-1273.01</name>
 			<name>KIC 8806072 b</name>
+			<name>Gaia DR2 2106333879874204288 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

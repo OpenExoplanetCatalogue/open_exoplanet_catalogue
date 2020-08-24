@@ -2,13 +2,15 @@
 	<name>Kepler-1320</name>
 	<name>KOI-2708</name>
 	<name>KIC 5175986</name>
-	<rightascension>19 13 44</rightascension>
-	<declination>+40 22 51</declination>
+	<distance errorminus="15.3473" errorplus="15.3473">659.37</distance>
+	<rightascension>19 13 44.0596</rightascension>
+	<declination>+40 22 51.1767</declination>
 	<star>
 		<name>Kepler-1320</name>
 		<name>KOI-2708</name>
 		<name>KIC 5175986</name>
 		<name>2MASS J19134406+4022511</name>
+		<name>Gaia DR2 2101307290671768704</name>
 		<temperature errorminus="67.4" errorplus="52.0">4817.0</temperature>
 		<mass errorminus="0.04" errorplus="0.03">0.80</mass>
 		<radius errorminus="0.03" errorplus="0.03">0.74</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-2708 b</name>
 			<name>KOI-2708.01</name>
 			<name>KIC 5175986 b</name>
+			<name>Gaia DR2 2101307290671768704 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

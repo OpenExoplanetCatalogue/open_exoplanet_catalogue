@@ -2,13 +2,15 @@
 	<name>Kepler-485</name>
 	<name>KOI-186</name>
 	<name>KIC 12019440</name>
-	<rightascension>19 39 59</rightascension>
-	<declination>+50 28 12</declination>
+	<distance errorminus="27.9646" errorplus="27.9646">1179.52</distance>
+	<rightascension>19 39 59.1150</rightascension>
+	<declination>+50 28 12.1941</declination>
 	<star>
 		<name>Kepler-485</name>
 		<name>KOI-186</name>
 		<name>KIC 12019440</name>
 		<name>2MASS J19395911+5028122</name>
+		<name>Gaia DR2 2135184068555793024</name>
 		<temperature errorminus="153.7" errorplus="105.0">5958.0</temperature>
 		<mass errorminus="0.07" errorplus="0.08">1.07</mass>
 		<radius errorminus="0.12" errorplus="0.26">1.09</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-186 b</name>
 			<name>KOI-186.01</name>
 			<name>KIC 12019440 b</name>
+			<name>Gaia DR2 2135184068555793024 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

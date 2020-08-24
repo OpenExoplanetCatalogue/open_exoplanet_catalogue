@@ -2,13 +2,15 @@
 	<name>Kepler-1324</name>
 	<name>KOI-2719</name>
 	<name>KIC 5184911</name>
-	<rightascension>19 24 44</rightascension>
-	<declination>+40 18 40</declination>
+	<distance errorminus="6.4868" errorplus="6.4868">488.353</distance>
+	<rightascension>19 24 44.3903</rightascension>
+	<declination>+40 18 40.3388</declination>
 	<star>
 		<name>Kepler-1324</name>
 		<name>KOI-2719</name>
 		<name>KIC 5184911</name>
 		<name>2MASS J19244439+4018403</name>
+		<name>Gaia DR2 2053454478745972480</name>
 		<temperature errorminus="70.6" errorplus="54.1">4776.0</temperature>
 		<mass errorminus="0.04" errorplus="0.03">0.78</mass>
 		<radius errorminus="0.03" errorplus="0.02">0.73</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-2719 b</name>
 			<name>KOI-2719.01</name>
 			<name>KIC 5184911 b</name>
+			<name>Gaia DR2 2053454478745972480 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

@@ -2,13 +2,15 @@
 	<name>Kepler-597</name>
 	<name>KOI-550</name>
 	<name>KIC 4165473</name>
-	<rightascension>19 33 53</rightascension>
-	<declination>+39 15 10</declination>
+	<distance errorminus="9.3742" errorplus="9.3742">676.224</distance>
+	<rightascension>19 33 52.8230</rightascension>
+	<declination>+39 15 10.0895</declination>
 	<star>
 		<name>Kepler-597</name>
 		<name>KOI-550</name>
 		<name>KIC 4165473</name>
 		<name>2MASS J19335282+3915101</name>
+		<name>Gaia DR2 2052450079180319744</name>
 		<temperature errorminus="59.3" errorplus="69.3">5683.0</temperature>
 		<mass errorminus="0.04" errorplus="0.04">0.97</mass>
 		<radius errorminus="0.05" errorplus="0.06">0.95</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-550 b</name>
 			<name>KOI-550.01</name>
 			<name>KIC 4165473 b</name>
+			<name>Gaia DR2 2052450079180319744 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

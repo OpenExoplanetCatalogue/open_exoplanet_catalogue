@@ -2,13 +2,15 @@
 	<name>Kepler-578</name>
 	<name>KOI-496</name>
 	<name>KIC 4454752</name>
-	<rightascension>19 15 01</rightascension>
-	<declination>+39 33 49</declination>
+	<distance errorminus="6.9860" errorplus="6.9860">549.934</distance>
+	<rightascension>19 15 01.1886</rightascension>
+	<declination>+39 33 49.1772</declination>
 	<star>
 		<name>Kepler-578</name>
 		<name>KOI-496</name>
 		<name>KIC 4454752</name>
 		<name>2MASS J19150118+3933491</name>
+		<name>Gaia DR2 2099714751157275264</name>
 		<temperature errorminus="106.9" errorplus="117.1">5334.0</temperature>
 		<mass errorminus="0.05" errorplus="0.04">0.87</mass>
 		<radius errorminus="0.05" errorplus="0.07">0.83</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-496 b</name>
 			<name>KOI-496.01</name>
 			<name>KIC 4454752 b</name>
+			<name>Gaia DR2 2099714751157275264 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

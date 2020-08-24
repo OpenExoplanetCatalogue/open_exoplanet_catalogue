@@ -1,7 +1,7 @@
 <system>
 	<name>WASP-48</name>
-	<rightascension>19 24 39</rightascension>
-	<declination>+55 28 23</declination>
+	<rightascension>19 24 38.9615</rightascension>
+	<declination>+55 28 23.3317</declination>
 	<distance errorminus="4.5" errorplus="4.5">460.2</distance>
 	<star>
 		<mass errorminus="0.05" errorplus="0.05">1.19</mass>
@@ -16,6 +16,8 @@
 		<planet>
 			<name>WASP-48 b</name>
 			<name>2MASS J19243895+5528233 b</name>
+			<name>Gaia DR2 2141754578242371584 b</name>
+			<name>TYC 3925-739-1 b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.09" errorplus="0.09">0.98</mass>
 			<radius errorminus="0.10" errorplus="0.10">1.67</radius>
@@ -31,6 +33,8 @@
 			<istransiting>1</istransiting>
 		</planet>
 		<name>WASP-48</name>
+		<name>Gaia DR2 2141754578242371584</name>
+		<name>TYC 3925-739-1</name>
 		<temperature errorminus="150" errorplus="150">5920</temperature>
 	</star>
 </system>

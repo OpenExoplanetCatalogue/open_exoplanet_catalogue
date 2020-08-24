@@ -2,13 +2,15 @@
 	<name>Kepler-737</name>
 	<name>KOI-947</name>
 	<name>KIC 9710326</name>
-	<rightascension>19 27 27</rightascension>
-	<declination>+46 25 45</declination>
+	<distance errorminus="1.1622" errorplus="1.1622">206.334</distance>
+	<rightascension>19 27 27.0849</rightascension>
+	<declination>+46 25 45.2890</declination>
 	<star>
 		<name>Kepler-737</name>
 		<name>KOI-947</name>
 		<name>KIC 9710326</name>
 		<name>2MASS J19272708+4625453</name>
+		<name>Gaia DR2 2126820324123177472</name>
 		<temperature errorminus="38.5" errorplus="40.1">3813.0</temperature>
 		<mass errorminus="0.03" errorplus="0.03">0.51</mass>
 		<radius errorminus="0.02" errorplus="0.03">0.48</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-947 b</name>
 			<name>KOI-947.01</name>
 			<name>KIC 9710326 b</name>
+			<name>Gaia DR2 2126820324123177472 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

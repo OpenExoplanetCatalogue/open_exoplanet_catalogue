@@ -2,13 +2,15 @@
 	<name>Kepler-696</name>
 	<name>KOI-843</name>
 	<name>KIC 5881688</name>
-	<rightascension>19 33 59</rightascension>
-	<declination>+41 08 15</declination>
+	<distance errorminus="59.8061" errorplus="59.8061">1474.71</distance>
+	<rightascension>19 33 59.1851</rightascension>
+	<declination>+41 08 15.3593</declination>
 	<star>
 		<name>Kepler-696</name>
 		<name>KOI-843</name>
 		<name>KIC 5881688</name>
 		<name>2MASS J19335918+4108153</name>
+		<name>Gaia DR2 2077383670001955968</name>
 		<temperature errorminus="160.2" errorplus="106.8">5903.0</temperature>
 		<mass errorminus="0.07" errorplus="0.08">1.06</mass>
 		<radius errorminus="0.12" errorplus="0.29">1.08</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-843 b</name>
 			<name>KOI-843.01</name>
 			<name>KIC 5881688 b</name>
+			<name>Gaia DR2 2077383670001955968 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

@@ -1,7 +1,7 @@
 <system>
 	<name>HIP 11952</name>
-	<rightascension>02 34 11</rightascension>
-	<declination>-12 23 03</declination>
+	<rightascension>02 34 11.0485</rightascension>
+	<declination>-12 23 03.4454</declination>
 	<distance>111</distance>
 	<star>
 		<mass>0.83</mass>
@@ -15,6 +15,9 @@
 		<spectraltype>F2V</spectraltype>
 		<planet>
 			<name>HIP 11952 b</name>
+			<name>Gaia DR2 5171417602530766976 b</name>
+			<name>HD 16031 b</name>
+			<name>TYC 5288-192-1 b</name>
 			<list>Controversial</list>
 			<mass>2.93</mass>
 			<period>290</period>
@@ -28,6 +31,9 @@
 		</planet>
 		<planet>
 			<name>HIP 11952 c</name>
+			<name>Gaia DR2 5171417602530766976 c</name>
+			<name>HD 16031 c</name>
+			<name>TYC 5288-192-1 c</name>
 			<list>Controversial</list>
 			<mass>0.78</mass>
 			<period>6.95</period>
@@ -40,6 +46,9 @@
 			<temperature>1263.2</temperature>
 		</planet>
 		<name>HIP 11952</name>
+		<name>Gaia DR2 5171417602530766976</name>
+		<name>HD 16031</name>
+		<name>TYC 5288-192-1</name>
 		<temperature>6040.0</temperature>
 	</star>
 </system>

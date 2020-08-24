@@ -1,11 +1,14 @@
 <system>
 	<name>WASP-99</name>
-	<rightascension>02 39 35</rightascension>
-	<declination>-50 00 29</declination>
+	<distance errorminus="0.8053" errorplus="0.8053">159.388</distance>
+	<rightascension>02 39 35.4435</rightascension>
+	<declination>-50 00 28.8783</declination>
 	<star>
 		<name>WASP-99</name>
 		<name>1SWASP J023935.44-500028.8</name>
 		<name>2MASS 02393544-5000288</name>
+		<name>TYC 8056-948-1</name>
+		<name>Gaia DR2 4745660479479743488</name>
 		<mass errorminus="0.1" errorplus="0.1">1.48</mass>
 		<radius errorminus="0.06" errorplus="0.11">1.76</radius>
 		<temperature errorminus="100" errorplus="100">6180</temperature>
@@ -21,6 +24,8 @@
 			<name>WASP-99 b</name>
 			<name>1SWASP J023935.44-500028.8 b</name>
 			<name>2MASS 02393544-5000288 b</name>
+			<name>TYC 8056-948-1 b</name>
+			<name>Gaia DR2 4745660479479743488 b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.13" errorplus="0.13">2.78</mass>
 			<radius errorminus="0.05" errorplus="0.08">1.1</radius>

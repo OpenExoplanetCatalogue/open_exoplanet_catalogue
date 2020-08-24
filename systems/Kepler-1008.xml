@@ -2,13 +2,15 @@
 	<name>Kepler-1008</name>
 	<name>KOI-1904</name>
 	<name>KIC 8766650</name>
-	<rightascension>19 46 11</rightascension>
-	<declination>+44 56 31</declination>
+	<distance errorminus="1.2905" errorplus="1.2905">284.892</distance>
+	<rightascension>19 46 11.4123</rightascension>
+	<declination>+44 56 30.8693</declination>
 	<star>
 		<name>Kepler-1008</name>
 		<name>KOI-1904</name>
 		<name>KIC 8766650</name>
 		<name>2MASS J19461140+4456309</name>
+		<name>Gaia DR2 2079733154550359424</name>
 		<temperature errorminus="66.8" errorplus="79.9">5066.0</temperature>
 		<mass errorminus="0.03" errorplus="0.03">0.81</mass>
 		<radius errorminus="0.03" errorplus="0.03">0.78</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-1904 b</name>
 			<name>KOI-1904.01</name>
 			<name>KIC 8766650 b</name>
+			<name>Gaia DR2 2079733154550359424 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

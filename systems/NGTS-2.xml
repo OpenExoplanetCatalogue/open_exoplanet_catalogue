@@ -1,11 +1,13 @@
 <system>
 	<name>NGTS-2</name>
-	<rightascension>14 20 29.5</rightascension>
-	<declination>-31 12 06.68</declination>
+	<rightascension>14 20 29.4890</rightascension>
+	<declination>-31 12 07.4379</declination>
 	<distance errorminus="7.8" errorplus="8.3">360.3</distance>
 	<star>
 		<name>NGTS-2</name>
 		<name>2MASS J14202949-3112074</name>
+		<name>TYC 7282-1298-1</name>
+		<name>Gaia DR2 6220602384081327104</name>
 		<magB errorminus="0.02" errorplus="0.02">11.410</magB>
 		<magV errorminus="0.011" errorplus="0.011">10.961</magV>
 		<magJ errorminus="0.023" errorplus="0.023">10.055</magJ>
@@ -20,6 +22,8 @@
 		<planet>
 			<name>NGTS-2 b</name>
 			<name>2MASS J14202949-3112074 b</name>
+			<name>TYC 7282-1298-1 b</name>
+			<name>Gaia DR2 6220602384081327104 b</name>
 			<list>Confirmed planets</list>
 			<radius errorminus="0.045" errorplus="0.047">1.595</radius>
 			<mass errorminus="0.12" errorplus="0.13">0.74</mass>

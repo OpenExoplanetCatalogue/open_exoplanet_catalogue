@@ -1,10 +1,11 @@
 <system>
 	<name>NGTS-11</name>
-	<rightascension>01 34 05</rightascension>
-	<declination>-14 25 09</declination>
+	<rightascension>01 34 05.1360</rightascension>
+	<declination>-14 25 09.1551</declination>
 	<distance errorminus="1.77" errorplus="1.77">191.46</distance>
 	<star>
 		<name>NGTS-11</name>
+		<name>Gaia DR2 2453680078509741056</name>
 		<radius errorminus="0.01" errorplus="0.01">0.83</radius>
 		<magV errorminus="0.080" errorplus="0.080">12.456</magV>
 		<magJ errorminus="0.022" errorplus="0.022">10.855</magJ>
@@ -16,6 +17,7 @@
 		<spectraltype>K</spectraltype>
 		<planet>
 			<name>NGTS-11 b</name>
+			<name>Gaia DR2 2453680078509741056 b</name>
 			<semimajoraxis errorminus="0.002200" errorplus="0.002100">0.201000</semimajoraxis>
 			<eccentricity errorminus="0.090000" errorplus="0.100000">0.130000</eccentricity>
 			<periastron errorminus="76.0000" errorplus="53.0000">32.0000</periastron>

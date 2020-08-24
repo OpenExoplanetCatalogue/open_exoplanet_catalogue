@@ -1,14 +1,15 @@
 <system>
 	<name>EPIC 204221263</name>
 	<name>K2-38</name>
-	<rightascension>16 00 08.06</rightascension>
-	<declination>-23 11 21.4</declination>
+	<rightascension>16 00 08.0583</rightascension>
+	<declination>-23 11 21.3272</declination>
 	<distance errorminus="2.6" errorplus="2.6">193.7</distance>
 	<star>
 		<name>EPIC 204221263</name>
 		<name>TYC 6779-268-1</name>
 		<name>2MASS J16000805-2311213</name>
 		<name>K2-38</name>
+		<name>Gaia DR2 6237129658760381056</name>
 		<magB errorminus="0.246" errorplus="0.246">12.344</magB>
 		<magV errorminus="0.03" errorplus="0.03">11.39</magV>
 		<magJ errorminus="0.024" errorplus="0.024">9.911</magJ>
@@ -21,6 +22,8 @@
 		<planet>
 			<name>EPIC 204221263 b</name>
 			<name>K2-38 b</name>
+			<name>Gaia DR2 6237129658760381056 b</name>
+			<name>TYC 6779-268-1 b</name>
 			<transittime errorminus="0.0054" errorplus="0.0054" unit="BJD">2456896.8786</transittime>
 			<period errorminus="0.00050" errorplus="0.00050">4.01593</period>
 			<inclination errorminus="3.08" errorplus="1.88">87.28</inclination>
@@ -37,6 +40,8 @@
 		<planet>
 			<name>EPIC 204221263 c</name>
 			<name>K2-38 c</name>
+			<name>Gaia DR2 6237129658760381056 c</name>
+			<name>TYC 6779-268-1 c</name>
 			<transittime errorminus="0.0033" errorplus="0.0033" unit="BJD">2456900.4752</transittime>
 			<period errorminus="0.00090" errorplus="0.00090">10.56103</period>
 			<inclination errorminus="1.67" errorplus="1.00">88.61</inclination>

@@ -2,13 +2,16 @@
 	<name>Kepler-1285</name>
 	<name>KOI-2593</name>
 	<name>KIC 8212002</name>
-	<rightascension>18 47 20</rightascension>
-	<declination>+44 09 21</declination>
+	<distance errorminus="3.3986" errorplus="3.3986">427.46</distance>
+	<rightascension>18 47 20.4822</rightascension>
+	<declination>+44 09 21.3257</declination>
 	<star>
 		<name>Kepler-1285</name>
 		<name>KOI-2593</name>
 		<name>KIC 8212002</name>
 		<name>2MASS J18472048+4409213</name>
+		<name>Gaia DR2 2105291955168605440</name>
+		<name>TYC 3130-1100-1</name>
 		<temperature errorminus="62.5" errorplus="67.2">6170.0</temperature>
 		<mass errorminus="0.04" errorplus="0.05">1.20</mass>
 		<radius errorminus="0.09" errorplus="0.12">1.28</radius>
@@ -18,6 +21,8 @@
 			<name>KOI-2593 b</name>
 			<name>KOI-2593.01</name>
 			<name>KIC 8212002 b</name>
+			<name>Gaia DR2 2105291955168605440 b</name>
+			<name>TYC 3130-1100-1 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

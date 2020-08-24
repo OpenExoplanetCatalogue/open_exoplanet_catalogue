@@ -2,13 +2,15 @@
 	<name>Kepler-680</name>
 	<name>KOI-786</name>
 	<name>KIC 12110942</name>
-	<rightascension>19 26 29</rightascension>
-	<declination>+50 37 06</declination>
+	<distance errorminus="57.4017" errorplus="57.4017">1559.58</distance>
+	<rightascension>19 26 29.3716</rightascension>
+	<declination>+50 37 05.6104</declination>
 	<star>
 		<name>Kepler-680</name>
 		<name>KOI-786</name>
 		<name>KIC 12110942</name>
 		<name>2MASS J19262937+5037056</name>
+		<name>Gaia DR2 2130124528361197952</name>
 		<temperature errorminus="99.2" errorplus="77.4">5890.0</temperature>
 		<mass errorminus="0.06" errorplus="0.10">1.08</mass>
 		<radius errorminus="0.11" errorplus="0.38">1.11</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-786 b</name>
 			<name>KOI-786.01</name>
 			<name>KIC 12110942 b</name>
+			<name>Gaia DR2 2130124528361197952 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

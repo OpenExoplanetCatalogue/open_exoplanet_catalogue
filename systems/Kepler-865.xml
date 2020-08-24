@@ -2,13 +2,15 @@
 	<name>Kepler-865</name>
 	<name>KOI-1499</name>
 	<name>KIC 7841925</name>
-	<rightascension>19 50 54</rightascension>
-	<declination>+43 31 39</declination>
+	<distance errorminus="7.9947" errorplus="7.9947">596.09</distance>
+	<rightascension>19 50 53.8258</rightascension>
+	<declination>+43 31 38.7628</declination>
 	<star>
 		<name>Kepler-865</name>
 		<name>KOI-1499</name>
 		<name>KIC 7841925</name>
 		<name>2MASS J19505382+4331387</name>
+		<name>Gaia DR2 2078648211455026432</name>
 		<temperature errorminus="209.0" errorplus="287.7">5570.0</temperature>
 		<mass errorminus="0.07" errorplus="0.09">0.93</mass>
 		<radius errorminus="0.09" errorplus="0.18">0.92</radius>
@@ -18,6 +20,7 @@
 			<name>KOI-1499 b</name>
 			<name>KOI-1499.01</name>
 			<name>KIC 7841925 b</name>
+			<name>Gaia DR2 2078648211455026432 b</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

@@ -2,8 +2,8 @@
 	<name>Kepler-245</name>
 	<name>KOI-869</name>
 	<name>KIC 6948054</name>
-	<rightascension>19 26 33</rightascension>
-	<declination>+42 26 10</declination>
+	<rightascension>19 26 33.3541</rightascension>
+	<declination>+42 26 10.7780</declination>
 	<distance>919.92</distance>
 	<star>
 		<magJ errorminus="0.028" errorplus="0.028">14.121</magJ>
@@ -13,6 +13,7 @@
 		<name>KOI-869</name>
 		<name>KIC 6948054</name>
 		<name>2MASS J19263335+4226107</name>
+		<name>Gaia DR2 2101768089124657664</name>
 		<temperature errorminus="100" errorplus="100">5100</temperature>
 		<radius errorminus=".053" errorplus="0.053">0.795</radius>
 		<mass errorminus="0.0640" errorplus="0.0640">0.7770</mass>
@@ -22,6 +23,7 @@
 			<name>KOI-869.01</name>
 			<name>KIC 6948054 b</name>
 			<name>KIC 6948054.01</name>
+			<name>Gaia DR2 2101768089124657664 b</name>
 			<radius errorminus="0.01640" errorplus="0.01640">0.23420</radius>
 			<period errorminus=".000019" errorplus="0.000019">7.490190</period>
 			<transittime errorminus="0.0013200" errorplus="0.0013200">2455007.9491900</transittime>
@@ -38,6 +40,7 @@
 			<name>KOI-869.02</name>
 			<name>KIC 6948054 d</name>
 			<name>KIC 6948054.02</name>
+			<name>Gaia DR2 2101768089124657664 d</name>
 			<radius errorminus="0.01914" errorplus="0.01914">0.27612</radius>
 			<period errorminus=".000173" errorplus="0.000173">36.277108</period>
 			<transittime errorminus="0.0026400" errorplus="0.0026400">2455034.2779700</transittime>
@@ -54,6 +57,7 @@
 			<name>KOI-869.03</name>
 			<name>KIC 6948054 c</name>
 			<name>KIC 6948054.03</name>
+			<name>Gaia DR2 2101768089124657664 c</name>
 			<radius errorminus="0.01549" errorplus="0.01549">0.19866</radius>
 			<period errorminus=".000076" errorplus="0.000076">17.460812</period>
 			<transittime errorminus="0.0025600" errorplus="0.0025600">2454970.2644100</transittime>
@@ -69,6 +73,7 @@
 			<name>KOI-869 e</name>
 			<name>KOI-869.04</name>
 			<name>KIC 6948054 e</name>
+			<name>Gaia DR2 2101768089124657664 e</name>
 			<discoverymethod>transit</discoverymethod>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>

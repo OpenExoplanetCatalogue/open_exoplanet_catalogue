@@ -1,10 +1,13 @@
 <system>
 	<name>WASP-111</name>
-	<rightascension>21 55 04.23</rightascension>
-	<declination>-22 36 45.2</declination>
+	<rightascension>21 55 04.2428</rightascension>
+	<declination>-22 36 45.2925</declination>
 	<distance errorminus="20" errorplus="20">210</distance>
 	<star>
 		<name>WASP-111</name>
+		<name>Gaia DR2 6813902839862151936</name>
+		<name>TYC 6953-196-1</name>
+		<name>HD 208180</name>
 		<spectraltype>F5</spectraltype>
 		<age errorminus="0.6" errorplus="0.6">2.6</age>
 		<temperature errorminus="150" errorplus="150">6400</temperature>
@@ -15,6 +18,9 @@
 		<magK>9.0</magK>
 		<planet>
 			<name>WASP-111 b</name>
+			<name>Gaia DR2 6813902839862151936 b</name>
+			<name>TYC 6953-196-1 b</name>
+			<name>HD 208180 b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.15" errorplus="0.15">1.83</mass>
 			<radius errorminus="0.094" errorplus="0.094">1.442</radius>
