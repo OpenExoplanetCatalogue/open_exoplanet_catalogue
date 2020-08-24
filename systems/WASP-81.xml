@@ -5,16 +5,22 @@
 	<distance>410.0</distance>
 	<star>
 		<name>WASP-81</name>
+		<name>Gaia DR2 4244243354278985472</name>
 		<radius>1.283</radius>
 		<mass>1.08</mass>
 		<spectraltype>G1</spectraltype>
 		<magV errorminus="0.01" errorplus="0.01">12.47</magV>
 		<magB errorminus="0.01" errorplus="0.01">13.09</magB>
 		<magR errorminus="0.06" errorplus="0.06">12.37</magR>
+		<magH errorminus="0.024" errorplus="0.024">10.913</magH>
+		<magI errorminus="0.42" errorplus="0.42">11.70</magI>
+		<magJ errorminus="0.027" errorplus="0.027">11.263</magJ>
+		<magK errorminus="0.026" errorplus="0.026">10.892</magK>
 		<temperature>5870.0</temperature>
 		<metallicity>-0.36</metallicity>
 		<planet>
 			<name>WASP-81 b</name>
+			<name>Gaia DR2 4244243354278985472 b</name>
 			<semimajoraxis errorminus="0.00072" errorplus="0.0007">0.03908</semimajoraxis>
 			<eccentricity errorminus="0.066" errorplus="0.066">0.0</eccentricity>
 			<inclination errorminus="0.092" errorplus="0.088">88.69</inclination>
@@ -29,6 +35,7 @@
 		</planet>
 		<planet>
 			<name>WASP-81 c</name>
+			<name>Gaia DR2 4244243354278985472 c</name>
 			<semimajoraxis errorminus="0.045" errorplus="0.044">2.426</semimajoraxis>
 			<periastron errorminus="0.0051" errorplus="0.052">321.86</periastron>
 			<eccentricity errorminus="0.0044" errorplus="0.0044">0.557</eccentricity>

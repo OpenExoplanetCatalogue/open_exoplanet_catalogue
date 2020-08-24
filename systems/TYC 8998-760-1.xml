@@ -7,14 +7,20 @@
 	<star>
 		<name>TYC 8998-760-1</name>
 		<name>2MASSJ13251211–6456207</name>
+		<name>Gaia DR2 5864061893213196032</name>
 		<age errorminus="0.0014" errorplus="0.0014">0.0167</age>
 		<mass errorminus="0.02" errorplus="0.02">1.0</mass>
 		<temperature errorminus="10" errorplus="10">4573</temperature>
 		<magV>11.13</magV>
+		<magB errorminus="0.13" errorplus="0.13">11.96</magB>
+		<magH errorminus="0.042" errorplus="0.042">8.562</magH>
+		<magJ errorminus="0.026" errorplus="0.026">9.072</magJ>
+		<magK errorminus="0.027" errorplus="0.027">8.392</magK>
 		<spectraltype>K3IV</spectraltype>
 		<planet>
 			<name>TYC 8998-760-1 b</name>
 			<name>2MASSJ13251211–6456207 b</name>
+			<name>Gaia DR2 5864061893213196032 b</name>
 			<list>Controversial</list>
 			<mass errorminus="3" errorplus="3">14</mass>
 			<radius errorminus="0.7" errorplus="0.2">3</radius>
@@ -36,6 +42,7 @@ Credit: ESO/Bohn et al.</imagedescription>
 		<planet>
 			<name>TYC 8998-760-1 c</name>
 			<name>2MASSJ13251211–6456207 c</name>
+			<name>Gaia DR2 5864061893213196032 c</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="1" errorplus="1">6</mass>
 			<radius errorminus="0.3" errorplus="0.6">1.1</radius>

@@ -11,6 +11,8 @@
 		<name>GJ 4313</name>
 		<name>BD-03 5577</name>
 		<name>2MASS J23091067-0215385</name>
+		<name>Ebla</name>
+		<name>Gaia DR2 2638410646295370880</name>
 		<mass errorminus="0.03" errorplus="0.03">0.85</mass>
 		<radius errorminus="0.08" errorplus="0.08">0.86</radius>
 		<magV errorminus="0.016" errorplus="0.016">8.628</magV>
@@ -19,12 +21,18 @@
 		<magJ errorminus="0.020" errorplus="0.020">6.824</magJ>
 		<magH errorminus="0.033" errorplus="0.033">6.344</magH>
 		<magK errorminus="0.020" errorplus="0.020">6.223</magK>
+		<magR errorminus="0.10" errorplus="0.10">9.105</magR>
 		<temperature>4820.0</temperature>
 		<metallicity>0.38</metallicity>
 		<spectraltype>K3V</spectraltype>
 		<age>8.5</age>
 		<planet>
 			<name>HD 218566 b</name>
+			<name>GJ 4313 b</name>
+			<name>Ebla b</name>
+			<name>TYC 5242-229-1 b</name>
+			<name>Gaia DR2 2638410646295370880 b</name>
+			<name>HIP 114322 b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.02" errorplus="0.02" type="msini">0.21</mass>
 			<period errorminus="0.4" errorplus="0.4">225.7</period>

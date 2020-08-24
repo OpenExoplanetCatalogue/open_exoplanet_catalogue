@@ -5,15 +5,23 @@
 	<distance errorminus="0.54" errorplus="0.54">92.43</distance>
 	<star>
 		<name>Kepler-1649</name>
+		<name>Gaia DR2 2125699062780742016</name>
+		<name>KIC 6444896</name>
+		<name>KOI-3138</name>
 		<radius>0.23</radius>
 		<magJ errorminus="0.023" errorplus="0.023">13.379</magJ>
 		<magH errorminus="0.020" errorplus="0.020">12.852</magH>
 		<magK errorminus="0.026" errorplus="0.026">12.589</magK>
+		<magB>19.1</magB>
+		<magR>16.6</magR>
 		<mass errorminus="0.01" errorplus="0.01">0.20</mass>
 		<temperature errorminus="61.00" errorplus="61.00">3240.00</temperature>
 		<metallicity errorminus="0.110" errorplus="0.110">-0.150</metallicity>
 		<planet>
 			<name>Kepler-1649 c</name>
+			<name>Gaia DR2 2125699062780742016 c</name>
+			<name>KIC 6444896 c</name>
+			<name>KOI-3138 c</name>
 			<inclination errorminus="0.056" errorplus="0.056">89.339</inclination>
 			<period errorminus="0.00010000" errorplus="0.00010000">19.53527000</period>
 			<description>This planet was discovered by Vanderburg et al. 2020. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Vanderburg et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
@@ -28,6 +36,9 @@
 		</planet>
 		<planet>
 			<name>Kepler-1649 b</name>
+			<name>Gaia DR2 2125699062780742016 b</name>
+			<name>KIC 6444896 b</name>
+			<name>KOI-3138 b</name>
 			<inclination errorminus="0.079" errorplus="0.110">89.150</inclination>
 			<period errorminus="0.00002500" errorplus="0.00002500">8.68909900</period>
 			<description>This planet was discovered by Angelo et al. 2017. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Vanderburg et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>

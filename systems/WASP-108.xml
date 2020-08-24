@@ -5,6 +5,8 @@
 	<distance errorminus="15" errorplus="15">220</distance>
 	<star>
 		<name>WASP-108</name>
+		<name>Gaia DR2 6084610490990144512</name>
+		<name>TYC 8254-1624-1</name>
 		<spectraltype>F9</spectraltype>
 		<age errorminus="1.9" errorplus="1.9">6.4</age>
 		<temperature errorminus="140" errorplus="140">6000</temperature>
@@ -13,8 +15,13 @@
 		<radius errorminus="0.040" errorplus="0.040">1.215</radius>
 		<magV>11.2</magV>
 		<magK>9.8</magK>
+		<magB errorminus="0.11" errorplus="0.11">11.85</magB>
+		<magH errorminus="0.023" errorplus="0.023">9.889</magH>
+		<magJ errorminus="0.023" errorplus="0.023">10.12</magJ>
 		<planet>
 			<name>WASP-108 b</name>
+			<name>Gaia DR2 6084610490990144512 b</name>
+			<name>TYC 8254-1624-1 b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.055" errorplus="0.055">0.892</mass>
 			<radius errorminus="0.047" errorplus="0.047">1.284</radius>

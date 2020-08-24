@@ -5,14 +5,24 @@
 	<distance errorminus="0.7" errorplus="0.7">99.9</distance>
 	<star>
 		<name>HIP 68468</name>
+		<name>TYC 7284-327-1</name>
+		<name>Gaia DR2 6170740906151056896</name>
+		<name>HD 122194</name>
 		<age>5.9</age>
 		<mass>1.05</mass>
 		<magV errorminus="0.02" errorplus="0.02">9.36</magV>
+		<magB errorminus="0.03" errorplus="0.03">10.04</magB>
+		<magH errorminus="0.040" errorplus="0.040">7.925</magH>
+		<magJ errorminus="0.026" errorplus="0.026">8.162</magJ>
+		<magK errorminus="0.027" errorplus="0.027">7.772</magK>
 		<spectraltype>G3V</spectraltype>
 		<temperature>5857.0</temperature>
 		<metallicity>0.065</metallicity>
 		<planet>
 			<name>HIP 68468 b</name>
+			<name>TYC 7284-327-1 b</name>
+			<name>Gaia DR2 6170740906151056896 b</name>
+			<name>HD 122194 b</name>
 			<semimajoraxis>0.029743</semimajoraxis>
 			<eccentricity>0.41</eccentricity>
 			<period>1.8372</period>
@@ -24,6 +34,9 @@
 		</planet>
 		<planet>
 			<name>HIP 68468 c</name>
+			<name>TYC 7284-327-1 c</name>
+			<name>Gaia DR2 6170740906151056896 c</name>
+			<name>HD 122194 c</name>
 			<semimajoraxis>0.665</semimajoraxis>
 			<eccentricity>0.04</eccentricity>
 			<period>194.0</period>

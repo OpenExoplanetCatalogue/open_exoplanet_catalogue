@@ -9,7 +9,12 @@
 		<name>K2-31</name>
 		<name>TYC 6794-471-1</name>
 		<name>2MASS J16214578-2332520</name>
+		<name>Gaia DR2 6050191241556876672</name>
 		<magV>10.8</magV>
+		<magB errorminus="0.10" errorplus="0.10">11.63</magB>
+		<magH errorminus="0.047" errorplus="0.047">8.942</magH>
+		<magJ errorminus="0.024" errorplus="0.024">9.318</magJ>
+		<magK errorminus="0.019" errorplus="0.019">8.866</magK>
 		<mass errorminus="0.06" errorplus="0.06">0.91</mass>
 		<radius errorminus="0.07" errorplus="0.07">0.78</radius>
 		<temperature errorminus="70" errorplus="70">5280</temperature>
@@ -18,6 +23,8 @@
 		<planet>
 			<name>EPIC 204129699 b</name>
 			<name>K2-31 b</name>
+			<name>Gaia DR2 6050191241556876672 b</name>
+			<name>TYC 6794-471-1 b</name>
 			<period errorminus="0.000002" errorplus="0.000002">1.257850</period>
 			<transittime errorminus="0.00024" errorplus="0.00024" unit="BJD">2457191.70889</transittime>
 			<inclination lowerlimit="79.1" upperlimit="80.7" />

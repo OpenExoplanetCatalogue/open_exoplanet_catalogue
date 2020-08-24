@@ -11,11 +11,13 @@
 		<name>2MASS J04130560+1514520</name>
 		<name>Melotte 25 VA 50</name>
 		<name>Melotte 25 HAN 87</name>
+		<name>Gaia DR2 3311804515502788352</name>
 		<magB errorminus="0.289" errorplus="0.289">17.760</magB>
 		<magV errorminus="0.030" errorplus="0.030">15.881</magV>
 		<magJ errorminus="0.021" errorplus="0.021">11.303</magJ>
 		<magH errorminus="0.020" errorplus="0.020">10.732</magH>
 		<magK errorminus="0.019" errorplus="0.019">10.444</magK>
+		<magR errorminus="0.90" errorplus="0.90">13.72</magR>
 		<spectraltype errorminus="0.3">M4.5</spectraltype>
 		<metallicity errorminus="0.03" errorplus="0.03">0.15</metallicity>
 		<temperature errorminus="60" errorplus="60">3180</temperature>
@@ -25,6 +27,7 @@
 		<planet>
 			<name>EPIC 210490365 b</name>
 			<name>K2-25 b</name>
+			<name>Gaia DR2 3311804515502788352 b</name>
 			<period errorminus="0.000037" errorplus="0.000031">3.484552</period>
 			<transittime errorminus="0.00024" errorplus="0.00049" unit="BJD">2457062.57935</transittime>
 			<inclination errorminus="0.70" errorplus="1.16">88.32</inclination>

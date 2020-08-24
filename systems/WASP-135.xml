@@ -6,8 +6,13 @@
 	<star>
 		<name>WASP-135</name>
 		<name>1SWASPJ174908.40+295244.9</name>
+		<name>Gaia DR2 4596481632339898240</name>
 		<magV>13.28</magV>
 		<magB>14.25</magB>
+		<magH errorminus="0.031" errorplus="0.031">11.123</magH>
+		<magJ errorminus="0.019" errorplus="0.019">11.581</magJ>
+		<magK errorminus="0.020" errorplus="0.020">11.037</magK>
+		<magR errorminus="0.07" errorplus="0.07">12.98</magR>
 		<temperature errorminus="60" errorplus="60">5675</temperature>
 		<metallicity errorminus="0.13" errorplus="0.13">0.02</metallicity>
 		<mass errorminus="0.06" errorplus="0.06">0.98</mass>
@@ -16,6 +21,7 @@
 		<age errorminus="0.35" errorplus="1.40">0.60</age>
 		<planet>
 			<name>WASP-135 b</name>
+			<name>Gaia DR2 4596481632339898240 b</name>
 			<period errorminus="0.0000008" errorplus="0.0000008">1.4013794</period>
 			<transittime errorminus="0.0009" errorplus="0.0009" unit="BJD">2455230.9902</transittime>
 			<inclination errorminus="0.6" errorplus="0.6">82.0</inclination>

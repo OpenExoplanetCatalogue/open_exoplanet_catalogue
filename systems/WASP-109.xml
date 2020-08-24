@@ -5,6 +5,8 @@
 	<distance errorminus="30" errorplus="30">330</distance>
 	<star>
 		<name>WASP-109</name>
+		<name>Gaia DR2 6258770762010361728</name>
+		<name>TYC 6184-1397-1</name>
 		<spectraltype>F4</spectraltype>
 		<age errorminus="0.9" errorplus="0.9">2.6</age>
 		<temperature errorminus="140" errorplus="140">6520</temperature>
@@ -13,8 +15,13 @@
 		<radius errorminus="0.044" errorplus="0.044">1.346</radius>
 		<magV>11.4</magV>
 		<magK>10.2</magK>
+		<magB errorminus="0.024" errorplus="0.024">11.938</magB>
+		<magH errorminus="0.024" errorplus="0.024">10.298</magH>
+		<magJ errorminus="0.024" errorplus="0.024">10.473</magJ>
 		<planet>
 			<name>WASP-109 b</name>
+			<name>Gaia DR2 6258770762010361728 b</name>
+			<name>TYC 6184-1397-1 b</name>
 			<list>Confirmed planets</list>
 			<mass errorminus="0.13" errorplus="0.13">0.91</mass>
 			<radius errorminus="0.053" errorplus="0.053">1.443</radius>

@@ -5,14 +5,28 @@
 	<distance>3.8</distance>
 	<star>
 		<name>GJ 273</name>
+		<name>Luyten's star</name>
+		<name>Gaia DR2 3139847906304421632</name>
+		<name>TYC 173-3208-1</name>
+		<name>HIP 36208</name>
 		<radius>0.293</radius>
 		<mass>0.29</mass>
 		<magV>9.872</magV>
+		<magB>11.443</magB>
+		<magH errorminus="0.063" errorplus="0.063">5.219</magH>
+		<magI>7.161</magI>
+		<magJ errorminus="0.032" errorplus="0.032">5.714</magJ>
+		<magK errorminus="0.023" errorplus="0.023">4.857</magK>
+		<magR>8.699</magR>
 		<spectraltype>M3.5</spectraltype>
 		<temperature>3382.0</temperature>
 		<metallicity>0.09</metallicity>
 		<planet>
 			<name>GJ 273 b</name>
+			<name>Luyten's star b</name>
+			<name>Gaia DR2 3139847906304421632 b</name>
+			<name>TYC 173-3208-1 b</name>
+			<name>HIP 36208 b</name>
 			<semimajoraxis errorminus="1.7e-05" errorplus="1.9e-05">0.091101</semimajoraxis>
 			<eccentricity errorminus="0.07" errorplus="0.09">0.1</eccentricity>
 			<period errorminus="0.005200" errorplus="0.005900">18.6498</period>
@@ -25,6 +39,10 @@
 		</planet>
 		<planet>
 			<name>GJ 273 c</name>
+			<name>Luyten's star c</name>
+			<name>Gaia DR2 3139847906304421632 c</name>
+			<name>TYC 173-3208-1 c</name>
+			<name>HIP 36208 c</name>
 			<semimajoraxis errorminus="2e-06" errorplus="2e-06">0.036467</semimajoraxis>
 			<eccentricity errorminus="0.12" errorplus="0.13">0.17</eccentricity>
 			<period errorminus="0.000400" errorplus="0.000400">4.7234</period>

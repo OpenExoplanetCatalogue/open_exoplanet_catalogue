@@ -5,13 +5,23 @@
 	<distance>47.1</distance>
 	<star>
 		<name>HD 984</name>
+		<name>TYC 4670-773-1</name>
+		<name>Gaia DR2 2431157720981843200</name>
+		<name>HIP 1134</name>
 		<age>80.0</age>
 		<mass>1.2</mass>
 		<magV errorminus="0.01" errorplus="0.01">7.32</magV>
+		<magB errorminus="0.02" errorplus="0.02">7.82</magB>
+		<magH errorminus="0.038" errorplus="0.038">6.170</magH>
+		<magJ errorminus="0.023" errorplus="0.023">6.402</magJ>
+		<magK errorminus="0.021" errorplus="0.021">6.073</magK>
 		<spectraltype>F7V</spectraltype>
 		<temperature>6315.0</temperature>
 		<planet>
 			<name>HD 984 b</name>
+			<name>TYC 4670-773-1 b</name>
+			<name>Gaia DR2 2431157720981843200 b</name>
+			<name>HIP 1134 b</name>
 			<semimajoraxis errorminus="4.0" errorplus="10.0">18.0</semimajoraxis>
 			<mass errorminus="40.0" errorplus="40.0">65.0</mass>
 			<discoverymethod>imaging</discoverymethod>
