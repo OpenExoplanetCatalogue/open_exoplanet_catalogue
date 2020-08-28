@@ -321,7 +321,7 @@ try:
 except:
     willskip = []
 
-nummax = 1000
+nummax = 10000
 
 for elt in line:#read all the list of systems and run the parser class and the magnitude function for each one
     if elt in willskip:
@@ -340,7 +340,7 @@ for elt in line:#read all the list of systems and run the parser class and the m
     try:
         code_source = urlopen('http://simbad.u-strasbg.fr/simbad/sim-basic?Ident='+quote_plus(planet)).read()
         print('http://simbad.u-strasbg.fr/simbad/sim-basic?Ident='+quote_plus(planet))
-    except IOError:
+    except:
         print('Lookup failed - sleeping for 10 seconds')
         time.sleep(10)
 
