@@ -1,0 +1,38 @@
+<system>
+	<name>HATS-41</name>
+	<rightascension>06 54 04.1655</rightascension>
+	<declination>-27 03 01.4223</declination>
+	<distance errorminus="110.00" errorplus="170.00">800.00</distance>
+	<star>
+		<name>HATS-41</name>
+		<name>Gaia DR2 2919151080524391552</name>
+		<radius errorminus="0.24" errorplus="0.36">1.71</radius>
+		<magV errorminus="0.030" errorplus="0.030">12.681</magV>
+		<magJ errorminus="0.024" errorplus="0.024">11.765</magJ>
+		<magH errorminus="0.023" errorplus="0.023">11.521</magH>
+		<magK errorminus="0.023" errorplus="0.023">11.498</magK>
+		<mass errorminus="0.08" errorplus="0.12">1.50</mass>
+		<temperature errorminus="91.00" errorplus="91.00">6424.00</temperature>
+		<metallicity errorminus="0.041" errorplus="0.041">0.470</metallicity>
+		<planet>
+			<name>HATS-41 b</name>
+			<name>Gaia DR2 2919151080524391552 b</name>
+			<semimajoraxis errorminus="0.001000" errorplus="0.001500">0.058300</semimajoraxis>
+			<eccentricity errorminus="0.110000" errorplus="0.110000">0.380000</eccentricity>
+			<periastron errorminus="18.0000" errorplus="18.0000">136.0000</periastron>
+			<inclination errorminus="4.200" errorplus="2.300">80.400</inclination>
+			<period errorminus="0.00001300" errorplus="0.00001300">4.19364900</period>
+			<description>This planet was discovered by Bento et al. 2018. This was a ground based discovery. The parameters listed here are those reported by Bento et al. 2018 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="1.60000" errorplus="1.60000">9.70000</mass>
+			<radius errorminus="0.200" errorplus="0.290">1.330</radius>
+			<temperature errorminus="120" errorplus="170">1710</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2018</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>18/04/12</lastupdate>
+			<transittime errorminus="0.001400" errorplus="0.001400">2456795.724000</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

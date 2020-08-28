@@ -1,0 +1,33 @@
+<system>
+	<name>LSPM J2116+0234</name>
+	<rightascension>21 16 27.2842</rightascension>
+	<declination>+02 34 51.3908</declination>
+	<distance errorminus="0.02" errorplus="0.02">17.64</distance>
+	<star>
+		<name>LSPM J2116+0234</name>
+		<name>Gaia DR2 2692455319291894400</name>
+		<radius errorminus="0.01" errorplus="0.01">0.43</radius>
+		<magJ errorminus="0.027" errorplus="0.027">8.219</magJ>
+		<magH errorminus="0.037" errorplus="0.037">7.601</magH>
+		<magK errorminus="0.023" errorplus="0.023">7.324</magK>
+		<mass errorminus="0.03" errorplus="0.03">0.43</mass>
+		<temperature errorminus="51.00" errorplus="51.00">3475.00</temperature>
+		<metallicity errorminus="0.160" errorplus="0.160">-0.050</metallicity>
+		<spectraltype>M3.0V</spectraltype>
+		<planet>
+			<name>LSPM J2116+0234 b</name>
+			<name>Gaia DR2 2692455319291894400 b</name>
+			<semimajoraxis errorminus="0.002100" errorplus="0.002200">0.087600</semimajoraxis>
+			<eccentricity errorminus="0.063000" errorplus="0.062000">0.183000</eccentricity>
+			<period errorminus="0.00870000" errorplus="0.00780000">14.43990000</period>
+			<description>This planet was discovered by Lalitha et al. 2019. This was a ground based discovery. The parameters listed here are those reported by Lalitha et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00346" errorplus="0.00315">0.04185</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/06/13</lastupdate>
+			<transittime errorminus="1.100000" errorplus="1.100000">2457573.600000</transittime>
+			<istransiting>1</istransiting>
+		</planet>
+	</star>
+</system>

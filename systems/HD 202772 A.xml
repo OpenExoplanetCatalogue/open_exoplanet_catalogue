@@ -1,0 +1,44 @@
+<system>
+	<name>HD 202772 A</name>
+	<rightascension>21 18 48</rightascension>
+	<declination>-26 36 59</declination>
+	<distance errorminus="2.40" errorplus="2.50">147.20</distance>
+	<binary>
+		<star>
+			<name>HD 202772 B</name>
+			<temperature errorminus="100" errorplus="100">6156</temperature>
+			<mass errorminus="0.04" errorplus="0.04">1.21</mass>
+			<radius errorminus="0.06" errorplus="0.06">1.16</radius>
+			<age errorminus="0.8" errorplus="1.32">1.27</age>
+		</star>
+		<star>
+			<name>HD 202772 A</name>
+			<radius errorminus="0.09" errorplus="0.08">2.59</radius>
+			<mass errorminus="0.07" errorplus="0.06">1.72</mass>
+			<temperature errorminus="71.00" errorplus="77.00">6272.00</temperature>
+			<metallicity errorminus="0.060" errorplus="0.060">0.300</metallicity>
+			<age errorminus="0.20" errorplus="0.19">1.52</age>
+			<planet>
+				<name>HD 202772 A b</name>
+				<semimajoraxis errorminus="0.000680" errorplus="0.000640">0.052080</semimajoraxis>
+				<eccentricity errorminus="0.027000" errorplus="0.042000">0.038000</eccentricity>
+				<periastron errorminus="52.0000" errorplus="65.0000">98.0000</periastron>
+				<inclination errorminus="0.820" errorplus="1.100">84.510</inclination>
+				<period errorminus="0.00008300" errorplus="0.00008300">3.30895800</period>
+				<description>HD 202772 A b is a transiting hot Jupiter around a bright, mildly evolved star in a visual binary. This planet was discovered by Wang et al. 2019 using the TESS telescope.</description>
+				<mass errorminus="0.06800" errorplus="0.07000">1.01700</mass>
+				<radius errorminus="0.060" errorplus="0.052">1.545</radius>
+				<temperature errorminus="30" errorplus="28">2132</temperature>
+				<discoverymethod>transit</discoverymethod>
+				<istransiting>1</istransiting>
+				<discoveryyear>2019</discoveryyear>
+				<list>Confirmed planets</list>
+				<lastupdate>20/08/28</lastupdate>
+				<transittime errorminus="0.000240" errorplus="0.000240">2458338.610470</transittime>
+				<new>1</new>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+		<semimajoraxis>200</semimajoraxis>
+	</binary>
+</system>

@@ -1,0 +1,37 @@
+<system>
+	<name>HATS-39</name>
+	<rightascension>07 29 40.6108</rightascension>
+	<declination>-29 56 16.4207</declination>
+	<distance errorminus="41.00" errorplus="41.00">773.00</distance>
+	<star>
+		<name>HATS-39</name>
+		<name>Gaia DR2 5605481703444311040</name>
+		<radius errorminus="0.09" errorplus="0.09">1.62</radius>
+		<magV errorminus="0.020" errorplus="0.020">12.746</magV>
+		<magJ errorminus="0.024" errorplus="0.024">11.833</magJ>
+		<magH errorminus="0.024" errorplus="0.024">11.620</magH>
+		<magK errorminus="0.023" errorplus="0.023">11.518</magK>
+		<mass errorminus="0.04" errorplus="0.04">1.38</mass>
+		<temperature errorminus="83.00" errorplus="83.00">6572.00</temperature>
+		<metallicity errorminus="0.044" errorplus="0.044">0.000</metallicity>
+		<planet>
+			<name>HATS-39 b</name>
+			<name>Gaia DR2 5605481703444311040 b</name>
+			<semimajoraxis errorminus="0.000580" errorplus="0.000580">0.060070</semimajoraxis>
+			<eccentricity>0.275000</eccentricity>
+			<inclination errorminus="0.490" errorplus="0.490">84.980</inclination>
+			<period errorminus="0.00000730" errorplus="0.00000730">4.57763480</period>
+			<description>This planet was discovered by Bento et al. 2018. This was a ground based discovery. The parameters listed here are those reported by Bento et al. 2018 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.13000" errorplus="0.13000">0.63000</mass>
+			<radius errorminus="0.120" errorplus="0.120">1.570</radius>
+			<temperature errorminus="43" errorplus="43">1645</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2018</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>18/04/12</lastupdate>
+			<transittime errorminus="0.000550" errorplus="0.000550">2457315.283380</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

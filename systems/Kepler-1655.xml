@@ -1,0 +1,42 @@
+<system>
+	<name>Kepler-1655</name>
+	<rightascension>19 06 45.4642</rightascension>
+	<declination>+39 12 42.9655</declination>
+	<distance errorminus="0.99" errorplus="0.99">214.58</distance>
+	<star>
+		<name>Kepler-1655</name>
+		<name>KIC 4141376</name>
+		<name>Gaia DR2 2100392428275714688</name>
+		<name>KOI-280</name>
+		<name>TYC 3120-325-1</name>
+		<radius errorminus="0.02" errorplus="0.02">1.03</radius>
+		<magJ errorminus="0.021" errorplus="0.021">10.065</magJ>
+		<magH errorminus="0.019" errorplus="0.019">9.849</magH>
+		<magK errorminus="0.017" errorplus="0.017">9.785</magK>
+		<mass errorminus="0.04" errorplus="0.04">1.03</mass>
+		<temperature errorminus="71.00" errorplus="71.00">6148.00</temperature>
+		<metallicity errorminus="0.050" errorplus="0.050">-0.240</metallicity>
+		<spectraltype>G0V</spectraltype>
+		<planet>
+			<name>Kepler-1655 b</name>
+			<name>KIC 4141376 b</name>
+			<name>Gaia DR2 2100392428275714688 b</name>
+			<name>KOI-280 b</name>
+			<name>TYC 3120-325-1 b</name>
+			<semimajoraxis errorminus="0.001000" errorplus="0.001000">0.103000</semimajoraxis>
+			<periastron errorminus="92.0000" errorplus="92.0000">-71.0000</periastron>
+			<inclination errorminus="0.550" errorplus="0.550">87.620</inclination>
+			<period errorminus="0.00000850" errorplus="0.00000850">11.87287870</period>
+			<description>This planet was discovered by Haywood et al. 2018. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Haywood et al. 2018 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00881" errorplus="0.00975">0.01573</mass>
+			<radius errorminus="0.007" errorplus="0.007">0.197</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2018</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>18/04/05</lastupdate>
+			<transittime errorminus="0.000690" errorplus="0.000690">2455013.897950</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

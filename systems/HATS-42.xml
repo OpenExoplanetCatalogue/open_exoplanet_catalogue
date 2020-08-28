@@ -1,0 +1,37 @@
+<system>
+	<name>HATS-42</name>
+	<rightascension>07 13 48.5748</rightascension>
+	<declination>-33 26 14.4018</declination>
+	<distance errorminus="80.00" errorplus="126.00">942.00</distance>
+	<star>
+		<name>HATS-42</name>
+		<name>Gaia DR2 5603100779728361088</name>
+		<radius errorminus="0.12" errorplus="0.20">1.48</radius>
+		<magV errorminus="0.010" errorplus="0.010">13.617</magV>
+		<magJ errorminus="0.024" errorplus="0.024">12.543</magJ>
+		<magH errorminus="0.026" errorplus="0.026">12.281</magH>
+		<magK errorminus="0.029" errorplus="0.029">12.245</magK>
+		<mass errorminus="0.07" errorplus="0.07">1.27</mass>
+		<temperature errorminus="120.00" errorplus="120.00">6060.00</temperature>
+		<metallicity errorminus="0.070" errorplus="0.070">0.220</metallicity>
+		<planet>
+			<name>HATS-42 b</name>
+			<name>Gaia DR2 5603100779728361088 b</name>
+			<semimajoraxis errorminus="0.000650" errorplus="0.000650">0.036890</semimajoraxis>
+			<eccentricity>0.229000</eccentricity>
+			<inclination errorminus="2.100" errorplus="2.100">85.100</inclination>
+			<period errorminus="0.00000210" errorplus="0.00000210">2.29210200</period>
+			<description>This planet was discovered by Bento et al. 2018. This was a ground based discovery. The parameters listed here are those reported by Bento et al. 2018 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.15000" errorplus="0.15000">1.88000</mass>
+			<radius errorminus="0.140" errorplus="0.250">1.400</radius>
+			<temperature errorminus="76" errorplus="105">1856</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2018</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>18/04/12</lastupdate>
+			<transittime errorminus="0.000690" errorplus="0.000690">2456768.607340</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>
