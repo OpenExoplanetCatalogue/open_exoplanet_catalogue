@@ -27,9 +27,9 @@
 				<name>GL 551 b</name>
 				<name>HIP 70890 b</name>
 				<name>Proxima b</name>
-				<period errorminus="0.002" errorplus="0.001">11.186</period>
-				<mass>0.004089</mass>
-				<semimajoraxis errorminus="0.0051" errorplus="0.0041">0.0485</semimajoraxis>
+				<period errorminus="0.00070" errorplus="0.00070">11.18427</period>
+				<mass errorminus="0.000271" errorplus="0.000271">0.003691</mass>
+				<semimajoraxis errorminus="0.0051" errorplus="0.0041">0.04857</semimajoraxis>
 				<eccentricity upperlimit="0.35" />
 				<longitude errorminus="8" errorplus="8">110</longitude>
 				<temperature errorminus="14" errorplus="6">234</temperature>
@@ -40,9 +40,7 @@
 				<lastupdate>16/08/22</lastupdate>
 				<list>Planets in binary systems, S-type</list>
 				<image>eso1629a</image>
-				<imagedescription>This artist's impression shows a view of the surface of the planet Proxima b orbiting the red dwarf star Proxima Centauri, the closest star to the Solar System. The double star Alpha Centauri AB also appears in the image to the upper-right of Proxima itself. Proxima b is a little more massive than the Earth and orbits in the habitable zone around Proxima Centauri, where the temperature is suitable for liquid water to exist on its surface.
-
-Credit: ESO/M. Kornmesser.</imagedescription>
+				<imagedescription>This artist's impression shows a view of the surface of the planet Proxima b orbiting the red dwarf star Proxima Centauri, the closest star to the Solar System. The double star Alpha Centauri AB also appears in the image to the upper-right of Proxima itself. Proxima b is a little more massive than the Earth and orbits in the habitable zone around Proxima Centauri, where the temperature is suitable for liquid water to exist on its surface. Credit: ESO/M. Kornmesser.</imagedescription>
 			</planet>
 			<planet>
 				<name>Proxima Centauri c</name>
@@ -55,9 +53,24 @@ Credit: ESO/M. Kornmesser.</imagedescription>
 				<mass errorminus="0.003146" errorplus="0.003146">0.022024</mass>
 				<description>Proxima c is a Super-Earth about 7 times as heavy as Earth, orbiting at roughly 1.5 astronomical units (220,000,000 km) every 1,900 days (5.2 yr). Due to its large distance from Proxima Centauri, the exoplanet is unlikely to be habitable, with a low equilibrium temperature of around 39 K. The planet was first reported by Italian astrophysicist Mario Damasso and his colleagues in April 2019. Damasso's team had noticed minor movements of Proxima Centauri in the radial velocity data from the ESO's HARPS instrument, indicating a possible additional planet orbiting Proxima Centauri. In 2020, the planet's existence was confirmed by precovery images from Hubble c. 1995, making it the first and closest planet ever to be directly imaged. Due to the differences in how its light shines throughout its orbit, the planet is speculated to have a ring system.</description>
 				<discoverymethod>RV</discoverymethod>
-				<discoveryyear>2020</discoveryyear>
-				<lastupdate>20/07/25</lastupdate>
+				<discoveryyear>2019</discoveryyear>
+				<lastupdate>20/08/29</lastupdate>
 				<list>Confirmed planets</list>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+			<planet>
+				<name>Proxima Centauri d</name>
+				<name>α Centauri C d</name>
+				<name>GL 551 d</name>
+				<name>HIP 70890 d</name>
+				<name>Proxima d</name>
+				<period>5.15</period>
+				<mass>0.0009125</mass>
+				<description>While reanalyzing data for Proxima Centauri b, a group of researchers discovered an additional radial velocity spike with repetition every 5.15 days. They estimated that if were a planetary companion, named Proxima d, it would be no more than 0.29 Earth masses.</description>
+				<discoverymethod>RV</discoverymethod>
+				<discoveryyear>2020</discoveryyear>
+				<lastupdate>20/08/29</lastupdate>
+				<list>Controversial</list>
 				<list>Planets in binary systems, S-type</list>
 			</planet>
 		</star>
@@ -161,14 +174,12 @@ Credit: ESO/M. Kornmesser.</imagedescription>
 					<semimajoraxis>0.04</semimajoraxis>
 					<eccentricity>0.0</eccentricity>
 					<discoverymethod>RV</discoverymethod>
-					<list>Controversial</list>
+					<list>Retracted planet candidate</list>
 					<discoveryyear>2012</discoveryyear>
-					<lastupdate>15/11/17</lastupdate>
+					<lastupdate>20/08/29</lastupdate>
 					<description>Alpha Centauri is one of the brightest stars in the southern sky (in fact, it is a triple system). The planet candidate Alpha Centauri Bb was announced as the nearest exoplanet to Earth and also the lightest exoplanet ever discovered around a Sun-like star. The candidate was detected using the HARPS instrument on the 3.6-metre telescope at ESO's La Silla Observatory in Chile. The planet's existence was challenged by Hatzes (2013) and was shown to be likely an artifact caused by the data sampling by Rajpaul et al. (2015).</description>
 					<image>AlphaCentauriB</image>
-					<imagedescription>This artist's impression shows the planet orbiting the star Alpha Centauri B, a member of the triple star system that is the closest to Earth. Alpha Centauri B is the most brilliant object in the sky and the other dazzling object is Alpha Centauri A. Our own Sun is visible to the upper right. The tiny signal of the planet was found with the HARPS spectrograph on the 3.6-metre telescope at ESO's La Silla Observatory in Chile.
-			
-				Credit:	ESO/L. Calcada</imagedescription>
+					<imagedescription>This artist's impression shows the planet orbiting the star Alpha Centauri B, a member of the triple star system that is the closest to Earth. Alpha Centauri B is the most brilliant object in the sky and the other dazzling object is Alpha Centauri A. Our own Sun is visible to the upper right. The tiny signal of the planet was found with the HARPS spectrograph on the 3.6-metre telescope at ESO's La Silla Observatory in Chile. Credit: ESO/L. Calcada</imagedescription>
 					<list>Planets in binary systems, S-type</list>
 				</planet>
 				<planet>
