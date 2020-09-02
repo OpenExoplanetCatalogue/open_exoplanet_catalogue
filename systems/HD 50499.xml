@@ -1,41 +1,50 @@
 <system>
 	<name>HD 50499</name>
-	<rightascension>06 52 02.0242</rightascension>
-	<declination>-33 54 56.0163</declination>
-	<distance errorminus="0.93" errorplus="0.93">46.02</distance>
+	<name>HIP 32970</name>
+	<rightascension>06 52 02</rightascension>
+	<declination>-33 54 56</declination>
+	<distance errorminus="0.06" errorplus="0.06">46.35</distance>
 	<star>
 		<name>HD 50499</name>
 		<name>HIP 32970</name>
-		<name>TYC 7096-565-1</name>
-		<name>CD-33 3304</name>
-		<name>CPD-33 1302</name>
-		<name>SAO 197294</name>
-		<name>Gaia DR2 5579783574073770112</name>
-		<mass errorminus="0.080" errorplus="0.034">1.280</mass>
-		<radius>1.38</radius>
-		<magB errorminus="0.02" errorplus="0.02">7.82</magB>
-		<magV errorminus="0.01" errorplus="0.01">7.22</magV>
-		<magH errorminus="0.029" errorplus="0.029">5.884</magH>
+		<radius errorminus="0.05" errorplus="0.05">1.35</radius>
+		<magV errorminus="0.004" errorplus="0.004">7.207</magV>
 		<magJ errorminus="0.019" errorplus="0.019">6.152</magJ>
+		<magH errorminus="0.029" errorplus="0.029">5.884</magH>
 		<magK errorminus="0.016" errorplus="0.016">5.836</magK>
-		<temperature>5902</temperature>
-		<metallicity>0.23</metallicity>
-		<spectraltype>G0/2V</spectraltype>
+		<mass errorminus="0.02" errorplus="0.02">1.25</mass>
+		<temperature errorminus="54.00" errorplus="54.00">6102.00</temperature>
+		<metallicity errorminus="0.040" errorplus="0.040">0.260</metallicity>
+		<spectraltype>G1V</spectraltype>
 		<planet>
 			<name>HD 50499 b</name>
-			<name>TYC 7096-565-1 b</name>
 			<name>HIP 32970 b</name>
-			<name>Gaia DR2 5579783574073770112 b</name>
-			<list>Confirmed planets</list>
-			<mass errorminus="0.10" errorplus="0.12" type="msini">1.36</mass>
-			<period errorminus="27" errorplus="27">2453</period>
-			<semimajoraxis>3.87</semimajoraxis>
-			<eccentricity errorminus="0.059" errorplus="0.059">0.334</eccentricity>
-			<periastrontime errorminus="67" errorplus="65">2453612</periastrontime>
-			<periastron errorminus="14" errorplus="15">241</periastron>
+			<semimajoraxis errorminus="0.030000" errorplus="0.030500">3.833000</semimajoraxis>
+			<eccentricity errorminus="0.044000" errorplus="0.044000">0.266000</eccentricity>
+			<periastron errorminus="10.0940" errorplus="9.5790">288.3100</periastron>
+			<period errorminus="21.72000000" errorplus="21.92000000">2447.10000000</period>
+			<description>This planet was discovered by Vogt et al. 2005. This was a ground based discovery. The parameters listed here are those reported by Barbato et al. 2018 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.01700" errorplus="0.01700">1.63600</mass>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>17/12/10</lastupdate>
 			<discoveryyear>2005</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/06/27</lastupdate>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>HD 50499 c</name>
+			<name>HIP 32970 c</name>
+			<semimajoraxis errorminus="0.330000" errorplus="1.730000">9.020000</semimajoraxis>
+			<eccentricity errorminus="0.020000" errorplus="0.140000">0.000000</eccentricity>
+			<periastron errorminus="138.0000" errorplus="138.0000">23.0000</periastron>
+			<period errorminus="405.42750000" errorplus="2622.49500000">8619.90000000</period>
+			<description>This planet was discovered by Rickman et al. 2019. This was a ground based discovery. The parameters listed here are those reported by Rickman et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.18000" errorplus="0.73000">2.93000</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/04/11</lastupdate>
+			<new>1</new>
 		</planet>
 	</star>
 </system>

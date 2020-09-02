@@ -1,38 +1,50 @@
 <system>
 	<name>HD 92788</name>
-	<rightascension>10 42 48.5280</rightascension>
-	<declination>-02 11 01.5220</declination>
-	<distance>32.82</distance>
+	<name>HIP 52409</name>
+	<rightascension>10 42 49</rightascension>
+	<declination>-02 11 02</declination>
+	<distance errorminus="0.06" errorplus="0.06">34.69</distance>
 	<star>
-		<mass>1.13</mass>
-		<radius>0.99</radius>
-		<magV>7.31</magV>
+		<name>HD 92788</name>
+		<name>HIP 52409</name>
+		<radius errorminus="0.02" errorplus="0.02">1.14</radius>
+		<magV>7.310</magV>
 		<magJ errorminus="0.041" errorplus="0.041">6.131</magJ>
 		<magH errorminus="0.036" errorplus="0.036">5.798</magH>
-		<magK errorminus="0.02" errorplus="0.02">5.721</magK>
-		<magB errorminus="0.02" errorplus="0.02">8.01</magB>
-		<metallicity>0.32</metallicity>
-		<spectraltype>G5</spectraltype>
+		<magK errorminus="0.020" errorplus="0.020">5.721</magK>
+		<mass errorminus="0.07" errorplus="0.07">1.15</mass>
+		<temperature errorminus="24.00" errorplus="24.00">5744.00</temperature>
+		<metallicity errorminus="0.020" errorplus="0.020">0.270</metallicity>
+		<spectraltype>G6V</spectraltype>
 		<planet>
 			<name>HD 92788 b</name>
-			<name>TYC 4913-618-1 b</name>
-			<name>Gaia DR2 3802549437248150656 b</name>
 			<name>HIP 52409 b</name>
-			<list>Confirmed planets</list>
-			<mass>3.86</mass>
-			<period>325.81</period>
-			<semimajoraxis>0.97</semimajoraxis>
-			<eccentricity>0.334</eccentricity>
-			<inclination>8</inclination>
+			<semimajoraxis errorminus="0.020000" errorplus="0.020000">0.970000</semimajoraxis>
+			<eccentricity errorminus="0.005000" errorplus="0.004000">0.350000</eccentricity>
+			<periastron errorminus="1.1600" errorplus="1.0100">-82.1700</periastron>
+			<period errorminus="0.03652500" errorplus="0.03652500">325.80300000</period>
+			<description>This planet was discovered by Fischer et al. 2001. This was a ground based discovery. The parameters listed here are those reported by Rickman et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.15000" errorplus="0.16000">3.76000</mass>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/10/19</lastupdate>
 			<discoveryyear>2000</discoveryyear>
-			<temperature>245.9</temperature>
+			<list>Confirmed planets</list>
+			<lastupdate>19/04/11</lastupdate>
+			<new>1</new>
 		</planet>
-		<name>HD 92788</name>
-		<name>TYC 4913-618-1</name>
-		<name>Gaia DR2 3802549437248150656</name>
-		<name>HIP 52409</name>
-		<temperature>5559.0</temperature>
+		<planet>
+			<name>HD 92788 c</name>
+			<name>HIP 52409 c</name>
+			<semimajoraxis errorminus="0.550000" errorplus="2.900000">10.500000</semimajoraxis>
+			<eccentricity errorminus="0.030000" errorplus="0.120000">0.460000</eccentricity>
+			<periastron errorminus="8.9200" errorplus="6.6300">-25.7100</periastron>
+			<period errorminus="905.82000000" errorplus="5055.06000000">11611.29750000</period>
+			<description>This planet was discovered by Rickman et al. 2019. This was a ground based discovery. The parameters listed here are those reported by Rickman et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.25000" errorplus="0.30000">3.67000</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/04/11</lastupdate>
+			<new>1</new>
+		</planet>
 	</star>
 </system>

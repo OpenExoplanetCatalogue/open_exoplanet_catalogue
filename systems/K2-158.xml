@@ -1,39 +1,47 @@
 <system>
 	<name>K2-158</name>
-	<name>EPIC 201132684</name>
-	<rightascension>11 59 45.5948</rightascension>
-	<declination>-05 43 18.1779</declination>
-	<distance errorminus="27.650" errorplus="27.650">179.500</distance>
+	<rightascension>11 59 46</rightascension>
+	<declination>-05 43 18</declination>
+	<distance errorminus="2.10" errorplus="2.10">198.20</distance>
 	<star>
 		<name>K2-158</name>
-		<name>EPIC 201132684</name>
-		<name>TYC 4938-997-1</name>
-		<name>2MASS J11594560-0543182</name>
-		<name>Gaia DR2 3596003497911958528</name>
-		<magB errorminus="0.208" errorplus="0.208">12.336</magB>
+		<radius errorminus="0.02" errorplus="0.02">0.95</radius>
 		<magV errorminus="0.174" errorplus="0.174">11.774</magV>
 		<magJ errorminus="0.024" errorplus="0.024">10.432</magJ>
 		<magH errorminus="0.021" errorplus="0.021">10.051</magH>
 		<magK errorminus="0.021" errorplus="0.021">9.974</magK>
-		<metallicity errorminus="0.08" errorplus="0.08">0.07</metallicity>
-		<mass errorminus="0.030" errorplus="0.027">0.933</mass>
-		<radius errorminus="0.036" errorplus="0.074">0.892</radius>
+		<mass errorminus="0.02" errorplus="0.03">0.92</mass>
+		<temperature errorminus="48.00" errorplus="51.00">5503.00</temperature>
+		<metallicity errorminus="0.070" errorplus="0.070">0.070</metallicity>
+		<planet>
+			<name>K2-158 c</name>
+			<semimajoraxis errorminus="0.000600" errorplus="0.000600">0.062200</semimajoraxis>
+			<period errorminus="0.00233000" errorplus="0.00191000">5.90279000</period>
+			<description>This planet was discovered by Livingston et al. 2018. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Livingston et al. 2018 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.009" errorplus="0.012">0.114</radius>
+			<temperature errorminus="13" errorplus="13">948</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2018</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>18/07/12</lastupdate>
+			<transittime errorminus="0.012000" errorplus="0.013100">2457583.882800</transittime>
+			<new>1</new>
+		</planet>
 		<planet>
 			<name>K2-158 b</name>
-			<name>EPIC 201132684 b</name>
-			<name>EPIC 201132684.01</name>
-			<name>Gaia DR2 3596003497911958528 b</name>
-			<name>TYC 4938-997-1 b</name>
-			<period errorminus="0.0022" errorplus="0.0023">10.0621</period>
-			<transittime errorminus="0.0092" errorplus="0.0096" unit="BJD">2457590.4817</transittime>
-			<inclination errorminus="2.4" errorplus="1.2">88.4</inclination>
-			<radius errorminus="0.0196" errorplus="0.0312">0.2346</radius>
-			<istransiting>1</istransiting>
+			<semimajoraxis errorminus="0.000800" errorplus="0.000800">0.088700</semimajoraxis>
+			<period errorminus="0.00148000" errorplus="0.00134000">10.06049000</period>
+			<description>This planet was discovered by Mayo et al. 2018. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Livingston et al. 2018 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.009" errorplus="0.014">0.236</radius>
+			<temperature errorminus="11" errorplus="11">794</temperature>
 			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
 			<discoveryyear>2018</discoveryyear>
-			<description>This planet was announced as part of a batch of 149 validated planets from the K2 mission.</description>
-			<lastupdate>18/07/24</lastupdate>
 			<list>Confirmed planets</list>
+			<lastupdate>18/07/12</lastupdate>
+			<transittime errorminus="0.006400" errorplus="0.008000">2457590.483400</transittime>
+			<new>1</new>
 		</planet>
 	</star>
 </system>

@@ -1,0 +1,60 @@
+<system>
+	<name>K2-16</name>
+	<rightascension>11 40 23</rightascension>
+	<declination>+04 33 26</declination>
+	<distance errorminus="4.23" errorplus="4.23">338.19</distance>
+	<star>
+		<name>K2-16</name>
+		<magV errorminus="0.040" errorplus="0.040">14.670</magV>
+		<magJ errorminus="0.026" errorplus="0.026">12.764</magJ>
+		<magH errorminus="0.027" errorplus="0.027">12.207</magH>
+		<magK errorminus="0.023" errorplus="0.023">12.087</magK>
+		<mass errorminus="0.04" errorplus="0.03">0.67</mass>
+		<spectraltype>K3V</spectraltype>
+		<planet>
+			<name>K2-16 b</name>
+			<semimajoraxis errorminus="0.001100" errorplus="0.001100">0.066700</semimajoraxis>
+			<inclination errorminus="1.860" errorplus="1.470">87.970</inclination>
+			<period errorminus="0.00087000" errorplus="0.00087000">7.61880000</period>
+			<description>This planet was discovered by Montet et al. 2015. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Sinukoff et al. 2016 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.021" errorplus="0.021">0.180</radius>
+			<temperature errorminus="19" errorplus="19">658</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2015</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>16/07/07</lastupdate>
+			<transittime errorminus="0.003800" errorplus="0.003800">2456811.687100</transittime>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>K2-16 c</name>
+			<semimajoraxis errorminus="0.002100" errorplus="0.002100">0.122900</semimajoraxis>
+			<inclination errorminus="1.680" errorplus="1.680">87.830</inclination>
+			<period errorminus="0.00327000" errorplus="0.00327000">19.07863000</period>
+			<description>This planet was discovered by Montet et al. 2015. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Sinukoff et al. 2016 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.042" errorplus="0.100">0.227</radius>
+			<temperature errorminus="14" errorplus="14">485</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2015</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>16/07/07</lastupdate>
+			<transittime errorminus="0.009100" errorplus="0.009100">2456809.480000</transittime>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>K2-16 d</name>
+			<period errorminus="0.00031000" errorplus="0.00031000">2.71578000</period>
+			<description>This planet was discovered by Heller et al. 2019. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Heller et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.008" errorplus="0.008">0.092</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/06/13</lastupdate>
+			<transittime errorminus="0.002900" errorplus="0.002900">2456850.496300</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

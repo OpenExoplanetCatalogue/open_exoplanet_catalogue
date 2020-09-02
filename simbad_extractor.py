@@ -166,6 +166,8 @@ for line in lines:#read all the list of systems and run the parser class and the
         continue
     if len(binaries):
         continue
+    if root.findall(".//spectraltype"):
+        continue
 
 
     ## One request per star
@@ -336,7 +338,7 @@ for line in lines:#read all the list of systems and run the parser class and the
         skip_list.write(line+"\n")
     print("")
     
-    time.sleep(10)
+    time.sleep(1)
     nummax-=1
     if nummax==0:
         break

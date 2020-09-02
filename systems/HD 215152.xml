@@ -1,56 +1,76 @@
 <system>
 	<name>HD 215152</name>
-	<rightascension>22 43 21.3028</rightascension>
-	<declination>-06 24 02.9557</declination>
-	<distance>21.5</distance>
+	<name>HIP 112190</name>
+	<rightascension>22 43 21</rightascension>
+	<declination>-06 24 03</declination>
+	<distance errorminus="0.05" errorplus="0.05">21.61</distance>
 	<star>
-		<magV>8.13</magV>
-		<magB errorminus="0.02" errorplus="0.02">9.12</magB>
-		<magR>7.83</magR>
-		<magI errorminus="0.03" errorplus="0.03">8.46</magI>
+		<name>HD 215152</name>
+		<name>HIP 112190</name>
+		<radius errorminus="0.02" errorplus="0.02">0.73</radius>
+		<magV>8.110</magV>
 		<magJ errorminus="0.018" errorplus="0.018">6.353</magJ>
 		<magH errorminus="0.029" errorplus="0.029">5.895</magH>
 		<magK errorminus="0.026" errorplus="0.026">5.775</magK>
-		<spectraltype>K0</spectraltype>
+		<mass errorminus="0.01" errorplus="0.01">0.77</mass>
+		<temperature errorminus="76.00" errorplus="76.00">4935.00</temperature>
+		<metallicity errorminus="0.040" errorplus="0.040">-0.100</metallicity>
+		<spectraltype>K3V</spectraltype>
 		<planet>
 			<name>HD 215152 b</name>
-			<name>GJ 4291 b</name>
-			<name>Gaia DR2 2623505219992303104 b</name>
-			<name>TYC 5240-1342-1 b</name>
 			<name>HIP 112190 b</name>
-			<list>Confirmed planets</list>
-			<mass>0.0087</mass>
-			<period>7.2825</period>
-			<semimajoraxis>0.0652</semimajoraxis>
-			<eccentricity>0.34</eccentricity>
-			<description>This planet is part of a large data release by the Euopean HARP team.</description>
+			<semimajoraxis errorminus="0.000759" errorplus="0.000739">0.057638</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<period errorminus="0.00175000" errorplus="0.00157000">5.75999000</period>
+			<description>This planet was discovered by Delisle et al. 2018. This was a ground based discovery. The parameters listed here are those reported by Delisle et al. 2018 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00198" errorplus="0.00158">0.00572</mass>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>11/09/12</lastupdate>
-			<discoveryyear>2011</discoveryyear>
-			<temperature>704.7</temperature>
+			<discoveryyear>2018</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>18/02/22</lastupdate>
+			<new>1</new>
 		</planet>
 		<planet>
 			<name>HD 215152 c</name>
-			<name>GJ 4291 c</name>
-			<name>Gaia DR2 2623505219992303104 c</name>
-			<name>TYC 5240-1342-1 c</name>
 			<name>HIP 112190 c</name>
-			<list>Confirmed planets</list>
-			<mass>0.0097</mass>
-			<period>10.866</period>
-			<semimajoraxis>0.0852</semimajoraxis>
-			<eccentricity>0.38</eccentricity>
-			<description>This planet is part of a large data release by the Euopean HARP team.</description>
+			<semimajoraxis errorminus="0.000893" errorplus="0.000860">0.067393</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<period errorminus="0.00827000" errorplus="0.00451000">7.28243000</period>
+			<description>This planet was discovered by Delisle et al. 2018. This was a ground based discovery. The parameters listed here are those reported by Delisle et al. 2018 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00228" errorplus="0.00194">0.00541</mass>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>11/09/12</lastupdate>
-			<discoveryyear>2011</discoveryyear>
-			<temperature>615.3</temperature>
+			<discoveryyear>2018</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>18/02/22</lastupdate>
+			<new>1</new>
 		</planet>
-		<name>HD 215152</name>
-		<name>GJ 4291</name>
-		<name>Gaia DR2 2623505219992303104</name>
-		<name>TYC 5240-1342-1</name>
-		<name>HIP 112190</name>
-		<temperature>5150.0</temperature>
+		<planet>
+			<name>HD 215152 d</name>
+			<name>HIP 112190 d</name>
+			<semimajoraxis errorminus="0.001160" errorplus="0.001130">0.087990</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<period errorminus="0.00613000" errorplus="0.00564000">10.86499000</period>
+			<description>This planet was discovered by Delisle et al. 2018. This was a ground based discovery. The parameters listed here are those reported by Delisle et al. 2018 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00290" errorplus="0.00255">0.00881</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2018</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>18/02/22</lastupdate>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>HD 215152 e</name>
+			<name>HIP 112190 e</name>
+			<semimajoraxis errorminus="0.002040" errorplus="0.001990">0.154170</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<period errorminus="0.05050000" errorplus="0.04760000">25.19670000</period>
+			<description>This planet was discovered by Delisle et al. 2018. This was a ground based discovery. The parameters listed here are those reported by Delisle et al. 2018 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00466" errorplus="0.00334">0.00905</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2018</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>18/02/22</lastupdate>
+			<new>1</new>
+		</planet>
 	</star>
 </system>

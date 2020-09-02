@@ -1,39 +1,49 @@
 <system>
 	<name>HD 45184</name>
-	<rightascension>06 24 43.8797</rightascension>
-	<declination>-28 46 48.4162</declination>
-	<distance>21.9</distance>
+	<name>HIP 30503</name>
+	<rightascension>06 24 44</rightascension>
+	<declination>-28 46 48</declination>
+	<distance errorminus="0.19" errorplus="0.19">21.88</distance>
 	<star>
-		<magV>6.37</magV>
-		<magB errorminus="0.01" errorplus="0.01">6.99</magB>
-		<magR>6.24</magR>
-		<magI errorminus="0.04" errorplus="0.04">8.94</magI>
+		<name>HD 45184</name>
+		<name>HIP 30503</name>
+		<magV>6.370</magV>
 		<magJ errorminus="0.018" errorplus="0.018">5.219</magJ>
 		<magH errorminus="0.020" errorplus="0.020">4.962</magH>
 		<magK errorminus="0.020" errorplus="0.020">4.871</magK>
+		<mass>1.03</mass>
+		<temperature errorminus="14.00" errorplus="14.00">5869.00</temperature>
+		<metallicity errorminus="0.010" errorplus="0.010">0.040</metallicity>
 		<spectraltype>G1.5V</spectraltype>
 		<planet>
 			<name>HD 45184 b</name>
-			<name>GJ 3394 b</name>
-			<name>Gaia DR2 2898239468873596800 b</name>
-			<name>TYC 6518-2342-1 b</name>
 			<name>HIP 30503 b</name>
-			<list>Confirmed planets</list>
-			<mass>0.04</mass>
-			<period>5.8872</period>
-			<semimajoraxis>0.0638</semimajoraxis>
-			<eccentricity>0.3</eccentricity>
-			<description>This planet is part of a large data release by the Euopean HARP team.</description>
+			<semimajoraxis errorminus="0.002100" errorplus="0.002000">0.064400</semimajoraxis>
+			<eccentricity errorminus="0.050000" errorplus="0.050000">0.070000</eccentricity>
+			<periastron errorminus="47.7600" errorplus="49.4300">145.8000</periastron>
+			<period errorminus="0.00030000" errorplus="0.00030000">5.88540000</period>
+			<description>This planet was discovered by Udry et al. 2019. This was a ground based discovery. The parameters listed here are those reported by Udry et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00320" errorplus="0.00330">0.03840</mass>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>11/09/12</lastupdate>
-			<discoveryyear>2011</discoveryyear>
-			<temperature>1045.8</temperature>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/02/07</lastupdate>
+			<new>1</new>
 		</planet>
-		<name>HD 45184</name>
-		<name>GJ 3394</name>
-		<name>Gaia DR2 2898239468873596800</name>
-		<name>TYC 6518-2342-1</name>
-		<name>HIP 30503</name>
-		<temperature>5940.0</temperature>
+		<planet>
+			<name>HD 45184 c</name>
+			<name>HIP 30503 c</name>
+			<semimajoraxis errorminus="0.003600" errorplus="0.003400">0.110000</semimajoraxis>
+			<eccentricity errorminus="0.050000" errorplus="0.070000">0.070000</eccentricity>
+			<periastron errorminus="80.8700" errorplus="119.8500">-197.9700</periastron>
+			<period errorminus="0.00250000" errorplus="0.00260000">13.13540000</period>
+			<description>This planet was discovered by Udry et al. 2019. This was a ground based discovery. The parameters listed here are those reported by Udry et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00320" errorplus="0.00340">0.02770</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/02/07</lastupdate>
+			<new>1</new>
+		</planet>
 	</star>
 </system>

@@ -1,0 +1,36 @@
+<system>
+	<name>KPS-1</name>
+	<rightascension>11 00 40</rightascension>
+	<declination>+64 57 50</declination>
+	<distance errorminus="2.61" errorplus="2.61">264.69</distance>
+	<star>
+		<name>KPS-1</name>
+		<radius errorminus="0.08" errorplus="0.09">0.91</radius>
+		<magV>13.033</magV>
+		<magJ errorminus="0.016" errorplus="0.016">11.410</magJ>
+		<magH errorminus="0.015" errorplus="0.015">11.029</magH>
+		<magK errorminus="0.015" errorplus="0.015">10.931</magK>
+		<mass errorminus="0.10" errorplus="0.09">0.89</mass>
+		<temperature errorminus="90.00" errorplus="90.00">5165.00</temperature>
+		<metallicity errorminus="0.130" errorplus="0.130">0.220</metallicity>
+		<spectraltype>K1V</spectraltype>
+		<planet>
+			<name>KPS-1 b</name>
+			<semimajoraxis errorminus="0.001000" errorplus="0.001000">0.026900</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination errorminus="0.900" errorplus="0.880">83.200</inclination>
+			<period errorminus="0.00005900" errorplus="0.00005900">1.70629100</period>
+			<description>This planet was discovered by Burdanov et al. 2018. This was a ground based discovery. The parameters listed here are those reported by Burdanov et al. 2018 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.08700" errorplus="0.08600">1.09000</mass>
+			<radius errorminus="0.120" errorplus="0.130">1.030</radius>
+			<temperature errorminus="56" errorplus="56">1459</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2018</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>18/04/26</lastupdate>
+			<transittime errorminus="0.000780" errorplus="0.000790">2457508.370190</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>
