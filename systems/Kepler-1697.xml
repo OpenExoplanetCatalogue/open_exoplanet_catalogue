@@ -1,0 +1,26 @@
+<system>
+	<name>Kepler-1697</name>
+	<rightascension>19 10 39</rightascension>
+	<declination>+43 28 17</declination>
+	<distance errorminus="0.81" errorplus="0.81">249.56</distance>
+	<star>
+		<name>Kepler-1697</name>
+		<radius errorminus="0.02" errorplus="0.05">0.64</radius>
+		<magJ errorminus="0.021" errorplus="0.021">11.760</magJ>
+		<magH errorminus="0.026" errorplus="0.026">11.288</magH>
+		<magK errorminus="0.013" errorplus="0.013">11.175</magK>
+		<temperature errorminus="178.30" errorplus="62.80">5017.00</temperature>
+		<planet>
+			<name>Kepler-1697 b</name>
+			<period>33.49690000</period>
+			<description>This planet was discovered by Armstrong et al. 2020. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Armstrong et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius>0.112</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/09/03</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

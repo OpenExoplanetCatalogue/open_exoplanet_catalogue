@@ -1,0 +1,33 @@
+<system>
+	<name>GJ 480</name>
+	<name>HIP 61706</name>
+	<rightascension>12 38 52</rightascension>
+	<declination>+11 41 46</declination>
+	<distance errorminus="0.02" errorplus="0.02">14.24</distance>
+	<star>
+		<name>GJ 480</name>
+		<name>HIP 61706</name>
+		<magV>11.510</magV>
+		<magI>8.982</magI>
+		<magJ errorminus="0.019" errorplus="0.019">7.581</magJ>
+		<magH errorminus="0.036" errorplus="0.036">6.939</magH>
+		<magK errorminus="0.036" errorplus="0.036">6.691</magK>
+		<mass errorminus="0.02" errorplus="0.02">0.45</mass>
+		<spectraltype>M3.5Ve</spectraltype>
+		<planet>
+			<name>GJ 480 b</name>
+			<name>HIP 61706 b</name>
+			<semimajoraxis errorminus="0.001000" errorplus="0.001000">0.068000</semimajoraxis>
+			<eccentricity errorminus="0.070000" errorplus="0.070000">0.100000</eccentricity>
+			<periastron errorminus="92.0000" errorplus="92.0000">151.0000</periastron>
+			<period errorminus="0.00500000" errorplus="0.00500000">9.56700000</period>
+			<description>This planet was discovered by Feng et al. 2020. This was a ground based discovery. The parameters listed here are those reported by Feng et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00535" errorplus="0.00535">0.04153</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/09/03</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

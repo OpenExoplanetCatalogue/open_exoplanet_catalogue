@@ -1,0 +1,26 @@
+<system>
+	<name>Kepler-1670</name>
+	<rightascension>19 21 18</rightascension>
+	<declination>+43 07 19</declination>
+	<distance errorminus="123.34" errorplus="123.34">2198.41</distance>
+	<star>
+		<name>Kepler-1670</name>
+		<radius errorminus="0.04" errorplus="0.05">1.57</radius>
+		<magJ errorminus="0.035" errorplus="0.035">14.365</magJ>
+		<magH errorminus="0.041" errorplus="0.041">13.946</magH>
+		<magK errorminus="0.059" errorplus="0.059">14.019</magK>
+		<temperature errorminus="86.60" errorplus="81.50">5766.00</temperature>
+		<planet>
+			<name>Kepler-1670 b</name>
+			<period>20.49980000</period>
+			<description>This planet was discovered by Armstrong et al. 2020. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Armstrong et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius>0.299</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/09/03</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

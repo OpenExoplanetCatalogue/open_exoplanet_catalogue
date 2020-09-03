@@ -1,0 +1,26 @@
+<system>
+	<name>Kepler-1686</name>
+	<rightascension>19 26 26</rightascension>
+	<declination>+42 02 09</declination>
+	<distance errorminus="7.80" errorplus="7.80">745.49</distance>
+	<star>
+		<name>Kepler-1686</name>
+		<radius errorminus="0.01" errorplus="0.01">1.14</radius>
+		<magJ errorminus="0.025" errorplus="0.025">12.659</magJ>
+		<magH errorminus="0.020" errorplus="0.020">12.395</magH>
+		<magK errorminus="0.023" errorplus="0.023">12.336</magK>
+		<temperature errorminus="31.33" errorplus="30.00">5774.33</temperature>
+		<planet>
+			<name>Kepler-1686 b</name>
+			<period>9.30987000</period>
+			<description>This planet was discovered by Armstrong et al. 2020. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Armstrong et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius>0.127</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/09/03</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

@@ -1,0 +1,32 @@
+<system>
+	<name>K2-322</name>
+	<rightascension>10 26 29</rightascension>
+	<declination>+04 45 50</declination>
+	<distance errorminus="0.31" errorplus="0.31">123.86</distance>
+	<star>
+		<name>K2-322</name>
+		<radius errorminus="0.01" errorplus="0.01">0.60</radius>
+		<magV errorminus="0.020" errorplus="0.020">13.941</magV>
+		<magJ errorminus="0.023" errorplus="0.023">11.194</magJ>
+		<magH errorminus="0.023" errorplus="0.023">10.569</magH>
+		<magK errorminus="0.021" errorplus="0.021">10.413</magK>
+		<mass errorminus="0.03" errorplus="0.03">0.63</mass>
+		<temperature errorminus="96.00" errorplus="96.00">4141.00</temperature>
+		<planet>
+			<name>K2-322 b</name>
+			<semimajoraxis errorminus="0.022100" errorplus="0.017400">0.059400</semimajoraxis>
+			<inclination errorminus="2.010" errorplus="1.110">88.150</inclination>
+			<period errorminus="0.00300000" errorplus="0.00300000">8.20500000</period>
+			<description>This planet was discovered by Castro González et al. 2020. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Castro González et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.016" errorplus="0.026">0.171</radius>
+			<temperature errorminus="78" errorplus="165">635</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/09/03</lastupdate>
+			<transittime>2457914.022000</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

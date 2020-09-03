@@ -1,0 +1,26 @@
+<system>
+	<name>Kepler-1702</name>
+	<rightascension>18 59 53</rightascension>
+	<declination>+44 34 03</declination>
+	<distance errorminus="26.37" errorplus="26.37">878.23</distance>
+	<star>
+		<name>Kepler-1702</name>
+		<radius errorminus="0.02" errorplus="0.01">0.74</radius>
+		<magJ errorminus="0.028" errorplus="0.028">14.411</magJ>
+		<magH errorminus="0.033" errorplus="0.033">13.957</magH>
+		<magK errorminus="0.066" errorplus="0.066">13.959</magK>
+		<temperature errorminus="49.08" errorplus="71.25">5003.75</temperature>
+		<planet>
+			<name>Kepler-1702 b</name>
+			<period>18.50120000</period>
+			<description>This planet was discovered by Armstrong et al. 2020. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Armstrong et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius>0.143</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/09/03</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

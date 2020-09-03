@@ -1,37 +1,41 @@
 <system>
 	<name>Kepler-598</name>
-	<name>KOI-555</name>
-	<name>KIC 5709725</name>
-	<distance errorminus="11.1431" errorplus="11.1431">694.541</distance>
-	<rightascension>19 32 29.6229</rightascension>
-	<declination>+40 56 05.1843</declination>
+	<rightascension>19 32 30</rightascension>
+	<declination>+40 56 05</declination>
+	<distance errorminus="38.84" errorplus="51.56">686.00</distance>
 	<star>
 		<name>Kepler-598</name>
-		<name>KOI-555</name>
-		<name>KIC 5709725</name>
-		<name>2MASS J19322962+4056051</name>
-		<name>Gaia DR2 2053546910744629504</name>
-		<magH errorminus="0.025" errorplus="0.025">12.977</magH>
-		<magJ errorminus="0.023" errorplus="0.023">13.410</magJ>
-		<magK errorminus="0.029" errorplus="0.029">12.931</magK>
-		<temperature errorminus="72.9" errorplus="88.0">5307.0</temperature>
-		<mass errorminus="0.04" errorplus="0.04">0.87</mass>
 		<radius errorminus="0.04" errorplus="0.06">0.86</radius>
-		<metallicity errorminus="0.10" errorplus="0.10">0.02</metallicity>
+		<magJ errorminus="0.023" errorplus="0.023">13.410</magJ>
+		<magH errorminus="0.025" errorplus="0.025">12.977</magH>
+		<magK errorminus="0.029" errorplus="0.029">12.931</magK>
+		<mass errorminus="0.04" errorplus="0.04">0.87</mass>
+		<temperature errorminus="72.88" errorplus="87.96">5307.00</temperature>
+		<metallicity errorminus="0.105" errorplus="0.103">0.020</metallicity>
 		<planet>
 			<name>Kepler-598 b</name>
-			<name>KOI-555 b</name>
-			<name>KOI-555.01</name>
-			<name>KIC 5709725 b</name>
-			<name>Gaia DR2 2053546910744629504 b</name>
-			<discoverymethod>transit</discoverymethod>
-			<list>Confirmed planets</list>
-			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
-			<istransiting>1</istransiting>
-			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000009710" errorplus="0.000009710">3.701754280</period>
+			<period errorminus="0.00000971" errorplus="0.00000971">3.70175428</period>
+			<description>This planet was discovered by Morton et al. 2016. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Morton et al. 2016 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
 			<radius errorminus="0.008" errorplus="0.011">0.134</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>16/05/10</lastupdate>
+			<transittime errorminus="0.002140" errorplus="0.002140">2455005.450400</transittime>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>Kepler-598 c</name>
+			<period>86.49450000</period>
+			<description>This planet was discovered by Armstrong et al. 2020. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Armstrong et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius>0.270</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/09/03</lastupdate>
+			<new>1</new>
 		</planet>
 	</star>
 </system>

@@ -1,0 +1,26 @@
+<system>
+	<name>Kepler-1683</name>
+	<rightascension>19 53 48</rightascension>
+	<declination>+44 17 02</declination>
+	<distance errorminus="14.36" errorplus="14.36">748.64</distance>
+	<star>
+		<name>Kepler-1683</name>
+		<radius errorminus="0.01" errorplus="0.04">0.95</radius>
+		<magJ errorminus="0.023" errorplus="0.023">13.475</magJ>
+		<magH errorminus="0.022" errorplus="0.022">13.097</magH>
+		<magK errorminus="0.028" errorplus="0.028">13.040</magK>
+		<temperature errorminus="104.59" errorplus="39.37">5047.59</temperature>
+		<planet>
+			<name>Kepler-1683 b</name>
+			<period>15.03370000</period>
+			<description>This planet was discovered by Armstrong et al. 2020. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Armstrong et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius>0.167</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/09/03</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

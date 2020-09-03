@@ -1,0 +1,31 @@
+<system>
+	<name>K2-317</name>
+	<rightascension>15 14 29</rightascension>
+	<declination>-21 01 22</declination>
+	<distance errorminus="3.34" errorplus="3.34">177.08</distance>
+	<star>
+		<name>K2-317</name>
+		<radius errorminus="0.01" errorplus="0.01">0.38</radius>
+		<magJ errorminus="0.035" errorplus="0.035">13.928</magJ>
+		<magH errorminus="0.030" errorplus="0.030">13.293</magH>
+		<magK errorminus="0.036" errorplus="0.036">12.990</magK>
+		<mass errorminus="0.01" errorplus="0.01">0.40</mass>
+		<temperature errorminus="5.00" errorplus="5.00">3387.00</temperature>
+		<planet>
+			<name>K2-317 b</name>
+			<semimajoraxis errorminus="0.010300" errorplus="0.006500">0.054200</semimajoraxis>
+			<inclination errorminus="0.930" errorplus="0.540">89.220</inclination>
+			<period errorminus="0.00700000" errorplus="0.00700000">6.22000000</period>
+			<description>This planet was discovered by Castro González et al. 2020. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Castro González et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.015" errorplus="0.017">0.261</radius>
+			<temperature errorminus="24" errorplus="48">432</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/09/03</lastupdate>
+			<transittime>2457994.132000</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

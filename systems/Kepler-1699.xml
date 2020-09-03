@@ -1,0 +1,24 @@
+<system>
+	<name>Kepler-1699</name>
+	<rightascension>19 28 33</rightascension>
+	<declination>+48 55 02</declination>
+	<star>
+		<name>Kepler-1699</name>
+		<magJ errorminus="0.023" errorplus="0.023">13.449</magJ>
+		<magH errorminus="0.029" errorplus="0.029">13.073</magH>
+		<magK errorminus="0.038" errorplus="0.038">12.996</magK>
+		<temperature errorminus="133.51" errorplus="221.45">5214.40</temperature>
+		<planet>
+			<name>Kepler-1699 b</name>
+			<period>3.49082000</period>
+			<description>This planet was discovered by Armstrong et al. 2020. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Armstrong et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius>0.140</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/09/03</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

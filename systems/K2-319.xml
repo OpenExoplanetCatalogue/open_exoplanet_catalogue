@@ -1,0 +1,32 @@
+<system>
+	<name>K2-319</name>
+	<rightascension>11 07 12</rightascension>
+	<declination>+03 02 24</declination>
+	<distance errorminus="1.37" errorplus="1.37">210.56</distance>
+	<star>
+		<name>K2-319</name>
+		<radius errorminus="0.01" errorplus="0.01">0.90</radius>
+		<magV errorminus="0.070" errorplus="0.070">12.172</magV>
+		<magJ errorminus="0.026" errorplus="0.026">10.705</magJ>
+		<magH errorminus="0.023" errorplus="0.023">10.313</magH>
+		<magK errorminus="0.025" errorplus="0.025">10.223</magK>
+		<mass errorminus="0.06" errorplus="0.06">0.95</mass>
+		<temperature errorminus="115.00" errorplus="115.00">5440.00</temperature>
+		<planet>
+			<name>K2-319 b</name>
+			<semimajoraxis errorminus="0.025800" errorplus="0.011500">0.151600</semimajoraxis>
+			<inclination errorminus="0.660" errorplus="0.400">89.450</inclination>
+			<period errorminus="0.00300000" errorplus="0.00200000">26.68000000</period>
+			<description>This planet was discovered by Castro González et al. 2020. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Castro González et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.009" errorplus="0.010">0.249</radius>
+			<temperature errorminus="31" errorplus="61">641</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/09/03</lastupdate>
+			<transittime>2457915.592000</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

@@ -1,0 +1,26 @@
+<system>
+	<name>Kepler-1675</name>
+	<rightascension>18 55 14</rightascension>
+	<declination>+41 02 28</declination>
+	<distance errorminus="6.02" errorplus="6.02">663.58</distance>
+	<star>
+		<name>Kepler-1675</name>
+		<radius errorminus="0.03" errorplus="0.05">1.13</radius>
+		<magJ errorminus="0.025" errorplus="0.025">12.532</magJ>
+		<magH errorminus="0.032" errorplus="0.032">12.225</magH>
+		<magK errorminus="0.022" errorplus="0.022">12.163</magK>
+		<temperature errorminus="118.10" errorplus="76.30">5747.00</temperature>
+		<planet>
+			<name>Kepler-1675 b</name>
+			<period>63.03820000</period>
+			<description>This planet was discovered by Armstrong et al. 2020. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Armstrong et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius>0.279</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/09/03</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

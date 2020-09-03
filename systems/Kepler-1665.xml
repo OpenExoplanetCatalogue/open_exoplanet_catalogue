@@ -1,0 +1,26 @@
+<system>
+	<name>Kepler-1665</name>
+	<rightascension>19 21 35</rightascension>
+	<declination>+41 02 24</declination>
+	<distance errorminus="1.59" errorplus="1.59">338.80</distance>
+	<star>
+		<name>Kepler-1665</name>
+		<radius errorminus="0.02" errorplus="0.01">0.80</radius>
+		<magJ errorminus="0.019" errorplus="0.019">12.113</magJ>
+		<magH errorminus="0.018" errorplus="0.018">11.607</magH>
+		<magK errorminus="0.019" errorplus="0.019">11.571</magK>
+		<temperature errorminus="40.25" errorplus="49.75">4949.25</temperature>
+		<planet>
+			<name>Kepler-1665 b</name>
+			<period>11.95480000</period>
+			<description>This planet was discovered by Armstrong et al. 2020. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Armstrong et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius>0.253</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/09/03</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

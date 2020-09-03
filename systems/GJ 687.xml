@@ -1,0 +1,48 @@
+<system>
+	<name>GJ 687</name>
+	<name>HIP 86162</name>
+	<rightascension>17 36 26</rightascension>
+	<declination>+68 20 21</declination>
+	<distance>4.55</distance>
+	<star>
+		<name>GJ 687</name>
+		<name>HIP 86162</name>
+		<magV>9.150</magV>
+		<magI errorminus="0.025" errorplus="0.025">6.670</magI>
+		<magJ errorminus="0.021" errorplus="0.021">5.335</magJ>
+		<magH errorminus="0.033" errorplus="0.033">4.766</magH>
+		<magK errorminus="0.021" errorplus="0.021">4.548</magK>
+		<mass errorminus="0.02" errorplus="0.02">0.40</mass>
+		<spectraltype>M3V</spectraltype>
+		<planet>
+			<name>GJ 687 b</name>
+			<name>HIP 86162 b</name>
+			<semimajoraxis errorminus="0.003000" errorplus="0.003000">0.163000</semimajoraxis>
+			<eccentricity errorminus="0.050000" errorplus="0.050000">0.170000</eccentricity>
+			<periastron errorminus="19.0000" errorplus="19.0000">117.0000</periastron>
+			<period errorminus="0.00700000" errorplus="0.00700000">38.14200000</period>
+			<description>This planet was discovered by Burt et al. 2014. This was a ground based discovery. The parameters listed here are those reported by Feng et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00315" errorplus="0.00315">0.05412</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2014</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/09/03</lastupdate>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>GJ 687 c</name>
+			<name>HIP 86162 c</name>
+			<semimajoraxis errorminus="0.023000" errorplus="0.023000">1.165000</semimajoraxis>
+			<eccentricity errorminus="0.220000" errorplus="0.220000">0.400000</eccentricity>
+			<periastron errorminus="63.0000" errorplus="63.0000">176.0000</periastron>
+			<period errorminus="12.19800000" errorplus="12.19800000">727.56200000</period>
+			<description>This planet was discovered by Feng et al. 2020. This was a ground based discovery. The parameters listed here are those reported by Feng et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.01290" errorplus="0.01290">0.05034</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/09/03</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

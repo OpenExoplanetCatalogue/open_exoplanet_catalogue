@@ -1,0 +1,31 @@
+<system>
+	<name>K2-320</name>
+	<rightascension>10 53 01</rightascension>
+	<declination>+05 18 24</declination>
+	<distance errorminus="1.04" errorplus="1.04">109.07</distance>
+	<star>
+		<name>K2-320</name>
+		<radius>0.30</radius>
+		<magJ errorminus="0.032" errorplus="0.032">13.411</magJ>
+		<magH errorminus="0.024" errorplus="0.024">12.823</magH>
+		<magK errorminus="0.023" errorplus="0.023">12.508</magK>
+		<mass errorminus="0.01" errorplus="0.01">0.12</mass>
+		<temperature errorminus="7.00" errorplus="7.00">3157.00</temperature>
+		<planet>
+			<name>K2-320 b</name>
+			<semimajoraxis errorminus="0.003000" errorplus="0.002600">0.014200</semimajoraxis>
+			<inclination errorminus="1.970" errorplus="1.410">87.840</inclination>
+			<period errorminus="0.00100000" errorplus="0.00100000">1.99500000</period>
+			<description>This planet was discovered by Castro González et al. 2020. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Castro González et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.013" errorplus="0.021">0.234</radius>
+			<temperature errorminus="57" errorplus="87">698</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/09/03</lastupdate>
+			<transittime>2457908.602000</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

@@ -1,34 +1,41 @@
 <system>
 	<name>Kepler-1001</name>
-	<name>KOI-1889</name>
-	<name>KIC 11074178</name>
-	<distance errorminus="24.4923" errorplus="24.4923">954.198</distance>
-	<rightascension>19 05 05.7430</rightascension>
-	<declination>+48 37 07.3384</declination>
+	<rightascension>19 05 06</rightascension>
+	<declination>+48 37 07</declination>
+	<distance errorminus="69.51" errorplus="107.00">1009.00</distance>
 	<star>
 		<name>Kepler-1001</name>
-		<name>KOI-1889</name>
-		<name>KIC 11074178</name>
-		<name>2MASS J19050572+4837073</name>
-		<name>Gaia DR2 2131178238457347712</name>
-		<temperature errorminus="68.9" errorplus="66.2">5491.0</temperature>
-		<mass errorminus="0.04" errorplus="0.04">0.90</mass>
 		<radius errorminus="0.06" errorplus="0.09">0.88</radius>
-		<metallicity errorminus="0.17" errorplus="0.14">-0.03</metallicity>
+		<magJ errorminus="0.029" errorplus="0.029">14.109</magJ>
+		<magH errorminus="0.038" errorplus="0.038">13.718</magH>
+		<magK errorminus="0.043" errorplus="0.043">13.662</magK>
+		<mass errorminus="0.04" errorplus="0.04">0.90</mass>
+		<temperature errorminus="68.91" errorplus="66.16">5491.00</temperature>
+		<metallicity errorminus="0.170" errorplus="0.139">-0.030</metallicity>
 		<planet>
 			<name>Kepler-1001 b</name>
-			<name>KOI-1889 b</name>
-			<name>KOI-1889.01</name>
-			<name>KIC 11074178 b</name>
-			<name>Gaia DR2 2131178238457347712 b</name>
-			<discoverymethod>transit</discoverymethod>
-			<list>Confirmed planets</list>
-			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
-			<istransiting>1</istransiting>
-			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000043400" errorplus="0.000043400">14.305119830</period>
+			<period errorminus="0.00004340" errorplus="0.00004340">14.30511983</period>
+			<description>This planet was discovered by Morton et al. 2016. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Morton et al. 2016 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
 			<radius errorminus="0.043" errorplus="0.030">0.281</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>16/05/10</lastupdate>
+			<transittime errorminus="0.002550" errorplus="0.002550">2454968.066260</transittime>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>Kepler-1001 c</name>
+			<period>9.18186000</period>
+			<description>This planet was discovered by Armstrong et al. 2020. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Armstrong et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius>0.141</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/09/03</lastupdate>
+			<new>1</new>
 		</planet>
 	</star>
 </system>

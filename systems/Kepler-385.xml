@@ -1,55 +1,54 @@
 <system>
 	<name>Kepler-385</name>
-	<name>KOI-2433</name>
-	<name>KIC 11968463</name>
-	<rightascension>19 37 21.2383</rightascension>
-	<declination>+50 20 11.5473</declination>
-	<distance>1677.42</distance>
+	<rightascension>19 37 21</rightascension>
+	<declination>+50 20 12</declination>
+	<distance errorminus="49.82" errorplus="49.82">1493.94</distance>
 	<star>
+		<name>Kepler-385</name>
+		<radius errorminus="0.56" errorplus="0.56">1.13</radius>
 		<magJ errorminus="0.027" errorplus="0.027">14.156</magJ>
 		<magH errorminus="0.035" errorplus="0.035">13.851</magH>
 		<magK errorminus="0.056" errorplus="0.056">13.819</magK>
-		<name>Kepler-385</name>
-		<name>KOI-2433</name>
-		<name>KIC 11968463</name>
-		<name>2MASS J19372123+5020115</name>
-		<name>Gaia DR2 2135203000771400320</name>
-		<temperature errorminus="50" errorplus="250">6326</temperature>
-		<radius errorminus=".564" errorplus="0.564">1.126</radius>
-		<mass errorminus="0.3000" errorplus="0.3000">1.1000</mass>
-		<planet>
-			<name>Kepler-385 c</name>
-			<name>KOI-2433 c</name>
-			<name>KOI-2433.01</name>
-			<name>KIC 11968463 c</name>
-			<name>KIC 11968463.01</name>
-			<name>Gaia DR2 2135203000771400320 c</name>
-			<radius errorminus="0.05103" errorplus="0.14216">0.27704</radius>
-			<period errorminus=".000269" errorplus="0.000269">15.163161</period>
-			<transittime errorminus="0.0109000" errorplus="0.0109000">2454977.4574100</transittime>
-			<list>Confirmed planets</list>
-			<description>Kepler-385 c has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-385 c are still unknown, the object is highly unlikely to be a false positive.</description>
-			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/02/26</lastupdate>
-			<discoverymethod>transit</discoverymethod>
-			<istransiting>1</istransiting>
-		</planet>
+		<temperature errorminus="250.00" errorplus="250.00">6326.00</temperature>
 		<planet>
 			<name>Kepler-385 b</name>
-			<name>KOI-2433 b</name>
-			<name>KOI-2433.02</name>
-			<name>KIC 11968463 b</name>
-			<name>KIC 11968463.02</name>
-			<name>Gaia DR2 2135203000771400320 b</name>
-			<radius errorminus="0.03463" errorplus="0.12576">0.24879</radius>
-			<period errorminus=".000128" errorplus="0.000128">10.043686</period>
-			<transittime errorminus="0.0053100" errorplus="0.0053100">2455186.6250300</transittime>
-			<list>Confirmed planets</list>
-			<description>Kepler-385 b has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-385 b are still unknown, the object is highly unlikely to be a false positive.</description>
-			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/02/26</lastupdate>
+			<semimajoraxis>0.097000</semimajoraxis>
+			<period errorminus="0.00012800" errorplus="0.00012800">10.04368600</period>
+			<description>This planet was discovered by Rowe et al. 2014. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Rowe et al. 2014 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.123" errorplus="0.123">0.244</radius>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
+			<discoveryyear>2014</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>14/05/14</lastupdate>
+			<transittime errorminus="0.005310" errorplus="0.005310">2455186.625030</transittime>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>Kepler-385 c</name>
+			<semimajoraxis>0.127000</semimajoraxis>
+			<period errorminus="0.00026900" errorplus="0.00026900">15.16316100</period>
+			<description>This planet was discovered by Rowe et al. 2014. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Rowe et al. 2014 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.139" errorplus="0.139">0.271</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2014</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>14/05/14</lastupdate>
+			<transittime errorminus="0.010900" errorplus="0.010900">2454977.457410</transittime>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>Kepler-385 d</name>
+			<period>56.41590000</period>
+			<description>This planet was discovered by Armstrong et al. 2020. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Armstrong et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius>0.234</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/09/03</lastupdate>
+			<new>1</new>
 		</planet>
 	</star>
 </system>

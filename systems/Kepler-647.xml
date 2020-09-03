@@ -1,34 +1,41 @@
 <system>
 	<name>Kepler-647</name>
-	<name>KOI-691</name>
-	<name>KIC 8480285</name>
-	<distance errorminus="20.6859" errorplus="20.6859">1123.09</distance>
-	<rightascension>18 59 09.1902</rightascension>
-	<declination>+44 35 30.0259</declination>
+	<rightascension>18 59 09</rightascension>
+	<declination>+44 35 30</declination>
+	<distance errorminus="70.74" errorplus="93.38">789.00</distance>
 	<star>
 		<name>Kepler-647</name>
-		<name>KOI-691</name>
-		<name>KIC 8480285</name>
-		<name>2MASS J18590919+4435300</name>
-		<name>Gaia DR2 2106710978002603904</name>
-		<temperature errorminus="72.5" errorplus="81.2">6020.0</temperature>
-		<mass errorminus="0.05" errorplus="0.06">1.03</mass>
 		<radius errorminus="0.09" errorplus="0.13">1.07</radius>
-		<metallicity errorminus="0.12" errorplus="0.12">-0.14</metallicity>
+		<magJ errorminus="0.022" errorplus="0.022">12.898</magJ>
+		<magH errorminus="0.021" errorplus="0.021">12.585</magH>
+		<magK errorminus="0.026" errorplus="0.026">12.611</magK>
+		<mass errorminus="0.05" errorplus="0.06">1.03</mass>
+		<temperature errorminus="72.51" errorplus="81.21">6020.00</temperature>
+		<metallicity errorminus="0.120" errorplus="0.117">-0.140</metallicity>
 		<planet>
 			<name>Kepler-647 b</name>
-			<name>KOI-691 b</name>
-			<name>KOI-691.02</name>
-			<name>KIC 8480285 b</name>
-			<name>Gaia DR2 2106710978002603904 b</name>
-			<discoverymethod>transit</discoverymethod>
-			<list>Confirmed planets</list>
-			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
-			<istransiting>1</istransiting>
-			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000155600" errorplus="0.000155600">16.225464900</period>
+			<period errorminus="0.00015560" errorplus="0.00015560">16.22546490</period>
+			<description>This planet was discovered by Morton et al. 2016. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Morton et al. 2016 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
 			<radius errorminus="0.010" errorplus="0.012">0.104</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>16/05/10</lastupdate>
+			<transittime errorminus="0.007880" errorplus="0.007880">2454977.027820</transittime>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>Kepler-647 c</name>
+			<period>29.66630000</period>
+			<description>This planet was discovered by Armstrong et al. 2020. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Armstrong et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius>0.357</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/09/03</lastupdate>
+			<new>1</new>
 		</planet>
 	</star>
 </system>

@@ -1,34 +1,41 @@
 <system>
 	<name>Kepler-783</name>
-	<name>KOI-1165</name>
-	<name>KIC 10337517</name>
-	<distance errorminus="4.8025" errorplus="4.8025">523.862</distance>
-	<rightascension>19 24 15.1045</rightascension>
-	<declination>+47 29 05.2947</declination>
+	<rightascension>19 24 15</rightascension>
+	<declination>+47 29 05</declination>
+	<distance errorminus="21.95" errorplus="27.74">544.00</distance>
 	<star>
 		<name>Kepler-783</name>
-		<name>KOI-1165</name>
-		<name>KIC 10337517</name>
-		<name>2MASS J19241510+4729052</name>
-		<name>Gaia DR2 2129164173675031936</name>
-		<temperature errorminus="52.9" errorplus="66.8">5521.0</temperature>
-		<mass errorminus="0.04" errorplus="0.03">0.93</mass>
 		<radius errorminus="0.03" errorplus="0.04">0.89</radius>
-		<metallicity errorminus="0.10" errorplus="0.10">0.01</metallicity>
+		<magJ errorminus="0.021" errorplus="0.021">12.705</magJ>
+		<magH errorminus="0.018" errorplus="0.018">12.342</magH>
+		<magK errorminus="0.017" errorplus="0.017">12.287</magK>
+		<mass errorminus="0.04" errorplus="0.03">0.93</mass>
+		<temperature errorminus="52.89" errorplus="66.78">5521.00</temperature>
+		<metallicity errorminus="0.103" errorplus="0.102">0.010</metallicity>
 		<planet>
 			<name>Kepler-783 b</name>
-			<name>KOI-1165 b</name>
-			<name>KOI-1165.02</name>
-			<name>KIC 10337517 b</name>
-			<name>Gaia DR2 2129164173675031936 b</name>
-			<discoverymethod>transit</discoverymethod>
-			<list>Confirmed planets</list>
-			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
-			<istransiting>1</istransiting>
-			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000034290" errorplus="0.000034290">4.292646380</period>
+			<period errorminus="0.00003429" errorplus="0.00003429">4.29264638</period>
+			<description>This planet was discovered by Morton et al. 2016. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Morton et al. 2016 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
 			<radius errorminus="0.007" errorplus="0.004">0.070</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>16/05/10</lastupdate>
+			<transittime errorminus="0.006260" errorplus="0.006260">2454967.797380</transittime>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>Kepler-783 c</name>
+			<period>7.05395000</period>
+			<description>This planet was discovered by Armstrong et al. 2020. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Armstrong et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius>0.208</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/09/03</lastupdate>
+			<new>1</new>
 		</planet>
 	</star>
 </system>

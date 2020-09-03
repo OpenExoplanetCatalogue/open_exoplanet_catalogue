@@ -1,0 +1,44 @@
+<system>
+	<name>GJ 317</name>
+	<rightascension>08 40 59</rightascension>
+	<declination>-23 27 23</declination>
+	<distance errorminus="0.22" errorplus="0.22">15.10</distance>
+	<star>
+		<name>GJ 317</name>
+		<magV errorminus="0.014" errorplus="0.014">11.970</magV>
+		<magI errorminus="0.010" errorplus="0.010">9.370</magI>
+		<magJ errorminus="0.027" errorplus="0.027">7.934</magJ>
+		<magH errorminus="0.071" errorplus="0.071">7.321</magH>
+		<magK errorminus="0.020" errorplus="0.020">7.028</magK>
+		<mass errorminus="0.02" errorplus="0.02">0.42</mass>
+		<spectraltype>M2.5V</spectraltype>
+		<planet>
+			<name>GJ 317 b</name>
+			<semimajoraxis errorminus="0.018000" errorplus="0.018000">1.151000</semimajoraxis>
+			<eccentricity errorminus="0.010000" errorplus="0.010000">0.070000</eccentricity>
+			<periastron errorminus="133.0000" errorplus="133.0000">72.0000</periastron>
+			<period errorminus="0.35500000" errorplus="0.35500000">695.66000000</period>
+			<description>This planet was discovered by Johnson et al. 2007. This was a ground based discovery. The parameters listed here are those reported by Feng et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.05758" errorplus="0.05758">1.75282</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2007</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/09/03</lastupdate>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>GJ 317 c</name>
+			<semimajoraxis errorminus="0.111000" errorplus="0.111000">5.230000</semimajoraxis>
+			<eccentricity errorminus="0.020000" errorplus="0.020000">0.170000</eccentricity>
+			<periastron errorminus="9.0000" errorplus="9.0000">108.0000</periastron>
+			<period errorminus="143.10600000" errorplus="143.10600000">6739.32300000</period>
+			<description>This planet was discovered by Bryan et al. 2016. This was a ground based discovery. The parameters listed here are those reported by Feng et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.06010" errorplus="0.06010">1.64396</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2018</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/09/03</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

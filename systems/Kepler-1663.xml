@@ -1,0 +1,26 @@
+<system>
+	<name>Kepler-1663</name>
+	<rightascension>19 21 36</rightascension>
+	<declination>+48 49 21</declination>
+	<distance errorminus="3.45" errorplus="3.45">341.22</distance>
+	<star>
+		<name>Kepler-1663</name>
+		<radius errorminus="0.07" errorplus="0.02">0.71</radius>
+		<magJ errorminus="0.027" errorplus="0.027">13.418</magJ>
+		<magH errorminus="0.033" errorplus="0.033">12.741</magH>
+		<magK errorminus="0.030" errorplus="0.030">12.552</magK>
+		<temperature errorminus="50.47" errorplus="217.25">3793.47</temperature>
+		<planet>
+			<name>Kepler-1663 b</name>
+			<period>17.60460000</period>
+			<description>This planet was discovered by Armstrong et al. 2020. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Armstrong et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius>0.295</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/09/03</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

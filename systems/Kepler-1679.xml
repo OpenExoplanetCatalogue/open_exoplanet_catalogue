@@ -1,0 +1,26 @@
+<system>
+	<name>Kepler-1679</name>
+	<rightascension>19 35 36</rightascension>
+	<declination>+50 25 37</declination>
+	<distance errorminus="34.85" errorplus="34.85">932.63</distance>
+	<star>
+		<name>Kepler-1679</name>
+		<radius errorminus="0.05" errorplus="0.01">0.90</radius>
+		<magJ errorminus="0.025" errorplus="0.025">13.898</magJ>
+		<magH errorminus="0.025" errorplus="0.025">13.582</magH>
+		<magK errorminus="0.045" errorplus="0.045">13.528</magK>
+		<temperature errorminus="16.92" errorplus="163.00">5358.25</temperature>
+		<planet>
+			<name>Kepler-1679 b</name>
+			<period>9.75376000</period>
+			<description>This planet was discovered by Armstrong et al. 2020. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Armstrong et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius>0.185</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/09/03</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

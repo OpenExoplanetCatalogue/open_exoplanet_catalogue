@@ -1,0 +1,29 @@
+<system>
+	<name>HIP 4845</name>
+	<rightascension>01 02 21</rightascension>
+	<declination>-10 25 26</declination>
+	<distance errorminus="0.02" errorplus="0.02">21.11</distance>
+	<star>
+		<name>HIP 4845</name>
+		<magV errorminus="0.010" errorplus="0.010">9.990</magV>
+		<magJ errorminus="0.030" errorplus="0.030">7.417</magJ>
+		<magH errorminus="0.033" errorplus="0.033">6.718</magH>
+		<magK errorminus="0.017" errorplus="0.017">6.533</magK>
+		<mass errorminus="0.04" errorplus="0.04">0.62</mass>
+		<spectraltype>M0V</spectraltype>
+		<planet>
+			<name>HIP 4845 b</name>
+			<semimajoraxis errorminus="0.007000" errorplus="0.007000">0.176000</semimajoraxis>
+			<eccentricity errorminus="0.140000" errorplus="0.140000">0.250000</eccentricity>
+			<periastron errorminus="72.0000" errorplus="72.0000">108.0000</periastron>
+			<period errorminus="0.04600000" errorplus="0.04600000">34.15000000</period>
+			<description>This planet was discovered by Feng et al. 2020. This was a ground based discovery. The parameters listed here are those reported by Feng et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00944" errorplus="0.00944">0.04531</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/09/03</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

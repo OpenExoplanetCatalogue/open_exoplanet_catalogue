@@ -1,0 +1,30 @@
+<system>
+	<name>HIP 48714</name>
+	<rightascension>09 56 09</rightascension>
+	<declination>+62 47 18</declination>
+	<distance>10.53</distance>
+	<star>
+		<name>HIP 48714</name>
+		<magV errorminus="0.020" errorplus="0.020">8.970</magV>
+		<magI errorminus="0.025" errorplus="0.025">7.110</magI>
+		<magJ errorminus="0.024" errorplus="0.024">6.030</magJ>
+		<magH errorminus="0.044" errorplus="0.044">5.369</magH>
+		<magK errorminus="0.024" errorplus="0.024">5.200</magK>
+		<mass errorminus="0.02" errorplus="0.02">0.58</mass>
+		<spectraltype>M0.5Ve</spectraltype>
+		<planet>
+			<name>HIP 48714 b</name>
+			<semimajoraxis errorminus="0.001000" errorplus="0.001000">0.112000</semimajoraxis>
+			<eccentricity errorminus="0.080000" errorplus="0.080000">0.500000</eccentricity>
+			<periastron errorminus="14.0000" errorplus="14.0000">202.0000</periastron>
+			<period errorminus="0.00200000" errorplus="0.00200000">17.81800000</period>
+			<description>This planet was discovered by Feng et al. 2020. This was a ground based discovery. The parameters listed here are those reported by Feng et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00881" errorplus="0.00881">0.07205</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/09/03</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

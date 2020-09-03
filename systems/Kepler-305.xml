@@ -1,72 +1,66 @@
 <system>
 	<name>Kepler-305</name>
-	<name>KOI-1563</name>
-	<name>KIC 5219234</name>
-	<rightascension>19 56 53.8364</rightascension>
-	<declination>+40 20 35.4418</declination>
-	<distance>1013.46</distance>
+	<rightascension>19 56 54</rightascension>
+	<declination>+40 20 36</declination>
+	<distance errorminus="26.92" errorplus="26.92">889.64</distance>
 	<star>
-		<magJ errorminus="0.029" errorplus="0.029">14.250</magJ>
-		<magH errorminus="0.03" errorplus="0.03">13.74</magH>
-		<magK errorminus="0.04" errorplus="0.04">13.70</magK>
 		<name>Kepler-305</name>
-		<name>KOI-1563</name>
-		<name>KIC 5219234</name>
-		<name>2MASS J19565383+4020354</name>
-		<name>Gaia DR2 2073547954981763328</name>
-		<temperature errorminus="100" errorplus="100">5100</temperature>
-		<radius errorminus=".050" errorplus="0.050">0.794</radius>
-		<mass errorminus="0.3000" errorplus="0.3000">0.9000</mass>
+		<radius errorminus="0.05" errorplus="0.05">0.79</radius>
+		<magJ errorminus="0.029" errorplus="0.029">14.250</magJ>
+		<magH errorminus="0.034" errorplus="0.034">13.737</magH>
+		<magK errorminus="0.042" errorplus="0.042">13.702</magK>
+		<temperature errorminus="100.00" errorplus="100.00">5100.00</temperature>
 		<planet>
 			<name>Kepler-305 b</name>
-			<name>KOI-1563 b</name>
-			<name>KOI-1563.01</name>
-			<name>KIC 5219234 b</name>
-			<name>KIC 5219234.01</name>
-			<name>Gaia DR2 2073547954981763328 b</name>
-			<radius errorminus="0.01823" errorplus="0.01823">0.26246</radius>
-			<period errorminus=".000021" errorplus="0.000021">5.487108</period>
-			<transittime errorminus="0.0017600" errorplus="0.0017600">2455189.0755900</transittime>
-			<list>Confirmed planets</list>
-			<description>Kepler-305 b has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-305 b are still unknown, the object is highly unlikely to be a false positive.</description>
-			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/02/26</lastupdate>
+			<period>5.48700000</period>
+			<description>This planet was discovered by Xie 2014. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Xie 2014 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00600" errorplus="0.00800">0.03300</mass>
+			<radius errorminus="0.032" errorplus="0.080">0.321</radius>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
+			<discoveryyear>2013</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>14/05/14</lastupdate>
+			<new>1</new>
 		</planet>
 		<planet>
 			<name>Kepler-305 c</name>
-			<name>KOI-1563 c</name>
-			<name>KOI-1563.02</name>
-			<name>KIC 5219234 c</name>
-			<name>KIC 5219234.02</name>
-			<name>Gaia DR2 2073547954981763328 c</name>
-			<radius errorminus="0.02734" errorplus="0.02734">0.25608</radius>
-			<period errorminus=".000056" errorplus="0.000056">8.290858</period>
-			<transittime errorminus="0.0032200" errorplus="0.0032200">2455192.6362300</transittime>
-			<list>Confirmed planets</list>
-			<description>Kepler-305 c has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-305 c are still unknown, the object is highly unlikely to be a false positive.</description>
-			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/02/26</lastupdate>
+			<period>8.29100000</period>
+			<description>This planet was discovered by Xie 2014. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Xie 2014 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00700" errorplus="0.00800">0.01900</mass>
+			<radius errorminus="0.029" errorplus="0.073">0.294</radius>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
+			<discoveryyear>2013</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>14/05/14</lastupdate>
+			<new>1</new>
 		</planet>
 		<planet>
 			<name>Kepler-305 d</name>
-			<name>KOI-1563 d</name>
-			<name>KOI-1563.04</name>
-			<name>KIC 5219234 d</name>
-			<name>KIC 5219234.04</name>
-			<name>Gaia DR2 2073547954981763328 d</name>
-			<radius errorminus="0.03736" errorplus="0.03736">0.24696</radius>
-			<period errorminus=".000145" errorplus="0.000145">16.738661</period>
-			<transittime errorminus="0.0035800" errorplus="0.0035800">2455192.4160800</transittime>
-			<list>Confirmed planets</list>
-			<description>Kepler-305 d has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-305 d are still unknown, the object is highly unlikely to be a false positive.</description>
-			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/02/26</lastupdate>
+			<semimajoraxis>0.121000</semimajoraxis>
+			<period errorminus="0.00014500" errorplus="0.00014500">16.73866100</period>
+			<description>This planet was discovered by Rowe et al. 2014. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Rowe et al. 2014 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.037" errorplus="0.037">0.242</radius>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
+			<discoveryyear>2014</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>14/05/14</lastupdate>
+			<transittime errorminus="0.003580" errorplus="0.003580">2455192.416080</transittime>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>Kepler-305 e</name>
+			<period>3.20538000</period>
+			<description>This planet was discovered by Armstrong et al. 2020. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Armstrong et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius>0.160</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/09/03</lastupdate>
+			<new>1</new>
 		</planet>
 	</star>
 </system>
