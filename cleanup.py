@@ -5,6 +5,7 @@ import os
 import hashlib
 import sys
 import datetime
+import time
 import re
 import json
 
@@ -288,15 +289,42 @@ def checkonefile(filename):
     for angle in root.findall(".//*[@unit='rad']"):
         convertunit(angle, 57.2957795130823)
 
+    # For statistics:
+    global discoveryyears
+    for planet in planets:
+        confirmed = False
+        lists = planet.findall("./list")
+        for l in lists:
+            if l.text == "Confirmed planets":
+                confirmed = True
+                break
+        if confirmed:
+            year = planet.findtext("./discoveryyear")
+            if year is not None:
+                year = int(year)
+                if year>=1992:
+                    discoveryyears[year] +=1
+            else:
+                print(filename)
+
     # Check lastupdate tag for correctness
+    global lastUpdateGlobal
     for lastupdate in root.findall(".//planet/lastupdate"):
         la = lastupdate.text.split("/")
         if len(la) != 3 or len(lastupdate.text) != 8:
             print("Date format not following 'yy/mm/dd' convention: " + filename)
             issues += 1
+        else:
+            date = la[0]+la[1]+la[2]
+            if int(la[0])>80:
+                date = "19"+date
+            else:
+                date = "20"+date
+            lastUpdateGlobal = max(int(date),lastUpdateGlobal)
         if int(la[0]) + 2000 - datetime.date.today().year > 0 or int(la[1]) > 12 or int(la[2]) > 31:
             print("Date not valid: " + filename)
             issues += 1
+
 
     # Check that names follow conventions
     if not root.findtext("./name") + ".xml" == os.path.basename(filename):
@@ -338,14 +366,11 @@ def checkonefile(filename):
     checkForBinaryPlanet(root, ".//binary/star/planet", "Planets in binary systems, S-type")
 
     # Check for valid list names
-    global confirmedPlanets
     lists = root.findall(".//list")
     for l in lists:
         if l.text not in validlists:
                 print("Error: Invalid list \"" + l.text + "\" in file \"" + filename + "\".")
                 issues += 1
-        if l.text == "Confirmed planets":
-            confirmedPlanets += 1
 
     # Check if each planet is in at least one list
     oneListOf = ["Confirmed planets", "Controversial", "Kepler Objects of Interest","Solar System", "Retracted planet candidate"]
@@ -380,18 +405,25 @@ def checkonefile(filename):
 
 if __name__=="__main__":
     # Loop over all files and  create new data
-    confirmedPlanets = 0 
+    lastUpdateGlobal = 0
+    discoveryyears = {y:0 for y in range(1992,datetime.date.today().year+1)}
     for filename in glob.glob("systems*/*.xml"):
         fileschecked += 1
         checkonefile(filename)
 
     errorcode = 0
+    confirmedPlanets = sum(discoveryyears.values()) 
     print("Confirmed planets: %d" %confirmedPlanets)
     statistics = {}
     statistics['files'] = fileschecked
     statistics['confirmedPlanets'] = confirmedPlanets
+    print(discoveryyears)
+    lastUpdateGlobal = str(lastUpdateGlobal)
+    dt = datetime.datetime(int(lastUpdateGlobal[0:4]),int(lastUpdateGlobal[4:6]),int(lastUpdateGlobal[6:8]))
+    statistics['lastUpdate'] = time.mktime(dt.timetuple())
+    statistics['discoveryyears'] = discoveryyears
     with open("statistics.json","w") as outfile:
-        json.dump(statistics,outfile)
+        json.dump(statistics,outfile,indent=4)
 
     print("Cleanup script finished. %d files checked." % fileschecked)
     if fileschanged > 0:
