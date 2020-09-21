@@ -6,6 +6,7 @@ import hashlib
 import sys
 import datetime
 import re
+import json
 
 # Regex for valid numbers
 num_format = re.compile(r'''^(?![eE])           # match cannot start with [eE]
@@ -337,11 +338,14 @@ def checkonefile(filename):
     checkForBinaryPlanet(root, ".//binary/star/planet", "Planets in binary systems, S-type")
 
     # Check for valid list names
+    global confirmedPlanets
     lists = root.findall(".//list")
     for l in lists:
         if l.text not in validlists:
                 print("Error: Invalid list \"" + l.text + "\" in file \"" + filename + "\".")
                 issues += 1
+        if l.text == "Confirmed planets":
+            confirmedPlanets += 1
 
     # Check if each planet is in at least one list
     oneListOf = ["Confirmed planets", "Controversial", "Kepler Objects of Interest","Solar System", "Retracted planet candidate"]
@@ -376,11 +380,19 @@ def checkonefile(filename):
 
 if __name__=="__main__":
     # Loop over all files and  create new data
+    confirmedPlanets = 0 
     for filename in glob.glob("systems*/*.xml"):
         fileschecked += 1
         checkonefile(filename)
 
     errorcode = 0
+    print("Confirmed planets: %d" %confirmedPlanets)
+    statistics = {}
+    statistics['files'] = fileschecked
+    statistics['confirmedPlanets'] = confirmedPlanets
+    with open("statistics.json","w") as outfile:
+        json.dump(statistics,outfile)
+
     print("Cleanup script finished. %d files checked." % fileschecked)
     if fileschanged > 0:
         print("%d file(s) modified." % fileschanged)
