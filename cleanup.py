@@ -22,6 +22,8 @@ fileschecked = 0
 issues = 0
 xmlerrors = 0
 fileschanged = 0
+lastUpdateGlobal = 0
+discoveryyears = {y:0 for y in range(1992,datetime.date.today().year+1)}
 
 
 # Calculate md5 hash to check for changes in file.
@@ -405,8 +407,6 @@ def checkonefile(filename):
 
 if __name__=="__main__":
     # Loop over all files and  create new data
-    lastUpdateGlobal = 0
-    discoveryyears = {y:0 for y in range(1992,datetime.date.today().year+1)}
     for filename in glob.glob("systems*/*.xml"):
         fileschecked += 1
         checkonefile(filename)
@@ -417,13 +417,12 @@ if __name__=="__main__":
     statistics = {}
     statistics['files'] = fileschecked
     statistics['confirmedPlanets'] = confirmedPlanets
-    print(discoveryyears)
     lastUpdateGlobal = str(lastUpdateGlobal)
     dt = datetime.datetime(int(lastUpdateGlobal[0:4]),int(lastUpdateGlobal[4:6]),int(lastUpdateGlobal[6:8]))
     statistics['lastUpdate'] = time.mktime(dt.timetuple())
     statistics['discoveryyears'] = discoveryyears
     with open("statistics.json","w") as outfile:
-        json.dump(statistics,outfile,indent=4)
+        json.dump(statistics,outfile, indent=4, sort_keys=True)
 
     print("Cleanup script finished. %d files checked." % fileschecked)
     if fileschanged > 0:
