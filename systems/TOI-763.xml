@@ -1,0 +1,54 @@
+<system>
+	<name>TOI-763</name>
+	<rightascension>12 57 52</rightascension>
+	<declination>-39 45 28</declination>
+	<distance errorminus="0.45" errorplus="0.45">95.39</distance>
+	<star>
+		<name>TOI-763</name>
+		<radius errorminus="0.01" errorplus="0.01">0.90</radius>
+		<magV errorminus="0.041" errorplus="0.041">10.156</magV>
+		<magJ errorminus="0.023" errorplus="0.023">8.858</magJ>
+		<magH errorminus="0.017" errorplus="0.017">8.554</magH>
+		<magK errorminus="0.020" errorplus="0.020">8.490</magK>
+		<mass errorminus="0.03" errorplus="0.03">0.92</mass>
+		<temperature errorminus="60.00" errorplus="60.00">5450.00</temperature>
+		<metallicity errorminus="0.050" errorplus="0.050">0.010</metallicity>
+		<spectraltype>G</spectraltype>
+		<planet>
+			<name>TOI-763 b</name>
+			<semimajoraxis errorminus="0.000600" errorplus="0.000600">0.060000</semimajoraxis>
+			<eccentricity errorminus="0.030000" errorplus="0.040000">0.040000</eccentricity>
+			<periastron errorminus="84.0000" errorplus="57.0000">42.0000</periastron>
+			<period errorminus="0.00130000" errorplus="0.00130000">5.60570000</period>
+			<description>This planet was discovered by Fridlund et al. 2020. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here are those reported by Fridlund et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00245" errorplus="0.00245">0.03080</mass>
+			<radius errorminus="0.010" errorplus="0.010">0.203</radius>
+			<temperature errorminus="16" errorplus="16">1038</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/09/24</lastupdate>
+			<transittime errorminus="0.003100" errorplus="0.003100">2458572.102000</transittime>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>TOI-763 c</name>
+			<semimajoraxis errorminus="0.001000" errorplus="0.001000">0.101100</semimajoraxis>
+			<eccentricity errorminus="0.030000" errorplus="0.040000">0.040000</eccentricity>
+			<periastron errorminus="153.0000" errorplus="78.0000">62.0000</periastron>
+			<period errorminus="0.00770000" errorplus="0.00530000">12.27370000</period>
+			<description>This planet was discovered by Fridlund et al. 2020. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here are those reported by Fridlund et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00321" errorplus="0.00321">0.02932</mass>
+			<radius errorminus="0.011" errorplus="0.011">0.235</radius>
+			<temperature errorminus="12" errorplus="12">800</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/09/24</lastupdate>
+			<transittime errorminus="0.004400" errorplus="0.007100">2458572.966100</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

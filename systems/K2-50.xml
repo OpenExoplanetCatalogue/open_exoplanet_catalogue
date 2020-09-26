@@ -1,0 +1,41 @@
+<system>
+	<name>K2-50</name>
+	<rightascension>11 17 56</rightascension>
+	<declination>+05 59 18</declination>
+	<distance errorminus="3.26" errorplus="3.26">259.33</distance>
+	<star>
+		<name>K2-50</name>
+		<magV errorminus="0.050" errorplus="0.050">14.717</magV>
+		<magJ errorminus="0.027" errorplus="0.027">12.410</magJ>
+		<magH errorminus="0.023" errorplus="0.023">11.765</magH>
+		<magK errorminus="0.023" errorplus="0.023">11.664</magK>
+		<mass errorminus="0.06" errorplus="0.06">0.61</mass>
+		<planet>
+			<name>K2-50 b</name>
+			<semimajoraxis errorminus="0.002200" errorplus="0.002200">0.070500</semimajoraxis>
+			<period errorminus="0.00130000" errorplus="0.00130000">8.75290000</period>
+			<description>This planet was discovered by Crossfield et al. 2016. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Crossfield et al. 2016 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.021" errorplus="0.021">0.142</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>16/07/18</lastupdate>
+			<transittime errorminus="0.007400" errorplus="0.007400">2456810.331100</transittime>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>K2-50 c</name>
+			<period errorminus="0.00051000" errorplus="0.00046000">3.96151000</period>
+			<description>This planet was discovered by Heller et al. 2019. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Heller et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.010" errorplus="0.011">0.089</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/06/13</lastupdate>
+			<transittime errorminus="0.002500" errorplus="0.002500">2456852.655200</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>
