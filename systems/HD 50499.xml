@@ -1,12 +1,14 @@
 <system>
 	<name>HD 50499</name>
 	<name>HIP 32970</name>
-	<rightascension>06 52 02</rightascension>
-	<declination>-33 54 56</declination>
+	<rightascension>06 52 02.0243</rightascension>
+	<declination>-33 54 56.0163</declination>
 	<distance errorminus="0.06" errorplus="0.06">46.35</distance>
 	<star>
 		<name>HD 50499</name>
 		<name>HIP 32970</name>
+		<name>TYC 7096-565-1</name>
+		<name>Gaia DR2 5579783574073770112</name>
 		<radius errorminus="0.05" errorplus="0.05">1.35</radius>
 		<magV errorminus="0.004" errorplus="0.004">7.207</magV>
 		<magJ errorminus="0.019" errorplus="0.019">6.152</magJ>
@@ -19,6 +21,8 @@
 		<planet>
 			<name>HD 50499 b</name>
 			<name>HIP 32970 b</name>
+			<name>TYC 7096-565-1 b</name>
+			<name>Gaia DR2 5579783574073770112 b</name>
 			<semimajoraxis errorminus="0.030000" errorplus="0.030500">3.833000</semimajoraxis>
 			<eccentricity errorminus="0.044000" errorplus="0.044000">0.266000</eccentricity>
 			<periastron errorminus="10.0940" errorplus="9.5790">288.3100</periastron>

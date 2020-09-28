@@ -1,10 +1,11 @@
 <system>
 	<name>K2-32</name>
-	<rightascension>16 49 42</rightascension>
-	<declination>-19 32 34</declination>
+	<rightascension>16 49 42.2601</rightascension>
+	<declination>-19 32 34.1500</declination>
 	<distance errorminus="1.30" errorplus="1.30">158.39</distance>
 	<star>
 		<name>K2-32</name>
+		<name>Gaia DR2 4130539180358512768</name>
 		<radius errorminus="0.04" errorplus="0.04">0.84</radius>
 		<magV errorminus="0.020" errorplus="0.020">12.310</magV>
 		<magJ errorminus="0.024" errorplus="0.024">10.404</magJ>
@@ -14,6 +15,7 @@
 		<spectraltype>G9V</spectraltype>
 		<planet>
 			<name>K2-32 b</name>
+			<name>Gaia DR2 4130539180358512768 b</name>
 			<semimajoraxis errorminus="0.000890" errorplus="0.000890">0.080350</semimajoraxis>
 			<period errorminus="0.00008400" errorplus="0.00008300">8.99182800</period>
 			<description>This planet was discovered by Dai et al. 2016. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Heller et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>

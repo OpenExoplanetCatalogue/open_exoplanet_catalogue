@@ -166,9 +166,8 @@ for line in lines:#read all the list of systems and run the parser class and the
         continue
     if len(binaries):
         continue
-    if root.findall(".//spectraltype"):
-        continue
-
+    #if root.findall(".//spectraltype"):
+    #    continue
 
     ## One request per star
     for stari, star in enumerate(stars):
