@@ -1,0 +1,37 @@
+<system>
+	<name>Wolf 503</name>
+	<name>HIP 67285</name>
+	<rightascension>13 47 23</rightascension>
+	<declination>-06 08 13</declination>
+	<distance errorminus="0.10" errorplus="0.10">44.58</distance>
+	<star>
+		<name>Wolf 503</name>
+		<name>HIP 67285</name>
+		<radius errorminus="0.02" errorplus="0.03">0.69</radius>
+		<magV errorminus="0.020" errorplus="0.020">10.260</magV>
+		<magI errorminus="0.025" errorplus="0.025">9.090</magI>
+		<magJ errorminus="0.019" errorplus="0.019">8.324</magJ>
+		<magH errorminus="0.051" errorplus="0.051">7.774</magH>
+		<magK errorminus="0.022" errorplus="0.022">7.617</magK>
+		<mass errorminus="0.02" errorplus="0.02">0.69</mass>
+		<temperature errorminus="60.00" errorplus="60.00">4716.00</temperature>
+		<metallicity errorminus="0.080" errorplus="0.080">-0.470</metallicity>
+		<spectraltype>K3.5V</spectraltype>
+		<planet>
+			<name>Wolf 503 b</name>
+			<name>HIP 67285 b</name>
+			<semimajoraxis errorminus="0.002000" errorplus="0.002000">0.057100</semimajoraxis>
+			<period errorminus="0.00011000" errorplus="0.00008000">6.00118000</period>
+			<description>This planet was discovered by Peterson et al. 2018. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Peterson et al. 2018 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.007" errorplus="0.007">0.181</radius>
+			<temperature errorminus="9" errorplus="9">805</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2018</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>18/09/06</lastupdate>
+			<transittime errorminus="0.000380" errorplus="0.000530">2458185.360870</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

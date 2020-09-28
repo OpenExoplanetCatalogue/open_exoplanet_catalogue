@@ -72,13 +72,16 @@
 			<name>KOI-244 d</name>
 			<name>Gaia DR2 2100451630105041152 d</name>
 			<name>TYC 3124-1264-1 d</name>
-			<period errorminus="2" errorplus="2">123</period>
-			<mass errorminus="0.043096" errorplus="0.043096">0.282798</mass>
-			<list>Confirmed planets</list>
+			<eccentricity errorminus="0.090000" errorplus="0.130000">0.130000</eccentricity>
+			<period errorminus="0.71000000" errorplus="0.80000000">122.40000000</period>
 			<description>This planet has been discovered during a radial velocity follow up of stars observed by Kepler which host planet candidates. Although other planets in this system are transiting, this one is not.</description>
-			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/02/24</lastupdate>
+			<mass errorminus="0.03100" errorplus="0.03100">0.22600</mass>
 			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2014</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/06/13</lastupdate>
+			<transittime errorminus="7.200000" errorplus="6.800000">2455715.000000</transittime>
+			<istransiting>0</istransiting>
 		</planet>
 	</star>
 </system>

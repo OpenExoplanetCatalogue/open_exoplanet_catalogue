@@ -85,6 +85,26 @@ Credit: NASA/JPL-Caltech/T. Pyle</imagedescription>
 			<temperature>245.3</temperature>
 			<istransiting>1</istransiting>
 		</planet>
+		<planet>
+			<name>Kepler-47 (AB) d</name>
+			<name>Kepler-47 d</name>
+			<semimajoraxis errorminus="0.003300" errorplus="0.003100">0.699200</semimajoraxis>
+			<eccentricity errorminus="0.017000" errorplus="0.025000">0.024000</eccentricity>
+			<periastron errorminus="166.0000" errorplus="96.0000">352.0000</periastron>
+			<inclination errorminus="0.012" errorplus="0.009">90.395</inclination>
+			<period errorminus="0.05100000" errorplus="0.06900000">187.36600000</period>
+			<description>This planet was discovered by Orosz et al. 2019. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Orosz et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.03672" errorplus="0.07501">0.05984</mass>
+			<radius errorminus="0.044" errorplus="0.059">0.628</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>19/04/25</lastupdate>
+			<transittime errorminus="0.047000" errorplus="0.044000">2455045.428000</transittime>
+			<new>1</new>
+			<list>Planets in binary systems, P-type</list>
+		</planet>
 	</binary>
 	<videolink>http://youtu.be/T_m9-foLW2E</videolink>
 </system>
