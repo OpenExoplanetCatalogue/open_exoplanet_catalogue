@@ -1,0 +1,30 @@
+<system>
+	<name>K2-88</name>
+	<rightascension>03 39 00</rightascension>
+	<declination>+19 07 13</declination>
+	<distance errorminus="0.82" errorplus="0.82">110.91</distance>
+	<star>
+		<name>K2-88</name>
+		<radius errorminus="0.05" errorplus="0.05">0.26</radius>
+		<magV errorminus="0.053" errorplus="0.053">15.476</magV>
+		<magJ errorminus="0.021" errorplus="0.021">12.037</magJ>
+		<magH errorminus="0.019" errorplus="0.019">11.456</magH>
+		<magK errorminus="0.016" errorplus="0.016">11.240</magK>
+		<mass errorminus="0.07" errorplus="0.07">0.26</mass>
+		<temperature errorminus="93.00" errorplus="93.00">3537.00</temperature>
+		<planet>
+			<name>K2-88 b</name>
+			<semimajoraxis errorminus="0.003000" errorplus="0.003000">0.034500</semimajoraxis>
+			<period errorminus="0.00018000" errorplus="0.00018000">4.61220000</period>
+			<description>This planet was discovered by Crossfield et al. 2016. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Crossfield et al. 2016 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.022" errorplus="0.022">0.110</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>16/07/18</lastupdate>
+			<transittime errorminus="0.001500" errorplus="0.001500">2457066.219400</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

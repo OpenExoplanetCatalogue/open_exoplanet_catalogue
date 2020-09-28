@@ -1,0 +1,30 @@
+<system>
+	<name>K2-54</name>
+	<rightascension>22 32 13</rightascension>
+	<declination>-17 32 38</declination>
+	<distance errorminus="1.02" errorplus="1.02">175.84</distance>
+	<star>
+		<name>K2-54</name>
+		<radius errorminus="0.05" errorplus="0.05">0.38</radius>
+		<magV errorminus="0.010" errorplus="0.010">14.042</magV>
+		<magJ errorminus="0.037" errorplus="0.037">11.850</magJ>
+		<magH errorminus="0.044" errorplus="0.044">11.231</magH>
+		<magK errorminus="0.043" errorplus="0.043">11.075</magK>
+		<mass errorminus="0.07" errorplus="0.07">0.42</mass>
+		<temperature errorminus="113.00" errorplus="113.00">3798.00</temperature>
+		<planet>
+			<name>K2-54 b</name>
+			<semimajoraxis errorminus="0.003700" errorplus="0.003700">0.067100</semimajoraxis>
+			<period errorminus="0.00140000" errorplus="0.00140000">9.78430000</period>
+			<description>This planet was discovered by Crossfield et al. 2016. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Crossfield et al. 2016 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.017" errorplus="0.017">0.103</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>16/07/18</lastupdate>
+			<transittime errorminus="0.005300" errorplus="0.005300">2456982.936000</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

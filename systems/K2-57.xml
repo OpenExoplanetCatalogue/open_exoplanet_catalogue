@@ -1,0 +1,30 @@
+<system>
+	<name>K2-57</name>
+	<rightascension>22 50 46</rightascension>
+	<declination>-14 04 12</declination>
+	<distance errorminus="2.06" errorplus="2.06">266.23</distance>
+	<star>
+		<name>K2-57</name>
+		<radius errorminus="0.05" errorplus="0.05">0.62</radius>
+		<magV errorminus="0.050" errorplus="0.050">14.501</magV>
+		<magJ errorminus="0.024" errorplus="0.024">12.350</magJ>
+		<magH errorminus="0.021" errorplus="0.021">11.761</magH>
+		<magK errorminus="0.023" errorplus="0.023">11.645</magK>
+		<mass errorminus="0.06" errorplus="0.06">0.68</mass>
+		<temperature errorminus="61.00" errorplus="61.00">4434.00</temperature>
+		<planet>
+			<name>K2-57 b</name>
+			<semimajoraxis errorminus="0.002000" errorplus="0.002000">0.074600</semimajoraxis>
+			<period errorminus="0.00130000" errorplus="0.00130000">9.00630000</period>
+			<description>This planet was discovered by Crossfield et al. 2016. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Crossfield et al. 2016 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.022" errorplus="0.022">0.187</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>16/07/18</lastupdate>
+			<transittime errorminus="0.004800" errorplus="0.004800">2456984.336000</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

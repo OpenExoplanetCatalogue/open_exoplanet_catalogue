@@ -1,0 +1,31 @@
+<system>
+	<name>K2-147</name>
+	<rightascension>19 35 20</rightascension>
+	<declination>-28 29 52</declination>
+	<distance errorminus="13.00" errorplus="13.00">88.00</distance>
+	<star>
+		<name>K2-147</name>
+		<radius errorminus="0.06" errorplus="0.06">0.55</radius>
+		<magV errorminus="0.030" errorplus="0.030">14.019</magV>
+		<magJ errorminus="0.022" errorplus="0.022">10.835</magJ>
+		<magH errorminus="0.021" errorplus="0.021">10.186</magH>
+		<magK errorminus="0.021" errorplus="0.021">9.997</magK>
+		<mass errorminus="0.06" errorplus="0.06">0.58</mass>
+		<temperature errorminus="70.00" errorplus="70.00">3672.00</temperature>
+		<metallicity errorminus="0.120" errorplus="0.120">0.190</metallicity>
+		<planet>
+			<name>K2-147 b</name>
+			<semimajoraxis errorminus="0.000500" errorplus="0.000500">0.015900</semimajoraxis>
+			<period errorminus="0.00002600" errorplus="0.00002600">0.96191700</period>
+			<description>This planet was discovered by Hirano et al. 2018. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Hirano et al. 2018 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.013" errorplus="0.015">0.123</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2018</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>18/02/01</lastupdate>
+			<transittime errorminus="0.001250" errorplus="0.001250">2457301.946160</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

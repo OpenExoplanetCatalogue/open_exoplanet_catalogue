@@ -1,0 +1,33 @@
+<system>
+	<name>K2-129</name>
+	<rightascension>19 16 36</rightascension>
+	<declination>-25 38 42</declination>
+	<distance errorminus="0.07" errorplus="0.07">27.82</distance>
+	<star>
+		<name>K2-129</name>
+		<radius errorminus="0.03" errorplus="0.03">0.36</radius>
+		<magV errorminus="0.034" errorplus="0.034">13.630</magV>
+		<magJ errorminus="0.022" errorplus="0.022">9.697</magJ>
+		<magH errorminus="0.023" errorplus="0.023">9.102</magH>
+		<magK errorminus="0.021" errorplus="0.021">8.852</magK>
+		<mass errorminus="0.07" errorplus="0.07">0.36</mass>
+		<temperature errorminus="83.62" errorplus="89.05">3459.09</temperature>
+		<planet>
+			<name>K2-129 b</name>
+			<semimajoraxis errorminus="0.004000" errorplus="0.003000">0.057000</semimajoraxis>
+			<eccentricity errorminus="0.109504" errorplus="0.210105">0.130000</eccentricity>
+			<periastron errorminus="143.1102" errorplus="97.2451">39.8900</periastron>
+			<inclination errorminus="0.480" errorplus="0.500">89.210</inclination>
+			<period errorminus="0.00029100" errorplus="0.00029200">8.23949300</period>
+			<description>This planet was discovered by Dressing et al. 2017. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Dressing et al. 2017 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.008" errorplus="0.009">0.093</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2017</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>17/10/05</lastupdate>
+			<transittime errorminus="0.001000" errorplus="0.001000">2457335.009000</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

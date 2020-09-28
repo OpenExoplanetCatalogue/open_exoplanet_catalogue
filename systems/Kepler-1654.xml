@@ -1,10 +1,12 @@
 <system>
 	<name>Kepler-1654</name>
-	<rightascension>18 48 45</rightascension>
-	<declination>+44 26 04</declination>
+	<rightascension>18 48 44.5901</rightascension>
+	<declination>+44 26 04.0737</declination>
 	<distance errorminus="3.95" errorplus="3.95">577.60</distance>
 	<star>
 		<name>Kepler-1654</name>
+		<name>KIC 8410697</name>
+		<name>Gaia DR2 2105415302330571008</name>
 		<radius errorminus="0.02" errorplus="0.03">1.18</radius>
 		<magJ errorminus="0.021" errorplus="0.021">12.281</magJ>
 		<magH errorminus="0.019" errorplus="0.019">11.934</magH>
@@ -15,6 +17,8 @@
 		<spectraltype>G5V</spectraltype>
 		<planet>
 			<name>Kepler-1654 b</name>
+			<name>KIC 8410697 b</name>
+			<name>Gaia DR2 2105415302330571008 b</name>
 			<semimajoraxis errorminus="0.035000" errorplus="0.037000">2.026000</semimajoraxis>
 			<eccentricity errorminus="0.110000" errorplus="0.210000">0.260000</eccentricity>
 			<periastron errorminus="71.0000" errorplus="73.0000">81.0000</periastron>

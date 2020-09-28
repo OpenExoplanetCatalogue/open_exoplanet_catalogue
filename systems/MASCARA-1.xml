@@ -1,0 +1,42 @@
+<system>
+	<name>MASCARA-1</name>
+	<name>HD 201585</name>
+	<name>HIP 104513</name>
+	<rightascension>21 10 12</rightascension>
+	<declination>+10 44 20</declination>
+	<distance errorminus="10.70" errorplus="10.70">188.70</distance>
+	<star>
+		<name>MASCARA-1</name>
+		<name>HD 201585</name>
+		<name>HIP 104513</name>
+		<radius errorminus="0.20" errorplus="0.20">2.10</radius>
+		<magV errorminus="0.014" errorplus="0.014">8.273</magV>
+		<magJ errorminus="0.018" errorplus="0.018">7.819</magJ>
+		<magH errorminus="0.029" errorplus="0.029">7.749</magH>
+		<magK errorminus="0.017" errorplus="0.017">7.740</magK>
+		<mass errorminus="0.07" errorplus="0.07">1.72</mass>
+		<temperature errorminus="150.00" errorplus="150.00">7554.00</temperature>
+		<metallicity>0.000</metallicity>
+		<spectraltype>A8</spectraltype>
+		<planet>
+			<name>MASCARA-1 b</name>
+			<name>HD 201585 b</name>
+			<name>HIP 104513 b</name>
+			<semimajoraxis errorminus="0.005000" errorplus="0.005000">0.043000</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination errorminus="3.000" errorplus="2.000">87.000</inclination>
+			<period errorminus="0.00000800" errorplus="0.00000800">2.14878000</period>
+			<description>This planet was discovered by Talens et al. 2017. This was a ground based discovery. The parameters listed here are those reported by Talens et al. 2017 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.90000" errorplus="0.90000">3.70000</mass>
+			<radius errorminus="0.300" errorplus="0.300">1.500</radius>
+			<temperature errorminus="30" errorplus="50">2570</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2017</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>17/11/02</lastupdate>
+			<transittime errorminus="0.002000" errorplus="0.002000">2457097.278000</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

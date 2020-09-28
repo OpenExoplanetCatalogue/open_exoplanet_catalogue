@@ -1,0 +1,36 @@
+<system>
+	<name>GJ 625</name>
+	<name>HIP 80459</name>
+	<rightascension>16 25 25</rightascension>
+	<declination>+54 18 15</declination>
+	<distance>6.49</distance>
+	<star>
+		<name>GJ 625</name>
+		<name>HIP 80459</name>
+		<radius errorminus="0.06" errorplus="0.06">0.31</radius>
+		<magV errorminus="0.010" errorplus="0.010">10.100</magV>
+		<magI errorminus="0.017" errorplus="0.017">7.880</magI>
+		<magJ errorminus="0.020" errorplus="0.020">6.608</magJ>
+		<magH errorminus="0.018" errorplus="0.018">6.063</magH>
+		<magK errorminus="0.024" errorplus="0.024">5.833</magK>
+		<mass errorminus="0.07" errorplus="0.07">0.30</mass>
+		<temperature errorminus="68.00" errorplus="68.00">3499.00</temperature>
+		<metallicity errorminus="0.090" errorplus="0.090">-0.380</metallicity>
+		<spectraltype>M2</spectraltype>
+		<planet>
+			<name>GJ 625 b</name>
+			<name>HIP 80459 b</name>
+			<semimajoraxis errorminus="0.000046" errorplus="0.000044">0.078361</semimajoraxis>
+			<eccentricity errorminus="0.090000" errorplus="0.120000">0.130000</eccentricity>
+			<periastron errorminus="14.8000" errorplus="9.6000">343.1000</periastron>
+			<period errorminus="0.01300000" errorplus="0.01200000">14.62800000</period>
+			<description>This planet was discovered by Suárez Mascareño et al. 2017. This was a ground based discovery. The parameters listed here are those reported by Suárez Mascareño et al. 2017 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00160" errorplus="0.00160">0.00887</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2017</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>17/09/28</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

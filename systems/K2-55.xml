@@ -1,0 +1,30 @@
+<system>
+	<name>K2-55</name>
+	<rightascension>22 15 00</rightascension>
+	<declination>-17 15 02</declination>
+	<distance errorminus="0.73" errorplus="0.73">160.26</distance>
+	<star>
+		<name>K2-55</name>
+		<radius errorminus="0.05" errorplus="0.05">0.63</radius>
+		<magV errorminus="0.020" errorplus="0.020">13.546</magV>
+		<magJ errorminus="0.023" errorplus="0.023">11.230</magJ>
+		<magH errorminus="0.024" errorplus="0.024">10.615</magH>
+		<magK errorminus="0.025" errorplus="0.025">10.471</magK>
+		<mass errorminus="0.05" errorplus="0.05">0.70</mass>
+		<temperature errorminus="148.00" errorplus="148.00">4456.00</temperature>
+		<planet>
+			<name>K2-55 b</name>
+			<semimajoraxis errorminus="0.000780" errorplus="0.000780">0.034860</semimajoraxis>
+			<period errorminus="0.00003300" errorplus="0.00003300">2.84925800</period>
+			<description>This planet was discovered by Crossfield et al. 2016. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Crossfield et al. 2016 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.029" errorplus="0.029">0.341</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>16/07/18</lastupdate>
+			<transittime errorminus="0.000400" errorplus="0.000400">2456983.422980</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

@@ -1,0 +1,37 @@
+<system>
+	<name>WASP-151</name>
+	<rightascension>23 16 15</rightascension>
+	<declination>+00 18 24</declination>
+	<distance errorminus="10.02" errorplus="10.02">458.91</distance>
+	<star>
+		<name>WASP-151</name>
+		<radius errorminus="0.03" errorplus="0.03">1.14</radius>
+		<magV errorminus="0.010" errorplus="0.010">12.795</magV>
+		<magJ errorminus="0.022" errorplus="0.022">11.545</magJ>
+		<magH errorminus="0.024" errorplus="0.024">11.259</magH>
+		<magK errorminus="0.021" errorplus="0.021">11.187</magK>
+		<mass errorminus="0.08" errorplus="0.08">1.08</mass>
+		<temperature errorminus="57.00" errorplus="57.00">5871.00</temperature>
+		<metallicity errorminus="0.100" errorplus="0.100">0.100</metallicity>
+		<spectraltype>G1</spectraltype>
+		<planet>
+			<name>WASP-151 b</name>
+			<semimajoraxis errorminus="0.001000" errorplus="0.001000">0.055000</semimajoraxis>
+			<eccentricity>0.003000</eccentricity>
+			<periastron errorminus="30.0000" errorplus="120.0000">-50.0000</periastron>
+			<inclination errorminus="0.600" errorplus="0.600">89.200</inclination>
+			<period errorminus="0.00000400" errorplus="0.00000400">4.53347100</period>
+			<description>This planet was discovered by Demangeon et al. 2018. This was a ground based discovery. The parameters listed here are those reported by Demangeon et al. 2018 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.03000" errorplus="0.04000">0.31000</mass>
+			<radius errorminus="0.030" errorplus="0.030">1.130</radius>
+			<temperature errorminus="10" errorplus="20">1290</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2017</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>17/10/26</lastupdate>
+			<transittime errorminus="0.000200" errorplus="0.000100">2457741.008100</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

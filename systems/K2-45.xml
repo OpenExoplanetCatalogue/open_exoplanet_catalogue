@@ -1,0 +1,30 @@
+<system>
+	<name>K2-45</name>
+	<rightascension>11 18 32</rightascension>
+	<declination>-01 46 27</declination>
+	<distance errorminus="10.77" errorplus="10.77">502.34</distance>
+	<star>
+		<name>K2-45</name>
+		<radius errorminus="0.07" errorplus="0.07">0.45</radius>
+		<magV errorminus="0.010" errorplus="0.010">15.780</magV>
+		<magJ errorminus="0.026" errorplus="0.026">13.536</magJ>
+		<magH errorminus="0.024" errorplus="0.024">12.920</magH>
+		<magK errorminus="0.033" errorplus="0.033">12.756</magK>
+		<mass errorminus="0.08" errorplus="0.08">0.50</mass>
+		<temperature errorminus="90.00" errorplus="90.00">4103.00</temperature>
+		<planet>
+			<name>K2-45 b</name>
+			<semimajoraxis errorminus="0.001200" errorplus="0.001200">0.022400</semimajoraxis>
+			<period errorminus="0.00000690" errorplus="0.00000690">1.72926840</period>
+			<description>This planet was discovered by Crossfield et al. 2016. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Crossfield et al. 2016 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius>0.599</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>16/07/18</lastupdate>
+			<transittime errorminus="0.000180" errorplus="0.000180">2456809.526040</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

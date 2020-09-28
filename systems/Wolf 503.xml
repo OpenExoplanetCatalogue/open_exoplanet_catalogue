@@ -1,12 +1,14 @@
 <system>
 	<name>Wolf 503</name>
 	<name>HIP 67285</name>
-	<rightascension>13 47 23</rightascension>
-	<declination>-06 08 13</declination>
+	<rightascension>13 47 23.4437</rightascension>
+	<declination>-06 08 12.7292</declination>
 	<distance errorminus="0.10" errorplus="0.10">44.58</distance>
 	<star>
 		<name>Wolf 503</name>
 		<name>HIP 67285</name>
+		<name>TYC 4973-1501-1</name>
+		<name>Gaia DR2 3620325206217720320</name>
 		<radius errorminus="0.02" errorplus="0.03">0.69</radius>
 		<magV errorminus="0.020" errorplus="0.020">10.260</magV>
 		<magI errorminus="0.025" errorplus="0.025">9.090</magI>
@@ -20,6 +22,8 @@
 		<planet>
 			<name>Wolf 503 b</name>
 			<name>HIP 67285 b</name>
+			<name>TYC 4973-1501-1 b</name>
+			<name>Gaia DR2 3620325206217720320 b</name>
 			<semimajoraxis errorminus="0.002000" errorplus="0.002000">0.057100</semimajoraxis>
 			<period errorminus="0.00011000" errorplus="0.00008000">6.00118000</period>
 			<description>This planet was discovered by Peterson et al. 2018. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Peterson et al. 2018 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>

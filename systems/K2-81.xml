@@ -1,0 +1,33 @@
+<system>
+	<name>K2-81</name>
+	<rightascension>03 49 57</rightascension>
+	<declination>+14 30 08</declination>
+	<distance errorminus="2.72" errorplus="2.72">254.14</distance>
+	<star>
+		<name>K2-81</name>
+		<radius errorminus="0.03" errorplus="0.04">0.63</radius>
+		<magV errorminus="0.040" errorplus="0.040">14.364</magV>
+		<magJ errorminus="0.022" errorplus="0.022">12.048</magJ>
+		<magH errorminus="0.021" errorplus="0.021">11.419</magH>
+		<magK errorminus="0.019" errorplus="0.019">11.316</magK>
+		<mass errorminus="0.07" errorplus="0.07">0.75</mass>
+		<temperature errorminus="131.16" errorplus="140.71">4674.13</temperature>
+		<planet>
+			<name>K2-81 b</name>
+			<semimajoraxis errorminus="0.002000" errorplus="0.002000">0.059000</semimajoraxis>
+			<eccentricity errorminus="0.051854" errorplus="0.144406">0.060000</eccentricity>
+			<periastron errorminus="112.5904" errorplus="133.8480">-27.8900</periastron>
+			<inclination errorminus="0.570" errorplus="0.490">89.290</inclination>
+			<period errorminus="0.00040700" errorplus="0.00039000">6.10232500</period>
+			<description>This planet was discovered by Crossfield et al. 2016. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Dressing et al. 2017 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.010" errorplus="0.012">0.176</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>17/10/26</lastupdate>
+			<transittime errorminus="0.002000" errorplus="0.002000">2457070.440000</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

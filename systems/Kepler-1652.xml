@@ -1,0 +1,32 @@
+<system>
+	<name>Kepler-1652</name>
+	<rightascension>19 37 28</rightascension>
+	<declination>+49 54 54</declination>
+	<distance errorminus="30.00" errorplus="32.00">252.00</distance>
+	<star>
+		<name>Kepler-1652</name>
+		<radius errorminus="0.04" errorplus="0.04">0.38</radius>
+		<magJ errorminus="0.022" errorplus="0.022">13.454</magJ>
+		<magH errorminus="0.021" errorplus="0.021">12.784</magH>
+		<magK errorminus="0.024" errorplus="0.024">12.635</magK>
+		<mass errorminus="0.05" errorplus="0.04">0.40</mass>
+		<temperature errorminus="51.00" errorplus="51.00">3638.00</temperature>
+		<metallicity errorminus="0.120" errorplus="0.120">-0.300</metallicity>
+		<planet>
+			<name>Kepler-1652 b</name>
+			<semimajoraxis errorminus="0.007500" errorplus="0.004200">0.165400</semimajoraxis>
+			<inclination errorminus="0.143" errorplus="0.004">89.993</inclination>
+			<period errorminus="0.00021000" errorplus="0.00021000">38.09722000</period>
+			<description>This planet was discovered by Torres et al. 2017. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Torres et al. 2017 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.016" errorplus="0.016">0.143</radius>
+			<temperature errorminus="20" errorplus="27">268</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2017</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>17/11/16</lastupdate>
+			<transittime errorminus="0.004700" errorplus="0.004700">2454973.004500</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

@@ -1,0 +1,36 @@
+<system>
+	<name>GJ 3942</name>
+	<name>HIP 79126</name>
+	<rightascension>16 09 03</rightascension>
+	<declination>+52 56 38</declination>
+	<distance errorminus="0.01" errorplus="0.01">16.94</distance>
+	<star>
+		<name>GJ 3942</name>
+		<name>HIP 79126</name>
+		<radius errorminus="0.06" errorplus="0.06">0.61</radius>
+		<magV errorminus="0.040" errorplus="0.040">10.250</magV>
+		<magJ errorminus="0.020" errorplus="0.020">7.185</magJ>
+		<magH errorminus="0.020" errorplus="0.020">6.525</magH>
+		<magK errorminus="0.018" errorplus="0.018">6.331</magK>
+		<mass errorminus="0.07" errorplus="0.07">0.63</mass>
+		<temperature errorminus="69.00" errorplus="69.00">3867.00</temperature>
+		<metallicity errorminus="0.090" errorplus="0.090">-0.040</metallicity>
+		<spectraltype>M0</spectraltype>
+		<planet>
+			<name>GJ 3942 b</name>
+			<name>HIP 79126 b</name>
+			<semimajoraxis errorminus="0.006800" errorplus="0.006800">0.060800</semimajoraxis>
+			<eccentricity errorminus="0.118000" errorplus="0.118000">0.121000</eccentricity>
+			<periastron errorminus="0.1000" errorplus="0.1000">112.7000</periastron>
+			<period errorminus="0.04000000" errorplus="0.04000000">6.90500000</period>
+			<description>This planet was discovered by Perger et al. 2017. This was a ground based discovery. The parameters listed here are those reported by Perger et al. 2017 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00186" errorplus="0.00186">0.02246</mass>
+			<temperature>590</temperature>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2017</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>17/12/21</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

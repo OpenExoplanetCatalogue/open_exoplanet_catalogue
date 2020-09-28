@@ -1,0 +1,29 @@
+<system>
+	<name>K2-71</name>
+	<rightascension>22 46 54</rightascension>
+	<declination>-09 52 54</declination>
+	<distance errorminus="1.22" errorplus="1.22">153.86</distance>
+	<star>
+		<name>K2-71</name>
+		<radius errorminus="0.05" errorplus="0.05">0.43</radius>
+		<magJ errorminus="0.022" errorplus="0.022">12.598</magJ>
+		<magH errorminus="0.026" errorplus="0.026">11.927</magH>
+		<magK errorminus="0.026" errorplus="0.026">11.732</magK>
+		<mass errorminus="0.06" errorplus="0.06">0.48</mass>
+		<temperature errorminus="133.00" errorplus="133.00">4006.00</temperature>
+		<planet>
+			<name>K2-71 b</name>
+			<semimajoraxis errorminus="0.002500" errorplus="0.002500">0.055900</semimajoraxis>
+			<period errorminus="0.00075000" errorplus="0.00075000">6.98541000</period>
+			<description>This planet was discovered by Crossfield et al. 2016. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Crossfield et al. 2016 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.029" errorplus="0.029">0.192</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>16/07/18</lastupdate>
+			<transittime errorminus="0.003100" errorplus="0.003100">2456987.378500</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

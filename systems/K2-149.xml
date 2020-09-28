@@ -1,0 +1,32 @@
+<system>
+	<name>K2-149</name>
+	<rightascension>00 39 17</rightascension>
+	<declination>+07 16 38</declination>
+	<distance errorminus="18.00" errorplus="18.00">118.00</distance>
+	<star>
+		<name>K2-149</name>
+		<radius errorminus="0.06" errorplus="0.06">0.57</radius>
+		<magV errorminus="0.160" errorplus="0.160">14.484</magV>
+		<magJ errorminus="0.022" errorplus="0.022">11.452</magJ>
+		<magH errorminus="0.032" errorplus="0.032">10.762</magH>
+		<magK errorminus="0.021" errorplus="0.021">10.561</magK>
+		<mass errorminus="0.06" errorplus="0.06">0.59</mass>
+		<temperature errorminus="70.00" errorplus="70.00">3745.00</temperature>
+		<metallicity errorminus="0.120" errorplus="0.120">0.110</metallicity>
+		<spectraltype>M1.0V</spectraltype>
+		<planet>
+			<name>K2-149 b</name>
+			<semimajoraxis errorminus="0.002700" errorplus="0.002700">0.083000</semimajoraxis>
+			<period errorminus="0.00130000" errorplus="0.00130000">11.33200000</period>
+			<description>This planet was discovered by Hirano et al. 2018. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Hirano et al. 2018 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.016" errorplus="0.018">0.146</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2018</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>18/02/01</lastupdate>
+			<transittime errorminus="0.006000" errorplus="0.006000">2457388.338340</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

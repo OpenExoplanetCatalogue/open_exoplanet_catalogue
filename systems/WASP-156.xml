@@ -1,0 +1,36 @@
+<system>
+	<name>WASP-156</name>
+	<rightascension>02 11 08</rightascension>
+	<declination>+02 25 05</declination>
+	<distance errorminus="25.00" errorplus="25.00">140.00</distance>
+	<star>
+		<name>WASP-156</name>
+		<radius errorminus="0.03" errorplus="0.03">0.76</radius>
+		<magV>11.600</magV>
+		<magJ errorminus="0.018" errorplus="0.018">9.906</magJ>
+		<magH errorminus="0.021" errorplus="0.021">9.473</magH>
+		<magK errorminus="0.021" errorplus="0.021">9.339</magK>
+		<mass errorminus="0.05" errorplus="0.05">0.84</mass>
+		<temperature errorminus="61.00" errorplus="61.00">4910.00</temperature>
+		<metallicity errorminus="0.120" errorplus="0.120">0.240</metallicity>
+		<spectraltype>K3</spectraltype>
+		<planet>
+			<name>WASP-156 b</name>
+			<semimajoraxis errorminus="0.000900" errorplus="0.000900">0.045300</semimajoraxis>
+			<eccentricity>0.007000</eccentricity>
+			<inclination errorminus="0.900" errorplus="0.600">89.100</inclination>
+			<period errorminus="0.00000300" errorplus="0.00000300">3.83616900</period>
+			<description>This planet was discovered by Demangeon et al. 2018. This was a ground based discovery. The parameters listed here are those reported by Demangeon et al. 2018 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00900" errorplus="0.01000">0.12800</mass>
+			<radius errorminus="0.020" errorplus="0.020">0.510</radius>
+			<temperature errorminus="20" errorplus="30">970</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2017</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>17/10/26</lastupdate>
+			<transittime errorminus="0.002000" errorplus="0.002000">2454677.707000</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

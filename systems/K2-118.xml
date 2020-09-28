@@ -1,0 +1,33 @@
+<system>
+	<name>K2-118</name>
+	<rightascension>08 48 30</rightascension>
+	<declination>+15 39 22</declination>
+	<distance errorminus="3.80" errorplus="3.80">324.70</distance>
+	<star>
+		<name>K2-118</name>
+		<radius errorminus="0.04" errorplus="0.05">0.73</radius>
+		<magV errorminus="0.050" errorplus="0.050">14.049</magV>
+		<magJ errorminus="0.023" errorplus="0.023">12.259</magJ>
+		<magH errorminus="0.021" errorplus="0.021">11.768</magH>
+		<magK errorminus="0.019" errorplus="0.019">11.654</magK>
+		<mass errorminus="0.08" errorplus="0.08">0.76</mass>
+		<temperature errorminus="127.34" errorplus="142.64">4726.29</temperature>
+		<planet>
+			<name>K2-118 b</name>
+			<semimajoraxis errorminus="0.008000" errorplus="0.008000">0.245000</semimajoraxis>
+			<eccentricity errorminus="0.159064" errorplus="0.183774">0.200000</eccentricity>
+			<periastron errorminus="123.4359" errorplus="75.8575">58.6700</periastron>
+			<inclination errorminus="0.120" errorplus="0.240">89.500</inclination>
+			<period errorminus="0.00524900" errorplus="0.00558400">50.92092000</period>
+			<description>This planet was discovered by Dressing et al. 2017. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Dressing et al. 2017 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.018" errorplus="0.021">0.227</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2017</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>17/10/05</lastupdate>
+			<transittime errorminus="0.004000" errorplus="0.004000">2457160.473000</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>
