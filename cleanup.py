@@ -308,6 +308,15 @@ def checkonefile(filename):
                     discoveryyears[year] +=1
             else:
                 print(filename)
+            mass = planet.findtext("./mass")
+            if mass is not None:
+                try:
+                    mass = float(mass)
+                    masslimit = 60
+                    if mass>masslimit:
+                        print("Warning: "+filename+" has a confirmed planet with a mass %.2f Mjup > %.2f Mjup."%(mass,masslimit))
+                except:
+                    pass
 
     # Check lastupdate tag for correctness
     global lastUpdateGlobal
