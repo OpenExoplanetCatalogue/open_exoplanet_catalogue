@@ -1,10 +1,11 @@
 <system>
 	<name>K2-54</name>
-	<rightascension>22 32 13</rightascension>
-	<declination>-17 32 38</declination>
+	<rightascension>22 32 13.0045</rightascension>
+	<declination>-17 32 38.4784</declination>
 	<distance errorminus="1.02" errorplus="1.02">175.84</distance>
 	<star>
 		<name>K2-54</name>
+		<name>Gaia DR2 2594546351459477760</name>
 		<radius errorminus="0.05" errorplus="0.05">0.38</radius>
 		<magV errorminus="0.010" errorplus="0.010">14.042</magV>
 		<magJ errorminus="0.037" errorplus="0.037">11.850</magJ>
@@ -14,6 +15,7 @@
 		<temperature errorminus="113.00" errorplus="113.00">3798.00</temperature>
 		<planet>
 			<name>K2-54 b</name>
+			<name>Gaia DR2 2594546351459477760 b</name>
 			<semimajoraxis errorminus="0.003700" errorplus="0.003700">0.067100</semimajoraxis>
 			<period errorminus="0.00140000" errorplus="0.00140000">9.78430000</period>
 			<description>This planet was discovered by Crossfield et al. 2016. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Crossfield et al. 2016 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>

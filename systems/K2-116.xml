@@ -1,12 +1,14 @@
 <system>
 	<name>K2-116</name>
 	<name>HIP 110620</name>
-	<rightascension>22 24 36</rightascension>
-	<declination>-11 34 43</declination>
+	<rightascension>22 24 36.3824</rightascension>
+	<declination>-11 34 43.2858</declination>
 	<distance errorminus="0.12" errorplus="0.12">49.46</distance>
 	<star>
 		<name>K2-116</name>
 		<name>HIP 110620</name>
+		<name>Gaia DR2 2602406721431348096</name>
+		<name>TYC 5807-1363-1</name>
 		<radius errorminus="0.03" errorplus="0.03">0.67</radius>
 		<magV errorminus="0.101" errorplus="0.101">10.910</magV>
 		<magJ errorminus="0.029" errorplus="0.029">8.597</magJ>
@@ -17,6 +19,8 @@
 		<planet>
 			<name>K2-116 b</name>
 			<name>HIP 110620 b</name>
+			<name>Gaia DR2 2602406721431348096 b</name>
+			<name>TYC 5807-1363-1 b</name>
 			<semimajoraxis errorminus="0.002000" errorplus="0.002000">0.048000</semimajoraxis>
 			<eccentricity errorminus="0.053272" errorplus="0.141966">0.060000</eccentricity>
 			<periastron errorminus="116.7845" errorplus="137.1911">-23.4400</periastron>
