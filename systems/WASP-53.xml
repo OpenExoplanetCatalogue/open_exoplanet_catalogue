@@ -2,34 +2,49 @@
 	<name>WASP-53</name>
 	<rightascension>02 07 38.2093</rightascension>
 	<declination>-20 39 42.7616</declination>
-	<distance errorminus="1.4" errorplus="1.4">202.5</distance>
+	<distance errorminus="1.38" errorplus="1.38">202.51</distance>
 	<star>
+		<name>WASP-53</name>
+		<name>Gaia DR2 5136559128264765184</name>
+		<radius errorminus="0.02" errorplus="0.02">0.80</radius>
+		<magJ errorminus="0.023" errorplus="0.023">10.959</magJ>
+		<magH errorminus="0.021" errorplus="0.021">10.474</magH>
+		<magK errorminus="0.021" errorplus="0.021">10.390</magK>
+		<mass errorminus="0.05" errorplus="0.05">0.84</mass>
+		<temperature errorminus="60.00" errorplus="60.00">4953.00</temperature>
+		<metallicity errorminus="0.110" errorplus="0.110">0.220</metallicity>
 		<planet>
 			<name>WASP-53 b</name>
 			<name>Gaia DR2 5136559128264765184 b</name>
-			<list>Confirmed planets</list>
-			<mass errorminus="0.0094" errorplus="0.0092">2.132</mass>
+			<semimajoraxis errorminus="0.000910" errorplus="0.000830">0.041010</semimajoraxis>
+			<eccentricity>0.030000</eccentricity>
+			<inclination errorminus="0.150" errorplus="0.160">87.080</inclination>
+			<period errorminus="0.00000200" errorplus="0.00000200">3.30984430</period>
+			<description>This planet was discovered by Triaud et al. 2017. This was a ground based discovery. The parameters listed here are those reported by Triaud et al. 2017 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.09400" errorplus="0.09200">2.13200</mass>
 			<radius errorminus="0.037" errorplus="0.037">1.074</radius>
-			<period errorminus="0.0000020" errorplus="0.0000020">3.3098443</period>
 			<temperature errorminus="16" errorplus="16">1053</temperature>
-			<description>This planet has been announced at the Extreme Solar Systems II conference in Jackson Hole by the WASP team.</description>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>16/12/13</lastupdate>
-			<discoveryyear>2011</discoveryyear>
 			<istransiting>1</istransiting>
+			<discoveryyear>2017</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>17/02/02</lastupdate>
+			<transittime errorminus="0.000120" errorplus="0.000110">2455943.566950</transittime>
+			<new>1</new>
 		</planet>
-		<name>WASP-53</name>
-		<name>Gaia DR2 5136559128264765184</name>
-		<temperature errorminus="60" errorplus="60">4950</temperature>
-		<metallicity errorminus="0.11" errorplus="0.11">0.22</metallicity>
-		<spectraltype>K3</spectraltype>
-		<mass errorminus="0.08" errorplus="0.08">0.87</mass>
-		<radius errorminus="0.24" errorplus="0.24">0.96</radius>
-		<magV errorminus="0.04" errorplus="0.04">12.6</magV>
-		<magB errorminus="0.05" errorplus="0.05">13.54</magB>
-		<magR errorminus="0.06" errorplus="0.06">12.44</magR>
-		<magJ errorminus="0.026" errorplus="0.026">10.959</magJ>
-		<magH errorminus="0.022" errorplus="0.022">10.474</magH>
-		<magK errorminus="0.023" errorplus="0.023">10.390</magK>
+		<planet>
+			<name>WASP-53 c</name>
+			<semimajoraxis errorminus="0.140000" errorplus="0.160000">3.730000</semimajoraxis>
+			<eccentricity errorminus="0.007000" errorplus="0.006900">0.836900</eccentricity>
+			<periastron errorminus="2.0000" errorplus="2.0000">198.6000</periastron>
+			<period errorminus="130.00000000" errorplus="170.00000000">2840.00000000</period>
+			<description>This planet was discovered by Triaud et al. 2017. This was a ground based discovery. The parameters listed here are those reported by Triaud et al. 2017 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.82000" errorplus="0.85000">16.35000</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2017</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>17/02/02</lastupdate>
+			<new>1</new>
+		</planet>
 	</star>
 </system>

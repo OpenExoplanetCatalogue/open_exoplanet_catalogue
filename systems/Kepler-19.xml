@@ -1,67 +1,72 @@
 <system>
 	<name>Kepler-19</name>
-	<name>KOI-84</name>
-	<name>KIC 2571238</name>
 	<rightascension>19 21 40.9995</rightascension>
 	<declination>+37 51 06.4362</declination>
-	<distance errorminus="1" errorplus="1">219.9</distance>
+	<distance errorminus="0.98" errorplus="0.98">219.95</distance>
 	<star>
-		<mass errorminus="0.040" errorplus="0.040">0.936</mass>
-		<radius errorminus="0.018" errorplus="0.018">0.850</radius>
-		<magV>12</magV>
-		<magB errorminus="0.26" errorplus="0.26">12.88</magB>
-		<magR errorminus="0.05" errorplus="0.05">12.02</magR>
+		<name>Kepler-19</name>
+		<name>Gaia DR2 2051106987063242880</name>
+		<name>KOI-84</name>
+		<name>KIC 2571238</name>
+		<name>TYC 3134-1549-1</name>
+		<radius errorminus="0.02" errorplus="0.02">0.86</radius>
 		<magJ errorminus="0.020" errorplus="0.020">10.719</magJ>
 		<magH errorminus="0.016" errorplus="0.016">10.375</magH>
 		<magK errorminus="0.019" errorplus="0.019">10.318</magK>
-		<metallicity>-0.13</metallicity>
-		<spectraltype>G8V</spectraltype>
+		<mass errorminus="0.04" errorplus="0.04">0.94</mass>
+		<temperature errorminus="20.00" errorplus="20.00">5544.00</temperature>
+		<metallicity errorminus="0.020" errorplus="0.020">-0.080</metallicity>
 		<planet>
 			<name>Kepler-19 b</name>
-			<name>TYC 3134-1549-1 b</name>
-			<name>GSC 03134-01549 b</name>
-			<name>KOI-84.01</name>
-			<name>KOI-84 b</name>
-			<name>2MASS J19214099+3751064 b</name>
-			<name>KIC 2571238 b</name>
 			<name>Gaia DR2 2051106987063242880 b</name>
-			<list>Confirmed planets</list>
-			<mass upperlimit="0.0639" />
-			<radius errorminus="0.0043" errorplus="0.0043">0.1971</radius>
-			<period errorminus="0.0000088" errorplus="0.0000088">9.2869944</period>
-			<semimajoraxis errorminus="0.0012" errorplus="0.0012">0.0846</semimajoraxis>
-			<inclination errorminus="0.44" errorplus="0.06">89.94</inclination>
-			<transittime errorminus="0.00036" errorplus="0.00036" unit="BJD">2454959.70597</transittime>
-			<description>Sinusoidal transit timing variations have been detected in this system. An additional planet might be present.</description>
+			<name>KOI-84 b</name>
+			<name>KIC 2571238 b</name>
+			<name>TYC 3134-1549-1 b</name>
+			<eccentricity errorminus="0.020000" errorplus="0.020000">0.120000</eccentricity>
+			<periastron errorminus="11.7000" errorplus="68.9000">59.1000</periastron>
+			<period errorminus="0.00006000" errorplus="0.00004000">9.28716000</period>
+			<description>This planet was discovered by Ballard et al. 2011. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Malavolta et al. 2017 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00472" errorplus="0.00503">0.02643</mass>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>11/09/09</lastupdate>
-			<discoveryyear>2011</discoveryyear>
 			<istransiting>1</istransiting>
+			<discoveryyear>2011</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>17/04/13</lastupdate>
+			<new>1</new>
 		</planet>
 		<planet>
 			<name>Kepler-19 c</name>
-			<name>TYC 3134-1549-1 c</name>
-			<name>GSC 03134-01549 c</name>
-			<name>KOI-84 c</name>
-			<name>2MASS J19214099+3751064 c</name>
-			<name>KIC 2571238 c</name>
 			<name>Gaia DR2 2051106987063242880 c</name>
-			<list>Confirmed planets</list>
-			<period upperlimit="160" />
-			<mass upperlimit="6.0" />
-			<description>The planet Kepler-19 c was the first confirmed detection of a planet by transit timing variations.</description>
+			<name>KOI-84 c</name>
+			<name>KIC 2571238 c</name>
+			<name>TYC 3134-1549-1 c</name>
+			<eccentricity errorminus="0.070000" errorplus="0.050000">0.210000</eccentricity>
+			<periastron errorminus="6.8000" errorplus="11.1000">23.8000</periastron>
+			<period errorminus="0.00500000" errorplus="0.01200000">28.73100000</period>
+			<description>This planet was discovered by Ballard et al. 2011. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Malavolta et al. 2017 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00850" errorplus="0.00850">0.04122</mass>
 			<discoverymethod>timing</discoverymethod>
 			<discoveryyear>2011</discoveryyear>
-			<lastupdate>15/03/18</lastupdate>
-			<istransiting>0</istransiting>
+			<list>Confirmed planets</list>
+			<lastupdate>17/04/13</lastupdate>
+			<new>1</new>
 		</planet>
-		<name>Kepler-19</name>
-		<name>KOI-84</name>
-		<name>KIC 2571238</name>
-		<name>2MASS J19214099+3751064</name>
-		<name>Gaia DR2 2051106987063242880</name>
-		<name>TYC 3134-1549-1</name>
-		<temperature errorminus="60" errorplus="60">5541</temperature>
-		<age errorminus="1.7" errorplus="1.7">1.9</age>
+		<planet>
+			<name>Kepler-19 d</name>
+			<name>Gaia DR2 2051106987063242880 d</name>
+			<name>KOI-84 d</name>
+			<name>KIC 2571238 d</name>
+			<name>TYC 3134-1549-1 d</name>
+			<eccentricity errorminus="0.010000" errorplus="0.160000">0.050000</eccentricity>
+			<periastron errorminus="57.4000" errorplus="76.8000">55.2000</periastron>
+			<period errorminus="0.30000000" errorplus="0.04000000">62.95000000</period>
+			<description>This planet was discovered by Malavolta et al. 2017. This was a ground based discovery. The parameters listed here are those reported by Malavolta et al. 2017 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.01762" errorplus="0.00378">0.07079</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2017</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>17/04/13</lastupdate>
+			<new>1</new>
+		</planet>
 	</star>
 </system>

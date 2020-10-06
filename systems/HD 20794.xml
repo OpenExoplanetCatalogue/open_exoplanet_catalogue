@@ -1,75 +1,92 @@
 <system>
 	<name>HD 20794</name>
+	<name>HIP 15510</name>
 	<rightascension>03 19 55.6509</rightascension>
-	<declination>-43 30 10</declination>
-	<distance>6.06</distance>
+	<declination>-43 04 11.2174</declination>
+	<distance errorminus="0.01" errorplus="0.01">6.00</distance>
 	<star>
-		<mass>0.70</mass>
-		<magV>4.26</magV>
-		<magR>3.65</magR>
-		<magI>3.25</magI>
-		<magB errorminus="0.01" errorplus="0.01">4.97</magB>
+		<name>HD 20794</name>
+		<name>HIP 15510</name>
+		<name>Gaia DR2 4847957293277762560</name>
+		<name>TYC 7567-1183-1</name>
+		<name>GJ 139</name>
+		<magV>4.270</magV>
+		<magI>3.465</magI>
 		<magJ errorminus="0.262" errorplus="0.262">3.032</magJ>
 		<magH errorminus="0.234" errorplus="0.234">2.709</magH>
 		<magK errorminus="0.278" errorplus="0.278">2.636</magK>
-		<metallicity>-0.40</metallicity>
+		<mass>0.70</mass>
+		<temperature errorminus="17.00" errorplus="17.00">5401.00</temperature>
+		<metallicity errorminus="0.010" errorplus="0.010">-0.400</metallicity>
 		<spectraltype>G8V</spectraltype>
 		<planet>
 			<name>HD 20794 b</name>
-			<name>Gaia DR2 4847957293277762560 b</name>
 			<name>HIP 15510 b</name>
+			<name>Gaia DR2 4847957293277762560 b</name>
 			<name>TYC 7567-1183-1 b</name>
 			<name>GJ 139 b</name>
-			<list>Confirmed planets</list>
-			<mass>0.0084933</mass>
-			<period>18.315</period>
-			<semimajoraxis>0.1207</semimajoraxis>
-			<eccentricity>0.0</eccentricity>
-			<description>The planetary system around the star HD 20794 consists of three super-Earths.</description>
+			<semimajoraxis errorminus="0.002000" errorplus="0.002000">0.120700</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<periastron>0.0000</periastron>
+			<inclination>90.000</inclination>
+			<period errorminus="0.00800000" errorplus="0.00800000">18.31500000</period>
+			<description>This planet was discovered by Pepe et al. 2011. This was a ground based discovery. The parameters listed here are those reported by Pepe et al. 2011 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00094" errorplus="0.00094">0.00850</mass>
+			<temperature>660</temperature>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>11/08/18</lastupdate>
 			<discoveryyear>2011</discoveryyear>
-			<temperature>661.0</temperature>
+			<list>Confirmed planets</list>
+			<lastupdate>15/08/27</lastupdate>
+			<new>1</new>
 		</planet>
 		<planet>
 			<name>HD 20794 c</name>
-			<name>Gaia DR2 4847957293277762560 c</name>
 			<name>HIP 15510 c</name>
-			<name>TYC 7567-1183-1 c</name>
-			<name>GJ 139 c</name>
-			<list>Confirmed planets</list>
-			<mass>0.00754968</mass>
-			<period>40.114</period>
-			<semimajoraxis>0.2036</semimajoraxis>
-			<eccentricity>0.0</eccentricity>
-			<description>The planetary system around the star HD 20794 consists of three super-Earths. The planet HD 20794 c is the smallest planet signature detected so far (0.56 m/s) and might need further data to be confirmed.</description>
+			<semimajoraxis errorminus="0.003400" errorplus="0.003400">0.203600</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<periastron>0.0000</periastron>
+			<inclination>90.000</inclination>
+			<period errorminus="0.05300000" errorplus="0.05300000">40.11400000</period>
+			<description>This planet was discovered by Pepe et al. 2011. This was a ground based discovery. The parameters listed here are those reported by Pepe et al. 2011 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00126" errorplus="0.00126">0.00755</mass>
+			<temperature>508</temperature>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>11/08/18</lastupdate>
 			<discoveryyear>2011</discoveryyear>
-			<temperature>508.9</temperature>
+			<list>Confirmed planets</list>
+			<lastupdate>15/08/27</lastupdate>
+			<new>1</new>
 		</planet>
 		<planet>
 			<name>HD 20794 d</name>
-			<name>Gaia DR2 4847957293277762560 d</name>
 			<name>HIP 15510 d</name>
-			<name>TYC 7567-1183-1 d</name>
-			<name>GJ 139 d</name>
-			<list>Confirmed planets</list>
-			<mass>0.015099</mass>
-			<period>90.309</period>
-			<semimajoraxis>0.3499</semimajoraxis>
-			<eccentricity>0.0</eccentricity>
-			<description>The planetary system around the star HD 20794 consists of three super-Earths.</description>
+			<semimajoraxis errorminus="0.005900" errorplus="0.005900">0.349900</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<periastron>0.0000</periastron>
+			<inclination>90.000</inclination>
+			<period errorminus="0.18400000" errorplus="0.18400000">90.30900000</period>
+			<description>This planet was discovered by Pepe et al. 2011. This was a ground based discovery. The parameters listed here are those reported by Pepe et al. 2011 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00189" errorplus="0.00189">0.01510</mass>
+			<temperature>388</temperature>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>11/08/18</lastupdate>
 			<discoveryyear>2011</discoveryyear>
-			<temperature>388.2</temperature>
+			<list>Confirmed planets</list>
+			<lastupdate>15/08/27</lastupdate>
+			<new>1</new>
 		</planet>
-		<name>HD 20794</name>
-		<name>Gaia DR2 4847957293277762560</name>
-		<name>HIP 15510</name>
-		<name>TYC 7567-1183-1</name>
-		<name>GJ 139</name>
-		<temperature>5490.0</temperature>
+		<planet>
+			<name>HD 20794 e</name>
+			<name>HIP 15510 e</name>
+			<semimajoraxis errorminus="0.006000" errorplus="0.006000">0.509000</semimajoraxis>
+			<eccentricity errorminus="0.180000" errorplus="0.140000">0.290000</eccentricity>
+			<periastron errorminus="32.6600" errorplus="48.1300">268.1400</periastron>
+			<period errorminus="0.91000000" errorplus="1.43000000">147.02000000</period>
+			<description>This planet was discovered by Feng et al. 2017. This was a ground based discovery. The parameters listed here are those reported by Feng et al. 2017 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00271" errorplus="0.00302">0.01501</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2017</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>17/06/08</lastupdate>
+			<new>1</new>
+		</planet>
 	</star>
 </system>
