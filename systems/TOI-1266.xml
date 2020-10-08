@@ -1,0 +1,54 @@
+<system>
+	<name>TOI-1266</name>
+	<rightascension>13 11 60</rightascension>
+	<declination>+65 50 02</declination>
+	<distance errorminus="0.03" errorplus="0.03">36.05</distance>
+	<star>
+		<name>TOI-1266</name>
+		<radius errorminus="0.02" errorplus="0.02">0.42</radius>
+		<magV errorminus="0.050" errorplus="0.050">12.940</magV>
+		<magJ errorminus="0.019" errorplus="0.019">9.706</magJ>
+		<magH errorminus="0.028" errorplus="0.028">9.065</magH>
+		<magK errorminus="0.018" errorplus="0.018">8.840</magK>
+		<mass errorminus="0.03" errorplus="0.03">0.45</mass>
+		<temperature errorminus="150.00" errorplus="150.00">3600.00</temperature>
+		<metallicity errorminus="0.500" errorplus="0.500">-0.500</metallicity>
+		<spectraltype>M3</spectraltype>
+		<planet>
+			<name>TOI-1266 b</name>
+			<semimajoraxis errorminus="0.001700" errorplus="0.001600">0.073600</semimajoraxis>
+			<eccentricity errorminus="0.050000" errorplus="0.060000">0.090000</eccentricity>
+			<inclination errorminus="0.200" errorplus="0.200">89.500</inclination>
+			<period errorminus="0.00006600" errorplus="0.00006700">10.89484300</period>
+			<description>This planet was discovered by Demory et al. 2020. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here are those reported by Demory et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.02832" errorplus="0.03461">0.04248</mass>
+			<radius errorminus="0.011" errorplus="0.014">0.211</radius>
+			<temperature errorminus="20" errorplus="20">413</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/10/08</lastupdate>
+			<transittime errorminus="0.000550" errorplus="0.000540">2458821.744390</transittime>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>TOI-1266 c</name>
+			<semimajoraxis errorminus="0.002400" errorplus="0.002300">0.105800</semimajoraxis>
+			<eccentricity errorminus="0.030000" errorplus="0.030000">0.040000</eccentricity>
+			<inclination errorminus="0.100" errorplus="0.100">89.300</inclination>
+			<period errorminus="0.00069000" errorplus="0.00067000">18.80151000</period>
+			<description>This planet was discovered by Demory et al. 2020. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here are those reported by Demory et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00472" errorplus="0.00629">0.00692</mass>
+			<radius errorminus="0.012" errorplus="0.013">0.139</radius>
+			<temperature errorminus="16" errorplus="16">344</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/10/08</lastupdate>
+			<transittime errorminus="0.002900" errorplus="0.003400">2458821.570600</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

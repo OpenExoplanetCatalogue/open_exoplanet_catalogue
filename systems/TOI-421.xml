@@ -1,0 +1,55 @@
+<system>
+	<name>TOI-421</name>
+	<rightascension>05 27 25</rightascension>
+	<declination>-14 16 37</declination>
+	<distance errorminus="0.58" errorplus="0.58">74.94</distance>
+	<star>
+		<name>TOI-421</name>
+		<radius errorminus="0.01" errorplus="0.01">0.87</radius>
+		<magJ errorminus="0.011" errorplus="0.011">8.547</magJ>
+		<magH errorminus="0.029" errorplus="0.029">8.219</magH>
+		<magK errorminus="0.011" errorplus="0.011">8.071</magK>
+		<mass errorminus="0.02" errorplus="0.03">0.85</mass>
+		<temperature errorminus="58.00" errorplus="78.00">5325.00</temperature>
+		<metallicity errorminus="0.050" errorplus="0.050">-0.020</metallicity>
+		<spectraltype>G9V</spectraltype>
+		<planet>
+			<name>TOI-421 b</name>
+			<semimajoraxis errorminus="0.001800" errorplus="0.001800">0.056000</semimajoraxis>
+			<eccentricity errorminus="0.071000" errorplus="0.082000">0.163000</eccentricity>
+			<periastron errorminus="27.2000" errorplus="24.9000">128.9000</periastron>
+			<inclination errorminus="0.460" errorplus="0.360">85.680</inclination>
+			<period errorminus="0.00049000" errorplus="0.00049000">5.19672000</period>
+			<description>This planet was discovered by Carleo et al. 2020. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here are those reported by Carleo et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00208" errorplus="0.00208">0.02256</mass>
+			<radius errorminus="0.016" errorplus="0.017">0.239</radius>
+			<temperature errorminus="16" errorplus="16">981</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/10/08</lastupdate>
+			<transittime errorminus="0.001800" errorplus="0.002000">2458441.284700</transittime>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>TOI-421 c</name>
+			<semimajoraxis errorminus="0.003900" errorplus="0.003900">0.118900</semimajoraxis>
+			<eccentricity errorminus="0.042000" errorplus="0.042000">0.152000</eccentricity>
+			<periastron errorminus="13.3000" errorplus="15.6000">114.7000</periastron>
+			<inclination errorminus="0.084" errorplus="0.078">88.353</inclination>
+			<period errorminus="0.00035000" errorplus="0.00035000">16.06819000</period>
+			<description>This planet was discovered by Carleo et al. 2020. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here are those reported by Carleo et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00327" errorplus="0.00334">0.05166</mass>
+			<radius errorminus="0.013" errorplus="0.014">0.454</radius>
+			<temperature errorminus="11" errorplus="11">674</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/10/08</lastupdate>
+			<transittime errorminus="0.000680" errorplus="0.000700">2458440.131620</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>
