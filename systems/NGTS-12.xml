@@ -1,0 +1,36 @@
+<system>
+	<name>NGTS-12</name>
+	<rightascension>11 44 60</rightascension>
+	<declination>-35 38 26</declination>
+	<distance errorminus="7.60" errorplus="7.60">452.00</distance>
+	<star>
+		<name>NGTS-12</name>
+		<radius errorminus="0.04" errorplus="0.04">1.59</radius>
+		<magV errorminus="0.046" errorplus="0.046">12.382</magV>
+		<magJ errorminus="0.023" errorplus="0.023">10.992</magJ>
+		<magH errorminus="0.022" errorplus="0.022">10.692</magH>
+		<magK errorminus="0.019" errorplus="0.019">10.588</magK>
+		<mass errorminus="0.05" errorplus="0.06">1.02</mass>
+		<temperature errorminus="130.00" errorplus="130.00">5690.00</temperature>
+		<metallicity errorminus="0.110" errorplus="0.110">-0.030</metallicity>
+		<spectraltype>G</spectraltype>
+		<planet>
+			<name>NGTS-12 b</name>
+			<semimajoraxis errorminus="0.001400" errorplus="0.001400">0.075700</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination errorminus="0.760" errorplus="0.760">88.900</inclination>
+			<period errorminus="0.00004800" errorplus="0.00004800">7.53280600</period>
+			<description>This planet was discovered by Bryant et al. 2020. This was a ground based discovery. The parameters listed here are those reported by Bryant et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.02200" errorplus="0.02200">0.20800</mass>
+			<radius errorminus="0.032" errorplus="0.032">1.048</radius>
+			<temperature errorminus="34" errorplus="34">1257</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/10/22</lastupdate>
+			<transittime errorminus="0.001700" errorplus="0.001700">2458572.854900</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>
