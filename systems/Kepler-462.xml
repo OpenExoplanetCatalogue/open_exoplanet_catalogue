@@ -1,0 +1,50 @@
+<system>
+	<name>Kepler-462</name>
+	<rightascension>19 59 17</rightascension>
+	<declination>+43 48 51</declination>
+	<distance errorminus="11.00" errorplus="11.00">598.00</distance>
+	<star>
+		<name>Kepler-462</name>
+		<radius errorminus="0.06" errorplus="0.08">1.57</radius>
+		<magJ errorminus="0.027" errorplus="0.027">10.983</magJ>
+		<magH errorminus="0.029" errorplus="0.029">10.876</magH>
+		<magK errorminus="0.020" errorplus="0.020">10.851</magK>
+		<mass errorminus="0.08" errorplus="0.08">1.59</mass>
+		<temperature errorminus="300.00" errorplus="300.00">7500.00</temperature>
+		<metallicity errorminus="0.110" errorplus="0.110">0.050</metallicity>
+		<planet>
+			<name>Kepler-462 b</name>
+			<name>KOI-89 b</name>
+			<eccentricity errorminus="0.008000" errorplus="0.046000">0.042000</eccentricity>
+			<periastron errorminus="11.3000" errorplus="7.1000">51.9000</periastron>
+			<period errorminus="0.00100000" errorplus="0.00070000">84.68660000</period>
+			<description>This planets orbits a rapidly-rotating, oblate star. The planet's orbit has a sky-projected misalignment of -32° with respect to the stellar equator, while the derived true orbital obliquity is 72°.</description>
+			<mass errorminus="0.07488" errorplus="0.32911">0.16959</mass>
+			<radius errorminus="0.009" errorplus="0.018">0.268</radius>
+			<discoverymethod>transit</discoverymethod>
+			<spinorbitalignment errorminus="11" errorplus="11">-32</spinorbitalignment>
+			<istransiting>1</istransiting>
+			<discoveryyear>2011</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/11/05</lastupdate>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>Kepler-462 c</name>
+			<name>KOI-89 c</name>
+			<eccentricity errorminus="0.020000" errorplus="0.050000">0.110000</eccentricity>
+			<periastron errorminus="3.2000" errorplus="3.2000">14.9000</periastron>
+			<period errorminus="0.01000000" errorplus="0.03000000">207.62000000</period>
+			<spinorbitalignment errorminus="40" errorplus="40">-32</spinorbitalignment>
+			<description>This planet orbits a rapidly-rotating, oblate star. The planet's orbit has a sky-projected misalignment of -32° with respect to the stellar equator, while the derived true orbital obliquity is 73°.</description>
+			<mass errorminus="0.01542" errorplus="0.03398">0.01888</mass>
+			<radius errorminus="0.018" errorplus="0.018">0.357</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2011</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/11/05</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

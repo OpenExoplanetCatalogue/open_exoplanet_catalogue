@@ -1,0 +1,36 @@
+<system>
+	<name>TOI-954</name>
+	<rightascension>04 07 46</rightascension>
+	<declination>-25 12 32</declination>
+	<distance errorminus="2.56" errorplus="2.56">235.74</distance>
+	<star>
+		<name>TOI-954</name>
+		<radius errorminus="0.08" errorplus="0.08">1.89</radius>
+		<magV errorminus="0.005" errorplus="0.005">10.343</magV>
+		<magJ errorminus="0.021" errorplus="0.021">9.180</magJ>
+		<magH errorminus="0.024" errorplus="0.024">8.891</magH>
+		<magK errorminus="0.021" errorplus="0.021">8.779</magK>
+		<mass errorminus="0.06" errorplus="0.07">1.20</mass>
+		<temperature errorminus="49.00" errorplus="53.00">5710.00</temperature>
+		<metallicity errorminus="0.051" errorplus="0.050">0.215</metallicity>
+		<planet>
+			<name>TOI-954 b</name>
+			<semimajoraxis errorminus="0.000900" errorplus="0.000890">0.049630</semimajoraxis>
+			<eccentricity errorminus="0.110000" errorplus="0.180000">0.140000</eccentricity>
+			<periastron errorminus="174.0000" errorplus="9.0000">276.0000</periastron>
+			<inclination errorminus="0.600" errorplus="2.500">84.400</inclination>
+			<period errorminus="0.00000280" errorplus="0.00000270">3.68497290</period>
+			<description>This planet was discovered by Sha et al. 2020. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here are those reported by Sha et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.01700" errorplus="0.01800">0.17400</mass>
+			<radius errorminus="0.062" errorplus="0.053">0.852</radius>
+			<temperature errorminus="164" errorplus="123">1526</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/11/19</lastupdate>
+			<transittime errorminus="0.000780" errorplus="0.000840">2458411.906510</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

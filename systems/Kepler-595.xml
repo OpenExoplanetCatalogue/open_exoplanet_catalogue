@@ -1,34 +1,40 @@
 <system>
 	<name>Kepler-595</name>
-	<name>KOI-547</name>
-	<name>KIC 12116489</name>
-	<distance errorminus="7.8534" errorplus="7.8534">655.093</distance>
-	<rightascension>19 38 16.8884</rightascension>
-	<declination>+50 40 22.8607</declination>
+	<rightascension>19 38 17</rightascension>
+	<declination>+50 40 23</declination>
+	<distance errorminus="31.97" errorplus="45.22">639.00</distance>
 	<star>
 		<name>Kepler-595</name>
-		<name>KOI-547</name>
-		<name>KIC 12116489</name>
-		<name>2MASS J19381689+5040228</name>
-		<name>Gaia DR2 2135237601028549888</name>
-		<temperature errorminus="79.7" errorplus="59.0">5247.0</temperature>
-		<mass errorminus="0.04" errorplus="0.04">0.87</mass>
-		<radius errorminus="0.04" errorplus="0.06">0.83</radius>
-		<metallicity errorminus="0.16" errorplus="0.15">0.08</metallicity>
+		<radius errorminus="0.24" errorplus="0.24">0.82</radius>
+		<magJ errorminus="0.022" errorplus="0.022">13.335</magJ>
+		<magH errorminus="0.021" errorplus="0.021">12.940</magH>
+		<magK errorminus="0.029" errorplus="0.029">12.862</magK>
+		<mass errorminus="0.06" errorplus="0.06">0.93</mass>
 		<planet>
 			<name>Kepler-595 b</name>
-			<name>KOI-547 b</name>
-			<name>KOI-547.01</name>
-			<name>KIC 12116489 b</name>
-			<name>Gaia DR2 2135237601028549888 b</name>
+			<period errorminus="0.00000600" errorplus="0.00000600">25.30290920</period>
+			<description>This planet was discovered by Morton et al. 2016. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Yoffe et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.01196" errorplus="0.02234">0.05475</mass>
+			<radius errorminus="0.001" errorplus="0.001">0.331</radius>
 			<discoverymethod>transit</discoverymethod>
-			<list>Confirmed planets</list>
-			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
-			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000030030" errorplus="0.000030030">25.302923320</period>
-			<radius errorminus="0.015" errorplus="0.025">0.340</radius>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/11/19</lastupdate>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>Kepler-595 c</name>
+			<period errorminus="0.00000500" errorplus="0.00000500">12.38602000</period>
+			<description>This planet was discovered by Yoffe et al. 2020. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Yoffe et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00315" errorplus="0.00535">0.01038</mass>
+			<radius errorminus="0.002" errorplus="0.002">0.090</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/11/19</lastupdate>
+			<new>1</new>
 		</planet>
 	</star>
 </system>
