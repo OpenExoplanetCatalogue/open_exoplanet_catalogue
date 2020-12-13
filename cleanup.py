@@ -306,8 +306,6 @@ def checkonefile(filename):
                 year = int(year)
                 if year>=1992:
                     discoveryyears[year] +=1
-            else:
-                print(filename)
             mass = planet.findtext("./mass")
             if mass is not None:
                 try:
