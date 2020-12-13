@@ -1,0 +1,31 @@
+<system>
+	<name>HAT-P-68</name>
+	<rightascension>07 54 56.00</rightascension>
+	<declination>+23 56 18.00</declination>
+	<distance errorminus="0.97" errorplus="0.97">202.0</distance>
+	<star>
+		<name>HAT-P-68</name>
+		<radius errorminus="0.0032" errorplus="0.0041">0.67</radius>
+		<magV>14.0</magV>
+		<mass errorminus="0.0079" errorplus="0.03">0.6785</mass>
+		<temperature errorminus="43.0" errorplus="43.0">4508.0</temperature>
+		<metallicity errorminus="0.036" errorplus="0.036">-0.06</metallicity>
+		<planet>
+			<name>HAT-P-68 b</name>
+			<semimajoraxis errorminus="0.00012" errorplus="0.00043">0.02996</semimajoraxis>
+			<eccentricity upperlimit="0.041" />
+			<inclination errorminus="0.27" errorplus="0.47">88.73</inclination>
+			<period errorminus="5.2e07" errorplus="5.2e-07">2.29840551</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.043" errorplus="0.043">0.724</mass>
+			<radius errorminus="0.012" errorplus="0.012">1.072</radius>
+			<temperature errorminus="8.0" errorplus="8.0">1028.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/11/02</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

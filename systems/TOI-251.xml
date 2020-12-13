@@ -1,0 +1,30 @@
+<system>
+	<name>TOI-251</name>
+	<rightascension>23 32 15.00</rightascension>
+	<declination>-37 15 21.00</declination>
+	<distance errorminus="0.044" errorplus="0.044">99.52</distance>
+	<star>
+		<name>TOI-251</name>
+		<radius errorminus="0.047" errorplus="0.038">0.881</radius>
+		<magV>9.9</magV>
+		<mass errorminus="0.009" errorplus="0.013">1.036</mass>
+		<temperature errorminus="190.0" errorplus="100.0">5875.0</temperature>
+		<metallicity errorminus="0.07" errorplus="0.079">-0.106</metallicity>
+		<planet>
+			<name>TOI-251 b</name>
+			<semimajoraxis errorminus="0.00017" errorplus="0.00023">0.05741</semimajoraxis>
+			<eccentricity>0.0</eccentricity>
+			<inclination errorminus="0.31" errorplus="0.4">87.52</inclination>
+			<period errorminus="2.9e05" errorplus="2.9e-05">4.93777</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass upperlimit="1.0" />
+			<radius errorminus="0.0161" errorplus="0.0161">0.2444</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/11/30</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

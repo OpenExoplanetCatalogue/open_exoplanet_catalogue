@@ -1,0 +1,29 @@
+<system>
+	<name>TOI-237</name>
+	<rightascension>23 32 58.00</rightascension>
+	<declination>-29 24 54.00</declination>
+	<distance errorminus="0.23" errorplus="0.23">38.11</distance>
+	<star>
+		<name>TOI-237</name>
+		<radius errorminus="0.006" errorplus="0.006">0.211</radius>
+		<magV>16.4</magV>
+		<mass errorminus="0.004" errorplus="0.004">0.179</mass>
+		<temperature errorminus="100.0" errorplus="100.0">3212.0</temperature>
+		<planet>
+			<name>TOI-237 b</name>
+			<semimajoraxis errorminus="0.001" errorplus="0.001">0.0341</semimajoraxis>
+			<inclination errorminus="0.6" errorplus="0.4">89.5</inclination>
+			<period errorminus="3.9e05" errorplus="3.9e-05">5.436098</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.003" errorplus="0.006">0.009</mass>
+			<radius errorminus="0.0107" errorplus="0.0107">0.1285</radius>
+			<temperature>355.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/11/02</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

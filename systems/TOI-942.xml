@@ -1,0 +1,45 @@
+<system>
+	<name>TOI-942</name>
+	<rightascension>05 06 36.00</rightascension>
+	<declination>-20 14 44.00</declination>
+	<star>
+		<name>TOI-942</name>
+		<radius errorminus="0.052" errorplus="0.071">0.893</radius>
+		<magV>12.0</magV>
+		<mass errorminus="0.04" errorplus="0.04">0.88</mass>
+		<temperature errorminus="100.0" errorplus="100.0">4969.0</temperature>
+		<planet>
+			<name>TOI-942 b</name>
+			<semimajoraxis errorminus="0.00065" errorplus="0.00073">0.04796</semimajoraxis>
+			<eccentricity>0.0</eccentricity>
+			<periastron errorminus="46.0" errorplus="46.0">268.0</periastron>
+			<inclination errorminus="0.51" errorplus="0.34">89.97</inclination>
+			<period errorminus="0.0011" errorplus="0.0011">4.3263</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<radius errorminus="0.02792" errorplus="0.03354">0.37845</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/11/30</lastupdate>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>TOI-942 c</name>
+			<semimajoraxis errorminus="0.0014" errorplus="0.0014">0.088</semimajoraxis>
+			<eccentricity errorminus="0.1" errorplus="0.14">0.175</eccentricity>
+			<periastron errorminus="58.0" errorplus="58.0">268.0</periastron>
+			<inclination errorminus="0.6" errorplus="0.6">89.2</inclination>
+			<period errorminus="0.0053" errorplus="0.0056">10.1605</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass upperlimit="0.116" />
+			<radius errorminus="0.03131" errorplus="0.0366">0.42761</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/11/30</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

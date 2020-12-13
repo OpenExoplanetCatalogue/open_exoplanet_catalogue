@@ -1,0 +1,29 @@
+<system>
+	<name>TOI-122</name>
+	<rightascension>22 11 47.00</rightascension>
+	<declination>-58 56 42.00</declination>
+	<distance errorminus="0.21" errorplus="0.21">62.23</distance>
+	<star>
+		<name>TOI-122</name>
+		<radius errorminus="0.01" errorplus="0.01">0.334</radius>
+		<magV>15.5</magV>
+		<mass errorminus="0.007" errorplus="0.007">0.312</mass>
+		<temperature errorminus="100.0" errorplus="100.0">3403.0</temperature>
+		<planet>
+			<name>TOI-122 b</name>
+			<semimajoraxis errorminus="0.0007" errorplus="0.0007">0.0392</semimajoraxis>
+			<inclination errorminus="0.4" errorplus="0.6">88.4</inclination>
+			<period errorminus="1.5e05" errorplus="1.5e-05">5.07803</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.0098" errorplus="0.028">0.0277</mass>
+			<radius errorminus="0.0161" errorplus="0.0161">0.2427</radius>
+			<temperature>431.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/11/05</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>
