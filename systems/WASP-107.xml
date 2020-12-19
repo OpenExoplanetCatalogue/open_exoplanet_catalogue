@@ -1,35 +1,45 @@
 <system>
 	<name>WASP-107</name>
-	<rightascension>12 33 32.8440</rightascension>
-	<declination>-10 51 14</declination>
-	<distance errorminus="0.3" errorplus="0.3">64.9</distance>
+	<rightascension>12 33 33</rightascension>
+	<declination>-10 08 46</declination>
+	<distance errorminus="0.30" errorplus="0.30">64.70</distance>
 	<star>
 		<name>WASP-107</name>
-		<name>Gaia DR2 3578638842054261248</name>
-		<name>TYC 5530-1795-1</name>
-		<radius>0.66</radius>
-		<mass>0.69</mass>
+		<radius errorminus="0.02" errorplus="0.02">0.67</radius>
+		<magV errorminus="0.196" errorplus="0.196">11.471</magV>
+		<magJ errorminus="0.021" errorplus="0.021">9.378</magJ>
+		<magH errorminus="0.026" errorplus="0.026">8.777</magH>
+		<magK errorminus="0.023" errorplus="0.023">8.637</magK>
+		<mass errorminus="0.02" errorplus="0.02">0.68</mass>
+		<temperature errorminus="70.00" errorplus="70.00">4425.00</temperature>
+		<metallicity errorminus="0.090" errorplus="0.090">0.020</metallicity>
 		<spectraltype>K6</spectraltype>
-		<magB errorminus="1.20" errorplus="1.20">14.62</magB>
-		<magV errorminus="0.20" errorplus="0.20">11.47</magV>
-		<temperature>4430.0</temperature>
-		<metallicity>0.02</metallicity>
 		<planet>
 			<name>WASP-107 b</name>
-			<name>Gaia DR2 3578638842054261248 b</name>
-			<name>TYC 5530-1795-1 b</name>
-			<semimajoraxis errorminus="0.001" errorplus="0.001">0.055</semimajoraxis>
-			<eccentricity>0.0</eccentricity>
-			<longitude errorminus="50.0" errorplus="50.0">90.0</longitude>
-			<inclination errorminus="0.2" errorplus="0.2">89.7</inclination>
-			<period errorminus="0.000002" errorplus="0.000002">5.72149</period>
-			<mass errorminus="0.01" errorplus="0.01">0.12</mass>
-			<radius errorminus="0.02" errorplus="0.02">0.94</radius>
+			<eccentricity errorminus="0.040000" errorplus="0.040000">0.060000</eccentricity>
+			<periastron errorminus="60.0000" errorplus="40.0000">40.0000</periastron>
+			<period>5.72147420</period>
+			<description>This planet was discovered by Anderson et al. 2017. This was a ground based discovery. The parameters listed here are those reported by Piaulet et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00500" errorplus="0.00500">0.09600</mass>
+			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
 			<discoveryyear>2017</discoveryyear>
-			<lastupdate>17/02/17</lastupdate>
 			<list>Confirmed planets</list>
-			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+			<lastupdate>20/12/17</lastupdate>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>WASP-107 c</name>
+			<eccentricity errorminus="0.070000" errorplus="0.070000">0.280000</eccentricity>
+			<periastron errorminus="20.0000" errorplus="30.0000">-120.0000</periastron>
+			<period errorminus="16.00000000" errorplus="15.00000000">1088.00000000</period>
+			<description>This planet was discovered by Piaulet et al. 2020. This was a ground based discovery. The parameters listed here are those reported by Piaulet et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.04000" errorplus="0.04000">0.36000</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/12/17</lastupdate>
+			<new>1</new>
 		</planet>
 	</star>
 </system>

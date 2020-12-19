@@ -1,0 +1,34 @@
+<system>
+	<name>WASP-187</name>
+	<rightascension>01 09 54</rightascension>
+	<declination>+25 40 54</declination>
+	<distance errorminus="0.45" errorplus="0.45">375.52</distance>
+	<star>
+		<name>WASP-187</name>
+		<radius errorminus="0.05" errorplus="0.05">2.83</radius>
+		<magJ errorminus="0.021" errorplus="0.021">9.117</magJ>
+		<magH errorminus="0.023" errorplus="0.023">8.906</magH>
+		<magK errorminus="0.018" errorplus="0.018">8.790</magK>
+		<mass errorminus="0.09" errorplus="0.09">1.54</mass>
+		<temperature errorminus="85.00" errorplus="92.00">6150.00</temperature>
+		<metallicity errorminus="0.110" errorplus="0.110">0.000</metallicity>
+		<spectraltype>F</spectraltype>
+		<planet>
+			<name>WASP-187 b</name>
+			<semimajoraxis errorminus="0.001300" errorplus="0.001300">0.065300</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<periastron>0.0000</periastron>
+			<period errorminus="0.00000900" errorplus="0.00000500">5.14787800</period>
+			<description>This planet was discovered by Schanche et al. 2020. This was a ground based discovery. The parameters listed here are those reported by Schanche et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.09000" errorplus="0.09000">0.80000</mass>
+			<radius errorminus="0.050" errorplus="0.050">1.640</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/12/17</lastupdate>
+			<transittime errorminus="0.002200" errorplus="0.002000">2455197.352900</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

@@ -1,0 +1,36 @@
+<system>
+	<name>HD 190007</name>
+	<name>HIP 98698</name>
+	<rightascension>20 02 47</rightascension>
+	<declination>+03 19 34</declination>
+	<distance errorminus="0.01" errorplus="0.01">12.72</distance>
+	<star>
+		<name>HD 190007</name>
+		<name>HIP 98698</name>
+		<radius errorminus="0.04" errorplus="0.04">0.79</radius>
+		<magV>7.458</magV>
+		<magI>6.253</magI>
+		<magJ errorminus="0.024" errorplus="0.024">5.476</magJ>
+		<magH errorminus="0.026" errorplus="0.026">4.956</magH>
+		<magK errorminus="0.017" errorplus="0.017">4.796</magK>
+		<mass errorminus="0.02" errorplus="0.02">0.77</mass>
+		<temperature errorminus="20.00" errorplus="20.00">4610.00</temperature>
+		<metallicity errorminus="0.050" errorplus="0.050">0.160</metallicity>
+		<spectraltype>K3/4V</spectraltype>
+		<planet>
+			<name>HD 190007 b</name>
+			<name>HIP 98698 b</name>
+			<semimajoraxis errorminus="0.000800" errorplus="0.000800">0.092000</semimajoraxis>
+			<eccentricity errorminus="0.070000" errorplus="0.070000">0.140000</eccentricity>
+			<periastron errorminus="109.9300" errorplus="109.9300">254.6400</periastron>
+			<period errorminus="0.00100000" errorplus="0.00100000">11.72000000</period>
+			<description>This planet was discovered by Burt et al. 2020. This was a ground based discovery. The parameters listed here are those reported by Burt et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00522" errorplus="0.00522">0.05179</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/12/17</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>
