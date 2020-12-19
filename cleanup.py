@@ -23,7 +23,7 @@ issues = 0
 xmlerrors = 0
 fileschanged = 0
 lastUpdateGlobal = 0
-discoveryyears = {y:0 for y in range(1992,datetime.date.today().year+1)}
+discoveryyears = {y:0 for y in range(1992,datetime.date.today().year+2)}
 
 
 # Calculate md5 hash to check for changes in file.
