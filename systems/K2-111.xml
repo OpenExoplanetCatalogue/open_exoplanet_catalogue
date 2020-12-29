@@ -1,0 +1,53 @@
+<system>
+	<name>K2-111</name>
+	<name>EPIC 210894022</name>
+	<rightascension>03 59 34</rightascension>
+	<declination>+21 17 55</declination>
+	<distance errorminus="2.70" errorplus="2.70">201.70</distance>
+	<star>
+		<name>K2-111</name>
+		<name>EPIC 210894022</name>
+		<radius errorminus="0.02" errorplus="0.02">1.25</radius>
+		<magV errorminus="0.040" errorplus="0.040">11.137</magV>
+		<magJ errorminus="0.023" errorplus="0.023">9.768</magJ>
+		<magH errorminus="0.025" errorplus="0.025">9.477</magH>
+		<magK errorminus="0.021" errorplus="0.021">9.377</magK>
+		<mass errorminus="0.02" errorplus="0.02">0.84</mass>
+		<temperature errorminus="60.00" errorplus="60.00">5775.00</temperature>
+		<metallicity errorminus="0.050" errorplus="0.050">-0.460</metallicity>
+		<spectraltype>G2</spectraltype>
+		<planet>
+			<name>K2-111 b</name>
+			<name>EPIC 210894022 b</name>
+			<semimajoraxis errorminus="0.001200" errorplus="0.001200">0.057000</semimajoraxis>
+			<eccentricity errorminus="0.090000" errorplus="0.130000">0.130000</eccentricity>
+			<periastron errorminus="27.5000" errorplus="73.9000">-69.3000</periastron>
+			<inclination errorminus="0.210" errorplus="0.370">86.430</inclination>
+			<period errorminus="0.00040000" errorplus="0.00040000">5.35180000</period>
+			<description>This planet was discovered by Fridlund et al. 2017. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Mortier et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00242" errorplus="0.00239">0.01664</mass>
+			<radius errorminus="0.008" errorplus="0.010">0.162</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2017</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/12/17</lastupdate>
+			<transittime errorminus="0.001800" errorplus="0.001900">2457100.076800</transittime>
+		</planet>
+		<planet>
+			<name>K2-111 c</name>
+			<name>EPIC 210894022 c</name>
+			<semimajoraxis errorminus="0.002500" errorplus="0.002500">0.116600</semimajoraxis>
+			<eccentricity errorminus="0.050000" errorplus="0.070000">0.070000</eccentricity>
+			<periastron errorminus="150.1000" errorplus="96.3000">-79.6000</periastron>
+			<period errorminus="0.00630000" errorplus="0.00640000">15.67850000</period>
+			<description>This planet was discovered by Mortier et al. 2020. This was a ground based discovery. The parameters listed here are those reported by Mortier et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00346" errorplus="0.00346">0.03555</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>20/12/17</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>
