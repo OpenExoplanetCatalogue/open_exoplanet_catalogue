@@ -1,10 +1,12 @@
 <system>
 	<name>WASP-187</name>
-	<rightascension>01 09 54</rightascension>
-	<declination>+25 40 54</declination>
+	<rightascension>01 09 53.9653</rightascension>
+	<declination>+25 40 54.1037</declination>
 	<distance errorminus="0.45" errorplus="0.45">375.52</distance>
 	<star>
 		<name>WASP-187</name>
+		<name>Gaia DR2 306410392895767680</name>
+		<name>TYC 1750-1336-1</name>
 		<radius errorminus="0.05" errorplus="0.05">2.83</radius>
 		<magJ errorminus="0.021" errorplus="0.021">9.117</magJ>
 		<magH errorminus="0.023" errorplus="0.023">8.906</magH>
@@ -15,6 +17,8 @@
 		<spectraltype>F</spectraltype>
 		<planet>
 			<name>WASP-187 b</name>
+			<name>Gaia DR2 306410392895767680 b</name>
+			<name>TYC 1750-1336-1 b</name>
 			<semimajoraxis errorminus="0.001300" errorplus="0.001300">0.065300</semimajoraxis>
 			<eccentricity>0.000000</eccentricity>
 			<periastron>0.0000</periastron>
