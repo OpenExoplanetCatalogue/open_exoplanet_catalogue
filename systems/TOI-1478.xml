@@ -1,0 +1,32 @@
+<system>
+	<name>TOI-1478</name>
+	<rightascension>08 25 44.00</rightascension>
+	<declination>-13 33 35.00</declination>
+	<distance errorminus="1.0" errorplus="1.0">153.0</distance>
+	<star>
+		<name>TOI-1478</name>
+		<radius errorminus="0.03" errorplus="0.03">1.05</radius>
+		<magV>10.8</magV>
+		<mass errorminus="0.04" errorplus="0.06">0.946</mass>
+		<temperature errorminus="83.0" errorplus="83.0">5595.0</temperature>
+		<metallicity errorminus="0.07" errorplus="0.07">0.08</metallicity>
+		<planet>
+			<name>TOI-1478 b</name>
+			<semimajoraxis errorminus="0.0013" errorplus="0.0018">0.0903</semimajoraxis>
+			<eccentricity errorminus="0.018" errorplus="0.033">0.025</eccentricity>
+			<periastron errorminus="130.0" errorplus="130.0">100.0</periastron>
+			<inclination errorminus="0.22" errorplus="0.3">88.51</inclination>
+			<period errorminus="1.5e05" errorplus="1.5e-05">10.180249</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.048" errorplus="0.052">0.847</mass>
+			<radius errorminus="0.04" errorplus="0.04">1.06</radius>
+			<temperature errorminus="11.0" errorplus="11.0">918.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/01/07</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

@@ -1,0 +1,32 @@
+<system>
+	<name>TOI-1601</name>
+	<rightascension>02 33 27.00</rightascension>
+	<declination>+41 00 48.00</declination>
+	<distance errorminus="5.0" errorplus="5.0">336.0</distance>
+	<star>
+		<name>TOI-1601</name>
+		<radius errorminus="0.063" errorplus="0.074">2.186</radius>
+		<magV>10.7</magV>
+		<mass errorminus="0.049" errorplus="0.053">1.517</mass>
+		<temperature errorminus="90.0" errorplus="90.0">5948.0</temperature>
+		<metallicity errorminus="0.075" errorplus="0.075">0.329</metallicity>
+		<planet>
+			<name>TOI-1601 b</name>
+			<semimajoraxis errorminus="0.0075" errorplus="0.0079">0.06864</semimajoraxis>
+			<eccentricity errorminus="0.026" errorplus="0.044">0.036</eccentricity>
+			<periastron errorminus="100.0" errorplus="110.0">180.0</periastron>
+			<inclination errorminus="1.1" errorplus="0.8">88.84</inclination>
+			<period errorminus="1.1e05" errorplus="1.1e-05">5.331751</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.11" errorplus="0.11">0.99</mass>
+			<radius errorminus="0.039" errorplus="0.046">1.239</radius>
+			<temperature errorminus="24.0" errorplus="24.0">1619.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/01/07</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

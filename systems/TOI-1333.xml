@@ -1,0 +1,32 @@
+<system>
+	<name>TOI-1333</name>
+	<rightascension>21 40 04.00</rightascension>
+	<declination>+48 24 25.00</declination>
+	<distance errorminus="1.5" errorplus="1.5">200.4</distance>
+	<star>
+		<name>TOI-1333</name>
+		<radius errorminus="0.064" errorplus="0.064">1.925</radius>
+		<magV>9.5</magV>
+		<mass errorminus="0.08" errorplus="0.08">1.464</mass>
+		<temperature errorminus="97.0" errorplus="97.0">6274.0</temperature>
+		<metallicity errorminus="0.08" errorplus="0.08">0.12</metallicity>
+		<planet>
+			<name>TOI-1333 b</name>
+			<semimajoraxis errorminus="0.0012" errorplus="0.0012">0.0626</semimajoraxis>
+			<eccentricity errorminus="0.052" errorplus="0.092">0.073</eccentricity>
+			<periastron errorminus="40.0" errorplus="64.0">105.0</periastron>
+			<inclination errorminus="0.65" errorplus="1.3">85.7</inclination>
+			<period errorminus="1.1e05" errorplus="1.1e-05">4.720219</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.24" errorplus="0.24">2.37</mass>
+			<radius errorminus="0.056" errorplus="0.056">1.396</radius>
+			<temperature errorminus="35.0" errorplus="35.0">1679.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/01/07</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

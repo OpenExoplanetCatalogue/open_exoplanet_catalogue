@@ -1,0 +1,35 @@
+<system>
+	<name>TOI-628</name>
+	<name>HD 288842</name>
+	<rightascension>06 37 03.00</rightascension>
+	<declination>+01 46 03.00</declination>
+	<distance errorminus="4.0" errorplus="4.0">178.5</distance>
+	<star>
+		<name>TOI-628</name>
+		<name>HD 288842</name>
+		<radius errorminus="0.04" errorplus="0.046">1.345</radius>
+		<magV>10.0</magV>
+		<mass errorminus="0.075" errorplus="0.066">1.311</mass>
+		<temperature errorminus="190.0" errorplus="220.0">6250.0</temperature>
+		<metallicity errorminus="0.08" errorplus="0.08">0.26</metallicity>
+		<planet>
+			<name>TOI-628 b</name>
+			<name>HD 288842 b</name>
+			<semimajoraxis errorminus="0.00094" errorplus="0.0008">0.0486</semimajoraxis>
+			<eccentricity errorminus="0.02" errorplus="0.02">0.07</eccentricity>
+			<periastron errorminus="15.0" errorplus="15.0">286.0</periastron>
+			<inclination errorminus="1.0" errorplus="1.0">88.4</inclination>
+			<period errorminus="7e06" errorplus="7e-06">3.4095675</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.3" errorplus="0.3">6.33</mass>
+			<radius errorminus="0.034" errorplus="0.06">1.06</radius>
+			<temperature errorminus="40.0" errorplus="52.0">1586.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/01/07</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

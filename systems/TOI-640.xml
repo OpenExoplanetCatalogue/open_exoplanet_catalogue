@@ -1,0 +1,32 @@
+<system>
+	<name>TOI-640</name>
+	<rightascension>06 38 56.00</rightascension>
+	<declination>-36 38 46.00</declination>
+	<distance errorminus="3.5" errorplus="3.5">341.9</distance>
+	<star>
+		<name>TOI-640</name>
+		<radius errorminus="0.058" errorplus="0.064">2.082</radius>
+		<magV>10.5</magV>
+		<mass errorminus="0.076" errorplus="0.069">1.536</mass>
+		<temperature errorminus="150.0" errorplus="130.0">6460.0</temperature>
+		<metallicity errorminus="0.08" errorplus="0.09">0.174</metallicity>
+		<planet>
+			<name>TOI-640 b</name>
+			<semimajoraxis errorminus="0.001" errorplus="0.001">0.06608</semimajoraxis>
+			<eccentricity errorminus="0.035" errorplus="0.054">0.05</eccentricity>
+			<periastron errorminus="99.0" errorplus="86.0">159.0</periastron>
+			<inclination errorminus="0.6" errorplus="0.4">82.54</inclination>
+			<period errorminus="4.8e06" errorplus="4.8e-06">5.0037775</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.16" errorplus="0.16">0.88</mass>
+			<radius errorminus="0.06" errorplus="0.06">1.771</radius>
+			<temperature errorminus="30.0" errorplus="30.0">1749.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/01/07</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>
