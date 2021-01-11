@@ -1,0 +1,56 @@
+<system>
+	<name>TOI-776</name>
+	<rightascension>11 54 18</rightascension>
+	<declination>-37 33 10</declination>
+	<distance errorminus="0.03" errorplus="0.03">27.19</distance>
+	<star>
+		<name>TOI-776</name>
+		<radius errorminus="0.02" errorplus="0.02">0.54</radius>
+		<magV errorminus="0.040" errorplus="0.040">11.540</magV>
+		<magJ errorminus="0.005" errorplus="0.005">8.483</magJ>
+		<magH errorminus="0.037" errorplus="0.037">7.877</magH>
+		<magK errorminus="0.013" errorplus="0.013">7.615</magK>
+		<mass errorminus="0.03" errorplus="0.03">0.54</mass>
+		<temperature errorminus="70.00" errorplus="70.00">3709.00</temperature>
+		<metallicity errorminus="0.120" errorplus="0.120">-0.200</metallicity>
+		<spectraltype>M1V</spectraltype>
+		<planet>
+			<name>TOI-776 b</name>
+			<semimajoraxis errorminus="0.001500" errorplus="0.001500">0.065200</semimajoraxis>
+			<eccentricity errorminus="0.020000" errorplus="0.030000">0.060000</eccentricity>
+			<periastron errorminus="73.0000" errorplus="117.0000">-67.0000</periastron>
+			<inclination errorminus="0.370" errorplus="0.220">89.650</inclination>
+			<period errorminus="0.00004000" errorplus="0.00005000">8.24661000</period>
+			<description>This planet was discovered by Luque et al. 2020. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here are those reported by Luque et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00283" errorplus="0.00283">0.01259</mass>
+			<radius errorminus="0.012" errorplus="0.012">0.165</radius>
+			<temperature errorminus="17" errorplus="17">514</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/01/11</lastupdate>
+			<transittime errorminus="0.001100" errorplus="0.001000">2458571.416700</transittime>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>TOI-776 c</name>
+			<semimajoraxis errorminus="0.002400" errorplus="0.002400">0.100000</semimajoraxis>
+			<eccentricity errorminus="0.010000" errorplus="0.020000">0.040000</eccentricity>
+			<periastron errorminus="79.0000" errorplus="55.0000">-11.0000</periastron>
+			<inclination errorminus="0.210" errorplus="0.250">89.510</inclination>
+			<period errorminus="0.00030000" errorplus="0.00040000">15.66530000</period>
+			<description>This planet was discovered by Luque et al. 2020. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here are those reported by Luque et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00566" errorplus="0.00566">0.01668</mass>
+			<radius errorminus="0.012" errorplus="0.012">0.180</radius>
+			<temperature errorminus="14" errorplus="14">415</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/01/11</lastupdate>
+			<transittime errorminus="0.001600" errorplus="0.001800">2458572.599900</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>
