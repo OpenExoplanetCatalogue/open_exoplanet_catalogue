@@ -1,0 +1,44 @@
+<system>
+	<name>NGTS-14</name>
+	<rightascension>21 54 04.00</rightascension>
+	<declination>-38 22 39.00</declination>
+	<distance errorminus="3.1" errorplus="3.1">325.1</distance>
+	<binary>
+		<semimajoraxis errorminus="17" errorplus="17">1137</semimajoraxis>
+		<star>
+			<name>NGTS-14 A</name>
+			<name>TIC 197643976</name>
+			<radius errorminus="0.006" errorplus="0.006">0.842</radius>
+			<magV>13.2</magV>
+			<mass errorminus="0.035" errorplus="0.035">0.898</mass>
+			<temperature errorminus="11.0" errorplus="11.0">5187.0</temperature>
+			<metallicity errorminus="0.03" errorplus="0.03">0.1</metallicity>
+			<spectraltype>K1V</spectraltype>
+			<planet>
+				<name>NGTS-14 A b</name>
+				<name>TIC 197643976 b</name>
+				<semimajoraxis errorminus="0.0071" errorplus="0.0071">0.0403</semimajoraxis>
+				<eccentricity>0.0</eccentricity>
+				<inclination errorminus="1.7" errorplus="1.7">86.7</inclination>
+				<period errorminus="0.000001" errorplus="0.000001">3.5357173</period>
+				<description>This Neptune-sized exoplanet is orbiting a star in a binary system. It was discovered with the Next Generation Transit Survey NGTS.</description>
+				<mass errorminus="0.012" errorplus="0.012">0.092</mass>
+				<radius errorminus="0.03" errorplus="0.03">0.44</radius>
+				<temperature errorminus="139.0" errorplus="139.0">1143.0</temperature>
+				<discoverymethod>transit</discoverymethod>
+				<istransiting>1</istransiting>
+				<discoveryyear>2021</discoveryyear>
+				<list>Confirmed planets</list>
+				<lastupdate>21/01/12</lastupdate>
+				<new>1</new>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+		<star>
+			<name>NGTS-14 B</name>
+			<name>TIC 197641898</name>
+			<spectraltype>M3V</spectraltype>
+			<mass>0.3</mass>
+		</star>
+	</binary>
+</system>
