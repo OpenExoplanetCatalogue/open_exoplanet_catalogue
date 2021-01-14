@@ -1,0 +1,44 @@
+<system>
+	<name>TOI-1259</name>
+	<rightascension>18 48 24.00</rightascension>
+	<declination>+79 15 22.00</declination>
+	<distance errorminus="0.37" errorplus="0.37">118.11</distance>
+	<binary>
+		<semimajoraxis>1600</semimajoraxis>
+		<star>
+			<name>TOI-1259 A</name>
+			<name>TIC 288735205</name>
+			<radius errorminus="0.031" errorplus="0.031">0.739</radius>
+			<mass errorminus="0.01" errorplus="0.1">0.68</mass>
+			<temperature errorminus="100.0" errorplus="100.0">4775.0</temperature>
+			<metallicity errorminus="0.5" errorplus="0.5">-0.5</metallicity>
+			<planet>
+				<name>TOI-1259 A b</name>
+				<name>TIC 288735205 b</name>
+				<semimajoraxis errorminus="0.00114" errorplus="0.00114">0.0407</semimajoraxis>
+				<eccentricity>0.0</eccentricity>
+				<inclination errorminus="0.26" errorplus="0.2">89.7</inclination>
+				<period errorminus="0.000002" errorplus="0.000002">3.47798</period>
+				<description>The planet TOI-1259 A b is a gas giant transiting a K-dwarf star. It is a promising target for atmospheric characterization. The system also contains a bound white dwarf companion TOI-1259 B at a distance of approximately 1600 AU.</description>
+				<mass errorminus="0.049" errorplus="0.049">0.441</mass>
+				<radius errorminus="0.03" errorplus="0.03">1.022</radius>
+				<temperature errorminus="21.0" errorplus="21.0">963.0</temperature>
+				<discoverymethod>transit</discoverymethod>
+				<istransiting>1</istransiting>
+				<discoveryyear>2021</discoveryyear>
+				<list>Confirmed planets</list>
+				<lastupdate>21/01/11</lastupdate>
+				<new>1</new>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+		<star>
+			<name>TOI-1259 B</name>
+			<name>TIC 1718312312</name>
+			<mass errorminus="0.021" errorplus="0.021">0.561</mass>
+			<radius errorminus="0.0003" errorplus="0.0003">0.0131</radius>
+			<temperature errorminus="70" errorplus="80">6300</temperature>
+			<age errorminus="0.53" errorplus="1.21">4.08</age>
+		</star>
+	</binary>
+</system>
