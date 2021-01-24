@@ -1,0 +1,79 @@
+<system>
+	<name>TOI-451</name>
+	<rightascension>04 11 52.00</rightascension>
+	<declination>-37 56 23.00</declination>
+	<distance errorminus="0.39" errorplus="0.39">123.74</distance>
+	<binary>
+		<semimajoraxis>4700</semimajoraxis>
+		<star>
+			<name>TOI-451 B</name>
+			<mass>0.45</mass>
+		</star>
+		<star>
+			<name>TOI-451</name>
+			<name>TIC 257605131</name>
+			<radius errorminus="0.032" errorplus="0.032">0.879</radius>
+			<magV>11.0</magV>
+			<mass errorminus="0.02" errorplus="0.02">0.95</mass>
+			<temperature errorminus="56.0" errorplus="56.0">5550.0</temperature>
+			<age>0.120</age>
+			<planet>
+				<name>TOI-451 b</name>
+				<name>TIC 257605131 b</name>
+				<semimajoraxis errorminus="0.0038" errorplus="0.0023">0.0271</semimajoraxis>
+				<eccentricity errorminus="0.14" errorplus="0.2">0.19</eccentricity>
+				<periastron errorminus="48.0" errorplus="85.0">238.0</periastron>
+				<inclination errorminus="2.9" errorplus="2.3">86.5</inclination>
+				<period errorminus="0.000033" errorplus="0.000027">1.858701</period>
+				<description>This planet is orbiting a 120 Myr old star in the Pisces–Eridanus stream. It was discovered by THYME survey (TESS Hunt for Young and Maturing Exoplanets).</description>
+				<radius errorminus="0.0134" errorplus="0.0116">0.1731</radius>
+				<temperature errorminus="60.0" errorplus="100.0">1524.0</temperature>
+				<discoverymethod>transit</discoverymethod>
+				<istransiting>1</istransiting>
+				<discoveryyear>2021</discoveryyear>
+				<list>Confirmed planets</list>
+				<lastupdate>21/01/15</lastupdate>
+				<new>1</new>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+			<planet>
+				<name>TOI-451 c</name>
+				<name>TIC 257605131 c</name>
+				<semimajoraxis errorminus="0.0036" errorplus="0.0033">0.0823</semimajoraxis>
+				<eccentricity errorminus="0.14" errorplus="0.18">0.2</eccentricity>
+				<periastron errorminus="63.0" errorplus="63.0">266.0</periastron>
+				<inclination errorminus="0.67" errorplus="0.95">88.49</inclination>
+				<period errorminus="0.000684" errorplus="0.000064">9.192523</period>
+				<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+				<radius errorminus="0.0116" errorplus="0.0116">0.277</radius>
+				<temperature errorminus="56.0" errorplus="53.0">903.0</temperature>
+				<discoverymethod>transit</discoverymethod>
+				<istransiting>1</istransiting>
+				<discoveryyear>2021</discoveryyear>
+				<list>Confirmed planets</list>
+				<lastupdate>21/01/15</lastupdate>
+				<new>1</new>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+			<planet>
+				<name>TOI-451 d</name>
+				<name>TIC 257605131 d</name>
+				<semimajoraxis errorminus="0.0065" errorplus="0.0057">0.1255</semimajoraxis>
+				<eccentricity errorminus="0.04" errorplus="0.133">0.057</eccentricity>
+				<periastron errorminus="120.0" errorplus="170.0">170.0</periastron>
+				<inclination errorminus="0.35" errorplus="0.31">89.56</inclination>
+				<period errorminus="0.000049" errorplus="0.000047">16.364981</period>
+				<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+				<radius errorminus="0.15" errorplus="0.15">4.03</radius>
+				<temperature errorminus="12.0" errorplus="15.0">708.0</temperature>
+				<discoverymethod>transit</discoverymethod>
+				<istransiting>1</istransiting>
+				<discoveryyear>2021</discoveryyear>
+				<list>Confirmed planets</list>
+				<lastupdate>21/01/15</lastupdate>
+				<new>1</new>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+	</binary>
+</system>
