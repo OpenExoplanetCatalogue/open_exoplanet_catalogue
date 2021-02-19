@@ -1,0 +1,31 @@
+<system>
+	<name>TOI-1098</name>
+	<rightascension>12 50 23.00</rightascension>
+	<declination>-88 07 16.00</declination>
+	<distance errorminus="0.27" errorplus="0.27">105.1</distance>
+	<star>
+		<name>TOI-1098</name>
+		<radius errorminus="0.06" errorplus="0.06">1.19</radius>
+		<magV>9.2</magV>
+		<mass errorminus="0.06" errorplus="0.06">1.21</mass>
+		<temperature errorminus="100.0" errorplus="100.0">6200.0</temperature>
+		<metallicity errorminus="0.05" errorplus="0.05">0.08</metallicity>
+		<spectraltype>F8V</spectraltype>
+		<planet>
+			<name>TOI-1098 b</name>
+			<semimajoraxis errorminus="0.013" errorplus="0.008">0.113</semimajoraxis>
+			<eccentricity errorminus="0.1" errorplus="0.2">0.2</eccentricity>
+			<periastron errorminus="100.0" errorplus="60.0">138.0</periastron>
+			<inclination errorminus="0.7" errorplus="1.1">88.2</inclination>
+			<period errorminus="0.000040" errorplus="0.000040">10.18271</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<radius errorminus="0.009" errorplus="0.009">0.285</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/02/12</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

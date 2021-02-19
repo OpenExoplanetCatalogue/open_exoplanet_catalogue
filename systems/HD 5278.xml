@@ -1,0 +1,49 @@
+<system>
+	<name>HD 5278</name>
+	<name>TOI-130</name>
+	<rightascension>00 50 10.00</rightascension>
+	<declination>-83 44 38.00</declination>
+	<distance errorminus="0.83" errorplus="0.83">56.12</distance>
+	<star>
+		<name>HD 5278</name>
+		<name>TOI-130</name>
+		<radius errorminus="0.017" errorplus="0.017">1.194</radius>
+		<magV>8.0</magV>
+		<mass errorminus="0.036" errorplus="0.036">1.126</mass>
+		<temperature errorminus="64.0" errorplus="64.0">6203.0</temperature>
+		<metallicity errorminus="0.04" errorplus="0.04">-0.12</metallicity>
+		<planet>
+			<name>HD 5278 b</name>
+			<name>TOI-130</name>
+			<semimajoraxis errorminus="0.0031" errorplus="0.0031">0.12</semimajoraxis>
+			<eccentricity errorminus="0.05" errorplus="0.09">0.08</eccentricity>
+			<periastron errorminus="278.0" errorplus="34.0">134.5</periastron>
+			<inclination errorminus="0.48" errorplus="0.48">89.27</inclination>
+			<period errorminus="0.000070" errorplus="0.000070">14.33902</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.0044" errorplus="0.0044">0.0245</mass>
+			<radius errorminus="0.0045" errorplus="0.0045">0.2186</radius>
+			<temperature errorminus="13.0" errorplus="13.0">943.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/02/19</lastupdate>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>HD 5278 c</name>
+			<name>TOI-130 c</name>
+			<semimajoraxis errorminus="0.0027" errorplus="0.0027">0.2416</semimajoraxis>
+			<eccentricity errorminus="0.04" errorplus="0.06">0.07</eccentricity>
+			<periastron errorminus="122116.0" errorplus="122116.0">8.0</periastron>
+			<period errorminus="0.18" errorplus="0.18">40.87</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/02/19</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>
