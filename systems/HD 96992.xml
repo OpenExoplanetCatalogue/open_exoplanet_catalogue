@@ -1,10 +1,13 @@
 <system>
 	<name>HD 96992</name>
-	<rightascension>11 10 23.00</rightascension>
-	<declination>+43 55 08.00</declination>
+	<rightascension>11 10 23.2440</rightascension>
+	<declination>+43 55 08.3275</declination>
 	<distance errorminus="20.0" errorplus="20.0">401.6</distance>
 	<star>
 		<name>HD 96992</name>
+		<name>TYC 3012-145-1</name>
+		<name>HIP 54595</name>
+		<name>Gaia DR2 779018698542966272</name>
 		<radius errorminus="1.1" errorplus="1.1">7.43</radius>
 		<magV>8.6</magV>
 		<mass errorminus="0.09" errorplus="0.09">0.96</mass>
@@ -13,6 +16,9 @@
 		<spectraltype>K0</spectraltype>
 		<planet>
 			<name>HD 96992 b</name>
+			<name>TYC 3012-145-1 b</name>
+			<name>HIP 54595 b</name>
+			<name>Gaia DR2 779018698542966272 b</name>
 			<semimajoraxis errorminus="0.05" errorplus="0.05">1.24</semimajoraxis>
 			<eccentricity errorminus="0.12" errorplus="0.24">0.41</eccentricity>
 			<periastron errorminus="31.0" errorplus="24.0">149.0</periastron>
