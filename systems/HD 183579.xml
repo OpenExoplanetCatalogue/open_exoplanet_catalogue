@@ -1,0 +1,39 @@
+<system>
+	<name>HD 183579</name>
+	<name>HIP 96160</name>
+	<rightascension>19 33 09</rightascension>
+	<declination>-54 31 57</declination>
+	<distance errorminus="0.24" errorplus="0.25">57.06</distance>
+	<star>
+		<name>HD 183579</name>
+		<name>HIP 96160</name>
+		<radius errorminus="0.03" errorplus="0.04">0.98</radius>
+		<magV errorminus="0.013" errorplus="0.013">8.675</magV>
+		<magJ errorminus="0.023" errorplus="0.023">7.518</magJ>
+		<magH errorminus="0.047" errorplus="0.047">7.231</magH>
+		<magK errorminus="0.027" errorplus="0.027">7.150</magK>
+		<mass errorminus="0.03" errorplus="0.03">1.03</mass>
+		<temperature errorminus="44.00" errorplus="44.00">5788.00</temperature>
+		<metallicity errorminus="0.050" errorplus="0.050">-0.023</metallicity>
+		<spectraltype>G5V</spectraltype>
+		<planet>
+			<name>HD 183579 b</name>
+			<name>HIP 96160 b</name>
+			<semimajoraxis errorminus="0.006100" errorplus="0.006200">0.133400</semimajoraxis>
+			<eccentricity>0.280000</eccentricity>
+			<inclination errorminus="0.400" errorplus="0.410">89.330</inclination>
+			<period errorminus="0.00006000" errorplus="0.00005800">17.47127800</period>
+			<description>This planet was discovered by Palatnick et al. 2021. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here are those reported by Palatnick et al. 2021 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.01227" errorplus="0.01259">0.06198</mass>
+			<radius errorminus="0.011" errorplus="0.013">0.317</radius>
+			<temperature errorminus="13" errorplus="17">769</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/03/04</lastupdate>
+			<transittime errorminus="0.000770" errorplus="0.000780">2458661.063150</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

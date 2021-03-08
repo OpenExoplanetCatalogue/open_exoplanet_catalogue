@@ -1,0 +1,40 @@
+<system>
+	<name>GJ 251</name>
+	<name>HD 265866</name>
+	<name>HIP 33226</name>
+	<rightascension>06 54 49</rightascension>
+	<declination>+33 16 05</declination>
+	<distance>5.58</distance>
+	<star>
+		<name>GJ 251</name>
+		<name>HD 265866</name>
+		<name>HIP 33226</name>
+		<radius errorminus="0.01" errorplus="0.01">0.36</radius>
+		<magV errorminus="0.020" errorplus="0.020">10.020</magV>
+		<magI errorminus="0.025" errorplus="0.025">7.500</magI>
+		<magJ errorminus="0.024" errorplus="0.024">6.104</magJ>
+		<magH errorminus="0.016" errorplus="0.016">5.526</magH>
+		<magK errorminus="0.022" errorplus="0.022">5.275</magK>
+		<mass errorminus="0.01" errorplus="0.01">0.36</mass>
+		<temperature errorminus="51.00" errorplus="51.00">3451.00</temperature>
+		<metallicity errorminus="0.160" errorplus="0.160">-0.030</metallicity>
+		<spectraltype>M3.0V</spectraltype>
+		<planet>
+			<name>GJ 251 b</name>
+			<name>HD 265866 b</name>
+			<name>HIP 33226 b</name>
+			<semimajoraxis errorminus="0.001200" errorplus="0.001100">0.081800</semimajoraxis>
+			<eccentricity errorminus="0.070000" errorplus="0.090000">0.100000</eccentricity>
+			<periastron errorminus="44.7000" errorplus="47.6000">78.8000</periastron>
+			<period errorminus="0.00200000" errorplus="0.00200000">14.23800000</period>
+			<description>This planet was discovered by Stock et al. 2020. This was a ground based discovery. The parameters listed here are those reported by Stock et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00126" errorplus="0.00126">0.01259</mass>
+			<temperature errorminus="1" errorplus="1">351</temperature>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/03/04</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

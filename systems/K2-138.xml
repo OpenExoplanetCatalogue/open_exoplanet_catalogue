@@ -1,110 +1,109 @@
 <system>
 	<name>K2-138</name>
-	<name>EPIC 245950175</name>
-	<rightascension>23 15 47.7685</rightascension>
-	<declination>-10 50 58.8977</declination>
-	<distance errorminus="17" errorplus="17">183</distance>
+	<rightascension>23 15 48</rightascension>
+	<declination>-10 50 59</declination>
+	<distance errorminus="1.99" errorplus="2.03">202.59</distance>
 	<star>
 		<name>K2-138</name>
-		<name>EPIC 245950175</name>
-		<name>2MASS J23154776-1050590</name>
-		<name>Gaia DR2 2413596935442139520</name>
-		<magB errorminus="0.01" errorplus="0.01">13.01</magB>
-		<magV errorminus="0.01" errorplus="0.01">12.21</magV>
-		<magR errorminus="0.08" errorplus="0.08">12.12</magR>
-		<magI errorminus="0.03" errorplus="0.03">11.40</magI>
+		<radius errorminus="0.05" errorplus="0.05">0.84</radius>
+		<magV errorminus="0.030" errorplus="0.030">12.210</magV>
 		<magJ errorminus="0.021" errorplus="0.021">10.756</magJ>
 		<magH errorminus="0.021" errorplus="0.021">10.384</magH>
 		<magK errorminus="0.021" errorplus="0.021">10.305</magK>
-		<spectraltype errorminus="1">K1V</spectraltype>
-		<temperature errorminus="60" errorplus="60">5378</temperature>
-		<metallicity errorminus="0.04" errorplus="0.04">0.16</metallicity>
-		<radius errorminus="0.08" errorplus="0.08">0.86</radius>
-		<mass errorminus="0.06" errorplus="0.06">0.93</mass>
+		<mass errorminus="0.10" errorplus="0.08">0.92</mass>
+		<temperature errorminus="163.00" errorplus="122.00">5283.00</temperature>
+		<metallicity errorminus="0.176" errorplus="0.128">0.134</metallicity>
+		<spectraltype>G8V</spectraltype>
+		<planet>
+			<name>K2-138 g</name>
+			<semimajoraxis errorminus="0.023100" errorplus="0.024900">0.228700</semimajoraxis>
+			<inclination errorminus="0.110" errorplus="0.110">89.290</inclination>
+			<period errorminus="0.00665000" errorplus="0.00603000">41.96645000</period>
+			<description>The K2-138 system is a planetary system that has been discovered by citizen scientists participating in the Exoplanet Explorers project on the Zooniverse platform. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Hardegree-Ullman et al. 2021 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.023" errorplus="0.025">0.284</radius>
+			<temperature errorminus="30" errorplus="31">445</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/03/04</lastupdate>
+			<transittime errorminus="0.004400" errorplus="0.004400">2457773.854100</transittime>
+			<new>1</new>
+		</planet>
 		<planet>
 			<name>K2-138 b</name>
-			<name>EPIC 245950175 b</name>
-			<name>Gaia DR2 2413596935442139520 b</name>
-			<list>Confirmed planets</list>
-			<period errorminus="0.00036" errorplus="0.00036">2.35322</period>
-			<transittime errorminus="0.0038" errorplus="0.0037" unit="BJD">2457773.3170</transittime>
-			<semimajoraxis errorminus="0.00024" errorplus="0.00024">0.03380</semimajoraxis>
-			<inclination errorminus="4.6" errorplus="2.2">86.9</inclination>
-			<eccentricity upperlimit="0.403" />
-			<radius errorminus="0.0152" errorplus="0.0250">0.1401</radius>
-			<istransiting>1</istransiting>
+			<semimajoraxis errorminus="0.003100" errorplus="0.003400">0.033800</semimajoraxis>
+			<inclination errorminus="1.540" errorplus="1.520">87.720</inclination>
+			<period errorminus="0.00036000" errorplus="0.00037000">2.35321000</period>
+			<description>The K2-138 system is a planetary system that has been discovered by citizen scientists participating in the Exoplanet Explorers project on the Zooniverse platform. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Hardegree-Ullman et al. 2021 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.012" errorplus="0.013">0.133</radius>
+			<temperature errorminus="74" errorplus="78">1157</temperature>
 			<discoverymethod>transit</discoverymethod>
-			<discoveryyear>2018</discoveryyear>
-			<description>The K2-138 system is a five planet system discovered by citizen scientists participating in the Exoplanet Explorers project on the Zooniverse platform.</description>
-			<lastupdate>18/01/24</lastupdate>
+			<istransiting>1</istransiting>
+			<discoveryyear>2017</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/03/04</lastupdate>
+			<transittime errorminus="0.005900" errorplus="0.006100">2457740.371300</transittime>
 		</planet>
 		<planet>
 			<name>K2-138 c</name>
-			<name>EPIC 245950175 c</name>
-			<name>Gaia DR2 2413596935442139520 c</name>
-			<list>Confirmed planets</list>
-			<period errorminus="0.00022" errorplus="0.00023">3.55987</period>
-			<transittime errorminus="0.0027" errorplus="0.0025" unit="BJD">2457740.3223</transittime>
-			<semimajoraxis errorminus="0.00032" errorplus="0.00032">0.04454</semimajoraxis>
-			<inclination errorminus="3.3" errorplus="1.8">87.5</inclination>
-			<eccentricity upperlimit="0.296" />
-			<radius errorminus="0.0143" errorplus="0.0303">0.2248</radius>
-			<istransiting>1</istransiting>
+			<semimajoraxis errorminus="0.003900" errorplus="0.003900">0.044200</semimajoraxis>
+			<inclination errorminus="0.970" errorplus="0.920">88.590</inclination>
+			<period errorminus="0.00023000" errorplus="0.00022000">3.56015000</period>
+			<description>The K2-138 system is a planetary system that has been discovered by citizen scientists participating in the Exoplanet Explorers project on the Zooniverse platform. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Hardegree-Ullman et al. 2021 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.015" errorplus="0.016">0.202</radius>
+			<temperature errorminus="61" errorplus="65">1012</temperature>
 			<discoverymethod>transit</discoverymethod>
-			<discoveryyear>2018</discoveryyear>
-			<description>The K2-138 system is a five planet system discovered by citizen scientists participating in the Exoplanet Explorers project on the Zooniverse platform.</description>
-			<lastupdate>18/01/24</lastupdate>
+			<istransiting>1</istransiting>
+			<discoveryyear>2017</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/03/04</lastupdate>
+			<transittime errorminus="0.002800" errorplus="0.002900">2457740.321000</transittime>
 		</planet>
 		<planet>
 			<name>K2-138 d</name>
-			<name>EPIC 245950175 d</name>
-			<name>Gaia DR2 2413596935442139520 d</name>
-			<list>Confirmed planets</list>
-			<period errorminus="0.00046" errorplus="0.00048">5.40478</period>
-			<transittime errorminus="0.0037" errorplus="0.0036" unit="BJD">2457743.1607</transittime>
-			<semimajoraxis errorminus="0.00042" errorplus="0.00042">0.05883</semimajoraxis>
-			<inclination errorminus="2.8" errorplus="1.5">87.9</inclination>
-			<eccentricity upperlimit="0.348" />
-			<radius errorminus="0.0161" errorplus="0.0348">0.2373</radius>
-			<istransiting>1</istransiting>
+			<semimajoraxis errorminus="0.004900" errorplus="0.005000">0.057500</semimajoraxis>
+			<inclination errorminus="0.750" errorplus="0.620">89.110</inclination>
+			<period errorminus="0.00051000" errorplus="0.00049000">5.40484000</period>
+			<description>The K2-138 system is a planetary system that has been discovered by citizen scientists participating in the Exoplanet Explorers project on the Zooniverse platform. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Hardegree-Ullman et al. 2021 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.016" errorplus="0.017">0.219</radius>
+			<temperature errorminus="53" errorplus="57">888</temperature>
 			<discoverymethod>transit</discoverymethod>
-			<discoveryyear>2018</discoveryyear>
-			<description>The K2-138 system is a five planet system discovered by citizen scientists participating in the Exoplanet Explorers project on the Zooniverse platform.</description>
-			<lastupdate>18/01/24</lastupdate>
+			<istransiting>1</istransiting>
+			<discoveryyear>2017</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/03/04</lastupdate>
+			<transittime errorminus="0.003500" errorplus="0.003700">2457743.156900</transittime>
 		</planet>
 		<planet>
 			<name>K2-138 e</name>
-			<name>EPIC 245950175 e</name>
-			<name>Gaia DR2 2413596935442139520 e</name>
-			<list>Confirmed planets</list>
-			<period errorminus="0.00044" errorplus="0.00045">8.26144</period>
-			<transittime errorminus="0.0021" errorplus="0.0020" unit="BJD">2457740.6451</transittime>
-			<semimajoraxis errorminus="0.00056" errorplus="0.00056">0.07807</semimajoraxis>
-			<inclination errorminus="1.66" errorplus="0.93">88.70</inclination>
-			<eccentricity upperlimit="0.315" />
-			<radius errorminus="0.0161" errorplus="0.0312">0.2935</radius>
-			<istransiting>1</istransiting>
+			<semimajoraxis errorminus="0.007700" errorplus="0.007600">0.079200</semimajoraxis>
+			<inclination errorminus="0.550" errorplus="0.610">88.920</inclination>
+			<period errorminus="0.00053000" errorplus="0.00052000">8.26147000</period>
+			<description>The K2-138 system is a planetary system that has been discovered by citizen scientists participating in the Exoplanet Explorers project on the Zooniverse platform. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Hardegree-Ullman et al. 2021 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.020" errorplus="0.021">0.277</radius>
+			<temperature errorminus="47" errorplus="52">757</temperature>
 			<discoverymethod>transit</discoverymethod>
-			<discoveryyear>2018</discoveryyear>
-			<description>The K2-138 system is a five planet system discovered by citizen scientists participating in the Exoplanet Explorers project on the Zooniverse platform.</description>
-			<lastupdate>18/01/24</lastupdate>
+			<istransiting>1</istransiting>
+			<discoveryyear>2017</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/03/04</lastupdate>
+			<transittime errorminus="0.002100" errorplus="0.002200">2457740.645100</transittime>
 		</planet>
 		<planet>
 			<name>K2-138 f</name>
-			<name>EPIC 245950175 f</name>
-			<name>Gaia DR2 2413596935442139520 f</name>
-			<list>Confirmed planets</list>
-			<period errorminus="0.00092" errorplus="0.00092">12.75759</period>
-			<transittime errorminus="0.0035" errorplus="0.0033" unit="BJD">2457738.7019</transittime>
-			<semimajoraxis errorminus="0.00075" errorplus="0.00074">0.10430</semimajoraxis>
-			<inclination errorminus="1.22" errorplus="0.70">89.03</inclination>
-			<eccentricity upperlimit="0.364" />
-			<radius errorminus="0.0170" errorplus="0.0321">0.2507</radius>
-			<istransiting>1</istransiting>
+			<semimajoraxis errorminus="0.010500" errorplus="0.010800">0.106400</semimajoraxis>
+			<inclination errorminus="0.350" errorplus="0.430">88.990</inclination>
+			<period errorminus="0.00121000" errorplus="0.00120000">12.75758000</period>
+			<description>The K2-138 system is a planetary system that has been discovered by citizen scientists participating in the Exoplanet Explorers project on the Zooniverse platform. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Hardegree-Ullman et al. 2021 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius errorminus="0.019" errorplus="0.021">0.244</radius>
+			<temperature errorminus="42" errorplus="45">653</temperature>
 			<discoverymethod>transit</discoverymethod>
-			<discoveryyear>2018</discoveryyear>
-			<description>The K2-138 system is a five planet system discovered by citizen scientists participating in the Exoplanet Explorers project on the Zooniverse platform.</description>
-			<lastupdate>18/01/24</lastupdate>
+			<istransiting>1</istransiting>
+			<discoveryyear>2017</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/03/04</lastupdate>
+			<transittime errorminus="0.003500" errorplus="0.004400">2457738.701800</transittime>
 		</planet>
 	</star>
 </system>

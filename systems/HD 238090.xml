@@ -1,0 +1,37 @@
+<system>
+	<name>HD 238090</name>
+	<name>HIP 59514</name>
+	<rightascension>12 12 21</rightascension>
+	<declination>+54 29 09</declination>
+	<distance errorminus="0.01" errorplus="0.01">15.24</distance>
+	<star>
+		<name>HD 238090</name>
+		<name>HIP 59514</name>
+		<radius errorminus="0.02" errorplus="0.02">0.57</radius>
+		<magV errorminus="0.020" errorplus="0.020">9.790</magV>
+		<magI errorminus="0.025" errorplus="0.025">7.980</magI>
+		<magJ errorminus="0.027" errorplus="0.027">6.875</magJ>
+		<magH errorminus="0.017" errorplus="0.017">6.245</magH>
+		<magK errorminus="0.017" errorplus="0.017">6.059</magK>
+		<mass errorminus="0.02" errorplus="0.02">0.58</mass>
+		<temperature errorminus="51.00" errorplus="51.00">3933.00</temperature>
+		<metallicity errorminus="0.160" errorplus="0.160">-0.030</metallicity>
+		<spectraltype>M0.0V</spectraltype>
+		<planet>
+			<name>HD 238090 b</name>
+			<name>HIP 59514 b</name>
+			<semimajoraxis errorminus="0.001100" errorplus="0.001100">0.093200</semimajoraxis>
+			<eccentricity errorminus="0.170000" errorplus="0.160000">0.300000</eccentricity>
+			<periastron errorminus="24.8000" errorplus="22.8000">119.3000</periastron>
+			<period errorminus="0.01000000" errorplus="0.01100000">13.67100000</period>
+			<description>This planet was discovered by Stock et al. 2020. This was a ground based discovery. The parameters listed here are those reported by Stock et al. 2020 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00299" errorplus="0.00289">0.02168</mass>
+			<temperature errorminus="3" errorplus="2">470</temperature>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/03/04</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>
