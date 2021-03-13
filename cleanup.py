@@ -24,6 +24,7 @@ xmlerrors = 0
 fileschanged = 0
 lastUpdateGlobal = 0
 discoveryyears = {y:0 for y in range(1992,datetime.date.today().year+2)}
+discoverymethodscounter = {}
 
 
 # Calculate md5 hash to check for changes in file.
@@ -293,6 +294,7 @@ def checkonefile(filename):
 
     # For statistics:
     global discoveryyears
+    global discoverymethodscounter
     for planet in planets:
         confirmed = False
         lists = planet.findall("./list")
@@ -301,6 +303,13 @@ def checkonefile(filename):
                 confirmed = True
                 break
         if confirmed:
+            discoverymethod = planet.findtext("./discoverymethod")
+            if discoverymethod is not None:
+                if discoverymethod not in discoverymethodscounter:
+                    discoverymethodscounter[discoverymethod] = 1
+                else:
+                    discoverymethodscounter[discoverymethod] += 1
+
             year = planet.findtext("./discoveryyear")
             if year is not None:
                 year = int(year)
@@ -428,6 +437,7 @@ if __name__=="__main__":
     dt = datetime.datetime(int(lastUpdateGlobal[0:4]),int(lastUpdateGlobal[4:6]),int(lastUpdateGlobal[6:8]))
     statistics['lastUpdate'] = time.mktime(dt.timetuple())
     statistics['discoveryyears'] = discoveryyears
+    statistics['discoverymethods'] = discoverymethodscounter
     with open("statistics.json","w") as outfile:
         json.dump(statistics,outfile, indent=4, sort_keys=True)
 
