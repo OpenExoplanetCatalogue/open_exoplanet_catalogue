@@ -31,6 +31,7 @@
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/12/27</lastupdate>
 			<list>Confirmed planets</list>
+			<discoverymethod>transit</discoverymethod>
 			<description>Data for this planet was imported from the exoplanet.eu database.</description>
 		</planet>
 		<planet>
@@ -42,9 +43,11 @@
 			<period errorminus="7.800000" errorplus="8.100000">1297.0</period>
 			<mass errorminus="0.2" errorplus="0.2">56.6</mass>
 			<discoveryyear>2016</discoveryyear>
+			<discoverymethod>transit</discoverymethod>
 			<lastupdate>16/12/27</lastupdate>
 			<list>Confirmed planets</list>
 			<description>Data for this planet was imported from the exoplanet.eu database.</description>
+			<istransiting>1</istransiting>
 		</planet>
 	</star>
 </system>

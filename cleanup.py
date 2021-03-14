@@ -119,7 +119,7 @@ validlists = [
     "Retracted planet candidate",
     "Planets in open clusters",
     "Planets in globular clusters"]
-validdiscoverymethods = ["RV", "transit", "timing", "imaging", "microlensing", "astrometry"]
+validdiscoverymethods = ["RV", "transit", "timing", "imaging", "microlensing", "astrometry", "disk kinematics"]
 tagsallowmultiple = ["list", "name", "planet", "star", "binary", "separation", "satellite"]
 numerictags = ["mass", "radius", "discoveryyear", "semimajoraxis", "period",
     "magV", "magJ", "magH", "magR", "magB", "magK", "magI", "magU", "distance", "longitude", "age",
@@ -309,6 +309,9 @@ def checkonefile(filename):
                     discoverymethodscounter[discoverymethod] = 1
                 else:
                     discoverymethodscounter[discoverymethod] += 1
+            else:
+                print("No discovery method found: " + filename)
+                issues += 1
 
             year = planet.findtext("./discoveryyear")
             if year is not None:
