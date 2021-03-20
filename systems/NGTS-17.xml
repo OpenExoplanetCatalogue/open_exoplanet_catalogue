@@ -1,0 +1,31 @@
+<system>
+	<name>NGTS-17</name>
+	<rightascension>04 51 36.00</rightascension>
+	<declination>-34 13 34.00</declination>
+	<distance errorminus="120.0" errorplus="120.0">1047.0</distance>
+	<star>
+		<name>NGTS-17</name>
+		<radius errorminus="0.13" errorplus="0.13">1.337</radius>
+		<magV>14.3</magV>
+		<mass errorminus="0.035" errorplus="0.035">1.025</mass>
+		<temperature errorminus="100.0" errorplus="100.0">5650.0</temperature>
+		<metallicity errorminus="0.1" errorplus="0.1">0.15</metallicity>
+		<spectraltype>G4V</spectraltype>
+		<planet>
+			<name>NGTS-17 b</name>
+			<semimajoraxis errorminus="0.0043" errorplus="0.0043">0.0391</semimajoraxis>
+			<eccentricity>0.0</eccentricity>
+			<period errorminus="0.000010" errorplus="0.000010">3.24253</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.164" errorplus="0.195">0.764</mass>
+			<radius errorminus="0.11" errorplus="0.11">1.24</radius>
+			<temperature errorminus="50.0" errorplus="50.0">1457.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/03/19</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

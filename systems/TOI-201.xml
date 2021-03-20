@@ -1,0 +1,32 @@
+<system>
+	<name>TOI-201</name>
+	<rightascension>05 49 36.00</rightascension>
+	<declination>-54 54 39.00</declination>
+	<distance errorminus="0.25" errorplus="0.25">114.2</distance>
+	<star>
+		<name>TOI-201</name>
+		<radius errorminus="0.011" errorplus="0.011">1.317</radius>
+		<magV>9.7</magV>
+		<mass errorminus="0.027" errorplus="0.027">1.316</mass>
+		<temperature errorminus="75.0" errorplus="75.0">6394.0</temperature>
+		<metallicity errorminus="0.36" errorplus="0.36">0.24</metallicity>
+		<spectraltype>F6V</spectraltype>
+		<planet>
+			<name>TOI-201 b</name>
+			<semimajoraxis errorminus="0.03" errorplus="0.03">0.3</semimajoraxis>
+			<eccentricity errorminus="0.09" errorplus="0.06">0.28</eccentricity>
+			<periastron errorminus="9.0" errorplus="14.0">82.0</periastron>
+			<period errorminus="0.000040" errorplus="0.000040">52.97818</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.03" errorplus="0.05">0.42</mass>
+			<radius errorminus="0.015" errorplus="0.015">1.0</radius>
+			<temperature errorminus="26.0" errorplus="37.0">759.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/03/05</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

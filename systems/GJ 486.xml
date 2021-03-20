@@ -1,0 +1,32 @@
+<system>
+	<name>GJ 486</name>
+	<rightascension>12 47 57.00</rightascension>
+	<declination>+09 45 05.00</declination>
+	<distance errorminus="0.0041" errorplus="0.0041">8.0761</distance>
+	<star>
+		<name>GJ 486</name>
+		<radius errorminus="0.011" errorplus="0.011">0.328</radius>
+		<magV>11.4</magV>
+		<mass errorminus="0.15" errorplus="0.15">0.323</mass>
+		<temperature errorminus="54.0" errorplus="54.0">3340.0</temperature>
+		<metallicity errorminus="0.16" errorplus="0.16">0.07</metallicity>
+		<spectraltype>M3.5V</spectraltype>
+		<planet>
+			<name>GJ 486 b</name>
+			<semimajoraxis errorminus="0.00027" errorplus="0.00027">0.01734</semimajoraxis>
+			<eccentricity upperlimit="0.05" />
+			<inclination errorminus="1.4" errorplus="1.4">88.4</inclination>
+			<period errorminus="0.000030" errorplus="0.000030">1.467119</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.00038" errorplus="0.00038">0.00887</mass>
+			<radius errorminus="0.00598" errorplus="0.00562">0.11643</radius>
+			<temperature errorminus="13.0" errorplus="13.0">700.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/03/05</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

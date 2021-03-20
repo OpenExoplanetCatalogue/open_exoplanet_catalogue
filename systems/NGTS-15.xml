@@ -1,0 +1,31 @@
+<system>
+	<name>NGTS-15</name>
+	<rightascension>04 53 25.00</rightascension>
+	<declination>-32 48 01.00</declination>
+	<distance errorminus="70.0" errorplus="70.0">791.0</distance>
+	<star>
+		<name>NGTS-15</name>
+		<radius errorminus="0.9" errorplus="0.9">0.954</radius>
+		<magV>14.6</magV>
+		<mass errorminus="0.3" errorplus="0.3">0.995</mass>
+		<temperature errorminus="150.0" errorplus="150.0">5600.0</temperature>
+		<metallicity errorminus="0.1" errorplus="0.1">0.15</metallicity>
+		<spectraltype>G6V</spectraltype>
+		<planet>
+			<name>NGTS-15 b</name>
+			<semimajoraxis errorminus="0.0046" errorplus="0.0046">0.0441</semimajoraxis>
+			<eccentricity>0.0</eccentricity>
+			<period errorminus="0.000010" errorplus="0.000010">3.27623</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.09" errorplus="0.1">0.751</mass>
+			<radius errorminus="0.1" errorplus="0.1">1.1</radius>
+			<temperature errorminus="47.0" errorplus="47.0">1146.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/03/19</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

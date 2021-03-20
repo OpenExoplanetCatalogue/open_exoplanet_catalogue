@@ -1,0 +1,31 @@
+<system>
+	<name>NGTS-18</name>
+	<rightascension>12 02 11.00</rightascension>
+	<declination>-35 32 55.00</declination>
+	<distance errorminus="175.0" errorplus="175.0">1108.0</distance>
+	<star>
+		<name>NGTS-18</name>
+		<radius errorminus="0.25" errorplus="0.25">1.392</radius>
+		<magV>14.5</magV>
+		<mass errorminus="0.025" errorplus="0.025">1.003</mass>
+		<temperature errorminus="150.0" errorplus="150.0">5610.0</temperature>
+		<metallicity errorminus="0.1" errorplus="0.1">0.15</metallicity>
+		<spectraltype>G5V</spectraltype>
+		<planet>
+			<name>NGTS-18 b</name>
+			<semimajoraxis errorminus="0.0068" errorplus="0.0068">0.0448</semimajoraxis>
+			<eccentricity>0.0</eccentricity>
+			<period errorminus="0.000010" errorplus="0.000010">3.05125</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.063" errorplus="0.081">0.409</mass>
+			<radius errorminus="0.18" errorplus="0.18">1.21</radius>
+			<temperature errorminus="55.0" errorplus="55.0">1381.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/03/19</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>
