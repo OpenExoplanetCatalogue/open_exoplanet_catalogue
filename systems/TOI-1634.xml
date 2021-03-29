@@ -1,0 +1,32 @@
+<system>
+	<name>TOI-1634</name>
+	<rightascension>03 45 34.00</rightascension>
+	<declination>+37 06 44.00</declination>
+	<distance errorminus="0.053" errorplus="0.053">35.274</distance>
+	<star>
+		<name>TOI-1634</name>
+		<radius errorminus="0.013" errorplus="0.013">0.45</radius>
+		<magV>13.2</magV>
+		<mass errorminus="0.014" errorplus="0.014">0.502</mass>
+		<temperature errorminus="69.0" errorplus="69.0">3550.0</temperature>
+		<metallicity errorminus="0.08" errorplus="0.08">0.23</metallicity>
+		<spectraltype>M2</spectraltype>
+		<planet>
+			<name>TOI-1634 b</name>
+			<semimajoraxis errorminus="0.00014" errorplus="0.00014">0.01545</semimajoraxis>
+			<eccentricity upperlimit="0.16" />
+			<inclination errorminus="1.1" errorplus="1.1">88.2</inclination>
+			<period errorminus="0.000015" errorplus="0.000015">0.989343</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.0022" errorplus="0.0022">0.01545</mass>
+			<radius errorminus="0.00723" errorplus="0.00723">0.1597</radius>
+			<temperature errorminus="22.0" errorplus="22.0">924.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+            <new>1</new>
+			<list>Confirmed planets</list>
+			<lastupdate>21/03/26</lastupdate>
+		</planet>
+	</star>
+</system>

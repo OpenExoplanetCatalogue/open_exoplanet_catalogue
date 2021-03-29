@@ -1,0 +1,31 @@
+<system>
+	<name>YSES 2</name>
+	<name>TYC 8984-2245-1</name>
+	<name>2MASS J11275535-6626046</name>
+	<rightascension>11 27 55.00</rightascension>
+	<declination>-66 26 05.00</declination>
+	<distance errorminus="0.14" errorplus="0.14">109.25</distance>
+	<star>
+		<name>YSES 2</name>
+		<name>TYC 8984-2245-1</name>
+		<name>2MASS J11275535-6626046</name>
+		<radius errorminus="0.022" errorplus="0.022">1.193</radius>
+		<magV>10.9</magV>
+		<mass errorminus="0.03" errorplus="0.03">1.1</mass>
+		<temperature errorminus="40.0" errorplus="40.0">4749.0</temperature>
+		<spectraltype>K1V</spectraltype>
+		<planet>
+			<name>YSES 2 b</name>
+			<name>TYC 8984-2245-1 b</name>
+			<name>2MASS J11275535-6626046 b</name>
+			<semimajoraxis>114.0</semimajoraxis>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.9" errorplus="1.6">6.3</mass>
+			<discoverymethod>imaging</discoverymethod>
+			<discoveryyear>2021</discoveryyear>
+            <new>1</new>
+			<list>Confirmed planets</list>
+			<lastupdate>21/03/25</lastupdate>
+		</planet>
+	</star>
+</system>
