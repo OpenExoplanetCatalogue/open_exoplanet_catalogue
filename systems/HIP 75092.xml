@@ -1,0 +1,29 @@
+<system>
+	<name>HIP 75092</name>
+	<rightascension>15 20 41.00</rightascension>
+	<declination>-25 59 25.00</declination>
+	<distance errorminus="0.4" errorplus="0.4">81.86</distance>
+	<star>
+		<name>HIP 75092</name>
+		<radius errorminus="0.05" errorplus="0.05">4.53</radius>
+		<magV>7.1</magV>
+		<mass errorminus="0.1" errorplus="0.1">1.28</mass>
+		<temperature errorminus="50.0" errorplus="50.0">48.91</temperature>
+		<metallicity errorminus="0.05" errorplus="0.05">-0.01</metallicity>
+		<spectraltype>K0III</spectraltype>
+		<planet>
+			<name>HIP 75092 b</name>
+			<semimajoraxis errorminus="0.02" errorplus="0.02">2.02</semimajoraxis>
+			<eccentricity errorminus="0.1" errorplus="0.1">0.42</eccentricity>
+			<periastron errorminus="16.7" errorplus="16.7">262.4</periastron>
+			<period errorminus="12.8" errorplus="12.8">926.4</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.16" errorplus="0.16">1.79</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/03/29</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>
