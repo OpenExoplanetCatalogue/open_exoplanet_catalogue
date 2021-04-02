@@ -1,10 +1,14 @@
 <system>
 	<name>TOI-201</name>
-	<rightascension>05 49 36.00</rightascension>
-	<declination>-54 54 39.00</declination>
+	<rightascension>05 49 36.4138</rightascension>
+	<declination>-54 54 38.5527</declination>
 	<distance errorminus="0.25" errorplus="0.25">114.2</distance>
 	<star>
 		<name>TOI-201</name>
+		<name>TYC 8524-391-1</name>
+		<name>Gaia DR2 4767547667180525696</name>
+		<name>HIP 27515</name>
+		<name>HD 39474</name>
 		<radius errorminus="0.011" errorplus="0.011">1.317</radius>
 		<magV>9.7</magV>
 		<mass errorminus="0.027" errorplus="0.027">1.316</mass>
@@ -13,6 +17,10 @@
 		<spectraltype>F6V</spectraltype>
 		<planet>
 			<name>TOI-201 b</name>
+			<name>TYC 8524-391-1 b</name>
+			<name>Gaia DR2 4767547667180525696 b</name>
+			<name>HIP 27515 b</name>
+			<name>HD 39474 b</name>
 			<semimajoraxis errorminus="0.03" errorplus="0.03">0.3</semimajoraxis>
 			<eccentricity errorminus="0.09" errorplus="0.06">0.28</eccentricity>
 			<periastron errorminus="9.0" errorplus="14.0">82.0</periastron>

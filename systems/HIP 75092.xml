@@ -1,10 +1,13 @@
 <system>
 	<name>HIP 75092</name>
-	<rightascension>15 20 41.00</rightascension>
-	<declination>-25 59 25.00</declination>
+	<rightascension>15 20 41.4182</rightascension>
+	<declination>-25 59 25.3948</declination>
 	<distance errorminus="0.4" errorplus="0.4">81.86</distance>
 	<star>
 		<name>HIP 75092</name>
+		<name>Gaia DR2 6214741299913205888</name>
+		<name>TYC 6766-512-1</name>
+		<name>HD 136295</name>
 		<radius errorminus="0.05" errorplus="0.05">4.53</radius>
 		<magV>7.1</magV>
 		<mass errorminus="0.1" errorplus="0.1">1.28</mass>
@@ -13,6 +16,9 @@
 		<spectraltype>K0III</spectraltype>
 		<planet>
 			<name>HIP 75092 b</name>
+			<name>Gaia DR2 6214741299913205888 b</name>
+			<name>TYC 6766-512-1 b</name>
+			<name>HD 136295 b</name>
 			<semimajoraxis errorminus="0.02" errorplus="0.02">2.02</semimajoraxis>
 			<eccentricity errorminus="0.1" errorplus="0.1">0.42</eccentricity>
 			<periastron errorminus="16.7" errorplus="16.7">262.4</periastron>

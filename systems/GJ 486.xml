@@ -1,10 +1,13 @@
 <system>
 	<name>GJ 486</name>
-	<rightascension>12 47 57.00</rightascension>
-	<declination>+09 45 05.00</declination>
+	<rightascension>12 47 56.6249</rightascension>
+	<declination>+09 45 05.0319</declination>
 	<distance errorminus="0.0041" errorplus="0.0041">8.0761</distance>
 	<star>
 		<name>GJ 486</name>
+		<name>Gaia DR2 3735000631158990976</name>
+		<name>TYC 882-1111-1</name>
+		<name>HIP 62452</name>
 		<radius errorminus="0.011" errorplus="0.011">0.328</radius>
 		<magV>11.4</magV>
 		<mass errorminus="0.15" errorplus="0.15">0.323</mass>
@@ -13,6 +16,9 @@
 		<spectraltype>M3.5V</spectraltype>
 		<planet>
 			<name>GJ 486 b</name>
+			<name>Gaia DR2 3735000631158990976 b</name>
+			<name>TYC 882-1111-1 b</name>
+			<name>HIP 62452 b</name>
 			<semimajoraxis errorminus="0.00027" errorplus="0.00027">0.01734</semimajoraxis>
 			<eccentricity upperlimit="0.05" />
 			<inclination errorminus="1.4" errorplus="1.4">88.4</inclination>
