@@ -1,0 +1,70 @@
+<system>
+	<name>GJ 414</name>
+	<name>HD 97101</name>
+	<rightascension>11 11 06</rightascension>
+	<declination>+30 26 43</declination>
+	<distance errorminus="0.0067000" errorplus="0.0067000">11.8893000</distance>
+	<binary>
+		<semimajoraxis>408</semimajoraxis>
+		<star>
+			<name>GJ 414 B</name>
+			<name>HD 97101 B</name>
+			<spectraltype>M2V</spectraltype>
+			<temperature errorminus="70" errorplus="70">3663</temperature>
+			<radius errorminus="0.017" errorplus="0.017">0.548</radius>
+			<mass errorminus="0.022" errorplus="0.022">0.542</mass>
+		</star>
+		<star>
+			<name>GJ 414 A</name>
+			<name>HD 97101 A</name>
+			<name>HIP 54646</name>
+			<radius errorminus="0.14" errorplus="0.14">0.68</radius>
+			<magV errorminus="0.0300000" errorplus="0.0300000">8.3100000</magV>
+			<magJ errorminus="0.0200000" errorplus="0.0200000">5.7640000</magJ>
+			<magH errorminus="0.0200000" errorplus="0.0200000">5.1300000</magH>
+			<magK errorminus="0.0180000" errorplus="0.0180000">4.9790000</magK>
+			<mass errorminus="0.08" errorplus="0.08">0.65</mass>
+			<temperature errorminus="109.00" errorplus="109.00">4120.00</temperature>
+			<metallicity errorminus="0.100" errorplus="0.100">0.240</metallicity>
+			<spectraltype>K7V</spectraltype>
+			<planet>
+				<name>GJ 414 A b</name>
+				<name>HD 97101 A b</name>
+				<name>HIP 54646 b</name>
+				<semimajoraxis errorminus="0.009900" errorplus="0.009200">0.232400</semimajoraxis>
+				<eccentricity errorminus="0.220000" errorplus="0.190000">0.450000</eccentricity>
+				<periastron errorminus="52.0000" errorplus="36.0000">111.0000</periastron>
+				<period errorminus="0.26000000" errorplus="0.10000000">50.80000000</period>
+				<description>This is a sub-Neptune mass planet in a two-planet system. The outer planet in this system is a potential candidate for future direct imaging missions. The planets have been discovered by analyzing radial velocity data from Keck/HIRES and the Automated Planet Finder at Lick Observatory, as well as photometric data from KELT. The star also has a dwarf star companion at a projected distance of 408 AU.</description>
+				<mass errorminus="0.00689" errorplus="0.00768">0.02391</mass>
+				<radius errorminus="0.076" errorplus="0.109">0.235</radius>
+				<temperature errorminus="3.35000000000e+01" errorplus="3.35000000000e+01">3.08600000000e+02</temperature>
+				<discoverymethod>RV</discoverymethod>
+				<discoveryyear>2021</discoveryyear>
+				<list>Confirmed planets</list>
+				<lastupdate>21/04/02</lastupdate>
+				<new>1</new>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+			<planet>
+				<name>GJ 414 A c</name>
+				<name>HD 97101 A c</name>
+				<name>HIP 54646 c</name>
+				<semimajoraxis errorminus="0.060000" errorplus="0.055000">1.400000</semimajoraxis>
+				<eccentricity errorminus="0.703000" errorplus="0.110000">0.105000</eccentricity>
+				<periastron errorminus="200.0000" errorplus="74.0000">74.0000</periastron>
+				<period errorminus="3.63000000" errorplus="4.35000000">749.83000000</period>
+				<description>This is a sub-Saturn mass planet in a two-planet system. It is a potential candidate for future direct imaging missions. The planets have been discovered by analyzing radial velocity data from Keck/HIRES and the Automated Planet Finder at Lick Observatory, as well as photometric data from KELT. The star also has a dwarf star companion at a projected distance of 408 AU.</description>
+				<mass errorminus="0.02700" errorplus="0.02888">0.16937</mass>
+				<radius errorminus="0.223" errorplus="0.321">0.749</radius>
+				<temperature errorminus="1.35000000000e+01" errorplus="1.35000000000e+01">1.24700000000e+02</temperature>
+				<discoverymethod>RV</discoverymethod>
+				<discoveryyear>2021</discoveryyear>
+				<list>Confirmed planets</list>
+				<lastupdate>21/04/02</lastupdate>
+				<new>1</new>
+				<list>Planets in binary systems, S-type</list>
+			</planet>
+		</star>
+	</binary>
+</system>

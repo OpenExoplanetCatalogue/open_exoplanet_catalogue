@@ -240,7 +240,7 @@ def checkForTransitingPlanets(root):
                     if planetName not in excludeList:
                         if not discoveryMethod == 'imaging':
                             print('{} has a radius but is is missing a istransiting tag'.format(planetName))
-                            issues += 1
+                            #issues += 1 # print warning but do not count as issue
 
             if addtag:
                 ET.SubElement(planet, "istransiting").text = '1'
