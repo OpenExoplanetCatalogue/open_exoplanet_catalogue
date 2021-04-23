@@ -1,67 +1,79 @@
 <system>
 	<name>Gliese 221</name>
-	<name>GJ 221</name>
-	<name>BD-061339</name>
-	<name>HIP 27803</name>
 	<name>BD-06 1339</name>
-	<rightascension>05 53 00.2845</rightascension>
-	<declination>-05 59 41.4420</declination>
-	<distance errorminus="1" errorplus="1">20</distance>
+	<name>GJ 221</name>
+	<rightascension>05 52 60.00</rightascension>
+	<declination>-05 59 40.92</declination>
+	<distance errorminus="1.0" errorplus="1.0">20.0</distance>
 	<star>
-		<magB>11.041</magB>
-		<magV>9.693</magV>
-		<magR>8.855</magR>
-		<magI>8.099</magI>
-		<magJ errorminus="0.018" errorplus="0.018">7.128</magJ>
-		<magH errorminus="0.059" errorplus="0.059">6.517</magH>
-		<magK errorminus="0.018" errorplus="0.018">6.305</magK>
 		<name>Gliese 221</name>
+		<name>BD-06 1339</name>
 		<name>GJ 221</name>
-		<name>BD-061339</name>
-		<name>HIP 27803</name>
-		<name>Gaia DR2 3022099969137163904</name>
-		<name>TYC 4781-406-1</name>
-		<mass errorminus="0.032" errorplus="0.032">0.637</mass>
-		<temperature errorminus="50" errorplus="50">4040</temperature>
-		<metallicity errorminus="0.10" errorplus="0.10">-0.07</metallicity>
-		<spectraltype>K7V</spectraltype>
-		<age errorminus="2" errorplus="2">3</age>
+		<magV>6.69</magV>
+		<mass>0.7</mass>
+		<temperature errorminus="100.0" errorplus="100.0">4324.0</temperature>
+		<metallicity errorminus="0.17" errorplus="0.17">-0.14</metallicity>
+		<spectraltype>K7V/M0V</spectraltype>
 		<planet>
 			<name>Gliese 221 b</name>
+			<name>BD-06 1339 b</name>
 			<name>GJ 221 b</name>
-			<name>BD-061339 b</name>
-			<name>HIP 27803 b</name>
-			<name>Gaia DR2 3022099969137163904 b</name>
-			<name>TYC 4781-406-1 b</name>
-			<list>Confirmed planets</list>
-			<mass errorminus="0.0118" errorplus="0.0118">0.13</mass>
-			<period errorminus="1.1" errorplus="1.1">125.06</period>
-			<semimajoraxis errorminus="0.0039" errorplus="0.0039">0.448</semimajoraxis>
-			<eccentricity upperlimit="0.24" />
-			<periastron errorminus="44" errorplus="44">118</periastron>
-			<longitude errorminus="17.5" errorplus="17.5">131</longitude>
-			<description>The planets orbiting the K7 star GJ 221 were discovered using publicly available HARPS data. The dataset was complemented with high precision Doppler measurements from Magellan/PFS. The system hosts at least two planets, one hot Super-Earth and one sub-Saturn mass planet.</description>
+			<semimajoraxis errorminus="0.0007" errorplus="0.0007">0.0428</semimajoraxis>
+			<eccentricity>0.0</eccentricity>
+			<periastron>360.0</periastron>
+			<period errorminus="0.0004" errorplus="0.0004">3.8728</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.004" errorplus="0.004">0.027</mass>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>13/05/13</lastupdate>
 			<discoveryyear>2013</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/04/11</lastupdate>
 		</planet>
 		<planet>
 			<name>Gliese 221 c</name>
+			<name>BD-06 1339 c</name>
 			<name>GJ 221 c</name>
-			<name>BD-061339 c</name>
-			<name>HIP 27803 c</name>
-			<name>Gaia DR2 3022099969137163904 c</name>
-			<name>TYC 4781-406-1 c</name>
-			<list>Confirmed planets</list>
-			<mass errorminus="0.00541" errorplus="0.00541">0.0196</mass>
-			<period errorminus="0.00066" errorplus="0.00066">3.8731</period>
-			<semimajoraxis>0.044</semimajoraxis>
-			<eccentricity upperlimit="0.48" />
-			<periastron>94</periastron>
-			<description>The planets orbiting the K7 star GJ 221 were discovered using publicly available HARPS data. The dataset was complemented with high precision Doppler measurements from Magellan/PFS. The system hosts at least two planets, one hot Super-Earth and one sub-Saturn mass planet.</description>
+			<semimajoraxis errorminus="0.007" errorplus="0.007">0.435</semimajoraxis>
+			<eccentricity errorminus="0.11" errorplus="0.11">0.31</eccentricity>
+			<periastron errorminus="55.0" errorplus="55.0">41.0</periastron>
+			<period errorminus="0.44" errorplus="0.44">125.94</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.03" errorplus="0.03">0.17</mass>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>13/05/13</lastupdate>
 			<discoveryyear>2013</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/04/11</lastupdate>
+		</planet>
+		<planet>
+			<name>Gliese 221 d</name>
+			<name>BD-06 1339 d</name>
+			<name>GJ 221 d</name>
+			<semimajoraxis errorminus="0.07" errorplus="0.07">1.06</semimajoraxis>
+			<eccentricity errorminus="0.02" errorplus="0.24">0.02</eccentricity>
+			<periastron errorminus="85.0" errorplus="275.0">275.0</periastron>
+			<period errorminus="26.0" errorplus="26.0">487.0</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.0296" errorplus="0.0365">0.0582</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2014</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/04/11</lastupdate>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>Gliese 221 e</name>
+			<name>GJ 221 e</name>
+			<name>BD-06 1339 e</name>
+			<semimajoraxis errorminus="0.003" errorplus="0.003">0.03</semimajoraxis>
+			<eccentricity errorminus="0.03" errorplus="0.24">0.03</eccentricity>
+			<period errorminus="0.00044" errorplus="0.00036">2.3946</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.0044" errorplus="0.0047">0.0104</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/04/11</lastupdate>
+			<new>1</new>
 		</planet>
 	</star>
 </system>

@@ -1,0 +1,48 @@
+<system>
+	<name>TOI-1260</name>
+	<rightascension>10 28 35.00</rightascension>
+	<declination>+65 51 15.00</declination>
+	<distance errorminus="0.07" errorplus="0.07">73.41</distance>
+	<star>
+		<name>TOI-1260</name>
+		<radius errorminus="0.01" errorplus="0.01">0.65</radius>
+		<magV>11.9</magV>
+		<mass errorminus="0.01" errorplus="0.01">0.66</mass>
+		<temperature errorminus="85.0" errorplus="85.0">4227.0</temperature>
+		<spectraltype>K6V</spectraltype>
+		<planet>
+			<name>TOI-1260 b</name>
+			<semimajoraxis errorminus="0.0036" errorplus="0.0022">0.0366</semimajoraxis>
+			<eccentricity>0.0</eccentricity>
+			<inclination errorminus="1.43" errorplus="0.82">88.8</inclination>
+			<period errorminus="0.000038" errorplus="0.000047">3.12748</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.00459" errorplus="0.00428">0.02709</mass>
+			<radius errorminus="0.009" errorplus="0.009">0.20832</radius>
+			<temperature errorminus="31.0" errorplus="47.0">860.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/04/13</lastupdate>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>TOI-1260 c</name>
+			<semimajoraxis errorminus="0.0065" errorplus="0.0039">0.0656</semimajoraxis>
+			<eccentricity>0.0</eccentricity>
+			<inclination errorminus="0.39" errorplus="0.24">88.12</inclination>
+			<period errorminus="0.00013" errorplus="0.00015">7.49325</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.01016" errorplus="0.01063">0.03725</mass>
+			<radius errorminus="0.0134" errorplus="0.0134">0.2516</radius>
+			<temperature errorminus="23.0" errorplus="35.0">643.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/04/13</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>
