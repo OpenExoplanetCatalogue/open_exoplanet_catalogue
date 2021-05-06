@@ -1,0 +1,39 @@
+<system>
+	<name>MASCARA-5</name>
+	<name>TOI-1431</name>
+	<name>HD 201033</name>
+	<rightascension>21 04 49.00</rightascension>
+	<declination>+55 35 17.00</declination>
+	<distance errorminus="1.1" errorplus="1.1">149.6</distance>
+	<star>
+		<name>MASCARA-5</name>
+		<name>TOI-1431</name>
+		<name>HD 201033</name>
+		<radius errorminus="0.07" errorplus="0.07">1.92</radius>
+		<magV>8.0</magV>
+		<mass errorminus="0.1" errorplus="0.1">1.9</mass>
+		<temperature errorminus="250.0" errorplus="400.0">7690.0</temperature>
+		<metallicity errorminus="0.28" errorplus="0.2">0.43</metallicity>
+		<spectraltype>AmC</spectraltype>
+		<planet>
+			<name>MASCARA-5 b</name>
+			<name>TOI-1431 b</name>
+			<name>HD 201033 b</name>
+			<semimajoraxis errorminus="0.002" errorplus="0.002">0.047</semimajoraxis>
+			<eccentricity errorminus="0.009" errorplus="0.036">0.01</eccentricity>
+			<periastron errorminus="160.0" errorplus="10.0">260.0</periastron>
+			<inclination errorminus="0.3" errorplus="0.6">80.4</inclination>
+			<period errorminus="0.000010" errorplus="0.000010">2.65022</period>
+			<description>This planet has been first detected by NASA's Transiting Exoplanet Survey Satellite mission (TESS) and the Multi-site All-Sky CAmeRA (MASCARA). The planet's low day/night temperature contrast (∼400 K) suggests very efficient heat transport between the dayside and nightside hemispheres. The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.19" errorplus="0.19">3.14</mass>
+			<radius errorminus="0.062" errorplus="0.062">1.508</radius>
+			<temperature errorminus="70.0" errorplus="70.0">2370.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/04/27</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

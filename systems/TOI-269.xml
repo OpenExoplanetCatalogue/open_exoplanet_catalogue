@@ -1,0 +1,33 @@
+<system>
+	<name>TOI-269</name>
+	<rightascension>05 03 23.00</rightascension>
+	<declination>-54 10 40.00</declination>
+	<distance errorminus="0.076" errorplus="0.076">57.023</distance>
+	<star>
+		<name>TOI-269</name>
+		<radius errorminus="0.012" errorplus="0.012">0.398</radius>
+		<magV>14.4</magV>
+		<mass errorminus="0.0095" errorplus="0.0095">0.3917</mass>
+		<temperature errorminus="70.0" errorplus="70.0">3514.0</temperature>
+		<metallicity errorminus="0.12" errorplus="0.12">-0.29</metallicity>
+		<spectraltype>M2V</spectraltype>
+		<planet>
+			<name>TOI-269 b</name>
+			<semimajoraxis errorminus="0.0015" errorplus="0.0015">0.0345</semimajoraxis>
+			<eccentricity errorminus="0.086" errorplus="0.082">0.425</eccentricity>
+			<periastron errorminus="15.0" errorplus="15.0">74.0</periastron>
+			<inclination errorminus="0.9" errorplus="0.78">88.14</inclination>
+			<period errorminus="0.000004" errorplus="0.000004">3.6977104</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.0044" errorplus="0.0044">0.0277</mass>
+			<radius errorminus="0.0107" errorplus="0.0107">0.2471</radius>
+			<temperature errorminus="25.0" errorplus="25.0">531.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/05/03</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>
