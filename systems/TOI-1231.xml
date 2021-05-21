@@ -1,0 +1,36 @@
+<system>
+	<name>TOI-1231</name>
+	<name>NLTT 24399</name>
+	<rightascension>10 26 59.00</rightascension>
+	<declination>-52 28 04.00</declination>
+	<distance errorminus="0.0123" errorplus="0.0123">27.4932</distance>
+	<star>
+		<name>TOI-1231</name>
+		<name>NLTT 24399</name>
+		<radius errorminus="0.015" errorplus="0.015">0.476</radius>
+		<magV>12.3</magV>
+		<mass errorminus="0.024" errorplus="0.024">0.485</mass>
+		<temperature errorminus="101.0" errorplus="101.0">3562.0</temperature>
+		<metallicity errorminus="0.08" errorplus="0.08">0.05</metallicity>
+		<spectraltype>M3V</spectraltype>
+		<planet>
+			<name>TOI-1231 b</name>
+			<name>NLTT  24399</name>
+			<semimajoraxis errorminus="0.0022" errorplus="0.0022">0.1288</semimajoraxis>
+			<eccentricity errorminus="0.061" errorplus="0.12">0.087</eccentricity>
+			<periastron errorminus="90.0" errorplus="81.0">176.0</periastron>
+			<inclination errorminus="0.18" errorplus="0.18">89.73</inclination>
+			<period errorminus="0.000066" errorplus="0.000066">24.245586</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.0104" errorplus="0.0104">0.0485</mass>
+			<radius errorminus="0.0143" errorplus="0.0143">0.3256</radius>
+			<temperature errorminus="3.8" errorplus="3.8">330.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<new>1</new>
+			<list>Confirmed planets</list>
+			<lastupdate>21/05/19</lastupdate>
+		</planet>
+	</star>
+</system>

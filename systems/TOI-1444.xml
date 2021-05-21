@@ -1,0 +1,41 @@
+<system>
+	<name>TOI-1444</name>
+	<rightascension>20 21 54.00</rightascension>
+	<declination>+70 56 37.00</declination>
+	<distance errorminus="2.0" errorplus="2.0">125.0</distance>
+	<star>
+		<name>TOI-1444</name>
+		<radius errorminus="0.016" errorplus="0.016">0.907</radius>
+		<magV>11.0</magV>
+		<mass errorminus="0.038" errorplus="0.038">0.934</mass>
+		<temperature errorminus="90.0" errorplus="90.0">5430.0</temperature>
+		<metallicity errorminus="0.06" errorplus="0.06">0.13</metallicity>
+		<planet>
+			<name>TOI-1444 b</name>
+			<eccentricity>0.0</eccentricity>
+			<inclination errorminus="2.0" errorplus="3.0">82.0</inclination>
+			<period errorminus="0.000004" errorplus="0.000004">0.4702694</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.00223" errorplus="0.00223">0.01218</mass>
+			<radius errorminus="0.00571" errorplus="0.00571">0.12463</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<new>1</new>
+			<lastupdate>21/05/20</lastupdate>
+		</planet>
+		<planet>
+			<name>TOI-1444 c</name>
+			<eccentricity>0.0</eccentricity>
+			<period errorminus="0.024" errorplus="0.024">16.086</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="2.9" errorplus="2.9">11.8</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<new>1</new>
+			<lastupdate>21/05/20</lastupdate>
+		</planet>
+	</star>
+</system>

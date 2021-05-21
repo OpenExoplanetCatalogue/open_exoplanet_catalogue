@@ -1,0 +1,32 @@
+<system>
+	<name>TOI-220</name>
+	<rightascension>06 07 12.00</rightascension>
+	<declination>-61 59 49.00</declination>
+	<distance errorminus="4.0" errorplus="4.0">89.0</distance>
+	<star>
+		<name>TOI-220</name>
+		<radius errorminus="0.032" errorplus="0.032">0.858</radius>
+		<magV>10.4</magV>
+		<mass errorminus="0.028" errorplus="0.028">0.825</mass>
+		<temperature errorminus="65.0" errorplus="65.0">5298.0</temperature>
+		<metallicity errorminus="0.044" errorplus="0.044">-0.217</metallicity>
+		<planet>
+			<name>TOI-220 b</name>
+			<semimajoraxis errorminus="0.001" errorplus="0.001">0.0892</semimajoraxis>
+			<eccentricity errorminus="0.021" errorplus="0.034">0.029</eccentricity>
+			<periastron errorminus="150.0" errorplus="150.0">159.0</periastron>
+			<inclination errorminus="0.14" errorplus="0.14">87.86</inclination>
+			<period errorminus="0.000087" errorplus="0.000087">10.695264</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.0038" errorplus="0.0038">0.0428</mass>
+			<radius errorminus="0.0152" errorplus="0.0152">0.2694</radius>
+			<temperature errorminus="25.0" errorplus="25.0">806.0</temperature>
+			<discoverymethod>RV</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<new>1</new>
+			<list>Confirmed planets</list>
+			<lastupdate>21/05/06</lastupdate>
+		</planet>
+	</star>
+</system>
