@@ -184,8 +184,10 @@ for line in lines:#read all the list of systems and run the parser class and the
 
         starname = starnames[0].text
         try:
-            print('Requesting: http://simbad.u-strasbg.fr/simbad/sim-basic?Ident='+quote_plus(starname))
-            code_source = urlopen('http://simbad.u-strasbg.fr/simbad/sim-basic?Ident='+quote_plus(starname)).read()
+            print('Requesting: http://simbad.cfa.harvard.edu/simbad/sim-basic?Ident='+quote_plus(starname))
+            code_source = urlopen('http://simbad.cfa.harvard.edu/simbad/sim-basic?Ident='+quote_plus(starname)).read()
+            #print('Requesting: http://simbad.u-strasbg.fr/simbad/sim-basic?Ident='+quote_plus(starname))
+            #code_source = urlopen('http://simbad.u-strasbg.fr/simbad/sim-basic?Ident='+quote_plus(starname)).read()
             code_source = code_source.decode('utf-8')
         except IOError:
             print('Lookup failed for {} - skipping'.format(starname))
