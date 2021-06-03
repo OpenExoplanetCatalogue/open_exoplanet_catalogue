@@ -1,0 +1,41 @@
+<system>
+	<name>G 264-012</name>
+	<rightascension>21 46 41.00</rightascension>
+	<declination>+66 48 21.00</declination>
+	<distance errorminus="0.1" errorplus="0.1">15.986</distance>
+	<star>
+		<name>G 264-012</name>
+		<radius errorminus="0.011" errorplus="0.011">0.305</radius>
+		<magV>12.0</magV>
+		<mass errorminus="0.024" errorplus="0.024">0.297</mass>
+		<temperature errorminus="54.0" errorplus="54.0">3326.0</temperature>
+		<metallicity errorminus="0.19" errorplus="0.19">0.1</metallicity>
+		<spectraltype>M4.0V</spectraltype>
+		<planet>
+			<name>G 264-012 b</name>
+			<semimajoraxis errorminus="0.00061" errorplus="0.00061">0.02279</semimajoraxis>
+			<period errorminus="0.00031" errorplus="0.00031">2.30538</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.0009" errorplus="0.0009">0.0079</mass>
+			<temperature errorminus="16.0" errorplus="16.0">587.0</temperature>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/05/31</lastupdate>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>G 264-012 c</name>
+			<semimajoraxis errorminus="0.0014" errorplus="0.0014">0.0525</semimajoraxis>
+			<period errorminus="0.0034" errorplus="0.0034">8.0518</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.00151" errorplus="0.00151">0.0118</mass>
+			<temperature errorminus="11.0" errorplus="11.0">387.0</temperature>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/05/31</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

@@ -1,0 +1,32 @@
+<system>
+	<name>TOI-674</name>
+	<rightascension>10 58 21.00</rightascension>
+	<declination>-36 51 29.00</declination>
+	<distance errorminus="0.03" errorplus="0.03">46.16</distance>
+	<star>
+		<name>TOI-674</name>
+		<radius errorminus="0.007" errorplus="0.007">0.421</radius>
+		<magV>14.2</magV>
+		<mass errorminus="0.007" errorplus="0.007">0.442</mass>
+		<temperature errorminus="32.0" errorplus="28.0">3505.0</temperature>
+		<metallicity errorminus="0.074" errorplus="0.074">0.114</metallicity>
+		<planet>
+			<name>TOI-674 b</name>
+			<semimajoraxis errorminus="0.0007" errorplus="0.0007">0.0231</semimajoraxis>
+			<eccentricity errorminus="0.05" errorplus="0.05">0.1</eccentricity>
+			<periastron errorminus="30.8" errorplus="30.8">45.4</periastron>
+			<inclination errorminus="0.2" errorplus="0.2">86.68</inclination>
+			<period errorminus="0.000003" errorplus="0.000003">1.977143</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.0104" errorplus="0.0104">0.0739</mass>
+			<radius errorminus="0.0152" errorplus="0.0152">0.4693</radius>
+			<temperature errorminus="14.0" errorplus="14.0">661.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/06/03</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

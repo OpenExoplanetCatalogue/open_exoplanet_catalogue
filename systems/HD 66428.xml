@@ -1,42 +1,42 @@
 <system>
 	<name>HD 66428</name>
-	<rightascension>08 03 28.6672</rightascension>
-	<declination>-01 09 45.7592</declination>
-	<distance errorminus="0.71" errorplus="0.71">53.4</distance>
+	<rightascension>08 03 28.00</rightascension>
+	<declination>-01 09 45.00</declination>
+	<distance errorminus="3.8" errorplus="3.8">55.0</distance>
 	<star>
 		<name>HD 66428</name>
-		<name>HIP 39417</name>
-		<name>SAO 135426</name>
-		<name>TYC 4846-68-1</name>
-		<name>BD-00 1891</name>
-		<name>2MASS J08032866-0109455</name>
-		<name>Gaia DR2 3083043390405346432</name>
-		<mass errorminus="0.056" errorplus="0.070">1.061</mass>
-		<radius errorminus="0.034" errorplus="0.034">0.980</radius>
-		<magV errorminus="0.01" errorplus="0.01">8.26</magV>
-		<magJ errorminus="0.023" errorplus="0.023">7.044</magJ>
-		<magH errorminus="0.061" errorplus="0.061">6.768</magH>
-		<magK errorminus="0.021" errorplus="0.021">6.66</magK>
-		<magB errorminus="0.02" errorplus="0.02">8.97</magB>
-		<metallicity errorminus="0.030" errorplus="0.030">0.310</metallicity>
+		<magV>8.25</magV>
+		<mass>1.14552</mass>
+		<temperature>5752.0</temperature>
+		<metallicity>0.31</metallicity>
 		<spectraltype>G5</spectraltype>
-		<temperature errorminus="44" errorplus="44">5752</temperature>
 		<planet>
 			<name>HD 66428 b</name>
-			<name>TYC 4846-68-1 b</name>
-			<name>Gaia DR2 3083043390405346432 b</name>
-			<name>HIP 39417 b</name>
-			<list>Confirmed planets</list>
-			<mass errorminus="0.07" errorplus="0.07" type="msini">3.09</mass>
-			<period errorminus="6.6" errorplus="6.6">2280.4</period>
-			<semimajoraxis>3.46</semimajoraxis>
-			<eccentricity errorminus="0.015" errorplus="0.016">0.448</eccentricity>
-			<periastrontime errorminus="20" errorplus="20">2452277</periastrontime>
-			<periastron errorminus="3.1" errorplus="3.1">179.7</periastron>
+			<semimajoraxis errorminus="0.19" errorplus="0.19">3.18</semimajoraxis>
+			<eccentricity errorminus="0.03" errorplus="0.03">0.465</eccentricity>
+			<periastron errorminus="3.9" errorplus="3.9">152.9</periastron>
+			<period errorminus="31.0" errorplus="31.0">1973.0</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.027" errorplus="0.027">2.82</mass>
 			<discoverymethod>RV</discoverymethod>
-			<description>HD 66428 b is a long-period giant planaet in an eccentric orbit. The radial velocities for the star exhibit a linear trend, indicating the presence of an additional object in the system.</description>
-			<lastupdate>17/12/10</lastupdate>
 			<discoveryyear>2006</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>06/07/14</lastupdate>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>HD 66428 c</name>
+			<semimajoraxis errorminus="7.6" errorplus="19.0">23.0</semimajoraxis>
+			<eccentricity errorminus="0.16" errorplus="0.23">0.32</eccentricity>
+			<periastron errorminus="80.0" errorplus="37.0">28.5</periastron>
+			<period errorminus="18000.0" errorplus="56000.0">39000.0</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.053" errorplus="0.069">0.085</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/05/31</lastupdate>
+			<new>1</new>
 		</planet>
 	</star>
 </system>
