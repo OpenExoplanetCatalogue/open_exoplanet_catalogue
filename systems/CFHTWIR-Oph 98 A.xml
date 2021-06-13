@@ -1,0 +1,33 @@
+<system>
+	<name>CFHTWIR-Oph 98 A</name>
+	<rightascension>16 27 44</rightascension>
+	<declination>-23 58 52</declination>
+	<distance errorminus="4" errorplus="4">137</distance>
+	<star>
+		<name>CFHTWIR-Oph 98 A</name>
+		<name>Oph 98 A</name>
+		<radius errorminus="0.01" errorplus="0.01">0.24</radius>
+		<magJ errorminus="0.1760000" errorplus="0.1760000">16.7750000</magJ>
+		<magH errorminus="0.1090000" errorplus="0.1090000">15.5740000</magH>
+		<magK errorminus="0.0980000" errorplus="0.0980000">14.5930000</magK>
+		<mass>0.01</mass>
+		<temperature errorminus="40.00" errorplus="40.00">2320.00</temperature>
+		<spectraltype>M9-L1</spectraltype>
+		<planet>
+			<name>CFHTWIR-Oph 98 A b</name>
+			<semimajoraxis errorminus="6.000000" errorplus="6.000000">200.000000</semimajoraxis>
+			<period errorminus="470000.00000000" errorplus="470000.00000000">8040000.00000000</period>
+			<description>This planet was discovered by Fontanive et al. 2020. It is a planetary-mass companion to CFHTWIR-Oph 98, a low-mass brown dwarf member of the young Ophiuchus star-forming region. The low component masses and very large separation make this binary the lowest binding energy system imaged to date, indicating that the outcome of low-mass star formation can result in such extreme, weakly-bound systems. The discovery was made with the 2.4 m Hubble Space Telescope.</description>
+			<mass errorminus="0.80000" errorplus="0.70000">7.80000</mass>
+			<radius errorminus="0.050" errorplus="0.050">1.860</radius>
+			<temperature errorminus="4.00000000000e+01" errorplus="4.00000000000e+01">1.80000000000e+03</temperature>
+			<discoverymethod>imaging</discoverymethod>
+			<discoveryyear>2020</discoveryyear>
+			<list>Confirmed planets</list>
+			<new>1</new>
+			<image>Oph98</image>
+			<imagedescription>Images of the Oph 98 binary system from the first epoch of CFHT data (left), HST observations (middle) and UKIRT data (right). North is up and East is left. Image credit: Fontanive et al. 2020.</imagedescription>
+			<lastupdate>21/06/13</lastupdate>
+		</planet>
+	</star>
+</system>
