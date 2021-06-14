@@ -250,7 +250,7 @@ def checkForTransitingPlanets(root):
 
 
 
-def checkonefile(filename):
+def checkonefile(filename, printerrors = True):
     global issues
     global xmlerrors
     global fileschanged
@@ -282,7 +282,8 @@ def checkonefile(filename):
         elem.attrib["errorminus"] = "%f" % (float(fragments[0]) - float(fragments[1]))
         elem.attrib["errorplus"] = "%f" % (float(fragments[2]) - float(fragments[0]))
         del elem.attrib["range"]
-        print("Converted range to errorbars in tag '" + elem.tag + "'.")
+        if printerrors:
+            print("Converted range to errorbars in tag '" + elem.tag + "'.")
 
         # Convert units to default units
     for mass in root.findall(".//planet/mass[@unit='me']"):
@@ -310,7 +311,8 @@ def checkonefile(filename):
                 else:
                     discoverymethodscounter[discoverymethod] += 1
             else:
-                print("No discovery method found: " + filename)
+                if printerrors:
+                    print("No discovery method found: " + filename)
                 issues += 1
 
             year = planet.findtext("./discoveryyear")
@@ -324,7 +326,8 @@ def checkonefile(filename):
                     mass = float(mass)
                     masslimit = 60
                     if mass>masslimit:
-                        print("Warning: "+filename+" has a confirmed planet with a mass %.2f Mjup > %.2f Mjup."%(mass,masslimit))
+                        if printerrors:
+                            print("Warning: "+filename+" has a confirmed planet with a mass %.2f Mjup > %.2f Mjup."%(mass,masslimit))
                 except:
                     pass
 
@@ -333,7 +336,8 @@ def checkonefile(filename):
     for lastupdate in root.findall(".//planet/lastupdate"):
         la = lastupdate.text.split("/")
         if len(la) != 3 or len(lastupdate.text) != 8:
-            print("Date format not following 'yy/mm/dd' convention: " + filename)
+            if printerrors:
+                print("Date format not following 'yy/mm/dd' convention: " + filename)
             issues += 1
         else:
             date = la[0]+la[1]+la[2]
@@ -343,32 +347,38 @@ def checkonefile(filename):
                 date = "20"+date
             lastUpdateGlobal = max(int(date),lastUpdateGlobal)
         if int(la[0]) + 2000 - datetime.date.today().year > 0 or int(la[1]) > 12 or int(la[2]) > 31:
-            print("Date not valid: " + filename)
+            if printerrors:
+                print("Date not valid: " + filename)
             issues += 1
 
 
     # Check that names follow conventions
     if not root.findtext("./name") + ".xml" == os.path.basename(filename):
-        print("Name of system not the same as filename: " + filename)
+        if printerrors:
+            print("Name of system not the same as filename: " + filename)
         issues += 1
     for obj in planets + stars:
         name = obj.findtext("./name")
         if not name:
-            print("Didn't find name tag for object \"" + obj.tag + "\" in file \"" + filename + "\".")
+            if printerrors:
+                print("Didn't find name tag for object \"" + obj.tag + "\" in file \"" + filename + "\".")
             issues += 1
 
     # Check if tags are valid and have valid attributes
     if checkforvaliderrors(root):
-        print("Problematic errorbar in in file \"" + filename + "\".")
+        if printerrors:
+            print("Problematic errorbar in in file \"" + filename + "\".")
 
     problematictag = checkforvalidtags(root)
     if problematictag:
-        print("Problematic tag/attribute '" + problematictag + "' found in file \"" + filename + "\".")
+        if printerrors:
+            print("Problematic tag/attribute '" + problematictag + "' found in file \"" + filename + "\".")
         issues += 1
     discoverymethods = root.findall(".//discoverymethod")
     for dm in discoverymethods:
         if not (dm.text in validdiscoverymethods):
-            print("Problematic discoverymethod '" + dm.text + "' found in file \"" + filename + "\".")
+            if printerrors:
+                print("Problematic discoverymethod '" + dm.text + "' found in file \"" + filename + "\".")
             issues += 1
 
     # Check if there are duplicate tags
@@ -377,7 +387,8 @@ def checkonefile(filename):
         for child in obj:
             if not child.tag in tagsallowmultiple:
                 if child.tag in uniquetags:
-                    print("Error: Found duplicate tag \"" + child.tag + "\" in file \"" + filename + "\".")
+                    if printerrors:
+                        print("Error: Found duplicate tag \"" + child.tag + "\" in file \"" + filename + "\".")
                     issues += 1
                 else:
                     uniquetags.append(child.tag)
@@ -390,7 +401,8 @@ def checkonefile(filename):
     lists = root.findall(".//list")
     for l in lists:
         if l.text not in validlists:
-                print("Error: Invalid list \"" + l.text + "\" in file \"" + filename + "\".")
+                if printerrors:
+                    print("Error: Invalid list \"" + l.text + "\" in file \"" + filename + "\".")
                 issues += 1
 
     # Check if each planet is in at least one list
@@ -401,7 +413,8 @@ def checkonefile(filename):
             if l.text in oneListOf:
                 isInList += 1
         if isInList!=1:
-            print("Error: Planet needs to be in exactly one of the following lists: '" +"', '".join(oneListOf)+"'. Check planets in file \"" + filename + "\".")
+            if printerrors:
+                print("Error: Planet needs to be in exactly one of the following lists: '" +"', '".join(oneListOf)+"'. Check planets in file \"" + filename + "\".")
             issues += 1
 
 
