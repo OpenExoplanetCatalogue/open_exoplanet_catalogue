@@ -275,6 +275,11 @@ def checkonefile(filename, printerrors = True):
     finally:
         f.close()
 
+    if len(root.findall("./star"))+len(root.findall("./binary"))>1:
+        if printerrors:
+            print("More than one star/binary at the root: " + filename)
+        issues += 1
+
     # Find tags with range=1 and convert to default error format
     for elem in root.findall(".//*[@range='1']"):
         fragments = elem.text.split()
