@@ -1,55 +1,70 @@
 <system>
 	<name>Kepler-324</name>
-	<name>KOI-1831</name>
-	<name>KIC 11601584</name>
-	<rightascension>19 05 53.1508</rightascension>
-	<declination>+49 38 56.3894</declination>
-	<distance>510.66</distance>
+	<rightascension>19 05 53</rightascension>
+	<declination>+49 38 57</declination>
+	<distance errorminus="3.6290000" errorplus="3.6810000">501.5740000</distance>
 	<star>
-		<magJ errorminus="0.027" errorplus="0.027">12.783</magJ>
-		<magH errorminus="0.03" errorplus="0.03">12.34</magH>
-		<magK errorminus="0.025" errorplus="0.025">12.291</magK>
 		<name>Kepler-324</name>
-		<name>KOI-1831</name>
-		<name>KIC 11601584</name>
-		<name>2MASS J19055315+4938564</name>
-		<name>Gaia DR2 2132078120004385152</name>
-		<temperature errorminus="100" errorplus="100">5194</temperature>
-		<radius errorminus=".072" errorplus="0.072">0.840</radius>
-		<mass errorminus="0.1500" errorplus="0.1500">0.8500</mass>
-		<planet>
-			<name>Kepler-324 c</name>
-			<name>KOI-1831 c</name>
-			<name>KOI-1831.01</name>
-			<name>KIC 11601584 c</name>
-			<name>KIC 11601584.01</name>
-			<name>Gaia DR2 2132078120004385152 c</name>
-			<radius errorminus="0.03007" errorplus="0.03007">0.28706</radius>
-			<period errorminus=".000314" errorplus="0.000314">51.805612</period>
-			<transittime errorminus="0.0029100" errorplus="0.0029100">2455016.0004900</transittime>
-			<list>Confirmed planets</list>
-			<description>Kepler-324 c has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-324 c are still unknown, the object is highly unlikely to be a false positive.</description>
-			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/02/26</lastupdate>
-			<discoverymethod>transit</discoverymethod>
-			<istransiting>1</istransiting>
-		</planet>
+		<radius errorminus="0.07" errorplus="0.07">0.84</radius>
+		<magV errorminus="0.0690000" errorplus="0.0690000">14.2220000</magV>
+		<magJ errorminus="0.0270000" errorplus="0.0270000">12.7830000</magJ>
+		<magH errorminus="0.0310000" errorplus="0.0310000">12.3370000</magH>
+		<magK errorminus="0.0250000" errorplus="0.0250000">12.2910000</magK>
+		<magI>13.8660000</magI>
+		<mass errorminus="0.03" errorplus="0.03">0.87</mass>
+		<temperature errorminus="100.00" errorplus="100.00">5194.00</temperature>
+		<metallicity errorminus="0.102" errorplus="0.102">0.030</metallicity>
 		<planet>
 			<name>Kepler-324 b</name>
-			<name>KOI-1831 b</name>
-			<name>KOI-1831.02</name>
-			<name>KIC 11601584 b</name>
-			<name>KIC 11601584.02</name>
-			<name>Gaia DR2 2132078120004385152 b</name>
-			<radius errorminus="0.01002" errorplus="0.01002">0.10389</radius>
-			<period errorminus=".000025" errorplus="0.000025">4.385315</period>
-			<transittime errorminus="0.0031300" errorplus="0.0031300">2454972.2265600</transittime>
-			<list>Confirmed planets</list>
-			<description>Kepler-324 b has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-324 b are still unknown, the object is highly unlikely to be a false positive.</description>
-			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/02/26</lastupdate>
+			<semimajoraxis>0.050000</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>88.500</inclination>
+			<period errorminus="0.00002500" errorplus="0.00002500">4.38531500</period>
+			<description>This planet was discovered by Rowe et al. 2014. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.00489</mass>
+			<radius errorminus="0.010" errorplus="0.010">0.102</radius>
+			<temperature>9.35000000000e+02</temperature>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
+			<discoveryyear>2014</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/06/17</lastupdate>
+			<transittime errorminus="0.003130" errorplus="0.003130">2454972.226560</transittime>
+		</planet>
+		<planet>
+			<name>Kepler-324 d</name>
+			<semimajoraxis>0.194900</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.620</inclination>
+			<period>34.16900000</period>
+			<description>This planet was discovered by Jontof-Hutter et al. 2021. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00264" errorplus="0.00157">0.00702</mass>
+			<radius errorminus="0.004" errorplus="0.004">0.101</radius>
+			<temperature errorminus="9.00000000000e+00" errorplus="9.00000000000e+00">4.75000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/06/17</lastupdate>
+			<transittime errorminus="0.008600" errorplus="0.008600">2454981.801900</transittime>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>Kepler-324 c</name>
+			<semimajoraxis>0.260000</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.750</inclination>
+			<period errorminus="0.00031400" errorplus="0.00031400">51.80561200</period>
+			<description>This planet was discovered by Rowe et al. 2014. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.03170</mass>
+			<radius errorminus="0.029" errorplus="0.029">0.281</radius>
+			<temperature>4.10000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2014</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/06/17</lastupdate>
+			<transittime errorminus="0.002910" errorplus="0.002910">2455016.000490</transittime>
 		</planet>
 	</star>
 	<constellation>Draco</constellation>

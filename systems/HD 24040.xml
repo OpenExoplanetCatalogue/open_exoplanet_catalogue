@@ -1,44 +1,51 @@
 <system>
 	<name>HD 24040</name>
-	<rightascension>03 50 22.9677</rightascension>
-	<declination>+17 28 34.9253</declination>
-	<distance errorminus="0.57" errorplus="0.57">45.85</distance>
+	<name>HIP 17960</name>
+	<rightascension>03 50 23</rightascension>
+	<declination>+17 28 31</declination>
+	<distance errorminus="0.1355000" errorplus="0.1362000">46.6224000</distance>
 	<star>
 		<name>HD 24040</name>
 		<name>HIP 17960</name>
-		<name>SAO 93630</name>
-		<name>TYC 1252-844-1</name>
-		<name>2MASS J03502296+1728349</name>
-		<name>BD+17 638</name>
-		<name>Gaia DR2 43802039287826432</name>
-		<magV>7.52</magV>
-		<magB>8.18</magB>
-		<magR>7.1</magR>
-		<magI>6.8</magI>
-		<magJ>6.28</magJ>
-		<magH>6.04</magH>
-		<magK>5.97</magK>
-		<spectraltype>G0</spectraltype>
-		<metallicity errorminus="0.030" errorplus="0.030">0.206</metallicity>
-		<temperature errorminus="44" errorplus="44">5853</temperature>
-		<mass errorminus="0.10" errorplus="0.10">1.18</mass>
-		<radius errorminus="0.039" errorplus="0.039">1.154</radius>
+		<radius errorminus="0.02" errorplus="0.02">1.30</radius>
+		<magV errorminus="0.0090000" errorplus="0.0090000">7.5150000</magV>
+		<magJ errorminus="0.0270000" errorplus="0.0270000">6.2790000</magJ>
+		<magH errorminus="0.0420000" errorplus="0.0420000">6.0380000</magH>
+		<magK errorminus="0.0200000" errorplus="0.0200000">5.9690000</magK>
+		<mass errorminus="0.12" errorplus="0.12">1.11</mass>
+		<temperature errorminus="15.00" errorplus="15.00">5802.00</temperature>
+		<metallicity>0.190</metallicity>
+		<spectraltype>G0V</spectraltype>
 		<planet>
 			<name>HD 24040 b</name>
-			<name>Gaia DR2 43802039287826432 b</name>
-			<name>TYC 1252-844-1 b</name>
 			<name>HIP 17960 b</name>
-			<list>Confirmed planets</list>
-			<mass errorminus="0.11" errorplus="0.11" type="msini">4.08</mass>
-			<period errorminus="23" errorplus="23">3498</period>
-			<periastrontime errorminus="348" errorplus="467">2452264</periastrontime>
-			<semimajoraxis>4.77</semimajoraxis>
-			<eccentricity errorminus="0.009" errorplus="0.015">0.010</eccentricity>
-			<periastron errorminus="36" errorplus="48">332</periastron>
+			<semimajoraxis errorminus="0.210000" errorplus="0.210000">4.920000</semimajoraxis>
+			<eccentricity errorminus="0.060000" errorplus="0.060000">0.040000</eccentricity>
+			<periastron errorminus="24.0000" errorplus="24.0000">67.0000</periastron>
+			<period errorminus="170.00000000" errorplus="170.00000000">3668.00000000</period>
+			<description>This planet was discovered by Wright et al. 2007. This was a ground based discovery. The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.36000" errorplus="0.36000">3.86000</mass>
+			<radius>1.160</radius>
 			<discoverymethod>RV</discoverymethod>
-			<description>HD 24040 b is a massive Jupiter-analogue orbiting a sunlike star. The radial velocity measurements for the star exhibit a linear trend, indicating the presence of an additional object in the system.</description>
-			<lastupdate>17/12/10</lastupdate>
 			<discoveryyear>2006</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/06/17</lastupdate>
+		</planet>
+		<planet>
+			<name>HD 24040 c</name>
+			<name>HIP 17960 c</name>
+			<semimajoraxis errorminus="0.022000" errorplus="0.021000">1.300000</semimajoraxis>
+			<eccentricity errorminus="0.079000" errorplus="0.120000">0.110000</eccentricity>
+			<periastron errorminus="49.8473" errorplus="74.4845">-17.1887</periastron>
+			<period errorminus="2.50000000" errorplus="2.20000000">515.40000000</period>
+			<description>This planet was discovered by Rosenthal et al. 2021. This was a ground based discovery. The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.02700" errorplus="0.02700">0.20100</mass>
+			<radius>0.834</radius>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/06/17</lastupdate>
+			<new>1</new>
 		</planet>
 	</star>
 	<constellation>Taurus</constellation>

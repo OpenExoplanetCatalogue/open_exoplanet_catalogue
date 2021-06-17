@@ -1,40 +1,51 @@
 <system>
 	<name>HD 156668</name>
-	<rightascension>17 17 40.4897</rightascension>
-	<declination>+29 13 38.0198</declination>
-	<distance>24.5</distance>
+	<name>HIP 84607</name>
+	<rightascension>17 17 40</rightascension>
+	<declination>+29 13 41</declination>
+	<distance errorminus="0.0166000" errorplus="0.0165000">24.3323000</distance>
 	<star>
-		<mass>0.772</mass>
-		<radius>0.72</radius>
-		<magV>8.42</magV>
-		<magB errorminus="0.02" errorplus="0.02">9.43</magB>
-		<magR>7.8</magR>
-		<magI>7.3</magI>
-		<magJ errorminus="0.026" errorplus="0.026">6.593</magJ>
-		<magH errorminus="0.024" errorplus="0.024">6.117</magH>
-		<magK errorminus="0.020" errorplus="0.020">6.004</magK>
-		<metallicity>0.05</metallicity>
-		<spectraltype>K3V</spectraltype>
+		<name>HD 156668</name>
+		<name>HIP 84607</name>
+		<radius errorminus="0.01" errorplus="0.01">0.77</radius>
+		<magV errorminus="0.0300000" errorplus="0.0300000">8.4300000</magV>
+		<magJ errorminus="0.0260000" errorplus="0.0260000">6.5930000</magJ>
+		<magH errorminus="0.0240000" errorplus="0.0240000">6.1170000</magH>
+		<magK errorminus="0.0200000" errorplus="0.0200000">6.0040000</magK>
+		<mass errorminus="0.02" errorplus="0.02">0.79</mass>
+		<temperature errorminus="59.64" errorplus="59.64">4903.69</temperature>
+		<metallicity errorminus="0.056" errorplus="0.056">0.049</metallicity>
+		<spectraltype>K2</spectraltype>
+		<planet>
+			<name>HD 156668 c</name>
+			<name>HIP 84607 c</name>
+			<semimajoraxis errorminus="0.017000" errorplus="0.017000">1.570000</semimajoraxis>
+			<eccentricity errorminus="0.061000" errorplus="0.084000">0.089000</eccentricity>
+			<periastron errorminus="42.3989" errorplus="52.7121">-10.8862</periastron>
+			<period errorminus="5.30000000" errorplus="5.20000000">811.30000000</period>
+			<description>This planet was discovered by Rosenthal et al. 2021. This was a ground based discovery. The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00770" errorplus="0.00790">0.09910</mass>
+			<radius>0.550</radius>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/06/17</lastupdate>
+			<new>1</new>
+		</planet>
 		<planet>
 			<name>HD 156668 b</name>
-			<name>Gaia DR2 4575374857376398976 b</name>
-			<name>TYC 2073-136-1 b</name>
 			<name>HIP 84607 b</name>
-			<list>Confirmed planets</list>
-			<mass>0.0131</mass>
-			<period>4.646</period>
-			<semimajoraxis>0.05</semimajoraxis>
-			<eccentricity>0.0</eccentricity>
+			<semimajoraxis errorminus="0.000700" errorplus="0.000700">0.050000</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<period errorminus="0.00110000" errorplus="0.00110000">4.64550000</period>
+			<description>This planet was discovered by Howard et al. 2011. This was a ground based discovery. The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00200" errorplus="0.00200">0.01300</mass>
+			<radius>0.167</radius>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/05/24</lastupdate>
 			<discoveryyear>2010</discoveryyear>
-			<temperature>811.5</temperature>
+			<list>Confirmed planets</list>
+			<lastupdate>21/06/17</lastupdate>
 		</planet>
-		<name>HD 156668</name>
-		<name>Gaia DR2 4575374857376398976</name>
-		<name>TYC 2073-136-1</name>
-		<name>HIP 84607</name>
-		<temperature>4850.0</temperature>
 	</star>
 	<constellation>Hercules</constellation>
 </system>

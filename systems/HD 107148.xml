@@ -1,37 +1,52 @@
 <system>
 	<name>HD 107148</name>
-	<rightascension>12 19 13.4912</rightascension>
-	<declination>-03 19 11.2392</declination>
-	<distance>51.3</distance>
+	<name>HIP 60081</name>
+	<rightascension>12 19 13</rightascension>
+	<declination>-03 19 12</declination>
+	<distance errorminus="0.1154000" errorplus="0.1160000">49.4156000</distance>
 	<star>
-		<mass>1.12</mass>
-		<magV>8.01</magV>
-		<magJ errorminus="0.023" errorplus="0.023">6.858</magJ>
-		<magH errorminus="0.046" errorplus="0.046">6.604</magH>
-		<magK errorminus="0.027" errorplus="0.027">6.474</magK>
-		<magB errorminus="0.02" errorplus="0.02">8.72</magB>
-		<metallicity>0.314</metallicity>
-		<spectraltype>G5</spectraltype>
+		<name>HD 107148</name>
+		<name>HIP 60081</name>
+		<radius errorminus="0.03" errorplus="0.03">1.17</radius>
+		<magV errorminus="0.0300000" errorplus="0.0300000">8.0100000</magV>
+		<magJ errorminus="0.0230000" errorplus="0.0230000">6.8580000</magJ>
+		<magH errorminus="0.0460000" errorplus="0.0460000">6.6040000</magH>
+		<magK errorminus="0.0270000" errorplus="0.0270000">6.4740000</magK>
+		<mass errorminus="0.04" errorplus="0.04">1.11</mass>
+		<temperature errorminus="86.22" errorplus="86.22">5752.92</temperature>
+		<metallicity errorminus="0.058" errorplus="0.058">0.296</metallicity>
+		<spectraltype>G5V</spectraltype>
+		<planet>
+			<name>HD 107148 c</name>
+			<name>HIP 60081 c</name>
+			<semimajoraxis errorminus="0.001900" errorplus="0.001800">0.140700</semimajoraxis>
+			<eccentricity errorminus="0.160000" errorplus="0.130000">0.340000</eccentricity>
+			<periastron errorminus="24.0642" errorplus="38.3882">-44.6907</periastron>
+			<period errorminus="0.00240000" errorplus="0.00220000">18.32670000</period>
+			<description>This planet was discovered by Rosenthal et al. 2021. This was a ground based discovery. The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00980" errorplus="0.00970">0.06260</mass>
+			<radius>0.420</radius>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/06/17</lastupdate>
+			<new>1</new>
+		</planet>
 		<planet>
 			<name>HD 107148 b</name>
-			<name>TYC 4943-39-1 b</name>
-			<name>Gaia DR2 3693358861640279296 b</name>
 			<name>HIP 60081 b</name>
-			<list>Confirmed planets</list>
-			<mass>0.21</mass>
-			<period>48.056</period>
-			<semimajoraxis>0.269</semimajoraxis>
-			<eccentricity>0.05</eccentricity>
+			<semimajoraxis errorminus="0.016000" errorplus="0.016000">0.269000</semimajoraxis>
+			<eccentricity errorminus="0.170000" errorplus="0.170000">0.050000</eccentricity>
+			<periastron>75.0000</periastron>
+			<period errorminus="0.05700000" errorplus="0.05700000">48.05600000</period>
+			<description>This planet was discovered by Butler et al. 2006. This was a ground based discovery. The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.03600" errorplus="0.03600">0.21000</mass>
+			<radius>0.856</radius>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>06/07/15</lastupdate>
-			<discoveryyear>2006</discoveryyear>
-			<temperature>537.4</temperature>
+			<discoveryyear>2005</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/06/17</lastupdate>
 		</planet>
-		<name>HD 107148</name>
-		<name>TYC 4943-39-1</name>
-		<name>Gaia DR2 3693358861640279296</name>
-		<name>HIP 60081</name>
-		<temperature>5797.0</temperature>
 	</star>
 	<constellation>Virgo</constellation>
 </system>

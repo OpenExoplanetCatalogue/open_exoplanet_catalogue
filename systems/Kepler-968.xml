@@ -1,52 +1,70 @@
 <system>
 	<name>Kepler-968</name>
-	<name>KOI-1833</name>
-	<name>KIC 11853878</name>
-	<distance errorminus="1.4571" errorplus="1.4571">292.774</distance>
-	<rightascension>19 02 24.6290</rightascension>
-	<declination>+50 06 43.3132</declination>
+	<rightascension>19 02 25</rightascension>
+	<declination>+50 06 43</declination>
+	<distance errorminus="1.4350000" errorplus="1.4480000">290.3240000</distance>
 	<star>
 		<name>Kepler-968</name>
-		<name>KOI-1833</name>
-		<name>KIC 11853878</name>
-		<name>2MASS J19022460+5006433</name>
-		<name>Gaia DR2 2132152474478407040</name>
-		<magH errorminus="0.028" errorplus="0.028">11.971</magH>
-		<magJ errorminus="0.023" errorplus="0.023">12.518</magJ>
-		<magK errorminus="0.025" errorplus="0.025">11.831</magK>
-		<temperature errorminus="38.9" errorplus="37.1">4598.0</temperature>
-		<mass errorminus="0.04" errorplus="0.03">0.76</mass>
 		<radius errorminus="0.03" errorplus="0.02">0.70</radius>
-		<metallicity errorminus="0.21" errorplus="0.13">0.13</metallicity>
-		<planet>
-			<name>Kepler-968 b</name>
-			<name>KOI-1833 b</name>
-			<name>KOI-1833.01</name>
-			<name>KIC 11853878 b</name>
-			<name>Gaia DR2 2132152474478407040 b</name>
-			<discoverymethod>transit</discoverymethod>
-			<list>Confirmed planets</list>
-			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
-			<istransiting>1</istransiting>
-			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000003610" errorplus="0.000003610">3.692983730</period>
-			<radius errorminus="0.007" errorplus="0.007">0.178</radius>
-		</planet>
+		<magV errorminus="0.1260000" errorplus="0.1260000">14.6260000</magV>
+		<magJ errorminus="0.0230000" errorplus="0.0230000">12.5180000</magJ>
+		<magH errorminus="0.0280000" errorplus="0.0280000">11.9710000</magH>
+		<magK errorminus="0.0250000" errorplus="0.0250000">11.8310000</magK>
+		<magI>13.8400000</magI>
+		<mass errorminus="0.04" errorplus="0.03">0.76</mass>
+		<temperature errorminus="38.88" errorplus="37.07">4598.00</temperature>
+		<metallicity errorminus="0.211" errorplus="0.133">0.130</metallicity>
 		<planet>
 			<name>Kepler-968 c</name>
-			<name>KOI-1833 c</name>
-			<name>KOI-1833.03</name>
-			<name>KIC 11853878 c</name>
-			<name>Gaia DR2 2132152474478407040 c</name>
-			<discoverymethod>transit</discoverymethod>
-			<list>Confirmed planets</list>
-			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
-			<istransiting>1</istransiting>
-			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000009540" errorplus="0.000009540">5.709404920</period>
+			<semimajoraxis>0.052000</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>87.700</inclination>
+			<period errorminus="0.00000954" errorplus="0.00000954">5.70940492</period>
+			<description>This planet was discovered by Morton et al. 2016. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.01100</mass>
 			<radius errorminus="0.006" errorplus="0.007">0.151</radius>
+			<temperature>6.44000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/06/17</lastupdate>
+			<transittime errorminus="0.001340" errorplus="0.001340">2454970.122100</transittime>
+		</planet>
+		<planet>
+			<name>Kepler-968 b</name>
+			<semimajoraxis>0.038900</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>85.880</inclination>
+			<period errorminus="0.00000361" errorplus="0.00000361">3.69298373</period>
+			<description>This planet was discovered by Morton et al. 2016. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.01470</mass>
+			<radius errorminus="0.007" errorplus="0.007">0.178</radius>
+			<temperature>7.45000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/06/17</lastupdate>
+			<transittime errorminus="0.000780" errorplus="0.000780">2454965.736952</transittime>
+		</planet>
+		<planet>
+			<name>Kepler-968 d</name>
+			<semimajoraxis>0.063400</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>86.870</inclination>
+			<period>7.68500000</period>
+			<description>This planet was discovered by Jontof-Hutter et al. 2021. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.03467</mass>
+			<radius errorminus="0.020" errorplus="0.021">0.230</radius>
+			<temperature errorminus="2.30000000000e+01" errorplus="2.30000000000e+01">6.13000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/06/17</lastupdate>
+			<transittime errorminus="0.000719" errorplus="0.000719">2454966.359702</transittime>
+			<new>1</new>
 		</planet>
 	</star>
 	<constellation>Draco</constellation>
