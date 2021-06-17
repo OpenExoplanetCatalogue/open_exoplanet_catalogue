@@ -435,12 +435,12 @@ def checkonefile(filename, printerrors = True):
    
     # Add constellation
     const = root.find("./constellation")
-    if const is None:
+    if const is None and "Sun" not in filename:
         try:
             astropy
             try:
                 ra = root.find("./rightascension").text.split(" ")
-                dec = root.find("./declination").text.split(" ")
+                dec = root.find("./declination").text.replace(u'\xa0',u' ').split(" ")
                 c = SkyCoord(ra[0]+"h"+ra[1]+"m"+ra[2]+"s", dec[0]+"d"+dec[1]+"m"+dec[2]+"s")
                 constellation = astropy.coordinates.get_constellation(c)
                 print("Constellation " + constellation + " added to: \"" + filename + "\".")
