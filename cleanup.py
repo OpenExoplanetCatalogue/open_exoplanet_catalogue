@@ -8,6 +8,13 @@ import datetime
 import time
 import re
 import json
+try:
+    import astropy
+    from astropy.coordinates import SkyCoord
+except:
+    print("astropy not found.")
+
+
 
 # Regex for valid numbers
 num_format = re.compile(r'''^(?![eE])           # match cannot start with [eE]
@@ -99,7 +106,7 @@ validtags = [
     "metallicity", "inclination", "spectraltype", "binary", "planet", "periastron", "star",
     "mass", "eccentricity", "radius", "temperature", "videolink", "transittime",
     "spinorbitalignment", "istransiting", "separation", "positionangle", "periastrontime",
-    "meananomaly", "maximumrvtime", "impactparameter", "asteroid", "satellite", "tilt"]
+    "meananomaly", "maximumrvtime", "impactparameter", "asteroid", "satellite", "tilt", "constellation"]
 validattributes = [
     "error",
     "errorplus",
@@ -425,6 +432,27 @@ def checkonefile(filename, printerrors = True):
 
     # Check transiting planets
     checkForTransitingPlanets(root)
+   
+    # Add constellation
+    const = root.find("./constellation")
+    if const is None:
+        try:
+            astropy
+            try:
+                ra = root.find("./rightascension").text.split(" ")
+                dec = root.find("./declination").text.split(" ")
+                c = SkyCoord(ra[0]+"h"+ra[1]+"m"+ra[2]+"s", dec[0]+"d"+dec[1]+"m"+dec[2]+"s")
+                constellation = astropy.coordinates.get_constellation(c)
+                print("Constellation " + constellation + " added to: \"" + filename + "\".")
+                ET.SubElement(root, "constellation").text = constellation
+            except:
+                print("Error: Cannot find constellation for system: \"" + filename + "\".")
+        except:
+            pass
+
+
+
+
 
     # Cleanup XML
     removeemptytags(root)

@@ -101,6 +101,7 @@ The following table shows all the possible tags in the Open Exoplanet Catalogue.
 | `discoveryyear`	| `planet` | Year of the planet's discovery | yyyy  |
 | `lastupdate`	| `planet` | Date of the last (non-trivial) update | yy/mm/dd   |
 | `spinorbitalignment` | `planet` | Rossiter-McLaughlin Effect. | degree |
+| `constellation` | `system` | Constellation (IAU definition) |  |
 
 Errors
 -------------
