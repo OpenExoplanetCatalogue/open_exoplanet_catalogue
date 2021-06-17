@@ -1,40 +1,52 @@
 <system>
 	<name>HD 68988</name>
-	<rightascension>08 18 22.1727</rightascension>
-	<declination>+61 27 38.5973</declination>
-	<distance>58</distance>
+	<name>HIP 40687</name>
+	<rightascension>08 18 22</rightascension>
+	<declination>+61 27 39</declination>
+	<distance errorminus="0.1906000" errorplus="0.1918000">60.8447000</distance>
 	<star>
-		<mass>1.2</mass>
-		<radius>1.14</radius>
-		<magV>8.21</magV>
-		<magJ errorminus="0.021" errorplus="0.021">7.06</magJ>
-		<magH errorminus="0.02" errorplus="0.02">6.812</magH>
-		<magK errorminus="0.024" errorplus="0.024">6.743</magK>
-		<magB errorminus="0.02" errorplus="0.02">8.84</magB>
-		<metallicity>0.24</metallicity>
-		<spectraltype>G0</spectraltype>
+		<name>HD 68988</name>
+		<name>HIP 40687</name>
+		<radius errorminus="0.02" errorplus="0.02">1.19</radius>
+		<magV errorminus="0.0300000" errorplus="0.0300000">8.2000000</magV>
+		<magJ errorminus="0.0210000" errorplus="0.0210000">7.0600000</magJ>
+		<magH errorminus="0.0200000" errorplus="0.0200000">6.8120000</magH>
+		<magK errorminus="0.0240000" errorplus="0.0240000">6.7430000</magK>
+		<mass errorminus="0.09" errorplus="0.09">1.28</mass>
+		<temperature errorminus="23.00" errorplus="23.00">5932.00</temperature>
+		<metallicity>0.350</metallicity>
+		<spectraltype>G2V</spectraltype>
 		<planet>
 			<name>HD 68988 b</name>
-			<name>Nasti b</name>
-			<name>TYC 4126-818-1 b</name>
 			<name>HIP 40687 b</name>
-			<name>Gaia DR2 1090159839002347136 b</name>
-			<list>Confirmed planets</list>
-			<mass>1.9</mass>
-			<period>6.276</period>
-			<semimajoraxis>0.071</semimajoraxis>
-			<eccentricity>0.14</eccentricity>
+			<semimajoraxis>0.070000</semimajoraxis>
+			<eccentricity errorminus="0.010000" errorplus="0.010000">0.120000</eccentricity>
+			<periastron errorminus="3.5000" errorplus="3.5000">31.4000</periastron>
+			<period errorminus="0.00021000" errorplus="0.00021000">6.27711000</period>
+			<description>This planet was discovered by Vogt et al. 2002. This was a ground based discovery. The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.10000" errorplus="0.10000">1.97000</mass>
+			<radius>1.200</radius>
 			<discoverymethod>RV</discoverymethod>
-			<lastupdate>10/12/30</lastupdate>
 			<discoveryyear>2001</discoveryyear>
-			<temperature>1017.7</temperature>
+			<list>Confirmed planets</list>
+			<lastupdate>21/06/17</lastupdate>
+			<new>1</new>
 		</planet>
-		<name>HD 68988</name>
-		<name>Nasti</name>
-		<name>TYC 4126-818-1</name>
-		<name>HIP 40687</name>
-		<name>Gaia DR2 1090159839002347136</name>
-		<temperature>5767.0</temperature>
+		<planet>
+			<name>HD 68988 c</name>
+			<name>HIP 40687 c</name>
+			<semimajoraxis errorminus="2.000000" errorplus="5.300000">13.200000</semimajoraxis>
+			<eccentricity errorminus="0.081000" errorplus="0.130000">0.450000</eccentricity>
+			<periastron errorminus="2.4637" errorplus="2.1199">-7.4485</periastron>
+			<period errorminus="3500.00000000" errorplus="11000.00000000">16000.00000000</period>
+			<description>This planet was discovered by Rosenthal et al. 2021. This was a ground based discovery. The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="1.50000" errorplus="2.80000">15.00000</mass>
+			<radius>1.090</radius>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/06/17</lastupdate>
+			<new>1</new>
+		</planet>
 	</star>
-	<constellation>Ursa Major</constellation>
 </system>
