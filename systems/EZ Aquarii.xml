@@ -1,0 +1,39 @@
+<system>
+	<name>EZ Aquarii</name>
+	<name>Gliese 866</name>
+	<name>Luyten 789-6</name>
+	<distance errorminus="0.0104244" errorplus="0.0104244">3.4060348</distance>
+	<rightascension>22 38 33.4</rightascension>
+	<declination>-15 17 57</declination>
+	<binary>
+		<period>3.8</period>
+		<semimajoraxis>0.03</semimajoraxis>
+		<binary>
+			<period>822.01409</period>
+			<eccentricity>0.437</eccentricity>
+			<inclination>112.4</inclination>
+			<star>
+				<name>EZ Aquarii A</name>
+				<spectraltype>M5.0Ve</spectraltype>
+				<mass>0.11</mass>
+				<magV>15.64</magV>
+				<discoveryyear>1937</discoveryyear>
+			</star>
+			<star>
+				<name>EZ Aquarii C</name>
+				<spectraltype>M?</spectraltype>
+				<mass>0.10</mass>
+				<magV>16.34</magV>
+				<discoveryyear>1995</discoveryyear>
+			</star>
+		</binary>
+		<star>
+			<name>EZ Aquarii B</name>
+			<spectraltype>M?</spectraltype>
+			<mass>0.11</mass>
+			<magV>15.58</magV>
+			<discoveryyear>1937</discoveryyear>
+		</star>
+	</binary>
+	<constellation>Aquarius</constellation>
+</system>

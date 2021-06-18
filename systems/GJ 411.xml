@@ -1,0 +1,58 @@
+<system>
+	<name>GJ 411</name>
+	<name>HD 95735</name>
+	<name>HIP 54035</name>
+	<rightascension>11 03 20</rightascension>
+	<declination>+35 58 20</declination>
+	<distance errorminus="0.0059099" errorplus="0.0059099">5.6757730</distance>
+	<star>
+		<name>GJ 411</name>
+		<name>HD 95735</name>
+		<name>HIP 54035</name>
+		<name>TYC 2521-2279-1</name>
+		<radius>0.39</radius>
+		<magV errorminus="0.1000000" errorplus="0.1000000">7.4900000</magV>
+		<magJ errorminus="0.2820000" errorplus="0.2820000">4.3200000</magJ>
+		<magH errorminus="0.2240000" errorplus="0.2240000">3.7220000</magH>
+		<magK errorminus="0.3520000" errorplus="0.3520000">3.5010000</magK>
+		<mass errorminus="0.01" errorplus="0.01">0.39</mass>
+		<temperature errorminus="51.00" errorplus="51.00">3601.00</temperature>
+		<metallicity errorminus="0.160" errorplus="0.160">-0.090</metallicity>
+		<spectraltype>M1.5V</spectraltype>
+		<planet>
+			<name>GJ 411 b</name>
+			<name>HD 95735 b</name>
+			<name>HIP 54035 b</name>
+			<name>TYC 2521-2279-1 b</name>
+			<semimajoraxis errorminus="0.000770" errorplus="0.000680">0.078900</semimajoraxis>
+			<eccentricity errorminus="0.090000" errorplus="0.120000">0.120000</eccentricity>
+			<periastron errorminus="53.0000" errorplus="27.3000">140.7000</periastron>
+			<period errorminus="0.00500000" errorplus="0.00500000">12.94600000</period>
+			<description>This planet was discovered by Díaz et al. 2019. This was a ground based discovery. The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00079" errorplus="0.00079">0.00846</mass>
+			<radius>0.129</radius>
+			<temperature errorminus="6.80000000000e+00" errorplus="5.80000000000e+00">3.70100000000e+02</temperature>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2019</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/06/17</lastupdate>
+		</planet>
+		<planet>
+			<name>GJ 411 c</name>
+			<name>HD 95735 c</name>
+			<name>HIP 54035 c</name>
+			<semimajoraxis errorminus="0.110000" errorplus="0.130000">3.100000</semimajoraxis>
+			<eccentricity errorminus="0.095000" errorplus="0.160000">0.140000</eccentricity>
+			<periastron errorminus="74.4845" errorplus="63.0254">5.7296</periastron>
+			<period errorminus="170.00000000" errorplus="200.00000000">3190.00000000</period>
+			<description>This planet was discovered by Rosenthal et al. 2021. This was a ground based discovery. The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00830" errorplus="0.00910">0.05680</mass>
+			<radius>0.396</radius>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/06/17</lastupdate>
+		</planet>
+	</star>
+	<constellation>Ursa Major</constellation>
+</system>

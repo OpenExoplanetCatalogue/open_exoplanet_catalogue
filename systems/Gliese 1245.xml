@@ -1,0 +1,37 @@
+<system>
+	<name>Gliese 1245</name>
+	<distance errorminus="0.0015330" errorplus="0.0015330">4.6631005</distance>
+	<rightascension>19 53 54.2</rightascension>
+	<declination>+44 24 55</declination>
+	<binary>
+		<semimajoraxis>33</semimajoraxis>
+		<binary>
+			<semimajoraxis>8</semimajoraxis>
+			<star>
+				<name>G 208-44 A</name>
+				<name>Gliese 1245 A</name>
+				<spectraltype>M5.5V</spectraltype>
+				<mass>0.11</mass>
+				<magV>15.17</magV>
+				<discoveryyear>1967</discoveryyear>
+			</star>
+			<star>
+				<name>G 208-44 B</name>
+				<name>Gliese 1245 C</name>
+				<spectraltype>M5.5</spectraltype>
+				<mass>0.07</mass>
+				<magV>18.46</magV>
+				<discoveryyear>1984</discoveryyear>
+			</star>
+		</binary>
+		<star>
+			<name>G 208-45</name>
+			<name>Gliese 1245 B</name>
+			<spectraltype>M6.0V</spectraltype>
+			<mass>0.10</mass>
+			<magV>15.72</magV>
+			<discoveryyear>1967</discoveryyear>
+		</star>
+	</binary>
+	<constellation>Cygnus</constellation>
+</system>

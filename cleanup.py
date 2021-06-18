@@ -365,7 +365,7 @@ def checkonefile(filename, printerrors = True):
 
 
     # Check that names follow conventions
-    if not root.findtext("./name") + ".xml" == os.path.basename(filename):
+    if not root.findtext("./name").replace("'","") + ".xml" == os.path.basename(filename):
         if printerrors:
             print("Name of system not the same as filename: " + filename)
         issues += 1

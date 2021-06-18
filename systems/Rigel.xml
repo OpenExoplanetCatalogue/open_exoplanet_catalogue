@@ -1,0 +1,35 @@
+<system>
+	<name>Rigel</name>
+	<distance errorminus="20" errorplus="20">260</distance>
+	<rightascension>05 14 32.27210</rightascension>
+	<declination>-08 12 05.8981</declination>
+	<binary>
+		<period>8765812.8</period>
+		<star>
+			<name>Rigel A</name>
+			<spectraltype>B8</spectraltype>
+			<mass errorminus="3" errorplus="3">21</mass>
+			<radius errorminus="7.4" errorplus="7.4">78.9</radius>
+		</star>
+		<binary>
+			<period>23010.259</period>
+			<binary>
+				<period>9.860</period>
+				<eccentricity>0.1</eccentricity>
+				<star>
+					<name>Rigel Ba</name>
+					<mass>3.84</mass>
+				</star>
+				<star>
+					<name>Rigel Bb</name>
+					<mass>2.94</mass>
+				</star>
+			</binary>
+			<star>
+				<name>Rigel C</name>
+				<mass>3.84</mass>
+			</star>
+		</binary>
+	</binary>
+	<constellation>Orion</constellation>
+</system>
