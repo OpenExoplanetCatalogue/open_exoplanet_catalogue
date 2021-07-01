@@ -1,67 +1,67 @@
 <system>
 	<name>Kepler-129</name>
-	<name>KOI-275</name>
-	<name>KIC 10586004</name>
-	<rightascension>19 01 14.7046</rightascension>
-	<declination>+47 50 54.9007</declination>
-	<distance>402.81</distance>
+	<rightascension>19 01 15</rightascension>
+	<declination>+47 50 55</declination>
+	<distance errorminus="4.3080000" errorplus="4.3990000">408.8450000</distance>
 	<star>
-		<magB errorminus="0.22" errorplus="0.22">12.67</magB>
-		<magV errorminus="0.15" errorplus="0.15">11.81</magV>
-		<magJ errorminus="0.025" errorplus="0.025">10.600</magJ>
-		<magH errorminus="0.017" errorplus="0.017">10.325</magH>
-		<magK errorminus="0.019" errorplus="0.019">10.252</magK>
 		<name>Kepler-129</name>
-		<name>KOI-275</name>
-		<name>KIC 10586004</name>
-		<name>2MASS J19011470+4750549</name>
-		<name>Gaia DR2 2131494313689868416</name>
-		<name>TYC 3545-1418-1</name>
-		<temperature errorminus="83" errorplus="83">5770</temperature>
-		<radius errorminus="0.051" errorplus="0.051">1.641</radius>
-		<mass errorminus="0.0690" errorplus="0.0690">1.1850</mass>
+		<radius errorminus="0.01" errorplus="0.01">1.65</radius>
+		<magV errorminus="0.0220000" errorplus="0.0220000">11.8090000</magV>
+		<magJ errorminus="0.0250000" errorplus="0.0250000">10.6000000</magJ>
+		<magH errorminus="0.0170000" errorplus="0.0170000">10.3250000</magH>
+		<magK errorminus="0.0190000" errorplus="0.0190000">10.2520000</magK>
+		<mass errorminus="0.03" errorplus="0.02">1.18</mass>
+		<temperature errorminus="83.00" errorplus="83.00">5770.00</temperature>
+		<metallicity errorminus="0.100" errorplus="0.100">0.290</metallicity>
+		<spectraltype>G4V</spectraltype>
 		<planet>
 			<name>Kepler-129 b</name>
-			<name>KOI-275 b</name>
-			<name>KOI-275.01</name>
-			<name>KIC 10586004 b</name>
-			<name>KIC 10586004.01</name>
-			<name>Gaia DR2 2131494313689868416 b</name>
-			<name>TYC 3545-1418-1 b</name>
-			<radius errorminus="0.01914" errorplus="0.01914">0.21598</radius>
-			<period errorminus="0.000068" errorplus="0.000068">15.791860</period>
-			<transittime errorminus="0.0022800" errorplus="0.0022800" unit="BJD">2455009.8216600</transittime>
-			<semimajoraxis errorminus="0.003" errorplus="0.003">0.130</semimajoraxis>
-			<inclination errorminus="0.1" errorplus="1.5">88.2</inclination>
-			<eccentricity errorminus="0.01" errorplus="0.24">0.01</eccentricity>
-			<list>Confirmed planets</list>
-			<description>Kepler-129 b has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-129 b are still unknown, the object is highly unlikely to be a false positive.</description>
-			<discoveryyear>2014</discoveryyear>
-			<lastupdate>15/07/22</lastupdate>
+			<semimajoraxis>0.130000</semimajoraxis>
+			<eccentricity errorminus="0.010000" errorplus="0.240000">0.010000</eccentricity>
+			<inclination>89.890</inclination>
+			<period>15.79000000</period>
+			<description>This planet was discovered by Rowe et al. 2014. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.06293</mass>
+			<radius errorminus="0.004" errorplus="0.004">0.214</radius>
+			<temperature>9.10000000000e+02</temperature>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
+			<discoveryyear>2014</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/07/01</lastupdate>
+			<transittime errorminus="0.001309" errorplus="0.001309">2455009.823020</transittime>
+		</planet>
+		<planet>
+			<name>Kepler-129 d</name>
+			<semimajoraxis errorminus="0.100000" errorplus="0.100000">4.000000</semimajoraxis>
+			<eccentricity errorminus="0.050000" errorplus="0.070000">0.150000</eccentricity>
+			<periastron errorminus="57.0000" errorplus="46.0000">-170.0000</periastron>
+			<period errorminus="94.00000000" errorplus="140.00000000">2646.00000000</period>
+			<description>This planet was discovered by Zhang et al. 2021. This was a ground based discovery. The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.70000" errorplus="1.10000">8.30000</mass>
+			<radius>1.120</radius>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/07/01</lastupdate>
+			<new>1</new>
 		</planet>
 		<planet>
 			<name>Kepler-129 c</name>
-			<name>KOI-275 c</name>
-			<name>KOI-275.02</name>
-			<name>KIC 10586004 c</name>
-			<name>KIC 10586004.02</name>
-			<name>Gaia DR2 2131494313689868416 c</name>
-			<name>TYC 3545-1418-1 c</name>
-			<radius errorminus="0.00911" errorplus="0.00911">0.23238</radius>
-			<period errorminus="0.000680" errorplus="0.000680">82.200170</period>
-			<transittime errorminus="0.0047800" errorplus="0.0047800" unit="BJD">2455041.7896300</transittime>
-			<semimajoraxis errorminus="0.008" errorplus="0.008">0.392</semimajoraxis>
-			<inclination errorminus="0.3" errorplus="0.1">89.9</inclination>
-			<eccentricity errorminus="0.2" errorplus="0.15">0.2</eccentricity>
-			<list>Confirmed planets</list>
-			<description>Kepler-129 c has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-129 c are still unknown, the object is highly unlikely to be a false positive.</description>
-			<discoveryyear>2014</discoveryyear>
-			<lastupdate>15/07/22</lastupdate>
+			<semimajoraxis>0.390000</semimajoraxis>
+			<eccentricity errorminus="0.200000" errorplus="0.150000">0.200000</eccentricity>
+			<inclination>90.000</inclination>
+			<period>82.20000000</period>
+			<description>This planet was discovered by Rowe et al. 2014. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.03776" errorplus="0.04090">0.13529</mass>
+			<radius errorminus="0.006" errorplus="0.006">0.225</radius>
+			<temperature>5.25000000000e+02</temperature>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
+			<discoveryyear>2014</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/07/01</lastupdate>
+			<transittime errorminus="0.002572" errorplus="0.002572">2455041.786880</transittime>
 		</planet>
 	</star>
-	<constellation>Draco</constellation>
 </system>

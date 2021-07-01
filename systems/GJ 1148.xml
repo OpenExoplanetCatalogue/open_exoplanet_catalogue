@@ -1,0 +1,53 @@
+<system>
+	<name>GJ 1148</name>
+	<name>HIP 57050</name>
+	<rightascension>11 41 44</rightascension>
+	<declination>+42 45 06</declination>
+	<distance errorminus="0.0065000" errorplus="0.0064000">11.0143000</distance>
+	<star>
+		<name>GJ 1148</name>
+		<name>HIP 57050</name>
+		<radius errorminus="0.01" errorplus="0.01">0.36</radius>
+		<magV errorminus="0.0480000" errorplus="0.0480000">11.9390000</magV>
+		<magJ errorminus="0.0180000" errorplus="0.0180000">7.6080000</magJ>
+		<magH errorminus="0.0230000" errorplus="0.0230000">7.0690000</magH>
+		<magK errorminus="0.0160000" errorplus="0.0160000">6.8220000</magK>
+		<magI errorminus="0.0004924" errorplus="0.0004924">9.9557600</magI>
+		<mass errorminus="0.02" errorplus="0.02">0.34</mass>
+		<temperature errorminus="157.00" errorplus="157.00">3287.00</temperature>
+		<metallicity errorminus="0.066" errorplus="0.066">0.160</metallicity>
+		<spectraltype>M5</spectraltype>
+		<planet>
+			<name>GJ 1148 c</name>
+			<name>HIP 57050 c</name>
+			<semimajoraxis errorminus="0.002000" errorplus="0.005000">0.912000</semimajoraxis>
+			<eccentricity errorminus="0.062000" errorplus="0.050000">0.342000</eccentricity>
+			<periastron errorminus="9.1000" errorplus="12.0000">210.4000</periastron>
+			<period errorminus="2.52000000" errorplus="4.14000000">532.58000000</period>
+			<description>This planet was discovered by Trifonov et al. 2018. This was a ground based discovery. The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00689" errorplus="0.01545">0.21414</mass>
+			<radius>0.866</radius>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2017</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/07/01</lastupdate>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>GJ 1148 b</name>
+			<name>HIP 57050 b</name>
+			<semimajoraxis errorminus="0.001000" errorplus="0.001000">0.166000</semimajoraxis>
+			<eccentricity errorminus="0.012000" errorplus="0.010000">0.380000</eccentricity>
+			<periastron errorminus="1.8000" errorplus="2.0000">258.1000</periastron>
+			<period errorminus="0.00100000" errorplus="0.00200000">41.38000000</period>
+			<description>This planet was discovered by Haghighipour et al. 2010. This was a ground based discovery. The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00321" errorplus="0.00444">0.30425</mass>
+			<radius>1.070</radius>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2010</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/07/01</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+</system>
