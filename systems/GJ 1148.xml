@@ -1,12 +1,14 @@
 <system>
 	<name>GJ 1148</name>
 	<name>HIP 57050</name>
-	<rightascension>11 41 44</rightascension>
-	<declination>+42 45 06</declination>
+	<rightascension>11 41 44.6360</rightascension>
+	<declination>+42 45 07.1048</declination>
 	<distance errorminus="0.0065000" errorplus="0.0064000">11.0143000</distance>
 	<star>
 		<name>GJ 1148</name>
 		<name>HIP 57050</name>
+		<name>Gaia DR2 772430527947893632</name>
+		<name>TYC 3016-1877-1</name>
 		<radius errorminus="0.01" errorplus="0.01">0.36</radius>
 		<magV errorminus="0.0480000" errorplus="0.0480000">11.9390000</magV>
 		<magJ errorminus="0.0180000" errorplus="0.0180000">7.6080000</magJ>
@@ -20,6 +22,8 @@
 		<planet>
 			<name>GJ 1148 c</name>
 			<name>HIP 57050 c</name>
+			<name>Gaia DR2 772430527947893632 c</name>
+			<name>TYC 3016-1877-1 c</name>
 			<semimajoraxis errorminus="0.002000" errorplus="0.005000">0.912000</semimajoraxis>
 			<eccentricity errorminus="0.062000" errorplus="0.050000">0.342000</eccentricity>
 			<periastron errorminus="9.1000" errorplus="12.0000">210.4000</periastron>
@@ -50,4 +54,5 @@
 			<new>1</new>
 		</planet>
 	</star>
+	<constellation>Ursa Major</constellation>
 </system>
