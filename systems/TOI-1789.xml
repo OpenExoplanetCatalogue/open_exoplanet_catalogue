@@ -1,0 +1,31 @@
+<system>
+	<name>TOI-1789</name>
+	<rightascension>09 30 58.00</rightascension>
+	<declination>+26 32 24.00</declination>
+	<distance errorminus="0.9" errorplus="0.9">223.55</distance>
+	<star>
+		<name>TOI-1789</name>
+		<radius errorminus="0.0035" errorplus="0.0037">2.172</radius>
+		<magV>9.7</magV>
+		<mass errorminus="0.15" errorplus="0.061">1.499</mass>
+		<temperature errorminus="57.0" errorplus="57.0">5984.0</temperature>
+		<metallicity errorminus="0.098" errorplus="0.073">0.37</metallicity>
+		<planet>
+			<name>TOI-1789 b</name>
+			<semimajoraxis errorminus="0.0016" errorplus="0.00065">0.04873</semimajoraxis>
+			<inclination errorminus="0.59" errorplus="0.37">78.36</inclination>
+			<period errorminus="0.000016" errorplus="0.000016">3.208666</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.16" errorplus="0.16">0.7</mass>
+			<radius errorminus="0.13" errorplus="0.22">1.4</radius>
+			<temperature errorminus="18.0" errorplus="28.0">1929.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/06/17</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Leo</constellation>
+</system>

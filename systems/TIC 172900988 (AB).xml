@@ -1,0 +1,36 @@
+<system>
+	<name>TIC 172900988 (AB)</name>
+	<rightascension>08 34 39.00</rightascension>
+	<declination>+31 33 14.00</declination>
+	<distance errorminus="0.904" errorplus="0.904">246.263</distance>
+	<binary>
+		<period>19.7</period>
+		<eccentricity>0.45</eccentricity>
+		<star>
+			<name>TIC 172900988 A</name>
+			<mass>1.2382</mass>
+			<radius>1.3844</radius>
+		</star>
+		<star>
+			<name>TIC 172900988 B</name>
+			<mass>1.2025</mass>
+			<radius>1.3169</radius>
+		</star>
+		<planet>
+			<name>TIC 172900988 (AB) b</name>
+			<eccentricity errorminus="0.035" errorplus="0.035">0.055</eccentricity>
+			<period errorminus="7.5" errorplus="7.5">197.0</period>
+			<description>TIC 172900988b is a transiting circumbinary planet detected from a single sector of TESS data. The planet transited the primary star and then 5 days later it transited the secondary star. Archival data from ASAS-SN, Evryscope, KELT, and SuperWASP reveal a prominent apsidal motion of the binary orbit, caused by the dynamical interactions between the binary and the planet. The system is accessible for high-resolution spectroscopic observations, e.g. Rossiter-McLaughlin effect and transit spectroscopy.</description>
+			<mass errorminus="0.25" errorplus="0.25">2.84</mass>
+			<radius errorminus="0.0419" errorplus="0.0419">0.9876</radius>
+			<discoverymethod>timing</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/05/19</lastupdate>
+			<new>1</new>
+			<list>Planets in binary systems, P-type</list>
+		</planet>
+	</binary>
+	<constellation>Cancer</constellation>
+</system>
