@@ -1,0 +1,31 @@
+<system>
+	<name>HD 80869</name>
+	<rightascension>09 23 10.00</rightascension>
+	<declination>+33 54 17.00</declination>
+	<distance errorminus="0.7" errorplus="0.7">85.6</distance>
+	<star>
+		<name>HD 80869</name>
+		<radius errorminus="0.042" errorplus="0.042">1.062</radius>
+		<magV>8.45</magV>
+		<mass errorminus="0.05" errorplus="0.05">1.08</mass>
+		<temperature errorminus="15.0" errorplus="15.0">58.37</temperature>
+		<metallicity errorminus="0.01" errorplus="0.01">0.17</metallicity>
+		<spectraltype>G1V</spectraltype>
+		<planet>
+			<name>HD 80869 b</name>
+			<semimajoraxis errorminus="0.046" errorplus="0.046">2.878</semimajoraxis>
+			<eccentricity errorminus="0.018" errorplus="0.028">0.862</eccentricity>
+			<periastron errorminus="7.6" errorplus="4.2">62.2</periastron>
+			<period errorminus="9.6" errorplus="9.6">1711.7</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.29" errorplus="0.65">4.86</mass>
+			<temperature errorminus="5.5" errorplus="6.8">203.2</temperature>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/07/14</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Leo Minor</constellation>
+</system>
