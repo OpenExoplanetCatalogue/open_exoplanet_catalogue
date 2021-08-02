@@ -1,0 +1,37 @@
+<system>
+	<name>Kepler-1704</name>
+	<rightascension>19 24 48</rightascension>
+	<declination>+51 08 39</declination>
+	<distance errorminus="9.1220000" errorplus="9.3230000">835.4550000</distance>
+	<star>
+		<name>Kepler-1704</name>
+		<radius errorminus="0.06" errorplus="0.06">1.70</radius>
+		<magV errorminus="0.1370000" errorplus="0.1370000">13.3920000</magV>
+		<magJ errorminus="0.0240000" errorplus="0.0240000">12.1380000</magJ>
+		<magH errorminus="0.0320000" errorplus="0.0320000">11.8420000</magH>
+		<magK errorminus="0.0260000" errorplus="0.0260000">11.7920000</magK>
+		<magI>13.1110000</magI>
+		<mass errorminus="0.05" errorplus="0.04">1.13</mass>
+		<temperature errorminus="89.00" errorplus="88.00">5745.00</temperature>
+		<metallicity errorminus="0.057" errorplus="0.057">0.196</metallicity>
+		<planet>
+			<name>Kepler-1704 b</name>
+			<semimajoraxis errorminus="0.031000" errorplus="0.024000">2.026000</semimajoraxis>
+			<eccentricity errorminus="0.015000" errorplus="0.010000">0.921000</eccentricity>
+			<periastron errorminus="4.9000" errorplus="4.5000">83.0000</periastron>
+			<inclination errorminus="0.270" errorplus="0.590">89.010</inclination>
+			<period errorminus="0.00092000" errorplus="0.00091000">988.88113000</period>
+			<description>This planet was discovered by Q1-Q6 KOI Table. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.29000" errorplus="0.29000">4.15000</mass>
+			<radius errorminus="0.041" errorplus="0.043">1.065</radius>
+			<temperature errorminus="4.10000000000e+00" errorplus="3.70000000000e+00">2.53800000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2013</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/08/02</lastupdate>
+			<transittime errorminus="0.000640" errorplus="0.000620">2455071.684590</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

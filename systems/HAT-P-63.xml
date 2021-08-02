@@ -1,0 +1,32 @@
+<system>
+	<name>HAT-P-63</name>
+	<rightascension>18 39 11</rightascension>
+	<declination>-20 01 27</declination>
+	<distance errorminus="2222.7300000" errorplus="3720.2300000">4483.0500000</distance>
+	<star>
+		<name>HAT-P-63</name>
+		<radius errorminus="0.01" errorplus="0.01">0.97</radius>
+		<magV errorminus="0.2141000" errorplus="0.2141000">20.1544000</magV>
+		<mass errorminus="0.02" errorplus="0.02">0.93</mass>
+		<temperature errorminus="39.00" errorplus="55.00">5400.00</temperature>
+		<metallicity errorminus="0.061" errorplus="0.061">0.251</metallicity>
+		<planet>
+			<name>HAT-P-63 b</name>
+			<semimajoraxis errorminus="0.000350" errorplus="0.000350">0.042940</semimajoraxis>
+			<eccentricity>0.069000</eccentricity>
+			<inclination errorminus="0.440" errorplus="0.440">88.450</inclination>
+			<period errorminus="0.00001300" errorplus="0.00001300">3.37772800</period>
+			<description>This planet was discovered by Bakos et al. 2021. This was a ground based discovery. The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.02400" errorplus="0.02400">0.61400</mass>
+			<radius errorminus="0.033" errorplus="0.033">1.119</radius>
+			<temperature errorminus="1.10000000000e+01" errorplus="1.10000000000e+01">1.23700000000e+03</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/08/02</lastupdate>
+			<transittime errorminus="0.000530" errorplus="0.000530">2456382.942560</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

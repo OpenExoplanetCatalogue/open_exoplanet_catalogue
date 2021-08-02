@@ -1,0 +1,35 @@
+<system>
+	<name>HAT-P-61</name>
+	<rightascension>05 01 55</rightascension>
+	<declination>+50 07 52</declination>
+	<distance errorminus="4.0510000" errorplus="4.1490000">338.8400000</distance>
+	<star>
+		<name>HAT-P-61</name>
+		<radius errorminus="0.01" errorplus="0.01">0.94</radius>
+		<magV errorminus="0.0800000" errorplus="0.0800000">13.0960000</magV>
+		<magJ errorminus="0.0210000" errorplus="0.0210000">11.5980000</magJ>
+		<magH errorminus="0.0290000" errorplus="0.0290000">11.2630000</magH>
+		<magK errorminus="0.0200000" errorplus="0.0200000">11.1410000</magK>
+		<mass errorminus="0.03" errorplus="0.03">1.00</mass>
+		<temperature errorminus="45.00" errorplus="45.00">5587.00</temperature>
+		<metallicity errorminus="0.060" errorplus="0.060">0.194</metallicity>
+		<planet>
+			<name>HAT-P-61 b</name>
+			<semimajoraxis errorminus="0.000340" errorplus="0.000340">0.030100</semimajoraxis>
+			<eccentricity>0.113000</eccentricity>
+			<inclination errorminus="0.240" errorplus="0.240">83.620</inclination>
+			<period errorminus="0.00000077" errorplus="0.00000077">1.90231289</period>
+			<description>This planet was discovered by Bakos et al. 2021. This was a ground based discovery. The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.07000" errorplus="0.07000">1.05700</mass>
+			<radius errorminus="0.027" errorplus="0.027">0.899</radius>
+			<temperature errorminus="1.60000000000e+01" errorplus="1.60000000000e+01">1.50500000000e+03</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/08/02</lastupdate>
+			<transittime errorminus="0.000470" errorplus="0.000470">2457851.211190</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

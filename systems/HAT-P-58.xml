@@ -1,0 +1,36 @@
+<system>
+	<name>HAT-P-58</name>
+	<rightascension>04 35 23</rightascension>
+	<declination>+56 52 06</declination>
+	<distance errorminus="12.1840000" errorplus="12.7770000">515.5900000</distance>
+	<star>
+		<name>HAT-P-58</name>
+		<radius errorminus="0.03" errorplus="0.03">1.53</radius>
+		<magV errorminus="0.1950000" errorplus="0.1950000">12.9250000</magV>
+		<magJ errorminus="0.0220000" errorplus="0.0220000">11.4290000</magJ>
+		<magH errorminus="0.0200000" errorplus="0.0200000">11.0750000</magH>
+		<magK errorminus="0.0230000" errorplus="0.0230000">10.9780000</magK>
+		<magI errorminus="0.0018097" errorplus="0.0018097">12.6325000</magI>
+		<mass errorminus="0.03" errorplus="0.03">1.03</mass>
+		<temperature errorminus="48.00" errorplus="48.00">6078.00</temperature>
+		<metallicity errorminus="0.057" errorplus="0.057">-0.224</metallicity>
+		<planet>
+			<name>HAT-P-58 b</name>
+			<semimajoraxis errorminus="0.000440" errorplus="0.000440">0.049940</semimajoraxis>
+			<eccentricity>0.073000</eccentricity>
+			<inclination errorminus="0.340" errorplus="0.340">85.640</inclination>
+			<period errorminus="0.00000240" errorplus="0.00000240">4.01383790</period>
+			<description>This planet was discovered by Bakos et al. 2021. This was a ground based discovery. The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.03000" errorplus="0.03000">0.37200</mass>
+			<radius errorminus="0.043" errorplus="0.043">1.332</radius>
+			<temperature errorminus="1.80000000000e+01" errorplus="1.80000000000e+01">1.62200000000e+03</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/08/02</lastupdate>
+			<transittime errorminus="0.000560" errorplus="0.000560">2457369.030940</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>

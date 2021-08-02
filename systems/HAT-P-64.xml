@@ -1,0 +1,35 @@
+<system>
+	<name>HAT-P-64</name>
+	<rightascension>04 35 54</rightascension>
+	<declination>+02 25 53</declination>
+	<distance errorminus="14.7280000" errorplus="15.4130000">651.8970000</distance>
+	<star>
+		<name>HAT-P-64</name>
+		<radius errorminus="0.03" errorplus="0.04">1.74</radius>
+		<magV errorminus="0.1490000" errorplus="0.1490000">12.8550000</magV>
+		<magJ errorminus="0.0260000" errorplus="0.0260000">11.4850000</magJ>
+		<magH errorminus="0.0250000" errorplus="0.0250000">11.2250000</magH>
+		<magK errorminus="0.0210000" errorplus="0.0210000">11.1230000</magK>
+		<mass errorminus="0.02" errorplus="0.02">1.30</mass>
+		<temperature errorminus="29.00" errorplus="29.00">6457.00</temperature>
+		<metallicity errorminus="0.056" errorplus="0.027">-0.113</metallicity>
+		<planet>
+			<name>HAT-P-64 b</name>
+			<semimajoraxis errorminus="0.000300" errorplus="0.000300">0.053870</semimajoraxis>
+			<eccentricity>0.101000</eccentricity>
+			<inclination errorminus="0.700" errorplus="0.700">88.010</inclination>
+			<period errorminus="0.00000170" errorplus="0.00000170">4.00723200</period>
+			<description>This planet was discovered by Bakos et al. 2021. This was a ground based discovery. The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.13000" errorplus="0.18000">0.58000</mass>
+			<radius errorminus="0.070" errorplus="0.070">1.703</radius>
+			<temperature errorminus="1.60000000000e+01" errorplus="2.20000000000e+01">1.76600000000e+03</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/08/02</lastupdate>
+			<transittime errorminus="0.000630" errorplus="0.000630">2457751.463540</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+</system>
