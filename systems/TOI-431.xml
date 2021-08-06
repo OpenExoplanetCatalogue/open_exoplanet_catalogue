@@ -1,0 +1,68 @@
+<system>
+	<name>TOI-431</name>
+	<name>HIP 26013</name>
+	<rightascension>05 33 05.00</rightascension>
+	<declination>-26 43 26.00</declination>
+	<distance errorminus="0.01" errorplus="0.01">32.61</distance>
+	<star>
+		<name>TOI-431</name>
+		<name>HIP 26013</name>
+		<radius errorminus="0.022" errorplus="0.022">0.731</radius>
+		<magV>9.12</magV>
+		<mass errorminus="0.07" errorplus="0.07">0.78</mass>
+		<temperature errorminus="75.0" errorplus="75.0">4850.0</temperature>
+		<metallicity errorminus="0.05" errorplus="0.05">0.2</metallicity>
+		<planet>
+			<name>TOI-431 b</name>
+			<name>HIP 26013 b</name>
+			<semimajoraxis errorminus="0.003" errorplus="0.002">0.0113</semimajoraxis>
+			<eccentricity>0.0</eccentricity>
+			<inclination errorminus="1.3" errorplus="1.1">84.3</inclination>
+			<period errorminus="0.000007" errorplus="0.000010">0.490047</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.0011" errorplus="0.0011">0.00966</mass>
+			<radius errorminus="0.0036" errorplus="0.0036">0.1142</radius>
+			<temperature errorminus="42.0" errorplus="42.0">1862.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/08/06</lastupdate>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>TOI-431 c</name>
+			<name>HIP 26013 c</name>
+			<semimajoraxis errorminus="0.001" errorplus="0.001">0.052</semimajoraxis>
+			<eccentricity>0.0</eccentricity>
+			<period errorminus="0.0002" errorplus="0.0003">4.8494</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass>2.84</mass>
+			<temperature errorminus="20.0" errorplus="20.0">867.0</temperature>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/08/06</lastupdate>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>TOI-431 d</name>
+			<name>HIP 26013 d</name>
+			<semimajoraxis errorminus="0.002" errorplus="0.002">0.098</semimajoraxis>
+			<eccentricity>0.0</eccentricity>
+			<inclination errorminus="0.2" errorplus="0.2">89.7</inclination>
+			<period errorminus="0.000020" errorplus="0.000020">12.46103</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.00469" errorplus="0.00481">0.0311</mass>
+			<radius errorminus="0.008" errorplus="0.008">0.2935</radius>
+			<temperature errorminus="14.0" errorplus="14.0">633.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/08/06</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Lepus</constellation>
+</system>
