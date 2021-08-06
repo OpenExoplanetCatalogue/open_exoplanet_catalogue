@@ -1,49 +1,33 @@
 <system>
 	<name>Gliese 1214</name>
 	<name>GJ 1214</name>
-	<rightascension>17 15 18.9337</rightascension>
-	<declination>+04 57 50.0646</declination>
-	<distance errorminus="0.13" errorplus="0.13">14.55</distance>
+	<rightascension>17 15 19.00</rightascension>
+	<declination>+04 57 50.00</declination>
+	<distance>13.0</distance>
 	<star>
 		<name>Gliese 1214</name>
 		<name>GJ 1214</name>
-		<name>Gaia DR2 4393265392167891712</name>
-		<temperature errorminus="100" errorplus="100">3250</temperature>
-		<mass errorminus="0.009" errorplus="0.009">0.176</mass>
-		<radius errorminus="0.0043" errorplus="0.0043">0.2213</radius>
+		<radius errorminus="0.012" errorplus="0.012">0.216</radius>
 		<magV>14.71</magV>
-		<magB>16.40</magB>
-		<magR>13.8</magR>
-		<magI>11.1</magI>
-		<magJ errorminus="0.024" errorplus="0.024">9.750</magJ>
-		<magH errorminus="0.024" errorplus="0.024">9.094</magH>
-		<magK errorminus="0.020" errorplus="0.020">8.782</magK>
-		<metallicity errorminus="0.1" errorplus="0.1">0.1</metallicity>
-		<spectraltype>M4.5</spectraltype>
+		<mass errorminus="0.011" errorplus="0.011">0.15</mass>
+		<temperature errorminus="150.0" errorplus="150.0">3026.0</temperature>
+		<metallicity errorminus="0.15" errorplus="0.15">0.39</metallicity>
+		<spectraltype>M</spectraltype>
 		<planet>
 			<name>Gliese 1214 b</name>
 			<name>GJ 1214 b</name>
-			<name>Gj 1214 b</name>
-			<name>Gl 1214 b</name>
-			<name>Gaia DR2 4393265392167891712 b</name>
-			<list>Confirmed planets</list>
-			<mass errorminus="0.0028" errorplus="0.0028">0.0195</mass>
-			<radius errorminus="0.0055" errorplus="0.0055">0.2525</radius>
-			<period errorminus="0.00000022" errorplus="0.00000022">1.58040417</period>
-			<semimajoraxis errorminus="0.00025" errorplus="0.00025">0.01488</semimajoraxis>
-			<eccentricity>0</eccentricity>
-			<inclination errorminus="0.10" errorplus="0.10">88.47</inclination>
+			<semimajoraxis errorminus="0.00032" errorplus="0.00032">0.01411</semimajoraxis>
+			<eccentricity upperlimit="0.27" />
+			<inclination errorminus="0.54" errorplus="0.54">88.17</inclination>
+			<period>1.580404497</period>
 			<description>Gliese 1214 is a red dwarf in the constellation Ophiuchus only 40 light years away. The planet was found with a 40cm telescope and commercially available cameras. New observations from NASA's Hubble Space Telescope show that it is a waterworld enshrouded by a thick, steamy atmosphere. GJ1214b represents a new type of planet, like nothing seen in our solar system or any other planetary system currently known.</description>
+			<mass errorminus="0.00135" errorplus="0.00135">0.02571</mass>
+			<radius errorminus="0.00473" errorplus="0.00473">0.24463</radius>
 			<discoverymethod>transit</discoverymethod>
-			<lastupdate>10/12/07</lastupdate>
-			<discoveryyear>2009</discoveryyear>
-			<image>Gliese 1214b</image>
-			<imagedescription>This image shows an artist's view of the planet Gliese 1214 b in front of its host star. 
-	
-Credit: NASA, ESA, and D. Aguilar (Harvard-Smithsonian Center for Astrophysics).</imagedescription>
-			<temperature errorminus="19" errorplus="19">604</temperature>
-			<transittime errorminus="0.00010" errorplus="0.00010" unit="BJD">2454980.74900</transittime>
 			<istransiting>1</istransiting>
+			<discoveryyear>2009</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/08/02</lastupdate>
 		</planet>
 	</star>
 	<constellation>Ophiucus</constellation>
