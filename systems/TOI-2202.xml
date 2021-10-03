@@ -1,0 +1,47 @@
+<system>
+	<name>TOI-2202</name>
+	<rightascension>03 24 54.85</rightascension>
+	<declination>-73 57 27.22</declination>
+	<distance errorminus="1.0" errorplus="1.0">235.93</distance>
+	<star>
+		<name>TOI-2202</name>
+		<radius errorminus="0.007" errorplus="0.007">0.794</radius>
+		<mass errorminus="0.023" errorplus="0.027">0.823</mass>
+		<temperature errorminus="50.0" errorplus="50.0">5144.0</temperature>
+		<metallicity errorminus="0.05" errorplus="0.05">0.04</metallicity>
+		<spectraltype>K8V</spectraltype>
+		<planet>
+			<name>TOI-2202 b</name>
+			<semimajoraxis errorminus="0.0016" errorplus="0.00156">0.09564</semimajoraxis>
+			<eccentricity errorminus="0.0075" errorplus="0.0255">0.042</eccentricity>
+			<periastron errorminus="16.4" errorplus="9.8">84.1</periastron>
+			<inclination errorminus="3.3" errorplus="0.6">88.4</inclination>
+			<period errorminus="0.0036" errorplus="0.0022">11.9101</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.059" errorplus="0.063">0.978</mass>
+			<radius errorminus="0.08" errorplus="0.52">1.0</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/08/12</lastupdate>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>TOI-2202 c</name>
+			<semimajoraxis errorminus="0.00263" errorplus="0.00255">0.15544</semimajoraxis>
+			<eccentricity errorminus="0.0211" errorplus="0.0452">0.0622</eccentricity>
+			<periastron errorminus="12.5" errorplus="129.7">320.8</periastron>
+			<inclination errorminus="2.9" errorplus="2.4">84.7</inclination>
+			<period errorminus="0.034" errorplus="0.0258">24.6744</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.084" errorplus="0.1">0.369</mass>
+			<discoverymethod>timing</discoverymethod>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/08/12</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Hydrus</constellation>
+</system>

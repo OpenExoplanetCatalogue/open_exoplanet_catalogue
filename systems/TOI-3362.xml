@@ -1,0 +1,39 @@
+<system>
+	<name>TOI-3362</name>
+	<name>HD 300730</name>
+	<name>TIC-464300749</name>
+	<rightascension>10 23 56.00</rightascension>
+	<declination>-56 50 35.00</declination>
+	<distance errorminus="4.0" errorplus="4.0">370.85</distance>
+	<star>
+		<name>TOI-3362</name>
+		<name>HD 300730</name>
+		<name>TIC-464300749</name>
+		<radius errorminus="0.055" errorplus="0.055">1.83</radius>
+		<magV>10.86</magV>
+		<mass errorminus="0.073" errorplus="0.069">1.445</mass>
+		<temperature errorminus="88.0" errorplus="88.0">6532.0</temperature>
+		<metallicity errorminus="0.049" errorplus="0.057">0.017</metallicity>
+		<spectraltype>G5</spectraltype>
+		<planet>
+			<name>TOI-3362 b</name>
+			<name>TIC-464300749 b</name>
+			<name>HD 300730 b</name>
+			<semimajoraxis errorminus="0.003" errorplus="0.003">0.153</semimajoraxis>
+			<eccentricity errorminus="0.032" errorplus="0.023">0.815</eccentricity>
+			<periastron errorminus="9.165" errorplus="11.085">50.873</periastron>
+			<inclination errorminus="0.068" errorplus="0.084">89.14</inclination>
+			<period errorminus="0.000030" errorplus="0.000030">18.09547</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.046" errorplus="0.068">5.029</mass>
+			<radius errorminus="0.043" errorplus="0.043">1.142</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/09/09</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Vela</constellation>
+</system>
