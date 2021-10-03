@@ -1,0 +1,34 @@
+<system>
+	<name>K2-338</name>
+	<rightascension>08 17 27</rightascension>
+	<declination>+17 01 27</declination>
+	<distance errorminus="0.5970000" errorplus="0.6020000">156.9510000</distance>
+	<star>
+		<name>K2-338</name>
+		<radius errorminus="0.01" errorplus="0.01">0.63</radius>
+		<magV errorminus="0.1260000" errorplus="0.1260000">13.3220000</magV>
+		<magJ errorminus="0.0210000" errorplus="0.0210000">11.3360000</magJ>
+		<magH errorminus="0.0220000" errorplus="0.0220000">10.7470000</magH>
+		<magK errorminus="0.0170000" errorplus="0.0170000">10.6130000</magK>
+		<magI errorminus="0.0009845" errorplus="0.0009845">12.7905000</magI>
+		<mass errorminus="0.02" errorplus="0.02">0.66</mass>
+		<temperature errorminus="81.00" errorplus="91.00">4558.00</temperature>
+		<metallicity errorminus="0.130" errorplus="0.120">-0.230</metallicity>
+		<planet>
+			<name>K2-338 b</name>
+			<period errorminus="0.00001200" errorplus="0.00001200">3.85061400</period>
+			<description>This planet was discovered by Pope et al. 2016. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.00340</mass>
+			<radius errorminus="0.004" errorplus="0.010">0.092</radius>
+			<temperature errorminus="1.40000000000e+01" errorplus="1.20000000000e+01">7.83000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/10/03</lastupdate>
+			<transittime errorminus="0.001839" errorplus="0.001912">2457141.526349</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Cancer</constellation>
+</system>

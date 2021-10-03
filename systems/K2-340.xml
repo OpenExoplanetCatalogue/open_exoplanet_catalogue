@@ -1,0 +1,33 @@
+<system>
+	<name>K2-340</name>
+	<rightascension>08 31 45</rightascension>
+	<declination>+19 04 29</declination>
+	<distance errorminus="21.0430000" errorplus="22.2910000">738.1360000</distance>
+	<star>
+		<name>K2-340</name>
+		<radius errorminus="0.10" errorplus="0.14">1.13</radius>
+		<magV errorminus="0.0800000" errorplus="0.0800000">14.4280000</magV>
+		<magJ errorminus="0.0220000" errorplus="0.0220000">12.9270000</magJ>
+		<magH errorminus="0.0230000" errorplus="0.0230000">12.4910000</magH>
+		<magK errorminus="0.0230000" errorplus="0.0230000">12.4350000</magK>
+		<mass errorminus="0.04" errorplus="0.04">0.93</mass>
+		<temperature errorminus="90.00" errorplus="90.00">5532.00</temperature>
+		<metallicity errorminus="0.140" errorplus="0.130">0.080</metallicity>
+		<planet>
+			<name>K2-340 b</name>
+			<period errorminus="0.00016100" errorplus="0.00016900">29.74045100</period>
+			<description>This planet was discovered by Pope et al. 2016. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.03540</mass>
+			<radius errorminus="0.029" errorplus="0.039">0.300</radius>
+			<temperature errorminus="3.60000000000e+01" errorplus="3.10000000000e+01">6.06000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/10/03</lastupdate>
+			<transittime errorminus="0.003102" errorplus="0.002975">2457143.815863</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Cancer</constellation>
+</system>

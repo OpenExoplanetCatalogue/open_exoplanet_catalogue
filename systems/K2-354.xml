@@ -1,0 +1,33 @@
+<system>
+	<name>K2-354</name>
+	<rightascension>08 36 31</rightascension>
+	<declination>+10 08 50</declination>
+	<distance errorminus="0.5164000" errorplus="0.5223000">91.7220000</distance>
+	<star>
+		<name>K2-354</name>
+		<radius errorminus="0.01" errorplus="0.01">0.41</radius>
+		<magV errorminus="0.0920000" errorplus="0.0920000">15.2960000</magV>
+		<magJ errorminus="0.0230000" errorplus="0.0230000">11.7760000</magJ>
+		<magH errorminus="0.0260000" errorplus="0.0260000">11.1310000</magH>
+		<magK errorminus="0.0230000" errorplus="0.0230000">10.9640000</magK>
+		<mass errorminus="0.01" errorplus="0.01">0.43</mass>
+		<temperature errorminus="82.00" errorplus="88.00">3669.00</temperature>
+		<metallicity errorminus="0.240" errorplus="0.200">-0.040</metallicity>
+		<planet>
+			<name>K2-354 b</name>
+			<period errorminus="0.00034300" errorplus="0.00032400">3.79330600</period>
+			<description>This planet was discovered by Pope et al. 2016. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.00961</mass>
+			<radius errorminus="0.007" errorplus="0.007">0.139</radius>
+			<temperature errorminus="9.00000000000e+00" errorplus="8.00000000000e+00">5.43000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/10/03</lastupdate>
+			<transittime errorminus="0.003737" errorplus="0.004008">2457140.225970</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Cancer</constellation>
+</system>

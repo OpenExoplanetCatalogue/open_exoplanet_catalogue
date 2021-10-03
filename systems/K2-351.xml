@@ -1,0 +1,33 @@
+<system>
+	<name>K2-351</name>
+	<rightascension>13 46 37</rightascension>
+	<declination>-11 48 18</declination>
+	<distance errorminus="14.9140000" errorplus="15.5700000">694.7340000</distance>
+	<star>
+		<name>K2-351</name>
+		<radius errorminus="0.06" errorplus="0.07">1.05</radius>
+		<magV errorminus="0.0920000" errorplus="0.0920000">14.1950000</magV>
+		<magJ errorminus="0.0260000" errorplus="0.0260000">12.8690000</magJ>
+		<magH errorminus="0.0280000" errorplus="0.0280000">12.5350000</magH>
+		<magK errorminus="0.0330000" errorplus="0.0330000">12.4970000</magK>
+		<mass errorminus="0.02" errorplus="0.02">1.02</mass>
+		<temperature errorminus="37.00" errorplus="39.00">5769.00</temperature>
+		<metallicity errorminus="0.020" errorplus="0.020">0.080</metallicity>
+		<planet>
+			<name>K2-351 b</name>
+			<period errorminus="0.00062300" errorplus="0.00067300">7.80616400</period>
+			<description>This planet was discovered by Barros et al. 2016. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.02200</mass>
+			<radius errorminus="0.017" errorplus="0.022">0.227</radius>
+			<temperature errorminus="3.20000000000e+01" errorplus="2.80000000000e+01">9.34000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/10/03</lastupdate>
+			<transittime errorminus="0.002604" errorplus="0.002614">2457223.495191</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Virgo</constellation>
+</system>

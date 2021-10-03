@@ -1,0 +1,48 @@
+<system>
+	<name>K2-350</name>
+	<rightascension>13 36 09</rightascension>
+	<declination>-14 00 33</declination>
+	<distance errorminus="5.8750000" errorplus="6.0160000">489.3680000</distance>
+	<star>
+		<name>K2-350</name>
+		<radius errorminus="0.05" errorplus="0.06">1.04</radius>
+		<magV errorminus="0.0920000" errorplus="0.0920000">13.4490000</magV>
+		<magJ errorminus="0.0260000" errorplus="0.0260000">12.1910000</magJ>
+		<magH errorminus="0.0230000" errorplus="0.0230000">11.8670000</magH>
+		<magK errorminus="0.0240000" errorplus="0.0240000">11.7760000</magK>
+		<mass errorminus="0.02" errorplus="0.02">0.98</mass>
+		<temperature errorminus="50.00" errorplus="46.00">5789.00</temperature>
+		<metallicity errorminus="0.030" errorplus="0.030">-0.020</metallicity>
+		<planet>
+			<name>K2-350 c</name>
+			<period errorminus="0.00019400" errorplus="0.00012300">19.99194400</period>
+			<description>This planet was discovered by Pope et al. 2016. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.02500</mass>
+			<radius errorminus="0.016" errorplus="0.022">0.244</radius>
+			<temperature errorminus="1.80000000000e+01" errorplus="1.60000000000e+01">6.87000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/10/03</lastupdate>
+			<transittime errorminus="0.002858" errorplus="0.002851">2457228.164968</transittime>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>K2-350 b</name>
+			<period errorminus="0.00002300" errorplus="0.00002200">4.16387300</period>
+			<description>This planet was discovered by de Leon et al. 2021. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.00940</mass>
+			<radius errorminus="0.010" errorplus="0.013">0.137</radius>
+			<temperature errorminus="3.40000000000e+01" errorplus="2.90000000000e+01">1.15800000000e+03</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/10/03</lastupdate>
+			<transittime errorminus="0.003308" errorplus="0.003444">2457219.277628</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Virgo</constellation>
+</system>
