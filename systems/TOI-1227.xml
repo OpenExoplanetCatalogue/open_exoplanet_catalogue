@@ -1,0 +1,29 @@
+<system>
+	<name>TOI-1227</name>
+	<rightascension>12 27 04.16</rightascension>
+	<declination>-72 27 06.67</declination>
+	<distance errorminus="0.2" errorplus="0.2">100.96</distance>
+	<star>
+		<name>TOI-1227</name>
+		<radius errorminus="0.03" errorplus="0.03">0.56</radius>
+		<magV>15.0</magV>
+		<mass errorminus="0.015" errorplus="0.015">0.17</mass>
+		<temperature errorminus="74.0" errorplus="74.0">3072.0</temperature>
+		<spectraltype>M4.5V</spectraltype>
+		<planet>
+			<name>TOI-1227 b</name>
+			<semimajoraxis errorminus="0.0057" errorplus="0.0057">0.0886</semimajoraxis>
+			<inclination errorminus="0.093" errorplus="0.062">88.571</inclination>
+			<period errorminus="0.00011" errorplus="0.00011">27.36397</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<radius errorminus="0.052" errorplus="0.057">0.854</radius>
+			<discoverymethod>RV</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/10/20</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Musca</constellation>
+</system>

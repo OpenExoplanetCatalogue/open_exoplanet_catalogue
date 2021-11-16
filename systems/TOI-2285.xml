@@ -1,0 +1,33 @@
+<system>
+	<name>TOI-2285</name>
+	<rightascension>22 10 15.00</rightascension>
+	<declination>+58 42 22.00</declination>
+	<distance errorminus="0.047" errorplus="0.047">42.409</distance>
+	<star>
+		<name>TOI-2285</name>
+		<radius errorminus="0.013" errorplus="0.013">0.464</radius>
+		<magV>13.4</magV>
+		<mass errorminus="0.01" errorplus="0.01">0.454</mass>
+		<temperature errorminus="58.0" errorplus="58.0">3491.0</temperature>
+		<metallicity errorminus="0.12" errorplus="0.12">-0.05</metallicity>
+		<planet>
+			<name>TOI-2285 b</name>
+			<semimajoraxis errorminus="0.001" errorplus="0.001">0.1363</semimajoraxis>
+			<eccentricity errorminus="0.1" errorplus="0.1">0.3</eccentricity>
+			<periastron errorminus="30.0" errorplus="80.0">56.0</periastron>
+			<inclination errorminus="0.19" errorplus="0.22">89.66</inclination>
+			<period errorminus="0.0001" errorplus="0.00013">27.26955</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass upperlimit="0.0614" />
+			<radius errorminus="0.0071" errorplus="0.0071">0.1552</radius>
+			<temperature errorminus="6.0" errorplus="6.0">284.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/10/22</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Cepheus</constellation>
+</system>

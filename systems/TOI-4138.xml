@@ -1,0 +1,31 @@
+<system>
+	<name>TOI-4138</name>
+	<rightascension>10 10 08.00</rightascension>
+	<declination>+72 42 37.00</declination>
+	<distance errorminus="2.5" errorplus="2.5">507.0</distance>
+	<star>
+		<name>TOI-4138</name>
+		<radius errorminus="0.05" errorplus="0.05">1.82</radius>
+		<magV>11.8</magV>
+		<mass errorminus="0.04" errorplus="0.04">1.32</mass>
+		<planet>
+			<name>TOI-4138 b</name>
+			<semimajoraxis errorminus="0.002" errorplus="0.002">0.051</semimajoraxis>
+			<eccentricity errorminus="0.02" errorplus="0.02">0.03</eccentricity>
+			<periastron errorminus="72.0" errorplus="72.0">20.0</periastron>
+			<inclination errorminus="0.7" errorplus="0.7">86.0</inclination>
+			<period errorminus="0.000006" errorplus="0.000006">3.660028</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.03" errorplus="0.03">0.67</mass>
+			<radius errorminus="0.04" errorplus="0.04">1.49</radius>
+			<temperature errorminus="21.0" errorplus="21.0">1762.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/10/04</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Ursa Major</constellation>
+</system>

@@ -1,0 +1,46 @@
+<system>
+	<name>HIP 97166</name>
+	<rightascension>19 44 58.71</rightascension>
+	<declination>+74 03 46.30</declination>
+	<distance errorminus="0.1" errorplus="0.1">66.08</distance>
+	<star>
+		<name>HIP 97166</name>
+		<radius errorminus="0.036" errorplus="0.036">0.836</radius>
+		<mass errorminus="0.054" errorplus="0.054">0.898</mass>
+		<temperature errorminus="100.0" errorplus="100.0">5198.0</temperature>
+		<metallicity errorminus="0.09" errorplus="0.09">0.27</metallicity>
+		<planet>
+			<name>HIP 97166 b</name>
+			<semimajoraxis errorminus="0.001" errorplus="0.001">0.089</semimajoraxis>
+			<eccentricity errorminus="0.03" errorplus="0.03">0.16</eccentricity>
+			<periastron errorminus="15.5" errorplus="15.5">120.9</periastron>
+			<period errorminus="0.000040" errorplus="0.000040">10.28891</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.0047" errorplus="0.0047">0.063</mass>
+			<radius errorminus="0.0116" errorplus="0.0116">0.2444</radius>
+			<temperature errorminus="25.0" errorplus="25.0">757.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/10/13</lastupdate>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>HIP 97166 c</name>
+			<semimajoraxis errorminus="0.002" errorplus="0.002">0.124</semimajoraxis>
+			<eccentricity upperlimit="0.25" />
+			<periastron>178.2</periastron>
+			<period errorminus="0.22" errorplus="0.22">16.84</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="1.8" errorplus="1.8">9.9</mass>
+			<temperature errorminus="22.0" errorplus="22.0">642.0</temperature>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/10/13</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Draco</constellation>
+</system>

@@ -1,0 +1,57 @@
+<system>
+	<name>Kepler-1705</name>
+	<name>KOI-4772</name>
+	<rightascension>20 06 18.85</rightascension>
+	<declination>+44 18 43.85</declination>
+	<star>
+		<name>Kepler-1705</name>
+		<name>KOI-4772</name>
+		<radius errorminus="0.056" errorplus="0.332">0.768</radius>
+		<magI>15.279</magI>
+		<magJ>14.21</magJ>
+		<magH>13.868</magH>
+		<magK>13.735</magK>
+		<mass errorminus="0.079" errorplus="0.101">0.838</mass>
+		<temperature errorminus="172.0" errorplus="194.0">5775.0</temperature>
+		<metallicity errorminus="0.26" errorplus="0.32">-0.52</metallicity>
+		<planet>
+			<name>Kepler-1705 b</name>
+			<name>KOI-4772 b</name>
+			<semimajoraxis>0.08</semimajoraxis>
+			<eccentricity errorminus="0.02" errorplus="0.073">0.033</eccentricity>
+			<periastron errorminus="112.0" errorplus="83.0">35.0</periastron>
+			<inclination errorminus="0.66" errorplus="0.76">88.79</inclination>
+			<period errorminus="0.00064" errorplus="0.0005">9.03502</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.00135" errorplus="0.00151">0.01406</mass>
+			<radius errorminus="0.0125" errorplus="0.0107">0.1811</radius>
+			<temperature>789.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2017</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/10/25</lastupdate>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>Kepler-1705 c</name>
+			<name>KOI-4772 c</name>
+			<semimajoraxis>0.0416</semimajoraxis>
+			<eccentricity errorminus="0.018" errorplus="0.064">0.028</eccentricity>
+			<periastron errorminus="112.0" errorplus="175.0">322.0</periastron>
+			<inclination errorminus="0.7" errorplus="0.7">89.89</inclination>
+			<period errorminus="0.001" errorplus="0.001">11.28</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.00179" errorplus="0.00192">0.01705</mass>
+			<radius errorminus="0.0134" errorplus="0.0134">0.1829</radius>
+			<temperature>1095.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2017</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/10/25</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Cygnus</constellation>
+</system>
