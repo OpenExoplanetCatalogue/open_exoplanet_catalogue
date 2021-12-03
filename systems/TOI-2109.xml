@@ -1,0 +1,29 @@
+<system>
+	<name>TOI-2109</name>
+	<rightascension>16 52 45.00</rightascension>
+	<declination>+16 34 48.00</declination>
+	<distance errorminus="2.6" errorplus="2.6">264.0</distance>
+	<star>
+		<name>TOI-2109</name>
+		<radius errorminus="0.06" errorplus="0.06">1.698</radius>
+		<magV>10.0</magV>
+		<mass errorminus="0.077" errorplus="0.077">1.447</mass>
+		<temperature>6500.0</temperature>
+		<spectraltype>F0</spectraltype>
+		<planet>
+			<name>TOI-2109 b</name>
+			<period>0.67247414</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.75" errorplus="0.75">5.02</mass>
+			<radius errorminus="0.047" errorplus="0.047">1.347</radius>
+			<temperature>3631.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/11/23</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Hercules</constellation>
+</system>
