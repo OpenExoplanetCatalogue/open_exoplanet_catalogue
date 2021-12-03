@@ -1,10 +1,12 @@
 <system>
 	<name>HAT-P-59</name>
-	<rightascension>19 29 50</rightascension>
-	<declination>+62 31 45</declination>
+	<rightascension>19 29 50.0701</rightascension>
+	<declination>+62 31 45.1750</declination>
 	<distance errorminus="1.3600000" errorplus="1.3740000">265.4710000</distance>
 	<star>
 		<name>HAT-P-59</name>
+		<name>Gaia DR2 2241743203599727744</name>
+		<name>TYC 4234-2195-1</name>
 		<radius errorminus="0.01" errorplus="0.01">1.10</radius>
 		<magV errorminus="0.0340000" errorplus="0.0340000">11.6400000</magV>
 		<magJ errorminus="0.0200000" errorplus="0.0200000">10.5810000</magJ>
@@ -16,6 +18,8 @@
 		<metallicity errorminus="0.049" errorplus="0.049">0.217</metallicity>
 		<planet>
 			<name>HAT-P-59 b</name>
+			<name>Gaia DR2 2241743203599727744 b</name>
+			<name>TYC 4234-2195-1 b</name>
 			<semimajoraxis errorminus="0.000370" errorplus="0.000370">0.050640</semimajoraxis>
 			<eccentricity>0.030000</eccentricity>
 			<inclination errorminus="0.100" errorplus="0.100">85.180</inclination>
