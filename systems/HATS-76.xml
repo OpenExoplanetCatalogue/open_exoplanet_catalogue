@@ -1,0 +1,34 @@
+<system>
+	<name>HATS-76</name>
+	<name>TOI-555</name>
+	<rightascension>04 41 22.00</rightascension>
+	<declination>-32 19 14.00</declination>
+	<distance errorminus="5.6" errorplus="5.6">390.0</distance>
+	<star>
+		<name>HATS-76</name>
+		<name>TOI-555</name>
+		<radius errorminus="0.008" errorplus="0.008">0.626</radius>
+		<mass errorminus="0.021" errorplus="0.016">0.662</mass>
+		<temperature errorminus="17.0" errorplus="17.0">4016.0</temperature>
+		<metallicity errorminus="0.05" errorplus="0.065">0.322</metallicity>
+		<planet>
+			<name>HATS-76 b</name>
+			<name>TOI-555 b</name>
+			<semimajoraxis errorminus="0.00029" errorplus="0.00021">0.02658</semimajoraxis>
+			<eccentricity upperlimit="0.062" />
+			<inclination errorminus="0.59" errorplus="0.59">88.24</inclination>
+			<period errorminus="0.000001" errorplus="0.000001">1.9416423</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.089" errorplus="0.089">2.629</mass>
+			<radius errorminus="0.031" errorplus="0.031">1.079</radius>
+			<temperature errorminus="6.7" errorplus="6.7">940.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/12/06</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Caelum</constellation>
+</system>

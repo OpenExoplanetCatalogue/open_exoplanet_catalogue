@@ -1,0 +1,24 @@
+<system>
+	<name>HD 360</name>
+	<rightascension>00 08 18.00</rightascension>
+	<declination>-08 49 27.00</declination>
+	<star>
+		<name>HD 360</name>
+		<spectraltype>G8III</spectraltype>
+		<planet>
+			<name>HD 360 b</name>
+			<semimajoraxis errorminus="0.03" errorplus="0.11">0.98</semimajoraxis>
+			<eccentricity errorminus="0.1" errorplus="0.1">0.14</eccentricity>
+			<periastron errorminus="63.0" errorplus="119.0">133.0</periastron>
+			<period errorminus="0.8" errorplus="1.6">273.1</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.15" errorplus="0.15">0.75</mass>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>21/12/15</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Cetus</constellation>
+</system>

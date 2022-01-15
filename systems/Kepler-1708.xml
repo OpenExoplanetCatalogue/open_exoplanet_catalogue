@@ -1,0 +1,43 @@
+<system>
+	<name>Kepler-1708</name>
+	<rightascension>19 47 18.00</rightascension>
+	<declination>+43 37 29.00</declination>
+	<distance errorminus="91.0" errorplus="102.0">1667.0</distance>
+	<star>
+		<name>Kepler-1708</name>
+		<radius errorminus="0.064" errorplus="0.064">1.117</radius>
+		<magV>16.0</magV>
+		<mass errorminus="0.072" errorplus="0.072">1.088</mass>
+		<temperature errorminus="202.0" errorplus="231.0">6157.0</temperature>
+		<metallicity>0.0</metallicity>
+		<planet>
+			<name>Kepler-1708 b</name>
+			<semimajoraxis errorminus="0.1" errorplus="0.1">1.64</semimajoraxis>
+			<period errorminus="0.0077" errorplus="0.00146">737.1131</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<radius errorminus="0.054" errorplus="0.054">0.8886</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/01/14</lastupdate>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>Kepler-1708 b-i</name>
+			<semimajoraxis errorminus="0.01" errorplus="0.018">0.05</semimajoraxis>
+			<inclination errorminus="45.0" errorplus="38.0">9.0</inclination>
+			<period errorminus="1.8" errorplus="3.1">4.6</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass upperlimit="0.116" />
+			<radius errorminus="0.0384" errorplus="0.0384">0.2329</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/01/14</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Cygnus</constellation>
+</system>
