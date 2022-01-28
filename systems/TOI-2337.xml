@@ -1,0 +1,29 @@
+<system>
+	<name>TOI-2337</name>
+	<rightascension>19 22 29.00</rightascension>
+	<declination>+60 51 14.00</declination>
+	<star>
+		<name>TOI-2337</name>
+		<radius errorminus="0.062" errorplus="0.062">3.22</radius>
+		<magV>11.0</magV>
+		<mass errorminus="0.12" errorplus="0.12">1.325</mass>
+		<temperature errorminus="100.0" errorplus="100.0">4780.0</temperature>
+		<metallicity errorminus="0.06" errorplus="0.06">0.39</metallicity>
+		<planet>
+			<name>TOI-2337 b</name>
+			<eccentricity errorminus="0.017" errorplus="0.017">0.019</eccentricity>
+			<periastron errorminus="79.0" errorplus="79.0">300.0</periastron>
+			<period errorminus="0.000080" errorplus="0.000080">2.99432</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.15" errorplus="0.15">1.0</mass>
+			<radius errorminus="0.1" errorplus="0.1">0.9</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/01/15</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Draco</constellation>
+</system>

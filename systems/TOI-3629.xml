@@ -1,0 +1,33 @@
+<system>
+	<name>TOI-3629</name>
+	<rightascension>23 59 10.00</rightascension>
+	<declination>+39 18 51.00</declination>
+	<distance errorminus="0.3" errorplus="0.3">129.7</distance>
+	<star>
+		<name>TOI-3629</name>
+		<radius errorminus="0.01" errorplus="0.02">0.6</radius>
+		<magV>14.6</magV>
+		<mass errorminus="0.02" errorplus="0.02">0.63</mass>
+		<temperature errorminus="90.0" errorplus="90.0">3870.0</temperature>
+		<metallicity errorminus="0.1" errorplus="0.1">0.4</metallicity>
+		<planet>
+			<name>TOI-3629 b</name>
+			<semimajoraxis errorminus="0.002" errorplus="0.002">0.043</semimajoraxis>
+			<eccentricity errorminus="0.04" errorplus="0.05">0.05</eccentricity>
+			<periastron errorminus="40.0" errorplus="200.0">250.0</periastron>
+			<inclination errorminus="0.5" errorplus="0.5">89.1</inclination>
+			<period errorminus="0.000006" errorplus="0.000006">3.936551</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.02" errorplus="0.02">0.26</mass>
+			<radius errorminus="0.02" errorplus="0.02">0.74</radius>
+			<temperature errorminus="20.0" errorplus="20.0">690.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/01/26</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Andromeda</constellation>
+</system>
