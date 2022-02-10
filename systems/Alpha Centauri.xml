@@ -64,13 +64,21 @@
 				<name>GL 551 d</name>
 				<name>HIP 70890 d</name>
 				<name>Proxima d</name>
-				<period>5.15</period>
-				<mass>0.0009125</mass>
-				<description>While reanalyzing data for Proxima Centauri b, a group of researchers discovered an additional radial velocity spike with repetition every 5.15 days. They estimated that if were a planetary companion, named Proxima d, it would be no more than 0.29 Earth masses.</description>
+				<period errorplus="0.002" errorminus="0.036">5.122</period>
+				<mass errorminus="0.000157" errorplus="0.000157">0.000818</mass>
+				<eccentricity errorplus="0.15" errorminus="0.04">0.04</eccentricity>
+				<semimajoraxis errorplus="0.00019" errorminus="0.00022">0.02885</semimajoraxis>
+				<description>This planet has been found using a large set of observations taken with the ESPRESSO spectrograph at the VLT. This candidate planet is the third detected in the system and the lightest yet discovered orbiting this star. At just a quarter of Earth’s mass, the planet is also one of the lightest exoplanets ever found. The analysis of subsets of the ESPRESSO data, the activity indicators, and chromatic RVs suggest that this signal is not caused by stellar variability but instead by a planetary companion.</description>
+				<image>eso2202a</image>
+				<imagedescription>This artist’s impression shows a close-up view of Proxima d, a planet candidate recently found orbiting the red dwarf star Proxima Centauri, the closest star to the Solar System. The planet is believed to be rocky and to have a mass about a quarter that of Earth. Two other planets known to orbit Proxima Centauri are visible in the image too: Proxima b, a planet with about the same mass as Earth that orbits the star every 11 days and is within the habitable zone, and candidate Proxima c, which is on a longer five-year orbit around the star.
+
+Credit:
+ESO/L. Calçada</imagedescription>
 				<discoverymethod>RV</discoverymethod>
-				<discoveryyear>2020</discoveryyear>
-				<lastupdate>20/08/29</lastupdate>
-				<list>Controversial</list>
+				<discoveryyear>2022</discoveryyear>
+				<lastupdate>22/02/10</lastupdate>
+				<list>Confirmed planets</list>
+				<new>1</new>
 				<list>Planets in binary systems, S-type</list>
 			</planet>
 		</star>
