@@ -1,0 +1,30 @@
+<system>
+	<name>TOI-2445</name>
+	<rightascension>02 53 16.00</rightascension>
+	<declination>+00 03 09.00</declination>
+	<distance>48.6</distance>
+	<star>
+		<name>TOI-2445</name>
+		<radius errorminus="0.01" errorplus="0.01">0.27</radius>
+		<magV>15.7</magV>
+		<mass errorminus="0.01" errorplus="0.01">0.25</mass>
+		<temperature errorminus="157.0" errorplus="157.0">333.0</temperature>
+		<spectraltype>M</spectraltype>
+		<planet>
+			<name>TOI-2445 b</name>
+			<semimajoraxis errorminus="0.0001" errorplus="0.0001">0.0064</semimajoraxis>
+			<period>0.3711281</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.0022" errorplus="0.0038">0.006</mass>
+			<radius errorminus="0.0071" errorplus="0.0071">0.1115</radius>
+			<temperature errorminus="54.0" errorplus="54.0">1060.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/01/30</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Cetus</constellation>
+</system>

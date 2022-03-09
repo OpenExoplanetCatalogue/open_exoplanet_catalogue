@@ -1,0 +1,29 @@
+<system>
+	<name>TOI-2260</name>
+	<rightascension>16 30 40.00</rightascension>
+	<declination>+49 02 47.00</declination>
+	<distance>101.3</distance>
+	<star>
+		<name>TOI-2260</name>
+		<radius errorminus="0.05" errorplus="0.05">0.94</radius>
+		<magV>10.5</magV>
+		<mass errorminus="0.04" errorplus="0.04">0.99</mass>
+		<temperature errorminus="100.0" errorplus="100.0">5534.0</temperature>
+		<planet>
+			<name>TOI-2260 b</name>
+			<semimajoraxis errorminus="0.0001" errorplus="0.0001">0.0097</semimajoraxis>
+			<period errorminus="0.000005" errorplus="0.000005">0.3524728</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.0041" errorplus="0.0079">0.011</mass>
+			<radius errorminus="0.0116" errorplus="0.0116">0.1445</radius>
+			<temperature errorminus="86.0" errorplus="86.0">2609.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/01/30</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Hercules</constellation>
+</system>

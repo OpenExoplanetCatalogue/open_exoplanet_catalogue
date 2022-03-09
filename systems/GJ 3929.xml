@@ -1,0 +1,49 @@
+<system>
+	<name>GJ 3929</name>
+	<name>TOI-2013</name>
+	<rightascension>15 58 19.00</rightascension>
+	<declination>+35 24 24.00</declination>
+	<distance errorminus="0.006" errorplus="0.006">15.83</distance>
+	<star>
+		<name>GJ 3929</name>
+		<name>TOI-2013</name>
+		<radius errorminus="0.01" errorplus="0.01">0.35</radius>
+		<magV>12.0</magV>
+		<mass errorminus="0.014" errorplus="0.014">0.309</mass>
+		<temperature errorminus="51.0" errorplus="51.0">3369.0</temperature>
+		<metallicity errorminus="0.16" errorplus="0.16">0.0</metallicity>
+		<spectraltype>M3.5V</spectraltype>
+		<planet>
+			<name>GJ 3929 b</name>
+			<name>TOI-2013 b</name>
+			<semimajoraxis errorminus="0.00088" errorplus="0.00088">0.02569</semimajoraxis>
+			<inclination errorminus="0.3" errorplus="0.23">89.65</inclination>
+			<period errorminus="0.000003" errorplus="0.000003">2.6162745</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.0013" errorplus="0.0013">0.00381</mass>
+			<radius errorminus="0.0036" errorplus="0.0036">0.1026</radius>
+			<temperature errorminus="9.0" errorplus="9.0">569.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/02/03</lastupdate>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>GJ 3929 c</name>
+			<name>TOI-2013 c</name>
+			<semimajoraxis errorminus="0.0012" errorplus="0.0012">0.078</semimajoraxis>
+			<period errorminus="0.035" errorplus="0.035">14.303</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.00239" errorplus="0.00239">0.01658</mass>
+			<temperature errorminus="7.6" errorplus="7.6">326.5</temperature>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/02/03</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Corona Borealis</constellation>
+</system>

@@ -1,0 +1,29 @@
+<system>
+	<name>TOI-1075</name>
+	<rightascension>20 39 53.00</rightascension>
+	<declination>-65 26 58.00</declination>
+	<distance>61.5</distance>
+	<star>
+		<name>TOI-1075</name>
+		<radius errorminus="0.02" errorplus="0.02">0.58</radius>
+		<magV>13.0</magV>
+		<mass errorminus="0.02" errorplus="0.02">0.6</mass>
+		<temperature errorminus="157.0" errorplus="157.0">3921.0</temperature>
+		<planet>
+			<name>TOI-1075 b</name>
+			<semimajoraxis errorminus="0.0001" errorplus="0.0001">0.0118</semimajoraxis>
+			<period errorminus="0.000003" errorplus="0.000003">0.6047328</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.0044" errorplus="0.0085">0.013</mass>
+			<radius errorminus="0.0071" errorplus="0.0071">0.1534</radius>
+			<temperature errorminus="56.0" errorplus="56.0">1336.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/01/30</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Pavo</constellation>
+</system>

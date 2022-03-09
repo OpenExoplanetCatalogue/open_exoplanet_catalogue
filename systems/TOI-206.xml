@@ -1,0 +1,28 @@
+<system>
+	<name>TOI-206</name>
+	<rightascension>04 54 56.93</rightascension>
+	<declination>-62 31 20.53</declination>
+	<distance>47.7</distance>
+	<star>
+		<name>TOI-206</name>
+		<radius errorminus="0.01" errorplus="0.01">0.35</radius>
+		<mass errorminus="0.01" errorplus="0.01">0.35</mass>
+		<temperature errorminus="157.0" errorplus="157.0">3383.0</temperature>
+		<planet>
+			<name>TOI-206 b</name>
+			<semimajoraxis errorminus="0.0001" errorplus="0.0001">0.0112</semimajoraxis>
+			<period>0.7363104</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.0022" errorplus="0.0041">0.0069</mass>
+			<radius errorminus="0.0045" errorplus="0.0045">0.116</radius>
+			<temperature errorminus="36.0" errorplus="36.0">910.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/01/30</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Dorado</constellation>
+</system>

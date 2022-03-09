@@ -1,0 +1,30 @@
+<system>
+	<name>TOI-833</name>
+	<rightascension>09 42 35.00</rightascension>
+	<declination>-62 28 34.00</declination>
+	<distance>41.7</distance>
+	<star>
+		<name>TOI-833</name>
+		<radius errorminus="0.02" errorplus="0.02">0.6</radius>
+		<magV>12.0</magV>
+		<mass errorminus="0.03" errorplus="0.03">0.61</mass>
+		<temperature errorminus="100.0" errorplus="100.0">3920.0</temperature>
+		<spectraltype>M0V</spectraltype>
+		<planet>
+			<name>TOI-833 b</name>
+			<semimajoraxis errorminus="0.0003" errorplus="0.0003">0.0171</semimajoraxis>
+			<period errorminus="0.000032" errorplus="0.000032">1.04318777</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.0019" errorplus="0.0041">0.006</mass>
+			<radius errorminus="0.0062" errorplus="0.0062">0.1133</radius>
+			<temperature errorminus="49.0" errorplus="49.0">1118.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/01/30</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Carina</constellation>
+</system>

@@ -1,0 +1,29 @@
+<system>
+	<name>TOI-1693</name>
+	<rightascension>06 01 14.00</rightascension>
+	<declination>+34 46 23.00</declination>
+	<distance>30.8</distance>
+	<star>
+		<name>TOI-1693</name>
+		<radius errorminus="0.01" errorplus="0.01">0.46</radius>
+		<magV>13.0</magV>
+		<mass errorminus="0.05" errorplus="0.05">0.49</mass>
+		<temperature errorminus="70.0" errorplus="70.0">3499.0</temperature>
+		<planet>
+			<name>TOI-1693 b</name>
+			<semimajoraxis errorminus="0.0004" errorplus="0.0004">0.0226</semimajoraxis>
+			<period errorminus="0.000005" errorplus="0.000005">1.7666957</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.003" errorplus="0.0069">0.0088</mass>
+			<radius errorminus="0.009" errorplus="0.009">0.1258</radius>
+			<temperature errorminus="19.0" errorplus="19.0">764.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/01/30</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Auriga</constellation>
+</system>

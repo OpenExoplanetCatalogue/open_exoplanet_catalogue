@@ -1,0 +1,30 @@
+<system>
+	<name>TOI-2411</name>
+	<rightascension>01 23 42.00</rightascension>
+	<declination>-08 42 05.00</declination>
+	<distance>59.5</distance>
+	<star>
+		<name>TOI-2411</name>
+		<radius errorminus="0.02" errorplus="0.02">0.68</radius>
+		<magV>11.3</magV>
+		<mass errorminus="0.02" errorplus="0.02">0.65</mass>
+		<temperature errorminus="123.0" errorplus="123.0">4099.0</temperature>
+		<spectraltype>K5V</spectraltype>
+		<planet>
+			<name>TOI-2411 b</name>
+			<semimajoraxis errorminus="0.0001" errorplus="0.0001">0.0144</semimajoraxis>
+			<period errorminus="0.000004" errorplus="0.000004">0.7826942</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.0047" errorplus="0.0072">0.0123</mass>
+			<radius errorminus="0.0098" errorplus="0.0098">0.1499</radius>
+			<temperature errorminus="45.0" errorplus="45.0">1355.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/01/30</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Cetus</constellation>
+</system>

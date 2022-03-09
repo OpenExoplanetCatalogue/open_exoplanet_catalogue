@@ -1,0 +1,31 @@
+<system>
+	<name>TOI-1696</name>
+	<rightascension>04 21 07.00</rightascension>
+	<declination>+48 49 11.00</declination>
+	<distance errorminus="0.36" errorplus="0.36">65.03</distance>
+	<star>
+		<name>TOI-1696</name>
+		<radius errorminus="0.008" errorplus="0.008">0.2775</radius>
+		<magV>17.0</magV>
+		<mass errorminus="0.0066" errorplus="0.0066">0.255</mass>
+		<temperature errorminus="76.0" errorplus="76.0">3185.0</temperature>
+		<metallicity errorminus="0.06" errorplus="0.06">0.336</metallicity>
+		<planet>
+			<name>TOI-1696 b</name>
+			<semimajoraxis errorminus="0.0002" errorplus="0.0002">0.0229</semimajoraxis>
+			<eccentricity>0.0</eccentricity>
+			<period errorminus="0.000004" errorplus="0.000004">2.500311</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass upperlimit="0.1535" />
+			<radius errorminus="0.0098" errorplus="0.0098">0.2757</radius>
+			<temperature errorminus="13.0" errorplus="13.0">489.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/03/08</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Perseus</constellation>
+</system>

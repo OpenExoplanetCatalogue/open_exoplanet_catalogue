@@ -1,0 +1,28 @@
+<system>
+	<name>TOI-1442</name>
+	<rightascension>19 09 10.00</rightascension>
+	<declination>+74 10 20.00</declination>
+	<distance>41.2</distance>
+	<star>
+		<name>TOI-1442</name>
+		<radius errorminus="0.01" errorplus="0.01">0.31</radius>
+		<magV>14.0</magV>
+		<mass errorminus="0.02" errorplus="0.02">0.29</mass>
+		<temperature errorminus="160.0" errorplus="160.0">3330.0</temperature>
+		<planet>
+			<name>TOI-1442 b</name>
+			<semimajoraxis errorminus="0.0002" errorplus="0.0002">0.0071</semimajoraxis>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.0016" errorplus="0.0035">0.005</mass>
+			<radius errorminus="0.0054" errorplus="0.0054">0.1044</radius>
+			<temperature errorminus="54.0" errorplus="54.0">1072.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/01/30</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Draco</constellation>
+</system>

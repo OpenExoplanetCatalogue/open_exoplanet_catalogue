@@ -1,0 +1,34 @@
+<system>
+	<name>TOI-500</name>
+	<name>HIP 34269</name>
+	<name>GJ 9224</name>
+	<rightascension>07 06 17.23</rightascension>
+	<declination>-47 41 57.48</declination>
+	<distance>47.4</distance>
+	<star>
+		<name>TOI-500</name>
+		<name>HIP 34269</name>
+		<name>GJ 9224</name>
+		<radius errorminus="0.06" errorplus="0.06">0.75</radius>
+		<mass errorminus="0.25" errorplus="0.25">0.88</mass>
+		<temperature errorminus="50.0" errorplus="50.0">4621.0</temperature>
+		<planet>
+			<name>TOI-500 b</name>
+			<name>HIP 34269 b</name>
+			<name>GJ 9224 b</name>
+			<semimajoraxis errorminus="0.0011" errorplus="0.0011">0.0128</semimajoraxis>
+			<period errorminus="0.000001" errorplus="0.000001">0.5481579</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.0022" errorplus="0.0041">0.005</mass>
+			<radius errorminus="0.0107" errorplus="0.0107">0.1035</radius>
+			<temperature errorminus="105.0" errorplus="105.0">1683.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/01/31</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Puppis</constellation>
+</system>

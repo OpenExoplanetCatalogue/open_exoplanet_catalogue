@@ -1,0 +1,33 @@
+<system>
+	<name>TOI-1268</name>
+	<rightascension>13 13 33.00</rightascension>
+	<declination>+62 18 20.00</declination>
+	<distance errorminus="1.0" errorplus="1.0">110.0</distance>
+	<star>
+		<name>TOI-1268</name>
+		<radius errorminus="0.06" errorplus="0.06">0.92</radius>
+		<magV>11.0</magV>
+		<mass errorminus="0.04" errorplus="0.04">0.96</mass>
+		<temperature errorminus="100.0" errorplus="100.0">5200.0</temperature>
+		<metallicity errorminus="0.25" errorplus="0.25">0.25</metallicity>
+		<spectraltype>K1-K2</spectraltype>
+		<planet>
+			<name>TOI-1268 b</name>
+			<semimajoraxis errorminus="0.01" errorplus="0.01">0.072</semimajoraxis>
+			<eccentricity errorminus="0.04" errorplus="0.04">0.09</eccentricity>
+			<periastron errorminus="34.0" errorplus="57.0">338.0</periastron>
+			<inclination errorminus="0.38" errorplus="0.38">88.98</inclination>
+			<period errorminus="0.000005" errorplus="0.000005">8.1577094</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.04" errorplus="0.04">0.29</mass>
+			<radius errorminus="0.06" errorplus="0.06">0.82</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/02/01</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Ursa Major</constellation>
+</system>
