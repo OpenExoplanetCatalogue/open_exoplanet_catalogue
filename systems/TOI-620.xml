@@ -1,0 +1,46 @@
+<system>
+	<name>TOI-620</name>
+	<rightascension>09 48 42.00</rightascension>
+	<declination>-12 00 56.00</declination>
+	<distance errorminus="0.067" errorplus="0.067">33.022</distance>
+	<star>
+		<name>TOI-620</name>
+		<radius errorminus="0.017" errorplus="0.017">0.55</radius>
+		<magV>12.3</magV>
+		<mass errorminus="0.025" errorplus="0.025">0.577</mass>
+		<temperature errorminus="57.0" errorplus="57.0">3708.0</temperature>
+		<metallicity errorminus="0.12" errorplus="0.12">0.35</metallicity>
+		<spectraltype>M2.5V</spectraltype>
+		<planet>
+			<name>TOI-620 b</name>
+			<semimajoraxis errorminus="0.00066" errorplus="0.00066">0.04825</semimajoraxis>
+			<eccentricity errorminus="0.18" errorplus="0.22">0.19</eccentricity>
+			<periastron errorminus="99.0" errorplus="139.0">336.6</periastron>
+			<inclination errorminus="0.3" errorplus="0.18">87.47</inclination>
+			<period errorminus="0.000005" errorplus="0.000005">5.0988179</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.0113" errorplus="0.0173">0.0485</mass>
+			<radius errorminus="0.0134" errorplus="0.0134">0.3354</radius>
+			<temperature errorminus="5.5" errorplus="5.5">604.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/04/08</lastupdate>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>TOI-620 c</name>
+			<eccentricity errorminus="0.18" errorplus="0.3">0.2</eccentricity>
+			<periastron errorminus="141.0" errorplus="43.0">82.7</periastron>
+			<period errorminus="0.08" errorplus="0.08">17.72</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/04/08</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Hydra</constellation>
+</system>

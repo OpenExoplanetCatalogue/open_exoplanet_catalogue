@@ -1,0 +1,32 @@
+<system>
+	<name>TOI-2025</name>
+	<rightascension>18 51 11.00</rightascension>
+	<declination>+82 14 43.00</declination>
+	<distance errorminus="2.0" errorplus="2.0">339.0</distance>
+	<star>
+		<name>TOI-2025</name>
+		<radius errorminus="0.03" errorplus="0.03">1.56</radius>
+		<mass errorminus="0.14" errorplus="0.14">1.32</mass>
+		<temperature errorminus="53.0" errorplus="53.0">5880.0</temperature>
+		<metallicity errorminus="0.08" errorplus="0.08">0.18</metallicity>
+		<planet>
+			<name>TOI-2025 b</name>
+			<semimajoraxis errorminus="0.004" errorplus="0.004">0.089</semimajoraxis>
+			<eccentricity errorminus="0.03" errorplus="0.03">0.44</eccentricity>
+			<periastron errorminus="2.0" errorplus="2.0">92.0</periastron>
+			<inclination errorminus="0.6" errorplus="1.4">88.6</inclination>
+			<period errorminus="0.000009" errorplus="0.000009">8.872086</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.4" errorplus="0.4">4.4</mass>
+			<radius errorminus="0.01" errorplus="0.01">1.12</radius>
+			<temperature errorminus="11.0" errorplus="11.0">1186.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/05/02</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Draco</constellation>
+</system>
