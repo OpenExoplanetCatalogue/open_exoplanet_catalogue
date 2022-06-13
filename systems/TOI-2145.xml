@@ -1,0 +1,34 @@
+<system>
+	<name>TOI-2145</name>
+	<name>HIP 86040</name>
+	<rightascension>17 35 02.00</rightascension>
+	<declination>+40 41 42.00</declination>
+	<distance errorminus="1.6" errorplus="1.6">124.6</distance>
+	<star>
+		<name>TOI-2145</name>
+		<name>HIP 86040</name>
+		<radius errorminus="0.065" errorplus="0.065">2.738</radius>
+		<mass errorminus="0.068" errorplus="0.057">1.72</mass>
+		<temperature errorminus="67.0" errorplus="67.0">6189.0</temperature>
+		<metallicity errorminus="0.074" errorplus="0.074">0.245</metallicity>
+		<planet>
+			<name>TOI-2145 b</name>
+			<semimajoraxis errorminus="0.0015" errorplus="0.0015">0.1108</semimajoraxis>
+			<eccentricity errorminus="0.05" errorplus="0.04">0.18</eccentricity>
+			<periastron errorminus="9.6" errorplus="10.0">100.3</periastron>
+			<inclination errorminus="0.9" errorplus="1.4">87.41</inclination>
+			<period errorminus="0.000027" errorplus="0.000027">10.261081</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.35" errorplus="0.35">5.35</mass>
+			<radius errorminus="0.03" errorplus="0.03">1.103</radius>
+			<temperature errorminus="16.0" errorplus="16.0">1484.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/05/13</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Hercules</constellation>
+</system>

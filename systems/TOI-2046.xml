@@ -1,0 +1,28 @@
+<system>
+	<name>TOI-2046</name>
+	<rightascension>01 04 44.00</rightascension>
+	<declination>+74 19 53.00</declination>
+	<star>
+		<name>TOI-2046</name>
+		<radius errorminus="0.032" errorplus="0.036">1.237</radius>
+		<mass errorminus="0.1" errorplus="0.1">1.153</mass>
+		<temperature errorminus="100.0" errorplus="100.0">6160.0</temperature>
+		<metallicity errorminus="0.12" errorplus="0.12">0.04</metallicity>
+		<spectraltype>F8V</spectraltype>
+		<planet>
+			<name>TOI-2046 b</name>
+			<inclination errorminus="0.9" errorplus="0.9">83.6</inclination>
+			<period errorminus="0.000003" errorplus="0.000003">1.4971842</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.28" errorplus="0.28">2.3</mass>
+			<radius errorminus="0.11" errorplus="0.11">1.44</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/05/05</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Cassiopeia</constellation>
+</system>

@@ -1,0 +1,32 @@
+<system>
+	<name>TOI-2152</name>
+	<rightascension>01 45 21.00</rightascension>
+	<declination>+77 47 24.00</declination>
+	<distance errorminus="3.9" errorplus="3.9">302.8</distance>
+	<star>
+		<name>TOI-2152</name>
+		<radius errorminus="0.056" errorplus="0.056">1.612</radius>
+		<mass errorminus="0.1" errorplus="0.1">1.516</mass>
+		<temperature errorminus="300.0" errorplus="300.0">6630.0</temperature>
+		<metallicity errorminus="0.08" errorplus="0.075">0.28</metallicity>
+		<planet>
+			<name>TOI-2152 b</name>
+			<semimajoraxis errorminus="0.001" errorplus="0.001">0.05064</semimajoraxis>
+			<eccentricity errorminus="0.04" errorplus="0.07">0.057</eccentricity>
+			<periastron errorminus="89.0" errorplus="83.0">96.0</periastron>
+			<inclination errorminus="0.85" errorplus="1.4">86.42</inclination>
+			<period errorminus="0.000006" errorplus="0.000006">3.3773512</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.38" errorplus="0.38">2.83</mass>
+			<radius errorminus="0.05" errorplus="0.05">1.281</radius>
+			<temperature errorminus="60.0" errorplus="60.0">1800.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/05/13</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Cepheus</constellation>
+</system>

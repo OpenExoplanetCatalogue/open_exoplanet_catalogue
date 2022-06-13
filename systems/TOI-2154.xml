@@ -1,0 +1,32 @@
+<system>
+	<name>TOI-2154</name>
+	<rightascension>04 44 07.00</rightascension>
+	<declination>+84 21 51.00</declination>
+	<distance errorminus="3.0" errorplus="3.0">296.3</distance>
+	<star>
+		<name>TOI-2154</name>
+		<radius errorminus="0.043" errorplus="0.05">1.396</radius>
+		<mass errorminus="0.09" errorplus="0.077">1.233</mass>
+		<temperature errorminus="160.0" errorplus="160.0">6280.0</temperature>
+		<metallicity errorminus="0.06" errorplus="0.07">0.011</metallicity>
+		<planet>
+			<name>TOI-2154 b</name>
+			<semimajoraxis errorminus="0.0013" errorplus="0.0013">0.0513</semimajoraxis>
+			<eccentricity errorminus="0.08" errorplus="0.1">0.117</eccentricity>
+			<periastron errorminus="96.0" errorplus="98.0">31.0</periastron>
+			<inclination errorminus="0.75" errorplus="0.55">83.37</inclination>
+			<period errorminus="0.000003" errorplus="0.000003">3.6240801</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.19" errorplus="0.19">0.92</mass>
+			<radius errorminus="0.048" errorplus="0.053">1.453</radius>
+			<temperature errorminus="30.0" errorplus="30.0">1589.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/05/13</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Cepheus</constellation>
+</system>

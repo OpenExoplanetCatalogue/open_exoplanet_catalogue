@@ -1,0 +1,28 @@
+<system>
+	<name>mu2 Sco</name>
+	<rightascension>16 52 20.00</rightascension>
+	<declination>-38 01 03.00</declination>
+	<distance errorminus="5.0" errorplus="5.0">169.5</distance>
+	<star>
+		<name>mu2 Sco</name>
+		<radius errorminus="0.2" errorplus="0.2">5.6</radius>
+		<magV>3.56</magV>
+		<mass errorminus="0.3" errorplus="0.3">9.1</mass>
+		<temperature errorminus="900.0" errorplus="900.0">21700.0</temperature>
+		<spectraltype>B2IV</spectraltype>
+		<planet>
+			<name>mu2 Sco b</name>
+			<semimajoraxis errorminus="52.0" errorplus="114.0">242.4</semimajoraxis>
+			<eccentricity errorminus="0.27" errorplus="0.27">0.56</eccentricity>
+			<inclination errorminus="21.0" errorplus="21.0">96.6</inclination>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.8" errorplus="0.8">14.4</mass>
+			<discoverymethod>imaging</discoverymethod>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/05/06</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Scorpius</constellation>
+</system>

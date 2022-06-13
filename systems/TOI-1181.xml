@@ -1,0 +1,27 @@
+<system>
+	<name>TOI-1181</name>
+	<rightascension>19 48 52.00</rightascension>
+	<declination>+64 21 16.00</declination>
+	<star>
+		<name>TOI-1181</name>
+		<radius errorminus="0.1" errorplus="0.06">1.9</radius>
+		<mass errorminus="0.08" errorplus="0.09">1.38</mass>
+		<temperature errorminus="100.0" errorplus="100.0">6260.0</temperature>
+		<spectraltype>F9IV</spectraltype>
+		<planet>
+			<name>TOI-1181 b</name>
+			<inclination errorminus="1.3" errorplus="1.3">87.0</inclination>
+			<period errorminus="0.000012" errorplus="0.000012">2.103195</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.14" errorplus="0.14">1.18</mass>
+			<radius errorminus="0.08" errorplus="0.08">1.3</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/05/05</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Draco</constellation>
+</system>
