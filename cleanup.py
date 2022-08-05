@@ -481,6 +481,13 @@ if __name__=="__main__":
 
     # Loop over all files and  create new data
     for filename in glob.glob(folders+"/*.xml"):
+        # Skip external catalogues by default
+        if len(sys.argv)==1:
+            if "exoplaneteu" in filename:
+                continue
+            if "exoplanetarchive" in filename:
+                continue
+        
         fileschecked += 1
         checkonefile(filename)
 
