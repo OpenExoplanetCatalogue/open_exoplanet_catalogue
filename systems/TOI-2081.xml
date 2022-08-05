@@ -1,0 +1,31 @@
+<system>
+	<name>TOI-2081</name>
+	<rightascension>17 37 13.00</rightascension>
+	<declination>+53 01 32.00</declination>
+	<distance errorminus="0.05" errorplus="0.05">62.31</distance>
+	<star>
+		<name>TOI-2081</name>
+		<radius errorminus="0.08" errorplus="0.08">0.534</radius>
+		<magV>13.4</magV>
+		<mass errorminus="0.08" errorplus="0.08">0.54</mass>
+		<temperature errorminus="100.0" errorplus="100.0">3800.0</temperature>
+		<spectraltype>M1</spectraltype>
+		<planet>
+			<name>TOI-2081 b</name>
+			<semimajoraxis errorminus="0.012" errorplus="0.005">0.0752</semimajoraxis>
+			<inclination errorminus="0.73" errorplus="0.46">89.34</inclination>
+			<period errorminus="0.000080" errorplus="0.000080">10.50534</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.0076" errorplus="0.0151">0.016</mass>
+			<radius errorminus="0.0482" errorplus="0.045">0.182</radius>
+			<temperature errorminus="50.0" errorplus="30.0">488.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/06/23</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Draco</constellation>
+</system>

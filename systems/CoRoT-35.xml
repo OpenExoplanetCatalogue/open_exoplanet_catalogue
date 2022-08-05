@@ -1,0 +1,33 @@
+<system>
+	<name>CoRoT-35</name>
+	<rightascension>19 17 15.00</rightascension>
+	<declination>-02 46 29.00</declination>
+	<distance errorminus="40.0" errorplus="50.0">1140.0</distance>
+	<star>
+		<name>CoRoT-35</name>
+		<radius errorminus="0.1" errorplus="0.1">1.65</radius>
+		<magV>15.7</magV>
+		<mass errorminus="0.07" errorplus="0.07">1.01</mass>
+		<temperature errorminus="130.0" errorplus="130.0">6390.0</temperature>
+		<metallicity errorminus="0.1" errorplus="0.1">-0.5</metallicity>
+		<spectraltype>F3V</spectraltype>
+		<planet>
+			<name>CoRoT-35 b</name>
+			<semimajoraxis errorminus="0.00092" errorplus="0.00092">0.0429</semimajoraxis>
+			<eccentricity>0.0</eccentricity>
+			<inclination errorminus="0.1" errorplus="0.1">84.1</inclination>
+			<period errorminus="0.000080" errorplus="0.000080">3.22748</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.37" errorplus="0.37">1.1</mass>
+			<radius errorminus="0.11" errorplus="0.11">1.68</radius>
+			<temperature errorminus="62.0" errorplus="62.0">1747.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/07/19</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Aquila</constellation>
+</system>

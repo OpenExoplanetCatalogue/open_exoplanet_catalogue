@@ -1,0 +1,40 @@
+<system>
+	<name>TOI-1272</name>
+	<rightascension>13 16 47.18</rightascension>
+	<declination>+49 51 39.74</declination>
+	<star>
+		<name>TOI-1272</name>
+		<planet>
+			<name>TOI-1272 b</name>
+			<semimajoraxis errorminus="0.0008" errorplus="0.0008">0.0412</semimajoraxis>
+			<eccentricity errorminus="0.062" errorplus="0.056">0.338</eccentricity>
+			<periastron errorminus="11.5" errorplus="11.5">123.6</periastron>
+			<period errorminus="0.000020" errorplus="0.000020">3.31599</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.0072" errorplus="0.0072">0.0774</mass>
+			<radius errorminus="0.0187" errorplus="0.0187">0.3693</radius>
+			<temperature errorminus="32.0" errorplus="32.0">961.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/06/30</lastupdate>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>TOI-1272 c</name>
+			<semimajoraxis errorminus="0.0014" errorplus="0.0014">0.0783</semimajoraxis>
+			<eccentricity errorminus="57.0" errorplus="97.0">280.0</eccentricity>
+			<period errorminus="0.008" errorplus="0.008">8.689</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.0098" errorplus="0.0098">0.084</mass>
+			<temperature errorminus="23.0" errorplus="23.0">697.0</temperature>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/06/30</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Canes Venatici</constellation>
+</system>

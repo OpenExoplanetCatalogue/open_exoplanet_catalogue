@@ -1,0 +1,36 @@
+<system>
+	<name>NGTS-20</name>
+	<name>TOI-5252</name>
+	<rightascension>03 05 10.00</rightascension>
+	<declination>-21 56 01.00</declination>
+	<distance errorminus="2.4" errorplus="2.4">366.2</distance>
+	<star>
+		<name>NGTS-20</name>
+		<name>TOI-5252</name>
+		<radius errorminus="0.05" errorplus="0.05">1.78</radius>
+		<magV>11.2</magV>
+		<mass errorminus="0.09" errorplus="0.09">1.47</mass>
+		<temperature errorminus="80.0" errorplus="80.0">5980.0</temperature>
+		<metallicity errorminus="0.08" errorplus="0.08">0.15</metallicity>
+		<spectraltype>G1IV</spectraltype>
+		<planet>
+			<name>NGTS-20 b</name>
+			<name>TOI-5152 b</name>
+			<semimajoraxis errorminus="0.013" errorplus="0.013">0.313</semimajoraxis>
+			<eccentricity errorminus="0.023" errorplus="0.023">0.432</eccentricity>
+			<periastron errorminus="3.2" errorplus="3.2">66.1</periastron>
+			<period errorminus="0.00015" errorplus="0.00015">54.18915</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.16" errorplus="0.16">2.98</mass>
+			<radius errorminus="0.04" errorplus="0.04">1.07</radius>
+			<temperature errorminus="14.0" errorplus="14.0">688.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/07/11</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Eridanus</constellation>
+</system>

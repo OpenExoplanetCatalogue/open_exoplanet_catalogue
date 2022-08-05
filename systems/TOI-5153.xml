@@ -1,0 +1,33 @@
+<system>
+	<name>TOI-5153</name>
+	<rightascension>06 06 10.00</rightascension>
+	<declination>-19 57 12.00</declination>
+	<distance errorminus="3.5" errorplus="3.5">390.1</distance>
+	<star>
+		<name>TOI-5153</name>
+		<radius errorminus="0.04" errorplus="0.04">1.4</radius>
+		<magV>12.0</magV>
+		<mass errorminus="0.07" errorplus="0.07">1.24</mass>
+		<temperature errorminus="80.0" errorplus="80.0">6300.0</temperature>
+		<metallicity errorminus="0.08" errorplus="0.08">0.12</metallicity>
+		<spectraltype>F8V</spectraltype>
+		<planet>
+			<name>TOI-5153 b</name>
+			<semimajoraxis errorminus="0.006" errorplus="0.006">0.158</semimajoraxis>
+			<eccentricity errorminus="0.026" errorplus="0.026">0.09</eccentricity>
+			<periastron errorminus="24.0" errorplus="24.0">144.0</periastron>
+			<period errorminus="0.000070" errorplus="0.000070">20.33003</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.17" errorplus="0.17">3.26</mass>
+			<radius errorminus="0.04" errorplus="0.04">1.06</radius>
+			<temperature errorminus="13.0" errorplus="13.0">906.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/07/11</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Lepus</constellation>
+</system>

@@ -1,0 +1,48 @@
+<system>
+	<name>TOI-1422</name>
+	<rightascension>23 36 57.80</rightascension>
+	<declination>+39 38 21.39</declination>
+	<distance errorminus="0.03" errorplus="0.04">154.56</distance>
+	<star>
+		<name>TOI-1422</name>
+		<radius errorminus="0.0014" errorplus="0.0014">1.019</radius>
+		<mass errorminus="0.065" errorplus="0.065">0.981</mass>
+		<temperature errorminus="62.0" errorplus="62.0">5840.0</temperature>
+		<metallicity errorminus="0.07" errorplus="0.07">-0.09</metallicity>
+		<spectraltype>G2V</spectraltype>
+		<planet>
+			<name>TOI-1422 b</name>
+			<semimajoraxis errorminus="0.003" errorplus="0.003">0.108</semimajoraxis>
+			<eccentricity errorminus="0.05" errorplus="0.03">0.04</eccentricity>
+			<periastron errorminus="56.0" errorplus="20.0">153.0</periastron>
+			<inclination errorminus="0.28" errorplus="0.28">89.52</inclination>
+			<period errorminus="0.0006" errorplus="0.0006">12.9972</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.006" errorplus="0.006">0.028</mass>
+			<radius errorminus="0.0009" errorplus="0.0009">0.3533</radius>
+			<temperature errorminus="17.0" errorplus="17.0">867.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/07/08</lastupdate>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>TOI-1422 c</name>
+			<semimajoraxis errorminus="0.006" errorplus="0.006">0.185</semimajoraxis>
+			<eccentricity errorminus="0.1" errorplus="0.17">0.14</eccentricity>
+			<periastron errorminus="64.0" errorplus="64.0">99.0</periastron>
+			<period errorminus="0.2" errorplus="0.2">29.29</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.0082" errorplus="0.0082">0.0349</mass>
+			<temperature errorminus="13.0" errorplus="13.0">881.0</temperature>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/07/08</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Andromeda</constellation>
+</system>

@@ -1,0 +1,30 @@
+<system>
+	<name>TOI-2048</name>
+	<rightascension>15 51 42.00</rightascension>
+	<declination>+52 18 23.00</declination>
+	<distance errorminus="0.17" errorplus="0.17">116.39</distance>
+	<star>
+		<name>TOI-2048</name>
+		<radius errorminus="0.04" errorplus="0.04">0.79</radius>
+		<magV>11.5</magV>
+		<mass errorminus="0.03" errorplus="0.03">0.83</mass>
+		<temperature errorminus="60.0" errorplus="60.0">5185.0</temperature>
+		<metallicity errorminus="0.08" errorplus="0.08">0.02</metallicity>
+		<planet>
+			<name>TOI-2048 b</name>
+			<semimajoraxis errorminus="0.01" errorplus="0.01">0.19</semimajoraxis>
+			<eccentricity errorminus="0.1" errorplus="0.18">0.13</eccentricity>
+			<inclination errorminus="0.4" errorplus="0.4">89.41</inclination>
+			<period errorminus="0.00084" errorplus="0.00065">13.79</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<radius errorminus="0.018" errorplus="0.018">0.1838</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/06/14</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Draco</constellation>
+</system>

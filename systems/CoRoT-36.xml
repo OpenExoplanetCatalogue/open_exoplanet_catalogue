@@ -1,0 +1,32 @@
+<system>
+	<name>CoRoT-36</name>
+	<rightascension>18 30 60.00</rightascension>
+	<declination>+07 11 01.00</declination>
+	<distance errorminus="18.0" errorplus="18.0">954.0</distance>
+	<star>
+		<name>CoRoT-36</name>
+		<radius errorminus="0.1" errorplus="0.2">1.52</radius>
+		<magV>13.1</magV>
+		<mass errorminus="0.09" errorplus="0.09">1.32</mass>
+		<temperature errorminus="140.0" errorplus="140.0">6730.0</temperature>
+		<metallicity errorminus="0.1" errorplus="0.1">-0.1</metallicity>
+		<planet>
+			<name>CoRoT-36 b</name>
+			<semimajoraxis errorminus="0.007" errorplus="0.007">0.066</semimajoraxis>
+			<eccentricity>0.0</eccentricity>
+			<inclination errorminus="0.26" errorplus="0.26">85.83</inclination>
+			<period errorminus="0.000023" errorplus="0.000023">5.616531</period>
+			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+			<mass errorminus="0.68" errorplus="0.47">0.68</mass>
+			<radius errorminus="0.14" errorplus="0.14">1.41</radius>
+			<temperature errorminus="35.0" errorplus="35.0">1567.0</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/07/19</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Ophiucus</constellation>
+</system>
