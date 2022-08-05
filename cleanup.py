@@ -475,8 +475,12 @@ def checkonefile(filename, printerrors = True):
 
 
 if __name__=="__main__":
+    folders = "systems*"
+    if len(sys.argv)>1:
+        folders = sys.argv[1]
+
     # Loop over all files and  create new data
-    for filename in glob.glob("systems*/*.xml"):
+    for filename in glob.glob(folders+"/*.xml"):
         fileschecked += 1
         checkonefile(filename)
 
@@ -491,7 +495,12 @@ if __name__=="__main__":
     statistics['lastUpdate'] = time.mktime(dt.timetuple())
     statistics['discoveryyears'] = discoveryyears
     statistics['discoverymethods'] = discoverymethodscounter
-    with open("statistics.json","w") as outfile:
+
+    statisticsfile = "statistics.json"
+    if len(sys.argv)>1:
+        statisticsfile = "statistics_"+sys.argv[1].replace("systems_","")+".json"
+
+    with open(statisticsfile,"w") as outfile:
         json.dump(statistics,outfile, indent=4, sort_keys=True)
 
     print("Cleanup script finished. %d files checked." % fileschecked)
