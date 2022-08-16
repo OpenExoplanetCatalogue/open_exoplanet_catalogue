@@ -1,0 +1,37 @@
+<system>
+	<name>Kepler-1833</name>
+	<rightascension>19 23 29</rightascension>
+	<declination>+45 24 37</declination>
+	<distance errorminus="7.3960000" errorplus="7.5830000">591.6020000</distance>
+	<star>
+		<name>Kepler-1833</name>
+		<radius errorminus="0.20" errorplus="0.25">1.45</radius>
+		<magV errorminus="0.0800000" errorplus="0.0800000">12.6450000</magV>
+		<magJ errorminus="0.0210000" errorplus="0.0210000">11.5880000</magJ>
+		<magH errorminus="0.0200000" errorplus="0.0200000">11.3590000</magH>
+		<magK errorminus="0.0130000" errorplus="0.0130000">11.2900000</magK>
+		<magI>12.4750000</magI>
+		<mass errorminus="0.09" errorplus="0.08">1.29</mass>
+		<temperature errorminus="135.00" errorplus="110.00">6164.00</temperature>
+		<metallicity errorminus="0.150" errorplus="0.050">0.380</metallicity>
+		<planet>
+			<name>Kepler-1833 b</name>
+			<semimajoraxis>0.077100</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>88.810</inclination>
+			<period>6.89212990</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.00705</mass>
+			<radius>0.116</radius>
+			<temperature>1.17700000000e+03</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/02/01</lastupdate>
+			<transittime errorminus="0.003160" errorplus="0.003160">2454964.634930</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Cygnus</constellation>
+</system>

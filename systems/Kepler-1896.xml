@@ -1,0 +1,37 @@
+<system>
+	<name>Kepler-1896</name>
+	<rightascension>19 18 43</rightascension>
+	<declination>+40 14 59</declination>
+	<distance errorminus="89.8700000" errorplus="100.0300000">1732.9100000</distance>
+	<star>
+		<name>Kepler-1896</name>
+		<radius errorminus="0.10" errorplus="0.31">1.00</radius>
+		<magV errorminus="0.0920000" errorplus="0.0920000">15.8440000</magV>
+		<magJ errorminus="0.0300000" errorplus="0.0300000">14.5480000</magJ>
+		<magH errorminus="0.0520000" errorplus="0.0520000">14.2110000</magH>
+		<magK errorminus="0.0540000" errorplus="0.0540000">14.1650000</magK>
+		<magI>15.5590000</magI>
+		<mass errorminus="0.15" errorplus="0.14">1.07</mass>
+		<temperature errorminus="235.00" errorplus="192.00">6122.00</temperature>
+		<metallicity errorminus="0.300" errorplus="0.300">-0.100</metallicity>
+		<planet>
+			<name>Kepler-1896 b</name>
+			<semimajoraxis>0.252900</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.670</inclination>
+			<period>44.87020111</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.03080</mass>
+			<radius>0.277</radius>
+			<temperature>5.36000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/02/01</lastupdate>
+			<transittime errorminus="0.009090" errorplus="0.009090">2454974.123030</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Lyra</constellation>
+</system>

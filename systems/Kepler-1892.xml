@@ -1,0 +1,37 @@
+<system>
+	<name>Kepler-1892</name>
+	<rightascension>19 56 19</rightascension>
+	<declination>+42 01 05</declination>
+	<distance errorminus="24.2650000" errorplus="25.7040000">851.5950000</distance>
+	<star>
+		<name>Kepler-1892</name>
+		<radius errorminus="0.06" errorplus="0.13">0.76</radius>
+		<magV errorminus="0.1030000" errorplus="0.1030000">15.5920000</magV>
+		<magJ errorminus="0.0290000" errorplus="0.0290000">14.0650000</magJ>
+		<magH errorminus="0.0310000" errorplus="0.0310000">13.5670000</magH>
+		<magK errorminus="0.0340000" errorplus="0.0340000">13.5630000</magK>
+		<magI>15.1400000</magI>
+		<mass errorminus="0.10" errorplus="0.08">0.85</mass>
+		<temperature errorminus="159.00" errorplus="159.00">5383.00</temperature>
+		<metallicity errorminus="0.300" errorplus="0.300">-0.220</metallicity>
+		<planet>
+			<name>Kepler-1892 b</name>
+			<semimajoraxis>0.063300</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.700</inclination>
+			<period>6.33123016</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.01270</mass>
+			<radius>0.164</radius>
+			<temperature>8.22000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/02/01</lastupdate>
+			<transittime errorminus="0.004820" errorplus="0.004820">2454970.141490</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Cygnus</constellation>
+</system>

@@ -1,0 +1,33 @@
+<system>
+	<name>K2-406</name>
+	<rightascension>15 23 33</rightascension>
+	<declination>-25 22 14</declination>
+	<distance errorminus="0.6151000" errorplus="0.6239000">85.3751000</distance>
+	<star>
+		<name>K2-406</name>
+		<radius errorminus="0.05" errorplus="0.06">0.96</radius>
+		<magV errorminus="0.0040000" errorplus="0.0040000">9.4650000</magV>
+		<magJ errorminus="0.0260000" errorplus="0.0260000">8.4310000</magJ>
+		<magH errorminus="0.0590000" errorplus="0.0590000">8.1630000</magH>
+		<magK errorminus="0.0330000" errorplus="0.0330000">8.0330000</magK>
+		<mass errorminus="0.25" errorplus="0.34">0.80</mass>
+		<temperature errorminus="138.00" errorplus="138.00">5784.00</temperature>
+		<metallicity errorminus="0.235" errorplus="0.235">-0.038</metallicity>
+		<spectraltype>G4</spectraltype>
+		<planet>
+			<name>K2-406 b</name>
+			<period errorminus="0.00143300" errorplus="0.00137700">22.54940600</period>
+			<description>This planet was discovered by Christiansen et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.06030</mass>
+			<radius errorminus="0.026" errorplus="0.028">0.411</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/03/01</lastupdate>
+			<transittime errorminus="0.002300" errorplus="0.002500">2458010.389500</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Libra</constellation>
+</system>

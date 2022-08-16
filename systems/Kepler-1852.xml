@@ -1,0 +1,37 @@
+<system>
+	<name>Kepler-1852</name>
+	<rightascension>19 12 07</rightascension>
+	<declination>+40 20 39</declination>
+	<distance errorminus="15.0910000" errorplus="15.6930000">772.4810000</distance>
+	<star>
+		<name>Kepler-1852</name>
+		<radius errorminus="0.06" errorplus="0.12">0.83</radius>
+		<magV errorminus="0.1490000" errorplus="0.1490000">15.7260000</magV>
+		<magJ errorminus="0.0290000" errorplus="0.0290000">14.0130000</magJ>
+		<magH errorminus="0.0280000" errorplus="0.0280000">13.5510000</magH>
+		<magK errorminus="0.0350000" errorplus="0.0350000">13.4270000</magK>
+		<magI>15.1220000</magI>
+		<mass errorminus="0.09" errorplus="0.05">0.93</mass>
+		<temperature errorminus="157.00" errorplus="157.00">5237.00</temperature>
+		<metallicity errorminus="0.300" errorplus="0.200">0.240</metallicity>
+		<planet>
+			<name>Kepler-1852 b</name>
+			<semimajoraxis>0.076200</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>87.650</inclination>
+			<period>7.97094011</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.01330</mass>
+			<radius>0.168</radius>
+			<temperature>7.60000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/02/01</lastupdate>
+			<transittime errorminus="0.002320" errorplus="0.002320">2454967.050700</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Lyra</constellation>
+</system>

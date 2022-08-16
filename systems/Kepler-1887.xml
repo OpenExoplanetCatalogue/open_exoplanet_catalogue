@@ -1,0 +1,37 @@
+<system>
+	<name>Kepler-1887</name>
+	<rightascension>19 15 49</rightascension>
+	<declination>+44 42 21</declination>
+	<distance errorminus="70.2800000" errorplus="78.1500000">1366.1800000</distance>
+	<star>
+		<name>Kepler-1887</name>
+		<radius errorminus="0.07" errorplus="0.19">0.86</radius>
+		<magV errorminus="0.0810000" errorplus="0.0810000">15.9550000</magV>
+		<magJ errorminus="0.0340000" errorplus="0.0340000">14.8000000</magJ>
+		<magH errorminus="0.0390000" errorplus="0.0390000">14.3340000</magH>
+		<magK errorminus="0.0690000" errorplus="0.0690000">14.2980000</magK>
+		<magI>15.7750000</magI>
+		<mass errorminus="0.13" errorplus="0.09">0.96</mass>
+		<temperature errorminus="170.00" errorplus="153.00">5749.00</temperature>
+		<metallicity errorminus="0.300" errorplus="0.250">-0.100</metallicity>
+		<planet>
+			<name>Kepler-1887 b</name>
+			<semimajoraxis>0.142100</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.940</inclination>
+			<period>19.94750023</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.02790</mass>
+			<radius>0.261</radius>
+			<temperature>6.25000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/02/01</lastupdate>
+			<transittime errorminus="0.003510" errorplus="0.003510">2454977.246900</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Cygnus</constellation>
+</system>

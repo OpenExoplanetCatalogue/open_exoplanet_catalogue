@@ -1,0 +1,37 @@
+<system>
+	<name>Kepler-1880</name>
+	<rightascension>19 11 18</rightascension>
+	<declination>+40 41 48</declination>
+	<distance errorminus="11.7430000" errorplus="12.2030000">611.0410000</distance>
+	<star>
+		<name>Kepler-1880</name>
+		<radius errorminus="0.05" errorplus="0.04">0.53</radius>
+		<magV errorminus="0.1720000" errorplus="0.1720000">16.0880000</magV>
+		<magJ errorminus="0.0300000" errorplus="0.0300000">14.1570000</magJ>
+		<magH errorminus="0.0300000" errorplus="0.0300000">13.5330000</magH>
+		<magK errorminus="0.0360000" errorplus="0.0360000">13.4390000</magK>
+		<magI>15.4740000</magI>
+		<mass errorminus="0.03" errorplus="0.05">0.52</mass>
+		<temperature errorminus="143.00" errorplus="130.00">4380.00</temperature>
+		<metallicity errorminus="0.300" errorplus="0.300">-0.920</metallicity>
+		<planet>
+			<name>Kepler-1880 b</name>
+			<semimajoraxis>0.054000</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.820</inclination>
+			<period>6.30921984</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.01610</mass>
+			<radius>0.189</radius>
+			<temperature>6.06000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/02/01</lastupdate>
+			<transittime errorminus="0.002200" errorplus="0.002200">2454966.994100</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Lyra</constellation>
+</system>

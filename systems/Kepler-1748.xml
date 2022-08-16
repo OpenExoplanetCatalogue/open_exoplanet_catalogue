@@ -1,0 +1,37 @@
+<system>
+	<name>Kepler-1748</name>
+	<rightascension>19 03 52</rightascension>
+	<declination>+45 44 21</declination>
+	<distance errorminus="40.4300000" errorplus="43.6200000">1083.2800000</distance>
+	<star>
+		<name>Kepler-1748</name>
+		<radius errorminus="0.08" errorplus="0.25">0.86</radius>
+		<magV errorminus="0.3090000" errorplus="0.3090000">16.0040000</magV>
+		<magJ errorminus="0.0340000" errorplus="0.0340000">14.5610000</magJ>
+		<magH errorminus="0.0400000" errorplus="0.0400000">14.1440000</magH>
+		<magK errorminus="0.0590000" errorplus="0.0590000">14.1870000</magK>
+		<magI>15.6720000</magI>
+		<mass errorminus="0.10" errorplus="0.11">0.92</mass>
+		<temperature errorminus="189.00" errorplus="172.00">5774.00</temperature>
+		<metallicity errorminus="0.300" errorplus="0.300">-0.220</metallicity>
+		<planet>
+			<name>Kepler-1748 b</name>
+			<semimajoraxis>0.061500</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>85.350</inclination>
+			<period>5.82352018</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.02460</mass>
+			<radius>0.242</radius>
+			<temperature>9.55000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/02/01</lastupdate>
+			<transittime errorminus="0.001600" errorplus="0.001600">2455187.996020</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Lyra</constellation>
+</system>

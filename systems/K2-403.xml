@@ -1,0 +1,34 @@
+<system>
+	<name>K2-403</name>
+	<rightascension>10 56 45</rightascension>
+	<declination>+09 40 26</declination>
+	<distance errorminus="2.5090000" errorplus="2.5610000">246.5990000</distance>
+	<star>
+		<name>K2-403</name>
+		<radius errorminus="0.05" errorplus="0.06">0.89</radius>
+		<magV errorminus="0.0460000" errorplus="0.0460000">12.3050000</magV>
+		<magJ errorminus="0.0230000" errorplus="0.0230000">10.9770000</magJ>
+		<magH errorminus="0.0250000" errorplus="0.0250000">10.6290000</magH>
+		<magK errorminus="0.0260000" errorplus="0.0260000">10.5810000</magK>
+		<magI errorminus="0.0005732" errorplus="0.0005732">12.0391000</magI>
+		<mass errorminus="0.24" errorplus="0.34">0.78</mass>
+		<temperature errorminus="138.00" errorplus="138.00">5511.00</temperature>
+		<metallicity errorminus="0.235" errorplus="0.235">-0.162</metallicity>
+		<spectraltype>G4</spectraltype>
+		<planet>
+			<name>K2-403 b</name>
+			<period errorminus="0.00076800" errorplus="0.00076800">33.58997900</period>
+			<description>This planet was discovered by Christiansen et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.07750</mass>
+			<radius errorminus="0.035" errorplus="0.032">0.476</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/03/01</lastupdate>
+			<transittime errorminus="0.001100" errorplus="0.001400">2457908.961300</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Leo</constellation>
+</system>

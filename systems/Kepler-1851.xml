@@ -1,0 +1,37 @@
+<system>
+	<name>Kepler-1851</name>
+	<rightascension>19 02 42</rightascension>
+	<declination>+45 38 23</declination>
+	<distance errorminus="69.0000000" errorplus="75.4100000">1589.8100000</distance>
+	<star>
+		<name>Kepler-1851</name>
+		<radius errorminus="0.09" errorplus="0.26">0.88</radius>
+		<magV errorminus="0.2060000" errorplus="0.2060000">15.6990000</magV>
+		<magJ errorminus="0.0390000" errorplus="0.0390000">14.5240000</magJ>
+		<magH errorminus="0.0430000" errorplus="0.0430000">14.1410000</magH>
+		<magK errorminus="0.0520000" errorplus="0.0520000">13.9620000</magK>
+		<magI>15.4410000</magI>
+		<mass errorminus="0.13" errorplus="0.12">0.97</mass>
+		<temperature errorminus="188.00" errorplus="167.00">5982.00</temperature>
+		<metallicity errorminus="0.300" errorplus="0.300">-0.280</metallicity>
+		<planet>
+			<name>Kepler-1851 b</name>
+			<semimajoraxis>0.101600</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>87.950</inclination>
+			<period>12.02289963</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.04550</mass>
+			<radius>0.348</radius>
+			<temperature>7.76000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/02/01</lastupdate>
+			<transittime errorminus="0.002100" errorplus="0.002100">2454969.206870</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Lyra</constellation>
+</system>

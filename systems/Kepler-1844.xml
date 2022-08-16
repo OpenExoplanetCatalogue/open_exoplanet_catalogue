@@ -1,0 +1,37 @@
+<system>
+	<name>Kepler-1844</name>
+	<rightascension>19 30 46</rightascension>
+	<declination>+37 56 04</declination>
+	<distance errorminus="116.2100000" errorplus="133.0300000">1804.3600000</distance>
+	<star>
+		<name>Kepler-1844</name>
+		<radius errorminus="0.07" errorplus="0.21">0.85</radius>
+		<magV errorminus="0.3090000" errorplus="0.3090000">15.9950000</magV>
+		<magJ errorminus="0.0300000" errorplus="0.0300000">14.4610000</magJ>
+		<magH errorminus="0.0280000" errorplus="0.0280000">14.0740000</magH>
+		<magK errorminus="0.0630000" errorplus="0.0630000">14.0620000</magK>
+		<magI errorminus="0.0036023" errorplus="0.0036023">15.4351000</magI>
+		<mass errorminus="0.12" errorplus="0.10">0.94</mass>
+		<temperature errorminus="201.00" errorplus="181.00">5776.00</temperature>
+		<metallicity errorminus="0.300" errorplus="0.300">-0.180</metallicity>
+		<planet>
+			<name>Kepler-1844 b</name>
+			<semimajoraxis>0.047800</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.220</inclination>
+			<period>3.92451000</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.02980</mass>
+			<radius>0.271</radius>
+			<temperature>1.07400000000e+03</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/02/01</lastupdate>
+			<transittime errorminus="0.003980" errorplus="0.003980">2454965.401790</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Cygnus</constellation>
+</system>

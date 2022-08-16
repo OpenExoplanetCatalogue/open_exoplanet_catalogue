@@ -1,0 +1,33 @@
+<system>
+	<name>K2-383</name>
+	<rightascension>18 48 02</rightascension>
+	<declination>-18 22 46</declination>
+	<distance errorminus="2.3490000" errorplus="2.4040000">203.7880000</distance>
+	<star>
+		<name>K2-383</name>
+		<radius errorminus="0.05" errorplus="0.06">0.80</radius>
+		<magV errorminus="0.0570000" errorplus="0.0570000">12.6890000</magV>
+		<magJ errorminus="0.0260000" errorplus="0.0260000">10.9940000</magJ>
+		<magH errorminus="0.0250000" errorplus="0.0250000">10.6010000</magH>
+		<magK errorminus="0.0230000" errorplus="0.0230000">10.4560000</magK>
+		<mass errorminus="0.33" errorplus="0.46">1.06</mass>
+		<temperature errorminus="138.00" errorplus="138.00">5129.00</temperature>
+		<metallicity errorminus="0.235" errorplus="0.235">0.187</metallicity>
+		<planet>
+			<name>K2-383 b</name>
+			<inclination errorminus="8.626" errorplus="3.437">85.255</inclination>
+			<period errorminus="0.00006800" errorplus="0.00008500">1.86596200</period>
+			<description>This planet was discovered by Christiansen et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.00965</mass>
+			<radius errorminus="0.009" errorplus="0.011">0.140</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/03/01</lastupdate>
+			<transittime errorminus="0.002300" errorplus="0.001600">2457302.092800</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Sagittarius</constellation>
+</system>

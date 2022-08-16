@@ -1,0 +1,33 @@
+<system>
+	<name>K2-376</name>
+	<rightascension>08 50 53</rightascension>
+	<declination>+25 02 17</declination>
+	<distance errorminus="1.3100000" errorplus="1.3320000">161.6100000</distance>
+	<star>
+		<name>K2-376</name>
+		<radius errorminus="0.06" errorplus="0.07">1.15</radius>
+		<magV errorminus="0.0060000" errorplus="0.0060000">10.4150000</magV>
+		<magJ errorminus="0.0180000" errorplus="0.0180000">9.3290010</magJ>
+		<magH errorminus="0.0160000" errorplus="0.0160000">9.0650000</magH>
+		<magK errorminus="0.0160000" errorplus="0.0160000">9.0070000</magK>
+		<mass errorminus="0.28" errorplus="0.39">0.91</mass>
+		<temperature errorminus="138.00" errorplus="138.00">5937.00</temperature>
+		<metallicity errorminus="0.235" errorplus="0.235">-0.176</metallicity>
+		<spectraltype>G1</spectraltype>
+		<planet>
+			<name>K2-376 b</name>
+			<period errorminus="0.00023700" errorplus="0.00026100">5.77647500</period>
+			<description>This planet was discovered by Christiansen et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.01150</mass>
+			<radius errorminus="0.011" errorplus="0.011">0.155</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/03/01</lastupdate>
+			<transittime errorminus="0.002200" errorplus="0.002500">2458096.742600</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Cancer</constellation>
+</system>

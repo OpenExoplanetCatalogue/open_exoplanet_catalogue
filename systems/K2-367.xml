@@ -1,0 +1,32 @@
+<system>
+	<name>K2-367</name>
+	<rightascension>22 31 26</rightascension>
+	<declination>-13 15 52</declination>
+	<distance errorminus="0.9360000" errorplus="0.9460000">176.9650000</distance>
+	<star>
+		<name>K2-367</name>
+		<radius errorminus="0.05" errorplus="0.04">0.62</radius>
+		<magV errorminus="0.1600000" errorplus="0.1600000">13.7940000</magV>
+		<magJ errorminus="0.0230000" errorplus="0.0230000">11.6660000</magJ>
+		<magH errorminus="0.0240000" errorplus="0.0240000">11.0870000</magH>
+		<magK errorminus="0.0230000" errorplus="0.0230000">10.9570000</magK>
+		<mass errorminus="0.35" errorplus="0.23">0.76</mass>
+		<temperature errorminus="128.00" errorplus="128.00">4348.00</temperature>
+		<metallicity errorminus="0.235" errorplus="0.235">-0.351</metallicity>
+		<planet>
+			<name>K2-367 b</name>
+			<period errorminus="0.00137500" errorplus="0.00099500">20.64509900</period>
+			<description>This planet was discovered by Christiansen et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.02020</mass>
+			<radius errorminus="0.017" errorplus="0.020">0.215</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/03/01</lastupdate>
+			<transittime errorminus="0.001400" errorplus="0.002000">2456997.394100</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Aquarius</constellation>
+</system>

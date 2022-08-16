@@ -1,0 +1,33 @@
+<system>
+	<name>K2-409</name>
+	<rightascension>15 13 49</rightascension>
+	<declination>-16 21 05</declination>
+	<distance errorminus="7.7640000" errorplus="8.0480000">431.0310000</distance>
+	<star>
+		<name>K2-409</name>
+		<radius errorminus="0.07" errorplus="0.08">1.23</radius>
+		<magV errorminus="0.0920000" errorplus="0.0920000">12.9020000</magV>
+		<magJ errorminus="0.0270000" errorplus="0.0270000">11.4250000</magJ>
+		<magH errorminus="0.0260000" errorplus="0.0260000">11.1280000</magH>
+		<magK errorminus="0.0230000" errorplus="0.0230000">11.0380000</magK>
+		<mass errorminus="0.27" errorplus="0.37">0.89</mass>
+		<temperature errorminus="138.00" errorplus="138.00">5742.00</temperature>
+		<metallicity errorminus="0.235" errorplus="0.235">-0.036</metallicity>
+		<spectraltype>G4</spectraltype>
+		<planet>
+			<name>K2-409 b</name>
+			<period errorminus="0.00005800" errorplus="0.00004700">1.90808400</period>
+			<description>This planet was discovered by Christiansen et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.02110</mass>
+			<radius errorminus="0.014" errorplus="0.016">0.221</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/03/01</lastupdate>
+			<transittime errorminus="0.001300" errorplus="0.001100">2457990.284100</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Libra</constellation>
+</system>

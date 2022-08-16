@@ -1,0 +1,47 @@
+<system>
+	<name>K2-407</name>
+	<rightascension>15 30 13</rightascension>
+	<declination>-23 00 24</declination>
+	<distance errorminus="1.6510000" errorplus="1.6760000">218.3760000</distance>
+	<star>
+		<name>K2-407</name>
+		<radius errorminus="0.05" errorplus="0.06">0.93</radius>
+		<magV errorminus="0.0410000" errorplus="0.0410000">11.9690000</magV>
+		<magJ errorminus="0.0210000" errorplus="0.0210000">10.6860000</magJ>
+		<magH errorminus="0.0260000" errorplus="0.0260000">10.3230000</magH>
+		<magK errorminus="0.0220000" errorplus="0.0220000">10.2130000</magK>
+		<mass errorminus="0.27" errorplus="0.39">0.88</mass>
+		<temperature errorminus="138.00" errorplus="138.00">5563.00</temperature>
+		<metallicity errorminus="0.235" errorplus="0.235">0.014</metallicity>
+		<spectraltype>G4</spectraltype>
+		<planet>
+			<name>K2-407 c</name>
+			<period errorminus="0.00091100" errorplus="0.00132200">9.22453000</period>
+			<description>This planet was discovered by Christiansen et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.00761</mass>
+			<radius errorminus="0.008" errorplus="0.009">0.121</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/03/01</lastupdate>
+			<transittime errorminus="0.004300" errorplus="0.004000">2457997.654500</transittime>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>K2-407 b</name>
+			<period errorminus="0.00069600" errorplus="0.00066100">4.94190700</period>
+			<description>This planet was discovered by Christiansen et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.00690</mass>
+			<radius errorminus="0.008" errorplus="0.009">0.114</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/03/01</lastupdate>
+			<transittime errorminus="0.007100" errorplus="0.007500">2457993.510100</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Libra</constellation>
+</system>

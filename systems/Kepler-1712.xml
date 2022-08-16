@@ -1,0 +1,37 @@
+<system>
+	<name>Kepler-1712</name>
+	<rightascension>18 59 60</rightascension>
+	<declination>+50 08 48</declination>
+	<distance errorminus="0.4730000" errorplus="0.4730000">156.2640000</distance>
+	<star>
+		<name>Kepler-1712</name>
+		<radius errorminus="0.05" errorplus="0.03">0.51</radius>
+		<magV errorminus="0.1490000" errorplus="0.1490000">14.9460000</magV>
+		<magJ errorminus="0.0240000" errorplus="0.0240000">12.0090000</magJ>
+		<magH errorminus="0.0180000" errorplus="0.0180000">11.3420000</magH>
+		<magK errorminus="0.0220000" errorplus="0.0220000">11.1240000</magK>
+		<magI>13.5850000</magI>
+		<mass errorminus="0.04" errorplus="0.04">0.52</mass>
+		<temperature errorminus="83.00" errorplus="75.00">3732.00</temperature>
+		<metallicity errorminus="0.150" errorplus="0.150">0.020</metallicity>
+		<planet>
+			<name>Kepler-1712 b</name>
+			<semimajoraxis>0.090300</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>88.060</inclination>
+			<period>13.81499958</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.01840</mass>
+			<radius>0.204</radius>
+			<temperature>3.91000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/02/01</lastupdate>
+			<transittime errorminus="0.001120" errorplus="0.001120">2455014.125520</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Draco</constellation>
+</system>

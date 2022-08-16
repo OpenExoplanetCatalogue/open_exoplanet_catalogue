@@ -1,0 +1,37 @@
+<system>
+	<name>Kepler-1854</name>
+	<rightascension>19 05 09</rightascension>
+	<declination>+37 23 13</declination>
+	<distance>423.3480000</distance>
+	<star>
+		<name>Kepler-1854</name>
+		<radius errorminus="0.03" errorplus="0.05">0.76</radius>
+		<magV errorminus="0.1260000" errorplus="0.1260000">14.3810000</magV>
+		<magJ errorminus="0.0290000" errorplus="0.0290000">12.7290000</magJ>
+		<magH errorminus="0.0270000" errorplus="0.0270000">12.1930000</magH>
+		<magK errorminus="0.0240000" errorplus="0.0240000">12.1460000</magK>
+		<magI>13.8470000</magI>
+		<mass errorminus="0.05" errorplus="0.04">0.80</mass>
+		<temperature errorminus="100.00" errorplus="100.00">5026.00</temperature>
+		<metallicity errorminus="0.150" errorplus="0.150">0.000</metallicity>
+		<planet>
+			<name>Kepler-1854 b</name>
+			<semimajoraxis>0.211900</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.890</inclination>
+			<period>39.83110046</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.02270</mass>
+			<radius>0.231</radius>
+			<temperature>4.20000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/02/01</lastupdate>
+			<transittime errorminus="0.004740" errorplus="0.004740">2454988.640900</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Lyra</constellation>
+</system>

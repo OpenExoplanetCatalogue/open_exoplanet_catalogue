@@ -1,0 +1,32 @@
+<system>
+	<name>K2-366</name>
+	<rightascension>16 14 43</rightascension>
+	<declination>-19 20 49</declination>
+	<distance errorminus="5.0350000" errorplus="5.3180000">185.9470000</distance>
+	<star>
+		<name>K2-366</name>
+		<radius errorminus="0.06" errorplus="0.07">0.94</radius>
+		<magV errorminus="0.0690000" errorplus="0.0690000">12.6360000</magV>
+		<magJ errorminus="0.0270000" errorplus="0.0270000">10.4880000</magJ>
+		<magH errorminus="0.0230000" errorplus="0.0230000">9.9790000</magH>
+		<magK errorminus="0.0230000" errorplus="0.0230000">9.8750000</magK>
+		<mass errorminus="0.26" errorplus="0.37">0.83</mass>
+		<temperature errorminus="138.00" errorplus="138.00">5601.00</temperature>
+		<metallicity errorminus="0.235" errorplus="0.235">-0.216</metallicity>
+		<planet>
+			<name>K2-366 b</name>
+			<period errorminus="0.00114400" errorplus="0.00079600">15.93703900</period>
+			<description>This planet was discovered by Christiansen et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.01940</mass>
+			<radius errorminus="0.015" errorplus="0.017">0.210</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/03/01</lastupdate>
+			<transittime errorminus="0.003200" errorplus="0.002800">2456906.435100</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Scorpius</constellation>
+</system>

@@ -1,0 +1,37 @@
+<system>
+	<name>Kepler-1728</name>
+	<rightascension>19 08 23</rightascension>
+	<declination>+39 03 39</declination>
+	<distance errorminus="9.3410000" errorplus="9.6110000">651.7830000</distance>
+	<star>
+		<name>Kepler-1728</name>
+		<radius errorminus="0.06" errorplus="0.11">0.81</radius>
+		<magV errorminus="0.1720000" errorplus="0.1720000">15.2790000</magV>
+		<magJ errorminus="0.0200000" errorplus="0.0200000">13.6430000</magJ>
+		<magH errorminus="0.0310000" errorplus="0.0310000">13.2320000</magH>
+		<magK errorminus="0.0360000" errorplus="0.0360000">13.2030000</magK>
+		<magI errorminus="0.0033259" errorplus="0.0033259">14.7481000</magI>
+		<mass errorminus="0.08" errorplus="0.05">0.89</mass>
+		<temperature errorminus="155.00" errorplus="155.00">5170.00</temperature>
+		<metallicity errorminus="0.300" errorplus="0.200">0.180</metallicity>
+		<planet>
+			<name>Kepler-1728 b</name>
+			<semimajoraxis>0.053500</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.990</inclination>
+			<period>4.78299999</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.02840</mass>
+			<radius>0.264</radius>
+			<temperature>8.86000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/02/01</lastupdate>
+			<transittime errorminus="0.000911" errorplus="0.000911">2455003.508352</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Lyra</constellation>
+</system>

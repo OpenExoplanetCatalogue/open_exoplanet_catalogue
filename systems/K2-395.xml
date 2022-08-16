@@ -1,0 +1,47 @@
+<system>
+	<name>K2-395</name>
+	<rightascension>04 41 47</rightascension>
+	<declination>+16 40 28</declination>
+	<distance errorminus="3.0380000" errorplus="3.1030000">286.7270000</distance>
+	<star>
+		<name>K2-395</name>
+		<radius errorminus="0.05" errorplus="0.05">0.78</radius>
+		<magV errorminus="0.0690000" errorplus="0.0690000">15.1310000</magV>
+		<magJ errorminus="0.0220000" errorplus="0.0220000">12.0940000</magJ>
+		<magH errorminus="0.0230000" errorplus="0.0230000">11.5080000</magH>
+		<magK errorminus="0.0180000" errorplus="0.0180000">11.3650000</magK>
+		<mass errorminus="0.29" errorplus="0.42">0.95</mass>
+		<temperature errorminus="138.00" errorplus="138.00">5007.00</temperature>
+		<metallicity errorminus="0.235" errorplus="0.235">-0.033</metallicity>
+		<spectraltype>K0</spectraltype>
+		<planet>
+			<name>K2-395 c</name>
+			<period errorminus="0.00030400" errorplus="0.00033500">8.49128200</period>
+			<description>This planet was discovered by Christiansen et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.03600</mass>
+			<radius errorminus="0.023" errorplus="0.025">0.303</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/03/01</lastupdate>
+			<transittime errorminus="0.001600" errorplus="0.001600">2457823.578600</transittime>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>K2-395 b</name>
+			<period errorminus="0.00046600" errorplus="0.00035700">4.80335200</period>
+			<description>This planet was discovered by Christiansen et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.02280</mass>
+			<radius errorminus="0.016" errorplus="0.017">0.232</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/03/01</lastupdate>
+			<transittime errorminus="0.003000" errorplus="0.004200">2457825.008900</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Taurus</constellation>
+</system>

@@ -1,0 +1,37 @@
+<system>
+	<name>Kepler-1868</name>
+	<rightascension>19 33 12</rightascension>
+	<declination>+43 33 21</declination>
+	<distance errorminus="0.9505000" errorplus="0.9505000">274.1800000</distance>
+	<star>
+		<name>Kepler-1868</name>
+		<radius errorminus="0.03" errorplus="0.04">0.69</radius>
+		<magV errorminus="0.0920000" errorplus="0.0920000">14.1570000</magV>
+		<magJ errorminus="0.0190000" errorplus="0.0190000">12.2240000</magJ>
+		<magH errorminus="0.0210000" errorplus="0.0210000">11.6900000</magH>
+		<magK errorminus="0.0200000" errorplus="0.0200000">11.5590000</magK>
+		<magI>13.4690000</magI>
+		<mass errorminus="0.04" errorplus="0.03">0.74</mass>
+		<temperature errorminus="93.00" errorplus="93.00">4658.00</temperature>
+		<metallicity errorminus="0.150" errorplus="0.150">0.000</metallicity>
+		<planet>
+			<name>Kepler-1868 b</name>
+			<semimajoraxis>0.626600</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.690</inclination>
+			<period>211.03399660</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.03170</mass>
+			<radius>0.281</radius>
+			<temperature>2.15000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/02/01</lastupdate>
+			<transittime errorminus="0.002100" errorplus="0.002100">2455112.128910</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Cygnus</constellation>
+</system>

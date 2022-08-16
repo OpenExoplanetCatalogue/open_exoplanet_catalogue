@@ -1,0 +1,32 @@
+<system>
+	<name>K2-373</name>
+	<rightascension>08 12 33</rightascension>
+	<declination>+13 41 19</declination>
+	<distance errorminus="2.0760000" errorplus="2.1140000">229.5670000</distance>
+	<star>
+		<name>K2-373</name>
+		<radius errorminus="0.08" errorplus="0.08">1.49</radius>
+		<magV errorminus="0.0080000" errorplus="0.0080000">10.4700000</magV>
+		<magJ errorminus="0.0210000" errorplus="0.0210000">9.4860000</magJ>
+		<magH errorminus="0.0220000" errorplus="0.0220000">9.2420000</magH>
+		<magK errorminus="0.0170000" errorplus="0.0170000">9.1630000</magK>
+		<mass errorminus="0.35" errorplus="0.50">1.16</mass>
+		<temperature errorminus="138.00" errorplus="138.00">6138.00</temperature>
+		<metallicity errorminus="0.235" errorplus="0.235">0.049</metallicity>
+		<planet>
+			<name>K2-373 b</name>
+			<period errorminus="0.00136800" errorplus="0.00143100">11.02066000</period>
+			<description>This planet was discovered by Christiansen et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.01540</mass>
+			<radius errorminus="0.012" errorplus="0.013">0.184</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/03/01</lastupdate>
+			<transittime errorminus="0.004300" errorplus="0.004200">2457150.289400</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Cancer</constellation>
+</system>

@@ -1,0 +1,37 @@
+<system>
+	<name>Kepler-1931</name>
+	<rightascension>19 23 29</rightascension>
+	<declination>+43 19 59</declination>
+	<distance errorminus="8.7630000" errorplus="9.0120000">620.0910000</distance>
+	<star>
+		<name>Kepler-1931</name>
+		<radius errorminus="0.13" errorplus="0.22">1.22</radius>
+		<magV errorminus="0.0800000" errorplus="0.0800000">12.6710000</magV>
+		<magJ errorminus="0.0220000" errorplus="0.0220000">11.5810000</magJ>
+		<magH errorminus="0.0200000" errorplus="0.0200000">11.3610000</magH>
+		<magK errorminus="0.0110000" errorplus="0.0110000">11.3300000</magK>
+		<magI>12.4940000</magI>
+		<mass errorminus="0.10" errorplus="0.09">1.17</mass>
+		<temperature errorminus="136.00" errorplus="111.00">6167.00</temperature>
+		<metallicity errorminus="0.150" errorplus="0.150">0.120</metallicity>
+		<planet>
+			<name>Kepler-1931 b</name>
+			<semimajoraxis>0.235600</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.940</inclination>
+			<period>38.57609940</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.02370</mass>
+			<radius>0.237</radius>
+			<temperature>6.19000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/02/01</lastupdate>
+			<transittime errorminus="0.004400" errorplus="0.004400">2455000.857250</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Lyra</constellation>
+</system>

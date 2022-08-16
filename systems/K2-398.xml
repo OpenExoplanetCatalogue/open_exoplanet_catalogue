@@ -1,0 +1,48 @@
+<system>
+	<name>K2-398</name>
+	<rightascension>10 46 56</rightascension>
+	<declination>+01 56 12</declination>
+	<distance errorminus="12.5390000" errorplus="13.0700000">606.9920000</distance>
+	<star>
+		<name>K2-398</name>
+		<radius errorminus="0.03" errorplus="0.03">1.24</radius>
+		<magV errorminus="0.1490000" errorplus="0.1490000">13.2870000</magV>
+		<magJ errorminus="0.0210000" errorplus="0.0210000">12.0340000</magJ>
+		<magH errorminus="0.0220000" errorplus="0.0220000">11.7170000</magH>
+		<magK errorminus="0.0210000" errorplus="0.0210000">11.7170000</magK>
+		<magI errorminus="0.0035682" errorplus="0.0035682">13.0536000</magI>
+		<mass errorminus="0.08" errorplus="0.09">0.95</mass>
+		<temperature errorminus="20.00" errorplus="20.00">5946.00</temperature>
+		<metallicity errorminus="0.019" errorplus="0.019">-0.257</metallicity>
+		<spectraltype>G2</spectraltype>
+		<planet>
+			<name>K2-398 b</name>
+			<period errorminus="0.00075000" errorplus="0.00113900">6.39302500</period>
+			<description>This planet was discovered by Christiansen et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.01820</mass>
+			<radius errorminus="0.010" errorplus="0.010">0.203</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/03/01</lastupdate>
+			<transittime errorminus="0.004800" errorplus="0.004200">2457909.044900</transittime>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>K2-398 c</name>
+			<period errorminus="0.00099300" errorplus="0.00087700">18.78783900</period>
+			<description>This planet was discovered by Christiansen et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.07180</mass>
+			<radius errorminus="0.013" errorplus="0.014">0.455</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/03/01</lastupdate>
+			<transittime errorminus="0.001600" errorplus="0.001500">2457911.684500</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Sextans</constellation>
+</system>

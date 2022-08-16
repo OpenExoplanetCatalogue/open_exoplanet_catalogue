@@ -1,0 +1,33 @@
+<system>
+	<name>K2-385</name>
+	<rightascension>00 50 27</rightascension>
+	<declination>+05 52 17</declination>
+	<distance errorminus="6.8730000" errorplus="7.1020000">420.8190000</distance>
+	<star>
+		<name>K2-385</name>
+		<radius errorminus="0.05" errorplus="0.06">0.76</radius>
+		<magV errorminus="0.1140000" errorplus="0.1140000">14.6450000</magV>
+		<magJ errorminus="0.0240000" errorplus="0.0240000">12.8160000</magJ>
+		<magH errorminus="0.0270000" errorplus="0.0270000">12.2760000</magH>
+		<magK errorminus="0.0270000" errorplus="0.0270000">12.2370000</magK>
+		<magI errorminus="0.0037938" errorplus="0.0037938">13.9889000</magI>
+		<mass errorminus="0.29" errorplus="0.41">0.93</mass>
+		<temperature errorminus="138.00" errorplus="138.00">4844.00</temperature>
+		<metallicity errorminus="0.235" errorplus="0.235">-0.224</metallicity>
+		<planet>
+			<name>K2-385 b</name>
+			<period errorminus="0.00021600" errorplus="0.00016100">2.38086700</period>
+			<description>This planet was discovered by Christiansen et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.00939</mass>
+			<radius errorminus="0.011" errorplus="0.013">0.137</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/03/01</lastupdate>
+			<transittime errorminus="0.003800" errorplus="0.004900">2457393.454400</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Pisces</constellation>
+</system>

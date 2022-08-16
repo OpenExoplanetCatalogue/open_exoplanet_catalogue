@@ -1,0 +1,33 @@
+<system>
+	<name>K2-386</name>
+	<rightascension>01 13 12</rightascension>
+	<declination>+07 00 47</declination>
+	<distance errorminus="7.8850000" errorplus="8.1800000">428.7850000</distance>
+	<star>
+		<name>K2-386</name>
+		<radius errorminus="0.02" errorplus="0.02">0.97</radius>
+		<magV errorminus="0.0920000" errorplus="0.0920000">13.2410000</magV>
+		<magJ errorminus="0.0220000" errorplus="0.0220000">11.8640000</magJ>
+		<magH errorminus="0.0250000" errorplus="0.0250000">11.6070000</magH>
+		<magK errorminus="0.0240000" errorplus="0.0240000">11.5250000</magK>
+		<magI errorminus="0.0009702" errorplus="0.0009702">12.9295000</magI>
+		<mass errorminus="0.08" errorplus="0.09">0.91</mass>
+		<temperature errorminus="22.00" errorplus="22.00">5749.00</temperature>
+		<metallicity errorminus="0.020" errorplus="0.020">0.074</metallicity>
+		<planet>
+			<name>K2-386 b</name>
+			<period errorminus="0.00031200" errorplus="0.00037400">7.47322300</period>
+			<description>This planet was discovered by Christiansen et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.01890</mass>
+			<radius errorminus="0.006" errorplus="0.006">0.207</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/03/01</lastupdate>
+			<transittime errorminus="0.002500" errorplus="0.002400">2457395.905600</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Pisces</constellation>
+</system>

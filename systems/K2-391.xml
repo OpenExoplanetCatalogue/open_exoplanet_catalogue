@@ -1,0 +1,34 @@
+<system>
+	<name>K2-391</name>
+	<rightascension>23 44 54</rightascension>
+	<declination>-07 42 05</declination>
+	<distance errorminus="15.5500000" errorplus="16.5460000">507.9400000</distance>
+	<star>
+		<name>K2-391</name>
+		<radius errorminus="0.08" errorplus="0.11">0.57</radius>
+		<magV errorminus="0.0800000" errorplus="0.0800000">12.5270000</magV>
+		<magJ errorminus="0.0240000" errorplus="0.0240000">11.1340000</magJ>
+		<magH errorminus="0.0240000" errorplus="0.0240000">10.8130000</magH>
+		<magK errorminus="0.0230000" errorplus="0.0230000">10.7050000</magK>
+		<magI errorminus="0.0016959" errorplus="0.0016959">12.3210000</magI>
+		<mass errorminus="0.24" errorplus="0.34">0.76</mass>
+		<temperature errorminus="138.00" errorplus="138.00">5543.00</temperature>
+		<metallicity errorminus="0.278" errorplus="0.278">-0.543</metallicity>
+		<spectraltype>G7</spectraltype>
+		<planet>
+			<name>K2-391 b</name>
+			<period errorminus="0.00025200" errorplus="0.00022300">4.62265400</period>
+			<description>This planet was discovered by Christiansen et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.00772</mass>
+			<radius errorminus="0.017" errorplus="0.025">0.122</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/03/01</lastupdate>
+			<transittime errorminus="0.001700" errorplus="0.001700">2457741.516500</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Aquarius</constellation>
+</system>

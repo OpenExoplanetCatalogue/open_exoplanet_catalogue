@@ -1,0 +1,33 @@
+<system>
+	<name>K2-369</name>
+	<rightascension>21 58 54</rightascension>
+	<declination>-10 52 30</declination>
+	<distance errorminus="1.7980000" errorplus="1.8330000">185.5500000</distance>
+	<star>
+		<name>K2-369</name>
+		<radius errorminus="0.05" errorplus="0.05">0.88</radius>
+		<magV errorminus="0.0330000" errorplus="0.0330000">11.7890000</magV>
+		<magJ errorminus="0.0270000" errorplus="0.0270000">10.3570000</magJ>
+		<magH errorminus="0.0210000" errorplus="0.0210000">9.9800000</magH>
+		<magK errorminus="0.0190000" errorplus="0.0190000">9.9340000</magK>
+		<mass errorminus="0.22" errorplus="0.33">0.73</mass>
+		<temperature errorminus="138.00" errorplus="138.00">5682.00</temperature>
+		<metallicity errorminus="0.235" errorplus="0.235">-0.234</metallicity>
+		<planet>
+			<name>K2-369 b</name>
+			<inclination errorminus="2.703" errorplus="1.186">88.337</inclination>
+			<period errorminus="0.00071400" errorplus="0.00084600">5.76161200</period>
+			<description>This planet was discovered by Christiansen et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.00717</mass>
+			<radius errorminus="0.008" errorplus="0.009">0.117</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/03/01</lastupdate>
+			<transittime errorminus="0.005300" errorplus="0.005200">2456979.871600</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Aquarius</constellation>
+</system>

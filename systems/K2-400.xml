@@ -1,0 +1,34 @@
+<system>
+	<name>K2-400</name>
+	<rightascension>10 18 03</rightascension>
+	<declination>+03 41 49</declination>
+	<distance errorminus="0.2327000" errorplus="0.2344000">62.3804000</distance>
+	<star>
+		<name>K2-400</name>
+		<radius errorminus="0.01" errorplus="0.01">0.38</radius>
+		<magV errorminus="0.0670000" errorplus="0.0670000">15.1080000</magV>
+		<magJ errorminus="0.0230000" errorplus="0.0230000">11.2620000</magJ>
+		<magH errorminus="0.0230000" errorplus="0.0230000">10.6840000</magH>
+		<magK errorminus="0.0240000" errorplus="0.0240000">10.4050000</magK>
+		<magI errorminus="0.0011663" errorplus="0.0011663">13.6638000</magI>
+		<mass errorminus="0.01" errorplus="0.01">0.37</mass>
+		<temperature errorminus="138.00" errorplus="138.00">3578.00</temperature>
+		<metallicity errorminus="0.235" errorplus="0.235">-0.051</metallicity>
+		<spectraltype>M3</spectraltype>
+		<planet>
+			<name>K2-400 b</name>
+			<period errorminus="0.00018200" errorplus="0.00018600">3.86505300</period>
+			<description>This planet was discovered by Christiansen et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.00525</mass>
+			<radius errorminus="0.004" errorplus="0.005">0.104</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/03/01</lastupdate>
+			<transittime errorminus="0.002600" errorplus="0.002500">2457908.623400</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Sextans</constellation>
+</system>

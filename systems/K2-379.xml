@@ -1,0 +1,32 @@
+<system>
+	<name>K2-379</name>
+	<rightascension>18 52 08</rightascension>
+	<declination>-27 10 51</declination>
+	<distance errorminus="1.3360000" errorplus="1.3550000">182.2070000</distance>
+	<star>
+		<name>K2-379</name>
+		<radius errorminus="0.05" errorplus="0.06">0.75</radius>
+		<magV errorminus="0.1490000" errorplus="0.1490000">13.2650000</magV>
+		<magJ errorminus="0.0220000" errorplus="0.0220000">11.1510000</magJ>
+		<magH errorminus="0.0260000" errorplus="0.0260000">10.6640000</magH>
+		<magK errorminus="0.0250000" errorplus="0.0250000">10.5140000</magK>
+		<mass errorminus="0.27" errorplus="0.38">0.86</mass>
+		<temperature errorminus="138.00" errorplus="138.00">4603.00</temperature>
+		<metallicity errorminus="0.235" errorplus="0.235">-0.045</metallicity>
+		<planet>
+			<name>K2-379 b</name>
+			<period errorminus="0.00061100" errorplus="0.00062500">8.77724700</period>
+			<description>This planet was discovered by Christiansen et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.01700</mass>
+			<radius errorminus="0.018" errorplus="0.032">0.195</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/03/01</lastupdate>
+			<transittime errorminus="0.002700" errorplus="0.003900">2457303.909100</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Sagittarius</constellation>
+</system>

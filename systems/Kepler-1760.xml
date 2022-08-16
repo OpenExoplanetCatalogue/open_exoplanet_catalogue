@@ -1,0 +1,36 @@
+<system>
+	<name>Kepler-1760</name>
+	<rightascension>18 56 32</rightascension>
+	<declination>+48 49 31</declination>
+	<star>
+		<name>Kepler-1760</name>
+		<radius errorminus="0.09" errorplus="0.06">0.90</radius>
+		<magV errorminus="0.1370000" errorplus="0.1370000">14.4720000</magV>
+		<magJ errorminus="0.0260000" errorplus="0.0260000">13.0400000</magJ>
+		<magH errorminus="0.0230000" errorplus="0.0230000">12.6280000</magH>
+		<magK errorminus="0.0310000" errorplus="0.0310000">12.5370000</magK>
+		<magI>14.0510000</magI>
+		<mass errorminus="0.03" errorplus="0.06">0.82</mass>
+		<temperature errorminus="78.00" errorplus="78.00">5229.00</temperature>
+		<metallicity errorminus="0.150" errorplus="0.150">0.080</metallicity>
+		<planet>
+			<name>Kepler-1760 b</name>
+			<semimajoraxis>0.208400</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>88.340</inclination>
+			<period>38.32609940</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.01840</mass>
+			<radius>0.204</radius>
+			<temperature>4.80000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/02/01</lastupdate>
+			<transittime errorminus="0.005190" errorplus="0.005190">2454975.084010</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Draco</constellation>
+</system>

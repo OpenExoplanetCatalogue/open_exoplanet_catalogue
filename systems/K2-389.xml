@@ -1,0 +1,48 @@
+<system>
+	<name>K2-389</name>
+	<rightascension>23 42 31</rightascension>
+	<declination>-09 42 49</declination>
+	<distance errorminus="2.8850000" errorplus="2.9500000">259.2080000</distance>
+	<star>
+		<name>K2-389</name>
+		<radius errorminus="0.06" errorplus="0.07">1.08</radius>
+		<magV errorminus="0.0460000" errorplus="0.0460000">11.8270000</magV>
+		<magJ errorminus="0.0270000" errorplus="0.0270000">10.5120000</magJ>
+		<magH errorminus="0.0220000" errorplus="0.0220000">10.2330000</magH>
+		<magK errorminus="0.0240000" errorplus="0.0240000">10.1840000</magK>
+		<magI errorminus="0.0007157" errorplus="0.0007157">11.4841000</magI>
+		<mass errorminus="0.25" errorplus="0.36">0.80</mass>
+		<temperature errorminus="138.00" errorplus="138.00">5782.00</temperature>
+		<metallicity errorminus="0.235" errorplus="0.235">-0.034</metallicity>
+		<spectraltype>G3</spectraltype>
+		<planet>
+			<name>K2-389 b</name>
+			<period errorminus="0.00202600" errorplus="0.00088800">8.58404300</period>
+			<description>This planet was discovered by Christiansen et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.01700</mass>
+			<radius errorminus="0.010" errorplus="0.011">0.195</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/03/01</lastupdate>
+			<transittime errorminus="0.000400" errorplus="0.000700">2457742.782000</transittime>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>K2-389 c</name>
+			<period errorminus="0.00298100" errorplus="0.00280400">20.85133700</period>
+			<description>This planet was discovered by Christiansen et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.01520</mass>
+			<radius errorminus="0.012" errorplus="0.013">0.182</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/03/01</lastupdate>
+			<transittime errorminus="0.005500" errorplus="0.005000">2457747.101200</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Aquarius</constellation>
+</system>

@@ -1,0 +1,32 @@
+<system>
+	<name>K2-378</name>
+	<rightascension>13 40 38</rightascension>
+	<declination>-11 07 02</declination>
+	<distance errorminus="18.8510000" errorplus="19.9240000">687.9730000</distance>
+	<star>
+		<name>K2-378</name>
+		<radius errorminus="0.05" errorplus="0.06">0.73</radius>
+		<magV errorminus="0.2750000" errorplus="0.2750000">16.0290000</magV>
+		<magJ errorminus="0.0300000" errorplus="0.0300000">13.9580000</magJ>
+		<magH errorminus="0.0330000" errorplus="0.0330000">13.4410000</magH>
+		<magK errorminus="0.0320000" errorplus="0.0320000">13.3920000</magK>
+		<mass errorminus="0.29" errorplus="0.43">0.92</mass>
+		<temperature errorminus="138.00" errorplus="138.00">4823.00</temperature>
+		<metallicity errorminus="0.235" errorplus="0.235">-0.206</metallicity>
+		<planet>
+			<name>K2-378 b</name>
+			<period errorminus="0.00007400" errorplus="0.00011800">2.06043800</period>
+			<description>This planet was discovered by Christiansen et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.02720</mass>
+			<radius errorminus="0.021" errorplus="0.024">0.257</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/03/01</lastupdate>
+			<transittime errorminus="0.003400" errorplus="0.001800">2457217.849300</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Virgo</constellation>
+</system>

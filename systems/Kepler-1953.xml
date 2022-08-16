@@ -1,0 +1,37 @@
+<system>
+	<name>Kepler-1953</name>
+	<rightascension>19 11 52</rightascension>
+	<declination>+46 28 14</declination>
+	<distance errorminus="9.6190000" errorplus="9.9290000">605.6310000</distance>
+	<star>
+		<name>Kepler-1953</name>
+		<radius errorminus="0.05" errorplus="0.08">0.71</radius>
+		<magV errorminus="0.2400000" errorplus="0.2400000">15.9360000</magV>
+		<magJ errorminus="0.0210000" errorplus="0.0210000">13.8630000</magJ>
+		<magH errorminus="0.0270000" errorplus="0.0270000">13.2810000</magH>
+		<magK errorminus="0.0290000" errorplus="0.0290000">13.1630000</magK>
+		<magI>15.1410000</magI>
+		<mass errorminus="0.08" errorplus="0.05">0.79</mass>
+		<temperature errorminus="161.00" errorplus="161.00">4858.00</temperature>
+		<metallicity errorminus="0.300" errorplus="0.300">-0.020</metallicity>
+		<planet>
+			<name>Kepler-1953 b</name>
+			<semimajoraxis>0.060700</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>87.870</inclination>
+			<period>6.24565983</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.00692</mass>
+			<radius>0.115</radius>
+			<temperature>7.31000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/02/01</lastupdate>
+			<transittime errorminus="0.005730" errorplus="0.005730">2454970.163620</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Lyra</constellation>
+</system>

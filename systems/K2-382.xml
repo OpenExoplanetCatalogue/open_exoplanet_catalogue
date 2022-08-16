@@ -1,0 +1,33 @@
+<system>
+	<name>K2-382</name>
+	<rightascension>19 09 39</rightascension>
+	<declination>-19 37 37</declination>
+	<distance errorminus="3.8860000" errorplus="3.9950000">278.4120000</distance>
+	<star>
+		<name>K2-382</name>
+		<radius errorminus="0.05" errorplus="0.05">0.81</radius>
+		<magV errorminus="0.1030000" errorplus="0.1030000">12.9770000</magV>
+		<magJ errorminus="0.0230000" errorplus="0.0230000">11.4810000</magJ>
+		<magH errorminus="0.0220000" errorplus="0.0220000">11.1110000</magH>
+		<magK errorminus="0.0230000" errorplus="0.0230000">11.0460000</magK>
+		<mass errorminus="0.28" errorplus="0.40">0.92</mass>
+		<temperature errorminus="138.00" errorplus="138.00">5452.00</temperature>
+		<metallicity errorminus="0.235" errorplus="0.235">-0.027</metallicity>
+		<planet>
+			<name>K2-382 b</name>
+			<inclination errorminus="4.667" errorplus="1.382">88.298</inclination>
+			<period errorminus="0.00191500" errorplus="0.00202100">21.70015600</period>
+			<description>This planet was discovered by Christiansen et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.01560</mass>
+			<radius errorminus="0.012" errorplus="0.014">0.185</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/03/01</lastupdate>
+			<transittime errorminus="0.003600" errorplus="0.004500">2457314.364700</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Sagittarius</constellation>
+</system>

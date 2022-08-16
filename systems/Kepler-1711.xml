@@ -1,0 +1,37 @@
+<system>
+	<name>Kepler-1711</name>
+	<rightascension>19 52 43</rightascension>
+	<declination>+42 14 13</declination>
+	<distance>590.2680000</distance>
+	<star>
+		<name>Kepler-1711</name>
+		<radius errorminus="0.12" errorplus="0.15">1.03</radius>
+		<magV errorminus="0.0800000" errorplus="0.0800000">13.2980000</magV>
+		<magJ errorminus="0.0230000" errorplus="0.0230000">12.0170000</magJ>
+		<magH errorminus="0.0170000" errorplus="0.0170000">11.7020000</magH>
+		<magK errorminus="0.0170000" errorplus="0.0170000">11.6430000</magK>
+		<magI>12.9790000</magI>
+		<mass errorminus="0.06" errorplus="0.07">0.94</mass>
+		<temperature errorminus="103.00" errorplus="114.00">5706.00</temperature>
+		<metallicity errorminus="0.150" errorplus="0.150">0.000</metallicity>
+		<planet>
+			<name>Kepler-1711 b</name>
+			<semimajoraxis>0.146300</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.670</inclination>
+			<period>21.06080055</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.01370</mass>
+			<radius>0.172</radius>
+			<temperature>6.69000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/02/01</lastupdate>
+			<transittime errorminus="0.002270" errorplus="0.002270">2454976.599830</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Cygnus</constellation>
+</system>
