@@ -1,0 +1,33 @@
+<system>
+	<name>K2-330</name>
+	<rightascension>08 27 35</rightascension>
+	<declination>+11 40 03</declination>
+	<distance errorminus="1.4890000" errorplus="1.5170000">160.1250000</distance>
+	<star>
+		<name>K2-330</name>
+		<radius errorminus="0.03" errorplus="0.03">1.50</radius>
+		<magV errorminus="0.0040000" errorplus="0.0040000">9.6080000</magV>
+		<magJ errorminus="0.0270000" errorplus="0.0270000">8.6680000</magJ>
+		<magH errorminus="0.0570000" errorplus="0.0570000">8.4600000</magH>
+		<magK errorminus="0.0230000" errorplus="0.0230000">8.4120000</magK>
+		<mass errorminus="0.02" errorplus="0.02">1.23</mass>
+		<temperature errorminus="39.00" errorplus="33.00">6232.00</temperature>
+		<metallicity errorminus="0.030" errorplus="0.030">-0.030</metallicity>
+		<planet>
+			<name>K2-330 b</name>
+			<inclination errorminus="2.448" errorplus="0.985">88.634</inclination>
+			<period errorminus="0.00002800" errorplus="0.00002800">13.77479800</period>
+			<description>This planet was discovered by Pope et al. 2016. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.02550</mass>
+			<radius errorminus="0.008" errorplus="0.012">0.247</radius>
+			<temperature errorminus="9.00000000000e+00" errorplus="9.00000000000e+00">9.69000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/09/15</lastupdate>
+			<transittime errorminus="0.001464" errorplus="0.001517">2457151.064162</transittime>
+		</planet>
+	</star>
+	<constellation>Cancer</constellation>
+</system>

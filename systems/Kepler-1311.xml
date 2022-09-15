@@ -1,52 +1,70 @@
 <system>
 	<name>Kepler-1311</name>
-	<name>KOI-2674</name>
-	<name>KIC 8022489</name>
-	<distance errorminus="13.8914" errorplus="13.8914">888.415</distance>
-	<rightascension>19 18 36.2977</rightascension>
-	<declination>+43 49 27.9031</declination>
+	<rightascension>19 18 36</rightascension>
+	<declination>+43 49 28</declination>
+	<distance errorminus="13.0740000" errorplus="13.4740000">866.3310000</distance>
 	<star>
 		<name>Kepler-1311</name>
-		<name>KOI-2674</name>
-		<name>KIC 8022489</name>
-		<name>2MASS J19183630+4349279</name>
-		<name>Gaia DR2 2102877015319104640</name>
-		<magH errorminus="0.019" errorplus="0.019">11.859</magH>
-		<magJ errorminus="0.025" errorplus="0.025">12.169</magJ>
-		<magK errorminus="0.013" errorplus="0.013">11.825</magK>
-		<temperature errorminus="72.3" errorplus="87.3">5748.0</temperature>
-		<mass errorminus="0.06" errorplus="0.08">1.05</mass>
-		<radius errorminus="0.30" errorplus="0.30">1.40</radius>
-		<metallicity errorminus="0.07" errorplus="0.10">0.09</metallicity>
+		<radius errorminus="0.38" errorplus="0.28">1.67</radius>
+		<magV errorminus="0.0690000" errorplus="0.0690000">13.5280000</magV>
+		<magJ errorminus="0.0250000" errorplus="0.0250000">12.1690000</magJ>
+		<magH errorminus="0.0190000" errorplus="0.0190000">11.8590000</magH>
+		<magK errorminus="0.0130000" errorplus="0.0130000">11.8250000</magK>
+		<magI>13.1590000</magI>
+		<mass errorminus="0.10" errorplus="0.11">1.03</mass>
+		<temperature errorminus="90.00" errorplus="124.00">5616.00</temperature>
+		<metallicity errorminus="0.150" errorplus="0.150">0.040</metallicity>
+		<planet>
+			<name>Kepler-1311 d</name>
+			<semimajoraxis>0.671100</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.490</inclination>
+			<period>197.51100160</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.21200</mass>
+			<radius>0.862</radius>
+			<new>1</new>
+			<temperature>3.91000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/09/15</lastupdate>
+			<transittime errorminus="0.001083" errorplus="0.001083">2455105.385979</transittime>
+		</planet>
 		<planet>
 			<name>Kepler-1311 b</name>
-			<name>KOI-2674 b</name>
-			<name>KOI-2674.02</name>
-			<name>KIC 8022489 b</name>
-			<name>Gaia DR2 2102877015319104640 b</name>
-			<discoverymethod>transit</discoverymethod>
-			<list>Confirmed planets</list>
-			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
-			<istransiting>1</istransiting>
-			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000138700" errorplus="0.000138700">11.172699400</period>
+			<semimajoraxis>0.098900</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>87.640</inclination>
+			<period errorminus="0.00013870" errorplus="0.00013870">11.17269940</period>
+			<description>This planet was discovered by Morton et al. 2016. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.00651</mass>
 			<radius errorminus="0.023" errorplus="0.022">0.111</radius>
+			<temperature>1.01900000000e+03</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/09/15</lastupdate>
+			<transittime errorminus="0.008990" errorplus="0.008990">2454973.005540</transittime>
 		</planet>
 		<planet>
 			<name>Kepler-1311 c</name>
-			<name>KOI-2674 c</name>
-			<name>KOI-2674.03</name>
-			<name>KIC 8022489 c</name>
-			<name>Gaia DR2 2102877015319104640 c</name>
-			<discoverymethod>transit</discoverymethod>
-			<list>Confirmed planets</list>
-			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
-			<istransiting>1</istransiting>
-			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000010180" errorplus="0.000010180">2.535734240</period>
+			<semimajoraxis>0.036800</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.370</inclination>
+			<period errorminus="0.00001018" errorplus="0.00001018">2.53573424</period>
+			<description>This planet was discovered by Morton et al. 2016. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.00624</mass>
 			<radius errorminus="0.021" errorplus="0.025">0.109</radius>
+			<temperature>1.67100000000e+03</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/09/15</lastupdate>
+			<transittime errorminus="0.003510" errorplus="0.003510">2454966.014100</transittime>
 		</planet>
 	</star>
 	<constellation>Cygnus</constellation>

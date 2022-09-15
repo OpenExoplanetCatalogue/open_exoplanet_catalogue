@@ -1,37 +1,53 @@
 <system>
 	<name>Kepler-799</name>
-	<name>KOI-1261</name>
-	<name>KIC 8678594</name>
-	<rightascension>19 08 41.9825</rightascension>
-	<declination>+44 52 42.6720</declination>
+	<rightascension>19 08 42</rightascension>
+	<declination>+44 52 43</declination>
+	<distance errorminus="54.7030000" errorplus="58.8070000">1509.0840000</distance>
 	<star>
 		<name>Kepler-799</name>
-		<name>KOI-1261</name>
-		<name>KIC 8678594</name>
-		<name>2MASS J19084197+4452428</name>
-		<magB errorminus="0.05" errorplus="0.05">16.11</magB>
-		<magH errorminus="0.035" errorplus="0.035">13.601</magH>
-		<magJ errorminus="0.03" errorplus="0.03">13.97</magJ>
-		<magK errorminus="0.04" errorplus="0.04">13.52</magK>
-		<magR errorminus="0.10" errorplus="0.10">15.24</magR>
-		<magV errorminus="0.07" errorplus="0.07">15.24</magV>
-		<temperature errorminus="91.0" errorplus="116.5">5681.0</temperature>
-		<mass errorminus="0.06" errorplus="0.05">0.95</mass>
 		<radius errorminus="0.07" errorplus="0.12">0.93</radius>
-		<metallicity errorminus="0.19" errorplus="0.16">-0.07</metallicity>
+		<magV errorminus="0.1150000" errorplus="0.1150000">15.1660000</magV>
+		<magJ errorminus="0.0300000" errorplus="0.0300000">13.9690000</magJ>
+		<magH errorminus="0.0350000" errorplus="0.0350000">13.6010000</magH>
+		<magK errorminus="0.0400000" errorplus="0.0400000">13.5240000</magK>
+		<magI>14.9170000</magI>
+		<mass errorminus="0.06" errorplus="0.05">0.95</mass>
+		<temperature errorminus="90.98" errorplus="116.48">5681.00</temperature>
+		<metallicity errorminus="0.190" errorplus="0.158">-0.070</metallicity>
 		<planet>
 			<name>Kepler-799 b</name>
-			<name>KOI-1261 b</name>
-			<name>KOI-1261.01</name>
-			<name>KIC 8678594 b</name>
-			<discoverymethod>transit</discoverymethod>
-			<list>Confirmed planets</list>
-			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
-			<istransiting>1</istransiting>
-			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000253000" errorplus="0.000253000">133.460523500</period>
+			<semimajoraxis>0.516700</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.840</inclination>
+			<period errorminus="0.00025300" errorplus="0.00025300">133.46052350</period>
+			<description>This planet was discovered by Morton et al. 2016. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.11900</mass>
 			<radius errorminus="0.051" errorplus="0.076">0.614</radius>
+			<temperature>4.33000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/09/15</lastupdate>
+			<transittime errorminus="0.001400" errorplus="0.001400">2455049.045710</transittime>
+		</planet>
+		<planet>
+			<name>Kepler-799 c</name>
+			<semimajoraxis>0.121400</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>87.060</inclination>
+			<period>15.19419956</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.02560</mass>
+			<radius>0.248</radius>
+			<temperature>8.93000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/09/15</lastupdate>
+			<transittime errorminus="0.004580" errorplus="0.004580">2454975.734220</transittime>
 		</planet>
 	</star>
 	<constellation>Lyra</constellation>

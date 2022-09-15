@@ -1,37 +1,53 @@
 <system>
 	<name>Kepler-589</name>
-	<name>KOI-533</name>
-	<name>KIC 10513530</name>
-	<distance errorminus="8.0147" errorplus="8.0147">623.752</distance>
-	<rightascension>18 42 33.9312</rightascension>
-	<declination>+47 45 07.0136</declination>
+	<rightascension>18 42 34</rightascension>
+	<declination>+47 45 07</declination>
+	<distance errorminus="7.6920000" errorplus="7.8850000">612.8030000</distance>
 	<star>
 		<name>Kepler-589</name>
-		<name>KOI-533</name>
-		<name>KIC 10513530</name>
-		<name>2MASS J18423392+4745069</name>
-		<name>Gaia DR2 2119809116425132160</name>
-		<magH errorminus="0.022" errorplus="0.022">12.913</magH>
-		<magJ errorminus="0.027" errorplus="0.027">13.323</magJ>
-		<magK errorminus="0.026" errorplus="0.026">12.865</magK>
-		<temperature errorminus="62.2" errorplus="61.1">5296.0</temperature>
-		<mass errorminus="0.04" errorplus="0.03">0.88</mass>
 		<radius errorminus="0.04" errorplus="0.06">0.83</radius>
-		<metallicity errorminus="0.14" errorplus="0.14">0.01</metallicity>
+		<magV errorminus="0.0350000" errorplus="0.0350000">14.7750000</magV>
+		<magJ errorminus="0.0270000" errorplus="0.0270000">13.3230000</magJ>
+		<magH errorminus="0.0220000" errorplus="0.0220000">12.9130000</magH>
+		<magK errorminus="0.0260000" errorplus="0.0260000">12.8650000</magK>
+		<magI>14.4140000</magI>
+		<mass errorminus="0.04" errorplus="0.03">0.88</mass>
+		<temperature errorminus="62.18" errorplus="61.13">5296.00</temperature>
+		<metallicity errorminus="0.142" errorplus="0.143">0.010</metallicity>
 		<planet>
 			<name>Kepler-589 b</name>
-			<name>KOI-533 b</name>
-			<name>KOI-533.01</name>
-			<name>KIC 10513530 b</name>
-			<name>Gaia DR2 2119809116425132160 b</name>
-			<discoverymethod>transit</discoverymethod>
-			<list>Confirmed planets</list>
-			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
-			<istransiting>1</istransiting>
-			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000045710" errorplus="0.000045710">16.549649340</period>
+			<semimajoraxis>0.119600</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>86.740</inclination>
+			<period errorminus="0.00004571" errorplus="0.00004571">16.54964934</period>
+			<description>This planet was discovered by Morton et al. 2016. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.01820</mass>
 			<radius errorminus="0.011" errorplus="0.016">0.203</radius>
+			<temperature>6.56000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/09/15</lastupdate>
+			<transittime errorminus="0.002190" errorplus="0.002190">2455004.694180</transittime>
+		</planet>
+		<planet>
+			<name>Kepler-589 c</name>
+			<new>1</new>
+			<semimajoraxis>0.042600</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>71.950</inclination>
+			<period>3.52466011</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.00455</mass>
+			<radius>0.100</radius>
+			<temperature>1.09800000000e+03</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/09/15</lastupdate>
+			<transittime errorminus="0.005220" errorplus="0.005220">2454964.640110</transittime>
 		</planet>
 	</star>
 	<constellation>Draco</constellation>

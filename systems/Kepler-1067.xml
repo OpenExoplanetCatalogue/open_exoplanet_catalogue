@@ -1,37 +1,53 @@
 <system>
 	<name>Kepler-1067</name>
-	<name>KOI-2039</name>
-	<name>KIC 8804845</name>
-	<distance errorminus="8.4802" errorplus="8.4802">680.735</distance>
-	<rightascension>19 01 32.9789</rightascension>
-	<declination>+45 02 56.5853</declination>
+	<rightascension>19 01 33</rightascension>
+	<declination>+45 02 56</declination>
+	<distance errorminus="8.1260000" errorplus="8.3250000">667.6930000</distance>
 	<star>
 		<name>Kepler-1067</name>
-		<name>KOI-2039</name>
-		<name>KIC 8804845</name>
-		<name>2MASS J19013297+4502565</name>
-		<name>Gaia DR2 2106374557504930944</name>
-		<magH errorminus="0.036" errorplus="0.036">12.778</magH>
-		<magJ errorminus="0.027" errorplus="0.027">13.105</magJ>
-		<magK errorminus="0.03" errorplus="0.03">12.66</magK>
-		<temperature errorminus="65.9" errorplus="63.0">5592.0</temperature>
-		<mass errorminus="0.04" errorplus="0.04">0.95</mass>
 		<radius errorminus="0.06" errorplus="0.16">0.93</radius>
-		<metallicity errorminus="0.17" errorplus="0.13">0.03</metallicity>
+		<magV errorminus="0.0800000" errorplus="0.0800000">14.3950000</magV>
+		<magJ errorminus="0.0270000" errorplus="0.0270000">13.1050000</magJ>
+		<magH errorminus="0.0360000" errorplus="0.0360000">12.7780000</magH>
+		<magK errorminus="0.0330000" errorplus="0.0330000">12.6560000</magK>
+		<magI>14.0880000</magI>
+		<mass errorminus="0.05" errorplus="0.04">0.95</mass>
+		<temperature errorminus="65.87" errorplus="63.05">5592.00</temperature>
+		<metallicity errorminus="0.172" errorplus="0.132">0.030</metallicity>
 		<planet>
 			<name>Kepler-1067 b</name>
-			<name>KOI-2039 b</name>
-			<name>KOI-2039.02</name>
-			<name>KIC 8804845 b</name>
-			<name>Gaia DR2 2106374557504930944 b</name>
-			<discoverymethod>transit</discoverymethod>
-			<list>Confirmed planets</list>
-			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
-			<istransiting>1</istransiting>
-			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000002730" errorplus="0.000002730">0.762129260</period>
+			<semimajoraxis>0.016200</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>84.880</inclination>
+			<period errorminus="0.00000273" errorplus="0.00000273">0.76212926</period>
+			<description>This planet was discovered by Morton et al. 2016. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.00137</mass>
 			<radius errorminus="0.005" errorplus="0.011">0.071</radius>
+			<temperature>1.87200000000e+03</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/09/15</lastupdate>
+			<transittime errorminus="0.002530" errorplus="0.002530">2454964.620010</transittime>
+		</planet>
+		<planet>
+			<name>Kepler-1067 c</name>
+			<new>1</new>
+			<semimajoraxis>0.060100</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.650</inclination>
+			<period>5.42583990</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.01160</mass>
+			<radius>0.156</radius>
+			<temperature>9.73000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/09/15</lastupdate>
+			<transittime errorminus="0.002110" errorplus="0.002110">2454968.865180</transittime>
 		</planet>
 	</star>
 	<constellation>Lyra</constellation>

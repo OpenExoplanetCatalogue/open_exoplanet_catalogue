@@ -1,0 +1,36 @@
+<system>
+	<name>Kepler-1952</name>
+	<rightascension>19 12 18</rightascension>
+	<declination>+43 57 31</declination>
+	<distance>852.0620000</distance>
+	<star>
+		<name>Kepler-1952</name>
+		<radius errorminus="0.27" errorplus="0.19">1.31</radius>
+		<magV errorminus="0.0920000" errorplus="0.0920000">13.8280000</magV>
+		<magJ errorminus="0.0210000" errorplus="0.0210000">12.5930000</magJ>
+		<magH errorminus="0.0180000" errorplus="0.0180000">12.2940000</magH>
+		<magK errorminus="0.0190000" errorplus="0.0190000">12.2040000</magK>
+		<magI>13.4950000</magI>
+		<mass errorminus="0.07" errorplus="0.07">0.92</mass>
+		<temperature errorminus="108.00" errorplus="120.00">5973.00</temperature>
+		<metallicity errorminus="0.150" errorplus="0.150">-0.340</metallicity>
+		<planet>
+			<name>Kepler-1952 b</name>
+			<semimajoraxis>0.172400</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>80.020</inclination>
+			<period>27.21080017</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.00650</mass>
+			<radius>0.111</radius>
+			<temperature>7.25000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/09/15</lastupdate>
+			<transittime errorminus="0.014200" errorplus="0.014200">2454965.369700</transittime>
+		</planet>
+	</star>
+	<constellation>Lyra</constellation>
+</system>

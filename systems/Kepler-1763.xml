@@ -1,0 +1,36 @@
+<system>
+	<name>Kepler-1763</name>
+	<rightascension>19 36 27</rightascension>
+	<declination>+40 21 46</declination>
+	<distance errorminus="9.7675000" errorplus="9.7675000">756.4860000</distance>
+	<star>
+		<name>Kepler-1763</name>
+		<radius errorminus="0.22" errorplus="0.20">1.26</radius>
+		<magV errorminus="0.0800000" errorplus="0.0800000">13.6340000</magV>
+		<magJ errorminus="0.0210000" errorplus="0.0210000">12.4710000</magJ>
+		<magH errorminus="0.0220000" errorplus="0.0220000">12.1820000</magH>
+		<magK errorminus="0.0210000" errorplus="0.0210000">12.1340000</magK>
+		<magI>13.3490000</magI>
+		<mass errorminus="0.07" errorplus="0.09">1.03</mass>
+		<temperature errorminus="117.00" errorplus="105.00">5897.00</temperature>
+		<metallicity errorminus="0.150" errorplus="0.150">0.020</metallicity>
+		<planet>
+			<name>Kepler-1763 b</name>
+			<semimajoraxis>0.025700</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.280</inclination>
+			<period>1.48028004</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.00499</mass>
+			<radius>0.102</radius>
+			<temperature>1.82200000000e+03</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/09/15</lastupdate>
+			<transittime errorminus="0.003250" errorplus="0.003250">2454967.372540</transittime>
+		</planet>
+	</star>
+	<constellation>Cygnus</constellation>
+</system>

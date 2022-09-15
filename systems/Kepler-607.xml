@@ -1,37 +1,53 @@
 <system>
 	<name>Kepler-607</name>
-	<name>KOI-577</name>
-	<name>KIC 8558011</name>
-	<distance errorminus="5.5264" errorplus="5.5264">526.981</distance>
-	<rightascension>19 24 13.7214</rightascension>
-	<declination>+44 37 56.5715</declination>
+	<rightascension>19 24 14</rightascension>
+	<declination>+44 37 56</declination>
+	<distance errorminus="5.4070000" errorplus="5.4070000">519.1220000</distance>
 	<star>
 		<name>Kepler-607</name>
-		<name>KOI-577</name>
-		<name>KIC 8558011</name>
-		<name>2MASS J19241372+4437565</name>
-		<name>Gaia DR2 2126248505058677120</name>
-		<magH errorminus="0.021" errorplus="0.021">12.498</magH>
-		<magJ errorminus="0.025" errorplus="0.025">12.965</magJ>
-		<magK errorminus="0.019" errorplus="0.019">12.426</magK>
-		<temperature errorminus="118.4" errorplus="94.5">5196.0</temperature>
-		<mass errorminus="0.04" errorplus="0.04">0.84</mass>
-		<radius errorminus="0.04" errorplus="0.05">0.80</radius>
-		<metallicity errorminus="0.16" errorplus="0.15">-0.02</metallicity>
+		<radius errorminus="0.13" errorplus="0.20">0.89</radius>
+		<magV errorminus="0.2060000" errorplus="0.2060000">14.6720000</magV>
+		<magJ errorminus="0.0250000" errorplus="0.0250000">12.9650000</magJ>
+		<magH errorminus="0.0210000" errorplus="0.0210000">12.4980000</magH>
+		<magK errorminus="0.0190000" errorplus="0.0190000">12.4260000</magK>
+		<magI>14.1060000</magI>
+		<mass errorminus="0.06" errorplus="0.11">0.81</mass>
+		<temperature errorminus="184.00" errorplus="203.00">5244.00</temperature>
+		<metallicity errorminus="0.250" errorplus="0.300">0.020</metallicity>
+		<planet>
+			<name>Kepler-607 c</name>
+			<semimajoraxis>0.212200</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.240</inclination>
+			<period>39.67679977</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.02530</mass>
+			<radius>0.246</radius>
+			<temperature>4.73000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<new>1</new>
+			<list>Confirmed planets</list>
+			<lastupdate>22/09/15</lastupdate>
+			<transittime errorminus="0.004900" errorplus="0.004900">2455011.555600</transittime>
+		</planet>
 		<planet>
 			<name>Kepler-607 b</name>
-			<name>KOI-577 b</name>
-			<name>KOI-577.02</name>
-			<name>KIC 8558011 b</name>
-			<name>Gaia DR2 2126248505058677120 b</name>
-			<discoverymethod>transit</discoverymethod>
-			<list>Confirmed planets</list>
-			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
-			<istransiting>1</istransiting>
-			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000001680" errorplus="0.000001680">0.638163200</period>
+			<semimajoraxis>0.013500</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>88.690</inclination>
+			<period errorminus="0.00000168" errorplus="0.00000168">0.63816320</period>
+			<description>This planet was discovered by Morton et al. 2016. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.00186</mass>
 			<radius errorminus="0.006" errorplus="0.005">0.078</radius>
+			<temperature>1.87400000000e+03</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/09/15</lastupdate>
+			<transittime errorminus="0.002350" errorplus="0.002350">2454964.749090</transittime>
 		</planet>
 	</star>
 	<constellation>Cygnus</constellation>

@@ -1,37 +1,53 @@
 <system>
 	<name>Kepler-1315</name>
-	<name>KOI-2694</name>
-	<name>KIC 9475552</name>
-	<distance errorminus="5.8479" errorplus="5.8479">487.567</distance>
-	<rightascension>19 43 17.1500</rightascension>
-	<declination>+46 03 11.0204</declination>
+	<rightascension>19 43 17</rightascension>
+	<declination>+46 03 11</declination>
+	<distance errorminus="5.7240000" errorplus="5.7240000">480.8690000</distance>
 	<star>
 		<name>Kepler-1315</name>
-		<name>KOI-2694</name>
-		<name>KIC 9475552</name>
-		<name>2MASS J19431714+4603109</name>
-		<name>Gaia DR2 2080388566557873280</name>
-		<magH errorminus="0.03" errorplus="0.03">12.81</magH>
-		<magJ errorminus="0.03" errorplus="0.03">13.33</magJ>
-		<magK errorminus="0.03" errorplus="0.03">12.68</magK>
-		<temperature errorminus="112.5" errorplus="81.9">4861.0</temperature>
-		<mass errorminus="0.04" errorplus="0.03">0.80</mass>
 		<radius errorminus="0.03" errorplus="0.03">0.75</radius>
-		<metallicity errorminus="0.17" errorplus="0.16">0.07</metallicity>
+		<magV errorminus="0.0690000" errorplus="0.0690000">15.1330000</magV>
+		<magJ errorminus="0.0300000" errorplus="0.0300000">13.3300000</magJ>
+		<magH errorminus="0.0320000" errorplus="0.0320000">12.8080000</magH>
+		<magK errorminus="0.0310000" errorplus="0.0310000">12.6840000</magK>
+		<magI>14.5790000</magI>
+		<mass errorminus="0.04" errorplus="0.03">0.80</mass>
+		<temperature errorminus="112.48" errorplus="81.92">4861.00</temperature>
+		<metallicity errorminus="0.165" errorplus="0.157">0.070</metallicity>
 		<planet>
 			<name>Kepler-1315 b</name>
-			<name>KOI-2694 b</name>
-			<name>KOI-2694.01</name>
-			<name>KIC 9475552 b</name>
-			<name>Gaia DR2 2080388566557873280 b</name>
-			<discoverymethod>transit</discoverymethod>
-			<list>Confirmed planets</list>
-			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
-			<istransiting>1</istransiting>
-			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000000820" errorplus="0.000000820">0.843380110</period>
+			<semimajoraxis>0.016300</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>78.230</inclination>
+			<period errorminus="0.00000082" errorplus="0.00000082">0.84338011</period>
+			<description>This planet was discovered by Morton et al. 2016. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.00780</mass>
 			<radius errorminus="0.005" errorplus="0.007">0.123</radius>
+			<temperature>1.54100000000e+03</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/09/15</lastupdate>
+			<transittime errorminus="0.000802" errorplus="0.000802">2454964.966211</transittime>
+		</planet>
+		<planet>
+			<name>Kepler-1315 c</name>
+			<new>1</new>
+			<semimajoraxis>0.064000</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>88.080</inclination>
+			<period>6.56606007</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.01280</mass>
+			<radius>0.165</radius>
+			<temperature>7.77000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/09/15</lastupdate>
+			<transittime errorminus="0.002040" errorplus="0.002040">2454967.494800</transittime>
 		</planet>
 	</star>
 	<constellation>Cygnus</constellation>

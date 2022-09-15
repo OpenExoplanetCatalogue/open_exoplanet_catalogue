@@ -1,0 +1,36 @@
+<system>
+	<name>Kepler-1944</name>
+	<rightascension>19 46 03</rightascension>
+	<declination>+39 10 24</declination>
+	<distance errorminus="33.2500000" errorplus="35.4000000">1076.4800000</distance>
+	<star>
+		<name>Kepler-1944</name>
+		<radius errorminus="0.08" errorplus="0.24">0.97</radius>
+		<magV errorminus="0.1030000" errorplus="0.1030000">15.5820000</magV>
+		<magJ errorminus="0.0350000" errorplus="0.0350000">14.0130000</magJ>
+		<magH errorminus="0.0390000" errorplus="0.0390000">13.5950000</magH>
+		<magK errorminus="0.0500000" errorplus="0.0500000">13.4470000</magK>
+		<magI>15.0330000</magI>
+		<mass errorminus="0.13" errorplus="0.08">1.06</mass>
+		<temperature errorminus="194.00" errorplus="175.00">5585.00</temperature>
+		<metallicity errorminus="0.300" errorplus="0.050">0.480</metallicity>
+		<planet>
+			<name>Kepler-1944 b</name>
+			<semimajoraxis>0.091800</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.710</inclination>
+			<period>9.84257984</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.02530</mass>
+			<radius>0.246</radius>
+			<temperature>8.01000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/09/15</lastupdate>
+			<transittime errorminus="0.003100" errorplus="0.003100">2454967.021550</transittime>
+		</planet>
+	</star>
+	<constellation>Cygnus</constellation>
+</system>

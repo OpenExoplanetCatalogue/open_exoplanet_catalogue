@@ -1,37 +1,53 @@
 <system>
 	<name>Kepler-1165</name>
-	<name>KOI-2263</name>
-	<name>KIC 8613535</name>
-	<distance errorminus="53.1169" errorplus="53.1169">1650.44</distance>
-	<rightascension>19 07 53.0986</rightascension>
-	<declination>+44 42 29.7953</declination>
+	<rightascension>19 07 53</rightascension>
+	<declination>+44 42 30</declination>
+	<distance errorminus="47.3900000" errorplus="50.3700000">1575.2000000</distance>
 	<star>
 		<name>Kepler-1165</name>
-		<name>KOI-2263</name>
-		<name>KIC 8613535</name>
-		<name>2MASS J19075310+4442298</name>
-		<name>Gaia DR2 2106208363750121728</name>
-		<magH errorminus="0.027" errorplus="0.027">13.080</magH>
-		<magJ errorminus="0.025" errorplus="0.025">13.362</magJ>
-		<magK errorminus="0.029" errorplus="0.029">13.070</magK>
-		<temperature errorminus="116.0" errorplus="97.2">6080.0</temperature>
-		<mass errorminus="0.08" errorplus="0.12">1.13</mass>
-		<radius errorminus="0.14" errorplus="0.39">1.18</radius>
-		<metallicity errorminus="0.15" errorplus="0.14">0.05</metallicity>
+		<radius errorminus="0.11" errorplus="0.34">1.08</radius>
+		<magV errorminus="0.1140000" errorplus="0.1140000">14.5210000</magV>
+		<magJ errorminus="0.0250000" errorplus="0.0250000">13.3620000</magJ>
+		<magH errorminus="0.0270000" errorplus="0.0270000">13.0800000</magH>
+		<magK errorminus="0.0290000" errorplus="0.0290000">13.0700000</magK>
+		<magI>14.2920000</magI>
+		<mass errorminus="0.16" errorplus="0.16">1.13</mass>
+		<temperature errorminus="217.00" errorplus="174.00">6249.00</temperature>
+		<metallicity errorminus="0.300" errorplus="0.250">-0.040</metallicity>
+		<planet>
+			<name>Kepler-1165 c</name>
+			<semimajoraxis>0.196900</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.520</inclination>
+			<period>29.96870041</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.03540</mass>
+			<new>1</new>
+			<radius>0.300</radius>
+			<temperature>6.44000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/09/15</lastupdate>
+			<transittime errorminus="0.003540" errorplus="0.003540">2454980.860500</transittime>
+		</planet>
 		<planet>
 			<name>Kepler-1165 b</name>
-			<name>KOI-2263 b</name>
-			<name>KOI-2263.02</name>
-			<name>KIC 8613535 b</name>
-			<name>Gaia DR2 2106208363750121728 b</name>
-			<discoverymethod>transit</discoverymethod>
-			<list>Confirmed planets</list>
-			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
-			<istransiting>1</istransiting>
-			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000059090" errorplus="0.000059090">9.478522000</period>
+			<semimajoraxis>0.091400</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.460</inclination>
+			<period errorminus="0.00005909" errorplus="0.00005909">9.47852200</period>
+			<description>This planet was discovered by Morton et al. 2016. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.00951</mass>
 			<radius errorminus="0.017" errorplus="0.045">0.138</radius>
+			<temperature>9.46000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/09/15</lastupdate>
+			<transittime errorminus="0.004390" errorplus="0.004390">2454973.166620</transittime>
 		</planet>
 	</star>
 	<constellation>Lyra</constellation>

@@ -1,0 +1,36 @@
+<system>
+	<name>Kepler-1832</name>
+	<rightascension>19 59 24</rightascension>
+	<declination>+43 43 55</declination>
+	<distance errorminus="5.3715000" errorplus="5.3715000">486.1740000</distance>
+	<star>
+		<name>Kepler-1832</name>
+		<radius errorminus="0.08" errorplus="0.10">0.72</radius>
+		<magV errorminus="0.1030000" errorplus="0.1030000">14.5770000</magV>
+		<magJ errorminus="0.0240000" errorplus="0.0240000">12.9130000</magJ>
+		<magH errorminus="0.0320000" errorplus="0.0320000">12.4240000</magH>
+		<magK errorminus="0.0180000" errorplus="0.0180000">12.3500000</magK>
+		<magI>14.0760000</magI>
+		<mass errorminus="0.04" errorplus="0.10">0.68</mass>
+		<temperature errorminus="157.00" errorplus="157.00">5242.00</temperature>
+		<metallicity errorminus="0.300" errorplus="0.300">-0.540</metallicity>
+		<planet>
+			<name>Kepler-1832 b</name>
+			<semimajoraxis>0.037000</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>88.100</inclination>
+			<period>3.13878989</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.00637</mass>
+			<radius>0.109</radius>
+			<temperature>1.02200000000e+03</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/09/15</lastupdate>
+			<transittime errorminus="0.003370" errorplus="0.003370">2454966.655380</transittime>
+		</planet>
+	</star>
+	<constellation>Cygnus</constellation>
+</system>

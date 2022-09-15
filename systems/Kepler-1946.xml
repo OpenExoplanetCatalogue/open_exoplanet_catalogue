@@ -1,0 +1,36 @@
+<system>
+	<name>Kepler-1946</name>
+	<rightascension>18 49 21</rightascension>
+	<declination>+42 50 43</declination>
+	<distance errorminus="38.0670000" errorplus="41.1300000">1002.1200000</distance>
+	<star>
+		<name>Kepler-1946</name>
+		<radius errorminus="0.09" errorplus="0.20">0.87</radius>
+		<magV errorminus="0.1370000" errorplus="0.1370000">15.5080000</magV>
+		<magJ errorminus="0.0220000" errorplus="0.0220000">14.2480000</magJ>
+		<magH errorminus="0.0320000" errorplus="0.0320000">13.8240000</magH>
+		<magK errorminus="0.0370000" errorplus="0.0370000">13.7610000</magK>
+		<magI>15.2940000</magI>
+		<mass errorminus="0.08" errorplus="0.09">0.89</mass>
+		<temperature errorminus="164.00" errorplus="164.00">5505.00</temperature>
+		<metallicity errorminus="0.300" errorplus="0.300">-0.040</metallicity>
+		<planet>
+			<name>Kepler-1946 b</name>
+			<semimajoraxis>0.039400</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>86.140</inclination>
+			<period>3.03519011</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.02120</mass>
+			<radius>0.222</radius>
+			<temperature>1.14300000000e+03</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/09/15</lastupdate>
+			<transittime errorminus="0.001340" errorplus="0.001340">2454965.329100</transittime>
+		</planet>
+	</star>
+	<constellation>Lyra</constellation>
+</system>

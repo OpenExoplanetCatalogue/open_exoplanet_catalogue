@@ -1,37 +1,53 @@
 <system>
 	<name>Kepler-511</name>
-	<name>KOI-289</name>
-	<name>KIC 10386922</name>
-	<distance errorminus="10.5931" errorplus="10.5931">664.364</distance>
-	<rightascension>18 51 46.9663</rightascension>
-	<declination>+47 34 29.5940</declination>
+	<rightascension>18 51 47</rightascension>
+	<declination>+47 34 30</declination>
+	<distance errorminus="10.1430000" errorplus="10.4620000">651.9990000</distance>
 	<star>
 		<name>Kepler-511</name>
-		<name>KOI-289</name>
-		<name>KIC 10386922</name>
-		<name>2MASS J18514696+4734295</name>
-		<name>Gaia DR2 2107644188496163200</name>
-		<magH errorminus="0.018" errorplus="0.018">11.220</magH>
-		<magJ errorminus="0.020" errorplus="0.020">11.534</magJ>
-		<magK errorminus="0.016" errorplus="0.016">11.187</magK>
-		<temperature errorminus="56.7" errorplus="52.4">5770.0</temperature>
-		<mass errorminus="0.06" errorplus="0.06">1.00</mass>
 		<radius errorminus="0.19" errorplus="0.32">1.20</radius>
-		<metallicity errorminus="0.15" errorplus="0.07">0.01</metallicity>
+		<magV errorminus="0.0800000" errorplus="0.0800000">12.7110000</magV>
+		<magJ errorminus="0.0200000" errorplus="0.0200000">11.5340000</magJ>
+		<magH errorminus="0.0180000" errorplus="0.0180000">11.2200000</magH>
+		<magK errorminus="0.0160000" errorplus="0.0160000">11.1870000</magK>
+		<magI>12.5400000</magI>
+		<mass errorminus="0.06" errorplus="0.06">1.00</mass>
+		<temperature errorminus="56.66" errorplus="52.36">5770.00</temperature>
+		<metallicity errorminus="0.153" errorplus="0.071">0.010</metallicity>
 		<planet>
 			<name>Kepler-511 b</name>
-			<name>KOI-289 b</name>
-			<name>KOI-289.02</name>
-			<name>KIC 10386922 b</name>
-			<name>Gaia DR2 2107644188496163200 b</name>
-			<discoverymethod>transit</discoverymethod>
-			<list>Confirmed planets</list>
-			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
-			<istransiting>1</istransiting>
-			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000447200" errorplus="0.000447200">296.637865000</period>
+			<semimajoraxis>0.858900</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.810</inclination>
+			<period errorminus="0.00044720" errorplus="0.00044720">296.63786500</period>
+			<description>This planet was discovered by Morton et al. 2016. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.10400</mass>
 			<radius errorminus="0.091" errorplus="0.125">0.567</radius>
+			<temperature>3.32000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/09/15</lastupdate>
+			<transittime errorminus="0.000944" errorplus="0.000944">2455236.672788</transittime>
+		</planet>
+		<planet>
+			<name>Kepler-511 c</name>
+			<new>1</new>
+			<semimajoraxis>0.172200</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.970</inclination>
+			<period>26.62949944</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.05180</mass>
+			<radius>0.376</radius>
+			<temperature>7.42000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/09/15</lastupdate>
+			<transittime errorminus="0.001370" errorplus="0.001370">2455024.996270</transittime>
 		</planet>
 	</star>
 	<constellation>Lyra</constellation>

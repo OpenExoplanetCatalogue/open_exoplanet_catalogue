@@ -1,31 +1,47 @@
 <system>
 	<name>EPIC 212587672</name>
-	<rightascension>13 41 46.6984</rightascension>
-	<declination>-10 51 44.7891</declination>
-	<distance errorminus="6.33" errorplus="6.33">322.88</distance>
+	<rightascension>13 41 47</rightascension>
+	<declination>-10 51 45</declination>
+	<distance errorminus="6.1520000" errorplus="6.3920000">320.0700000</distance>
 	<star>
 		<name>EPIC 212587672</name>
-		<name>Gaia DR2 3616620814104819328</name>
-		<name>TYC 5549-288-1</name>
-		<magV errorminus="0.268" errorplus="0.268">12.487</magV>
-		<magJ errorminus="0.023" errorplus="0.023">11.181</magJ>
-		<magH errorminus="0.021" errorplus="0.021">10.911</magH>
-		<magK errorminus="0.021" errorplus="0.021">10.857</magK>
-		<magB errorminus="0.29" errorplus="0.29">12.69</magB>
-		<mass errorminus="0.04" errorplus="0.04">0.95</mass>
+		<radius errorminus="0.03" errorplus="0.04">0.98</radius>
+		<magV errorminus="0.0440000" errorplus="0.0440000">12.4880000</magV>
+		<magJ errorminus="0.0230000" errorplus="0.0230000">11.1810000</magJ>
+		<magH errorminus="0.0220000" errorplus="0.0220000">10.9110000</magH>
+		<magK errorminus="0.0210000" errorplus="0.0210000">10.8570000</magK>
+		<mass errorminus="0.04" errorplus="0.03">0.99</mass>
+		<temperature errorminus="78.00" errorplus="77.00">6004.00</temperature>
+		<metallicity errorminus="0.060" errorplus="0.060">-0.180</metallicity>
+		<planet>
+			<name>EPIC 212587672 c</name>
+			<inclination errorminus="1.027" errorplus="0.421">89.421</inclination>
+			<period errorminus="0.00007100" errorplus="0.00006800">23.22855500</period>
+			<description>This planet was discovered by Barros et al. 2016. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.01890</mass>
+			<radius errorminus="0.011" errorplus="0.017">0.207</radius>
+			<temperature errorminus="1.40000000000e+01" errorplus="1.30000000000e+01">6.58000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<new>1</new>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/09/15</lastupdate>
+			<transittime errorminus="0.001818" errorplus="0.001902">2457237.042492</transittime>
+		</planet>
 		<planet>
 			<name>EPIC 212587672 b</name>
-			<name>Gaia DR2 3616620814104819328 b</name>
-			<name>TYC 5549-288-1 b</name>
-			<period errorminus="0.00290000" errorplus="0.00370000">15.28410000</period>
-			<description>This planet was discovered by Heller et al. 2019. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here are those reported by Heller et al. 2019 and were imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
-			<radius errorminus="0.008" errorplus="0.011">0.100</radius>
+			<period errorminus="0.00011600" errorplus="0.00012100">15.28078000</period>
+			<description>This planet was discovered by Heller et al. 2019. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.00669</mass>
+			<radius errorminus="0.008" errorplus="0.010">0.112</radius>
+			<temperature errorminus="1.50000000000e+01" errorplus="1.40000000000e+01">7.56000000000e+02</temperature>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
 			<discoveryyear>2019</discoveryyear>
 			<list>Confirmed planets</list>
-			<lastupdate>19/06/13</lastupdate>
-			<transittime errorminus="0.005400" errorplus="0.005300">2457273.490600</transittime>
+			<lastupdate>22/09/15</lastupdate>
+			<transittime errorminus="0.004448" errorplus="0.004543">2457227.644991</transittime>
 		</planet>
 	</star>
 	<constellation>Virgo</constellation>

@@ -1,0 +1,36 @@
+<system>
+	<name>Kepler-1761</name>
+	<rightascension>18 56 32</rightascension>
+	<declination>+49 08 33</declination>
+	<distance errorminus="1.1330000" errorplus="1.1330000">221.1860000</distance>
+	<star>
+		<name>Kepler-1761</name>
+		<radius errorminus="0.03" errorplus="0.04">0.53</radius>
+		<magV errorminus="0.1260000" errorplus="0.1260000">15.6190000</magV>
+		<magJ errorminus="0.0230000" errorplus="0.0230000">12.6430000</magJ>
+		<magH errorminus="0.0200000" errorplus="0.0200000">11.9770000</magH>
+		<magK errorminus="0.0240000" errorplus="0.0240000">11.7910000</magK>
+		<magI>14.3470000</magI>
+		<mass errorminus="0.04" errorplus="0.03">0.57</mass>
+		<temperature errorminus="84.00" errorplus="77.00">3871.00</temperature>
+		<metallicity errorminus="0.150" errorplus="0.150">0.070</metallicity>
+		<planet>
+			<name>Kepler-1761 b</name>
+			<semimajoraxis>0.041300</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>78.420</inclination>
+			<period>4.04354000</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.00791</mass>
+			<radius>0.124</radius>
+			<temperature>6.13000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/09/15</lastupdate>
+			<transittime errorminus="0.002630" errorplus="0.002630">2454964.629680</transittime>
+		</planet>
+	</star>
+	<constellation>Draco</constellation>
+</system>

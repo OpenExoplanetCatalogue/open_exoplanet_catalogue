@@ -1,52 +1,70 @@
 <system>
 	<name>Kepler-1073</name>
-	<name>KOI-2055</name>
-	<name>KIC 3128552</name>
-	<distance errorminus="13.4715" errorplus="13.4715">829.05</distance>
-	<rightascension>19 36 36.6479</rightascension>
-	<declination>+38 13 58.9458</declination>
+	<rightascension>19 36 37</rightascension>
+	<declination>+38 13 59</declination>
+	<distance errorminus="12.7330000" errorplus="13.1400000">809.8970000</distance>
 	<star>
 		<name>Kepler-1073</name>
-		<name>KOI-2055</name>
-		<name>KIC 3128552</name>
-		<name>2MASS J19363664+3813589</name>
-		<name>Gaia DR2 2052069201482198784</name>
-		<magH errorminus="0.027" errorplus="0.027">12.957</magH>
-		<magJ errorminus="0.025" errorplus="0.025">13.332</magJ>
-		<magK errorminus="0.03" errorplus="0.03">12.92</magK>
-		<temperature errorminus="186.2" errorplus="252.9">5792.0</temperature>
-		<mass errorminus="0.07" errorplus="0.10">1.00</mass>
 		<radius errorminus="0.11" errorplus="0.21">1.00</radius>
-		<metallicity errorminus="0.17" errorplus="0.14">0.00</metallicity>
-		<planet>
-			<name>Kepler-1073 b</name>
-			<name>KOI-2055 b</name>
-			<name>KOI-2055.01</name>
-			<name>KIC 3128552 b</name>
-			<name>Gaia DR2 2052069201482198784 b</name>
-			<discoverymethod>transit</discoverymethod>
-			<list>Confirmed planets</list>
-			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
-			<istransiting>1</istransiting>
-			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000024090" errorplus="0.000024090">8.678885930</period>
-			<radius errorminus="0.022" errorplus="0.044">0.205</radius>
-		</planet>
+		<magV errorminus="0.0800000" errorplus="0.0800000">14.7490000</magV>
+		<magJ errorminus="0.0250000" errorplus="0.0250000">13.3320000</magJ>
+		<magH errorminus="0.0270000" errorplus="0.0270000">12.9570000</magH>
+		<magK errorminus="0.0320000" errorplus="0.0320000">12.9240000</magK>
+		<magI>14.3010000</magI>
+		<mass errorminus="0.07" errorplus="0.10">1.00</mass>
+		<temperature errorminus="186.16" errorplus="252.91">5792.00</temperature>
+		<metallicity errorminus="0.171" errorplus="0.138">0.000</metallicity>
 		<planet>
 			<name>Kepler-1073 c</name>
-			<name>KOI-2055 c</name>
-			<name>KOI-2055.02</name>
-			<name>KIC 3128552 c</name>
-			<name>Gaia DR2 2052069201482198784 c</name>
-			<discoverymethod>transit</discoverymethod>
-			<list>Confirmed planets</list>
-			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
-			<istransiting>1</istransiting>
-			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000014840" errorplus="0.000014840">4.025822540</period>
+			<semimajoraxis>0.048300</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.920</inclination>
+			<period errorminus="0.00001484" errorplus="0.00001484">4.02582254</period>
+			<description>This planet was discovered by Morton et al. 2016. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.01050</mass>
 			<radius errorminus="0.016" errorplus="0.030">0.146</radius>
+			<temperature>1.16900000000e+03</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/09/15</lastupdate>
+			<transittime errorminus="0.003490" errorplus="0.003490">2454968.426010</transittime>
+		</planet>
+		<planet>
+			<name>Kepler-1073 b</name>
+			<semimajoraxis>0.080500</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.380</inclination>
+			<period errorminus="0.00002409" errorplus="0.00002409">8.67888593</period>
+			<description>This planet was discovered by Morton et al. 2016. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.01860</mass>
+			<radius errorminus="0.022" errorplus="0.044">0.205</radius>
+			<temperature>9.05000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/09/15</lastupdate>
+			<transittime errorminus="0.002230" errorplus="0.002230">2454966.037610</transittime>
+		</planet>
+		<planet>
+			<name>Kepler-1073 d</name>
+			<new>1</new>
+			<semimajoraxis>0.035200</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.080</inclination>
+			<period>2.50476003</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.00887</mass>
+			<radius>0.133</radius>
+			<temperature>1.36900000000e+03</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/09/15</lastupdate>
+			<transittime errorminus="0.003700" errorplus="0.003700">2454966.635430</transittime>
 		</planet>
 	</star>
 	<constellation>Cygnus</constellation>

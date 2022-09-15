@@ -1,52 +1,70 @@
 <system>
 	<name>Kepler-616</name>
-	<name>KOI-593</name>
-	<name>KIC 9958962</name>
-	<distance errorminus="25.2114" errorplus="25.2114">971.723</distance>
-	<rightascension>19 39 57.3954</rightascension>
-	<declination>+46 50 18.0453</declination>
+	<rightascension>19 39 57</rightascension>
+	<declination>+46 50 18</declination>
+	<distance errorminus="24.0505000" errorplus="24.0505000">945.7750000</distance>
 	<star>
 		<name>Kepler-616</name>
-		<name>KOI-593</name>
-		<name>KIC 9958962</name>
-		<name>2MASS J19395739+4650179</name>
-		<name>Gaia DR2 2080484842545877120</name>
-		<magH>13.412</magH>
-		<magJ errorminus="0.04" errorplus="0.04">13.81</magJ>
-		<magK errorminus="0.04" errorplus="0.04">13.45</magK>
-		<temperature errorminus="101.5" errorplus="133.2">5753.0</temperature>
-		<mass errorminus="0.05" errorplus="0.06">0.98</mass>
 		<radius errorminus="0.08" errorplus="0.13">0.97</radius>
-		<metallicity errorminus="0.16" errorplus="0.14">-0.02</metallicity>
+		<magV errorminus="0.0580000" errorplus="0.0580000">15.0210000</magV>
+		<magJ errorminus="0.0410000" errorplus="0.0410000">13.8140000</magJ>
+		<magH>13.4120000</magH>
+		<magK errorminus="0.0440000" errorplus="0.0440000">13.4480000</magK>
+		<magI>14.7540000</magI>
+		<mass errorminus="0.05" errorplus="0.06">0.98</mass>
+		<temperature errorminus="101.52" errorplus="133.18">5753.00</temperature>
+		<metallicity errorminus="0.162" errorplus="0.139">-0.020</metallicity>
 		<planet>
 			<name>Kepler-616 b</name>
-			<name>KOI-593 b</name>
-			<name>KOI-593.01</name>
-			<name>KIC 9958962 b</name>
-			<name>Gaia DR2 2080484842545877120 b</name>
-			<discoverymethod>transit</discoverymethod>
-			<list>Confirmed planets</list>
-			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
-			<istransiting>1</istransiting>
-			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000021380" errorplus="0.000021380">9.997618510</period>
+			<semimajoraxis>0.092700</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>86.180</inclination>
+			<period errorminus="0.00002138" errorplus="0.00002138">9.99761851</period>
+			<description>This planet was discovered by Morton et al. 2016. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.02040</mass>
 			<radius errorminus="0.018" errorplus="0.029">0.217</radius>
+			<temperature>8.60000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/09/15</lastupdate>
+			<transittime errorminus="0.001730" errorplus="0.001730">2455004.787740</transittime>
 		</planet>
 		<planet>
 			<name>Kepler-616 c</name>
-			<name>KOI-593 c</name>
-			<name>KOI-593.02</name>
-			<name>KIC 9958962 c</name>
-			<name>Gaia DR2 2080484842545877120 c</name>
-			<discoverymethod>transit</discoverymethod>
-			<list>Confirmed planets</list>
-			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
-			<istransiting>1</istransiting>
-			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000452200" errorplus="0.000452200">90.411355600</period>
+			<semimajoraxis>0.402400</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.160</inclination>
+			<period errorminus="0.00045220" errorplus="0.00045220">90.41135560</period>
+			<description>This planet was discovered by Morton et al. 2016. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.03630</mass>
 			<radius errorminus="0.027" errorplus="0.051">0.304</radius>
+			<temperature>4.13000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2016</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/09/15</lastupdate>
+			<transittime errorminus="0.003800" errorplus="0.003800">2455041.503990</transittime>
+		</planet>
+		<planet>
+			<name>Kepler-616 d</name>
+			<new>1</new>
+			<semimajoraxis>0.274900</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.660</inclination>
+			<period>51.06740189</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.02370</mass>
+			<radius>0.237</radius>
+			<temperature>4.99000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/09/15</lastupdate>
+			<transittime errorminus="0.004620" errorplus="0.004620">2454980.612140</transittime>
 		</planet>
 	</star>
 	<constellation>Cygnus</constellation>

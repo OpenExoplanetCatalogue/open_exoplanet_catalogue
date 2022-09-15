@@ -1,0 +1,36 @@
+<system>
+	<name>Kepler-1950</name>
+	<rightascension>19 08 21</rightascension>
+	<declination>+42 40 07</declination>
+	<distance errorminus="12.4975000" errorplus="12.4975000">697.2530000</distance>
+	<star>
+		<name>Kepler-1950</name>
+		<radius errorminus="0.13" errorplus="0.19">0.85</radius>
+		<magV errorminus="0.1720000" errorplus="0.1720000">14.8450000</magV>
+		<magJ errorminus="0.0300000" errorplus="0.0300000">13.2000000</magJ>
+		<magH errorminus="0.0320000" errorplus="0.0320000">12.8390000</magH>
+		<magK errorminus="0.0290000" errorplus="0.0290000">12.6790000</magK>
+		<magI>14.3290000</magI>
+		<mass errorminus="0.05" errorplus="0.12">0.76</mass>
+		<temperature errorminus="162.00" errorplus="162.00">5455.00</temperature>
+		<metallicity errorminus="0.300" errorplus="0.350">-0.340</metallicity>
+		<planet>
+			<name>Kepler-1950 b</name>
+			<semimajoraxis>0.087100</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.870</inclination>
+			<period>10.77690029</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.00927</mass>
+			<radius>0.136</radius>
+			<temperature>7.52000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/09/15</lastupdate>
+			<transittime errorminus="0.009790" errorplus="0.009790">2454973.290200</transittime>
+		</planet>
+	</star>
+	<constellation>Lyra</constellation>
+</system>

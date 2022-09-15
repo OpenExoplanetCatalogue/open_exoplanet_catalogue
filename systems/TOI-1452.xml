@@ -1,0 +1,38 @@
+<system>
+	<name>TOI-1452</name>
+	<rightascension>19 20 42</rightascension>
+	<declination>+73 11 42</declination>
+	<distance errorminus="0.0390000" errorplus="0.0392000">30.5212000</distance>
+	<star>
+		<name>TOI-1452</name>
+		<radius errorminus="0.01" errorplus="0.01">0.28</radius>
+		<magV errorminus="0.1210000" errorplus="0.1210000">14.3540000</magV>
+		<magJ errorminus="0.0580000" errorplus="0.0580000">10.6040000</magJ>
+		<magH errorminus="0.0580000" errorplus="0.0580000">10.0260000</magH>
+		<magK errorminus="0.0460000" errorplus="0.0460000">9.7400000</magK>
+		<mass errorminus="0.01" errorplus="0.01">0.25</mass>
+		<temperature errorminus="50.00" errorplus="50.00">3185.00</temperature>
+		<metallicity errorminus="0.020" errorplus="0.020">-0.070</metallicity>
+		<spectraltype>M4&amp;#1770.5V</spectraltype>
+		<planet>
+			<name>TOI-1452 b</name>
+			<semimajoraxis errorminus="0.003000" errorplus="0.003000">0.061000</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<periastron>90.0000</periastron>
+			<inclination errorminus="0.160" errorplus="0.160">89.770</inclination>
+			<period errorminus="0.00002000" errorplus="0.00002000">11.06201000</period>
+			<description>This planet was discovered by Cadieux et al. 2022. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00409" errorplus="0.00409">0.01517</mass>
+			<radius errorminus="0.006" errorplus="0.006">0.149</radius>
+			<temperature errorminus="7.00000000000e+00" errorplus="7.00000000000e+00">3.26000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/09/15</lastupdate>
+			<transittime errorminus="0.001500" errorplus="0.001500">2458691.532100</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Draco</constellation>
+</system>
