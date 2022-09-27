@@ -1,32 +1,81 @@
 <system>
 	<name>TOI-500</name>
-	<name>HIP 34269</name>
-	<name>GJ 9224</name>
-	<rightascension>07 06 17.23</rightascension>
-	<declination>-47 41 57.48</declination>
-	<distance>47.4</distance>
+	<rightascension>07 06 14</rightascension>
+	<declination>-47 35 16</declination>
+	<distance errorminus="0.0473000" errorplus="0.0473000">47.3924000</distance>
 	<star>
 		<name>TOI-500</name>
-		<name>HIP 34269</name>
-		<name>GJ 9224</name>
-		<radius errorminus="0.06" errorplus="0.06">0.75</radius>
-		<mass errorminus="0.25" errorplus="0.25">0.88</mass>
-		<temperature errorminus="50.0" errorplus="50.0">4621.0</temperature>
+		<radius errorminus="0.02" errorplus="0.02">0.68</radius>
+		<magV errorminus="0.0300000" errorplus="0.0300000">10.5400000</magV>
+		<magJ errorminus="0.0240000" errorplus="0.0240000">8.4030000</magJ>
+		<magH errorminus="0.0380000" errorplus="0.0380000">7.8480000</magH>
+		<magK errorminus="0.0260000" errorplus="0.0260000">7.7150000</magK>
+		<mass errorminus="0.02" errorplus="0.02">0.74</mass>
+		<temperature errorminus="100.00" errorplus="100.00">4440.00</temperature>
+		<metallicity errorminus="0.080" errorplus="0.080">0.120</metallicity>
+		<spectraltype>K6V</spectraltype>
+		<planet>
+			<name>TOI-500 c</name>
+			<eccentricity errorminus="0.050000" errorplus="0.074000">0.072000</eccentricity>
+			<periastron errorminus="197.0000" errorplus="100.0000">228.0000</periastron>
+			<period errorminus="0.00400000" errorplus="0.00400000">6.63560000</period>
+			<description>This planet was discovered by Serrano et al. 2022. This was a ground based discovery. The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00129" errorplus="0.00129">0.01583</mass>
+			<radius>0.187</radius>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/09/27</lastupdate>
+			<transittime errorminus="0.200000" errorplus="0.200000">2458561.960000</transittime>
+			<istransiting>1</istransiting>
+		</planet>
 		<planet>
 			<name>TOI-500 b</name>
-			<name>HIP 34269 b</name>
-			<name>GJ 9224 b</name>
-			<semimajoraxis errorminus="0.0011" errorplus="0.0011">0.0128</semimajoraxis>
-			<period errorminus="0.000001" errorplus="0.000001">0.5481579</period>
-			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
-			<mass errorminus="0.0022" errorplus="0.0041">0.005</mass>
-			<radius errorminus="0.0107" errorplus="0.0107">0.1035</radius>
-			<temperature errorminus="105.0" errorplus="105.0">1683.0</temperature>
+			<semimajoraxis errorminus="0.000400" errorplus="0.000410">0.011890</semimajoraxis>
+			<eccentricity errorminus="0.044000" errorplus="0.073000">0.063000</eccentricity>
+			<periastron errorminus="160.6000" errorplus="72.9000">228.5000</periastron>
+			<inclination errorminus="1.310" errorplus="2.530">82.090</inclination>
+			<period errorminus="0.00001900" errorplus="0.00001900">0.54817700</period>
+			<description>This planet was discovered by Giacalone et al. 2022. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00057" errorplus="0.00057">0.00447</mass>
+			<radius errorminus="0.005" errorplus="0.005">0.104</radius>
+			<temperature errorminus="4.10000000000e+01" errorplus="4.10000000000e+01">1.61700000000e+03</temperature>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
 			<discoveryyear>2022</discoveryyear>
 			<list>Confirmed planets</list>
-			<lastupdate>22/01/31</lastupdate>
+			<lastupdate>22/09/27</lastupdate>
+			<transittime errorminus="0.001700" errorplus="0.001700">2458468.390500</transittime>
+		</planet>
+		<planet>
+			<name>TOI-500 d</name>
+			<eccentricity errorminus="0.011000" errorplus="0.017000">0.016000</eccentricity>
+			<periastron errorminus="92.3000" errorplus="92.3000">189.6000</periastron>
+			<period errorminus="0.02000000" errorplus="0.02000000">26.23300000</period>
+			<description>This planet was discovered by Serrano et al. 2022. This was a ground based discovery. The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00277" errorplus="0.00277">0.10421</mass>
+			<radius>0.567</radius>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/09/27</lastupdate>
+			<transittime errorminus="0.200000" errorplus="0.220000">2458587.220000</transittime>
+			<istransiting>1</istransiting>
+		</planet>
+		<planet>
+			<name>TOI-500 e</name>
+			<eccentricity errorminus="0.051000" errorplus="0.068000">0.073000</eccentricity>
+			<periastron errorminus="80.7000" errorplus="228.2000">103.7000</periastron>
+			<period errorminus="0.28000000" errorplus="0.28000000">61.30000000</period>
+			<description>This planet was discovered by Serrano et al. 2022. This was a ground based discovery. The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00349" errorplus="0.00352">0.04735</mass>
+			<radius>0.356</radius>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/09/27</lastupdate>
+			<transittime errorminus="1.320000" errorplus="1.160000">2458865.820000</transittime>
+			<istransiting>1</istransiting>
 		</planet>
 	</star>
 	<constellation>Puppis</constellation>

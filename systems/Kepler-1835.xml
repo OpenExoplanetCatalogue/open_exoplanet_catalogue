@@ -1,0 +1,36 @@
+<system>
+	<name>Kepler-1835</name>
+	<rightascension>18 41 16</rightascension>
+	<declination>+43 59 08</declination>
+	<distance errorminus="50.8200000" errorplus="54.7000000">1404.3800000</distance>
+	<star>
+		<name>Kepler-1835</name>
+		<radius errorminus="0.14" errorplus="0.28">0.96</radius>
+		<magV errorminus="0.2060000" errorplus="0.2060000">15.6150000</magV>
+		<magJ errorminus="0.0270000" errorplus="0.0270000">14.1890000</magJ>
+		<magH errorminus="0.0440000" errorplus="0.0440000">13.8440000</magH>
+		<magK errorminus="0.0490000" errorplus="0.0490000">13.8360000</magK>
+		<magI>15.1500000</magI>
+		<mass errorminus="0.10" errorplus="0.12">0.92</mass>
+		<temperature errorminus="175.00" errorplus="158.00">5903.00</temperature>
+		<metallicity errorminus="0.300" errorplus="0.300">-0.260</metallicity>
+		<planet>
+			<name>Kepler-1835 b</name>
+			<semimajoraxis>0.099700</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>84.850</inclination>
+			<period>11.96409988</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.03850</mass>
+			<radius>0.315</radius>
+			<temperature>8.08000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/02/01</lastupdate>
+			<transittime errorminus="0.005120" errorplus="0.005120">2454966.158040</transittime>
+		</planet>
+	</star>
+	<constellation>Lyra</constellation>
+</system>

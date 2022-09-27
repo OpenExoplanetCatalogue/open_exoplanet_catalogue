@@ -1,0 +1,36 @@
+<system>
+	<name>Kepler-1766</name>
+	<rightascension>19 37 07</rightascension>
+	<declination>+46 40 31</declination>
+	<distance errorminus="4.8520000" errorplus="4.9460000">501.2290000</distance>
+	<star>
+		<name>Kepler-1766</name>
+		<radius errorminus="0.13" errorplus="0.14">1.04</radius>
+		<magV errorminus="0.0690000" errorplus="0.0690000">12.9600000</magV>
+		<magJ errorminus="0.0210000" errorplus="0.0210000">11.8290000</magJ>
+		<magH errorminus="0.0170000" errorplus="0.0170000">11.5470000</magH>
+		<magK errorminus="0.0170000" errorplus="0.0170000">11.4750000</magK>
+		<magI>12.7510000</magI>
+		<mass errorminus="0.06" errorplus="0.07">0.92</mass>
+		<temperature errorminus="117.00" errorplus="105.00">5868.00</temperature>
+		<metallicity errorminus="0.150" errorplus="0.150">-0.220</metallicity>
+		<planet>
+			<name>Kepler-1766 b</name>
+			<semimajoraxis>0.422900</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>88.600</inclination>
+			<period>105.01499940</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.01830</mass>
+			<radius>0.203</radius>
+			<temperature>4.06000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/02/01</lastupdate>
+			<transittime errorminus="0.003700" errorplus="0.003700">2455061.944550</transittime>
+		</planet>
+	</star>
+	<constellation>Cygnus</constellation>
+</system>

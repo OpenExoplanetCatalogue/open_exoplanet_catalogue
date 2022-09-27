@@ -1,0 +1,40 @@
+<system>
+	<name>GJ 3222</name>
+	<name>HD 21175</name>
+	<name>HIP 15799</name>
+	<rightascension>03 23 35</rightascension>
+	<declination>-40 04 34</declination>
+	<distance>18.2381700</distance>
+	<star>
+		<name>GJ 3222</name>
+		<name>HD 21175</name>
+		<name>HIP 15799</name>
+		<radius>0.93</radius>
+		<magV errorminus="0.0300000" errorplus="0.0300000">6.9000000</magV>
+		<magJ errorminus="0.0210000" errorplus="0.0210000">5.3330000</magJ>
+		<magH errorminus="0.0380000" errorplus="0.0380000">4.9480000</magH>
+		<magK errorminus="0.0160000" errorplus="0.0160000">4.7670000</magK>
+		<mass errorminus="0.11" errorplus="0.11">0.89</mass>
+		<temperature>5257.46</temperature>
+		<metallicity errorminus="0.060" errorplus="0.060">0.160</metallicity>
+		<spectraltype>K0V</spectraltype>
+		<planet>
+			<name>GJ 3222 b</name>
+			<name>HD 21175 b</name>
+			<name>HIP 15799 b</name>
+			<semimajoraxis errorminus="0.004053" errorplus="0.003764">0.091179</semimajoraxis>
+			<eccentricity errorminus="0.079565" errorplus="0.042176">0.929006</eccentricity>
+			<periastron errorminus="27.7750" errorplus="24.7203">290.8950</periastron>
+			<period errorminus="0.00231129" errorplus="0.00284829">10.66668640</period>
+			<description>This planet was discovered by Feng et al. 2022. This was a ground based discovery. The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00725" errorplus="0.00951">0.03694</mass>
+			<radius>0.308</radius>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/09/27</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Eridanus</constellation>
+</system>

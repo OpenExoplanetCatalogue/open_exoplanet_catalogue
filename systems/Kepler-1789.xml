@@ -1,0 +1,36 @@
+<system>
+	<name>Kepler-1789</name>
+	<rightascension>18 51 27</rightascension>
+	<declination>+41 47 48</declination>
+	<distance errorminus="7.7220000" errorplus="7.9180000">611.4610000</distance>
+	<star>
+		<name>Kepler-1789</name>
+		<radius errorminus="0.05" errorplus="0.10">0.89</radius>
+		<magV errorminus="0.1140000" errorplus="0.1140000">14.4490000</magV>
+		<magJ errorminus="0.0270000" errorplus="0.0270000">13.1400000</magJ>
+		<magH errorminus="0.0320000" errorplus="0.0320000">12.7370000</magH>
+		<magK errorminus="0.0320000" errorplus="0.0320000">12.7350000</magK>
+		<magI>14.0930000</magI>
+		<mass errorminus="0.05" errorplus="0.05">0.92</mass>
+		<temperature errorminus="81.00" errorplus="81.00">5436.00</temperature>
+		<metallicity errorminus="0.150" errorplus="0.150">0.120</metallicity>
+		<planet>
+			<name>Kepler-1789 b</name>
+			<semimajoraxis>0.354300</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.190</inclination>
+			<period>80.23190308</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.02640</mass>
+			<radius>0.253</radius>
+			<temperature>3.80000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/02/01</lastupdate>
+			<transittime errorminus="0.004000" errorplus="0.004000">2454995.390200</transittime>
+		</planet>
+	</star>
+	<constellation>Lyra</constellation>
+</system>

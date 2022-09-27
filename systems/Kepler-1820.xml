@@ -1,0 +1,36 @@
+<system>
+	<name>Kepler-1820</name>
+	<rightascension>19 46 51</rightascension>
+	<declination>+48 16 20</declination>
+	<distance errorminus="55.1500000" errorplus="59.7000000">1425.3900000</distance>
+	<star>
+		<name>Kepler-1820</name>
+		<radius errorminus="0.09" errorplus="0.26">0.93</radius>
+		<magV errorminus="0.4230000" errorplus="0.4230000">15.7590000</magV>
+		<magJ errorminus="0.0340000" errorplus="0.0340000">14.4850000</magJ>
+		<magH errorminus="0.0360000" errorplus="0.0360000">14.1070000</magH>
+		<magK errorminus="0.0580000" errorplus="0.0580000">14.1490000</magK>
+		<magI>15.4990000</magI>
+		<mass errorminus="0.14" errorplus="0.11">1.05</mass>
+		<temperature errorminus="223.00" errorplus="182.00">5841.00</temperature>
+		<metallicity errorminus="0.300" errorplus="0.250">0.070</metallicity>
+		<planet>
+			<name>Kepler-1820 b</name>
+			<semimajoraxis>0.196400</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.380</inclination>
+			<period>31.03249931</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.03120</mass>
+			<radius>0.278</radius>
+			<temperature>5.61000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/02/01</lastupdate>
+			<transittime errorminus="0.005250" errorplus="0.005250">2454985.269400</transittime>
+		</planet>
+	</star>
+	<constellation>Cygnus</constellation>
+</system>

@@ -1,0 +1,36 @@
+<system>
+	<name>Kepler-1969</name>
+	<rightascension>19 39 08</rightascension>
+	<declination>+49 29 31</declination>
+	<distance errorminus="41.2700000" errorplus="44.2400000">1204.5400000</distance>
+	<star>
+		<name>Kepler-1969</name>
+		<radius errorminus="0.11" errorplus="0.32">1.01</radius>
+		<magV errorminus="0.0920000" errorplus="0.0920000">15.8510000</magV>
+		<magJ errorminus="0.0270000" errorplus="0.0270000">14.4880000</magJ>
+		<magH errorminus="0.0350000" errorplus="0.0350000">14.2470000</magH>
+		<magK errorminus="0.0780000" errorplus="0.0780000">14.2350000</magK>
+		<magI>15.5060000</magI>
+		<mass errorminus="0.16" errorplus="0.13">1.11</mass>
+		<temperature errorminus="211.00" errorplus="190.00">6046.00</temperature>
+		<metallicity errorminus="0.300" errorplus="0.250">0.070</metallicity>
+		<planet>
+			<name>Kepler-1969 b</name>
+			<semimajoraxis>0.071700</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.470</inclination>
+			<period>6.64752007</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.01090</mass>
+			<radius>0.150</radius>
+			<temperature>9.99000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/02/01</lastupdate>
+			<transittime errorminus="0.005170" errorplus="0.005170">2454970.133710</transittime>
+		</planet>
+	</star>
+	<constellation>Cygnus</constellation>
+</system>

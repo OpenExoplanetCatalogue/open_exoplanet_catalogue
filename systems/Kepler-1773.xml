@@ -1,0 +1,36 @@
+<system>
+	<name>Kepler-1773</name>
+	<rightascension>19 04 54</rightascension>
+	<declination>+38 15 29</declination>
+	<distance errorminus="9.5680000" errorplus="9.8400000">681.2550000</distance>
+	<star>
+		<name>Kepler-1773</name>
+		<radius errorminus="0.13" errorplus="0.22">1.30</radius>
+		<magV errorminus="0.0920000" errorplus="0.0920000">13.0850000</magV>
+		<magJ errorminus="0.0200000" errorplus="0.0200000">11.9700000</magJ>
+		<magH errorminus="0.0220000" errorplus="0.0220000">11.7530000</magH>
+		<magK errorminus="0.0200000" errorplus="0.0200000">11.6920000</magK>
+		<magI errorminus="0.0106880" errorplus="0.0106880">14.8532000</magI>
+		<mass errorminus="0.09" errorplus="0.09">1.24</mass>
+		<temperature errorminus="134.00" errorplus="110.00">6183.00</temperature>
+		<metallicity errorminus="0.150" errorplus="0.150">0.260</metallicity>
+		<planet>
+			<name>Kepler-1773 b</name>
+			<semimajoraxis>0.248900</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>88.570</inclination>
+			<period>40.80970001</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.03800</mass>
+			<radius>0.313</radius>
+			<temperature>6.23000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/02/01</lastupdate>
+			<transittime errorminus="0.001930" errorplus="0.001930">2454975.691680</transittime>
+		</planet>
+	</star>
+	<constellation>Lyra</constellation>
+</system>

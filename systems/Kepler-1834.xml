@@ -1,0 +1,36 @@
+<system>
+	<name>Kepler-1834</name>
+	<rightascension>19 38 40</rightascension>
+	<declination>+39 47 02</declination>
+	<distance errorminus="8.0630000" errorplus="8.3260000">500.3950000</distance>
+	<star>
+		<name>Kepler-1834</name>
+		<radius errorminus="0.05" errorplus="0.03">0.79</radius>
+		<magV errorminus="0.0800000" errorplus="0.0800000">15.1800000</magV>
+		<magJ errorminus="0.0270000" errorplus="0.0270000">13.3100000</magJ>
+		<magH errorminus="0.0330000" errorplus="0.0330000">12.8360000</magH>
+		<magK errorminus="0.0380000" errorplus="0.0380000">12.7220000</magK>
+		<magI>14.5640000</magI>
+		<mass errorminus="0.03" errorplus="0.05">0.77</mass>
+		<temperature errorminus="76.00" errorplus="76.00">4821.00</temperature>
+		<metallicity errorminus="0.150" errorplus="0.150">0.160</metallicity>
+		<planet>
+			<name>Kepler-1834 b</name>
+			<semimajoraxis>0.049600</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.690</inclination>
+			<period>4.60301018</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.00858</mass>
+			<radius>0.130</radius>
+			<temperature>8.48000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/02/01</lastupdate>
+			<transittime errorminus="0.002870" errorplus="0.002870">2454966.223130</transittime>
+		</planet>
+	</star>
+	<constellation>Cygnus</constellation>
+</system>

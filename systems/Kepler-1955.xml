@@ -1,0 +1,36 @@
+<system>
+	<name>Kepler-1955</name>
+	<rightascension>19 58 08</rightascension>
+	<declination>+40 28 40</declination>
+	<distance errorminus="5.5300000" errorplus="5.6680000">449.3510000</distance>
+	<star>
+		<name>Kepler-1955</name>
+		<radius errorminus="0.22" errorplus="0.22">1.29</radius>
+		<magV errorminus="0.0690000" errorplus="0.0690000">12.6090000</magV>
+		<magJ errorminus="0.0220000" errorplus="0.0220000">11.4290000</magJ>
+		<magH errorminus="0.0230000" errorplus="0.0230000">11.1480000</magH>
+		<magK errorminus="0.0200000" errorplus="0.0200000">11.0800000</magK>
+		<magI>12.3270000</magI>
+		<mass errorminus="0.07" errorplus="0.10">1.05</mass>
+		<temperature errorminus="117.00" errorplus="105.00">5825.00</temperature>
+		<metallicity errorminus="0.150" errorplus="0.150">0.140</metallicity>
+		<planet>
+			<name>Kepler-1955 b</name>
+			<semimajoraxis>0.117000</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.290</inclination>
+			<period>14.26519966</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.00531</mass>
+			<radius>0.104</radius>
+			<temperature>8.53000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/02/01</lastupdate>
+			<transittime errorminus="0.005280" errorplus="0.005280">2454976.220240</transittime>
+		</planet>
+	</star>
+	<constellation>Cygnus</constellation>
+</system>

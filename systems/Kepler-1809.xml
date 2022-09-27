@@ -1,0 +1,36 @@
+<system>
+	<name>Kepler-1809</name>
+	<rightascension>19 21 04</rightascension>
+	<declination>+40 32 55</declination>
+	<distance errorminus="3.3295000" errorplus="3.3295000">409.6020000</distance>
+	<star>
+		<name>Kepler-1809</name>
+		<radius errorminus="0.02" errorplus="0.05">0.72</radius>
+		<magV errorminus="0.1500000" errorplus="0.1500000">14.2710000</magV>
+		<magJ errorminus="0.0250000" errorplus="0.0250000">12.6620000</magJ>
+		<magH errorminus="0.0230000" errorplus="0.0230000">12.1560000</magH>
+		<magK>12.1600000</magK>
+		<magI>13.7810000</magI>
+		<mass errorminus="0.06" errorplus="0.03">0.81</mass>
+		<temperature errorminus="78.00" errorplus="78.00">4901.00</temperature>
+		<metallicity errorminus="0.150" errorplus="0.150">0.040</metallicity>
+		<planet>
+			<name>Kepler-1809 b</name>
+			<semimajoraxis>0.043500</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>88.700</inclination>
+			<period>3.75729990</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.00912</mass>
+			<radius>0.135</radius>
+			<temperature>8.77000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/02/01</lastupdate>
+			<transittime errorminus="0.001410" errorplus="0.001410">2454966.960370</transittime>
+		</planet>
+	</star>
+	<constellation>Lyra</constellation>
+</system>

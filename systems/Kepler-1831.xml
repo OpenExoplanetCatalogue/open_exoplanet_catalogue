@@ -1,0 +1,36 @@
+<system>
+	<name>Kepler-1831</name>
+	<rightascension>19 41 13</rightascension>
+	<declination>+49 35 21</declination>
+	<distance errorminus="20.1900000" errorplus="20.9700000">1053.4900000</distance>
+	<star>
+		<name>Kepler-1831</name>
+		<radius errorminus="0.10" errorplus="0.30">1.01</radius>
+		<magV errorminus="0.1260000" errorplus="0.1260000">15.1580000</magV>
+		<magJ errorminus="0.0270000" errorplus="0.0270000">13.9010000</magJ>
+		<magH errorminus="0.0300000" errorplus="0.0300000">13.6120000</magH>
+		<magK errorminus="0.0450000" errorplus="0.0450000">13.5380000</magK>
+		<magI>14.8510000</magI>
+		<mass errorminus="0.15" errorplus="0.13">1.12</mass>
+		<temperature errorminus="217.00" errorplus="181.00">6063.00</temperature>
+		<metallicity errorminus="0.300" errorplus="0.250">0.070</metallicity>
+		<planet>
+			<name>Kepler-1831 b</name>
+			<semimajoraxis>0.065500</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.590</inclination>
+			<period>5.78387022</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.01430</mass>
+			<radius>0.176</radius>
+			<temperature>1.05100000000e+03</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/02/01</lastupdate>
+			<transittime errorminus="0.001960" errorplus="0.001960">2454968.579800</transittime>
+		</planet>
+	</star>
+	<constellation>Cygnus</constellation>
+</system>

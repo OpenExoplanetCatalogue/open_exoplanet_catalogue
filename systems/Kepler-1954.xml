@@ -1,0 +1,36 @@
+<system>
+	<name>Kepler-1954</name>
+	<rightascension>19 52 01</rightascension>
+	<declination>+43 21 17</declination>
+	<distance errorminus="62.1900000" errorplus="68.2600000">1373.8300000</distance>
+	<star>
+		<name>Kepler-1954</name>
+		<radius errorminus="0.08" errorplus="0.25">0.85</radius>
+		<magV errorminus="0.1950000" errorplus="0.1950000">15.8750000</magV>
+		<magJ errorminus="0.0330000" errorplus="0.0330000">14.3970000</magJ>
+		<magH errorminus="0.0380000" errorplus="0.0380000">14.0660000</magH>
+		<magK errorminus="0.0570000" errorplus="0.0570000">13.9780000</magK>
+		<magI>15.5030000</magI>
+		<mass errorminus="0.11" errorplus="0.11">0.94</mass>
+		<temperature errorminus="174.00" errorplus="174.00">5840.00</temperature>
+		<metallicity errorminus="0.300" errorplus="0.300">-0.240</metallicity>
+		<planet>
+			<name>Kepler-1954 b</name>
+			<semimajoraxis>0.062500</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>88.750</inclination>
+			<period>5.88343000</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.01230</mass>
+			<radius>0.161</radius>
+			<temperature>9.49000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/02/01</lastupdate>
+			<transittime errorminus="0.008370" errorplus="0.008370">2454969.950440</transittime>
+		</planet>
+	</star>
+	<constellation>Cygnus</constellation>
+</system>

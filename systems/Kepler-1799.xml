@@ -1,0 +1,36 @@
+<system>
+	<name>Kepler-1799</name>
+	<rightascension>19 13 14</rightascension>
+	<declination>+51 28 42</declination>
+	<distance errorminus="140.8500000" errorplus="160.3700000">2254.6900000</distance>
+	<star>
+		<name>Kepler-1799</name>
+		<radius errorminus="0.09" errorplus="0.26">0.92</radius>
+		<magV errorminus="0.2630000" errorplus="0.2630000">15.9900000</magV>
+		<magJ errorminus="0.0290000" errorplus="0.0290000">14.6360000</magJ>
+		<magH errorminus="0.0460000" errorplus="0.0460000">14.2200000</magH>
+		<magK errorminus="0.0670000" errorplus="0.0670000">14.2370000</magK>
+		<magI>15.6190000</magI>
+		<mass errorminus="0.13" errorplus="0.12">1.02</mass>
+		<temperature errorminus="192.00" errorplus="157.00">5831.00</temperature>
+		<metallicity errorminus="0.300" errorplus="0.250">0.000</metallicity>
+		<planet>
+			<name>Kepler-1799 b</name>
+			<semimajoraxis>0.102800</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.990</inclination>
+			<period>11.92969990</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.05010</mass>
+			<radius>0.368</radius>
+			<temperature>7.70000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>22/02/01</lastupdate>
+			<transittime errorminus="0.004640" errorplus="0.004640">2454969.669190</transittime>
+		</planet>
+	</star>
+	<constellation>Cygnus</constellation>
+</system>
