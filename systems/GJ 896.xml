@@ -1,0 +1,64 @@
+<system>
+	<name>GJ 896</name>
+	<name>EQ Peg</name>
+	<name>BD+19 5116</name>
+	<name>HIP 116132</name>
+	<rightascension>23 31 52.17898</rightascension>
+	<declination>+19 56 14.1505</declination>
+	<distance errorminus="0.0066" errorplus="0.0066">6.2545</distance>
+	<binary>
+		<period errorminus="1.98" errorplus="1.98">83664.63</period>
+		<periastrontime errorminus="1.19" errorplus="1.19">2401891.34</periastrontime>
+		<eccentricity errorminus="0.000053" errorplus="0.000053">0.108047</eccentricity>
+		<periastron errorminus="0.0045" errorplus="0.0045">307.1416</periastron>
+		<ascendingnode errorminus="0.0034" errorplus="0.0034">255.0919</ascendingnode>
+		<inclination errorminus="0.010" errorplus="0.010">130.065</inclination>
+		<semimajoraxis errorminus="0.033" errorplus="0.033">31.635</semimajoraxis>
+		<star>
+			<name>GJ 896 A</name>
+			<name>EQ Peg A</name>
+			<name>BD+19 5116 A</name>
+			<name>TYC 1723-23-1</name>
+			<name>Gaia DR3 2824770686019003904</name>
+			<mass errorminus="0.00092" errorplus="0.00092">0.43599</mass>
+			<magV errorminus="0.02" errorplus="0.02">10.173</magV>
+			<magJ errorminus="0.024" errorplus="0.024">6.162</magJ>
+			<magH errorminus="0.021" errorplus="0.021">5.575</magH>
+			<magK errorminus="0.018" errorplus="0.018">5.326</magK>
+			<spectraltype>M3.5Ve</spectraltype>
+			<planet>
+				<name>GJ 896 A b</name>
+				<name>EQ Peg A b</name>
+				<name>BD+19 5116 A b</name>
+				<period errorminus="1.47" errorplus="1.47">284.39</period>
+				<periastrontime errorminus="17.26" errorplus="17.26">2455702.65</periastrontime>
+				<eccentricity errorminus="0.19" errorplus="0.19">0.35</eccentricity>
+				<periastron errorminus="11.81" errorplus="11.81">353.11</periastron>
+				<ascendingnode errorminus="9.60" errorplus="9.60">45.62</ascendingnode>
+				<inclination errorminus="25.61" errorplus="25.61">69.20</inclination>
+				<mass errorminus="0.57" errorplus="0.57">2.26</mass>
+				<semimajoraxis errorminus="0.00068" errorplus="0.00068">0.64282</semimajoraxis>
+				<description>EQ Pegasi (GJ 896) is a nearby binary system of two red dwarf stars, with a Jovian planet in orbit around the primary star, discovered using radio astrometry.</description>
+				<discoverymethod>astrometry</discoverymethod>
+				<istransiting>0</istransiting>
+				<discoveryyear>2022</discoveryyear>
+				<list>Confirmed planets</list>
+				<list>Planets in binary systems, S-type</list>
+				<lastupdate>22/09/29</lastupdate>
+			</planet>
+		</star>
+		<star>
+			<name>GJ 896 B</name>
+			<name>EQ Peg B</name>
+			<name>BD+19 5116 B</name>
+			<name>TYC 1723-23-2</name>
+			<name>Gaia DR3 2824770686019004032</name>
+			<mass errorminus="0.00025" errorplus="0.00025">0.16527</mass>
+			<magJ errorminus="0.081" errorplus="0.081">7.101</magJ>
+			<magH errorminus="0.049" errorplus="0.049">6.555</magH>
+			<magK errorminus="0.042" errorplus="0.042">6.262</magK>
+			<spectraltype>M4.0Ve</spectraltype>
+		</star>
+	</binary>
+	<constellation>Pegasus</constellation>
+</system>
