@@ -3,19 +3,17 @@
 	<rightascension>08 09 59.04</rightascension>
 	<declination>+44 34 21.61</declination>
 	<distance errorminus="5.0" errorplus="5.0">25.0</distance>
-	<star>
+	<planet>
 		<name>2MASS J0809+4434</name>
-		<planet>
-			<name>2MASS J0809+4434</name>
-			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
-			<mass errorminus="8.0" errorplus="8.0">13.0</mass>
-			<radius errorminus="0.11" errorplus="0.11">1.35</radius>
-			<temperature errorminus="74.0" errorplus="74.0">1253.0</temperature>
-			<discoverymethod>imaging</discoverymethod>
-			<discoveryyear>2022</discoveryyear>
-			<list>Confirmed planets</list>
-			<lastupdate>22/01/23</lastupdate>
-		</planet>
-	</star>
+		<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+		<mass errorminus="8.0" errorplus="8.0">13.0</mass>
+		<radius errorminus="0.11" errorplus="0.11">1.35</radius>
+		<temperature errorminus="74.0" errorplus="74.0">1253.0</temperature>
+		<discoverymethod>imaging</discoverymethod>
+		<discoveryyear>2022</discoveryyear>
+		<list>Confirmed planets</list>
+		<list>Orphan planets</list>
+		<lastupdate>22/01/23</lastupdate>
+	</planet>
 	<constellation>Lynx</constellation>
 </system>

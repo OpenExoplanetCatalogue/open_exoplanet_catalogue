@@ -3,20 +3,18 @@
 	<rightascension>20 02 50.71</rightascension>
 	<declination>-05 21 52.58</declination>
 	<distance errorminus="0.4607" errorplus="0.4607">17.6316</distance>
-	<star>
+	<planet>
 		<name>2MASS J2002-0521</name>
-		<planet>
-			<name>2MASS J2002-0521</name>
-			<name>2MASS J20025073-0521524</name>
-			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
-			<mass errorminus="8.0" errorplus="8.0">13.0</mass>
-			<radius errorminus="0.11" errorplus="0.11">1.36</radius>
-			<temperature errorminus="56.0" errorplus="56.0">1301.0</temperature>
-			<discoverymethod>imaging</discoverymethod>
-			<discoveryyear>2022</discoveryyear>
-			<list>Confirmed planets</list>
-			<lastupdate>22/01/23</lastupdate>
-		</planet>
-	</star>
+		<name>2MASS J20025073-0521524</name>
+		<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+		<mass errorminus="8.0" errorplus="8.0">13.0</mass>
+		<radius errorminus="0.11" errorplus="0.11">1.36</radius>
+		<temperature errorminus="56.0" errorplus="56.0">1301.0</temperature>
+		<discoverymethod>imaging</discoverymethod>
+		<discoveryyear>2022</discoveryyear>
+		<list>Confirmed planets</list>
+		<list>Orphan planets</list>
+		<lastupdate>22/01/23</lastupdate>
+	</planet>
 	<constellation>Aquila</constellation>
 </system>

@@ -3,20 +3,18 @@
 	<rightascension>00 30 30.13</rightascension>
 	<declination>-14 50 33.40</declination>
 	<distance errorminus="3.3" errorplus="3.3">26.7</distance>
-	<star>
+	<planet>
 		<name>2MASS J0030-1450</name>
-		<planet>
-			<name>2MASS J0030-1450</name>
-			<name>2MASS J0030300-145033</name>
-			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
-			<mass errorminus="2.0" errorplus="2.0">10.0</mass>
-			<radius errorminus="0.04" errorplus="0.04">1.36</radius>
-			<temperature errorminus="78.0" errorplus="78.0">1264.0</temperature>
-			<discoverymethod>imaging</discoverymethod>
-			<discoveryyear>2022</discoveryyear>
-			<list>Confirmed planets</list>
-			<lastupdate>22/01/23</lastupdate>
-		</planet>
-	</star>
+		<name>2MASS J0030300-145033</name>
+		<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+		<mass errorminus="2.0" errorplus="2.0">10.0</mass>
+		<radius errorminus="0.04" errorplus="0.04">1.36</radius>
+		<temperature errorminus="78.0" errorplus="78.0">1264.0</temperature>
+		<discoverymethod>imaging</discoverymethod>
+		<discoveryyear>2022</discoveryyear>
+		<list>Confirmed planets</list>
+		<list>Orphan planets</list>
+		<lastupdate>22/01/23</lastupdate>
+	</planet>
 	<constellation>Cetus</constellation>
 </system>

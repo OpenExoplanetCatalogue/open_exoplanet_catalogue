@@ -3,21 +3,19 @@
 	<rightascension>22 16 28.62</rightascension>
 	<declination>+19 52 48.10</declination>
 	<distance errorminus="3.2" errorplus="3.2">30.7</distance>
-	<star>
+	<planet>
 		<name>WISE J2216+1952</name>
-		<planet>
-			<name>WISE J2216+1952</name>
-			<name>WISE J221628.62+195248.1</name>
-			<name>PSO J334.1193+19.8800</name>
-			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
-			<mass errorminus="1.0" errorplus="1.0">5.0</mass>
-			<radius errorminus="0.02" errorplus="0.02">1.32</radius>
-			<temperature errorminus="41.0" errorplus="41.0">909.0</temperature>
-			<discoverymethod>imaging</discoverymethod>
-			<discoveryyear>2022</discoveryyear>
-			<list>Confirmed planets</list>
-			<lastupdate>22/01/23</lastupdate>
-		</planet>
-	</star>
+		<name>WISE J221628.62+195248.1</name>
+		<name>PSO J334.1193+19.8800</name>
+		<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+		<mass errorminus="1.0" errorplus="1.0">5.0</mass>
+		<radius errorminus="0.02" errorplus="0.02">1.32</radius>
+		<temperature errorminus="41.0" errorplus="41.0">909.0</temperature>
+		<discoverymethod>imaging</discoverymethod>
+		<discoveryyear>2022</discoveryyear>
+		<list>Confirmed planets</list>
+		<list>Orphan planets</list>
+		<lastupdate>22/01/23</lastupdate>
+	</planet>
 	<constellation>Pegasus</constellation>
 </system>
