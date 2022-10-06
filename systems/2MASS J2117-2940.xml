@@ -3,20 +3,18 @@
 	<rightascension>21 17 14.31</rightascension>
 	<declination>-29 40 03.42</declination>
 	<distance errorminus="1.7" errorplus="1.7">16.9</distance>
-	<star>
+	<planet>
 		<name>2MASS J2117-2940</name>
-		<planet>
-			<name>2MASS J2117-2940</name>
-			<name>2MASS J21171431-2940034</name>
-			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
-			<mass errorminus="2.0" errorplus="2.0">7.0</mass>
-			<radius errorminus="0.05" errorplus="0.05">1.38</radius>
-			<temperature errorminus="80.0" errorplus="80.0">1192.0</temperature>
-			<discoverymethod>imaging</discoverymethod>
-			<discoveryyear>2022</discoveryyear>
-			<list>Confirmed planets</list>
-			<lastupdate>22/01/23</lastupdate>
-		</planet>
-	</star>
+		<name>2MASS J21171431-2940034</name>
+		<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+		<mass errorminus="2.0" errorplus="2.0">7.0</mass>
+		<radius errorminus="0.05" errorplus="0.05">1.38</radius>
+		<temperature errorminus="80.0" errorplus="80.0">1192.0</temperature>
+		<discoverymethod>imaging</discoverymethod>
+		<discoveryyear>2022</discoveryyear>
+		<list>Confirmed planets</list>
+		<list>Orphan planets</list>
+		<lastupdate>22/01/23</lastupdate>
+	</planet>
 	<constellation>Microscopium</constellation>
 </system>

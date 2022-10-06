@@ -3,19 +3,17 @@
 	<rightascension>08 30 11.95</rightascension>
 	<declination>+28 37 16.00</declination>
 	<distance errorminus="1.5" errorplus="2.0">11.1</distance>
-	<star>
+	<planet>
 		<name>WISEA J083011.95+283716.0</name>
-		<planet>
-			<name>WISEA J083011.95+283716.0</name>
-			<name>WISEA  J0830+2837</name>
-			<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
-			<mass errorminus="4.5" errorplus="4.5">8.5</mass>
-			<temperature>350.0</temperature>
-			<discoverymethod>imaging</discoverymethod>
-			<discoveryyear>2020</discoveryyear>
-			<list>Confirmed planets</list>
-			<lastupdate>21/10/19</lastupdate>
-		</planet>
-	</star>
+		<name>WISEA  J0830+2837</name>
+		<description>The parameters listed here were imported into the Open Exoplanet Catalogue from the exoplanet.eu website.</description>
+		<mass errorminus="4.5" errorplus="4.5">8.5</mass>
+		<temperature>350.0</temperature>
+		<discoverymethod>imaging</discoverymethod>
+		<discoveryyear>2020</discoveryyear>
+		<list>Confirmed planets</list>
+		<list>Orphan planets</list>
+		<lastupdate>21/10/19</lastupdate>
+	</planet>
 	<constellation>Cancer</constellation>
 </system>
