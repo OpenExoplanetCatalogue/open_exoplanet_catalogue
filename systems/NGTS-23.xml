@@ -1,0 +1,37 @@
+<system>
+	<name>NGTS-23</name>
+	<rightascension>04 41 44</rightascension>
+	<declination>-40 02 40</declination>
+	<distance errorminus="19.2100000" errorplus="19.9100000">1074.9500000</distance>
+	<star>
+		<name>NGTS-23</name>
+		<radius errorminus="0.03" errorplus="0.03">1.24</radius>
+		<magV errorminus="0.1600000" errorplus="0.1600000">14.1260000</magV>
+		<magJ errorminus="0.0260000" errorplus="0.0260000">13.0560000</magJ>
+		<magH errorminus="0.0260000" errorplus="0.0260000">12.7970000</magH>
+		<magK errorminus="0.0360000" errorplus="0.0360000">12.7300000</magK>
+		<mass errorminus="0.07" errorplus="0.06">1.01</mass>
+		<temperature errorminus="64.00" errorplus="64.00">6057.00</temperature>
+		<metallicity errorminus="0.110" errorplus="0.110">-0.260</metallicity>
+		<spectraltype>F9V</spectraltype>
+		<planet>
+			<name>NGTS-23 b</name>
+			<semimajoraxis errorminus="0.012000" errorplus="0.012000">0.050400</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination errorminus="0.640" errorplus="0.530">89.120</inclination>
+			<period errorminus="0.00000410" errorplus="0.00000410">4.07643260</period>
+			<description>This planet was discovered by Jackson et al. 2022. This was a ground based discovery. The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.09700" errorplus="0.09700">0.61300</mass>
+			<radius errorminus="0.030" errorplus="0.030">1.267</radius>
+			<temperature errorminus="1.60000000000e+01" errorplus="1.70000000000e+01">1.32700000000e+03</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/01/12</lastupdate>
+			<transittime errorminus="0.000480" errorplus="0.000480">2458431.771340</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Caelum</constellation>
+</system>

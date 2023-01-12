@@ -1,0 +1,38 @@
+<system>
+	<name>NGTS-21</name>
+	<rightascension>20 45 02</rightascension>
+	<declination>-35 25 40</declination>
+	<distance errorminus="15.1900000" errorplus="15.9950000">592.8910000</distance>
+	<star>
+		<name>NGTS-21</name>
+		<radius errorminus="0.04" errorplus="0.04">0.86</radius>
+		<magV errorminus="0.1030000" errorplus="0.1030000">15.5060000</magV>
+		<magJ errorminus="0.0270000" errorplus="0.0270000">13.6220000</magJ>
+		<magH errorminus="0.0280000" errorplus="0.0280000">13.1050000</magH>
+		<magK errorminus="0.0290000" errorplus="0.0290000">12.9510000</magK>
+		<mass errorminus="0.04" errorplus="0.04">0.72</mass>
+		<temperature errorminus="41.00" errorplus="41.00">4660.00</temperature>
+		<metallicity errorminus="0.070" errorplus="0.070">-0.260</metallicity>
+		<spectraltype>K3V</spectraltype>
+		<planet>
+			<name>NGTS-21 b</name>
+			<semimajoraxis errorminus="0.000500" errorplus="0.000500">0.023600</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<periastron>90.0000</periastron>
+			<inclination errorminus="0.440" errorplus="0.440">83.850</inclination>
+			<period errorminus="0.00000160" errorplus="0.00000160">1.54338970</period>
+			<description>This planet was discovered by Alves et al. 2022. This was a ground based discovery. The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.21000" errorplus="0.21000">2.36000</mass>
+			<radius errorminus="0.030" errorplus="0.030">1.330</radius>
+			<temperature errorminus="1.50000000000e+01" errorplus="1.50000000000e+01">1.35700000000e+03</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/01/12</lastupdate>
+			<transittime errorminus="0.000670" errorplus="0.000670">2458228.778530</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Microscopium</constellation>
+</system>

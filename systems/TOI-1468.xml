@@ -1,0 +1,51 @@
+<system>
+	<name>TOI-1468</name>
+	<rightascension>01 06 37</rightascension>
+	<declination>+19 13 30</declination>
+	<distance errorminus="0.0467000" errorplus="0.0469000">24.7399000</distance>
+	<star>
+		<name>TOI-1468</name>
+		<radius errorminus="0.01" errorplus="0.01">0.34</radius>
+		<magV errorminus="0.2000000" errorplus="0.2000000">12.5000000</magV>
+		<magJ errorminus="0.0210000" errorplus="0.0210000">9.3430000</magJ>
+		<magH errorminus="0.0210000" errorplus="0.0210000">8.7820000</magH>
+		<magK errorminus="0.0170000" errorplus="0.0170000">8.4970000</magK>
+		<mass errorminus="0.01" errorplus="0.01">0.34</mass>
+		<temperature errorminus="25.00" errorplus="25.00">3496.00</temperature>
+		<metallicity errorminus="0.070" errorplus="0.070">-0.040</metallicity>
+		<spectraltype>M3.0V</spectraltype>
+		<planet>
+			<name>TOI-1468 c</name>
+			<inclination errorminus="0.035" errorplus="0.032">89.335</inclination>
+			<period errorminus="0.00003300" errorplus="0.00003400">15.53248200</period>
+			<description>This planet was discovered by Chaturvedi et al. 2022. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00214" errorplus="0.00211">0.02089</mass>
+			<radius errorminus="0.004" errorplus="0.004">0.184</radius>
+			<temperature errorminus="3.40000000000e+00" errorplus="3.70000000000e+00">3.37500000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/01/12</lastupdate>
+			<transittime errorminus="0.001200" errorplus="0.001200">2458766.926900</transittime>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>TOI-1468 b</name>
+			<inclination errorminus="0.290" errorplus="0.340">88.470</inclination>
+			<period errorminus="0.00000260" errorplus="0.00000240">1.88051360</period>
+			<description>This planet was discovered by Chaturvedi et al. 2022. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00076" errorplus="0.00076">0.01010</mass>
+			<radius errorminus="0.003" errorplus="0.003">0.114</radius>
+			<temperature errorminus="6.90000000000e+00" errorplus="7.40000000000e+00">6.82200000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/01/12</lastupdate>
+			<transittime errorminus="0.000690" errorplus="0.000700">2458765.680790</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Pisces</constellation>
+</system>

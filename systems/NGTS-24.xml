@@ -1,0 +1,37 @@
+<system>
+	<name>NGTS-24</name>
+	<rightascension>11 14 15</rightascension>
+	<declination>-37 54 36</declination>
+	<distance errorminus="10.7090000" errorplus="11.0480000">683.0620000</distance>
+	<star>
+		<name>NGTS-24</name>
+		<radius errorminus="0.09" errorplus="0.03">1.64</radius>
+		<magV errorminus="0.1030000" errorplus="0.1030000">13.2140000</magV>
+		<magJ errorminus="0.0230000" errorplus="0.0230000">11.8790000</magJ>
+		<magH errorminus="0.0230000" errorplus="0.0230000">11.5770000</magH>
+		<magK errorminus="0.0210000" errorplus="0.0210000">11.5100000</magK>
+		<mass errorminus="0.21" errorplus="0.05">1.26</mass>
+		<temperature errorminus="8.00" errorplus="93.00">5820.00</temperature>
+		<metallicity errorminus="0.030" errorplus="0.180">0.270</metallicity>
+		<spectraltype>G2IV</spectraltype>
+		<planet>
+			<name>NGTS-24 b</name>
+			<semimajoraxis errorminus="0.003000" errorplus="0.002800">0.047900</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination errorminus="0.610" errorplus="0.520">82.610</inclination>
+			<period errorminus="0.00000700" errorplus="0.00000700">3.46787960</period>
+			<description>This planet was discovered by Jackson et al. 2022. This was a ground based discovery. The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.11000" errorplus="0.12000">0.52000</mass>
+			<radius errorminus="0.062" errorplus="0.058">1.214</radius>
+			<temperature errorminus="3.60000000000e+01" errorplus="4.10000000000e+01">1.49900000000e+03</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/01/12</lastupdate>
+			<transittime errorminus="0.001100" errorplus="0.001100">2458100.622900</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Centaurus</constellation>
+</system>
