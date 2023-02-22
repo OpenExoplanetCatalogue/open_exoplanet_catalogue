@@ -1,0 +1,31 @@
+<system>
+	<name>TOI-1669</name>
+	<rightascension>03 03 50</rightascension>
+	<declination>+83 35 15</declination>
+	<distance errorminus="0.3680000" errorplus="0.3710000">111.2760000</distance>
+	<star>
+		<name>TOI-1669</name>
+		<radius errorminus="0.05" errorplus="0.05">1.07</radius>
+		<magV errorminus="0.0040000" errorplus="0.0040000">10.2180000</magV>
+		<magJ errorminus="0.0260000" errorplus="0.0260000">8.9050000</magJ>
+		<magH errorminus="0.0260000" errorplus="0.0260000">8.5800000</magH>
+		<magK errorminus="0.0210000" errorplus="0.0210000">8.4620000</magK>
+		<mass errorminus="0.05" errorplus="0.05">1.00</mass>
+		<temperature errorminus="100.00" errorplus="100.00">5542.30</temperature>
+		<metallicity errorminus="0.060" errorplus="0.060">0.260</metallicity>
+		<planet>
+			<name>TOI-1669 b</name>
+			<eccentricity errorminus="0.130000" errorplus="0.130000">0.140000</eccentricity>
+			<period errorminus="16.00000000" errorplus="16.00000000">502.00000000</period>
+			<description>This planet was discovered by Van Zandt et al. 2023. This was a ground based discovery. The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.07400" errorplus="0.07400">0.57300</mass>
+			<radius>1.260</radius>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/02/22</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Cepheus</constellation>
+</system>

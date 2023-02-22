@@ -1,0 +1,37 @@
+<system>
+	<name>TOI-3884</name>
+	<rightascension>12 06 17</rightascension>
+	<declination>+12 30 25</declination>
+	<distance errorminus="0.1678000" errorplus="0.1690000">43.1448000</distance>
+	<star>
+		<name>TOI-3884</name>
+		<radius errorminus="0.01" errorplus="0.01">0.30</radius>
+		<magV errorminus="0.0080000" errorplus="0.0080000">15.7440000</magV>
+		<magJ errorminus="0.0210000" errorplus="0.0210000">11.1270000</magJ>
+		<magH errorminus="0.0200000" errorplus="0.0200000">10.5520000</magH>
+		<magK errorminus="0.0170000" errorplus="0.0170000">10.2400000</magK>
+		<mass errorminus="0.01" errorplus="0.01">0.28</mass>
+		<temperature errorminus="70.00" errorplus="70.00">3269.00</temperature>
+		<metallicity errorminus="0.120" errorplus="0.120">0.230</metallicity>
+		<spectraltype>M4</spectraltype>
+		<planet>
+			<name>TOI-3884 b</name>
+			<semimajoraxis errorminus="0.001400" errorplus="0.001400">0.035400</semimajoraxis>
+			<eccentricity>0.320000</eccentricity>
+			<periastron errorminus="150.0000" errorplus="150.0000">190.0000</periastron>
+			<inclination errorminus="0.290" errorplus="0.290">90.100</inclination>
+			<period errorminus="0.00000940" errorplus="0.00000940">4.54456970</period>
+			<description>This planet was discovered by Almenara et al. 2022. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00566" errorplus="0.01101">0.05191</mass>
+			<radius errorminus="0.016" errorplus="0.016">0.535</radius>
+			<temperature errorminus="1.20000000000e+01" errorplus="1.20000000000e+01">4.63000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/02/22</lastupdate>
+			<transittime errorminus="0.000120" errorplus="0.000120">2459642.863140</transittime>
+		</planet>
+	</star>
+	<constellation>Virgo</constellation>
+</system>

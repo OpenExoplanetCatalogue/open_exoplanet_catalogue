@@ -1,0 +1,48 @@
+<system>
+	<name>K2-414</name>
+	<rightascension>23 26 33</rightascension>
+	<declination>-04 36 24</declination>
+	<distance errorminus="2.3330000" errorplus="2.3740000">260.0360000</distance>
+	<star>
+		<name>K2-414</name>
+		<radius errorminus="0.05" errorplus="0.06">0.73</radius>
+		<magV errorminus="0.1950000" errorplus="0.1950000">14.2890000</magV>
+		<magJ errorminus="0.0240000" errorplus="0.0240000">12.1840000</magJ>
+		<magH errorminus="0.0220000" errorplus="0.0220000">11.5590000</magH>
+		<magK errorminus="0.0230000" errorplus="0.0230000">11.4380000</magK>
+		<mass errorminus="0.25" errorplus="0.36">0.81</mass>
+		<temperature errorminus="138.00" errorplus="138.00">4343.00</temperature>
+		<metallicity errorminus="0.235" errorplus="0.235">-0.102</metallicity>
+		<planet>
+			<name>K2-414 b</name>
+			<semimajoraxis errorminus="0.003100" errorplus="0.002700">0.048700</semimajoraxis>
+			<inclination errorminus="1.399" errorplus="1.393">90.005</inclination>
+			<period errorminus="0.00010000" errorplus="0.00010000">4.36960000</period>
+			<description>This planet was discovered by del Ser et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.00622</mass>
+			<radius errorminus="0.007" errorplus="0.009">0.109</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/02/22</lastupdate>
+			<transittime errorminus="0.001300" errorplus="0.001300">2457742.099300</transittime>
+		</planet>
+		<planet>
+			<name>K2-414 c</name>
+			<semimajoraxis errorminus="0.002300" errorplus="0.001700">0.055200</semimajoraxis>
+			<inclination errorminus="0.679" errorplus="0.683">89.997</inclination>
+			<period errorminus="0.00020000" errorplus="0.00020000">6.66900000</period>
+			<description>This planet was discovered by del Ser et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.01380</mass>
+			<radius errorminus="0.006" errorplus="0.006">0.172</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/02/22</lastupdate>
+			<transittime errorminus="0.001200" errorplus="0.001000">2457740.256300</transittime>
+		</planet>
+	</star>
+	<constellation>Aquarius</constellation>
+</system>

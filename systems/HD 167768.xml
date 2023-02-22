@@ -1,0 +1,35 @@
+<system>
+	<name>HD 167768</name>
+	<rightascension>18 16 53</rightascension>
+	<declination>-03 00 31</declination>
+	<distance errorminus="1.0755000" errorplus="1.0755000">107.2140000</distance>
+	<star>
+		<name>HD 167768</name>
+		<radius errorminus="0.25" errorplus="0.25">9.70</radius>
+		<magV errorminus="0.0230000" errorplus="0.0230000">5.9889400</magV>
+		<magJ errorminus="0.2940000" errorplus="0.2940000">4.4710000</magJ>
+		<magH errorminus="0.2220000" errorplus="0.2220000">3.8370000</magH>
+		<magK errorminus="0.0360000" errorplus="0.0360000">3.8950000</magK>
+		<mass errorminus="0.12" errorplus="0.14">1.08</mass>
+		<temperature errorminus="44.00" errorplus="45.00">4851.00</temperature>
+		<metallicity errorminus="0.080" errorplus="0.090">-0.670</metallicity>
+		<spectraltype>G8III</spectraltype>
+		<planet>
+			<name>HD 167768 b</name>
+			<semimajoraxis errorminus="0.006300" errorplus="0.005800">0.151200</semimajoraxis>
+			<eccentricity errorminus="0.096000" errorplus="0.101000">0.149000</eccentricity>
+			<periastron errorminus="45.2600" errorplus="49.5600">58.7300</periastron>
+			<period errorminus="0.00350000" errorplus="0.00340000">20.65320000</period>
+			<description>This planet was discovered by Teng et al. 2022. This was a ground based discovery. The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.11000" errorplus="0.12000">0.85000</mass>
+			<radius>1.240</radius>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/02/22</lastupdate>
+			<transittime errorminus="0.730000" errorplus="0.670000">2454595.440000</transittime>
+			<istransiting>1</istransiting>
+		</planet>
+	</star>
+	<constellation>Serpens</constellation>
+</system>

@@ -1,0 +1,52 @@
+<system>
+	<name>TOI-969</name>
+	<rightascension>07 40 33</rightascension>
+	<declination>+02 05 55</declination>
+	<distance errorminus="0.3240000" errorplus="0.3267000">77.2554000</distance>
+	<star>
+		<name>TOI-969</name>
+		<radius errorminus="0.02" errorplus="0.02">0.67</radius>
+		<magV errorminus="0.0310000" errorplus="0.0310000">11.6460000</magV>
+		<magJ errorminus="0.0260000" errorplus="0.0260000">9.5960000</magJ>
+		<magH errorminus="0.0230000" errorplus="0.0230000">9.0290000</magH>
+		<magK errorminus="0.0230000" errorplus="0.0230000">8.8790000</magK>
+		<mass errorminus="0.01" errorplus="0.01">0.73</mass>
+		<temperature errorminus="80.00" errorplus="80.00">4435.00</temperature>
+		<metallicity errorminus="0.019" errorplus="0.019">0.175</metallicity>
+		<spectraltype>KV</spectraltype>
+		<planet>
+			<name>TOI-969 b</name>
+			<semimajoraxis errorminus="0.000170" errorplus="0.000170">0.026360</semimajoraxis>
+			<inclination errorminus="0.410" errorplus="0.380">86.750</inclination>
+			<period errorminus="0.00000210" errorplus="0.00000200">1.82373050</period>
+			<description>This planet was discovered by Lillo-Box et al. 2022. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00315" errorplus="0.00315">0.02863</mass>
+			<radius errorminus="0.009" errorplus="0.008">0.247</radius>
+			<temperature errorminus="3.10000000000e+01" errorplus="3.10000000000e+01">9.41000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/02/22</lastupdate>
+			<transittime errorminus="0.000390" errorplus="0.000360">2459248.377090</transittime>
+		</planet>
+		<planet>
+			<name>TOI-969 c</name>
+			<semimajoraxis errorminus="0.290000" errorplus="0.270000">2.520000</semimajoraxis>
+			<eccentricity errorminus="0.036000" errorplus="0.043000">0.628000</eccentricity>
+			<periastron errorminus="7.3000" errorplus="7.8000">208.5000</periastron>
+			<period errorminus="280.00000000" errorplus="290.00000000">1700.00000000</period>
+			<description>This planet was discovered by Lillo-Box et al. 2022. This was a ground based discovery. The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.90000" errorplus="1.10000">11.30000</mass>
+			<radius>1.110</radius>
+			<temperature errorminus="5.80000000000e+00" errorplus="6.80000000000e+00">9.64000000000e+01</temperature>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/02/22</lastupdate>
+			<transittime errorminus="260.000000" errorplus="260.000000">2460640.000000</transittime>
+			<istransiting>1</istransiting>
+		</planet>
+	</star>
+	<constellation>Canis Minor</constellation>
+</system>

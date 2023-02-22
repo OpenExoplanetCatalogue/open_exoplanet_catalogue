@@ -1,0 +1,33 @@
+<system>
+	<name>TOI-5174</name>
+	<rightascension>11 36 26</rightascension>
+	<declination>-02 01 24</declination>
+	<distance errorminus="2.1580000" errorplus="2.2050000">197.2430000</distance>
+	<star>
+		<name>TOI-5174</name>
+		<radius errorminus="0.05" errorplus="0.05">1.09</radius>
+		<magV errorminus="0.2390000" errorplus="0.2390000">11.5830000</magV>
+		<magJ errorminus="0.0220000" errorplus="0.0220000">10.0030000</magJ>
+		<magH errorminus="0.0270000" errorplus="0.0270000">9.6720000</magH>
+		<magK errorminus="0.0210000" errorplus="0.0210000">9.6000000</magK>
+		<magI errorminus="0.0079995" errorplus="0.0079995">13.6467000</magI>
+		<mass errorminus="0.11" errorplus="0.14">1.00</mass>
+		<temperature errorminus="76.03" errorplus="145.87">5643.77</temperature>
+		<metallicity errorminus="0.020" errorplus="0.020">0.415</metallicity>
+		<planet>
+			<name>TOI-5174 b</name>
+			<period>12.21428600</period>
+			<description>This planet was discovered by Mantovan et al. 2022. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.07790</mass>
+			<radius>0.477</radius>
+			<temperature>8.08359509681e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/02/22</lastupdate>
+			<transittime errorminus="0.003440" errorplus="0.003440">2459527.295749</transittime>
+		</planet>
+	</star>
+	<constellation>Leo</constellation>
+</system>
