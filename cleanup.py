@@ -403,9 +403,13 @@ def checkonefile(filename, printerrors = True):
         for child in obj:
             if not child.tag in tagsallowmultiple:
                 if child.tag in uniquetags:
-                    if printerrors:
-                        print("Error: Found duplicate tag \"" + child.tag + "\" in file \"" + filename + "\".")
-                    issues += 1
+                    if child.tag == "new":
+                        obj.remove(child)
+                        print("Warning: duplicate new tag removed in file \"" + filename + "\".")
+                    else:
+                        if printerrors:
+                            print("Error: Found duplicate tag \"" + child.tag + "\" in file \"" + filename + "\".")
+                        issues += 1
                 else:
                     uniquetags.append(child.tag)
 
