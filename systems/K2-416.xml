@@ -1,0 +1,35 @@
+<system>
+	<name>K2-416</name>
+	<rightascension>23 16 53</rightascension>
+	<declination>-05 12 05</declination>
+	<distance errorminus="0.5990000" errorplus="0.6050000">120.3110000</distance>
+	<star>
+		<name>K2-416</name>
+		<radius errorminus="0.02" errorplus="0.02">0.55</radius>
+		<magV errorminus="0.0330000" errorplus="0.0330000">14.7940000</magV>
+		<magJ errorminus="0.0220000" errorplus="0.0220000">11.5850000</magJ>
+		<magH errorminus="0.0280000" errorplus="0.0280000">10.9260000</magH>
+		<magK errorminus="0.0210000" errorplus="0.0210000">10.7340000</magK>
+		<mass errorminus="0.01" errorplus="0.01">0.55</mass>
+		<temperature errorminus="72.00" errorplus="72.00">3746.00</temperature>
+		<spectraltype>MV</spectraltype>
+		<planet>
+			<name>K2-416 b</name>
+			<semimajoraxis errorminus="0.021000" errorplus="0.010000">0.088000</semimajoraxis>
+			<inclination errorminus="0.860" errorplus="0.530">89.250</inclination>
+			<period errorminus="0.00240000" errorplus="0.00260000">13.10200000</period>
+			<description>This planet was discovered by Incha et al. 2023. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>5.20000</mass>
+			<radius errorminus="0.012" errorplus="0.017">0.237</radius>
+			<temperature errorminus="4.90000000000e+01" errorplus="4.90000000000e+01">4.47000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.002100" errorplus="0.001800">2458371.838400</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Aquarius</constellation>
+</system>

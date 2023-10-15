@@ -1,0 +1,40 @@
+<system>
+	<name>TOI-2018</name>
+	<name>HIP 74981</name>
+	<rightascension>15 19 21</rightascension>
+	<declination>+29 12 28</declination>
+	<distance errorminus="0.0213000" errorplus="0.0214000">27.9956000</distance>
+	<star>
+		<name>TOI-2018</name>
+		<name>HIP 74981</name>
+		<radius errorminus="0.01" errorplus="0.01">0.62</radius>
+		<magV errorminus="0.0300000" errorplus="0.0300000">10.2500000</magV>
+		<magJ errorminus="0.0210000" errorplus="0.0210000">7.8440000</magJ>
+		<magH errorminus="0.0200000" errorplus="0.0200000">7.2550000</magH>
+		<magK errorminus="0.0170000" errorplus="0.0170000">7.1040000</magK>
+		<magI errorminus="0.0006562" errorplus="0.0006562">9.2942310</magI>
+		<mass errorminus="0.02" errorplus="0.02">0.57</mass>
+		<temperature errorminus="42.00" errorplus="34.00">4174.00</temperature>
+		<metallicity errorminus="0.180" errorplus="0.180">-0.580</metallicity>
+		<spectraltype>KV</spectraltype>
+		<planet>
+			<name>TOI-2018 b</name>
+			<name>HIP 74981 b</name>
+			<eccentricity>0.000000</eccentricity>
+			<inclination errorminus="0.220" errorplus="0.220">88.520</inclination>
+			<period errorminus="0.00002200" errorplus="0.00002200">7.43558300</period>
+			<description>This planet was discovered by Dai et al. 2023. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00661" errorplus="0.00661">0.02895</mass>
+			<radius errorminus="0.006" errorplus="0.006">0.202</radius>
+			<temperature>8.21000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.001300" errorplus="0.001300">2458958.258000</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Corona Borealis</constellation>
+</system>

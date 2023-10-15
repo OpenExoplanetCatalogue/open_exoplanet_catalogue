@@ -1,0 +1,37 @@
+<system>
+	<name>Kepler-1998</name>
+	<rightascension>18 53 43</rightascension>
+	<declination>+47 35 33</declination>
+	<distance errorminus="2.5020000" errorplus="2.5390000">340.9650000</distance>
+	<star>
+		<name>Kepler-1998</name>
+		<radius errorminus="0.06" errorplus="0.13">0.92</radius>
+		<magV errorminus="0.0800000" errorplus="0.0800000">12.7400000</magV>
+		<magJ errorminus="0.0200000" errorplus="0.0200000">11.4620000</magJ>
+		<magH errorminus="0.0180000" errorplus="0.0180000">11.1420000</magH>
+		<magK errorminus="0.0160000" errorplus="0.0160000">11.0760000</magK>
+		<magI>12.4230000</magI>
+		<mass errorminus="0.07" errorplus="0.05">0.96</mass>
+		<temperature errorminus="113.00" errorplus="101.00">5640.00</temperature>
+		<metallicity errorminus="0.150" errorplus="0.150">0.060</metallicity>
+		<planet>
+			<name>Kepler-1998 b</name>
+			<semimajoraxis>0.040500</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>88.930</inclination>
+			<period errorminus="0.00001374" errorplus="0.00001374">3.03267135</period>
+			<description>This planet was discovered by Valizadegan et al. 2023. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.00049</mass>
+			<radius>0.062</radius>
+			<temperature>1.18700000000e+03</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.003810" errorplus="0.003810">2454967.066800</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Lyra</constellation>
+</system>

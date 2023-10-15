@@ -1,0 +1,37 @@
+<system>
+	<name>TOI-3819</name>
+	<rightascension>08 07 27</rightascension>
+	<declination>+29 23 19</declination>
+	<distance errorminus="12.4730000" errorplus="13.0450000">558.1410000</distance>
+	<star>
+		<name>TOI-3819</name>
+		<radius errorminus="0.04" errorplus="0.04">1.54</radius>
+		<magV errorminus="0.0570000" errorplus="0.0570000">12.5420000</magV>
+		<magJ errorminus="0.0200000" errorplus="0.0200000">11.3980000</magJ>
+		<magH errorminus="0.0190000" errorplus="0.0190000">11.1430000</magH>
+		<magK errorminus="0.0170000" errorplus="0.0170000">11.0770000</magK>
+		<magI errorminus="0.0012920" errorplus="0.0012920">12.3459000</magI>
+		<mass errorminus="0.08" errorplus="0.06">1.24</mass>
+		<temperature errorminus="71.00" errorplus="72.00">5859.00</temperature>
+		<metallicity errorminus="0.082" errorplus="0.084">0.273</metallicity>
+		<planet>
+			<name>TOI-3819 b</name>
+			<semimajoraxis errorminus="0.000960" errorplus="0.000690">0.046110</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination errorminus="0.310" errorplus="0.300">82.790</inclination>
+			<period errorminus="0.00000550" errorplus="0.00000550">3.24431410</period>
+			<description>This planet was discovered by Yee et al. 2023. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.20000" errorplus="0.18000">1.11000</mass>
+			<radius errorminus="0.035" errorplus="0.036">1.172</radius>
+			<temperature errorminus="1.90000000000e+01" errorplus="2.10000000000e+01">1.63300000000e+03</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.000380" errorplus="0.000380">2459502.743700</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Gemini</constellation>
+</system>

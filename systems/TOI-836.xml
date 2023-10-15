@@ -1,0 +1,61 @@
+<system>
+	<name>TOI-836</name>
+	<name>HIP 73427</name>
+	<rightascension>15 00 19</rightascension>
+	<declination>-24 27 15</declination>
+	<distance errorminus="0.0293000" errorplus="0.0294000">27.5024000</distance>
+	<star>
+		<name>TOI-836</name>
+		<name>HIP 73427</name>
+		<radius errorminus="0.01" errorplus="0.01">0.67</radius>
+		<magV errorminus="0.0300000" errorplus="0.0300000">9.9200000</magV>
+		<magJ errorminus="0.0230000" errorplus="0.0230000">7.5800000</magJ>
+		<magH errorminus="0.0400000" errorplus="0.0400000">6.9830000</magH>
+		<magK errorminus="0.0180000" errorplus="0.0180000">6.8040000</magK>
+		<mass errorminus="0.04" errorplus="0.05">0.68</mass>
+		<temperature errorminus="154.00" errorplus="154.00">4552.00</temperature>
+		<metallicity errorminus="0.067" errorplus="0.067">-0.284</metallicity>
+		<spectraltype>KV</spectraltype>
+		<planet>
+			<name>TOI-836 b</name>
+			<name>HIP 73427 b</name>
+			<semimajoraxis errorminus="0.000930" errorplus="0.000930">0.042200</semimajoraxis>
+			<eccentricity errorminus="0.042000" errorplus="0.042000">0.053000</eccentricity>
+			<periastron errorminus="92.0000" errorplus="92.0000">9.0000</periastron>
+			<inclination errorminus="0.440" errorplus="0.440">87.570</inclination>
+			<period errorminus="0.00001000" errorplus="0.00001000">3.81673000</period>
+			<description>This planet was discovered by Hawthorn et al. 2023. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00271" errorplus="0.00289">0.01425</mass>
+			<radius errorminus="0.006" errorplus="0.006">0.152</radius>
+			<temperature errorminus="3.60000000000e+01" errorplus="3.60000000000e+01">8.71000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.001900" errorplus="0.001900">2458599.995300</transittime>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>TOI-836 c</name>
+			<name>HIP 73427 c</name>
+			<semimajoraxis errorminus="0.001600" errorplus="0.001600">0.075000</semimajoraxis>
+			<eccentricity errorminus="0.056000" errorplus="0.056000">0.078000</eccentricity>
+			<periastron errorminus="113.0000" errorplus="113.0000">-28.0000</periastron>
+			<inclination errorminus="1.500" errorplus="1.500">88.700</inclination>
+			<period errorminus="0.00001000" errorplus="0.00001000">8.59545000</period>
+			<description>This planet was discovered by Hawthorn et al. 2023. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00787" errorplus="0.00850">0.03020</mass>
+			<radius errorminus="0.008" errorplus="0.008">0.231</radius>
+			<temperature errorminus="2.70000000000e+01" errorplus="2.70000000000e+01">6.65000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.000800" errorplus="0.000800">2458599.762300</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Libra</constellation>
+</system>

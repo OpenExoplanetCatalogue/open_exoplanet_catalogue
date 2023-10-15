@@ -1,0 +1,36 @@
+<system>
+	<name>TOI-3364</name>
+	<rightascension>09 38 09</rightascension>
+	<declination>-49 20 07</declination>
+	<distance errorminus="2.4610000" errorplus="2.5050000">277.8990000</distance>
+	<star>
+		<name>TOI-3364</name>
+		<radius errorminus="0.03" errorplus="0.04">1.42</radius>
+		<magV errorminus="0.0240000" errorplus="0.0240000">11.8750000</magV>
+		<magJ errorminus="0.0220000" errorplus="0.0220000">10.1560000</magJ>
+		<magH errorminus="0.0220000" errorplus="0.0220000">9.8760000</magH>
+		<magK errorminus="0.0190000" errorplus="0.0190000">9.7830000</magK>
+		<mass errorminus="0.08" errorplus="0.06">1.19</mass>
+		<temperature errorminus="91.00" errorplus="95.00">5706.00</temperature>
+		<metallicity errorminus="0.081" errorplus="0.072">0.387</metallicity>
+		<planet>
+			<name>TOI-3364 b</name>
+			<semimajoraxis errorminus="0.001600" errorplus="0.001100">0.067500</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination errorminus="0.680" errorplus="0.750">88.790</inclination>
+			<period errorminus="0.00000690" errorplus="0.00000690">5.87689180</period>
+			<description>This planet was discovered by Yee et al. 2023. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.13000" errorplus="0.12000">1.67000</mass>
+			<radius errorminus="0.032" errorplus="0.038">1.091</radius>
+			<temperature errorminus="2.10000000000e+01" errorplus="2.20000000000e+01">1.26400000000e+03</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.000410" errorplus="0.000400">2459090.994810</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Vela</constellation>
+</system>

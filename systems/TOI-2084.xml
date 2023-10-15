@@ -1,0 +1,37 @@
+<system>
+	<name>TOI-2084</name>
+	<rightascension>17 17 01</rightascension>
+	<declination>+72 44 49</declination>
+	<distance errorminus="0.3390000" errorplus="0.3420000">114.5490000</distance>
+	<star>
+		<name>TOI-2084</name>
+		<radius errorminus="0.01" errorplus="0.01">0.48</radius>
+		<magV errorminus="0.0650000" errorplus="0.0650000">15.1150000</magV>
+		<magJ errorminus="0.0210000" errorplus="0.0210000">11.9610000</magJ>
+		<magH errorminus="0.0180000" errorplus="0.0180000">11.3560000</magH>
+		<magK errorminus="0.0200000" errorplus="0.0200000">11.1480000</magK>
+		<magI errorminus="0.0213238" errorplus="0.0213238">17.9112000</magI>
+		<mass errorminus="0.03" errorplus="0.03">0.45</mass>
+		<temperature errorminus="52.00" errorplus="49.00">3551.00</temperature>
+		<metallicity errorminus="0.200" errorplus="0.200">-0.130</metallicity>
+		<spectraltype>M2+/-0.5</spectraltype>
+		<planet>
+			<name>TOI-2084 b</name>
+			<semimajoraxis errorminus="0.001030" errorplus="0.001030">0.050060</semimajoraxis>
+			<inclination errorminus="0.150" errorplus="0.150">89.150</inclination>
+			<period errorminus="0.00000960" errorplus="0.00000960">6.07842470</period>
+			<description>This planet was discovered by Barkaoui et al. 2023. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.02100</mass>
+			<radius errorminus="0.012" errorplus="0.012">0.220</radius>
+			<temperature errorminus="8.00000000000e+00" errorplus="8.00000000000e+00">5.27000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.000650" errorplus="0.000650">2458741.073230</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Draco</constellation>
+</system>

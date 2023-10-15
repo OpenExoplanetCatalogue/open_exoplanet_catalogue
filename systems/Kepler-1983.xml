@@ -1,0 +1,37 @@
+<system>
+	<name>Kepler-1983</name>
+	<rightascension>19 48 10</rightascension>
+	<declination>+39 54 44</declination>
+	<distance errorminus="3.4390000" errorplus="3.4950000">424.4280000</distance>
+	<star>
+		<name>Kepler-1983</name>
+		<radius errorminus="0.07" errorplus="0.05">0.87</radius>
+		<magV errorminus="0.0690000" errorplus="0.0690000">14.5180000</magV>
+		<magJ errorminus="0.0260000" errorplus="0.0260000">12.8520000</magJ>
+		<magH errorminus="0.0250000" errorplus="0.0250000">12.3590000</magH>
+		<magK errorminus="0.0210000" errorplus="0.0210000">12.2320000</magK>
+		<magI>13.9970000</magI>
+		<mass errorminus="0.03" errorplus="0.06">0.81</mass>
+		<temperature errorminus="76.00" errorplus="84.00">5135.00</temperature>
+		<metallicity errorminus="0.150" errorplus="0.150">0.120</metallicity>
+		<planet>
+			<name>Kepler-1983 b</name>
+			<semimajoraxis>0.068900</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>85.760</inclination>
+			<period errorminus="0.00002311" errorplus="0.00002311">7.32851947</period>
+			<description>This planet was discovered by Valizadegan et al. 2023. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.01900</mass>
+			<radius>0.147</radius>
+			<temperature>8.07000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.002480" errorplus="0.002480">2454965.128570</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Cygnus</constellation>
+</system>

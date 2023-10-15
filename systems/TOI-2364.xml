@@ -1,0 +1,36 @@
+<system>
+	<name>TOI-2364</name>
+	<rightascension>05 56 31</rightascension>
+	<declination>-05 00 43</declination>
+	<distance errorminus="1.6890000" errorplus="1.7150000">219.6140000</distance>
+	<star>
+		<name>TOI-2364</name>
+		<radius errorminus="0.02" errorplus="0.02">0.89</radius>
+		<magV errorminus="0.0570000" errorplus="0.0570000">12.2340000</magV>
+		<magJ errorminus="0.0240000" errorplus="0.0240000">10.9090000</magJ>
+		<magH errorminus="0.0220000" errorplus="0.0220000">10.4360000</magH>
+		<magK errorminus="0.0210000" errorplus="0.0210000">10.3630000</magK>
+		<mass errorminus="0.05" errorplus="0.04">0.95</mass>
+		<temperature errorminus="68.00" errorplus="76.00">5306.00</temperature>
+		<metallicity errorminus="0.085" errorplus="0.085">0.344</metallicity>
+		<planet>
+			<name>TOI-2364 b</name>
+			<semimajoraxis errorminus="0.000790" errorplus="0.000690">0.048710</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination errorminus="0.540" errorplus="0.620">88.980</inclination>
+			<period errorminus="0.00000430" errorplus="0.00000430">4.01975170</period>
+			<description>This planet was discovered by Yee et al. 2023. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.04900" errorplus="0.04300">0.22500</mass>
+			<radius errorminus="0.018" errorplus="0.023">0.768</radius>
+			<temperature errorminus="1.40000000000e+01" errorplus="1.70000000000e+01">1.09100000000e+03</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.000330" errorplus="0.000330">2459058.213960</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Monoceros</constellation>
+</system>

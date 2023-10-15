@@ -1,0 +1,32 @@
+<system>
+	<name>HIP 948</name>
+	<rightascension>00 11 43</rightascension>
+	<declination>-39 13 50</declination>
+	<distance errorminus="0.0581000" errorplus="0.0582000">34.8523000</distance>
+	<star>
+		<name>HIP 948</name>
+		<radius errorminus="0.05" errorplus="0.06">0.69</radius>
+		<magV errorminus="0.0300000" errorplus="0.0300000">9.9200000</magV>
+		<magJ errorminus="0.0200000" errorplus="0.0200000">7.8510000</magJ>
+		<magH errorminus="0.0380000" errorplus="0.0380000">7.2550000</magH>
+		<magK errorminus="0.0210000" errorplus="0.0210000">7.1880000</magK>
+		<mass errorminus="0.08" errorplus="0.08">0.71</mass>
+		<temperature errorminus="137.15" errorplus="117.06">4497.00</temperature>
+		<planet>
+			<name>HIP 948 b</name>
+			<semimajoraxis errorminus="4.464000" errorplus="3.315000">15.037000</semimajoraxis>
+			<eccentricity errorminus="0.110000" errorplus="0.161000">0.230000</eccentricity>
+			<periastron errorminus="17.5960" errorplus="27.7590">117.4320</periastron>
+			<inclination errorminus="22.006" errorplus="7.363">110.998</inclination>
+			<period errorminus="10015.46337000" errorplus="8914.75178000">24955.45756000</period>
+			<description>This planet was discovered by Feng et al. 2022. This was a ground based discovery. The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="8.51300" errorplus="9.85600">20.60000</mass>
+			<radius>1.080</radius>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+		</planet>
+	</star>
+	<constellation>Sculptor</constellation>
+</system>

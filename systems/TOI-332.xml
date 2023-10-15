@@ -1,0 +1,38 @@
+<system>
+	<name>TOI-332</name>
+	<rightascension>23 12 14</rightascension>
+	<declination>-44 52 35</declination>
+	<distance errorminus="3.6290000" errorplus="3.7500000">222.8520000</distance>
+	<star>
+		<name>TOI-332</name>
+		<radius errorminus="0.02" errorplus="0.03">0.87</radius>
+		<magV errorminus="0.0460000" errorplus="0.0460000">12.3490000</magV>
+		<magJ errorminus="0.0220000" errorplus="0.0220000">10.7760000</magJ>
+		<magH errorminus="0.0230000" errorplus="0.0230000">10.4100000</magH>
+		<magK errorminus="0.0210000" errorplus="0.0210000">10.3150000</magK>
+		<mass errorminus="0.02" errorplus="0.02">0.88</mass>
+		<temperature errorminus="71.00" errorplus="71.00">5251.00</temperature>
+		<metallicity errorminus="0.048" errorplus="0.048">0.256</metallicity>
+		<spectraltype>K0V</spectraltype>
+		<planet>
+			<name>TOI-332 b</name>
+			<semimajoraxis errorminus="0.000100" errorplus="0.000100">0.015900</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<periastron>0.0000</periastron>
+			<inclination errorminus="2.000" errorplus="2.300">86.400</inclination>
+			<period errorminus="0.00000100" errorplus="0.00000100">0.77703800</period>
+			<description>This planet was discovered by Osborn et al. 2023. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00503" errorplus="0.00503">0.17997</mass>
+			<radius errorminus="0.010" errorplus="0.014">0.285</radius>
+			<temperature errorminus="2.50000000000e+01" errorplus="3.00000000000e+01">1.87100000000e+03</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.000500" errorplus="0.000600">2459062.444700</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Grus</constellation>
+</system>

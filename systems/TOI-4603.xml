@@ -1,0 +1,41 @@
+<system>
+	<name>TOI-4603</name>
+	<name>HD 245134</name>
+	<rightascension>05 35 28</rightascension>
+	<declination>+21 17 39</declination>
+	<distance errorminus="2.4320000" errorplus="2.4840000">225.6430000</distance>
+	<star>
+		<name>TOI-4603</name>
+		<name>HD 245134</name>
+		<radius errorminus="0.05" errorplus="0.05">2.74</radius>
+		<magV errorminus="0.0300000" errorplus="0.0300000">9.2400000</magV>
+		<magJ errorminus="0.0200000" errorplus="0.0200000">8.0890000</magJ>
+		<magH errorminus="0.0470000" errorplus="0.0470000">7.7880000</magH>
+		<magK errorminus="0.0170000" errorplus="0.0170000">7.7860000</magK>
+		<mass errorminus="0.06" errorplus="0.06">1.77</mass>
+		<temperature errorminus="94.00" errorplus="95.00">6264.00</temperature>
+		<metallicity errorminus="0.040" errorplus="0.039">0.342</metallicity>
+		<spectraltype>F</spectraltype>
+		<planet>
+			<name>TOI-4603 b</name>
+			<name>HD 245134 b</name>
+			<semimajoraxis errorminus="0.001000" errorplus="0.001000">0.088800</semimajoraxis>
+			<eccentricity errorminus="0.020000" errorplus="0.020000">0.325000</eccentricity>
+			<periastron errorminus="4.7000" errorplus="4.6000">20.4000</periastron>
+			<inclination errorminus="0.410" errorplus="0.390">80.210</inclination>
+			<period errorminus="0.00021000" errorplus="0.00022000">7.24599000</period>
+			<description>This planet was discovered by Khandelwal et al. 2023. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.57000" errorplus="0.58000">12.89000</mass>
+			<radius errorminus="0.035" errorplus="0.038">1.042</radius>
+			<temperature errorminus="2.40000000000e+01" errorplus="2.40000000000e+01">1.67700000000e+03</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.001400" errorplus="0.001400">2459549.126000</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Taurus</constellation>
+</system>

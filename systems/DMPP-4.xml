@@ -1,0 +1,42 @@
+<system>
+	<name>DMPP-4</name>
+	<name>HD 184960</name>
+	<name>HIP 96258</name>
+	<rightascension>19 34 20</rightascension>
+	<declination>+51 14 09</declination>
+	<distance errorminus="0.0380000" errorplus="0.0382000">25.3284000</distance>
+	<star>
+		<name>DMPP-4</name>
+		<name>HD 184960</name>
+		<name>HIP 96258</name>
+		<radius errorminus="0.01" errorplus="0.01">1.38</radius>
+		<magV errorminus="0.0230000" errorplus="0.0230000">5.7293600</magV>
+		<magJ errorminus="0.0370000" errorplus="0.0370000">4.7000000</magJ>
+		<magH errorminus="0.0360000" errorplus="0.0360000">4.5900000</magH>
+		<magK errorminus="0.0180000" errorplus="0.0180000">4.4940000</magK>
+		<mass errorminus="0.02" errorplus="0.02">1.25</mass>
+		<temperature errorminus="50.00" errorplus="50.00">6400.00</temperature>
+		<metallicity errorminus="0.056" errorplus="0.056">-0.007</metallicity>
+		<spectraltype>F5-F8V</spectraltype>
+		<planet>
+			<name>DMPP-4 b</name>
+			<name>HD 184960 b</name>
+			<name>HIP 96258 b</name>
+			<semimajoraxis errorminus="0.001970" errorplus="0.000360">0.048530</semimajoraxis>
+			<eccentricity>0.063000</eccentricity>
+			<periastron errorminus="130.0000" errorplus="110.0000">200.0000</periastron>
+			<period errorminus="0.23270000" errorplus="0.00220000">3.49820000</period>
+			<description>This planet was discovered by Barnes et al. 2023. The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00598" errorplus="0.00566">0.03839</mass>
+			<radius>0.315</radius>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="1.300000" errorplus="1.200000">2457139.900000</transittime>
+			<istransiting>1</istransiting>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Cygnus</constellation>
+</system>

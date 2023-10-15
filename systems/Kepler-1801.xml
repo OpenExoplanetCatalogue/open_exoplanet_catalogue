@@ -1,0 +1,54 @@
+<system>
+	<name>Kepler-1801</name>
+	<rightascension>19 40 39</rightascension>
+	<declination>+39 12 05</declination>
+	<distance errorminus="15.3800000" errorplus="15.9560000">839.3320000</distance>
+	<star>
+		<name>Kepler-1801</name>
+		<radius errorminus="0.14" errorplus="0.28">0.98</radius>
+		<magV errorminus="0.0460000" errorplus="0.0460000">15.2800000</magV>
+		<magJ errorminus="0.0240000" errorplus="0.0240000">13.8280000</magJ>
+		<magH errorminus="0.0270000" errorplus="0.0270000">13.4810000</magH>
+		<magK errorminus="0.0400000" errorplus="0.0400000">13.4050000</magK>
+		<magI>14.8560000</magI>
+		<mass errorminus="0.09" errorplus="0.11">0.94</mass>
+		<temperature errorminus="173.00" errorplus="156.00">5738.00</temperature>
+		<metallicity errorminus="0.300" errorplus="0.300">-0.060</metallicity>
+		<planet>
+			<name>Kepler-1801 c</name>
+			<semimajoraxis>0.457200</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.740</inclination>
+			<period errorminus="0.00223100" errorplus="0.00223100">116.58318300</period>
+			<description>This planet was discovered by Valizadegan et al. 2023. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.02770</mass>
+			<radius>0.362</radius>
+			<temperature>3.71000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.014400" errorplus="0.014400">2455079.627500</transittime>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>Kepler-1801 b</name>
+			<semimajoraxis>0.091500</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>84.890</inclination>
+			<period>10.44089985</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.02450</mass>
+			<radius>0.242</radius>
+			<temperature>8.29000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.002340" errorplus="0.002340">2454970.969130</transittime>
+		</planet>
+	</star>
+	<constellation>Cygnus</constellation>
+</system>

@@ -1,0 +1,36 @@
+<system>
+	<name>Kepler-1984</name>
+	<rightascension>19 25 08</rightascension>
+	<declination>+40 43 48</declination>
+	<star>
+		<name>Kepler-1984</name>
+		<radius errorminus="0.06" errorplus="0.05">0.42</radius>
+		<magV errorminus="1.1330000" errorplus="1.1330000">16.1920000</magV>
+		<magJ errorminus="0.0230000" errorplus="0.0230000">13.4650000</magJ>
+		<magH errorminus="0.0230000" errorplus="0.0230000">12.8470000</magH>
+		<magK errorminus="0.0270000" errorplus="0.0270000">12.5800000</magK>
+		<magI>15.1920000</magI>
+		<mass errorminus="0.06" errorplus="0.04">0.45</mass>
+		<temperature errorminus="87.00" errorplus="72.00">3638.00</temperature>
+		<metallicity errorminus="0.150" errorplus="0.150">-0.140</metallicity>
+		<planet>
+			<name>Kepler-1984 b</name>
+			<semimajoraxis>0.023800</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>55.110</inclination>
+			<period errorminus="0.00000783" errorplus="0.00000783">1.99281234</period>
+			<description>This planet was discovered by Valizadegan et al. 2023. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.11700</mass>
+			<radius>0.072</radius>
+			<temperature>6.75000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.003070" errorplus="0.003070">2454964.705650</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Lyra</constellation>
+</system>

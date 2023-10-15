@@ -1,0 +1,44 @@
+<system>
+	<name>AF Lep</name>
+	<name>HD 35850</name>
+	<name>HIP 25486</name>
+	<rightascension>05 27 05</rightascension>
+	<declination>-11 54 04</declination>
+	<distance errorminus="0.0188000" errorplus="0.0189000">26.8564000</distance>
+	<star>
+		<name>AF Lep</name>
+		<name>HD 35850</name>
+		<name>HIP 25486</name>
+		<radius errorminus="0.06" errorplus="0.06">1.25</radius>
+		<magV errorminus="0.0350000" errorplus="0.0350000">6.3320000</magV>
+		<magJ errorminus="0.0270000" errorplus="0.0270000">5.2680000</magJ>
+		<magH errorminus="0.0260000" errorplus="0.0260000">5.0870000</magH>
+		<magK errorminus="0.0210000" errorplus="0.0210000">4.9260000</magK>
+		<mass errorminus="0.06" errorplus="0.06">1.20</mass>
+		<temperature errorminus="60.00" errorplus="60.00">6130.00</temperature>
+		<metallicity errorminus="0.020" errorplus="0.020">0.190</metallicity>
+		<spectraltype>F8V</spectraltype>
+		<planet>
+			<name>AF Lep b</name>
+			<name>HD 35850 b</name>
+			<name>HIP 25486 b</name>
+			<semimajoraxis errorminus="1.300000" errorplus="1.100000">8.400000</semimajoraxis>
+			<eccentricity errorminus="0.150000" errorplus="0.270000">0.240000</eccentricity>
+			<periastron errorminus="100.0000" errorplus="80.0000">210.0000</periastron>
+			<inclination errorminus="12.000" errorplus="9.000">50.000</inclination>
+			<period errorminus="1800.00000000" errorplus="1800.00000000">8030.00000000</period>
+			<description>This planet was discovered by Mesa et al. 2023. This was a ground based discovery. The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.60000" errorplus="0.70000">3.20000</mass>
+			<radius>1.170</radius>
+			<temperature errorminus="3.00000000000e+02" errorplus="3.00000000000e+02">1.40000000000e+03</temperature>
+			<discoverymethod>imaging</discoverymethod>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="1200.000000" errorplus="800.000000">2456700.000000</transittime>
+			<istransiting>1</istransiting>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Lepus</constellation>
+</system>

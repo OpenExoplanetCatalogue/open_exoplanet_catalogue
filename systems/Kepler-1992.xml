@@ -1,0 +1,37 @@
+<system>
+	<name>Kepler-1992</name>
+	<rightascension>19 40 22</rightascension>
+	<declination>+45 04 52</declination>
+	<distance errorminus="4.0410000" errorplus="4.0410000">532.9550000</distance>
+	<star>
+		<name>Kepler-1992</name>
+		<radius errorminus="0.05" errorplus="0.08">0.84</radius>
+		<magV errorminus="0.1140000" errorplus="0.1140000">13.7900000</magV>
+		<magJ errorminus="0.0210000" errorplus="0.0210000">12.2620000</magJ>
+		<magH errorminus="0.0170000" errorplus="0.0170000">11.8490000</magH>
+		<magK errorminus="0.0160000" errorplus="0.0160000">11.7670000</magK>
+		<magI>13.3250000</magI>
+		<mass errorminus="0.05" errorplus="0.05">0.87</mass>
+		<temperature errorminus="107.00" errorplus="107.00">5383.00</temperature>
+		<metallicity errorminus="0.150" errorplus="0.150">0.000</metallicity>
+		<planet>
+			<name>Kepler-1992 b</name>
+			<semimajoraxis>0.116900</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.030</inclination>
+			<period errorminus="0.00012750" errorplus="0.00012750">15.61122380</period>
+			<description>This planet was discovered by Valizadegan et al. 2023. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.00218</mass>
+			<radius>0.092</radius>
+			<temperature>6.37000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.007290" errorplus="0.007290">2454977.873500</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Cygnus</constellation>
+</system>

@@ -1,0 +1,36 @@
+<system>
+	<name>K2-417</name>
+	<rightascension>23 20 34</rightascension>
+	<declination>-10 02 12</declination>
+	<distance errorminus="0.3003000" errorplus="0.3023000">94.0424000</distance>
+	<star>
+		<name>K2-417</name>
+		<radius>0.58</radius>
+		<magV errorminus="0.0770000" errorplus="0.0770000">13.9090000</magV>
+		<magJ errorminus="0.0230000" errorplus="0.0230000">10.9080000</magJ>
+		<magH errorminus="0.0230000" errorplus="0.0230000">10.2780000</magH>
+		<magK errorminus="0.0190000" errorplus="0.0190000">10.0600000</magK>
+		<magI errorminus="0.0017680" errorplus="0.0017680">12.7282000</magI>
+		<mass errorminus="0.01" errorplus="0.01">0.57</mass>
+		<temperature errorminus="77.00" errorplus="77.00">3861.00</temperature>
+		<spectraltype>MV</spectraltype>
+		<planet>
+			<name>K2-417 b</name>
+			<semimajoraxis errorminus="0.014000" errorplus="0.006000">0.063000</semimajoraxis>
+			<inclination errorminus="1.200" errorplus="0.710">89.000</inclination>
+			<period errorminus="0.00140000" errorplus="0.00140000">6.53500000</period>
+			<description>This planet was discovered by Incha et al. 2023. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>2.20000</mass>
+			<radius errorminus="0.011" errorplus="0.012">0.295</radius>
+			<temperature errorminus="5.50000000000e+01" errorplus="5.50000000000e+01">5.58000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.001000" errorplus="0.000900">2458373.032100</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Aquarius</constellation>
+</system>

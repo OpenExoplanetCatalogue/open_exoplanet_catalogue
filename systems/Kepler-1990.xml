@@ -1,0 +1,55 @@
+<system>
+	<name>Kepler-1990</name>
+	<rightascension>19 58 49</rightascension>
+	<declination>+44 26 09</declination>
+	<distance errorminus="4.1520000" errorplus="4.2400000">392.7390000</distance>
+	<star>
+		<name>Kepler-1990</name>
+		<radius errorminus="0.11" errorplus="0.18">1.07</radius>
+		<magV errorminus="0.0520000" errorplus="0.0520000">11.9460000</magV>
+		<magJ errorminus="0.0440000" errorplus="0.0440000">11.3980000</magJ>
+		<magH errorminus="0.0520000" errorplus="0.0520000">11.1240000</magH>
+		<magK errorminus="0.0390000" errorplus="0.0390000">11.0550000</magK>
+		<magI>12.3840000</magI>
+		<mass errorminus="0.07" errorplus="0.07">1.03</mass>
+		<temperature errorminus="114.00" errorplus="103.00">5751.00</temperature>
+		<metallicity errorminus="0.150" errorplus="0.150">0.210</metallicity>
+		<planet>
+			<name>Kepler-1990 c</name>
+			<semimajoraxis>0.050400</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>86.610</inclination>
+			<period errorminus="0.00001212" errorplus="0.00001212">4.06844957</period>
+			<description>This planet was discovered by Valizadegan et al. 2023. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.00284</mass>
+			<radius>0.106</radius>
+			<temperature>1.17000000000e+03</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.002550" errorplus="0.002550">2454965.276140</transittime>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>Kepler-1990 b</name>
+			<semimajoraxis>0.028600</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.570</inclination>
+			<period errorminus="0.00000028" errorplus="0.00000028">1.73513619</period>
+			<description>This planet was discovered by Valizadegan et al. 2023. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.03380</mass>
+			<radius>0.349</radius>
+			<temperature>1.55400000000e+03</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.000136" errorplus="0.000136">2454968.060047</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Cygnus</constellation>
+</system>

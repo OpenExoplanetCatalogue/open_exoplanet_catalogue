@@ -1,0 +1,31 @@
+<system>
+	<name>HIP 19976</name>
+	<rightascension>04 17 02</rightascension>
+	<declination>-40 47 55</declination>
+	<distance errorminus="0.0427000" errorplus="0.0428000">40.2707000</distance>
+	<star>
+		<name>HIP 19976</name>
+		<radius errorminus="0.06" errorplus="0.07">0.77</radius>
+		<magV errorminus="0.0300000" errorplus="0.0300000">10.4800000</magV>
+		<magJ errorminus="0.0260000" errorplus="0.0260000">8.1090000</magJ>
+		<magH errorminus="0.0360000" errorplus="0.0360000">7.5500000</magH>
+		<magK errorminus="0.0230000" errorplus="0.0230000">7.3810000</magK>
+		<mass errorminus="0.08" errorplus="0.08">0.67</mass>
+		<temperature errorminus="112.75" errorplus="130.32">4316.00</temperature>
+		<planet>
+			<name>HIP 19976 b</name>
+			<semimajoraxis errorminus="0.010000" errorplus="0.009000">0.234000</semimajoraxis>
+			<eccentricity errorminus="0.145000" errorplus="0.200000">0.304000</eccentricity>
+			<periastron errorminus="44.0760" errorplus="26.7230">188.9190</periastron>
+			<period errorminus="0.07830000" errorplus="0.06282000">50.65905000</period>
+			<description>This planet was discovered by Feng et al. 2022. This was a ground based discovery. The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.01600" errorplus="0.00900">0.06800</mass>
+			<radius>0.441</radius>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+		</planet>
+	</star>
+	<constellation>Horologium</constellation>
+</system>

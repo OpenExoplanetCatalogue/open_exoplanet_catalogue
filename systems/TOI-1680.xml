@@ -1,0 +1,36 @@
+<system>
+	<name>TOI-1680</name>
+	<rightascension>19 29 15</rightascension>
+	<declination>+65 58 26</declination>
+	<distance errorminus="0.0614000" errorplus="0.0617000">37.2209000</distance>
+	<star>
+		<name>TOI-1680</name>
+		<radius>0.21</radius>
+		<magV errorminus="0.2000000" errorplus="0.2000000">15.8700000</magV>
+		<magJ errorminus="0.0200000" errorplus="0.0200000">11.6370000</magJ>
+		<magH errorminus="0.0230000" errorplus="0.0230000">11.1370000</magH>
+		<magK errorminus="0.0200000" errorplus="0.0200000">10.8210000</magK>
+		<mass>0.18</mass>
+		<temperature errorminus="100.00" errorplus="99.00">3225.00</temperature>
+		<metallicity errorminus="0.200" errorplus="0.200">0.040</metallicity>
+		<spectraltype>M4.5+/-0.5</spectraltype>
+		<planet>
+			<name>TOI-1680 b</name>
+			<semimajoraxis errorminus="0.000260" errorplus="0.000250">0.031440</semimajoraxis>
+			<inclination errorminus="0.220" errorplus="0.260">89.580</inclination>
+			<period errorminus="0.00000390" errorplus="0.00000400">4.80263450</period>
+			<description>This planet was discovered by Ghachoui et al. 2023. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.00865</mass>
+			<radius errorminus="0.004" errorplus="0.006">0.131</radius>
+			<temperature errorminus="1.40000000000e+01" errorplus="1.40000000000e+01">4.04000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.000390" errorplus="0.000370">2459013.842540</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Draco</constellation>
+</system>

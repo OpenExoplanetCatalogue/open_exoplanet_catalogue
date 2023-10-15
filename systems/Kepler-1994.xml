@@ -1,0 +1,37 @@
+<system>
+	<name>Kepler-1994</name>
+	<rightascension>19 48 36</rightascension>
+	<declination>+46 17 49</declination>
+	<distance errorminus="1.4480000" errorplus="1.4650000">241.9910000</distance>
+	<star>
+		<name>Kepler-1994</name>
+		<radius errorminus="0.09" errorplus="0.12">0.96</radius>
+		<magV errorminus="0.0280000" errorplus="0.0280000">12.0100000</magV>
+		<magJ errorminus="0.0210000" errorplus="0.0210000">10.6150000</magJ>
+		<magH errorminus="0.0180000" errorplus="0.0180000">10.2750000</magH>
+		<magK errorminus="0.0140000" errorplus="0.0140000">10.1850000</magK>
+		<magI>11.6020000</magI>
+		<mass errorminus="0.05" errorplus="0.05">0.93</mass>
+		<temperature errorminus="82.00" errorplus="74.00">5495.00</temperature>
+		<metallicity errorminus="0.150" errorplus="0.150">0.160</metallicity>
+		<planet>
+			<name>Kepler-1994 b</name>
+			<semimajoraxis>0.053000</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.950</inclination>
+			<period errorminus="0.00003445" errorplus="0.00003445">4.61225043</period>
+			<description>This planet was discovered by Valizadegan et al. 2023. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.00027</mass>
+			<radius>0.056</radius>
+			<temperature>1.03200000000e+03</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.005350" errorplus="0.005350">2454966.861340</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Cygnus</constellation>
+</system>

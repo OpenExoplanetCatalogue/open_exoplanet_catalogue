@@ -1,0 +1,35 @@
+<system>
+	<name>TOI-2977</name>
+	<rightascension>09 35 42</rightascension>
+	<declination>-60 21 27</declination>
+	<star>
+		<name>TOI-2977</name>
+		<radius errorminus="0.02" errorplus="0.02">1.07</radius>
+		<magV errorminus="0.0460000" errorplus="0.0460000">12.6334000</magV>
+		<magJ errorminus="0.0260000" errorplus="0.0260000">11.1280000</magJ>
+		<magH errorminus="0.0260000" errorplus="0.0260000">10.7760000</magH>
+		<magK errorminus="0.0260000" errorplus="0.0260000">10.6660000</magK>
+		<mass errorminus="0.04" errorplus="0.06">0.94</mass>
+		<temperature errorminus="93.00" errorplus="94.00">5691.00</temperature>
+		<metallicity errorminus="0.085" errorplus="0.087">0.013</metallicity>
+		<planet>
+			<name>TOI-2977 b</name>
+			<semimajoraxis errorminus="0.000500" errorplus="0.000670">0.033860</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination errorminus="0.820" errorplus="0.570">89.190</inclination>
+			<period errorminus="0.00000250" errorplus="0.00000250">2.35056140</period>
+			<description>This planet was discovered by Yee et al. 2023. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.25000" errorplus="0.26000">1.68000</mass>
+			<radius errorminus="0.027" errorplus="0.031">1.174</radius>
+			<temperature errorminus="2.60000000000e+01" errorplus="2.60000000000e+01">1.54400000000e+03</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.000290" errorplus="0.000290">2459373.836770</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Carina</constellation>
+</system>

@@ -1,0 +1,55 @@
+<system>
+	<name>Kepler-1991</name>
+	<rightascension>19 00 09</rightascension>
+	<declination>+45 04 16</declination>
+	<distance errorminus="13.9060000" errorplus="14.3650000">855.8200000</distance>
+	<star>
+		<name>Kepler-1991</name>
+		<radius errorminus="0.15" errorplus="0.15">1.05</radius>
+		<magV errorminus="0.1600000" errorplus="0.1600000">15.0480000</magV>
+		<magJ errorminus="0.0250000" errorplus="0.0250000">13.5390000</magJ>
+		<magH errorminus="0.0280000" errorplus="0.0280000">13.1940000</magH>
+		<magK errorminus="0.0340000" errorplus="0.0340000">13.0670000</magK>
+		<magI>14.5420000</magI>
+		<mass errorminus="0.04" errorplus="0.06">0.91</mass>
+		<temperature errorminus="74.00" errorplus="82.00">5478.00</temperature>
+		<metallicity errorminus="0.150" errorplus="0.150">0.160</metallicity>
+		<planet>
+			<name>Kepler-1991 b</name>
+			<semimajoraxis>0.106500</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.510</inclination>
+			<period errorminus="0.00009795" errorplus="0.00009795">13.26079792</period>
+			<description>This planet was discovered by Valizadegan et al. 2023. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.00869</mass>
+			<radius>0.165</radius>
+			<temperature>7.60000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.005540" errorplus="0.005540">2454972.098800</transittime>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>Kepler-1991 c</name>
+			<semimajoraxis>0.152800</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.940</inclination>
+			<period errorminus="0.00006878" errorplus="0.00006878">22.79020351</period>
+			<description>This planet was discovered by Valizadegan et al. 2023. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.02240</mass>
+			<radius>0.259</radius>
+			<temperature>6.34000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.002570" errorplus="0.002570">2454971.685150</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Lyra</constellation>
+</system>

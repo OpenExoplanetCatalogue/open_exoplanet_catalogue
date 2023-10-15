@@ -1,0 +1,37 @@
+<system>
+	<name>WASP-193</name>
+	<rightascension>10 57 24</rightascension>
+	<declination>-29 59 50</declination>
+	<distance errorminus="5.2320000" errorplus="5.3840000">362.0870000</distance>
+	<star>
+		<name>WASP-193</name>
+		<radius errorminus="0.03" errorplus="0.03">1.24</radius>
+		<magV errorminus="0.0230000" errorplus="0.0230000">11.9720000</magV>
+		<magJ>10.9520000</magJ>
+		<magH errorminus="0.0340000" errorplus="0.0340000">10.8100000</magH>
+		<magK errorminus="0.0350000" errorplus="0.0350000">10.7450000</magK>
+		<mass errorminus="0.07" errorplus="0.07">1.06</mass>
+		<temperature errorminus="120.00" errorplus="120.00">6078.00</temperature>
+		<metallicity errorminus="0.088" errorplus="0.088">-0.060</metallicity>
+		<spectraltype>F9</spectraltype>
+		<planet>
+			<name>WASP-193 b</name>
+			<semimajoraxis errorminus="0.001500" errorplus="0.001500">0.067600</semimajoraxis>
+			<eccentricity errorminus="0.040000" errorplus="0.068000">0.056000</eccentricity>
+			<inclination errorminus="0.490" errorplus="0.780">88.490</inclination>
+			<period errorminus="0.00000030" errorplus="0.00000030">6.24633450</period>
+			<description>This planet was discovered by Barkaoui et al. 2023. This was a ground based discovery. The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.02900" errorplus="0.02900">0.13900</mass>
+			<radius errorminus="0.057" errorplus="0.059">1.464</radius>
+			<temperature errorminus="3.10000000000e+01" errorplus="3.10000000000e+01">1.25400000000e+03</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.000560" errorplus="0.000560">2457781.665670</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Hydra</constellation>
+</system>

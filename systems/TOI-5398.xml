@@ -1,0 +1,31 @@
+<system>
+	<name>TOI-5398</name>
+	<rightascension>10 47 31</rightascension>
+	<declination>+36 19 46</declination>
+	<distance errorminus="0.6780000" errorplus="0.6860000">130.8550000</distance>
+	<star>
+		<name>TOI-5398</name>
+		<radius errorminus="0.04" errorplus="0.04">1.05</radius>
+		<magV errorminus="0.0050000" errorplus="0.0050000">10.0590000</magV>
+		<magJ errorminus="0.0210000" errorplus="0.0210000">9.0260000</magJ>
+		<magH errorminus="0.0230000" errorplus="0.0230000">8.7720000</magH>
+		<magK errorminus="0.0180000" errorplus="0.0180000">8.7130000</magK>
+		<mass errorminus="0.17" errorplus="0.12">1.11</mass>
+		<temperature errorminus="101.47" errorplus="97.45">6017.10</temperature>
+		<metallicity errorminus="0.017" errorplus="0.017">0.130</metallicity>
+		<planet>
+			<name>TOI-5398 b</name>
+			<period>10.59092300</period>
+			<description>This planet was discovered by Mantovan et al. 2022. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius>1.040</radius>
+			<temperature>9.19000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.000452" errorplus="0.000452">2459616.492055</transittime>
+		</planet>
+	</star>
+	<constellation>Leo Minor</constellation>
+</system>

@@ -1,0 +1,36 @@
+<system>
+	<name>TOI-4087</name>
+	<rightascension>14 31 42</rightascension>
+	<declination>+83 22 22</declination>
+	<distance errorminus="2.1930000" errorplus="2.2250000">301.6760000</distance>
+	<star>
+		<name>TOI-4087</name>
+		<radius errorminus="0.02" errorplus="0.02">1.11</radius>
+		<magV errorminus="0.0230000" errorplus="0.0230000">12.1070000</magV>
+		<magJ errorminus="0.0220000" errorplus="0.0220000">10.7540000</magJ>
+		<magH errorminus="0.0290000" errorplus="0.0290000">10.4930000</magH>
+		<magK errorminus="0.0250000" errorplus="0.0250000">10.4360000</magK>
+		<mass errorminus="0.04" errorplus="0.04">1.18</mass>
+		<temperature errorminus="67.00" errorplus="74.00">6060.00</temperature>
+		<metallicity errorminus="0.079" errorplus="0.079">0.237</metallicity>
+		<planet>
+			<name>TOI-4087 b</name>
+			<semimajoraxis errorminus="0.000540" errorplus="0.000480">0.044690</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination errorminus="0.330" errorplus="0.370">87.820</inclination>
+			<period errorminus="0.00000094" errorplus="0.00000094">3.17748350</period>
+			<description>This planet was discovered by Yee et al. 2023. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.14000" errorplus="0.14000">0.73000</mass>
+			<radius errorminus="0.024" errorplus="0.025">1.164</radius>
+			<temperature errorminus="1.70000000000e+01" errorplus="2.00000000000e+01">1.45800000000e+03</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.000092" errorplus="0.000093">2459244.566414</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Ursa Minor</constellation>
+</system>

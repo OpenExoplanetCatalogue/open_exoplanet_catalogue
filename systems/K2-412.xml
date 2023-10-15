@@ -1,0 +1,33 @@
+<system>
+	<name>K2-412</name>
+	<rightascension>05 05 03</rightascension>
+	<declination>+21 34 49</declination>
+	<distance errorminus="17.4080000" errorplus="18.3680000">654.0850000</distance>
+	<star>
+		<name>K2-412</name>
+		<radius errorminus="0.06" errorplus="0.07">0.98</radius>
+		<magV errorminus="0.0800000" errorplus="0.0800000">15.7460000</magV>
+		<magJ errorminus="0.0240000" errorplus="0.0240000">13.1540000</magJ>
+		<magH errorminus="0.0230000" errorplus="0.0230000">12.7080000</magH>
+		<magK errorminus="0.0250000" errorplus="0.0250000">12.5420000</magK>
+		<mass errorminus="0.28" errorplus="0.41">0.89</mass>
+		<temperature errorminus="138.00" errorplus="138.00">5590.00</temperature>
+		<metallicity errorminus="0.235" errorplus="0.235">0.014</metallicity>
+		<planet>
+			<name>K2-412 b</name>
+			<semimajoraxis errorminus="0.003300" errorplus="0.003200">0.058600</semimajoraxis>
+			<inclination errorminus="1.321" errorplus="1.308">89.998</inclination>
+			<period errorminus="0.00040000" errorplus="0.00060000">5.93820000</period>
+			<description>This planet was discovered by del Ser et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.01610</mass>
+			<radius errorminus="0.009" errorplus="0.009">0.189</radius>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.002800" errorplus="0.004300">2457823.145600</transittime>
+		</planet>
+	</star>
+	<constellation>Taurus</constellation>
+</system>

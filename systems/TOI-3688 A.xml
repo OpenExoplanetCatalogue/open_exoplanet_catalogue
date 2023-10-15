@@ -1,0 +1,36 @@
+<system>
+	<name>TOI-3688 A</name>
+	<rightascension>02 37 08</rightascension>
+	<declination>+54 51 04</declination>
+	<distance errorminus="5.8550000" errorplus="6.0300000">396.3780000</distance>
+	<star>
+		<name>TOI-3688 A</name>
+		<radius errorminus="0.04" errorplus="0.04">1.30</radius>
+		<magV errorminus="0.0280000" errorplus="0.0280000">12.2410000</magV>
+		<magJ errorminus="0.0260000" errorplus="0.0260000">11.1290000</magJ>
+		<magH errorminus="0.0240000" errorplus="0.0240000">10.8190000</magH>
+		<magK errorminus="0.0200000" errorplus="0.0200000">10.7320000</magK>
+		<mass errorminus="0.08" errorplus="0.07">1.20</mass>
+		<temperature errorminus="100.00" errorplus="100.00">5950.00</temperature>
+		<metallicity errorminus="0.086" errorplus="0.085">0.262</metallicity>
+		<planet>
+			<name>TOI-3688 A b</name>
+			<semimajoraxis errorminus="0.000980" errorplus="0.000890">0.045600</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination errorminus="1.000" errorplus="1.200">87.900</inclination>
+			<period errorminus="0.00001200" errorplus="0.00001200">3.24607500</period>
+			<description>This planet was discovered by Yee et al. 2023. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.11000" errorplus="0.10000">0.98000</mass>
+			<radius errorminus="0.044" errorplus="0.048">1.167</radius>
+			<temperature errorminus="2.80000000000e+01" errorplus="2.90000000000e+01">1.53400000000e+03</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.001400" errorplus="0.001400">2459108.050700</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Perseus</constellation>
+</system>

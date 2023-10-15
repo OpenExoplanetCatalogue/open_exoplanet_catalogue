@@ -1,0 +1,38 @@
+<system>
+	<name>HD 307842</name>
+	<rightascension>10 37 22</rightascension>
+	<declination>-63 39 20</declination>
+	<distance errorminus="0.1100000" errorplus="0.1104000">64.5997000</distance>
+	<star>
+		<name>HD 307842</name>
+		<radius errorminus="0.02" errorplus="0.02">0.91</radius>
+		<magV errorminus="0.0030000" errorplus="0.0030000">9.4120000</magV>
+		<magJ errorminus="0.0200000" errorplus="0.0200000">8.0710000</magJ>
+		<magH errorminus="0.0290000" errorplus="0.0290000">7.7280000</magH>
+		<magK errorminus="0.0230000" errorplus="0.0230000">7.6400000</magK>
+		<mass errorminus="0.10" errorplus="0.10">0.91</mass>
+		<temperature errorminus="100.00" errorplus="100.00">5558.00</temperature>
+		<metallicity errorminus="0.080" errorplus="0.080">-0.130</metallicity>
+		<spectraltype>G</spectraltype>
+		<planet>
+			<name>HD 307842 b</name>
+			<semimajoraxis errorminus="0.001000" errorplus="0.001000">0.038000</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<periastron>90.0000</periastron>
+			<inclination errorminus="0.860" errorplus="0.840">88.600</inclination>
+			<period errorminus="0.00000300" errorplus="0.00000310">2.79703650</period>
+			<description>This planet was discovered by Hua et al. 2023. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00258" errorplus="0.00261">0.03043</mass>
+			<radius errorminus="0.008" errorplus="0.010">0.172</radius>
+			<temperature>1.25600000000e+03</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.000500" errorplus="0.000440">2459336.612210</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Carina</constellation>
+</system>

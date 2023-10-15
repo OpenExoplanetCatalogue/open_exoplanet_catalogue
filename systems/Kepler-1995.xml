@@ -1,0 +1,37 @@
+<system>
+	<name>Kepler-1995</name>
+	<rightascension>18 57 22</rightascension>
+	<declination>+46 18 60</declination>
+	<distance errorminus="9.2200000" errorplus="9.5080000">595.3310000</distance>
+	<star>
+		<name>Kepler-1995</name>
+		<radius errorminus="0.14" errorplus="0.48">0.93</radius>
+		<magV errorminus="0.1950000" errorplus="0.1950000">15.5160000</magV>
+		<magJ errorminus="0.0230000" errorplus="0.0230000">13.6610000</magJ>
+		<magH errorminus="0.0260000" errorplus="0.0260000">13.1750000</magH>
+		<magK errorminus="0.0320000" errorplus="0.0320000">13.0160000</magK>
+		<magI>14.8590000</magI>
+		<mass errorminus="0.05" errorplus="0.07">0.85</mass>
+		<temperature errorminus="174.00" errorplus="192.00">5029.00</temperature>
+		<metallicity errorminus="0.250" errorplus="0.050">0.480</metallicity>
+		<planet>
+			<name>Kepler-1995 b</name>
+			<semimajoraxis>0.325900</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.740</inclination>
+			<period errorminus="0.00043040" errorplus="0.00043040">73.75788750</period>
+			<description>This planet was discovered by Valizadegan et al. 2023. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.05330</mass>
+			<radius>0.412</radius>
+			<temperature>3.75000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.004880" errorplus="0.004880">2455016.723480</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Lyra</constellation>
+</system>

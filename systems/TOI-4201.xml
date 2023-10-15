@@ -1,0 +1,38 @@
+<system>
+	<name>TOI-4201</name>
+	<rightascension>06 01 54</rightascension>
+	<declination>-13 27 41</declination>
+	<distance errorminus="0.9885000" errorplus="0.9885000">189.0110000</distance>
+	<star>
+		<name>TOI-4201</name>
+		<radius errorminus="0.02" errorplus="0.02">0.63</radius>
+		<magV errorminus="0.0800000" errorplus="0.0800000">15.1630000</magV>
+		<magJ errorminus="0.0210000" errorplus="0.0210000">12.2580000</magJ>
+		<magH errorminus="0.0240000" errorplus="0.0240000">11.5640000</magH>
+		<magK errorminus="0.0250000" errorplus="0.0250000">11.3680000</magK>
+		<mass errorminus="0.02" errorplus="0.02">0.61</mass>
+		<temperature errorminus="79.00" errorplus="79.00">3794.00</temperature>
+		<metallicity errorminus="0.080" errorplus="0.080">0.520</metallicity>
+		<spectraltype>M1.0+/-0.5</spectraltype>
+		<planet>
+			<name>TOI-4201 b</name>
+			<semimajoraxis errorminus="0.001000" errorplus="0.001000">0.040000</semimajoraxis>
+			<eccentricity errorminus="0.015000" errorplus="0.015000">0.041000</eccentricity>
+			<periastron errorminus="44.5000" errorplus="44.5000">130.0000</periastron>
+			<inclination errorminus="0.100" errorplus="0.100">88.000</inclination>
+			<period errorminus="0.00000110" errorplus="0.00000110">3.58191940</period>
+			<description>This planet was discovered by Gan et al. 2023. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.09000" errorplus="0.09000">2.48000</mass>
+			<radius errorminus="0.040" errorplus="0.040">1.220</radius>
+			<temperature errorminus="2.00000000000e+01" errorplus="2.00000000000e+01">7.25000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.000400" errorplus="0.000400">2458470.961900</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Lepus</constellation>
+</system>

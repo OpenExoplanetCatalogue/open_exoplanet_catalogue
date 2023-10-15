@@ -1,0 +1,36 @@
+<system>
+	<name>Kepler-1876</name>
+	<rightascension>19 56 39</rightascension>
+	<declination>+41 08 38</declination>
+	<distance errorminus="1.7730000" errorplus="1.7970000">259.9350000</distance>
+	<star>
+		<name>Kepler-1876</name>
+		<radius errorminus="0.02" errorplus="0.02">1.48</radius>
+		<magV errorminus="0.0070000" errorplus="0.0070000">10.7930000</magV>
+		<magJ errorminus="0.0210000" errorplus="0.0210000">9.7710000</magJ>
+		<magH errorminus="0.0220000" errorplus="0.0220000">9.5260000</magH>
+		<magK errorminus="0.0180000" errorplus="0.0180000">9.4720000</magK>
+		<magI>10.6250000</magI>
+		<mass errorminus="0.09" errorplus="0.07">1.19</mass>
+		<temperature errorminus="57.00" errorplus="57.00">6104.00</temperature>
+		<metallicity errorminus="0.060" errorplus="0.060">0.010</metallicity>
+		<planet>
+			<name>Kepler-1876 b</name>
+			<semimajoraxis errorminus="0.001900" errorplus="0.001900">0.075800</semimajoraxis>
+			<eccentricity>0.098000</eccentricity>
+			<inclination errorminus="2.000" errorplus="0.750">89.130</inclination>
+			<period errorminus="0.00003800" errorplus="0.00003800">6.99205000</period>
+			<description>This planet was discovered by Valizadegan et al. 2022. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.00755</mass>
+			<radius errorminus="0.002" errorplus="0.003">0.076</radius>
+			<temperature errorminus="2.20000000000e+01" errorplus="2.20000000000e+01">1.29900000000e+03</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2021</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.005000" errorplus="0.005000">2454971.051000</transittime>
+		</planet>
+	</star>
+	<constellation>Cygnus</constellation>
+</system>

@@ -1,0 +1,35 @@
+<system>
+	<name>HIP 54597</name>
+	<rightascension>11 10 26</rightascension>
+	<declination>-29 24 51</declination>
+	<distance errorminus="0.0663000" errorplus="0.0664000">39.7429000</distance>
+	<star>
+		<name>HIP 54597</name>
+		<radius errorminus="0.03" errorplus="0.03">0.66</radius>
+		<magV errorminus="0.0300000" errorplus="0.0300000">9.8300000</magV>
+		<magJ errorminus="0.0190000" errorplus="0.0190000">7.9220000</magJ>
+		<magH errorminus="0.0440000" errorplus="0.0440000">7.4140000</magH>
+		<magK errorminus="0.0180000" errorplus="0.0180000">7.2760000</magK>
+		<mass errorminus="0.04" errorplus="0.04">0.80</mass>
+		<temperature errorminus="90.00" errorplus="90.00">4799.00</temperature>
+		<metallicity errorminus="0.060" errorplus="0.060">-0.220</metallicity>
+		<spectraltype>K5V</spectraltype>
+		<planet>
+			<name>HIP 54597 b</name>
+			<semimajoraxis errorminus="0.100000" errorplus="0.100000">4.000000</semimajoraxis>
+			<eccentricity errorminus="0.020000" errorplus="0.030000">0.030000</eccentricity>
+			<periastron errorminus="103.0000" errorplus="123.0000">164.0000</periastron>
+			<inclination errorminus="14.000" errorplus="13.000">116.000</inclination>
+			<period errorminus="46.00000000" errorplus="47.00000000">3274.00000000</period>
+			<description>This planet was discovered by Frensch et al. 2023. This was a ground based discovery. The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.20000" errorplus="0.40000">2.40000</mass>
+			<radius>1.180</radius>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Hydra</constellation>
+</system>

@@ -1,0 +1,59 @@
+<system>
+	<name>TOI-1052</name>
+	<name>HD 212729</name>
+	<rightascension>22 30 02</rightascension>
+	<declination>-75 38 48</declination>
+	<distance errorminus="0.5550000" errorplus="0.5600000">129.8040000</distance>
+	<star>
+		<name>TOI-1052</name>
+		<name>HD 212729</name>
+		<radius errorminus="0.03" errorplus="0.03">1.26</radius>
+		<magV errorminus="0.0030000" errorplus="0.0030000">9.5110000</magV>
+		<magJ errorminus="0.0240000" errorplus="0.0240000">8.5600000</magJ>
+		<magH errorminus="0.0400000" errorplus="0.0400000">8.2490000</magH>
+		<magK errorminus="0.0250000" errorplus="0.0250000">8.2460000</magK>
+		<mass errorminus="0.03" errorplus="0.03">1.20</mass>
+		<temperature errorminus="62.00" errorplus="62.00">6146.00</temperature>
+		<metallicity errorminus="0.013" errorplus="0.013">0.140</metallicity>
+		<planet>
+			<name>TOI-1052 c</name>
+			<name>HD 212729 c</name>
+			<semimajoraxis errorminus="0.002300" errorplus="0.002400">0.226300</semimajoraxis>
+			<eccentricity errorminus="0.082000" errorplus="0.090000">0.237000</eccentricity>
+			<periastron errorminus="30.0000" errorplus="27.0000">-45.0000</periastron>
+			<period errorminus="0.38100000" errorplus="0.45300000">35.80600000</period>
+			<description>This planet was discovered by Armstrong et al. 2023. The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.01164" errorplus="0.01290">0.10792</mass>
+			<radius>0.578</radius>
+			<temperature>7.19000000000e+02</temperature>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="1.640000" errorplus="1.630000">2459425.130000</transittime>
+			<istransiting>1</istransiting>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>TOI-1052 b</name>
+			<name>HD 212729 b</name>
+			<semimajoraxis errorminus="0.000630" errorplus="0.000620">0.091030</semimajoraxis>
+			<eccentricity errorminus="0.071000" errorplus="0.090000">0.180000</eccentricity>
+			<periastron errorminus="24.0000" errorplus="14.0000">-119.0000</periastron>
+			<inclination errorminus="0.200" errorplus="0.240">87.530</inclination>
+			<period errorminus="0.00019700" errorplus="0.00019000">9.13970300</period>
+			<description>This planet was discovered by Armstrong et al. 2023. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00535" errorplus="0.00535">0.05317</mass>
+			<radius errorminus="0.021" errorplus="0.026">0.256</radius>
+			<temperature>1.13500000000e+03</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.005500" errorplus="0.005700">2458332.944200</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Octans</constellation>
+</system>

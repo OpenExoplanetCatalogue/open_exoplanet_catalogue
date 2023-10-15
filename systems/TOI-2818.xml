@@ -1,0 +1,36 @@
+<system>
+	<name>TOI-2818</name>
+	<rightascension>07 56 14</rightascension>
+	<declination>-35 07 00</declination>
+	<distance errorminus="2.2330000" errorplus="2.2650000">312.6740000</distance>
+	<star>
+		<name>TOI-2818</name>
+		<radius errorminus="0.03" errorplus="0.03">1.23</radius>
+		<magV errorminus="0.0350000" errorplus="0.0350000">11.9370000</magV>
+		<magJ errorminus="0.0270000" errorplus="0.0270000">10.7430000</magJ>
+		<magH errorminus="0.0260000" errorplus="0.0260000">10.4540000</magH>
+		<magK errorminus="0.0250000" errorplus="0.0250000">10.4030000</magK>
+		<mass errorminus="0.05" errorplus="0.06">0.98</mass>
+		<temperature errorminus="83.00" errorplus="88.00">5721.00</temperature>
+		<metallicity errorminus="0.090" errorplus="0.110">-0.020</metallicity>
+		<planet>
+			<name>TOI-2818 b</name>
+			<semimajoraxis errorminus="0.000800" errorplus="0.001000">0.049300</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination errorminus="0.550" errorplus="0.750">87.730</inclination>
+			<period errorminus="0.00000230" errorplus="0.00000240">4.03970900</period>
+			<description>This planet was discovered by Yee et al. 2023. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.26000" errorplus="0.26000">0.71000</mass>
+			<radius errorminus="0.045" errorplus="0.046">1.363</radius>
+			<temperature errorminus="2.40000000000e+01" errorplus="2.60000000000e+01">1.37600000000e+03</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.000250" errorplus="0.000250">2459023.446410</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Puppis</constellation>
+</system>

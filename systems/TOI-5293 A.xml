@@ -1,0 +1,38 @@
+<system>
+	<name>TOI-5293 A</name>
+	<rightascension>23 43 19</rightascension>
+	<declination>-02 02 42</declination>
+	<distance errorminus="1.2950000" errorplus="1.3160000">162.2290000</distance>
+	<star>
+		<name>TOI-5293 A</name>
+		<radius errorminus="0.01" errorplus="0.02">0.52</radius>
+		<magV errorminus="1.1330000" errorplus="1.1330000">16.1900000</magV>
+		<magJ errorminus="0.0310000" errorplus="0.0310000">12.4650000</magJ>
+		<magH errorminus="0.0310000" errorplus="0.0310000">11.8590000</magH>
+		<magK errorminus="0.0350000" errorplus="0.0350000">11.6390000</magK>
+		<mass errorminus="0.02" errorplus="0.02">0.54</mass>
+		<temperature errorminus="88.00" errorplus="88.00">3586.00</temperature>
+		<metallicity errorminus="0.120" errorplus="0.120">-0.030</metallicity>
+		<spectraltype>M3+/-1</spectraltype>
+		<planet>
+			<name>TOI-5293 A b</name>
+			<semimajoraxis errorminus="0.003000" errorplus="0.004000">0.034000</semimajoraxis>
+			<eccentricity>0.380000</eccentricity>
+			<periastron errorminus="45.0000" errorplus="161.0000">-92.0000</periastron>
+			<inclination errorminus="0.600" errorplus="0.500">88.800</inclination>
+			<period errorminus="0.00000400" errorplus="0.00000400">2.93028900</period>
+			<description>This planet was discovered by Cañas et al. 2023. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.07000" errorplus="0.07000">0.54000</mass>
+			<radius errorminus="0.040" errorplus="0.040">1.060</radius>
+			<temperature errorminus="3.00000000000e+01" errorplus="4.20000000000e+01">6.75000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.000400" errorplus="0.000400">2459448.914800</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Pisces</constellation>
+</system>

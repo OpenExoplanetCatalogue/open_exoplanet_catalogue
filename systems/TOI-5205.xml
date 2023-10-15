@@ -1,0 +1,39 @@
+<system>
+	<name>TOI-5205</name>
+	<rightascension>20 55 05</rightascension>
+	<declination>+24 21 40</declination>
+	<distance errorminus="0.4139000" errorplus="0.4178000">86.4493000</distance>
+	<star>
+		<name>TOI-5205</name>
+		<radius errorminus="0.01" errorplus="0.01">0.39</radius>
+		<magV errorminus="1.0300000" errorplus="1.0300000">15.8990000</magV>
+		<magJ errorminus="0.0280000" errorplus="0.0280000">11.9260000</magJ>
+		<magH errorminus="0.0320000" errorplus="0.0320000">11.2400000</magH>
+		<magK errorminus="0.0230000" errorplus="0.0230000">11.0060000</magK>
+		<magI errorminus="0.0030975" errorplus="0.0030975">14.1879000</magI>
+		<mass errorminus="0.02" errorplus="0.02">0.39</mass>
+		<temperature errorminus="54.00" errorplus="54.00">3430.00</temperature>
+		<metallicity>0.000</metallicity>
+		<spectraltype>M4.0</spectraltype>
+		<planet>
+			<name>TOI-5205 b</name>
+			<semimajoraxis errorminus="0.000200" errorplus="0.000200">0.019900</semimajoraxis>
+			<eccentricity errorminus="0.014000" errorplus="0.020000">0.020000</eccentricity>
+			<periastron errorminus="100.0000" errorplus="186.0000">-42.0000</periastron>
+			<inclination errorminus="0.220" errorplus="0.240">88.210</inclination>
+			<period errorminus="0.00000100" errorplus="0.00000100">1.63075700</period>
+			<description>This planet was discovered by Kanodia et al. 2023. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.06000" errorplus="0.06000">1.08000</mass>
+			<radius errorminus="0.030" errorplus="0.030">1.030</radius>
+			<temperature errorminus="1.50000000000e+01" errorplus="1.50000000000e+01">7.37000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.000190" errorplus="0.000190">2459443.471790</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Vulpecula</constellation>
+</system>

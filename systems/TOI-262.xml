@@ -1,0 +1,39 @@
+<system>
+	<name>TOI-262</name>
+	<name>HIP 10117</name>
+	<rightascension>02 10 08</rightascension>
+	<declination>-31 04 14</declination>
+	<distance errorminus="0.1168000" errorplus="0.1174000">43.9320000</distance>
+	<star>
+		<name>TOI-262</name>
+		<name>HIP 10117</name>
+		<radius errorminus="0.02" errorplus="0.02">0.85</radius>
+		<magV errorminus="0.0300000" errorplus="0.0300000">8.9100000</magV>
+		<magJ errorminus="0.0230000" errorplus="0.0230000">7.3870000</magJ>
+		<magH errorminus="0.0400000" errorplus="0.0400000">7.0510000</magH>
+		<magK errorminus="0.0200000" errorplus="0.0200000">6.9670000</magK>
+		<mass errorminus="0.03" errorplus="0.03">0.91</mass>
+		<temperature errorminus="124.00" errorplus="124.00">5310.00</temperature>
+		<metallicity errorminus="0.070" errorplus="0.070">0.260</metallicity>
+		<spectraltype>K0V</spectraltype>
+		<planet>
+			<name>TOI-262 b</name>
+			<name>HIP 10117 b</name>
+			<semimajoraxis errorminus="0.002000" errorplus="0.002000">0.163000</semimajoraxis>
+			<inclination errorminus="0.413" errorplus="0.413">89.011</inclination>
+			<period errorminus="0.00003000" errorplus="0.00003000">11.14529000</period>
+			<description>This planet was discovered by Oddo et al. 2023. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.01550</mass>
+			<radius errorminus="0.013" errorplus="0.013">0.185</radius>
+			<temperature errorminus="4.50000000000e+01" errorplus="4.50000000000e+01">5.84000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.001000" errorplus="0.001000">2459136.576600</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Fornax</constellation>
+</system>

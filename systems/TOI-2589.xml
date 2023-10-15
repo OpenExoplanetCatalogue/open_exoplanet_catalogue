@@ -1,0 +1,37 @@
+<system>
+	<name>TOI-2589</name>
+	<rightascension>07 09 57</rightascension>
+	<declination>-37 13 51</declination>
+	<distance errorminus="0.8260000" errorplus="0.8320000">200.2730000</distance>
+	<star>
+		<name>TOI-2589</name>
+		<radius errorminus="0.01" errorplus="0.01">1.07</radius>
+		<magV errorminus="0.0120000" errorplus="0.0120000">11.4150000</magV>
+		<magJ errorminus="0.0220000" errorplus="0.0220000">10.0710000</magJ>
+		<magH errorminus="0.0260000" errorplus="0.0260000">9.6930000</magH>
+		<magK errorminus="0.0210000" errorplus="0.0210000">9.6320000</magK>
+		<mass errorminus="0.02" errorplus="0.03">0.93</mass>
+		<temperature errorminus="70.00" errorplus="70.00">5579.00</temperature>
+		<metallicity errorminus="0.040" errorplus="0.040">0.120</metallicity>
+		<planet>
+			<name>TOI-2589 b</name>
+			<semimajoraxis errorminus="0.005000" errorplus="0.006000">0.300000</semimajoraxis>
+			<eccentricity errorminus="0.006000" errorplus="0.006000">0.522000</eccentricity>
+			<periastron errorminus="1.0000" errorplus="1.0000">218.0000</periastron>
+			<inclination errorminus="0.010" errorplus="0.010">89.170</inclination>
+			<period errorminus="0.00020000" errorplus="0.00020000">61.62770000</period>
+			<description>This planet was discovered by Brahm et al. 2023. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.10000" errorplus="0.10000">3.50000</mass>
+			<radius errorminus="0.030" errorplus="0.030">1.080</radius>
+			<temperature errorminus="8.00000000000e+00" errorplus="7.00000000000e+00">5.92000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.002000" errorplus="0.002000">2458494.579000</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Puppis</constellation>
+</system>

@@ -1,0 +1,37 @@
+<system>
+	<name>Kepler-1989</name>
+	<rightascension>19 22 56</rightascension>
+	<declination>+44 05 29</declination>
+	<distance errorminus="31.6800000" errorplus="33.3300000">1252.1300000</distance>
+	<star>
+		<name>Kepler-1989</name>
+		<radius errorminus="0.17" errorplus="0.31">1.06</radius>
+		<magV errorminus="0.4810000" errorplus="0.4810000">14.2890000</magV>
+		<magJ errorminus="0.0590000" errorplus="0.0590000">13.5590000</magJ>
+		<magH>12.8930000</magH>
+		<magK errorminus="0.0590000" errorplus="0.0590000">13.1930000</magK>
+		<magI>14.4630000</magI>
+		<mass errorminus="0.13" errorplus="0.15">1.00</mass>
+		<temperature errorminus="232.00" errorplus="189.00">6032.00</temperature>
+		<metallicity errorminus="0.300" errorplus="0.300">-0.140</metallicity>
+		<planet>
+			<name>Kepler-1989 b</name>
+			<semimajoraxis>0.091800</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>87.780</inclination>
+			<period errorminus="0.00000918" errorplus="0.00000918">10.16102353</period>
+			<description>This planet was discovered by Valizadegan et al. 2023. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.06070</mass>
+			<radius>0.425</radius>
+			<temperature>9.04000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.000741" errorplus="0.000741">2455005.000736</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Cygnus</constellation>
+</system>

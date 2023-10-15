@@ -1,0 +1,37 @@
+<system>
+	<name>K2-415</name>
+	<rightascension>09 08 48</rightascension>
+	<declination>+11 51 44</declination>
+	<distance errorminus="0.0307000" errorplus="0.0307000">21.8182000</distance>
+	<star>
+		<name>K2-415</name>
+		<radius errorminus="0.01" errorplus="0.01">0.20</radius>
+		<magV errorminus="0.0270000" errorplus="0.0270000">15.3300000</magV>
+		<magJ errorminus="0.0260000" errorplus="0.0260000">10.7390000</magJ>
+		<magH errorminus="0.0230000" errorplus="0.0230000">10.1700000</magH>
+		<magK errorminus="0.0230000" errorplus="0.0230000">9.8990000</magK>
+		<magI errorminus="0.0133955" errorplus="0.0133955">16.0743000</magI>
+		<mass>0.16</mass>
+		<temperature errorminus="53.00" errorplus="53.00">3173.00</temperature>
+		<metallicity errorminus="0.180" errorplus="0.180">-0.130</metallicity>
+		<spectraltype>M5V</spectraltype>
+		<planet>
+			<name>K2-415 b</name>
+			<semimajoraxis errorminus="0.000230" errorplus="0.000230">0.027000</semimajoraxis>
+			<inclination errorminus="0.410" errorplus="0.410">89.320</inclination>
+			<period errorminus="0.00000270" errorplus="0.00000270">4.01796940</period>
+			<description>This planet was discovered by Hirano et al. 2023. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.02360</mass>
+			<radius>0.091</radius>
+			<temperature errorminus="9.30000000000e+00" errorplus="9.30000000000e+00">4.12400000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.000690" errorplus="0.000690">2458100.071160</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Cancer</constellation>
+</system>

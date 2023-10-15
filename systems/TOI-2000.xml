@@ -1,0 +1,55 @@
+<system>
+	<name>TOI-2000</name>
+	<rightascension>09 45 35</rightascension>
+	<declination>-66 41 12</declination>
+	<distance errorminus="0.7540000" errorplus="0.7600000">175.7130000</distance>
+	<star>
+		<name>TOI-2000</name>
+		<radius errorminus="0.04" errorplus="0.04">1.13</radius>
+		<magV errorminus="0.0120000" errorplus="0.0120000">10.9840000</magV>
+		<magJ errorminus="0.0280000" errorplus="0.0280000">9.7150000</magJ>
+		<magH errorminus="0.0260000" errorplus="0.0260000">9.4170000</magH>
+		<magK errorminus="0.0210000" errorplus="0.0210000">9.3030010</magK>
+		<mass errorminus="0.05" errorplus="0.06">1.08</mass>
+		<temperature errorminus="82.00" errorplus="85.00">5611.00</temperature>
+		<metallicity errorminus="0.043" errorplus="0.041">0.439</metallicity>
+		<planet>
+			<name>TOI-2000 b</name>
+			<semimajoraxis errorminus="0.000670" errorplus="0.000760">0.042710</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination errorminus="0.430" errorplus="0.540">84.590</inclination>
+			<period errorminus="0.00001900" errorplus="0.00002100">3.09833000</period>
+			<description>This planet was discovered by Sha et al. 2023. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00750" errorplus="0.00770">0.03470</mass>
+			<radius errorminus="0.014" errorplus="0.014">0.241</radius>
+			<temperature errorminus="1.60000000000e+02" errorplus="1.22000000000e+02">1.48800000000e+03</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.002100" errorplus="0.002200">2458855.244200</transittime>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>TOI-2000 c</name>
+			<semimajoraxis errorminus="0.001400" errorplus="0.001600">0.087800</semimajoraxis>
+			<eccentricity errorminus="0.022000" errorplus="0.023000">0.063000</eccentricity>
+			<periastron errorminus="34.0000" errorplus="29.0000">196.0000</periastron>
+			<inclination errorminus="0.180" errorplus="0.190">87.860</inclination>
+			<period errorminus="0.00000720" errorplus="0.00000730">9.12705500</period>
+			<description>This planet was discovered by Sha et al. 2023. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.01400" errorplus="0.01500">0.25700</mass>
+			<radius errorminus="0.027" errorplus="0.028">0.727</radius>
+			<temperature errorminus="1.11000000000e+02" errorplus="8.40000000000e+01">1.03800000000e+03</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.000280" errorplus="0.000270">2459110.065880</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Carina</constellation>
+</system>

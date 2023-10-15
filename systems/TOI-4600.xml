@@ -1,0 +1,58 @@
+<system>
+	<name>TOI-4600</name>
+	<rightascension>17 13 48</rightascension>
+	<declination>+64 33 58</declination>
+	<distance errorminus="1.1590000" errorplus="1.1700000">216.0560000</distance>
+	<star>
+		<name>TOI-4600</name>
+		<radius errorminus="0.03" errorplus="0.03">0.81</radius>
+		<magV errorminus="0.0340000" errorplus="0.0340000">12.5770000</magV>
+		<magJ errorminus="0.0230000" errorplus="0.0230000">11.0750000</magJ>
+		<magH errorminus="0.0210000" errorplus="0.0210000">10.6590000</magH>
+		<magK errorminus="0.0180000" errorplus="0.0180000">10.5710000</magK>
+		<magI errorminus="0.0019005" errorplus="0.0019005">12.2599000</magI>
+		<mass errorminus="0.05" errorplus="0.05">0.89</mass>
+		<temperature errorminus="120.00" errorplus="120.00">5170.00</temperature>
+		<metallicity errorminus="0.080" errorplus="0.080">0.160</metallicity>
+		<spectraltype>KV</spectraltype>
+		<planet>
+			<name>TOI-4600 b</name>
+			<semimajoraxis errorminus="0.021000" errorplus="0.021000">0.349000</semimajoraxis>
+			<eccentricity errorminus="0.170000" errorplus="0.330000">0.250000</eccentricity>
+			<periastron errorminus="57.0000" errorplus="70.0000">260.0000</periastron>
+			<inclination errorminus="0.100" errorplus="0.140">89.760</inclination>
+			<period errorminus="0.00030000" errorplus="0.00030000">82.68690000</period>
+			<description>This planet was discovered by Mireles et al. 2023. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>3.02000</mass>
+			<radius errorminus="0.026" errorplus="0.028">0.607</radius>
+			<temperature errorminus="1.10000000000e+01" errorplus="1.20000000000e+01">3.47000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.001900" errorplus="0.002000">2459750.142100</transittime>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>TOI-4600 c</name>
+			<semimajoraxis errorminus="0.068000" errorplus="0.068000">1.152000</semimajoraxis>
+			<eccentricity errorminus="0.140000" errorplus="0.290000">0.210000</eccentricity>
+			<periastron errorminus="116.0000" errorplus="148.0000">142.0000</periastron>
+			<inclination errorminus="0.020" errorplus="0.030">89.900</inclination>
+			<period errorminus="0.00170000" errorplus="0.00180000">482.81910000</period>
+			<description>This planet was discovered by Mireles et al. 2023. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>9.27000</mass>
+			<radius errorminus="0.037" errorplus="0.037">0.841</radius>
+			<temperature errorminus="6.00000000000e+00" errorplus="6.00000000000e+00">1.91000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.002000" errorplus="0.002000">2459751.600800</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Draco</constellation>
+</system>

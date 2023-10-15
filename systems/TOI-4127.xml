@@ -1,0 +1,38 @@
+<system>
+	<name>TOI-4127</name>
+	<rightascension>07 01 37</rightascension>
+	<declination>+72 24 54</declination>
+	<distance errorminus="3.2830000" errorplus="3.3510000">319.6320000</distance>
+	<star>
+		<name>TOI-4127</name>
+		<radius errorminus="0.05" errorplus="0.05">1.29</radius>
+		<magV errorminus="0.0100000" errorplus="0.0100000">11.4410000</magV>
+		<magJ errorminus="0.0230000" errorplus="0.0230000">10.5380000</magJ>
+		<magH errorminus="0.0230000" errorplus="0.0230000">10.3080000</magH>
+		<magK errorminus="0.0160000" errorplus="0.0160000">10.2450000</magK>
+		<mass errorminus="0.07" errorplus="0.07">1.23</mass>
+		<temperature errorminus="115.00" errorplus="115.00">6096.00</temperature>
+		<metallicity errorminus="0.120" errorplus="0.120">0.140</metallicity>
+		<spectraltype>FV</spectraltype>
+		<planet>
+			<name>TOI-4127 b</name>
+			<semimajoraxis errorminus="0.005800" errorplus="0.005500">0.308100</semimajoraxis>
+			<eccentricity errorminus="0.008600" errorplus="0.007800">0.747100</eccentricity>
+			<periastron errorminus="2.0000" errorplus="2.0000">129.6000</periastron>
+			<inclination errorminus="0.600" errorplus="0.460">89.300</inclination>
+			<period errorminus="0.00010000" errorplus="0.00010000">56.39879000</period>
+			<description>This planet was discovered by Gupta et al. 2023. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.11000" errorplus="0.11000">2.30000</mass>
+			<radius errorminus="0.032" errorplus="0.039">1.096</radius>
+			<temperature errorminus="8.20000000000e+00" errorplus="9.60000000000e+00">6.05100000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.001000" errorplus="0.000960">2458862.728160</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Camelopardalis</constellation>
+</system>

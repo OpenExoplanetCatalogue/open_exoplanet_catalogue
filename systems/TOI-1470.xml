@@ -1,0 +1,55 @@
+<system>
+	<name>TOI-1470</name>
+	<rightascension>00 40 21</rightascension>
+	<declination>+61 12 48</declination>
+	<distance errorminus="0.0745000" errorplus="0.0745000">51.9503000</distance>
+	<star>
+		<name>TOI-1470</name>
+		<radius>0.47</radius>
+		<magV errorminus="0.0360000" errorplus="0.0360000">13.4590000</magV>
+		<magJ errorminus="0.0240000" errorplus="0.0240000">10.1540000</magJ>
+		<magH errorminus="0.0320000" errorplus="0.0320000">9.5140000</magH>
+		<magK errorminus="0.0200000" errorplus="0.0200000">9.2830000</magK>
+		<mass errorminus="0.01" errorplus="0.01">0.47</mass>
+		<temperature errorminus="11.00" errorplus="11.00">3709.00</temperature>
+		<metallicity errorminus="0.030" errorplus="0.030">0.000</metallicity>
+		<spectraltype>M1.5V</spectraltype>
+		<planet>
+			<name>TOI-1470 b</name>
+			<semimajoraxis errorminus="0.000400" errorplus="0.000400">0.028500</semimajoraxis>
+			<eccentricity>0.300000</eccentricity>
+			<inclination errorminus="0.120" errorplus="0.120">87.420</inclination>
+			<period errorminus="0.00000300" errorplus="0.00000400">2.52709300</period>
+			<description>This planet was discovered by González-Álvarez et al. 2023. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00390" errorplus="0.00381">0.02303</mass>
+			<radius errorminus="0.004" errorplus="0.004">0.194</radius>
+			<temperature>7.34000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.000600" errorplus="0.000600">2458766.470200</transittime>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>TOI-1470 c</name>
+			<semimajoraxis errorminus="0.001000" errorplus="0.001000">0.106000</semimajoraxis>
+			<eccentricity>0.500000</eccentricity>
+			<inclination errorminus="0.030" errorplus="0.030">89.470</inclination>
+			<period errorminus="0.00008000" errorplus="0.00006000">18.08816000</period>
+			<description>This planet was discovered by González-Álvarez et al. 2023. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00872" errorplus="0.00903">0.02278</mass>
+			<radius errorminus="0.002" errorplus="0.002">0.220</radius>
+			<temperature>3.73000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.002000" errorplus="0.003000">2458772.176000</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Cassiopeia</constellation>
+</system>

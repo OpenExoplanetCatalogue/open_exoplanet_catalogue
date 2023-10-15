@@ -1,0 +1,34 @@
+<system>
+	<name>TOI-5803</name>
+	<rightascension>21 48 60</rightascension>
+	<declination>+06 16 41</declination>
+	<distance errorminus="0.4468000" errorplus="0.4514000">84.0126000</distance>
+	<star>
+		<name>TOI-5803</name>
+		<radius errorminus="0.05" errorplus="0.05">0.76</radius>
+		<magV errorminus="0.0110000" errorplus="0.0110000">10.6550000</magV>
+		<magJ errorminus="0.0260000" errorplus="0.0260000">9.2180000</magJ>
+		<magH errorminus="0.0290000" errorplus="0.0290000">8.8020000</magH>
+		<magK errorminus="0.0210000" errorplus="0.0210000">8.6840000</magK>
+		<magI errorminus="0.0002951" errorplus="0.0002951">10.2944000</magI>
+		<mass errorminus="0.10" errorplus="0.10">0.87</mass>
+		<temperature errorminus="121.00" errorplus="121.00">5134.00</temperature>
+		<planet>
+			<name>TOI-5803 b</name>
+			<inclination errorminus="0.600" errorplus="0.480">89.300</inclination>
+			<period errorminus="0.00020000" errorplus="0.00020700">5.38305000</period>
+			<description>This planet was discovered by Mistry et al. 2023. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.03380</mass>
+			<radius errorminus="0.011" errorplus="0.011">0.292</radius>
+			<temperature>6.78870000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.000500" errorplus="0.000400">2459802.710300</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Pegasus</constellation>
+</system>

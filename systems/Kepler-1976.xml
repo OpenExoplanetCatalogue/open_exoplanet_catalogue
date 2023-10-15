@@ -1,0 +1,36 @@
+<system>
+	<name>Kepler-1976</name>
+	<rightascension>19 28 40</rightascension>
+	<declination>+48 43 39</declination>
+	<distance errorminus="41.8450000" errorplus="41.8450000">1314.5100000</distance>
+	<star>
+		<name>Kepler-1976</name>
+		<radius errorminus="0.13" errorplus="0.17">1.08</radius>
+		<magV errorminus="0.3200000" errorplus="0.3200000">15.4450000</magV>
+		<magJ errorminus="0.0310000" errorplus="0.0310000">14.1230000</magJ>
+		<magH errorminus="0.0380000" errorplus="0.0380000">13.8150000</magH>
+		<magK errorminus="0.0600000" errorplus="0.0600000">13.8050000</magK>
+		<magI>15.0690000</magI>
+		<mass errorminus="0.06" errorplus="0.07">0.98</mass>
+		<temperature errorminus="77.00" errorplus="77.00">5712.00</temperature>
+		<metallicity errorminus="0.150" errorplus="0.150">0.100</metallicity>
+		<planet>
+			<name>Kepler-1976 b</name>
+			<semimajoraxis>0.056500</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>86.150</inclination>
+			<period errorminus="0.00000052" errorplus="0.00000052">4.95931924</period>
+			<description>This planet was discovered by Wu et al. 2023. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<radius>1.043</radius>
+			<temperature>1.10300000000e+03</temperature>
+			<discoverymethod>timing</discoverymethod>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.000083" errorplus="0.000083">2455005.258529</transittime>
+			<istransiting>1</istransiting>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Cygnus</constellation>
+</system>

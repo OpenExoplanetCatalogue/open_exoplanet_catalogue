@@ -1,0 +1,34 @@
+<system>
+	<name>TOI-139</name>
+	<rightascension>22 25 37</rightascension>
+	<declination>-34 54 35</declination>
+	<distance errorminus="0.0762000" errorplus="0.0764000">42.4061000</distance>
+	<star>
+		<name>TOI-139</name>
+		<radius errorminus="0.06" errorplus="0.06">0.70</radius>
+		<magV errorminus="0.0300000" errorplus="0.0300000">10.5500000</magV>
+		<magJ errorminus="0.0320000" errorplus="0.0320000">8.3710000</magJ>
+		<magH errorminus="0.0340000" errorplus="0.0340000">7.7730000</magH>
+		<magK errorminus="0.0210000" errorplus="0.0210000">7.6400000</magK>
+		<mass errorminus="0.09" errorplus="0.09">0.69</mass>
+		<temperature errorminus="50.00" errorplus="50.00">4570.00</temperature>
+		<metallicity errorminus="0.080" errorplus="0.080">-0.238</metallicity>
+		<planet>
+			<name>TOI-139 b</name>
+			<inclination errorminus="0.650" errorplus="0.450">89.320</inclination>
+			<period errorminus="0.00003000" errorplus="0.00002400">11.07085000</period>
+			<description>This planet was discovered by Mistry et al. 2023. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.02080</mass>
+			<radius errorminus="0.011" errorplus="0.019">0.219</radius>
+			<temperature>5.61170000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.001000" errorplus="0.001000">2458334.890600</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Pisces Austrinus</constellation>
+</system>

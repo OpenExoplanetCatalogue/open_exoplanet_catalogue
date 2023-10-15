@@ -1,0 +1,47 @@
+<system>
+	<name>GJ 2030</name>
+	<rightascension>03 23 18</rightascension>
+	<declination>-07 47 42</declination>
+	<distance errorminus="0.0644000" errorplus="0.0647000">37.0788000</distance>
+	<star>
+		<name>GJ 2030</name>
+		<radius errorminus="0.09" errorplus="0.10">2.24</radius>
+		<magV errorminus="0.0230000" errorplus="0.0230000">6.2090200</magV>
+		<magJ errorminus="0.0170000" errorplus="0.0170000">4.9090000</magJ>
+		<magH errorminus="0.0760000" errorplus="0.0760000">4.5790000</magH>
+		<magK errorminus="0.0270000" errorplus="0.0270000">4.4170000</magK>
+		<mass errorminus="0.12" errorplus="0.12">0.96</mass>
+		<temperature errorminus="94.40" errorplus="103.90">5485.00</temperature>
+		<metallicity errorminus="0.100" errorplus="0.100">-0.400</metallicity>
+		<planet>
+			<name>GJ 2030 b</name>
+			<semimajoraxis errorminus="0.002000" errorplus="0.001000">0.034000</semimajoraxis>
+			<eccentricity errorminus="0.058000" errorplus="0.075000">0.239000</eccentricity>
+			<periastron errorminus="19.1430" errorplus="20.7560">196.7160</periastron>
+			<period errorminus="0.00013000" errorplus="0.00015000">2.38129000</period>
+			<description>This planet was discovered by Feng et al. 2022. This was a ground based discovery. The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00200" errorplus="0.00200">0.01500</mass>
+			<radius>0.181</radius>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+		</planet>
+		<planet>
+			<name>GJ 2030 c</name>
+			<semimajoraxis errorminus="1.337000" errorplus="1.294000">16.761000</semimajoraxis>
+			<eccentricity errorminus="0.008000" errorplus="0.003000">0.041000</eccentricity>
+			<periastron errorminus="63.4310" errorplus="64.4470">205.1260</periastron>
+			<inclination errorminus="2.535" errorplus="2.935">16.999</inclination>
+			<period errorminus="2322.57168000" errorplus="2549.01187000">25533.11353000</period>
+			<description>This planet was discovered by Feng et al. 2022. This was a ground based discovery. The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="2.13600" errorplus="2.33500">12.80300</mass>
+			<radius>1.100</radius>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+		</planet>
+	</star>
+	<constellation>Eridanus</constellation>
+</system>

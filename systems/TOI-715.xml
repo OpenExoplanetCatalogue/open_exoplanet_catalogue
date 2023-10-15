@@ -1,0 +1,36 @@
+<system>
+	<name>TOI-715</name>
+	<rightascension>07 35 25</rightascension>
+	<declination>-73 34 39</declination>
+	<distance errorminus="0.0854000" errorplus="0.0857000">42.4048000</distance>
+	<star>
+		<name>TOI-715</name>
+		<radius errorminus="0.01" errorplus="0.01">0.24</radius>
+		<magV errorminus="1.1330000" errorplus="1.1330000">16.6830000</magV>
+		<magJ errorminus="0.0240000" errorplus="0.0240000">11.8080000</magJ>
+		<magH errorminus="0.0260000" errorplus="0.0260000">11.2640000</magH>
+		<magK errorminus="0.0190000" errorplus="0.0190000">10.9170000</magK>
+		<mass errorminus="0.01" errorplus="0.01">0.23</mass>
+		<temperature errorminus="75.00" errorplus="75.00">3075.00</temperature>
+		<metallicity errorminus="0.250" errorplus="0.250">-0.250</metallicity>
+		<spectraltype>M4</spectraltype>
+		<planet>
+			<name>TOI-715 b</name>
+			<semimajoraxis errorminus="0.002700" errorplus="0.002700">0.083000</semimajoraxis>
+			<inclination errorminus="0.017" errorplus="0.018">89.856</inclination>
+			<period errorminus="0.00002400" errorplus="0.00002700">19.28800400</period>
+			<description>This planet was discovered by Dransfield et al. 2023. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.00951</mass>
+			<radius errorminus="0.006" errorplus="0.006">0.138</radius>
+			<temperature errorminus="1.20000000000e+01" errorplus="1.20000000000e+01">2.34000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.000740" errorplus="0.000700">2459002.630510</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Volans</constellation>
+</system>

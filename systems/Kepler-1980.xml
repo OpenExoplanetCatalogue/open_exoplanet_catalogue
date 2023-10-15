@@ -1,0 +1,37 @@
+<system>
+	<name>Kepler-1980</name>
+	<rightascension>19 40 40</rightascension>
+	<declination>+38 38 13</declination>
+	<distance errorminus="124.6000000" errorplus="145.4100000">1709.4000000</distance>
+	<star>
+		<name>Kepler-1980</name>
+		<radius errorminus="0.05" errorplus="0.16">0.99</radius>
+		<magV errorminus="0.0920000" errorplus="0.0920000">15.9060000</magV>
+		<magJ errorminus="0.0280000" errorplus="0.0280000">14.2840000</magJ>
+		<magH errorminus="0.0310000" errorplus="0.0310000">13.9140000</magH>
+		<magK errorminus="0.0520000" errorplus="0.0520000">13.8100000</magK>
+		<magI>15.3710000</magI>
+		<mass errorminus="0.07" errorplus="0.06">1.05</mass>
+		<temperature errorminus="87.00" errorplus="69.00">5819.00</temperature>
+		<metallicity errorminus="0.150" errorplus="0.150">0.140</metallicity>
+		<planet>
+			<name>Kepler-1980 b</name>
+			<semimajoraxis>0.204900</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.940</inclination>
+			<period errorminus="0.00061810" errorplus="0.00061810">33.02571790</period>
+			<description>This planet was discovered by Valizadegan et al. 2023. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.01740</mass>
+			<radius>0.254</radius>
+			<temperature>5.64000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.012300" errorplus="0.012300">2454994.010000</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Cygnus</constellation>
+</system>

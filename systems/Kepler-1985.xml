@@ -1,0 +1,36 @@
+<system>
+	<name>Kepler-1985</name>
+	<rightascension>19 34 16</rightascension>
+	<declination>+42 07 57</declination>
+	<star>
+		<name>Kepler-1985</name>
+		<radius errorminus="0.10" errorplus="0.11">0.97</radius>
+		<magV errorminus="0.2060000" errorplus="0.2060000">15.2230000</magV>
+		<magJ errorminus="0.0330000" errorplus="0.0330000">14.0680000</magJ>
+		<magH errorminus="0.0400000" errorplus="0.0400000">13.6700000</magH>
+		<magK errorminus="0.0430000" errorplus="0.0430000">13.5560000</magK>
+		<magI>15.1960000</magI>
+		<mass errorminus="0.04" errorplus="0.06">0.88</mass>
+		<temperature errorminus="75.00" errorplus="85.00">5370.00</temperature>
+		<metallicity errorminus="0.150" errorplus="0.150">0.140</metallicity>
+		<planet>
+			<name>Kepler-1985 b</name>
+			<semimajoraxis>0.042600</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>82.030</inclination>
+			<period errorminus="0.00001928" errorplus="0.00001928">3.42064689</period>
+			<description>This planet was discovered by Valizadegan et al. 2023. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.01820</mass>
+			<radius>0.198</radius>
+			<temperature>1.12900000000e+03</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.004870" errorplus="0.004870">2454965.306290</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Cygnus</constellation>
+</system>

@@ -1,0 +1,36 @@
+<system>
+	<name>TOI-2587 A</name>
+	<rightascension>07 43 44</rightascension>
+	<declination>-01 04 24</declination>
+	<distance errorminus="5.7720000" errorplus="5.9530000">373.6750000</distance>
+	<star>
+		<name>TOI-2587 A</name>
+		<radius errorminus="0.05" errorplus="0.05">1.73</radius>
+		<magV errorminus="0.0250000" errorplus="0.0250000">11.5440000</magV>
+		<magJ errorminus="0.0230000" errorplus="0.0230000">10.3540000</magJ>
+		<magH errorminus="0.0230000" errorplus="0.0230000">10.0790000</magH>
+		<magK errorminus="0.0230000" errorplus="0.0230000">9.9910000</magK>
+		<mass errorminus="0.07" errorplus="0.14">1.15</mass>
+		<temperature errorminus="79.00" errorplus="80.00">5760.00</temperature>
+		<metallicity errorminus="0.100" errorplus="0.090">0.130</metallicity>
+		<planet>
+			<name>TOI-2587 A b</name>
+			<semimajoraxis errorminus="0.001300" errorplus="0.002500">0.063500</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination errorminus="0.400" errorplus="0.490">84.810</inclination>
+			<period errorminus="0.00001100" errorplus="0.00001100">5.45664000</period>
+			<description>This planet was discovered by Yee et al. 2023. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.04600" errorplus="0.05400">0.21800</mass>
+			<radius errorminus="0.040" errorplus="0.042">1.077</radius>
+			<temperature errorminus="2.60000000000e+01" errorplus="2.30000000000e+01">1.44500000000e+03</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.000760" errorplus="0.000760">2458950.092420</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Monoceros</constellation>
+</system>

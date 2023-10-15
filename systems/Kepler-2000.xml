@@ -1,0 +1,55 @@
+<system>
+	<name>Kepler-2000</name>
+	<rightascension>19 02 18</rightascension>
+	<declination>+49 57 44</declination>
+	<distance errorminus="3.6510000" errorplus="3.6510000">320.5880000</distance>
+	<star>
+		<name>Kepler-2000</name>
+		<radius errorminus="0.04" errorplus="0.02">0.58</radius>
+		<magV errorminus="0.4230000" errorplus="0.4230000">15.6420000</magV>
+		<magJ errorminus="0.0350000" errorplus="0.0350000">13.0890000</magJ>
+		<magH errorminus="0.0410000" errorplus="0.0410000">12.3990000</magH>
+		<magK errorminus="0.0370000" errorplus="0.0370000">12.2900000</magK>
+		<magI>14.6670000</magI>
+		<mass errorminus="0.03" errorplus="0.03">0.58</mass>
+		<temperature errorminus="82.00" errorplus="74.00">3757.00</temperature>
+		<metallicity errorminus="0.150" errorplus="0.050">0.480</metallicity>
+		<planet>
+			<name>Kepler-2000 b</name>
+			<semimajoraxis>0.056200</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.610</inclination>
+			<period errorminus="0.00000640" errorplus="0.00000640">6.38315913</period>
+			<description>This planet was discovered by Valizadegan et al. 2023. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.02490</mass>
+			<radius>0.296</radius>
+			<temperature>5.30000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.000744" errorplus="0.000744">2455003.604622</transittime>
+			<new>1</new>
+		</planet>
+		<planet>
+			<name>Kepler-2000 c</name>
+			<semimajoraxis>0.122800</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.820</inclination>
+			<period errorminus="0.00013820" errorplus="0.00013820">20.61803480</period>
+			<description>This planet was discovered by Valizadegan et al. 2023. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.00972</mass>
+			<radius>0.196</radius>
+			<temperature>3.59000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.004640" errorplus="0.004640">2454978.512320</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Draco</constellation>
+</system>

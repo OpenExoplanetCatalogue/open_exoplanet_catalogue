@@ -1,0 +1,41 @@
+<system>
+	<name>TOI-1416</name>
+	<name>HIP 70705</name>
+	<rightascension>14 27 42</rightascension>
+	<declination>+41 57 11</declination>
+	<distance errorminus="0.0772000" errorplus="0.0775000">55.0135000</distance>
+	<star>
+		<name>TOI-1416</name>
+		<name>HIP 70705</name>
+		<radius errorminus="0.03" errorplus="0.04">0.79</radius>
+		<magV errorminus="0.0300000" errorplus="0.0300000">9.9100000</magV>
+		<magJ errorminus="0.0240000" errorplus="0.0240000">8.2660000</magJ>
+		<magH errorminus="0.0170000" errorplus="0.0170000">7.8150000</magH>
+		<magK errorminus="0.0240000" errorplus="0.0240000">7.7080000</magK>
+		<magI errorminus="0.0008539" errorplus="0.0008539">9.4452200</magI>
+		<mass errorminus="0.04" errorplus="0.04">0.80</mass>
+		<temperature errorminus="70.00" errorplus="70.00">4884.00</temperature>
+		<metallicity errorminus="0.050" errorplus="0.050">0.080</metallicity>
+		<spectraltype>G9V</spectraltype>
+		<planet>
+			<name>TOI-1416 b</name>
+			<name>HIP 70705 b</name>
+			<semimajoraxis errorminus="0.000300" errorplus="0.000300">0.019000</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination errorminus="1.400" errorplus="1.700">85.700</inclination>
+			<period errorminus="0.00000280" errorplus="0.00000280">1.06975680</period>
+			<description>This planet was discovered by Deeg et al. 2023. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00148" errorplus="0.00148">0.01095</mass>
+			<radius errorminus="0.007" errorplus="0.007">0.145</radius>
+			<temperature errorminus="3.90000000000e+01" errorplus="3.90000000000e+01">1.51700000000e+03</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.000800" errorplus="0.000800">2458739.462100</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Boötes</constellation>
+</system>

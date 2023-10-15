@@ -1,0 +1,33 @@
+<system>
+	<name>HD 457</name>
+	<rightascension>00 08 60</rightascension>
+	<declination>-39 44 14</declination>
+	<distance errorminus="0.1317000" errorplus="0.1324000">55.0375000</distance>
+	<star>
+		<name>HD 457</name>
+		<radius errorminus="0.05" errorplus="0.06">1.28</radius>
+		<magV errorminus="0.0300000" errorplus="0.0300000">7.7200000</magV>
+		<magJ errorminus="0.0210000" errorplus="0.0210000">6.6690000</magJ>
+		<magH errorminus="0.0290000" errorplus="0.0290000">6.4140000</magH>
+		<magK errorminus="0.0210000" errorplus="0.0210000">6.3380000</magK>
+		<mass errorminus="0.15" errorplus="0.15">1.15</mass>
+		<temperature errorminus="101.15" errorplus="126.94">6114.04</temperature>
+		<metallicity errorminus="0.050" errorplus="0.050">0.340</metallicity>
+		<planet>
+			<name>HD 457 b</name>
+			<semimajoraxis errorminus="3.797000" errorplus="5.561000">15.369000</semimajoraxis>
+			<eccentricity errorminus="0.245000" errorplus="0.195000">0.565000</eccentricity>
+			<periastron errorminus="13.9870" errorplus="23.5560">240.3180</periastron>
+			<inclination errorminus="14.309" errorplus="39.544">62.585</inclination>
+			<period errorminus="7039.20037000" errorplus="11483.95545000">20324.58153000</period>
+			<description>This planet was discovered by Feng et al. 2022. This was a ground based discovery. The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="11.95200" errorplus="18.72800">26.57200</mass>
+			<radius>1.070</radius>
+			<discoverymethod>RV</discoverymethod>
+			<discoveryyear>2022</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+		</planet>
+	</star>
+	<constellation>Phoenix</constellation>
+</system>

@@ -1,0 +1,38 @@
+<system>
+	<name>TOI-733</name>
+	<rightascension>10 37 38</rightascension>
+	<declination>-40 53 18</declination>
+	<distance errorminus="0.1756000" errorplus="0.1764000">75.2092000</distance>
+	<star>
+		<name>TOI-733</name>
+		<radius errorminus="0.01" errorplus="0.01">0.95</radius>
+		<magV errorminus="0.0030000" errorplus="0.0030000">9.4400000</magV>
+		<magJ errorminus="0.0260000" errorplus="0.0260000">8.2200000</magJ>
+		<magH errorminus="0.0400000" errorplus="0.0400000">7.9430000</magH>
+		<magK errorminus="0.0240000" errorplus="0.0240000">7.8450000</magK>
+		<mass errorminus="0.03" errorplus="0.05">0.96</mass>
+		<temperature errorminus="60.00" errorplus="60.00">5585.00</temperature>
+		<metallicity errorminus="0.050" errorplus="0.050">-0.040</metallicity>
+		<spectraltype>G</spectraltype>
+		<planet>
+			<name>TOI-733 b</name>
+			<semimajoraxis errorminus="0.003900" errorplus="0.003600">0.061800</semimajoraxis>
+			<eccentricity errorminus="0.033000" errorplus="0.056000">0.046000</eccentricity>
+			<periastron errorminus="68.1000" errorplus="158.9000">-53.2000</periastron>
+			<inclination errorminus="0.820" errorplus="0.770">88.850</inclination>
+			<period errorminus="0.00002400" errorplus="0.00001900">4.88476500</period>
+			<description>This planet was discovered by Georgieva et al. 2023. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00214" errorplus="0.00220">0.01800</mass>
+			<radius errorminus="0.008" errorplus="0.008">0.178</radius>
+			<temperature errorminus="3.13000000000e+01" errorplus="3.62000000000e+01">1.05580000000e+03</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.002300" errorplus="0.003100">2458545.776700</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Vela</constellation>
+</system>

@@ -1,0 +1,37 @@
+<system>
+	<name>Kepler-1986</name>
+	<rightascension>19 31 50</rightascension>
+	<declination>+42 51 18</declination>
+	<distance errorminus="30.4555000" errorplus="30.4555000">912.0850000</distance>
+	<star>
+		<name>Kepler-1986</name>
+		<radius errorminus="0.06" errorplus="0.14">0.73</radius>
+		<magV errorminus="0.1950000" errorplus="0.1950000">15.6610000</magV>
+		<magJ errorminus="0.0300000" errorplus="0.0300000">14.3860000</magJ>
+		<magH errorminus="0.0490000" errorplus="0.0490000">13.9140000</magH>
+		<magK errorminus="0.0570000" errorplus="0.0570000">13.9080000</magK>
+		<magI>15.4610000</magI>
+		<mass errorminus="0.07" errorplus="0.09">0.78</mass>
+		<temperature errorminus="163.00" errorplus="163.00">5549.00</temperature>
+		<metallicity errorminus="0.300" errorplus="0.300">-0.540</metallicity>
+		<planet>
+			<name>Kepler-1986 b</name>
+			<semimajoraxis>0.130700</semimajoraxis>
+			<eccentricity>0.000000</eccentricity>
+			<inclination>89.050</inclination>
+			<period errorminus="0.00013960" errorplus="0.00013960">19.54896660</period>
+			<description>This planet was discovered by Valizadegan et al. 2023. The discovery was made with a space based telescope (0.95 m Kepler Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass>0.01330</mass>
+			<radius>0.263</radius>
+			<temperature>5.79000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.004320" errorplus="0.004320">2454982.788820</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Cygnus</constellation>
+</system>

@@ -1,0 +1,36 @@
+<system>
+	<name>TOI-244</name>
+	<rightascension>00 42 17</rightascension>
+	<declination>-36 43 05</declination>
+	<distance errorminus="0.0333000" errorplus="0.0334000">22.0337000</distance>
+	<star>
+		<name>TOI-244</name>
+		<radius errorminus="0.03" errorplus="0.03">0.43</radius>
+		<magV errorminus="0.0690000" errorplus="0.0690000">12.8610000</magV>
+		<magJ errorminus="0.0230000" errorplus="0.0230000">8.8270000</magJ>
+		<magH errorminus="0.0330000" errorplus="0.0330000">8.2510000</magH>
+		<magK errorminus="0.0290000" errorplus="0.0290000">7.9700000</magK>
+		<mass errorminus="0.03" errorplus="0.03">0.43</mass>
+		<temperature errorminus="100.00" errorplus="100.00">3433.00</temperature>
+		<metallicity errorminus="0.070" errorplus="0.070">-0.390</metallicity>
+		<spectraltype>M2.5V</spectraltype>
+		<planet>
+			<name>TOI-244 b</name>
+			<semimajoraxis errorminus="0.001300" errorplus="0.001300">0.055900</semimajoraxis>
+			<inclination errorminus="0.160" errorplus="0.160">88.320</inclination>
+			<period errorminus="0.00002300" errorplus="0.00002600">7.39722500</period>
+			<description>This planet was discovered by Oddo et al. 2023. The discovery was made with a space based telescope (0.1 m TESS Telescope). The parameters listed here have been imported into the Open Exoplanet Catalogue from the NASA Exoplanet Archive.</description>
+			<mass errorminus="0.00094" errorplus="0.00094">0.00843</mass>
+			<radius errorminus="0.011" errorplus="0.011">0.136</radius>
+			<temperature errorminus="2.00000000000e+01" errorplus="2.00000000000e+01">4.58000000000e+02</temperature>
+			<discoverymethod>transit</discoverymethod>
+			<istransiting>1</istransiting>
+			<discoveryyear>2023</discoveryyear>
+			<list>Confirmed planets</list>
+			<lastupdate>23/10/15</lastupdate>
+			<transittime errorminus="0.002000" errorplus="0.002000">2458357.362700</transittime>
+			<new>1</new>
+		</planet>
+	</star>
+	<constellation>Sculptor</constellation>
+</system>
