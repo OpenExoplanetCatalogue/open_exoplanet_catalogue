@@ -262,11 +262,11 @@ def checkonefile(filename, printerrors = True):
     global xmlerrors
     global fileschanged
     # Save md5 for later
-    f = open(filename, 'rt')
+    f = open(filename, 'rt', encoding='utf-8')
     md5_orig = md5_for_file(f)
 
     # Open file
-    f = open(filename, 'rt')
+    f = open(filename, 'rt', encoding='utf-8')
 
     # Try to parse file
     try:
@@ -471,7 +471,7 @@ def checkonefile(filename, printerrors = True):
         ET.ElementTree(root).write(outfile, encoding="UTF-8", xml_declaration=False)
 
     # Check for new md5
-    f = open(filename, 'rt')
+    f = open(filename, 'rt', encoding='utf-8')
     md5_new = md5_for_file(f)
     if md5_orig != md5_new:
         fileschanged += 1
@@ -511,7 +511,7 @@ if __name__=="__main__":
     if len(sys.argv)>1:
         statisticsfile = "statistics_"+sys.argv[1].replace("systems_","")+".json"
 
-    with open(statisticsfile,"w") as outfile:
+    with open(statisticsfile,"w", encoding='utf-8') as outfile:
         json.dump(statistics,outfile, indent=4, sort_keys=True)
 
     print("Cleanup script finished. %d files checked." % fileschecked)
