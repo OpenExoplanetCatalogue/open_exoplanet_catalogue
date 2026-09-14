@@ -91,7 +91,7 @@ class MyHTMLParser(HTMLParser):#HTML parser to get the information from the webp
 
     def handle_data(self, data):
         global data2, boolean, section, inname, dictio_distance, dictio_coord, dictio_spectral
-        if section=="mag" and re.findall("[A-Z] +\d*\.?\d*? *\[+.+\]", data):#Search magnitude
+        if section=="mag" and re.findall("[A-Z] +\\d*\\.?\\d*? *\\[+.+\\]", data):#Search magnitude
             data2 = data
             data2 = data2.replace("\n", "").replace(" ","")
             boolean = 1
@@ -99,7 +99,7 @@ class MyHTMLParser(HTMLParser):#HTML parser to get the information from the webp
             data2 = data2+data
             data2 = data2.replace("\n", "").replace("\"", "").strip()
             boolean = 1
-        if re.findall("Identifiers \(\d+\) :", data):
+        if re.findall("Identifiers \\(\\d+\\) :", data):
             section = "identifiers"
             data2 = ""
         if re.findall("Spectral type:", data):
@@ -218,12 +218,12 @@ for line in lines:#read all the list of systems and run the parser class and the
         for key in dictio_mags:#concatenate magnitudes in the string from XML
             expr = key
             if not "[~]" in expr:
-                sigma = re.findall('\[+.+\]', expr)
+                sigma = re.findall('\\[+.+\\]', expr)
                 sigma = str(sigma[0].replace('[','').replace(']',''))
             else:
                 sigma = ""
 
-            expr = re.sub('\[+.+\]', '', expr)#Remove uncertainty from string
+            expr = re.sub('\\[+.+\\]', '', expr)#Remove uncertainty from string
 
             expr2 = re.sub('[A-Z]', '', expr)#Remove letters from string, just mag left.
             magletters = ["J", "H","K","V","B","R","I"]
